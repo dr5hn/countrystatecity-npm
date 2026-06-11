@@ -1,10 +1,17 @@
 # Changelog
 
+## 1.0.6
+
+### Patch Changes
+
+- d3b5b54: Fix timezone convertTime returning incorrect originalTime and convertedTime in non-UTC environments. Migrate packages into unified monorepo with shared CI/CD pipeline, automated weekly data updates, and Changesets-based releases.
+
 All notable changes to `@countrystatecity/countries-browser` will be documented in this file.
 
 ## [1.0.0] - 2026-03-28
 
 ### Added
+
 - Initial release — browser-native alternative to `@countrystatecity/countries`
 - Same API as server package (8 data functions + 7 utility functions)
 - fetch + jsDelivr CDN for data loading (no Node.js dependencies)

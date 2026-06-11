@@ -1,10 +1,17 @@
 # Changelog
 
+## 1.0.6
+
+### Patch Changes
+
+- d3b5b54: Fix timezone convertTime returning incorrect originalTime and convertedTime in non-UTC environments. Migrate packages into unified monorepo with shared CI/CD pipeline, automated weekly data updates, and Changesets-based releases.
+
 All notable changes to `@countrystatecity/countries` will be documented in this file.
 
 ## [1.0.5] - 2025-12-30
 
 ### Added
+
 - Initial public release as standalone package (extracted from monorepo)
 - 250+ countries, 5,000+ states, 150,000+ cities
 - Lazy-loaded data with dynamic imports
@@ -17,9 +24,11 @@ All notable changes to `@countrystatecity/countries` will be documented in this 
 - CI/CD with automated npm publishing
 
 ### Fixed
+
 - Warn instead of silently returning null in browser environments
 - Data download URL updated to use GitHub Releases
 
 ### Changed
+
 - Auto-bump patch version on data updates for automatic publishing
 - Standardized README structure across ecosystem
