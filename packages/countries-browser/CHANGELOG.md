@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated data from countries-states-cities-database
+
+
 All notable changes to `@countrystatecity/countries-browser` will be documented in this file.
 
 ## [1.0.0] - 2026-03-28

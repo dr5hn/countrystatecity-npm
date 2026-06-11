@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.6
+
+### Patch Changes
+
+- Updated data from countries-states-cities-database
+
+
 All notable changes to `@countrystatecity/countries` will be documented in this file.
 
 ## [1.0.5] - 2025-12-30
