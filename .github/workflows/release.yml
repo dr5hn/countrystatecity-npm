@@ -1,54 +1,80 @@
 name: Release
 
 on:
-  workflow_run:
-    workflows: ["Pipeline"]
-    types: [completed]
+  # Auto-trigger when an automated data-update PR is merged
+  pull_request:
+    types: [closed]
     branches: [main]
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # Manual trigger for code-change releases
+  workflow_dispatch:
 
 jobs:
   release:
-    name: Release Packages
-    if: github.event.workflow_run.conclusion == 'success'
+    name: Bump Versions & Update Changelogs
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       contains(github.event.pull_request.labels.*.name, 'data-update'))
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
-      id-token: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'pnpm'
-          registry-url: 'https://registry.npmjs.org'
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build all packages
-        run: pnpm turbo run build
+      - name: Bump patch versions
+        id: bump
+        run: |
+          node -e "
+            const fs = require('fs');
+            const packages = ['countries', 'countries-browser', 'timezones', 'currencies', 'translations'];
+            for (const pkg of packages) {
+              const path = \`packages/\${pkg}/package.json\`;
+              const json = JSON.parse(fs.readFileSync(path, 'utf-8'));
+              const [major, minor, patch] = json.version.split('.').map(Number);
+              const oldVersion = json.version;
+              json.version = \`\${major}.\${minor}.\${patch + 1}\`;
+              fs.writeFileSync(path, JSON.stringify(json, null, 2) + '\n');
+              console.log(\`\${json.name}: \${oldVersion} → \${json.version}\`);
+            }
+          "
 
-      - name: Create Release PR or Publish
-        uses: changesets/action@v1
-        with:
-          publish: pnpm release
-          title: '🚀 Release packages'
-          commit: 'chore: release packages'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Update CHANGELOGs
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          for pkg in countries countries-browser timezones currencies translations; do
+            VERSION=$(node -p "require('./packages/$pkg/package.json').version")
+            NAME=$(node -p "require('./packages/$pkg/package.json').name")
+            CHANGELOG="packages/$pkg/CHANGELOG.md"
+            ENTRY="## $VERSION\n\n### Patch Changes\n\n- Updated data from countries-states-cities-database\n\n"
+            if [ -f "$CHANGELOG" ]; then
+              TMP=$(mktemp)
+              head -1 "$CHANGELOG" > "$TMP"
+              printf "\n$ENTRY" >> "$TMP"
+              tail -n +2 "$CHANGELOG" >> "$TMP"
+              mv "$TMP" "$CHANGELOG"
+            else
+              printf "# $NAME\n\n$ENTRY" > "$CHANGELOG"
+            fi
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packages/*/package.json packages/*/CHANGELOG.md
+          git commit -m "chore: release packages"
+          git push

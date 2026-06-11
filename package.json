@@ -11,13 +11,9 @@
     "generate-data": "node scripts/generate-all.cjs",
     "update-data": "pnpm fetch-database && pnpm generate-data && pnpm build",
     "lint": "turbo run lint",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build && changeset publish"
+    "clean": "turbo run clean && rm -rf node_modules"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.7",
     "@types/node": "^20.0.0",
     "turbo": "^2.9.14",
     "typescript": "^5.5.4",
