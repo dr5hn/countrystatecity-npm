@@ -211,30 +211,47 @@ npm run typecheck  # type check
 typecheck → build → test
 ```
 
+Validates code on every change. No publish.
+
+---
+
 ### Every Sunday at 00:00 UTC (or manual trigger)
 
-**`ci.yml`** — validate and open PR:
+#### If data has NOT changed
+
 ```
-fetch-data → generate-data → typecheck → build → test → open-pr
+fetch-data → generate-data → typecheck → build → test
 ```
 
-- **fetch-data**: Downloads the latest release from [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)
-- **generate-data**: Splits the source JSON into per-package data files
-- **open-pr**: Opens an "Automated Data Update" PR (labelled `data-update`) if data changed — review and merge when ready
+CI validates everything and stops. No PR is opened, nothing is published.
 
-**`release.yml`** — triggered automatically when the data-update PR is merged:
+#### If data HAS changed
+
+**Step 1 — `ci.yml`** fetches, validates, and opens a PR:
+
 ```
-bump patch versions → update CHANGELOGs → commit to main
+fetch-data → generate-data → typecheck → build → test → open PR
 ```
 
-**`publish.yml`** — triggered automatically when the version-bump commit lands on `main`:
+A pull request titled **"Automated Data Update"** is opened with the `data-update` label. Review the data diff and merge when ready.
+
+**Step 2 — `release.yml`** fires automatically when the PR is merged:
+
+```
+bump all package versions (patch) → update CHANGELOGs → commit to main
+```
+
+**Step 3 — `publish.yml`** fires automatically when the version commit lands on `main`:
+
 ```
 build all packages → publish to npm → create GitHub releases
 ```
 
+---
+
 ### Manual release (code-only changes)
 
-Trigger **Release** via `workflow_dispatch` on GitHub → then **Publish** fires automatically.
+Go to **Actions → Release → Run workflow** on GitHub. Once `release.yml` commits the version bump, `publish.yml` fires automatically.
 
 ---
 
