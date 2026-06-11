@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.7
+
+### Patch Changes
+
+- Fix repository and homepage URLs to point to monorepo
+
+
 ## 1.0.6
 
 ### Patch Changes
