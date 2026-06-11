@@ -1,0 +1,64 @@
+{
+  "name": "@countrystatecity/currencies",
+  "version": "1.0.1",
+  "description": "Comprehensive world currency data with ISO 4217 codes, symbols, and country mappings",
+  "keywords": [
+    "country-state-city",
+    "currencies",
+    "currency",
+    "iso-4217",
+    "money",
+    "exchange",
+    "symbol",
+    "typescript",
+    "lazy-loading"
+  ],
+  "author": "dr5hn",
+  "license": "ODbL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr5hn/countrystatecity-currencies.git"
+  },
+  "homepage": "https://github.com/dr5hn/countrystatecity-currencies#readme",
+  "bugs": {
+    "url": "https://github.com/dr5hn/countrystatecity-currencies/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./data/*": "./dist/data/*"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:compat": "vitest run compatibility",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

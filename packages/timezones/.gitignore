@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Testing
+coverage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+
+# NextJS integration test
+tests/nextjs-integration/.next/
+tests/nextjs-integration/out/
+tests/nextjs-integration/next-env.d.ts
+
+# Vite integration test
+tests/vite-integration/dist/
+tests/vite-integration/node_modules/

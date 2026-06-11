@@ -1,0 +1,106 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'   # every Sunday at 00:00 UTC
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update-data:
+    name: Update Translation Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download latest data
+        run: |
+          curl -L "https://github.com/dr5hn/countries-states-cities-database/releases/latest/download/json-countries%2Bstates%2Bcities.json.gz" \
+            -o /tmp/countries-data.json.gz
+          gunzip /tmp/countries-data.json.gz
+          echo "Downloaded data size:"
+          ls -lh /tmp/countries-data.json
+
+      - name: Backup current stats
+        run: |
+          echo "Countries before: $(grep -c '"iso2"' src/data/translations.json)"
+
+      - name: Generate translation data
+        run: node scripts/generate-data.cjs /tmp/countries-data.json
+
+      - name: Build and test
+        run: |
+          npm run build
+          npm test
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --name-only -- src/data | grep -q .; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Data changes detected"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes detected"
+          fi
+
+      - name: Collect stats
+        id: stats
+        run: |
+          COUNT=$(grep -c '"iso2"' src/data/translations.json)
+          LOCALES=$(node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('./src/data/translations.json','utf8')); console.log(Object.keys(d[0].translations).length)")
+          echo "countries=$COUNT" >> $GITHUB_OUTPUT
+          echo "locales=$LOCALES" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update translation data'
+          title: '🔄 Automated Translation Data Update'
+          body: |
+            ## Automated Translation Data Update
+
+            Latest country translation data from [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database).
+
+            ### Statistics
+            - Total countries: ${{ steps.stats.outputs.countries }}
+            - Total locales: ${{ steps.stats.outputs.locales }}
+
+            ### Changes
+            - Downloaded latest dataset from source repository
+            - Regenerated translations.json
+            - All tests passing ✅
+
+            This is an automated pull request. Please review before merging.
+          branch: automated-data-update
+          delete-branch: true
+          labels: |
+            automated
+            data-update
+
+      - name: No changes detected
+        if: steps.check-changes.outputs.changed == 'false'
+        run: echo "✅ Data is already up to date. No PR created."

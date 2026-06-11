@@ -1,0 +1,34 @@
+# Source files
+src/
+scripts/
+tests/
+
+# Config files
+*.config.ts
+*.config.js
+*.config.cjs
+*.config.mjs
+tsconfig*.json
+.eslintrc*
+.prettierrc*
+vitest.config.ts
+tsup.config.ts
+
+# Development
+node_modules/
+.git/
+.github/
+*.log
+*.lock
+package-lock.json
+coverage/
+.DS_Store
+*.tsbuildinfo
+
+# Documentation (development only)
+CONTRIBUTING.md
+.gitignore
+.npmignore
+
+# Keep only dist in published package
+!dist/

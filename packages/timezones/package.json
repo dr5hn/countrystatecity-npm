@@ -1,0 +1,75 @@
+{
+  "name": "@countrystatecity/timezones",
+  "version": "1.0.5",
+  "description": "Comprehensive timezone data with conversion utilities and iOS/Safari support",
+  "keywords": [
+    "country-state-city",
+    "countries states cities",
+    "countries states cities database",
+    "country state city",
+    "country state city database",
+    "geolocation",
+    "country",
+    "state",
+    "city",
+    "location",
+    "geography",
+    "iso",
+    "typescript",
+    "ios-compatible",
+    "timezone",
+    "translations",
+    "lazy-loading"
+  ],
+  "author": "dr5hn",
+  "license": "ODbL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr5hn/countrystatecity-timezones.git"
+  },
+  "homepage": "https://github.com/dr5hn/countrystatecity-timezones#readme",
+  "bugs": {
+    "url": "https://github.com/dr5hn/countrystatecity-timezones/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./data/*": "./dist/data/*"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ios": "vitest run compatibility",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "generate-data": "node scripts/generate-data.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.19",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

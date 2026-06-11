@@ -1,0 +1,307 @@
+name: Pipeline
+
+# ─────────────────────────────────────────────────────────────────────────────
+# TRIGGERS
+#   push / pull_request  → regular CI  (stages 3-5 only)
+#   schedule / dispatch  → data update + CI + PR creation  (all stages)
+# ─────────────────────────────────────────────────────────────────────────────
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * 0'   # every Sunday at 00:00 UTC
+  workflow_dispatch:
+    inputs:
+      force_pr:
+        description: 'Open PR even if data has not changed'
+        type: boolean
+        default: false
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 1 — FETCH DATA  (schedule / workflow_dispatch only)
+  # ───────────────────────────────────────────────────────────────────────────
+  fetch-data:
+    name: Fetch Upstream Data
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Download latest countries-states-cities database
+        run: pnpm fetch-database
+
+      - name: Upload raw source data
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-data
+          path: data/source.json
+          retention-days: 1
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 2 — GENERATE DATA  (after fetch-data)
+  # ───────────────────────────────────────────────────────────────────────────
+  generate-data:
+    name: Generate Package Data
+    needs: fetch-data
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
+      countries: ${{ steps.stats.outputs.countries }}
+      timezones: ${{ steps.stats.outputs.timezones }}
+      currencies: ${{ steps.stats.outputs.currencies }}
+      translations: ${{ steps.stats.outputs.translations }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Restore raw source data
+        uses: actions/download-artifact@v4
+        with:
+          name: source-data
+          path: data/
+
+      - name: Generate data for all packages
+        run: pnpm generate-data
+
+      - name: Collect statistics
+        id: stats
+        run: |
+          echo "countries=$(grep -o '"id"' packages/countries/src/data/countries.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+          echo "timezones=$(grep -o '"zoneName"' packages/timezones/src/data/timezones.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+          echo "currencies=$(grep -o '"code"' packages/currencies/src/data/currencies.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+          echo "translations=$(grep -o '"iso2"' packages/translations/src/data/translations.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+
+      - name: Detect data changes
+        id: check
+        run: |
+          if git diff --name-only -- 'packages/*/src/data' | grep -q .; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git diff --stat -- 'packages/*/src/data'
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes — data is already up to date."
+          fi
+
+      - name: Upload generated data
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-data
+          path: packages/*/src/data
+          retention-days: 1
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 3 — TYPECHECK  (always; waits for generate-data when it ran)
+  # ───────────────────────────────────────────────────────────────────────────
+  typecheck:
+    name: Typecheck
+    needs: [generate-data]
+    if: >-
+      always() &&
+      (needs.generate-data.result == 'success' ||
+       needs.generate-data.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-data
+          path: packages/
+        continue-on-error: true
+
+      - name: Typecheck all packages
+        run: pnpm turbo run typecheck
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 4 — BUILD
+  # ───────────────────────────────────────────────────────────────────────────
+  build:
+    name: Build
+    needs: [generate-data, typecheck]
+    if: always() && needs.typecheck.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-data
+          path: packages/
+        continue-on-error: true
+
+      - name: Build all packages
+        run: pnpm turbo run build
+
+      - name: Bundle sizes
+        run: |
+          echo "=== Bundle Sizes ==="
+          for pkg in countries countries-browser timezones currencies translations; do
+            echo "── $pkg ──"
+            du -sh packages/$pkg/dist/index.js 2>/dev/null || true
+            du -sh packages/$pkg/dist/index.cjs 2>/dev/null || true
+          done
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-packages
+          path: packages/*/dist
+          retention-days: 1
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 5 — TEST
+  # ───────────────────────────────────────────────────────────────────────────
+  test:
+    name: Test
+    needs: [generate-data, build]
+    if: always() && needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-data
+          path: packages/
+        continue-on-error: true
+
+      - name: Run all tests
+        run: pnpm turbo run test
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # STAGE 6 — OPEN DATA UPDATE PR
+  #   Only runs when: data was generated + tests passed + data changed (or forced)
+  # ───────────────────────────────────────────────────────────────────────────
+  open-pr:
+    name: Open Data Update PR
+    needs: [generate-data, test]
+    if: >-
+      always() &&
+      needs.generate-data.result == 'success' &&
+      needs.test.result == 'success' &&
+      (needs.generate-data.outputs.changed == 'true' ||
+       github.event.inputs.force_pr == 'true')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore generated data
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-data
+          path: packages/
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update data from countries-states-cities-database'
+          title: '🔄 Automated Data Update'
+          body: |
+            ## Automated Data Update
+
+            Latest data from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database).
+
+            ### Statistics
+            | Package | Count |
+            |---|---|
+            | Countries | ${{ needs.generate-data.outputs.countries }} |
+            | Timezones | ${{ needs.generate-data.outputs.timezones }} |
+            | Currencies | ${{ needs.generate-data.outputs.currencies }} |
+            | Translations | ${{ needs.generate-data.outputs.translations }} |
+
+            ### Verification
+            - ✅ Data fetched and generated
+            - ✅ All packages built successfully
+            - ✅ All tests passing
+
+            > Review the data diff before merging.
+          branch: automated-data-update
+          delete-branch: true
+          labels: |
+            automated
+            data-update
