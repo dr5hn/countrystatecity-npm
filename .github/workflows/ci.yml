@@ -2,8 +2,8 @@ name: Pipeline
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TRIGGERS
-#   push / pull_request  → stages 2-5 (generate from git source.json + CI)
-#   schedule / dispatch  → all stages (fetch fresh data + CI + PR)
+#   push / pull_request  → regular CI  (stages 3-5 only)
+#   schedule / dispatch  → data update + CI + PR creation  (all stages)
 # ─────────────────────────────────────────────────────────────────────────────
 on:
   push:
@@ -27,8 +27,6 @@ jobs:
 
   # ───────────────────────────────────────────────────────────────────────────
   # STAGE 1 — FETCH DATA  (schedule / workflow_dispatch only)
-  #   Downloads the latest upstream database and uploads it as an artifact.
-  #   On push/PR this job is skipped; generate-data uses source.json from git.
   # ───────────────────────────────────────────────────────────────────────────
   fetch-data:
     name: Fetch Upstream Data
@@ -58,17 +56,11 @@ jobs:
           retention-days: 1
 
   # ───────────────────────────────────────────────────────────────────────────
-  # STAGE 2 — GENERATE DATA  (always runs)
-  #   On push/PR:        uses source.json committed in git; hits cache most runs.
-  #   On schedule/dispatch: downloads fresh source.json artifact; cache likely misses.
+  # STAGE 2 — GENERATE DATA  (schedule / workflow_dispatch only)
   # ───────────────────────────────────────────────────────────────────────────
   generate-data:
     name: Generate Package Data
     needs: fetch-data
-    if: >-
-      always() &&
-      (needs.fetch-data.result == 'success' ||
-       needs.fetch-data.result == 'skipped')
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.check.outputs.changed }}
@@ -89,40 +81,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Restore fresh source data
-        if: needs.fetch-data.result == 'success'
+      - name: Restore raw source data
         uses: actions/download-artifact@v4
         with:
           name: source-data
           path: data/
         continue-on-error: true
 
-      - name: Detect data changes
-        id: check
-        run: |
-          if git status --porcelain -- data/source.json | grep -q .; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Source data has changed:"
-            git diff --stat -- data/source.json 2>/dev/null || git status --short -- data/source.json
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No data changes — source.json is already up to date."
-          fi
-
-      - name: Cache generated data
-        id: cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            packages/countries/src/data
-            packages/countries-browser/src/data
-            packages/timezones/src/data
-            packages/currencies/src/data
-            packages/translations/src/data
-          key: generated-data-${{ hashFiles('data/source.json') }}
-
       - name: Generate data for all packages
-        if: steps.cache.outputs.cache-hit != 'true'
         run: pnpm generate-data
 
       - name: Collect statistics
@@ -133,6 +99,18 @@ jobs:
           echo "currencies=$(grep -o '"code"' packages/currencies/src/data/currencies.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
           echo "translations=$(grep -o '"iso2"' packages/translations/src/data/translations.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
 
+      - name: Detect data changes
+        id: check
+        run: |
+          if git diff --name-only -- 'packages/*/src/data' | grep -q .; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git diff --stat -- 'packages/*/src/data'
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes — data is already up to date."
+          fi
+
       - name: Upload generated data
         uses: actions/upload-artifact@v4
         with:
@@ -141,12 +119,15 @@ jobs:
           retention-days: 1
 
   # ───────────────────────────────────────────────────────────────────────────
-  # STAGE 3 — TYPECHECK
+  # STAGE 3 — TYPECHECK  (always; waits for generate-data when it ran)
   # ───────────────────────────────────────────────────────────────────────────
   typecheck:
     name: Typecheck
     needs: [generate-data]
-    if: needs.generate-data.result == 'success'
+    if: >-
+      always() &&
+      (needs.generate-data.result == 'success' ||
+       needs.generate-data.result == 'skipped')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -162,10 +143,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Apply generated data
+        if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v4
         with:
           name: generated-data
           path: packages/
+        continue-on-error: true
 
       - name: Typecheck all packages
         run: pnpm turbo run typecheck
@@ -176,7 +159,7 @@ jobs:
   build:
     name: Build
     needs: [generate-data, typecheck]
-    if: needs.typecheck.result == 'success'
+    if: always() && needs.typecheck.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -192,10 +175,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Apply generated data
+        if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v4
         with:
           name: generated-data
           path: packages/
+        continue-on-error: true
 
       - name: Build all packages
         run: pnpm turbo run build
@@ -222,7 +207,7 @@ jobs:
   test:
     name: Test
     needs: [generate-data, build]
-    if: needs.build.result == 'success'
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -238,17 +223,19 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Apply generated data
+        if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v4
         with:
           name: generated-data
           path: packages/
+        continue-on-error: true
 
       - name: Run all tests
         run: pnpm turbo run test
 
   # ───────────────────────────────────────────────────────────────────────────
   # STAGE 6 — OPEN DATA UPDATE PR
-  #   Commits the updated source.json. Package data is regenerated from it in CI.
+  #   Only runs when: data was generated + tests passed + data changed (or forced)
   # ───────────────────────────────────────────────────────────────────────────
   open-pr:
     name: Open Data Update PR
@@ -268,11 +255,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Restore updated source data
+      - name: Restore generated data
         uses: actions/download-artifact@v4
         with:
-          name: source-data
-          path: data/
+          name: generated-data
+          path: packages/
 
       - name: Configure git
         run: |
@@ -283,7 +270,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update source data from countries-states-cities-database'
+          commit-message: 'chore: update data from countries-states-cities-database'
           title: '🔄 Automated Data Update'
           body: |
             ## Automated Data Update
@@ -303,7 +290,7 @@ jobs:
             - ✅ All packages built successfully
             - ✅ All tests passing
 
-            > `data/source.json` has been updated. Package data (`src/data/`) is regenerated from it automatically during CI — it is no longer committed to the repo.
+            > Review the data diff before merging.
           branch: automated-data-update
           delete-branch: true
           labels: |
