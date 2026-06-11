@@ -139,8 +139,9 @@ countrystatecity-npm/
 ├── data/
 │   └── source.json          # Raw source (git-ignored, fetched by CI)
 ├── .github/workflows/
-│   ├── ci.yml               # Pipeline: fetch → generate → typecheck → build → test → PR
-│   └── release.yml          # Release: changesets → publish to npm
+│   ├── ci.yml               # Pipeline: fetch → generate → typecheck → build → test → open PR
+│   ├── release.yml          # Triggered on data-update PR merge → bumps versions + changelogs
+│   └── publish.yml          # Triggered on version bump commit → builds + publishes to npm
 └── turbo.json               # Turborepo task graph
 ```
 
@@ -212,34 +213,28 @@ typecheck → build → test
 
 ### Every Sunday at 00:00 UTC (or manual trigger)
 
+**`ci.yml`** — validate and open PR:
 ```
 fetch-data → generate-data → typecheck → build → test → open-pr
 ```
 
 - **fetch-data**: Downloads the latest release from [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)
 - **generate-data**: Splits the source JSON into per-package data files
-- **open-pr**: Opens a "Automated Data Update" PR if data changed — you review and merge
+- **open-pr**: Opens an "Automated Data Update" PR (labelled `data-update`) if data changed — review and merge when ready
 
-### Release
-
-After the pipeline passes on `main`, the release workflow runs automatically:
-
-- If a [changeset](https://github.com/changesets/changesets) exists → creates/updates a "🚀 Release packages" PR with version bumps and changelogs
-- If the Release PR is merged → publishes all changed packages to npm
-
-To release a new version:
-
-```bash
-# 1. Describe your change
-pnpm changeset
-
-# 2. Commit and push
-git add .changeset/
-git commit -m "chore: add changeset"
-git push
-
-# 3. Merge the auto-created Release PR on GitHub → packages publish to npm
+**`release.yml`** — triggered automatically when the data-update PR is merged:
 ```
+bump patch versions → update CHANGELOGs → commit to main
+```
+
+**`publish.yml`** — triggered automatically when the version-bump commit lands on `main`:
+```
+build all packages → publish to npm → create GitHub releases
+```
+
+### Manual release (code-only changes)
+
+Trigger **Release** via `workflow_dispatch` on GitHub → then **Publish** fires automatically.
 
 ---
 
