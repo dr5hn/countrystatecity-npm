@@ -11,11 +11,11 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 
 | Package | Description | Environment | Bundle |
 |---|---|---|---|
-| [`@countrystatecity/countries`](./packages/countries) | Countries, states, cities with lazy loading | Node.js / Server | <10KB |
-| [`@countrystatecity/countries-browser`](./packages/countries-browser) | Same API as above, loads data via jsDelivr CDN | Browser / Any | <10KB |
-| [`@countrystatecity/timezones`](./packages/timezones) | 392 IANA timezones with conversion utilities | Node.js / Server | <20KB |
-| [`@countrystatecity/currencies`](./packages/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
-| [`@countrystatecity/translations`](./packages/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
+| [`@countrystatecity/countries`](https://www.npmjs.com/package/@countrystatecity/countries) | Countries, states, cities with lazy loading | Node.js / Server | <10KB |
+| [`@countrystatecity/countries-browser`](https://www.npmjs.com/package/@countrystatecity/countries-browser) | Same API as above, loads data via jsDelivr CDN | Browser / Any | <10KB |
+| [`@countrystatecity/timezones`](https://www.npmjs.com/package/@countrystatecity/timezones) | 392 IANA timezones with conversion utilities | Node.js / Server | <20KB |
+| [`@countrystatecity/currencies`](https://www.npmjs.com/package/@countrystatecity/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
+| [`@countrystatecity/translations`](https://www.npmjs.com/package/@countrystatecity/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
 
 ---
 
