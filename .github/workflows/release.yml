@@ -1,7 +1,9 @@
 name: Release
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Pipeline"]
+    types: [completed]
     branches: [main]
 
 concurrency:
@@ -11,6 +13,7 @@ concurrency:
 jobs:
   release:
     name: Release Packages
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: write
