@@ -1,7 +1,7 @@
 # @countrystatecity/currencies
 
 [![npm](https://img.shields.io/npm/v/@countrystatecity/currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
-[![CI](https://github.com/dr5hn/countrystatecity-currencies/workflows/CI/badge.svg)](https://github.com/dr5hn/countrystatecity-currencies/actions/workflows/ci.yml)
+[![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
 
 Comprehensive world currency data with ISO 4217 codes, symbols, and country mappings.
@@ -354,7 +354,7 @@ Contributions are welcome! Please open an issue or PR.
 
 ## 📦 Package Ecosystem
 
-This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-countries):
+This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-npm):
 
 - **[@countrystatecity/countries](https://www.npmjs.com/package/@countrystatecity/countries)** — Server-side countries, states, and cities database. Environment: Node.js, Next.js API routes, Express. Bundle: <10KB initial load.
 
@@ -366,7 +366,7 @@ This package is part of the [@countrystatecity package ecosystem](https://github
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/dr5hn/countrystatecity-currencies)
-- [Issues](https://github.com/dr5hn/countrystatecity-currencies/issues)
+- [GitHub Repository](https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/currencies)
+- [Issues](https://github.com/dr5hn/countrystatecity-npm/issues)
 - [NPM Package](https://www.npmjs.com/package/@countrystatecity/currencies)
 - [NPM Organization](https://www.npmjs.com/org/countrystatecity)

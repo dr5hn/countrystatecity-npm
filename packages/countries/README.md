@@ -1,7 +1,7 @@
 # @countrystatecity/countries
 
 [![npm](https://img.shields.io/npm/v/@countrystatecity/countries)](https://www.npmjs.com/package/@countrystatecity/countries)
-[![CI](https://github.com/dr5hn/countrystatecity-countries/workflows/CI/badge.svg)](https://github.com/dr5hn/countrystatecity-countries/actions/workflows/ci.yml)
+[![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/countries)](https://www.npmjs.com/package/@countrystatecity/countries)
 
 Official countries, states, and cities database with iOS/Safari support and minimal bundle size.
@@ -208,7 +208,7 @@ Contributions are welcome! Please open an issue or PR.
 
 ## 📦 Package Ecosystem
 
-This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-countries):
+This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-npm):
 
 - **[@countrystatecity/countries](https://www.npmjs.com/package/@countrystatecity/countries)** (This package) — Server-side countries, states, and cities database. Environment: Node.js, Next.js API routes, Express. Bundle: <10KB initial load.
 
@@ -243,7 +243,7 @@ const cities = await getCitiesOfState('US', 'CA');
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/dr5hn/countrystatecity-countries)
-- [Issues](https://github.com/dr5hn/countrystatecity-countries/issues)
+- [GitHub Repository](https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/countries)
+- [Issues](https://github.com/dr5hn/countrystatecity-npm/issues)
 - [NPM Package](https://www.npmjs.com/package/@countrystatecity/countries)
 - [NPM Organization](https://www.npmjs.com/org/countrystatecity)

@@ -25,11 +25,11 @@
   "license": "ODbL-1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dr5hn/countrystatecity-countries.git"
+    "url": "git+https://github.com/dr5hn/countrystatecity-npm.git"
   },
-  "homepage": "https://github.com/dr5hn/countrystatecity-countries#readme",
+  "homepage": "https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/countries#readme",
   "bugs": {
-    "url": "https://github.com/dr5hn/countrystatecity-countries/issues"
+    "url": "https://github.com/dr5hn/countrystatecity-npm/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",

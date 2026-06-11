@@ -17,11 +17,11 @@
   "license": "ODbL-1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dr5hn/countrystatecity-currencies.git"
+    "url": "git+https://github.com/dr5hn/countrystatecity-npm.git"
   },
-  "homepage": "https://github.com/dr5hn/countrystatecity-currencies#readme",
+  "homepage": "https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/currencies#readme",
   "bugs": {
-    "url": "https://github.com/dr5hn/countrystatecity-currencies/issues"
+    "url": "https://github.com/dr5hn/countrystatecity-npm/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -50,7 +50,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:compat": "vitest run compatibility",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "generate-data": "node scripts/generate-data.cjs"
   },
   "devDependencies": {
     "@types/node": "^20.19.0",

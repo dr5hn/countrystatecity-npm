@@ -1,5 +1,5 @@
 /**
- * @world/countries - Official countries, states, and cities database
+ * @countrystatecity/countries - Official countries, states, and cities database
  * iOS/Safari compatible with minimal bundle size and lazy loading
  */
 

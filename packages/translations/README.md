@@ -1,7 +1,7 @@
 # @countrystatecity/translations
 
 [![npm](https://img.shields.io/npm/v/@countrystatecity/translations)](https://www.npmjs.com/package/@countrystatecity/translations)
-[![CI](https://github.com/dr5hn/countrystatecity-translations/workflows/CI/badge.svg)](https://github.com/dr5hn/countrystatecity-translations/actions/workflows/ci.yml)
+[![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/translations)](https://www.npmjs.com/package/@countrystatecity/translations)
 
 Country name translations in 19 languages — Arabic, Chinese, French, German, Spanish, Japanese, and more.
@@ -292,7 +292,7 @@ Contributions are welcome! Please open an issue or PR.
 
 ## 📦 Package Ecosystem
 
-This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-countries):
+This package is part of the [@countrystatecity package ecosystem](https://github.com/dr5hn/countrystatecity-npm):
 
 - **[@countrystatecity/countries](https://www.npmjs.com/package/@countrystatecity/countries)** — Server-side countries, states, and cities database. Bundle: <10KB initial load.
 
@@ -304,7 +304,7 @@ This package is part of the [@countrystatecity package ecosystem](https://github
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/dr5hn/countrystatecity-translations)
-- [Issues](https://github.com/dr5hn/countrystatecity-translations/issues)
+- [GitHub Repository](https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/translations)
+- [Issues](https://github.com/dr5hn/countrystatecity-npm/issues)
 - [NPM Package](https://www.npmjs.com/package/@countrystatecity/translations)
 - [NPM Organization](https://www.npmjs.com/org/countrystatecity)
