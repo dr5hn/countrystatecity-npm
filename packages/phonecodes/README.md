@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
-[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/phonecodes?label=phonecodes%2Fweek)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
 
 Country phone/dial codes for all 250 countries — lookup by ISO2, reverse lookup by dial code, search, and formatting utilities.
 

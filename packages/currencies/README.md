@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
-[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=currencies%2Fweek)](https://www.npmjs.com/package/@countrystatecity/currencies)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
 
 Comprehensive world currency data with ISO 4217 codes, symbols, and country mappings.
 
