@@ -3,6 +3,21 @@
 [![Pipeline](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![License: ODbL-1.0](https://img.shields.io/badge/License-ODbL--1.0-blue.svg)](https://github.com/dr5hn/countrystatecity-npm/blob/main/LICENSE)
 
+[![](https://img.shields.io/npm/dm/@countrystatecity/countries?label=countries)](https://www.npmjs.com/package/@countrystatecity/countries)
+[![](https://img.shields.io/npm/dw/@countrystatecity/countries?label=countries%2Fweek)](https://www.npmjs.com/package/@countrystatecity/countries)
+[![](https://img.shields.io/npm/dm/@countrystatecity/countries-browser?label=countries-browser)](https://www.npmjs.com/package/@countrystatecity/countries-browser)
+[![](https://img.shields.io/npm/dw/@countrystatecity/countries-browser?label=countries-browser%2Fweek)](https://www.npmjs.com/package/@countrystatecity/countries-browser)
+[![](https://img.shields.io/npm/dm/@countrystatecity/timezones?label=timezones)](https://www.npmjs.com/package/@countrystatecity/timezones)
+[![](https://img.shields.io/npm/dw/@countrystatecity/timezones?label=timezones%2Fweek)](https://www.npmjs.com/package/@countrystatecity/timezones)
+[![](https://img.shields.io/npm/dm/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
+[![](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=currencies%2Fweek)](https://www.npmjs.com/package/@countrystatecity/currencies)
+[![](https://img.shields.io/npm/dm/@countrystatecity/translations?label=translations)](https://www.npmjs.com/package/@countrystatecity/translations)
+[![](https://img.shields.io/npm/dw/@countrystatecity/translations?label=translations%2Fweek)](https://www.npmjs.com/package/@countrystatecity/translations)
+[![](https://img.shields.io/npm/dm/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
+[![](https://img.shields.io/npm/dw/@countrystatecity/phonecodes?label=phonecodes%2Fweek)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
+[![](https://img.shields.io/npm/dm/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli)
+[![](https://img.shields.io/npm/dw/@countrystatecity/cli?label=cli%2Fweek)](https://www.npmjs.com/package/@countrystatecity/cli)
+
 Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, translations, phone codes, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
 
 ---
