@@ -24,6 +24,16 @@ csc search countries
 csc get country IN
 ```
 
+## Global Flags
+
+These flags work on every command:
+
+| Flag | Short | Description |
+|------|-------|-------------|
+| `--json` | | Output raw JSON instead of formatted tables |
+| `--quiet` | `-q` | Suppress all decorative output (spinners, tips) |
+| `--no-footer` | | Hide the API usage footer after each command |
+
 ## Commands
 
 ### Authentication
@@ -32,7 +42,9 @@ csc get country IN
 csc auth login                # Interactive login with API key
 csc auth login --key <KEY>    # Login with key directly
 csc auth status               # Check current auth status
+csc auth status --json        # Returns { authenticated, key, tier, daily, monthly }
 csc auth logout               # Remove stored API key
+csc auth logout --json        # Returns { success: true }
 ```
 
 ### Search
@@ -61,9 +73,12 @@ csc search india
 # Detailed country info (timezones, coordinates, currency, etc.)
 csc get country IN
 csc get country US --json
+csc get country           # Interactive — prompts to pick a country (TTY only)
 
 # Detailed state info
 csc get state IN MH
+csc get state IN MH --json
+csc get state             # Interactive — prompts for country then state (TTY only)
 ```
 
 ### Usage & Billing
@@ -71,9 +86,11 @@ csc get state IN MH
 ```bash
 # View API usage with progress bars
 csc usage
+csc usage --json          # Returns { plan, price, daily, monthly }
 
 # View plans and open pricing page
 csc upgrade
+csc upgrade --json        # Returns { plans, currentPlan }
 ```
 
 ### Code Generation
@@ -93,9 +110,9 @@ csc generate seed --entity countries --format prisma
 csc generate seed -e states -f prisma --country IN
 csc generate seed -e cities -f prisma -c IN -s MH
 
-# Options
+# Options (apply to both dropdown and seed)
 --output <dir>     # Output directory (default: current directory)
---no-typescript    # Generate .jsx instead of .tsx
+--no-typescript    # Generate .jsx instead of .tsx  (dropdown only)
 ```
 
 #### Example: Generated Country Dropdown
