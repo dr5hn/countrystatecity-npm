@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/translations)](https://www.npmjs.com/package/@countrystatecity/translations)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/translations)](https://www.npmjs.com/package/@countrystatecity/translations)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/translations?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/translations)
 
 Country name translations in 19 languages — Arabic, Chinese, French, German, Spanish, Japanese, and more.
 

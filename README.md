@@ -290,6 +290,27 @@ Go to **Actions → Release → Run workflow** on GitHub. Once `release.yml` com
 
 ---
 
+## Downloads
+
+| Package | Monthly | Weekly |
+|---|---|---|
+| `@countrystatecity/countries` | [![](https://img.shields.io/npm/dm/@countrystatecity/countries)](https://www.npmjs.com/package/@countrystatecity/countries) | [![](https://img.shields.io/npm/dw/@countrystatecity/countries?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/countries) |
+| `@countrystatecity/countries-browser` | [![](https://img.shields.io/npm/dm/@countrystatecity/countries-browser)](https://www.npmjs.com/package/@countrystatecity/countries-browser) | [![](https://img.shields.io/npm/dw/@countrystatecity/countries-browser?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/countries-browser) |
+| `@countrystatecity/timezones` | [![](https://img.shields.io/npm/dm/@countrystatecity/timezones)](https://www.npmjs.com/package/@countrystatecity/timezones) | [![](https://img.shields.io/npm/dw/@countrystatecity/timezones?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/timezones) |
+| `@countrystatecity/currencies` | [![](https://img.shields.io/npm/dm/@countrystatecity/currencies)](https://www.npmjs.com/package/@countrystatecity/currencies) | [![](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/currencies) |
+| `@countrystatecity/translations` | [![](https://img.shields.io/npm/dm/@countrystatecity/translations)](https://www.npmjs.com/package/@countrystatecity/translations) | [![](https://img.shields.io/npm/dw/@countrystatecity/translations?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/translations) |
+| `@countrystatecity/cli` | [![](https://img.shields.io/npm/dm/@countrystatecity/cli)](https://www.npmjs.com/package/@countrystatecity/cli) | [![](https://img.shields.io/npm/dw/@countrystatecity/cli?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/cli) |
+
+---
+
+## Related Projects
+
+- [countrystatecity-npm](https://github.com/dr5hn/countrystatecity-npm) — This repo (npm packages)
+- [countrystatecity-pypi](https://github.com/dr5hn/countrystatecity-pypi) — Python packages (PyPI)
+- [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) — Upstream data source
+
+---
+
 ## Data Issues
 
 All geographic data (country names, city coordinates, timezone offsets, etc.) comes from the upstream [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database). Report data issues there, not here.

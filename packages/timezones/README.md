@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/timezones)](https://www.npmjs.com/package/@countrystatecity/timezones)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/timezones)](https://www.npmjs.com/package/@countrystatecity/timezones)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/timezones?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/timezones)
 
 Comprehensive timezone data with conversion utilities and iOS/Safari support.
 

@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/countries-browser)](https://www.npmjs.com/package/@countrystatecity/countries-browser)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/countries-browser)](https://www.npmjs.com/package/@countrystatecity/countries-browser)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/countries-browser?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/countries-browser)
 
 Browser-native countries, states, and cities data with jsDelivr CDN and lazy loading. Same API as the server package — works in React, Vue, Svelte, Vite, and any browser environment.
 

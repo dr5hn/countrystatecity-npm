@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/countries)](https://www.npmjs.com/package/@countrystatecity/countries)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/countries)](https://www.npmjs.com/package/@countrystatecity/countries)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/countries?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/countries)
 
 Official countries, states, and cities database with iOS/Safari support and minimal bundle size.
 
