@@ -68,6 +68,7 @@ jobs:
       timezones: ${{ steps.stats.outputs.timezones }}
       currencies: ${{ steps.stats.outputs.currencies }}
       translations: ${{ steps.stats.outputs.translations }}
+      phonecodes: ${{ steps.stats.outputs.phonecodes }}
     steps:
       - uses: actions/checkout@v4
 
@@ -98,6 +99,7 @@ jobs:
           echo "timezones=$(grep -o '"zoneName"' packages/timezones/src/data/timezones.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
           echo "currencies=$(grep -o '"code"' packages/currencies/src/data/currencies.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
           echo "translations=$(grep -o '"iso2"' packages/translations/src/data/translations.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+          echo "phonecodes=$(grep -o '"iso2"' packages/phonecodes/src/data/phonecodes.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
 
       - name: Detect data changes
         id: check
@@ -188,7 +190,7 @@ jobs:
       - name: Bundle sizes
         run: |
           echo "=== Bundle Sizes ==="
-          for pkg in countries countries-browser timezones currencies translations cli; do
+          for pkg in countries countries-browser timezones currencies translations phonecodes cli; do
             echo "── $pkg ──"
             du -sh packages/$pkg/dist/index.js 2>/dev/null || true
             du -sh packages/$pkg/dist/index.cjs 2>/dev/null || true
@@ -284,6 +286,7 @@ jobs:
             | Timezones | ${{ needs.generate-data.outputs.timezones }} |
             | Currencies | ${{ needs.generate-data.outputs.currencies }} |
             | Translations | ${{ needs.generate-data.outputs.translations }} |
+            | Phonecodes | ${{ needs.generate-data.outputs.phonecodes }} |
 
             ### Verification
             - ✅ Data fetched and generated

@@ -40,7 +40,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          for pkg in countries countries-browser timezones currencies translations cli; do
+          for pkg in countries countries-browser timezones currencies translations phonecodes cli; do
             NAME=$(node -p "require('./packages/$pkg/package.json').name")
             VERSION=$(node -p "require('./packages/$pkg/package.json').version")
 
@@ -64,7 +64,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for pkg in countries countries-browser timezones currencies translations cli; do
+          for pkg in countries countries-browser timezones currencies translations phonecodes cli; do
             NAME=$(node -p "require('./packages/$pkg/package.json').name")
             VERSION=$(node -p "require('./packages/$pkg/package.json').version")
             TAG="$NAME@$VERSION"

@@ -3,7 +3,7 @@
  * Orchestrates data generation across all packages.
  *
  * Order of execution:
- *   Batch 1 (parallel): countries, timezones, currencies, translations — all read from source.json
+ *   Batch 1 (parallel): countries, timezones, currencies, translations, phonecodes — all read from source.json
  *   Batch 2 (sequential): countries-browser — reads from countries/src/data/ output
  */
 
@@ -56,7 +56,7 @@ async function main() {
   console.log(`   Source: ${SOURCE_FILE}\n`);
 
   // ── Batch 1: all packages that read directly from source.json ──────────────
-  console.log('── Batch 1 (parallel): countries, timezones, currencies, translations ──');
+  console.log('── Batch 1 (parallel): countries, timezones, currencies, translations, phonecodes ──');
 
   await runParallel([
     {
@@ -78,6 +78,11 @@ async function main() {
       label: 'translations',
       cmd: `node scripts/generate-data.cjs "${SOURCE_FILE}"`,
       cwd: path.join(ROOT, 'packages/translations'),
+    },
+    {
+      label: 'phonecodes',
+      cmd: `node scripts/generate-data.cjs "${SOURCE_FILE}"`,
+      cwd: path.join(ROOT, 'packages/phonecodes'),
     },
   ]);
 

@@ -3,7 +3,7 @@
 [![Pipeline](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![License: ODbL-1.0](https://img.shields.io/badge/License-ODbL--1.0-blue.svg)](https://github.com/dr5hn/countrystatecity-npm/blob/main/LICENSE)
 
-Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, translations, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
+Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, translations, phone codes, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
 
 ---
 
@@ -16,6 +16,7 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/timezones`](https://www.npmjs.com/package/@countrystatecity/timezones) | 392 IANA timezones with conversion utilities | Node.js / Server | <20KB |
 | [`@countrystatecity/currencies`](https://www.npmjs.com/package/@countrystatecity/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
 | [`@countrystatecity/translations`](https://www.npmjs.com/package/@countrystatecity/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
+| [`@countrystatecity/phonecodes`](https://www.npmjs.com/package/@countrystatecity/phonecodes) | 250 country phone/dial codes with lookup, reverse lookup & formatting | Node.js / Browser | <3KB |
 | [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
 
 ---
@@ -37,6 +38,9 @@ npm install @countrystatecity/currencies
 
 # Translations
 npm install @countrystatecity/translations
+
+# Phone codes
+npm install @countrystatecity/phonecodes
 
 # CLI (global install)
 npm install -g @countrystatecity/cli
@@ -95,6 +99,25 @@ const currencies = await getCurrenciesByCountry('IN');
 // [{ code: 'INR', name: 'Indian Rupee', symbol: '₹', ... }]
 ```
 
+### Phone Codes
+
+```typescript
+import {
+  getPhonecodeByCountry,
+  getCountriesByDialCode,
+  formatWithDialCode,
+} from '@countrystatecity/phonecodes';
+
+const india = await getPhonecodeByCountry('IN');
+// { iso2: 'IN', name: 'India', dialCode: '+91', phonecode: '91' }
+
+const countries = await getCountriesByDialCode('+1');
+// [{ iso2: 'US', ... }, { iso2: 'CA', ... }, ...]
+
+const formatted = await formatWithDialCode('9876543210', 'IN');
+// "+91 9876543210"
+```
+
 ### CLI
 
 ```bash
@@ -150,6 +173,7 @@ getTranslationOrFallback(entry, 'xx');   // "Japan"  ← falls back to English
 | IANA Timezones | 392 |
 | ISO 4217 Currencies | 155 |
 | Translation Locales | 19 |
+| Phone Codes | 250 |
 
 **Locales:** `ar`, `br`, `de`, `es`, `fa`, `fr`, `hi`, `hr`, `it`, `ja`, `ko`, `nl`, `pl`, `pt`, `pt-BR`, `ru`, `tr`, `uk`, `zh-CN`
 
@@ -165,6 +189,7 @@ countrystatecity-npm/
 │   ├── timezones/           # @countrystatecity/timezones
 │   ├── currencies/          # @countrystatecity/currencies
 │   ├── translations/        # @countrystatecity/translations
+│   ├── phonecodes/          # @countrystatecity/phonecodes
 │   └── cli/                 # @countrystatecity/cli
 ├── scripts/
 │   ├── fetch-database.cjs   # Downloads latest source JSON
@@ -299,6 +324,7 @@ Go to **Actions → Release → Run workflow** on GitHub. Once `release.yml` com
 | `@countrystatecity/timezones` | [![](https://img.shields.io/npm/dm/@countrystatecity/timezones?label=timezones)](https://www.npmjs.com/package/@countrystatecity/timezones) | [![](https://img.shields.io/npm/dw/@countrystatecity/timezones?label=timezones%2Fweek)](https://www.npmjs.com/package/@countrystatecity/timezones) |
 | `@countrystatecity/currencies` | [![](https://img.shields.io/npm/dm/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies) | [![](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=currencies%2Fweek)](https://www.npmjs.com/package/@countrystatecity/currencies) |
 | `@countrystatecity/translations` | [![](https://img.shields.io/npm/dm/@countrystatecity/translations?label=translations)](https://www.npmjs.com/package/@countrystatecity/translations) | [![](https://img.shields.io/npm/dw/@countrystatecity/translations?label=translations%2Fweek)](https://www.npmjs.com/package/@countrystatecity/translations) |
+| `@countrystatecity/phonecodes` | [![](https://img.shields.io/npm/dm/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes) | [![](https://img.shields.io/npm/dw/@countrystatecity/phonecodes?label=phonecodes%2Fweek)](https://www.npmjs.com/package/@countrystatecity/phonecodes) |
 | `@countrystatecity/cli` | [![](https://img.shields.io/npm/dm/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli) | [![](https://img.shields.io/npm/dw/@countrystatecity/cli?label=cli%2Fweek)](https://www.npmjs.com/package/@countrystatecity/cli) |
 
 ---
