@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 2026-06-12
+
+### Changed
+- Moved into the `countrystatecity-npm` monorepo (`packages/cli`).
+- Updated repository, homepage, and bugs URLs to point to the monorepo.
+
+### Fixed
+- `export` command: add `vi.clearAllMocks()` in `beforeEach` so the `--json` test no longer inherits call state from the previous test.
+
 ## 0.1.1 - 2026-03-28
 
 ### Fixed
