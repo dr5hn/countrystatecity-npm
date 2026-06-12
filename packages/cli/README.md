@@ -2,8 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/@countrystatecity/cli)](https://www.npmjs.com/package/@countrystatecity/cli)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
-[![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/cli)](https://www.npmjs.com/package/@countrystatecity/cli)
-[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/cli?label=downloads/week)](https://www.npmjs.com/package/@countrystatecity/cli)
+[![npm downloads](https://img.shields.io/npm/dm/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli)
+[![npm downloads](https://img.shields.io/npm/dw/@countrystatecity/cli?label=cli%2Fweek)](https://www.npmjs.com/package/@countrystatecity/cli)
 
 Official CLI for the [Country State City API](https://countrystatecity.in) — search, explore, and generate code from geographic data.
 
