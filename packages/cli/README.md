@@ -59,7 +59,11 @@ csc search countries --json
 csc search states --country IN
 csc search states -c US --filter "new"
 
-# List cities for a state
+# List all cities for a country
+csc search cities --country IN
+csc search cities --country IN --json
+
+# List cities for a specific state
 csc search cities --country IN --state MH
 csc search cities -c US -s CA --json
 

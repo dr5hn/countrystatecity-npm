@@ -126,9 +126,9 @@ export function registerSearchCommands(program: Command): void {
 
   search
     .command('cities')
-    .description('List cities for a state')
+    .description('List cities for a country or state')
     .option('-c, --country <iso2>', 'Country ISO2 code')
-    .option('-s, --state <iso2>', 'State ISO2 code')
+    .option('-s, --state <iso2>', 'State ISO2 code (omit to get all cities in the country)')
     .option('--filter <text>', 'Filter by name')
     .action(
       async (options: { country?: string; state?: string; filter?: string }, cmd: Command) => {
@@ -153,27 +153,20 @@ export function registerSearchCommands(program: Command): void {
           }
         }
 
-        let stateCode = options.state?.toUpperCase();
-        if (!stateCode) {
-          if (isTTY()) {
-            const stateSpinner = await createSpinner(`Loading states for ${countryCode}...`, flags);
-            const { data: allStates } = await get<State[]>(`/countries/${countryCode}/states`);
-            stateSpinner.stop();
-            stateCode = await promptState(allStates);
-          } else {
-            process.stderr.write(chalk.red('State code required. Use --state MH\n'));
-            process.exit(1);
-            return;
-          }
+        const stateCode = options.state?.toUpperCase();
+
+        let endpoint: string;
+        let spinnerText: string;
+        if (stateCode) {
+          endpoint = `/countries/${countryCode}/states/${stateCode}/cities`;
+          spinnerText = `Fetching cities for ${countryCode}/${stateCode}...`;
+        } else {
+          endpoint = `/countries/${countryCode}/cities`;
+          spinnerText = `Fetching all cities for ${countryCode}...`;
         }
 
-        const spinner = await createSpinner(
-          `Fetching cities for ${countryCode}/${stateCode}...`,
-          flags
-        );
-        const { data, usage } = await get<City[]>(
-          `/countries/${countryCode}/states/${stateCode}/cities`
-        );
+        const spinner = await createSpinner(spinnerText, flags);
+        const { data, usage } = await get<City[]>(endpoint);
         spinner.stop();
 
         let cities = data;

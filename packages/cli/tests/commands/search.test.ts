@@ -143,14 +143,13 @@ describe('search commands', () => {
       expect(get).toHaveBeenCalledWith('/countries/IN/states/MH/cities');
     });
 
-    it('exits with error when --state flag missing in non-TTY', async () => {
+    it('fetches all cities for a country when --state is omitted', async () => {
       vi.mocked(get).mockResolvedValue({ data: mockCities, usage: null });
-      const exitSpy = vi.spyOn(process, 'exit').mockImplementation((() => {}) as () => never);
-      vi.spyOn(process.stderr, 'write').mockImplementation(() => true);
+      vi.spyOn(console, 'log').mockImplementation(() => {});
 
       await program.parseAsync(['node', 'csc', 'search', 'cities', '--country', 'IN']);
 
-      expect(exitSpy).toHaveBeenCalledWith(1);
+      expect(get).toHaveBeenCalledWith('/countries/IN/cities');
     });
   });
 
