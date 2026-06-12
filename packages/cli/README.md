@@ -62,13 +62,32 @@ csc search states
 csc search states --country IN
 csc search states -c US --filter "new"
 
+# List all cities globally
+csc search cities
+
 # List all cities for a country
 csc search cities --country IN
-csc search cities --country IN --json
 
 # List cities for a specific state
 csc search cities --country IN --state MH
 csc search cities -c US -s CA --json
+
+# List all world regions
+csc search regions
+csc search regions --filter "asia"
+
+# List all currencies
+csc search currencies
+csc search currencies --filter "dollar"
+
+# List all timezones
+csc search timezones
+csc search timezones --country IN
+csc search timezones --filter "kolkata"
+
+# List all country phone codes
+csc search phonecodes
+csc search phonecodes --filter "india"
 
 # Global search (matches country names)
 csc search india
@@ -86,6 +105,10 @@ csc get country           # Interactive — prompts to pick a country (TTY only)
 csc get state IN MH
 csc get state IN MH --json
 csc get state             # Interactive — prompts for country then state (TTY only)
+
+# Detailed city info by ID
+csc get city IN MH 57589
+csc get city IN MH 57589 --json
 ```
 
 ### Usage & Billing

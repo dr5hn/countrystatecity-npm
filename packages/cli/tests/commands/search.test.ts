@@ -133,7 +133,7 @@ describe('search commands', () => {
   describe('search cities', () => {
     it('fetches cities for a country and state', async () => {
       vi.mocked(get).mockResolvedValue({ data: mockCities, usage: null });
-      const logSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
+      vi.spyOn(console, 'log').mockImplementation(() => {});
 
       await program.parseAsync(['node', 'csc', 'search', 'cities', '--country', 'IN', '--state', 'MH']);
 
@@ -147,6 +147,59 @@ describe('search commands', () => {
       await program.parseAsync(['node', 'csc', 'search', 'cities', '--country', 'IN']);
 
       expect(get).toHaveBeenCalledWith('/countries/IN/cities');
+    });
+
+    it('fetches all cities globally when no flags are given', async () => {
+      vi.mocked(get).mockResolvedValue({ data: mockCities, usage: null });
+      vi.spyOn(console, 'log').mockImplementation(() => {});
+
+      await program.parseAsync(['node', 'csc', 'search', 'cities']);
+
+      expect(get).toHaveBeenCalledWith('/cities');
+    });
+  });
+
+  describe('search regions', () => {
+    it('fetches all regions', async () => {
+      vi.mocked(get).mockResolvedValue({ data: [{ id: 1, name: 'Asia' }], usage: null });
+      vi.spyOn(console, 'log').mockImplementation(() => {});
+
+      await program.parseAsync(['node', 'csc', 'search', 'regions']);
+
+      expect(get).toHaveBeenCalledWith('/regions');
+    });
+  });
+
+  describe('search currencies', () => {
+    it('fetches all currencies', async () => {
+      vi.mocked(get).mockResolvedValue({ data: [{ id: 1, name: 'US Dollar', symbol: '$', code: 'USD' }], usage: null });
+      vi.spyOn(console, 'log').mockImplementation(() => {});
+
+      await program.parseAsync(['node', 'csc', 'search', 'currencies']);
+
+      expect(get).toHaveBeenCalledWith('/currencies');
+    });
+  });
+
+  describe('search timezones', () => {
+    it('fetches all timezones', async () => {
+      vi.mocked(get).mockResolvedValue({ data: [{ id: 1, zoneName: 'Asia/Kolkata', gmtOffset: 19800, gmtOffsetName: 'UTC+05:30', abbreviation: 'IST', tzName: 'India Standard Time' }], usage: null });
+      vi.spyOn(console, 'log').mockImplementation(() => {});
+
+      await program.parseAsync(['node', 'csc', 'search', 'timezones']);
+
+      expect(get).toHaveBeenCalledWith('/timezones');
+    });
+  });
+
+  describe('search phonecodes', () => {
+    it('fetches all phone codes', async () => {
+      vi.mocked(get).mockResolvedValue({ data: [{ id: 1, name: 'India', phonecode: '91', iso2: 'IN' }], usage: null });
+      vi.spyOn(console, 'log').mockImplementation(() => {});
+
+      await program.parseAsync(['node', 'csc', 'search', 'phonecodes']);
+
+      expect(get).toHaveBeenCalledWith('/phone-codes');
     });
   });
 
