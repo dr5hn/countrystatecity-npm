@@ -1,0 +1,69 @@
+{
+  "name": "@countrystatecity/cli",
+  "version": "0.1.1",
+  "description": "Official CLI for the Country State City API - search, explore, and generate code from geographic data",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "csc": "./dist/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsx src/index.ts",
+    "test": "vitest",
+    "lint": "eslint src/",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "country",
+    "state",
+    "city",
+    "geography",
+    "cli",
+    "country-state-city",
+    "geolocation",
+    "iso",
+    "dropdown",
+    "seed",
+    "code-generator"
+  ],
+  "author": "dr5hn",
+  "license": "MIT",
+  "homepage": "https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/cli#readme",
+  "bugs": {
+    "url": "https://github.com/dr5hn/countrystatecity-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr5hn/countrystatecity-npm.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@inquirer/search": "^4.1.6",
+    "@inquirer/select": "^5.1.2",
+    "axios": "^1.7.0",
+    "chalk": "^5.4.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^13.0.0",
+    "conf": "^13.0.0",
+    "open": "^10.0.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "tsup": "^8.5.1",
+    "tsx": "~4.21.1",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.8"
+  }
+}

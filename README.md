@@ -3,7 +3,7 @@
 [![Pipeline](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 [![License: ODbL-1.0](https://img.shields.io/badge/License-ODbL--1.0-blue.svg)](https://github.com/dr5hn/countrystatecity-npm/blob/main/LICENSE)
 
-Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, and translations. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
+Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, translations, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
 
 ---
 
@@ -16,6 +16,7 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/timezones`](https://www.npmjs.com/package/@countrystatecity/timezones) | 392 IANA timezones with conversion utilities | Node.js / Server | <20KB |
 | [`@countrystatecity/currencies`](https://www.npmjs.com/package/@countrystatecity/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
 | [`@countrystatecity/translations`](https://www.npmjs.com/package/@countrystatecity/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
+| [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
 
 ---
 
@@ -36,6 +37,9 @@ npm install @countrystatecity/currencies
 
 # Translations
 npm install @countrystatecity/translations
+
+# CLI (global install)
+npm install -g @countrystatecity/cli
 ```
 
 ---
@@ -91,6 +95,34 @@ const currencies = await getCurrenciesByCountry('IN');
 // [{ code: 'INR', name: 'Indian Rupee', symbol: '₹', ... }]
 ```
 
+### CLI
+
+```bash
+# Install globally
+npm install -g @countrystatecity/cli
+
+# Authenticate with your free API key (https://app.countrystatecity.in)
+csc auth login
+
+# Search countries, states, cities
+csc search countries
+csc search states --country IN
+csc search cities --country IN --state MH
+
+# Get detailed info
+csc get country US --json
+
+# Interactive browser: pick country → state → view cities / generate code
+csc explore
+
+# Generate a React dropdown or Prisma seed (Supporter plan+)
+csc generate dropdown -e countries -f react
+csc generate seed -e states -f prisma --country IN
+
+# Open the online bulk export tool
+csc export
+```
+
 ### Translations
 
 ```typescript
@@ -132,7 +164,8 @@ countrystatecity-npm/
 │   ├── countries-browser/   # @countrystatecity/countries-browser
 │   ├── timezones/           # @countrystatecity/timezones
 │   ├── currencies/          # @countrystatecity/currencies
-│   └── translations/        # @countrystatecity/translations
+│   ├── translations/        # @countrystatecity/translations
+│   └── cli/                 # @countrystatecity/cli
 ├── scripts/
 │   ├── fetch-database.cjs   # Downloads latest source JSON
 │   └── generate-all.cjs     # Runs all package data generators
@@ -196,9 +229,9 @@ pnpm test
 
 ```bash
 cd packages/countries
-npm test           # run tests
-npm run build      # build
-npm run typecheck  # type check
+pnpm test           # run tests
+pnpm build          # build
+pnpm typecheck      # type check
 ```
 
 ---
@@ -246,6 +279,8 @@ bump all package versions (patch) → update CHANGELOGs → commit to main
 ```
 build all packages → publish to npm → create GitHub releases
 ```
+
+> Each package (including `@countrystatecity/cli`) is published only if its current version is not already on npm, so re-runs are always safe.
 
 ---
 

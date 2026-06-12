@@ -188,7 +188,7 @@ jobs:
       - name: Bundle sizes
         run: |
           echo "=== Bundle Sizes ==="
-          for pkg in countries countries-browser timezones currencies translations; do
+          for pkg in countries countries-browser timezones currencies translations cli; do
             echo "── $pkg ──"
             du -sh packages/$pkg/dist/index.js 2>/dev/null || true
             du -sh packages/$pkg/dist/index.cjs 2>/dev/null || true

@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSC CLI — Country State City from your terminal</title>
+<meta name="description" content="Search 250 countries, 5,000+ states, and 150,000+ cities. Generate React components, seed databases, and explore geographic data — all from your terminal.">
+<meta name="keywords" content="country state city, CLI tool, geographic data, countries API, React dropdown generator, Prisma seed, database seeder, developer tools, npm package">
+<meta name="author" content="Darshan Gada">
+<link rel="canonical" href="https://cli.countrystatecity.in">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="CSC CLI — Geographic data at your fingertips">
+<meta property="og:description" content="Search 250 countries, 5,000+ states, and 150,000+ cities. Generate React components, seed databases, explore geographic data — all from the terminal.">
+<meta property="og:url" content="https://cli.countrystatecity.in">
+<meta property="og:site_name" content="Country State City CLI">
+<meta property="og:image" content="https://cli.countrystatecity.in/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CSC CLI — Geographic data at your fingertips">
+<meta name="twitter:description" content="Search 250 countries, 5,000+ states, and 150,000+ cities. Generate components and seed databases from the terminal.">
+<meta name="twitter:image" content="https://cli.countrystatecity.in/og-image.png">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Country State City CLI",
+  "description": "Search, explore, and generate code from geographic data. 250 countries, 5,000+ states, 150,000+ cities — all from your terminal.",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "macOS, Linux, Windows",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "license": "https://opensource.org/licenses/MIT",
+  "url": "https://github.com/dr5hn/countrystatecity-cli",
+  "codeRepository": "https://github.com/dr5hn/countrystatecity-cli",
+  "programmingLanguage": "TypeScript",
+  "author": {
+    "@type": "Person",
+    "name": "Darshan Gada",
+    "url": "https://github.com/dr5hn"
+  },
+  "softwareRequirements": "Node.js 18+",
+  "installUrl": "https://www.npmjs.com/package/@countrystatecity/cli"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root {
+  --bg-primary: #0a0f1a;
+  --bg-secondary: #0d1117;
+  --bg-card: rgba(255,255,255,0.03);
+  --border-card: rgba(255,255,255,0.06);
+  --border-glow: rgba(34,150,243,0.3);
+  --accent-blue: #2296f3;
+  --accent-green: #cddc39;
+  --accent-orange: #f97316;
+  --accent-success: #4ade80;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --terminal-bg: #0f172a;
+  --terminal-bar: #1e293b;
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* ── Shared layout ── */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Shared typography ── */
+.section-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* ── Glassmorphism card ── */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-card);
+  border-radius: 12px;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.glass-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+/* ── Gradient text ── */
+.gradient-text {
+  background: linear-gradient(135deg, #e2e8f0 0%, #2296f3 50%, #cddc39 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ── Terminal window chrome ── */
+.terminal-window {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.5),
+    0 0 40px rgba(34,150,243,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.terminal-titlebar {
+  background: var(--terminal-bar);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.terminal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.terminal-dot.red    { background: #ef4444; }
+.terminal-dot.yellow { background: #eab308; }
+.terminal-dot.green  { background: #22c55e; }
+
+.terminal-title {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.terminal-body {
+  background: var(--terminal-bg);
+  padding: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+/* ── Hero section ── */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 24px;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, #0d1220 40%, var(--bg-secondary) 100%);
+}
+
+.hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: orb-drift 20s ease-in-out infinite alternate;
+}
+
+.hero-orb--blue {
+  top: -150px;
+  left: -150px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(34,150,243,0.08) 0%, transparent 70%);
+}
+
+.hero-orb--green {
+  bottom: -150px;
+  right: -150px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(205,220,57,0.08) 0%, transparent 70%);
+}
+
+@keyframes orb-drift {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(30px, -20px); }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.hero-logo {
+  display: block;
+  width: min(100%, 320px);
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(249,115,22,0.3);
+  background: rgba(249,115,22,0.08);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--accent-orange);
+  margin-bottom: 24px;
+}
+
+.hero-headline {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-sub {
+  font-size: 17px;
+  color: var(--text-secondary);
+  max-width: 620px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: var(--bg-primary);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 8px;
+  border: 1px solid rgba(226,232,240,0.15);
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: rgba(226,232,240,0.3);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.hero-install {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: rgba(30,41,59,0.8);
+  border: 1px solid rgba(34,150,243,0.15);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 48px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.hero-install:hover {
+  border-color: rgba(34,150,243,0.4);
+}
+
+.hero-install .prompt {
+  color: var(--text-muted);
+}
+
+.hero-install .cmd {
+  color: var(--text-primary);
+}
+
+.hero-install .copy-divider {
+  width: 1px;
+  height: 16px;
+  background: rgba(255,255,255,0.1);
+}
+
+.hero-install .copy-text {
+  color: var(--accent-blue);
+  font-size: 11px;
+}
+
+.hero-terminal {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(34,150,243,0.2), transparent);
+}
+
+/* ══════════════ TERMINAL DEMO ══════════════ */
+.demo {
+  padding: 80px 24px;
+  position: relative;
+}
+
+.demo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.demo .container { position: relative; z-index: 1; }
+
+.demo-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.demo-tab {
+  padding: 8px 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.demo-tab:hover {
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.03);
+}
+
+.demo-tab.active {
+  color: var(--accent-blue);
+  background: rgba(34,150,243,0.08);
+  border-color: rgba(34,150,243,0.2);
+}
+
+.demo-terminal {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.demo-terminal .terminal-body {
+  min-height: 300px;
+}
+
+.term-line {
+  opacity: 0;
+  transform: translateY(2px);
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.term-line.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.t-prompt { color: var(--text-muted); }
+.t-cmd { color: var(--text-primary); }
+.t-output { color: var(--text-secondary); }
+.t-success { color: var(--accent-success); }
+.t-muted { color: var(--text-muted); opacity: 0.7; }
+.t-warn { color: var(--accent-orange); }
+.t-active { color: var(--accent-success); }
+.t-blue { color: var(--accent-blue); }
+.t-green { color: var(--accent-green); }
+
+/* ══════════════ FEATURES ══════════════ */
+.features {
+  padding: 80px 24px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.feature-card {
+  padding: 24px;
+}
+
+.feature-icon {
+  font-size: 32px;
+  color: var(--accent-blue);
+  margin-bottom: 12px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.feature-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.feature-cmd {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--accent-blue);
+  margin-bottom: 10px;
+}
+
+.feature-desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ══════════════ QUICK START ══════════════ */
+.how-it-works {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.steps::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 20%;
+  right: 20%;
+  height: 1px;
+  border-top: 2px dashed rgba(34,150,243,0.2);
+}
+
+.step {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background-image: linear-gradient(var(--bg-primary), var(--bg-primary)), linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--accent-blue);
+  margin: 0 auto 12px;
+}
+
+.step-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.step-cmd {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--accent-blue);
+  background: rgba(34,150,243,0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.step-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ══════════════ PRICING ══════════════ */
+.pricing {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.pricing-headline {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.pricing-sub {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.pricing-table-wrap {
+  max-width: 800px;
+  margin: 0 auto 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-card);
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.pricing-table thead {
+  background: var(--terminal-bar);
+}
+
+.pricing-table th {
+  padding: 14px 20px;
+  font-weight: 600;
+  color: var(--accent-blue);
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.pricing-table td {
+  padding: 12px 20px;
+  color: var(--text-primary);
+  border-top: 1px solid var(--border-card);
+}
+
+.pricing-table tbody tr {
+  transition: background 0.2s;
+}
+
+.pricing-table tbody tr:hover {
+  background: rgba(34,150,243,0.04);
+}
+
+.badge-free {
+  display: inline-block;
+  background: rgba(205,220,57,0.12);
+  color: var(--accent-green);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(205,220,57,0.25);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.badge-paid {
+  display: inline-block;
+  background: rgba(34,150,243,0.1);
+  color: var(--accent-blue);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(34,150,243,0.2);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.pricing-cta {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: var(--bg-primary);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.pricing-cta:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* ══════════════ FOOTER ══════════════ */
+.footer {
+  padding: 40px 24px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin-bottom: 16px;
+}
+
+.footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: var(--accent-blue);
+}
+
+/* ══════════════ SCROLL REVEAL ══════════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ══════════════ ACCESSIBILITY ══════════════ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .term-line {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ══════════════ RESPONSIVE ══════════════ */
+@media (max-width: 768px) {
+  .hero { padding: 40px 20px; min-height: auto; }
+  .hero-logo { width: min(100%, 240px); }
+  .hero-headline { font-size: 32px; }
+  .hero-install { font-size: 11px; flex-wrap: wrap; justify-content: center; }
+  .features-grid { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 560px) { .features-grid { grid-template-columns: 1fr; } }
+  .steps {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    padding-left: 56px;
+  }
+  .steps::before {
+    left: 18px;
+    right: auto;
+    top: 36px;
+    bottom: 36px;
+    width: 0;
+    height: auto;
+    border-top: none;
+    border-left: 2px dashed rgba(34,150,243,0.2);
+  }
+  .step { text-align: left; }
+  .step-number {
+    position: absolute;
+    left: -56px;
+    top: 0;
+  }
+  .demo-tabs { flex-wrap: wrap; justify-content: center; }
+  .demo-terminal .terminal-body { font-size: 11px; overflow-x: auto; }
+  .pricing-table { font-size: 12px; }
+  .pricing-table th, .pricing-table td { padding: 10px 12px; }
+}
+
+@media (max-width: 480px) {
+  .hero-headline { font-size: 26px; }
+  .hero-sub { font-size: 15px; }
+  .hero-install .cmd { font-size: 10px; word-break: break-all; }
+}
+</style>
+</head>
+<body>
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb--blue"></div>
+      <div class="hero-orb hero-orb--green"></div>
+    </div>
+    <div class="hero-content">
+      <svg class="hero-logo" viewBox="0 0 328 116" aria-hidden="true">
+        <defs>
+          <linearGradient id="heroLogoGradient" x1="0" y1="18" x2="0" y2="88" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#2296f3"></stop>
+            <stop offset="52%" stop-color="#4dbe9e"></stop>
+            <stop offset="100%" stop-color="#cddc39"></stop>
+          </linearGradient>
+        </defs>
+        <g fill="none" stroke="#12304c" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter" opacity="0.85" transform="translate(6 8)">
+          <path d="M82 18H18V86H82"></path>
+          <path d="M194 18H118V52H194V86H118"></path>
+          <path d="M306 18H242V86H306"></path>
+        </g>
+        <g fill="none" stroke="url(#heroLogoGradient)" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter">
+          <path d="M82 18H18V86H82"></path>
+          <path d="M194 18H118V52H194V86H118"></path>
+          <path d="M306 18H242V86H306"></path>
+        </g>
+      </svg>
+
+      <div class="hero-badge">250 countries · 5,000+ states · 150,000+ cities</div>
+      <h1 class="hero-headline gradient-text">Geographic data at your fingertips</h1>
+      <p class="hero-sub">Search 250 countries, 5,000+ states, and 150,000+ cities. Generate React components, seed databases, and explore geographic data — all from your terminal.</p>
+      <div class="hero-ctas">
+        <a href="#quick-start" class="btn-primary">Get Started</a>
+        <a href="https://github.com/dr5hn/countrystatecity-cli" target="_blank" rel="noopener" class="btn-secondary">View on GitHub</a>
+      </div>
+      <div class="hero-install" onclick="copyHeroInstall()">
+        <span class="prompt">$</span>
+        <span class="cmd">npm install -g @countrystatecity/cli</span>
+        <span class="copy-divider"></span>
+        <span class="copy-text" id="heroCopyBtn">COPY</span>
+      </div>
+      <div class="hero-terminal terminal-window">
+        <div class="terminal-titlebar">
+          <div class="terminal-dot red"></div>
+          <div class="terminal-dot yellow"></div>
+          <div class="terminal-dot green"></div>
+          <span class="terminal-title">csc — zsh</span>
+        </div>
+        <div class="terminal-body">
+          <div><span style="color:var(--text-muted)">$ </span><span style="color:var(--text-primary)">csc search countries --filter india</span></div>
+          <pre style="margin:8px 0 0;font:inherit;color:var(--text-muted);line-height:1.4">┌──────┬──────┬───────┬───────────┬───────┬──────────┐
+│ <span style="color:var(--accent-blue)">ISO2</span> │ <span style="color:var(--accent-blue)">ISO3</span> │ <span style="color:var(--accent-blue)">Name</span>  │ <span style="color:var(--accent-blue)">Capital</span>   │ <span style="color:var(--accent-blue)">Phone</span> │ <span style="color:var(--accent-blue)">Currency</span> │
+├──────┼──────┼───────┼───────────┼───────┼──────────┤
+│ <span style="color:var(--text-primary)">IN</span>   │ <span style="color:var(--text-primary)">IND</span>  │ <span style="color:var(--text-primary)">India</span> │ <span style="color:var(--text-primary)">New Delhi</span> │ <span style="color:var(--text-primary)">+91</span>   │ <span style="color:var(--text-primary)">INR</span>      │
+└──────┴──────┴───────┴───────────┴───────┴──────────┘</pre>
+          <div style="margin-top:8px"><span style="color:var(--text-muted)">Usage: </span><span style="color:var(--accent-success)">48/1,000</span><span style="color:var(--text-muted)"> today</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo" id="demo">
+  <div class="container reveal">
+    <div class="section-label" style="text-align:center">See It In Action</div>
+    <div class="demo-tabs">
+      <button class="demo-tab active" data-demo="search">search</button>
+      <button class="demo-tab" data-demo="explore">explore</button>
+      <button class="demo-tab" data-demo="generate">generate</button>
+      <button class="demo-tab" data-demo="export">export</button>
+    </div>
+    <div class="demo-terminal terminal-window">
+      <div class="terminal-titlebar">
+        <div class="terminal-dot red"></div>
+        <div class="terminal-dot yellow"></div>
+        <div class="terminal-dot green"></div>
+        <span class="terminal-title">csc — zsh</span>
+      </div>
+      <div class="terminal-body" id="terminal"></div>
+    </div>
+  </div>
+</section>
+
+  <section class="features" id="features">
+  <div class="container reveal">
+    <div class="section-label">What's Inside</div>
+    <div class="features-grid">
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#128269;</div>
+        <div class="feature-name">Search</div>
+        <div class="feature-cmd">csc search countries</div>
+        <div class="feature-desc">Browse and filter countries, states, cities with instant table output.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#127758;</div>
+        <div class="feature-name">Explore</div>
+        <div class="feature-cmd">csc explore</div>
+        <div class="feature-desc">Interactive drill-down browser with fuzzy search and arrow-key navigation.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#9889;</div>
+        <div class="feature-name">Generate</div>
+        <div class="feature-cmd">csc generate dropdown</div>
+        <div class="feature-desc">Generate React dropdown components with embedded geographic data.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#127793;</div>
+        <div class="feature-name">Seed</div>
+        <div class="feature-cmd">csc generate seed</div>
+        <div class="feature-desc">Generate Prisma seed files ready for database migration.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#128230;</div>
+        <div class="feature-name">Export</div>
+        <div class="feature-cmd">csc export</div>
+        <div class="feature-desc">Export data in JSON, CSV, SQL, and more via the export tool.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#128202;</div>
+        <div class="feature-name">Usage</div>
+        <div class="feature-cmd">csc usage</div>
+        <div class="feature-desc">Track API quota with colored progress bars and tier info.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#128273;</div>
+        <div class="feature-name">Auth</div>
+        <div class="feature-cmd">csc auth login</div>
+        <div class="feature-desc">Securely store and manage your API key.</div>
+      </div>
+      <div class="feature-card glass-card">
+        <div class="feature-icon">&#129302;</div>
+        <div class="feature-name">AI-Ready</div>
+        <div class="feature-cmd">csc search --json</div>
+        <div class="feature-desc">Machine-readable JSON output for AI agents and scripting.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="how-it-works" id="quick-start">
+  <div class="container reveal">
+    <div class="section-label">Get Started In 30 Seconds</div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-title">Install</div>
+        <code class="step-cmd">npm i -g @countrystatecity/cli</code>
+        <div class="step-desc">One command. Requires Node.js 18+.</div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-title">Login</div>
+        <code class="step-cmd">csc auth login</code>
+        <div class="step-desc">Authenticate with your API key from the dashboard.</div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-title">Search</div>
+        <code class="step-cmd">csc search countries</code>
+        <div class="step-desc">Browse all 250 countries instantly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="pricing" id="pricing">
+  <div class="container reveal">
+    <div class="section-label">Pricing</div>
+    <div class="pricing-headline">Simple, transparent pricing</div>
+    <div class="pricing-sub">Start free. Upgrade as you grow. No credit card required.</div>
+    <div class="pricing-table-wrap">
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Price</th>
+            <th>Daily</th>
+            <th>Monthly</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Community</strong> <span class="badge-free">Free</span></td>
+            <td>Free</td>
+            <td>100</td>
+            <td>3,000</td>
+          </tr>
+          <tr>
+            <td><strong>Starter</strong> <span class="badge-paid">Paid</span></td>
+            <td>$5/mo</td>
+            <td>300</td>
+            <td>9,000</td>
+          </tr>
+          <tr>
+            <td><strong>Supporter</strong> <span class="badge-paid">Paid</span></td>
+            <td>$9/mo</td>
+            <td>1,000</td>
+            <td>30,000</td>
+          </tr>
+          <tr>
+            <td><strong>Professional</strong> <span class="badge-paid">Paid</span></td>
+            <td>$29/mo</td>
+            <td>3,300</td>
+            <td>100,000</td>
+          </tr>
+          <tr>
+            <td><strong>Business</strong> <span class="badge-paid">Paid</span></td>
+            <td>$79/mo</td>
+            <td>25,000</td>
+            <td>750,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="https://app.countrystatecity.in" target="_blank" rel="noopener" class="pricing-cta">Get Your API Key</a>
+  </div>
+</section>
+
+  <footer class="footer" id="footer">
+  <div class="footer-links">
+    <a href="https://countrystatecity.in" target="_blank" rel="noopener">API Docs</a>
+    <a href="https://app.countrystatecity.in" target="_blank" rel="noopener">Dashboard</a>
+    <a href="https://export.countrystatecity.in" target="_blank" rel="noopener">Export Tool</a>
+    <a href="https://github.com/dr5hn/countrystatecity-cli" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  Built by <a href="https://github.com/dr5hn" target="_blank" rel="noopener">dr5hn</a> · MIT License
+</footer>
+
+<script>
+/**
+ * Copies the hero install command to clipboard and updates button text.
+ */
+function copyHeroInstall() {
+  var text = 'npm install -g @countrystatecity/cli';
+  navigator.clipboard.writeText(text).then(function() {
+    var btn = document.getElementById('heroCopyBtn');
+    btn.textContent = 'COPIED';
+    setTimeout(function() { btn.textContent = 'COPY'; }, 2000);
+  });
+}
+
+/** Demo tab content definitions. */
+var demos = {
+  search: [
+    { type: 'prompt', text: '$ ' },
+    { type: 'cmd', text: 'csc search countries --filter india' },
+    { type: 'blank' },
+    { type: 'muted', text: '┌──────┬──────┬───────┬───────────┬───────┬──────────┐' },
+    { type: 'muted', text: '│ ISO2 │ ISO3 │ Name  │ Capital   │ Phone │ Currency │' },
+    { type: 'muted', text: '├──────┼──────┼───────┼───────────┼───────┼──────────┤' },
+    { type: 'output', text: '│ IN   │ IND  │ India │ New Delhi │ +91   │ INR      │' },
+    { type: 'muted', text: '└──────┴──────┴───────┴───────────┴───────┴──────────┘' },
+    { type: 'blank' },
+    { type: 'muted', text: 'Usage: 48/1,000 today | 1,231/30,000 this month (Supporter)' }
+  ],
+  explore: [
+    { type: 'prompt', text: '$ ' },
+    { type: 'cmd', text: 'csc explore' },
+    { type: 'blank' },
+    { type: 'blue', text: '? Select a country (type to filter)' },
+    { type: 'muted', text: '  \ud83c\udde6\ud83c\uddeb Afghanistan (AF)' },
+    { type: 'muted', text: '  \ud83c\udde6\ud83c\uddf1 Albania (AL)' },
+    { type: 'active', text: '\u276f \ud83c\uddee\ud83c\uddf3 India (IN)' },
+    { type: 'muted', text: '  \ud83c\uddee\ud83c\udde9 Indonesia (ID)' },
+    { type: 'blank' },
+    { type: 'success', text: '\u2713 Country: India (IN)' },
+    { type: 'blue', text: '? Select a state' },
+    { type: 'active', text: '\u276f Maharashtra (MH)' },
+    { type: 'muted', text: '  Karnataka (KA)' },
+    { type: 'blank' },
+    { type: 'blue', text: '? What next?' },
+    { type: 'active', text: '\u276f View cities' },
+    { type: 'muted', text: '  View country details' },
+    { type: 'muted', text: '  Generate dropdown component' }
+  ],
+  generate: [
+    { type: 'prompt', text: '$ ' },
+    { type: 'cmd', text: 'csc generate dropdown -e countries -f react' },
+    { type: 'blank' },
+    { type: 'success', text: '\u2713 Generated CountrySelect.tsx' },
+    { type: 'blank' },
+    { type: 'muted', text: '// CountrySelect.tsx' },
+    { type: 'blue', text: 'import { useState } from \'react\';' },
+    { type: 'blank' },
+    { type: 'output', text: 'const countries = [' },
+    { type: 'output', text: '  { id: 101, name: "India", iso2: "IN", emoji: "\ud83c\uddee\ud83c\uddf3" },' },
+    { type: 'muted', text: '  // ... 250 countries embedded' },
+    { type: 'output', text: '];' },
+    { type: 'blank' },
+    { type: 'blue', text: 'export default function CountrySelect({ value, onChange }) {' },
+    { type: 'muted', text: '  // Ready-to-use React component' },
+    { type: 'output', text: '}' }
+  ],
+  export: [
+    { type: 'prompt', text: '$ ' },
+    { type: 'cmd', text: 'csc export' },
+    { type: 'blank' },
+    { type: 'output', text: '  Export geographic data in JSON, CSV, SQL, and more formats.' },
+    { type: 'muted', text: '  Uses credits from the Export Tool (separate from API quota).' },
+    { type: 'blank' },
+    { type: 'success', text: '  Opening export.countrystatecity.in...' }
+  ]
+};
+
+var currentDemo = 'search';
+var animating = false;
+
+/**
+ * Types text into an element character by character.
+ * @param {HTMLElement} element - The target element.
+ * @param {string} text - The text to type.
+ * @param {function} callback - Called when typing completes.
+ */
+function typeText(element, text, callback) {
+  var i = 0;
+  var interval = setInterval(function() {
+    element.textContent += text[i];
+    i++;
+    if (i >= text.length) {
+      clearInterval(interval);
+      if (callback) callback();
+    }
+  }, 30);
+}
+
+/**
+ * Renders a demo animation in the terminal area.
+ * @param {string} name - The demo tab name to render.
+ */
+function renderDemo(name) {
+  if (animating) return;
+  currentDemo = name;
+  animating = true;
+
+  document.querySelectorAll('.demo-tab').forEach(function(t) { t.classList.remove('active'); });
+  document.querySelector('[data-demo="' + name + '"]').classList.add('active');
+
+  var terminal = document.getElementById('terminal');
+  terminal.textContent = '';
+
+  var lines = demos[name];
+  lines.forEach(function(l) { l._skip = false; });
+
+  var pendingLines = [];
+
+  lines.forEach(function(line, i) {
+    if (line._skip) return;
+
+    var div = document.createElement('div');
+    div.className = 'term-line';
+
+    if (line.type === 'blank') {
+      div.textContent = '\u00A0';
+    } else if (line.type === 'prompt') {
+      var promptSpan = document.createElement('span');
+      promptSpan.className = 't-prompt';
+      promptSpan.textContent = line.text;
+      div.appendChild(promptSpan);
+
+      if (lines[i + 1] && lines[i + 1].type === 'cmd') {
+        var cmdSpan = document.createElement('span');
+        cmdSpan.className = 't-cmd';
+        div.appendChild(cmdSpan);
+        lines[i + 1]._skip = true;
+
+        pendingLines.push({
+          div: div,
+          typing: true,
+          cmdSpan: cmdSpan,
+          cmdText: lines[i + 1].text
+        });
+        terminal.appendChild(div);
+        return;
+      }
+    } else {
+      var clsMap = {
+        output: 't-output', success: 't-success', muted: 't-muted',
+        warn: 't-warn', active: 't-active', cmd: 't-cmd',
+        blue: 't-blue', green: 't-green'
+      };
+      var span = document.createElement('span');
+      span.className = clsMap[line.type] || 't-output';
+      span.textContent = line.text;
+      div.appendChild(span);
+    }
+
+    pendingLines.push({ div: div, typing: false });
+    terminal.appendChild(div);
+  });
+
+  var lineIndex = 0;
+
+  /**
+   * Sequentially reveals lines with animation.
+   */
+  function showNextLine() {
+    if (lineIndex >= pendingLines.length) {
+      animating = false;
+      return;
+    }
+
+    var item = pendingLines[lineIndex];
+    item.div.classList.add('visible');
+    lineIndex++;
+
+    if (item.typing) {
+      typeText(item.cmdSpan, item.cmdText, function() {
+        setTimeout(showNextLine, 100);
+      });
+    } else {
+      setTimeout(showNextLine, 50);
+    }
+  }
+
+  setTimeout(showNextLine, 200);
+}
+
+/* Tab click handlers. */
+document.querySelectorAll('.demo-tab').forEach(function(tab) {
+  tab.addEventListener('click', function() { renderDemo(tab.dataset.demo); });
+});
+
+/* Intersection Observer for scroll-reveal animations. */
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+
+/* Initial demo render on page load. */
+window.addEventListener('load', function() {
+  setTimeout(function() { renderDemo('search'); }, 600);
+});
+</script>
+</body>
+</html>
