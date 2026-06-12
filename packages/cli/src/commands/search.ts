@@ -74,8 +74,8 @@ export function registerSearchCommands(program: Command): void {
 
   search
     .command('states')
-    .description('List states for a country')
-    .option('-c, --country <iso2>', 'Country ISO2 code')
+    .description('List states for a country, or all states globally')
+    .option('-c, --country <iso2>', 'Country ISO2 code (omit to get all states globally)')
     .option('--filter <text>', 'Filter by name')
     .action(async (options: { country?: string; filter?: string }, cmd: Command) => {
       const globalOpts = cmd.optsWithGlobals();
@@ -85,22 +85,20 @@ export function registerSearchCommands(program: Command): void {
         noFooter: globalOpts.footer === false,
       };
 
-      let code = options.country?.toUpperCase();
-      if (!code) {
-        if (isTTY()) {
-          const countrySpinner = await createSpinner('Loading countries...', flags);
-          const { data: allCountries } = await get<Country[]>('/countries');
-          countrySpinner.stop();
-          code = await promptCountry(allCountries);
-        } else {
-          process.stderr.write(chalk.red('Country code required. Use --country IN\n'));
-          process.exit(1);
-          return;
-        }
+      const code = options.country?.toUpperCase();
+
+      let endpoint: string;
+      let spinnerText: string;
+      if (code) {
+        endpoint = `/countries/${code}/states`;
+        spinnerText = `Fetching states for ${code}...`;
+      } else {
+        endpoint = '/states';
+        spinnerText = 'Fetching all states...';
       }
 
-      const spinner = await createSpinner(`Fetching states for ${code}...`, flags);
-      const { data, usage } = await get<State[]>(`/countries/${code}/states`);
+      const spinner = await createSpinner(spinnerText, flags);
+      const { data, usage } = await get<State[]>(endpoint);
       spinner.stop();
 
       let states = data;

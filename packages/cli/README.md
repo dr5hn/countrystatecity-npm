@@ -55,6 +55,9 @@ csc search countries
 csc search countries --filter "united"
 csc search countries --json
 
+# List all states globally
+csc search states
+
 # List states for a country
 csc search states --country IN
 csc search states -c US --filter "new"
