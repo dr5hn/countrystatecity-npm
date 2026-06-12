@@ -70,6 +70,12 @@ export async function get<T>(path: string): Promise<ApiResponse<T>> {
         process.exit(1);
       }
 
+      if (status === 403) {
+        console.error(chalk.red('Access denied — this endpoint requires a higher plan.'));
+        console.error(chalk.dim('Run `csc upgrade` to view available plans.'));
+        process.exit(1);
+      }
+
       if (status === 429) {
         console.error(chalk.red('Daily limit reached.'));
         console.error(chalk.yellow('Run `csc upgrade` to increase your limits.'));

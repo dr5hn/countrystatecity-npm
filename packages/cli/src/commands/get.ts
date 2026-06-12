@@ -201,39 +201,4 @@ export function registerGetCommands(program: Command): void {
       printUsageFooter(usage, flags);
     });
 
-  getCmd
-    .command('city <country_iso2> <state_iso2> <city_id>')
-    .description('Get detailed city information by ID')
-    .action(async (countryIso2: string, stateIso2: string, cityId: string, options: Record<string, unknown>, cmd: Command) => {
-      const globalOpts = cmd.optsWithGlobals();
-      const flags: GlobalFlags = {
-        json: globalOpts.json ?? false,
-        quiet: globalOpts.quiet ?? false,
-        noFooter: globalOpts.footer === false,
-      };
-
-      const countryCode = countryIso2.toUpperCase();
-      const stateCode = stateIso2.toUpperCase();
-
-      const spinner = await createSpinner(`Fetching city ${cityId}...`, flags);
-      const { data, usage } = await get<CountryDetail>(
-        `/countries/${countryCode}/states/${stateCode}/cities/${cityId}`
-      );
-      spinner.stop();
-
-      if (flags.json) {
-        printJson(data);
-      } else {
-        const city = data as unknown as { id: number; name: string; state_code: string; country_code: string; latitude: string; longitude: string };
-        printDetail('City:', city.name);
-        printDetail('ID:', String(city.id));
-        printDetail('State:', city.state_code || stateCode);
-        printDetail('Country:', city.country_code || countryCode);
-        if (city.latitude && city.longitude) {
-          printDetail('Coordinates:', `${formatCoord(city.latitude)}, ${formatCoord(city.longitude)}`);
-        }
-      }
-
-      printUsageFooter(usage, flags);
-    });
 }

@@ -35,29 +35,6 @@ interface Region {
   name: string;
 }
 
-interface Currency {
-  id: number;
-  name: string;
-  symbol: string;
-  code?: string;
-}
-
-interface Timezone {
-  id: number;
-  zoneName: string;
-  gmtOffset: number;
-  gmtOffsetName: string;
-  abbreviation: string;
-  tzName: string;
-  countryCode?: string;
-}
-
-interface PhoneCode {
-  id: number;
-  name: string;
-  phonecode: string;
-  iso2?: string;
-}
 
 function resolveFlags(cmd: Command): GlobalFlags {
   const g = cmd.optsWithGlobals();
@@ -161,8 +138,10 @@ export function registerSearchCommands(program: Command): void {
         endpoint = `/countries/${countryCode}/cities`;
         spinnerText = `Fetching all cities for ${countryCode}...`;
       } else {
-        endpoint = '/cities';
-        spinnerText = 'Fetching all cities...';
+        process.stderr.write(chalk.red('Country code required. Use --country IN\n'));
+        process.stderr.write(chalk.dim('Use --state MH to filter by state.\n'));
+        process.exit(1);
+        return;
       }
 
       const spinner = await createSpinner(spinnerText, flags);
@@ -211,101 +190,6 @@ export function registerSearchCommands(program: Command): void {
         printJson(regions);
       } else {
         printTable(['ID', 'Name'], regions.map((r) => [String(r.id), r.name]));
-      }
-      printUsageFooter(usage, flags);
-    });
-
-  // ── currencies ─────────────────────────────────────────────────────────────
-  search
-    .command('currencies')
-    .description('List all currencies')
-    .option('--filter <text>', 'Filter by name or code')
-    .action(async (options: { filter?: string }, cmd: Command) => {
-      const flags = resolveFlags(cmd);
-      const spinner = await createSpinner('Fetching currencies...', flags);
-      const { data, usage } = await get<Currency[]>('/currencies');
-      spinner.stop();
-
-      let currencies = data;
-      if (options.filter) {
-        const term = options.filter.toLowerCase();
-        currencies = currencies.filter(
-          (c) => c.name.toLowerCase().includes(term) || (c.code || '').toLowerCase().includes(term)
-        );
-      }
-
-      if (flags.json) {
-        printJson(currencies);
-      } else {
-        printTable(
-          ['ID', 'Name', 'Symbol', 'Code'],
-          currencies.map((c) => [String(c.id), c.name, c.symbol || '', c.code || ''])
-        );
-      }
-      printUsageFooter(usage, flags);
-    });
-
-  // ── timezones ──────────────────────────────────────────────────────────────
-  search
-    .command('timezones')
-    .description('List all timezones')
-    .option('-c, --country <iso2>', 'Filter by country ISO2 code')
-    .option('--filter <text>', 'Filter by zone name or abbreviation')
-    .action(async (options: { country?: string; filter?: string }, cmd: Command) => {
-      const flags = resolveFlags(cmd);
-      const spinner = await createSpinner('Fetching timezones...', flags);
-      const { data, usage } = await get<Timezone[]>('/timezones');
-      spinner.stop();
-
-      let timezones = data;
-      if (options.country) {
-        const code = options.country.toUpperCase();
-        timezones = timezones.filter((t) => (t.countryCode || '').toUpperCase() === code);
-      }
-      if (options.filter) {
-        const term = options.filter.toLowerCase();
-        timezones = timezones.filter(
-          (t) => t.zoneName.toLowerCase().includes(term) || t.abbreviation.toLowerCase().includes(term)
-        );
-      }
-
-      if (flags.json) {
-        printJson(timezones);
-      } else {
-        printTable(
-          ['Zone Name', 'Abbreviation', 'UTC Offset', 'TZ Name'],
-          timezones.map((t) => [t.zoneName, t.abbreviation, t.gmtOffsetName || String(t.gmtOffset), t.tzName || ''])
-        );
-      }
-      printUsageFooter(usage, flags);
-    });
-
-  // ── phonecodes ─────────────────────────────────────────────────────────────
-  search
-    .command('phonecodes')
-    .description('List all country phone codes')
-    .option('--filter <text>', 'Filter by country name or code')
-    .action(async (options: { filter?: string }, cmd: Command) => {
-      const flags = resolveFlags(cmd);
-      const spinner = await createSpinner('Fetching phone codes...', flags);
-      const { data, usage } = await get<PhoneCode[]>('/phone-codes');
-      spinner.stop();
-
-      let phonecodes = data;
-      if (options.filter) {
-        const term = options.filter.toLowerCase();
-        phonecodes = phonecodes.filter(
-          (p) => p.name.toLowerCase().includes(term) || (p.iso2 || '').toLowerCase().includes(term)
-        );
-      }
-
-      if (flags.json) {
-        printJson(phonecodes);
-      } else {
-        printTable(
-          ['ISO2', 'Name', 'Phone Code'],
-          phonecodes.map((p) => [p.iso2 || '', p.name, `+${p.phonecode.replace(/^\+/, '')}`])
-        );
       }
       printUsageFooter(usage, flags);
     });
