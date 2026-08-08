@@ -7,6 +7,9 @@ import {
   getStateNameByCode,
   getTimezoneForCity,
   getCountryTimezones,
+  getSubregionsOfRegion,
+  getCountriesByRegion,
+  getCountriesBySubregion,
 } from '../../src/utils';
 import { configure, resetConfiguration } from '../../src/config';
 import { clearCache } from '../../src/loaders';
@@ -26,7 +29,15 @@ function mockFetch(responses: Record<string, unknown>) {
 }
 
 const mockCountries = [
-  { id: 1, name: 'Testland', iso2: 'TL', iso3: 'TLD', numeric_code: '001', phonecode: '1', capital: 'TestCity', currency: 'TLD', currency_name: 'Test Dollar', currency_symbol: '$', tld: '.tl', native: 'Testland', region: 'Test', subregion: 'Test', nationality: 'Tester', latitude: '0.00', longitude: '0.00', emoji: '🏳️', emojiU: 'U+1F3F3' },
+  { id: 1, name: 'Testland', iso2: 'TL', iso3: 'TLD', numeric_code: '001', phonecode: '1', capital: 'TestCity', currency: 'TLD', currency_name: 'Test Dollar', currency_symbol: '$', tld: '.tl', native: 'Testland', population: 1000, gdp: 100, region: 'Test', region_id: 1, subregion: 'Test', subregion_id: 10, nationality: 'Tester', latitude: '0.00', longitude: '0.00', emoji: '🏳️', emojiU: 'U+1F3F3' },
+];
+
+const mockRegions = [
+  { id: 1, name: 'Test', translations: {}, wikiDataId: 'Q1' },
+];
+
+const mockSubregions = [
+  { id: 10, name: 'Test', region_id: 1, translations: {}, wikiDataId: 'Q10' },
 ];
 
 const mockMeta = {
@@ -59,6 +70,10 @@ describe('utils', () => {
       'country/TL.json': mockMeta,
       'states/TL.json': mockStates,
       'cities/TL-AS.json': mockCities,
+      // 'subregions.json' must be checked before 'regions.json' — the latter
+      // is a substring of the former, so URL matching order matters here.
+      'subregions.json': mockSubregions,
+      'regions.json': mockRegions,
     });
   });
 
@@ -131,6 +146,44 @@ describe('utils', () => {
     it('returns empty array for invalid country', async () => {
       const timezones = await getCountryTimezones('ZZ');
       expect(timezones).toEqual([]);
+    });
+  });
+
+  describe('getSubregionsOfRegion', () => {
+    it('returns subregions for a valid region id', async () => {
+      const result = await getSubregionsOfRegion(1);
+      expect(result).toEqual(mockSubregions);
+    });
+    it('returns empty array for unknown region id', async () => {
+      expect(await getSubregionsOfRegion(999)).toEqual([]);
+    });
+  });
+
+  describe('getCountriesByRegion', () => {
+    it('filters by region name (case-insensitive)', async () => {
+      const result = await getCountriesByRegion('test');
+      expect(result).toEqual(mockCountries);
+    });
+    it('filters by region id', async () => {
+      const result = await getCountriesByRegion(1);
+      expect(result).toEqual(mockCountries);
+    });
+    it('returns empty array for unknown region', async () => {
+      expect(await getCountriesByRegion('Narnia')).toEqual([]);
+    });
+  });
+
+  describe('getCountriesBySubregion', () => {
+    it('filters by subregion name (case-insensitive)', async () => {
+      const result = await getCountriesBySubregion('test');
+      expect(result).toEqual(mockCountries);
+    });
+    it('filters by subregion id', async () => {
+      const result = await getCountriesBySubregion(10);
+      expect(result).toEqual(mockCountries);
+    });
+    it('returns empty array for unknown subregion', async () => {
+      expect(await getCountriesBySubregion('Narnia')).toEqual([]);
     });
   });
 });

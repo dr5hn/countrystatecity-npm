@@ -28,8 +28,12 @@ export interface ICountry {
   currency_symbol: string;
   tld: string;
   native: string;
+  population: number | null;
+  gdp: number | null;
   region: string;
+  region_id: number | null;
   subregion: string;
+  subregion_id: number | null;
   nationality: string;
   latitude: string;
   longitude: string;
@@ -42,6 +46,21 @@ export interface ICountryMeta extends ICountry {
   translations: ITranslations;
 }
 
+export interface IRegion {
+  id: number;
+  name: string;
+  translations: ITranslations;
+  wikiDataId: string | null;
+}
+
+export interface ISubregion {
+  id: number;
+  name: string;
+  region_id: number;
+  translations: ITranslations;
+  wikiDataId: string | null;
+}
+
 export interface IState {
   id: number;
   name: string;
@@ -49,6 +68,7 @@ export interface IState {
   country_code: string;
   fips_code: string | null;
   iso2: string;
+  iso3166_2: string | null;
   type: string | null;
   latitude: string | null;
   longitude: string | null;

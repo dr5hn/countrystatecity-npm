@@ -34,6 +34,15 @@ function generateBrowserData(sourceDir, outputDir) {
   const countries = JSON.parse(fs.readFileSync(countriesSource, 'utf-8'));
   console.log(`✓ Copied countries.json (${countries.length} countries)`);
 
+  // 1b. Copy regions.json / subregions.json as-is (small, static reference data)
+  for (const file of ['regions.json', 'subregions.json']) {
+    const src = path.join(sourceDir, file);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(dataDir, file));
+      console.log(`✓ Copied ${file}`);
+    }
+  }
+
   // 2. Process each country directory
   const entries = fs.readdirSync(sourceDir, { withFileTypes: true });
   const countryDirs = entries.filter((e) => e.isDirectory());

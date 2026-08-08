@@ -7,7 +7,11 @@ import {
   getStateNameByCode,
   getTimezoneForCity,
   getCountryTimezones,
+  getSubregionsOfRegion,
+  getCountriesByRegion,
+  getCountriesBySubregion,
 } from '../../src/utils';
+import { getRegions } from '../../src/loaders';
 
 describe('Utility Functions', () => {
   describe('isValidCountryCode', () => {
@@ -104,6 +108,55 @@ describe('Utility Functions', () => {
       const timezones = await getCountryTimezones('INVALID');
       expect(Array.isArray(timezones)).toBe(true);
       expect(timezones.length).toBe(0);
+    });
+  });
+
+  describe('getSubregionsOfRegion', () => {
+    it('should return subregions for a valid region id', async () => {
+      const europe = (await getRegions()).find((r) => r.name === 'Europe');
+      expect(europe).toBeDefined();
+      const subregions = await getSubregionsOfRegion(europe!.id);
+      expect(subregions.length).toBeGreaterThan(0);
+      expect(subregions.some((s) => s.name === 'Western Europe')).toBe(true);
+    });
+
+    it('should return empty array for an unknown region id', async () => {
+      const subregions = await getSubregionsOfRegion(999999);
+      expect(subregions).toEqual([]);
+    });
+  });
+
+  describe('getCountriesByRegion', () => {
+    it('should filter countries by region name (case-insensitive)', async () => {
+      const countries = await getCountriesByRegion('europe');
+      expect(countries.length).toBeGreaterThan(0);
+      expect(countries.some((c) => c.iso2 === 'FR')).toBe(true);
+      expect(countries.every((c) => c.region.toLowerCase() === 'europe')).toBe(true);
+    });
+
+    it('should filter countries by region id', async () => {
+      const europe = (await getRegions()).find((r) => r.name === 'Europe');
+      const countries = await getCountriesByRegion(europe!.id);
+      expect(countries.length).toBeGreaterThan(0);
+      expect(countries.every((c) => c.region_id === europe!.id)).toBe(true);
+    });
+
+    it('should return empty array for an unknown region', async () => {
+      const countries = await getCountriesByRegion('Narnia');
+      expect(countries).toEqual([]);
+    });
+  });
+
+  describe('getCountriesBySubregion', () => {
+    it('should filter countries by subregion name (case-insensitive)', async () => {
+      const countries = await getCountriesBySubregion('western europe');
+      expect(countries.length).toBeGreaterThan(0);
+      expect(countries.some((c) => c.iso2 === 'FR')).toBe(true);
+    });
+
+    it('should return empty array for an unknown subregion', async () => {
+      const countries = await getCountriesBySubregion('Narnia');
+      expect(countries).toEqual([]);
     });
   });
 });

@@ -2,8 +2,14 @@
  * Utility functions for @world/countries
  */
 
-import type { ICity } from './types';
-import { getCountries, getStatesOfCountry, getCitiesOfState, getCountryByCode } from './loaders';
+import type { ICity, ICountry, ISubregion } from './types';
+import {
+  getCountries,
+  getStatesOfCountry,
+  getCitiesOfState,
+  getCountryByCode,
+  getSubregions,
+} from './loaders';
 
 /**
  * Validate if a country code exists
@@ -101,4 +107,42 @@ export async function getCountryTimezones(countryCode: string): Promise<string[]
     return [];
   }
   return countryMeta.timezones.map((tz) => tz.zoneName);
+}
+
+/**
+ * Get all subregions belonging to a region
+ * @param regionId - Region ID (see getRegions())
+ * @returns Promise with array of subregions
+ */
+export async function getSubregionsOfRegion(regionId: number): Promise<ISubregion[]> {
+  const subregions = await getSubregions();
+  return subregions.filter((s) => s.region_id === regionId);
+}
+
+/**
+ * Get all countries in a region
+ * @param region - Region name (case-insensitive, e.g. 'Europe') or region ID
+ * @returns Promise with array of countries
+ */
+export async function getCountriesByRegion(region: string | number): Promise<ICountry[]> {
+  const countries = await getCountries();
+  if (typeof region === 'number') {
+    return countries.filter((c) => c.region_id === region);
+  }
+  const term = region.toLowerCase();
+  return countries.filter((c) => c.region?.toLowerCase() === term);
+}
+
+/**
+ * Get all countries in a subregion
+ * @param subregion - Subregion name (case-insensitive, e.g. 'South America') or subregion ID
+ * @returns Promise with array of countries
+ */
+export async function getCountriesBySubregion(subregion: string | number): Promise<ICountry[]> {
+  const countries = await getCountries();
+  if (typeof subregion === 'number') {
+    return countries.filter((c) => c.subregion_id === subregion);
+  }
+  const term = subregion.toLowerCase();
+  return countries.filter((c) => c.subregion?.toLowerCase() === term);
 }

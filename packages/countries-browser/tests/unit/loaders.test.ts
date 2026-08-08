@@ -8,6 +8,8 @@ import {
   getCityById,
   getAllCitiesOfCountry,
   getAllCitiesInWorld,
+  getRegions,
+  getSubregions,
   clearCache,
 } from '../../src/loaders';
 import { configure, resetConfiguration } from '../../src/config';
@@ -50,6 +52,14 @@ const mockOtherCities = [
   { id: 200, name: 'AnotherCity', state_id: 11, state_code: 'OS', country_id: 1, country_code: 'TC', latitude: '2.10', longitude: '2.10', native: null, timezone: 'Test/Zone', translations: {} },
 ];
 
+const mockRegions = [
+  { id: 1, name: 'TestRegion', translations: {}, wikiDataId: 'Q1' },
+];
+
+const mockSubregions = [
+  { id: 10, name: 'TestSub', region_id: 1, translations: {}, wikiDataId: 'Q10' },
+];
+
 describe('loaders', () => {
   beforeEach(() => {
     resetConfiguration();
@@ -62,6 +72,10 @@ describe('loaders', () => {
       'states/TC.json': mockStates,
       'cities/TC-TS.json': mockCities,
       'cities/TC-OS.json': mockOtherCities,
+      // 'subregions.json' must be checked before 'regions.json' — the latter
+      // is a substring of the former, so URL matching order matters here.
+      'subregions.json': mockSubregions,
+      'regions.json': mockRegions,
     });
   });
 
@@ -170,6 +184,20 @@ describe('loaders', () => {
     it('loads cities from all countries', async () => {
       const result = await getAllCitiesInWorld();
       expect(result).toHaveLength(3);
+    });
+  });
+
+  describe('getRegions', () => {
+    it('returns list of regions', async () => {
+      const result = await getRegions();
+      expect(result).toEqual(mockRegions);
+    });
+  });
+
+  describe('getSubregions', () => {
+    it('returns list of subregions', async () => {
+      const result = await getSubregions();
+      expect(result).toEqual(mockSubregions);
     });
   });
 });

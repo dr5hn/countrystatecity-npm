@@ -9,6 +9,8 @@ export type {
   ICountryMeta,
   IState,
   ICity,
+  IRegion,
+  ISubregion,
   ITimezone,
   ITranslations,
 } from './types';
@@ -23,6 +25,8 @@ export {
   getAllCitiesOfCountry,
   getAllCitiesInWorld,
   getCityById,
+  getRegions,
+  getSubregions,
 } from './loaders';
 
 // Export utilities
@@ -34,6 +38,9 @@ export {
   getStateNameByCode,
   getTimezoneForCity,
   getCountryTimezones,
+  getSubregionsOfRegion,
+  getCountriesByRegion,
+  getCountriesBySubregion,
 } from './utils';
 
 // Default export for convenience
