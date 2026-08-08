@@ -8,8 +8,10 @@
     "typecheck": "turbo run typecheck",
     "dev": "turbo run dev",
     "fetch-database": "node scripts/fetch-database.cjs",
+    "fetch-postcodes": "node scripts/fetch-postcodes.cjs",
     "generate-data": "node scripts/generate-all.cjs",
     "update-data": "pnpm fetch-database && pnpm generate-data && pnpm build",
+    "update-postcodes": "pnpm fetch-postcodes && pnpm generate-data && pnpm --filter @countrystatecity/postalcodes build",
     "lint": "turbo run lint",
     "clean": "turbo run clean && rm -rf node_modules"
   },

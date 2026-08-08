@@ -13,6 +13,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SOURCE_FILE = path.join(ROOT, 'data', 'source.json');
+const POSTCODES_SOURCE_FILE = path.join(ROOT, 'data', 'postcodes-source.json');
 
 if (!fs.existsSync(SOURCE_FILE)) {
   console.error('❌ data/source.json not found.');
@@ -100,6 +101,20 @@ async function main() {
     `node scripts/generate-data.cjs "${countriesDataDir}"`,
     path.join(ROOT, 'packages/countries-browser'),
   );
+
+  // ── Batch 3 (independent): postalcodes — own source file, optional ─────────
+  console.log('\n── Batch 3 (independent): postalcodes ──');
+
+  if (fs.existsSync(POSTCODES_SOURCE_FILE)) {
+    run(
+      'postalcodes',
+      `node scripts/generate-data.cjs "${POSTCODES_SOURCE_FILE}"`,
+      path.join(ROOT, 'packages/postalcodes'),
+    );
+  } else {
+    console.log('⚠ data/postcodes-source.json not found — skipping postalcodes.');
+    console.log('  Run: pnpm fetch-postcodes  (large: ~9MB gz / ~324MB decompressed)');
+  }
 
   console.log('\n✅ All packages updated successfully.');
   console.log('   Run: pnpm build  to rebuild with new data.\n');
