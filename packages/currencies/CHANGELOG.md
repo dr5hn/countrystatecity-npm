@@ -1,5 +1,12 @@
 # @countrystatecity/currencies
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated data from countries-states-cities-database
+
+
 ## 1.0.4
 
 ### Patch Changes
