@@ -4,7 +4,8 @@
  *
  * Order of execution:
  *   Batch 1 (parallel): countries, timezones, currencies, translations, phonecodes — all read from source.json
- *   Batch 2 (sequential): countries-browser — reads from countries/src/data/ output
+ *   Batch 2 (parallel): countries-browser, geojson — both read from countries/src/data/ output
+ *   Batch 3 (independent): postalcodes — own source file, optional
  */
 
 const { execSync, spawn } = require('child_process');
@@ -87,8 +88,8 @@ async function main() {
     },
   ]);
 
-  // ── Batch 2: countries-browser depends on countries/src/data/ ──────────────
-  console.log('\n── Batch 2 (sequential): countries-browser ──');
+  // ── Batch 2: countries-browser, geojson both depend on countries/src/data/ ──
+  console.log('\n── Batch 2 (parallel): countries-browser, geojson ──');
 
   const countriesDataDir = path.join(ROOT, 'packages/countries/src/data');
   if (!fs.existsSync(countriesDataDir)) {
@@ -96,11 +97,18 @@ async function main() {
     process.exit(1);
   }
 
-  run(
-    'countries-browser',
-    `node scripts/generate-data.cjs "${countriesDataDir}"`,
-    path.join(ROOT, 'packages/countries-browser'),
-  );
+  await runParallel([
+    {
+      label: 'countries-browser',
+      cmd: `node scripts/generate-data.cjs "${countriesDataDir}"`,
+      cwd: path.join(ROOT, 'packages/countries-browser'),
+    },
+    {
+      label: 'geojson',
+      cmd: `node scripts/generate-data.cjs "${countriesDataDir}"`,
+      cwd: path.join(ROOT, 'packages/geojson'),
+    },
+  ]);
 
   // ── Batch 3 (independent): postalcodes — own source file, optional ─────────
   console.log('\n── Batch 3 (independent): postalcodes ──');
