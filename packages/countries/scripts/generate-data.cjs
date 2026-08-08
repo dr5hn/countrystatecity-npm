@@ -44,8 +44,12 @@ function generateSplitData(sourceFile, outputDir) {
     currency_symbol: country.currency_symbol,
     tld: country.tld,
     native: country.native,
+    population: country.population,
+    gdp: country.gdp,
     region: country.region,
+    region_id: country.region_id,
     subregion: country.subregion,
+    subregion_id: country.subregion_id,
     nationality: country.nationality,
     latitude: country.latitude,
     longitude: country.longitude,
@@ -99,6 +103,7 @@ function generateSplitData(sourceFile, outputDir) {
       country_code: country.iso2,
       fips_code: null, // Not in source data
       iso2: state.iso2,
+      iso3166_2: state.iso3166_2 || null,
       type: state.type,
       latitude: state.latitude,
       longitude: state.longitude,
@@ -144,7 +149,23 @@ function generateSplitData(sourceFile, outputDir) {
       totalCities += citiesList.length;
     });
   });
-  
+
+  // Copy vendored regions/subregions reference data (not in source.json —
+  // upstream only publishes these on the mutable master branch, not a
+  // versioned release asset. This is a tiny (6 + 22 record), essentially
+  // static dataset — continents/subregions don't change — so it's fetched
+  // once and checked in as a seed file rather than fetched automatically.
+  console.log('\n📝 Copying regions/subregions reference data...');
+  fs.copyFileSync(
+    path.join(__dirname, '..', 'data', 'regions-seed.json'),
+    path.join(dataDir, 'regions.json')
+  );
+  fs.copyFileSync(
+    path.join(__dirname, '..', 'data', 'subregions-seed.json'),
+    path.join(dataDir, 'subregions.json')
+  );
+  console.log('✓ Created regions.json and subregions.json');
+
   console.log('\n✅ Data generation complete!');
   console.log(`📊 Statistics:`);
   console.log(`   - Countries: ${countries.length}`);

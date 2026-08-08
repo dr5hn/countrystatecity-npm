@@ -4,7 +4,7 @@
  * Falls back to fs.readFileSync for CommonJS environments
  */
 
-import type { ICountry, ICountryMeta, IState, ICity } from './types';
+import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion } from './types';
 
 // Cache for country code to directory name mapping
 let countryDirMap: Map<string, string> | null = null;
@@ -191,6 +191,24 @@ async function getStateDirName(countryCode: string, stateCode: string): Promise<
  */
 export async function getCountries(): Promise<ICountry[]> {
   return loadJSON<ICountry[]>('./data/countries.json');
+}
+
+/**
+ * Get list of all regions (continents)
+ * @returns Promise with array of regions
+ * @bundle ~3KB - Loads regions.json
+ */
+export async function getRegions(): Promise<IRegion[]> {
+  return loadJSON<IRegion[]>('./data/regions.json');
+}
+
+/**
+ * Get list of all subregions
+ * @returns Promise with array of subregions
+ * @bundle ~13KB - Loads subregions.json
+ */
+export async function getSubregions(): Promise<ISubregion[]> {
+  return loadJSON<ISubregion[]>('./data/subregions.json');
 }
 
 /**

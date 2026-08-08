@@ -94,6 +94,14 @@ Get every city globally.
 - **Warning:** MASSIVE data (8MB+), rarely needed
 - **Returns:** `Promise<ICity[]>`
 
+#### `getRegions()`
+Get list of all regions (continents).
+- **Returns:** `Promise<IRegion[]>`
+
+#### `getSubregions()`
+Get list of all subregions.
+- **Returns:** `Promise<ISubregion[]>`
+
 ### Utility Functions
 
 #### `isValidCountryCode(code: string)`
@@ -123,6 +131,18 @@ Get timezone for specific city.
 #### `getCountryTimezones(countryCode: string)`
 Get all timezones for a country.
 - **Returns:** `Promise<string[]>`
+
+#### `getSubregionsOfRegion(regionId: number)`
+Get all subregions belonging to a region.
+- **Returns:** `Promise<ISubregion[]>`
+
+#### `getCountriesByRegion(region: string | number)`
+Get all countries in a region, by name (case-insensitive, e.g. `'Europe'`) or region ID.
+- **Returns:** `Promise<ICountry[]>`
+
+#### `getCountriesBySubregion(subregion: string | number)`
+Get all countries in a subregion, by name (case-insensitive, e.g. `'South America'`) or subregion ID.
+- **Returns:** `Promise<ICountry[]>`
 
 ### Configuration
 
@@ -209,7 +229,7 @@ Invalid codes return `null` or `[]` gracefully — no exceptions thrown.
 ## 🔧 TypeScript Types
 
 ```typescript
-import type { ICountry, ICountryMeta, IState, ICity, ITimezone } from '@countrystatecity/countries-browser';
+import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion, ITimezone } from '@countrystatecity/countries-browser';
 ```
 
 ## 📊 Bundle Size

@@ -22,7 +22,7 @@ describe('iOS Safari Compatibility', () => {
     expect(countries.length).toBeGreaterThan(0);
     
     // Should be small bundle
-    expect(JSON.stringify(countries).length).toBeLessThan(100000); // Less than 100KB
+    expect(JSON.stringify(countries).length).toBeLessThan(150000); // Less than 150KB
   });
 
   it('should load states without stack overflow', async () => {

@@ -6,6 +6,8 @@ import {
   getStateByCode,
   getCitiesOfState,
   getCityById,
+  getRegions,
+  getSubregions,
 } from '../../src/loaders';
 
 describe('Data Loaders', () => {
@@ -129,6 +131,34 @@ describe('Data Loaders', () => {
     it('should return null for invalid city ID', async () => {
       const city = await getCityById('US', 'CA', 99999999);
       expect(city).toBeNull();
+    });
+  });
+
+  describe('getRegions', () => {
+    it('should return the 6 continents', async () => {
+      const regions = await getRegions();
+      expect(regions.length).toBe(6);
+      expect(regions.some((r) => r.name === 'Europe')).toBe(true);
+    });
+
+    it('should include translations and wikiDataId', async () => {
+      const regions = await getRegions();
+      const europe = regions.find((r) => r.name === 'Europe');
+      expect(europe?.translations).toBeDefined();
+      expect(europe?.wikiDataId).toBeDefined();
+    });
+  });
+
+  describe('getSubregions', () => {
+    it('should return all subregions', async () => {
+      const subregions = await getSubregions();
+      expect(subregions.length).toBe(22);
+      expect(subregions.some((s) => s.name === 'Western Europe')).toBe(true);
+    });
+
+    it('should link each subregion to a region_id', async () => {
+      const subregions = await getSubregions();
+      expect(subregions.every((s) => typeof s.region_id === 'number')).toBe(true);
     });
   });
 });

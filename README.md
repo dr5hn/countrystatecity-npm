@@ -9,9 +9,11 @@
 [![](https://img.shields.io/npm/dt/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies)
 [![](https://img.shields.io/npm/dt/@countrystatecity/translations?label=translations)](https://www.npmjs.com/package/@countrystatecity/translations)
 [![](https://img.shields.io/npm/dt/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes)
+[![](https://img.shields.io/npm/dt/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes)
+[![](https://img.shields.io/npm/dt/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson)
 [![](https://img.shields.io/npm/dt/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli)
 
-Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, timezones, currencies, translations, phone codes, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
+Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, regions, timezones, currencies, translations, phone codes, postal codes, GeoJSON, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
 
 ---
 
@@ -25,6 +27,8 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/currencies`](https://www.npmjs.com/package/@countrystatecity/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
 | [`@countrystatecity/translations`](https://www.npmjs.com/package/@countrystatecity/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
 | [`@countrystatecity/phonecodes`](https://www.npmjs.com/package/@countrystatecity/phonecodes) | 250 country phone/dial codes with lookup, reverse lookup & formatting | Node.js / Browser | <3KB |
+| [`@countrystatecity/postalcodes`](https://www.npmjs.com/package/@countrystatecity/postalcodes) | 844,000+ postal codes across 125 countries with locality search & validation | Node.js / Server | Lazy-loaded |
+| [`@countrystatecity/geojson`](https://www.npmjs.com/package/@countrystatecity/geojson) | Countries/states/cities as GeoJSON `Point` FeatureCollections (no boundary polygons) | Browser / Any | Lazy-loaded |
 | [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
 
 ---
@@ -49,6 +53,12 @@ npm install @countrystatecity/translations
 
 # Phone codes
 npm install @countrystatecity/phonecodes
+
+# Postal codes
+npm install @countrystatecity/postalcodes
+
+# GeoJSON (browser / mapping libraries)
+npm install @countrystatecity/geojson
 
 # CLI (global install)
 npm install -g @countrystatecity/cli
@@ -75,6 +85,15 @@ const states = await getStatesOfCountry('US');
 
 const cities = await getCitiesOfState('US', 'CA');
 // [{ id: 110992, name: 'Los Angeles', latitude: '34.05', longitude: '-118.24', ... }, ...]
+
+// Regions & subregions
+import { getRegions, getCountriesByRegion } from '@countrystatecity/countries';
+
+const regions = await getRegions();
+// [{ id: 4, name: 'Europe', translations: {...}, wikiDataId: 'Q46' }, ...]
+
+const europeanCountries = await getCountriesByRegion('Europe');
+// [{ id: 6, name: 'Andorra', iso2: 'AD', region: 'Europe', ... }, ...]
 ```
 
 ### Timezones
@@ -169,6 +188,40 @@ getTranslationOrFallback(entry, 'hi');   // "जापान"
 getTranslationOrFallback(entry, 'xx');   // "Japan"  ← falls back to English
 ```
 
+### Postal Codes
+
+```typescript
+import {
+  validatePostalCode,
+  lookupPostalCode,
+  searchPostalCodesByLocalityInCountry,
+} from '@countrystatecity/postalcodes';
+
+const isValid = await validatePostalCode('AD', 'AD100');
+// true — existence check against the real dataset, not a format regex
+
+const matches = await lookupPostalCode('AD', 'AD100');
+// [{ code: 'AD100', locality_name: 'Canillo', state_code: '02', ... }]
+
+const places = await searchPostalCodesByLocalityInCountry('AD', 'Canillo');
+// [{ code: 'AD100', locality_name: 'Canillo', ... }]
+```
+
+### GeoJSON
+
+```typescript
+import { getCountriesGeoJSON, getStatesGeoJSON } from '@countrystatecity/geojson';
+
+const countries = await getCountriesGeoJSON();
+// { type: 'FeatureCollection', features: [{ type: 'Feature', geometry: { type: 'Point', coordinates: [-97, 38] }, properties: { id: 233, name: 'United States', iso2: 'US', iso3: 'USA' } }, ...] }
+
+// Drop straight into Leaflet: L.geoJSON(countries).addTo(map);
+
+const states = await getStatesGeoJSON('US');
+```
+
+> Note: these are `Point` features (one coordinate per country/state/city), not boundary polygons — there's no shape/outline data available upstream for choropleth-style rendering.
+
 ---
 
 ## Data Coverage
@@ -178,10 +231,13 @@ getTranslationOrFallback(entry, 'xx');   // "Japan"  ← falls back to English
 | Countries | 250 |
 | States / Provinces | 5,000+ |
 | Cities | 150,000+ |
+| Regions (continents) | 6 |
+| Subregions | 22 |
 | IANA Timezones | 392 |
 | ISO 4217 Currencies | 155 |
 | Translation Locales | 19 |
 | Phone Codes | 250 |
+| Postal Codes | 844,000+ across 125 countries |
 
 **Locales:** `ar`, `br`, `de`, `es`, `fa`, `fr`, `hi`, `hr`, `it`, `ja`, `ko`, `nl`, `pl`, `pt`, `pt-BR`, `ru`, `tr`, `uk`, `zh-CN`
 
@@ -198,12 +254,16 @@ countrystatecity-npm/
 │   ├── currencies/          # @countrystatecity/currencies
 │   ├── translations/        # @countrystatecity/translations
 │   ├── phonecodes/          # @countrystatecity/phonecodes
+│   ├── postalcodes/         # @countrystatecity/postalcodes
+│   ├── geojson/             # @countrystatecity/geojson
 │   └── cli/                 # @countrystatecity/cli
 ├── scripts/
-│   ├── fetch-database.cjs   # Downloads latest source JSON
+│   ├── fetch-database.cjs   # Downloads latest combined source JSON
+│   ├── fetch-postcodes.cjs  # Downloads latest postal codes JSON (separate release asset)
 │   └── generate-all.cjs     # Runs all package data generators
 ├── data/
-│   └── source.json          # Raw source (git-ignored, fetched by CI)
+│   ├── source.json          # Raw source (git-ignored, fetched by CI)
+│   └── postcodes-source.json # Raw postal codes source (git-ignored, fetched manually)
 ├── .github/workflows/
 │   ├── ci.yml               # Pipeline: fetch → generate → typecheck → build → test → open PR
 │   ├── release.yml          # Triggered on data-update PR merge → bumps versions + changelogs
@@ -250,7 +310,11 @@ pnpm dev
 # 1. Fetch the latest source database
 pnpm fetch-database
 
-# 2. Generate data for all packages
+# 1b. Optional: fetch postal codes too (large: ~9MB gz / ~324MB decompressed,
+#     kept separate since most contributors don't need it)
+pnpm fetch-postcodes
+
+# 2. Generate data for all packages (skips postalcodes if 1b wasn't run)
 pnpm generate-data
 
 # 3. Build and test
@@ -333,6 +397,8 @@ Go to **Actions → Release → Run workflow** on GitHub. Once `release.yml` com
 | `@countrystatecity/currencies` | [![](https://img.shields.io/npm/dm/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies) | [![](https://img.shields.io/npm/dw/@countrystatecity/currencies?label=currencies)](https://www.npmjs.com/package/@countrystatecity/currencies) |
 | `@countrystatecity/translations` | [![](https://img.shields.io/npm/dm/@countrystatecity/translations?label=translations)](https://www.npmjs.com/package/@countrystatecity/translations) | [![](https://img.shields.io/npm/dw/@countrystatecity/translations?label=translations)](https://www.npmjs.com/package/@countrystatecity/translations) |
 | `@countrystatecity/phonecodes` | [![](https://img.shields.io/npm/dm/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes) | [![](https://img.shields.io/npm/dw/@countrystatecity/phonecodes?label=phonecodes)](https://www.npmjs.com/package/@countrystatecity/phonecodes) |
+| `@countrystatecity/postalcodes` | [![](https://img.shields.io/npm/dm/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes) | [![](https://img.shields.io/npm/dw/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes) |
+| `@countrystatecity/geojson` | [![](https://img.shields.io/npm/dm/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson) | [![](https://img.shields.io/npm/dw/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson) |
 | `@countrystatecity/cli` | [![](https://img.shields.io/npm/dm/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli) | [![](https://img.shields.io/npm/dw/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli) |
 
 ---
