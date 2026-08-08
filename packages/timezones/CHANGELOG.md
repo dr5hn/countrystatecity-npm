@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.8
+
+### Patch Changes
+
+- Updated data from countries-states-cities-database
+
+
 ## 1.0.7
 
 ### Patch Changes
