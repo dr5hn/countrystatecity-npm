@@ -104,10 +104,11 @@ jobs:
       - name: Detect data changes
         id: check
         run: |
-          if git diff --name-only -- 'packages/*/src/data' | grep -q .; then
+          CHANGED=$(git diff --name-only | grep -E '^packages/[^/]+/src/data/' || true)
+          if [ -n "$CHANGED" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "Changes detected:"
-            git diff --stat -- 'packages/*/src/data'
+            echo "$CHANGED"
           else
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No data changes — data is already up to date."
