@@ -9,9 +9,10 @@ import type {
   ICitiesFeatureCollection,
   ICountryFeature,
 } from './types';
-import { getConfig } from './config';
+import { getConfig, onConfigChange } from './config';
 import { fetchJSON } from './fetcher';
 import { LRUCache } from './cache';
+import { NetworkError } from './errors';
 
 let cache: LRUCache<string, unknown> | null = null;
 
@@ -29,15 +30,33 @@ export function clearCache(): void {
   cache = null;
 }
 
-const EMPTY_COLLECTION = { type: 'FeatureCollection' as const, features: [] };
+// Entries cached under one baseURL/cacheSize must not survive a config change.
+onConfigChange(clearCache);
 
-async function loadCached<T>(key: string): Promise<T> {
+/** A fresh, caller-owned empty FeatureCollection. */
+function emptyCollection() {
+  return { type: 'FeatureCollection' as const, features: [] };
+}
+
+/**
+ * Copy a FeatureCollection so callers cannot mutate any cached nested value.
+ */
+function copyCollection<T extends { features: unknown[] }>(collection: T): T {
+  return structuredClone(collection);
+}
+
+/** True when the error means "this file does not exist on the CDN" (HTTP 404). */
+function isNotFound(error: unknown): boolean {
+  return error instanceof NetworkError && error.statusCode === 404;
+}
+
+async function loadCached<T extends { features: unknown[] }>(key: string): Promise<T> {
   const c = getCache();
   const cached = c.get(key);
-  if (cached !== undefined) return cached as T;
+  if (cached !== undefined) return copyCollection(cached as T);
   const data = await fetchJSON<T>(`/data/${key}`);
   c.set(key, data);
-  return data;
+  return copyCollection(data);
 }
 
 /**
@@ -63,14 +82,16 @@ export async function getCountryGeoJSON(countryCode: string): Promise<ICountryFe
 /**
  * Get all states/provinces of a country as a GeoJSON FeatureCollection of Points.
  * @param countryCode - ISO2 country code
- * @returns FeatureCollection, empty if country not found or has no states
+ * @returns FeatureCollection, empty if the country is not found or has no states
+ * @throws NetworkError | TimeoutError on CDN/network failures (a 404 is NOT an error)
  */
 export async function getStatesGeoJSON(countryCode: string): Promise<IStatesFeatureCollection> {
-  if (!countryCode) return EMPTY_COLLECTION;
+  if (!countryCode) return emptyCollection();
   try {
     return await loadCached<IStatesFeatureCollection>(`states/${countryCode.toUpperCase()}.geojson`);
-  } catch {
-    return EMPTY_COLLECTION;
+  } catch (error) {
+    if (isNotFound(error)) return emptyCollection();
+    throw error;
   }
 }
 
@@ -79,18 +100,20 @@ export async function getStatesGeoJSON(countryCode: string): Promise<IStatesFeat
  * @param countryCode - ISO2 country code
  * @param stateCode - State code
  * @returns FeatureCollection, empty if not found
+ * @throws NetworkError | TimeoutError on CDN/network failures (a 404 is NOT an error)
  */
 export async function getCitiesGeoJSON(
   countryCode: string,
   stateCode: string,
 ): Promise<ICitiesFeatureCollection> {
-  if (!countryCode || !stateCode) return EMPTY_COLLECTION;
+  if (!countryCode || !stateCode) return emptyCollection();
   try {
     return await loadCached<ICitiesFeatureCollection>(
       `cities/${countryCode.toUpperCase()}-${stateCode.toUpperCase()}.geojson`,
     );
-  } catch {
-    return EMPTY_COLLECTION;
+  } catch (error) {
+    if (isNotFound(error)) return emptyCollection();
+    throw error;
   }
 }
 
