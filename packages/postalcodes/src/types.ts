@@ -14,7 +14,7 @@ export interface IPostalCode {
   code: string;
   country_code: string;
   state_code: string | null;
-  locality_name: string;
+  locality_name: string | null;
   type: string;
   latitude: string | null;
   longitude: string | null;
