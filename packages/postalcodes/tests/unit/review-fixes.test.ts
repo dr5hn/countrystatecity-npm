@@ -134,4 +134,20 @@ describe('caching', () => {
     const second = await getPostalCodesOfState('AD', '02');
     expect(second.length).toBe(originalLength);
   });
+
+  it('caller mutation of returned records does not poison later results', async () => {
+    const first = await getPostalCodesOfState('AD', '02');
+    const originalCode = first[0].code;
+    first[0].code = 'CACHE-POISON';
+    const second = await getPostalCodesOfState('AD', '02');
+    expect(second[0].code).toBe(originalCode);
+  });
+
+  it('caller mutation of manifest entries does not poison the cache', async () => {
+    const first = await getManifest();
+    const originalStateCodes = [...first[0].state_codes];
+    first[0].state_codes.length = 0;
+    const second = await getManifest();
+    expect(second[0].state_codes).toEqual(originalStateCodes);
+  });
 });

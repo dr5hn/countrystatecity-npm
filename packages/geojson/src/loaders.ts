@@ -39,11 +39,10 @@ function emptyCollection() {
 }
 
 /**
- * Shallow-copy a FeatureCollection so callers can mutate the collection and
- * its features array without poisoning the cached original.
+ * Copy a FeatureCollection so callers cannot mutate any cached nested value.
  */
 function copyCollection<T extends { features: unknown[] }>(collection: T): T {
-  return { ...collection, features: [...collection.features] };
+  return structuredClone(collection);
 }
 
 /** True when the error means "this file does not exist on the CDN" (HTTP 404). */

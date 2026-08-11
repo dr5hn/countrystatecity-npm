@@ -103,6 +103,15 @@ describe('returned collections are safe to mutate', () => {
     const b = await getStatesGeoJSON('TC');
     expect(b.features).toHaveLength(2);
   });
+
+  it('does not let nested feature mutation poison the cache', async () => {
+    const a = await getStatesGeoJSON('TC');
+    a.features[0].properties.name = 'CACHE-POISON';
+    a.features[0].geometry.coordinates[0] = 999;
+    const b = await getStatesGeoJSON('TC');
+    expect(b.features[0].properties.name).toBe('TestState');
+    expect(b.features[0].geometry.coordinates).toEqual([11, 21]);
+  });
 });
 
 describe('error propagation', () => {

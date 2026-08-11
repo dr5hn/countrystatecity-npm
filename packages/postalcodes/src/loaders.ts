@@ -68,6 +68,16 @@ class LRUCache<V> {
 let manifestCache: IPostalCodeManifestEntry[] | null = null;
 const fileCache = new LRUCache<IPostalCode[]>(50);
 
+/** Return caller-owned postal-code records without exposing cached objects. */
+function copyPostalCodes(codes: IPostalCode[]): IPostalCode[] {
+  return codes.map((code) => ({ ...code }));
+}
+
+/** Return caller-owned manifest entries, including their nested state arrays. */
+function copyManifest(entries: IPostalCodeManifestEntry[]): IPostalCodeManifestEntry[] {
+  return entries.map((entry) => ({ ...entry, state_codes: [...entry.state_codes] }));
+}
+
 /**
  * Clear all in-memory data caches (manifest and state files).
  * Mainly useful in tests; data only changes between package versions.
@@ -194,7 +204,7 @@ export async function getManifest(): Promise<IPostalCodeManifestEntry[]> {
   if (!manifestCache) {
     manifestCache = await loadJSON<IPostalCodeManifestEntry[]>('./data/manifest.json');
   }
-  return [...manifestCache];
+  return copyManifest(manifestCache);
 }
 
 /**
@@ -214,12 +224,12 @@ export async function getPostalCodesOfState(
 
   const key = `${country}/${state}`;
   const cached = fileCache.get(key);
-  if (cached) return [...cached];
+  if (cached) return copyPostalCodes(cached);
 
   try {
     const data = await loadJSON<IPostalCode[]>(`./data/${country}/${state}.json`);
     fileCache.set(key, data);
-    return [...data];
+    return copyPostalCodes(data);
   } catch (error) {
     return handleLoadError(error);
   }
@@ -237,12 +247,12 @@ export async function getUnassignedPostalCodesOfCountry(countryCode: string): Pr
 
   const key = `${country}/_unassigned`;
   const cached = fileCache.get(key);
-  if (cached) return [...cached];
+  if (cached) return copyPostalCodes(cached);
 
   try {
     const data = await loadJSON<IPostalCode[]>(`./data/${country}/_unassigned.json`);
     fileCache.set(key, data);
-    return [...data];
+    return copyPostalCodes(data);
   } catch (error) {
     return handleLoadError(error);
   }
