@@ -62,7 +62,7 @@ export async function searchPostalCodesByLocality(
 ): Promise<IPostalCode[]> {
   const codes = await getPostalCodesOfState(countryCode, stateCode);
   const term = searchTerm.toLowerCase();
-  return codes.filter((p) => p.locality_name.toLowerCase().includes(term));
+  return codes.filter((p) => p.locality_name != null && p.locality_name.toLowerCase().includes(term));
 }
 
 /**
@@ -74,7 +74,7 @@ export async function searchPostalCodesByLocalityInCountry(
 ): Promise<IPostalCode[]> {
   const codes = await getAllPostalCodesOfCountry(countryCode);
   const term = searchTerm.toLowerCase();
-  return codes.filter((p) => p.locality_name.toLowerCase().includes(term));
+  return codes.filter((p) => p.locality_name != null && p.locality_name.toLowerCase().includes(term));
 }
 
 /**

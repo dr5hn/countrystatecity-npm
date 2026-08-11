@@ -11,6 +11,7 @@ export {
   getPostalCodesOfState,
   getUnassignedPostalCodesOfCountry,
   getAllPostalCodesOfCountry,
+  clearCache,
 } from './loaders';
 
 export {

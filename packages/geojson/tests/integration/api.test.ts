@@ -21,7 +21,10 @@ function mockFetch() {
   vi.stubGlobal('fetch', vi.fn().mockImplementation((url: string) => {
     const path = url.replace('https://cdn.test.com/data/', '');
     try {
-      return Promise.resolve({ ok: true, json: () => Promise.resolve(readJSON(path)) });
+      // Read eagerly: a missing data file must surface as a 404 response,
+      // not as a rejection from json() after an ok:true response.
+      const data = readJSON(path);
+      return Promise.resolve({ ok: true, json: () => Promise.resolve(data) });
     } catch {
       return Promise.resolve({ ok: false, status: 404, statusText: 'Not Found' });
     }

@@ -6,6 +6,77 @@
 
 import type { IPostalCode, IPostalCodeManifestEntry } from './types';
 
+/**
+ * Thrown by loadJSON when a data file simply does not exist (every candidate
+ * path failed with ENOENT). Loaders translate this into an empty result;
+ * every other failure (corrupted JSON, permission errors) propagates.
+ */
+class DataFileNotFoundError extends Error {
+  code = 'MODULE_NOT_FOUND';
+}
+
+// Country dirs are strictly two uppercase letters; state files are short
+// uppercase alphanumerics (the only other file, _unassigned.json, is never
+// caller-addressable). Anything else never touches the filesystem.
+const COUNTRY_CODE_PATTERN = /^[A-Z]{2}$/;
+const STATE_CODE_PATTERN = /^[A-Z0-9]{1,10}$/;
+
+/** Uppercase and validate an ISO2 country code; null if not plausibly one. */
+function normalizeCountryCode(code: string): string | null {
+  const normalized = String(code).toUpperCase();
+  return COUNTRY_CODE_PATTERN.test(normalized) ? normalized : null;
+}
+
+/** Uppercase and validate a state code; null if not plausibly one. */
+function normalizeStateCode(code: string): string | null {
+  const normalized = String(code).toUpperCase();
+  return STATE_CODE_PATTERN.test(normalized) ? normalized : null;
+}
+
+/**
+ * Minimal LRU cache over Map insertion order, bounding memory while avoiding
+ * a disk read + JSON.parse of multi-MB state files on every call.
+ */
+class LRUCache<V> {
+  private entries = new Map<string, V>();
+  constructor(private maxSize: number) {}
+
+  /** Get a value, marking it most recently used; undefined on miss. */
+  get(key: string): V | undefined {
+    const value = this.entries.get(key);
+    if (value === undefined) return undefined;
+    this.entries.delete(key);
+    this.entries.set(key, value);
+    return value;
+  }
+
+  /** Store a value, evicting the least recently used entry at capacity. */
+  set(key: string, value: V): void {
+    this.entries.delete(key);
+    this.entries.set(key, value);
+    if (this.entries.size > this.maxSize) {
+      this.entries.delete(this.entries.keys().next().value!);
+    }
+  }
+
+  /** Remove all entries. */
+  clear(): void {
+    this.entries.clear();
+  }
+}
+
+let manifestCache: IPostalCodeManifestEntry[] | null = null;
+const fileCache = new LRUCache<IPostalCode[]>(50);
+
+/**
+ * Clear all in-memory data caches (manifest and state files).
+ * Mainly useful in tests; data only changes between package versions.
+ */
+export function clearCache(): void {
+  manifestCache = null;
+  fileCache.clear();
+}
+
 // Helper to check if we're in a Node.js environment
 function isNodeEnvironment(): boolean {
   return typeof process !== 'undefined' &&
@@ -75,42 +146,55 @@ async function loadJSON<T>(path: string): Promise<T> {
   ];
 
   let data: string | null = null;
-  let lastError: any = null;
+  const readErrors: any[] = [];
 
   for (const fullPath of possiblePaths) {
     try {
       data = fs.readFileSync(fullPath, 'utf-8');
       break;
     } catch (readError) {
-      lastError = readError;
+      readErrors.push(readError);
       continue;
     }
   }
 
   if (data === null) {
-    // If all paths failed, throw the last error with helpful message
-    const err: any = new Error(`Failed to load JSON file: ${path}. Tried paths: ${possiblePaths.join(', ')}`);
-    err.code = 'MODULE_NOT_FOUND';
-    err.originalError = lastError;
-    throw err;
+    // Missing file everywhere -> "not found"; anything else (EACCES, EISDIR, ...)
+    // is a real environment problem the caller must see, not an empty result.
+    const realError = readErrors.find((e) => e?.code !== 'ENOENT');
+    if (realError) throw realError;
+    throw new DataFileNotFoundError(
+      `Failed to load JSON file: ${path}. Tried paths: ${possiblePaths.join(', ')}`
+    );
   }
 
   return JSON.parse(data);
 }
 
-function warnIfEnvironmentError(error: unknown): void {
+/**
+ * Translate a data-loading failure into an empty result where that is the
+ * documented contract (file absent, browser environment), rethrow otherwise.
+ */
+function handleLoadError(error: unknown): [] {
+  if (error instanceof DataFileNotFoundError) return [];
   if (error instanceof Error && (error.message.includes('browser') || error.message.includes('Node.js environment'))) {
     console.warn(`@countrystatecity/postalcodes: ${error.message}`);
+    return [];
   }
+  throw error;
 }
 
 /**
  * Get the manifest of all countries that have postal code data.
  * Not all 250 countries have postal codes — currently ~125 do.
+ * Cached in memory after the first load.
  * @bundle ~21KB - Loads manifest.json
  */
 export async function getManifest(): Promise<IPostalCodeManifestEntry[]> {
-  return loadJSON<IPostalCodeManifestEntry[]>('./data/manifest.json');
+  if (!manifestCache) {
+    manifestCache = await loadJSON<IPostalCodeManifestEntry[]>('./data/manifest.json');
+  }
+  return [...manifestCache];
 }
 
 /**
@@ -124,11 +208,20 @@ export async function getPostalCodesOfState(
   countryCode: string,
   stateCode: string
 ): Promise<IPostalCode[]> {
+  const country = normalizeCountryCode(countryCode);
+  const state = normalizeStateCode(stateCode);
+  if (!country || !state) return [];
+
+  const key = `${country}/${state}`;
+  const cached = fileCache.get(key);
+  if (cached) return [...cached];
+
   try {
-    return await loadJSON<IPostalCode[]>(`./data/${countryCode}/${stateCode}.json`);
+    const data = await loadJSON<IPostalCode[]>(`./data/${country}/${state}.json`);
+    fileCache.set(key, data);
+    return [...data];
   } catch (error) {
-    warnIfEnvironmentError(error);
-    return [];
+    return handleLoadError(error);
   }
 }
 
@@ -139,11 +232,19 @@ export async function getPostalCodesOfState(
  * @returns Promise with array of postal codes, or empty array if none
  */
 export async function getUnassignedPostalCodesOfCountry(countryCode: string): Promise<IPostalCode[]> {
+  const country = normalizeCountryCode(countryCode);
+  if (!country) return [];
+
+  const key = `${country}/_unassigned`;
+  const cached = fileCache.get(key);
+  if (cached) return [...cached];
+
   try {
-    return await loadJSON<IPostalCode[]>(`./data/${countryCode}/_unassigned.json`);
+    const data = await loadJSON<IPostalCode[]>(`./data/${country}/_unassigned.json`);
+    fileCache.set(key, data);
+    return [...data];
   } catch (error) {
-    warnIfEnvironmentError(error);
-    return [];
+    return handleLoadError(error);
   }
 }
 
@@ -155,16 +256,19 @@ export async function getUnassignedPostalCodesOfCountry(countryCode: string): Pr
  * @returns Promise with array of all postal codes in the country
  */
 export async function getAllPostalCodesOfCountry(countryCode: string): Promise<IPostalCode[]> {
+  const country = normalizeCountryCode(countryCode);
+  if (!country) return [];
+
   const manifest = await getManifest();
-  const entry = manifest.find((e) => e.country_code === countryCode);
+  const entry = manifest.find((e) => e.country_code === country);
   if (!entry) return [];
 
   const all: IPostalCode[] = [];
   for (const stateCode of entry.state_codes) {
-    all.push(...(await getPostalCodesOfState(countryCode, stateCode)));
+    all.push(...(await getPostalCodesOfState(country, stateCode)));
   }
   if (entry.has_unassigned) {
-    all.push(...(await getUnassignedPostalCodesOfCountry(countryCode)));
+    all.push(...(await getUnassignedPostalCodesOfCountry(country)));
   }
   return all;
 }
