@@ -89,6 +89,11 @@ jobs:
           path: data/
         continue-on-error: true
 
+      # Fetched here (not in the fetch-data stage) so the ~324MB decompressed
+      # dump never travels through an artifact — it is consumed in this job only.
+      - name: Fetch postcodes data
+        run: pnpm fetch-postcodes
+
       - name: Generate data for all packages
         run: pnpm generate-data
 
