@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "turbo run build",
-    "test": "node --test 'scripts/**/*.test.cjs' && turbo run test",
+    "test": "node --test $(find scripts -name '*.test.cjs') && turbo run test",
     "typecheck": "turbo run typecheck",
     "dev": "turbo run dev",
     "fetch-database": "node scripts/fetch-database.cjs",
