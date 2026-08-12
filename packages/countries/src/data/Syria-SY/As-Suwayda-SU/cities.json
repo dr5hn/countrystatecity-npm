@@ -8,9 +8,12 @@
     "country_code": "SY",
     "latitude": "32.70896000",
     "longitude": "36.56951000",
-    "native": null,
+    "native": "السويداء",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 59052,
+    "wikiDataId": "Q311099"
   },
   {
     "id": 104978,
@@ -21,9 +24,12 @@
     "country_code": "SY",
     "latitude": "32.78127000",
     "longitude": "36.86502000",
-    "native": null,
+    "native": "قضاء السويداء",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q3266216"
   },
   {
     "id": 105069,
@@ -34,9 +40,12 @@
     "country_code": "SY",
     "latitude": "32.87271000",
     "longitude": "36.57271000",
-    "native": null,
+    "native": "شالاخيد",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 12842,
+    "wikiDataId": "Q24343"
   },
   {
     "id": 105068,
@@ -47,9 +56,12 @@
     "country_code": "SY",
     "latitude": "32.49200000",
     "longitude": "36.71114000",
-    "native": null,
+    "native": "شالخاد",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q24343"
   },
   {
     "id": 105043,
@@ -60,9 +72,12 @@
     "country_code": "SY",
     "latitude": "32.51779000",
     "longitude": "36.91954000",
-    "native": null,
+    "native": "منطقة سلخاد",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 60375,
+    "wikiDataId": "Q3265272"
   },
   {
     "id": 105049,
@@ -73,9 +88,12 @@
     "country_code": "SY",
     "latitude": "32.85514000",
     "longitude": "36.62896000",
-    "native": null,
+    "native": "شهبا",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 14784,
+    "wikiDataId": "Q926336"
   },
   {
     "id": 105048,
@@ -86,8 +104,11 @@
     "country_code": "SY",
     "latitude": "33.04282000",
     "longitude": "36.72034000",
-    "native": null,
+    "native": "منطقة الشهباء",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 71949,
+    "wikiDataId": "Q3265263"
   }
 ]

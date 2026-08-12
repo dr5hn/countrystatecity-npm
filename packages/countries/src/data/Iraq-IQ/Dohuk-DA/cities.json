@@ -8,9 +8,12 @@
     "country_code": "IQ",
     "latitude": "37.09214000",
     "longitude": "43.48769000",
-    "native": null,
+    "native": "العمادية",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q460736"
   },
   {
     "id": 134509,
@@ -21,9 +24,12 @@
     "country_code": "IQ",
     "latitude": "37.17454000",
     "longitude": "43.01233000",
-    "native": null,
+    "native": "باتيفا",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 28000,
+    "wikiDataId": "Q48195"
   },
   {
     "id": 134512,
@@ -34,9 +40,12 @@
     "country_code": "IQ",
     "latitude": "36.86709000",
     "longitude": "42.98845000",
-    "native": null,
+    "native": "دهوك",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 340900,
+    "wikiDataId": "Q152831"
   },
   {
     "id": 134541,
@@ -47,9 +56,12 @@
     "country_code": "IQ",
     "latitude": "36.80851000",
     "longitude": "43.03935000",
-    "native": null,
+    "native": "سيناء",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 128776,
+    "wikiDataId": "Q170047"
   },
   {
     "id": 134547,
@@ -60,8 +72,11 @@
     "country_code": "IQ",
     "latitude": "37.14871000",
     "longitude": "42.68591000",
-    "native": null,
+    "native": "زاكسو",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 95052,
+    "wikiDataId": "Q167800"
   }
 ]

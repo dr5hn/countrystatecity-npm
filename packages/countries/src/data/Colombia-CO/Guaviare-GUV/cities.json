@@ -8,9 +8,12 @@
     "country_code": "CO",
     "latitude": "1.95960000",
     "longitude": "-72.65315000",
-    "native": null,
+    "native": "Calamar",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 3745,
+    "wikiDataId": "Q23696198"
   },
   {
     "id": 20823,
@@ -21,9 +24,12 @@
     "country_code": "CO",
     "latitude": "2.33022000",
     "longitude": "-72.62765000",
-    "native": null,
+    "native": "El Retorno",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 11340,
+    "wikiDataId": "Q1526156"
   },
   {
     "id": 21083,
@@ -34,9 +40,12 @@
     "country_code": "CO",
     "latitude": "1.33667000",
     "longitude": "-71.95111000",
-    "native": null,
+    "native": "Miraflores",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 5007,
+    "wikiDataId": "Q980001"
   },
   {
     "id": 21370,
@@ -47,8 +56,11 @@
     "country_code": "CO",
     "latitude": "2.57286000",
     "longitude": "-72.64591000",
-    "native": null,
+    "native": "San José del Guaviare",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 53994,
+    "wikiDataId": "Q864675"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "EE",
     "latitude": "58.74667000",
     "longitude": "26.39389000",
-    "native": null,
+    "native": "Jõgeva",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 6396,
+    "wikiDataId": "Q117513"
   },
   {
     "id": 31615,
@@ -21,9 +24,12 @@
     "country_code": "EE",
     "latitude": "58.78732000",
     "longitude": "26.38122000",
-    "native": null,
+    "native": "Jõgeva vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q1503436"
   },
   {
     "id": 31661,
@@ -34,9 +40,12 @@
     "country_code": "EE",
     "latitude": "58.84861000",
     "longitude": "26.93972000",
-    "native": null,
+    "native": "Mustvee",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1662,
+    "wikiDataId": "Q842021"
   },
   {
     "id": 31683,
@@ -47,9 +56,12 @@
     "country_code": "EE",
     "latitude": "58.65250000",
     "longitude": "25.97056000",
-    "native": null,
+    "native": "Põltsamaa",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 4106,
+    "wikiDataId": "Q642660"
   },
   {
     "id": 31684,
@@ -60,8 +72,11 @@
     "country_code": "EE",
     "latitude": "58.64067000",
     "longitude": "26.00957000",
-    "native": null,
+    "native": "Põltsamaa vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1854978"
   }
 ]

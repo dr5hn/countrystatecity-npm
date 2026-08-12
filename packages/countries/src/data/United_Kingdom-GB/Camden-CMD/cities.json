@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.54767000",
     "longitude": "-0.17228000",
-    "native": null,
+    "native": "Belsize Park",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 11600,
+    "wikiDataId": "Q2080375"
   },
   {
     "id": 48837,
@@ -21,8 +24,11 @@
     "country_code": "GB",
     "latitude": "51.54057000",
     "longitude": "-0.14334000",
-    "native": null,
+    "native": "Camden Town",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 26122,
+    "wikiDataId": "Q1018505"
   }
 ]

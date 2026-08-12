@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.50651000",
     "longitude": "15.14424000",
-    "native": null,
+    "native": "Mesto",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1124,
+    "wikiDataId": "Q635831"
   },
   {
     "id": 104218,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.53417000",
     "longitude": "15.07917000",
-    "native": null,
+    "native": "Spomeniki",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1289,
+    "wikiDataId": "Q2627587"
   },
   {
     "id": 104271,
@@ -34,9 +40,12 @@
     "country_code": "SI",
     "latitude": "46.51028000",
     "longitude": "15.08056000",
-    "native": null,
+    "native": "Slovenj Gradec",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 7249,
+    "wikiDataId": "Q15918"
   },
   {
     "id": 104361,
@@ -47,8 +56,11 @@
     "country_code": "SI",
     "latitude": "46.48944000",
     "longitude": "15.10667000",
-    "native": null,
+    "native": "Šmartno pri Slovenj Gradcu",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1243,
+    "wikiDataId": "Q2188264"
   }
 ]

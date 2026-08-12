@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "41.17444000",
     "longitude": "20.83556000",
-    "native": null,
+    "native": "Косел",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1281,
+    "wikiDataId": "Q3136230"
   },
   {
     "id": 67496,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "41.11722000",
     "longitude": "20.80194000",
-    "native": null,
+    "native": "Охрид",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 38818,
+    "wikiDataId": "Q1223508"
   },
   {
     "id": 67497,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "41.16667000",
     "longitude": "20.83333000",
-    "native": null,
+    "native": "Охридска општина",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1125333"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "DE",
     "latitude": "53.07516000",
     "longitude": "8.80777000",
-    "native": null,
+    "native": "Bremen",
     "timezone": "Europe/Berlin",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 577026,
+    "wikiDataId": "Q24879"
   },
   {
     "id": 24321,
@@ -21,9 +24,12 @@
     "country_code": "DE",
     "latitude": "53.55021000",
     "longitude": "8.57673000",
-    "native": null,
+    "native": "Bremerhaven",
     "timezone": "Europe/Berlin",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 114677,
+    "wikiDataId": "Q2706"
   },
   {
     "id": 24426,
@@ -34,9 +40,12 @@
     "country_code": "DE",
     "latitude": "53.16532000",
     "longitude": "8.68873000",
-    "native": null,
+    "native": "Burglesum",
     "timezone": "Europe/Berlin",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 33000,
+    "wikiDataId": "Q589515"
   },
   {
     "id": 29819,
@@ -47,8 +56,11 @@
     "country_code": "DE",
     "latitude": "53.17052490",
     "longitude": "8.62388030",
-    "native": null,
+    "native": "Vegesack",
     "timezone": "Europe/Berlin",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 37842,
+    "wikiDataId": "Q315005"
   }
 ]

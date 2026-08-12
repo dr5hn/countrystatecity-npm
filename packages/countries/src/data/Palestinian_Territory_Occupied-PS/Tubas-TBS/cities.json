@@ -8,9 +8,12 @@
     "country_code": "PS",
     "latitude": "32.35257060",
     "longitude": "35.32674760",
-    "native": null,
+    "native": "العقبة",
     "timezone": "Asia/Hebron",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3751,
+    "wikiDataId": "Q4540438"
   },
   {
     "id": 154074,
@@ -21,9 +24,12 @@
     "country_code": "PS",
     "latitude": "32.28315510",
     "longitude": "35.36518930",
-    "native": null,
+    "native": "تامون",
     "timezone": "Asia/Gaza",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q275722"
   },
   {
     "id": 154072,
@@ -34,8 +40,11 @@
     "country_code": "PS",
     "latitude": "32.32112010",
     "longitude": "35.34935330",
-    "native": null,
+    "native": "طوباس",
     "timezone": "Asia/Gaza",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q275919"
   }
 ]

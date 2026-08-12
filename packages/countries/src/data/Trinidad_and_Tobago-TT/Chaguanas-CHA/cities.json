@@ -8,9 +8,12 @@
     "country_code": "TT",
     "latitude": "10.51667000",
     "longitude": "-61.41667000",
-    "native": null,
+    "native": "SelectNas",
     "timezone": "America/Port_of_Spain",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 83489,
+    "wikiDataId": "Q4795612"
   },
   {
     "id": 108990,
@@ -21,8 +24,11 @@
     "country_code": "TT",
     "latitude": "10.50000000",
     "longitude": "-61.38333000",
-    "native": null,
+    "native": "Ward of Select",
     "timezone": "America/Port_of_Spain",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1444575"
   }
 ]

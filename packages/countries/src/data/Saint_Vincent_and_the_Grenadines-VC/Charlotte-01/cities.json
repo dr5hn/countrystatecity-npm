@@ -8,9 +8,12 @@
     "country_code": "VC",
     "latitude": "13.19430000",
     "longitude": "-61.13904000",
-    "native": null,
+    "native": "Biabou",
     "timezone": "America/St_Vincent",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1050,
+    "wikiDataId": "Q767607"
   },
   {
     "id": 130031,
@@ -21,9 +24,12 @@
     "country_code": "VC",
     "latitude": "13.25636000",
     "longitude": "-61.11954000",
-    "native": null,
+    "native": "Byera Village",
     "timezone": "America/St_Vincent",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1365,
+    "wikiDataId": "Q5004057"
   },
   {
     "id": 130033,
@@ -34,8 +40,11 @@
     "country_code": "VC",
     "latitude": "13.28054000",
     "longitude": "-61.11850000",
-    "native": null,
+    "native": "Georgetown",
     "timezone": "America/St_Vincent",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 1680,
+    "wikiDataId": "Q2495209"
   }
 ]

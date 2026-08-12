@@ -8,9 +8,12 @@
     "country_code": "EE",
     "latitude": "58.24806000",
     "longitude": "22.50389000",
-    "native": null,
+    "native": "Kuressaare",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 13185,
+    "wikiDataId": "Q188179"
   },
   {
     "id": 31649,
@@ -21,9 +24,12 @@
     "country_code": "EE",
     "latitude": "58.60194000",
     "longitude": "23.24694000",
-    "native": null,
+    "native": "Liiva",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q2670409"
   },
   {
     "id": 31660,
@@ -34,9 +40,12 @@
     "country_code": "EE",
     "latitude": "58.58486000",
     "longitude": "23.25609000",
-    "native": null,
+    "native": "Muhu vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q634654"
   },
   {
     "id": 31670,
@@ -47,9 +56,12 @@
     "country_code": "EE",
     "latitude": "58.55917000",
     "longitude": "23.08262000",
-    "native": null,
+    "native": "Orissaare",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1065,
+    "wikiDataId": "Q3139373"
   },
   {
     "id": 31696,
@@ -60,9 +72,12 @@
     "country_code": "EE",
     "latitude": "57.80028000",
     "longitude": "23.24833000",
-    "native": null,
+    "native": "Ruhnu",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 64,
+    "wikiDataId": "Q2006948"
   },
   {
     "id": 31697,
@@ -73,9 +88,12 @@
     "country_code": "EE",
     "latitude": "57.80309000",
     "longitude": "23.24250000",
-    "native": null,
+    "native": "Ruhnu vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q604504"
   },
   {
     "id": 31723,
@@ -86,8 +104,11 @@
     "country_code": "EE",
     "latitude": "58.18027000",
     "longitude": "22.24646000",
-    "native": null,
+    "native": "Tehumardi",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 0,
+    "wikiDataId": "Q3451173"
   }
 ]

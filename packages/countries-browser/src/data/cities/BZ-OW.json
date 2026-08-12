@@ -8,9 +8,12 @@
     "country_code": "BZ",
     "latitude": "17.80000000",
     "longitude": "-89.10000000",
-    "native": null,
+    "native": "Hopelchén",
     "timezone": "America/Belize",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q888300"
   },
   {
     "id": 16139,
@@ -21,9 +24,12 @@
     "country_code": "BZ",
     "latitude": "18.08124000",
     "longitude": "-88.56328000",
-    "native": null,
+    "native": "Orange Walk",
     "timezone": "America/Belize",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 14553,
+    "wikiDataId": "Q882964"
   },
   {
     "id": 16144,
@@ -34,8 +40,11 @@
     "country_code": "BZ",
     "latitude": "17.89382000",
     "longitude": "-88.65452000",
-    "native": null,
+    "native": "Shipyard",
     "timezone": "America/Belize",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4070,
+    "wikiDataId": "Q737412"
   }
 ]

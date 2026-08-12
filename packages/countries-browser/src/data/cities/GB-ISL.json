@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.56733000",
     "longitude": "-0.13415000",
-    "native": null,
+    "native": "Archway",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 215667,
+    "wikiDataId": "Q630668"
   },
   {
     "id": 48380,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.51988000",
     "longitude": "-0.09446000",
-    "native": null,
+    "native": "Barbican",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 4000,
+    "wikiDataId": "Q2028934"
   },
   {
     "id": 48401,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.54067000",
     "longitude": "-0.11675000",
-    "native": null,
+    "native": "Barnsbury",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10000,
+    "wikiDataId": "Q2049578"
   },
   {
     "id": 49032,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "51.52438000",
     "longitude": "-0.11022000",
-    "native": null,
+    "native": "Clerkenwell",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4934,
+    "wikiDataId": "Q2575384"
   },
   {
     "id": 49962,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "51.55237000",
     "longitude": "-0.12497000",
-    "native": null,
+    "native": "Holloway",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 41329,
+    "wikiDataId": "Q5881488"
   },
   {
     "id": 50086,
@@ -73,8 +88,11 @@
     "country_code": "GB",
     "latitude": "51.53622000",
     "longitude": "-0.10304000",
-    "native": null,
+    "native": "Islington",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 319143,
+    "wikiDataId": "Q2432955"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "GA",
     "latitude": "2.07597000",
     "longitude": "11.50065000",
-    "native": null,
+    "native": "Bita",
     "timezone": "Africa/Libreville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 27923,
+    "wikiDataId": "Q1023124"
   },
   {
     "id": 48144,
@@ -21,9 +24,12 @@
     "country_code": "GA",
     "latitude": "0.78205000",
     "longitude": "11.54904000",
-    "native": null,
+    "native": "Mitzique",
     "timezone": "Africa/Libreville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10522,
+    "wikiDataId": "Q3135733"
   },
   {
     "id": 48153,
@@ -34,8 +40,11 @@
     "country_code": "GA",
     "latitude": "1.59950000",
     "longitude": "11.57933000",
-    "native": null,
+    "native": "Oyem",
     "timezone": "Africa/Libreville",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 60685,
+    "wikiDataId": "Q983886"
   }
 ]

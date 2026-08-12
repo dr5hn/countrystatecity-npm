@@ -46,13 +46,19 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Download latest countries-states-cities database
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm fetch-database
 
       - name: Upload raw source data
         uses: actions/upload-artifact@v7
         with:
           name: source-data
-          path: data/source.json
+          path: |
+            data/source.json
+            data/cities-full.json
+            data/translations.csv
+            data/release.json
           retention-days: 1
 
   # ───────────────────────────────────────────────────────────────────────────
@@ -64,11 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.check.outputs.changed }}
-      countries: ${{ steps.stats.outputs.countries }}
-      timezones: ${{ steps.stats.outputs.timezones }}
-      currencies: ${{ steps.stats.outputs.currencies }}
-      translations: ${{ steps.stats.outputs.translations }}
-      phonecodes: ${{ steps.stats.outputs.phonecodes }}
+      summary: ${{ steps.summary.outputs.summary }}
     steps:
       - uses: actions/checkout@v7
 
@@ -91,20 +93,19 @@ jobs:
 
       # Fetched here (not in the fetch-data stage) so the ~324MB decompressed
       # dump never travels through an artifact — it is consumed in this job only.
+      # Reuses the release tag already pinned by fetch-database (data/release.json)
+      # so country/state/city and postcode data can never come from two releases.
       - name: Fetch postcodes data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm fetch-postcodes
 
       - name: Generate data for all packages
         run: pnpm generate-data
 
-      - name: Collect statistics
-        id: stats
-        run: |
-          echo "countries=$(grep -o '"id"' packages/countries/src/data/countries.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
-          echo "timezones=$(grep -o '"zoneName"' packages/timezones/src/data/timezones.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
-          echo "currencies=$(grep -o '"code"' packages/currencies/src/data/currencies.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
-          echo "translations=$(grep -o '"iso2"' packages/translations/src/data/translations.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
-          echo "phonecodes=$(grep -o '"iso2"' packages/phonecodes/src/data/phonecodes.json | wc -l | tr -d ' ')" >> $GITHUB_OUTPUT
+      - name: Render manifest summary
+        id: summary
+        run: node scripts/print-manifest-summary.cjs
 
       - name: Detect data changes
         id: check
@@ -124,6 +125,17 @@ jobs:
         with:
           name: generated-data
           path: packages/*/src/data
+          retention-days: 1
+
+      # Uploaded as its own artifact (not alongside packages/*/src/data above)
+      # so the typecheck/build/test jobs' `download-artifact path: packages/`
+      # restore keeps working unchanged — mixing a repo-root file into that
+      # artifact would shift its common-ancestor path and break that restore.
+      - name: Upload data manifest
+        uses: actions/upload-artifact@v7
+        with:
+          name: data-manifest
+          path: data-manifest.json
           retention-days: 1
 
   # ───────────────────────────────────────────────────────────────────────────
@@ -269,6 +281,12 @@ jobs:
           name: generated-data
           path: packages/
 
+      - name: Restore data manifest
+        uses: actions/download-artifact@v8
+        with:
+          name: data-manifest
+          path: .
+
       - name: Configure git
         run: |
           git config --global user.name "github-actions[bot]"
@@ -285,14 +303,7 @@ jobs:
 
             Latest data from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database).
 
-            ### Statistics
-            | Package | Count |
-            |---|---|
-            | Countries | ${{ needs.generate-data.outputs.countries }} |
-            | Timezones | ${{ needs.generate-data.outputs.timezones }} |
-            | Currencies | ${{ needs.generate-data.outputs.currencies }} |
-            | Translations | ${{ needs.generate-data.outputs.translations }} |
-            | Phonecodes | ${{ needs.generate-data.outputs.phonecodes }} |
+            ${{ needs.generate-data.outputs.summary }}
 
             ### Verification
             - ✅ Data fetched and generated

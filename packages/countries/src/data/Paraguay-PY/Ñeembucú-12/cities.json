@@ -8,9 +8,12 @@
     "country_code": "PY",
     "latitude": "-27.34215000",
     "longitude": "-57.64119000",
-    "native": null,
+    "native": "Cerrito",
     "timezone": "America/Asuncion",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1036,
+    "wikiDataId": "Q733792"
   },
   {
     "id": 89773,
@@ -21,9 +24,12 @@
     "country_code": "PY",
     "latitude": "-27.20136000",
     "longitude": "-58.36740000",
-    "native": null,
+    "native": "General José Eduvigis Díaz",
     "timezone": "America/Asuncion",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1345,
+    "wikiDataId": "Q47062"
   },
   {
     "id": 89808,
@@ -34,9 +40,12 @@
     "country_code": "PY",
     "latitude": "-26.85874000",
     "longitude": "-58.30639000",
-    "native": null,
+    "native": "Pilar",
     "timezone": "America/Asuncion",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 32810,
+    "wikiDataId": "Q135970"
   },
   {
     "id": 161652,
@@ -47,8 +56,11 @@
     "country_code": "PY",
     "latitude": "-26.02000000",
     "longitude": "-57.87000000",
-    "native": null,
+    "native": "Villa Oliva",
     "timezone": "America/Asuncion",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 990,
+    "wikiDataId": "Q1750358"
   }
 ]

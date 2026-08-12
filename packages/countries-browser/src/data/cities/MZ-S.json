@@ -8,9 +8,12 @@
     "country_code": "MZ",
     "latitude": "-19.84361000",
     "longitude": "34.83889000",
-    "native": null,
+    "native": "Beira",
     "timezone": "Africa/Maputo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 687764,
+    "wikiDataId": "Q211563"
   },
   {
     "id": 76599,
@@ -21,9 +24,12 @@
     "country_code": "MZ",
     "latitude": "-19.60944000",
     "longitude": "34.74306000",
-    "native": null,
+    "native": "Floresta",
     "timezone": "Africa/Maputo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 82260,
+    "wikiDataId": "Q1241126"
   },
   {
     "id": 76620,
@@ -34,8 +40,11 @@
     "country_code": "MZ",
     "latitude": "-19.34900000",
     "longitude": "34.26800000",
-    "native": null,
+    "native": "Distrito de Nhamatanda",
     "timezone": "Africa/Maputo",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 317538,
+    "wikiDataId": "Q10336659"
   }
 ]

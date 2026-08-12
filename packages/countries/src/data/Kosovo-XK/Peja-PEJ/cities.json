@@ -10,7 +10,10 @@
     "longitude": "20.36972000",
     "native": null,
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1050,
+    "wikiDataId": null
   },
   {
     "id": 160182,
@@ -23,7 +26,10 @@
     "longitude": "20.48750000",
     "native": null,
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 40000,
+    "wikiDataId": null
   },
   {
     "id": 160183,
@@ -36,7 +42,10 @@
     "longitude": "20.57778000",
     "native": null,
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 8050,
+    "wikiDataId": null
   },
   {
     "id": 160184,
@@ -49,7 +58,10 @@
     "longitude": "20.46472000",
     "native": null,
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1200,
+    "wikiDataId": null
   },
   {
     "id": 160185,
@@ -62,6 +74,9 @@
     "longitude": "20.28828000",
     "native": null,
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 48962,
+    "wikiDataId": null
   }
 ]

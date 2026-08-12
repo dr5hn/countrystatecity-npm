@@ -8,9 +8,12 @@
     "country_code": "IQ",
     "latitude": "31.40906000",
     "longitude": "46.17270000",
-    "native": null,
+    "native": "الشطرة",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 82732,
+    "wikiDataId": "Q2669841"
   },
   {
     "id": 134529,
@@ -21,9 +24,12 @@
     "country_code": "IQ",
     "latitude": "30.96972000",
     "longitude": "46.72278000",
-    "native": null,
+    "native": "ناحية الفهود",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 21551,
+    "wikiDataId": "Q38811"
   },
   {
     "id": 134528,
@@ -34,8 +40,11 @@
     "country_code": "IQ",
     "latitude": "31.05799000",
     "longitude": "46.25726000",
-    "native": null,
+    "native": "الناصرية",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 541600,
+    "wikiDataId": "Q38811"
   }
 ]

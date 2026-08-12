@@ -8,9 +8,12 @@
     "country_code": "SA",
     "latitude": "26.24551000",
     "longitude": "36.45249000",
-    "native": null,
+    "native": "الوجه",
     "timezone": "Asia/Riyadh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 26636,
+    "wikiDataId": "Q27251"
   },
   {
     "id": 102853,
@@ -21,9 +24,12 @@
     "country_code": "SA",
     "latitude": "27.35134000",
     "longitude": "35.69014000",
-    "native": null,
+    "native": "دوبا",
     "timezone": "Asia/Riyadh",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 22000,
+    "wikiDataId": "Q268915"
   },
   {
     "id": 102881,
@@ -34,9 +40,12 @@
     "country_code": "SA",
     "latitude": "28.39980000",
     "longitude": "36.57151000",
-    "native": null,
+    "native": "تبوك",
     "timezone": "Asia/Riyadh",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 667000,
+    "wikiDataId": "Q244232"
   },
   {
     "id": 102889,
@@ -47,8 +56,11 @@
     "country_code": "SA",
     "latitude": "25.02126000",
     "longitude": "37.26850000",
-    "native": null,
+    "native": "أم لاج",
     "timezone": "Asia/Riyadh",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 33874,
+    "wikiDataId": "Q32190969"
   }
 ]

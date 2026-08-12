@@ -8,9 +8,12 @@
     "country_code": "TL",
     "latitude": "-8.62464000",
     "longitude": "125.38168000",
-    "native": null,
+    "native": "Bazarte",
     "timezone": "Asia/Dili",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q812658"
   },
   {
     "id": 106856,
@@ -21,9 +24,12 @@
     "country_code": "TL",
     "latitude": "-8.58750000",
     "longitude": "125.34194000",
-    "native": null,
+    "native": "Vidente",
     "timezone": "Asia/Dili",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 19000,
+    "wikiDataId": "Q18079947"
   },
   {
     "id": 106862,
@@ -34,8 +40,11 @@
     "country_code": "TL",
     "latitude": "-8.61194000",
     "longitude": "125.20611000",
-    "native": null,
+    "native": "Maubara",
     "timezone": "Asia/Dili",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 16300,
+    "wikiDataId": "Q1011873"
   }
 ]

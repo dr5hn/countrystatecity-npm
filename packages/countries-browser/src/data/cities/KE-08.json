@@ -8,9 +8,12 @@
     "country_code": "KE",
     "latitude": "-0.52731000",
     "longitude": "34.45714000",
-    "native": null,
+    "native": "Homa Bay",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 44949,
+    "wikiDataId": "Q1009161"
   },
   {
     "id": 64860,
@@ -21,9 +24,12 @@
     "country_code": "KE",
     "latitude": "-0.50974000",
     "longitude": "34.73067000",
-    "native": null,
+    "native": "Oyugis",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 19947,
+    "wikiDataId": "Q7108565"
   },
   {
     "id": 64863,
@@ -34,8 +40,11 @@
     "country_code": "KE",
     "latitude": "-0.44000000",
     "longitude": "34.73900000",
-    "native": null,
+    "native": "Rachuonyo District",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 300000,
+    "wikiDataId": "Q2125323"
   }
 ]

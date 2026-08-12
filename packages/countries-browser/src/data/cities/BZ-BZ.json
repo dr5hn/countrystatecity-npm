@@ -8,9 +8,12 @@
     "country_code": "BZ",
     "latitude": "17.49952000",
     "longitude": "-88.19756000",
-    "native": null,
+    "native": "Belize City",
     "timezone": "America/Belize",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 63999,
+    "wikiDataId": "Q108223"
   },
   {
     "id": 16143,
@@ -21,8 +24,11 @@
     "country_code": "BZ",
     "latitude": "17.91598000",
     "longitude": "-87.96590000",
-    "native": null,
+    "native": "San Pedro",
     "timezone": "America/Belize",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 15456,
+    "wikiDataId": "Q677300"
   }
 ]

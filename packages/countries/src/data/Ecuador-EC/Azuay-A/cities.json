@@ -8,9 +8,12 @@
     "country_code": "EC",
     "latitude": "-3.13349000",
     "longitude": "-79.26893000",
-    "native": null,
+    "native": "Cantón San Fernando",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q2449055"
   },
   {
     "id": 31501,
@@ -21,9 +24,12 @@
     "country_code": "EC",
     "latitude": "-2.90055000",
     "longitude": "-79.00453000",
-    "native": null,
+    "native": "Cuenca",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 636996,
+    "wikiDataId": "Q1014957"
   },
   {
     "id": 31507,
@@ -34,9 +40,12 @@
     "country_code": "EC",
     "latitude": "-2.89264000",
     "longitude": "-78.77814000",
-    "native": null,
+    "native": "Gualaceo",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 13843,
+    "wikiDataId": "Q1992935"
   },
   {
     "id": 31519,
@@ -47,9 +56,12 @@
     "country_code": "EC",
     "latitude": "-2.85000000",
     "longitude": "-78.78333000",
-    "native": null,
+    "native": "La Unión",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1896,
+    "wikiDataId": "Q6465577"
   },
   {
     "id": 31521,
@@ -60,9 +72,12 @@
     "country_code": "EC",
     "latitude": "-2.86667000",
     "longitude": "-78.88333000",
-    "native": null,
+    "native": "Llacao",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4501,
+    "wikiDataId": "Q379338"
   },
   {
     "id": 31535,
@@ -73,8 +88,11 @@
     "country_code": "EC",
     "latitude": "-2.91667000",
     "longitude": "-78.85000000",
-    "native": null,
+    "native": "Cero",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4324,
+    "wikiDataId": "Q683938"
   }
 ]

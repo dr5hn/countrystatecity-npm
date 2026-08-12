@@ -8,9 +8,12 @@
     "country_code": "MR",
     "latitude": "16.75000000",
     "longitude": "-14.83333333",
-    "native": null,
+    "native": "ليجات",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q6517678"
   },
   {
     "id": 67753,
@@ -21,9 +24,12 @@
     "country_code": "MR",
     "latitude": "16.51378000",
     "longitude": "-15.80503000",
-    "native": null,
+    "native": "روسو",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 15870,
+    "wikiDataId": "Q861580"
   },
   {
     "id": 67755,
@@ -34,8 +40,11 @@
     "country_code": "MR",
     "latitude": "16.60175000",
     "longitude": "-15.34866000",
-    "native": null,
+    "native": "تيكاني",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 22041,
+    "wikiDataId": "Q861580"
   }
 ]

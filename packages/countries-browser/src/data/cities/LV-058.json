@@ -8,9 +8,12 @@
     "country_code": "LV",
     "latitude": "56.54980000",
     "longitude": "27.88370000",
-    "native": null,
+    "native": "Cibla",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 161,
+    "wikiDataId": "Q1018485"
   },
   {
     "id": 66917,
@@ -21,9 +24,12 @@
     "country_code": "LV",
     "latitude": "56.78405000",
     "longitude": "27.68829000",
-    "native": null,
+    "native": "Kārsava",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 5127,
+    "wikiDataId": "Q155281"
   },
   {
     "id": 66923,
@@ -34,9 +40,12 @@
     "country_code": "LV",
     "latitude": "56.53958000",
     "longitude": "27.71891000",
-    "native": null,
+    "native": "Ludza",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 7332,
+    "wikiDataId": "Q744259"
   },
   {
     "id": 66989,
@@ -47,8 +56,11 @@
     "country_code": "LV",
     "latitude": "56.38616000",
     "longitude": "28.12165000",
-    "native": null,
+    "native": "Zilupe",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1897,
+    "wikiDataId": "Q203375"
   }
 ]

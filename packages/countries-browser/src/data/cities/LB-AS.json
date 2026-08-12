@@ -8,9 +8,12 @@
     "country_code": "LB",
     "latitude": "34.25528000",
     "longitude": "35.65806000",
-    "native": null,
+    "native": "البترون",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 10852,
+    "wikiDataId": "Q3285145"
   },
   {
     "id": 65935,
@@ -21,9 +24,12 @@
     "country_code": "LB",
     "latitude": "34.25083000",
     "longitude": "36.01056000",
-    "native": null,
+    "native": "بشري",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q181167"
   },
   {
     "id": 65953,
@@ -34,8 +40,11 @@
     "country_code": "LB",
     "latitude": "34.43352000",
     "longitude": "35.84415000",
-    "native": null,
+    "native": "طرابلس",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 229398,
+    "wikiDataId": "Q168954"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "EE",
     "latitude": "58.94306000",
     "longitude": "23.54139000",
-    "native": null,
+    "native": "Haapsalu",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 13379,
+    "wikiDataId": "Q191106"
   },
   {
     "id": 31604,
@@ -21,9 +24,12 @@
     "country_code": "EE",
     "latitude": "58.93580000",
     "longitude": "23.53005000",
-    "native": null,
+    "native": "Haapsalu linn",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q43281004"
   },
   {
     "id": 31609,
@@ -34,9 +40,12 @@
     "country_code": "EE",
     "latitude": "58.99004000",
     "longitude": "23.24441000",
-    "native": null,
+    "native": "Kere",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 100,
+    "wikiDataId": "Q3451126"
   },
   {
     "id": 31656,
@@ -47,9 +56,12 @@
     "country_code": "EE",
     "latitude": "58.96045000",
     "longitude": "23.74489000",
-    "native": null,
+    "native": "Lääne-Nigula vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1639142"
   },
   {
     "id": 31715,
@@ -60,9 +72,12 @@
     "country_code": "EE",
     "latitude": "58.95389000",
     "longitude": "23.75222000",
-    "native": null,
+    "native": "Taebla",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 882,
+    "wikiDataId": "Q3458520"
   },
   {
     "id": 31731,
@@ -73,9 +88,12 @@
     "country_code": "EE",
     "latitude": "58.93944000",
     "longitude": "23.58944000",
-    "native": null,
+    "native": "Uuemõisa",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1122,
+    "wikiDataId": "Q3453560"
   },
   {
     "id": 31746,
@@ -86,8 +104,11 @@
     "country_code": "EE",
     "latitude": "58.99986000",
     "longitude": "23.23408000",
-    "native": null,
+    "native": "Vormsi vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q426207"
   }
 ]

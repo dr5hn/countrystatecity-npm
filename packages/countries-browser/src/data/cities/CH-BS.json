@@ -8,9 +8,12 @@
     "country_code": "CH",
     "latitude": "47.55472200",
     "longitude": "7.59055600",
-    "native": null,
+    "native": "Basel",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 176329,
+    "wikiDataId": "Q78"
   },
   {
     "id": 149130,
@@ -21,9 +24,12 @@
     "country_code": "CH",
     "latitude": "47.57138900",
     "longitude": "7.66416700",
-    "native": null,
+    "native": "Betten",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1267,
+    "wikiDataId": "Q67530"
   },
   {
     "id": 149131,
@@ -34,8 +40,11 @@
     "country_code": "CH",
     "latitude": "47.58333300",
     "longitude": "7.63333300",
-    "native": null,
+    "native": "Riehen",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 21879,
+    "wikiDataId": "Q5262"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.45600000",
     "longitude": "15.63007000",
-    "native": null,
+    "native": "Fronta",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1078,
+    "wikiDataId": "Q3459381"
   },
   {
     "id": 104198,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.44444000",
     "longitude": "15.62139000",
-    "native": null,
+    "native": "Morje",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1215,
+    "wikiDataId": "Q654941"
   },
   {
     "id": 104252,
@@ -34,8 +40,11 @@
     "country_code": "SI",
     "latitude": "46.45194000",
     "longitude": "15.68139000",
-    "native": null,
+    "native": "Rače",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 2913,
+    "wikiDataId": "Q2311705"
   }
 ]

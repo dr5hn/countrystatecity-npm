@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.41479000",
     "longitude": "-2.62080000",
-    "native": null,
+    "native": "Bishopsworth",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 11576,
+    "wikiDataId": "Q4918101"
   },
   {
     "id": 48703,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.45523000",
     "longitude": "-2.59665000",
-    "native": null,
+    "native": "Bristol",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 472465,
+    "wikiDataId": "Q23154"
   },
   {
     "id": 49007,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.45000000",
     "longitude": "-2.60000000",
-    "native": null,
+    "native": "City of Bristol",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q21693433"
   },
   {
     "id": 49351,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "51.39880000",
     "longitude": "-2.63964000",
-    "native": null,
+    "native": "Dundry",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 269,
+    "wikiDataId": "Q2518710"
   },
   {
     "id": 49423,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "51.47592000",
     "longitude": "-2.69987000",
-    "native": null,
+    "native": "Easton-in-Gordano",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4824,
+    "wikiDataId": "Q3895750"
   },
   {
     "id": 50183,
@@ -73,9 +88,12 @@
     "country_code": "GB",
     "latitude": "51.45278000",
     "longitude": "-2.50833000",
-    "native": null,
+    "native": "Kingswood",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 64793,
+    "wikiDataId": "Q1247835"
   },
   {
     "id": 50390,
@@ -86,8 +104,11 @@
     "country_code": "GB",
     "latitude": "51.42997000",
     "longitude": "-2.66098000",
-    "native": null,
+    "native": "Long Ashton",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6534,
+    "wikiDataId": "Q4990691"
   }
 ]

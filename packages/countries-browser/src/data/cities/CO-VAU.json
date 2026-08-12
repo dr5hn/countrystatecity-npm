@@ -8,9 +8,12 @@
     "country_code": "CO",
     "latitude": "1.02081000",
     "longitude": "-71.33788000",
-    "native": null,
+    "native": "Caruru",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q1655130"
   },
   {
     "id": 21088,
@@ -21,9 +24,12 @@
     "country_code": "CO",
     "latitude": "1.25778000",
     "longitude": "-70.23472000",
-    "native": null,
+    "native": "Mitú",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 29850,
+    "wikiDataId": "Q130242"
   },
   {
     "id": 21160,
@@ -34,9 +40,12 @@
     "country_code": "CO",
     "latitude": "0.15636000",
     "longitude": "-70.89274000",
-    "native": null,
+    "native": "Pacoa",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4459,
+    "wikiDataId": "Q1654444"
   },
   {
     "id": 21181,
@@ -47,9 +56,12 @@
     "country_code": "CO",
     "latitude": "1.68335000",
     "longitude": "-70.70968000",
-    "native": null,
+    "native": "Base",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q962671"
   },
   {
     "id": 21511,
@@ -60,9 +72,12 @@
     "country_code": "CO",
     "latitude": "-0.74835000",
     "longitude": "-69.89662000",
-    "native": null,
+    "native": "Correo",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1048,
+    "wikiDataId": "Q1574964"
   },
   {
     "id": 21623,
@@ -73,8 +88,11 @@
     "country_code": "CO",
     "latitude": "0.82828000",
     "longitude": "-69.62959000",
-    "native": null,
+    "native": "Yamasité",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1269,
+    "wikiDataId": "Q1655686"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "PE",
     "latitude": "-10.38980000",
     "longitude": "-73.21977000",
-    "native": null,
+    "native": "Atalaya",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q1920509"
   },
   {
     "id": 80589,
@@ -21,9 +24,12 @@
     "country_code": "PE",
     "latitude": "-8.47533000",
     "longitude": "-74.80709000",
-    "native": null,
+    "native": "Campoverde",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 8945,
+    "wikiDataId": "Q34789572"
   },
   {
     "id": 80744,
@@ -34,9 +40,12 @@
     "country_code": "PE",
     "latitude": "-8.79680000",
     "longitude": "-75.42850000",
-    "native": null,
+    "native": "Padre Abad",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 60107,
+    "wikiDataId": "Q548556"
   },
   {
     "id": 80815,
@@ -47,9 +56,12 @@
     "country_code": "PE",
     "latitude": "-9.50000000",
     "longitude": "-73.33333000",
-    "native": null,
+    "native": "Provincia de Coronel Portillo",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 384168,
+    "wikiDataId": "Q579906"
   },
   {
     "id": 80913,
@@ -60,9 +72,12 @@
     "country_code": "PE",
     "latitude": "-8.37915000",
     "longitude": "-74.55387000",
-    "native": null,
+    "native": "Pucallpa",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 326040,
+    "wikiDataId": "Q217071"
   },
   {
     "id": 80925,
@@ -73,8 +88,11 @@
     "country_code": "PE",
     "latitude": "-10.37331000",
     "longitude": "-71.58231000",
-    "native": null,
+    "native": "Chile",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2860,
+    "wikiDataId": "Q672921"
   }
 ]

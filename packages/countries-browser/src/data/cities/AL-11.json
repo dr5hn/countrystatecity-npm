@@ -8,9 +8,12 @@
     "country_code": "AL",
     "latitude": "41.18127000",
     "longitude": "19.55579000",
-    "native": null,
+    "native": "Bashkia Kavajë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q16350064"
   },
   {
     "id": 190,
@@ -21,9 +24,12 @@
     "country_code": "AL",
     "latitude": "41.39804000",
     "longitude": "19.67703000",
-    "native": null,
+    "native": "Bashkia Vorë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q16350064"
   },
   {
     "id": 207,
@@ -34,9 +40,12 @@
     "country_code": "AL",
     "latitude": "41.38167000",
     "longitude": "19.76028000",
-    "native": null,
+    "native": "Kamëz",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 11026,
+    "wikiDataId": "Q605160"
   },
   {
     "id": 208,
@@ -47,9 +56,12 @@
     "country_code": "AL",
     "latitude": "41.18556000",
     "longitude": "19.55694000",
-    "native": null,
+    "native": "Kavajë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 30012,
+    "wikiDataId": "Q46702"
   },
   {
     "id": 213,
@@ -60,9 +72,12 @@
     "country_code": "AL",
     "latitude": "41.21556000",
     "longitude": "19.97139000",
-    "native": null,
+    "native": "Krrabë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 1177,
+    "wikiDataId": "Q22009668"
   },
   {
     "id": 248,
@@ -73,9 +88,12 @@
     "country_code": "AL",
     "latitude": "41.16667000",
     "longitude": "19.58333000",
-    "native": null,
+    "native": "Rrethi i Kavajës",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q194182"
   },
   {
     "id": 259,
@@ -86,9 +104,12 @@
     "country_code": "AL",
     "latitude": "41.33333000",
     "longitude": "19.91667000",
-    "native": null,
+    "native": "Rrethi i Tiranës",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q201073"
   },
   {
     "id": 260,
@@ -99,9 +120,12 @@
     "country_code": "AL",
     "latitude": "41.07639000",
     "longitude": "19.66528000",
-    "native": null,
+    "native": "Rrogozhinë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 7049,
+    "wikiDataId": "Q22008389"
   },
   {
     "id": 268,
@@ -112,9 +136,12 @@
     "country_code": "AL",
     "latitude": "41.06889000",
     "longitude": "19.69944000",
-    "native": null,
+    "native": "Sinaballaj",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 0,
+    "wikiDataId": "Q602969"
   },
   {
     "id": 271,
@@ -125,9 +152,12 @@
     "country_code": "AL",
     "latitude": "41.32750000",
     "longitude": "19.81889000",
-    "native": null,
+    "native": "Tiranë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 418495,
+    "wikiDataId": "Q19689"
   },
   {
     "id": 277,
@@ -138,8 +168,11 @@
     "country_code": "AL",
     "latitude": "41.39083000",
     "longitude": "19.65500000",
-    "native": null,
+    "native": "Vorë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 4973,
+    "wikiDataId": "Q22007611"
   }
 ]

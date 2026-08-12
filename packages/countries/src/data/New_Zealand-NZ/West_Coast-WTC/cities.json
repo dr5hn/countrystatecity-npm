@@ -8,9 +8,12 @@
     "country_code": "NZ",
     "latitude": "-42.46667000",
     "longitude": "171.20000000",
-    "native": null,
+    "native": "Greymouth",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 8170,
+    "wikiDataId": "Q934790"
   },
   {
     "id": 79802,
@@ -21,9 +24,12 @@
     "country_code": "NZ",
     "latitude": "-42.71667000",
     "longitude": "170.96667000",
-    "native": null,
+    "native": "Hokitika",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2920,
+    "wikiDataId": "Q1549557"
   },
   {
     "id": 79918,
@@ -34,8 +40,11 @@
     "country_code": "NZ",
     "latitude": "-41.75262000",
     "longitude": "171.60370000",
-    "native": null,
+    "native": "Westport",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4380,
+    "wikiDataId": "Q1349217"
   }
 ]

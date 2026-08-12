@@ -8,9 +8,12 @@
     "country_code": "MH",
     "latitude": "11.60000000",
     "longitude": "165.40000000",
-    "native": null,
+    "native": "Bikini",
     "timezone": "Pacific/Kwajalein",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q152225"
   },
   {
     "id": 160081,
@@ -21,8 +24,11 @@
     "country_code": "MH",
     "latitude": "5.61666667",
     "longitude": "169.11666667",
-    "native": null,
+    "native": "Kili",
     "timezone": "Pacific/Majuro",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 602,
+    "wikiDataId": "Q697832"
   }
 ]

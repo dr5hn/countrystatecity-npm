@@ -8,9 +8,12 @@
     "country_code": "LY",
     "latitude": "31.76000000",
     "longitude": "25.07500000",
-    "native": null,
+    "native": "البردية",
     "timezone": "Africa/Tripoli",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9149,
+    "wikiDataId": "Q141687"
   },
   {
     "id": 160045,
@@ -21,9 +24,12 @@
     "country_code": "LY",
     "latitude": "29.74250000",
     "longitude": "24.51694444",
-    "native": null,
+    "native": "الجغبوب",
     "timezone": "Africa/Tripoli",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2768,
+    "wikiDataId": "Q284251"
   },
   {
     "id": 160043,
@@ -34,8 +40,11 @@
     "country_code": "LY",
     "latitude": "32.07611111",
     "longitude": "23.96138889",
-    "native": null,
+    "native": "طبرق",
     "timezone": "Africa/Tripoli",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 135832,
+    "wikiDataId": "Q182092"
   }
 ]

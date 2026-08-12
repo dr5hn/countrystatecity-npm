@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "41.83668000",
     "longitude": "22.57909000",
-    "native": null,
+    "native": "Блатек",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2024,
+    "wikiDataId": "Q20933280"
   },
   {
     "id": 67434,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "41.85068000",
     "longitude": "22.51132000",
-    "native": null,
+    "native": "Градец",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1244,
+    "wikiDataId": "Q20932142"
   },
   {
     "id": 67555,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "41.88278000",
     "longitude": "22.50917000",
-    "native": null,
+    "native": "Виница",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 18218,
+    "wikiDataId": "Q928405"
   }
 ]

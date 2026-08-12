@@ -8,9 +8,12 @@
     "country_code": "KR",
     "latitude": "33.46444000",
     "longitude": "126.31833000",
-    "native": null,
+    "native": "가이게투리",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 23717,
+    "wikiDataId": "Q50432"
   },
   {
     "id": 65406,
@@ -21,9 +24,12 @@
     "country_code": "KR",
     "latitude": "33.50972000",
     "longitude": "126.52194000",
-    "native": null,
+    "native": "제주시",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 488844,
+    "wikiDataId": "Q42142"
   },
   {
     "id": 65407,
@@ -34,9 +40,12 @@
     "country_code": "KR",
     "latitude": "33.45578000",
     "longitude": "126.53928000",
-    "native": null,
+    "native": "제주시",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q42142"
   },
   {
     "id": 65490,
@@ -47,8 +56,11 @@
     "country_code": "KR",
     "latitude": "33.25333000",
     "longitude": "126.56181000",
-    "native": null,
+    "native": "서귀포",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 183858,
+    "wikiDataId": "Q42103"
   }
 ]

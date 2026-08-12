@@ -8,9 +8,12 @@
     "country_code": "MR",
     "latitude": "17.01050000",
     "longitude": "-13.97102000",
-    "native": null,
+    "native": "قلب الجميل",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1500,
+    "wikiDataId": "Q227072"
   },
   {
     "id": 67745,
@@ -21,9 +24,12 @@
     "country_code": "MR",
     "latitude": "17.05314000",
     "longitude": "-13.91312000",
-    "native": null,
+    "native": "أليج",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 19183,
+    "wikiDataId": "Q175596"
   },
   {
     "id": 150071,
@@ -34,9 +40,12 @@
     "country_code": "MR",
     "latitude": "16.41666667",
     "longitude": "-13.80000000",
-    "native": null,
+    "native": "بوفال",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q4937271"
   },
   {
     "id": 150072,
@@ -47,8 +56,11 @@
     "country_code": "MR",
     "latitude": "16.95416667",
     "longitude": "-13.37916667",
-    "native": null,
+    "native": "سوري ماليه",
     "timezone": "Africa/Nouakchott",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3281053"
   }
 ]

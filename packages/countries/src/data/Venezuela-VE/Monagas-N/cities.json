@@ -8,9 +8,12 @@
     "country_code": "VE",
     "latitude": "10.11135000",
     "longitude": "-63.09985000",
-    "native": null,
+    "native": "Caripito",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 43448,
+    "wikiDataId": "Q2938844"
   },
   {
     "id": 130107,
@@ -21,9 +24,12 @@
     "country_code": "VE",
     "latitude": "9.74569000",
     "longitude": "-63.18323000",
-    "native": null,
+    "native": "Maturín",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 753254,
+    "wikiDataId": "Q842779"
   },
   {
     "id": 130117,
@@ -34,9 +40,12 @@
     "country_code": "VE",
     "latitude": "9.40000000",
     "longitude": "-63.03333000",
-    "native": null,
+    "native": "Municipio Maturín",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 542259,
+    "wikiDataId": "Q3300002"
   },
   {
     "id": 130122,
@@ -47,8 +56,11 @@
     "country_code": "VE",
     "latitude": "8.99960000",
     "longitude": "-62.35164000",
-    "native": null,
+    "native": "Municipio Uracoa",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q2635968"
   }
 ]

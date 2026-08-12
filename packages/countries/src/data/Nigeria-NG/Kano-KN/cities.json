@@ -8,9 +8,12 @@
     "country_code": "NG",
     "latitude": "11.53485000",
     "longitude": "8.15224000",
-    "native": null,
+    "native": "And gora",
     "timezone": "Africa/Lagos",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7907,
+    "wikiDataId": "Q1023722"
   },
   {
     "id": 76880,
@@ -21,9 +24,12 @@
     "country_code": "NG",
     "latitude": "11.86064000",
     "longitude": "9.00270000",
-    "native": null,
+    "native": "Gaya",
     "timezone": "Africa/Lagos",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 20959,
+    "wikiDataId": "Q5526456"
   },
   {
     "id": 76977,
@@ -34,8 +40,11 @@
     "country_code": "NG",
     "latitude": "12.00012000",
     "longitude": "8.51672000",
-    "native": null,
+    "native": "Kano",
     "timezone": "Africa/Lagos",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 4348000,
+    "wikiDataId": "Q182984"
   }
 ]

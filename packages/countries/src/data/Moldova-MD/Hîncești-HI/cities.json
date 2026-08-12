@@ -8,9 +8,12 @@
     "country_code": "MD",
     "latitude": "46.75818000",
     "longitude": "28.20716000",
-    "native": null,
+    "native": "Dancu",
     "timezone": "Europe/Chisinau",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10000,
+    "wikiDataId": "Q1986341"
   },
   {
     "id": 67308,
@@ -21,8 +24,11 @@
     "country_code": "MD",
     "latitude": "46.83047000",
     "longitude": "28.59064000",
-    "native": null,
+    "native": "Hînceşti",
     "timezone": "Europe/Chisinau",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 16900,
+    "wikiDataId": "Q1141853"
   }
 ]

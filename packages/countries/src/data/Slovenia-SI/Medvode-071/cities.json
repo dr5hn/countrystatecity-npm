@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.14220000",
     "longitude": "14.41114000",
-    "native": null,
+    "native": "Medvode",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 5434,
+    "wikiDataId": "Q2094435"
   },
   {
     "id": 104215,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.16667000",
     "longitude": "14.43333000",
-    "native": null,
+    "native": "Opština [historical] Ljubljana-Šiška",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2354591"
   },
   {
     "id": 104333,
@@ -34,8 +40,11 @@
     "country_code": "SI",
     "latitude": "46.14251000",
     "longitude": "14.43158000",
-    "native": null,
+    "native": "Zgornje Pirniče",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1415,
+    "wikiDataId": "Q2331195"
   }
 ]

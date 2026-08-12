@@ -8,9 +8,12 @@
     "country_code": "SN",
     "latitude": "12.59971000",
     "longitude": "-12.77619000",
-    "native": null,
+    "native": "Département de Salémata",
     "timezone": "Africa/Dakar",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2075446"
   },
   {
     "id": 104727,
@@ -21,9 +24,12 @@
     "country_code": "SN",
     "latitude": "12.55561000",
     "longitude": "-12.18076000",
-    "native": null,
+    "native": "Kédougou",
     "timezone": "Africa/Dakar",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 30051,
+    "wikiDataId": "Q586498"
   },
   {
     "id": 104728,
@@ -34,9 +40,12 @@
     "country_code": "SN",
     "latitude": "12.81716000",
     "longitude": "-12.17834000",
-    "native": null,
+    "native": "Sujets",
     "timezone": "Africa/Dakar",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 78522,
+    "wikiDataId": "Q2083190"
   },
   {
     "id": 104758,
@@ -47,8 +56,11 @@
     "country_code": "SN",
     "latitude": "13.00150000",
     "longitude": "-11.79627000",
-    "native": null,
+    "native": "Au palais",
     "timezone": "Africa/Dakar",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 50724,
+    "wikiDataId": "Q942594"
   }
 ]

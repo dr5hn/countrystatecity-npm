@@ -8,9 +8,12 @@
     "country_code": "EC",
     "latitude": "-2.23300000",
     "longitude": "-80.91039000",
-    "native": null,
+    "native": "La Libertad",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 75881,
+    "wikiDataId": "Q1798895"
   },
   {
     "id": 31565,
@@ -21,9 +24,12 @@
     "country_code": "EC",
     "latitude": "-2.21452000",
     "longitude": "-80.95151000",
-    "native": null,
+    "native": "Salinas",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 43862,
+    "wikiDataId": "Q1026284"
   },
   {
     "id": 31574,
@@ -34,8 +40,11 @@
     "country_code": "EC",
     "latitude": "-2.22622000",
     "longitude": "-80.85873000",
-    "native": null,
+    "native": "Santa Elena",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 42214,
+    "wikiDataId": "Q135864"
   }
 ]

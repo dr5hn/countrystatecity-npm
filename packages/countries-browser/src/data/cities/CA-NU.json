@@ -8,9 +8,12 @@
     "country_code": "CA",
     "latitude": "70.47233000",
     "longitude": "-68.58987000",
-    "native": null,
+    "native": "Clyde River",
     "timezone": "America/Iqaluit",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1181,
+    "wikiDataId": "Q201351"
   },
   {
     "id": 16453,
@@ -21,9 +24,12 @@
     "country_code": "CA",
     "latitude": "68.62602000",
     "longitude": "-95.87836000",
-    "native": null,
+    "native": "Gjoa Haven",
     "timezone": "America/Cambridge_Bay",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1349,
+    "wikiDataId": "Q719585"
   },
   {
     "id": 16524,
@@ -34,9 +40,12 @@
     "country_code": "CA",
     "latitude": "63.74697000",
     "longitude": "-68.51727000",
-    "native": null,
+    "native": "Fish",
     "timezone": "America/Iqaluit",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 7429,
+    "wikiDataId": "Q2030"
   },
   {
     "id": 16555,
@@ -47,9 +56,12 @@
     "country_code": "CA",
     "latitude": "67.82743000",
     "longitude": "-115.09649000",
-    "native": null,
+    "native": "Bullet",
     "timezone": "America/Cambridge_Bay",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1382,
+    "wikiDataId": "Q719707"
   },
   {
     "id": 16793,
@@ -60,9 +72,12 @@
     "country_code": "CA",
     "latitude": "66.14642000",
     "longitude": "-65.69996000",
-    "native": null,
+    "native": "Pangnirtung",
     "timezone": "America/Iqaluit",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1504,
+    "wikiDataId": "Q631747"
   },
   {
     "id": 16869,
@@ -73,8 +88,11 @@
     "country_code": "CA",
     "latitude": "62.80906000",
     "longitude": "-92.08534000",
-    "native": null,
+    "native": "Rankin Inlet",
     "timezone": "America/Rankin_Inlet",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 2975,
+    "wikiDataId": "Q1021766"
   }
 ]

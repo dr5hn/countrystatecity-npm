@@ -8,9 +8,12 @@
     "country_code": "SG",
     "latitude": "1.32360000",
     "longitude": "103.92730000",
-    "native": null,
+    "native": "Salary",
     "timezone": "Asia/Singapore",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 276990,
+    "wikiDataId": "Q239092"
   },
   {
     "id": 153479,
@@ -21,9 +24,12 @@
     "country_code": "SG",
     "latitude": "1.37390000",
     "longitude": "103.94930000",
-    "native": null,
+    "native": "Sand Ris",
     "timezone": "Asia/Singapore",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 148020,
+    "wikiDataId": "Q230274"
   },
   {
     "id": 153477,
@@ -34,8 +40,11 @@
     "country_code": "SG",
     "latitude": "1.35470000",
     "longitude": "103.94370000",
-    "native": null,
+    "native": "Tampines",
     "timezone": "Asia/Singapore",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 1850,
+    "wikiDataId": "Q191699"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "MN",
     "latitude": "43.57083000",
     "longitude": "104.42500000",
-    "native": null,
+    "native": "Даландзадгад",
     "timezone": "Asia/Ulaanbaatar",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 24863,
+    "wikiDataId": "Q822808"
   },
   {
     "id": 67720,
@@ -21,9 +24,12 @@
     "country_code": "MN",
     "latitude": "43.77345000",
     "longitude": "104.47998000",
-    "native": null,
+    "native": "Ханхонгор",
     "timezone": "Asia/Ulaanbaatar",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q3402358"
   },
   {
     "id": 67730,
@@ -34,8 +40,11 @@
     "country_code": "MN",
     "latitude": "42.41462000",
     "longitude": "105.05640000",
-    "native": null,
+    "native": "Номгон сум",
     "timezone": "Asia/Choibalsan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3402154"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "IS",
     "latitude": "64.83333000",
     "longitude": "-14.25000000",
-    "native": null,
+    "native": "Breiðdalshreppur",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q431733"
   },
   {
     "id": 135172,
@@ -21,9 +24,12 @@
     "country_code": "IS",
     "latitude": "65.26687000",
     "longitude": "-14.39485000",
-    "native": null,
+    "native": "Egilsstaðir",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 2572,
+    "wikiDataId": "Q14453"
   },
   {
     "id": 135173,
@@ -34,9 +40,12 @@
     "country_code": "IS",
     "latitude": "65.07306000",
     "longitude": "-14.01525000",
-    "native": null,
+    "native": "Eskifjörður",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1111,
+    "wikiDataId": "Q765521"
   },
   {
     "id": 135177,
@@ -47,9 +56,12 @@
     "country_code": "IS",
     "latitude": "65.08333000",
     "longitude": "-14.00000000",
-    "native": null,
+    "native": "Fjarðabyggð",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 5247,
+    "wikiDataId": "Q1146805"
   },
   {
     "id": 135203,
@@ -60,9 +72,12 @@
     "country_code": "IS",
     "latitude": "65.14819000",
     "longitude": "-13.68368000",
-    "native": null,
+    "native": "Neskaupstaður",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1469,
+    "wikiDataId": "Q176728"
   },
   {
     "id": 135207,
@@ -73,8 +88,11 @@
     "country_code": "IS",
     "latitude": "65.03164000",
     "longitude": "-14.21832000",
-    "native": null,
+    "native": "Reyðarfjörður",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1270,
+    "wikiDataId": "Q1019443"
   }
 ]

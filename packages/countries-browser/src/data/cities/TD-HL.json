@@ -8,9 +8,12 @@
     "country_code": "TD",
     "latitude": "12.37813000",
     "longitude": "17.05876000",
-    "native": null,
+    "native": "Bokoro",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 26095,
+    "wikiDataId": "Q2909258"
   },
   {
     "id": 105146,
@@ -21,9 +24,12 @@
     "country_code": "TD",
     "latitude": "12.47554000",
     "longitude": "15.43647000",
-    "native": null,
+    "native": "Massaguet",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 28401,
+    "wikiDataId": "Q1907375"
   },
   {
     "id": 105147,
@@ -34,8 +40,11 @@
     "country_code": "TD",
     "latitude": "12.99600000",
     "longitude": "15.72927000",
-    "native": null,
+    "native": "Masse",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 39944,
+    "wikiDataId": "Q2498357"
   }
 ]

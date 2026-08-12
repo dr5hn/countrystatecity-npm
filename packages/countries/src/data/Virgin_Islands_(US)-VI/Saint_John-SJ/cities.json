@@ -8,9 +8,12 @@
     "country_code": "VI",
     "latitude": "18.33568380",
     "longitude": "-64.79470780",
-    "native": null,
+    "native": "Central",
     "timezone": "America/St_Thomas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 2743,
+    "wikiDataId": "Q65041148"
   },
   {
     "id": 149569,
@@ -21,9 +24,12 @@
     "country_code": "VI",
     "latitude": "18.34800890",
     "longitude": "-64.72196820",
-    "native": null,
+    "native": "Coral Bay",
     "timezone": "America/St_Thomas",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q31908423"
   },
   {
     "id": 149570,
@@ -34,9 +40,12 @@
     "country_code": "VI",
     "latitude": "18.31820370",
     "longitude": "-64.80242110",
-    "native": null,
+    "native": "Cruz Bay",
     "timezone": "America/St_Thomas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q31908720"
   },
   {
     "id": 149571,
@@ -47,8 +56,11 @@
     "country_code": "VI",
     "latitude": "18.34036470",
     "longitude": "-64.68062660",
-    "native": null,
+    "native": "East End",
     "timezone": "America/St_Thomas",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q31912957"
   }
 ]

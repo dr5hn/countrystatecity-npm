@@ -8,9 +8,12 @@
     "country_code": "ER",
     "latitude": "15.54798000",
     "longitude": "37.88291000",
-    "native": null,
+    "native": "ኣክ'ኦርዳት",
     "timezone": "Africa/Asmara",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 8857,
+    "wikiDataId": "Q395433"
   },
   {
     "id": 31885,
@@ -21,9 +24,12 @@
     "country_code": "ER",
     "latitude": "15.10582000",
     "longitude": "37.59067000",
-    "native": null,
+    "native": "ባረንቱ",
     "timezone": "Africa/Asmara",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 15891,
+    "wikiDataId": "Q808100"
   },
   {
     "id": 31891,
@@ -34,8 +40,11 @@
     "country_code": "ER",
     "latitude": "15.11000000",
     "longitude": "36.65750000",
-    "native": null,
+    "native": "ተሰኒ",
     "timezone": "Africa/Asmara",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 3753,
+    "wikiDataId": "Q1797764"
   }
 ]

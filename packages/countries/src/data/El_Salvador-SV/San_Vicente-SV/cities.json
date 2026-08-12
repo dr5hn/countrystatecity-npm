@@ -8,9 +8,12 @@
     "country_code": "SV",
     "latitude": "13.66667000",
     "longitude": "-88.78333000",
-    "native": null,
+    "native": "Apastepeque",
     "timezone": "America/El_Salvador",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 5785,
+    "wikiDataId": "Q617890"
   },
   {
     "id": 104915,
@@ -21,9 +24,12 @@
     "country_code": "SV",
     "latitude": "13.73333000",
     "longitude": "-88.83333000",
-    "native": null,
+    "native": "San Sebastián",
     "timezone": "America/El_Salvador",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7333,
+    "wikiDataId": "Q383546"
   },
   {
     "id": 104916,
@@ -34,8 +40,11 @@
     "country_code": "SV",
     "latitude": "13.63333000",
     "longitude": "-88.80000000",
-    "native": null,
+    "native": "San Vicente",
     "timezone": "America/El_Salvador",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 52461,
+    "wikiDataId": "Q1094372"
   }
 ]

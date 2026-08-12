@@ -8,9 +8,12 @@
     "country_code": "CI",
     "latitude": "9.81241000",
     "longitude": "-7.51894000",
-    "native": null,
+    "native": "Tenen",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1268139"
   },
   {
     "id": 18915,
@@ -21,9 +24,12 @@
     "country_code": "CI",
     "latitude": "9.60571000",
     "longitude": "-7.43774000",
-    "native": null,
+    "native": "Kabadugou",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1553776"
   },
   {
     "id": 18925,
@@ -34,8 +40,11 @@
     "country_code": "CI",
     "latitude": "9.50511000",
     "longitude": "-7.56433000",
-    "native": null,
+    "native": "Odienné",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 54669,
+    "wikiDataId": "Q506811"
   }
 ]

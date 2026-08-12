@@ -8,9 +8,12 @@
     "country_code": "KE",
     "latitude": "0.46667000",
     "longitude": "35.96667000",
-    "native": null,
+    "native": "Baringo",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7656,
+    "wikiDataId": "Q4813647"
   },
   {
     "id": 64781,
@@ -21,9 +24,12 @@
     "country_code": "KE",
     "latitude": "0.05196000",
     "longitude": "35.72734000",
-    "native": null,
+    "native": "Eldama Ravine",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 21385,
+    "wikiDataId": "Q1009186"
   },
   {
     "id": 64790,
@@ -34,8 +40,11 @@
     "country_code": "KE",
     "latitude": "0.49194000",
     "longitude": "35.74303000",
-    "native": null,
+    "native": "Kabarnet",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 24661,
+    "wikiDataId": "Q166916"
   }
 ]

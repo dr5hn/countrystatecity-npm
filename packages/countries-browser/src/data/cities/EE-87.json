@@ -8,9 +8,12 @@
     "country_code": "EE",
     "latitude": "57.82556000",
     "longitude": "26.54056000",
-    "native": null,
+    "native": "Antsla",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q154994"
   },
   {
     "id": 31597,
@@ -21,9 +24,12 @@
     "country_code": "EE",
     "latitude": "57.77738000",
     "longitude": "26.59520000",
-    "native": null,
+    "native": "Antsla vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q305226"
   },
   {
     "id": 31701,
@@ -34,9 +40,12 @@
     "country_code": "EE",
     "latitude": "57.72778000",
     "longitude": "26.90972000",
-    "native": null,
+    "native": "Rõuge",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 435,
+    "wikiDataId": "Q3469834"
   },
   {
     "id": 31702,
@@ -47,9 +56,12 @@
     "country_code": "EE",
     "latitude": "57.72780000",
     "longitude": "26.88033000",
-    "native": null,
+    "native": "Rõuge vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q650698"
   },
   {
     "id": 31736,
@@ -60,9 +72,12 @@
     "country_code": "EE",
     "latitude": "57.86611000",
     "longitude": "26.53222000",
-    "native": null,
+    "native": "Vana-Antsla",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1468,
+    "wikiDataId": "Q3477487"
   },
   {
     "id": 31750,
@@ -73,9 +88,12 @@
     "country_code": "EE",
     "latitude": "57.95806000",
     "longitude": "27.63806000",
-    "native": null,
+    "native": "Värska",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 415,
+    "wikiDataId": "Q3477635"
   },
   {
     "id": 31752,
@@ -86,9 +104,12 @@
     "country_code": "EE",
     "latitude": "57.83389000",
     "longitude": "27.01944000",
-    "native": null,
+    "native": "Võru",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 12112,
+    "wikiDataId": "Q205271"
   },
   {
     "id": 31753,
@@ -99,8 +120,11 @@
     "country_code": "EE",
     "latitude": "57.86618000",
     "longitude": "26.97418000",
-    "native": null,
+    "native": "Võru vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q650672"
   }
 ]

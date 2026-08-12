@@ -8,9 +8,12 @@
     "country_code": "TH",
     "latitude": "13.58747000",
     "longitude": "100.11789000",
-    "native": null,
+    "native": "อำเภอบ้านแพ้ว",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475152"
   },
   {
     "id": 105455,
@@ -21,9 +24,12 @@
     "country_code": "TH",
     "latitude": "13.65570000",
     "longitude": "100.27282000",
-    "native": null,
+    "native": "อำเภอกระทุ่มแบน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475833"
   },
   {
     "id": 106405,
@@ -34,9 +40,12 @@
     "country_code": "TH",
     "latitude": "13.59072000",
     "longitude": "100.10748000",
-    "native": null,
+    "native": "บ้านแพ้ว",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 41904,
+    "wikiDataId": "Q340034"
   },
   {
     "id": 106542,
@@ -47,9 +56,12 @@
     "country_code": "TH",
     "latitude": "13.65330000",
     "longitude": "100.25972000",
-    "native": null,
+    "native": "กระทุ่มแบน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 72819,
+    "wikiDataId": "Q15216155"
   },
   {
     "id": 105585,
@@ -60,9 +72,12 @@
     "country_code": "TH",
     "latitude": "13.53163000",
     "longitude": "100.25326000",
-    "native": null,
+    "native": "อำเภอเมืองสมุทรสาคร",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q1934901"
   },
   {
     "id": 106681,
@@ -73,8 +88,11 @@
     "country_code": "TH",
     "latitude": "13.54753000",
     "longitude": "100.27362000",
-    "native": null,
+    "native": "สมุทรสาคร",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 60103,
+    "wikiDataId": "Q1359220"
   }
 ]

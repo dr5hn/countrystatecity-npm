@@ -8,9 +8,12 @@
     "country_code": "TR",
     "latitude": "40.38325000",
     "longitude": "40.14272000",
-    "native": null,
+    "native": "Aydıntepe",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 6984,
+    "wikiDataId": "Q583185"
   },
   {
     "id": 107466,
@@ -21,9 +24,12 @@
     "country_code": "TR",
     "latitude": "40.16560000",
     "longitude": "39.89343000",
-    "native": null,
+    "native": "Demirözü",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1875,
+    "wikiDataId": "Q1185714"
   },
   {
     "id": 107297,
@@ -34,8 +40,11 @@
     "country_code": "TR",
     "latitude": "40.25631000",
     "longitude": "40.22289000",
-    "native": null,
+    "native": "Merkez",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 48036,
+    "wikiDataId": "Q211828"
   }
 ]

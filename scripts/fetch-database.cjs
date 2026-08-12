@@ -1,71 +1,64 @@
 #!/usr/bin/env node
 /**
- * Downloads the latest countries-states-cities-database release
- * and saves it to data/source.json at the monorepo root.
+ * Resolves the exact latest release of countries-states-cities-database
+ * once, then downloads the 3 required assets from THAT pinned release —
+ * eliminating the "latest changed mid-run" race the old per-asset
+ * /releases/latest/download/... approach was exposed to.
  *
- * All packages consume this single file — fetch once, distribute everywhere.
+ * Writes: data/source.json, data/cities-full.json, data/translations.csv,
+ * and data/release.json (the resolved release + per-file integrity info,
+ * consumed by scripts/generate-all.cjs's join/validate/manifest steps and
+ * reused by scripts/fetch-postcodes.cjs to stay pinned to the same tag).
  */
 
-const https = require('https');
 const fs = require('fs');
 const path = require('path');
-const zlib = require('zlib');
 
-const SOURCE_URL =
-  'https://github.com/dr5hn/countries-states-cities-database/releases/latest/download/json-countries%2Bstates%2Bcities.json.gz';
+const { resolveLatestRelease, requireAsset } = require('./lib/resolve-release.cjs');
+const { downloadGzipAsset } = require('./lib/download.cjs');
 
-const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'source.json');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const RELEASE_FILE = path.join(DATA_DIR, 'release.json');
 
-// Abort if the socket goes idle this long — a stalled CDN connection must
-// fail loudly instead of hanging the script (and CI) forever.
-const SOCKET_IDLE_TIMEOUT_MS = 120_000;
-
-/** Download a URL (following redirects), rejecting on error or socket stall. */
-function download(url, redirects = 0) {
-  return new Promise((resolve, reject) => {
-    if (redirects > 10) return reject(new Error('Too many redirects'));
-
-    const req = https
-      .get(url, { headers: { 'User-Agent': 'countrystatecity-monorepo' }, timeout: SOCKET_IDLE_TIMEOUT_MS }, (res) => {
-        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          console.log(`  ↳ Redirecting (${res.statusCode})...`);
-          res.resume();
-          return resolve(download(res.headers.location, redirects + 1));
-        }
-
-        if (res.statusCode !== 200) {
-          return reject(new Error(`HTTP ${res.statusCode} from ${url}`));
-        }
-
-        const chunks = [];
-        res.on('data', (chunk) => chunks.push(chunk));
-        res.on('end', () => resolve(Buffer.concat(chunks)));
-        res.on('error', reject);
-      })
-      .on('error', reject);
-
-    req.on('timeout', () => {
-      req.destroy(new Error(`Download stalled: no data for ${SOCKET_IDLE_TIMEOUT_MS / 1000}s from ${url}`));
-    });
-  });
-}
+const REQUIRED_ASSETS = [
+  { asset: 'json-countries+states+cities.json.gz', role: 'combined', destPath: path.join(DATA_DIR, 'source.json') },
+  { asset: 'json-cities.json.gz', role: 'cities-full', destPath: path.join(DATA_DIR, 'cities-full.json') },
+  { asset: 'csv-translations.csv.gz', role: 'translations', destPath: path.join(DATA_DIR, 'translations.csv') },
+];
 
 async function main() {
-  console.log('📥 Fetching latest countries-states-cities database...');
-  console.log(`   Source: ${SOURCE_URL}\n`);
+  console.log('🔎 Resolving the exact latest release of countries-states-cities-database...');
+  const release = await resolveLatestRelease({ token: process.env.GITHUB_TOKEN });
+  console.log(`✓ Pinned to release ${release.tag} (published ${release.publishedAt})\n`);
 
-  const compressed = await download(SOURCE_URL);
-  console.log(`✓ Downloaded ${(compressed.length / 1024 / 1024).toFixed(2)} MB (compressed)`);
+  const files = [];
+  for (const { asset, role, destPath } of REQUIRED_ASSETS) {
+    const { url } = requireAsset(release, asset);
+    console.log(`📥 Downloading ${asset} (${role})...`);
+    const result = await downloadGzipAsset({ url, destPath });
+    console.log(
+      `✓ ${asset}: ${(result.compressedBytes / 1024 / 1024).toFixed(2)}MB → ` +
+        `${(result.decompressedBytes / 1024 / 1024).toFixed(2)}MB, sha256 ${result.contentSha256.slice(0, 12)}...\n`,
+    );
+    files.push({ asset, role, url, ...result });
+  }
 
-  const decompressed = zlib.gunzipSync(compressed);
-  console.log(`✓ Decompressed to ${(decompressed.length / 1024 / 1024).toFixed(2)} MB`);
+  const releaseRecord = {
+    repository: 'dr5hn/countries-states-cities-database',
+    tag: release.tag,
+    htmlUrl: release.htmlUrl,
+    publishedAt: release.publishedAt,
+    fetchedAt: new Date().toISOString(),
+    files,
+  };
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const tmpPath = `${RELEASE_FILE}.tmp-${process.pid}`;
+  fs.writeFileSync(tmpPath, JSON.stringify(releaseRecord, null, 2) + '\n');
+  fs.renameSync(tmpPath, RELEASE_FILE);
 
-  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, decompressed);
-
-  const countries = JSON.parse(decompressed.toString());
-  console.log(`✓ Saved to data/source.json (${countries.length} countries)\n`);
-  console.log('Run pnpm generate-data to distribute to all packages.');
+  const countries = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'source.json'), 'utf-8'));
+  console.log(`✅ All 3 files downloaded and verified from release ${release.tag} (${countries.length} countries in the combined file).`);
+  console.log('   Run pnpm generate-data to distribute to all packages.');
 }
 
 main().catch((err) => {
