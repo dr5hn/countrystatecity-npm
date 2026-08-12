@@ -1,0 +1,12 @@
+export { BaseResource } from './BaseResource';
+export { CountriesResource } from './countries';
+export { StatesResource } from './states';
+export { CitiesResource } from './cities';
+export { RegionsResource } from './regions';
+export { CurrenciesResource } from './currencies';
+export { IsoResource } from './iso';
+export { PhoneResource } from './phone';
+export { TimezonesResource } from './timezones';
+export { SearchResource } from './search';
+export { UsageResource } from './usage';
+export { ChangesResource } from './changes';

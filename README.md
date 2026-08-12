@@ -12,8 +12,9 @@
 [![](https://img.shields.io/npm/dt/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes)
 [![](https://img.shields.io/npm/dt/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson)
 [![](https://img.shields.io/npm/dt/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli)
+[![](https://img.shields.io/npm/dt/@countrystatecity/sdk?label=sdk)](https://www.npmjs.com/package/@countrystatecity/sdk)
 
-Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, regions, timezones, currencies, translations, phone codes, postal codes, GeoJSON, and a CLI tool. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
+Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, regions, timezones, currencies, translations, phone codes, postal codes, GeoJSON, a CLI tool, and an official REST API SDK. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
 
 ---
 
@@ -30,6 +31,7 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/postalcodes`](https://www.npmjs.com/package/@countrystatecity/postalcodes) | 844,000+ postal codes across 125 countries with locality search & validation | Node.js / Server | Lazy-loaded |
 | [`@countrystatecity/geojson`](https://www.npmjs.com/package/@countrystatecity/geojson) | Countries/states/cities as GeoJSON `Point` FeatureCollections (no boundary polygons) | Browser / Any | Lazy-loaded |
 | [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
+| [`@countrystatecity/sdk`](https://www.npmjs.com/package/@countrystatecity/sdk) | Official client SDK for the live CountryStateCity REST API — search, usage, and quota-aware data | Node.js / Browser | – |
 
 ---
 
@@ -62,6 +64,9 @@ npm install @countrystatecity/geojson
 
 # CLI (global install)
 npm install -g @countrystatecity/cli
+
+# Official REST API SDK (requires a free API key)
+npm install @countrystatecity/sdk
 ```
 
 ---
@@ -256,7 +261,8 @@ countrystatecity-npm/
 │   ├── phonecodes/          # @countrystatecity/phonecodes
 │   ├── postalcodes/         # @countrystatecity/postalcodes
 │   ├── geojson/             # @countrystatecity/geojson
-│   └── cli/                 # @countrystatecity/cli
+│   ├── cli/                 # @countrystatecity/cli
+│   └── sdk/                 # @countrystatecity/sdk
 ├── scripts/
 │   ├── fetch-database.cjs   # Downloads latest combined source JSON
 │   ├── fetch-postcodes.cjs  # Downloads latest postal codes JSON (separate release asset)
@@ -400,6 +406,7 @@ Go to **Actions → Release → Run workflow** on GitHub. Once `release.yml` com
 | `@countrystatecity/postalcodes` | [![](https://img.shields.io/npm/dm/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes) | [![](https://img.shields.io/npm/dw/@countrystatecity/postalcodes?label=postalcodes)](https://www.npmjs.com/package/@countrystatecity/postalcodes) |
 | `@countrystatecity/geojson` | [![](https://img.shields.io/npm/dm/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson) | [![](https://img.shields.io/npm/dw/@countrystatecity/geojson?label=geojson)](https://www.npmjs.com/package/@countrystatecity/geojson) |
 | `@countrystatecity/cli` | [![](https://img.shields.io/npm/dm/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli) | [![](https://img.shields.io/npm/dw/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli) |
+| `@countrystatecity/sdk` | [![](https://img.shields.io/npm/dm/@countrystatecity/sdk?label=sdk)](https://www.npmjs.com/package/@countrystatecity/sdk) | [![](https://img.shields.io/npm/dw/@countrystatecity/sdk?label=sdk)](https://www.npmjs.com/package/@countrystatecity/sdk) |
 
 ---
 

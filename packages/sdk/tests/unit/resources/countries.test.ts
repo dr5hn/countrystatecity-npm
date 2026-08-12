@@ -1,0 +1,42 @@
+import { describe, it, expect } from 'vitest';
+import { CountriesResource } from '../../../src/resources/countries';
+import { ValidationError } from '../../../src/errors';
+import { createFakeHttp } from '../support/fakeHttp';
+import type { ICountry } from '../../../src/types/entities';
+
+describe('CountriesResource', () => {
+  it('list() requests /countries with limit/offset', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.list({ limit: 10, offset: 5 });
+
+    expect(http.request).toHaveBeenCalledWith(['countries'], { limit: 10, offset: 5 }, undefined);
+  });
+
+  it('list() passes { data, meta } through untouched', async () => {
+    const payload = { data: [{ id: 1 }] as unknown as ICountry[], meta: { retryCount: 0 } };
+    const http = createFakeHttp(payload);
+    const resource = new CountriesResource(http);
+
+    const result = await resource.list();
+    expect(result).toBe(payload);
+  });
+
+  it('get() normalizes iso2 and requests /countries/{code}', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.get('in');
+
+    expect(http.request).toHaveBeenCalledWith(['countries', 'IN'], undefined, undefined);
+  });
+
+  it('get() rejects a malformed country code before any request', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await expect(resource.get('INDIA')).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+});
