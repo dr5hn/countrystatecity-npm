@@ -148,6 +148,20 @@ export function assertListParams(params: IListParams | undefined): void {
   }
 }
 
+/**
+ * Fuzzy search's server-side limits are tighter than the generic list
+ * limit (1-50, not 1-100) and it has its own threshold param — validated
+ * separately from `assertListParams` rather than widening the shared check.
+ */
+export function assertSearchParams(params: { limit?: number; threshold?: number }): void {
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 50)) {
+    fail(`limit must be an integer between 1 and 50, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+  if (params.threshold !== undefined && !(typeof params.threshold === 'number' && params.threshold >= 0.1 && params.threshold <= 1)) {
+    fail(`threshold must be a number between 0.1 and 1, got ${JSON.stringify(params.threshold)}`, 'threshold', params.threshold, 'out_of_range');
+  }
+}
+
 /** Cross-field check: `dependentField` may only be set when `requiredField` is also set. */
 export function assertRequiredWith(
   dependentValue: unknown,

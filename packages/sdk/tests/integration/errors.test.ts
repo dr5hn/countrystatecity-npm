@@ -25,7 +25,7 @@ describe('error responses, driven through the public API', () => {
 
   it('403 with a restriction body -> FeatureRestrictedError carrying actionable upgrade info', async () => {
     installMockCscApi({
-      '/v1/search': {
+      '/v1/search/fuzzy': {
         status: 403,
         body: { message: 'Upgrade required', feature: 'search', currentPlan: 'free', requiredPlan: 'pro', upgradeUrl: 'https://x/upgrade' },
       },
