@@ -13,6 +13,9 @@
       "dependsOn": ["build"],
       "outputs": ["coverage/**"]
     },
+    "size": {
+      "dependsOn": ["build"]
+    },
     "typecheck": {
       "dependsOn": ["^build"]
     },
