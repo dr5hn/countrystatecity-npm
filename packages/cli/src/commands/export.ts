@@ -1,9 +1,10 @@
 import { Command } from 'commander';
 import chalk from 'chalk';
 import open from 'open';
+import { CLI_TRACKING_PARAMS } from '../lib/tracking.js';
 
 /** URL for the CountryStateCity online export tool. */
-const EXPORT_URL = 'https://export.countrystatecity.in';
+const EXPORT_URL = `https://export.countrystatecity.in?${CLI_TRACKING_PARAMS}`;
 
 /**
  * Registers the export command — opens the online export tool in the default

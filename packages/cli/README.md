@@ -14,7 +14,7 @@ npm install -g @countrystatecity/cli
 ## Quick Start
 
 ```bash
-# 1. Get your free API key at https://app.countrystatecity.in
+# 1. Get your free API key at https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=cli
 csc auth login
 
 # 2. Search countries
@@ -194,8 +194,8 @@ csc export --json
 ## Links
 
 - [API Documentation](https://countrystatecity.in/docs/)
-- [Dashboard](https://app.countrystatecity.in)
-- [Pricing](https://app.countrystatecity.in/pricing)
+- [Dashboard](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=cli)
+- [Pricing](https://app.countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=cli)
 - [GitHub (monorepo)](https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/cli)
 
 ## License

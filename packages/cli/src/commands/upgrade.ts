@@ -6,6 +6,7 @@ import { validateKey } from '../lib/api.js';
 import { getTierName, printUsageFooter } from '../lib/usage-footer.js';
 import { printTable } from '../lib/display.js';
 import { createSpinner, type GlobalFlags } from '../lib/output.js';
+import { CLI_TRACKING_PARAMS } from '../lib/tracking.js';
 
 /** Plan definitions for the upgrade table and JSON output. */
 const PLANS = [
@@ -70,6 +71,6 @@ export function registerUpgradeCommand(program: Command): void {
       printUsageFooter(usage, flags);
 
       console.log(`\n${chalk.dim('Opening pricing page...')}`);
-      await open('https://app.countrystatecity.in/pricing');
+      await open(`https://app.countrystatecity.in/pricing?${CLI_TRACKING_PARAMS}`);
     });
 }
