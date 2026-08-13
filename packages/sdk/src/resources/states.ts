@@ -8,7 +8,12 @@ import type { CSCResponse } from '../types/response';
 export class StatesResource extends BaseResource {
   async list(params?: IListStatesParams, opts?: IRequestOptions): Promise<CSCResponse<IState[]>> {
     assertListParams(params);
-    const query = { limit: params?.limit, offset: params?.offset };
+    const query = {
+      limit: params?.limit,
+      offset: params?.offset,
+      fields: params?.fields?.join(','),
+      sort: params?.sort?.join(','),
+    };
 
     if (params?.country !== undefined) {
       const country = assertIso2(params.country);

@@ -8,7 +8,16 @@ import type { CSCResponse } from '../types/response';
 export class CountriesResource extends BaseResource {
   async list(params?: IListCountriesParams, opts?: IRequestOptions): Promise<CSCResponse<ICountry[]>> {
     assertListParams(params);
-    return this.http.request(['countries'], { limit: params?.limit, offset: params?.offset }, opts);
+    return this.http.request(
+      ['countries'],
+      {
+        limit: params?.limit,
+        offset: params?.offset,
+        fields: params?.fields?.join(','),
+        sort: params?.sort?.join(','),
+      },
+      opts,
+    );
   }
 
   async get(iso2: string, opts?: IRequestOptions): Promise<CSCResponse<ICountry>> {

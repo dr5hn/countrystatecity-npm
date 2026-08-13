@@ -30,6 +30,16 @@ describe('CitiesResource', () => {
     );
   });
 
+  it('list() joins fields/sort arrays into comma-separated query params', async () => {
+    const http = createFakeHttp();
+    await new CitiesResource(http).list({ country: 'in', state: 'mh', fields: ['name', 'population'], sort: ['population:desc'] });
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'IN', 'states', 'MH', 'cities'],
+      { kind: undefined, limit: undefined, offset: undefined, fields: 'name,population', sort: 'population:desc' },
+      undefined,
+    );
+  });
+
   it('rejects state without country before any request', async () => {
     const http = createFakeHttp();
     await expect(new CitiesResource(http).list({ state: 'mh' })).rejects.toThrow(ValidationError);

@@ -112,14 +112,37 @@ export interface IConvertedTime {
 
 export type SearchResultType = 'country' | 'state' | 'city';
 
-export interface ISearchResult {
-  type: SearchResultType;
-  id: number;
-  name: string;
-  countryCode?: string;
-  stateCode?: string;
-  score: number;
+/**
+ * Fields every fuzzy-search hit carries in addition to the matched entity's
+ * own fields. `type` is injected client-side (the response body doesn't
+ * self-describe it — the request already pins one type per call).
+ */
+export interface ISearchMatchMeta {
+  match_score: number;
+  matched_alias: string | null;
 }
+
+/**
+ * A country result is `Partial<ICountry>` (not full `ICountry`) because
+ * which fields are present depends on the caller's plan tier — the same
+ * basic/coordinates/full gating applied to `csc.countries.get()`.
+ */
+export interface ICountrySearchResult extends Partial<ICountry>, ISearchMatchMeta {
+  type: 'country';
+}
+
+export interface IStateSearchResult extends Partial<IState>, ISearchMatchMeta {
+  type: 'state';
+  country_name: string;
+}
+
+export interface ICitySearchResult extends Partial<ICity>, ISearchMatchMeta {
+  type: 'city';
+  country_name: string;
+  state_name: string | null;
+}
+
+export type ISearchResult = ICountrySearchResult | IStateSearchResult | ICitySearchResult;
 
 export interface IUsageSnapshot {
   dailyUsed: number;
