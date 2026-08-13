@@ -1,9 +1,10 @@
 import { Command } from 'commander';
 import chalk from 'chalk';
-import { get } from '../lib/api.js';
+import { get, searchFuzzy } from '../lib/api.js';
 import { printTable, printJson } from '../lib/display.js';
 import { printUsageFooter } from '../lib/usage-footer.js';
 import { createSpinner, type GlobalFlags } from '../lib/output.js';
+import type { ISearchResult, SearchResultType } from '@countrystatecity/sdk';
 
 interface Country {
   id: number;
@@ -42,6 +43,63 @@ function resolveFlags(cmd: Command): GlobalFlags {
 }
 
 /**
+ * Renders a location hint for a fuzzy-search hit — country name for
+ * states, "state, country" for cities, nothing extra for countries.
+ */
+function formatLocation(result: ISearchResult): string {
+  if (result.type === 'city') {
+    return [result.state_name, result.country_name].filter(Boolean).join(', ');
+  }
+  if (result.type === 'state') {
+    return result.country_name ?? '';
+  }
+  return '';
+}
+
+/** Shared renderer for csc.search.fuzzy() results — table or --json. */
+function printFuzzyResults(results: ISearchResult[], flags: GlobalFlags): void {
+  if (flags.json) {
+    printJson(results);
+    return;
+  }
+  if (results.length === 0) {
+    console.log(chalk.yellow('No matches found.'));
+    return;
+  }
+  printTable(
+    ['Type', 'Name', 'Location', 'ID', 'Score'],
+    results.map((r) => [
+      r.type,
+      r.name ?? '',
+      formatLocation(r),
+      r.id !== undefined ? String(r.id) : '',
+      r.match_score.toFixed(2),
+    ])
+  );
+}
+
+/**
+ * Fallback renderer used when --fields narrows the response to a caller-chosen
+ * subset — the fixed per-entity columns below no longer apply, since the
+ * returned objects may be missing any of those hardcoded fields.
+ */
+function printGenericTable(rows: Record<string, unknown>[]): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow('No results found.'));
+    return;
+  }
+  const columns = Array.from(new Set(rows.flatMap((r) => Object.keys(r))));
+  printTable(
+    columns,
+    rows.map((r) => columns.map((c) => {
+      const value = r[c];
+      if (value === null || value === undefined) return '';
+      return typeof value === 'object' ? JSON.stringify(value) : String(value);
+    }))
+  );
+}
+
+/**
  * Registers search subcommands: countries, states, cities, regions,
  * currencies, timezones, phonecodes, and global search.
  */
@@ -53,10 +111,27 @@ export function registerSearchCommands(program: Command): void {
     .command('countries')
     .description('List all countries')
     .option('--filter <text>', 'Filter by name')
-    .action(async (options: { filter?: string }, cmd: Command) => {
+    .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Supporter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Supporter+ plan)')
+    .action(async (options: { filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
+
+      if (options.fuzzy) {
+        if (!options.filter) {
+          process.stderr.write(chalk.red('--fuzzy requires --filter <text> to search for.\n'));
+          process.exit(1);
+        }
+        const spinner = await createSpinner('Searching...', flags);
+        const { data, usage } = await searchFuzzy({ query: options.filter, type: 'country' });
+        spinner.stop();
+        printFuzzyResults(data, flags);
+        printUsageFooter(usage, flags);
+        return;
+      }
+
       const spinner = await createSpinner('Fetching countries...', flags);
-      const { data, usage } = await get<Country[]>('/countries');
+      const { data, usage } = await get<Country[]>('/countries', { fields: options.fields, sort: options.sort });
       spinner.stop();
 
       let countries = data;
@@ -67,6 +142,8 @@ export function registerSearchCommands(program: Command): void {
 
       if (flags.json) {
         printJson(countries);
+      } else if (options.fields) {
+        printGenericTable(countries as unknown as Record<string, unknown>[]);
       } else {
         printTable(
           ['ISO2', 'ISO3', 'Name', 'Capital', 'Phone', 'Currency'],
@@ -89,12 +166,29 @@ export function registerSearchCommands(program: Command): void {
     .description('List states for a country, or all states globally')
     .option('-c, --country <iso2>', 'Country ISO2 code (omit to get all states globally)')
     .option('--filter <text>', 'Filter by name')
-    .action(async (options: { country?: string; filter?: string }, cmd: Command) => {
+    .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Supporter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Supporter+ plan)')
+    .action(async (options: { country?: string; filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
       const code = options.country?.toUpperCase();
+
+      if (options.fuzzy) {
+        if (!options.filter) {
+          process.stderr.write(chalk.red('--fuzzy requires --filter <text> to search for.\n'));
+          process.exit(1);
+        }
+        const spinner = await createSpinner('Searching...', flags);
+        const { data, usage } = await searchFuzzy({ query: options.filter, type: 'state', country: code });
+        spinner.stop();
+        printFuzzyResults(data, flags);
+        printUsageFooter(usage, flags);
+        return;
+      }
+
       const endpoint = code ? `/countries/${code}/states` : '/states';
       const spinner = await createSpinner(code ? `Fetching states for ${code}...` : 'Fetching all states...', flags);
-      const { data, usage } = await get<State[]>(endpoint);
+      const { data, usage } = await get<State[]>(endpoint, { fields: options.fields, sort: options.sort });
       spinner.stop();
 
       let states = data;
@@ -105,6 +199,8 @@ export function registerSearchCommands(program: Command): void {
 
       if (flags.json) {
         printJson(states);
+      } else if (options.fields) {
+        printGenericTable(states as unknown as Record<string, unknown>[]);
       } else {
         printTable(
           code ? ['ID', 'Name', 'ISO2', 'Type'] : ['ID', 'Name', 'ISO2', 'Type', 'Country'],
@@ -122,12 +218,28 @@ export function registerSearchCommands(program: Command): void {
     .command('cities')
     .description('List cities globally, for a country, or for a state')
     .option('-c, --country <iso2>', 'Country ISO2 code')
-    .option('-s, --state <iso2>', 'State ISO2 code')
+    .option('-s, --state <iso2>', 'State ISO2 code (ignored with --fuzzy — fuzzy search only scopes by country)')
     .option('--filter <text>', 'Filter by name')
-    .action(async (options: { country?: string; state?: string; filter?: string }, cmd: Command) => {
+    .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,population (Supporter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. population:desc (Supporter+ plan)')
+    .action(async (options: { country?: string; state?: string; filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
       const countryCode = options.country?.toUpperCase();
       const stateCode = options.state?.toUpperCase();
+
+      if (options.fuzzy) {
+        if (!options.filter) {
+          process.stderr.write(chalk.red('--fuzzy requires --filter <text> to search for.\n'));
+          process.exit(1);
+        }
+        const spinner = await createSpinner('Searching...', flags);
+        const { data, usage } = await searchFuzzy({ query: options.filter, type: 'city', country: countryCode });
+        spinner.stop();
+        printFuzzyResults(data, flags);
+        printUsageFooter(usage, flags);
+        return;
+      }
 
       let endpoint: string;
       let spinnerText: string;
@@ -145,7 +257,7 @@ export function registerSearchCommands(program: Command): void {
       }
 
       const spinner = await createSpinner(spinnerText, flags);
-      const { data, usage } = await get<City[]>(endpoint);
+      const { data, usage } = await get<City[]>(endpoint, { fields: options.fields, sort: options.sort });
       spinner.stop();
 
       let cities = data;
@@ -156,6 +268,8 @@ export function registerSearchCommands(program: Command): void {
 
       if (flags.json) {
         printJson(cities);
+      } else if (options.fields) {
+        printGenericTable(cities as unknown as Record<string, unknown>[]);
       } else {
         const hasExtra = !countryCode;
         printTable(
@@ -195,12 +309,33 @@ export function registerSearchCommands(program: Command): void {
     });
 
   // ── global search ──────────────────────────────────────────────────────────
+  // A separate `isDefault` subcommand, not options on `search` itself —
+  // Commander loses a child subcommand's option value when the parent
+  // command declares an option with the same long name (confirmed via a
+  // minimal repro: `search`'s own --country silently blanked out
+  // `search states --country IN`'s --country). Keeping `search` itself
+  // option-free avoids that entirely.
   search
-    .argument('[query]', 'Search term to match country names')
-    .action(async (query: string | undefined, options: Record<string, unknown>, cmd: Command) => {
+    .command('query [query]', { isDefault: true, hidden: true })
+    .description('Search term to match country names (or any --type with --fuzzy)')
+    .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search (Professional+ plan)')
+    .option('-t, --type <type>', 'Entity type for --fuzzy: country, state, or city', 'city')
+    .option('-c, --country <iso2>', 'Country ISO2 code to scope --fuzzy results (not used with --type country)')
+    .action(async (query: string | undefined, options: { fuzzy?: boolean; type?: string; country?: string }, cmd: Command) => {
       if (!query) return;
 
       const flags = resolveFlags(cmd);
+
+      if (options.fuzzy) {
+        const type = (options.type ?? 'city') as SearchResultType;
+        const spinner = await createSpinner('Searching...', flags);
+        const { data, usage } = await searchFuzzy({ query, type, country: options.country?.toUpperCase() });
+        spinner.stop();
+        printFuzzyResults(data, flags);
+        printUsageFooter(usage, flags);
+        return;
+      }
+
       const spinner = await createSpinner('Searching...', flags);
       const { data, usage } = await get<Country[]>('/countries');
       spinner.stop();
@@ -228,7 +363,7 @@ export function registerSearchCommands(program: Command): void {
 
       if (!flags.json) {
         process.stderr.write(
-          chalk.dim('\nTip: Use `csc search states --country IN` to search within a country') + '\n'
+          chalk.dim('\nTip: Use `csc search states --country IN` to search within a country, or add --fuzzy for typo-tolerant search') + '\n'
         );
       }
       printUsageFooter(usage, flags);
