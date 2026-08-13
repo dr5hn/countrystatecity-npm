@@ -95,6 +95,23 @@ export interface ICity {
   wikiDataId?: string | null;
 }
 
+/**
+ * Which source-data release this package's data was generated from.
+ * `dataVersion` matches the CSC API's `X-CSC-Data-Version` header/response
+ * format exactly (`<source-release>-<YYYY.MM.DD>`), so a customer comparing
+ * this package against a live API response sees the identical string.
+ */
+export interface IDataVersion {
+  dataVersion: string;
+  sourceRelease: string;
+  updatedAt: string;
+  recordCounts: {
+    countries: number;
+    states: number;
+    cities: number;
+  };
+}
+
 export interface ConfigOptions {
   baseURL?: string;
   timeout?: number;

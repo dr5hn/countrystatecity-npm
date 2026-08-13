@@ -4,7 +4,7 @@
  * Falls back to fs.readFileSync for CommonJS environments
  */
 
-import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion } from './types';
+import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion, IDataVersion } from './types';
 
 // Cache for country code to directory name mapping
 let countryDirMap: Map<string, string> | null = null;
@@ -209,6 +209,16 @@ export async function getRegions(): Promise<IRegion[]> {
  */
 export async function getSubregions(): Promise<ISubregion[]> {
   return loadJSON<ISubregion[]>('./data/subregions.json');
+}
+
+/**
+ * Get the source-data release this package's data was generated from.
+ * Never loads country, state, or city data — only the small version.json file.
+ * @returns Promise with the data version info
+ * @bundle <1KB - Loads version.json
+ */
+export async function getDataVersion(): Promise<IDataVersion> {
+  return loadJSON<IDataVersion>('./data/version.json');
 }
 
 /**
