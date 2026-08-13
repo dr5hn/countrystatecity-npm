@@ -14,6 +14,28 @@ describe('CountriesResource', () => {
     expect(http.request).toHaveBeenCalledWith(['countries'], { limit: 10, offset: 5 }, undefined);
   });
 
+  it('list() joins fields/sort arrays into comma-separated query params', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.list({ fields: ['name', 'iso2'], sort: ['name:asc'] });
+
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries'],
+      { limit: undefined, offset: undefined, fields: 'name,iso2', sort: 'name:asc' },
+      undefined,
+    );
+  });
+
+  it('list() omits fields/sort from the query when not provided', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.list({ limit: 10 });
+
+    expect(http.request).toHaveBeenCalledWith(['countries'], { limit: 10, offset: undefined }, undefined);
+  });
+
   it('list() passes { data, meta } through untouched', async () => {
     const payload = { data: [{ id: 1 }] as unknown as ICountry[], meta: { retryCount: 0 } };
     const http = createFakeHttp(payload);

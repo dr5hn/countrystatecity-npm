@@ -12,7 +12,13 @@ export class CitiesResource extends BaseResource {
 
     const country = params?.country !== undefined ? assertIso2(params.country) : undefined;
     const state = params?.state !== undefined ? assertStateCode(params.state) : undefined;
-    const query = { kind: params?.kind, limit: params?.limit, offset: params?.offset };
+    const query = {
+      kind: params?.kind,
+      limit: params?.limit,
+      offset: params?.offset,
+      fields: params?.fields?.join(','),
+      sort: params?.sort?.join(','),
+    };
 
     if (country && state) {
       return this.http.request(['countries', country, 'states', state, 'cities'], query, opts);

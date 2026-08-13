@@ -69,19 +69,21 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 
 | Resource | Methods |
 |---|---|
-| `csc.countries` | `list(params?)`, `get(iso2)` |
-| `csc.states` | `list({ country?, limit?, offset? })`, `get(country, stateCode)` |
-| `csc.cities` | `list({ country?, state?, kind?, limit?, offset? })`, `get(country, stateCode, cityId)` |
+| `csc.countries` | `list({ limit?, offset?, fields?, sort? })`, `get(iso2)` |
+| `csc.states` | `list({ country?, limit?, offset?, fields?, sort? })`, `get(country, stateCode)` |
+| `csc.cities` | `list({ country?, state?, kind?, limit?, offset?, fields?, sort? })`, `get(country, stateCode, cityId)` |
 | `csc.regions` | `list()`, `get(id)`, `subregions(id)` |
 | `csc.currencies` | `list()`, `get(code)`, `byCountry(iso2)` |
 | `csc.iso` | `lookup({ iso2? \| iso3? \| numeric? })` |
 | `csc.phone` | `list()`, `get(iso2)`, `byDialCode(dialCode)` |
 | `csc.timezones` | `list()`, `byCountry(iso2)`, `convert({ time, from, to })` |
-| `csc.search` | `fuzzy({ query, type?, country?, limit? })` |
+| `csc.search` | `fuzzy({ query, type?, country?, limit?, threshold? })` — `type` defaults to `'city'`; results include `match_score`/`matched_alias` and a client-injected `type` field |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 | `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
 
 `csc.cities.list({ state })` requires `country` to also be set — a `ValidationError` is thrown client-side otherwise.
+
+`fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
 
 > **`changes` is `@beta`.** Endpoint availability isn't confirmed across all accounts/plans yet; calls may 404 until it ships on your account. It's typed now so upgrading later requires no SDK changes.
 

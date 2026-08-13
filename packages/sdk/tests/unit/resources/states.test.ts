@@ -16,6 +16,16 @@ describe('StatesResource', () => {
     expect(http.request).toHaveBeenCalledWith(['countries', 'US', 'states'], { limit: undefined, offset: undefined }, undefined);
   });
 
+  it('list() joins fields/sort arrays into comma-separated query params', async () => {
+    const http = createFakeHttp();
+    await new StatesResource(http).list({ country: 'us', fields: ['name', 'iso2'], sort: ['name:desc'] });
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'US', 'states'],
+      { limit: undefined, offset: undefined, fields: 'name,iso2', sort: 'name:desc' },
+      undefined,
+    );
+  });
+
   it('get() requests /countries/{code}/states/{stateCode}', async () => {
     const http = createFakeHttp();
     await new StatesResource(http).get('us', 'ca');

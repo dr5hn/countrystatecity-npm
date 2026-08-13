@@ -13,7 +13,7 @@ import type {
   ICurrency,
   IPhonecode,
   ITimezone,
-  ISearchResult,
+  ICitySearchResult,
   IChangeEvent,
 } from '../../../src/types/entities';
 
@@ -111,13 +111,25 @@ export const KOLKATA_TZ: ITimezone = {
   countryCode: 'IN',
 };
 
-export const MUMBAI_SEARCH_RESULT: ISearchResult = {
-  type: 'city',
+/**
+ * What the real API's response row actually looks like — no `type` field
+ * (the request already pins one type per call), snake_case, `match_score`
+ * not `score`. `fuzzy()` injects `type` client-side; see MUMBAI_SEARCH_RESULT.
+ */
+export const MUMBAI_SEARCH_ROW = {
   id: 132649,
   name: 'Mumbai',
-  countryCode: 'IN',
-  stateCode: 'MH',
-  score: 0.98,
+  country_code: 'IN',
+  state_code: 'MH',
+  country_name: 'India',
+  state_name: 'Maharashtra',
+  match_score: 0.98,
+  matched_alias: null,
+};
+
+export const MUMBAI_SEARCH_RESULT: ICitySearchResult = {
+  ...MUMBAI_SEARCH_ROW,
+  type: 'city',
 };
 
 export const SAMPLE_CHANGE_EVENT: IChangeEvent = {

@@ -4,6 +4,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 vi.mock('../../src/lib/config.js', () => ({
   getApiKey: vi.fn(() => 'test-api-key'),
   getApiBase: vi.fn(() => 'https://api.countrystatecity.in/v1'),
+  getApiHost: vi.fn(() => 'https://api.countrystatecity.in'),
 }));
 
 // Mock chalk to pass through
@@ -15,7 +16,7 @@ vi.mock('chalk', () => ({
   },
 }));
 
-import { get, validateKey } from '../../src/lib/api.js';
+import { get, validateKey, searchFuzzy, getPlans } from '../../src/lib/api.js';
 import { getApiKey } from '../../src/lib/config.js';
 
 function stubFetch(status: number, body: unknown, headers?: Record<string, string>) {
@@ -155,6 +156,93 @@ describe('api client', () => {
 
       const calledUrl = fetchMock.mock.calls[0][0] as string;
       expect(calledUrl.split('?')[0]).toBe(expectedUrl);
+    });
+  });
+
+  describe('fields/sort passthrough', () => {
+    it('joins fields/sort into the request query string', async () => {
+      const fetchMock = stubFetch(200, []);
+
+      await get('/countries', { fields: 'name,iso2', sort: 'name:asc' });
+
+      const url = new URL(fetchMock.mock.calls[0][0] as string);
+      expect(url.searchParams.get('fields')).toBe('name,iso2');
+      expect(url.searchParams.get('sort')).toBe('name:asc');
+    });
+
+    it('omits fields/sort from the query string when not provided', async () => {
+      const fetchMock = stubFetch(200, []);
+
+      await get('/countries');
+
+      const url = new URL(fetchMock.mock.calls[0][0] as string);
+      expect(url.searchParams.has('fields')).toBe(false);
+      expect(url.searchParams.has('sort')).toBe(false);
+    });
+  });
+
+  describe('searchFuzzy', () => {
+    it('requests /search/fuzzy with q (not query) and returns injected type', async () => {
+      const fetchMock = stubFetch(200, [{ id: 1, name: 'Mumbai', match_score: 0.98, matched_alias: null }]);
+
+      const result = await searchFuzzy({ query: 'Banglore', type: 'city', country: 'IN', limit: 10 });
+
+      const url = new URL(fetchMock.mock.calls[0][0] as string);
+      expect(url.pathname).toBe('/v1/search/fuzzy');
+      expect(url.searchParams.get('q')).toBe('Banglore');
+      expect(url.searchParams.has('query')).toBe(false);
+      expect(result.data).toEqual([{ id: 1, name: 'Mumbai', match_score: 0.98, matched_alias: null, type: 'city' }]);
+    });
+
+    it('surfaces requiredPlan and upgradeUrl on a 403 (paid-feature) response', async () => {
+      stubFetch(403, { message: 'Upgrade required', feature: 'fuzzySearch', requiredPlan: 'professional', upgradeUrl: 'https://app.countrystatecity.in/pricing?x=1' });
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const errSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      await expect(searchFuzzy({ query: 'Mumbai' })).rejects.toThrow('exit');
+
+      expect(process.exit).toHaveBeenCalledWith(1);
+      const messages = errSpy.mock.calls.map((c) => String(c[0]));
+      expect(messages.some((m) => m.includes('professional'))).toBe(true);
+      expect(messages.some((m) => m.includes('https://app.countrystatecity.in/pricing?x=1'))).toBe(true);
+    });
+
+    it('exits when no API key is configured', async () => {
+      vi.mocked(getApiKey).mockReturnValueOnce(undefined);
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+
+      await expect(searchFuzzy({ query: 'Mumbai' })).rejects.toThrow('exit');
+      expect(process.exit).toHaveBeenCalledWith(1);
+    });
+  });
+
+  describe('getPlans', () => {
+    it('fetches the bare-host /plans endpoint (no /v1, no auth header)', async () => {
+      const fetchMock = stubFetch(200, { plans: [{ key: 'community', name: 'Community', priceMonthly: 0 }] });
+
+      const plans = await getPlans();
+
+      expect(fetchMock.mock.calls[0][0]).toBe('https://api.countrystatecity.in/plans');
+      expect(fetchMock.mock.calls[0][1]).toBeUndefined();
+      expect(plans).toEqual([{ key: 'community', name: 'Community', priceMonthly: 0 }]);
+    });
+
+    it('exits with a clear message when the /plans request fails', async () => {
+      stubFetchError(new Error('ECONNREFUSED'));
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const errSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      await expect(getPlans()).rejects.toThrow('exit');
+      expect(process.exit).toHaveBeenCalledWith(1);
+      expect(errSpy).toHaveBeenCalled();
+    });
+
+    it('exits when /plans returns a non-2xx status', async () => {
+      stubFetch(500, { message: 'Internal error' });
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+
+      await expect(getPlans()).rejects.toThrow('exit');
+      expect(process.exit).toHaveBeenCalledWith(1);
     });
   });
 

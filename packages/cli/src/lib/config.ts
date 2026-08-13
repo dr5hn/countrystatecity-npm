@@ -31,10 +31,19 @@ export function clearApiKey(): void {
 }
 
 /**
- * Returns the API base URL.
+ * Returns the API base URL (includes the /v1 suffix — most SDK calls go here).
  */
 export function getApiBase(): string {
   return config.get('apiBase') as string;
+}
+
+/**
+ * Returns the bare API host, without the /v1 suffix — for the handful of
+ * routes (like /plans) that are mounted outside the versioned API and
+ * aren't reachable through CSCClient.
+ */
+export function getApiHost(): string {
+  return getApiBase().replace(/\/v1\/?$/, '');
 }
 
 /**
