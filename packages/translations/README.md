@@ -66,6 +66,27 @@ console.log(locales);
 // ['ar', 'br', 'de', 'es', 'fa', 'fr', 'hi', 'hr', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'pt-BR', 'ru', 'tr', 'uk', 'zh-CN']
 ```
 
+## Local package or live API?
+
+This package ships a free, offline-capable snapshot of the data — that's still the right choice when the app must work offline, a periodic snapshot is enough, or you just need simple lookups.
+
+The live [CountryStateCity API](https://countrystatecity.in) provides translated country, state, and city names when you need fresh data, server-side search, or one localization flow for all place types. Localization is available on Professional and Business plans.
+
+**Start free with 3,000 requests per month.** [Compare plans](https://countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=translations) or [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=translations).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+```typescript
+import { createCSCClient } from '@countrystatecity/sdk';
+
+const csc = createCSCClient({ apiKey: process.env.CSC_API_KEY! });
+const { data: countries } = await csc.countries.list({ locale: 'fr' });
+```
+
+See the [localization guide](https://docs.countrystatecity.in/api/localization) and [compare API plans](https://countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=translations).
+
 ## 📖 API Reference
 
 ### Core Functions

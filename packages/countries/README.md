@@ -68,6 +68,43 @@ console.log(cities[0]);
 // { id: 1, name: "Los Angeles", latitude: "34.05", ... }
 ```
 
+## Local package or live API?
+
+This package ships a free, offline-capable snapshot of the data — that's still the right choice when the app must work offline, a periodic snapshot is enough, or you just need simple lookups/dropdowns.
+
+The [CountryStateCity API](https://countrystatecity.in) is worth adding alongside it when you need:
+- **Freshness** — data that updates without publishing a new package version.
+- **Search** — fuzzy, typo-tolerant, server-side search (`csc.search.fuzzy(...)`), not just exact-match local lookups.
+- **Scale & support** — configurable rate limits and support beyond a bundled snapshot.
+
+**Start free with 3,000 requests per month.** [Compare plans](https://countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=countries) or [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=countries).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+```typescript
+// Before
+import { getCountries, getStatesOfCountry, getCitiesOfState } from '@countrystatecity/countries';
+
+const countries = await getCountries();
+const states = await getStatesOfCountry('US');
+const cities = await getCitiesOfState('US', 'CA');
+```
+
+```typescript
+// After
+import { createCSCClient } from '@countrystatecity/sdk';
+
+const csc = createCSCClient({ apiKey: process.env.CSC_API_KEY! });
+
+const { data: countries } = await csc.countries.list();
+const { data: states } = await csc.states.list({ country: 'US' });
+const { data: cities } = await csc.cities.list({ country: 'US', state: 'CA' });
+```
+
+See the [full migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/packages/sdk/MIGRATION.md) for error handling, retries, and more.
+
 ## 📖 API Reference
 
 ### Core Functions
