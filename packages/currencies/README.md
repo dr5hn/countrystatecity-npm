@@ -69,6 +69,38 @@ const formatted = await formatCurrencyAmount(1234.5, 'USD');
 console.log(formatted); // "$1,234.50"
 ```
 
+## Local package or live API?
+
+This package ships a free, offline-capable snapshot of the data — that's still the right choice when the app must work offline, a periodic snapshot is enough, or you just need simple lookups.
+
+The [CountryStateCity API](https://countrystatecity.in) is worth adding alongside it when you need:
+- **Freshness** — data that updates without publishing a new package version.
+- **Search** — fuzzy, typo-tolerant, server-side search (`csc.search.fuzzy(...)`), not just exact-match local lookups.
+- **Scale & support** — configurable rate limits and support beyond a bundled snapshot.
+
+**Start free with 3,000 requests per month** — [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=currencies).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+```typescript
+// Before
+import { getCurrencyByCode } from '@countrystatecity/currencies';
+
+const usd = await getCurrencyByCode('USD');
+```
+
+```typescript
+// After
+import { createCSCClient } from '@countrystatecity/sdk';
+
+const csc = createCSCClient({ apiKey: process.env.CSC_API_KEY! });
+const { data: usd } = await csc.currencies.get('USD');
+```
+
+See the [full migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/packages/sdk/MIGRATION.md) for error handling, retries, and more.
+
 ## 📖 API Reference
 
 ### Core Functions

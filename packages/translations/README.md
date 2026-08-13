@@ -66,6 +66,20 @@ console.log(locales);
 // ['ar', 'br', 'de', 'es', 'fa', 'fr', 'hi', 'hr', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'pt-BR', 'ru', 'tr', 'uk', 'zh-CN']
 ```
 
+## Local package or live API?
+
+This package ships a free, offline-capable snapshot of the data — that's still the right choice when the app must work offline, a periodic snapshot is enough, or you just need simple lookups.
+
+This package's translated-name data isn't part of the live [CountryStateCity API](https://countrystatecity.in) yet. But if your app also needs countries, states, cities, currencies, phone codes, timezones, or fuzzy search, [`@countrystatecity/sdk`](https://www.npmjs.com/package/@countrystatecity/sdk) covers those live, with freshness, server-side search, and configurable rate limits beyond a bundled snapshot.
+
+**Start free with 3,000 requests per month** — [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=translations).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+See the [full migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/packages/sdk/MIGRATION.md) for what's covered today.
+
 ## 📖 API Reference
 
 ### Core Functions

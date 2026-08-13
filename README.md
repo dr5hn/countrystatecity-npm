@@ -30,6 +30,7 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/postalcodes`](https://www.npmjs.com/package/@countrystatecity/postalcodes) | 844,000+ postal codes across 125 countries with locality search & validation | Node.js / Server | Lazy-loaded |
 | [`@countrystatecity/geojson`](https://www.npmjs.com/package/@countrystatecity/geojson) | Countries/states/cities as GeoJSON `Point` FeatureCollections (no boundary polygons) | Browser / Any | Lazy-loaded |
 | [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
+| [`@countrystatecity/sdk`](https://www.npmjs.com/package/@countrystatecity/sdk) | Official client for the live CountryStateCity API — search, usage, and always-current data | Node.js / Browser | <10KB |
 
 ---
 
@@ -95,6 +96,43 @@ const regions = await getRegions();
 const europeanCountries = await getCountriesByRegion('Europe');
 // [{ id: 6, name: 'Andorra', iso2: 'AD', region: 'Europe', ... }, ...]
 ```
+
+## Local package or live API?
+
+These packages ship a free, offline-capable snapshot of the data — that's still the right choice when the app must work offline, a periodic snapshot is enough, or you just need simple lookups/dropdowns.
+
+The [CountryStateCity API](https://countrystatecity.in) is worth adding alongside them when you need:
+- **Freshness** — data that updates without publishing a new package version.
+- **Search** — fuzzy, typo-tolerant, server-side search (`csc.search.fuzzy(...)`), not just exact-match local lookups.
+- **Scale & support** — configurable rate limits and support beyond a bundled snapshot.
+
+**Start free with 3,000 requests per month** — [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=countries).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+```typescript
+// Before
+import { getCountries, getStatesOfCountry, getCitiesOfState } from '@countrystatecity/countries';
+
+const countries = await getCountries();
+const states = await getStatesOfCountry('US');
+const cities = await getCitiesOfState('US', 'CA');
+```
+
+```typescript
+// After
+import { createCSCClient } from '@countrystatecity/sdk';
+
+const csc = createCSCClient({ apiKey: process.env.CSC_API_KEY! });
+
+const { data: countries } = await csc.countries.list();
+const { data: states } = await csc.states.list({ country: 'US' });
+const { data: cities } = await csc.cities.list({ country: 'US', state: 'CA' });
+```
+
+See the [full migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/packages/sdk/MIGRATION.md) for error handling, retries, and more.
 
 ### Timezones
 
