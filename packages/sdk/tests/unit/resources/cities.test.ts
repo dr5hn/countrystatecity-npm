@@ -4,10 +4,11 @@ import { ValidationError } from '../../../src/errors';
 import { createFakeHttp } from '../support/fakeHttp';
 
 describe('CitiesResource', () => {
-  it('list() with neither country nor state requests /cities', async () => {
+  it('rejects list() with no country before any request — the API has no bare GET /cities route', async () => {
     const http = createFakeHttp();
-    await new CitiesResource(http).list();
-    expect(http.request).toHaveBeenCalledWith(['cities'], { kind: undefined, limit: undefined, offset: undefined }, undefined);
+    // @ts-expect-error — country is required; this exercises non-TypeScript callers too.
+    await expect(new CitiesResource(http).list({})).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
   });
 
   it('list({ country }) requests /countries/{code}/cities', async () => {
@@ -46,10 +47,10 @@ describe('CitiesResource', () => {
     expect(http.request).not.toHaveBeenCalled();
   });
 
-  it('get() requests the full hierarchy path with the city id', async () => {
+  it('get() always rejects — the API has no single-city-by-ID endpoint', async () => {
     const http = createFakeHttp();
-    await new CitiesResource(http).get('in', 'mh', 132);
-    expect(http.request).toHaveBeenCalledWith(['countries', 'IN', 'states', 'MH', 'cities', 132], undefined, undefined);
+    await expect(new CitiesResource(http).get('in', 'mh', 132)).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
   });
 
   it('list() passes locale/includeTranslations through as locale/include_translations', async () => {

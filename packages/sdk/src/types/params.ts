@@ -41,8 +41,14 @@ export interface IListStatesParams extends IListParams, ILocalizationParams {
   sort?: string[];
 }
 
+/**
+ * `country` is required (unlike `IListCountriesParams`/`IListStatesParams`)
+ * — the real API has no bare `GET /cities` route, so an unfiltered call
+ * would always 404. Enforced both at the type level here and at runtime in
+ * `CitiesResource.list()` for callers not using TypeScript.
+ */
 export interface IListCitiesParams extends IListParams, ILocalizationParams {
-  country?: string;
+  country: string;
   state?: string;
   /** Free-form city classification (e.g. 'settlement'); not validated client-side, see docs. */
   kind?: string;

@@ -38,7 +38,7 @@ const { data: states } = await csc.states.list({ country: 'IN' });
 const { data: cities } = await csc.cities.list({ country: 'IN', state: 'MH' });
 
 const { data: matches } = await csc.search.fuzzy({
-  query: 'Banglore',
+  query: 'Mumbay',
   type: 'city',
   country: 'IN',
   limit: 10,
@@ -71,7 +71,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 |---|---|
 | `csc.countries` | `list({ limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(iso2, { locale?, includeTranslations? })` |
 | `csc.states` | `list({ country?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(country, stateCode, { locale?, includeTranslations? })` |
-| `csc.cities` | `list({ country?, state?, kind?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(country, stateCode, cityId)` — no `locale` on `get()`, see note below |
+| `csc.cities` | `list({ country, state?, kind?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })` — `country` is required, unlike `countries`/`states`; `get(country, stateCode, cityId)` always throws `ValidationError`, see note below |
 | `csc.regions` | `list({ locale?, includeTranslations? })`, `get(id, { locale?, includeTranslations? })`, `subregions(id, { locale?, includeTranslations? })` |
 | `csc.currencies` | `list()`, `get(code)`, `byCountry(iso2)` |
 | `csc.iso` | `lookup({ iso2? \| iso3? \| numeric? })` |
@@ -83,7 +83,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 | `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
 
-`csc.cities.list({ state })` requires `country` to also be set — a `ValidationError` is thrown client-side otherwise.
+`csc.cities.list()` requires `country` (the real API has no bare `GET /cities` route) — a `ValidationError` is thrown client-side if it's missing, same as `state` without `country`. `csc.cities.get()` always throws a `ValidationError` — the real API has no single-city-by-ID endpoint at all; fetch the containing `list({ country, state })` and find the city in the results instead.
 
 `fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
 
