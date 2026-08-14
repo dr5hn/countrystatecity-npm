@@ -1,23 +1,34 @@
 import { BaseResource } from './BaseResource';
-import { assertListParams, assertIsoDateString } from '../validation/assertions';
-import type { IChangeEvent } from '../types/entities';
+import { assertIso2, assertIsoDateString, assertChangesParams } from '../validation/assertions';
+import type { IChangeFeedPage } from '../types/entities';
 import type { IChangesParams } from '../types/params';
 import type { IRequestOptions } from '../types/config';
 import type { CSCResponse } from '../types/response';
 
-/**
- * @beta Endpoint availability isn't confirmed across all accounts/plans yet —
- * calls may 404 until the API ships it. Kept typed now so upgrading later
- * requires no SDK changes.
- */
 export class ChangesResource extends BaseResource {
-  async list(params?: IChangesParams, opts?: IRequestOptions): Promise<CSCResponse<IChangeEvent[]>> {
-    assertListParams(params);
-    const since = params?.since !== undefined ? assertIsoDateString(params.since, 'since') : undefined;
+  /**
+   * Cursor-paginated feed of country/state/city changes (Business tier).
+   * Unlike every other `list()` in this SDK, `data` is an object
+   * (`{ results, next_page_token }`), not a bare array — matches the real
+   * wire response exactly. Pass the previous page's `nextPageToken` alone
+   * to continue; resending a disagreeing filter alongside it is a hard
+   * `ValidationError`-mapped 400 server-side, not silently dropped.
+   */
+  async list(params?: IChangesParams, opts?: IRequestOptions): Promise<CSCResponse<IChangeFeedPage>> {
+    assertChangesParams(params ?? {});
+    const startDate = params?.startDate !== undefined ? assertIsoDateString(params.startDate, 'startDate') : undefined;
+    const countryCode = params?.countryCode !== undefined ? assertIso2(params.countryCode) : undefined;
 
     return this.http.request(
       ['changes'],
-      { since, resource: params?.resource, limit: params?.limit, offset: params?.offset },
+      {
+        start_date: startDate,
+        place_type: params?.placeType,
+        country_code: countryCode,
+        change_type: params?.changeType,
+        limit: params?.limit,
+        next_page_token: params?.nextPageToken,
+      },
       opts,
     );
   }

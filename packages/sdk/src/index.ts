@@ -58,9 +58,13 @@ export type {
   INearbyCityResult,
   INearbyResult,
   IUsageSnapshot,
-  ChangeResourceType,
-  ChangeOperation,
+  ChangePlaceType,
+  ChangeType,
+  ICountryChangeEvent,
+  IStateChangeEvent,
+  ICityChangeEvent,
   IChangeEvent,
+  IChangeFeedPage,
 } from './types/entities';
 
 export type {
