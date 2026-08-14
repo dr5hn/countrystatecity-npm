@@ -89,7 +89,7 @@ export function getBrandedHelp(): string {
     ['explore',  'Interactively browse geographic data'],
     ['usage',    'Show your current API usage and tier'],
     ['upgrade',  'View plans and open the pricing page'],
-    ['generate', 'Generate dropdown or seed data for a framework'],
+    ['generate', 'Generate dropdown/seed data or live location components'],
     ['export',   'Export geographic data to JSON or CSV'],
   ] as const;
 
