@@ -51,7 +51,7 @@ describe('CountriesResource', () => {
 
     await resource.get('in');
 
-    expect(http.request).toHaveBeenCalledWith(['countries', 'IN'], undefined, undefined);
+    expect(http.request).toHaveBeenCalledWith(['countries', 'IN'], { locale: undefined, include_translations: undefined }, undefined);
   });
 
   it('get() rejects a malformed country code before any request', async () => {
@@ -60,5 +60,31 @@ describe('CountriesResource', () => {
 
     await expect(resource.get('INDIA')).rejects.toThrow(ValidationError);
     expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('list() passes locale/includeTranslations through as locale/include_translations', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.list({ locale: 'pt-BR', includeTranslations: true });
+
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries'],
+      expect.objectContaining({ locale: 'pt-BR', include_translations: true }),
+      undefined,
+    );
+  });
+
+  it('get() passes an optional locale params object through as query params', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.get('IN', { locale: 'hi', includeTranslations: true });
+
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'IN'],
+      { locale: 'hi', include_translations: true },
+      undefined,
+    );
   });
 });

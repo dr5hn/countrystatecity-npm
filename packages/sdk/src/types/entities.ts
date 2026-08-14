@@ -9,6 +9,14 @@ export interface ITranslations {
   [languageCode: string]: string;
 }
 
+/**
+ * `translations`/`localized_name`/`matched_locale` are all opt-in/
+ * conditional, never guaranteed: `translations` only appears when
+ * `includeTranslations` is passed (Professional+, silently omitted
+ * otherwise — not a 403), and `localized_name`/`matched_locale` only when
+ * `locale` is passed (same tier/omission rule). `name`/`id` are never
+ * replaced by localization — both stay present and stable regardless.
+ */
 export interface ICountry {
   id: number;
   name: string;
@@ -33,6 +41,9 @@ export interface ICountry {
   longitude: string;
   emoji: string;
   emojiU: string;
+  translations?: ITranslations;
+  localized_name?: string;
+  matched_locale?: string;
 }
 
 export interface IState {
@@ -48,7 +59,9 @@ export interface IState {
   longitude: string | null;
   native: string | null;
   timezone: string | null;
-  translations: ITranslations;
+  translations?: ITranslations;
+  localized_name?: string;
+  matched_locale?: string;
 }
 
 export interface ICity {
@@ -62,22 +75,28 @@ export interface ICity {
   longitude: string;
   native: string | null;
   timezone: string | null;
-  translations: ITranslations;
+  translations?: ITranslations;
+  localized_name?: string;
+  matched_locale?: string;
 }
 
 export interface IRegion {
   id: number;
   name: string;
-  translations: ITranslations;
+  translations?: ITranslations;
   wikiDataId: string | null;
+  localized_name?: string;
+  matched_locale?: string;
 }
 
 export interface ISubregion {
   id: number;
   name: string;
   region_id: number;
-  translations: ITranslations;
+  translations?: ITranslations;
   wikiDataId: string | null;
+  localized_name?: string;
+  matched_locale?: string;
 }
 
 export interface ICurrency {

@@ -38,7 +38,7 @@ const { data: states } = await csc.states.list({ country: 'IN' });
 const { data: cities } = await csc.cities.list({ country: 'IN', state: 'MH' });
 
 const { data: matches } = await csc.search.fuzzy({
-  query: 'Banglore',
+  query: 'Mumbay',
   type: 'city',
   country: 'IN',
   limit: 10,
@@ -69,10 +69,10 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 
 | Resource | Methods |
 |---|---|
-| `csc.countries` | `list({ limit?, offset?, fields?, sort? })`, `get(iso2)` |
-| `csc.states` | `list({ country?, limit?, offset?, fields?, sort? })`, `get(country, stateCode)` |
-| `csc.cities` | `list({ country?, state?, kind?, limit?, offset?, fields?, sort? })`, `get(country, stateCode, cityId)` |
-| `csc.regions` | `list()`, `get(id)`, `subregions(id)` |
+| `csc.countries` | `list({ limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(iso2, { locale?, includeTranslations? })` |
+| `csc.states` | `list({ country?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(country, stateCode, { locale?, includeTranslations? })` |
+| `csc.cities` | `list({ country, state?, kind?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })` — `country` is required, unlike `countries`/`states`; `get(country, stateCode, cityId)` always throws `ValidationError`, see note below |
+| `csc.regions` | `list({ locale?, includeTranslations? })`, `get(id, { locale?, includeTranslations? })`, `subregions(id, { locale?, includeTranslations? })` |
 | `csc.currencies` | `list()`, `get(code)`, `byCountry(iso2)` |
 | `csc.iso` | `lookup({ iso2? \| iso3? \| numeric? })` |
 | `csc.phone` | `list()`, `get(iso2)`, `byDialCode(dialCode)` |
@@ -83,9 +83,11 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 | `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
 
-`csc.cities.list({ state })` requires `country` to also be set — a `ValidationError` is thrown client-side otherwise.
+`csc.cities.list()` requires `country` (the real API has no bare `GET /cities` route) — a `ValidationError` is thrown client-side if it's missing, same as `state` without `country`. `csc.cities.get()` always throws a `ValidationError` — the real API has no single-city-by-ID endpoint at all; fetch the containing `list({ country, state })` and find the city in the results instead.
 
 `fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
+
+`locale`/`includeTranslations` map to the API's `?locale=`/`?include_translations=` (Professional+ plan). When `locale` is set (e.g. `'pt-BR'`), matching results gain `localized_name`/`matched_locale` (which fallback tier actually matched: the exact locale, base language, `native`, or `name` itself) — `name`/`id` are never replaced. `includeTranslations: true` adds the full raw `translations` object (previously always included for full-tier callers; now opt-in, since it can roughly triple response size on large unpaginated lists). Both are silently omitted — not a `403` — for plans below Professional, same treatment as `fields`/`sort`. Not available on `cities.get()`: the real API has no single-city-by-ID endpoint at all. `csc.search.fuzzy()` now also matches translated/native names automatically server-side — no new SDK param needed, and there's no per-locale filter on fuzzy search itself since it searches across all languages at once. `csc.search.autocomplete()`/`csc.search.nearby()` don't support `locale`/`includeTranslations` yet.
 
 > **`changes` is `@beta`.** Endpoint availability isn't confirmed across all accounts/plans yet; calls may 404 until it ships on your account. It's typed now so upgrading later requires no SDK changes.
 

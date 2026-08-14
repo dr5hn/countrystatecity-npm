@@ -65,6 +65,7 @@ export type {
 
 export type {
   IListParams,
+  ILocalizationParams,
   IListCountriesParams,
   IListStatesParams,
   IListCitiesParams,
