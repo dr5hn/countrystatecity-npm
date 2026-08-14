@@ -15,7 +15,7 @@ vi.mock('chalk', () => ({
   },
 }));
 
-import { get, validateKey } from '../../src/lib/api.js';
+import { get, call, validateKey } from '../../src/lib/api.js';
 import { getApiKey } from '../../src/lib/config.js';
 
 function stubFetch(status: number, body: unknown, headers?: Record<string, string>) {
@@ -155,6 +155,45 @@ describe('api client', () => {
 
       const calledUrl = fetchMock.mock.calls[0][0] as string;
       expect(calledUrl.split('?')[0]).toBe(expectedUrl);
+    });
+  });
+
+  describe('call', () => {
+    it('runs an arbitrary typed SDK resource call and returns its data/usage', async () => {
+      const fetchMock = stubFetch(200, [{ id: 132649, name: 'Mumbai', distance_km: 0.42 }], {
+        'x-csc-daily-used': '10',
+        'x-csc-daily-limit': '1000',
+        'x-csc-monthly-used': '100',
+        'x-csc-monthly-limit': '30000',
+      });
+
+      const result = await call((client) => client.search.nearby({ lat: 19.076, lng: 72.877 }));
+
+      expect(result.data).toEqual([{ id: 132649, name: 'Mumbai', distance_km: 0.42, type: 'city' }]);
+      expect(result.usage).toEqual({ dailyUsed: 10, dailyLimit: 1000, monthlyUsed: 100, monthlyLimit: 30000 });
+
+      const calledUrl = fetchMock.mock.calls[0][0] as string;
+      expect(calledUrl).toContain('/search/nearby');
+      expect(calledUrl).toContain('lat=19.076');
+    });
+
+    it('shares the same error handling as get() — exits on 403 with an upgrade message', async () => {
+      stubFetch(403, { message: 'Forbidden' });
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const errSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      await expect(call((client) => client.search.nearby({ lat: 19.076, lng: 72.877 }))).rejects.toThrow('exit');
+      expect(process.exit).toHaveBeenCalledWith(1);
+      expect(errSpy).toHaveBeenCalledWith(expect.stringContaining('higher plan'));
+    });
+
+    it('exits when no API key is configured, without invoking the callback', async () => {
+      vi.mocked(getApiKey).mockReturnValueOnce(undefined);
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const fn = vi.fn();
+
+      await expect(call(fn)).rejects.toThrow('exit');
+      expect(fn).not.toHaveBeenCalled();
     });
   });
 

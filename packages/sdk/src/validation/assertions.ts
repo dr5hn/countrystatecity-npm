@@ -185,6 +185,40 @@ export function assertAutocompleteParams(params: { type?: string; country?: stri
   }
 }
 
+/**
+ * Nearby search shares autocomplete's `country`-invalid-when-`type`-is-
+ * `country` and `state` 1-20-char checks, but has its own `radius` (1-500 km)
+ * and `limit` (1-100, not the 1-50 shared by fuzzy/autocomplete) ranges, plus
+ * a `minPopulation` non-negative-integer check with no upper bound. `lat`/
+ * `lng` are asserted separately at the call site via the existing
+ * `assertLatitude`/`assertLongitude`, and `state`-requires-`country` via
+ * `assertRequiredWith`, matching `autocomplete()`'s own structure.
+ */
+export function assertNearbyParams(params: {
+  type?: string;
+  country?: string;
+  state?: string;
+  radius?: number;
+  limit?: number;
+  minPopulation?: number;
+}): void {
+  if (params.radius !== undefined && !(typeof params.radius === 'number' && params.radius >= 1 && params.radius <= 500)) {
+    fail(`radius must be a number between 1 and 500 (km), got ${JSON.stringify(params.radius)}`, 'radius', params.radius, 'out_of_range');
+  }
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 100)) {
+    fail(`limit must be an integer between 1 and 100, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+  if (params.minPopulation !== undefined && !(Number.isInteger(params.minPopulation) && params.minPopulation >= 0)) {
+    fail(`minPopulation must be a non-negative integer, got ${JSON.stringify(params.minPopulation)}`, 'minPopulation', params.minPopulation, 'out_of_range');
+  }
+  if (params.type === 'country' && params.country !== undefined) {
+    fail('country is not a valid filter when type is "country"', 'country', params.country, 'invalid_with_type_country');
+  }
+  if (params.state !== undefined && (params.state.length < 1 || params.state.length > 20)) {
+    fail(`state must be 1-20 characters, got ${JSON.stringify(params.state)}`, 'state', params.state, 'out_of_range');
+  }
+}
+
 /** Cross-field check: `dependentField` may only be set when `requiredField` is also set. */
 export function assertRequiredWith(
   dependentValue: unknown,

@@ -79,6 +79,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.timezones` | `list()`, `byCountry(iso2)`, `convert({ time, from, to })` |
 | `csc.search` | `fuzzy({ query, type?, country?, limit?, threshold? })` — `type` defaults to `'city'`; results include `match_score`/`matched_alias` and a client-injected `type` field |
 | `csc.search` | `autocomplete({ query, type?, country?, state?, limit? })` — type-ahead search with a computed `label` (e.g. `"Bangalore, Karnataka, India"`), `match_score`, and `matched_field`; `state` requires `country`; Professional+ plan |
+| `csc.search` | `nearby({ lat, lng, type?, country?, state?, minPopulation?, radius?, limit? })` — places near a coordinate, nearest-first; results include `distance_km` and unconditional `country_name`/`state_name` (never tier-gated); `radius` 1-500km (default 25), `limit` 1-100 (default 20); `state` requires `country`; Professional+ plan |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 | `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
 

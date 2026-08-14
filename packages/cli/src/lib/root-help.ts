@@ -7,6 +7,7 @@ const ROOT_COMMANDS = new Set([
   'generate',
   'explore',
   'export',
+  'nearby',
 ]);
 
 /**
