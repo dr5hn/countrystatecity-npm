@@ -47,6 +47,12 @@ export type {
   IStateSearchResult,
   ICitySearchResult,
   ISearchResult,
+  AutocompleteMatchedField,
+  IAutocompleteMatchMeta,
+  ICountryAutocompleteResult,
+  IStateAutocompleteResult,
+  ICityAutocompleteResult,
+  IAutocompleteResult,
   IUsageSnapshot,
 } from './types/entities';
 
@@ -57,6 +63,7 @@ export type {
   IListCitiesParams,
   ITimezoneConvertParams,
   ISearchParams,
+  IAutocompleteParams,
   IIsoLookupParams,
 } from './types/params';
 

@@ -51,3 +51,90 @@ describe('SearchResource.fuzzy', () => {
     expect(http.request).not.toHaveBeenCalled();
   });
 });
+
+describe('SearchResource.autocomplete', () => {
+  it('requests /search/autocomplete with `q` (not `query`) and the given params', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).autocomplete({ query: 'Bang', type: 'city', country: 'in', state: 'ka', limit: 10 });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'autocomplete'],
+      { q: 'Bang', type: 'city', country: 'IN', state: 'KA', limit: 10 },
+      undefined,
+    );
+  });
+
+  it('defaults type to "city" when omitted, matching the API default', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).autocomplete({ query: 'Mumbai' });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'autocomplete'],
+      { q: 'Mumbai', type: 'city', country: undefined, state: undefined, limit: undefined },
+      undefined,
+    );
+  });
+
+  it('preserves `type` from every result row', async () => {
+    const http = createFakeHttp({
+      data: [{ id: 1, name: 'Mumbai', label: 'Mumbai, Maharashtra, India', match_score: 1, matched_field: 'name', type: 'city' }],
+      meta: { retryCount: 0 },
+    });
+    const result = await new SearchResource(http).autocomplete({ query: 'Mumbai', type: 'city' });
+    expect(result.data).toEqual([
+      { id: 1, name: 'Mumbai', label: 'Mumbai, Maharashtra, India', match_score: 1, matched_field: 'name', type: 'city' },
+    ]);
+  });
+
+  it('rejects an empty query before any request', async () => {
+    const http = createFakeHttp();
+    await expect(new SearchResource(http).autocomplete({ query: '   ' })).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('rejects an out-of-range limit before any request', async () => {
+    const http = createFakeHttp();
+    await expect(new SearchResource(http).autocomplete({ query: 'x', limit: 75 })).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('rejects country when type is "country" (mirrors the real API\'s refine)', async () => {
+    const http = createFakeHttp();
+    await expect(new SearchResource(http).autocomplete({ query: 'Ind', type: 'country', country: 'IN' })).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('rejects state without country (state codes are not globally unique)', async () => {
+    const http = createFakeHttp();
+    await expect(new SearchResource(http).autocomplete({ query: 'Karnataka', type: 'state', state: 'KA' })).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('rejects state when type is not "city"', async () => {
+    const http = createFakeHttp();
+    await expect(
+      new SearchResource(http).autocomplete({ query: 'Karnataka', type: 'state', country: 'IN', state: 'KA' })
+    ).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('trims the query and rejects queries outside the API 2-100 character range', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).autocomplete({ query: '  Mumbai  ' });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'autocomplete'],
+      { q: 'Mumbai', type: 'city', country: undefined, state: undefined, limit: undefined },
+      undefined,
+    );
+
+    const invalidHttp = createFakeHttp();
+    await expect(new SearchResource(invalidHttp).autocomplete({ query: 'x' })).rejects.toThrow(ValidationError);
+    expect(invalidHttp.request).not.toHaveBeenCalled();
+  });
+
+  it('rejects an out-of-range state length before any request', async () => {
+    const http = createFakeHttp();
+    await expect(
+      new SearchResource(http).autocomplete({ query: 'x', country: 'IN', state: 'A'.repeat(21) })
+    ).rejects.toThrow(ValidationError);
+    expect(http.request).not.toHaveBeenCalled();
+  });
+});
