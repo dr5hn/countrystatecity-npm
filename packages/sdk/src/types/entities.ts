@@ -111,6 +111,7 @@ export interface IConvertedTime {
 }
 
 export type SearchResultType = 'country' | 'state' | 'city';
+export type CityKind = 'settlement' | 'administrative' | 'section' | 'unknown';
 
 /**
  * Fields every fuzzy-search hit carries in addition to the matched entity's
@@ -177,6 +178,36 @@ export interface ICityAutocompleteResult
 }
 
 export type IAutocompleteResult = ICountryAutocompleteResult | IStateAutocompleteResult | ICityAutocompleteResult;
+
+/**
+ * Fields every nearby-search hit carries in addition to the matched entity's
+ * own (tier-gated) fields. `country_name`/`state_name` mirror `fuzzy()`'s
+ * convention exactly — unconditional, never tier-gated — unlike
+ * `autocomplete()`, there's no field-collision here so no `Omit<>` override
+ * is needed: `country_code`/`state_code` stay ordinary tier-gated
+ * `Partial<ICity>` fields, same as in `ISearchResult`.
+ */
+export interface INearbyMatchMeta {
+  distance_km: number;
+}
+
+export interface INearbyCountryResult extends Partial<ICountry>, INearbyMatchMeta {
+  type: 'country';
+}
+
+export interface INearbyStateResult extends Partial<IState>, INearbyMatchMeta {
+  type: 'state';
+  country_name: string;
+}
+
+export interface INearbyCityResult extends Partial<ICity>, INearbyMatchMeta {
+  type: 'city';
+  kind: CityKind;
+  country_name: string;
+  state_name: string | null;
+}
+
+export type INearbyResult = INearbyCountryResult | INearbyStateResult | INearbyCityResult;
 
 export interface IUsageSnapshot {
   dailyUsed: number;

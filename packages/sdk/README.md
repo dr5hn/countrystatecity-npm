@@ -79,6 +79,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.timezones` | `list()`, `byCountry(iso2)`, `convert({ time, from, to })` |
 | `csc.search` | `fuzzy({ query, type?, country?, limit?, threshold? })` — `type` defaults to `'city'`; results include `match_score`/`matched_alias` and a client-injected `type` field |
 | `csc.search` | `autocomplete({ query, type?, country?, state?, limit? })` — type-ahead search with a computed `label` (e.g. `"Bangalore, Karnataka, India"`), `match_score`, and `matched_field`; `state` is for city searches and requires `country`; Professional+ plan |
+| `csc.search` | `nearby({ lat, lng, type?, kind?, country?, state?, minPopulation?, radius?, limit? })` — straight-line nearby places, nearest first; `kind` and `state` are city-only, and `state` requires `country`; radius 1–500 km; Professional or Business plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=nearby_search&package=sdk). |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 
 `csc.cities.list({ state })` requires `country` to also be set — a `ValidationError` is thrown client-side otherwise.

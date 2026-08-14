@@ -16,7 +16,7 @@ vi.mock('chalk', () => ({
   },
 }));
 
-import { get, validateKey, searchFuzzy, getPlans } from '../../src/lib/api.js';
+import { get, validateKey, searchFuzzy, searchNearby, getPlans } from '../../src/lib/api.js';
 import { getApiKey } from '../../src/lib/config.js';
 
 function stubFetch(status: number, body: unknown, headers?: Record<string, string>) {
@@ -263,6 +263,51 @@ describe('api client', () => {
 
       await expect(getPlans()).rejects.toThrow('exit');
       expect(process.exit).toHaveBeenCalledWith(1);
+    });
+  });
+
+  describe('searchNearby', () => {
+    it('requests nearby data and returns usage metadata', async () => {
+      const fetchMock = stubFetch(200, [{ id: 132649, name: 'Mumbai', kind: 'settlement', distance_km: 0.42 }], {
+        'x-csc-daily-used': '10',
+        'x-csc-daily-limit': '1000',
+        'x-csc-monthly-used': '100',
+        'x-csc-monthly-limit': '30000',
+      });
+
+      const result = await searchNearby({ lat: 19.076, lng: 72.877, kind: 'settlement' });
+
+      expect(result.data).toEqual([{ id: 132649, name: 'Mumbai', kind: 'settlement', distance_km: 0.42, type: 'city' }]);
+      expect(result.usage).toEqual({ dailyUsed: 10, dailyLimit: 1000, monthlyUsed: 100, monthlyLimit: 30000 });
+      const url = new URL(fetchMock.mock.calls[0][0] as string);
+      expect(url.pathname).toBe('/v1/search/nearby');
+      expect(url.searchParams.get('kind')).toBe('settlement');
+    });
+
+    it('uses the shared plan-upgrade error handling', async () => {
+      stubFetch(403, {
+        message: 'Forbidden',
+        details: {
+          feature: 'nearbySearch',
+          requiredTier: 'professional',
+          upgradeUrl: 'https://countrystatecity.in/pricing',
+        },
+      });
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const errSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      await expect(searchNearby({ lat: 19.076, lng: 72.877 })).rejects.toThrow('exit');
+      expect(process.exit).toHaveBeenCalledWith(1);
+      expect(errSpy.mock.calls.flat().join(' ')).toContain('higher plan');
+    });
+
+    it('exits before the request when no API key is configured', async () => {
+      vi.mocked(getApiKey).mockReturnValueOnce(undefined);
+      vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
+      const fetchMock = stubFetch(200, []);
+
+      await expect(searchNearby({ lat: 19.076, lng: 72.877 })).rejects.toThrow('exit');
+      expect(fetchMock).not.toHaveBeenCalled();
     });
   });
 

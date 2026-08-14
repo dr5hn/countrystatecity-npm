@@ -2,7 +2,7 @@
  * Per-resource request parameter types for @countrystatecity/sdk.
  */
 
-import type { SearchResultType } from './entities';
+import type { CityKind, SearchResultType } from './entities';
 
 export interface IListParams {
   limit?: number;
@@ -69,6 +69,22 @@ export interface IAutocompleteParams {
   type?: SearchResultType;
   country?: string;
   state?: string;
+  limit?: number;
+}
+
+/**
+ * Nearby-search parameters. `kind` and `state` are valid only for city
+ * searches. `state` also requires `country`.
+ */
+export interface INearbyParams {
+  lat: number;
+  lng: number;
+  type?: SearchResultType;
+  kind?: CityKind;
+  country?: string;
+  state?: string;
+  minPopulation?: number;
+  radius?: number;
   limit?: number;
 }
 

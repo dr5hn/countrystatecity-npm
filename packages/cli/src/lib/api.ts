@@ -7,7 +7,14 @@ import {
   RateLimitError,
   NotFoundError,
 } from '@countrystatecity/sdk';
-import type { CSCResponse, IRateLimitMeta, ISearchResult, ISearchParams } from '@countrystatecity/sdk';
+import type {
+  CSCResponse,
+  IRateLimitMeta,
+  ISearchResult,
+  ISearchParams,
+  INearbyResult,
+  INearbyParams,
+} from '@countrystatecity/sdk';
 import { getApiKey, getApiBase, getApiHost } from './config.js';
 
 export interface UsageInfo {
@@ -144,11 +151,8 @@ function dispatchRequest(client: CSCClient, path: string, extra?: ListParams): P
   throw new Error(`Unrecognized API path: ${path}`);
 }
 
-/**
- * Makes an authenticated GET request to the CSC API.
- * Handles common error codes with actionable messages.
- */
-export async function get<T>(path: string, extra?: ListParams): Promise<ApiResponse<T>> {
+/** Runs an SDK request with the CLI's shared authentication and error handling. */
+async function withClient<T>(fn: (client: CSCClient) => Promise<CSCResponse<T>>): Promise<ApiResponse<T>> {
   const apiKey = getApiKey();
   if (!apiKey) {
     console.error(chalk.red('Not authenticated.'));
@@ -157,12 +161,16 @@ export async function get<T>(path: string, extra?: ListParams): Promise<ApiRespo
   }
 
   try {
-    const client = buildClient(apiKey);
-    const response = await dispatchRequest(client, path, extra);
-    return { data: response.data as T, usage: toUsageInfo(response.meta.rateLimit) };
+    const response = await fn(buildClient(apiKey));
+    return { data: response.data, usage: toUsageInfo(response.meta.rateLimit) };
   } catch (error) {
     handleApiError(error);
   }
+}
+
+/** Makes an authenticated request through a legacy REST path. */
+export async function get<T>(path: string, extra?: ListParams): Promise<ApiResponse<T>> {
+  return withClient<T>((client) => dispatchRequest(client, path, extra) as Promise<CSCResponse<T>>);
 }
 
 /**
@@ -171,20 +179,12 @@ export async function get<T>(path: string, extra?: ListParams): Promise<ApiRespo
  * countries/states/cities list or get.
  */
 export async function searchFuzzy(params: ISearchParams): Promise<ApiResponse<ISearchResult[]>> {
-  const apiKey = getApiKey();
-  if (!apiKey) {
-    console.error(chalk.red('Not authenticated.'));
-    console.error(chalk.dim('Run `csc auth login` to set your API key.'));
-    process.exit(1);
-  }
+  return withClient((client) => client.search.fuzzy(params));
+}
 
-  try {
-    const client = buildClient(apiKey);
-    const response = await client.search.fuzzy(params);
-    return { data: response.data, usage: toUsageInfo(response.meta.rateLimit) };
-  } catch (error) {
-    handleApiError(error);
-  }
+/** Runs nearby search with the same authentication and error handling. */
+export async function searchNearby(params: INearbyParams): Promise<ApiResponse<INearbyResult[]>> {
+  return withClient((client) => client.search.nearby(params));
 }
 
 /**

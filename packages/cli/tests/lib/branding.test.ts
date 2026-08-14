@@ -49,7 +49,7 @@ describe('getBrandedHelp', () => {
 
   it('contains all expected command names', () => {
     const help = getBrandedHelp();
-    const commands = ['auth', 'search', 'get', 'explore', 'usage', 'upgrade', 'generate', 'export'];
+    const commands = ['auth', 'search', 'get', 'explore', 'usage', 'upgrade', 'generate', 'export', 'nearby'];
     for (const cmd of commands) {
       expect(help).toContain(cmd);
     }
