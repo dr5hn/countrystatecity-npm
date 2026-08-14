@@ -2,7 +2,7 @@
  * Per-resource request parameter types for @countrystatecity/sdk.
  */
 
-import type { ChangeResourceType, SearchResultType } from './entities';
+import type { ChangePlaceType, ChangeType, SearchResultType } from './entities';
 
 export interface IListParams {
   limit?: number;
@@ -112,9 +112,21 @@ export interface INearbyParams {
   limit?: number;
 }
 
-export interface IChangesParams extends IListParams {
-  since?: string;
-  resource?: ChangeResourceType;
+/**
+ * Not `extends IListParams` — the change feed is cursor-paginated via
+ * `nextPageToken`, no `offset` param exists. `limit` is 1-100, server
+ * default 50. Passing any filter alongside `nextPageToken` that disagrees
+ * with the token's original filters is a hard 400 server-side (not
+ * silently dropped) — paginate with the token alone, or omit it and start
+ * a fresh filtered request.
+ */
+export interface IChangesParams {
+  startDate?: string;
+  placeType?: ChangePlaceType;
+  countryCode?: string;
+  changeType?: ChangeType;
+  limit?: number;
+  nextPageToken?: string;
 }
 
 export interface IIsoLookupParams {

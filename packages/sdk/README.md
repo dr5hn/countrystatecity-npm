@@ -81,7 +81,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.search` | `autocomplete({ query, type?, country?, state?, limit? })` — type-ahead search with a computed `label` (e.g. `"Bangalore, Karnataka, India"`), `match_score`, and `matched_field`; `state` requires `country`; Professional+ plan |
 | `csc.search` | `nearby({ lat, lng, type?, country?, state?, minPopulation?, radius?, limit? })` — places near a coordinate, nearest-first; results include `distance_km` and unconditional `country_name`/`state_name` (never tier-gated); `radius` 1-500km (default 25), `limit` 1-100 (default 20); `state` requires `country`; Professional+ plan |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
-| `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
+| `csc.changes` | `list({ startDate?, placeType?, countryCode?, changeType?, limit?, nextPageToken? })` — cursor-paginated feed of country/state/city changes; Business plan |
 
 `csc.cities.list()` requires `country` (the real API has no bare `GET /cities` route) — a `ValidationError` is thrown client-side if it's missing, same as `state` without `country`. `csc.cities.get()` always throws a `ValidationError` — the real API has no single-city-by-ID endpoint at all; fetch the containing `list({ country, state })` and find the city in the results instead.
 
@@ -89,7 +89,7 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 
 `locale`/`includeTranslations` map to the API's `?locale=`/`?include_translations=` (Professional+ plan). When `locale` is set (e.g. `'pt-BR'`), matching results gain `localized_name`/`matched_locale` (which fallback tier actually matched: the exact locale, base language, `native`, or `name` itself) — `name`/`id` are never replaced. `includeTranslations: true` adds the full raw `translations` object (previously always included for full-tier callers; now opt-in, since it can roughly triple response size on large unpaginated lists). Both are silently omitted — not a `403` — for plans below Professional, same treatment as `fields`/`sort`. Not available on `cities.get()`: the real API has no single-city-by-ID endpoint at all. `csc.search.fuzzy()` now also matches translated/native names automatically server-side — no new SDK param needed, and there's no per-locale filter on fuzzy search itself since it searches across all languages at once. `csc.search.autocomplete()`/`csc.search.nearby()` don't support `locale`/`includeTranslations` yet.
 
-> **`changes` is `@beta`.** Endpoint availability isn't confirmed across all accounts/plans yet; calls may 404 until it ships on your account. It's typed now so upgrading later requires no SDK changes.
+`csc.changes.list()` returns `{ results, next_page_token }` — an object, not a bare array like every other `list()` method — since pagination is cursor-based, not `limit`/`offset`. Pass the previous page's `nextPageToken` alone to continue; resending a filter param that disagrees with the token's original filters is a `400` server-side, not silently dropped. Each result's `old_values`/`new_values` are tier-filtered subsets of the place's public fields (`null` for `'added'`/`'removed'` respectively) — `change_id`/`data_version`/`place_id`/`changed_at` are never redacted.
 
 ## 🛡️ Error handling
 

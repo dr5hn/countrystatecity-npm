@@ -234,13 +234,60 @@ export interface IUsageSnapshot {
   plan?: string;
 }
 
-export type ChangeResourceType = 'countries' | 'states' | 'cities';
-export type ChangeOperation = 'created' | 'updated' | 'deleted';
+export type ChangePlaceType = 'country' | 'state' | 'city';
 
-export interface IChangeEvent {
-  id: string;
-  resource: ChangeResourceType;
-  operation: ChangeOperation;
-  resourceId: number;
-  occurredAt: string;
+export type ChangeType =
+  | 'added'
+  | 'removed'
+  | 'renamed'
+  | 'place_group_changed'
+  | 'parent_changed'
+  | 'coordinates_changed'
+  | 'other_fields_changed';
+
+/**
+ * `old_values`/`new_values` are tier-filtered subsets of the changed
+ * place's own public fields (`null` for `'added'`/`'removed'`
+ * respectively, since there's nothing to compare against) — discriminated
+ * on `place_type` per row since a single unfiltered page can mix
+ * countries/states/cities. `change_id`/`data_version`/`place_id`/
+ * `changed_at` are never redacted by tier.
+ */
+interface IChangeEventBase {
+  change_id: string;
+  data_version: string;
+  changed_at: string;
+  /** BigInt serialized as a string on the wire — never a number. */
+  place_id: string;
+  change_type: ChangeType;
+}
+
+export interface ICountryChangeEvent extends IChangeEventBase {
+  place_type: 'country';
+  old_values: Partial<ICountry> | null;
+  new_values: Partial<ICountry> | null;
+}
+
+export interface IStateChangeEvent extends IChangeEventBase {
+  place_type: 'state';
+  old_values: Partial<IState> | null;
+  new_values: Partial<IState> | null;
+}
+
+export interface ICityChangeEvent extends IChangeEventBase {
+  place_type: 'city';
+  old_values: Partial<ICity> | null;
+  new_values: Partial<ICity> | null;
+}
+
+export type IChangeEvent = ICountryChangeEvent | IStateChangeEvent | ICityChangeEvent;
+
+/**
+ * The real wire shape — an object, not a bare array like every other
+ * `list()` response in this SDK — since pagination is cursor-based via
+ * `next_page_token`, not `limit`/`offset`.
+ */
+export interface IChangeFeedPage {
+  results: IChangeEvent[];
+  next_page_token: string | null;
 }

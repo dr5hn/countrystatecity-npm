@@ -219,6 +219,21 @@ export function assertNearbyParams(params: {
   }
 }
 
+/**
+ * Change feed's own `limit` range (1-100, default 50 server-side) — no
+ * `offset`, since pagination is cursor-based via `nextPageToken`.
+ * `placeType`/`changeType` are unvalidated client-side, same as
+ * `SearchResultType` elsewhere — server-side zod enum validation is
+ * authoritative, these are TS unions for compile-time help only.
+ * `startDate`/`countryCode` are asserted separately at the call site via
+ * the existing `assertIsoDateString`/`assertIso2`.
+ */
+export function assertChangesParams(params: { limit?: number }): void {
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 100)) {
+    fail(`limit must be an integer between 1 and 100, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+}
+
 /** Cross-field check: `dependentField` may only be set when `requiredField` is also set. */
 export function assertRequiredWith(
   dependentValue: unknown,

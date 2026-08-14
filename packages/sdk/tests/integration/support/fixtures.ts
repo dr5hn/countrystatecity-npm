@@ -16,7 +16,8 @@ import type {
   ICitySearchResult,
   ICityAutocompleteResult,
   INearbyCityResult,
-  IChangeEvent,
+  ICityChangeEvent,
+  IChangeFeedPage,
 } from '../../../src/types/entities';
 
 export const INDIA: ICountry = {
@@ -177,12 +178,25 @@ export const MUMBAI_NEARBY_RESULT: INearbyCityResult = {
   type: 'city',
 };
 
-export const SAMPLE_CHANGE_EVENT: IChangeEvent = {
-  id: 'chg_1',
-  resource: 'cities',
-  operation: 'updated',
-  resourceId: 132649,
-  occurredAt: '2026-08-01T00:00:00Z',
+/**
+ * A single renamed-city event — old_values/new_values carry only the
+ * fields that actually changed, matching the real API's diff-based
+ * capture rather than a full before/after snapshot.
+ */
+export const SAMPLE_CHANGE_EVENT: ICityChangeEvent = {
+  change_id: 'chg_1',
+  data_version: '2026.08.01',
+  changed_at: '2026-08-01T00:00:00Z',
+  place_type: 'city',
+  place_id: '132649',
+  change_type: 'renamed',
+  old_values: { name: 'Bombay' },
+  new_values: { name: 'Mumbai' },
+};
+
+export const SAMPLE_CHANGE_FEED_PAGE: IChangeFeedPage = {
+  results: [SAMPLE_CHANGE_EVENT],
+  next_page_token: null,
 };
 
 export const USAGE_HEADERS = {
