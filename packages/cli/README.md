@@ -158,6 +158,25 @@ async function main() {
 }
 ```
 
+### Live Location Components
+
+Unlike `dropdown`/`seed` above, these generate *live, interactive* components that call the real autocomplete API as the user types — nothing is pre-fetched or baked in, so no plan check or network access is needed to run the generator itself.
+
+```bash
+# Type-ahead search field
+csc generate autocomplete --target nextjs         # server API route + client component (recommended)
+csc generate autocomplete --target react-browser  # calls the API directly from the browser
+
+# Cascading country → state → city picker
+csc generate location-picker --target nextjs
+csc generate location-picker --target react-browser
+
+# Options
+--output <dir>     # Output directory (default: current directory)
+```
+
+The `nextjs` target keeps your API key server-side behind a generated Route Handler; the `react-browser` target has no server, so the key ships to the browser — the CLI prints a warning (repeated in the generated README) that the key must be restricted to your site's origin(s) in the CSC dashboard before using it. Both targets debounce input (~250ms), require at least 2 characters, cancel stale in-flight requests, surface distinct loading/empty/plan-restricted/rate-limit/network-error states, and implement the ARIA combobox pattern with full keyboard support.
+
 ### Interactive Explorer
 
 ```bash
