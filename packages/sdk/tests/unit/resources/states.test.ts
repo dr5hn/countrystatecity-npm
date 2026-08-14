@@ -29,12 +29,32 @@ describe('StatesResource', () => {
   it('get() requests /countries/{code}/states/{stateCode}', async () => {
     const http = createFakeHttp();
     await new StatesResource(http).get('us', 'ca');
-    expect(http.request).toHaveBeenCalledWith(['countries', 'US', 'states', 'CA'], undefined, undefined);
+    expect(http.request).toHaveBeenCalledWith(['countries', 'US', 'states', 'CA'], { locale: undefined, include_translations: undefined }, undefined);
   });
 
   it('rejects a malformed country before any request', async () => {
     const http = createFakeHttp();
     await expect(new StatesResource(http).get('USA-X', 'CA')).rejects.toThrow(ValidationError);
     expect(http.request).not.toHaveBeenCalled();
+  });
+
+  it('list() passes locale/includeTranslations through as locale/include_translations', async () => {
+    const http = createFakeHttp();
+    await new StatesResource(http).list({ country: 'us', locale: 'es', includeTranslations: true });
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'US', 'states'],
+      expect.objectContaining({ locale: 'es', include_translations: true }),
+      undefined,
+    );
+  });
+
+  it('get() passes an optional locale params object through as query params', async () => {
+    const http = createFakeHttp();
+    await new StatesResource(http).get('us', 'ca', { locale: 'es' });
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'US', 'states', 'CA'],
+      { locale: 'es', include_translations: undefined },
+      undefined,
+    );
   });
 });

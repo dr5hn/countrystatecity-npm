@@ -45,3 +45,28 @@ describe('full countries -> states -> cities hierarchy walk', () => {
     expect(csc.getLastResponseMeta()?.rateLimit).toBeUndefined();
   });
 });
+
+describe('locale / includeTranslations — integration', () => {
+  it('sends locale/include_translations as query params and passes localized_name/matched_locale/translations through untouched', async () => {
+    const MAHARASHTRA_LOCALIZED = {
+      ...MAHARASHTRA,
+      localized_name: 'महाराष्ट्र',
+      matched_locale: 'hi',
+      translations: { hi: 'महाराष्ट्र', fr: 'Maharashtra' },
+    };
+    const { fetchMock } = installMockCscApi({
+      '/v1/countries/IN/states/MH': { body: MAHARASHTRA_LOCALIZED },
+    });
+    const csc = createCSCClient({ apiKey: 'test-key', baseUrl: 'https://mock.test/v1' });
+
+    const result = await csc.states.get('IN', 'MH', { locale: 'hi', includeTranslations: true });
+
+    expect(result.data).toEqual(MAHARASHTRA_LOCALIZED);
+    expect(result.data.name).toBe(MAHARASHTRA.name);
+    expect(result.data.id).toBe(MAHARASHTRA.id);
+
+    const url = fetchMock.mock.calls[0][0] as string;
+    expect(url).toContain('locale=hi');
+    expect(url).toContain('include_translations=true');
+  });
+});

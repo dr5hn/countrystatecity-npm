@@ -18,6 +18,8 @@ export class CitiesResource extends BaseResource {
       offset: params?.offset,
       fields: params?.fields?.join(','),
       sort: params?.sort?.join(','),
+      locale: params?.locale,
+      include_translations: params?.includeTranslations,
     };
 
     if (country && state) {
@@ -29,6 +31,11 @@ export class CitiesResource extends BaseResource {
     return this.http.request(['cities'], query, opts);
   }
 
+  /**
+   * No `locale`/`includeTranslations` here (unlike `list()` above) — the
+   * real API has no single-city-by-ID GET endpoint at all (pre-existing,
+   * predates this method's own addition; out of scope to fix here).
+   */
   async get(country: string, stateCode: string, cityId: number | string, opts?: IRequestOptions): Promise<CSCResponse<ICity>> {
     const countryCode = assertIso2(country);
     const code = assertStateCode(stateCode);

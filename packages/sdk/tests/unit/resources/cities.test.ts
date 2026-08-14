@@ -51,4 +51,14 @@ describe('CitiesResource', () => {
     await new CitiesResource(http).get('in', 'mh', 132);
     expect(http.request).toHaveBeenCalledWith(['countries', 'IN', 'states', 'MH', 'cities', 132], undefined, undefined);
   });
+
+  it('list() passes locale/includeTranslations through as locale/include_translations', async () => {
+    const http = createFakeHttp();
+    await new CitiesResource(http).list({ country: 'in', state: 'mh', locale: 'mr', includeTranslations: true });
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'IN', 'states', 'MH', 'cities'],
+      expect.objectContaining({ locale: 'mr', include_translations: true }),
+      undefined,
+    );
+  });
 });

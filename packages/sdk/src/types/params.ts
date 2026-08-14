@@ -10,23 +10,38 @@ export interface IListParams {
 }
 
 /**
+ * `locale`/`includeTranslations` map to the real API's `?locale=`/
+ * `?include_translations=` (Professional+ tier) — same "validated
+ * server-side, silently dropped outside the caller's tier, not a 403"
+ * treatment as `fields`/`sort` below, so not re-validated here either.
+ * Shared by every locale-capable method: list() calls (via the params
+ * interfaces below) and single-entity get()/subregions() calls (passed
+ * directly). Not available on cities.get() — no single-city GET endpoint
+ * exists on the real API at all (a pre-existing gap, unrelated to this).
+ */
+export interface ILocalizationParams {
+  locale?: string;
+  includeTranslations?: boolean;
+}
+
+/**
  * `fields`/`sort` map to the real API's `?fields=`/`?sort=` (Supporter+ tier)
  * — validated server-side (unknown field → 400, tier-inaccessible field →
  * silently dropped), so not re-validated here. Joined with `,` when the
  * request is built.
  */
-export interface IListCountriesParams extends IListParams {
+export interface IListCountriesParams extends IListParams, ILocalizationParams {
   fields?: string[];
   sort?: string[];
 }
 
-export interface IListStatesParams extends IListParams {
+export interface IListStatesParams extends IListParams, ILocalizationParams {
   country?: string;
   fields?: string[];
   sort?: string[];
 }
 
-export interface IListCitiesParams extends IListParams {
+export interface IListCitiesParams extends IListParams, ILocalizationParams {
   country?: string;
   state?: string;
   /** Free-form city classification (e.g. 'settlement'); not validated client-side, see docs. */
