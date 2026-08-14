@@ -72,6 +72,25 @@ export interface IAutocompleteParams {
   limit?: number;
 }
 
+/**
+ * `radius` is km, 1-500, default 25 server-side; `limit` is 1-100 (not
+ * fuzzy/autocomplete's 1-50) default 20. `minPopulation` maps to the wire's
+ * `min_population` — non-negative integer, no upper bound. Same
+ * `country`-invalid-when-`type`-is-`country'` and `state`-requires-`country`
+ * rules as `autocomplete()`. No `kind` filter yet — deferred server-side,
+ * same as autocomplete's (Task 02).
+ */
+export interface INearbyParams {
+  lat: number;
+  lng: number;
+  type?: SearchResultType;
+  country?: string;
+  state?: string;
+  minPopulation?: number;
+  radius?: number;
+  limit?: number;
+}
+
 export interface IChangesParams extends IListParams {
   since?: string;
   resource?: ChangeResourceType;

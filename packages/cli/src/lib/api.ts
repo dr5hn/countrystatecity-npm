@@ -79,10 +79,13 @@ function dispatchRequest(client: CSCClient, path: string): Promise<CSCResponse<u
 }
 
 /**
- * Makes an authenticated GET request to the CSC API.
- * Handles common error codes with actionable messages.
+ * Constructs an authenticated client and runs `fn` against it, translating
+ * SDK errors into actionable CLI messages. Shared by `get()` (legacy
+ * REST-path lookups via `dispatchRequest`) and `call()` (direct typed SDK
+ * resource calls, for methods `dispatchRequest` was never built to route —
+ * e.g. multi-param calls like `search.nearby()`, not a simple path lookup).
  */
-export async function get<T>(path: string): Promise<ApiResponse<T>> {
+async function withClient<T>(fn: (client: CSCClient) => Promise<CSCResponse<T>>): Promise<ApiResponse<T>> {
   const apiKey = getApiKey();
   if (!apiKey) {
     console.error(chalk.red('Not authenticated.'));
@@ -92,8 +95,8 @@ export async function get<T>(path: string): Promise<ApiResponse<T>> {
 
   try {
     const client = new CSCClient({ apiKey, baseUrl: getApiBase(), userAgent: USER_AGENT });
-    const response = await dispatchRequest(client, path);
-    return { data: response.data as T, usage: toUsageInfo(response.meta.rateLimit) };
+    const response = await fn(client);
+    return { data: response.data, usage: toUsageInfo(response.meta.rateLimit) };
   } catch (error) {
     if (error instanceof AuthenticationError) {
       console.error(chalk.red('Invalid or missing API key.'));
@@ -137,6 +140,22 @@ export async function get<T>(path: string): Promise<ApiResponse<T>> {
     console.error(chalk.red('Cannot reach API. Check your internet connection.'));
     process.exit(1);
   }
+}
+
+/**
+ * Makes an authenticated GET request to the CSC API via a legacy REST path.
+ * Handles common error codes with actionable messages.
+ */
+export async function get<T>(path: string): Promise<ApiResponse<T>> {
+  return withClient<T>((client) => dispatchRequest(client, path) as Promise<CSCResponse<T>>);
+}
+
+/**
+ * Runs a typed SDK resource call (e.g. `(client) => client.search.nearby({...})`)
+ * with the same authentication and error handling as `get()`.
+ */
+export async function call<T>(fn: (client: CSCClient) => Promise<CSCResponse<T>>): Promise<ApiResponse<T>> {
+  return withClient(fn);
 }
 
 /**

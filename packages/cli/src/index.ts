@@ -9,6 +9,7 @@ import { registerUpgradeCommand } from './commands/upgrade.js';
 import { registerGenerateCommands } from './commands/generate.js';
 import { registerExploreCommand } from './commands/explore.js';
 import { registerExportCommand } from './commands/export.js';
+import { registerNearbyCommand } from './commands/nearby.js';
 import { getBrandedHelp } from './lib/branding.js';
 import { isRootHelpRequested, shouldShowBrandedHelp } from './lib/root-help.js';
 
@@ -44,6 +45,7 @@ registerUpgradeCommand(program);
 registerGenerateCommands(program);
 registerExploreCommand(program);
 registerExportCommand(program);
+registerNearbyCommand(program);
 
 // Intercept only root help so sub-command help still uses Commander defaults.
 if (isRootHelpRequested(process.argv) && shouldShowBrandedHelp(process.argv)) {

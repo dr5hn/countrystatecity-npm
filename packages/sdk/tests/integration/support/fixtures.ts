@@ -15,6 +15,7 @@ import type {
   ITimezone,
   ICitySearchResult,
   ICityAutocompleteResult,
+  INearbyCityResult,
   IChangeEvent,
 } from '../../../src/types/entities';
 
@@ -151,6 +152,28 @@ export const BANGALORE_AUTOCOMPLETE_ROW = {
 
 export const BANGALORE_AUTOCOMPLETE_RESULT: ICityAutocompleteResult = {
   ...BANGALORE_AUTOCOMPLETE_ROW,
+  type: 'city',
+};
+
+/**
+ * What the real nearby-search API's response row actually looks like — no
+ * `type` field, but (unlike autocomplete) `country_code`/`state_code` are
+ * ordinary tier-gated fields, not forced unconditional; only `country_name`/
+ * `state_name`/`distance_km` bypass tier-gating, mirroring fuzzy()'s
+ * ICitySearchResult convention exactly.
+ */
+export const MUMBAI_NEARBY_ROW = {
+  id: 132649,
+  name: 'Mumbai',
+  country_code: 'IN',
+  state_code: 'MH',
+  country_name: 'India',
+  state_name: 'Maharashtra',
+  distance_km: 0.42,
+};
+
+export const MUMBAI_NEARBY_RESULT: INearbyCityResult = {
+  ...MUMBAI_NEARBY_ROW,
   type: 'city',
 };
 
