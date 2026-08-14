@@ -14,6 +14,7 @@ import type {
   IPhonecode,
   ITimezone,
   ICitySearchResult,
+  ICityAutocompleteResult,
   IChangeEvent,
 } from '../../../src/types/entities';
 
@@ -129,6 +130,27 @@ export const MUMBAI_SEARCH_ROW = {
 
 export const MUMBAI_SEARCH_RESULT: ICitySearchResult = {
   ...MUMBAI_SEARCH_ROW,
+  type: 'city',
+};
+
+/**
+ * What the real autocomplete API's response row actually looks like — no
+ * `type` field, and unlike fuzzy search, no `country_name`/`state_name`
+ * either (folded into `label` server-side instead). `country_code`/
+ * `state_code` are always present regardless of plan tier.
+ */
+export const BANGALORE_AUTOCOMPLETE_ROW = {
+  id: 132991,
+  name: 'Bangalore',
+  country_code: 'IN',
+  state_code: 'KA',
+  label: 'Bangalore, Karnataka, India',
+  match_score: 1,
+  matched_field: 'name' as const,
+};
+
+export const BANGALORE_AUTOCOMPLETE_RESULT: ICityAutocompleteResult = {
+  ...BANGALORE_AUTOCOMPLETE_ROW,
   type: 'city',
 };
 
