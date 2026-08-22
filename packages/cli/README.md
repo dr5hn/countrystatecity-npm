@@ -24,6 +24,29 @@ csc search countries
 csc get country IN
 ```
 
+## Local package or live API?
+
+This CLI always talks to the live CountryStateCity API — there's no local/offline mode to choose here. If you're building your *own* app on top of the same data, you have two options:
+
+- **Offline/bundled**: [`@countrystatecity/countries`](https://www.npmjs.com/package/@countrystatecity/countries) (Node) or [`@countrystatecity/countries-browser`](https://www.npmjs.com/package/@countrystatecity/countries-browser) (browser) — a free snapshot, no API key, no network call.
+- **Live, in code**: `@countrystatecity/sdk` — the same API this CLI uses, with a typed client, fuzzy search, and account usage.
+
+**Start free with 3,000 requests per month** — [get an API key](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=cli).
+
+```bash
+npm install @countrystatecity/sdk
+```
+
+```typescript
+// What `csc search countries` does under the hood
+import { createCSCClient } from '@countrystatecity/sdk';
+
+const csc = createCSCClient({ apiKey: process.env.CSC_API_KEY! });
+const { data: countries } = await csc.countries.list();
+```
+
+See the [full migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/packages/sdk/MIGRATION.md) for error handling, retries, and more.
+
 ## Global Flags
 
 These flags work on every command:
