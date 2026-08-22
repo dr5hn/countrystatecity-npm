@@ -29,12 +29,20 @@ async function downloadGzipAsset(options) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
-  let response;
+  let compressed;
   try {
-    response = await fetchImpl(url, {
+    const response = await fetchImpl(url, {
       headers: { 'User-Agent': 'countrystatecity-monorepo' },
       signal: controller.signal,
     });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} downloading ${url}`);
+    }
+
+    // Keep the abort timer active while consuming the body. fetch() can
+    // resolve as soon as response headers arrive, while a stalled body is
+    // still downloading.
+    compressed = Buffer.from(await response.arrayBuffer());
   } catch (err) {
     if (err.name === 'AbortError') {
       throw new Error(`Download timed out after ${timeoutMs / 1000}s: ${url}`);
@@ -44,11 +52,6 @@ async function downloadGzipAsset(options) {
     clearTimeout(timeoutId);
   }
 
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status} downloading ${url}`);
-  }
-
-  const compressed = Buffer.from(await response.arrayBuffer());
   if (compressed.length === 0) {
     throw new Error(`Downloaded empty file from ${url}`);
   }

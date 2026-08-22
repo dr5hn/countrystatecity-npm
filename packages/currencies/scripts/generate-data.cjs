@@ -10,6 +10,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 async function generateCurrencyData() {
   console.log('Generating currency data...\n');
 
@@ -27,10 +29,7 @@ async function generateCurrencyData() {
     process.exit(1);
   }
 
-  const dataDir = path.join(__dirname, '../src/data');
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
+  const finalDataDir = path.join(__dirname, '../src/data');
 
   // Load master source data
   console.log(`📥 Loading source data from: ${sourceFile}`);
@@ -39,7 +38,7 @@ async function generateCurrencyData() {
 
   // Load existing currencies.json as supplement for fields not in master DB
   // (namePlural, symbolNative, decimalDigits, rounding)
-  const existingFile = path.join(dataDir, 'currencies.json');
+  const existingFile = path.join(finalDataDir, 'currencies.json');
   const supplement = new Map();
   if (fs.existsSync(existingFile)) {
     const existing = JSON.parse(fs.readFileSync(existingFile, 'utf-8'));
@@ -48,6 +47,8 @@ async function generateCurrencyData() {
     }
     console.log(`✓ Loaded ${supplement.size} existing currencies as supplement`);
   }
+
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
 
   // Build currency map from master source
   const currencyMap = new Map();
@@ -83,17 +84,19 @@ async function generateCurrencyData() {
     .map(c => ({ ...c, countries: c.countries.sort() }))
     .sort((a, b) => a.code.localeCompare(b.code));
 
-  fs.writeFileSync(existingFile, JSON.stringify(currencies, null, 2));
+  const outputFile = path.join(dataDir, 'currencies.json');
+  fs.writeFileSync(outputFile, JSON.stringify(currencies, null, 2));
 
   console.log(`\n✓ Written ${currencies.length} currencies to currencies.json`);
 
-  const totalSize = (fs.statSync(existingFile).size / 1024).toFixed(2);
+  const totalSize = (fs.statSync(outputFile).size / 1024).toFixed(2);
   const totalCountries = currencies.reduce((acc, c) => acc + c.countries.length, 0);
 
   console.log('\n📊 Statistics:');
   console.log(`  Total currencies: ${currencies.length}`);
   console.log(`  Total country mappings: ${totalCountries}`);
   console.log(`  File size: ${totalSize} KB`);
+  commit();
   console.log('\n✨ Currency data generation complete!');
 }
 

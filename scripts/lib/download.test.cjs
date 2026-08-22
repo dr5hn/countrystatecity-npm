@@ -65,6 +65,21 @@ test('rejects a stalled download once the timeout elapses, without writing a fil
   assert.equal(fs.existsSync(destPath), false);
 });
 
+test('keeps the timeout active after headers arrive while the response body stalls', async (t) => {
+  const destPath = tmpDest(t);
+  const fetchImpl = async (_url, init) => ({
+    ok: true,
+    status: 200,
+    arrayBuffer: () =>
+      new Promise((_resolve, reject) => {
+        init.signal.addEventListener('abort', () => reject(new DOMException('aborted', 'AbortError')));
+      }),
+  });
+
+  await assert.rejects(downloadGzipAsset({ url: 'https://x/asset.gz', destPath, fetchImpl, timeoutMs: 20 }), /timed out/);
+  assert.equal(fs.existsSync(destPath), false);
+});
+
 test('a re-fetch failure never disturbs a previously-good file at destPath', async (t) => {
   const destPath = tmpDest(t);
   fs.writeFileSync(destPath, 'previously-good content');

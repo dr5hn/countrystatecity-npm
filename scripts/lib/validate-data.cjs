@@ -5,6 +5,10 @@
  */
 
 const DELTA_THRESHOLD = 0.1;
+const COORDINATE_RANGES = {
+  latitude: [-90, 90],
+  longitude: [-180, 180],
+};
 
 // Number(), not parseFloat(): parseFloat('1.0N') silently truncates to 1, and
 // Number('N/A') is NaN. This is the same coordinate-validity rule already
@@ -19,8 +23,17 @@ function checkCoordinates(record, label, errors) {
   for (const field of ['latitude', 'longitude']) {
     const value = record[field];
     const hasValue = value != null && value !== '';
-    if (hasValue && !isFiniteCoordinate(value)) {
+    if (!hasValue) continue;
+    if (!isFiniteCoordinate(value)) {
       errors.push(`${label} id=${record.id} (${record.name}): invalid ${field} ${JSON.stringify(value)}`);
+      continue;
+    }
+
+    const [minimum, maximum] = COORDINATE_RANGES[field];
+    if (Number(value) < minimum || Number(value) > maximum) {
+      errors.push(
+        `${label} id=${record.id} (${record.name}): ${field} ${JSON.stringify(value)} is outside ${minimum}..${maximum}`,
+      );
     }
   }
 }
@@ -35,8 +48,20 @@ function validateData(countries, options = {}) {
   const errors = [];
   const warnings = [];
 
+  if (!Array.isArray(countries)) {
+    return {
+      ok: false,
+      errors: ['source data must be an array of countries'],
+      warnings,
+      counts: { countries: 0, states: 0, cities: 0 },
+    };
+  }
+
   const countryIds = new Set();
+  const stateIds = new Set();
   const seenCityIds = new Set();
+  const duplicateCountryIds = new Set();
+  const duplicateStateIds = new Set();
   const duplicateCityIds = new Set();
 
   let totalStates = 0;
@@ -46,22 +71,39 @@ function validateData(countries, options = {}) {
     if (!country.id || !country.name) {
       errors.push(`country missing id or name: ${JSON.stringify({ id: country.id, name: country.name })}`);
     }
+    if (countryIds.has(country.id)) duplicateCountryIds.add(country.id);
     countryIds.add(country.id);
     checkCoordinates(country, 'country', errors);
 
-    for (const state of country.states ?? []) {
+    const states = country.states ?? [];
+    if (!Array.isArray(states)) {
+      errors.push(`country id=${country.id} (${country.name}): states must be an array`);
+      continue;
+    }
+
+    for (const state of states) {
       totalStates++;
       if (!state.id || !state.name) {
         errors.push(
           `state missing id or name (country ${country.iso2 ?? country.id}): ${JSON.stringify({ id: state.id, name: state.name })}`,
         );
       }
-      if (state.country_id !== undefined && !countryIds.has(state.country_id)) {
-        errors.push(`state id=${state.id} (${state.name}) references unknown country_id ${state.country_id}`);
+      if (stateIds.has(state.id)) duplicateStateIds.add(state.id);
+      stateIds.add(state.id);
+      if (state.country_id !== undefined && state.country_id !== country.id) {
+        errors.push(
+          `state id=${state.id} (${state.name}) country_id ${state.country_id} does not match its containing country ${country.id}`,
+        );
       }
       checkCoordinates(state, 'state', errors);
 
-      for (const city of state.cities ?? []) {
+      const cities = state.cities ?? [];
+      if (!Array.isArray(cities)) {
+        errors.push(`state id=${state.id} (${state.name}): cities must be an array`);
+        continue;
+      }
+
+      for (const city of cities) {
         totalCities++;
         if (!city.id || !city.name) {
           errors.push(
@@ -73,8 +115,10 @@ function validateData(countries, options = {}) {
             `city id=${city.id} (${city.name}) state_id ${city.state_id} does not match its containing state ${state.id}`,
           );
         }
-        if (city.country_id !== undefined && !countryIds.has(city.country_id)) {
-          errors.push(`city id=${city.id} (${city.name}) references unknown country_id ${city.country_id}`);
+        if (city.country_id !== undefined && city.country_id !== country.id) {
+          errors.push(
+            `city id=${city.id} (${city.name}) country_id ${city.country_id} does not match its containing country ${country.id}`,
+          );
         }
         if (seenCityIds.has(city.id)) {
           duplicateCityIds.add(city.id);
@@ -85,6 +129,12 @@ function validateData(countries, options = {}) {
     }
   }
 
+  for (const id of duplicateCountryIds) {
+    errors.push(`duplicate country id: ${id}`);
+  }
+  for (const id of duplicateStateIds) {
+    errors.push(`duplicate state id: ${id}`);
+  }
   for (const id of duplicateCityIds) {
     errors.push(`duplicate city id: ${id}`);
   }

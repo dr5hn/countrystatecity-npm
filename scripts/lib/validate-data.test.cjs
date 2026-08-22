@@ -35,6 +35,16 @@ test('a well-formed dataset passes with no errors and correct counts', () => {
   assert.deepEqual(result.counts, { countries: 1, states: 1, cities: 2 });
 });
 
+test('accepts nested source records that omit redundant parent ids', () => {
+  const dataset = validDataset();
+  delete dataset[0].states[0].country_id;
+  delete dataset[0].states[0].cities[0].state_id;
+  delete dataset[0].states[0].cities[0].country_id;
+
+  const result = validateData(dataset);
+  assert.equal(result.ok, true);
+});
+
 test('isFiniteCoordinate rejects empty/null and non-numeric values, accepts numeric strings', () => {
   // checkCoordinates() treats "no value" (empty/null) as fine — it's the raw
   // predicate under test here, which is correctly false for both.
@@ -52,20 +62,32 @@ test('flags a country missing a name', () => {
   assert.ok(result.errors.some((e) => e.includes('country missing id or name')));
 });
 
-test('flags a state whose country_id references an unknown country', () => {
+test('flags a state whose country_id does not match its containing country', () => {
   const dataset = validDataset();
   dataset[0].states[0].country_id = 999;
   const result = validateData(dataset);
   assert.equal(result.ok, false);
-  assert.ok(result.errors.some((e) => e.includes('unknown country_id 999')));
+  assert.ok(result.errors.some((e) => e.includes('does not match its containing country 1')));
 });
 
-test('flags a city whose country_id references an unknown country', () => {
+test('flags a city whose country_id does not match its containing country', () => {
   const dataset = validDataset();
   dataset[0].states[0].cities[0].country_id = 999;
   const result = validateData(dataset);
   assert.equal(result.ok, false);
-  assert.ok(result.errors.some((e) => e.includes('city id=100') && e.includes('unknown country_id 999')));
+  assert.ok(result.errors.some((e) => e.includes('city id=100') && e.includes('does not match its containing country 1')));
+});
+
+test('rejects a link to a real but different country', () => {
+  const dataset = validDataset();
+  dataset.unshift({ id: 2, name: 'Different country', states: [] });
+  dataset[1].states[0].country_id = 2;
+  dataset[1].states[0].cities[0].country_id = 2;
+
+  const result = validateData(dataset);
+  assert.equal(result.ok, false);
+  assert.ok(result.errors.some((e) => e.includes('state id=10') && e.includes('containing country 1')));
+  assert.ok(result.errors.some((e) => e.includes('city id=100') && e.includes('containing country 1')));
 });
 
 test('flags a city whose state_id does not match its containing state', () => {
@@ -95,12 +117,23 @@ test('flags a non-numeric ("garbage") latitude but allows an empty one', () => {
   assert.ok(!result.errors.some((e) => e.includes('id=101')));
 });
 
-test('flags an out-of-range-looking but numeric longitude the same way (still just "not a finite number" today)', () => {
+test('flags numeric coordinates outside valid latitude/longitude ranges', () => {
   const dataset = validDataset();
-  dataset[0].states[0].cities[0].longitude = 'not-a-number';
+  dataset[0].states[0].cities[0].latitude = '-91';
+  dataset[0].states[0].cities[0].longitude = '181';
   const result = validateData(dataset);
   assert.equal(result.ok, false);
-  assert.ok(result.errors.some((e) => e.includes('invalid longitude')));
+  assert.ok(result.errors.some((e) => e.includes('latitude') && e.includes('outside -90..90')));
+  assert.ok(result.errors.some((e) => e.includes('longitude') && e.includes('outside -180..180')));
+});
+
+test('flags duplicate country and state ids', () => {
+  const dataset = validDataset();
+  dataset.push({ id: 1, name: 'Duplicate country', states: [{ id: 10, name: 'Duplicate state', country_id: 1 }] });
+  const result = validateData(dataset);
+  assert.equal(result.ok, false);
+  assert.ok(result.errors.includes('duplicate country id: 1'));
+  assert.ok(result.errors.includes('duplicate state id: 10'));
 });
 
 test('no previous manifest: skips the delta gate and only warns', () => {

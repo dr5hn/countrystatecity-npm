@@ -31,34 +31,52 @@ async function main() {
   const release = await resolveLatestRelease({ token: process.env.GITHUB_TOKEN });
   console.log(`✓ Pinned to release ${release.tag} (published ${release.publishedAt})\n`);
 
-  const files = [];
-  for (const { asset, role, destPath } of REQUIRED_ASSETS) {
-    const { url } = requireAsset(release, asset);
-    console.log(`📥 Downloading ${asset} (${role})...`);
-    const result = await downloadGzipAsset({ url, destPath });
-    console.log(
-      `✓ ${asset}: ${(result.compressedBytes / 1024 / 1024).toFixed(2)}MB → ` +
-        `${(result.decompressedBytes / 1024 / 1024).toFixed(2)}MB, sha256 ${result.contentSha256.slice(0, 12)}...\n`,
-    );
-    files.push({ asset, role, url, ...result });
-  }
-
-  const releaseRecord = {
-    repository: 'dr5hn/countries-states-cities-database',
-    tag: release.tag,
-    htmlUrl: release.htmlUrl,
-    publishedAt: release.publishedAt,
-    fetchedAt: new Date().toISOString(),
-    files,
-  };
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  const tmpPath = `${RELEASE_FILE}.tmp-${process.pid}`;
-  fs.writeFileSync(tmpPath, JSON.stringify(releaseRecord, null, 2) + '\n');
-  fs.renameSync(tmpPath, RELEASE_FILE);
+  const stagingDir = fs.mkdtempSync(path.join(DATA_DIR, '.fetch-'));
 
-  const countries = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'source.json'), 'utf-8'));
-  console.log(`✅ All 3 files downloaded and verified from release ${release.tag} (${countries.length} countries in the combined file).`);
-  console.log('   Run pnpm generate-data to distribute to all packages.');
+  try {
+    const files = [];
+    const downloads = [];
+    for (const { asset, role, destPath } of REQUIRED_ASSETS) {
+      const { url } = requireAsset(release, asset);
+      const stagedPath = path.join(stagingDir, path.basename(destPath));
+      console.log(`📥 Downloading ${asset} (${role})...`);
+      const result = await downloadGzipAsset({ url, destPath: stagedPath });
+      console.log(
+        `✓ ${asset}: ${(result.compressedBytes / 1024 / 1024).toFixed(2)}MB → ` +
+          `${(result.decompressedBytes / 1024 / 1024).toFixed(2)}MB, sha256 ${result.contentSha256.slice(0, 12)}...\n`,
+      );
+      files.push({ asset, role, url, ...result });
+      downloads.push({ stagedPath, destPath });
+    }
+
+    const countries = JSON.parse(fs.readFileSync(downloads[0].stagedPath, 'utf-8'));
+    const cities = JSON.parse(fs.readFileSync(downloads[1].stagedPath, 'utf-8'));
+    if (!Array.isArray(countries) || !Array.isArray(cities)) {
+      throw new Error('Downloaded country and city assets must both contain JSON arrays');
+    }
+
+    const releaseRecord = {
+      repository: 'dr5hn/countries-states-cities-database',
+      tag: release.tag,
+      htmlUrl: release.htmlUrl,
+      publishedAt: release.publishedAt,
+      fetchedAt: new Date().toISOString(),
+      files,
+    };
+    const stagedReleaseFile = path.join(stagingDir, 'release.json');
+    fs.writeFileSync(stagedReleaseFile, JSON.stringify(releaseRecord, null, 2) + '\n');
+
+    // Nothing in data/ is replaced until every required asset has downloaded,
+    // decompressed, and passed its basic shape check.
+    for (const { stagedPath, destPath } of downloads) fs.renameSync(stagedPath, destPath);
+    fs.renameSync(stagedReleaseFile, RELEASE_FILE);
+
+    console.log(`✅ All 3 files downloaded and verified from release ${release.tag} (${countries.length} countries in the combined file).`);
+    console.log('   Run pnpm generate-data to distribute to all packages.');
+  } finally {
+    fs.rmSync(stagingDir, { recursive: true, force: true });
+  }
 }
 
 main().catch((err) => {

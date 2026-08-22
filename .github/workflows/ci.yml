@@ -98,7 +98,7 @@ jobs:
       - name: Fetch postcodes data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm fetch-postcodes
+        run: pnpm fetch-postcodes --use-pinned-release
 
       - name: Generate data for all packages
         run: pnpm generate-data
@@ -110,7 +110,7 @@ jobs:
       - name: Detect data changes
         id: check
         run: |
-          CHANGED=$(git diff --name-only | grep -E '^packages/[^/]+/src/data/' || true)
+          CHANGED=$(git diff --name-only | grep -E '^(packages/[^/]+/src/data/|data-manifest\.json$)' || true)
           if [ -n "$CHANGED" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "Changes detected:"

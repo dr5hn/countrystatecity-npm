@@ -18,7 +18,7 @@ const path = require('path');
 
 const { joinCityFields } = require('./lib/join-city-fields.cjs');
 const { validateData } = require('./lib/validate-data.cjs');
-const { readManifest, writeManifest } = require('./lib/manifest.cjs');
+const { readManifest, writeManifest, sha256File } = require('./lib/manifest.cjs');
 const { buildManifest } = require('./lib/build-manifest.cjs');
 
 const ROOT = path.join(__dirname, '..');
@@ -31,6 +31,22 @@ const POSTCODES_SOURCE_FILE = path.join(ROOT, 'data', 'postcodes-source.json');
 const MANIFEST_FILE = path.join(ROOT, 'data-manifest.json');
 
 const MAX_PRINTED_ERRORS = 50;
+
+/** Verify that the pinned release record still matches every raw input file. */
+function verifyReleaseFiles(release, pathsByRole) {
+  const errors = [];
+  for (const [role, filePath] of Object.entries(pathsByRole)) {
+    const metadata = release.files?.find((file) => file.role === role);
+    if (!metadata?.contentSha256) {
+      errors.push(`release metadata is missing a checksum for ${role}`);
+    } else if (!fs.existsSync(filePath)) {
+      errors.push(`raw ${role} file is missing: ${filePath}`);
+    } else if (sha256File(filePath) !== metadata.contentSha256) {
+      errors.push(`raw ${role} file does not match release ${release.tag}`);
+    }
+  }
+  return errors;
+}
 
 /** Run a node script synchronously (no shell), exiting the process on failure. */
 
@@ -89,9 +105,29 @@ function countCsvDataRows(filePath) {
 }
 
 async function main() {
-  if (!fs.existsSync(SOURCE_FILE) || !fs.existsSync(CITIES_FULL_FILE) || !fs.existsSync(RELEASE_FILE)) {
-    console.error('❌ Required source files not found (data/source.json, data/cities-full.json, data/release.json).');
+  if (
+    !fs.existsSync(SOURCE_FILE) ||
+    !fs.existsSync(CITIES_FULL_FILE) ||
+    !fs.existsSync(TRANSLATIONS_FILE) ||
+    !fs.existsSync(RELEASE_FILE)
+  ) {
+    console.error(
+      '❌ Required source files not found (data/source.json, data/cities-full.json, data/translations.csv, data/release.json).',
+    );
     console.error('   Run: pnpm fetch-database\n');
+    process.exit(1);
+  }
+
+  const release = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf-8'));
+  const releaseErrors = verifyReleaseFiles(release, {
+    combined: SOURCE_FILE,
+    'cities-full': CITIES_FULL_FILE,
+    translations: TRANSLATIONS_FILE,
+  });
+  if (releaseErrors.length > 0) {
+    console.error('❌ Raw source files do not match data/release.json:');
+    for (const error of releaseErrors) console.error(`   - ${error}`);
+    console.error('   Run pnpm fetch-database again before generating package data.');
     process.exit(1);
   }
 
@@ -179,7 +215,6 @@ async function main() {
 
   // ── Manifest: release info, checksums, counts, delta vs. the previous run ──
   console.log('\n📄 Writing data-manifest.json...');
-  const release = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf-8'));
   const recordCountByRole = {
     combined: countries.length,
     'cities-full': fullCityRecords.length,
@@ -208,7 +243,7 @@ async function main() {
 }
 
 // Exported for tests; the orchestration only runs when executed directly.
-module.exports = { runParallel, countCsvDataRows };
+module.exports = { runParallel, countCsvDataRows, verifyReleaseFiles };
 
 if (require.main === module) {
   main().catch((err) => {

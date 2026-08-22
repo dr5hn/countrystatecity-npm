@@ -90,9 +90,9 @@ export interface ICity {
   timezone: string | null;
   translations: ITranslations;
   /** Place classification from the source database (e.g. "city", "adm1", "adm2"). Null if unavailable. */
-  type: string | null;
-  population: number | null;
-  wikiDataId: string | null;
+  type?: string | null;
+  population?: number | null;
+  wikiDataId?: string | null;
 }
 
 export interface ConfigOptions {

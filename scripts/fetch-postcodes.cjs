@@ -3,8 +3,8 @@
  * Downloads the postcodes release asset, pinned to the same release tag
  * scripts/fetch-database.cjs already resolved in this run (data/release.json),
  * so country/state/city and postcode data can never come from two different
- * upstream releases in one workflow run. Falls back to resolving its own
- * latest release when run standalone (data/release.json absent).
+ * upstream releases in one workflow run. Standalone runs resolve the latest
+ * release unless --use-pinned-release is passed explicitly.
  */
 
 const fs = require('fs');
@@ -18,18 +18,21 @@ const RELEASE_FILE = path.join(DATA_DIR, 'release.json');
 const DEST_PATH = path.join(DATA_DIR, 'postcodes-source.json');
 const ASSET_NAME = 'json-postcodes.json.gz';
 
-async function resolveRelease() {
-  if (fs.existsSync(RELEASE_FILE)) {
+async function resolveRelease(usePinnedRelease = false) {
+  if (usePinnedRelease) {
+    if (!fs.existsSync(RELEASE_FILE)) {
+      throw new Error('--use-pinned-release requires data/release.json from fetch-database');
+    }
     const pinned = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf-8'));
     console.log(`🔗 Reusing release ${pinned.tag} pinned by fetch-database (data/release.json)...`);
     return resolveReleaseByTag({ tag: pinned.tag, token: process.env.GITHUB_TOKEN });
   }
-  console.log('🔎 No data/release.json found — resolving the latest release independently...');
+  console.log('🔎 Resolving the latest release independently...');
   return resolveLatestRelease({ token: process.env.GITHUB_TOKEN });
 }
 
 async function main() {
-  const release = await resolveRelease();
+  const release = await resolveRelease(process.argv.includes('--use-pinned-release'));
   console.log(`✓ Pinned to release ${release.tag} (published ${release.publishedAt})\n`);
 
   const { url } = requireAsset(release, ASSET_NAME);
@@ -46,7 +49,11 @@ async function main() {
   );
 }
 
-main().catch((err) => {
-  console.error('❌ Failed to fetch postcodes:', err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error('❌ Failed to fetch postcodes:', err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { resolveRelease };
