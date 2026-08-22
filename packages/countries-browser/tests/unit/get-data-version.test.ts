@@ -10,7 +10,7 @@ import { configure, resetConfiguration } from '../../src/config';
 const mockDataVersion = {
   dataVersion: 'v3.2-export.7-2026.07.29',
   sourceRelease: 'v3.2-export.7',
-  updatedAt: '2026-07-29T09:01:18Z',
+  updatedAt: '2026-07-29T09:01:18.000Z',
   recordCounts: { countries: 250, states: 5308, cities: 152970 },
 };
 
@@ -41,5 +41,17 @@ describe('getDataVersion — no city/country data fetch', () => {
     expect(url).not.toMatch(/country\//);
     expect(url).not.toMatch(/states\//);
     expect(url).not.toMatch(/cities\//);
+  });
+
+  it('returns the fetched payload unchanged, including the contract field set', async () => {
+    const result = await getDataVersion();
+
+    expect(result).toEqual(mockDataVersion);
+    expect(Object.keys(result).sort()).toEqual([
+      'dataVersion',
+      'recordCounts',
+      'sourceRelease',
+      'updatedAt',
+    ]);
   });
 });

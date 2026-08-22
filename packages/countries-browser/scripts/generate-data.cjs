@@ -35,13 +35,31 @@ function generateBrowserData(sourceDir, outputDir) {
   const countries = JSON.parse(fs.readFileSync(countriesSource, 'utf-8'));
   console.log(`✓ Copied countries.json (${countries.length} countries)`);
 
-  // 1b. Copy regions.json / subregions.json / version.json as-is (small, static/reference files)
-  for (const file of ['regions.json', 'subregions.json', 'version.json']) {
+  // 1b. Copy regions.json / subregions.json as-is (small, static reference data)
+  for (const file of ['regions.json', 'subregions.json']) {
     const src = path.join(sourceDir, file);
     if (fs.existsSync(src)) {
       fs.copyFileSync(src, path.join(dataDir, file));
       console.log(`✓ Copied ${file}`);
     }
+  }
+
+  // 1c. Copy the data version, falling back to preserving the currently-live
+  // one when the source directory has none. beginStagedWrite() stages into an
+  // EMPTY directory, so skipping outright would silently delete a
+  // previously-published version.json on a standalone run against a source
+  // tree that predates it — the same guard packages/countries' generator
+  // makes for its own copy of this file.
+  const versionSource = path.join(sourceDir, 'version.json');
+  const liveVersionFile = path.join(finalDataDir, 'version.json');
+  if (fs.existsSync(versionSource)) {
+    fs.copyFileSync(versionSource, path.join(dataDir, 'version.json'));
+    console.log('✓ Copied version.json');
+  } else if (fs.existsSync(liveVersionFile)) {
+    fs.copyFileSync(liveVersionFile, path.join(dataDir, 'version.json'));
+    console.warn('⚠ version.json not found in source — preserving the previously-published version');
+  } else {
+    console.warn('⚠ No version.json available (new package or first-ever generation) — skipping');
   }
 
   // 2. Process each country directory
