@@ -19,7 +19,7 @@ describe('export command', () => {
     program.exitOverride();
     registerExportCommand(program);
     await program.parseAsync(['node', 'csc', 'export']);
-    expect(open).toHaveBeenCalledWith('https://export.countrystatecity.in');
+    expect(open).toHaveBeenCalledWith('https://export.countrystatecity.in?source=cli&campaign=sdk_api_migration');
   });
 
   it('outputs JSON when --json flag is set', async () => {

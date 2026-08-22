@@ -1,5 +1,6 @@
 import chalk from 'chalk';
 import type { UsageInfo } from './api.js';
+import { CLI_TRACKING_PARAMS } from './tracking.js';
 
 /**
  * Infers tier name from daily API limit.
@@ -65,7 +66,7 @@ export function printUsageFooter(
     const nextTier = dailyLimit <= 300 ? 'Supporter ($9/mo)' : 'a higher plan';
     process.stderr.write(chalk.red(`Upgrade to ${nextTier} for more requests/day.`) + '\n');
     process.stderr.write(
-      chalk.red('Run `csc upgrade` or visit https://app.countrystatecity.in/pricing') + '\n'
+      chalk.red(`Run \`csc upgrade\` or visit https://app.countrystatecity.in/pricing?${CLI_TRACKING_PARAMS}`) + '\n'
     );
   } else if (dailyPercent >= 80) {
     process.stderr.write(
