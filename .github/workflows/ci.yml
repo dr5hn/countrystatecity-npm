@@ -214,6 +214,9 @@ jobs:
             du -sh packages/$pkg/dist/index.cjs 2>/dev/null || true
           done
 
+      - name: Enforce SDK bundle-size budget
+        run: pnpm turbo run size
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v7
         with:

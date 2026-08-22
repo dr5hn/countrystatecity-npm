@@ -48,9 +48,9 @@
     "access": "public"
   },
   "dependencies": {
+    "@countrystatecity/sdk": "workspace:*",
     "@inquirer/search": "^4.1.6",
     "@inquirer/select": "^5.1.2",
-    "axios": "^1.7.0",
     "chalk": "^5.4.0",
     "cli-table3": "^0.6.5",
     "commander": "^13.0.0",
