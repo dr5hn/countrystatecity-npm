@@ -95,6 +95,36 @@ export interface ICity {
   wikiDataId?: string | null;
 }
 
+/**
+ * Which source-data release this package's data was generated from.
+ *
+ * Same shape as the Country State City API's `GET /v1/meta/data-version`
+ * response, minus `regions`/`subregions` in `recordCounts`, which these
+ * packages don't ship.
+ *
+ * To check whether this package and a live API response describe the same
+ * data, compare `sourceRelease` — not `dataVersion`. Both sides format
+ * `dataVersion` as `<source-release>-<YYYY.MM.DD>`, but the date half comes
+ * from a different event on each side: the release's publish date here, and
+ * the date that release was imported into the API database on the API side.
+ * The two strings therefore routinely differ by a day or more even when both
+ * hold exactly the same data.
+ */
+export interface IDataVersion {
+  /** `<source-release>-<YYYY.MM.DD>`, where the date is this release's publish date. */
+  dataVersion: string;
+  /** The upstream release tag — identical on the API side, so use it for parity checks. */
+  sourceRelease: string;
+  /** ISO 8601 UTC timestamp of the release's publish time, to millisecond precision. */
+  updatedAt: string;
+  /** Row counts for this release. Narrower than the API's, which also reports regions/subregions. */
+  recordCounts: {
+    countries: number;
+    states: number;
+    cities: number;
+  };
+}
+
 export interface ConfigOptions {
   baseURL?: string;
   timeout?: number;

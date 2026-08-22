@@ -10,6 +10,10 @@
  *   Batch 2 (parallel): countries-browser, geojson — both read from countries/src/data/ output
  *   Batch 3 (independent): postalcodes — own source file, optional
  *   Finally: write data-manifest.json (release info, checksums, counts, delta vs. the previous run).
+ *
+ *   data/version.json is written right after validation (before Batch 1) —
+ *   not with the manifest — so per-package generators can copy it into their
+ *   own staged output and have it commit atomically with the rest of their data.
  */
 
 const { execFileSync, spawn } = require('child_process');
@@ -20,6 +24,7 @@ const { joinCityFields } = require('./lib/join-city-fields.cjs');
 const { validateData } = require('./lib/validate-data.cjs');
 const { readManifest, writeManifest, sha256File } = require('./lib/manifest.cjs');
 const { buildManifest } = require('./lib/build-manifest.cjs');
+const { buildDataVersion } = require('./lib/build-data-version.cjs');
 
 const ROOT = path.join(__dirname, '..');
 const SOURCE_FILE = path.join(ROOT, 'data', 'source.json');
@@ -27,6 +32,7 @@ const CITIES_FULL_FILE = path.join(ROOT, 'data', 'cities-full.json');
 const TRANSLATIONS_FILE = path.join(ROOT, 'data', 'translations.csv');
 const RELEASE_FILE = path.join(ROOT, 'data', 'release.json');
 const ENRICHED_FILE = path.join(ROOT, 'data', 'source.enriched.json');
+const VERSION_FILE = path.join(ROOT, 'data', 'version.json');
 const POSTCODES_SOURCE_FILE = path.join(ROOT, 'data', 'postcodes-source.json');
 const MANIFEST_FILE = path.join(ROOT, 'data-manifest.json');
 
@@ -159,6 +165,17 @@ async function main() {
     `✓ Validation passed (${validation.counts.countries} countries, ${validation.counts.states} states, ${validation.counts.cities} cities)\n`,
   );
 
+  // ── Compute the data version (release.json + validation.counts are both
+  // in hand here, before any per-package generator spawns, and BEFORE
+  // data-manifest.json exists — that's written last, once generation
+  // succeeds) ──────────────────────────────────────────────────────────────
+  console.log('🏷️  Computing data version...');
+  const dataVersion = buildDataVersion({ release, counts: validation.counts });
+  const tmpVersionFile = `${VERSION_FILE}.tmp-${process.pid}`;
+  fs.writeFileSync(tmpVersionFile, JSON.stringify(dataVersion, null, 2) + '\n');
+  fs.renameSync(tmpVersionFile, VERSION_FILE);
+  console.log(`✓ data/version.json written (${dataVersion.dataVersion})\n`);
+
   const tmpEnriched = `${ENRICHED_FILE}.tmp-${process.pid}`;
   fs.writeFileSync(tmpEnriched, JSON.stringify(countries));
   fs.renameSync(tmpEnriched, ENRICHED_FILE);
@@ -214,6 +231,7 @@ async function main() {
   }
 
   // ── Manifest: release info, checksums, counts, delta vs. the previous run ──
+  // (`release` was already parsed above, right after validation passed.)
   console.log('\n📄 Writing data-manifest.json...');
   const recordCountByRole = {
     combined: countries.length,

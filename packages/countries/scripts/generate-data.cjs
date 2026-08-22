@@ -169,6 +169,27 @@ function generateSplitData(sourceFile, outputDir) {
   );
   console.log('✓ Created regions.json and subregions.json');
 
+  // Copy the data version computed by generate-all.cjs (data/version.json,
+  // written right after validation, before any generator runs). Falls back
+  // to preserving the currently-live version.json when the root file is
+  // absent — beginStagedWrite() starts from an EMPTY directory, so doing
+  // nothing here would silently delete a previously-published version on a
+  // standalone/manual invocation (e.g. running this script directly without
+  // going through generate-all.cjs, which tests/unit/generate-data.test.ts
+  // and the documented manual update path both do).
+  console.log('\n📝 Copying data version...');
+  const rootVersionFile = path.join(__dirname, '..', '..', '..', 'data', 'version.json');
+  const liveVersionFile = path.join(finalDataDir, 'version.json');
+  if (fs.existsSync(rootVersionFile)) {
+    fs.copyFileSync(rootVersionFile, path.join(dataDir, 'version.json'));
+    console.log('✓ Copied version.json');
+  } else if (fs.existsSync(liveVersionFile)) {
+    fs.copyFileSync(liveVersionFile, path.join(dataDir, 'version.json'));
+    console.warn('⚠ data/version.json not found — preserving the previously-published version');
+  } else {
+    console.warn('⚠ No version.json available (new package or first-ever generation) — skipping');
+  }
+
   commit();
 
   console.log('\n✅ Data generation complete!');
