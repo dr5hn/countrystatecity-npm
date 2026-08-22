@@ -8,9 +8,12 @@
     "country_code": "PE",
     "latitude": "-12.14540000",
     "longitude": "-77.02070000",
-    "native": null,
+    "native": "Barranco",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 34378,
+    "wikiDataId": "Q893053"
   },
   {
     "id": 160106,
@@ -21,9 +24,12 @@
     "country_code": "PE",
     "latitude": "-12.07290000",
     "longitude": "-77.04160000",
-    "native": null,
+    "native": "Jesús María",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 75359,
+    "wikiDataId": "Q2711638"
   },
   {
     "id": 160103,
@@ -34,9 +40,12 @@
     "country_code": "PE",
     "latitude": "-12.08070000",
     "longitude": "-76.93510000",
-    "native": null,
+    "native": "La Molina",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 0,
+    "wikiDataId": "Q1016388"
   },
   {
     "id": 160108,
@@ -47,9 +56,12 @@
     "country_code": "PE",
     "latitude": "-12.08210000",
     "longitude": "-77.03030000",
-    "native": null,
+    "native": "Lince",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 7737002,
+    "wikiDataId": "Q2711642"
   },
   {
     "id": 160107,
@@ -60,9 +72,12 @@
     "country_code": "PE",
     "latitude": "-12.09160000",
     "longitude": "-77.07320000",
-    "native": null,
+    "native": "Magdalena del Mar",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 60290,
+    "wikiDataId": "Q986395"
   },
   {
     "id": 160101,
@@ -73,9 +88,12 @@
     "country_code": "PE",
     "latitude": "-12.11940000",
     "longitude": "-77.02820000",
-    "native": null,
+    "native": "Miraflores",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 187401,
+    "wikiDataId": "Q747840"
   },
   {
     "id": 160105,
@@ -86,9 +104,12 @@
     "country_code": "PE",
     "latitude": "-12.07570000",
     "longitude": "-77.06340000",
-    "native": null,
+    "native": "Pueblo Libre",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 6371,
+    "wikiDataId": "Q2711629"
   },
   {
     "id": 160104,
@@ -99,9 +120,12 @@
     "country_code": "PE",
     "latitude": "-12.10150000",
     "longitude": "-76.99670000",
-    "native": null,
+    "native": "San Borja",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 113247,
+    "wikiDataId": "Q2004830"
   },
   {
     "id": 80945,
@@ -112,9 +136,12 @@
     "country_code": "PE",
     "latitude": "-12.09560000",
     "longitude": "-77.03490000",
-    "native": null,
+    "native": "San Isidro",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 60735,
+    "wikiDataId": "Q2004827"
   },
   {
     "id": 80967,
@@ -125,8 +152,11 @@
     "country_code": "PE",
     "latitude": "-12.14780000",
     "longitude": "-76.99370000",
-    "native": null,
+    "native": "Santiago de Surco",
     "timezone": "America/Lima",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 105076,
+    "wikiDataId": "Q833073"
   }
 ]

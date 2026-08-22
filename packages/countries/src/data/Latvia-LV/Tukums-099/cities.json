@@ -8,9 +8,12 @@
     "country_code": "LV",
     "latitude": "57.16061000",
     "longitude": "23.22527000",
-    "native": null,
+    "native": "Engure",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1419,
+    "wikiDataId": "Q1023733"
   },
   {
     "id": 66905,
@@ -21,9 +24,12 @@
     "country_code": "LV",
     "latitude": "56.73137000",
     "longitude": "23.01247000",
-    "native": null,
+    "native": "Jaunpils",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1029,
+    "wikiDataId": "Q1684136"
   },
   {
     "id": 66910,
@@ -34,9 +40,12 @@
     "country_code": "LV",
     "latitude": "57.04087000",
     "longitude": "22.77466000",
-    "native": null,
+    "native": "Kandava",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 3232,
+    "wikiDataId": "Q849152"
   },
   {
     "id": 66965,
@@ -47,9 +56,12 @@
     "country_code": "LV",
     "latitude": "56.95420000",
     "longitude": "23.33736000",
-    "native": null,
+    "native": "Smārde",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 594,
+    "wikiDataId": "Q7546838"
   },
   {
     "id": 66971,
@@ -60,8 +72,11 @@
     "country_code": "LV",
     "latitude": "56.96764000",
     "longitude": "23.15554000",
-    "native": null,
+    "native": "Tukums",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 16182,
+    "wikiDataId": "Q636935"
   }
 ]

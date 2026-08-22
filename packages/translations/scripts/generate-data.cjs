@@ -10,6 +10,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 async function generateTranslationData() {
   console.log('Generating translation data...\n');
 
@@ -27,10 +29,8 @@ async function generateTranslationData() {
     process.exit(1);
   }
 
-  const dataDir = path.join(__dirname, '../src/data');
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
+  const finalDataDir = path.join(__dirname, '../src/data');
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
 
   console.log(`📥 Loading source data from: ${sourceFile}`);
   const countries = JSON.parse(fs.readFileSync(sourceFile, 'utf-8'));
@@ -76,6 +76,7 @@ async function generateTranslationData() {
   console.log(`  Total locales: ${locales.length}`);
   console.log(`  Locales: ${locales.join(', ')}`);
   console.log(`  File size: ${totalSize} KB`);
+  commit();
   console.log('\n✨ Translation data generation complete!');
 }
 

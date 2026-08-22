@@ -8,9 +8,12 @@
     "country_code": "TD",
     "latitude": "8.67610000",
     "longitude": "16.56600000",
-    "native": null,
+    "native": "Papa",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 40289,
+    "wikiDataId": "Q289802"
   },
   {
     "id": 105128,
@@ -21,9 +24,12 @@
     "country_code": "TD",
     "latitude": "8.26681000",
     "longitude": "16.93898000",
-    "native": null,
+    "native": "Beboto",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9321,
+    "wikiDataId": "Q2929543"
   },
   {
     "id": 105131,
@@ -34,8 +40,11 @@
     "country_code": "TD",
     "latitude": "8.65000000",
     "longitude": "16.85000000",
-    "native": null,
+    "native": "Temps",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 70942,
+    "wikiDataId": "Q985618"
   }
 ]

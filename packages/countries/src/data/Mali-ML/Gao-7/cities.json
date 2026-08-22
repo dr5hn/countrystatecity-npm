@@ -8,9 +8,12 @@
     "country_code": "ML",
     "latitude": "15.65970000",
     "longitude": "0.50220000",
-    "native": null,
+    "native": "Ansongo",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 3000,
+    "wikiDataId": "Q2620152"
   },
   {
     "id": 67592,
@@ -21,9 +24,12 @@
     "country_code": "ML",
     "latitude": "17.71192000",
     "longitude": "-0.34284000",
-    "native": null,
+    "native": "Cercle de Bourem",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q474936"
   },
   {
     "id": 67601,
@@ -34,9 +40,12 @@
     "country_code": "ML",
     "latitude": "16.27167000",
     "longitude": "-0.04472000",
-    "native": null,
+    "native": "Gao",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 133110,
+    "wikiDataId": "Q188904"
   },
   {
     "id": 67602,
@@ -47,9 +56,12 @@
     "country_code": "ML",
     "latitude": "16.72237000",
     "longitude": "0.43984000",
-    "native": null,
+    "native": "Gao Cercle",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 239853,
+    "wikiDataId": "Q1493783"
   },
   {
     "id": 67605,
@@ -60,8 +72,11 @@
     "country_code": "ML",
     "latitude": "15.95944000",
     "longitude": "3.14111000",
-    "native": null,
+    "native": "Pas",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 8714,
+    "wikiDataId": "Q1988973"
   }
 ]

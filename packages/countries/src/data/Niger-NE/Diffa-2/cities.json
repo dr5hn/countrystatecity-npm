@@ -8,9 +8,12 @@
     "country_code": "NE",
     "latitude": "13.66667000",
     "longitude": "12.50000000",
-    "native": null,
+    "native": "Département de Diffa",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q749567"
   },
   {
     "id": 76705,
@@ -21,9 +24,12 @@
     "country_code": "NE",
     "latitude": "13.31206000",
     "longitude": "12.08321000",
-    "native": null,
+    "native": "Département de Maine-Soroa",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1538108"
   },
   {
     "id": 76706,
@@ -34,9 +40,12 @@
     "country_code": "NE",
     "latitude": "14.20753000",
     "longitude": "13.12177000",
-    "native": null,
+    "native": "Département de Nguigmi",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1422302"
   },
   {
     "id": 76686,
@@ -47,9 +56,12 @@
     "country_code": "NE",
     "latitude": "13.31536000",
     "longitude": "12.61135000",
-    "native": null,
+    "native": "Distraction",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 54082,
+    "wikiDataId": "Q888839"
   },
   {
     "id": 76729,
@@ -60,9 +72,12 @@
     "country_code": "NE",
     "latitude": "13.21139000",
     "longitude": "12.02410000",
-    "native": null,
+    "native": "Maïné Soroa",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 17778,
+    "wikiDataId": "Q664550"
   },
   {
     "id": 76731,
@@ -73,8 +88,11 @@
     "country_code": "NE",
     "latitude": "14.24953000",
     "longitude": "13.10921000",
-    "native": null,
+    "native": "Nuigmi",
     "timezone": "Africa/Niamey",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 32035,
+    "wikiDataId": "Q664550"
   }
 ]

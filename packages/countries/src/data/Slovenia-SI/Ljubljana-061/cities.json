@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.07290000",
     "longitude": "14.44741000",
-    "native": null,
+    "native": "Dravlje District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q630081"
   },
   {
     "id": 104129,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.07345000",
     "longitude": "14.55431000",
-    "native": null,
+    "native": "Jarše District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q6961712"
   },
   {
     "id": 104169,
@@ -34,9 +40,12 @@
     "country_code": "SI",
     "latitude": "46.05108000",
     "longitude": "14.50513000",
-    "native": null,
+    "native": "LJUBLANA",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 284293,
+    "wikiDataId": "Q437"
   },
   {
     "id": 104211,
@@ -47,9 +56,12 @@
     "country_code": "SI",
     "latitude": "46.08333000",
     "longitude": "14.53333000",
-    "native": null,
+    "native": "Opčina Ljubljana-Bežigrad",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q2469185"
   },
   {
     "id": 104212,
@@ -60,9 +72,12 @@
     "country_code": "SI",
     "latitude": "46.05000000",
     "longitude": "14.53333000",
-    "native": null,
+    "native": "Občina centra LJUBLANA",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2000244"
   },
   {
     "id": 104213,
@@ -73,9 +88,12 @@
     "country_code": "SI",
     "latitude": "46.06667000",
     "longitude": "14.61667000",
-    "native": null,
+    "native": "Občina LJUBLANA-MOSTA-POLJE",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 19433,
+    "wikiDataId": "Q2000244"
   },
   {
     "id": 104262,
@@ -86,9 +104,12 @@
     "country_code": "SI",
     "latitude": "46.05999000",
     "longitude": "14.46779000",
-    "native": null,
+    "native": "Rožnik District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 16318,
+    "wikiDataId": "Q6961265"
   },
   {
     "id": 104349,
@@ -99,9 +120,12 @@
     "country_code": "SI",
     "latitude": "46.10559000",
     "longitude": "14.43329000",
-    "native": null,
+    "native": "Šentvid District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 716,
+    "wikiDataId": "Q12068719"
   },
   {
     "id": 104278,
@@ -112,9 +136,12 @@
     "country_code": "SI",
     "latitude": "46.04341000",
     "longitude": "14.67293000",
-    "native": null,
+    "native": "Sostro District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 6719,
+    "wikiDataId": "Q12806958"
   },
   {
     "id": 104300,
@@ -125,9 +152,12 @@
     "country_code": "SI",
     "latitude": "46.02412000",
     "longitude": "14.48891000",
-    "native": null,
+    "native": "Trnovo District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q4863552"
   },
   {
     "id": 104315,
@@ -138,8 +168,11 @@
     "country_code": "SI",
     "latitude": "46.00779000",
     "longitude": "14.46968000",
-    "native": null,
+    "native": "Vič District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 13906,
+    "wikiDataId": "Q7938065"
   }
 ]

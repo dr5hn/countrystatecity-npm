@@ -8,9 +8,12 @@
     "country_code": "NI",
     "latitude": "11.67859000",
     "longitude": "-84.70269000",
-    "native": null,
+    "native": "El Almendro",
     "timezone": "America/Managua",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 2681,
+    "wikiDataId": "Q2621532"
   },
   {
     "id": 77193,
@@ -21,9 +24,12 @@
     "country_code": "NI",
     "latitude": "10.94684000",
     "longitude": "-83.73467000",
-    "native": null,
+    "native": "Greytown",
     "timezone": "America/Managua",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2063725"
   },
   {
     "id": 77219,
@@ -34,9 +40,12 @@
     "country_code": "NI",
     "latitude": "11.62118000",
     "longitude": "-85.08052000",
-    "native": null,
+    "native": "Morrito",
     "timezone": "America/Managua",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1360,
+    "wikiDataId": "Q2621523"
   },
   {
     "id": 77255,
@@ -47,9 +56,12 @@
     "country_code": "NI",
     "latitude": "11.12360000",
     "longitude": "-84.77795000",
-    "native": null,
+    "native": "San Carlos",
     "timezone": "America/Managua",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 13451,
+    "wikiDataId": "Q1020320"
   },
   {
     "id": 77268,
@@ -60,8 +72,11 @@
     "country_code": "NI",
     "latitude": "11.40255000",
     "longitude": "-84.89991000",
-    "native": null,
+    "native": "San Miguelito",
     "timezone": "America/Managua",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 4181,
+    "wikiDataId": "Q1015364"
   }
 ]

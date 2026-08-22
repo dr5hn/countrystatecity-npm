@@ -8,9 +8,12 @@
     "country_code": "TW",
     "latitude": "24.43415000",
     "longitude": "118.31712000",
-    "native": null,
+    "native": "金城",
     "timezone": "Asia/Taipei",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 37507,
+    "wikiDataId": "Q706539"
   },
   {
     "id": 109017,
@@ -21,8 +24,11 @@
     "country_code": "TW",
     "latitude": "24.45333000",
     "longitude": "118.38861000",
-    "native": null,
+    "native": "金门县",
     "timezone": "Asia/Taipei",
-    "translations": {}
+    "translations": {},
+    "type": "county",
+    "population": null,
+    "wikiDataId": "Q249870"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "CI",
     "latitude": "6.99041000",
     "longitude": "-5.74420000",
-    "native": null,
+    "native": "Bouaflé",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 104209,
+    "wikiDataId": "Q1588797"
   },
   {
     "id": 18892,
@@ -21,9 +24,12 @@
     "country_code": "CI",
     "latitude": "6.87735000",
     "longitude": "-6.45022000",
-    "native": null,
+    "native": "Daloa",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 421879,
+    "wikiDataId": "Q860304"
   },
   {
     "id": 18911,
@@ -34,9 +40,12 @@
     "country_code": "CI",
     "latitude": "6.66961000",
     "longitude": "-6.50116000",
-    "native": null,
+    "native": "Haut-Sassandra",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1553776"
   },
   {
     "id": 18914,
@@ -47,9 +56,12 @@
     "country_code": "CI",
     "latitude": "6.49224000",
     "longitude": "-6.58558000",
-    "native": null,
+    "native": "Idite",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 68263,
+    "wikiDataId": "Q1553776"
   },
   {
     "id": 18921,
@@ -60,9 +72,12 @@
     "country_code": "CI",
     "latitude": "7.03252000",
     "longitude": "-5.80215000",
-    "native": null,
+    "native": "Marahoué",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 8905,
+    "wikiDataId": "Q1191011"
   },
   {
     "id": 18940,
@@ -73,9 +88,12 @@
     "country_code": "CI",
     "latitude": "7.38194000",
     "longitude": "-6.47778000",
-    "native": null,
+    "native": "Vavoua",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 86977,
+    "wikiDataId": "Q2308752"
   },
   {
     "id": 18943,
@@ -86,8 +104,11 @@
     "country_code": "CI",
     "latitude": "7.43027000",
     "longitude": "-6.05054000",
-    "native": null,
+    "native": "Zuénoula",
     "timezone": "Africa/Abidjan",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 44097,
+    "wikiDataId": "Q3768"
   }
 ]

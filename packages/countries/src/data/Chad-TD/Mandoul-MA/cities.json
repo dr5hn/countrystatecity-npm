@@ -8,9 +8,12 @@
     "country_code": "TD",
     "latitude": "9.36267000",
     "longitude": "17.36597000",
-    "native": null,
+    "native": "Gound",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10577,
+    "wikiDataId": "Q516769"
   },
   {
     "id": 105141,
@@ -21,9 +24,12 @@
     "country_code": "TD",
     "latitude": "8.91256000",
     "longitude": "17.55392000",
-    "native": null,
+    "native": "Koumra",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 54109,
+    "wikiDataId": "Q1070175"
   },
   {
     "id": 105153,
@@ -34,8 +40,11 @@
     "country_code": "TD",
     "latitude": "8.34040000",
     "longitude": "17.76630000",
-    "native": null,
+    "native": "Moïssala",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 17281,
+    "wikiDataId": "Q3327099"
   }
 ]

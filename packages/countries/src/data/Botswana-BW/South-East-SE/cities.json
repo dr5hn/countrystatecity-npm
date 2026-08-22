@@ -8,9 +8,12 @@
     "country_code": "BW",
     "latitude": "-24.76234000",
     "longitude": "25.79950000",
-    "native": null,
+    "native": "Gaborone",
     "timezone": "Africa/Gaborone",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 647,
+    "wikiDataId": "Q38855"
   },
   {
     "id": 15741,
@@ -21,9 +24,12 @@
     "country_code": "BW",
     "latitude": "-25.41667000",
     "longitude": "25.55000000",
-    "native": null,
+    "native": "Janeng",
     "timezone": "Africa/Gaborone",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 16853,
+    "wikiDataId": "Q21858552"
   },
   {
     "id": 15747,
@@ -34,9 +40,12 @@
     "country_code": "BW",
     "latitude": "-24.48333000",
     "longitude": "25.88333000",
-    "native": null,
+    "native": "Hollow",
     "timezone": "Africa/Gaborone",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 13823,
+    "wikiDataId": "Q31811672"
   },
   {
     "id": 15782,
@@ -47,9 +56,12 @@
     "country_code": "BW",
     "latitude": "-25.01667000",
     "longitude": "25.73333000",
-    "native": null,
+    "native": "Directly",
     "timezone": "Africa/Gaborone",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6986,
+    "wikiDataId": "Q170659"
   },
   {
     "id": 15789,
@@ -60,8 +72,11 @@
     "country_code": "BW",
     "latitude": "-24.87158000",
     "longitude": "25.86989000",
-    "native": null,
+    "native": "Ramotswa",
     "timezone": "Africa/Gaborone",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 33271,
+    "wikiDataId": "Q170714"
   }
 ]

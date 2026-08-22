@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "58.51227000",
     "longitude": "-3.49155000",
-    "native": null,
+    "native": "Halkirk",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 970,
+    "wikiDataId": "Q1011584"
   },
   {
     "id": 50210,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "58.98160490",
     "longitude": "-2.96036900",
-    "native": null,
+    "native": "Kirkwall",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 7420,
+    "wikiDataId": "Q208329"
   },
   {
     "id": 50812,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "58.94182310",
     "longitude": "-3.12969440",
-    "native": null,
+    "native": "Orkney",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q510513"
   },
   {
     "id": 51197,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "58.78764520",
     "longitude": "-2.97638070",
-    "native": null,
+    "native": "Sandwick",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1217,
+    "wikiDataId": "Q7417104"
   },
   {
     "id": 51501,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "58.96143560",
     "longitude": "-3.29937670",
-    "native": null,
+    "native": "Stromness",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q839556"
   },
   {
     "id": 51615,
@@ -73,9 +88,12 @@
     "country_code": "GB",
     "latitude": "58.59271000",
     "longitude": "-3.52594000",
-    "native": null,
+    "native": "Tos",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7610,
+    "wikiDataId": "Q526576"
   },
   {
     "id": 51890,
@@ -86,8 +104,11 @@
     "country_code": "GB",
     "latitude": "58.43906000",
     "longitude": "-3.09424000",
-    "native": null,
+    "native": "Wick",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7140,
+    "wikiDataId": "Q1012502"
   }
 ]

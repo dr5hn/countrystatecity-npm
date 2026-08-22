@@ -8,9 +8,12 @@
     "country_code": "RS",
     "latitude": "43.89139000",
     "longitude": "20.34972000",
-    "native": null,
+    "native": "Чачак",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 117072,
+    "wikiDataId": "Q208038"
   },
   {
     "id": 97214,
@@ -21,9 +24,12 @@
     "country_code": "RS",
     "latitude": "44.02603000",
     "longitude": "20.46152000",
-    "native": null,
+    "native": "Горњи Милановац",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 23982,
+    "wikiDataId": "Q4856130"
   },
   {
     "id": 155055,
@@ -34,9 +40,12 @@
     "country_code": "RS",
     "latitude": "43.58366500",
     "longitude": "20.21556940",
-    "native": null,
+    "native": "Ивањица",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 0,
+    "wikiDataId": "Q4195757"
   },
   {
     "id": 155056,
@@ -47,9 +56,12 @@
     "country_code": "RS",
     "latitude": "43.85854930",
     "longitude": "20.11661750",
-    "native": null,
+    "native": "Лучани",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q1252566"
   },
   {
     "id": 97347,
@@ -60,8 +72,11 @@
     "country_code": "RS",
     "latitude": "43.95223000",
     "longitude": "20.43521000",
-    "native": null,
+    "native": "Прислоница",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1735,
+    "wikiDataId": "Q2723458"
   }
 ]

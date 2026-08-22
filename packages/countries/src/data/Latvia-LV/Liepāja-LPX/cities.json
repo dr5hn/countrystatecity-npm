@@ -8,9 +8,12 @@
     "country_code": "LV",
     "latitude": "56.55128000",
     "longitude": "21.01287000",
-    "native": null,
+    "native": "Karosta",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 7500,
+    "wikiDataId": "Q849152"
   },
   {
     "id": 66919,
@@ -21,8 +24,11 @@
     "country_code": "LV",
     "latitude": "56.50474000",
     "longitude": "21.01085000",
-    "native": null,
+    "native": "Liepāja",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 66680,
+    "wikiDataId": "Q167668"
   }
 ]

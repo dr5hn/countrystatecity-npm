@@ -8,9 +8,12 @@
     "country_code": "RS",
     "latitude": "44.33987000",
     "longitude": "19.81368000",
-    "native": null,
+    "native": "Горња Буковица",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q1011675"
   },
   {
     "id": 97238,
@@ -21,9 +24,12 @@
     "country_code": "RS",
     "latitude": "44.58772000",
     "longitude": "19.40967000",
-    "native": null,
+    "native": "Јошева",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1228,
+    "wikiDataId": "Q948327"
   },
   {
     "id": 155051,
@@ -34,9 +40,12 @@
     "country_code": "RS",
     "latitude": "44.36809950",
     "longitude": "20.14110360",
-    "native": null,
+    "native": "Лајковац",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q2048243"
   },
   {
     "id": 97276,
@@ -47,9 +56,12 @@
     "country_code": "RS",
     "latitude": "44.22281040",
     "longitude": "20.21389960",
-    "native": null,
+    "native": "Љиг",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 10711,
+    "wikiDataId": "Q2360583"
   },
   {
     "id": 155052,
@@ -60,9 +72,12 @@
     "country_code": "RS",
     "latitude": "44.25595280",
     "longitude": "20.05966170",
-    "native": null,
+    "native": "Мионица",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 0,
+    "wikiDataId": "Q2047412"
   },
   {
     "id": 97323,
@@ -73,9 +88,12 @@
     "country_code": "RS",
     "latitude": "44.37202670",
     "longitude": "19.57926740",
-    "native": null,
+    "native": "Осечина",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3422,
+    "wikiDataId": "Q15629061"
   },
   {
     "id": 155053,
@@ -86,9 +104,12 @@
     "country_code": "RS",
     "latitude": "44.45594110",
     "longitude": "20.04489880",
-    "native": null,
+    "native": "Уб",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6191,
+    "wikiDataId": "Q12756688"
   },
   {
     "id": 97425,
@@ -99,8 +120,11 @@
     "country_code": "RS",
     "latitude": "44.27513000",
     "longitude": "19.89821000",
-    "native": null,
+    "native": "Ваљево",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 61035,
+    "wikiDataId": "Q208015"
   }
 ]

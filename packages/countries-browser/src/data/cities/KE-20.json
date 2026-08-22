@@ -8,9 +8,12 @@
     "country_code": "KE",
     "latitude": "0.00624000",
     "longitude": "37.07398000",
-    "native": null,
+    "native": "Nanyuki",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 72813,
+    "wikiDataId": "Q123160"
   },
   {
     "id": 64854,
@@ -21,9 +24,12 @@
     "country_code": "KE",
     "latitude": "0.03813000",
     "longitude": "36.36339000",
-    "native": null,
+    "native": "Nyahururu",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 37650,
+    "wikiDataId": "Q948344"
   },
   {
     "id": 64865,
@@ -34,8 +40,11 @@
     "country_code": "KE",
     "latitude": "0.27250000",
     "longitude": "36.53806000",
-    "native": null,
+    "native": "Ugly",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 13056,
+    "wikiDataId": "Q7379442"
   }
 ]

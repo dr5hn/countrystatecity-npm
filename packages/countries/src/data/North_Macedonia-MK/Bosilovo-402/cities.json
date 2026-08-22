@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "41.44056000",
     "longitude": "22.72778000",
-    "native": null,
+    "native": "Босилово",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 12447,
+    "wikiDataId": "Q2740543"
   },
   {
     "id": 67441,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "41.47224000",
     "longitude": "22.80480000",
-    "native": null,
+    "native": "Иловица",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2042,
+    "wikiDataId": "Q20932180"
   },
   {
     "id": 67523,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "41.43999000",
     "longitude": "22.79536000",
-    "native": null,
+    "native": "Секирник",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1222,
+    "wikiDataId": "Q667351"
   }
 ]

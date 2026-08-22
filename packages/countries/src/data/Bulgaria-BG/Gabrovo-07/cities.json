@@ -8,9 +8,12 @@
     "country_code": "BG",
     "latitude": "42.97897000",
     "longitude": "25.47850000",
-    "native": null,
+    "native": "Дряново",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 8346,
+    "wikiDataId": "Q406050"
   },
   {
     "id": 9328,
@@ -21,9 +24,12 @@
     "country_code": "BG",
     "latitude": "42.87472000",
     "longitude": "25.33417000",
-    "native": null,
+    "native": "Габрово",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 43710,
+    "wikiDataId": "Q180131"
   },
   {
     "id": 9465,
@@ -34,9 +40,12 @@
     "country_code": "BG",
     "latitude": "43.00000000",
     "longitude": "25.46667000",
-    "native": null,
+    "native": "Община Дряново",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2476900"
   },
   {
     "id": 9474,
@@ -47,9 +56,12 @@
     "country_code": "BG",
     "latitude": "42.90000000",
     "longitude": "25.30000000",
-    "native": null,
+    "native": "Община Габрово",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2652942"
   },
   {
     "id": 9586,
@@ -60,9 +72,12 @@
     "country_code": "BG",
     "latitude": "43.01667000",
     "longitude": "25.10000000",
-    "native": null,
+    "native": "Община Севлиево",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1749330"
   },
   {
     "id": 9615,
@@ -73,9 +88,12 @@
     "country_code": "BG",
     "latitude": "42.85000000",
     "longitude": "25.55000000",
-    "native": null,
+    "native": "Община Трявна",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q568005"
   },
   {
     "id": 9689,
@@ -86,9 +104,12 @@
     "country_code": "BG",
     "latitude": "43.02583000",
     "longitude": "25.11361000",
-    "native": null,
+    "native": "Севлиево",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 17088,
+    "wikiDataId": "Q326312"
   },
   {
     "id": 9726,
@@ -99,8 +120,11 @@
     "country_code": "BG",
     "latitude": "42.86667000",
     "longitude": "25.50000000",
-    "native": null,
+    "native": "Трявна",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 13818,
+    "wikiDataId": "Q405136"
   }
 ]

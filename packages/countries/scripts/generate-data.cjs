@@ -8,6 +8,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 // Helper to create safe directory names (replace spaces with underscores)
 function safeDirName(name, code) {
   return `${name.replace(/\s+/g, '_')}-${code}`;
@@ -21,14 +23,12 @@ function generateSplitData(sourceFile, outputDir) {
   
   console.log(`✓ Loaded ${countries.length} countries`);
   
-  // Create output directory
-  const dataDir = path.join(outputDir, 'src', 'data');
-  if (fs.existsSync(dataDir)) {
-    console.log('🗑️  Removing existing data directory...');
-    fs.rmSync(dataDir, { recursive: true });
-  }
-  fs.mkdirSync(dataDir, { recursive: true });
-  
+  // Prepare a staged output directory — swapped into place atomically via
+  // commit() once generation succeeds, so a crash mid-run never leaves the
+  // live packages/countries/src/data without a complete dataset.
+  const finalDataDir = path.join(outputDir, 'src', 'data');
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
+
   // Generate countries.json (lightweight list)
   console.log('\n📝 Generating countries.json...');
   const countriesList = countries.map(country => ({
@@ -137,9 +137,12 @@ function generateSplitData(sourceFile, outputDir) {
         country_code: country.iso2,
         latitude: city.latitude,
         longitude: city.longitude,
-        native: null, // Not in source data
+        native: city.native ?? null,
         timezone: city.timezone || null,
-        translations: {} // Not in source data for cities
+        translations: {}, // Not in source data for cities
+        type: city.type ?? null,
+        population: city.population ?? null,
+        wikiDataId: city.wikiDataId ?? null
       }));
       
       fs.writeFileSync(
@@ -166,25 +169,31 @@ function generateSplitData(sourceFile, outputDir) {
   );
   console.log('✓ Created regions.json and subregions.json');
 
+  commit();
+
   console.log('\n✅ Data generation complete!');
   console.log(`📊 Statistics:`);
   console.log(`   - Countries: ${countries.length}`);
   console.log(`   - Countries with states/cities: ${countriesWithData}`);
   console.log(`   - States: ${totalStates}`);
   console.log(`   - Cities: ${totalCities}`);
-  console.log(`   - Output directory: ${dataDir}`);
+  console.log(`   - Output directory: ${finalDataDir}`);
 }
 
-// Main execution
-const sourceFile = process.argv[2] || '/tmp/countries-data.json';
-const outputDir = process.argv[3] || path.join(__dirname, '..');
+// Exported for unit tests; the script body below only runs when executed directly.
+module.exports = { generateSplitData, safeDirName };
 
-if (!fs.existsSync(sourceFile)) {
-  console.error(`❌ Error: Source file not found: ${sourceFile}`);
-  console.log('\nUsage: node generate-data.js <source-file> [output-dir]');
-  console.log('\nExample:');
-  console.log('  node generate-data.js /tmp/countries-data.json');
-  process.exit(1);
+if (require.main === module) {
+  const sourceFile = process.argv[2] || '/tmp/countries-data.json';
+  const outputDir = process.argv[3] || path.join(__dirname, '..');
+
+  if (!fs.existsSync(sourceFile)) {
+    console.error(`❌ Error: Source file not found: ${sourceFile}`);
+    console.log('\nUsage: node generate-data.js <source-file> [output-dir]');
+    console.log('\nExample:');
+    console.log('  node generate-data.js /tmp/countries-data.json');
+    process.exit(1);
+  }
+
+  generateSplitData(sourceFile, outputDir);
 }
-
-generateSplitData(sourceFile, outputDir);

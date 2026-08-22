@@ -8,9 +8,12 @@
     "country_code": "TH",
     "latitude": "11.29402000",
     "longitude": "99.44406000",
-    "native": null,
+    "native": "อำเภอบางสะพาน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475257"
   },
   {
     "id": 105349,
@@ -21,9 +24,12 @@
     "country_code": "TH",
     "latitude": "12.53522000",
     "longitude": "99.70366000",
-    "native": null,
+    "native": "อำเภอ หัวหิน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q1666491"
   },
   {
     "id": 105460,
@@ -34,9 +40,12 @@
     "country_code": "TH",
     "latitude": "12.11311000",
     "longitude": "99.75462000",
-    "native": null,
+    "native": "อำเภอกุยบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475843"
   },
   {
     "id": 105796,
@@ -47,9 +56,12 @@
     "country_code": "TH",
     "latitude": "12.39040000",
     "longitude": "99.69690000",
-    "native": null,
+    "native": "อำเภอปราณบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q476524"
   },
   {
     "id": 106177,
@@ -60,9 +72,12 @@
     "country_code": "TH",
     "latitude": "12.25586000",
     "longitude": "99.74010000",
-    "native": null,
+    "native": "อำเภอสามร้อยยอด",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q476605"
   },
   {
     "id": 106445,
@@ -73,9 +88,12 @@
     "country_code": "TH",
     "latitude": "11.21259000",
     "longitude": "99.51167000",
-    "native": null,
+    "native": "บางสะพาน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 15134,
+    "wikiDataId": "Q28732633"
   },
   {
     "id": 105245,
@@ -86,9 +104,12 @@
     "country_code": "TH",
     "latitude": "11.07057000",
     "longitude": "99.34105000",
-    "native": null,
+    "native": "อำเภอบางสะพานน้อย",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475262"
   },
   {
     "id": 106498,
@@ -99,9 +120,12 @@
     "country_code": "TH",
     "latitude": "12.57065000",
     "longitude": "99.95876000",
-    "native": null,
+    "native": "หัวหิน",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 126355,
+    "wikiDataId": "Q667576"
   },
   {
     "id": 106544,
@@ -112,9 +136,12 @@
     "country_code": "TH",
     "latitude": "12.08283000",
     "longitude": "99.85431000",
-    "native": null,
+    "native": "กุยบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 19046,
+    "wikiDataId": "Q28731273"
   },
   {
     "id": 105577,
@@ -125,9 +152,12 @@
     "country_code": "TH",
     "latitude": "11.87144000",
     "longitude": "99.73563000",
-    "native": null,
+    "native": "อำเภอเมืองประจวบคีรีขันธ์",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q476067"
   },
   {
     "id": 106656,
@@ -138,9 +168,12 @@
     "country_code": "TH",
     "latitude": "11.82098000",
     "longitude": "99.78410000",
-    "native": null,
+    "native": "ประจวบคีรีขันธ์",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 33521,
+    "wikiDataId": "Q373340"
   },
   {
     "id": 106658,
@@ -151,9 +184,12 @@
     "country_code": "TH",
     "latitude": "12.38487000",
     "longitude": "99.90157000",
-    "native": null,
+    "native": "ปราณบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 47293,
+    "wikiDataId": "Q28731267"
   },
   {
     "id": 106678,
@@ -164,9 +200,12 @@
     "country_code": "TH",
     "latitude": "12.27081000",
     "longitude": "99.87203000",
-    "native": null,
+    "native": "สามร้อยยอด",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 19709,
+    "wikiDataId": "Q13025385"
   },
   {
     "id": 106301,
@@ -177,8 +216,11 @@
     "country_code": "TH",
     "latitude": "11.54787000",
     "longitude": "99.57159000",
-    "native": null,
+    "native": "อำเภอทับสะแก",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q476896"
   }
 ]

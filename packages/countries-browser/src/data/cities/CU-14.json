@@ -8,9 +8,12 @@
     "country_code": "CU",
     "latitude": "20.34711000",
     "longitude": "-74.49624000",
-    "native": null,
+    "native": "Baracoa",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 48362,
+    "wikiDataId": "Q23804595"
   },
   {
     "id": 21860,
@@ -21,9 +24,12 @@
     "country_code": "CU",
     "latitude": "20.14444000",
     "longitude": "-75.20917000",
-    "native": null,
+    "native": "Guantánamo",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 228436,
+    "wikiDataId": "Q23796097"
   },
   {
     "id": 21889,
@@ -34,9 +40,12 @@
     "country_code": "CU",
     "latitude": "20.24673000",
     "longitude": "-74.15181000",
-    "native": null,
+    "native": "Masas",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 28276,
+    "wikiDataId": "Q911750"
   },
   {
     "id": 21916,
@@ -47,9 +56,12 @@
     "country_code": "CU",
     "latitude": "20.26723000",
     "longitude": "-75.15546000",
-    "native": null,
+    "native": "Municipio de Guantánamo",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q185156"
   },
   {
     "id": 21955,
@@ -60,9 +72,12 @@
     "country_code": "CU",
     "latitude": "20.36667000",
     "longitude": "-75.01667000",
-    "native": null,
+    "native": "Río Guayabal de Yateras",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 25753,
+    "wikiDataId": "Q20592832"
   },
   {
     "id": 21958,
@@ -73,8 +88,11 @@
     "country_code": "CU",
     "latitude": "20.05564000",
     "longitude": "-74.80750000",
-    "native": null,
+    "native": "San Antonio del Sur",
     "timezone": "America/Havana",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q281213"
   }
 ]

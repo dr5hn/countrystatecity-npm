@@ -8,9 +8,12 @@
     "country_code": "JO",
     "latitude": "31.95439000",
     "longitude": "35.58033000",
-    "native": null,
+    "native": "الكرامة",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9384,
+    "wikiDataId": "Q3505791"
   },
   {
     "id": 63145,
@@ -21,9 +24,12 @@
     "country_code": "JO",
     "latitude": "32.03917000",
     "longitude": "35.72722000",
-    "native": null,
+    "native": "كما سالت",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 107874,
+    "wikiDataId": "Q867586"
   },
   {
     "id": 63195,
@@ -34,8 +40,11 @@
     "country_code": "JO",
     "latitude": "31.97583000",
     "longitude": "35.69638000",
-    "native": null,
+    "native": "يرقا",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 4786,
+    "wikiDataId": "Q1020997"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "AL",
     "latitude": "40.82492000",
     "longitude": "19.84074000",
-    "native": null,
+    "native": "Banane",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 844,
+    "wikiDataId": "Q3301181"
   },
   {
     "id": 154,
@@ -21,9 +24,12 @@
     "country_code": "AL",
     "latitude": "40.69997000",
     "longitude": "19.94983000",
-    "native": null,
+    "native": "Bashkia Berat",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q3301181"
   },
   {
     "id": 170,
@@ -34,9 +40,12 @@
     "country_code": "AL",
     "latitude": "40.82489000",
     "longitude": "19.95350000",
-    "native": null,
+    "native": "Bashkia Kuçovë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q16350064"
   },
   {
     "id": 180,
@@ -47,9 +56,12 @@
     "country_code": "AL",
     "latitude": "40.58608000",
     "longitude": "20.04535000",
-    "native": null,
+    "native": "Bashkia Poliçan",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q16350064"
   },
   {
     "id": 186,
@@ -60,9 +72,12 @@
     "country_code": "AL",
     "latitude": "40.56036000",
     "longitude": "20.25477000",
-    "native": null,
+    "native": "Bashkia Skrapar",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q16350064"
   },
   {
     "id": 191,
@@ -73,9 +88,12 @@
     "country_code": "AL",
     "latitude": "40.70583000",
     "longitude": "19.95222000",
-    "native": null,
+    "native": "I rëndë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 62232,
+    "wikiDataId": "Q170244"
   },
   {
     "id": 280,
@@ -86,9 +104,12 @@
     "country_code": "AL",
     "latitude": "40.50417000",
     "longitude": "20.22722000",
-    "native": null,
+    "native": "Çorovodë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 4051,
+    "wikiDataId": "Q19307"
   },
   {
     "id": 219,
@@ -99,9 +120,12 @@
     "country_code": "AL",
     "latitude": "40.80028000",
     "longitude": "19.91667000",
-    "native": null,
+    "native": "Kuçovë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 31077,
+    "wikiDataId": "Q18774"
   },
   {
     "id": 238,
@@ -112,9 +136,12 @@
     "country_code": "AL",
     "latitude": "40.61222000",
     "longitude": "20.09806000",
-    "native": null,
+    "native": "Poliçan",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 4318,
+    "wikiDataId": "Q18751"
   },
   {
     "id": 242,
@@ -125,9 +152,12 @@
     "country_code": "AL",
     "latitude": "40.66667000",
     "longitude": "20.00000000",
-    "native": null,
+    "native": "Rrethi i Beratit",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q202981"
   },
   {
     "id": 253,
@@ -138,9 +168,12 @@
     "country_code": "AL",
     "latitude": "40.83333000",
     "longitude": "19.91667000",
-    "native": null,
+    "native": "Rrethi i Kuçovës",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q211946"
   },
   {
     "id": 258,
@@ -151,9 +184,12 @@
     "country_code": "AL",
     "latitude": "40.55000000",
     "longitude": "20.26667000",
-    "native": null,
+    "native": "Rrethi i Skraparit",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q194381"
   },
   {
     "id": 157044,
@@ -164,9 +200,12 @@
     "country_code": "AL",
     "latitude": "40.54071390",
     "longitude": "20.10188400",
-    "native": null,
+    "native": "Skrapari",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 12403,
+    "wikiDataId": "Q20850560"
   },
   {
     "id": 273,
@@ -177,8 +216,11 @@
     "country_code": "AL",
     "latitude": "40.76889000",
     "longitude": "19.87778000",
-    "native": null,
+    "native": "Ura Vajgurore",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 7232,
+    "wikiDataId": "Q1524575"
   }
 ]

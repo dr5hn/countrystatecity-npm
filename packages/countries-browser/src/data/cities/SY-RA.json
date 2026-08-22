@@ -8,9 +8,12 @@
     "country_code": "SY",
     "latitude": "35.79843000",
     "longitude": "38.34550000",
-    "native": null,
+    "native": "حي الثورة",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q4703291"
   },
   {
     "id": 104969,
@@ -21,9 +24,12 @@
     "country_code": "SY",
     "latitude": "35.95283000",
     "longitude": "39.00788000",
-    "native": null,
+    "native": "الرقة",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 531952,
+    "wikiDataId": "Q283368"
   },
   {
     "id": 104971,
@@ -34,9 +40,12 @@
     "country_code": "SY",
     "latitude": "35.87204000",
     "longitude": "39.04706000",
-    "native": null,
+    "native": "منطقة الرقة",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q4703126"
   },
   {
     "id": 104981,
@@ -47,9 +56,12 @@
     "country_code": "SY",
     "latitude": "35.83758000",
     "longitude": "38.54828000",
-    "native": null,
+    "native": "الثورة",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 87880,
+    "wikiDataId": "Q1822804"
   },
   {
     "id": 105055,
@@ -60,9 +72,12 @@
     "country_code": "SY",
     "latitude": "36.69648000",
     "longitude": "38.95382000",
-    "native": null,
+    "native": "تل أبيض",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q1896205"
   },
   {
     "id": 105062,
@@ -73,8 +88,11 @@
     "country_code": "SY",
     "latitude": "36.48280000",
     "longitude": "39.21360000",
-    "native": null,
+    "native": "منطقة تل أبيض",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 129714,
+    "wikiDataId": "Q7697373"
   }
 ]

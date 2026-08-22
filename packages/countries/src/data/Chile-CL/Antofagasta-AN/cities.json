@@ -8,9 +8,12 @@
     "country_code": "CL",
     "latitude": "-23.65236000",
     "longitude": "-70.39540000",
-    "native": null,
+    "native": "Antofagasta",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 348517,
+    "wikiDataId": "Q3612"
   },
   {
     "id": 18952,
@@ -21,9 +24,12 @@
     "country_code": "CL",
     "latitude": "-22.45667000",
     "longitude": "-68.92371000",
-    "native": null,
+    "native": "Calama",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 157575,
+    "wikiDataId": "Q3685"
   },
   {
     "id": 148326,
@@ -34,9 +40,12 @@
     "country_code": "CL",
     "latitude": "-22.35000000",
     "longitude": "-69.66666667",
-    "native": null,
+    "native": "María Elena",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6457,
+    "wikiDataId": "Q16923"
   },
   {
     "id": 19033,
@@ -47,9 +56,12 @@
     "country_code": "CL",
     "latitude": "-23.10000000",
     "longitude": "-70.45000000",
-    "native": null,
+    "native": "Mejillones",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 14084,
+    "wikiDataId": "Q16928"
   },
   {
     "id": 19074,
@@ -60,9 +72,12 @@
     "country_code": "CL",
     "latitude": "-21.22496000",
     "longitude": "-68.25352000",
-    "native": null,
+    "native": "Ollagüe",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 199,
+    "wikiDataId": "Q51055"
   },
   {
     "id": 19107,
@@ -73,9 +88,12 @@
     "country_code": "CL",
     "latitude": "-22.91110000",
     "longitude": "-68.20113000",
-    "native": null,
+    "native": "San Pedro de Atacama",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10960,
+    "wikiDataId": "Q187893"
   },
   {
     "id": 19051,
@@ -86,9 +104,12 @@
     "country_code": "CL",
     "latitude": "-22.88333333",
     "longitude": "-69.31666667",
-    "native": null,
+    "native": "Sierra Gorda",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1069,
+    "wikiDataId": "Q188027"
   },
   {
     "id": 19115,
@@ -99,9 +120,12 @@
     "country_code": "CL",
     "latitude": "-25.40713000",
     "longitude": "-70.48554000",
-    "native": null,
+    "native": "Taltal",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 11132,
+    "wikiDataId": "Q188049"
   },
   {
     "id": 19118,
@@ -112,8 +136,11 @@
     "country_code": "CL",
     "latitude": "-22.09198000",
     "longitude": "-70.19792000",
-    "native": null,
+    "native": "Tocopilla",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 25400,
+    "wikiDataId": "Q188192"
   }
 ]

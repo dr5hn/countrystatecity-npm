@@ -8,9 +8,12 @@
     "country_code": "RW",
     "latitude": "-2.15970000",
     "longitude": "30.54270000",
-    "native": null,
+    "native": "Kibungo",
     "timezone": "Africa/Kigali",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 46240,
+    "wikiDataId": "Q992776"
   },
   {
     "id": 102803,
@@ -21,8 +24,11 @@
     "country_code": "RW",
     "latitude": "-1.94870000",
     "longitude": "30.43470000",
-    "native": null,
+    "native": "Rwamagana",
     "timezone": "Africa/Kigali",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 47203,
+    "wikiDataId": "Q246139"
   }
 ]

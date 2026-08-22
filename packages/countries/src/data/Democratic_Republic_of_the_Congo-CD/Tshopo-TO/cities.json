@@ -8,9 +8,12 @@
     "country_code": "CD",
     "latitude": "1.23909000",
     "longitude": "23.61598000",
-    "native": null,
+    "native": "Forêt",
     "timezone": "Africa/Lubumbashi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 76371,
+    "wikiDataId": "Q1101913"
   },
   {
     "id": 17265,
@@ -21,9 +24,12 @@
     "country_code": "CD",
     "latitude": "0.51528000",
     "longitude": "25.19099000",
-    "native": null,
+    "native": "Kisangani",
     "timezone": "Africa/Lubumbashi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 1366000,
+    "wikiDataId": "Q146723"
   },
   {
     "id": 17293,
@@ -34,8 +40,11 @@
     "country_code": "CD",
     "latitude": "0.76755000",
     "longitude": "24.43973000",
-    "native": null,
+    "native": "Yangambi",
     "timezone": "Africa/Lubumbashi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 62082,
+    "wikiDataId": "Q1102132"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.53333000",
     "longitude": "0.08333000",
-    "native": null,
+    "native": "Barking",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 61000,
+    "wikiDataId": "Q377720"
   },
   {
     "id": 48842,
@@ -21,8 +24,11 @@
     "country_code": "GB",
     "latitude": "51.50519000",
     "longitude": "-0.02085000",
-    "native": null,
+    "native": "Canary Wharf",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 73390,
+    "wikiDataId": "Q124377"
   }
 ]

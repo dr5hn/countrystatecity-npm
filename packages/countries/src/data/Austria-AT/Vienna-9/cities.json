@@ -8,9 +8,12 @@
     "country_code": "AT",
     "latitude": "48.23330000",
     "longitude": "16.46002000",
-    "native": null,
+    "native": "Donaustadt",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 220794,
+    "wikiDataId": "Q268058"
   },
   {
     "id": 1963,
@@ -21,9 +24,12 @@
     "country_code": "AT",
     "latitude": "48.16116000",
     "longitude": "16.38233000",
-    "native": null,
+    "native": "Favoriten",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 220324,
+    "wikiDataId": "Q185754"
   },
   {
     "id": 2002,
@@ -34,9 +40,12 @@
     "country_code": "AT",
     "latitude": "48.25000000",
     "longitude": "16.40000000",
-    "native": null,
+    "native": "Floridsdorf",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 162779,
+    "wikiDataId": "Q683666"
   },
   {
     "id": 2272,
@@ -47,9 +56,12 @@
     "country_code": "AT",
     "latitude": "48.23333000",
     "longitude": "16.26667000",
-    "native": null,
+    "native": "Hernalen",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 56671,
+    "wikiDataId": "Q264311"
   },
   {
     "id": 2280,
@@ -60,9 +72,12 @@
     "country_code": "AT",
     "latitude": "48.18623000",
     "longitude": "16.29650000",
-    "native": null,
+    "native": "Hietzing",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 55505,
+    "wikiDataId": "Q700575"
   },
   {
     "id": 2356,
@@ -73,9 +88,12 @@
     "country_code": "AT",
     "latitude": "48.20906000",
     "longitude": "16.37135000",
-    "native": null,
+    "native": "Innere Stadt",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 16538,
+    "wikiDataId": "Q254107"
   },
   {
     "id": 2686,
@@ -86,9 +104,12 @@
     "country_code": "AT",
     "latitude": "48.16667000",
     "longitude": "16.33333000",
-    "native": null,
+    "native": "Meidling",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 101714,
+    "wikiDataId": "Q682193"
   },
   {
     "id": 2909,
@@ -99,9 +120,12 @@
     "country_code": "AT",
     "latitude": "48.21667000",
     "longitude": "16.30000000",
-    "native": null,
+    "native": "Ottakring",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 102770,
+    "wikiDataId": "Q696248"
   },
   {
     "id": 3461,
@@ -112,9 +136,12 @@
     "country_code": "AT",
     "latitude": "48.18333000",
     "longitude": "16.43333000",
-    "native": null,
+    "native": "Köcheln lassen",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 110559,
+    "wikiDataId": "Q687344"
   },
   {
     "id": 3681,
@@ -125,8 +152,11 @@
     "country_code": "AT",
     "latitude": "48.20849000",
     "longitude": "16.37208000",
-    "native": null,
+    "native": "Wien",
     "timezone": "Europe/Vienna",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 1973403,
+    "wikiDataId": "Q1741"
   }
 ]

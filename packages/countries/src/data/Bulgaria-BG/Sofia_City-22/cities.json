@@ -8,9 +8,12 @@
     "country_code": "BG",
     "latitude": "42.76667000",
     "longitude": "23.56667000",
-    "native": null,
+    "native": "Бухово",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3283,
+    "wikiDataId": "Q2597688"
   },
   {
     "id": 9701,
@@ -21,9 +24,12 @@
     "country_code": "BG",
     "latitude": "42.69751000",
     "longitude": "23.32415000",
-    "native": null,
+    "native": "София",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 1205548,
+    "wikiDataId": "Q472"
   },
   {
     "id": 9707,
@@ -34,8 +40,11 @@
     "country_code": "BG",
     "latitude": "42.68647000",
     "longitude": "23.30561000",
-    "native": null,
+    "native": "Столична община",
     "timezone": "Europe/Sofia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q4442915"
   }
 ]

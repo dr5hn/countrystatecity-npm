@@ -8,9 +8,12 @@
     "country_code": "PG",
     "latitude": "-6.20655000",
     "longitude": "149.54744000",
-    "native": null,
+    "native": "Kandrian",
     "timezone": "Pacific/Port_Moresby",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1014,
+    "wikiDataId": "Q4352079"
   },
   {
     "id": 81058,
@@ -21,9 +24,12 @@
     "country_code": "PG",
     "latitude": "-6.08333000",
     "longitude": "149.91667000",
-    "native": null,
+    "native": "Kandrian Goucester",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q4352079"
   },
   {
     "id": 81065,
@@ -34,9 +40,12 @@
     "country_code": "PG",
     "latitude": "-5.55085000",
     "longitude": "150.13766000",
-    "native": null,
+    "native": "Kimbe",
     "timezone": "Pacific/Port_Moresby",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 18847,
+    "wikiDataId": "Q59718"
   },
   {
     "id": 81112,
@@ -47,8 +56,11 @@
     "country_code": "PG",
     "latitude": "-5.66667000",
     "longitude": "149.58333000",
-    "native": null,
+    "native": "Thalassea",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 128792,
+    "wikiDataId": "Q3711507"
   }
 ]

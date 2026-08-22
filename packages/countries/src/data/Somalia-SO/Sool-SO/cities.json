@@ -8,9 +8,12 @@
     "country_code": "SO",
     "latitude": "8.95000000",
     "longitude": "46.41666667",
-    "native": null,
+    "native": "Caynabo",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q4058907"
   },
   {
     "id": 160114,
@@ -21,9 +24,12 @@
     "country_code": "SO",
     "latitude": "9.15416667",
     "longitude": "47.47694444",
-    "native": null,
+    "native": "Xudun",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3388333"
   },
   {
     "id": 160112,
@@ -34,8 +40,11 @@
     "country_code": "SO",
     "latitude": "8.47600000",
     "longitude": "47.35700000",
-    "native": null,
+    "native": "Laascaanood",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 60100,
+    "wikiDataId": "Q1017223"
   }
 ]

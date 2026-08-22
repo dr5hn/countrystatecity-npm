@@ -8,9 +8,12 @@
     "country_code": "PK",
     "latitude": "36.32162000",
     "longitude": "74.69502000",
-    "native": null,
+    "native": "باریشال",
     "timezone": "Asia/Karachi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2005,
+    "wikiDataId": "Q806916"
   },
   {
     "id": 85450,
@@ -21,9 +24,12 @@
     "country_code": "PK",
     "latitude": "35.91869000",
     "longitude": "74.31245000",
-    "native": null,
+    "native": "گلگت",
     "timezone": "Asia/Karachi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 216760,
+    "wikiDataId": "Q609024"
   },
   {
     "id": 85724,
@@ -34,8 +40,11 @@
     "country_code": "PK",
     "latitude": "35.29787000",
     "longitude": "75.63372000",
-    "native": null,
+    "native": "سکردو",
     "timezone": "Asia/Karachi",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 260000,
+    "wikiDataId": "Q976955"
   }
 ]

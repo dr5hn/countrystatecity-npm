@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.47475000",
     "longitude": "-0.15547000",
-    "native": null,
+    "native": "Battersea",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 75651,
+    "wikiDataId": "Q810847"
   },
   {
     "id": 49012,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.49750000",
     "longitude": "-0.13570000",
-    "native": null,
+    "native": "City of Westminster",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 211365,
+    "wikiDataId": "Q23311"
   },
   {
     "id": 50388,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.50853000",
     "longitude": "-0.12574000",
-    "native": null,
+    "native": "London",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 8799728,
+    "wikiDataId": "Q84"
   },
   {
     "id": 51817,
@@ -47,8 +56,11 @@
     "country_code": "GB",
     "latitude": "51.51414000",
     "longitude": "-0.15510000",
-    "native": null,
+    "native": "West End of London",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 10575,
+    "wikiDataId": "Q2528648"
   }
 ]

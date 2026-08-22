@@ -8,9 +8,12 @@
     "country_code": "EG",
     "latitude": "22.34570000",
     "longitude": "31.61624000",
-    "native": null,
+    "native": "أبو سمبل",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 5000,
+    "wikiDataId": "Q6655437"
   },
   {
     "id": 31791,
@@ -21,9 +24,12 @@
     "country_code": "EG",
     "latitude": "24.09082000",
     "longitude": "32.89942000",
-    "native": null,
+    "native": "أسوان",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 351332,
+    "wikiDataId": "Q29888"
   },
   {
     "id": 31819,
@@ -34,9 +40,12 @@
     "country_code": "EG",
     "latitude": "24.97916000",
     "longitude": "32.87722000",
-    "native": null,
+    "native": "إدفو",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 79510,
+    "wikiDataId": "Q239107"
   },
   {
     "id": 31829,
@@ -47,8 +56,11 @@
     "country_code": "EG",
     "latitude": "24.47669000",
     "longitude": "32.94626000",
-    "native": null,
+    "native": "كوم أمبو",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q138833"
   }
 ]

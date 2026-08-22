@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "56.98035000",
     "longitude": "-7.45731000",
-    "native": null,
+    "native": "Barra",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1078,
+    "wikiDataId": "Q4862033"
   },
   {
     "id": 48471,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "57.44737000",
     "longitude": "-7.34273000",
-    "native": null,
+    "native": "Benbecula",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1219,
+    "wikiDataId": "Q2225262"
   },
   {
     "id": 49449,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "57.66667000",
     "longitude": "-7.16667000",
-    "native": null,
+    "native": "Eilean Siar",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q80967"
   },
   {
     "id": 50079,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "58.21901000",
     "longitude": "-6.38803000",
-    "native": null,
+    "native": "Isle of Lewis",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 18500,
+    "wikiDataId": "Q2533408"
   },
   {
     "id": 50080,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "57.60581000",
     "longitude": "-7.34024000",
-    "native": null,
+    "native": "Isle of North Uist",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1271,
+    "wikiDataId": "Q2533408"
   },
   {
     "id": 50081,
@@ -73,9 +88,12 @@
     "country_code": "GB",
     "latitude": "57.24562000",
     "longitude": "-7.33337000",
-    "native": null,
+    "native": "Isle of South Uist",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1818,
+    "wikiDataId": "Q2533408"
   },
   {
     "id": 50967,
@@ -86,9 +104,12 @@
     "country_code": "GB",
     "latitude": "57.41288000",
     "longitude": "-6.19418000",
-    "native": null,
+    "native": "Portrait",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2480,
+    "wikiDataId": "Q1010998"
   },
   {
     "id": 51479,
@@ -99,8 +120,11 @@
     "country_code": "GB",
     "latitude": "58.20925000",
     "longitude": "-6.38649000",
-    "native": null,
+    "native": "Stornow",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 7500,
+    "wikiDataId": "Q165845"
   }
 ]

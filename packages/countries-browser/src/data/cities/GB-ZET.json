@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "60.15313570",
     "longitude": "-1.14272960",
-    "native": null,
+    "native": "Lerwick",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 6880,
+    "wikiDataId": "Q213485"
   },
   {
     "id": 51209,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "60.13713740",
     "longitude": "-1.27527100",
-    "native": null,
+    "native": "Scalloway",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1240,
+    "wikiDataId": "Q1014090"
   },
   {
     "id": 51274,
@@ -34,8 +40,11 @@
     "country_code": "GB",
     "latitude": "60.33333300",
     "longitude": "-1.33333300",
-    "native": null,
+    "native": "Shetland Islands",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 22920,
+    "wikiDataId": "Q47134"
   }
 ]

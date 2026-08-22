@@ -8,9 +8,12 @@
     "country_code": "LT",
     "latitude": "55.41387000",
     "longitude": "22.60894000",
-    "native": null,
+    "native": "Būgai",
     "timezone": "Europe/Vilnius",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1976,
+    "wikiDataId": "Q763504"
   },
   {
     "id": 66609,
@@ -21,9 +24,12 @@
     "country_code": "LT",
     "latitude": "55.10859000",
     "longitude": "22.79885000",
-    "native": null,
+    "native": "Jurbarkas",
     "timezone": "Europe/Vilnius",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10571,
+    "wikiDataId": "Q2089815"
   },
   {
     "id": 66648,
@@ -34,9 +40,12 @@
     "country_code": "LT",
     "latitude": "55.13400000",
     "longitude": "21.90446000",
-    "native": null,
+    "native": "Pagėgiai",
     "timezone": "Europe/Vilnius",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1537,
+    "wikiDataId": "Q2283574"
   },
   {
     "id": 66715,
@@ -47,9 +56,12 @@
     "country_code": "LT",
     "latitude": "55.46667000",
     "longitude": "22.20000000",
-    "native": null,
+    "native": "Šilalė",
     "timezone": "Europe/Vilnius",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 4699,
+    "wikiDataId": "Q1417346"
   },
   {
     "id": 66683,
@@ -60,8 +72,11 @@
     "country_code": "LT",
     "latitude": "55.25222000",
     "longitude": "22.28972000",
-    "native": null,
+    "native": "Tauražas",
     "timezone": "Europe/Vilnius",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 21416,
+    "wikiDataId": "Q193787"
   }
 ]

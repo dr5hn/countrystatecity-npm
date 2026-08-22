@@ -8,9 +8,12 @@
     "country_code": "KE",
     "latitude": "-1.17139000",
     "longitude": "36.83556000",
-    "native": null,
+    "native": "Kiambu",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 147870,
+    "wikiDataId": "Q3242959"
   },
   {
     "id": 64805,
@@ -21,9 +24,12 @@
     "country_code": "KE",
     "latitude": "-1.24627000",
     "longitude": "36.66291000",
-    "native": null,
+    "native": "Kikuyu",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 323881,
+    "wikiDataId": "Q1026079"
   },
   {
     "id": 64817,
@@ -34,9 +40,12 @@
     "country_code": "KE",
     "latitude": "-1.11360000",
     "longitude": "36.64205000",
-    "native": null,
+    "native": "Limuro",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 159314,
+    "wikiDataId": "Q1825607"
   },
   {
     "id": 64874,
@@ -47,8 +56,11 @@
     "country_code": "KE",
     "latitude": "-1.03326000",
     "longitude": "37.06933000",
-    "native": null,
+    "native": "Thika",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 251407,
+    "wikiDataId": "Q589616"
   }
 ]

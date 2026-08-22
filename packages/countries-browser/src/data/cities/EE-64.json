@@ -8,9 +8,12 @@
     "country_code": "EE",
     "latitude": "57.98306000",
     "longitude": "26.75639000",
-    "native": null,
+    "native": "Kanepi",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 516,
+    "wikiDataId": "Q3472643"
   },
   {
     "id": 31624,
@@ -21,9 +24,12 @@
     "country_code": "EE",
     "latitude": "57.98058000",
     "longitude": "26.76151000",
-    "native": null,
+    "native": "Kanepi vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2307788"
   },
   {
     "id": 31685,
@@ -34,9 +40,12 @@
     "country_code": "EE",
     "latitude": "58.06028000",
     "longitude": "27.06944000",
-    "native": null,
+    "native": "Põlva",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 5498,
+    "wikiDataId": "Q45100"
   },
   {
     "id": 31686,
@@ -47,9 +56,12 @@
     "country_code": "EE",
     "latitude": "58.08368000",
     "longitude": "26.98242000",
-    "native": null,
+    "native": "Põlva vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1445105"
   },
   {
     "id": 31699,
@@ -60,9 +72,12 @@
     "country_code": "EE",
     "latitude": "58.09806000",
     "longitude": "27.46361000",
-    "native": null,
+    "native": "Räpina",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 2126,
+    "wikiDataId": "Q1483558"
   },
   {
     "id": 31700,
@@ -73,8 +88,11 @@
     "country_code": "EE",
     "latitude": "58.10777000",
     "longitude": "27.38580000",
-    "native": null,
+    "native": "Räpina vald",
     "timezone": "Europe/Tallinn",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q595935"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.60528000",
     "longitude": "16.24056000",
-    "native": null,
+    "native": "Beltinci",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 2430,
+    "wikiDataId": "Q855820"
   },
   {
     "id": 104104,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.63250000",
     "longitude": "16.25111000",
-    "native": null,
+    "native": "Gančani",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 978,
+    "wikiDataId": "Q519824"
   },
   {
     "id": 104166,
@@ -34,9 +40,12 @@
     "country_code": "SI",
     "latitude": "46.62833000",
     "longitude": "16.22806000",
-    "native": null,
+    "native": "Lipovci",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1030,
+    "wikiDataId": "Q907800"
   },
   {
     "id": 104331,
@@ -47,8 +56,11 @@
     "country_code": "SI",
     "latitude": "46.37962000",
     "longitude": "14.06937000",
-    "native": null,
+    "native": "Zgornje Gorje",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 444,
+    "wikiDataId": "Q2381766"
   }
 ]

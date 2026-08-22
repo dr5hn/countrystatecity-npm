@@ -8,9 +8,12 @@
     "country_code": "TR",
     "latitude": "37.24806000",
     "longitude": "43.61361000",
-    "native": null,
+    "native": "Çukurca",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 8843,
+    "wikiDataId": "Q2868524"
   },
   {
     "id": 153355,
@@ -21,9 +24,12 @@
     "country_code": "TR",
     "latitude": "37.07242300",
     "longitude": "44.32434800",
-    "native": null,
+    "native": "Derecik",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 57,
+    "wikiDataId": "Q1199986"
   },
   {
     "id": 107774,
@@ -34,9 +40,12 @@
     "country_code": "TR",
     "latitude": "37.57444000",
     "longitude": "43.74083000",
-    "native": null,
+    "native": "Merkez",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 77699,
+    "wikiDataId": "Q206895"
   },
   {
     "id": 108948,
@@ -47,9 +56,12 @@
     "country_code": "TR",
     "latitude": "37.30514000",
     "longitude": "44.57420000",
-    "native": null,
+    "native": "Şemdinli",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 18978,
+    "wikiDataId": "Q16961654"
   },
   {
     "id": 108744,
@@ -60,8 +72,11 @@
     "country_code": "TR",
     "latitude": "37.54627000",
     "longitude": "44.25827000",
-    "native": null,
+    "native": "Yüksekova",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 119760,
+    "wikiDataId": "Q2176882"
   }
 ]

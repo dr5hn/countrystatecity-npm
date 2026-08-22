@@ -8,9 +8,12 @@
     "country_code": "LR",
     "latitude": "7.30222000",
     "longitude": "-8.53083000",
-    "native": null,
+    "native": "Giant",
     "timezone": "Africa/Monrovia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 13802,
+    "wikiDataId": "Q598740"
   },
   {
     "id": 66558,
@@ -21,9 +24,12 @@
     "country_code": "LR",
     "latitude": "7.57944000",
     "longitude": "-8.53778000",
-    "native": null,
+    "native": "New Yekepa",
     "timezone": "Africa/Monrovia",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 24695,
+    "wikiDataId": "Q3179587"
   },
   {
     "id": 66560,
@@ -34,8 +40,11 @@
     "country_code": "LR",
     "latitude": "7.36215000",
     "longitude": "-8.71326000",
-    "native": null,
+    "native": "Sanniquellie",
     "timezone": "Africa/Monrovia",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 17895,
+    "wikiDataId": "Q1968465"
   }
 ]

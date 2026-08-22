@@ -8,9 +8,12 @@
     "country_code": "AL",
     "latitude": "42.35734000",
     "longitude": "20.07679000",
-    "native": null,
+    "native": "Bajram Curri",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 4113,
+    "wikiDataId": "Q18705"
   },
   {
     "id": 215,
@@ -21,9 +24,12 @@
     "country_code": "AL",
     "latitude": "42.19694000",
     "longitude": "20.41333000",
-    "native": null,
+    "native": "Krumë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 6006,
+    "wikiDataId": "Q958899"
   },
   {
     "id": 217,
@@ -34,9 +40,12 @@
     "country_code": "AL",
     "latitude": "42.07694000",
     "longitude": "20.42194000",
-    "native": null,
+    "native": "Kukës",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 36125,
+    "wikiDataId": "Q210197"
   },
   {
     "id": 247,
@@ -47,9 +56,12 @@
     "country_code": "AL",
     "latitude": "42.16667000",
     "longitude": "20.33333000",
-    "native": null,
+    "native": "Rrethi i Hasit",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q207007"
   },
   {
     "id": 251,
@@ -60,9 +72,12 @@
     "country_code": "AL",
     "latitude": "42.00000000",
     "longitude": "20.33333000",
-    "native": null,
+    "native": "Rrethi i Kukësit",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q123395"
   },
   {
     "id": 157056,
@@ -73,8 +88,11 @@
     "country_code": "AL",
     "latitude": "42.37624000",
     "longitude": "19.74539290",
-    "native": null,
+    "native": "Tropojë",
     "timezone": "Europe/Tirane",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q16350050"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "IS",
     "latitude": "65.72159000",
     "longitude": "-17.37352000",
-    "native": null,
+    "native": "Laugar",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1001,
+    "wikiDataId": "Q1713264"
   },
   {
     "id": 135217,
@@ -21,9 +24,12 @@
     "country_code": "IS",
     "latitude": "65.17177000",
     "longitude": "-16.77890000",
-    "native": null,
+    "native": "Skútustaðahreppur",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2140997"
   },
   {
     "id": 135233,
@@ -34,8 +40,11 @@
     "country_code": "IS",
     "latitude": "65.37229000",
     "longitude": "-17.59927000",
-    "native": null,
+    "native": "Þingeyjarsveit",
     "timezone": "Atlantic/Reykjavik",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1453,
+    "wikiDataId": "Q335325"
   }
 ]

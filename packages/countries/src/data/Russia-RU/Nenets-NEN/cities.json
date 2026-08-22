@@ -8,9 +8,12 @@
     "country_code": "RU",
     "latitude": "67.68026000",
     "longitude": "53.15117000",
-    "native": null,
+    "native": "Искателей",
     "timezone": "Europe/Moscow",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6545,
+    "wikiDataId": "Q1432735"
   },
   {
     "id": 100057,
@@ -21,8 +24,11 @@
     "country_code": "RU",
     "latitude": "67.63869000",
     "longitude": "53.00371000",
-    "native": null,
+    "native": "Нарьян-Мар",
     "timezone": "Europe/Moscow",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 18041,
+    "wikiDataId": "Q2174"
   }
 ]

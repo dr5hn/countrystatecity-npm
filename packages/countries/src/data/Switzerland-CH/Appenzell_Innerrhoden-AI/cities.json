@@ -8,9 +8,12 @@
     "country_code": "CH",
     "latitude": "47.33103000",
     "longitude": "9.40996000",
-    "native": null,
+    "native": "Appenzell",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 5792,
+    "wikiDataId": "Q209270"
   },
   {
     "id": 17852,
@@ -21,9 +24,12 @@
     "country_code": "CH",
     "latitude": "47.32725000",
     "longitude": "9.34705000",
-    "native": null,
+    "native": "Gonten",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1462,
+    "wikiDataId": "Q22366733"
   },
   {
     "id": 17894,
@@ -34,9 +40,12 @@
     "country_code": "CH",
     "latitude": "47.36931000",
     "longitude": "9.36752000",
-    "native": null,
+    "native": "Haslen",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 638,
+    "wikiDataId": "Q22601809"
   },
   {
     "id": 18245,
@@ -47,8 +56,11 @@
     "country_code": "CH",
     "latitude": "47.42531000",
     "longitude": "9.55134000",
-    "native": null,
+    "native": "Oberegg",
     "timezone": "Europe/Zurich",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1916,
+    "wikiDataId": "Q22419904"
   }
 ]

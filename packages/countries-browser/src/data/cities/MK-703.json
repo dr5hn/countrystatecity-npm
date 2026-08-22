@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "42.14167000",
     "longitude": "21.69639000",
-    "native": null,
+    "native": "Бедиње",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 2256,
+    "wikiDataId": "Q2929743"
   },
   {
     "id": 67465,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "42.13222000",
     "longitude": "21.71444000",
-    "native": null,
+    "native": "Куманово",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 75051,
+    "wikiDataId": "Q54452"
   },
   {
     "id": 67516,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "42.09472000",
     "longitude": "21.69306000",
-    "native": null,
+    "native": "Романовци",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2492,
+    "wikiDataId": "Q3071683"
   }
 ]

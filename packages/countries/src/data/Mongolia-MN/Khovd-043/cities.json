@@ -8,9 +8,12 @@
     "country_code": "MN",
     "latitude": "48.00556000",
     "longitude": "91.64194000",
-    "native": null,
+    "native": "Ховд",
     "timezone": "Asia/Hovd",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 26023,
+    "wikiDataId": "Q731256"
   },
   {
     "id": 67728,
@@ -21,9 +24,12 @@
     "country_code": "MN",
     "latitude": "46.67712000",
     "longitude": "92.78521000",
-    "native": null,
+    "native": "Möst",
     "timezone": "Asia/Choibalsan",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3289,
+    "wikiDataId": "Q10950043"
   },
   {
     "id": 67741,
@@ -34,8 +40,11 @@
     "country_code": "MN",
     "latitude": "46.04786000",
     "longitude": "92.02612000",
-    "native": null,
+    "native": "Өөнч",
     "timezone": "Asia/Choibalsan",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3404181"
   }
 ]

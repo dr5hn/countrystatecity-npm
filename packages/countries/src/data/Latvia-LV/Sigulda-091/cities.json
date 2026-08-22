@@ -8,9 +8,12 @@
     "country_code": "LV",
     "latitude": "57.09867000",
     "longitude": "24.68630000",
-    "native": null,
+    "native": "Inčukalns",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2179,
+    "wikiDataId": "Q987170"
   },
   {
     "id": 66929,
@@ -21,9 +24,12 @@
     "country_code": "LV",
     "latitude": "57.01010000",
     "longitude": "24.95783000",
-    "native": null,
+    "native": "Mālpils",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1807,
+    "wikiDataId": "Q1023743"
   },
   {
     "id": 66961,
@@ -34,8 +40,11 @@
     "country_code": "LV",
     "latitude": "57.15375000",
     "longitude": "24.85953000",
-    "native": null,
+    "native": "Sigulda",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 14757,
+    "wikiDataId": "Q465698"
   }
 ]

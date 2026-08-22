@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "54.49148000",
     "longitude": "-1.13623000",
-    "native": null,
+    "native": "Great Ayton",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4454,
+    "wikiDataId": "Q1616712"
   },
   {
     "id": 50571,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "54.57623000",
     "longitude": "-1.23483000",
-    "native": null,
+    "native": "Middlesbrough",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 140545,
+    "wikiDataId": "Q171866"
   },
   {
     "id": 51471,
@@ -34,8 +40,11 @@
     "country_code": "GB",
     "latitude": "54.46998000",
     "longitude": "-1.19330000",
-    "native": null,
+    "native": "Stokesley",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4906,
+    "wikiDataId": "Q597894"
   }
 ]

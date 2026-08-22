@@ -8,9 +8,12 @@
     "country_code": "EC",
     "latitude": "0.62279000",
     "longitude": "-77.94003000",
-    "native": null,
+    "native": "El Ángel",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 3983,
+    "wikiDataId": "Q19017191"
   },
   {
     "id": 31567,
@@ -21,9 +24,12 @@
     "country_code": "EC",
     "latitude": "0.59318000",
     "longitude": "-77.83078000",
-    "native": null,
+    "native": "San Gabriel",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 14497,
+    "wikiDataId": "Q4405656"
   },
   {
     "id": 31583,
@@ -34,8 +40,11 @@
     "country_code": "EC",
     "latitude": "0.81187000",
     "longitude": "-77.71727000",
-    "native": null,
+    "native": "Tulcán",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 86498,
+    "wikiDataId": "Q752113"
   }
 ]

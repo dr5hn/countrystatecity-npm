@@ -8,9 +8,12 @@
     "country_code": "TH",
     "latitude": "14.26799000",
     "longitude": "101.06445000",
-    "native": null,
+    "native": "อำเภอบ้านนา",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475137"
   },
   {
     "id": 105553,
@@ -21,9 +24,12 @@
     "country_code": "TH",
     "latitude": "14.27730000",
     "longitude": "101.23379000",
-    "native": null,
+    "native": "อำเภอเมืองนครนายก",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q3278215"
   },
   {
     "id": 106580,
@@ -34,9 +40,12 @@
     "country_code": "TH",
     "latitude": "14.20463000",
     "longitude": "101.21295000",
-    "native": null,
+    "native": "นครนายก",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 21309,
+    "wikiDataId": "Q595853"
   },
   {
     "id": 105691,
@@ -47,9 +56,12 @@
     "country_code": "TH",
     "latitude": "14.07554000",
     "longitude": "101.00891000",
-    "native": null,
+    "native": "อำเภอองครักษ์",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 0,
+    "wikiDataId": "Q164063"
   },
   {
     "id": 105706,
@@ -60,8 +72,11 @@
     "country_code": "TH",
     "latitude": "14.22499000",
     "longitude": "101.34482000",
-    "native": null,
+    "native": "อำเภอปากพลี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 9304,
+    "wikiDataId": "Q476336"
   }
 ]

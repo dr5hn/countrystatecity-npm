@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.46593000",
     "longitude": "-0.10652000",
-    "native": null,
+    "native": "Brixton",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 66300,
+    "wikiDataId": "Q921326"
   },
   {
     "id": 48708,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.45213000",
     "longitude": "-0.12300000",
-    "native": null,
+    "native": "Brixton Hill",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 12458,
+    "wikiDataId": "Q921326"
   },
   {
     "id": 50866,
@@ -34,8 +40,11 @@
     "country_code": "GB",
     "latitude": "51.47403000",
     "longitude": "-0.06969000",
-    "native": null,
+    "native": "Peckham",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 71552,
+    "wikiDataId": "Q7158452"
   }
 ]

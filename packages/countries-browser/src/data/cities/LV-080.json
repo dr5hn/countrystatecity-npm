@@ -8,9 +8,12 @@
     "country_code": "LV",
     "latitude": "57.04486000",
     "longitude": "24.41951000",
-    "native": null,
+    "native": "Garkalne",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q1006622"
   },
   {
     "id": 66950,
@@ -21,9 +24,12 @@
     "country_code": "LV",
     "latitude": "56.97470000",
     "longitude": "24.63295000",
-    "native": null,
+    "native": "Ropaži",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1681,
+    "wikiDataId": "Q120761"
   },
   {
     "id": 66974,
@@ -34,9 +40,12 @@
     "country_code": "LV",
     "latitude": "56.93630000",
     "longitude": "24.30387000",
-    "native": null,
+    "native": "Ulbroka",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 5893,
+    "wikiDataId": "Q1027029"
   },
   {
     "id": 66979,
@@ -47,8 +56,11 @@
     "country_code": "LV",
     "latitude": "57.09358000",
     "longitude": "24.54468000",
-    "native": null,
+    "native": "Vangaži",
     "timezone": "Europe/Riga",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3168,
+    "wikiDataId": "Q849832"
   }
 ]

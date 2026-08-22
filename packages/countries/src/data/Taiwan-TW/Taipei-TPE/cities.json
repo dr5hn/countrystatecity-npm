@@ -8,9 +8,12 @@
     "country_code": "TW",
     "latitude": "25.01427000",
     "longitude": "121.46719000",
-    "native": null,
+    "native": "板桥",
     "timezone": "Asia/Taipei",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 550256,
+    "wikiDataId": "Q3394651"
   },
   {
     "id": 109015,
@@ -21,9 +24,12 @@
     "country_code": "TW",
     "latitude": "25.10957000",
     "longitude": "121.84424000",
-    "native": null,
+    "native": "九份",
     "timezone": "Asia/Taipei",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3100,
+    "wikiDataId": "Q31093"
   },
   {
     "id": 109031,
@@ -34,8 +40,11 @@
     "country_code": "TW",
     "latitude": "25.04776000",
     "longitude": "121.53185000",
-    "native": null,
+    "native": "台北",
     "timezone": "Asia/Taipei",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 2442991,
+    "wikiDataId": "Q1867"
   }
 ]

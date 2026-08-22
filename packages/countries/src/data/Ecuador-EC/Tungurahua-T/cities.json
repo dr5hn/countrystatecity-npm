@@ -8,9 +8,12 @@
     "country_code": "EC",
     "latitude": "-1.24908000",
     "longitude": "-78.61675000",
-    "native": null,
+    "native": "Pista",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 387309,
+    "wikiDataId": "Q210161"
   },
   {
     "id": 31489,
@@ -21,9 +24,12 @@
     "country_code": "EC",
     "latitude": "-1.39699000",
     "longitude": "-78.42289000",
-    "native": null,
+    "native": "Baños",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9501,
+    "wikiDataId": "Q23885609"
   },
   {
     "id": 31545,
@@ -34,9 +40,12 @@
     "country_code": "EC",
     "latitude": "-1.32990000",
     "longitude": "-78.54341000",
-    "native": null,
+    "native": "Cinco doncella",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 16572,
+    "wikiDataId": "Q3773723"
   },
   {
     "id": 31558,
@@ -47,8 +56,11 @@
     "country_code": "EC",
     "latitude": "-1.17414000",
     "longitude": "-78.54676000",
-    "native": null,
+    "native": "Pilaro",
     "timezone": "America/Guayaquil",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7462,
+    "wikiDataId": "Q8215260"
   }
 ]

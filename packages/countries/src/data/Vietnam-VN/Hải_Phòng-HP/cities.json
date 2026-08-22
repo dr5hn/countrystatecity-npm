@@ -8,9 +8,12 @@
     "country_code": "VN",
     "latitude": "20.72779000",
     "longitude": "107.04819000",
-    "native": null,
+    "native": "Cát Bà",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 30000,
+    "wikiDataId": "Q25262"
   },
   {
     "id": 130562,
@@ -21,9 +24,12 @@
     "country_code": "VN",
     "latitude": "20.94099000",
     "longitude": "106.33302000",
-    "native": null,
+    "native": "Hải Dương",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 241373,
+    "wikiDataId": "Q36354"
   },
   {
     "id": 130200,
@@ -34,9 +40,12 @@
     "country_code": "VN",
     "latitude": "20.86481000",
     "longitude": "106.68345000",
-    "native": null,
+    "native": "Haiphong",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 2625200,
+    "wikiDataId": "Q3277075"
   },
   {
     "id": 130221,
@@ -47,9 +56,12 @@
     "country_code": "VN",
     "latitude": "20.87586000",
     "longitude": "106.19138000",
-    "native": null,
+    "native": "Huyện Bình Giang",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031078"
   },
   {
     "id": 130274,
@@ -60,9 +72,12 @@
     "country_code": "VN",
     "latitude": "20.95000000",
     "longitude": "106.21667000",
-    "native": null,
+    "native": "Huyện Cẩm Giàng",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031197"
   },
   {
     "id": 130286,
@@ -73,9 +88,12 @@
     "country_code": "VN",
     "latitude": "20.85164000",
     "longitude": "106.29130000",
-    "native": null,
+    "native": "Huyện Gia Lộc",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031261"
   },
   {
     "id": 130329,
@@ -86,9 +104,12 @@
     "country_code": "VN",
     "latitude": "21.01634000",
     "longitude": "106.50384000",
-    "native": null,
+    "native": "Huyện Kinh Môn",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031344"
   },
   {
     "id": 130376,
@@ -99,9 +120,12 @@
     "country_code": "VN",
     "latitude": "21.00484000",
     "longitude": "106.34042000",
-    "native": null,
+    "native": "Huyện Nam Sách",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031601"
   },
   {
     "id": 130438,
@@ -112,9 +136,12 @@
     "country_code": "VN",
     "latitude": "20.77953000",
     "longitude": "106.22218000",
-    "native": null,
+    "native": "Huyện Thanh Miện",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3031911"
   },
   {
     "id": 130609,
@@ -125,8 +152,11 @@
     "country_code": "VN",
     "latitude": "21.13722000",
     "longitude": "106.39638000",
-    "native": null,
+    "native": "Thị Xã Chí Linh",
     "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3031171"
   }
 ]

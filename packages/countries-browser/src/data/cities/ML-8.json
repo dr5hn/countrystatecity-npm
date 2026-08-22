@@ -8,9 +8,12 @@
     "country_code": "ML",
     "latitude": "19.11667000",
     "longitude": "1.75000000",
-    "native": null,
+    "native": "Abeïbara",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q1813226"
   },
   {
     "id": 67595,
@@ -21,9 +24,12 @@
     "country_code": "ML",
     "latitude": "19.48878000",
     "longitude": "2.20025000",
-    "native": null,
+    "native": "Cercle d’Abeïbara",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q319858"
   },
   {
     "id": 67609,
@@ -34,8 +40,11 @@
     "country_code": "ML",
     "latitude": "18.44111000",
     "longitude": "1.40778000",
-    "native": null,
+    "native": "Gauche -",
     "timezone": "Africa/Bamako",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 40030,
+    "wikiDataId": "Q650100"
   }
 ]

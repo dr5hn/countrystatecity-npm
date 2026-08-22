@@ -4,5 +4,14 @@ dist
 coverage
 *.tsbuildinfo
 .DS_Store
+
+# Orphaned staged-write directories from an interrupted/crashed generate-data
+# run (see scripts/lib/staged-write.cjs) — never meant to be committed.
+*.staging-*
+*.bak-*
 data/source.json
+data/source.enriched.json
+data/cities-full.json
+data/translations.csv
+data/release.json
 data/postcodes-source.json

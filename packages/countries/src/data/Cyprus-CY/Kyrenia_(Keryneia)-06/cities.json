@@ -8,9 +8,12 @@
     "country_code": "CY",
     "latitude": "35.33634000",
     "longitude": "33.31729000",
-    "native": null,
+    "native": "Κερύνεια",
     "timezone": "Asia/Famagusta",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 33207,
+    "wikiDataId": "Q206760"
   },
   {
     "id": 22046,
@@ -21,9 +24,12 @@
     "country_code": "CY",
     "latitude": "35.33672000",
     "longitude": "33.31504000",
-    "native": null,
+    "native": "Δήμος Κερύνειας",
     "timezone": "Asia/Famagusta",
-    "translations": {}
+    "translations": {},
+    "type": "municipality",
+    "population": 26701,
+    "wikiDataId": "Q56241597"
   },
   {
     "id": 22059,
@@ -34,8 +40,11 @@
     "country_code": "CY",
     "latitude": "35.33823000",
     "longitude": "33.17368000",
-    "native": null,
+    "native": "Λάπηθος",
     "timezone": "Asia/Famagusta",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 5215,
+    "wikiDataId": "Q6710344"
   }
 ]

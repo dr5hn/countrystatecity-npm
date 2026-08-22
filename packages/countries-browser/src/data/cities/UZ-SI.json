@@ -8,9 +8,12 @@
     "country_code": "UZ",
     "latitude": "40.48972000",
     "longitude": "68.78417000",
-    "native": null,
+    "native": "Guliston",
     "timezone": "Asia/Samarkand",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 55600,
+    "wikiDataId": "Q609649"
   },
   {
     "id": 130003,
@@ -21,9 +24,12 @@
     "country_code": "UZ",
     "latitude": "40.84361000",
     "longitude": "68.66167000",
-    "native": null,
+    "native": "Sirdaryo",
     "timezone": "Asia/Tashkent",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 23501,
+    "wikiDataId": "Q500666"
   },
   {
     "id": 130023,
@@ -34,8 +40,11 @@
     "country_code": "UZ",
     "latitude": "40.27500000",
     "longitude": "68.82250000",
-    "native": null,
+    "native": "Yangiyer",
     "timezone": "Asia/Tashkent",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 44200,
+    "wikiDataId": "Q1658420"
   }
 ]

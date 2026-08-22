@@ -8,9 +8,12 @@
     "country_code": "ID",
     "latitude": "-5.96849850",
     "longitude": "105.92142320",
-    "native": null,
+    "native": "Kota Cilegon",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q10124"
   },
   {
     "id": 56969,
@@ -21,9 +24,12 @@
     "country_code": "ID",
     "latitude": "-6.11528000",
     "longitude": "106.15417000",
-    "native": null,
+    "native": "Kota Serang",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 692101,
+    "wikiDataId": "Q10126"
   },
   {
     "id": 57014,
@@ -34,9 +40,12 @@
     "country_code": "ID",
     "latitude": "-6.17806000",
     "longitude": "106.63000000",
-    "native": null,
+    "native": "Kota Tangerang",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1912679,
+    "wikiDataId": "Q10127"
   },
   {
     "id": 56996,
@@ -47,9 +56,12 @@
     "country_code": "ID",
     "latitude": "-6.28862000",
     "longitude": "106.71789000",
-    "native": null,
+    "native": "Kota Tangerang Selatan",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1404785,
+    "wikiDataId": "Q10128"
   },
   {
     "id": 56491,
@@ -60,9 +72,12 @@
     "country_code": "ID",
     "latitude": "-6.65000000",
     "longitude": "106.21667000",
-    "native": null,
+    "native": "Kabupaten Lebak",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "regency",
+    "population": 0,
+    "wikiDataId": "Q10119"
   },
   {
     "id": 56574,
@@ -73,9 +88,12 @@
     "country_code": "ID",
     "latitude": "-6.63333000",
     "longitude": "105.75000000",
-    "native": null,
+    "native": "Kabupaten Pandeglang",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "regency",
+    "population": 0,
+    "wikiDataId": "Q10121"
   },
   {
     "id": 56623,
@@ -86,9 +104,12 @@
     "country_code": "ID",
     "latitude": "-6.15000000",
     "longitude": "106.00000000",
-    "native": null,
+    "native": "Kabupaten Serang",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "regency",
+    "population": null,
+    "wikiDataId": "Q10122"
   },
   {
     "id": 56666,
@@ -99,8 +120,11 @@
     "country_code": "ID",
     "latitude": "-6.20000000",
     "longitude": "106.46667000",
-    "native": null,
+    "native": "Kabupaten Tangerang",
     "timezone": "Asia/Jakarta",
-    "translations": {}
+    "translations": {},
+    "type": "regency",
+    "population": null,
+    "wikiDataId": "Q10123"
   }
 ]
