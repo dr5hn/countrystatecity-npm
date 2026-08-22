@@ -170,7 +170,6 @@ async function main() {
   // data-manifest.json exists — that's written last, once generation
   // succeeds) ──────────────────────────────────────────────────────────────
   console.log('🏷️  Computing data version...');
-  const release = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf-8'));
   const dataVersion = buildDataVersion({ release, counts: validation.counts });
   const tmpVersionFile = `${VERSION_FILE}.tmp-${process.pid}`;
   fs.writeFileSync(tmpVersionFile, JSON.stringify(dataVersion, null, 2) + '\n');
