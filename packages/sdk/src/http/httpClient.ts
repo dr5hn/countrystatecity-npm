@@ -19,6 +19,40 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/**
+ * Headers the SDK owns outright. HTTP header names are case-insensitive, so
+ * these are compared lowercased: a user-supplied `x-cscapi-key` is a different
+ * JS object key from `X-CSCAPI-KEY` but the same header on the wire, and
+ * letting both through makes fetch join them into `"user-value, real-key"`.
+ */
+const PROTECTED_HEADERS = new Set(['accept', 'x-cscapi-key', 'user-agent']);
+
+/**
+ * Merges user headers, dropping any attempt to set a protected one, then
+ * applies the SDK's own values.
+ *
+ * @param config - Resolved client config supplying the protected values.
+ * @param perCall - Headers passed to this individual request, if any.
+ */
+function buildHeaders(
+  config: ResolvedCSCConfig,
+  perCall: Record<string, string> | undefined,
+): Record<string, string> {
+  const headers: Record<string, string> = {};
+
+  for (const source of [config.headers, perCall]) {
+    for (const [name, value] of Object.entries(source ?? {})) {
+      if (PROTECTED_HEADERS.has(name.toLowerCase())) continue;
+      headers[name] = value;
+    }
+  }
+
+  headers.Accept = 'application/json';
+  headers['X-CSCAPI-KEY'] = config.apiKey;
+  headers['User-Agent'] = config.userAgent;
+  return headers;
+}
+
 async function safeJson(response: Response): Promise<unknown> {
   const text = await response.text();
   if (!text) return undefined;
@@ -46,6 +80,7 @@ export class HttpClient {
     const url = buildUrl(this.config.baseUrl, segments, query);
     const retryConfig = this.config.retry === false ? { retries: 0, baseDelayMs: 0, maxDelayMs: 0 } : this.config.retry;
     const timeout = opts.timeout ?? this.config.timeout;
+    const headers = buildHeaders(this.config, opts.headers);
 
     let attempt = 0;
     for (;;) {
@@ -58,15 +93,7 @@ export class HttpClient {
         response = await this.config.fetchImpl(url, {
           method: 'GET',
           signal: combined.signal,
-          headers: {
-            // User-supplied headers are applied first so the protected ones
-            // below always win, per the "cannot override X-CSCAPI-KEY/Accept" contract.
-            ...this.config.headers,
-            ...opts.headers,
-            Accept: 'application/json',
-            'X-CSCAPI-KEY': this.config.apiKey,
-            'User-Agent': this.config.userAgent,
-          },
+          headers,
         });
       } catch (err) {
         clearTimeout(timeoutId);

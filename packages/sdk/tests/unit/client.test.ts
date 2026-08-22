@@ -28,6 +28,33 @@ describe('createCSCClient', () => {
     expect(() => createCSCClient({})).toThrow(ValidationError);
   });
 
+  it('throws ValidationError when baseUrl is not an absolute URL', () => {
+    stubFetchOk();
+    // Otherwise this surfaces as a bare TypeError from new URL() on the first
+    // request, long after the misconfiguration.
+    expect(() => createCSCClient({ apiKey: 'k', baseUrl: 'api.countrystatecity.in/v1' })).toThrow(ValidationError);
+    expect(() => createCSCClient({ apiKey: 'k', baseUrl: '' })).toThrow(ValidationError);
+  });
+
+  it('calls the global fetch with the global as its receiver', async () => {
+    // Browsers implement fetch as a WebIDL operation that rejects a foreign
+    // `this` with "Illegal invocation"; storing the bare reference on the
+    // config object and calling it as config.fetchImpl(...) triggers exactly
+    // that. Node does not enforce it, so assert the receiver directly.
+    const receivers: unknown[] = [];
+    const fetchMock = vi.fn(function (this: unknown) {
+      receivers.push(this);
+      return Promise.resolve(new Response(JSON.stringify([]), { status: 200 }));
+    });
+    vi.stubGlobal('fetch', fetchMock);
+
+    const csc = createCSCClient({ apiKey: 'k' });
+    await csc.countries.list();
+
+    expect(receivers).toHaveLength(1);
+    expect(receivers[0] === globalThis || receivers[0] === undefined).toBe(true);
+  });
+
   it('uses the default base URL and a versioned default User-Agent', async () => {
     const fetchMock = stubFetchOk();
     const csc = createCSCClient({ apiKey: 'k' });

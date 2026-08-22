@@ -37,11 +37,28 @@ function resolveConfig(options: CSCClientOptions): ResolvedCSCConfig {
 
   const retry = options.retry === false ? false : { ...DEFAULT_RETRY, ...options.retry };
 
+  const baseUrl = options.baseUrl ?? DEFAULT_BASE_URL;
+  try {
+    new URL(baseUrl);
+  } catch {
+    // Caught here so a bad baseUrl fails at construction with a CSCError,
+    // rather than as a bare TypeError from new URL() on the first request.
+    throw new ValidationError(`baseUrl must be an absolute URL, received ${JSON.stringify(baseUrl)}`, {
+      field: 'baseUrl',
+      value: baseUrl,
+      reason: 'invalid_base_url',
+    });
+  }
+
   return {
     apiKey: options.apiKey,
-    baseUrl: options.baseUrl ?? DEFAULT_BASE_URL,
+    baseUrl,
     timeout: options.timeout ?? DEFAULT_TIMEOUT_MS,
-    fetchImpl: options.fetch ?? fetch,
+    // Wrapped rather than passed by reference: browsers' `fetch` is a WebIDL
+    // operation that requires the global as its receiver, and calling it as
+    // `config.fetchImpl(...)` would throw "Illegal invocation". Node's undici
+    // does not enforce this, so only browsers see the difference.
+    fetchImpl: options.fetch ?? ((input, init) => fetch(input, init)),
     headers: options.headers ?? {},
     retry,
     userAgent: options.userAgent ?? `countrystatecity-sdk-js/${SDK_VERSION}`,

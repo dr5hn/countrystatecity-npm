@@ -78,6 +78,40 @@ describe('HttpClient.request — headers', () => {
     expect(captured['X-Custom']).toBe('yes');
     expect(captured['X-Another']).toBe('ok');
   });
+
+  it('drops user headers that differ only in case from a protected one', async () => {
+    // Header names are case-insensitive on the wire, so `x-cscapi-key` and
+    // `X-CSCAPI-KEY` are the same header; fetch would otherwise join both
+    // values into "evil-lowercase, real-key" and send the caller's value first.
+    let captured: Record<string, string> = {};
+    const fetchImpl = vi.fn(async (_url: string, init?: RequestInit) => {
+      captured = init?.headers as Record<string, string>;
+      return new Response('{}', { status: 200 });
+    }) as unknown as typeof fetch;
+
+    const http = new HttpClient(
+      makeConfig({
+        fetchImpl,
+        apiKey: 'real-key',
+        userAgent: 'real-agent/1.0',
+        headers: { 'x-cscapi-key': 'evil-lowercase', accept: 'text/plain' },
+      }),
+    );
+
+    await http.request(['countries'], undefined, { headers: { 'user-agent': 'evil-lowercase' } });
+
+    const names = Object.keys(captured);
+    expect(names.filter((n) => n.toLowerCase() === 'x-cscapi-key')).toEqual(['X-CSCAPI-KEY']);
+    expect(names.filter((n) => n.toLowerCase() === 'accept')).toEqual(['Accept']);
+    expect(names.filter((n) => n.toLowerCase() === 'user-agent')).toEqual(['User-Agent']);
+    expect(captured['X-CSCAPI-KEY']).toBe('real-key');
+
+    // The real proof: what fetch actually puts on the wire.
+    const onWire = new Headers(captured);
+    expect(onWire.get('x-cscapi-key')).toBe('real-key');
+    expect(onWire.get('accept')).toBe('application/json');
+    expect(onWire.get('user-agent')).toBe('real-agent/1.0');
+  });
 });
 
 describe('HttpClient.request — retry behavior', () => {
