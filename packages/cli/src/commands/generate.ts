@@ -1,7 +1,7 @@
 import { Command } from 'commander';
 import chalk from 'chalk';
-import { mkdir, writeFile } from 'fs/promises';
-import { join } from 'path';
+import { access, mkdir, writeFile } from 'fs/promises';
+import { join, dirname } from 'path';
 import { get, type UsageInfo } from '../lib/api.js';
 import { printUsageFooter } from '../lib/usage-footer.js';
 import { createSpinner, type GlobalFlags, type Spinner } from '../lib/output.js';
@@ -15,6 +15,18 @@ import {
   generateStateSeed,
   generateCitySeed,
 } from '../templates/prisma-seed.js';
+import {
+  BROWSER_KEY_WARNING,
+  generateAutocompleteRoute,
+  generateEnvExample,
+  generateAutocompleteComponentNextjs,
+  generateAutocompleteComponentBrowser,
+  generateLocationPickerComponentNextjs,
+  generateLocationPickerComponentBrowser,
+  generateAutocompleteReadme,
+  generateLocationPickerReadme,
+  type GeneratorTarget,
+} from '../templates/location-components.js';
 
 /**
  * Checks tier gating from usage headers after a data fetch.
@@ -39,7 +51,73 @@ function enforceTierGate(usage: UsageInfo | null, spinner: Spinner): void {
 }
 
 /**
- * Registers generate subcommands: dropdown and seed.
+ * Validates a --target value, exiting with an actionable error if invalid.
+ */
+function resolveTarget(target: string): GeneratorTarget {
+  if (target !== 'nextjs' && target !== 'react-browser') {
+    process.stderr.write(chalk.red(`Unknown target: ${target}`) + '\n');
+    process.stderr.write(chalk.dim('Supported targets: nextjs, react-browser') + '\n');
+    process.exit(1);
+  }
+  return target;
+}
+
+/**
+ * Writes a set of generated files (creating parent directories as needed)
+ * and prints a summary. Unlike dropdown/seed, autocomplete/location-picker
+ * generate live components with no data to embed, so there's no API call
+ * (and no usage footer) here — generation works fully offline.
+ */
+async function writeGeneratedFiles(
+  outputDir: string,
+  files: Array<{ path: string; content: string }>,
+  flags: GlobalFlags
+): Promise<void> {
+  const targets = files.map((file) => join(outputDir, file.path));
+  const existing: string[] = [];
+  for (const filepath of targets) {
+    try {
+      await access(filepath);
+      existing.push(filepath);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+        process.stderr.write(chalk.red(`Cannot inspect target file: ${filepath}`) + '\n');
+        process.exit(1);
+      }
+    }
+  }
+  if (existing.length > 0) {
+    process.stderr.write(chalk.red('Refusing to overwrite existing files:') + '\n');
+    for (const filepath of existing) process.stderr.write(chalk.dim(`  ${filepath}`) + '\n');
+    process.exit(1);
+  }
+
+  const written: string[] = [];
+  try {
+    for (const file of files) {
+      const filepath = join(outputDir, file.path);
+      await mkdir(dirname(filepath), { recursive: true });
+      await writeFile(filepath, file.content, { encoding: 'utf-8', flag: 'wx' });
+      written.push(filepath);
+      if (!flags.quiet && !flags.json) {
+        console.log(chalk.green('✓'), chalk.dim(filepath));
+      }
+    }
+  } catch (err) {
+    process.stderr.write(chalk.red('Failed to write generated files.') + '\n');
+    process.stderr.write(chalk.red(String(err)) + '\n');
+    process.exit(1);
+  }
+
+  if (flags.json) {
+    process.stdout.write(JSON.stringify({ files: written }) + '\n');
+  } else if (!flags.quiet) {
+    console.log(chalk.bold(`\nGenerated ${written.length} file(s) in ${outputDir}`));
+  }
+}
+
+/**
+ * Registers generate subcommands: dropdown, seed, autocomplete, location-picker.
  */
 export function registerGenerateCommands(program: Command): void {
   const generate = program.command('generate').description('Generate code from API data');
@@ -247,4 +325,70 @@ export function registerGenerateCommands(program: Command): void {
         printUsageFooter(fetchUsage, flags);
       }
     );
+
+  generate
+    .command('autocomplete')
+    .description('Generate a live location-autocomplete component that calls the API as the user types')
+    .requiredOption('-t, --target <target>', 'Target: nextjs or react-browser')
+    .option('-o, --output <dir>', 'Output directory', process.cwd())
+    .action(async (options: { target: string; output: string }, cmd: Command) => {
+      const globalOpts = cmd.optsWithGlobals();
+      const flags: GlobalFlags = {
+        json: globalOpts.json ?? false,
+        quiet: globalOpts.quiet ?? false,
+        noFooter: globalOpts.footer === false,
+      };
+
+      const target = resolveTarget(options.target);
+
+      if (target === 'react-browser' && !flags.quiet && !flags.json) {
+        process.stderr.write('\n' + chalk.yellow(`⚠ ${BROWSER_KEY_WARNING}`) + '\n\n');
+      }
+
+      const files: Array<{ path: string; content: string }> =
+        target === 'nextjs'
+          ? [
+              { path: 'app/api/csc-search/route.ts', content: generateAutocompleteRoute() },
+              { path: 'components/LocationAutocomplete.tsx', content: generateAutocompleteComponentNextjs() },
+            ]
+          : [{ path: 'components/LocationAutocomplete.tsx', content: generateAutocompleteComponentBrowser() }];
+
+      files.push({ path: '.env.example', content: generateEnvExample(target) });
+      files.push({ path: 'CSC-AUTOCOMPLETE-README.md', content: generateAutocompleteReadme(target) });
+
+      await writeGeneratedFiles(options.output, files, flags);
+    });
+
+  generate
+    .command('location-picker')
+    .description('Generate a cascading country/state/city picker that calls the API as the user types')
+    .requiredOption('-t, --target <target>', 'Target: nextjs or react-browser')
+    .option('-o, --output <dir>', 'Output directory', process.cwd())
+    .action(async (options: { target: string; output: string }, cmd: Command) => {
+      const globalOpts = cmd.optsWithGlobals();
+      const flags: GlobalFlags = {
+        json: globalOpts.json ?? false,
+        quiet: globalOpts.quiet ?? false,
+        noFooter: globalOpts.footer === false,
+      };
+
+      const target = resolveTarget(options.target);
+
+      if (target === 'react-browser' && !flags.quiet && !flags.json) {
+        process.stderr.write('\n' + chalk.yellow(`⚠ ${BROWSER_KEY_WARNING}`) + '\n\n');
+      }
+
+      const files: Array<{ path: string; content: string }> =
+        target === 'nextjs'
+          ? [
+              { path: 'app/api/csc-search/route.ts', content: generateAutocompleteRoute() },
+              { path: 'components/LocationPicker.tsx', content: generateLocationPickerComponentNextjs() },
+            ]
+          : [{ path: 'components/LocationPicker.tsx', content: generateLocationPickerComponentBrowser() }];
+
+      files.push({ path: '.env.example', content: generateEnvExample(target) });
+      files.push({ path: 'CSC-LOCATION-PICKER-README.md', content: generateLocationPickerReadme(target) });
+
+      await writeGeneratedFiles(options.output, files, flags);
+    });
 }
