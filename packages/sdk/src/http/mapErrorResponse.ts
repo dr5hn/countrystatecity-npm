@@ -93,6 +93,7 @@ export function mapErrorResponse(input: MapErrorResponseInput): CSCError {
         ...opts,
         field: str(pickDetail(body, 'field')),
         reason: str(pickDetail(body, 'reason', 'code')),
+        details: pick(body, 'details'),
       });
 
     default:

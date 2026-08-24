@@ -17,7 +17,7 @@ describe('createCSCClient', () => {
     stubFetchOk();
     const csc = createCSCClient({ apiKey: 'k' });
     expect(csc).toBeInstanceOf(CSCClient);
-    for (const key of ['countries', 'states', 'cities', 'regions', 'currencies', 'iso', 'phone', 'timezones', 'search', 'usage'] as const) {
+    for (const key of ['countries', 'states', 'cities', 'regions', 'currencies', 'iso', 'phone', 'timezones', 'search', 'usage', 'changes'] as const) {
       expect(csc[key]).toBeDefined();
     }
   });

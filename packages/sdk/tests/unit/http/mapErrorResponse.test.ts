@@ -131,6 +131,16 @@ describe('mapErrorResponse', () => {
     expect(err.reason).toBe('out_of_range');
   });
 
+  it('400 preserves structured details needed to recover from an expired retention window', () => {
+    const details = { earliestAvailableDate: '2026-05-26T00:00:00.000Z' };
+    const err = mapErrorResponse({
+      status: 400,
+      body: { status: 'error', message: 'start_date is too old', details },
+      url,
+    }) as ValidationError;
+    expect(err.details).toEqual(details);
+  });
+
   it('429 ignores an unrecognized scope value', () => {
     const err = mapErrorResponse({ status: 429, body: { scope: 'weekly' }, url }) as RateLimitError;
     expect(err.scope).toBeUndefined();

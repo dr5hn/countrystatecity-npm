@@ -44,11 +44,13 @@ describe('error hierarchy', () => {
     expect(err.retryCount).toBe(2);
   });
 
-  it('ValidationError carries field/value/reason', () => {
-    const err = new ValidationError('bad country', { field: 'country', value: 'ZZZ', reason: 'invalid_iso2_format' });
+  it('ValidationError carries field/value/reason/details', () => {
+    const details = { earliestAvailableDate: '2026-05-26T00:00:00.000Z' };
+    const err = new ValidationError('bad country', { field: 'country', value: 'ZZZ', reason: 'invalid_iso2_format', details });
     expect(err.field).toBe('country');
     expect(err.value).toBe('ZZZ');
     expect(err.reason).toBe('invalid_iso2_format');
+    expect(err.details).toBe(details);
   });
 
   it('FeatureRestrictedError defaults upgradeUrl when the API omits it', () => {

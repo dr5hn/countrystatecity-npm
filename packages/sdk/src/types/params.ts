@@ -2,7 +2,7 @@
  * Per-resource request parameter types for @countrystatecity/sdk.
  */
 
-import type { CityKind, SearchResultType } from './entities';
+import type { ChangePlaceType, ChangeType, CityKind, SearchResultType } from './entities';
 
 export interface IListParams {
   limit?: number;
@@ -103,6 +103,16 @@ export interface INearbyParams extends ILocalizationParams {
   minPopulation?: number;
   radius?: number;
   limit?: number;
+}
+
+/** Parameters for the cursor-paginated Business-tier data change feed. */
+export interface IChangesParams {
+  startDate?: string;
+  placeType?: ChangePlaceType;
+  countryCode?: string;
+  changeType?: ChangeType;
+  limit?: number;
+  nextPageToken?: string;
 }
 
 export interface IIsoLookupParams {

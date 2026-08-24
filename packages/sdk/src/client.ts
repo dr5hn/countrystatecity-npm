@@ -14,6 +14,7 @@ import {
   TimezonesResource,
   SearchResource,
   UsageResource,
+  ChangesResource,
 } from './resources';
 
 const DEFAULT_BASE_URL = 'https://api.countrystatecity.in/v1';
@@ -77,6 +78,7 @@ export class CSCClient {
   readonly timezones: TimezonesResource;
   readonly search: SearchResource;
   readonly usage: UsageResource;
+  readonly changes: ChangesResource;
 
   constructor(options: CSCClientOptions) {
     const config = resolveConfig(options);
@@ -92,6 +94,7 @@ export class CSCClient {
     this.timezones = new TimezonesResource(this.http);
     this.search = new SearchResource(this.http);
     this.usage = new UsageResource(this.http);
+    this.changes = new ChangesResource(this.http);
   }
 
   /** Metadata (rate-limit usage, request id, data version, ...) from the most recent successful request on this client, if any. */

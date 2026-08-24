@@ -55,16 +55,19 @@ export class ValidationError extends CSCError {
   readonly field?: string;
   readonly value?: unknown;
   readonly reason?: string;
+  /** Structured context returned by the API, such as the earliest retained change date. */
+  readonly details?: unknown;
 
   constructor(
     message: string,
-    opts: CSCErrorOptions & { field?: string; value?: unknown; reason?: string } = {},
+    opts: CSCErrorOptions & { field?: string; value?: unknown; reason?: string; details?: unknown } = {},
   ) {
     super(message, opts);
     this.name = 'ValidationError';
     this.field = opts.field;
     this.value = opts.value;
     this.reason = opts.reason;
+    this.details = opts.details;
     Object.setPrototypeOf(this, new.target.prototype);
   }
 }

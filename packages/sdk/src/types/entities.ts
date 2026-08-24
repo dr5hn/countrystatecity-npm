@@ -234,3 +234,52 @@ export interface IUsageSnapshot {
   monthlyLimit: number;
   plan?: string;
 }
+
+export type ChangePlaceType = 'country' | 'state' | 'city';
+
+export type ChangeType =
+  | 'added'
+  | 'removed'
+  | 'renamed'
+  | 'place_group_changed'
+  | 'parent_changed'
+  | 'coordinates_changed'
+  | 'other_fields_changed';
+
+/**
+ * Tier-filtered place values from the change feed. Updates contain only the
+ * fields that changed; additions and removals contain every field visible to
+ * the caller. The exact keys can grow with the API, so they are intentionally
+ * not narrowed to the SDK's normal full-entity interfaces.
+ */
+export type IChangeValues = Record<string, unknown>;
+
+interface IChangeEventBase {
+  change_id: string;
+  data_version: string;
+  changed_at: string;
+  /** The database BigInt is serialized as a string. */
+  place_id: string;
+  change_type: ChangeType;
+  old_values: IChangeValues | null;
+  new_values: IChangeValues | null;
+}
+
+export interface ICountryChangeEvent extends IChangeEventBase {
+  place_type: 'country';
+}
+
+export interface IStateChangeEvent extends IChangeEventBase {
+  place_type: 'state';
+}
+
+export interface ICityChangeEvent extends IChangeEventBase {
+  place_type: 'city';
+}
+
+export type IChangeEvent = ICountryChangeEvent | IStateChangeEvent | ICityChangeEvent;
+
+export interface IChangeFeedPage {
+  results: IChangeEvent[];
+  next_page_token: string | null;
+}
