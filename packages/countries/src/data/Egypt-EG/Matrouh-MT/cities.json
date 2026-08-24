@@ -8,9 +8,12 @@
     "country_code": "EG",
     "latitude": "30.83007000",
     "longitude": "28.95502000",
-    "native": null,
+    "native": "العلمين",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7400,
+    "wikiDataId": "Q204439"
   },
   {
     "id": 31843,
@@ -21,9 +24,12 @@
     "country_code": "EG",
     "latitude": "31.35290000",
     "longitude": "27.23725000",
-    "native": null,
+    "native": "مرسى مطروح",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 176498,
+    "wikiDataId": "Q393829"
   },
   {
     "id": 31866,
@@ -34,8 +40,11 @@
     "country_code": "EG",
     "latitude": "29.20320000",
     "longitude": "25.51965000",
-    "native": null,
+    "native": "واحة سيوة",
     "timezone": "Africa/Cairo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1524502"
   }
 ]

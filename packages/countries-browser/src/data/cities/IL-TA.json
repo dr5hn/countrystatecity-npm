@@ -8,9 +8,12 @@
     "country_code": "IL",
     "latitude": "32.02430000",
     "longitude": "34.80632000",
-    "native": null,
+    "native": "אזור",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 13481,
+    "wikiDataId": "Q952186"
   },
   {
     "id": 57443,
@@ -21,9 +24,12 @@
     "country_code": "IL",
     "latitude": "32.02379000",
     "longitude": "34.75185000",
-    "native": null,
+    "native": "בת ים",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 128800,
+    "wikiDataId": "Q208725"
   },
   {
     "id": 57451,
@@ -34,9 +40,12 @@
     "country_code": "IL",
     "latitude": "32.08074000",
     "longitude": "34.83380000",
-    "native": null,
+    "native": "בני ברק",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 193774,
+    "wikiDataId": "Q152467"
   },
   {
     "id": 57471,
@@ -47,9 +56,12 @@
     "country_code": "IL",
     "latitude": "32.07817000",
     "longitude": "34.84858000",
-    "native": null,
+    "native": "גבעת שמואל",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 25298,
+    "wikiDataId": "Q152641"
   },
   {
     "id": 57472,
@@ -60,9 +72,12 @@
     "country_code": "IL",
     "latitude": "32.07225000",
     "longitude": "34.81253000",
-    "native": null,
+    "native": "גבעתיים",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 60200,
+    "wikiDataId": "Q152413"
   },
   {
     "id": 57476,
@@ -73,9 +88,12 @@
     "country_code": "IL",
     "latitude": "32.16627000",
     "longitude": "34.82536000",
-    "native": null,
+    "native": "הרצליה",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 95100,
+    "wikiDataId": "Q152491"
   },
   {
     "id": 57477,
@@ -86,9 +104,12 @@
     "country_code": "IL",
     "latitude": "32.17409000",
     "longitude": "34.80280000",
-    "native": null,
+    "native": "הרצליה פיתוח",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 10000,
+    "wikiDataId": "Q152491"
   },
   {
     "id": 57479,
@@ -99,9 +120,12 @@
     "country_code": "IL",
     "latitude": "32.01034000",
     "longitude": "34.77918000",
-    "native": null,
+    "native": "חולון",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 197935,
+    "wikiDataId": "Q192213"
   },
   {
     "id": 57482,
@@ -112,9 +136,12 @@
     "country_code": "IL",
     "latitude": "32.05043000",
     "longitude": "34.75224000",
-    "native": null,
+    "native": "יפו",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 100000,
+    "wikiDataId": "Q180294"
   },
   {
     "id": 57496,
@@ -125,9 +152,12 @@
     "country_code": "IL",
     "latitude": "32.18529000",
     "longitude": "34.82082000",
-    "native": null,
+    "native": "כפר שמריהו",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1938,
+    "wikiDataId": "Q2389508"
   },
   {
     "id": 57530,
@@ -138,9 +168,12 @@
     "country_code": "IL",
     "latitude": "32.02923000",
     "longitude": "34.85788000",
-    "native": null,
+    "native": "אור יהודה",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 36900,
+    "wikiDataId": "Q950347"
   },
   {
     "id": 57543,
@@ -151,9 +184,12 @@
     "country_code": "IL",
     "latitude": "32.08227000",
     "longitude": "34.81065000",
-    "native": null,
+    "native": "רמת גן",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 159200,
+    "wikiDataId": "Q192807"
   },
   {
     "id": 57544,
@@ -164,9 +200,12 @@
     "country_code": "IL",
     "latitude": "32.14613000",
     "longitude": "34.83940000",
-    "native": null,
+    "native": "רמת השרון",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 46700,
+    "wikiDataId": "Q845866"
   },
   {
     "id": 57564,
@@ -177,9 +216,12 @@
     "country_code": "IL",
     "latitude": "32.08088000",
     "longitude": "34.78057000",
-    "native": null,
+    "native": "תל אביב",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 467875,
+    "wikiDataId": "Q33935"
   },
   {
     "id": 57575,
@@ -190,8 +232,11 @@
     "country_code": "IL",
     "latitude": "32.02840000",
     "longitude": "34.87960000",
-    "native": null,
+    "native": "יהוד-מונוסון",
     "timezone": "Asia/Jerusalem",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 29312,
+    "wikiDataId": "Q1000887"
   }
 ]

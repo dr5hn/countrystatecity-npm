@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.82098000",
     "longitude": "-3.01743000",
-    "native": null,
+    "native": "Abergavenny",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 14651,
+    "wikiDataId": "Q609161"
   },
   {
     "id": 48811,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.60952000",
     "longitude": "-2.95378000",
-    "native": null,
+    "native": "Caerleon",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 7971,
+    "wikiDataId": "Q1009261"
   },
   {
     "id": 49218,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.65446000",
     "longitude": "-3.02281000",
-    "native": null,
+    "native": "Cloud",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 48535,
+    "wikiDataId": "Q990153"
   },
   {
     "id": 50360,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "51.66583000",
     "longitude": "-2.90806000",
-    "native": null,
+    "native": "Slayen",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 444,
+    "wikiDataId": "Q13129646"
   },
   {
     "id": 50720,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "51.58774000",
     "longitude": "-2.99835000",
-    "native": null,
+    "native": "Newport",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 161506,
+    "wikiDataId": "Q101254"
   },
   {
     "id": 50946,
@@ -73,9 +88,12 @@
     "country_code": "GB",
     "latitude": "51.70111000",
     "longitude": "-3.04444000",
-    "native": null,
+    "native": "Pontypool",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 35686,
+    "wikiDataId": "Q1021164"
   },
   {
     "id": 51644,
@@ -86,8 +104,11 @@
     "country_code": "GB",
     "latitude": "51.70146000",
     "longitude": "-3.05136000",
-    "native": null,
+    "native": "Torfaen County Borough",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q643919"
   }
 ]

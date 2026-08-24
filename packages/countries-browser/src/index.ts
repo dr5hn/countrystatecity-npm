@@ -13,6 +13,7 @@ export type {
   ITimezone,
   ITranslations,
   ConfigOptions,
+  IDataVersion,
 } from './types';
 
 export { NetworkError, TimeoutError } from './errors';
@@ -32,6 +33,7 @@ export {
   getAllCitiesInWorld,
   getRegions,
   getSubregions,
+  getDataVersion,
 } from './loaders';
 
 export {

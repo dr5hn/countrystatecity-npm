@@ -9,17 +9,17 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 function generateSplitData(sourceFile, outputDir) {
   console.log('📥 Loading source data...');
   const records = JSON.parse(fs.readFileSync(sourceFile, 'utf-8'));
   console.log(`✓ Loaded ${records.length} records`);
 
-  const dataDir = path.join(outputDir, 'src', 'data');
-  if (fs.existsSync(dataDir)) {
-    console.log('🗑️  Removing existing data directory...');
-    fs.rmSync(dataDir, { recursive: true });
-  }
-  fs.mkdirSync(dataDir, { recursive: true });
+  // Staged then atomically swapped into place via commit() — a crash mid-run
+  // never leaves the live output directory without a complete dataset.
+  const finalDataDir = path.join(outputDir, 'src', 'data');
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
 
   // country_code -> (stateKey -> record[]), stateKey = state_code || '_unassigned'
   const byCountry = new Map();
@@ -73,11 +73,13 @@ function generateSplitData(sourceFile, outputDir) {
   manifest.sort((a, b) => a.country_code.localeCompare(b.country_code));
   fs.writeFileSync(path.join(dataDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
+  commit();
+
   console.log('\n✅ Data generation complete!');
   console.log(`📊 Statistics:`);
   console.log(`   - Countries with postal codes: ${manifest.length}`);
   console.log(`   - Total records: ${totalRecords}`);
-  console.log(`   - Output directory: ${dataDir}`);
+  console.log(`   - Output directory: ${finalDataDir}`);
 }
 
 // Main execution

@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "41.33611000",
     "longitude": "21.33306000",
-    "native": null,
+    "native": "Кривогаштани",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 5899,
+    "wikiDataId": "Q2603928"
   },
   {
     "id": 67495,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "41.28168000",
     "longitude": "21.36150000",
-    "native": null,
+    "native": "Обршани",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1138,
+    "wikiDataId": "Q3074771"
   },
   {
     "id": 67576,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "42.11611000",
     "longitude": "21.85722000",
-    "native": null,
+    "native": "Клечовце",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3072576"
   }
 ]

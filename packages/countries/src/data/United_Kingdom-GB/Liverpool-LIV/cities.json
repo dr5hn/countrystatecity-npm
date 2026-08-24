@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "53.39337000",
     "longitude": "-3.01479000",
-    "native": null,
+    "native": "Birkenhead",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 325264,
+    "wikiDataId": "Q746718"
   },
   {
     "id": 50337,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "53.41058000",
     "longitude": "-2.97794000",
-    "native": null,
+    "native": "Liverpool",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 513441,
+    "wikiDataId": "Q24826"
   },
   {
     "id": 51732,
@@ -34,8 +40,11 @@
     "country_code": "GB",
     "latitude": "53.42324000",
     "longitude": "-3.06497000",
-    "native": null,
+    "native": "Wallasey",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 60284,
+    "wikiDataId": "Q780923"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.05307000",
     "longitude": "13.61382000",
-    "native": null,
+    "native": "Deskle",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1169,
+    "wikiDataId": "Q2928996"
   },
   {
     "id": 104134,
@@ -21,8 +24,11 @@
     "country_code": "SI",
     "latitude": "46.08861000",
     "longitude": "13.63972000",
-    "native": null,
+    "native": "Kanal",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q1012996"
   }
 ]

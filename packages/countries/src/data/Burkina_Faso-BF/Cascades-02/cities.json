@@ -8,9 +8,12 @@
     "country_code": "BF",
     "latitude": "10.63333000",
     "longitude": "-4.76667000",
-    "native": null,
+    "native": "Banfora",
     "timezone": "Africa/Ouagadougou",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 117200,
+    "wikiDataId": "Q639674"
   },
   {
     "id": 9200,
@@ -21,9 +24,12 @@
     "country_code": "BF",
     "latitude": "10.33333000",
     "longitude": "-4.41667000",
-    "native": null,
+    "native": "Province de la Comoé",
     "timezone": "Africa/Ouagadougou",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 632695,
+    "wikiDataId": "Q1074496"
   },
   {
     "id": 9204,
@@ -34,9 +40,12 @@
     "country_code": "BF",
     "latitude": "10.66667000",
     "longitude": "-5.20000000",
-    "native": null,
+    "native": "Province de Léraba",
     "timezone": "Africa/Ouagadougou",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 179367,
+    "wikiDataId": "Q977607"
   },
   {
     "id": 9241,
@@ -47,8 +56,11 @@
     "country_code": "BF",
     "latitude": "10.66667000",
     "longitude": "-5.16667000",
-    "native": null,
+    "native": "Expéditeur",
     "timezone": "Africa/Ouagadougou",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 7053,
+    "wikiDataId": "Q1507575"
   }
 ]

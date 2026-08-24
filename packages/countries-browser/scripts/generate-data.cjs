@@ -11,14 +11,15 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 function generateBrowserData(sourceDir, outputDir) {
   console.log(`📥 Reading server data from: ${sourceDir}`);
 
-  const dataDir = outputDir;
-  if (fs.existsSync(dataDir)) {
-    console.log('🗑️  Removing existing data directory...');
-    fs.rmSync(dataDir, { recursive: true });
-  }
+  // Staged then atomically swapped into place via commit() — a crash mid-run
+  // never leaves the live output directory without a complete dataset.
+  const finalDataDir = outputDir;
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
 
   fs.mkdirSync(path.join(dataDir, 'country'), { recursive: true });
   fs.mkdirSync(path.join(dataDir, 'states'), { recursive: true });
@@ -41,6 +42,24 @@ function generateBrowserData(sourceDir, outputDir) {
       fs.copyFileSync(src, path.join(dataDir, file));
       console.log(`✓ Copied ${file}`);
     }
+  }
+
+  // 1c. Copy the data version, falling back to preserving the currently-live
+  // one when the source directory has none. beginStagedWrite() stages into an
+  // EMPTY directory, so skipping outright would silently delete a
+  // previously-published version.json on a standalone run against a source
+  // tree that predates it — the same guard packages/countries' generator
+  // makes for its own copy of this file.
+  const versionSource = path.join(sourceDir, 'version.json');
+  const liveVersionFile = path.join(finalDataDir, 'version.json');
+  if (fs.existsSync(versionSource)) {
+    fs.copyFileSync(versionSource, path.join(dataDir, 'version.json'));
+    console.log('✓ Copied version.json');
+  } else if (fs.existsSync(liveVersionFile)) {
+    fs.copyFileSync(liveVersionFile, path.join(dataDir, 'version.json'));
+    console.warn('⚠ version.json not found in source — preserving the previously-published version');
+  } else {
+    console.warn('⚠ No version.json available (new package or first-ever generation) — skipping');
   }
 
   // 2. Process each country directory
@@ -88,13 +107,15 @@ function generateBrowserData(sourceDir, outputDir) {
     }
   }
 
+  commit();
+
   console.log('\n✅ Browser data generation complete!');
   console.log(`📊 Statistics:`);
   console.log(`   - Countries: ${countries.length}`);
   console.log(`   - Country directories processed: ${countryDirs.length}`);
   console.log(`   - Total states: ${totalStates}`);
   console.log(`   - City files created: ${totalCityFiles}`);
-  console.log(`   - Output directory: ${dataDir}`);
+  console.log(`   - Output directory: ${finalDataDir}`);
 }
 
 const sourceDir = process.argv[2];

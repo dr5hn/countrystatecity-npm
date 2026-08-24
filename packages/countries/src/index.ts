@@ -13,6 +13,7 @@ export type {
   ISubregion,
   ITimezone,
   ITranslations,
+  IDataVersion,
 } from './types';
 
 // Export all loaders
@@ -27,6 +28,7 @@ export {
   getCityById,
   getRegions,
   getSubregions,
+  getDataVersion,
 } from './loaders';
 
 // Export utilities

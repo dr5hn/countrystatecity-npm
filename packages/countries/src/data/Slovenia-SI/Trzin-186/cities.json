@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.11506000",
     "longitude": "14.55371000",
-    "native": null,
+    "native": "Črnuče District",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 11495,
+    "wikiDataId": "Q9009660"
   },
   {
     "id": 104302,
@@ -21,8 +24,11 @@
     "country_code": "SI",
     "latitude": "46.13333000",
     "longitude": "14.56667000",
-    "native": null,
+    "native": "Trzin",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 3940,
+    "wikiDataId": "Q14468504"
   }
 ]

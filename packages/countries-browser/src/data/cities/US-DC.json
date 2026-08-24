@@ -8,9 +8,12 @@
     "country_code": "US",
     "latitude": "38.92150000",
     "longitude": "-77.04220000",
-    "native": null,
+    "native": "Adams Morgan",
     "timezone": "America/New_York",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 15830,
+    "wikiDataId": "Q2057409"
   },
   {
     "id": 112444,
@@ -21,9 +24,12 @@
     "country_code": "US",
     "latitude": "38.91678000",
     "longitude": "-77.01137000",
-    "native": null,
+    "native": "Bloomingdale",
     "timezone": "America/New_York",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4980,
+    "wikiDataId": "Q4928307"
   },
   {
     "id": 113920,
@@ -34,9 +40,12 @@
     "country_code": "US",
     "latitude": "38.96400000",
     "longitude": "-77.06776000",
-    "native": null,
+    "native": "Chevy Chase",
     "timezone": "America/New_York",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9545,
+    "wikiDataId": "Q4404091"
   },
   {
     "id": 128587,
@@ -47,8 +56,11 @@
     "country_code": "US",
     "latitude": "38.89511000",
     "longitude": "-77.03637000",
-    "native": null,
+    "native": "Washington D.C.",
     "timezone": "America/New_York",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 689545,
+    "wikiDataId": "Q61"
   }
 ]

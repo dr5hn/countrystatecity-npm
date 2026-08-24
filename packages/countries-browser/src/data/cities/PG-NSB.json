@@ -8,9 +8,12 @@
     "country_code": "PG",
     "latitude": "-6.22977000",
     "longitude": "155.56598000",
-    "native": null,
+    "native": "Gas",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 38200,
+    "wikiDataId": "Q626729"
   },
   {
     "id": 81033,
@@ -21,9 +24,12 @@
     "country_code": "PG",
     "latitude": "-6.22806000",
     "longitude": "155.56583000",
-    "native": null,
+    "native": "Central Bougainville",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q251975"
   },
   {
     "id": 81063,
@@ -34,9 +40,12 @@
     "country_code": "PG",
     "latitude": "-6.21462000",
     "longitude": "155.63251000",
-    "native": null,
+    "native": "Hard",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 3611,
+    "wikiDataId": "Q1187240"
   },
   {
     "id": 81091,
@@ -47,9 +56,12 @@
     "country_code": "PG",
     "latitude": "-5.42194000",
     "longitude": "154.67278000",
-    "native": null,
+    "native": "North Bougainville",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 0,
+    "wikiDataId": "Q3711238"
   },
   {
     "id": 81097,
@@ -60,9 +72,12 @@
     "country_code": "PG",
     "latitude": "-6.31639000",
     "longitude": "155.48483000",
-    "native": null,
+    "native": "primary",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2916,
+    "wikiDataId": "Q1771693"
   },
   {
     "id": 81109,
@@ -73,8 +88,11 @@
     "country_code": "PG",
     "latitude": "-6.74593000",
     "longitude": "155.69640000",
-    "native": null,
+    "native": "South Bougainville",
     "timezone": "Pacific/Bougainville",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 60584,
+    "wikiDataId": "Q938379"
   }
 ]

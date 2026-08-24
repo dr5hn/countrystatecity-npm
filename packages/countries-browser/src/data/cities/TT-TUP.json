@@ -8,9 +8,12 @@
     "country_code": "TT",
     "latitude": "10.62877000",
     "longitude": "-61.33487000",
-    "native": null,
+    "native": "Arouca",
     "timezone": "America/Port_of_Spain",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 12054,
+    "wikiDataId": "Q4795612"
   },
   {
     "id": 108977,
@@ -21,9 +24,12 @@
     "country_code": "TT",
     "latitude": "10.65298000",
     "longitude": "-61.36298000",
-    "native": null,
+    "native": "Paradise",
     "timezone": "America/Port_of_Spain",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 15067,
+    "wikiDataId": "Q3493518"
   },
   {
     "id": 108989,
@@ -34,8 +40,11 @@
     "country_code": "TT",
     "latitude": "10.65245000",
     "longitude": "-61.38878000",
-    "native": null,
+    "native": "Tunapuna",
     "timezone": "America/Port_of_Spain",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 17758,
+    "wikiDataId": "Q2522343"
   }
 ]

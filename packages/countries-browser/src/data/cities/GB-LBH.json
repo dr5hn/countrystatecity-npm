@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.51279000",
     "longitude": "-0.09184000",
-    "native": null,
+    "native": "City of London",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 8072,
+    "wikiDataId": "Q23311"
   },
   {
     "id": 50229,
@@ -21,8 +24,11 @@
     "country_code": "GB",
     "latitude": "51.49635000",
     "longitude": "-0.11152000",
-    "native": null,
+    "native": "Lambeth",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 6000,
+    "wikiDataId": "Q2122861"
   }
 ]

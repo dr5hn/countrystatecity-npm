@@ -8,9 +8,12 @@
     "country_code": "GM",
     "latitude": "13.47806000",
     "longitude": "-16.68194000",
-    "native": null,
+    "native": "Mangrove",
     "timezone": "Africa/Banjul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 43098,
+    "wikiDataId": "Q804275"
   },
   {
     "id": 52221,
@@ -21,9 +24,12 @@
     "country_code": "GM",
     "latitude": "13.45274000",
     "longitude": "-16.57803000",
-    "native": null,
+    "native": "Banjul",
     "timezone": "Africa/Banjul",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 31356,
+    "wikiDataId": "Q3726"
   },
   {
     "id": 52277,
@@ -34,9 +40,12 @@
     "country_code": "GM",
     "latitude": "13.44389000",
     "longitude": "-16.64583000",
-    "native": null,
+    "native": "Kombo Saint Mary District",
     "timezone": "Africa/Banjul",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 345191,
+    "wikiDataId": "Q1572418"
   },
   {
     "id": 52304,
@@ -47,8 +56,11 @@
     "country_code": "GM",
     "latitude": "13.43833000",
     "longitude": "-16.67806000",
-    "native": null,
+    "native": "Serekunda",
     "timezone": "Africa/Banjul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 382096,
+    "wikiDataId": "Q217568"
   }
 ]

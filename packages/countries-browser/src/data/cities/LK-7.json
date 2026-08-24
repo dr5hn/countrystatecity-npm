@@ -8,9 +8,12 @@
     "country_code": "LK",
     "latitude": "8.31223000",
     "longitude": "80.41306000",
-    "native": null,
+    "native": "අනුරාධපුර",
     "timezone": "Asia/Colombo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 63208,
+    "wikiDataId": "Q5724"
   },
   {
     "id": 66452,
@@ -21,9 +24,12 @@
     "country_code": "LK",
     "latitude": "8.33333000",
     "longitude": "80.50000000",
-    "native": null,
+    "native": "අනුරාධපුර දිස්ත්රික්කය",
     "timezone": "Asia/Colombo",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 5000,
+    "wikiDataId": "Q612614"
   },
   {
     "id": 66509,
@@ -34,9 +40,12 @@
     "country_code": "LK",
     "latitude": "8.35930000",
     "longitude": "80.51030000",
-    "native": null,
+    "native": "මහිනතේල්",
     "timezone": "Asia/Colombo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 5000,
+    "wikiDataId": "Q1281285"
   },
   {
     "id": 66523,
@@ -47,9 +56,12 @@
     "country_code": "LK",
     "latitude": "7.93965000",
     "longitude": "81.00274000",
-    "native": null,
+    "native": "පොලොන්නරුව",
     "timezone": "Asia/Colombo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 13900,
+    "wikiDataId": "Q394443"
   },
   {
     "id": 66524,
@@ -60,8 +72,11 @@
     "country_code": "LK",
     "latitude": "8.00000000",
     "longitude": "81.00000000",
-    "native": null,
+    "native": "පොලොන්නරුව දිස්ත්රික්කය",
     "timezone": "Asia/Colombo",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 13900,
+    "wikiDataId": "Q931057"
   }
 ]

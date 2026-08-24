@@ -8,9 +8,12 @@
     "country_code": "LB",
     "latitude": "33.11806000",
     "longitude": "35.13972000",
-    "native": null,
+    "native": "En Nâqoûra",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 24910,
+    "wikiDataId": "Q748504"
   },
   {
     "id": 65945,
@@ -21,9 +24,12 @@
     "country_code": "LB",
     "latitude": "33.51750000",
     "longitude": "35.36889000",
-    "native": null,
+    "native": "غازية",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 50000,
+    "wikiDataId": "Q748504"
   },
   {
     "id": 65952,
@@ -34,9 +40,12 @@
     "country_code": "LB",
     "latitude": "33.55751000",
     "longitude": "35.37148000",
-    "native": null,
+    "native": "صيدا",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 163554,
+    "wikiDataId": "Q163490"
   },
   {
     "id": 65954,
@@ -47,8 +56,11 @@
     "country_code": "LB",
     "latitude": "33.27333000",
     "longitude": "35.19389000",
-    "native": null,
+    "native": "إطار",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 135204,
+    "wikiDataId": "Q82070"
   }
 ]

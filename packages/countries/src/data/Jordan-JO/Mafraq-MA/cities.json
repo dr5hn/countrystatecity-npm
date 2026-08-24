@@ -8,9 +8,12 @@
     "country_code": "JO",
     "latitude": "32.44017000",
     "longitude": "36.15265000",
-    "native": null,
+    "native": "الحمراء",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 6211,
+    "wikiDataId": "Q3505791"
   },
   {
     "id": 63171,
@@ -21,9 +24,12 @@
     "country_code": "JO",
     "latitude": "32.34289000",
     "longitude": "36.20804000",
-    "native": null,
+    "native": "المفرق",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 57118,
+    "wikiDataId": "Q276747"
   },
   {
     "id": 63179,
@@ -34,9 +40,12 @@
     "country_code": "JO",
     "latitude": "32.32341000",
     "longitude": "36.09087000",
-    "native": null,
+    "native": "إعادة التأهيل",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "historical",
+    "population": 10000,
+    "wikiDataId": "Q31572"
   },
   {
     "id": 63180,
@@ -47,9 +56,12 @@
     "country_code": "JO",
     "latitude": "33.31405000",
     "longitude": "38.70342000",
-    "native": null,
+    "native": "الركبان",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 85000,
+    "wikiDataId": "Q31572"
   },
   {
     "id": 63198,
@@ -60,9 +72,12 @@
     "country_code": "JO",
     "latitude": "32.32696000",
     "longitude": "36.50159000",
-    "native": null,
+    "native": "شابا",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 5315,
+    "wikiDataId": "Q148062"
   },
   {
     "id": 63191,
@@ -73,8 +88,11 @@
     "country_code": "JO",
     "latitude": "32.31449000",
     "longitude": "36.62826000",
-    "native": null,
+    "native": "أم القطين",
     "timezone": "Asia/Amman",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 4225,
+    "wikiDataId": "Q131955"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "DO",
     "latitude": "19.46667000",
     "longitude": "-71.16667000",
-    "native": null,
+    "native": "Monción",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 11753,
+    "wikiDataId": "Q3307947"
   },
   {
     "id": 31177,
@@ -21,9 +24,12 @@
     "country_code": "DO",
     "latitude": "19.47793000",
     "longitude": "-71.34125000",
-    "native": null,
+    "native": "Sabaneta",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 98453,
+    "wikiDataId": "Q7395875"
   },
   {
     "id": 31187,
@@ -34,8 +40,11 @@
     "country_code": "DO",
     "latitude": "19.38333000",
     "longitude": "-71.35000000",
-    "native": null,
+    "native": "San Ignacio de Sabaneta",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": null,
+    "wikiDataId": "Q2021983"
   }
 ]

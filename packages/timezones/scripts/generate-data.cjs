@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 /**
  * Generate timezone data from source countries database
  * Extracts timezone information and organizes it by country
@@ -26,7 +28,8 @@ async function generateTimezoneData() {
     process.exit(1);
   }
 
-  const timezonesDataDir = path.join(__dirname, '../src/data');
+  const finalDataDir = path.join(__dirname, '../src/data');
+  const { stagingDir: timezonesDataDir, commit } = beginStagedWrite(finalDataDir);
   const byCountryDir = path.join(timezonesDataDir, 'by-country');
 
   // Ensure output directories exist
@@ -98,7 +101,7 @@ async function generateTimezoneData() {
         console.log(`  Processed ${processedCountries} countries...`);
       }
     } catch (error) {
-      console.error(`  ❌ Error processing ${country.name}:`, error.message);
+      throw new Error(`Error processing ${country.name}: ${error.message}`);
     }
   }
 
@@ -131,6 +134,7 @@ async function generateTimezoneData() {
   console.log(`  Main file size: ${totalSize.toFixed(2)} KB`);
   console.log(`  Average country file size: ${avgCountrySize.toFixed(2)} KB`);
 
+  commit();
   console.log('\n✨ Timezone data generation complete!');
 }
 

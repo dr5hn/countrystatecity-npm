@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.50901000",
     "longitude": "-0.27620000",
-    "native": null,
+    "native": "Acton",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 53689,
+    "wikiDataId": "Q83609"
   },
   {
     "id": 48674,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.55306000",
     "longitude": "-0.30230000",
-    "native": null,
+    "native": "Brent",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 329100,
+    "wikiDataId": "Q2197855"
   },
   {
     "id": 48676,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.48619000",
     "longitude": "-0.30830000",
-    "native": null,
+    "native": "Brentford",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 10750,
+    "wikiDataId": "Q1013528"
   },
   {
     "id": 49742,
@@ -47,9 +56,12 @@
     "country_code": "GB",
     "latitude": "51.52866000",
     "longitude": "-0.35508000",
-    "native": null,
+    "native": "Greenford",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 46787,
+    "wikiDataId": "Q83475"
   },
   {
     "id": 50778,
@@ -60,9 +72,12 @@
     "country_code": "GB",
     "latitude": "51.54855000",
     "longitude": "-0.36778000",
-    "native": null,
+    "native": "Northolt",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 26000,
+    "wikiDataId": "Q83399"
   },
   {
     "id": 51369,
@@ -73,9 +88,12 @@
     "country_code": "GB",
     "latitude": "51.50896000",
     "longitude": "-0.37130000",
-    "native": null,
+    "native": "Southall",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 70000,
+    "wikiDataId": "Q931159"
   },
   {
     "id": 51798,
@@ -86,8 +104,11 @@
     "country_code": "GB",
     "latitude": "51.55242000",
     "longitude": "-0.29686000",
-    "native": null,
+    "native": "Wembley",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 90045,
+    "wikiDataId": "Q146858"
   }
 ]

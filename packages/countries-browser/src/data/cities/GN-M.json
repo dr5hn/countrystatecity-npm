@@ -8,9 +8,12 @@
     "country_code": "GN",
     "latitude": "10.75000000",
     "longitude": "-12.30000000",
-    "native": null,
+    "native": "Délinquant",
     "timezone": "Africa/Conakry",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 9925,
+    "wikiDataId": "Q623302"
   },
   {
     "id": 52354,
@@ -21,9 +24,12 @@
     "country_code": "GN",
     "latitude": "10.37546000",
     "longitude": "-12.09148000",
-    "native": null,
+    "native": "Maman",
     "timezone": "Africa/Conakry",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 79109,
+    "wikiDataId": "Q644131"
   },
   {
     "id": 52355,
@@ -34,9 +40,12 @@
     "country_code": "GN",
     "latitude": "10.45900000",
     "longitude": "-11.81500000",
-    "native": null,
+    "native": "Préfecture de Mamou",
     "timezone": "Africa/Conakry",
-    "translations": {}
+    "translations": {},
+    "type": "prefecture",
+    "population": 318981,
+    "wikiDataId": "Q623295"
   },
   {
     "id": 52360,
@@ -47,8 +56,11 @@
     "country_code": "GN",
     "latitude": "10.83333000",
     "longitude": "-12.58333000",
-    "native": null,
+    "native": "Pita",
     "timezone": "Africa/Conakry",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 278530,
+    "wikiDataId": "Q736507"
   }
 ]

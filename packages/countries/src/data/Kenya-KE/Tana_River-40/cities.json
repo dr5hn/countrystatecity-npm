@@ -8,9 +8,12 @@
     "country_code": "KE",
     "latitude": "-1.48256000",
     "longitude": "40.03341000",
-    "native": null,
+    "native": "Hello",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 20912,
+    "wikiDataId": "Q2738432"
   },
   {
     "id": 64808,
@@ -21,8 +24,11 @@
     "country_code": "KE",
     "latitude": "-2.52565000",
     "longitude": "40.52620000",
-    "native": null,
+    "native": "Pinni",
     "timezone": "Africa/Nairobi",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4114,
+    "wikiDataId": "Q1009199"
   }
 ]

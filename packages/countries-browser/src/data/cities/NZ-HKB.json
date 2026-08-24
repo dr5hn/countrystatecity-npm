@@ -8,9 +8,12 @@
     "country_code": "NZ",
     "latitude": "-39.63810000",
     "longitude": "176.84918000",
-    "native": null,
+    "native": "Hastings",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 89200,
+    "wikiDataId": "Q1015690"
   },
   {
     "id": 79836,
@@ -21,9 +24,12 @@
     "country_code": "NZ",
     "latitude": "-39.49260000",
     "longitude": "176.91233000",
-    "native": null,
+    "native": "Napier",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 66300,
+    "wikiDataId": "Q203380"
   },
   {
     "id": 79887,
@@ -34,9 +40,12 @@
     "country_code": "NZ",
     "latitude": "-39.53333000",
     "longitude": "176.85000000",
-    "native": null,
+    "native": "Throadle",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "section",
+    "population": 12940,
+    "wikiDataId": "Q151841"
   },
   {
     "id": 79906,
@@ -47,8 +56,11 @@
     "country_code": "NZ",
     "latitude": "-39.03333000",
     "longitude": "177.36667000",
-    "native": null,
+    "native": "Waima",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4260,
+    "wikiDataId": "Q599594"
   }
 ]

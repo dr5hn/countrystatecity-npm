@@ -8,9 +8,12 @@
     "country_code": "KR",
     "latitude": "35.15472000",
     "longitude": "126.91556000",
-    "native": null,
+    "native": "광주",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 1398538,
+    "wikiDataId": "Q41283"
   },
   {
     "id": 65366,
@@ -21,9 +24,12 @@
     "country_code": "KR",
     "latitude": "35.16158000",
     "longitude": "126.80810000",
-    "native": null,
+    "native": "광산구",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q50354"
   },
   {
     "id": 65437,
@@ -34,8 +40,11 @@
     "country_code": "KR",
     "latitude": "35.12725000",
     "longitude": "126.83149000",
-    "native": null,
+    "native": "마산",
     "timezone": "Asia/Seoul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 434371,
+    "wikiDataId": "Q50388"
   }
 ]

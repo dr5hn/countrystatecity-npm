@@ -14,6 +14,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const { beginStagedWrite } = require('../../../scripts/lib/staged-write.cjs');
+
 /** True when a value is a fully-numeric, finite coordinate string. */
 function isFiniteCoordinate(value) {
   // Number(), not parseFloat(): parseFloat('1.0N') silently truncates to 1,
@@ -63,11 +65,10 @@ function warnInvalidCoordinates(records, label) {
 function generateGeoJSON(sourceDir, outputDir) {
   console.log(`📥 Reading server data from: ${sourceDir}`);
 
-  const dataDir = outputDir;
-  if (fs.existsSync(dataDir)) {
-    console.log('🗑️  Removing existing data directory...');
-    fs.rmSync(dataDir, { recursive: true });
-  }
+  // Staged then atomically swapped into place via commit() — a crash mid-run
+  // never leaves the live output directory without a complete dataset.
+  const finalDataDir = outputDir;
+  const { stagingDir: dataDir, commit } = beginStagedWrite(finalDataDir);
   fs.mkdirSync(path.join(dataDir, 'states'), { recursive: true });
   fs.mkdirSync(path.join(dataDir, 'cities'), { recursive: true });
 
@@ -163,12 +164,14 @@ function generateGeoJSON(sourceDir, outputDir) {
     }
   }
 
+  commit();
+
   console.log('\n✅ GeoJSON generation complete!');
   console.log(`📊 Statistics:`);
   console.log(`   - Country features: ${countryFeatures.length} (${skippedCountries} skipped, no coordinates)`);
   console.log(`   - State files: ${stateFiles} (${totalStateFeatures} features, ${skippedStates} skipped)`);
   console.log(`   - City files: ${cityFiles} (${totalCityFeatures} features, ${skippedCities} skipped)`);
-  console.log(`   - Output directory: ${dataDir}`);
+  console.log(`   - Output directory: ${finalDataDir}`);
 }
 
 // Exported for unit tests; the script body below only runs when executed directly.

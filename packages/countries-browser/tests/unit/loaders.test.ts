@@ -10,6 +10,7 @@ import {
   getAllCitiesInWorld,
   getRegions,
   getSubregions,
+  getDataVersion,
   clearCache,
 } from '../../src/loaders';
 import { configure, resetConfiguration } from '../../src/config';
@@ -60,6 +61,13 @@ const mockSubregions = [
   { id: 10, name: 'TestSub', region_id: 1, translations: {}, wikiDataId: 'Q10' },
 ];
 
+const mockDataVersion = {
+  dataVersion: 'v3.2-export.7-2026.07.29',
+  sourceRelease: 'v3.2-export.7',
+  updatedAt: '2026-07-29T09:01:18Z',
+  recordCounts: { countries: 250, states: 5308, cities: 152970 },
+};
+
 describe('loaders', () => {
   beforeEach(() => {
     resetConfiguration();
@@ -76,6 +84,7 @@ describe('loaders', () => {
       // is a substring of the former, so URL matching order matters here.
       'subregions.json': mockSubregions,
       'regions.json': mockRegions,
+      'version.json': mockDataVersion,
     });
   });
 
@@ -198,6 +207,19 @@ describe('loaders', () => {
     it('returns list of subregions', async () => {
       const result = await getSubregions();
       expect(result).toEqual(mockSubregions);
+    });
+  });
+
+  describe('getDataVersion', () => {
+    it('returns the data version', async () => {
+      const result = await getDataVersion();
+      expect(result).toEqual(mockDataVersion);
+    });
+
+    it('caches result on second call', async () => {
+      await getDataVersion();
+      await getDataVersion();
+      expect(fetch).toHaveBeenCalledTimes(1);
     });
   });
 });

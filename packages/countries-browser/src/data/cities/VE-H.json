@@ -8,9 +8,12 @@
     "country_code": "VE",
     "latitude": "9.66124000",
     "longitude": "-68.58268000",
-    "native": null,
+    "native": "San Carlos",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 120000,
+    "wikiDataId": "Q995718"
   },
   {
     "id": 130157,
@@ -21,8 +24,11 @@
     "country_code": "VE",
     "latitude": "9.91861000",
     "longitude": "-68.30472000",
-    "native": null,
+    "native": "Tinaquillo",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 110000,
+    "wikiDataId": "Q1517139"
   }
 ]

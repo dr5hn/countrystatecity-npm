@@ -8,9 +8,12 @@
     "country_code": "TD",
     "latitude": "11.98010000",
     "longitude": "18.21380000",
-    "native": null,
+    "native": "À la plante",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 41871,
+    "wikiDataId": "Q2594463"
   },
   {
     "id": 105149,
@@ -21,9 +24,12 @@
     "country_code": "TD",
     "latitude": "11.05980000",
     "longitude": "17.93550000",
-    "native": null,
+    "native": "Melfi",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 12924,
+    "wikiDataId": "Q3305032"
   },
   {
     "id": 105150,
@@ -34,8 +40,11 @@
     "country_code": "TD",
     "latitude": "12.18441000",
     "longitude": "18.69303000",
-    "native": null,
+    "native": "Mongo",
     "timezone": "Africa/Ndjamena",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 53768,
+    "wikiDataId": "Q540895"
   }
 ]

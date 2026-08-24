@@ -8,9 +8,12 @@
     "country_code": "ET",
     "latitude": "6.45994000",
     "longitude": "35.30549000",
-    "native": null,
+    "native": "የውሃ አቅርቦት",
     "timezone": "Africa/Addis_Ababa",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2895686"
   },
   {
     "id": 38607,
@@ -21,9 +24,12 @@
     "country_code": "ET",
     "latitude": "7.28333000",
     "longitude": "36.23333000",
-    "native": null,
+    "native": "ማድነቅ",
     "timezone": "Africa/Addis_Ababa",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 56000,
+    "wikiDataId": "Q965112"
   },
   {
     "id": 38683,
@@ -34,9 +40,12 @@
     "country_code": "ET",
     "latitude": "6.99865000",
     "longitude": "35.58879000",
-    "native": null,
+    "native": "በቅጹ ውስጥ ያለው ሞገስ",
     "timezone": "Africa/Addis_Ababa",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 62000,
+    "wikiDataId": "Q3317332"
   },
   {
     "id": 38696,
@@ -47,9 +56,12 @@
     "country_code": "ET",
     "latitude": "7.56166000",
     "longitude": "35.40174000",
-    "native": null,
+    "native": "የሻይ ዞን",
     "timezone": "Africa/Addis_Ababa",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 199314,
+    "wikiDataId": "Q7493221"
   },
   {
     "id": 38705,
@@ -60,8 +72,11 @@
     "country_code": "ET",
     "latitude": "7.20000000",
     "longitude": "35.45000000",
-    "native": null,
+    "native": "ወንዶች",
     "timezone": "Africa/Addis_Ababa",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 66700,
+    "wikiDataId": "Q1067163"
   }
 ]

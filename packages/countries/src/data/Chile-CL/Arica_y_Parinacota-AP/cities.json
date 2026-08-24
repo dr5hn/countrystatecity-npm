@@ -8,9 +8,12 @@
     "country_code": "CL",
     "latitude": "-18.47460000",
     "longitude": "-70.29792000",
-    "native": null,
+    "native": "Arica",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 202131,
+    "wikiDataId": "Q2203"
   },
   {
     "id": 19035,
@@ -21,9 +24,12 @@
     "country_code": "CL",
     "latitude": "-19.01666667",
     "longitude": "-69.86666667",
-    "native": null,
+    "native": "Camarones",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 606,
+    "wikiDataId": "Q3729"
   },
   {
     "id": 148327,
@@ -34,9 +40,12 @@
     "country_code": "CL",
     "latitude": "-17.56666667",
     "longitude": "-69.50000000",
-    "native": null,
+    "native": "General Lagos",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q13065"
   },
   {
     "id": 19067,
@@ -47,8 +56,11 @@
     "country_code": "CL",
     "latitude": "-18.19640000",
     "longitude": "-69.55920000",
-    "native": null,
+    "native": "Poner",
     "timezone": "America/Santiago",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 2765,
+    "wikiDataId": "Q51605"
   }
 ]

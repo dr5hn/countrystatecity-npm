@@ -8,9 +8,12 @@
     "country_code": "GQ",
     "latitude": "1.03225000",
     "longitude": "10.64882000",
-    "native": null,
+    "native": "Acurena",
     "timezone": "Africa/Malabo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2736,
+    "wikiDataId": "Q2249718"
   },
   {
     "id": 52380,
@@ -21,9 +24,12 @@
     "country_code": "GQ",
     "latitude": "1.58113000",
     "longitude": "10.46716000",
-    "native": null,
+    "native": "Bicur",
     "timezone": "Africa/Malabo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 2318,
+    "wikiDataId": "Q3639735"
   },
   {
     "id": 52384,
@@ -34,8 +40,11 @@
     "country_code": "GQ",
     "latitude": "1.43677000",
     "longitude": "10.55124000",
-    "native": null,
+    "native": "Evinong",
     "timezone": "Africa/Malabo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 9155,
+    "wikiDataId": "Q1988320"
   }
 ]

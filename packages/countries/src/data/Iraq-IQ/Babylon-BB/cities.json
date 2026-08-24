@@ -8,9 +8,12 @@
     "country_code": "IQ",
     "latitude": "32.46367000",
     "longitude": "44.41963000",
-    "native": null,
+    "native": "الحلة",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 455700,
+    "wikiDataId": "Q243846"
   },
   {
     "id": 134486,
@@ -21,9 +24,12 @@
     "country_code": "IQ",
     "latitude": "32.77872000",
     "longitude": "44.29005000",
-    "native": null,
+    "native": "المسيب",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 57300,
+    "wikiDataId": "Q4120374"
   },
   {
     "id": 134516,
@@ -34,9 +40,12 @@
     "country_code": "IQ",
     "latitude": "32.29799000",
     "longitude": "44.68282000",
-    "native": null,
+    "native": "الإمام القاسم",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 36992,
+    "wikiDataId": "Q4119531"
   },
   {
     "id": 134531,
@@ -47,8 +56,11 @@
     "country_code": "IQ",
     "latitude": "32.71557000",
     "longitude": "44.27857000",
-    "native": null,
+    "native": "ناحية السادات الهندية",
     "timezone": "Asia/Baghdad",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 30622,
+    "wikiDataId": "Q4404528"
   }
 ]

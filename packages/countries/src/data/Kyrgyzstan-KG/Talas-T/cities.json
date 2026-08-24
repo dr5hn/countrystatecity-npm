@@ -8,9 +8,12 @@
     "country_code": "KG",
     "latitude": "42.50000000",
     "longitude": "71.41667000",
-    "native": null,
+    "native": "Кара-Бууринский району",
     "timezone": "Asia/Bishkek",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q793916"
   },
   {
     "id": 64925,
@@ -21,9 +24,12 @@
     "country_code": "KG",
     "latitude": "42.52277000",
     "longitude": "72.24274000",
-    "native": null,
+    "native": "Талас",
     "timezone": "Asia/Bishkek",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 32886,
+    "wikiDataId": "Q643955"
   },
   {
     "id": 64926,
@@ -34,8 +40,11 @@
     "country_code": "KG",
     "latitude": "42.18647000",
     "longitude": "72.69408000",
-    "native": null,
+    "native": "Талас району",
     "timezone": "Asia/Bishkek",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q793902"
   }
 ]

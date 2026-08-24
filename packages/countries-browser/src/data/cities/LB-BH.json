@@ -8,9 +8,12 @@
     "country_code": "LB",
     "latitude": "34.00583000",
     "longitude": "36.21806000",
-    "native": null,
+    "native": "بعلبك",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 30916,
+    "wikiDataId": "Q178835"
   },
   {
     "id": 65941,
@@ -21,8 +24,11 @@
     "country_code": "LB",
     "latitude": "34.09822000",
     "longitude": "36.27157000",
-    "native": null,
+    "native": "قضاء بعلبك",
     "timezone": "Asia/Beirut",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q782804"
   }
 ]

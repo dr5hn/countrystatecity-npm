@@ -8,9 +8,12 @@
     "country_code": "VE",
     "latitude": "8.59310000",
     "longitude": "-70.22610000",
-    "native": null,
+    "native": "Alto Barinas",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 284289,
+    "wikiDataId": "Q433758"
   },
   {
     "id": 130045,
@@ -21,9 +24,12 @@
     "country_code": "VE",
     "latitude": "8.62261000",
     "longitude": "-70.20749000",
-    "native": null,
+    "native": "Barinas",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 873962,
+    "wikiDataId": "Q695623"
   },
   {
     "id": 130046,
@@ -34,9 +40,12 @@
     "country_code": "VE",
     "latitude": "8.76171000",
     "longitude": "-70.41199000",
-    "native": null,
+    "native": "Barinita",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 51556,
+    "wikiDataId": "Q2884528"
   },
   {
     "id": 130111,
@@ -47,8 +56,11 @@
     "country_code": "VE",
     "latitude": "8.61497000",
     "longitude": "-70.19852000",
-    "native": null,
+    "native": "Municipio Barinas",
     "timezone": "America/Caracas",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 353851,
+    "wikiDataId": "Q2884525"
   }
 ]

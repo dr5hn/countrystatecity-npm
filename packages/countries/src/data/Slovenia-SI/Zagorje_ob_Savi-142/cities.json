@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.15000000",
     "longitude": "14.95000000",
-    "native": null,
+    "native": "Izlake",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1152,
+    "wikiDataId": "Q1753813"
   },
   {
     "id": 104136,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.13911000",
     "longitude": "14.96295000",
-    "native": null,
+    "native": "Kisovec",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1717,
+    "wikiDataId": "Q2059110"
   },
   {
     "id": 104325,
@@ -34,8 +40,11 @@
     "country_code": "SI",
     "latitude": "46.13179000",
     "longitude": "14.99694000",
-    "native": null,
+    "native": "Zagorje ob Savi",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 6023,
+    "wikiDataId": "Q15930"
   }
 ]

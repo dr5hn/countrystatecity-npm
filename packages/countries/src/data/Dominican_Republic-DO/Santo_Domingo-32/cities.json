@@ -8,9 +8,12 @@
     "country_code": "DO",
     "latitude": "18.45000000",
     "longitude": "-69.60000000",
-    "native": null,
+    "native": "Boca Chica",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 46300,
+    "wikiDataId": "Q888935"
   },
   {
     "id": 31198,
@@ -21,9 +24,12 @@
     "country_code": "DO",
     "latitude": "18.48847000",
     "longitude": "-69.85707000",
-    "native": null,
+    "native": "Santo Domingo Este",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 948855,
+    "wikiDataId": "Q2713354"
   },
   {
     "id": 31199,
@@ -34,8 +40,11 @@
     "country_code": "DO",
     "latitude": "18.50000000",
     "longitude": "-70.00000000",
-    "native": null,
+    "native": "Santo Sunday West",
     "timezone": "America/Santo_Domingo",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 701269,
+    "wikiDataId": "Q3949488"
   }
 ]

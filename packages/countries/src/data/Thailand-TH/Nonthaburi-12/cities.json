@@ -8,9 +8,12 @@
     "country_code": "TH",
     "latitude": "13.92641000",
     "longitude": "100.39360000",
-    "native": null,
+    "native": "อำเภอบางบัวทอง",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475194"
   },
   {
     "id": 105230,
@@ -21,9 +24,12 @@
     "country_code": "TH",
     "latitude": "13.80249000",
     "longitude": "100.41525000",
-    "native": null,
+    "native": "อำเภอบางกรวย",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 13553,
+    "wikiDataId": "Q475212"
   },
   {
     "id": 105246,
@@ -34,9 +40,12 @@
     "country_code": "TH",
     "latitude": "13.85385000",
     "longitude": "100.37318000",
-    "native": null,
+    "native": "อำเภอบางใหญ่",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475263"
   },
   {
     "id": 105563,
@@ -47,9 +56,12 @@
     "country_code": "TH",
     "latitude": "13.85581000",
     "longitude": "100.49264000",
-    "native": null,
+    "native": "อำเภอเมือง นนทบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 190272,
+    "wikiDataId": "Q476050"
   },
   {
     "id": 105703,
@@ -60,9 +72,12 @@
     "country_code": "TH",
     "latitude": "13.91626000",
     "longitude": "100.50397000",
-    "native": null,
+    "native": "อำเภอปากเกร็ด",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 190272,
+    "wikiDataId": "Q476330"
   },
   {
     "id": 106423,
@@ -73,9 +88,12 @@
     "country_code": "TH",
     "latitude": "13.91783000",
     "longitude": "100.42403000",
-    "native": null,
+    "native": "บางบัวทอง",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 50141,
+    "wikiDataId": "Q15199201"
   },
   {
     "id": 106431,
@@ -86,9 +104,12 @@
     "country_code": "TH",
     "latitude": "13.80500000",
     "longitude": "100.47283000",
-    "native": null,
+    "native": "บางกรวย",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 78305,
+    "wikiDataId": "Q15199204"
   },
   {
     "id": 106447,
@@ -99,9 +120,12 @@
     "country_code": "TH",
     "latitude": "13.84341000",
     "longitude": "100.36251000",
-    "native": null,
+    "native": "บางใหญ่",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 14012,
+    "wikiDataId": "Q13025232"
   },
   {
     "id": 106573,
@@ -112,9 +136,12 @@
     "country_code": "TH",
     "latitude": "13.86075000",
     "longitude": "100.51477000",
-    "native": null,
+    "native": "เมือง นนทบุรี",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 254375,
+    "wikiDataId": "Q768864"
   },
   {
     "id": 106610,
@@ -125,9 +152,12 @@
     "country_code": "TH",
     "latitude": "13.91301000",
     "longitude": "100.49883000",
-    "native": null,
+    "native": "ปากเกร็ด",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 184501,
+    "wikiDataId": "Q3360716"
   },
   {
     "id": 105824,
@@ -138,8 +168,11 @@
     "country_code": "TH",
     "latitude": "14.00627000",
     "longitude": "100.31072000",
-    "native": null,
+    "native": "อำเภอไทรน้อย",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 0,
+    "wikiDataId": "Q476588"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "CO",
     "latitude": "12.58231690",
     "longitude": "-81.69261410",
-    "native": null,
+    "native": "Providencia",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 11699,
+    "wikiDataId": "Q3408299"
   },
   {
     "id": 21331,
@@ -21,8 +24,11 @@
     "country_code": "CO",
     "latitude": "12.53759790",
     "longitude": "-81.72041550",
-    "native": null,
+    "native": "San Andrés",
     "timezone": "America/Bogota",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 7367,
+    "wikiDataId": "Q134678"
   }
 ]

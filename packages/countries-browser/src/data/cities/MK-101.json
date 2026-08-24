@@ -8,9 +8,12 @@
     "country_code": "MK",
     "latitude": "41.68583000",
     "longitude": "21.73475000",
-    "native": null,
+    "native": "Горно Оризари",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1999,
+    "wikiDataId": "Q20932132"
   },
   {
     "id": 67442,
@@ -21,9 +24,12 @@
     "country_code": "MK",
     "latitude": "41.84889000",
     "longitude": "21.82028000",
-    "native": null,
+    "native": "Иванковци",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1009,
+    "wikiDataId": "Q3072906"
   },
   {
     "id": 67551,
@@ -34,8 +40,11 @@
     "country_code": "MK",
     "latitude": "41.71556000",
     "longitude": "21.77556000",
-    "native": null,
+    "native": "Велес",
     "timezone": "Europe/Skopje",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 40664,
+    "wikiDataId": "Q157050"
   }
 ]

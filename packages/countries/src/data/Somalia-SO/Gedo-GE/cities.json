@@ -8,9 +8,12 @@
     "country_code": "SO",
     "latitude": "2.34464000",
     "longitude": "42.27644000",
-    "native": null,
+    "native": "Baardheere",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 42240,
+    "wikiDataId": "Q383218"
   },
   {
     "id": 104797,
@@ -21,9 +24,12 @@
     "country_code": "SO",
     "latitude": "3.32892000",
     "longitude": "42.22091000",
-    "native": null,
+    "native": "Garbahaarrey",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 12652,
+    "wikiDataId": "Q1017167"
   },
   {
     "id": 104807,
@@ -34,8 +40,11 @@
     "country_code": "SO",
     "latitude": "3.80315000",
     "longitude": "42.54417000",
-    "native": null,
+    "native": "Luuq",
     "timezone": "Africa/Mogadishu",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 33820,
+    "wikiDataId": "Q1878274"
   }
 ]

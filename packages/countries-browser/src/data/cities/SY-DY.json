@@ -8,9 +8,12 @@
     "country_code": "SY",
     "latitude": "35.01982000",
     "longitude": "40.45154000",
-    "native": null,
+    "native": "الميادين",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 54534,
+    "wikiDataId": "Q310895"
   },
   {
     "id": 105066,
@@ -21,9 +24,12 @@
     "country_code": "SY",
     "latitude": "34.45226000",
     "longitude": "40.91854000",
-    "native": null,
+    "native": "ألبو كمال",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 57572,
+    "wikiDataId": "Q152828"
   },
   {
     "id": 104993,
@@ -34,9 +40,12 @@
     "country_code": "SY",
     "latitude": "35.33588000",
     "longitude": "40.14084000",
-    "native": null,
+    "native": "دير الزور",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 271800,
+    "wikiDataId": "Q239097"
   },
   {
     "id": 104997,
@@ -47,9 +56,12 @@
     "country_code": "SY",
     "latitude": "34.69508000",
     "longitude": "40.83138000",
-    "native": null,
+    "native": "هجين",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 29237,
+    "wikiDataId": "Q5639989"
   },
   {
     "id": 105051,
@@ -60,8 +72,11 @@
     "country_code": "SY",
     "latitude": "34.85305000",
     "longitude": "40.59987000",
-    "native": null,
+    "native": "سبيخان",
     "timezone": "Asia/Damascus",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 25514,
+    "wikiDataId": "Q7645373"
   }
 ]

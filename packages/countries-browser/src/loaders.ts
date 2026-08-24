@@ -3,7 +3,7 @@
  * Uses fetch API to load JSON from jsDelivr CDN with LRU caching
  */
 
-import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion } from './types';
+import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion, IDataVersion } from './types';
 import { getConfig } from './config';
 import { fetchJSON } from './fetcher';
 import { LRUCache } from './cache';
@@ -58,6 +58,15 @@ export async function getRegions(): Promise<IRegion[]> {
  */
 export async function getSubregions(): Promise<ISubregion[]> {
   return loadCached<ISubregion[]>('subregions.json');
+}
+
+/**
+ * Get the source-data release this package's data was generated from.
+ * Never loads country, state, or city data — only the small version.json file.
+ * @returns The data version info
+ */
+export async function getDataVersion(): Promise<IDataVersion> {
+  return loadCached<IDataVersion>('version.json');
 }
 
 /**

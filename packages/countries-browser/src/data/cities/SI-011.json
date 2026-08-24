@@ -8,9 +8,12 @@
     "country_code": "SI",
     "latitude": "46.23092000",
     "longitude": "15.26044000",
-    "native": null,
+    "native": "Celje",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 37122,
+    "wikiDataId": "Q1012"
   },
   {
     "id": 104168,
@@ -21,9 +24,12 @@
     "country_code": "SI",
     "latitude": "46.25567000",
     "longitude": "15.32430000",
-    "native": null,
+    "native": "Ljubečna",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1141,
+    "wikiDataId": "Q3438923"
   },
   {
     "id": 104299,
@@ -34,8 +40,11 @@
     "country_code": "SI",
     "latitude": "46.25667000",
     "longitude": "15.29528000",
-    "native": null,
+    "native": "Trnovlje pri Celju",
     "timezone": "Europe/Ljubljana",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1409,
+    "wikiDataId": "Q2019579"
   }
 ]

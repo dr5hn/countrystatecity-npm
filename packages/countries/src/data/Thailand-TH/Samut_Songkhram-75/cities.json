@@ -8,9 +8,12 @@
     "country_code": "TH",
     "latitude": "13.36721000",
     "longitude": "99.91232000",
-    "native": null,
+    "native": "อำเภออัมพวา",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475066"
   },
   {
     "id": 105227,
@@ -21,9 +24,12 @@
     "country_code": "TH",
     "latitude": "13.47448000",
     "longitude": "99.94838000",
-    "native": null,
+    "native": "อำเภอบางคนที",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": null,
+    "wikiDataId": "Q475203"
   },
   {
     "id": 105586,
@@ -34,9 +40,12 @@
     "country_code": "TH",
     "latitude": "13.39587000",
     "longitude": "99.99929000",
-    "native": null,
+    "native": "อำเภอเมืองสมุทรสงคราม",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "district",
+    "population": 35065,
+    "wikiDataId": "Q476081"
   },
   {
     "id": 106682,
@@ -47,8 +56,11 @@
     "country_code": "TH",
     "latitude": "13.41456000",
     "longitude": "100.00264000",
-    "native": null,
+    "native": "สมุทรสงคราม",
     "timezone": "Asia/Bangkok",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 28493,
+    "wikiDataId": "Q1361155"
   }
 ]

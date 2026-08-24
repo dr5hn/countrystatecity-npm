@@ -8,9 +8,12 @@
     "country_code": "RW",
     "latitude": "-2.48460000",
     "longitude": "28.90750000",
-    "native": null,
+    "native": "Cyangugu",
     "timezone": "Africa/Kigali",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 43866,
+    "wikiDataId": "Q782857"
   },
   {
     "id": 102796,
@@ -21,9 +24,12 @@
     "country_code": "RW",
     "latitude": "-1.70278000",
     "longitude": "29.25639000",
-    "native": null,
+    "native": "Gisenyi",
     "timezone": "Africa/Kigali",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 172357,
+    "wikiDataId": "Q830631"
   },
   {
     "id": 102799,
@@ -34,8 +40,11 @@
     "country_code": "RW",
     "latitude": "-2.06028000",
     "longitude": "29.34778000",
-    "native": null,
+    "native": "Kibuye",
     "timezone": "Africa/Kigali",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 48024,
+    "wikiDataId": "Q617032"
   }
 ]

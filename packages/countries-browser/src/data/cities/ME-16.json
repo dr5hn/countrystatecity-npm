@@ -8,9 +8,12 @@
     "country_code": "ME",
     "latitude": "42.33222000",
     "longitude": "19.21194000",
-    "native": null,
+    "native": "Горизијци",
     "timezone": "Europe/Podgorica",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1205,
+    "wikiDataId": "Q1190698"
   },
   {
     "id": 67357,
@@ -21,9 +24,12 @@
     "country_code": "ME",
     "latitude": "42.34167000",
     "longitude": "19.22139000",
-    "native": null,
+    "native": "Мојановић",
     "timezone": "Europe/Podgorica",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 1800,
+    "wikiDataId": "Q3182910"
   },
   {
     "id": 67364,
@@ -34,8 +40,11 @@
     "country_code": "ME",
     "latitude": "42.44111000",
     "longitude": "19.26361000",
-    "native": null,
+    "native": "Подгорица",
     "timezone": "Europe/Podgorica",
-    "translations": {}
+    "translations": {},
+    "type": "capital",
+    "population": 236852,
+    "wikiDataId": "Q23564"
   }
 ]

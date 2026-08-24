@@ -8,6 +8,7 @@ import {
   getCityById,
   getRegions,
   getSubregions,
+  getDataVersion,
 } from '../../src/loaders';
 
 describe('Data Loaders', () => {
@@ -159,6 +160,26 @@ describe('Data Loaders', () => {
     it('should link each subregion to a region_id', async () => {
       const subregions = await getSubregions();
       expect(subregions.every((s) => typeof s.region_id === 'number')).toBe(true);
+    });
+  });
+
+  describe('getDataVersion', () => {
+    it('should return the expected shape', async () => {
+      const version = await getDataVersion();
+      // Real, weekly-refreshed data — assert structure/pattern, not literal values.
+      expect(version.dataVersion).toMatch(/^.+-\d{4}\.\d{2}\.\d{2}$/);
+      expect(typeof version.sourceRelease).toBe('string');
+      expect(typeof version.updatedAt).toBe('string');
+      expect(version.recordCounts).toMatchObject({
+        countries: expect.any(Number),
+        states: expect.any(Number),
+        cities: expect.any(Number),
+      });
+    });
+
+    it('should embed the source release inside dataVersion', async () => {
+      const version = await getDataVersion();
+      expect(version.dataVersion.startsWith(version.sourceRelease)).toBe(true);
     });
   });
 });

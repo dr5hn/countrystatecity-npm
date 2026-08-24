@@ -8,9 +8,12 @@
     "country_code": "TR",
     "latitude": "36.67417000",
     "longitude": "37.46667000",
-    "native": null,
+    "native": "Elbeyli",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 2274,
+    "wikiDataId": "Q174060"
   },
   {
     "id": 107997,
@@ -21,9 +24,12 @@
     "country_code": "TR",
     "latitude": "36.71611000",
     "longitude": "37.11500000",
-    "native": null,
+    "native": "Merkez",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q206881"
   },
   {
     "id": 108228,
@@ -34,9 +40,12 @@
     "country_code": "TR",
     "latitude": "36.88639000",
     "longitude": "36.91861000",
-    "native": null,
+    "native": "Et",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 1938,
+    "wikiDataId": "Q1029774"
   },
   {
     "id": 108345,
@@ -47,8 +56,11 @@
     "country_code": "TR",
     "latitude": "36.83694000",
     "longitude": "37.15083000",
-    "native": null,
+    "native": "Polateli",
     "timezone": "Europe/Istanbul",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 5361,
+    "wikiDataId": "Q1018509"
   }
 ]

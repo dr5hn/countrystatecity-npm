@@ -8,9 +8,12 @@
     "country_code": "KP",
     "latitude": "38.24306000",
     "longitude": "125.78000000",
-    "native": null,
+    "native": "아양리",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q196236"
   },
   {
     "id": 65185,
@@ -21,9 +24,12 @@
     "country_code": "KP",
     "latitude": "38.39917000",
     "longitude": "125.61556000",
-    "native": null,
+    "native": "채령읍",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 53330,
+    "wikiDataId": "Q196236"
   },
   {
     "id": 65187,
@@ -34,9 +40,12 @@
     "country_code": "KP",
     "latitude": "38.25083000",
     "longitude": "125.09611000",
-    "native": null,
+    "native": "창연",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 39368,
+    "wikiDataId": "Q707395"
   },
   {
     "id": 65193,
@@ -47,9 +56,12 @@
     "country_code": "KP",
     "latitude": "38.04056000",
     "longitude": "125.71472000",
-    "native": null,
+    "native": "해주",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 241599,
+    "wikiDataId": "Q714865"
   },
   {
     "id": 65206,
@@ -60,9 +72,12 @@
     "country_code": "KP",
     "latitude": "37.97083000",
     "longitude": "126.55444000",
-    "native": null,
+    "native": "개성",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 308440,
+    "wikiDataId": "Q489829"
   },
   {
     "id": 65226,
@@ -73,9 +88,12 @@
     "country_code": "KP",
     "latitude": "37.93472000",
     "longitude": "125.36194000",
-    "native": null,
+    "native": "옹진",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 64247,
+    "wikiDataId": "Q109386"
   },
   {
     "id": 65232,
@@ -86,9 +104,12 @@
     "country_code": "KP",
     "latitude": "38.04750000",
     "longitude": "125.55667000",
-    "native": null,
+    "native": "벽성읍",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 12937,
+    "wikiDataId": "Q109386"
   },
   {
     "id": 65256,
@@ -99,8 +120,11 @@
     "country_code": "KP",
     "latitude": "37.90889000",
     "longitude": "126.16111000",
-    "native": null,
+    "native": "연안읍",
     "timezone": "Asia/Pyongyang",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 22665,
+    "wikiDataId": "Q109374"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "GB",
     "latitude": "51.41334000",
     "longitude": "-0.36701000",
-    "native": null,
+    "native": "Hampton",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 18000,
+    "wikiDataId": "Q766353"
   },
   {
     "id": 50180,
@@ -21,9 +24,12 @@
     "country_code": "GB",
     "latitude": "51.41259000",
     "longitude": "-0.29740000",
-    "native": null,
+    "native": "Kingston upon Thames",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 10001,
+    "wikiDataId": "Q2321706"
   },
   {
     "id": 51567,
@@ -34,9 +40,12 @@
     "country_code": "GB",
     "latitude": "51.42233000",
     "longitude": "-0.33053000",
-    "native": null,
+    "native": "Teddington",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 9615,
+    "wikiDataId": "Q2281721"
   },
   {
     "id": 51829,
@@ -47,8 +56,11 @@
     "country_code": "GB",
     "latitude": "51.39985000",
     "longitude": "-0.37997000",
-    "native": null,
+    "native": "West Molesey",
     "timezone": "Europe/London",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 18565,
+    "wikiDataId": "Q2343199"
   }
 ]

@@ -8,9 +8,12 @@
     "country_code": "RS",
     "latitude": "44.53995000",
     "longitude": "19.42418000",
-    "native": null,
+    "native": "Јаребице",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "locality",
+    "population": 1549,
+    "wikiDataId": "Q2435677"
   },
   {
     "id": 97258,
@@ -21,9 +24,12 @@
     "country_code": "RS",
     "latitude": "43.72583000",
     "longitude": "20.68944000",
-    "native": null,
+    "native": "Краљево",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm2",
+    "population": 66688,
+    "wikiDataId": "Q206317"
   },
   {
     "id": 97314,
@@ -34,9 +40,12 @@
     "country_code": "RS",
     "latitude": "43.13667000",
     "longitude": "20.51222000",
-    "native": null,
+    "native": "Нови Пазар",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 85996,
+    "wikiDataId": "Q202453"
   },
   {
     "id": 97361,
@@ -47,9 +56,12 @@
     "country_code": "RS",
     "latitude": "43.26694000",
     "longitude": "20.65278000",
-    "native": null,
+    "native": "Рашка",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4,
+    "wikiDataId": "Q2500624"
   },
   {
     "id": 97418,
@@ -60,9 +72,12 @@
     "country_code": "RS",
     "latitude": "42.99028000",
     "longitude": "20.33139000",
-    "native": null,
+    "native": "Тутин",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 4,
+    "wikiDataId": "Q2043118"
   },
   {
     "id": 97443,
@@ -73,8 +88,11 @@
     "country_code": "RS",
     "latitude": "43.62725000",
     "longitude": "20.89634000",
-    "native": null,
+    "native": "Врњачка Бања",
     "timezone": "Europe/Belgrade",
-    "translations": {}
+    "translations": {},
+    "type": "adm3",
+    "population": 10207,
+    "wikiDataId": "Q2047443"
   }
 ]

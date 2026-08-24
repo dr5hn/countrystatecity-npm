@@ -8,9 +8,12 @@
     "country_code": "NZ",
     "latitude": "-41.51603000",
     "longitude": "173.95280000",
-    "native": null,
+    "native": "Blenheim",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "adm1",
+    "population": 28200,
+    "wikiDataId": "Q883831"
   },
   {
     "id": 79860,
@@ -21,8 +24,11 @@
     "country_code": "NZ",
     "latitude": "-41.29067000",
     "longitude": "174.00801000",
-    "native": null,
+    "native": "Picton",
     "timezone": "Pacific/Auckland",
-    "translations": {}
+    "translations": {},
+    "type": "city",
+    "population": 4730,
+    "wikiDataId": "Q1362879"
   }
 ]
