@@ -2,20 +2,21 @@ import { Command } from 'commander';
 import chalk from 'chalk';
 import open from 'open';
 import { getApiKey } from '../lib/config.js';
-import { validateKey } from '../lib/api.js';
+import { validateKey, getPlans, type Plan } from '../lib/api.js';
 import { getTierName, printUsageFooter } from '../lib/usage-footer.js';
 import { printTable } from '../lib/display.js';
 import { createSpinner, type GlobalFlags } from '../lib/output.js';
 import { CLI_TRACKING_PARAMS } from '../lib/tracking.js';
 
-/** Plan definitions for the upgrade table and JSON output. */
-const PLANS = [
-  { name: 'Community', price: 'Free', daily: 100, monthly: 3000 },
-  { name: 'Starter', price: '$5/mo', daily: 300, monthly: 9000 },
-  { name: 'Supporter', price: '$9/mo', daily: 1000, monthly: 30000 },
-  { name: 'Professional', price: '$29/mo', daily: 3300, monthly: 100000 },
-  { name: 'Business', price: '$79/mo', daily: 25000, monthly: 750000 },
-];
+function formatPrice(plan: Plan): string {
+  if (plan.priceMonthly === null) return '—';
+  const monthly = Number(plan.priceMonthly);
+  return monthly > 0 ? `$${monthly}/mo` : 'Free';
+}
+
+function formatLimit(limit: number | null): string {
+  return limit === null ? '—' : limit.toLocaleString('en-US');
+}
 
 /**
  * Registers the upgrade command — shows plan comparison and opens pricing page.
@@ -32,6 +33,10 @@ export function registerUpgradeCommand(program: Command): void {
         noFooter: globalOpts.footer === false,
       };
 
+      const plansSpinner = await createSpinner('Fetching current plans...', flags);
+      const plans = await getPlans();
+      plansSpinner.stop();
+
       let usage = null;
       let currentPlan: string | undefined;
       const key = getApiKey();
@@ -47,7 +52,7 @@ export function registerUpgradeCommand(program: Command): void {
       }
 
       if (flags.json) {
-        const output: Record<string, unknown> = { plans: PLANS };
+        const output: Record<string, unknown> = { plans };
         if (currentPlan) output.currentPlan = currentPlan;
         process.stdout.write(JSON.stringify(output) + '\n');
         return;
@@ -59,18 +64,19 @@ export function registerUpgradeCommand(program: Command): void {
 
       console.log('Available plans:\n');
       printTable(
-        ['Plan', 'Price', 'Daily', 'Monthly'],
-        PLANS.map((p) => [
-          p.name,
-          p.price,
-          p.daily.toLocaleString('en-US'),
-          p.monthly.toLocaleString('en-US'),
+        ['Plan', 'Price', 'Daily', 'Monthly', 'Highlights'],
+        plans.map((p) => [
+          p.highlighted ? `${p.name} ${chalk.dim('(' + (p.badges[0] ?? 'Popular') + ')')}` : p.name,
+          formatPrice(p),
+          formatLimit(p.dailyLimit),
+          formatLimit(p.monthlyLimit),
+          p.features[0] ?? '',
         ])
       );
 
       printUsageFooter(usage, flags);
 
       console.log(`\n${chalk.dim('Opening pricing page...')}`);
-      await open(`https://app.countrystatecity.in/pricing?${CLI_TRACKING_PARAMS}`);
+      await open(`https://countrystatecity.in/pricing?${CLI_TRACKING_PARAMS}`);
     });
 }
