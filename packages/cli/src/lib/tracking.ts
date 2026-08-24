@@ -5,4 +5,4 @@
  * allowlist there exactly (see specs/06-conversion-analytics.md) — anything
  * else is silently dropped, never rejected.
  */
-export const CLI_TRACKING_PARAMS = 'source=cli&campaign=sdk_api_migration';
+export const CLI_TRACKING_PARAMS = 'source=cli&campaign=sdk_api_migration&package=cli';

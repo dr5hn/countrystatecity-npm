@@ -62,7 +62,7 @@ describe('upgrade command', () => {
     await program.parseAsync(['node', 'csc', 'upgrade']);
 
     expect(logSpy).toHaveBeenCalledWith(expect.stringContaining('Supporter'));
-    expect(open).toHaveBeenCalledWith('https://app.countrystatecity.in/pricing?source=cli&campaign=sdk_api_migration');
+    expect(open).toHaveBeenCalledWith('https://app.countrystatecity.in/pricing?source=cli&campaign=sdk_api_migration&package=cli');
   });
 
   it('shows plans without current plan when unauthenticated', async () => {
@@ -81,6 +81,6 @@ describe('upgrade command', () => {
 
     await program.parseAsync(['node', 'csc', 'upgrade']);
 
-    expect(open).toHaveBeenCalledWith('https://app.countrystatecity.in/pricing?source=cli&campaign=sdk_api_migration');
+    expect(open).toHaveBeenCalledWith('https://app.countrystatecity.in/pricing?source=cli&campaign=sdk_api_migration&package=cli');
   });
 });
