@@ -162,6 +162,34 @@ export function assertSearchParams(params: { limit?: number; threshold?: number 
   }
 }
 
+/**
+ * Autocomplete shares fuzzy search's 1-50 limit range, plus its own
+ * cross-field checks (mirrors the real API's zod `.refine()` calls).
+ * `state` has no character-class restriction server-side (unlike
+ * `assertStateCode`'s 8-char alphanumeric rule for path-segment state
+ * codes) — only a 1-20 length bound — so it's checked here, not via
+ * `assertStateCode`.
+ */
+export function assertAutocompleteParams(params: { query: unknown; type?: string; country?: string; state?: unknown; limit?: number }): void {
+  const query = typeof params.query === 'string' ? params.query.trim() : '';
+  if (query.length < 2 || query.length > 100) {
+    fail(`query must be between 2 and 100 characters, got ${JSON.stringify(params.query)}`, 'query', params.query, 'out_of_range');
+  }
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 50)) {
+    fail(`limit must be an integer between 1 and 50, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+  if (params.type === 'country' && params.country !== undefined) {
+    fail('country is not a valid filter when type is "country"', 'country', params.country, 'invalid_with_type_country');
+  }
+  if (params.state !== undefined && (typeof params.state !== 'string' || params.state.trim().length < 1 || params.state.trim().length > 20)) {
+    fail(`state must be 1-20 characters, got ${JSON.stringify(params.state)}`, 'state', params.state, 'out_of_range');
+  }
+  assertRequiredWith(params.state, 'state', params.country, 'country');
+  if (params.state !== undefined && (params.type ?? 'city') !== 'city') {
+    fail('state is only a valid filter when type="city"', 'state', params.state, 'invalid_with_type');
+  }
+}
+
 /** Cross-field check: `dependentField` may only be set when `requiredField` is also set. */
 export function assertRequiredWith(
   dependentValue: unknown,

@@ -55,6 +55,23 @@ export interface ISearchParams {
   threshold?: number;
 }
 
+/**
+ * Autocomplete shares fuzzy search's 1-50 limit range (default 10) but has
+ * no threshold param — ranking is dominated by exact/starts-with/fuzzy
+ * tiering server-side, not a tunable similarity cutoff. `state` requires
+ * `country` (state codes aren't globally unique); `country` is invalid
+ * when `type` is `'country'` — both enforced server-side and mirrored
+ * client-side for a fast-fail. No `kind`/`language` yet — both deferred
+ * server-side too (Task 02/Task 12).
+ */
+export interface IAutocompleteParams {
+  query: string;
+  type?: SearchResultType;
+  country?: string;
+  state?: string;
+  limit?: number;
+}
+
 export interface IIsoLookupParams {
   iso2?: string;
   iso3?: string;

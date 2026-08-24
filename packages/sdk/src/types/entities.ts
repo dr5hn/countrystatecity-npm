@@ -144,6 +144,40 @@ export interface ICitySearchResult extends Partial<ICity>, ISearchMatchMeta {
 
 export type ISearchResult = ICountrySearchResult | IStateSearchResult | ICitySearchResult;
 
+export type AutocompleteMatchedField = 'name' | 'native';
+
+/**
+ * Fields every autocomplete hit carries in addition to the matched entity's
+ * own fields. Unlike `csc.search.fuzzy()`'s results, `country_name`/
+ * `state_name` are NOT included separately — they're folded into `label`
+ * server-side instead (e.g. "Bangalore, Karnataka, India").
+ */
+export interface IAutocompleteMatchMeta {
+  label: string;
+  match_score: number;
+  matched_field: AutocompleteMatchedField;
+}
+
+export interface ICountryAutocompleteResult extends Partial<ICountry>, IAutocompleteMatchMeta {
+  type: 'country';
+}
+
+export interface IStateAutocompleteResult extends Partial<IState>, IAutocompleteMatchMeta {
+  type: 'state';
+}
+
+export interface ICityAutocompleteResult
+  extends Omit<Partial<ICity>, 'country_code' | 'state_code'>,
+    IAutocompleteMatchMeta {
+  type: 'city';
+  /** Always present regardless of plan tier — unlike most city fields, not tier-gated. */
+  country_code: string;
+  /** null for cities with no state subdivision on record. */
+  state_code: string | null;
+}
+
+export type IAutocompleteResult = ICountryAutocompleteResult | IStateAutocompleteResult | ICityAutocompleteResult;
+
 export interface IUsageSnapshot {
   dailyUsed: number;
   dailyLimit: number;
