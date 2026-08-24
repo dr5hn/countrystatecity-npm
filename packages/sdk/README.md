@@ -11,7 +11,7 @@ Need offline/bundled data instead of a live API call? See [`@countrystatecity/co
 
 ## ✨ Features
 
-- 📦 Typed resource groups: `countries`, `states`, `cities`, `regions`, `currencies`, `iso`, `phone`, `timezones`, `search`, `usage`, `changes`
+- 📦 Typed resource groups: `countries`, `states`, `cities`, `regions`, `currencies`, `iso`, `phone`, `timezones`, `search`, `usage`
 - 🪶 No runtime dependencies — built on native `fetch`, `URL`/`URLSearchParams`, `AbortController`
 - 🛡️ Structured errors (`AuthenticationError`, `ValidationError`, `FeatureRestrictedError`, `RateLimitError`, `NotFoundError`, `NetworkError`, `TimeoutError`) instead of generic exceptions
 - 🔁 Automatic retries with jittered backoff for transient failures, respecting `Retry-After`
@@ -79,13 +79,10 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.timezones` | `list()`, `byCountry(iso2)`, `convert({ time, from, to })` |
 | `csc.search` | `fuzzy({ query, type?, country?, limit?, threshold? })` — `type` defaults to `'city'`; results include `match_score`/`matched_alias` and a client-injected `type` field |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
-| `csc.changes` | `list({ since?, resource?, limit? })` — `@beta`, see note below |
 
 `csc.cities.list({ state })` requires `country` to also be set — a `ValidationError` is thrown client-side otherwise.
 
 `fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
-
-> **`changes` is `@beta`.** Endpoint availability isn't confirmed across all accounts/plans yet; calls may 404 until it ships on your account. It's typed now so upgrading later requires no SDK changes.
 
 ## 🛡️ Error handling
 
@@ -94,6 +91,7 @@ All errors extend `CSCError` (`message`, `statusCode`, `requestId`, `url`, `retr
 ```typescript
 import {
   AuthenticationError,
+  ForbiddenError,
   ValidationError,
   FeatureRestrictedError,
   RateLimitError,
@@ -109,11 +107,14 @@ try {
     console.error(`Bad input: ${err.field} — ${err.reason}`);
   } else if (err instanceof AuthenticationError) {
     console.error('Invalid or missing API key.');
+  } else if (err instanceof ForbiddenError) {
+    console.error('Request blocked by API-key domain or IP restrictions.');
   } else if (err instanceof FeatureRestrictedError) {
     console.error(`"${err.feature}" needs the ${err.requiredPlan} plan (you're on ${err.currentPlan}).`);
     console.error(`Upgrade: ${err.upgradeUrl}`);
   } else if (err instanceof RateLimitError) {
     console.error(`Rate limited (${err.scope}). Retry after ${err.retryAfter}s.`);
+    console.error(`Upgrade: ${err.upgradeUrl}`);
   } else if (err instanceof NotFoundError) {
     console.error(`${err.resource} "${err.identifier}" not found.`);
   } else if (err instanceof TimeoutError) {
@@ -195,7 +196,6 @@ import type {
   IConvertedTime,
   ISearchResult,
   IUsageSnapshot,
-  IChangeEvent,
 } from '@countrystatecity/sdk';
 ```
 

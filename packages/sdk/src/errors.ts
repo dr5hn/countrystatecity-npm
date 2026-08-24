@@ -41,6 +41,15 @@ export class AuthenticationError extends CSCError {
   }
 }
 
+/** 403 — request blocked for a non-plan reason such as origin or IP restrictions. */
+export class ForbiddenError extends CSCError {
+  constructor(message: string, opts: CSCErrorOptions = {}) {
+    super(message, opts);
+    this.name = 'ForbiddenError';
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
 /** Malformed input (caught client-side) or a 4xx validation response from the API. */
 export class ValidationError extends CSCError {
   readonly field?: string;
@@ -93,6 +102,8 @@ export class RateLimitError extends CSCError {
   readonly resetAt?: string;
   readonly retryAfter?: number;
   readonly scope?: 'daily' | 'monthly';
+  readonly tier?: string;
+  readonly upgradeUrl?: string;
 
   constructor(
     message: string,
@@ -102,6 +113,8 @@ export class RateLimitError extends CSCError {
       resetAt?: string;
       retryAfter?: number;
       scope?: 'daily' | 'monthly';
+      tier?: string;
+      upgradeUrl?: string;
     } = {},
   ) {
     super(message, opts);
@@ -111,6 +124,8 @@ export class RateLimitError extends CSCError {
     this.resetAt = opts.resetAt;
     this.retryAfter = opts.retryAfter;
     this.scope = opts.scope;
+    this.tier = opts.tier;
+    this.upgradeUrl = opts.upgradeUrl;
     Object.setPrototypeOf(this, new.target.prototype);
   }
 }

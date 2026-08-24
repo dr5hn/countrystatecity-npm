@@ -5,7 +5,7 @@
  * camelCase and snake_case variants are checked defensively.
  */
 
-import { AuthenticationError, ValidationError, FeatureRestrictedError, RateLimitError, NotFoundError, NetworkError, type CSCError } from '../errors';
+import { AuthenticationError, ForbiddenError, ValidationError, FeatureRestrictedError, RateLimitError, NotFoundError, NetworkError, type CSCError } from '../errors';
 
 function pick(body: unknown, ...keys: string[]): unknown {
   if (typeof body !== 'object' || body === null) return undefined;
@@ -14,6 +14,12 @@ function pick(body: unknown, ...keys: string[]): unknown {
     if (record[key] !== undefined) return record[key];
   }
   return undefined;
+}
+
+/** Reads a canonical field from `details`, falling back to legacy top-level envelopes. */
+function pickDetail(body: unknown, ...keys: string[]): unknown {
+  const details = pick(body, 'details');
+  return pick(details, ...keys) ?? pick(body, ...keys);
 }
 
 function messageFrom(body: unknown, fallback: string): string {
@@ -45,14 +51,19 @@ export function mapErrorResponse(input: MapErrorResponseInput): CSCError {
     case 401:
       return new AuthenticationError(messageFrom(body, 'Invalid or missing API key.'), opts);
 
-    case 403:
+    case 403: {
+      const feature = str(pickDetail(body, 'feature'));
+      if (!feature) {
+        return new ForbiddenError(messageFrom(body, 'This request is not allowed.'), opts);
+      }
       return new FeatureRestrictedError(messageFrom(body, 'This endpoint requires a higher plan.'), {
         ...opts,
-        feature: str(pick(body, 'feature')),
-        currentPlan: str(pick(body, 'currentPlan', 'current_plan')),
-        requiredPlan: str(pick(body, 'requiredPlan', 'required_plan')),
-        upgradeUrl: str(pick(body, 'upgradeUrl', 'upgrade_url')),
+        feature,
+        currentPlan: str(pickDetail(body, 'currentTier', 'currentPlan', 'current_tier', 'current_plan')),
+        requiredPlan: str(pickDetail(body, 'requiredTier', 'requiredPlan', 'required_tier', 'required_plan')),
+        upgradeUrl: str(pickDetail(body, 'upgradeUrl', 'upgrade_url')),
       });
+    }
 
     case 404:
       return new NotFoundError(messageFrom(body, 'The requested resource was not found.'), {
@@ -62,15 +73,17 @@ export function mapErrorResponse(input: MapErrorResponseInput): CSCError {
       });
 
     case 429: {
-      const scopeRaw = pick(body, 'scope');
+      const scopeRaw = pickDetail(body, 'period', 'scope');
       const scope = scopeRaw === 'daily' || scopeRaw === 'monthly' ? scopeRaw : undefined;
       return new RateLimitError(messageFrom(body, 'Rate limit exceeded.'), {
         ...opts,
-        limit: num(pick(body, 'limit')),
-        remaining: num(pick(body, 'remaining')),
-        resetAt: str(pick(body, 'resetAt', 'reset_at', 'reset')),
+        limit: num(pickDetail(body, 'limit')),
+        remaining: num(pickDetail(body, 'remaining')),
+        resetAt: str(pickDetail(body, 'resetAt', 'reset_at', 'reset')),
         retryAfter: retryAfterSeconds,
         scope,
+        tier: str(pickDetail(body, 'tier')),
+        upgradeUrl: str(pickDetail(body, 'upgradeUrl', 'upgrade_url')),
       });
     }
 
@@ -78,8 +91,8 @@ export function mapErrorResponse(input: MapErrorResponseInput): CSCError {
     case 422:
       return new ValidationError(messageFrom(body, 'The request was rejected as invalid.'), {
         ...opts,
-        field: str(pick(body, 'field')),
-        reason: str(pick(body, 'reason', 'code')),
+        field: str(pickDetail(body, 'field')),
+        reason: str(pickDetail(body, 'reason', 'code')),
       });
 
     default:

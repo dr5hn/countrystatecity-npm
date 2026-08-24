@@ -44,7 +44,7 @@ jobs:
         env:
           MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
         run: |
-          ALL="countries countries-browser timezones currencies translations phonecodes postalcodes geojson"
+          ALL="countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             PKGS="$ALL"
             echo "Manual dispatch — releasing all packages."

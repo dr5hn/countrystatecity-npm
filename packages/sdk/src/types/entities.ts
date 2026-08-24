@@ -151,14 +151,3 @@ export interface IUsageSnapshot {
   monthlyLimit: number;
   plan?: string;
 }
-
-export type ChangeResourceType = 'countries' | 'states' | 'cities';
-export type ChangeOperation = 'created' | 'updated' | 'deleted';
-
-export interface IChangeEvent {
-  id: string;
-  resource: ChangeResourceType;
-  operation: ChangeOperation;
-  resourceId: number;
-  occurredAt: string;
-}

@@ -1,7 +1,7 @@
 {
   "name": "@countrystatecity/sdk",
   "version": "0.1.0",
-  "description": "Official JS/TS client SDK for the CountryStateCity REST API — countries, states, cities, regions, currencies, phone codes, timezones, search, usage, and changes",
+  "description": "Official JS/TS client SDK for the CountryStateCity REST API — countries, states, cities, regions, currencies, phone codes, timezones, search, and usage",
   "keywords": [
     "country-state-city",
     "sdk",
@@ -66,5 +66,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }

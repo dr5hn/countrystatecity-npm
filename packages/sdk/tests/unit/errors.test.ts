@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   CSCError,
   AuthenticationError,
+  ForbiddenError,
   ValidationError,
   FeatureRestrictedError,
   RateLimitError,
@@ -14,6 +15,7 @@ describe('error hierarchy', () => {
   it('every subclass is an instanceof CSCError and Error, with the right name', () => {
     const cases: Array<[Error, string]> = [
       [new AuthenticationError('x'), 'AuthenticationError'],
+      [new ForbiddenError('x'), 'ForbiddenError'],
       [new ValidationError('x'), 'ValidationError'],
       [new FeatureRestrictedError('x'), 'FeatureRestrictedError'],
       [new RateLimitError('x'), 'RateLimitError'],
@@ -62,19 +64,23 @@ describe('error hierarchy', () => {
     expect(err.upgradeUrl).toBe('https://example.com/upgrade');
   });
 
-  it('RateLimitError carries limit/remaining/resetAt/retryAfter/scope', () => {
+  it('RateLimitError carries quota and upgrade details', () => {
     const err = new RateLimitError('slow down', {
       limit: 1000,
       remaining: 0,
       resetAt: '2026-08-13T00:00:00Z',
       retryAfter: 60,
       scope: 'daily',
+      tier: 'community',
+      upgradeUrl: 'https://app.countrystatecity.in/pricing',
     });
     expect(err.limit).toBe(1000);
     expect(err.remaining).toBe(0);
     expect(err.resetAt).toBe('2026-08-13T00:00:00Z');
     expect(err.retryAfter).toBe(60);
     expect(err.scope).toBe('daily');
+    expect(err.tier).toBe('community');
+    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
   });
 
   it('NotFoundError carries resource/identifier', () => {

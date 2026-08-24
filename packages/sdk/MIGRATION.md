@@ -1,11 +1,11 @@
 # Migrating from `@countrystatecity/countries`
 
-`@countrystatecity/countries` (and its browser counterpart, `@countrystatecity/countries-browser`) ship a bundled/CDN-hosted snapshot of the database — free, offline-capable, no API key, no network call. `@countrystatecity/sdk` instead calls the live REST API — quota-aware, always current, and covering endpoints (`search`, `usage`, `changes`, live currency/timezone/phone lookups) that don't exist in the local snapshot.
+`@countrystatecity/countries` (and its browser counterpart, `@countrystatecity/countries-browser`) ship a bundled/CDN-hosted snapshot of the database — free, offline-capable, no API key, no network call. `@countrystatecity/sdk` instead calls the live REST API — quota-aware, always current, and covering endpoints (`search`, `usage`, and live currency/timezone/phone lookups) that don't exist in the local snapshot.
 
 ## Why migrate
 
 - You need data more current than the weekly-updated local snapshot.
-- You need `search`, `usage`, or `changes`, which have no local-package equivalent.
+- You need `search` or `usage`, which have no local-package equivalent.
 - You're already calling the live API elsewhere and want one typed client instead of hand-rolled `fetch` calls.
 
 ## Why *not* to migrate
@@ -49,4 +49,4 @@ const { data: cities } = await csc.cities.list({ country: 'US', state: 'CA' });
 
 ## You can use both
 
-Nothing stops you from keeping `@countrystatecity/countries` for offline/bundled lookups and adding `@countrystatecity/sdk` only for the capabilities it uniquely provides (`search`, `usage`, `changes`, guaranteed-current data). They don't conflict.
+Nothing stops you from keeping `@countrystatecity/countries` for offline/bundled lookups and adding `@countrystatecity/sdk` only for the capabilities it uniquely provides (`search`, `usage`, guaranteed-current data). They don't conflict.

@@ -7,6 +7,7 @@ export { createCSCClient, CSCClient } from './client';
 export {
   CSCError,
   AuthenticationError,
+  ForbiddenError,
   ValidationError,
   FeatureRestrictedError,
   RateLimitError,
@@ -47,9 +48,6 @@ export type {
   ICitySearchResult,
   ISearchResult,
   IUsageSnapshot,
-  ChangeResourceType,
-  ChangeOperation,
-  IChangeEvent,
 } from './types/entities';
 
 export type {
@@ -59,7 +57,6 @@ export type {
   IListCitiesParams,
   ITimezoneConvertParams,
   ISearchParams,
-  IChangesParams,
   IIsoLookupParams,
 } from './types/params';
 
@@ -74,5 +71,4 @@ export {
   TimezonesResource,
   SearchResource,
   UsageResource,
-  ChangesResource,
 } from './resources';

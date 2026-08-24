@@ -2,7 +2,7 @@
  * Per-resource request parameter types for @countrystatecity/sdk.
  */
 
-import type { ChangeResourceType, SearchResultType } from './entities';
+import type { SearchResultType } from './entities';
 
 export interface IListParams {
   limit?: number;
@@ -53,11 +53,6 @@ export interface ISearchParams {
   limit?: number;
   /** Similarity threshold (0.1-1, default 0.3) — lower matches more loosely. */
   threshold?: number;
-}
-
-export interface IChangesParams extends IListParams {
-  since?: string;
-  resource?: ChangeResourceType;
 }
 
 export interface IIsoLookupParams {

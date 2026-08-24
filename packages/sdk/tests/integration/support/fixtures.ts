@@ -14,7 +14,6 @@ import type {
   IPhonecode,
   ITimezone,
   ICitySearchResult,
-  IChangeEvent,
 } from '../../../src/types/entities';
 
 export const INDIA: ICountry = {
@@ -130,14 +129,6 @@ export const MUMBAI_SEARCH_ROW = {
 export const MUMBAI_SEARCH_RESULT: ICitySearchResult = {
   ...MUMBAI_SEARCH_ROW,
   type: 'city',
-};
-
-export const SAMPLE_CHANGE_EVENT: IChangeEvent = {
-  id: 'chg_1',
-  resource: 'cities',
-  operation: 'updated',
-  resourceId: 132649,
-  occurredAt: '2026-08-01T00:00:00Z',
 };
 
 export const USAGE_HEADERS = {

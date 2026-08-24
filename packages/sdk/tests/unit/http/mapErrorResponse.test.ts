@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { mapErrorResponse } from '../../../src/http/mapErrorResponse';
 import {
   AuthenticationError,
+  ForbiddenError,
   ValidationError,
   FeatureRestrictedError,
   RateLimitError,
@@ -32,10 +33,31 @@ describe('mapErrorResponse', () => {
     expect(err.upgradeUrl).toBe('https://x/upgrade');
   });
 
+  it('403 -> FeatureRestrictedError from the canonical nested API envelope', () => {
+    const err = mapErrorResponse({
+      status: 403,
+      body: {
+        status: 'error',
+        message: 'upgrade required',
+        details: {
+          feature: 'searchEndpoint',
+          currentTier: 'community',
+          requiredTier: 'professional',
+          upgradeUrl: 'https://x/upgrade',
+        },
+      },
+      url,
+    }) as FeatureRestrictedError;
+    expect(err.feature).toBe('searchEndpoint');
+    expect(err.currentPlan).toBe('community');
+    expect(err.requiredPlan).toBe('professional');
+    expect(err.upgradeUrl).toBe('https://x/upgrade');
+  });
+
   it('403 -> FeatureRestrictedError, extracting snake_case fields', () => {
     const err = mapErrorResponse({
       status: 403,
-      body: { current_plan: 'free', required_plan: 'pro', upgrade_url: 'https://x/upgrade' },
+      body: { feature: 'search', current_plan: 'free', required_plan: 'pro', upgrade_url: 'https://x/upgrade' },
       url,
     }) as FeatureRestrictedError;
     expect(err.currentPlan).toBe('free');
@@ -43,9 +65,15 @@ describe('mapErrorResponse', () => {
     expect(err.upgradeUrl).toBe('https://x/upgrade');
   });
 
-  it('403 with no body falls back to the default pricing upgradeUrl', () => {
-    const err = mapErrorResponse({ status: 403, body: undefined, url }) as FeatureRestrictedError;
+  it('plan-gate 403 with no upgrade URL uses the default pricing URL', () => {
+    const err = mapErrorResponse({ status: 403, body: { details: { feature: 'fuzzySearch' } }, url }) as FeatureRestrictedError;
     expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+  });
+
+  it('non-plan 403 -> ForbiddenError without misleading upgrade advice', () => {
+    const err = mapErrorResponse({ status: 403, body: { status: 'error', message: 'Domain not allowed' }, url });
+    expect(err).toBeInstanceOf(ForbiddenError);
+    expect(err).not.toBeInstanceOf(FeatureRestrictedError);
   });
 
   it('404 -> NotFoundError', () => {
@@ -68,6 +96,39 @@ describe('mapErrorResponse', () => {
     expect(err.resetAt).toBe('2026-08-13T00:00:00Z');
     expect(err.scope).toBe('daily');
     expect(err.retryAfter).toBe(30);
+  });
+
+  it('429 -> RateLimitError from the canonical nested API envelope', () => {
+    const err = mapErrorResponse({
+      status: 429,
+      body: {
+        status: 'error',
+        message: 'Daily limit reached',
+        details: {
+          limit: 3000,
+          period: 'daily',
+          resetAt: '2026-08-25T00:00:00.000Z',
+          tier: 'community',
+          upgradeUrl: 'https://app.countrystatecity.in/pricing',
+        },
+      },
+      url,
+    }) as RateLimitError;
+    expect(err.limit).toBe(3000);
+    expect(err.scope).toBe('daily');
+    expect(err.resetAt).toBe('2026-08-25T00:00:00.000Z');
+    expect(err.tier).toBe('community');
+    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+  });
+
+  it('400 -> ValidationError from nested details', () => {
+    const err = mapErrorResponse({
+      status: 400,
+      body: { status: 'error', message: 'invalid input', details: { field: 'limit', reason: 'out_of_range' } },
+      url,
+    }) as ValidationError;
+    expect(err.field).toBe('limit');
+    expect(err.reason).toBe('out_of_range');
   });
 
   it('429 ignores an unrecognized scope value', () => {
