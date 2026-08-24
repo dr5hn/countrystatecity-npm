@@ -57,7 +57,7 @@ export const MAHARASHTRA: IState = {
   longitude: '75.71389',
   native: null,
   timezone: 'Asia/Kolkata',
-  translations: {},
+  translations: '{}',
 };
 
 export const MUMBAI: ICity = {
@@ -71,13 +71,13 @@ export const MUMBAI: ICity = {
   longitude: '72.88261',
   native: null,
   timezone: 'Asia/Kolkata',
-  translations: {},
+  translations: '{}',
 };
 
 export const ASIA_REGION: IRegion = {
   id: 3,
   name: 'Asia',
-  translations: {},
+  translations: '{}',
   wikiDataId: 'Q48',
 };
 
@@ -85,7 +85,7 @@ export const SOUTHERN_ASIA_SUBREGION: ISubregion = {
   id: 14,
   name: 'Southern Asia',
   region_id: 3,
-  translations: {},
+  translations: '{}',
   wikiDataId: 'Q34019',
 };
 

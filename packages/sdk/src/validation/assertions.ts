@@ -19,7 +19,9 @@ import {
   isValidIsoDateString,
   isNonEmptyString,
 } from './rules';
-import type { IListParams } from '../types/params';
+import type { IListParams, ILocalizationParams } from '../types/params';
+
+const LOCALE_PATTERN = /^[a-zA-Z]{2}(-[a-zA-Z]{2,4})?$/;
 
 function fail(message: string, field: string, value: unknown, reason: string): never {
   throw new ValidationError(message, { field, value, reason });
@@ -135,6 +137,51 @@ export function assertNonEmptyString(value: string, field: string): string {
     fail(`${field} must be a non-empty string`, field, value, 'empty_string');
   }
   return value;
+}
+
+/** Validates localization options and returns their API query names. */
+export function assertLocalizationParams(params: ILocalizationParams | undefined): {
+  locale?: string;
+  include_translations?: boolean;
+} | undefined {
+  if (params === undefined) return undefined;
+  if (typeof params !== 'object' || params === null || Array.isArray(params)) {
+    fail('localization parameters must be an object', 'params', params, 'invalid_type');
+  }
+  if (params.locale !== undefined && (typeof params.locale !== 'string' || !LOCALE_PATTERN.test(params.locale))) {
+    fail(
+      `locale must be a language code like "pt" or "pt-BR", got ${JSON.stringify(params.locale)}`,
+      'locale',
+      params.locale,
+      'invalid_locale_format',
+    );
+  }
+  if (params.includeTranslations !== undefined && typeof params.includeTranslations !== 'boolean') {
+    fail(
+      `includeTranslations must be a boolean, got ${JSON.stringify(params.includeTranslations)}`,
+      'includeTranslations',
+      params.includeTranslations,
+      'invalid_type',
+    );
+  }
+  if (params.locale === undefined && params.includeTranslations === undefined) return undefined;
+  let locale: string | undefined;
+  if (params.locale !== undefined) {
+    try {
+      locale = Intl.getCanonicalLocales(params.locale)[0];
+    } catch {
+      fail(
+        `locale must be a language code like "pt" or "pt-BR", got ${JSON.stringify(params.locale)}`,
+        'locale',
+        params.locale,
+        'invalid_locale_format',
+      );
+    }
+  }
+  return {
+    ...(locale === undefined ? {} : { locale }),
+    ...(params.includeTranslations === undefined ? {} : { include_translations: params.includeTranslations }),
+  };
 }
 
 /** Validates the shared `limit`/`offset` pagination params, if present. */

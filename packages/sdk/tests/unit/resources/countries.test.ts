@@ -61,4 +61,40 @@ describe('CountriesResource', () => {
     await expect(resource.get('INDIA')).rejects.toThrow(ValidationError);
     expect(http.request).not.toHaveBeenCalled();
   });
+
+  it('list() passes locale/includeTranslations through as locale/include_translations', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.list({ locale: 'PT-br', includeTranslations: true });
+
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries'],
+      expect.objectContaining({ locale: 'pt-BR', include_translations: true }),
+      undefined,
+    );
+  });
+
+  it('get() keeps the old second-position request options working', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+    const opts = { timeout: 250 };
+
+    await resource.get('IN', opts);
+
+    expect(http.request).toHaveBeenCalledWith(['countries', 'IN'], undefined, opts);
+  });
+
+  it('get() passes an optional locale params object through as query params', async () => {
+    const http = createFakeHttp();
+    const resource = new CountriesResource(http);
+
+    await resource.get('IN', { locale: 'hi', includeTranslations: true });
+
+    expect(http.request).toHaveBeenCalledWith(
+      ['countries', 'IN'],
+      { locale: 'hi', include_translations: true },
+      undefined,
+    );
+  });
 });

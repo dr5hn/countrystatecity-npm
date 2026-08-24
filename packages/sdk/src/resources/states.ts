@@ -1,18 +1,21 @@
 import { BaseResource } from './BaseResource';
-import { assertIso2, assertStateCode, assertListParams } from '../validation/assertions';
+import { assertIso2, assertStateCode, assertListParams, assertLocalizationParams } from '../validation/assertions';
+import { splitLocalizationOptions } from './localizationOptions';
 import type { IState } from '../types/entities';
-import type { IListStatesParams } from '../types/params';
+import type { IListStatesParams, ILocalizationParams } from '../types/params';
 import type { IRequestOptions } from '../types/config';
 import type { CSCResponse } from '../types/response';
 
 export class StatesResource extends BaseResource {
   async list(params?: IListStatesParams, opts?: IRequestOptions): Promise<CSCResponse<IState[]>> {
     assertListParams(params);
+    const localization = assertLocalizationParams(params);
     const query = {
       limit: params?.limit,
       offset: params?.offset,
       fields: params?.fields?.join(','),
       sort: params?.sort?.join(','),
+      ...(localization ?? {}),
     };
 
     if (params?.country !== undefined) {
@@ -22,9 +25,19 @@ export class StatesResource extends BaseResource {
     return this.http.request(['states'], query, opts);
   }
 
-  async get(country: string, stateCode: string, opts?: IRequestOptions): Promise<CSCResponse<IState>> {
+  async get(
+    country: string,
+    stateCode: string,
+    paramsOrOpts?: ILocalizationParams | IRequestOptions,
+    opts?: IRequestOptions,
+  ): Promise<CSCResponse<IState>> {
     const countryCode = assertIso2(country);
     const code = assertStateCode(stateCode);
-    return this.http.request(['countries', countryCode, 'states', code], undefined, opts);
+    const { localization, requestOptions } = splitLocalizationOptions(paramsOrOpts, opts);
+    return this.http.request(
+      ['countries', countryCode, 'states', code],
+      assertLocalizationParams(localization),
+      requestOptions,
+    );
   }
 }
