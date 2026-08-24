@@ -156,7 +156,7 @@ const formatted = await formatWithDialCode('9876543210', 'IN');
 # Install globally
 npm install -g @countrystatecity/cli
 
-# Authenticate with your free API key (https://app.countrystatecity.in)
+# Authenticate with your free API key (https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=cli)
 csc auth login
 
 # Search countries, states, cities

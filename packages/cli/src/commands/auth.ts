@@ -6,6 +6,7 @@ import { getApiKey, setApiKey, clearApiKey } from '../lib/config.js';
 import { validateKey } from '../lib/api.js';
 import { getTierName, formatNumber } from '../lib/usage-footer.js';
 import { createSpinner, isTTY, type GlobalFlags } from '../lib/output.js';
+import { CLI_TRACKING_PARAMS } from '../lib/tracking.js';
 
 /**
  * Prompts the user for an API key with masked input.
@@ -40,7 +41,7 @@ async function promptForKey(): Promise<string> {
     };
 
     rl.question(
-      `Enter your API key (get one at ${chalk.cyan('https://app.countrystatecity.in')}): `,
+      `Enter your API key (get one at ${chalk.cyan(`https://app.countrystatecity.in?${CLI_TRACKING_PARAMS}`)}): `,
       (answer) => finish(answer)
     );
 
@@ -94,7 +95,7 @@ export function registerAuthCommands(program: Command): void {
 
       if (!result.valid) {
         spinner.fail('Invalid API key.');
-        process.stderr.write(chalk.dim('Check your key at https://app.countrystatecity.in') + '\n');
+        process.stderr.write(chalk.dim(`Check your key at https://app.countrystatecity.in?${CLI_TRACKING_PARAMS}`) + '\n');
         process.exit(1);
       }
 
