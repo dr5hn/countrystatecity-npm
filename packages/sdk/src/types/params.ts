@@ -10,24 +10,42 @@ export interface IListParams {
 }
 
 /**
+ * `locale`/`includeTranslations` map to the real API's `?locale=`/
+ * `?include_translations=` (Professional and Business plans). The SDK
+ * validates and canonicalizes these values before making a request.
+ * Shared by every locale-capable geographic and search method. Not available
+ * on cities.get() because the API has no single-city endpoint.
+ */
+export interface ILocalizationParams {
+  locale?: string;
+  includeTranslations?: boolean;
+}
+
+/**
  * `fields`/`sort` map to the real API's `?fields=`/`?sort=` (Supporter+ tier)
  * — validated server-side (unknown field → 400, tier-inaccessible field →
  * silently dropped), so not re-validated here. Joined with `,` when the
  * request is built.
  */
-export interface IListCountriesParams extends IListParams {
+export interface IListCountriesParams extends IListParams, ILocalizationParams {
   fields?: string[];
   sort?: string[];
 }
 
-export interface IListStatesParams extends IListParams {
+export interface IListStatesParams extends IListParams, ILocalizationParams {
   country?: string;
   fields?: string[];
   sort?: string[];
 }
 
-export interface IListCitiesParams extends IListParams {
-  country?: string;
+/**
+ * `country` is required (unlike `IListCountriesParams`/`IListStatesParams`)
+ * — the real API has no bare `GET /cities` route, so an unfiltered call
+ * would always 404. Enforced both at the type level here and at runtime in
+ * `CitiesResource.list()` for callers not using TypeScript.
+ */
+export interface IListCitiesParams extends IListParams, ILocalizationParams {
+  country: string;
   state?: string;
   /** Free-form city classification (e.g. 'settlement'); not validated client-side, see docs. */
   kind?: string;
@@ -46,7 +64,7 @@ export interface ITimezoneConvertParams {
  * offset/pagination support server-side, so this deliberately doesn't
  * extend IListParams.
  */
-export interface ISearchParams {
+export interface ISearchParams extends ILocalizationParams {
   query: string;
   type?: SearchResultType;
   country?: string;
@@ -61,10 +79,9 @@ export interface ISearchParams {
  * tiering server-side, not a tunable similarity cutoff. `state` requires
  * `country` (state codes aren't globally unique); `country` is invalid
  * when `type` is `'country'` — both enforced server-side and mirrored
- * client-side for a fast-fail. No `kind`/`language` yet — both deferred
- * server-side too (Task 02/Task 12).
+ * client-side for a fast-fail.
  */
-export interface IAutocompleteParams {
+export interface IAutocompleteParams extends ILocalizationParams {
   query: string;
   type?: SearchResultType;
   country?: string;
@@ -76,7 +93,7 @@ export interface IAutocompleteParams {
  * Nearby-search parameters. `kind` and `state` are valid only for city
  * searches. `state` also requires `country`.
  */
-export interface INearbyParams {
+export interface INearbyParams extends ILocalizationParams {
   lat: number;
   lng: number;
   type?: SearchResultType;

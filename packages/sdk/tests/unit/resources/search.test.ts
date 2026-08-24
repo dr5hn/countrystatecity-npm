@@ -24,6 +24,16 @@ describe('SearchResource.fuzzy', () => {
     );
   });
 
+  it('passes canonical locale and opt-in translations to fuzzy search', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).fuzzy({ query: 'ムンバイ', locale: 'JA', includeTranslations: true });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'fuzzy'],
+      expect.objectContaining({ locale: 'ja', include_translations: true }),
+      undefined,
+    );
+  });
+
   it('injects `type` into every result row, since the wire response has none', async () => {
     const http = createFakeHttp({
       data: [{ id: 1, name: 'Mumbai', match_score: 0.98, matched_alias: null }],
@@ -82,6 +92,16 @@ describe('SearchResource.autocomplete', () => {
     expect(result.data).toEqual([
       { id: 1, name: 'Mumbai', label: 'Mumbai, Maharashtra, India', match_score: 1, matched_field: 'name', type: 'city' },
     ]);
+  });
+
+  it('passes locale and opt-in translations to autocomplete', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).autocomplete({ query: 'Mumbai', locale: 'mr', includeTranslations: true });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'autocomplete'],
+      expect.objectContaining({ locale: 'mr', include_translations: true }),
+      undefined,
+    );
   });
 
   it('rejects an empty query before any request', async () => {
@@ -179,6 +199,21 @@ describe('SearchResource.nearby', () => {
     expect(result.data).toEqual([
       { id: 1, name: 'Mumbai', kind: 'settlement', country_name: 'India', state_name: 'Maharashtra', distance_km: 0.42, type: 'city' },
     ]);
+  });
+
+  it('passes locale and opt-in translations to nearby search', async () => {
+    const http = createFakeHttp({ data: [], meta: { retryCount: 0 } });
+    await new SearchResource(http).nearby({
+      lat: 19.076,
+      lng: 72.877,
+      locale: 'mr',
+      includeTranslations: true,
+    });
+    expect(http.request).toHaveBeenCalledWith(
+      ['search', 'nearby'],
+      expect.objectContaining({ locale: 'mr', include_translations: true }),
+      undefined,
+    );
   });
 
   it('rejects an out-of-range latitude before any request', async () => {

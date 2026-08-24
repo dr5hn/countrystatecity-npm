@@ -13,6 +13,7 @@ import {
   assertIsoDateString,
   assertNonEmptyString,
   assertListParams,
+  assertLocalizationParams,
   assertRequiredWith,
 } from '../../../src/validation/assertions';
 
@@ -97,6 +98,21 @@ describe('assertListParams', () => {
   it('accepts valid limit/offset', () => expect(() => assertListParams({ limit: 50, offset: 0 })).not.toThrow());
   it('rejects an out-of-range limit', () => expect(() => assertListParams({ limit: 500 })).toThrow(ValidationError));
   it('rejects a negative offset', () => expect(() => assertListParams({ offset: -1 })).toThrow(ValidationError));
+});
+
+describe('assertLocalizationParams', () => {
+  it('canonicalizes locale casing and maps the translation flag to the API name', () => {
+    expect(assertLocalizationParams({ locale: 'PT-br', includeTranslations: true })).toEqual({
+      locale: 'pt-BR',
+      include_translations: true,
+    });
+  });
+
+  it('rejects malformed locales and non-boolean flags', () => {
+    expect(() => assertLocalizationParams({ locale: 'pt_BR' })).toThrow(ValidationError);
+    expect(() => assertLocalizationParams({ locale: 'en-USS' })).toThrow(ValidationError);
+    expect(() => assertLocalizationParams({ includeTranslations: 'true' as unknown as boolean })).toThrow(ValidationError);
+  });
 });
 
 describe('assertRequiredWith', () => {

@@ -7,6 +7,7 @@ import {
   assertNearbyParams,
   assertLatitude,
   assertLongitude,
+  assertLocalizationParams,
 } from '../validation/assertions';
 import type { ISearchResult, IAutocompleteResult, INearbyResult } from '../types/entities';
 import type { ISearchParams, IAutocompleteParams, INearbyParams } from '../types/params';
@@ -24,10 +25,11 @@ export class SearchResource extends BaseResource {
     const q = assertNonEmptyString(params.query, 'query');
     const country = params.country !== undefined ? assertIso2(params.country) : undefined;
     const type = params.type ?? 'city';
+    const localization = assertLocalizationParams(params);
 
     const response = await this.http.request<Array<Record<string, unknown>>>(
       ['search', 'fuzzy'],
-      { q, type, country, limit: params.limit, threshold: params.threshold },
+      { q, type, country, limit: params.limit, threshold: params.threshold, ...(localization ?? {}) },
       opts,
     );
 
@@ -49,10 +51,11 @@ export class SearchResource extends BaseResource {
     const country = params.country !== undefined ? assertIso2(params.country) : undefined;
     const state = params.state?.trim().toUpperCase();
     const type = params.type ?? 'city';
+    const localization = assertLocalizationParams(params);
 
     return this.http.request<IAutocompleteResult[]>(
       ['search', 'autocomplete'],
-      { q, type, country, state, limit: params.limit },
+      { q, type, country, state, limit: params.limit, ...(localization ?? {}) },
       opts,
     );
   }
@@ -70,6 +73,7 @@ export class SearchResource extends BaseResource {
     const country = params.country !== undefined ? assertIso2(params.country) : undefined;
     const state = params.state?.trim().toUpperCase();
     const type = params.type ?? 'city';
+    const localization = assertLocalizationParams(params);
 
     const response = await this.http.request<Array<Record<string, unknown>>>(
       ['search', 'nearby'],
@@ -83,6 +87,7 @@ export class SearchResource extends BaseResource {
         min_population: params.minPopulation,
         radius: params.radius,
         limit: params.limit,
+        ...(localization ?? {}),
       },
       opts,
     );
