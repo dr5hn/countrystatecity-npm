@@ -42,6 +42,7 @@ export type {
   ITimezone,
   IConvertedTime,
   SearchResultType,
+  CityKind,
   ISearchMatchMeta,
   ICountrySearchResult,
   IStateSearchResult,
@@ -53,6 +54,11 @@ export type {
   IStateAutocompleteResult,
   ICityAutocompleteResult,
   IAutocompleteResult,
+  INearbyMatchMeta,
+  INearbyCountryResult,
+  INearbyStateResult,
+  INearbyCityResult,
+  INearbyResult,
   IUsageSnapshot,
 } from './types/entities';
 
@@ -64,6 +70,7 @@ export type {
   ITimezoneConvertParams,
   ISearchParams,
   IAutocompleteParams,
+  INearbyParams,
   IIsoLookupParams,
 } from './types/params';
 

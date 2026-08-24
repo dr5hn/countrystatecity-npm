@@ -91,6 +91,7 @@ export function getBrandedHelp(): string {
     ['upgrade',  'View plans and open the pricing page'],
     ['generate', 'Generate dropdown/seed data or live location components'],
     ['export',   'Export geographic data to JSON or CSV'],
+    ['nearby',   'Find places near a coordinate, nearest-first'],
   ] as const;
 
   const flags = [

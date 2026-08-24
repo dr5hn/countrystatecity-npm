@@ -190,6 +190,55 @@ export function assertAutocompleteParams(params: { query: unknown; type?: string
   }
 }
 
+/**
+ * Nearby search shares autocomplete's `country`-invalid-when-`type`-is-
+ * `country` and `state` 1-20-char checks, but has its own `radius` (1-500 km)
+ * and `limit` (1-100, not the 1-50 shared by fuzzy/autocomplete) ranges.
+ * It also validates the city-only `state`/`kind` filters before any request.
+ */
+export function assertNearbyParams(params: {
+  type?: string;
+  country?: string;
+  state?: unknown;
+  kind?: unknown;
+  radius?: number;
+  limit?: number;
+  minPopulation?: number;
+}): void {
+  if (typeof params !== 'object' || params === null) {
+    fail('nearby parameters are required', 'params', params, 'required');
+  }
+  const type = params.type ?? 'city';
+  if (!['city', 'state', 'country'].includes(type)) {
+    fail(`type must be city, state, or country, got ${JSON.stringify(params.type)}`, 'type', params.type, 'invalid_enum');
+  }
+  if (params.radius !== undefined && !(Number.isFinite(params.radius) && params.radius >= 1 && params.radius <= 500)) {
+    fail(`radius must be a number between 1 and 500 (km), got ${JSON.stringify(params.radius)}`, 'radius', params.radius, 'out_of_range');
+  }
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 100)) {
+    fail(`limit must be an integer between 1 and 100, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+  if (params.minPopulation !== undefined && !(Number.isSafeInteger(params.minPopulation) && params.minPopulation >= 0)) {
+    fail(`minPopulation must be a non-negative integer, got ${JSON.stringify(params.minPopulation)}`, 'minPopulation', params.minPopulation, 'out_of_range');
+  }
+  if (params.type === 'country' && params.country !== undefined) {
+    fail('country is not a valid filter when type is "country"', 'country', params.country, 'invalid_with_type_country');
+  }
+  if (params.state !== undefined && (typeof params.state !== 'string' || params.state.trim().length < 1 || params.state.trim().length > 20)) {
+    fail(`state must be 1-20 characters, got ${JSON.stringify(params.state)}`, 'state', params.state, 'out_of_range');
+  }
+  assertRequiredWith(params.state, 'state', params.country, 'country');
+  if (params.state !== undefined && type !== 'city') {
+    fail('state is only a valid filter when type="city"', 'state', params.state, 'invalid_with_type');
+  }
+  if (params.kind !== undefined && !['settlement', 'administrative', 'section', 'unknown'].includes(String(params.kind))) {
+    fail(`kind must be settlement, administrative, section, or unknown, got ${JSON.stringify(params.kind)}`, 'kind', params.kind, 'invalid_enum');
+  }
+  if (params.kind !== undefined && type !== 'city') {
+    fail('kind is only a valid filter when type="city"', 'kind', params.kind, 'invalid_with_type');
+  }
+}
+
 /** Cross-field check: `dependentField` may only be set when `requiredField` is also set. */
 export function assertRequiredWith(
   dependentValue: unknown,

@@ -77,6 +77,31 @@ csc search regions --filter "asia"
 csc search india
 ```
 
+### Nearby Search
+
+Find countries, states, or cities near a coordinate, nearest first. Requires a Professional or Business API plan.
+
+```bash
+csc nearby --lat 19.076 --lng 72.878 --radius 25
+csc nearby --lat 19.076 --lng 72.878 --kind settlement
+csc nearby --lat 19.076 --lng 72.878 --type state
+csc nearby --lat 19.076 --lng 72.878 --country IN --min-population 100000
+csc nearby --lat 19.076 --lng 72.878 --json
+
+# Options
+--type <type>            # country, state, or city (default: city)
+--kind <kind>            # city only: settlement, administrative, section, unknown
+--country <iso2>         # Filter by country (invalid when --type=country)
+--state <iso2>           # Filter by state (requires --country)
+--min-population <n>     # Minimum population
+--radius <km>            # Search radius, 1-500 (default: 25)
+--limit <n>               # Result limit, 1-100 (default: 20)
+```
+
+Results include a `Distance (km)` column, ordered nearest-first.
+
+[Compare Professional and Business plans](https://countrystatecity.in/pricing?source=cli_docs&campaign=nearby_search&package=cli).
+
 ### Get Details
 
 ```bash
