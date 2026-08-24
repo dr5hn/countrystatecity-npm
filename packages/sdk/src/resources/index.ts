@@ -9,3 +9,4 @@ export { PhoneResource } from './phone';
 export { TimezonesResource } from './timezones';
 export { SearchResource } from './search';
 export { UsageResource } from './usage';
+export { ChangesResource } from './changes';

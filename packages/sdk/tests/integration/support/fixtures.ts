@@ -16,6 +16,8 @@ import type {
   ICitySearchResult,
   ICityAutocompleteResult,
   INearbyCityResult,
+  IChangeFeedPage,
+  ICityChangeEvent,
 } from '../../../src/types/entities';
 
 export const INDIA: ICountry = {
@@ -173,6 +175,22 @@ export const MUMBAI_NEARBY_ROW = {
 export const MUMBAI_NEARBY_RESULT: INearbyCityResult = {
   ...MUMBAI_NEARBY_ROW,
   type: 'city',
+};
+
+export const SAMPLE_CHANGE_EVENT: ICityChangeEvent = {
+  change_id: '6b30c790-c46f-4a0f-b7f2-ea1a1a9d8362',
+  data_version: 'v3.2-export.7-2026.08.24',
+  changed_at: '2026-08-24T08:15:00.000Z',
+  place_type: 'city',
+  place_id: '132649',
+  change_type: 'renamed',
+  old_values: { name: 'Bombay' },
+  new_values: { name: 'Mumbai' },
+};
+
+export const SAMPLE_CHANGE_FEED_PAGE: IChangeFeedPage = {
+  results: [SAMPLE_CHANGE_EVENT],
+  next_page_token: null,
 };
 
 export const USAGE_HEADERS = {

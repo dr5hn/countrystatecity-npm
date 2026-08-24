@@ -81,12 +81,15 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.search` | `autocomplete({ query, type?, country?, state?, limit?, locale?, includeTranslations? })` — type-ahead search with a ready display `label`; `matched_field` can be `name`, `native`, or `translation`; Professional or Business plan |
 | `csc.search` | `nearby({ lat, lng, type?, kind?, country?, state?, minPopulation?, radius?, limit?, locale?, includeTranslations? })` — localized nearby places, nearest first; radius 1–500 km; Professional or Business plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=nearby_search&package=sdk). |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
+| `csc.changes` | `list({ startDate?, placeType?, countryCode?, changeType?, limit?, nextPageToken? })` — cursor-paginated country, state, and city changes; Business plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=data_change_feed&package=sdk). |
 
 `csc.cities.list()` requires `country` (the real API has no bare `GET /cities` route) — a `ValidationError` is thrown client-side if it's missing, same as `state` without `country`. `csc.cities.get()` always throws a `ValidationError` — the real API has no single-city-by-ID endpoint at all; fetch the containing `list({ country, state })` and find the city in the results instead.
 
 `fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
 
 `locale` adds `localized_name` and `matched_locale` while keeping the English `name` and stable `id`. The fallback order is exact locale, base language, native name, then English. `includeTranslations: true` adds the full translation JSON string only when needed. Geographic routes and fuzzy, autocomplete, and nearby search support both options for Professional and Business plans. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=localized_place_data&package=sdk).
+
+`csc.changes.list()` returns `{ results, next_page_token }`. Pass `next_page_token` back as `nextPageToken` to continue the same fixed snapshot; changes published after page one appear in a new request, not halfway through the current one. Tokens expire after 24 hours and changes are retained for 90 days. `old_values` and `new_values` contain only caller-visible fields; updates include only changed fields. When `startDate` is too old, `ValidationError.details` includes the API's `earliestAvailableDate`.
 
 ## 🛡️ Error handling
 

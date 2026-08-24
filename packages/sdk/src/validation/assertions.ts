@@ -19,7 +19,7 @@ import {
   isValidIsoDateString,
   isNonEmptyString,
 } from './rules';
-import type { IListParams, ILocalizationParams } from '../types/params';
+import type { IChangesParams, IListParams, ILocalizationParams } from '../types/params';
 
 const LOCALE_PATTERN = /^[a-zA-Z]{2}(-[a-zA-Z]{2,4})?$/;
 
@@ -130,6 +130,15 @@ export function assertIsoDateString(value: string, field: string): string {
     fail(`${field} must be an ISO 8601 date/time string, got ${JSON.stringify(value)}`, field, value, 'invalid_date_format');
   }
   return value;
+}
+
+/** Requires a full ISO 8601 timestamp with an explicit timezone. */
+export function assertIsoDateTimeString(value: string, field: string): string {
+  const valid = assertIsoDateString(value, field);
+  if (!/T.*(?:Z|[+-]\d{2}:?\d{2})$/.test(valid)) {
+    fail(`${field} must be a full ISO 8601 timestamp with a timezone, got ${JSON.stringify(value)}`, field, value, 'invalid_datetime_format');
+  }
+  return new Date(valid).toISOString();
 }
 
 export function assertNonEmptyString(value: string, field: string): string {
@@ -283,6 +292,34 @@ export function assertNearbyParams(params: {
   }
   if (params.kind !== undefined && type !== 'city') {
     fail('kind is only a valid filter when type="city"', 'kind', params.kind, 'invalid_with_type');
+  }
+}
+
+/** Validates change-feed filters and its opaque cursor before any request. */
+export function assertChangesParams(params: IChangesParams | undefined): void {
+  if (params === undefined) return;
+  if (typeof params !== 'object' || params === null || Array.isArray(params)) {
+    fail('changes parameters must be an object', 'params', params, 'invalid_type');
+  }
+  if (params.placeType !== undefined && !['country', 'state', 'city'].includes(params.placeType)) {
+    fail(`placeType must be country, state, or city, got ${JSON.stringify(params.placeType)}`, 'placeType', params.placeType, 'invalid_enum');
+  }
+  if (params.changeType !== undefined && ![
+    'added', 'removed', 'renamed', 'place_group_changed',
+    'parent_changed', 'coordinates_changed', 'other_fields_changed',
+  ].includes(params.changeType)) {
+    fail(`changeType is not supported, got ${JSON.stringify(params.changeType)}`, 'changeType', params.changeType, 'invalid_enum');
+  }
+  if (params.limit !== undefined && !(Number.isInteger(params.limit) && params.limit >= 1 && params.limit <= 100)) {
+    fail(`limit must be an integer between 1 and 100, got ${JSON.stringify(params.limit)}`, 'limit', params.limit, 'out_of_range');
+  }
+  if (params.nextPageToken !== undefined && (
+    typeof params.nextPageToken !== 'string' ||
+    params.nextPageToken.length < 1 ||
+    params.nextPageToken.length > 4096 ||
+    !/^[A-Za-z0-9_-]+$/.test(params.nextPageToken)
+  )) {
+    fail('nextPageToken must be a non-empty opaque change-feed token', 'nextPageToken', params.nextPageToken, 'invalid_token');
   }
 }
 

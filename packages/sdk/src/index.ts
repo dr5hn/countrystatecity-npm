@@ -60,6 +60,14 @@ export type {
   INearbyCityResult,
   INearbyResult,
   IUsageSnapshot,
+  ChangePlaceType,
+  ChangeType,
+  IChangeValues,
+  ICountryChangeEvent,
+  IStateChangeEvent,
+  ICityChangeEvent,
+  IChangeEvent,
+  IChangeFeedPage,
 } from './types/entities';
 
 export type {
@@ -72,6 +80,7 @@ export type {
   ISearchParams,
   IAutocompleteParams,
   INearbyParams,
+  IChangesParams,
   IIsoLookupParams,
 } from './types/params';
 
@@ -86,4 +95,5 @@ export {
   TimezonesResource,
   SearchResource,
   UsageResource,
+  ChangesResource,
 } from './resources';
