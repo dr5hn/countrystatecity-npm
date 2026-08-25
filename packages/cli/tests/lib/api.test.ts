@@ -195,7 +195,7 @@ describe('api client', () => {
     });
 
     it('surfaces requiredPlan and upgradeUrl on a 403 (paid-feature) response', async () => {
-      stubFetch(403, { message: 'Upgrade required', feature: 'fuzzySearch', requiredPlan: 'professional', upgradeUrl: 'https://app.countrystatecity.in/pricing?x=1' });
+      stubFetch(403, { message: 'Upgrade required', feature: 'fuzzySearch', requiredPlan: 'professional', upgradeUrl: 'https://countrystatecity.in/pricing?x=1' });
       vi.spyOn(process, 'exit').mockImplementation(() => { throw new Error('exit'); });
       const errSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
@@ -204,7 +204,7 @@ describe('api client', () => {
       expect(process.exit).toHaveBeenCalledWith(1);
       const messages = errSpy.mock.calls.map((c) => String(c[0]));
       expect(messages.some((m) => m.includes('professional'))).toBe(true);
-      expect(messages.some((m) => m.includes('https://app.countrystatecity.in/pricing?x=1'))).toBe(true);
+      expect(messages.some((m) => m.includes('https://countrystatecity.in/pricing?x=1'))).toBe(true);
     });
 
     it('exits when no API key is configured', async () => {

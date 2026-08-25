@@ -77,7 +77,7 @@ describe('error responses, driven through the public API', () => {
             period: 'daily',
             resetAt: '2026-08-25T00:00:00.000Z',
             tier: 'community',
-            upgradeUrl: 'https://app.countrystatecity.in/pricing',
+            upgradeUrl: 'https://countrystatecity.in/pricing',
           },
         },
       },
@@ -97,7 +97,7 @@ describe('error responses, driven through the public API', () => {
       expect(rle.resetAt).toBe('2026-08-25T00:00:00.000Z');
       expect(rle.retryAfter).toBe(0);
       expect(rle.tier).toBe('community');
-      expect(rle.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+      expect(rle.upgradeUrl).toBe('https://countrystatecity.in/pricing');
     }
   });
 

@@ -504,7 +504,7 @@ export function printUsageFooter(usage: UsageInfo | null, flags?: { noFooter?: b
     const nextTier = dailyLimit <= 300 ? 'Supporter ($9/mo)' : 'a higher plan';
     process.stderr.write(chalk.red(`Upgrade to ${nextTier} for more requests/day.`) + '\n');
     process.stderr.write(
-      chalk.red('Run `csc upgrade` or visit https://app.countrystatecity.in/pricing') + '\n'
+      chalk.red('Run `csc upgrade` or visit https://countrystatecity.in/pricing') + '\n'
     );
   } else if (dailyPercent >= 80) {
     process.stderr.write(
