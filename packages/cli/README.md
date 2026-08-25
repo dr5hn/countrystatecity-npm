@@ -264,7 +264,7 @@ csc export --json
 
 - [API Documentation](https://countrystatecity.in/docs/)
 - [Dashboard](https://app.countrystatecity.in?source=npm&campaign=sdk_api_migration&package=cli)
-- [Pricing](https://app.countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=cli)
+- [Pricing](https://countrystatecity.in/pricing?source=npm&campaign=sdk_api_migration&package=cli)
 - [GitHub (monorepo)](https://github.com/dr5hn/countrystatecity-npm/tree/main/packages/cli)
 
 ## License

@@ -233,7 +233,7 @@ function printUsageFooter(usage: UsageInfo | null): void
   ```
   Daily limit reached (100/100). Resets in 4h 23m.
   Upgrade to Starter ($5/mo) for 300 requests/day.
-  Run `csc upgrade` or visit https://app.countrystatecity.in/pricing
+  Run `csc upgrade` or visit https://countrystatecity.in/pricing
   ```
 
 The tier name display should be inferred from the daily limit:
@@ -391,7 +391,7 @@ The progress bar should be coloured:
 **Flow:**
 1. Print current tier info (if authenticated)
 2. Print tier comparison table
-3. Open `https://app.countrystatecity.in/pricing` in browser using `open` package
+3. Open `https://countrystatecity.in/pricing` in browser using `open` package
 
 **Output:**
 ```

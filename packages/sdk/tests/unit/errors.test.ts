@@ -58,7 +58,7 @@ describe('error hierarchy', () => {
     expect(err.feature).toBe('search');
     expect(err.currentPlan).toBe('free');
     expect(err.requiredPlan).toBe('pro');
-    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+    expect(err.upgradeUrl).toBe('https://countrystatecity.in/pricing');
   });
 
   it('FeatureRestrictedError keeps an API-supplied upgradeUrl', () => {
@@ -74,7 +74,7 @@ describe('error hierarchy', () => {
       retryAfter: 60,
       scope: 'daily',
       tier: 'community',
-      upgradeUrl: 'https://app.countrystatecity.in/pricing',
+      upgradeUrl: 'https://countrystatecity.in/pricing',
     });
     expect(err.limit).toBe(1000);
     expect(err.remaining).toBe(0);
@@ -82,7 +82,7 @@ describe('error hierarchy', () => {
     expect(err.retryAfter).toBe(60);
     expect(err.scope).toBe('daily');
     expect(err.tier).toBe('community');
-    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+    expect(err.upgradeUrl).toBe('https://countrystatecity.in/pricing');
   });
 
   it('NotFoundError carries resource/identifier', () => {

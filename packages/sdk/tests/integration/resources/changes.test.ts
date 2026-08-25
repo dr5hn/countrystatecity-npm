@@ -43,7 +43,7 @@ describe('changes — integration', () => {
             feature: 'dataChangeFeed',
             currentTier: 'professional',
             requiredTier: 'business',
-            upgradeUrl: 'https://app.countrystatecity.in/pricing',
+            upgradeUrl: 'https://countrystatecity.in/pricing',
           },
         },
       },

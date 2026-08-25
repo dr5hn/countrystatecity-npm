@@ -93,7 +93,7 @@ export class FeatureRestrictedError extends CSCError {
     this.feature = opts.feature;
     this.currentPlan = opts.currentPlan;
     this.requiredPlan = opts.requiredPlan;
-    this.upgradeUrl = opts.upgradeUrl ?? 'https://app.countrystatecity.in/pricing';
+    this.upgradeUrl = opts.upgradeUrl ?? 'https://countrystatecity.in/pricing';
     Object.setPrototypeOf(this, new.target.prototype);
   }
 }

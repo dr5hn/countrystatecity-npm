@@ -67,7 +67,7 @@ describe('mapErrorResponse', () => {
 
   it('plan-gate 403 with no upgrade URL uses the default pricing URL', () => {
     const err = mapErrorResponse({ status: 403, body: { details: { feature: 'fuzzySearch' } }, url }) as FeatureRestrictedError;
-    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+    expect(err.upgradeUrl).toBe('https://countrystatecity.in/pricing');
   });
 
   it('non-plan 403 -> ForbiddenError without misleading upgrade advice', () => {
@@ -109,7 +109,7 @@ describe('mapErrorResponse', () => {
           period: 'daily',
           resetAt: '2026-08-25T00:00:00.000Z',
           tier: 'community',
-          upgradeUrl: 'https://app.countrystatecity.in/pricing',
+          upgradeUrl: 'https://countrystatecity.in/pricing',
         },
       },
       url,
@@ -118,7 +118,7 @@ describe('mapErrorResponse', () => {
     expect(err.scope).toBe('daily');
     expect(err.resetAt).toBe('2026-08-25T00:00:00.000Z');
     expect(err.tier).toBe('community');
-    expect(err.upgradeUrl).toBe('https://app.countrystatecity.in/pricing');
+    expect(err.upgradeUrl).toBe('https://countrystatecity.in/pricing');
   });
 
   it('400 -> ValidationError from nested details', () => {
