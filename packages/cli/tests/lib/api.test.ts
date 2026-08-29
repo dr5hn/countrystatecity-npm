@@ -18,6 +18,7 @@ vi.mock('chalk', () => ({
 
 import { get, validateKey, searchFuzzy, searchNearby, getPlans } from '../../src/lib/api.js';
 import { getApiKey } from '../../src/lib/config.js';
+import packageJson from '../../package.json';
 
 function stubFetch(status: number, body: unknown, headers?: Record<string, string>) {
   const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify(body), { status, headers }));
@@ -50,6 +51,7 @@ describe('api client', () => {
     const [url, init] = fetchMock.mock.calls[0];
     expect(url).toBe('https://api.countrystatecity.in/v1/countries/IN');
     expect((init.headers as Record<string, string>)['X-CSCAPI-KEY']).toBe('test-api-key');
+    expect((init.headers as Record<string, string>)['User-Agent']).toBe(`${packageJson.name}/${packageJson.version}`);
   });
 
   it('extracts usage info from response headers', async () => {

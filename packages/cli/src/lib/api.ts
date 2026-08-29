@@ -16,6 +16,7 @@ import type {
   INearbyParams,
 } from '@countrystatecity/sdk';
 import { getApiKey, getApiBase, getApiHost } from './config.js';
+import { CLI_USER_AGENT } from '../version.js';
 
 export interface UsageInfo {
   dailyUsed: number;
@@ -33,8 +34,6 @@ export interface ListParams {
   fields?: string;
   sort?: string;
 }
-
-const USER_AGENT = '@countrystatecity/cli/0.1.1';
 
 /**
  * Adapts the SDK's rate-limit metadata to the CLI's UsageInfo shape.
@@ -59,7 +58,7 @@ function toUsageInfo(rateLimit?: IRateLimitMeta): UsageInfo | null {
 }
 
 function buildClient(apiKey: string): CSCClient {
-  return new CSCClient({ apiKey, baseUrl: getApiBase(), userAgent: USER_AGENT });
+  return new CSCClient({ apiKey, baseUrl: getApiBase(), userAgent: CLI_USER_AGENT });
 }
 
 /**

@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 - 2026-08-29
+
+### Added
+
+- Fuzzy search, field selection, sorting, and nearby place search.
+- `csc generate` templates for live autocomplete and location-picker components in Next.js and browser React projects.
+- Live plan and pricing information in the upgrade command.
+
+### Changed
+
+- API and upgrade links now point to the public pricing page and include safe campaign tracking values.
+
+### Fixed
+
+- `csc --version`, branded help, and the HTTP User-Agent now use the package version instead of reporting 0.1.1.
+- Read-only `--version` and `--help` commands no longer create the persistent config directory.
+
 ## 0.1.2 - 2026-06-12
 
 ### Changed

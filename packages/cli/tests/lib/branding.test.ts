@@ -12,6 +12,7 @@ vi.mock('chalk', () => ({
 }));
 
 import { getAsciiArt, getBrandedHelp } from '../../src/lib/branding.js';
+import packageJson from '../../package.json';
 
 describe('getAsciiArt', () => {
   it('contains block characters from the ASCII art rows', () => {
@@ -21,7 +22,7 @@ describe('getAsciiArt', () => {
 
   it('contains the version string', () => {
     const art = getAsciiArt();
-    expect(art).toContain('v0.1.1');
+    expect(art).toContain(`v${packageJson.version}`);
   });
 
   it('contains the subtitle text', () => {
