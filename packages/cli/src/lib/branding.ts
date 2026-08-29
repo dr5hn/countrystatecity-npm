@@ -1,7 +1,8 @@
 import chalk from 'chalk';
+import { CLI_VERSION } from '../version.js';
 
 /** Version string sourced from the package manifest. */
-const VERSION = 'v0.1.1';
+const VERSION = `v${CLI_VERSION}`;
 
 /**
  * Gradient hex colors applied top-to-bottom across the five ASCII art rows.

@@ -12,6 +12,7 @@ import { registerExportCommand } from './commands/export.js';
 import { registerNearbyCommand } from './commands/nearby.js';
 import { getBrandedHelp } from './lib/branding.js';
 import { isRootHelpRequested, shouldShowBrandedHelp } from './lib/root-help.js';
+import { CLI_VERSION } from './version.js';
 
 /**
  * Prints branded help to stdout and exits cleanly with code 0.
@@ -30,7 +31,7 @@ program.addHelpCommand(false);
 program
   .name('csc')
   .description('Official CLI for the Country State City API')
-  .version('0.1.1')
+  .version(CLI_VERSION)
   .helpOption('-h, --help', 'Display help for csc')
   // Global output flags available to every sub-command via optsWithGlobals().
   .option('--json', 'Output raw JSON instead of formatted tables', false)
