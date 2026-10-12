@@ -11,7 +11,7 @@
     "native": "Bahía Asunción",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1453,
     "wikiDataId": "Q4075356"
   },
@@ -27,9 +27,9 @@
     "native": "Bahía Tortugas",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 2671,
-    "wikiDataId": "Q4075356"
+    "type": "locality",
+    "population": 2367,
+    "wikiDataId": "Q4075358"
   },
   {
     "id": 68704,
@@ -43,7 +43,7 @@
     "native": "Cabo San Lucas",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 202694,
     "wikiDataId": "Q1020776"
   },
@@ -59,9 +59,9 @@
     "native": "Chaming",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 1842,
-    "wikiDataId": "Q20275495"
+    "type": "locality",
+    "population": 3054,
+    "wikiDataId": "Q49928733"
   },
   {
     "id": 69151,
@@ -75,7 +75,7 @@
     "native": "Ciudad Constitución",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 43805,
     "wikiDataId": "Q599087"
   },
@@ -91,7 +91,7 @@
     "native": "Ciudad Insurgentes",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9133,
     "wikiDataId": "Q539151"
   },
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 48032,
-    "wikiDataId": "Q20236448"
+    "wikiDataId": "Q5148266"
   },
   {
     "id": 69427,
@@ -121,9 +121,9 @@
     "latitude": "26.06667000",
     "longitude": "-111.81666000",
     "native": "Comondú",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 73021,
     "wikiDataId": "Q162422"
   },
@@ -139,7 +139,7 @@
     "native": "El Centenario",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4696,
     "wikiDataId": "Q5350973"
   },
@@ -155,7 +155,7 @@
     "native": "El Pescadero",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2338,
     "wikiDataId": "Q4359610"
   },
@@ -171,9 +171,25 @@
     "native": "El Silencio",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1190,
     "wikiDataId": "Q20245268"
+  },
+  {
+    "id": 70633,
+    "name": "Guerrero Negro",
+    "state_id": 3460,
+    "state_code": "BCS",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "27.96891000",
+    "longitude": "-114.04427000",
+    "native": "Guerrero Negro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 13596,
+    "wikiDataId": "Q957163"
   },
   {
     "id": 71436,
@@ -185,9 +201,9 @@
     "latitude": "24.14437000",
     "longitude": "-110.30050000",
     "native": "La Paz",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 265,
     "wikiDataId": "Q214215"
   },
@@ -221,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 2050,
-    "wikiDataId": "Q20135280"
+    "wikiDataId": null
   },
   {
     "id": 71619,
@@ -235,8 +251,8 @@
     "native": "Las Margaritas",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 1595,
+    "type": "locality",
+    "population": 1145,
     "wikiDataId": "Q20245590"
   },
   {
@@ -283,8 +299,8 @@
     "native": "Loreto",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 14724,
+    "type": "locality",
+    "population": 16311,
     "wikiDataId": "Q1020758"
   },
   {
@@ -299,9 +315,9 @@
     "native": "Los Barriles",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 1174,
-    "wikiDataId": "Q20131211"
+    "type": "locality",
+    "population": 1674,
+    "wikiDataId": "Q14223053"
   },
   {
     "id": 71781,
@@ -313,9 +329,9 @@
     "latitude": "23.27663000",
     "longitude": "-109.75322000",
     "native": "Los Cabos",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 351111,
     "wikiDataId": "Q659516"
   },
@@ -331,7 +347,7 @@
     "native": "Melitón Albáñez Domínguez",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1588,
     "wikiDataId": "Q20245716"
   },
@@ -347,7 +363,7 @@
     "native": "Miraflores",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1352,
     "wikiDataId": "Q15253530"
   },
@@ -363,13 +379,13 @@
     "native": "Mulega",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3834,
-    "wikiDataId": "Q1548701"
+    "wikiDataId": null
   },
   {
     "id": 72965,
-    "name": "Puerto Adolfo Lopez Mateos",
+    "name": "Puerto Adolfo López Mateos",
     "state_id": 3460,
     "state_code": "BCS",
     "country_id": 142,
@@ -379,9 +395,9 @@
     "native": "Puerto Adolfo Lopez Mateos",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2227,
-    "wikiDataId": "Q20210996"
+    "wikiDataId": "Q4384914"
   },
   {
     "id": 72974,
@@ -395,7 +411,7 @@
     "native": "Puerto San Carlos",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5538,
     "wikiDataId": "Q7413502"
   },
@@ -411,8 +427,8 @@
     "native": "San Francisco",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 2152,
+    "type": "locality",
+    "population": 1919,
     "wikiDataId": "Q20245873"
   },
   {
@@ -425,9 +441,9 @@
     "latitude": "23.05888000",
     "longitude": "-109.69771000",
     "native": "San José del Cabo",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 136285,
     "wikiDataId": "Q2088134"
   },
@@ -443,7 +459,7 @@
     "native": "Santa Rosalía",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 14357,
     "wikiDataId": "Q1640231"
   },
@@ -459,7 +475,7 @@
     "native": "Todos Santos",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5148,
     "wikiDataId": "Q1658489"
   },
@@ -475,8 +491,8 @@
     "native": "Villa Alberto Andrés Alvarado Arámburo",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 6902,
+    "type": "locality",
+    "population": 10897,
     "wikiDataId": "Q20246025"
   },
   {
@@ -491,8 +507,8 @@
     "native": "Villa Morelos",
     "timezone": "America/Mazatlan",
     "translations": {},
-    "type": "city",
-    "population": 1153,
+    "type": "locality",
+    "population": 1189,
     "wikiDataId": "Q20246033"
   }
 ]

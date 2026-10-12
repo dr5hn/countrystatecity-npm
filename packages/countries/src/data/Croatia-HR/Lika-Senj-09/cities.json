@@ -11,7 +11,7 @@
     "native": "Brinje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1250,
     "wikiDataId": "Q283566"
   },
@@ -27,7 +27,7 @@
     "native": "Gospić",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 6362,
     "wikiDataId": "Q319276"
   },
@@ -43,9 +43,25 @@
     "native": "Karlobag",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 368,
     "wikiDataId": "Q775393"
+  },
+  {
+    "id": 164780,
+    "name": "Korenica",
+    "state_id": 731,
+    "state_code": "09",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "44.74389000",
+    "longitude": "15.70972000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 1563,
+    "wikiDataId": "Q1269156"
   },
   {
     "id": 54690,
@@ -59,7 +75,7 @@
     "native": "Lički Osik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1438,
     "wikiDataId": "Q3443459"
   },
@@ -75,7 +91,7 @@
     "native": "Novalja",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2415,
     "wikiDataId": "Q396613"
   },
@@ -91,7 +107,7 @@
     "native": "Otočac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3852,
     "wikiDataId": "Q399109"
   },
@@ -107,7 +123,7 @@
     "native": "Perušić",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 752,
     "wikiDataId": "Q1008121"
   },
@@ -123,9 +139,9 @@
     "native": "Plitvička Jezera",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q397633"
+    "wikiDataId": "Q1277540"
   },
   {
     "id": 54824,
@@ -141,7 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10255,
-    "wikiDataId": "Q664872"
+    "wikiDataId": null
   },
   {
     "id": 54884,
@@ -155,7 +171,7 @@
     "native": "Senj",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4164,
     "wikiDataId": "Q259466"
   }

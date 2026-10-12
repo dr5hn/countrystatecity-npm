@@ -16,6 +16,22 @@
     "wikiDataId": "Q685330"
   },
   {
+    "id": 165553,
+    "name": "Fatick",
+    "state_id": 479,
+    "state_code": "FK",
+    "country_id": 195,
+    "country_code": "SN",
+    "latitude": "14.33236000",
+    "longitude": "-16.40513000",
+    "native": null,
+    "timezone": "Africa/Dakar",
+    "translations": {},
+    "type": "adm1",
+    "population": 39361,
+    "wikiDataId": "Q430470"
+  },
+  {
     "id": 104710,
     "name": "Fatick Department",
     "state_id": 479,
@@ -24,7 +40,7 @@
     "country_code": "SN",
     "latitude": "14.25909000",
     "longitude": "-16.49884000",
-    "native": "Département de fatigue",
+    "native": "Fatick Department",
     "timezone": "Africa/Dakar",
     "translations": {},
     "type": "city",
@@ -48,31 +64,15 @@
     "wikiDataId": "Q3079946"
   },
   {
-    "id": 104715,
-    "name": "Guinguinéo",
-    "state_id": 479,
-    "state_code": "FK",
-    "country_id": 195,
-    "country_code": "SN",
-    "latitude": "14.26667000",
-    "longitude": "-15.95000000",
-    "native": "Guinguinéo",
-    "timezone": "Africa/Dakar",
-    "translations": {},
-    "type": "city",
-    "population": 20340,
-    "wikiDataId": "Q3100518"
-  },
-  {
     "id": 104747,
-    "name": "Passi",
+    "name": "Passy",
     "state_id": 479,
     "state_code": "FK",
     "country_id": 195,
     "country_code": "SN",
     "latitude": "13.98333000",
     "longitude": "-16.26667000",
-    "native": "Mesures",
+    "native": "Passy",
     "timezone": "Africa/Dakar",
     "translations": {},
     "type": "city",
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 24146,
-    "wikiDataId": "Q255486"
+    "wikiDataId": null
   },
   {
     "id": 104759,

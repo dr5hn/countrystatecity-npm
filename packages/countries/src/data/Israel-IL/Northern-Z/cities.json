@@ -40,7 +40,7 @@
     "country_code": "IL",
     "latitude": "32.92814000",
     "longitude": "35.07647000",
-    "native": "אַקְר",
+    "native": "עכו",
     "timezone": "Asia/Jerusalem",
     "translations": {},
     "type": "city",
@@ -433,7 +433,7 @@
   },
   {
     "id": 57497,
-    "name": "Kefar Tavor",
+    "name": "Kfar Tavor",
     "state_id": 1366,
     "state_code": "Z",
     "country_id": 106,
@@ -449,7 +449,7 @@
   },
   {
     "id": 57498,
-    "name": "Kefar Weradim",
+    "name": "Kfar Vradim",
     "state_id": 1366,
     "state_code": "Z",
     "country_id": 106,
@@ -513,7 +513,7 @@
   },
   {
     "id": 57508,
-    "name": "Metulla",
+    "name": "Metula",
     "state_id": 1366,
     "state_code": "Z",
     "country_id": 106,
@@ -638,6 +638,22 @@
     "type": "city",
     "population": 1876,
     "wikiDataId": "Q934904"
+  },
+  {
+    "id": 164830,
+    "name": "Nof HaGalil",
+    "state_id": 1366,
+    "state_code": "Z",
+    "country_id": 106,
+    "country_code": "IL",
+    "latitude": "32.70816000",
+    "longitude": "35.32469000",
+    "native": null,
+    "timezone": "Asia/Jerusalem",
+    "translations": {},
+    "type": "city",
+    "population": 43556,
+    "wikiDataId": "Q167659"
   },
   {
     "id": 57532,
@@ -784,22 +800,6 @@
     "wikiDataId": "Q2910964"
   },
   {
-    "id": 57558,
-    "name": "Shelomi",
-    "state_id": 1366,
-    "state_code": "Z",
-    "country_id": 106,
-    "country_code": "IL",
-    "latitude": "33.07216000",
-    "longitude": "35.14452000",
-    "native": "שלומי",
-    "timezone": "Asia/Jerusalem",
-    "translations": {},
-    "type": "city",
-    "population": 6511,
-    "wikiDataId": "Q135421"
-  },
-  {
     "id": 57559,
     "name": "Shibli",
     "state_id": 1366,
@@ -813,6 +813,22 @@
     "translations": {},
     "type": "city",
     "population": 4800,
+    "wikiDataId": "Q135421"
+  },
+  {
+    "id": 57558,
+    "name": "Shlomi",
+    "state_id": 1366,
+    "state_code": "Z",
+    "country_id": 106,
+    "country_code": "IL",
+    "latitude": "33.07216000",
+    "longitude": "35.14452000",
+    "native": "שלומי",
+    "timezone": "Asia/Jerusalem",
+    "translations": {},
+    "type": "city",
+    "population": 6511,
     "wikiDataId": "Q135421"
   },
   {
@@ -894,5 +910,21 @@
     "type": "city",
     "population": 4460,
     "wikiDataId": "Q1676894"
+  },
+  {
+    "id": 164835,
+    "name": "Yoqne‘am ‘Illit",
+    "state_id": 1366,
+    "state_code": "Z",
+    "country_id": 106,
+    "country_code": "IL",
+    "latitude": "32.64661000",
+    "longitude": "35.09202000",
+    "native": null,
+    "timezone": "Asia/Jerusalem",
+    "translations": {},
+    "type": "city",
+    "population": 23796,
+    "wikiDataId": "Q167582"
   }
 ]

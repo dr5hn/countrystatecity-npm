@@ -8,10 +8,10 @@
     "country_code": "UA",
     "latitude": "49.80974000",
     "longitude": "26.87714000",
-    "native": "Антоніні",
+    "native": "Антоніни",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2157,
     "wikiDataId": "Q599421"
   },
@@ -27,7 +27,7 @@
     "native": "Базалія",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1541,
     "wikiDataId": "Q2629685"
   },
@@ -43,7 +43,7 @@
     "native": "Деражня",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q219775"
   },
@@ -107,7 +107,7 @@
     "native": "Ізяслав",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q841029"
   },
@@ -123,7 +123,7 @@
     "native": "Кам'янець-Подільський",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 96896,
     "wikiDataId": "Q193965"
   },
@@ -155,7 +155,7 @@
     "native": "Хмельницький",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 274452,
     "wikiDataId": "Q156717"
   },
@@ -171,7 +171,7 @@
     "native": "Красилів",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 18868,
     "wikiDataId": "Q1020096"
   },
@@ -187,7 +187,7 @@
     "native": "Летичів",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 10335,
     "wikiDataId": "Q2431181"
   },
@@ -203,7 +203,7 @@
     "native": "Маків",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5602,
     "wikiDataId": "Q4275873"
   },
@@ -219,7 +219,7 @@
     "native": "Меджибіж",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1339,
     "wikiDataId": "Q1022485"
   },
@@ -235,7 +235,7 @@
     "native": "Наркевичі",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1477,
     "wikiDataId": "Q1973665"
   },
@@ -267,7 +267,7 @@
     "native": "Нова Ушиця",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q2391355"
   },
@@ -283,7 +283,7 @@
     "native": "Новоселиця",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3185,
     "wikiDataId": "Q4325271"
   },
@@ -299,7 +299,7 @@
     "native": "Полонне",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 20172,
     "wikiDataId": "Q997351"
   },
@@ -315,7 +315,7 @@
     "native": "Понінка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7189,
     "wikiDataId": "Q1973731"
   },
@@ -331,7 +331,7 @@
     "native": "Шепетівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 40299,
     "wikiDataId": "Q161965"
   },
@@ -347,7 +347,7 @@
     "native": "Славута",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 35068,
     "wikiDataId": "Q856018"
   },
@@ -368,22 +368,6 @@
     "wikiDataId": "Q219595"
   },
   {
-    "id": 110490,
-    "name": "Smyga",
-    "state_id": 4681,
-    "state_code": "68",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "50.23910000",
-    "longitude": "25.76575000",
-    "native": "Смига",
-    "timezone": "Europe/Kyiv",
-    "translations": {},
-    "type": "city",
-    "population": 2800,
-    "wikiDataId": "Q219595"
-  },
-  {
     "id": 110527,
     "name": "Stara Syniava",
     "state_id": 4681,
@@ -395,7 +379,7 @@
     "native": "Стара Синява",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5501,
     "wikiDataId": "Q2391293"
   },
@@ -411,9 +395,57 @@
     "native": "Старокостянтинів",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 33921,
     "wikiDataId": "Q997429"
+  },
+  {
+    "id": 165637,
+    "name": "Teofipol",
+    "state_id": 4681,
+    "state_code": "68",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.83892000",
+    "longitude": "26.42040000",
+    "native": null,
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q2637331"
+  },
+  {
+    "id": 165639,
+    "name": "Vinkivtsi",
+    "state_id": 4681,
+    "state_code": "68",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.03403000",
+    "longitude": "27.23135000",
+    "native": null,
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q2391347"
+  },
+  {
+    "id": 165632,
+    "name": "Volochysk",
+    "state_id": 4681,
+    "state_code": "68",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.53606000",
+    "longitude": "26.20681000",
+    "native": "Волочиськ",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q219762"
   },
   {
     "id": 110787,
@@ -427,7 +459,7 @@
     "native": "Ярмолинці",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7263,
     "wikiDataId": "Q2391335"
   },
@@ -443,7 +475,7 @@
     "native": "Закупне",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1384,
     "wikiDataId": "Q1973656"
   },
@@ -459,7 +491,7 @@
     "native": "Жванець",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1529,
     "wikiDataId": "Q4178401"
   }

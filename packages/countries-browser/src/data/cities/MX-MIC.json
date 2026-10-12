@@ -1,5 +1,37 @@
 [
   {
+    "id": 68023,
+    "name": "Acachuén",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84715000",
+    "longitude": "-102.09272000",
+    "native": "Acachuén",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2881,
+    "wikiDataId": "Q49846289"
+  },
+  {
+    "id": 68031,
+    "name": "Acalpican de Morelos",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "18.01854000",
+    "longitude": "-102.34033000",
+    "native": "Acalpican de Morelos",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1538,
+    "wikiDataId": "Q49845719"
+  },
+  {
     "id": 68080,
     "name": "Acuitzio",
     "state_id": 3474,
@@ -11,8 +43,8 @@
     "native": "Acuitzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 664,
+    "type": "municipality",
+    "population": 11301,
     "wikiDataId": "Q3846405"
   },
   {
@@ -27,7 +59,7 @@
     "native": "Acuítzio del Canje",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 6733,
     "wikiDataId": "Q4677871"
   },
@@ -43,9 +75,25 @@
     "native": "Agostitlán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4048,
-    "wikiDataId": "Q27949216"
+    "wikiDataId": "Q49844195"
+  },
+  {
+    "id": 68107,
+    "name": "Agua Caliente",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.90011000",
+    "longitude": "-100.17186000",
+    "native": "Agua Caliente",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1151,
+    "wikiDataId": "Q20274371"
   },
   {
     "id": 68108,
@@ -59,9 +107,9 @@
     "native": "Agua Caliente",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1042,
-    "wikiDataId": "Q20130737"
+    "type": "locality",
+    "population": 921,
+    "wikiDataId": "Q49842887"
   },
   {
     "id": 68129,
@@ -75,7 +123,7 @@
     "native": "Aguililla",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8801,
     "wikiDataId": "Q20235801"
   },
@@ -91,8 +139,8 @@
     "native": "Ahuirán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1906,
+    "type": "locality",
+    "population": 2147,
     "wikiDataId": "Q20251199"
   },
   {
@@ -104,12 +152,12 @@
     "country_code": "MX",
     "latitude": "19.51262000",
     "longitude": "-101.72280000",
-    "native": "Ayuda",
+    "native": "Ajuno",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1737,
-    "wikiDataId": "Q2449516"
+    "type": "locality",
+    "population": 1841,
+    "wikiDataId": "Q49858103"
   },
   {
     "id": 76399,
@@ -123,13 +171,13 @@
     "native": "Álvaro Obregón",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 8807,
+    "type": "locality",
+    "population": 9513,
     "wikiDataId": "Q8076732"
   },
   {
     "id": 68271,
-    "name": "Angahuán",
+    "name": "Angahuan",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -139,9 +187,9 @@
     "native": "Angahuán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5773,
-    "wikiDataId": "Q20251838"
+    "wikiDataId": "Q4065083"
   },
   {
     "id": 68272,
@@ -155,7 +203,7 @@
     "native": "Angamacutiro de la Unión",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 5030,
     "wikiDataId": "Q20136404"
   },
@@ -171,40 +219,24 @@
     "native": "Ansihuacuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1160,
-    "wikiDataId": "Q4497315"
+    "type": "locality",
+    "population": 1095,
+    "wikiDataId": "Q20136526"
   },
   {
     "id": 68282,
-    "name": "Antúnez",
+    "name": "Antúnez (Morelos)",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "19.01451000",
     "longitude": "-102.20432000",
-    "native": "Antúnez",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 8591,
-    "wikiDataId": "Q20235827"
-  },
-  {
-    "id": 68283,
-    "name": "Antúnez (Morelos)",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "19.01278000",
-    "longitude": "-102.20389000",
     "native": "Antúnez (Morelos)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 9044,
+    "type": "locality",
+    "population": 10271,
     "wikiDataId": "Q15696809"
   },
   {
@@ -219,7 +251,7 @@
     "native": "Apatzingán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 102362,
     "wikiDataId": "Q94758"
   },
@@ -232,11 +264,11 @@
     "country_code": "MX",
     "latitude": "19.88722000",
     "longitude": "-100.34194000",
-    "native": "Apost",
+    "native": "Apeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1897,
+    "type": "locality",
+    "population": 2124,
     "wikiDataId": "Q20235831"
   },
   {
@@ -251,9 +283,9 @@
     "native": "Apo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1738,
-    "wikiDataId": "Q618693"
+    "type": "locality",
+    "population": 1908,
+    "wikiDataId": "Q116256813"
   },
   {
     "id": 68312,
@@ -264,12 +296,12 @@
     "country_code": "MX",
     "latitude": "19.67021000",
     "longitude": "-100.41068000",
-    "native": "Manzana",
+    "native": "Aporo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2120,
-    "wikiDataId": "Q3892968"
+    "type": "locality",
+    "population": 2194,
+    "wikiDataId": "Q49852675"
   },
   {
     "id": 68314,
@@ -283,9 +315,9 @@
     "native": "Aputzio de Juárez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1383,
-    "wikiDataId": "Q3139265"
+    "type": "locality",
+    "population": 1177,
+    "wikiDataId": "Q49852683"
   },
   {
     "id": 68315,
@@ -299,7 +331,7 @@
     "native": "Águila",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1924,
     "wikiDataId": "Q3847312"
   },
@@ -317,7 +349,7 @@
     "translations": {},
     "type": "section",
     "population": 1255,
-    "wikiDataId": "Q3847202"
+    "wikiDataId": null
   },
   {
     "id": 68322,
@@ -331,9 +363,9 @@
     "native": "Aquiles Serdán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1498,
-    "wikiDataId": "Q20227607"
+    "type": "locality",
+    "population": 1678,
+    "wikiDataId": "Q49846520"
   },
   {
     "id": 68330,
@@ -347,9 +379,9 @@
     "native": "Artepacua",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2707,
-    "wikiDataId": "Q625719"
+    "type": "locality",
+    "population": 3505,
+    "wikiDataId": "Q29323596"
   },
   {
     "id": 68331,
@@ -360,12 +392,12 @@
     "country_code": "MX",
     "latitude": "19.66418000",
     "longitude": "-102.02365000",
-    "native": "Arado",
+    "native": "Aranza",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1881,
-    "wikiDataId": "Q625719"
+    "type": "locality",
+    "population": 1950,
+    "wikiDataId": "Q49852761"
   },
   {
     "id": 68332,
@@ -379,9 +411,9 @@
     "native": "Araró",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1427,
-    "wikiDataId": "Q625719"
+    "wikiDataId": "Q5702333"
   },
   {
     "id": 68350,
@@ -395,7 +427,7 @@
     "native": "Ario de Rayón",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8464,
     "wikiDataId": "Q20137338"
   },
@@ -411,9 +443,9 @@
     "native": "Ario de Rosales",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 16595,
-    "wikiDataId": "Q4790739"
+    "type": "locality",
+    "population": 18097,
+    "wikiDataId": "Q27787637"
   },
   {
     "id": 68373,
@@ -427,8 +459,8 @@
     "native": "Arteaga",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 8446,
+    "type": "locality",
+    "population": 11046,
     "wikiDataId": "Q20138816"
   },
   {
@@ -443,9 +475,9 @@
     "native": "Atacheo de Regalado",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1425,
-    "wikiDataId": "Q3846570"
+    "type": "locality",
+    "population": 1475,
+    "wikiDataId": "Q49857148"
   },
   {
     "id": 68391,
@@ -459,8 +491,8 @@
     "native": "Atapano",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2323,
+    "type": "locality",
+    "population": 2631,
     "wikiDataId": "Q20139034"
   },
   {
@@ -472,12 +504,12 @@
     "country_code": "MX",
     "latitude": "19.73892000",
     "longitude": "-101.11576000",
-    "native": "Lo hará",
+    "native": "Atapaneo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1965,
-    "wikiDataId": "Q3846570"
+    "type": "locality",
+    "population": 2209,
+    "wikiDataId": "Q49857115"
   },
   {
     "id": 68395,
@@ -491,8 +523,8 @@
     "native": "Atecucario de la Constitución (Atecuario)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3283,
+    "type": "locality",
+    "population": 3681,
     "wikiDataId": "Q20139064"
   },
   {
@@ -507,8 +539,8 @@
     "native": "Atotonilco",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1401,
+    "type": "locality",
+    "population": 1775,
     "wikiDataId": "Q20139395"
   },
   {
@@ -523,9 +555,9 @@
     "native": "Belisario Domínguez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1105,
-    "wikiDataId": "Q1507960"
+    "type": "locality",
+    "population": 1429,
+    "wikiDataId": "Q49863372"
   },
   {
     "id": 68578,
@@ -539,9 +571,9 @@
     "native": "Bellas Fuentes",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1104,
-    "wikiDataId": "Q20246126"
+    "wikiDataId": "Q20235956"
   },
   {
     "id": 68599,
@@ -557,7 +589,7 @@
     "translations": {},
     "type": "city",
     "population": 3074,
-    "wikiDataId": "Q20144003"
+    "wikiDataId": null
   },
   {
     "id": 68623,
@@ -571,7 +603,7 @@
     "native": "Bocaneo (San Pedro)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2082,
     "wikiDataId": "Q20144799"
   },
@@ -587,8 +619,8 @@
     "native": "Bonifacio Moreno (El Aguaje)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2232,
+    "type": "locality",
+    "population": 2550,
     "wikiDataId": "Q20235974"
   },
   {
@@ -603,8 +635,8 @@
     "native": "Briseñas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 11328,
+    "type": "municipality",
+    "population": 11681,
     "wikiDataId": "Q10741338"
   },
   {
@@ -619,13 +651,13 @@
     "native": "Briseñas de Matamoros",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 4193,
+    "type": "locality",
+    "population": 4338,
     "wikiDataId": "Q20235984"
   },
   {
     "id": 68675,
-    "name": "Buenavista",
+    "name": "Buenavista Tomatlán",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -635,41 +667,9 @@
     "native": "Buenavista",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10390,
-    "wikiDataId": "Q4985488"
-  },
-  {
-    "id": 68680,
-    "name": "Buenavista de Benito Juárez",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "18.46034000",
-    "longitude": "-98.63735000",
-    "native": "Buenavista de Benito Juárez",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 1359,
-    "wikiDataId": "Q20145986"
-  },
-  {
-    "id": 68678,
-    "name": "Buenavista Tomatlán",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "19.21281000",
-    "longitude": "-102.58735000",
-    "native": "Buenavista Tomatlán",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 10390,
-    "wikiDataId": "Q20145986"
+    "wikiDataId": "Q16302102"
   },
   {
     "id": 68688,
@@ -683,8 +683,8 @@
     "native": "Buenos Aires",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 9868,
+    "type": "locality",
+    "population": 10856,
     "wikiDataId": "Q20146661"
   },
   {
@@ -699,9 +699,9 @@
     "native": "Caltzontzín",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5136,
-    "wikiDataId": "Q1997497"
+    "wikiDataId": "Q61269724"
   },
   {
     "id": 68782,
@@ -715,8 +715,8 @@
     "native": "Camembaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1021,
+    "type": "locality",
+    "population": 1136,
     "wikiDataId": "Q20236042"
   },
   {
@@ -731,9 +731,9 @@
     "native": "Campestre de Tarímbaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2774,
-    "wikiDataId": "Q3847328"
+    "type": "locality",
+    "population": 3536,
+    "wikiDataId": "Q20275049"
   },
   {
     "id": 68880,
@@ -747,9 +747,9 @@
     "native": "Cañada de Ramírez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1320,
-    "wikiDataId": "Q20205614"
+    "type": "locality",
+    "population": 1323,
+    "wikiDataId": "Q5759543"
   },
   {
     "id": 68793,
@@ -760,12 +760,12 @@
     "country_code": "MX",
     "latitude": "19.83994000",
     "longitude": "-101.72652000",
-    "native": "Furtivo",
+    "native": "Cantabria",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1956,
-    "wikiDataId": "Q5747629"
+    "type": "locality",
+    "population": 2066,
+    "wikiDataId": "Q61269157"
   },
   {
     "id": 68804,
@@ -776,12 +776,12 @@
     "country_code": "MX",
     "latitude": "19.96457000",
     "longitude": "-101.23117000",
-    "native": "Felpudo",
+    "native": "Capacho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1849,
-    "wikiDataId": "Q20227664"
+    "type": "locality",
+    "population": 1969,
+    "wikiDataId": "Q61238120"
   },
   {
     "id": 68814,
@@ -795,8 +795,8 @@
     "native": "Capácuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 7424,
+    "type": "locality",
+    "population": 6581,
     "wikiDataId": "Q20275220"
   },
   {
@@ -827,9 +827,25 @@
     "native": "Carácuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 9485,
+    "type": "municipality",
+    "population": 9176,
     "wikiDataId": "Q5784494"
+  },
+  {
+    "id": 68815,
+    "name": "Carapán",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.86003000",
+    "longitude": "-102.03644000",
+    "native": "Carapán",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 6867,
+    "wikiDataId": "Q5748894"
   },
   {
     "id": 68831,
@@ -845,7 +861,7 @@
     "translations": {},
     "type": "city",
     "population": 1390,
-    "wikiDataId": "Q20211267"
+    "wikiDataId": null
   },
   {
     "id": 68866,
@@ -859,9 +875,9 @@
     "native": "Caurio de Guadalupe",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1897,
-    "wikiDataId": "Q20275325"
+    "type": "locality",
+    "population": 1881,
+    "wikiDataId": "Q61237734"
   },
   {
     "id": 68896,
@@ -875,9 +891,9 @@
     "native": "Cenobio Moreno",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2609,
-    "wikiDataId": "Q20211307"
+    "type": "locality",
+    "population": 3267,
+    "wikiDataId": "Q61233778"
   },
   {
     "id": 68924,
@@ -893,7 +909,7 @@
     "translations": {},
     "type": "city",
     "population": 1091,
-    "wikiDataId": "Q27772333"
+    "wikiDataId": null
   },
   {
     "id": 68976,
@@ -904,16 +920,32 @@
     "country_code": "MX",
     "latitude": "19.37976000",
     "longitude": "-101.66556000",
-    "native": "Lámina",
+    "native": "Chapa",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1066,
-    "wikiDataId": "Q2577482"
+    "type": "locality",
+    "population": 1349,
+    "wikiDataId": "Q61264386"
+  },
+  {
+    "id": 68982,
+    "name": "Chaparaco",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.96061000",
+    "longitude": "-102.26092000",
+    "native": "Chaparaco",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2730,
+    "wikiDataId": "Q61269629"
   },
   {
     "id": 68992,
-    "name": "Charapán",
+    "name": "Charapan",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -923,9 +955,9 @@
     "native": "Charapán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3968,
-    "wikiDataId": "Q20236280"
+    "type": "locality",
+    "population": 4409,
+    "wikiDataId": "Q3893388"
   },
   {
     "id": 68991,
@@ -939,9 +971,9 @@
     "native": "Charapendo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1118,
-    "wikiDataId": "Q20237410"
+    "type": "locality",
+    "population": 1299,
+    "wikiDataId": "Q61236695"
   },
   {
     "id": 68998,
@@ -955,9 +987,9 @@
     "native": "Charo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 5207,
-    "wikiDataId": "Q2839370"
+    "type": "locality",
+    "population": 5807,
+    "wikiDataId": "Q20236293"
   },
   {
     "id": 69004,
@@ -971,8 +1003,8 @@
     "native": "Chavinda",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6246,
+    "type": "locality",
+    "population": 6596,
     "wikiDataId": "Q2447301"
   },
   {
@@ -987,9 +1019,9 @@
     "native": "Cherán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 14245,
-    "wikiDataId": "Q2962825"
+    "type": "locality",
+    "population": 16841,
+    "wikiDataId": "Q5765860"
   },
   {
     "id": 69008,
@@ -1003,9 +1035,25 @@
     "native": "Cherán Atzicuirín (Cheranástico)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2386,
+    "type": "locality",
+    "population": 2942,
     "wikiDataId": "Q20236297"
+  },
+  {
+    "id": 69066,
+    "name": "Chilchota",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84654000",
+    "longitude": "-102.11716000",
+    "native": "Chilchota",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 8280,
+    "wikiDataId": "Q20275622"
   },
   {
     "id": 69067,
@@ -1019,8 +1067,8 @@
     "native": "Chilchota",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 39035,
+    "type": "municipality",
+    "population": 40560,
     "wikiDataId": "Q967758"
   },
   {
@@ -1035,25 +1083,9 @@
     "native": "Chiquimitío",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1436,
-    "wikiDataId": "Q276054"
-  },
-  {
-    "id": 69095,
-    "name": "Chitejé de Garabato",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "20.10111000",
-    "longitude": "-100.18899000",
-    "native": "Chitejé de Garabato",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 1625,
-    "wikiDataId": "Q20205833"
+    "type": "locality",
+    "population": 1379,
+    "wikiDataId": "Q61268908"
   },
   {
     "id": 69111,
@@ -1067,9 +1099,9 @@
     "native": "Chucándiro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 1609,
-    "wikiDataId": "Q20275700"
+    "type": "locality",
+    "population": 1401,
+    "wikiDataId": "Q8345882"
   },
   {
     "id": 69122,
@@ -1083,9 +1115,9 @@
     "native": "Chupio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2086,
-    "wikiDataId": "Q368220"
+    "type": "locality",
+    "population": 2516,
+    "wikiDataId": "Q61263558"
   },
   {
     "id": 69123,
@@ -1099,8 +1131,8 @@
     "native": "Churintzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2592,
+    "type": "locality",
+    "population": 2580,
     "wikiDataId": "Q10748091"
   },
   {
@@ -1115,9 +1147,9 @@
     "native": "Churumuco de Morelos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 4725,
-    "wikiDataId": "Q3894955"
+    "type": "locality",
+    "population": 4407,
+    "wikiDataId": "Q20275739"
   },
   {
     "id": 69161,
@@ -1131,8 +1163,8 @@
     "native": "Ciudad Hidalgo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 60542,
+    "type": "locality",
+    "population": 71528,
     "wikiDataId": "Q1962248"
   },
   {
@@ -1147,7 +1179,7 @@
     "native": "Ciudad Lázaro Cárdenas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 196003,
     "wikiDataId": "Q1785340"
   },
@@ -1163,9 +1195,9 @@
     "native": "Coahuayana de Hidalgo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 7307,
-    "wikiDataId": "Q958809"
+    "type": "locality",
+    "population": 5886,
+    "wikiDataId": "Q61238445"
   },
   {
     "id": 69212,
@@ -1179,25 +1211,9 @@
     "native": "Coahuayana Viejo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2425,
+    "type": "locality",
+    "population": 2860,
     "wikiDataId": "Q20236384"
-  },
-  {
-    "id": 69219,
-    "name": "Coajomulco",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "19.03375000",
-    "longitude": "-99.20428000",
-    "native": "Coajomulco",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 2089,
-    "wikiDataId": "Q20235611"
   },
   {
     "id": 69220,
@@ -1211,7 +1227,7 @@
     "native": "Coalcomán de Vázquez Pallares",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 18444,
     "wikiDataId": "Q3847177"
   },
@@ -1227,9 +1243,9 @@
     "native": "Cocucho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2838,
-    "wikiDataId": "Q5139909"
+    "type": "locality",
+    "population": 3213,
+    "wikiDataId": "Q61239351"
   },
   {
     "id": 69245,
@@ -1243,8 +1259,8 @@
     "native": "Coeneo de la Libertad",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3865,
+    "type": "locality",
+    "population": 3776,
     "wikiDataId": "Q3892866"
   },
   {
@@ -1259,8 +1275,8 @@
     "native": "Cojumatlán de Regles",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6763,
+    "type": "locality",
+    "population": 7251,
     "wikiDataId": "Q20276134"
   },
   {
@@ -1307,8 +1323,8 @@
     "native": "Colonia de Guadalupe",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1153,
+    "type": "locality",
+    "population": 1395,
     "wikiDataId": "Q20236448"
   },
   {
@@ -1323,8 +1339,8 @@
     "native": "Colonia Ecológica Asociación de Lucha Social (Lucha Social)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1349,
+    "type": "locality",
+    "population": 1084,
     "wikiDataId": "Q20236459"
   },
   {
@@ -1355,8 +1371,8 @@
     "native": "Colonia Emiliano Zapata (San Juan Zitácuaro)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1887,
+    "type": "locality",
+    "population": 1538,
     "wikiDataId": "Q20236493"
   },
   {
@@ -1371,8 +1387,8 @@
     "native": "Colonia Independencia",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1150,
+    "type": "locality",
+    "population": 1507,
     "wikiDataId": "Q20129518"
   },
   {
@@ -1387,8 +1403,8 @@
     "native": "Colonia las Malvinas (Colonia Antorcha)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2397,
+    "type": "locality",
+    "population": 2773,
     "wikiDataId": "Q20130160"
   },
   {
@@ -1403,8 +1419,8 @@
     "native": "Colonia Miguel Hidalgo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1164,
+    "type": "locality",
+    "population": 1410,
     "wikiDataId": "Q20130840"
   },
   {
@@ -1419,8 +1435,8 @@
     "native": "Colonia Vista Bella (Lomas del Peaje)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3040,
+    "type": "locality",
+    "population": 3528,
     "wikiDataId": "Q20276512"
   },
   {
@@ -1435,7 +1451,7 @@
     "native": "Comachuén",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4762,
     "wikiDataId": "Q20132934"
   },
@@ -1451,9 +1467,9 @@
     "native": "Comanjá",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1495,
-    "wikiDataId": "Q20132978"
+    "type": "locality",
+    "population": 1661,
+    "wikiDataId": "Q27031107"
   },
   {
     "id": 69447,
@@ -1467,9 +1483,9 @@
     "native": "Condémbaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1335,
-    "wikiDataId": "Q20276535"
+    "type": "locality",
+    "population": 1853,
+    "wikiDataId": "Q61263614"
   },
   {
     "id": 69457,
@@ -1483,7 +1499,7 @@
     "native": "Conjunto Habitacional el Trébol",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1441,
     "wikiDataId": "Q20133822"
   },
@@ -1504,6 +1520,22 @@
     "wikiDataId": "Q20236579"
   },
   {
+    "id": 69467,
+    "name": "Contepec",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.95432000",
+    "longitude": "-100.16385000",
+    "native": "Contepec",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "municipality",
+    "population": 4184,
+    "wikiDataId": "Q10749854"
+  },
+  {
     "id": 69475,
     "name": "Copándaro (Copándaro del Cuatro)",
     "state_id": 3474,
@@ -1515,9 +1547,9 @@
     "native": "Copándaro (Copándaro del Cuatro)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1479,
-    "wikiDataId": "Q20276559"
+    "wikiDataId": "Q61237738"
   },
   {
     "id": 69476,
@@ -1531,7 +1563,7 @@
     "native": "Copándaro de Galeana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3112,
     "wikiDataId": "Q3893731"
   },
@@ -1547,9 +1579,9 @@
     "native": "Corupo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1994,
-    "wikiDataId": "Q25425552"
+    "type": "locality",
+    "population": 2099,
+    "wikiDataId": "Q5789786"
   },
   {
     "id": 69509,
@@ -1563,8 +1595,8 @@
     "native": "Cotija de la Paz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 13560,
+    "type": "locality",
+    "population": 14074,
     "wikiDataId": "Q2411306"
   },
   {
@@ -1579,8 +1611,8 @@
     "native": "Crescencio Morales (San Mateo)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1709,
+    "type": "locality",
+    "population": 821,
     "wikiDataId": "Q20236611"
   },
   {
@@ -1595,9 +1627,9 @@
     "native": "Cuamio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2180,
-    "wikiDataId": "Q3888087"
+    "type": "locality",
+    "population": 2104,
+    "wikiDataId": "Q20236630"
   },
   {
     "id": 69558,
@@ -1611,8 +1643,8 @@
     "native": "Cuanajo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4758,
+    "type": "locality",
+    "population": 5644,
     "wikiDataId": "Q20136884"
   },
   {
@@ -1627,9 +1659,9 @@
     "native": "Cuaracurío",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1605,
-    "wikiDataId": "Q20262569"
+    "type": "locality",
+    "population": 1638,
+    "wikiDataId": "Q61239239"
   },
   {
     "id": 69566,
@@ -1643,8 +1675,8 @@
     "native": "Cuartel la Mesa (El Asoleadero)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1034,
+    "type": "locality",
+    "population": 1239,
     "wikiDataId": "Q20136992"
   },
   {
@@ -1659,9 +1691,9 @@
     "native": "Cuatro Caminos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1194,
-    "wikiDataId": "Q20136992"
+    "wikiDataId": "Q61266688"
   },
   {
     "id": 69607,
@@ -1675,9 +1707,9 @@
     "native": "Cucuchucho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1302,
-    "wikiDataId": "Q20137783"
+    "type": "locality",
+    "population": 1595,
+    "wikiDataId": "Q61272036"
   },
   {
     "id": 69629,
@@ -1691,9 +1723,9 @@
     "native": "Cuitzeo del Porvenir",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10239,
-    "wikiDataId": "Q5899035"
+    "wikiDataId": "Q3381253"
   },
   {
     "id": 69638,
@@ -1704,12 +1736,12 @@
     "country_code": "MX",
     "latitude": "20.25724000",
     "longitude": "-102.59060000",
-    "native": "Acumular",
+    "native": "Cumuato",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1252,
-    "wikiDataId": "Q20264405"
+    "type": "locality",
+    "population": 1233,
+    "wikiDataId": "Q61238371"
   },
   {
     "id": 69643,
@@ -1720,12 +1752,12 @@
     "country_code": "MX",
     "latitude": "19.85071000",
     "longitude": "-101.08903000",
-    "native": "Gararrataro",
+    "native": "Cuparátaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1038,
-    "wikiDataId": "Q5194433"
+    "type": "locality",
+    "population": 1072,
+    "wikiDataId": "Q61263979"
   },
   {
     "id": 69645,
@@ -1739,8 +1771,8 @@
     "native": "Cupuán del Río",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1167,
+    "type": "locality",
+    "population": 967,
     "wikiDataId": "Q20138436"
   },
   {
@@ -1755,9 +1787,9 @@
     "native": "Curameeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1143,
-    "wikiDataId": "Q20138436"
+    "type": "locality",
+    "population": 1095,
+    "wikiDataId": "Q61262876"
   },
   {
     "id": 69647,
@@ -1773,7 +1805,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q20138436"
+    "wikiDataId": null
   },
   {
     "id": 69649,
@@ -1787,8 +1819,8 @@
     "native": "Cuto de la Esperanza",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1019,
+    "type": "locality",
+    "population": 1008,
     "wikiDataId": "Q20236675"
   },
   {
@@ -1803,9 +1835,9 @@
     "native": "Cuto del Porvenir",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4147,
-    "wikiDataId": "Q20236675"
+    "type": "locality",
+    "population": 5130,
+    "wikiDataId": "Q61263985"
   },
   {
     "id": 69684,
@@ -1819,9 +1851,9 @@
     "native": "Dieciocho de Marzo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1510,
-    "wikiDataId": "Q20237772"
+    "type": "locality",
+    "population": 1561,
+    "wikiDataId": "Q49912571"
   },
   {
     "id": 69690,
@@ -1835,9 +1867,9 @@
     "native": "División del Norte",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1244,
-    "wikiDataId": "Q20237772"
+    "type": "locality",
+    "population": 1179,
+    "wikiDataId": "Q49912381"
   },
   {
     "id": 69697,
@@ -1851,9 +1883,25 @@
     "native": "Doctor Miguel Silva (San Guillermo)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1014,
+    "type": "locality",
+    "population": 854,
     "wikiDataId": "Q20139320"
+  },
+  {
+    "id": 69702,
+    "name": "Dolores",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.06059000",
+    "longitude": "-100.32211000",
+    "native": "Dolores",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "city",
+    "population": 1144,
+    "wikiDataId": null
   },
   {
     "id": 69713,
@@ -1867,9 +1915,9 @@
     "native": "Donaciano Ojeda",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1180,
-    "wikiDataId": "Q20258219"
+    "type": "locality",
+    "population": 1250,
+    "wikiDataId": "Q49913651"
   },
   {
     "id": 69754,
@@ -1883,8 +1931,8 @@
     "native": "ECUANDUREO",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 4716,
+    "type": "locality",
+    "population": 4358,
     "wikiDataId": "Q20140685"
   },
   {
@@ -1899,9 +1947,9 @@
     "native": "Ejido el Rosario",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1080,
-    "wikiDataId": "Q20277031"
+    "type": "locality",
+    "population": 1190,
+    "wikiDataId": "Q61266953"
   },
   {
     "id": 69828,
@@ -1915,9 +1963,9 @@
     "native": "El Alvareño",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1800,
-    "wikiDataId": "Q1144317"
+    "type": "locality",
+    "population": 1956,
+    "wikiDataId": "Q49917113"
   },
   {
     "id": 69854,
@@ -1931,8 +1979,8 @@
     "native": "El Cahulote de Santa Ana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1901,
+    "type": "locality",
+    "population": 2036,
     "wikiDataId": "Q20236837"
   },
   {
@@ -1947,9 +1995,9 @@
     "native": "El Capulín",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2438,
-    "wikiDataId": "Q50012184"
+    "type": "locality",
+    "population": 2556,
+    "wikiDataId": "Q61269360"
   },
   {
     "id": 69896,
@@ -1963,9 +2011,9 @@
     "native": "El Ceñidor",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2235,
-    "wikiDataId": "Q20277814"
+    "type": "locality",
+    "population": 2515,
+    "wikiDataId": "Q61266655"
   },
   {
     "id": 69940,
@@ -1979,13 +2027,13 @@
     "native": "El Césped",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1217,
+    "type": "locality",
+    "population": 1443,
     "wikiDataId": "Q20236945"
   },
   {
     "id": 69898,
-    "name": "El Chauz",
+    "name": "El Cháuz",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -1995,8 +2043,8 @@
     "native": "El Chauz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2382,
+    "type": "locality",
+    "population": 2036,
     "wikiDataId": "Q20236963"
   },
   {
@@ -2011,8 +2059,8 @@
     "native": "El Colegio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1182,
+    "type": "locality",
+    "population": 1234,
     "wikiDataId": "Q20237047"
   },
   {
@@ -2027,9 +2075,9 @@
     "native": "El Cuenqueño",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1177,
-    "wikiDataId": "Q20262981"
+    "type": "locality",
+    "population": 1217,
+    "wikiDataId": "Q61269366"
   },
   {
     "id": 69937,
@@ -2043,8 +2091,8 @@
     "native": "El Cuitzillo Grande",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1130,
+    "type": "locality",
+    "population": 1172,
     "wikiDataId": "Q20237204"
   },
   {
@@ -2059,9 +2107,9 @@
     "native": "El Durazno",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1518,
-    "wikiDataId": "Q20227832"
+    "type": "locality",
+    "population": 2363,
+    "wikiDataId": "Q61267537"
   },
   {
     "id": 69966,
@@ -2075,9 +2123,9 @@
     "native": "El Fortín",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1088,
-    "wikiDataId": "Q20206593"
+    "type": "locality",
+    "population": 1225,
+    "wikiDataId": "Q5821955"
   },
   {
     "id": 69969,
@@ -2091,9 +2139,9 @@
     "native": "El Fuerte",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 304,
-    "wikiDataId": "Q20206608"
+    "type": "locality",
+    "population": 1414,
+    "wikiDataId": "Q61262018"
   },
   {
     "id": 69977,
@@ -2109,7 +2157,23 @@
     "translations": {},
     "type": "city",
     "population": 1194,
-    "wikiDataId": "Q1324181"
+    "wikiDataId": null
+  },
+  {
+    "id": 69980,
+    "name": "El Habillal",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "18.00699000",
+    "longitude": "-102.37263000",
+    "native": "El Habilal",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1934,
+    "wikiDataId": "Q49915139"
   },
   {
     "id": 70013,
@@ -2123,9 +2187,9 @@
     "native": "El Letrero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1859,
-    "wikiDataId": "Q20220807"
+    "type": "locality",
+    "population": 2030,
+    "wikiDataId": "Q61266646"
   },
   {
     "id": 70031,
@@ -2139,9 +2203,9 @@
     "native": "El Maluco",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1892,
-    "wikiDataId": "Q20238120"
+    "type": "locality",
+    "population": 2006,
+    "wikiDataId": "Q48796207"
   },
   {
     "id": 70087,
@@ -2155,9 +2219,9 @@
     "native": "El Paracho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1083,
-    "wikiDataId": "Q20213439"
+    "type": "locality",
+    "population": 1115,
+    "wikiDataId": "Q61266923"
   },
   {
     "id": 70096,
@@ -2171,9 +2235,25 @@
     "native": "El Pedregal",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1172,
+    "type": "locality",
+    "population": 1369,
     "wikiDataId": "Q20238034"
+  },
+  {
+    "id": 70103,
+    "name": "El Pilar",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.24201000",
+    "longitude": "-101.40209000",
+    "native": "El Pilar",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1136,
+    "wikiDataId": "Q61261837"
   },
   {
     "id": 70110,
@@ -2187,9 +2267,9 @@
     "native": "El Platanal",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2282,
-    "wikiDataId": "Q20238230"
+    "type": "locality",
+    "population": 2202,
+    "wikiDataId": "Q61269297"
   },
   {
     "id": 70163,
@@ -2203,8 +2283,8 @@
     "native": "El Rincón de San Felipe (Tercera Manzana San Felipe)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1945,
+    "type": "locality",
+    "population": 1786,
     "wikiDataId": "Q20238316"
   },
   {
@@ -2219,8 +2299,8 @@
     "native": "El Sauz de Abajo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1492,
+    "type": "locality",
+    "population": 1587,
     "wikiDataId": "Q20280961"
   },
   {
@@ -2235,9 +2315,9 @@
     "native": "El Tequesquite",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1161,
-    "wikiDataId": "Q50012188"
+    "type": "locality",
+    "population": 1129,
+    "wikiDataId": "Q61269318"
   },
   {
     "id": 70228,
@@ -2251,8 +2331,8 @@
     "native": "El Tigre (Segunda Manzana de Crescencio Morales)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1029,
+    "type": "locality",
+    "population": 442,
     "wikiDataId": "Q20238660"
   },
   {
@@ -2267,9 +2347,25 @@
     "native": "Emiliano Zapata",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1367,
-    "wikiDataId": "Q20238407"
+    "type": "locality",
+    "population": 1709,
+    "wikiDataId": "Q61263860"
+  },
+  {
+    "id": 70312,
+    "name": "Epitacio Huerta",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.13493000",
+    "longitude": "-100.29321000",
+    "native": "Epitacio Huerta",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1487,
+    "wikiDataId": "Q10758641"
   },
   {
     "id": 70314,
@@ -2280,12 +2376,12 @@
     "country_code": "MX",
     "latitude": "19.58881000",
     "longitude": "-101.72110000",
-    "native": "Fermentación",
+    "native": "Erongarícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2573,
-    "wikiDataId": "Q2057767"
+    "type": "locality",
+    "population": 2721,
+    "wikiDataId": "Q61236667"
   },
   {
     "id": 70351,
@@ -2299,9 +2395,25 @@
     "native": "Estación Queréndaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q20298047"
+    "type": "locality",
+    "population": 2175,
+    "wikiDataId": "Q61269427"
+  },
+  {
+    "id": 70376,
+    "name": "Etúcuaro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.89286000",
+    "longitude": "-102.12945000",
+    "native": "Etúcuaro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1323,
+    "wikiDataId": "Q5850204"
   },
   {
     "id": 70377,
@@ -2315,9 +2427,9 @@
     "native": "Etúcuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1146,
-    "wikiDataId": "Q20136266"
+    "type": "locality",
+    "population": 1300,
+    "wikiDataId": "Q47962912"
   },
   {
     "id": 70383,
@@ -2331,8 +2443,8 @@
     "native": "Ex-Hacienda de Guadalupe",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1146,
+    "type": "locality",
+    "population": 1200,
     "wikiDataId": "Q20136384"
   },
   {
@@ -2347,9 +2459,9 @@
     "native": "Felipe Carrillo Puerto",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 10217,
-    "wikiDataId": "Q5441955"
+    "type": "locality",
+    "population": 10247,
+    "wikiDataId": "Q16302184"
   },
   {
     "id": 70415,
@@ -2363,8 +2475,8 @@
     "native": "Fraccionamiento Colinas Universidad",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1152,
+    "type": "locality",
+    "population": 1061,
     "wikiDataId": "Q20138913"
   },
   {
@@ -2379,8 +2491,8 @@
     "native": "Fraccionamiento Ex-Hacienda el Refugio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2620,
+    "type": "locality",
+    "population": 2361,
     "wikiDataId": "Q20238845"
   },
   {
@@ -2395,9 +2507,9 @@
     "native": "Fraccionamiento Galaxia Tarímbaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5989,
-    "wikiDataId": "Q20238845"
+    "wikiDataId": "Q20238853"
   },
   {
     "id": 70424,
@@ -2411,8 +2523,8 @@
     "native": "Fraccionamiento Laureles Eréndira",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1290,
+    "type": "locality",
+    "population": 1379,
     "wikiDataId": "Q20238861"
   },
   {
@@ -2427,8 +2539,8 @@
     "native": "Fraccionamiento Metrópolis II",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 5973,
+    "type": "locality",
+    "population": 9127,
     "wikiDataId": "Q20282085"
   },
   {
@@ -2459,8 +2571,8 @@
     "native": "Fraccionamiento Monte Olivo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1942,
+    "type": "locality",
+    "population": 4413,
     "wikiDataId": "Q20139230"
   },
   {
@@ -2475,8 +2587,8 @@
     "native": "Fraccionamiento Privadas del Sol",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1105,
+    "type": "locality",
+    "population": 1225,
     "wikiDataId": "Q20139292"
   },
   {
@@ -2507,8 +2619,8 @@
     "native": "Francisco Sarabia (Cerrito Pelón)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2056,
+    "type": "locality",
+    "population": 2112,
     "wikiDataId": "Q20282201"
   },
   {
@@ -2523,8 +2635,8 @@
     "native": "Francisco Serrato (San Bartolo)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2396,
+    "type": "locality",
+    "population": 1656,
     "wikiDataId": "Q20139849"
   },
   {
@@ -2539,25 +2651,41 @@
     "native": "Francisco Villa",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1094,
+    "type": "locality",
+    "population": 1223,
     "wikiDataId": "Q20140062"
   },
   {
+    "id": 70510,
+    "name": "Galeana",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.03585000",
+    "longitude": "-101.57150000",
+    "native": "Galeana",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2886,
+    "wikiDataId": "Q49903838"
+  },
+  {
     "id": 70516,
-    "name": "Gambara",
+    "name": "Gámbara",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "18.93230000",
     "longitude": "-102.11240000",
-    "native": "Banda",
+    "native": "Gámbara",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3017,
-    "wikiDataId": "Q2990972"
+    "type": "locality",
+    "population": 3176,
+    "wikiDataId": "Q49904043"
   },
   {
     "id": 70533,
@@ -2571,9 +2699,9 @@
     "native": "General Francisco Villa",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1298,
-    "wikiDataId": "Q20140868"
+    "type": "locality",
+    "population": 1167,
+    "wikiDataId": "Q61272141"
   },
   {
     "id": 70549,
@@ -2587,25 +2715,9 @@
     "native": "Gildardo Magaña (Los Ángeles)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1460,
+    "type": "locality",
+    "population": 1912,
     "wikiDataId": "Q20238938"
-  },
-  {
-    "id": 70567,
-    "name": "Guacamayas",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "18.01932000",
-    "longitude": "-102.21225000",
-    "native": "Guacamayas",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q20144599"
   },
   {
     "id": 70643,
@@ -2619,9 +2731,9 @@
     "native": "Guándaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1143,
-    "wikiDataId": "Q27769204"
+    "type": "locality",
+    "population": 1065,
+    "wikiDataId": "Q49906409"
   },
   {
     "id": 70830,
@@ -2635,9 +2747,9 @@
     "native": "Héroes de Chapultepec (Rodeo de San Antonio)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1651,
-    "wikiDataId": "Q20283240"
+    "type": "locality",
+    "population": 1382,
+    "wikiDataId": "Q5352046"
   },
   {
     "id": 70681,
@@ -2651,7 +2763,7 @@
     "native": "Heróica Zitácuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 569,
     "wikiDataId": "Q1962272"
   },
@@ -2667,9 +2779,25 @@
     "native": "Huaumbaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2037,
-    "wikiDataId": "Q2651771"
+    "type": "locality",
+    "population": 1743,
+    "wikiDataId": "Q61237988"
+  },
+  {
+    "id": 70730,
+    "name": "Huáncito",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84889000",
+    "longitude": "-102.06784000",
+    "native": "Huancito",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 4403,
+    "wikiDataId": "Q61237249"
   },
   {
     "id": 70731,
@@ -2683,7 +2811,7 @@
     "native": "Huandacareo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 6736,
     "wikiDataId": "Q15917404"
   },
@@ -2699,9 +2827,9 @@
     "native": "Huanguitío",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1075,
-    "wikiDataId": "Q15917404"
+    "type": "locality",
+    "population": 1059,
+    "wikiDataId": "Q61265791"
   },
   {
     "id": 70733,
@@ -2715,9 +2843,9 @@
     "native": "Huaniqueo de Morales",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2566,
-    "wikiDataId": "Q15917404"
+    "wikiDataId": "Q61238161"
   },
   {
     "id": 70771,
@@ -2731,9 +2859,9 @@
     "native": "Huetamo de Núñez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 21864,
-    "wikiDataId": "Q2651175"
+    "wikiDataId": "Q20239039"
   },
   {
     "id": 70797,
@@ -2744,11 +2872,11 @@
     "country_code": "MX",
     "latitude": "19.52645000",
     "longitude": "-101.45959000",
-    "native": "Rangamba",
+    "native": "Huiramba",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 8838,
+    "type": "municipality",
+    "population": 9015,
     "wikiDataId": "Q9005333"
   },
   {
@@ -2763,9 +2891,9 @@
     "native": "Ibarra",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1799,
-    "wikiDataId": "Q20283240"
+    "type": "locality",
+    "population": 1789,
+    "wikiDataId": "Q61238369"
   },
   {
     "id": 70833,
@@ -2779,8 +2907,8 @@
     "native": "Ichán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3883,
+    "type": "locality",
+    "population": 4274,
     "wikiDataId": "Q20146894"
   },
   {
@@ -2792,11 +2920,11 @@
     "country_code": "MX",
     "latitude": "19.56647000",
     "longitude": "-101.61649000",
-    "native": "Lehuzio",
+    "native": "Ihuatzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3575,
+    "type": "locality",
+    "population": 3950,
     "wikiDataId": "Q2669512"
   },
   {
@@ -2811,8 +2939,8 @@
     "native": "Indaparapeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6791,
+    "type": "locality",
+    "population": 7228,
     "wikiDataId": "Q20283810"
   },
   {
@@ -2827,8 +2955,8 @@
     "native": "Infiernillo (Morelos de Infiernillo)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2363,
+    "type": "locality",
+    "population": 2105,
     "wikiDataId": "Q20147364"
   },
   {
@@ -2843,9 +2971,9 @@
     "native": "Irapeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1817,
-    "wikiDataId": "Q20147486"
+    "type": "locality",
+    "population": 1899,
+    "wikiDataId": "Q61239329"
   },
   {
     "id": 70877,
@@ -2856,11 +2984,11 @@
     "country_code": "MX",
     "latitude": "19.64583000",
     "longitude": "-101.41194000",
-    "native": "Fracción",
+    "native": "Iratzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1003,
+    "type": "locality",
+    "population": 992,
     "wikiDataId": "Q20147499"
   },
   {
@@ -2872,11 +3000,11 @@
     "country_code": "MX",
     "latitude": "19.70083000",
     "longitude": "-100.47847000",
-    "native": "Arma",
+    "native": "Irimbo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3019,
+    "type": "locality",
+    "population": 3552,
     "wikiDataId": "Q20283867"
   },
   {
@@ -2891,9 +3019,9 @@
     "native": "Isaac Arriaga (Santa Ana Mancera)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2182,
-    "wikiDataId": "Q20239056"
+    "wikiDataId": "Q4203486"
   },
   {
     "id": 70891,
@@ -2907,8 +3035,8 @@
     "native": "Istar",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1567,
+    "type": "locality",
+    "population": 1372,
     "wikiDataId": "Q20147819"
   },
   {
@@ -2923,8 +3051,8 @@
     "native": "Ixtlán de los Hervores",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 4573,
+    "type": "locality",
+    "population": 5091,
     "wikiDataId": "Q4204355"
   },
   {
@@ -2936,11 +3064,11 @@
     "country_code": "MX",
     "latitude": "19.76667000",
     "longitude": "-102.39722000",
-    "native": "J. él",
+    "native": "J. Jesús Díaz Tzirio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2007,
+    "type": "locality",
+    "population": 2689,
     "wikiDataId": "Q20148204"
   },
   {
@@ -2955,9 +3083,25 @@
     "native": "Jacona",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 68781,
     "wikiDataId": "Q2446759"
+  },
+  {
+    "id": 70960,
+    "name": "Jacona de Plancarte",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.95232000",
+    "longitude": "-102.30781000",
+    "native": "Jacona de Plancarte",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 53860,
+    "wikiDataId": null
   },
   {
     "id": 70996,
@@ -2971,9 +3115,41 @@
     "native": "Jamaica",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1143,
-    "wikiDataId": "Q20210485"
+    "type": "locality",
+    "population": 929,
+    "wikiDataId": "Q61271609"
+  },
+  {
+    "id": 70999,
+    "name": "Janambo",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.20642000",
+    "longitude": "-101.52644000",
+    "native": "Janambo",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1093,
+    "wikiDataId": "Q61261926"
+  },
+  {
+    "id": 71000,
+    "name": "Janamuato",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.09961000",
+    "longitude": "-101.58540000",
+    "native": "Janamuato",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2100,
+    "wikiDataId": "Q4495388"
   },
   {
     "id": 71001,
@@ -2987,9 +3163,9 @@
     "native": "Janitzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2458,
-    "wikiDataId": "Q2448285"
+    "type": "locality",
+    "population": 2352,
+    "wikiDataId": "Q61263368"
   },
   {
     "id": 71009,
@@ -3003,8 +3179,8 @@
     "native": "Jarácuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2817,
+    "type": "locality",
+    "population": 3363,
     "wikiDataId": "Q20148625"
   },
   {
@@ -3019,9 +3195,9 @@
     "native": "Jaripeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1315,
-    "wikiDataId": "Q20284154"
+    "type": "locality",
+    "population": 1734,
+    "wikiDataId": "Q61237203"
   },
   {
     "id": 71037,
@@ -3035,13 +3211,13 @@
     "native": "Jesús del Monte",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4182,
-    "wikiDataId": "Q20149010"
+    "type": "locality",
+    "population": 8995,
+    "wikiDataId": "Q61268897"
   },
   {
     "id": 71057,
-    "name": "Jiquílpan de Juárez",
+    "name": "Jiquilpan de Juárez",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -3051,9 +3227,9 @@
     "native": "Jiquílpan de Juárez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 24233,
-    "wikiDataId": "Q2333867"
+    "wikiDataId": "Q6202949"
   },
   {
     "id": 71102,
@@ -3067,13 +3243,13 @@
     "native": "José María Morelos (La Yegüería)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1751,
+    "type": "locality",
+    "population": 2001,
     "wikiDataId": "Q20239082"
   },
   {
     "id": 71134,
-    "name": "Jucutacato",
+    "name": "Jucutácato",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -3083,9 +3259,9 @@
     "native": "Jucutacato",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1442,
-    "wikiDataId": "Q1710837"
+    "type": "locality",
+    "population": 1753,
+    "wikiDataId": "Q61269962"
   },
   {
     "id": 71140,
@@ -3099,9 +3275,9 @@
     "native": "Jungapeo de Juárez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 5073,
-    "wikiDataId": "Q4967875"
+    "type": "locality",
+    "population": 5011,
+    "wikiDataId": "Q20239104"
   },
   {
     "id": 71171,
@@ -3131,8 +3307,8 @@
     "native": "La Angostura",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1467,
+    "type": "locality",
+    "population": 1410,
     "wikiDataId": "Q20285739"
   },
   {
@@ -3147,9 +3323,25 @@
     "native": "La Calera (Nacimientos)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1302,
+    "type": "locality",
+    "population": 1478,
     "wikiDataId": "Q20239236"
+  },
+  {
+    "id": 71199,
+    "name": "La Cantera",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.86375000",
+    "longitude": "-102.40838000",
+    "native": "La Cantera",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 5113,
+    "wikiDataId": "Q61264058"
   },
   {
     "id": 71261,
@@ -3163,9 +3355,9 @@
     "native": "La Encarnación",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1714,
-    "wikiDataId": "Q20207691"
+    "type": "locality",
+    "population": 1819,
+    "wikiDataId": "Q61270787"
   },
   {
     "id": 71263,
@@ -3179,7 +3371,7 @@
     "native": "La Ermita (Nueva Jerusalén)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2533,
     "wikiDataId": "Q20289005"
   },
@@ -3195,9 +3387,9 @@
     "native": "La Esperanza",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1225,
-    "wikiDataId": "Q20259510"
+    "type": "locality",
+    "population": 1392,
+    "wikiDataId": "Q61237207"
   },
   {
     "id": 71284,
@@ -3211,9 +3403,9 @@
     "native": "La Estancia de Amezcua",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1437,
-    "wikiDataId": "Q20289643"
+    "wikiDataId": "Q61269548"
   },
   {
     "id": 71297,
@@ -3227,8 +3419,8 @@
     "native": "La Fundición (Quinta Manzana)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1731,
+    "type": "locality",
+    "population": 1582,
     "wikiDataId": "Q20290290"
   },
   {
@@ -3243,9 +3435,9 @@
     "native": "La Goleta",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1815,
-    "wikiDataId": "Q20238803"
+    "type": "locality",
+    "population": 2089,
+    "wikiDataId": "Q61239338"
   },
   {
     "id": 71316,
@@ -3259,8 +3451,8 @@
     "native": "La Higuerilla (Los Lirios)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1102,
+    "type": "locality",
+    "population": 1177,
     "wikiDataId": "Q20250983"
   },
   {
@@ -3291,7 +3483,7 @@
     "native": "La Huacana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 9395,
     "wikiDataId": "Q20290874"
   },
@@ -3307,8 +3499,8 @@
     "native": "La Ibérica (La Gotera)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1308,
+    "type": "locality",
+    "population": 1421,
     "wikiDataId": "Q20251158"
   },
   {
@@ -3323,9 +3515,9 @@
     "native": "La Luz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3270,
-    "wikiDataId": "Q20221430"
+    "type": "locality",
+    "population": 3646,
+    "wikiDataId": "Q61262931"
   },
   {
     "id": 71391,
@@ -3339,8 +3531,8 @@
     "native": "La Mesa (La Mesa de Cedano)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1284,
+    "type": "locality",
+    "population": 1545,
     "wikiDataId": "Q20253474"
   },
   {
@@ -3355,8 +3547,8 @@
     "native": "La Mintzita (Piedra Dura)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1026,
+    "type": "locality",
+    "population": 1014,
     "wikiDataId": "Q20292480"
   },
   {
@@ -3371,9 +3563,9 @@
     "native": "La Mira",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 13415,
-    "wikiDataId": "Q20292480"
+    "type": "locality",
+    "population": 12845,
+    "wikiDataId": "Q61265528"
   },
   {
     "id": 71398,
@@ -3403,9 +3595,9 @@
     "native": "La Mojonera",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1403,
-    "wikiDataId": "Q20207919"
+    "type": "locality",
+    "population": 1507,
+    "wikiDataId": "Q61266764"
   },
   {
     "id": 71414,
@@ -3419,7 +3611,7 @@
     "native": "La Orilla",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20126,
     "wikiDataId": "Q20129255"
   },
@@ -3435,9 +3627,9 @@
     "native": "La Palma",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3787,
-    "wikiDataId": "Q20246488"
+    "type": "locality",
+    "population": 3609,
+    "wikiDataId": "Q61269986"
   },
   {
     "id": 71427,
@@ -3451,8 +3643,8 @@
     "native": "La Palma (Las Palmas)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1064,
+    "type": "locality",
+    "population": 1336,
     "wikiDataId": "Q20292994"
   },
   {
@@ -3467,9 +3659,9 @@
     "native": "La Piedad",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 282,
-    "wikiDataId": "Q20240187"
+    "wikiDataId": "Q1799019"
   },
   {
     "id": 71450,
@@ -3483,9 +3675,9 @@
     "native": "La Placita de Morelos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1442,
-    "wikiDataId": "Q20254618"
+    "type": "locality",
+    "population": 1927,
+    "wikiDataId": "Q6464454"
   },
   {
     "id": 71454,
@@ -3499,9 +3691,9 @@
     "native": "La Plaza del Limón",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1905,
-    "wikiDataId": "Q20245516"
+    "type": "locality",
+    "population": 1939,
+    "wikiDataId": "Q61237819"
   },
   {
     "id": 71478,
@@ -3517,7 +3709,7 @@
     "translations": {},
     "type": "city",
     "population": 4155,
-    "wikiDataId": "Q20135280"
+    "wikiDataId": null
   },
   {
     "id": 71486,
@@ -3531,9 +3723,9 @@
     "native": "La Sauceda",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3069,
-    "wikiDataId": "Q20135754"
+    "wikiDataId": "Q61269569"
   },
   {
     "id": 71494,
@@ -3547,8 +3739,8 @@
     "native": "La Soledad",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1144,
+    "type": "locality",
+    "population": 995,
     "wikiDataId": "Q20255551"
   },
   {
@@ -3563,9 +3755,9 @@
     "native": "Lagunillas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2494,
-    "wikiDataId": "Q6029700"
+    "type": "locality",
+    "population": 2664,
+    "wikiDataId": "Q61265812"
   },
   {
     "id": 71583,
@@ -3579,8 +3771,8 @@
     "native": "Las Cañadas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2223,
+    "type": "locality",
+    "population": 1972,
     "wikiDataId": "Q20142051"
   },
   {
@@ -3595,8 +3787,8 @@
     "native": "Las Cañas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1076,
+    "type": "locality",
+    "population": 743,
     "wikiDataId": "Q20240451"
   },
   {
@@ -3611,9 +3803,25 @@
     "native": "Las Cieneguitas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1335,
-    "wikiDataId": "Q3847143"
+    "type": "locality",
+    "population": 1249,
+    "wikiDataId": "Q61263811"
+  },
+  {
+    "id": 70567,
+    "name": "Las Guacamayas",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "18.01932000",
+    "longitude": "-102.21225000",
+    "native": "Guacamayas",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q17072520"
   },
   {
     "id": 71609,
@@ -3627,9 +3835,25 @@
     "native": "Las Letras",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1221,
+    "type": "locality",
+    "population": 1416,
     "wikiDataId": "Q20145836"
+  },
+  {
+    "id": 71636,
+    "name": "Las Ranas",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.20860000",
+    "longitude": "-101.47810000",
+    "native": "Las Ranas",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 780,
+    "wikiDataId": "Q4254716"
   },
   {
     "id": 71898,
@@ -3643,9 +3867,9 @@
     "native": "Lázaro Cárdenas (La Purísima)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1348,
-    "wikiDataId": "Q20240775"
+    "wikiDataId": "Q5695234"
   },
   {
     "id": 71737,
@@ -3659,8 +3883,8 @@
     "native": "Loma de los Hoyos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1377,
+    "type": "locality",
+    "population": 1561,
     "wikiDataId": "Q20240822"
   },
   {
@@ -3691,9 +3915,9 @@
     "native": "Lombardía",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 12610,
-    "wikiDataId": "Q20129217"
+    "type": "locality",
+    "population": 12309,
+    "wikiDataId": "Q3836534"
   },
   {
     "id": 71783,
@@ -3707,9 +3931,9 @@
     "native": "Los Cajones",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1029,
-    "wikiDataId": "Q20131867"
+    "type": "locality",
+    "population": 985,
+    "wikiDataId": "Q61236679"
   },
   {
     "id": 71789,
@@ -3723,9 +3947,9 @@
     "native": "Los Charcos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1406,
-    "wikiDataId": "Q20132801"
+    "type": "locality",
+    "population": 1362,
+    "wikiDataId": "Q61263824"
   },
   {
     "id": 71804,
@@ -3739,9 +3963,25 @@
     "native": "Los Guajes",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1292,
-    "wikiDataId": "Q20230906"
+    "wikiDataId": "Q61262043"
+  },
+  {
+    "id": 71807,
+    "name": "Los Hucuares",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.89916000",
+    "longitude": "-102.49759000",
+    "native": "Los Hucuares",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1044,
+    "wikiDataId": "Q61264195"
   },
   {
     "id": 71809,
@@ -3755,9 +3995,25 @@
     "native": "Los Limones",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1429,
-    "wikiDataId": "Q20136843"
+    "type": "locality",
+    "population": 1569,
+    "wikiDataId": "Q61262500"
+  },
+  {
+    "id": 71823,
+    "name": "Los Nogales",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.85734000",
+    "longitude": "-102.15612000",
+    "native": "Los Nogales",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1644,
+    "wikiDataId": "Q20285372"
   },
   {
     "id": 71831,
@@ -3771,9 +4027,25 @@
     "native": "Los Pilares",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1199,
+    "type": "locality",
+    "population": 1322,
     "wikiDataId": "Q20139904"
+  },
+  {
+    "id": 71842,
+    "name": "Los Remedios",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.97810000",
+    "longitude": "-102.67954000",
+    "native": "Los Remedios",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2033,
+    "wikiDataId": "Q61265928"
   },
   {
     "id": 71852,
@@ -3787,7 +4059,7 @@
     "native": "Los Reyes de Salgado",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 39209,
     "wikiDataId": "Q992162"
   },
@@ -3803,9 +4075,9 @@
     "native": "Macho de Agua",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1686,
-    "wikiDataId": "Q20143704"
+    "type": "locality",
+    "population": 1863,
+    "wikiDataId": "Q61270527"
   },
   {
     "id": 71914,
@@ -3819,8 +4091,8 @@
     "native": "Macutzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1191,
+    "type": "locality",
+    "population": 1330,
     "wikiDataId": "Q20250490"
   },
   {
@@ -3835,9 +4107,9 @@
     "native": "Manuel Villalongín",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1906,
-    "wikiDataId": "Q20286910"
+    "wikiDataId": "Q5994584"
   },
   {
     "id": 71973,
@@ -3851,8 +4123,8 @@
     "native": "Manzana de San Luis",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2996,
+    "type": "locality",
+    "population": 3399,
     "wikiDataId": "Q20144806"
   },
   {
@@ -3867,8 +4139,8 @@
     "native": "Manzana la Cofradía",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1040,
+    "type": "locality",
+    "population": 1193,
     "wikiDataId": "Q20144837"
   },
   {
@@ -3883,9 +4155,9 @@
     "native": "Maravatío de Ocampo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 34381,
-    "wikiDataId": "Q2990977"
+    "wikiDataId": "Q20250866"
   },
   {
     "id": 71992,
@@ -3899,9 +4171,9 @@
     "native": "Mariano Escobedo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3188,
-    "wikiDataId": "Q6762347"
+    "type": "locality",
+    "population": 4566,
+    "wikiDataId": "Q61239248"
   },
   {
     "id": 72086,
@@ -3915,8 +4187,8 @@
     "native": "Mesón Nuevo (Cañada de la Magdalena)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1324,
+    "type": "locality",
+    "population": 789,
     "wikiDataId": "Q20287320"
   },
   {
@@ -3928,10 +4200,10 @@
     "country_code": "MX",
     "latitude": "19.62056000",
     "longitude": "-100.28436000",
-    "native": "Preparado",
+    "native": "Mineral de Angangueo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4601,
     "wikiDataId": "Q3844842"
   },
@@ -3947,8 +4219,8 @@
     "native": "Montaña Monarca (Punta Altozano)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1128,
+    "type": "locality",
+    "population": 2006,
     "wikiDataId": "Q20252947"
   },
   {
@@ -3963,9 +4235,9 @@
     "native": "Montelón",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1259,
-    "wikiDataId": "Q3845881"
+    "type": "locality",
+    "population": 1090,
+    "wikiDataId": "Q6022643"
   },
   {
     "id": 72225,
@@ -3979,7 +4251,7 @@
     "native": "Morelia",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 743275,
     "wikiDataId": "Q200252"
   },
@@ -3995,13 +4267,13 @@
     "native": "Morelos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13565,
     "wikiDataId": "Q20287842"
   },
   {
     "id": 72271,
-    "name": "Nahuatzén",
+    "name": "Nahuatzen",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -4011,7 +4283,7 @@
     "native": "Nahuatzén",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10283,
     "wikiDataId": "Q20287996"
   },
@@ -4027,8 +4299,8 @@
     "native": "Naranja de Tapia",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3172,
+    "type": "locality",
+    "population": 3243,
     "wikiDataId": "Q20254219"
   },
   {
@@ -4043,9 +4315,9 @@
     "native": "Nocupétaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3054,
-    "wikiDataId": "Q20255256"
+    "wikiDataId": "Q6044290"
   },
   {
     "id": 72367,
@@ -4059,7 +4331,7 @@
     "native": "Nueva Italia de Ruiz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 32467,
     "wikiDataId": "Q7068638"
   },
@@ -4075,7 +4347,7 @@
     "native": "Nuevo San Juan Parangaricutiro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 14772,
     "wikiDataId": "Q964656"
   },
@@ -4091,8 +4363,8 @@
     "native": "Nuevo Urecho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 1325,
+    "type": "locality",
+    "population": 1459,
     "wikiDataId": "Q3888543"
   },
   {
@@ -4107,9 +4379,9 @@
     "native": "Nuevo Zirosto",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2239,
-    "wikiDataId": "Q20238659"
+    "type": "locality",
+    "population": 2809,
+    "wikiDataId": "Q20289450"
   },
   {
     "id": 72425,
@@ -4123,9 +4395,9 @@
     "native": "Numarán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4944,
-    "wikiDataId": "Q20257714"
+    "wikiDataId": "Q12353331"
   },
   {
     "id": 72427,
@@ -4139,9 +4411,9 @@
     "native": "Nurío",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3749,
-    "wikiDataId": "Q20258461"
+    "type": "locality",
+    "population": 4299,
+    "wikiDataId": "Q61262662"
   },
   {
     "id": 72439,
@@ -4155,9 +4427,25 @@
     "native": "Ocampo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3651,
+    "type": "locality",
+    "population": 4296,
     "wikiDataId": "Q20289507"
+  },
+  {
+    "id": 72474,
+    "name": "Ocumicho",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.79654000",
+    "longitude": "-102.22169000",
+    "native": "Ocumicho",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 3872,
+    "wikiDataId": "Q61239354"
   },
   {
     "id": 72475,
@@ -4168,12 +4456,12 @@
     "country_code": "MX",
     "latitude": "19.48254000",
     "longitude": "-100.42344000",
-    "native": "Ojo",
+    "native": "Ocurio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1203,
-    "wikiDataId": "Q2651905"
+    "type": "locality",
+    "population": 1383,
+    "wikiDataId": "Q61270545"
   },
   {
     "id": 72490,
@@ -4187,9 +4475,9 @@
     "native": "Ojo de Agua de Bucio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1264,
-    "wikiDataId": "Q1030019"
+    "type": "locality",
+    "population": 1360,
+    "wikiDataId": "Q61269411"
   },
   {
     "id": 72497,
@@ -4203,9 +4491,9 @@
     "native": "Ojo de Rana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1057,
-    "wikiDataId": "Q20289789"
+    "type": "locality",
+    "population": 1040,
+    "wikiDataId": "Q61265692"
   },
   {
     "id": 72514,
@@ -4216,10 +4504,10 @@
     "country_code": "MX",
     "latitude": "19.41163000",
     "longitude": "-101.60515000",
-    "native": "El cerebro",
+    "native": "Opopeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10055,
     "wikiDataId": "Q6051640"
   },
@@ -4235,9 +4523,9 @@
     "native": "Pajacuarán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10014,
-    "wikiDataId": "Q20291586"
+    "wikiDataId": "Q5294870"
   },
   {
     "id": 72618,
@@ -4251,9 +4539,9 @@
     "native": "Patacuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3064,
-    "wikiDataId": "Q20292346"
+    "wikiDataId": "Q61262204"
   },
   {
     "id": 72622,
@@ -4267,7 +4555,7 @@
     "native": "Panindícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 5565,
     "wikiDataId": "Q20292554"
   },
@@ -4283,13 +4571,13 @@
     "native": "Paracho de Verduzco",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 37464,
-    "wikiDataId": "Q20231219"
+    "wikiDataId": "Q2447258"
   },
   {
     "id": 72640,
-    "name": "Paracuaro",
+    "name": "Parácuaro",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -4299,7 +4587,7 @@
     "native": "Paracuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3898,
     "wikiDataId": "Q2651384"
   },
@@ -4317,7 +4605,7 @@
     "translations": {},
     "type": "city",
     "population": 1191,
-    "wikiDataId": "Q2651384"
+    "wikiDataId": null
   },
   {
     "id": 73009,
@@ -4328,12 +4616,12 @@
     "country_code": "MX",
     "latitude": "19.33259000",
     "longitude": "-102.45219000",
-    "native": "Centro",
+    "native": "Páreo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1981,
-    "wikiDataId": "Q2913809"
+    "type": "locality",
+    "population": 2186,
+    "wikiDataId": "Q61264076"
   },
   {
     "id": 72665,
@@ -4347,9 +4635,9 @@
     "native": "Parícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2284,
-    "wikiDataId": "Q3311878"
+    "type": "locality",
+    "population": 2659,
+    "wikiDataId": "Q61266016"
   },
   {
     "id": 72687,
@@ -4363,8 +4651,8 @@
     "native": "Paso de Hidalgo (Paso de Álamos)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3338,
+    "type": "locality",
+    "population": 4105,
     "wikiDataId": "Q20293212"
   },
   {
@@ -4379,8 +4667,8 @@
     "native": "Paso de Núñez (Buenavista)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1250,
+    "type": "locality",
+    "population": 1142,
     "wikiDataId": "Q20293313"
   },
   {
@@ -4395,8 +4683,8 @@
     "native": "Pastor Ortíz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6630,
+    "type": "locality",
+    "population": 6698,
     "wikiDataId": "Q7143039"
   },
   {
@@ -4411,8 +4699,8 @@
     "native": "Patúa",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1373,
+    "type": "locality",
+    "population": 1571,
     "wikiDataId": "Q20293721"
   },
   {
@@ -4427,7 +4715,7 @@
     "native": "Pátzcuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 55298,
     "wikiDataId": "Q1021051"
   },
@@ -4443,9 +4731,9 @@
     "native": "Pedernales",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 6131,
-    "wikiDataId": "Q20293805"
+    "type": "locality",
+    "population": 6967,
+    "wikiDataId": "Q16302759"
   },
   {
     "id": 72751,
@@ -4459,8 +4747,8 @@
     "native": "Peña del Panal",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1091,
+    "type": "locality",
+    "population": 1244,
     "wikiDataId": "Q20294097"
   },
   {
@@ -4475,9 +4763,9 @@
     "native": "Penjamillo de Degollado",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3353,
-    "wikiDataId": "Q3888788"
+    "type": "locality",
+    "population": 3357,
+    "wikiDataId": "Q107567336"
   },
   {
     "id": 72732,
@@ -4491,25 +4779,9 @@
     "native": "Peribán de Ramos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 15434,
-    "wikiDataId": "Q27782748"
-  },
-  {
-    "id": 72762,
-    "name": "Pichátaro",
-    "state_id": 3474,
-    "state_code": "MIC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "19.57289000",
-    "longitude": "-101.80737000",
-    "native": "Pichátaro",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q20289295"
+    "wikiDataId": "Q20294313"
   },
   {
     "id": 72784,
@@ -4525,7 +4797,23 @@
     "translations": {},
     "type": "city",
     "population": 2040,
-    "wikiDataId": "Q20240151"
+    "wikiDataId": null
+  },
+  {
+    "id": 72809,
+    "name": "Playa Azul",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "17.98170000",
+    "longitude": "-102.34761000",
+    "native": "Playa Azul",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 3389,
+    "wikiDataId": "Q6078297"
   },
   {
     "id": 72844,
@@ -4539,9 +4827,9 @@
     "native": "Pomacuarán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1608,
-    "wikiDataId": "Q20296245"
+    "type": "locality",
+    "population": 1779,
+    "wikiDataId": "Q61262816"
   },
   {
     "id": 72869,
@@ -4555,9 +4843,9 @@
     "native": "Poturo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1203,
-    "wikiDataId": "Q20271611"
+    "type": "locality",
+    "population": 1043,
+    "wikiDataId": "Q61237337"
   },
   {
     "id": 72889,
@@ -4571,9 +4859,9 @@
     "native": "Presa del Rosario",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1213,
-    "wikiDataId": "Q20266054"
+    "type": "locality",
+    "population": 1346,
+    "wikiDataId": "Q61233301"
   },
   {
     "id": 73006,
@@ -4587,9 +4875,9 @@
     "native": "Páucaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1807,
-    "wikiDataId": "Q20298013"
+    "type": "locality",
+    "population": 1952,
+    "wikiDataId": "Q48796220"
   },
   {
     "id": 72951,
@@ -4603,9 +4891,9 @@
     "native": "Pueblo Viejo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1044,
-    "wikiDataId": "Q20239645"
+    "type": "locality",
+    "population": 1064,
+    "wikiDataId": "Q61262438"
   },
   {
     "id": 72960,
@@ -4619,8 +4907,8 @@
     "native": "Puentecillas (Tercera Manzana de Zirahuato)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1032,
+    "type": "locality",
+    "population": 1084,
     "wikiDataId": "Q20297491"
   },
   {
@@ -4635,8 +4923,8 @@
     "native": "Puerto de Buenavista (Lázaro Cárdenas)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2940,
+    "type": "locality",
+    "population": 4116,
     "wikiDataId": "Q20297654"
   },
   {
@@ -4651,9 +4939,9 @@
     "native": "Purechucho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1735,
-    "wikiDataId": "Q20271772"
+    "type": "locality",
+    "population": 1702,
+    "wikiDataId": "Q61237496"
   },
   {
     "id": 72992,
@@ -4667,7 +4955,7 @@
     "native": "Purépero de Echáiz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23713,
     "wikiDataId": "Q9064894"
   },
@@ -4683,9 +4971,9 @@
     "native": "Puruándiro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 30571,
-    "wikiDataId": "Q175098"
+    "wikiDataId": "Q20297997"
   },
   {
     "id": 72990,
@@ -4696,12 +4984,12 @@
     "country_code": "MX",
     "latitude": "19.09630000",
     "longitude": "-101.52234000",
-    "native": "Puré",
+    "native": "Puruarán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7162,
-    "wikiDataId": "Q20297999"
+    "wikiDataId": "Q6093426"
   },
   {
     "id": 73023,
@@ -4715,8 +5003,8 @@
     "native": "Queréndaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 13836,
+    "type": "municipality",
+    "population": 13961,
     "wikiDataId": "Q6094509"
   },
   {
@@ -4731,9 +5019,9 @@
     "native": "Quinceo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2692,
-    "wikiDataId": "Q20298094"
+    "type": "locality",
+    "population": 3191,
+    "wikiDataId": "Q61262648"
   },
   {
     "id": 73042,
@@ -4747,8 +5035,8 @@
     "native": "Quiroga",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 14669,
+    "type": "locality",
+    "population": 15249,
     "wikiDataId": "Q7272602"
   },
   {
@@ -4763,9 +5051,9 @@
     "native": "Rancho Viejo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1521,
-    "wikiDataId": "Q20219583"
+    "type": "locality",
+    "population": 1871,
+    "wikiDataId": "Q61264667"
   },
   {
     "id": 73089,
@@ -4779,8 +5067,8 @@
     "native": "Real Hacienda (Metrópolis)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3921,
+    "type": "locality",
+    "population": 4385,
     "wikiDataId": "Q20284717"
   },
   {
@@ -4811,9 +5099,9 @@
     "native": "Rincón de Curungueo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q20285424"
+    "type": "locality",
+    "population": 1507,
+    "wikiDataId": "Q61270671"
   },
   {
     "id": 73131,
@@ -4827,8 +5115,8 @@
     "native": "Rincón de Nicolás Romero (Cedros Tercera Manzana)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 6213,
+    "type": "locality",
+    "population": 7025,
     "wikiDataId": "Q20285479"
   },
   {
@@ -4843,8 +5131,8 @@
     "native": "Río Grande",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1995,
+    "type": "locality",
+    "population": 2025,
     "wikiDataId": "Q20285915"
   },
   {
@@ -4859,8 +5147,8 @@
     "native": "Romero de Guzmán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1177,
+    "type": "locality",
+    "population": 1280,
     "wikiDataId": "Q20286324"
   },
   {
@@ -4875,9 +5163,9 @@
     "native": "Romero de Torres",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1179,
-    "wikiDataId": "Q20286324"
+    "wikiDataId": "Q61269531"
   },
   {
     "id": 73203,
@@ -4891,7 +5179,7 @@
     "native": "Sahuayo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 78477,
     "wikiDataId": "Q2448165"
   },
@@ -4907,7 +5195,7 @@
     "native": "Sahuayo de Morelos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 64431,
     "wikiDataId": "Q20286690"
   },
@@ -4923,9 +5211,25 @@
     "native": "Salguero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1347,
-    "wikiDataId": "Q1801321"
+    "type": "locality",
+    "population": 1698,
+    "wikiDataId": "Q61264407"
+  },
+  {
+    "id": 75454,
+    "name": "Salto de Tepuxtepec",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.99135000",
+    "longitude": "-100.22566000",
+    "native": "Tepuxtepec",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1863,
+    "wikiDataId": "Q20286904"
   },
   {
     "id": 73261,
@@ -4939,9 +5243,9 @@
     "native": "San Agustín del Maíz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1728,
-    "wikiDataId": "Q1193972"
+    "type": "locality",
+    "population": 1861,
+    "wikiDataId": "Q61239378"
   },
   {
     "id": 73263,
@@ -4955,8 +5259,8 @@
     "native": "San Agustín del Pulque",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3561,
+    "type": "locality",
+    "population": 4062,
     "wikiDataId": "Q20286963"
   },
   {
@@ -4971,9 +5275,9 @@
     "native": "San Andrés",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2223,
-    "wikiDataId": "Q6959881"
+    "type": "locality",
+    "population": 2441,
+    "wikiDataId": "Q61270752"
   },
   {
     "id": 73305,
@@ -4987,7 +5291,7 @@
     "native": "San Andrés Ziróndaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2302,
     "wikiDataId": "Q20133301"
   },
@@ -5003,9 +5307,25 @@
     "native": "San Antonio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3890,
+    "type": "locality",
+    "population": 3712,
     "wikiDataId": "Q20135550"
+  },
+  {
+    "id": 73335,
+    "name": "San Antonio Guaracha",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.94592000",
+    "longitude": "-102.55590000",
+    "native": "San Antonio Guaracha",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1287,
+    "wikiDataId": "Q61269269"
   },
   {
     "id": 73389,
@@ -5019,8 +5339,8 @@
     "native": "San Antonio la Labor",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1128,
+    "type": "locality",
+    "population": 1173,
     "wikiDataId": "Q20134695"
   },
   {
@@ -5035,8 +5355,8 @@
     "native": "San Antonio Molinos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1023,
+    "type": "locality",
+    "population": 1075,
     "wikiDataId": "Q20134854"
   },
   {
@@ -5051,9 +5371,9 @@
     "native": "San Antonio Tariácuri",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1129,
-    "wikiDataId": "Q20231554"
+    "type": "locality",
+    "population": 1013,
+    "wikiDataId": "Q7413361"
   },
   {
     "id": 73359,
@@ -5067,9 +5387,9 @@
     "native": "San Antonio Villalongín",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2621,
-    "wikiDataId": "Q20287801"
+    "type": "locality",
+    "population": 2461,
+    "wikiDataId": "Q61237952"
   },
   {
     "id": 73404,
@@ -5083,8 +5403,8 @@
     "native": "San Bartolo Cuitareo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4989,
+    "type": "locality",
+    "population": 6049,
     "wikiDataId": "Q20288122"
   },
   {
@@ -5099,9 +5419,9 @@
     "native": "San Benito",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1175,
-    "wikiDataId": "Q20288201"
+    "type": "locality",
+    "population": 1386,
+    "wikiDataId": "Q61262217"
   },
   {
     "id": 73433,
@@ -5115,8 +5435,8 @@
     "native": "San Bernabé de las Canteras",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1688,
+    "type": "locality",
+    "population": 2573,
     "wikiDataId": "Q20136185"
   },
   {
@@ -5131,8 +5451,8 @@
     "native": "San Felipe de los Herreros",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1898,
+    "type": "locality",
+    "population": 2002,
     "wikiDataId": "Q20137351"
   },
   {
@@ -5147,8 +5467,8 @@
     "native": "San Felipe los Alzati (Colonia Nueva)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2747,
+    "type": "locality",
+    "population": 2375,
     "wikiDataId": "Q20288825"
   },
   {
@@ -5163,9 +5483,25 @@
     "native": "San Francisco Peribán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2054,
+    "type": "locality",
+    "population": 2388,
     "wikiDataId": "Q20138277"
+  },
+  {
+    "id": 72762,
+    "name": "San Francisco Pichátaro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.57289000",
+    "longitude": "-101.80737000",
+    "native": "Pichátaro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q20289295"
   },
   {
     "id": 73641,
@@ -5179,9 +5515,9 @@
     "native": "San Gregorio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2087,
-    "wikiDataId": "Q50024814"
+    "type": "locality",
+    "population": 2144,
+    "wikiDataId": "Q61262986"
   },
   {
     "id": 73671,
@@ -5195,8 +5531,8 @@
     "native": "San Isidro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1126,
+    "type": "locality",
+    "population": 1247,
     "wikiDataId": "Q20290391"
   },
   {
@@ -5211,8 +5547,8 @@
     "native": "San Isidro Alta Huerta",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1758,
+    "type": "locality",
+    "population": 2039,
     "wikiDataId": "Q20139442"
   },
   {
@@ -5227,9 +5563,9 @@
     "native": "San Jerónimo Purenchecuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1798,
-    "wikiDataId": "Q20231654"
+    "type": "locality",
+    "population": 1981,
+    "wikiDataId": "Q61262380"
   },
   {
     "id": 73762,
@@ -5243,8 +5579,8 @@
     "native": "San José Cuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1463,
+    "type": "locality",
+    "population": 1484,
     "wikiDataId": "Q20290897"
   },
   {
@@ -5259,9 +5595,9 @@
     "native": "San José de Gracia",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 9537,
-    "wikiDataId": "Q20141489"
+    "type": "locality",
+    "population": 10466,
+    "wikiDataId": "Q61265710"
   },
   {
     "id": 73766,
@@ -5275,9 +5611,9 @@
     "native": "San José Huipana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3396,
-    "wikiDataId": "Q20240140"
+    "wikiDataId": "Q3947417"
   },
   {
     "id": 73875,
@@ -5291,8 +5627,8 @@
     "native": "San Juan Benitito Juárez (Sat John Tarararama)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2613,
+    "type": "locality",
+    "population": 2709,
     "wikiDataId": "Q20143530"
   },
   {
@@ -5309,7 +5645,7 @@
     "translations": {},
     "type": "locality",
     "population": 2000,
-    "wikiDataId": "Q20143612"
+    "wikiDataId": "Q20143836"
   },
   {
     "id": 73964,
@@ -5323,9 +5659,9 @@
     "native": "San Juan de Viña",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1033,
-    "wikiDataId": "Q430781"
+    "type": "locality",
+    "population": 1268,
+    "wikiDataId": "Q61263742"
   },
   {
     "id": 73983,
@@ -5339,9 +5675,9 @@
     "native": "San Juanito Itzícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2044,
-    "wikiDataId": "Q10812451"
+    "wikiDataId": "Q61269046"
   },
   {
     "id": 73994,
@@ -5355,9 +5691,9 @@
     "native": "San Lorenzo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1598,
-    "wikiDataId": "Q20292883"
+    "wikiDataId": "Q6119215"
   },
   {
     "id": 74004,
@@ -5371,9 +5707,9 @@
     "native": "San Lorenzo Itzícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1143,
-    "wikiDataId": "Q20240191"
+    "type": "locality",
+    "population": 1366,
+    "wikiDataId": "Q61269025"
   },
   {
     "id": 74009,
@@ -5387,8 +5723,8 @@
     "native": "San Lorenzo Queréndaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2537,
+    "type": "locality",
+    "population": 1724,
     "wikiDataId": "Q20292826"
   },
   {
@@ -5403,9 +5739,9 @@
     "native": "San Lucas",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3085,
-    "wikiDataId": "Q3294614"
+    "type": "locality",
+    "population": 3243,
+    "wikiDataId": "Q20145252"
   },
   {
     "id": 74028,
@@ -5419,8 +5755,8 @@
     "native": "San Lucas Huarirapeo (La Mesa de San Lucas)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1346,
+    "type": "locality",
+    "population": 1594,
     "wikiDataId": "Q20292919"
   },
   {
@@ -5435,9 +5771,25 @@
     "native": "San Lucas Pío",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3056,
+    "type": "locality",
+    "population": 3871,
     "wikiDataId": "Q20292927"
+  },
+  {
+    "id": 74086,
+    "name": "San Martín",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.21570000",
+    "longitude": "-101.61140000",
+    "native": "San Martín",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2262,
+    "wikiDataId": "Q20293526"
   },
   {
     "id": 74111,
@@ -5451,9 +5803,9 @@
     "native": "San Martín Totolán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1662,
-    "wikiDataId": "Q20240215"
+    "type": "locality",
+    "population": 1805,
+    "wikiDataId": "Q61265950"
   },
   {
     "id": 74178,
@@ -5467,9 +5819,9 @@
     "native": "San Miguel Epejan",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1358,
-    "wikiDataId": "Q3890953"
+    "type": "locality",
+    "population": 1258,
+    "wikiDataId": "Q61262920"
   },
   {
     "id": 74257,
@@ -5483,9 +5835,25 @@
     "native": "San Nicolás Obispo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2638,
-    "wikiDataId": "Q20147741"
+    "type": "locality",
+    "population": 3034,
+    "wikiDataId": "Q61269034"
+  },
+  {
+    "id": 75961,
+    "name": "San Pedro Cahro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.11553000",
+    "longitude": "-102.65391000",
+    "native": "Venustiano Carranza",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 11897,
+    "wikiDataId": "Q6119540"
   },
   {
     "id": 74410,
@@ -5499,8 +5867,8 @@
     "native": "San Pedro de los sauces",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1925,
+    "type": "locality",
+    "population": 2629,
     "wikiDataId": "Q20148603"
   },
   {
@@ -5515,9 +5883,25 @@
     "native": "San Pedro Jácuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1896,
-    "wikiDataId": "Q3890589"
+    "type": "locality",
+    "population": 2219,
+    "wikiDataId": "Q7415115"
+  },
+  {
+    "id": 74373,
+    "name": "San Pedro Tarímbaro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.80799000",
+    "longitude": "-100.22541000",
+    "native": "San Pedro Tarímbaro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1492,
+    "wikiDataId": "Q61271242"
   },
   {
     "id": 74433,
@@ -5531,9 +5915,9 @@
     "native": "San Rafael Tecario",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1015,
-    "wikiDataId": "Q20149320"
+    "type": "locality",
+    "population": 1415,
+    "wikiDataId": "Q16628515"
   },
   {
     "id": 74456,
@@ -5547,9 +5931,9 @@
     "native": "San Sebastián",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2177,
-    "wikiDataId": "Q3049733"
+    "type": "locality",
+    "population": 3727,
+    "wikiDataId": "Q61262240"
   },
   {
     "id": 74524,
@@ -5563,8 +5947,8 @@
     "native": "Santa Ana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1331,
+    "type": "locality",
+    "population": 1522,
     "wikiDataId": "Q20296066"
   },
   {
@@ -5579,8 +5963,8 @@
     "native": "Santa Ana Amatlán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4189,
+    "type": "locality",
+    "population": 4504,
     "wikiDataId": "Q20295896"
   },
   {
@@ -5595,7 +5979,7 @@
     "native": "Santa Ana Chapitiro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1042,
     "wikiDataId": "Q20295902"
   },
@@ -5611,8 +5995,8 @@
     "native": "Santa Ana de Guerrero (El Cascabel)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1158,
+    "type": "locality",
+    "population": 1313,
     "wikiDataId": "Q20295909"
   },
   {
@@ -5624,12 +6008,12 @@
     "country_code": "MX",
     "latitude": "20.00690000",
     "longitude": "-101.02189000",
-    "native": "Santa da Maya",
+    "native": "Santa Ana Maya",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 7087,
-    "wikiDataId": "Q3890602"
+    "type": "locality",
+    "population": 7220,
+    "wikiDataId": "Q20295943"
   },
   {
     "id": 74552,
@@ -5643,7 +6027,7 @@
     "native": "Santa Ana Zirosto",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1634,
     "wikiDataId": "Q20295970"
   },
@@ -5659,9 +6043,9 @@
     "native": "Santa Casilda",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1318,
-    "wikiDataId": "Q49997885"
+    "type": "locality",
+    "population": 1300,
+    "wikiDataId": "Q61236691"
   },
   {
     "id": 74577,
@@ -5675,9 +6059,25 @@
     "native": "Santa Catarina",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 188,
-    "wikiDataId": "Q20209733"
+    "type": "locality",
+    "population": 1012,
+    "wikiDataId": "Q61264099"
+  },
+  {
+    "id": 74599,
+    "name": "Santa Clara",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.17904000",
+    "longitude": "-101.43350000",
+    "native": "Santa Clara",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2423,
+    "wikiDataId": "Q61261914"
   },
   {
     "id": 74603,
@@ -5691,9 +6091,9 @@
     "native": "Santa Clara de Valladares",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6917,
-    "wikiDataId": "Q20244018"
+    "wikiDataId": "Q61271142"
   },
   {
     "id": 74604,
@@ -5707,8 +6107,8 @@
     "native": "Santa Clara del Cobre",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 14359,
+    "type": "locality",
+    "population": 16748,
     "wikiDataId": "Q2991575"
   },
   {
@@ -5723,8 +6123,8 @@
     "native": "Santa Clara del Tule",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1326,
+    "type": "locality",
+    "population": 1462,
     "wikiDataId": "Q20296493"
   },
   {
@@ -5739,13 +6139,13 @@
     "native": "Santa Elena",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1893,
+    "type": "locality",
+    "population": 2313,
     "wikiDataId": "Q20297093"
   },
   {
     "id": 74664,
-    "name": "Santa Fé de la Laguna",
+    "name": "Santa Fe de la Laguna",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -5755,9 +6155,9 @@
     "native": "Santa Fé de la Laguna",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4879,
-    "wikiDataId": "Q20297208"
+    "wikiDataId": "Q4407877"
   },
   {
     "id": 74660,
@@ -5771,9 +6171,9 @@
     "native": "Santa Fe del Río",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1342,
-    "wikiDataId": "Q20297210"
+    "type": "locality",
+    "population": 1214,
+    "wikiDataId": "Q61263185"
   },
   {
     "id": 74681,
@@ -5787,9 +6187,9 @@
     "native": "Santa Juana",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1956,
-    "wikiDataId": "Q20297419"
+    "type": "locality",
+    "population": 2109,
+    "wikiDataId": "Q61263335"
   },
   {
     "id": 74809,
@@ -5803,8 +6203,8 @@
     "native": "Santa María de los Ángeles",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1694,
+    "type": "locality",
+    "population": 1615,
     "wikiDataId": "Q20297724"
   },
   {
@@ -5819,8 +6219,8 @@
     "native": "Santa María Huiramangaro (San Juan Tumbio)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2590,
+    "type": "locality",
+    "population": 1652,
     "wikiDataId": "Q20297747"
   },
   {
@@ -5835,8 +6235,8 @@
     "native": "Santa María Urapicho",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1472,
+    "type": "locality",
+    "population": 1933,
     "wikiDataId": "Q20297838"
   },
   {
@@ -5851,7 +6251,7 @@
     "native": "Santa Rosa (Santa Bárbara)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3622,
     "wikiDataId": "Q20283306"
   },
@@ -5867,9 +6267,9 @@
     "native": "Santiago Azajo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1634,
-    "wikiDataId": "Q3889450"
+    "type": "locality",
+    "population": 1614,
+    "wikiDataId": "Q20283718"
   },
   {
     "id": 74937,
@@ -5883,8 +6283,8 @@
     "native": "Santiago Puriatzícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3660,
+    "type": "locality",
+    "population": 4005,
     "wikiDataId": "Q20283858"
   },
   {
@@ -5896,11 +6296,11 @@
     "country_code": "MX",
     "latitude": "19.95568000",
     "longitude": "-102.43546000",
-    "native": "James Tangaapo",
+    "native": "Santiago Tangamandapio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 10463,
+    "type": "locality",
+    "population": 11086,
     "wikiDataId": "Q2651288"
   },
   {
@@ -5915,9 +6315,25 @@
     "native": "Santiago Undameo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1455,
-    "wikiDataId": "Q20240440"
+    "type": "locality",
+    "population": 1867,
+    "wikiDataId": "Q21003621"
+  },
+  {
+    "id": 75023,
+    "name": "Santo Tomás",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84524000",
+    "longitude": "-102.08571000",
+    "native": "Santo Tomás",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1773,
+    "wikiDataId": "Q20284288"
   },
   {
     "id": 75059,
@@ -5931,8 +6347,8 @@
     "native": "Senguy",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 19146,
+    "type": "municipality",
+    "population": 19833,
     "wikiDataId": "Q10819400"
   },
   {
@@ -5947,8 +6363,8 @@
     "native": "Sevina",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3344,
+    "type": "locality",
+    "population": 4020,
     "wikiDataId": "Q20284923"
   },
   {
@@ -5963,9 +6379,9 @@
     "native": "Susupuato de Guerrero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 489,
-    "wikiDataId": "Q3847100"
+    "type": "locality",
+    "population": 426,
+    "wikiDataId": "Q61264680"
   },
   {
     "id": 75164,
@@ -5979,8 +6395,8 @@
     "native": "Tacambaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2086,
+    "type": "municipality",
+    "population": 79540,
     "wikiDataId": "Q1915254"
   },
   {
@@ -5995,7 +6411,7 @@
     "native": "Tacámbaro de Codallos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 25665,
     "wikiDataId": "Q20285962"
   },
@@ -6011,13 +6427,13 @@
     "native": "Tacátzcuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2382,
-    "wikiDataId": "Q20285962"
+    "type": "locality",
+    "population": 2388,
+    "wikiDataId": "Q61271484"
   },
   {
     "id": 75157,
-    "name": "Tacicuaro",
+    "name": "Tacícuaro",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -6027,9 +6443,9 @@
     "native": "Tacicuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1428,
-    "wikiDataId": "Q3889100"
+    "wikiDataId": "Q61268816"
   },
   {
     "id": 75163,
@@ -6043,8 +6459,8 @@
     "native": "Tacuro (Santa María Tacuro)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2050,
+    "type": "locality",
+    "population": 1990,
     "wikiDataId": "Q20286001"
   },
   {
@@ -6059,9 +6475,25 @@
     "native": "Tafetán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1784,
-    "wikiDataId": "Q20285962"
+    "type": "locality",
+    "population": 1952,
+    "wikiDataId": "Q61269689"
+  },
+  {
+    "id": 75197,
+    "name": "Tamándaro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.94941000",
+    "longitude": "-102.28416000",
+    "native": "Tamándaro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1189,
+    "wikiDataId": "Q20286146"
   },
   {
     "id": 75199,
@@ -6075,9 +6507,25 @@
     "native": "Tanaco",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2947,
-    "wikiDataId": "Q20261174"
+    "wikiDataId": "Q6120360"
+  },
+  {
+    "id": 75201,
+    "name": "Tanaquillo",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84611000",
+    "longitude": "-102.09797000",
+    "native": "Tanaquillo",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1530,
+    "wikiDataId": "Q61237246"
   },
   {
     "id": 75205,
@@ -6088,11 +6536,11 @@
     "country_code": "MX",
     "latitude": "19.33843000",
     "longitude": "-102.36264000",
-    "native": "Baile",
+    "native": "Tancítaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6747,
+    "type": "locality",
+    "population": 8133,
     "wikiDataId": "Q3847278"
   },
   {
@@ -6104,12 +6552,28 @@
     "country_code": "MX",
     "latitude": "19.88294000",
     "longitude": "-102.22859000",
-    "native": "Manecilla",
+    "native": "Tangancícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 35256,
     "wikiDataId": "Q4451075"
+  },
+  {
+    "id": 75209,
+    "name": "Tangancícuaro de Arista",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.88733000",
+    "longitude": "-102.20636000",
+    "native": "Tanganchuaro de Arista",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 15068,
+    "wikiDataId": "Q20286295"
   },
   {
     "id": 75211,
@@ -6123,9 +6587,25 @@
     "native": "Tanhuato de Guerrero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 9546,
+    "type": "locality",
+    "population": 8707,
     "wikiDataId": "Q20286320"
+  },
+  {
+    "id": 75234,
+    "name": "Tarécuato",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84359000",
+    "longitude": "-102.46485000",
+    "native": "Tarécuato",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 8863,
+    "wikiDataId": "Q107563757"
   },
   {
     "id": 75230,
@@ -6136,16 +6616,16 @@
     "country_code": "MX",
     "latitude": "19.81941000",
     "longitude": "-101.71564000",
-    "native": "Tarro",
+    "native": "Tarejero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1575,
-    "wikiDataId": "Q2651312"
+    "type": "locality",
+    "population": 1493,
+    "wikiDataId": "Q61269211"
   },
   {
     "id": 75231,
-    "name": "Taretán",
+    "name": "Taretan",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -6155,9 +6635,9 @@
     "native": "Taretano",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6440,
-    "wikiDataId": "Q3847224"
+    "wikiDataId": "Q20286584"
   },
   {
     "id": 75235,
@@ -6171,9 +6651,9 @@
     "native": "Tarano",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6049,
-    "wikiDataId": "Q2651272"
+    "wikiDataId": "Q61271520"
   },
   {
     "id": 75243,
@@ -6187,9 +6667,9 @@
     "native": "Tavera",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1045,
-    "wikiDataId": "Q10930920"
+    "type": "locality",
+    "population": 957,
+    "wikiDataId": "Q61272214"
   },
   {
     "id": 75266,
@@ -6203,9 +6683,9 @@
     "native": "Tecario",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2549,
-    "wikiDataId": "Q20232220"
+    "type": "locality",
+    "population": 2745,
+    "wikiDataId": "Q61263757"
   },
   {
     "id": 75282,
@@ -6219,9 +6699,25 @@
     "native": "Tecomatán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1096,
+    "type": "locality",
+    "population": 1055,
     "wikiDataId": "Q7692782"
+  },
+  {
+    "id": 75366,
+    "name": "Tengüecho",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.83836000",
+    "longitude": "-102.34347000",
+    "native": "Tengüecho",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1202,
+    "wikiDataId": "Q61263923"
   },
   {
     "id": 75393,
@@ -6235,25 +6731,41 @@
     "native": "Tepalcatepec",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 15221,
     "wikiDataId": "Q427595"
   },
   {
-    "id": 75454,
-    "name": "Tepuxtepec",
+    "id": 75431,
+    "name": "Tepetongo",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
     "country_code": "MX",
-    "latitude": "19.99135000",
-    "longitude": "-100.22566000",
-    "native": "Tepuxtepec",
+    "latitude": "19.90877000",
+    "longitude": "-100.13356000",
+    "native": "Tepetongo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1401,
-    "wikiDataId": "Q20286904"
+    "type": "locality",
+    "population": 1557,
+    "wikiDataId": "Q61239406"
+  },
+  {
+    "id": 75467,
+    "name": "Teremendo",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.78530000",
+    "longitude": "-101.47980000",
+    "native": "Teremendo",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1469,
+    "wikiDataId": "Q61268819"
   },
   {
     "id": 75557,
@@ -6283,8 +6795,8 @@
     "native": "Tingambato",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 7771,
+    "type": "locality",
+    "population": 9140,
     "wikiDataId": "Q2652490"
   },
   {
@@ -6299,9 +6811,9 @@
     "native": "Tingüindin",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6923,
-    "wikiDataId": "Q3847151"
+    "wikiDataId": "Q27779660"
   },
   {
     "id": 75580,
@@ -6315,7 +6827,7 @@
     "native": "Tiquiceo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3210,
     "wikiDataId": "Q20288875"
   },
@@ -6331,8 +6843,8 @@
     "native": "Tiquicheo de Nicolás Romero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 13731,
+    "type": "municipality",
+    "population": 12836,
     "wikiDataId": "Q432542"
   },
   {
@@ -6347,9 +6859,9 @@
     "native": "Tirindario",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3256,
-    "wikiDataId": "Q432542"
+    "wikiDataId": "Q61269213"
   },
   {
     "id": 75583,
@@ -6363,9 +6875,9 @@
     "native": "Tiríptio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2050,
-    "wikiDataId": "Q432542"
+    "type": "locality",
+    "population": 2200,
+    "wikiDataId": "Q6147309"
   },
   {
     "id": 75650,
@@ -6379,9 +6891,25 @@
     "native": "Tlalpujahua de Rayón",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3530,
     "wikiDataId": "Q2605379"
+  },
+  {
+    "id": 75708,
+    "name": "Tlazazalca",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.97085000",
+    "longitude": "-102.05842000",
+    "native": "Tlazazalca",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 3002,
+    "wikiDataId": "Q3847160"
   },
   {
     "id": 75718,
@@ -6395,9 +6923,9 @@
     "native": "Tacumbo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 1799,
-    "wikiDataId": "Q3847335"
+    "type": "locality",
+    "population": 1889,
+    "wikiDataId": "Q61271146"
   },
   {
     "id": 75729,
@@ -6411,8 +6939,8 @@
     "native": "Tomendán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1291,
+    "type": "locality",
+    "population": 1558,
     "wikiDataId": "Q20289504"
   },
   {
@@ -6427,9 +6955,25 @@
     "native": "Toreo Bajo (El Toreo Bajo)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3642,
+    "type": "locality",
+    "population": 4250,
     "wikiDataId": "Q20289627"
+  },
+  {
+    "id": 75775,
+    "name": "Tres Mezquites",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.26203000",
+    "longitude": "-101.62735000",
+    "native": "Tres Mezquitas",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1966,
+    "wikiDataId": "Q20290130"
   },
   {
     "id": 75806,
@@ -6443,9 +6987,9 @@
     "native": "Tumbiscatío de Ruiz",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2801,
-    "wikiDataId": "Q3847185"
+    "type": "locality",
+    "population": 2486,
+    "wikiDataId": "Q44316321"
   },
   {
     "id": 75808,
@@ -6459,9 +7003,25 @@
     "native": "Tungareo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 4597,
+    "type": "locality",
+    "population": 5484,
     "wikiDataId": "Q20290463"
+  },
+  {
+    "id": 75813,
+    "name": "Tupátaro",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.81375000",
+    "longitude": "-100.30543000",
+    "native": "Tupátaro",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2303,
+    "wikiDataId": "Q61264837"
   },
   {
     "id": 75815,
@@ -6475,8 +7035,8 @@
     "native": "Turicato",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 2132,
+    "type": "locality",
+    "population": 2075,
     "wikiDataId": "Q3847233"
   },
   {
@@ -6491,9 +7051,9 @@
     "native": "Turícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3388,
-    "wikiDataId": "Q20250183"
+    "wikiDataId": "Q27148603"
   },
   {
     "id": 75820,
@@ -6504,11 +7064,11 @@
     "country_code": "MX",
     "latitude": "19.56788000",
     "longitude": "-100.46189000",
-    "native": "Esmoquin",
+    "native": "Tuxpan",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 9122,
+    "type": "locality",
+    "population": 8962,
     "wikiDataId": "Q18603435"
   },
   {
@@ -6520,11 +7080,11 @@
     "country_code": "MX",
     "latitude": "19.20289000",
     "longitude": "-100.56679000",
-    "native": "Melodía",
+    "native": "Tuzantla",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 15383,
+    "type": "locality",
+    "population": 2959,
     "wikiDataId": "Q24013570"
   },
   {
@@ -6539,8 +7099,8 @@
     "native": "Tzintzimeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1500,
+    "type": "locality",
+    "population": 1678,
     "wikiDataId": "Q20290790"
   },
   {
@@ -6555,9 +7115,9 @@
     "native": "Tzintzinguareo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2743,
-    "wikiDataId": "Q20290790"
+    "type": "locality",
+    "population": 2642,
+    "wikiDataId": "Q61237827"
   },
   {
     "id": 75845,
@@ -6571,8 +7131,8 @@
     "native": "Tzintzuntzan",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 14432,
+    "type": "municipality",
+    "population": 14911,
     "wikiDataId": "Q20291079"
   },
   {
@@ -6587,9 +7147,9 @@
     "native": "Tziritzícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1492,
-    "wikiDataId": "Q1574289"
+    "type": "locality",
+    "population": 1743,
+    "wikiDataId": "Q61265031"
   },
   {
     "id": 75849,
@@ -6603,8 +7163,8 @@
     "native": "Tzitzio",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1784,
+    "type": "municipality",
+    "population": 8855,
     "wikiDataId": "Q5857824"
   },
   {
@@ -6619,9 +7179,25 @@
     "native": "Ucaraeo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2284,
-    "wikiDataId": "Q1999633"
+    "type": "locality",
+    "population": 2123,
+    "wikiDataId": "Q61269500"
+  },
+  {
+    "id": 75900,
+    "name": "Urén",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84564000",
+    "longitude": "-102.10524000",
+    "native": "Urén",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 1611,
+    "wikiDataId": "Q61237252"
   },
   {
     "id": 75892,
@@ -6635,9 +7211,9 @@
     "native": "Eres",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2573,
-    "wikiDataId": "Q973918"
+    "wikiDataId": null
   },
   {
     "id": 75893,
@@ -6651,9 +7227,9 @@
     "native": "Upohoi",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1512,
-    "wikiDataId": "Q973918"
+    "type": "locality",
+    "population": 1719,
+    "wikiDataId": "Q61265631"
   },
   {
     "id": 75898,
@@ -6667,7 +7243,7 @@
     "native": "Uruapan",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 299523,
     "wikiDataId": "Q399270"
   },
@@ -6683,8 +7259,8 @@
     "native": "Uruétaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2596,
+    "type": "locality",
+    "population": 2857,
     "wikiDataId": "Q20291425"
   },
   {
@@ -6699,9 +7275,9 @@
     "native": "Uspero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1077,
-    "wikiDataId": "Q20291435"
+    "type": "locality",
+    "population": 1074,
+    "wikiDataId": "Q61262631"
   },
   {
     "id": 75918,
@@ -6715,25 +7291,25 @@
     "native": "Valle Verde",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1617,
+    "type": "locality",
+    "population": 1775,
     "wikiDataId": "Q20291737"
   },
   {
-    "id": 75961,
-    "name": "Venustiano Carranza",
+    "id": 75954,
+    "name": "Venta de Bravo",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
     "country_code": "MX",
-    "latitude": "20.11553000",
-    "longitude": "-102.65391000",
-    "native": "Venustiano Carranza",
+    "latitude": "19.86376000",
+    "longitude": "-100.17323000",
+    "native": "Venta de Bravo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 11987,
-    "wikiDataId": "Q7920663"
+    "type": "locality",
+    "population": 1464,
+    "wikiDataId": "Q49900102"
   },
   {
     "id": 76019,
@@ -6747,9 +7323,9 @@
     "native": "Villa Jiménez",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4249,
-    "wikiDataId": "Q20292668"
+    "wikiDataId": "Q6162203"
   },
   {
     "id": 76030,
@@ -6763,8 +7339,8 @@
     "native": "Villa Madero",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 6577,
+    "type": "locality",
+    "population": 7633,
     "wikiDataId": "Q20292716"
   },
   {
@@ -6784,6 +7360,22 @@
     "wikiDataId": "Q20292720"
   },
   {
+    "id": 76036,
+    "name": "Villa Morelos",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.00335000",
+    "longitude": "-101.41360000",
+    "native": "Villa Morelos",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2526,
+    "wikiDataId": "Q12352823"
+  },
+  {
     "id": 76057,
     "name": "Villa Victoria",
     "state_id": 3474,
@@ -6795,9 +7387,25 @@
     "native": "Villa Victoria",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1010,
-    "wikiDataId": "Q2652321"
+    "wikiDataId": "Q49901172"
+  },
+  {
+    "id": 76076,
+    "name": "Villachuato",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.14848000",
+    "longitude": "-101.63460000",
+    "native": "Villachuato",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 3986,
+    "wikiDataId": "Q4111421"
   },
   {
     "id": 76083,
@@ -6808,11 +7416,11 @@
     "country_code": "MX",
     "latitude": "20.02040000",
     "longitude": "-102.59655000",
-    "native": "Villa",
+    "native": "Villamar",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 3095,
+    "type": "locality",
+    "population": 2978,
     "wikiDataId": "Q20292921"
   },
   {
@@ -6843,9 +7451,9 @@
     "native": "Vista Hermosa de Negrete",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 10752,
-    "wikiDataId": "Q20293346"
+    "type": "locality",
+    "population": 12434,
+    "wikiDataId": "Q20291126"
   },
   {
     "id": 76249,
@@ -6859,7 +7467,7 @@
     "native": "Yurécuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 23843,
     "wikiDataId": "Q20294754"
   },
@@ -6875,13 +7483,13 @@
     "native": "Zacap",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 52806,
-    "wikiDataId": "Q17104877"
+    "wikiDataId": "Q2448294"
   },
   {
     "id": 76294,
-    "name": "Zamora",
+    "name": "Zamora de Hidalgo",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -6891,7 +7499,7 @@
     "native": "Zamora",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 196208,
     "wikiDataId": "Q145865"
   },
@@ -6907,8 +7515,8 @@
     "native": "Zaragoza (Puerto de Medina)",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1383,
+    "type": "locality",
+    "population": 1397,
     "wikiDataId": "Q20295358"
   },
   {
@@ -6925,7 +7533,7 @@
     "translations": {},
     "type": "city",
     "population": 558,
-    "wikiDataId": "Q20295442"
+    "wikiDataId": null
   },
   {
     "id": 76333,
@@ -6939,9 +7547,9 @@
     "native": "Zicuirán",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3215,
-    "wikiDataId": "Q20295442"
+    "type": "locality",
+    "population": 3177,
+    "wikiDataId": "Q61237857"
   },
   {
     "id": 76343,
@@ -6955,13 +7563,13 @@
     "native": "Zináparo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
-    "population": 1947,
+    "type": "locality",
+    "population": 2028,
     "wikiDataId": "Q10838521"
   },
   {
     "id": 76342,
-    "name": "Zinapécuaro",
+    "name": "Zinapécuaro de Figueroa",
     "state_id": 3474,
     "state_code": "MIC",
     "country_id": 142,
@@ -6971,9 +7579,25 @@
     "native": "Zinapécuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 15875,
     "wikiDataId": "Q20295499"
+  },
+  {
+    "id": 76344,
+    "name": "Zipiajo",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.79445000",
+    "longitude": "-101.55250000",
+    "native": "Zipiajo",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 2817,
+    "wikiDataId": "Q61238915"
   },
   {
     "id": 76345,
@@ -6987,9 +7611,9 @@
     "native": "Ziquítaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1823,
-    "wikiDataId": "Q10838521"
+    "type": "locality",
+    "population": 1870,
+    "wikiDataId": "Q61263512"
   },
   {
     "id": 76346,
@@ -7003,8 +7627,8 @@
     "native": "Ziracuaretiro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 17394,
+    "type": "municipality",
+    "population": 18402,
     "wikiDataId": "Q10838523"
   },
   {
@@ -7019,9 +7643,9 @@
     "native": "Zirahuato de los Bernal",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2075,
-    "wikiDataId": "Q10838523"
+    "type": "locality",
+    "population": 2297,
+    "wikiDataId": "Q61270827"
   },
   {
     "id": 76348,
@@ -7035,9 +7659,9 @@
     "native": "Zirahuén",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2942,
-    "wikiDataId": "Q10838523"
+    "type": "locality",
+    "population": 3263,
+    "wikiDataId": "Q4420725"
   },
   {
     "id": 76349,
@@ -7051,9 +7675,25 @@
     "native": "Zirimícuaro",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1315,
-    "wikiDataId": "Q10838523"
+    "type": "locality",
+    "population": 1661,
+    "wikiDataId": "Q61269471"
+  },
+  {
+    "id": 76365,
+    "name": "Zopoco",
+    "state_id": 3474,
+    "state_code": "MIC",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.84029000",
+    "longitude": "-102.07483000",
+    "native": "Zopoco",
+    "timezone": "America/Mexico_City",
+    "translations": {},
+    "type": "locality",
+    "population": 3107,
+    "wikiDataId": "Q20295636"
   },
   {
     "id": 76389,
@@ -7064,11 +7704,11 @@
     "country_code": "MX",
     "latitude": "19.69981000",
     "longitude": "-101.01113000",
-    "native": "Zurubbildene",
+    "native": "Zurumbeneo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 3086,
-    "wikiDataId": "Q229727"
+    "type": "locality",
+    "population": 967,
+    "wikiDataId": "Q61239326"
   }
 ]

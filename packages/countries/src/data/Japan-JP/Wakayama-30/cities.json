@@ -12,7 +12,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 26538,
     "wikiDataId": "Q657843"
   },
   {
@@ -27,7 +27,7 @@
     "native": "御坊",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 23481,
     "wikiDataId": "Q847572"
   },
@@ -43,24 +43,8 @@
     "native": "橋本",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 60058,
-    "wikiDataId": "Q842098"
-  },
-  {
-    "id": 63445,
-    "name": "Hashimoto Shi",
-    "state_id": 844,
-    "state_code": "30",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.32417000",
-    "longitude": "135.61045000",
-    "native": "橋本史",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 60818,
     "wikiDataId": "Q842098"
   },
   {
@@ -75,24 +59,8 @@
     "native": "岩出",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 53714,
-    "wikiDataId": "Q579623"
-  },
-  {
-    "id": 63619,
-    "name": "Iwade Shi",
-    "state_id": 844,
-    "state_code": "30",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.28089000",
-    "longitude": "135.30560000",
-    "native": "岩出市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 53967,
     "wikiDataId": "Q579623"
   },
   {
@@ -107,24 +75,8 @@
     "native": "海南",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 47697,
-    "wikiDataId": "Q841309"
-  },
-  {
-    "id": 63663,
-    "name": "Kainan Shi",
-    "state_id": 844,
-    "state_code": "30",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.14182000",
-    "longitude": "135.22400000",
-    "native": "海南市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 48369,
     "wikiDataId": "Q841309"
   },
   {
@@ -140,7 +92,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 58816,
     "wikiDataId": "Q697002"
   },
   {
@@ -155,8 +107,8 @@
     "native": "高野",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 2902,
+    "type": "town",
+    "population": 2970,
     "wikiDataId": "Q1346907"
   },
   {
@@ -184,28 +136,28 @@
     "country_code": "JP",
     "latitude": "33.73333000",
     "longitude": "135.98333000",
-    "native": "新宮",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 26628,
-    "wikiDataId": "Q823526"
-  },
-  {
-    "id": 64341,
-    "name": "Shingū-shi",
-    "state_id": 844,
-    "state_code": "30",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "33.76663000",
-    "longitude": "135.85863000",
     "native": "新宮市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 27171,
     "wikiDataId": "Q823526"
+  },
+  {
+    "id": 165117,
+    "name": "Shirahama",
+    "state_id": 844,
+    "state_code": "30",
+    "country_id": 109,
+    "country_code": "JP",
+    "latitude": "33.68333000",
+    "longitude": "135.35000000",
+    "native": "白浜町",
+    "timezone": "Asia/Tokyo",
+    "translations": {},
+    "type": "town",
+    "population": 20262,
+    "wikiDataId": "Q1202728"
   },
   {
     "id": 64464,
@@ -220,7 +172,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 69870,
     "wikiDataId": "Q304266"
   },
   {
@@ -232,27 +184,11 @@
     "country_code": "JP",
     "latitude": "34.23333000",
     "longitude": "135.16667000",
-    "native": "和歌山",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm1",
-    "population": 353299,
-    "wikiDataId": "Q823896"
-  },
-  {
-    "id": 64617,
-    "name": "Wakayama Shi",
-    "state_id": 844,
-    "state_code": "30",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.24252000",
-    "longitude": "135.19595000",
     "native": "和歌山市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 356729,
     "wikiDataId": "Q200747"
   }
 ]

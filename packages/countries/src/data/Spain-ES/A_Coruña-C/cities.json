@@ -11,9 +11,25 @@
     "native": "A Coruña",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 251543,
     "wikiDataId": "Q8757"
+  },
+  {
+    "id": 151042,
+    "name": "A Laracha",
+    "state_id": 5089,
+    "state_code": "C",
+    "country_id": 207,
+    "country_code": "ES",
+    "latitude": "43.24827000",
+    "longitude": "-8.58440490",
+    "native": "A Laracha",
+    "timezone": "Europe/Madrid",
+    "translations": {},
+    "type": "municipality",
+    "population": 11781,
+    "wikiDataId": "Q924043"
   },
   {
     "id": 31906,
@@ -27,25 +43,25 @@
     "native": "Abegondo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5578,
-    "wikiDataId": "Q305593"
+    "type": "municipality",
+    "population": 5631,
+    "wikiDataId": "Q318323"
   },
   {
     "id": 32364,
-    "name": "Amés",
+    "name": "Ames",
     "state_id": 5089,
     "state_code": "C",
     "country_id": 207,
     "country_code": "ES",
     "latitude": "42.90426000",
     "longitude": "-8.65551000",
-    "native": "Amado",
+    "native": "Ames",
     "timezone": "Europe/Madrid",
     "translations": {},
     "type": "city",
     "population": 32812,
-    "wikiDataId": "Q1907334"
+    "wikiDataId": null
   },
   {
     "id": 32411,
@@ -56,12 +72,12 @@
     "country_code": "ES",
     "latitude": "43.23469000",
     "longitude": "-8.01705000",
-    "native": "Revuelta",
+    "native": "Aranga",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1799,
-    "wikiDataId": "Q1648789"
+    "type": "municipality",
+    "population": 1793,
+    "wikiDataId": "Q1113417"
   },
   {
     "id": 32455,
@@ -75,9 +91,9 @@
     "native": "Ares",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6156,
-    "wikiDataId": "Q513637"
+    "type": "municipality",
+    "population": 6275,
+    "wikiDataId": "Q17416"
   },
   {
     "id": 32522,
@@ -88,10 +104,10 @@
     "country_code": "ES",
     "latitude": "43.30482000",
     "longitude": "-8.50749000",
-    "native": "Árbol",
+    "native": "Arteixo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 34038,
     "wikiDataId": "Q12383329"
   },
@@ -107,9 +123,9 @@
     "native": "Arzúa",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5887,
-    "wikiDataId": "Q715970"
+    "type": "municipality",
+    "population": 5916,
+    "wikiDataId": "Q651676"
   },
   {
     "id": 32533,
@@ -120,11 +136,11 @@
     "country_code": "ES",
     "latitude": "43.45266000",
     "longitude": "-7.85178000",
-    "native": "Los puentes de García Rodríguez",
+    "native": "As Pontes de García Rodríguez",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 9782,
+    "type": "municipality",
+    "population": 9796,
     "wikiDataId": "Q1442761"
   },
   {
@@ -139,8 +155,8 @@
     "native": "Baña A",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 3505,
+    "type": "municipality",
+    "population": 3239,
     "wikiDataId": "Q1183411"
   },
   {
@@ -155,8 +171,8 @@
     "native": "Bergondo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6986,
+    "type": "municipality",
+    "population": 7135,
     "wikiDataId": "Q644018"
   },
   {
@@ -171,9 +187,9 @@
     "native": "Betanzos",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 13261,
-    "wikiDataId": "Q13417"
+    "type": "municipality",
+    "population": 13533,
+    "wikiDataId": "Q671341"
   },
   {
     "id": 32933,
@@ -187,8 +203,8 @@
     "native": "Boimorto",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2470,
+    "type": "municipality",
+    "population": 1803,
     "wikiDataId": "Q692787"
   },
   {
@@ -203,8 +219,8 @@
     "native": "Boiro",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 19018,
+    "type": "municipality",
+    "population": 18967,
     "wikiDataId": "Q735282"
   },
   {
@@ -219,8 +235,8 @@
     "native": "Boqueixón",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4200,
+    "type": "municipality",
+    "population": 4219,
     "wikiDataId": "Q1369014"
   },
   {
@@ -232,11 +248,11 @@
     "country_code": "ES",
     "latitude": "42.86684590",
     "longitude": "-8.67836890",
-    "native": "Musgo",
+    "native": "Brión",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 8197,
+    "type": "municipality",
+    "population": 8192,
     "wikiDataId": "Q1615466"
   },
   {
@@ -251,8 +267,8 @@
     "native": "Cabana de Bergantiños",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4098,
+    "type": "municipality",
+    "population": 4067,
     "wikiDataId": "Q1368763"
   },
   {
@@ -283,9 +299,9 @@
     "native": "Camariñas",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6440,
-    "wikiDataId": "Q1652442"
+    "type": "municipality",
+    "population": 5075,
+    "wikiDataId": "Q1373985"
   },
   {
     "id": 33176,
@@ -296,12 +312,12 @@
     "country_code": "ES",
     "latitude": "43.29438000",
     "longitude": "-8.34736000",
-    "native": "Entrenador",
+    "native": "Cambre",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 24781,
-    "wikiDataId": "Q1611875"
+    "type": "municipality",
+    "population": 24765,
+    "wikiDataId": "Q1113375"
   },
   {
     "id": 151036,
@@ -315,8 +331,8 @@
     "native": "Capilla A",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1165,
     "wikiDataId": "Q581926"
   },
   {
@@ -328,12 +344,12 @@
     "country_code": "ES",
     "latitude": "43.21300000",
     "longitude": "-8.69104000",
-    "native": "Roble",
+    "native": "Carballo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 31595,
-    "wikiDataId": "Q940960"
+    "type": "municipality",
+    "population": 32120,
+    "wikiDataId": "Q166137"
   },
   {
     "id": 33307,
@@ -347,9 +363,9 @@
     "native": "Cariño",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4779,
-    "wikiDataId": "Q24002479"
+    "type": "municipality",
+    "population": 3661,
+    "wikiDataId": "Q1403988"
   },
   {
     "id": 33312,
@@ -363,9 +379,9 @@
     "native": "Carnota",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5171,
-    "wikiDataId": "Q1372506"
+    "type": "municipality",
+    "population": 3780,
+    "wikiDataId": "Q1368813"
   },
   {
     "id": 33316,
@@ -376,11 +392,11 @@
     "country_code": "ES",
     "latitude": "43.22860000",
     "longitude": "-8.35545000",
-    "native": "Cartera",
+    "native": "Carral",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6775,
+    "type": "municipality",
+    "population": 6840,
     "wikiDataId": "Q601352"
   },
   {
@@ -395,9 +411,9 @@
     "native": "Cedeira",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6548,
-    "wikiDataId": "Q1632687"
+    "type": "municipality",
+    "population": 6547,
+    "wikiDataId": "Q1113395"
   },
   {
     "id": 33559,
@@ -408,11 +424,11 @@
     "country_code": "ES",
     "latitude": "42.95466000",
     "longitude": "-9.18800000",
-    "native": "Ceer",
+    "native": "Cee",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 7740,
+    "type": "municipality",
+    "population": 7731,
     "wikiDataId": "Q988707"
   },
   {
@@ -424,11 +440,11 @@
     "country_code": "ES",
     "latitude": "43.18969480",
     "longitude": "-8.47223580",
-    "native": "Pierna",
+    "native": "Cerceda",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5085,
+    "type": "municipality",
+    "population": 5116,
     "wikiDataId": "Q1369070"
   },
   {
@@ -443,9 +459,9 @@
     "native": "Cerdido",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1535,
-    "wikiDataId": "Q1646215"
+    "type": "municipality",
+    "population": 1006,
+    "wikiDataId": "Q678870"
   },
   {
     "id": 33607,
@@ -459,7 +475,7 @@
     "native": "Cesuras",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2422,
     "wikiDataId": "Q772776"
   },
@@ -472,11 +488,11 @@
     "country_code": "ES",
     "latitude": "43.25000000",
     "longitude": "-8.16667000",
-    "native": "Círculo",
+    "native": "Coirós",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1931,
+    "type": "municipality",
+    "population": 1945,
     "wikiDataId": "Q527259"
   },
   {
@@ -491,8 +507,8 @@
     "native": "Corcubión",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1678,
+    "type": "municipality",
+    "population": 1659,
     "wikiDataId": "Q581367"
   },
   {
@@ -504,11 +520,11 @@
     "country_code": "ES",
     "latitude": "43.20000000",
     "longitude": "-8.75000000",
-    "native": "Crise",
+    "native": "Coristanco",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 542,
+    "type": "municipality",
+    "population": 5710,
     "wikiDataId": "Q1369028"
   },
   {
@@ -520,11 +536,11 @@
     "country_code": "ES",
     "latitude": "43.28788000",
     "longitude": "-8.38858000",
-    "native": "Cullerdo",
+    "native": "Culleredo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 31085,
+    "type": "municipality",
+    "population": 31254,
     "wikiDataId": "Q1113450"
   },
   {
@@ -539,8 +555,8 @@
     "native": "Curtis",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 4242,
     "wikiDataId": "Q1373939"
   },
   {
@@ -555,8 +571,8 @@
     "native": "Dodro",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2620,
+    "type": "municipality",
+    "population": 2589,
     "wikiDataId": "Q1368913"
   },
   {
@@ -568,11 +584,11 @@
     "country_code": "ES",
     "latitude": "43.00836000",
     "longitude": "-9.11328000",
-    "native": "Dumbía",
+    "native": "Dumbría",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4062,
+    "type": "municipality",
+    "population": 2716,
     "wikiDataId": "Q549319"
   },
   {
@@ -584,12 +600,12 @@
     "country_code": "ES",
     "latitude": "43.45000000",
     "longitude": "-8.15000000",
-    "native": "Feno",
+    "native": "Fene",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 12530,
-    "wikiDataId": "Q1639270"
+    "type": "municipality",
+    "population": 12467,
+    "wikiDataId": "Q1374025"
   },
   {
     "id": 34182,
@@ -600,11 +616,11 @@
     "country_code": "ES",
     "latitude": "43.48961000",
     "longitude": "-8.21940000",
-    "native": "Feroz",
+    "native": "Ferrol",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 66799,
+    "type": "municipality",
+    "population": 64367,
     "wikiDataId": "Q485329"
   },
   {
@@ -616,12 +632,12 @@
     "country_code": "ES",
     "latitude": "42.90492000",
     "longitude": "-9.26289000",
-    "native": "Fisteria",
+    "native": "Fisterra",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4704,
-    "wikiDataId": "Q598606"
+    "type": "municipality",
+    "population": 4666,
+    "wikiDataId": "Q732090"
   },
   {
     "id": 151040,
@@ -632,12 +648,12 @@
     "country_code": "ES",
     "latitude": "43.04867640",
     "longitude": "-8.28694780",
-    "native": "Fradas",
+    "native": "Frades",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2163,
-    "wikiDataId": "Q400833"
+    "wikiDataId": "Q1616172"
   },
   {
     "id": 34759,
@@ -648,28 +664,12 @@
     "country_code": "ES",
     "latitude": "43.28470000",
     "longitude": "-8.05916000",
-    "native": "Irixo",
+    "native": "Irixoa",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 1343,
     "wikiDataId": "Q1620170"
-  },
-  {
-    "id": 151042,
-    "name": "Laracha A",
-    "state_id": 5089,
-    "state_code": "C",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "43.24827000",
-    "longitude": "-8.58440490",
-    "native": "Laracha a",
-    "timezone": "Europe/Madrid",
-    "translations": {},
-    "type": "city",
-    "population": 11302,
-    "wikiDataId": "Q924043"
   },
   {
     "id": 151041,
@@ -680,11 +680,11 @@
     "country_code": "ES",
     "latitude": "43.22121670",
     "longitude": "-9.00635060",
-    "native": "Flojo",
+    "native": "Laxe",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 2883,
     "wikiDataId": "Q1620185"
   },
   {
@@ -696,11 +696,11 @@
     "country_code": "ES",
     "latitude": "42.76477000",
     "longitude": "-8.84926000",
-    "native": "Oler",
+    "native": "Lousame",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 3099,
+    "type": "municipality",
+    "population": 3056,
     "wikiDataId": "Q1450842"
   },
   {
@@ -715,8 +715,8 @@
     "native": "Malpica de Bergantiños",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5267,
+    "type": "municipality",
+    "population": 5232,
     "wikiDataId": "Q596761"
   },
   {
@@ -728,11 +728,11 @@
     "country_code": "ES",
     "latitude": "43.65372470",
     "longitude": "-7.73080700",
-    "native": "Mañana",
+    "native": "Mañón",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1223,
+    "type": "municipality",
+    "population": 1218,
     "wikiDataId": "Q613832"
   },
   {
@@ -744,11 +744,11 @@
     "country_code": "ES",
     "latitude": "42.94033000",
     "longitude": "-8.97187000",
-    "native": "Mazares",
+    "native": "Mazaricos",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5523,
+    "type": "municipality",
+    "population": 3721,
     "wikiDataId": "Q1442814"
   },
   {
@@ -765,7 +765,7 @@
     "translations": {},
     "type": "city",
     "population": 7734,
-    "wikiDataId": "Q424505"
+    "wikiDataId": null
   },
   {
     "id": 35410,
@@ -776,11 +776,11 @@
     "country_code": "ES",
     "latitude": "43.10000000",
     "longitude": "-8.26667000",
-    "native": "Mesías",
+    "native": "Mesia",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 3189,
+    "type": "municipality",
+    "population": 2367,
     "wikiDataId": "Q1606528"
   },
   {
@@ -792,12 +792,12 @@
     "country_code": "ES",
     "latitude": "43.35000000",
     "longitude": "-8.20000000",
-    "native": "Mínimo",
+    "native": "Miño",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5092,
-    "wikiDataId": "Q12442"
+    "type": "municipality",
+    "population": 7108,
+    "wikiDataId": "Q1616112"
   },
   {
     "id": 35465,
@@ -808,12 +808,12 @@
     "country_code": "ES",
     "latitude": "43.55000000",
     "longitude": "-8.01667000",
-    "native": "Moecha",
+    "native": "Moeche",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1200,
-    "wikiDataId": "Q1645207"
+    "type": "municipality",
+    "population": 1194,
+    "wikiDataId": "Q1442682"
   },
   {
     "id": 35512,
@@ -827,9 +827,9 @@
     "native": "Monfero",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2440,
-    "wikiDataId": "Q1652360"
+    "type": "municipality",
+    "population": 1816,
+    "wikiDataId": "Q1442860"
   },
   {
     "id": 35658,
@@ -840,12 +840,12 @@
     "country_code": "ES",
     "latitude": "43.46040000",
     "longitude": "-8.25507000",
-    "native": "Mugardo",
+    "native": "Mugardos",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5195,
-    "wikiDataId": "Q1768955"
+    "type": "municipality",
+    "population": 5203,
+    "wikiDataId": "Q1442847"
   },
   {
     "id": 35659,
@@ -856,12 +856,12 @@
     "country_code": "ES",
     "latitude": "43.10414000",
     "longitude": "-9.21791000",
-    "native": "con un poco de suerte",
+    "native": "Mugia",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4736,
-    "wikiDataId": "Q512940"
+    "type": "locality",
+    "population": 4326,
+    "wikiDataId": "Q24011658"
   },
   {
     "id": 35685,
@@ -872,12 +872,12 @@
     "country_code": "ES",
     "latitude": "42.77617000",
     "longitude": "-9.06032000",
-    "native": "Paredes",
+    "native": "Muros",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 8184,
-    "wikiDataId": "Q1636253"
+    "type": "municipality",
+    "population": 8173,
+    "wikiDataId": "Q578957"
   },
   {
     "id": 151046,
@@ -888,11 +888,11 @@
     "country_code": "ES",
     "latitude": "43.05475910",
     "longitude": "-9.21205930",
-    "native": "Muro",
+    "native": "Muxía",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4380,
+    "type": "municipality",
+    "population": 4326,
     "wikiDataId": "Q512940"
   },
   {
@@ -904,12 +904,12 @@
     "country_code": "ES",
     "latitude": "43.50175000",
     "longitude": "-8.19082000",
-    "native": "Nariz",
+    "native": "Narón",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 39285,
-    "wikiDataId": "Q1606774"
+    "type": "municipality",
+    "population": 39953,
+    "wikiDataId": "Q1368896"
   },
   {
     "id": 151047,
@@ -925,7 +925,7 @@
     "translations": {},
     "type": "city",
     "population": 4868,
-    "wikiDataId": "Q412204"
+    "wikiDataId": null
   },
   {
     "id": 35797,
@@ -939,8 +939,8 @@
     "native": "Negreira",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6961,
+    "type": "municipality",
+    "population": 6969,
     "wikiDataId": "Q840787"
   },
   {
@@ -952,11 +952,11 @@
     "country_code": "ES",
     "latitude": "42.78427570",
     "longitude": "-8.88828910",
-    "native": "Novedoso",
+    "native": "Noia",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 14123,
     "wikiDataId": "Q818601"
   },
   {
@@ -968,11 +968,11 @@
     "country_code": "ES",
     "latitude": "43.33333000",
     "longitude": "-8.31667000",
-    "native": "Alfombras",
+    "native": "Oleiros",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 38333,
+    "type": "municipality",
+    "population": 38793,
     "wikiDataId": "Q688611"
   },
   {
@@ -987,9 +987,9 @@
     "native": "Órdenes",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 13148,
-    "wikiDataId": "Q23982261"
+    "type": "municipality",
+    "population": 12990,
+    "wikiDataId": "Q1442661"
   },
   {
     "id": 35959,
@@ -1003,8 +1003,8 @@
     "native": "Oroso",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 7757,
+    "type": "municipality",
+    "population": 7776,
     "wikiDataId": "Q924131"
   },
   {
@@ -1016,11 +1016,11 @@
     "country_code": "ES",
     "latitude": "43.68316220",
     "longitude": "-7.85216530",
-    "native": "Ortiga",
+    "native": "Ortigueira",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5418,
+    "type": "municipality",
+    "population": 5384,
     "wikiDataId": "Q1375842"
   },
   {
@@ -1032,12 +1032,12 @@
     "country_code": "ES",
     "latitude": "42.86189000",
     "longitude": "-8.90181000",
-    "native": "Avena",
+    "native": "Outes",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 7902,
-    "wikiDataId": "Q1445352"
+    "type": "municipality",
+    "population": 5998,
+    "wikiDataId": "Q936870"
   },
   {
     "id": 151050,
@@ -1048,7 +1048,7 @@
     "country_code": "ES",
     "latitude": "43.21614160",
     "longitude": "-8.18801770",
-    "native": "Ríos oza dos",
+    "native": "Oza dos Ríos",
     "timezone": "Europe/Madrid",
     "translations": {},
     "type": "city",
@@ -1064,12 +1064,12 @@
     "country_code": "ES",
     "latitude": "43.28569570",
     "longitude": "-8.17625760",
-    "native": "Salvado",
+    "native": "Paderne",
     "timezone": "Europe/Madrid",
     "translations": {},
     "type": "city",
     "population": 2387,
-    "wikiDataId": "Q400990"
+    "wikiDataId": null
   },
   {
     "id": 35995,
@@ -1080,12 +1080,12 @@
     "country_code": "ES",
     "latitude": "42.73875000",
     "longitude": "-8.66057000",
-    "native": "Patrón",
+    "native": "Padrón",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 8256,
-    "wikiDataId": "Q1643720"
+    "type": "municipality",
+    "population": 8334,
+    "wikiDataId": "Q500494"
   },
   {
     "id": 151052,
@@ -1099,8 +1099,8 @@
     "native": "Pino O",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 4589,
     "wikiDataId": "Q841313"
   },
   {
@@ -1115,8 +1115,8 @@
     "native": "Pobra do Caramiñal a",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 9440,
+    "type": "municipality",
+    "population": 9126,
     "wikiDataId": "Q300525"
   },
   {
@@ -1131,8 +1131,8 @@
     "native": "Ponteceso",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 5318,
+    "type": "municipality",
+    "population": 5268,
     "wikiDataId": "Q1450823"
   },
   {
@@ -1147,25 +1147,9 @@
     "native": "Pontedeume",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 7456,
+    "type": "municipality",
+    "population": 7431,
     "wikiDataId": "Q765283"
-  },
-  {
-    "id": 151056,
-    "name": "Pontes de García Rodríguez As",
-    "state_id": 5089,
-    "state_code": "C",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "43.45265540",
-    "longitude": "-7.85236900",
-    "native": "Puentes de García Rodríguez como",
-    "timezone": "Europe/Madrid",
-    "translations": {},
-    "type": "city",
-    "population": 11431,
-    "wikiDataId": "Q1442761"
   },
   {
     "id": 36296,
@@ -1176,12 +1160,12 @@
     "country_code": "ES",
     "latitude": "42.72482000",
     "longitude": "-9.00527000",
-    "native": "HIJO",
+    "native": "Porto do Son",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 9064,
-    "wikiDataId": "Q1766511"
+    "type": "municipality",
+    "population": 9060,
+    "wikiDataId": "Q1450836"
   },
   {
     "id": 36603,
@@ -1195,25 +1179,9 @@
     "native": "Rianxo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 10748,
-    "wikiDataId": "Q970471"
-  },
-  {
-    "id": 36614,
-    "name": "Ribeira",
-    "state_id": 5089,
-    "state_code": "C",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "42.74611000",
-    "longitude": "-8.44392000",
-    "native": "Banco",
-    "timezone": "Europe/Madrid",
-    "translations": {},
-    "type": "city",
-    "population": 27111,
-    "wikiDataId": "Q1647102"
+    "type": "municipality",
+    "population": 10758,
+    "wikiDataId": "Q835911"
   },
   {
     "id": 151057,
@@ -1224,12 +1192,12 @@
     "country_code": "ES",
     "latitude": "42.76244700",
     "longitude": "-8.70734290",
-    "native": "Roce",
+    "native": "Rois",
     "timezone": "Europe/Madrid",
     "translations": {},
     "type": "city",
     "population": 0,
-    "wikiDataId": "Q2162504"
+    "wikiDataId": null
   },
   {
     "id": 36732,
@@ -1240,11 +1208,11 @@
     "country_code": "ES",
     "latitude": "43.35619000",
     "longitude": "-8.25796000",
-    "native": "Ahora",
+    "native": "Sada",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 14487,
+    "type": "municipality",
+    "population": 17421,
     "wikiDataId": "Q1616081"
   },
   {
@@ -1256,11 +1224,11 @@
     "country_code": "ES",
     "latitude": "43.53562710",
     "longitude": "-8.05742990",
-    "native": "San Santo",
+    "native": "San Sadurniño",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2733,
+    "type": "municipality",
+    "population": 2738,
     "wikiDataId": "Q1442511"
   },
   {
@@ -1275,9 +1243,9 @@
     "native": "Santa Comba",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 9319,
-    "wikiDataId": "Q141080"
+    "type": "municipality",
+    "population": 9442,
+    "wikiDataId": "Q1442500"
   },
   {
     "id": 37114,
@@ -1291,7 +1259,7 @@
     "native": "Santiago de Compostela",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 99536,
     "wikiDataId": "Q23992507"
   },
@@ -1307,8 +1275,8 @@
     "native": "Santiso",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 1430,
     "wikiDataId": "Q1442623"
   },
   {
@@ -1320,11 +1288,11 @@
     "country_code": "ES",
     "latitude": "43.03882000",
     "longitude": "-8.02784000",
-    "native": "Casa adosada",
+    "native": "Sobrado",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2327,
+    "type": "municipality",
+    "population": 1830,
     "wikiDataId": "Q644626"
   },
   {
@@ -1339,8 +1307,8 @@
     "native": "SoMozas como",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1042,
     "wikiDataId": "Q1442802"
   },
   {
@@ -1355,8 +1323,8 @@
     "native": "Teo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 19045,
+    "type": "municipality",
+    "population": 18968,
     "wikiDataId": "Q1635642"
   },
   {
@@ -1371,9 +1339,9 @@
     "native": "Toques",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1070,
-    "wikiDataId": "Q1217570"
+    "wikiDataId": "Q517889"
   },
   {
     "id": 151061,
@@ -1384,11 +1352,11 @@
     "country_code": "ES",
     "latitude": "43.10305410",
     "longitude": "-8.59408140",
-    "native": "Torado",
+    "native": "Tordoia",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 3181,
+    "type": "municipality",
+    "population": 3152,
     "wikiDataId": "Q837056"
   },
   {
@@ -1403,8 +1371,8 @@
     "native": "Touro",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4574,
+    "type": "municipality",
+    "population": 3342,
     "wikiDataId": "Q904203"
   },
   {
@@ -1416,11 +1384,11 @@
     "country_code": "ES",
     "latitude": "43.01667000",
     "longitude": "-8.53333000",
-    "native": "Web",
+    "native": "Trazo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 2979,
+    "type": "municipality",
+    "population": 2986,
     "wikiDataId": "Q1616102"
   },
   {
@@ -1435,8 +1403,8 @@
     "native": "Val do Dubra",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 3734,
+    "type": "municipality",
+    "population": 3680,
     "wikiDataId": "Q1450828"
   },
   {
@@ -1448,12 +1416,12 @@
     "country_code": "ES",
     "latitude": "43.60000000",
     "longitude": "-8.13333000",
-    "native": "Valle",
+    "native": "Valdoviño",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 6857,
-    "wikiDataId": "Q1643797"
+    "type": "municipality",
+    "population": 6818,
+    "wikiDataId": "Q969030"
   },
   {
     "id": 37902,
@@ -1467,8 +1435,8 @@
     "native": "Vedra",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 4942,
+    "type": "municipality",
+    "population": 4903,
     "wikiDataId": "Q1616092"
   },
   {
@@ -1480,11 +1448,11 @@
     "country_code": "ES",
     "latitude": "43.34663830",
     "longitude": "-8.14555350",
-    "native": "Vilarma",
+    "native": "Vilarmaior",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1252,
+    "type": "municipality",
+    "population": 1242,
     "wikiDataId": "Q974227"
   },
   {
@@ -1496,11 +1464,11 @@
     "country_code": "ES",
     "latitude": "43.07106000",
     "longitude": "-8.12163000",
-    "native": "Vilia",
+    "native": "Vilasantar",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 1546,
+    "type": "municipality",
+    "population": 1233,
     "wikiDataId": "Q340094"
   },
   {
@@ -1512,11 +1480,11 @@
     "country_code": "ES",
     "latitude": "43.10988000",
     "longitude": "-9.03351000",
-    "native": "Vimiollo",
+    "native": "Vimianzo",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 6768,
     "wikiDataId": "Q1616162"
   },
   {
@@ -1528,11 +1496,11 @@
     "country_code": "ES",
     "latitude": "43.09885000",
     "longitude": "-8.91558000",
-    "native": "De nuevo",
+    "native": "Zas",
     "timezone": "Europe/Madrid",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 4199,
     "wikiDataId": "Q148174"
   }
 ]

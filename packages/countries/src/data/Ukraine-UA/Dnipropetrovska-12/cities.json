@@ -24,10 +24,10 @@
     "country_code": "UA",
     "latitude": "48.56660000",
     "longitude": "34.46111000",
-    "native": "Аулі",
+    "native": "Аули",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4127,
     "wikiDataId": "Q2858004"
   },
@@ -43,7 +43,7 @@
     "native": "Авіаторське",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2438,
     "wikiDataId": "Q2874307"
   },
@@ -59,7 +59,7 @@
     "native": "Червоногригорівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6348,
     "wikiDataId": "Q3516605"
   },
@@ -75,7 +75,7 @@
     "native": "Чортомлик",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1345,
     "wikiDataId": "Q3516629"
   },
@@ -91,7 +91,7 @@
     "native": "Дніпро",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 968502,
     "wikiDataId": "Q48256"
   },
@@ -139,7 +139,7 @@
     "native": "Губиниха",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5509,
     "wikiDataId": "Q1989574"
   },
@@ -155,13 +155,13 @@
     "native": "Гупалівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1347,
     "wikiDataId": "Q4152213"
   },
   {
     "id": 109710,
-    "name": "Kamianske",
+    "name": "Kamyanske",
     "state_id": 4675,
     "state_code": "12",
     "country_id": 230,
@@ -171,25 +171,9 @@
     "native": "Кам'янське",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q156719"
-  },
-  {
-    "id": 109721,
-    "name": "Kaydaki",
-    "state_id": 4675,
-    "state_code": "12",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "48.37678000",
-    "longitude": "35.12398000",
-    "native": "Кайдакі",
-    "timezone": "Europe/Kyiv",
-    "translations": {},
-    "type": "city",
-    "population": 1619,
-    "wikiDataId": "Q4440923"
   },
   {
     "id": 109872,
@@ -203,7 +187,7 @@
     "native": "Кринички",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4176,
     "wikiDataId": "Q572142"
   },
@@ -235,9 +219,25 @@
     "native": "Кривий Ріг",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 603904,
     "wikiDataId": "Q157137"
+  },
+  {
+    "id": 109934,
+    "name": "Lozuvatka",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "48.05710000",
+    "longitude": "33.28581000",
+    "native": "Лозуватка",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "village",
+    "population": 6730,
+    "wikiDataId": "Q4265521"
   },
   {
     "id": 109949,
@@ -251,7 +251,7 @@
     "native": "Лихівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1992,
     "wikiDataId": "Q378504"
   },
@@ -267,7 +267,7 @@
     "native": "Магдалинівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6335,
     "wikiDataId": "Q1011449"
   },
@@ -331,7 +331,7 @@
     "native": "Межова",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7380,
     "wikiDataId": "Q111669"
   },
@@ -347,7 +347,7 @@
     "native": "Нікополь",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 105160,
     "wikiDataId": "Q156760"
   },
@@ -395,7 +395,7 @@
     "native": "Новомиколаївка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4006,
     "wikiDataId": "Q3345536"
   },
@@ -411,25 +411,9 @@
     "native": "Новопокровка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1807,
     "wikiDataId": "Q3345538"
-  },
-  {
-    "id": 110200,
-    "name": "Ordzhonikidze",
-    "state_id": 4675,
-    "state_code": "12",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "47.66763000",
-    "longitude": "34.05957000",
-    "native": "Орджонікідзе",
-    "timezone": "Europe/Kyiv",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q639476"
   },
   {
     "id": 110226,
@@ -459,7 +443,7 @@
     "native": "Павлоград",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 101430,
     "wikiDataId": "Q237206"
   },
@@ -475,7 +459,7 @@
     "native": "Петропавлівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7032,
     "wikiDataId": "Q1002960"
   },
@@ -491,7 +475,7 @@
     "native": "Петриківка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4572,
     "wikiDataId": "Q980784"
   },
@@ -544,6 +528,38 @@
     "wikiDataId": "Q639442"
   },
   {
+    "id": 110200,
+    "name": "Pokrov",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "47.66763000",
+    "longitude": "34.05957000",
+    "native": "Покров",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q639476"
+  },
+  {
+    "id": 165626,
+    "name": "Shakhtarske",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "48.34790000",
+    "longitude": "36.39637000",
+    "native": "Першотравенськ",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": 27573,
+    "wikiDataId": "Q604607"
+  },
+  {
     "id": 110449,
     "name": "Sholokhove",
     "state_id": 4675,
@@ -555,7 +571,7 @@
     "native": "Шолохове",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3230,
     "wikiDataId": "Q4526033"
   },
@@ -571,7 +587,7 @@
     "native": "Широке",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10202,
     "wikiDataId": "Q1001092"
   },
@@ -592,6 +608,22 @@
     "wikiDataId": "Q2639710"
   },
   {
+    "id": 149498,
+    "name": "Smolovivshchina",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.06810000",
+    "longitude": "34.43803000",
+    "native": "Смоловівщина",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": 0,
+    "wikiDataId": "Q108896852"
+  },
+  {
     "id": 110498,
     "name": "Sofiyivka",
     "state_id": 4675,
@@ -603,7 +635,7 @@
     "native": "Софіївка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6748,
     "wikiDataId": "Q82307"
   },
@@ -619,7 +651,7 @@
     "native": "Солоне",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7628,
     "wikiDataId": "Q1001064"
   },
@@ -651,9 +683,25 @@
     "native": "Спаське",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4430953"
+  },
+  {
+    "id": 109721,
+    "name": "Stari Kodaky",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "48.37678000",
+    "longitude": "35.12398000",
+    "native": "Старі Кодаки",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "village",
+    "population": 1619,
+    "wikiDataId": "Q4440923"
   },
   {
     "id": 110564,
@@ -667,7 +715,7 @@
     "native": "Сурсько-Михайлівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2552,
     "wikiDataId": "Q4446633"
   },
@@ -683,9 +731,25 @@
     "native": "Синельникове",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q640798"
+  },
+  {
+    "id": 165628,
+    "name": "Ternivka",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "48.52656000",
+    "longitude": "36.07051000",
+    "native": "Тернівка",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": 26961,
+    "wikiDataId": "Q574421"
   },
   {
     "id": 110613,
@@ -699,7 +763,7 @@
     "native": "Томаківка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6957,
     "wikiDataId": "Q283547"
   },
@@ -715,7 +779,7 @@
     "native": "Царичанка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7415,
     "wikiDataId": "Q148126"
   },
@@ -768,6 +832,22 @@
     "wikiDataId": "Q3407833"
   },
   {
+    "id": 165629,
+    "name": "Vilnohirsk",
+    "state_id": 4675,
+    "state_code": "12",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "48.48416000",
+    "longitude": "34.01708000",
+    "native": "Вільногірськ",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": 22079,
+    "wikiDataId": "Q577225"
+  },
+  {
     "id": 110761,
     "name": "Vyshchetarasivka",
     "state_id": 4675,
@@ -779,7 +859,7 @@
     "native": "Вищетарасівка",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3651,
     "wikiDataId": "Q4129782"
   },
@@ -795,7 +875,7 @@
     "native": "Вишневе",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2347,
     "wikiDataId": "Q989854"
   },

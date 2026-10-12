@@ -1,19 +1,19 @@
 [
   {
     "id": 105383,
-    "name": "Kham Khuan Kaeo",
+    "name": "Kham Khuean Kaeo",
     "state_id": 3521,
     "state_code": "35",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.67197000",
-    "longitude": "104.33372000",
-    "native": "อำเภอคำควนแก้ว",
+    "latitude": "15.65317527",
+    "longitude": "104.30828595",
+    "native": "คำเขื่อนแก้ว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475626"
+    "wikiDataId": "Q108131641"
   },
   {
     "id": 105414,
@@ -22,14 +22,14 @@
     "state_code": "35",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.38164000",
-    "longitude": "104.34109000",
-    "native": "อำเภอคอวัง",
+    "latitude": "15.36500000",
+    "longitude": "104.35630000",
+    "native": "ค้อวัง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475720"
+    "wikiDataId": "Q108764647"
   },
   {
     "id": 105465,
@@ -48,22 +48,6 @@
     "wikiDataId": "Q475853"
   },
   {
-    "id": 105491,
-    "name": "Loeng Nok Tha",
-    "state_id": 3521,
-    "state_code": "35",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.20433000",
-    "longitude": "104.51442000",
-    "native": "อำเภอเลิงนกทา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475908"
-  },
-  {
     "id": 105520,
     "name": "Maha Chana Chai",
     "state_id": 3521,
@@ -78,22 +62,6 @@
     "type": "district",
     "population": null,
     "wikiDataId": "Q475982"
-  },
-  {
-    "id": 105606,
-    "name": "Mueang Yasothon",
-    "state_id": 3521,
-    "state_code": "35",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "15.85550000",
-    "longitude": "104.17804000",
-    "native": "อำเภอเมืองยโสธร",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476116"
   },
   {
     "id": 105698,
@@ -118,14 +86,30 @@
     "state_code": "35",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.97917000",
-    "longitude": "104.19070000",
-    "native": "อำเภอทรายมูล",
+    "latitude": "15.94770000",
+    "longitude": "104.21010000",
+    "native": "ทรายมูล",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476580"
+    "wikiDataId": "Q108764778"
+  },
+  {
+    "id": 105491,
+    "name": "Sam Yaek",
+    "state_id": 3521,
+    "state_code": "35",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "16.19910000",
+    "longitude": "104.53070000",
+    "native": "สามแยก",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q108764529"
   },
   {
     "id": 106293,
@@ -155,7 +139,7 @@
     "native": "ยโสธร",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 20414,
     "wikiDataId": "Q1017730"
   }

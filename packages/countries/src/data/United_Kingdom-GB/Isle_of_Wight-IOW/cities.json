@@ -1,5 +1,21 @@
 [
   {
+    "id": 48469,
+    "name": "Bembridge",
+    "state_id": 2289,
+    "state_code": "IOW",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "50.68634000",
+    "longitude": "-1.08275000",
+    "native": "Bembridge",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 3560,
+    "wikiDataId": "Q2624470"
+  },
+  {
     "id": 48649,
     "name": "Brading",
     "state_id": 2289,
@@ -11,7 +27,7 @@
     "native": "Brading",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2172,
     "wikiDataId": "Q738184"
   },
@@ -27,7 +43,7 @@
     "native": "Brighstone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1157,
     "wikiDataId": "Q2356881"
   },
@@ -43,7 +59,7 @@
     "native": "Cowes",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 21226,
     "wikiDataId": "Q587996"
   },
@@ -59,7 +75,7 @@
     "native": "East Cowes",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6166,
     "wikiDataId": "Q2987335"
   },
@@ -75,7 +91,7 @@
     "native": "Freshwater",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 7829,
     "wikiDataId": "Q2428909"
   },
@@ -91,57 +107,9 @@
     "native": "Godshill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1459,
     "wikiDataId": "Q2034581"
-  },
-  {
-    "id": 50082,
-    "name": "Isle of Wight",
-    "state_id": 2289,
-    "state_code": "IOW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "50.66667000",
-    "longitude": "-1.33333000",
-    "native": "Isle of Wight",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q9679"
-  },
-  {
-    "id": 50447,
-    "name": "Lymington",
-    "state_id": 2289,
-    "state_code": "IOW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "50.75767000",
-    "longitude": "-1.54430000",
-    "native": "Lymington",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 16446,
-    "wikiDataId": "Q1018133"
-  },
-  {
-    "id": 50583,
-    "name": "Milford on Sea",
-    "state_id": 2289,
-    "state_code": "IOW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "50.72561000",
-    "longitude": "-1.59004000",
-    "native": "Milford on Sea",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4348,
-    "wikiDataId": "Q3857874"
   },
   {
     "id": 50711,
@@ -152,10 +120,10 @@
     "country_code": "GB",
     "latitude": "50.66744000",
     "longitude": "-1.20828000",
-    "native": "Taunt",
+    "native": "Newchurch",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 380,
     "wikiDataId": "Q2097347"
   },
@@ -192,6 +160,22 @@
     "wikiDataId": "Q7041346"
   },
   {
+    "id": 51152,
+    "name": "Ryde",
+    "state_id": 2289,
+    "state_code": "IOW",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "50.72999000",
+    "longitude": "-1.16210000",
+    "native": "Ryde",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 24100,
+    "wikiDataId": "Q776556"
+  },
+  {
     "id": 51194,
     "name": "Sandown",
     "state_id": 2289,
@@ -203,9 +187,25 @@
     "native": "Sandown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20155,
     "wikiDataId": "Q516605"
+  },
+  {
+    "id": 51227,
+    "name": "Seaview",
+    "state_id": 2289,
+    "state_code": "IOW",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "50.71956000",
+    "longitude": "-1.11164000",
+    "native": "Seaview",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 2337,
+    "wikiDataId": "Q7442238"
   },
   {
     "id": 51246,
@@ -219,7 +219,7 @@
     "native": "Shalfleet",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 605,
     "wikiDataId": "Q2801374"
   },
@@ -235,9 +235,25 @@
     "native": "Shanklin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9120,
     "wikiDataId": "Q588146"
+  },
+  {
+    "id": 51404,
+    "name": "St. Helens",
+    "state_id": 2289,
+    "state_code": "IOW",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "50.69688000",
+    "longitude": "-1.11159000",
+    "native": "St. Helens",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1213,
+    "wikiDataId": "Q1860807"
   },
   {
     "id": 51715,
@@ -251,7 +267,7 @@
     "native": "Ventnor",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5565,
     "wikiDataId": "Q1026673"
   },
@@ -267,7 +283,7 @@
     "native": "Yarmouth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 912,
     "wikiDataId": "Q921984"
   }

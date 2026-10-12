@@ -8,10 +8,10 @@
     "country_code": "GB",
     "latitude": "51.72981000",
     "longitude": "-3.13432000",
-    "native": "Sacrifice",
+    "native": "Abertillery",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 10925,
     "wikiDataId": "Q2272537"
   },
@@ -32,22 +32,6 @@
     "wikiDataId": "Q596885"
   },
   {
-    "id": 48557,
-    "name": "Blaenavon",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.77402000",
-    "longitude": "-3.08537000",
-    "native": "Front",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 5647,
-    "wikiDataId": "Q804282"
-  },
-  {
     "id": 48740,
     "name": "Brynmawr",
     "state_id": 2530,
@@ -59,25 +43,9 @@
     "native": "Brynmawr",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 14924,
     "wikiDataId": "Q1980175"
-  },
-  {
-    "id": 49158,
-    "name": "Crickhowell",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.85992000",
-    "longitude": "-3.13771000",
-    "native": "Crickhowell",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2116,
-    "wikiDataId": "Q2536016"
   },
   {
     "id": 49215,
@@ -91,9 +59,9 @@
     "native": "Cwm",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2739,
-    "wikiDataId": "Q2961323"
+    "wikiDataId": null
   },
   {
     "id": 49431,
@@ -107,89 +75,9 @@
     "native": "Ebbw Vale",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 33068,
     "wikiDataId": "Q2297559"
-  },
-  {
-    "id": 49644,
-    "name": "Gilwern",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.82475000",
-    "longitude": "-3.09355000",
-    "native": "Cilwern",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2263,
-    "wikiDataId": "Q5562649"
-  },
-  {
-    "id": 49693,
-    "name": "Govilon",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.81928000",
-    "longitude": "-3.06295000",
-    "native": "Govilon",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1447,
-    "wikiDataId": "Q5589826"
-  },
-  {
-    "id": 50361,
-    "name": "Llangynidr",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.86730000",
-    "longitude": "-3.22762000",
-    "native": "Llangynidr",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1035,
-    "wikiDataId": "Q6661562"
-  },
-  {
-    "id": 50697,
-    "name": "New Tredegar",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.72051000",
-    "longitude": "-3.24130000",
-    "native": "New Tredegar",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4650,
-    "wikiDataId": "Q3402398"
-  },
-  {
-    "id": 51550,
-    "name": "Talgarth",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.99588000",
-    "longitude": "-3.23205000",
-    "native": "Tall",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1268,
-    "wikiDataId": "Q631340"
   },
   {
     "id": 51661,
@@ -203,7 +91,7 @@
     "native": "Tredegar",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14740,
     "wikiDataId": "Q1529978"
   },
@@ -221,6 +109,6 @@
     "translations": {},
     "type": "locality",
     "population": 9153,
-    "wikiDataId": "Q1242850"
+    "wikiDataId": null
   }
 ]

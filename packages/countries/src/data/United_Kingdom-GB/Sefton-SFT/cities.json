@@ -16,22 +16,6 @@
     "wikiDataId": "Q893159"
   },
   {
-    "id": 48785,
-    "name": "Burscough",
-    "state_id": 2518,
-    "state_code": "SFT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.59640000",
-    "longitude": "-2.83972000",
-    "native": "Burscough",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 9935,
-    "wikiDataId": "Q2390371"
-  },
-  {
     "id": 49171,
     "name": "Crosby",
     "state_id": 2518,
@@ -59,7 +43,7 @@
     "native": "Formby",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 22119,
     "wikiDataId": "Q2569221"
   },
@@ -72,12 +56,12 @@
     "country_code": "GB",
     "latitude": "53.52452000",
     "longitude": "-3.06192000",
-    "native": "Obite",
+    "native": "Hightown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2020,
-    "wikiDataId": "Q2104775"
+    "wikiDataId": "Q5759735"
   },
   {
     "id": 50046,
@@ -91,9 +75,9 @@
     "native": "Ince Blundell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 461,
-    "wikiDataId": "Q1013574"
+    "wikiDataId": "Q2119406"
   },
   {
     "id": 50322,
@@ -107,7 +91,7 @@
     "native": "Litherland",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 22971,
     "wikiDataId": "Q6647845"
   },
@@ -123,41 +107,9 @@
     "native": "Maghull",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 26997,
     "wikiDataId": "Q1951431"
-  },
-  {
-    "id": 50817,
-    "name": "Ormskirk",
-    "state_id": 2518,
-    "state_code": "SFT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.56685000",
-    "longitude": "-2.88178000",
-    "native": "Ormskirk",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 24073,
-    "wikiDataId": "Q1020958"
-  },
-  {
-    "id": 51232,
-    "name": "Sefton",
-    "state_id": 2518,
-    "state_code": "SFT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.50000000",
-    "longitude": "-3.00000000",
-    "native": "Sefton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 1020,
-    "wikiDataId": "Q1546645"
   },
   {
     "id": 51378,
@@ -171,7 +123,7 @@
     "native": "Southport",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 91703,
     "wikiDataId": "Q868647"
   },
@@ -189,6 +141,6 @@
     "translations": {},
     "type": "section",
     "population": 1001,
-    "wikiDataId": "Q5376100"
+    "wikiDataId": null
   }
 ]

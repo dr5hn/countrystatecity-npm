@@ -1,37 +1,5 @@
 [
   {
-    "id": 105252,
-    "name": "Amphoe Bo Phloi",
-    "state_id": 3511,
-    "state_code": "71",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.38723000",
-    "longitude": "99.44990000",
-    "native": "อำเภอบ่อพลอย",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475278"
-  },
-  {
-    "id": 105730,
-    "name": "Amphoe Phanom Thuan",
-    "state_id": 3511,
-    "state_code": "71",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.15941000",
-    "longitude": "99.66904000",
-    "native": "อำเภอพนมทวน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476381"
-  },
-  {
     "id": 106188,
     "name": "Amphoe Sangkhla Buri",
     "state_id": 3511,
@@ -46,22 +14,6 @@
     "type": "district",
     "population": null,
     "wikiDataId": "Q476635"
-  },
-  {
-    "id": 106278,
-    "name": "Amphoe Tha Maka",
-    "state_id": 3511,
-    "state_code": "71",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.94665000",
-    "longitude": "99.77900000",
-    "native": "อำเภอท่ามะกา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476837"
   },
   {
     "id": 106279,
@@ -91,8 +43,8 @@
     "native": "บ่อพลอย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 16786,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28735553"
   },
   {
@@ -118,14 +70,14 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.34056000",
-    "longitude": "99.67633000",
-    "native": "อำเภอห้วยกระเจา",
+    "latitude": "14.32750000",
+    "longitude": "99.66767000",
+    "native": "ห้วยกระเจา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475538"
+    "wikiDataId": null
   },
   {
     "id": 106510,
@@ -139,7 +91,7 @@
     "native": "กาญจนบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 63699,
     "wikiDataId": "Q239121"
   },
@@ -150,30 +102,14 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.59488000",
-    "longitude": "99.68338000",
-    "native": "อำเภอเลาขวัญ",
+    "latitude": "14.59522000",
+    "longitude": "99.77431000",
+    "native": "เลาขวัญ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475895"
-  },
-  {
-    "id": 105544,
-    "name": "Mueang Kanchanaburi",
-    "state_id": 3511,
-    "state_code": "71",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.06987000",
-    "longitude": "99.32769000",
-    "native": "อำเภอเมืองกาญจนบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476021"
+    "wikiDataId": null
   },
   {
     "id": 105677,
@@ -182,14 +118,14 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.67801000",
-    "longitude": "99.41075000",
-    "native": "อำเภอหนองปรือ",
+    "latitude": "14.60784000",
+    "longitude": "99.45783000",
+    "native": "หนองปรือ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476273"
+    "wikiDataId": null
   },
   {
     "id": 106624,
@@ -198,13 +134,13 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.13031000",
-    "longitude": "99.69858000",
+    "latitude": "14.13150000",
+    "longitude": "99.70290000",
     "native": "พนมทวน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 12469,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28735558"
   },
   {
@@ -214,14 +150,14 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.25652000",
-    "longitude": "98.93372000",
-    "native": "อำเภอไทรโยค",
+    "latitude": "14.11899000",
+    "longitude": "99.14200000",
+    "native": "ไทรโยค",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476592"
+    "wikiDataId": null
   },
   {
     "id": 106685,
@@ -237,7 +173,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10000,
-    "wikiDataId": "Q28721656"
+    "wikiDataId": null
   },
   {
     "id": 106225,
@@ -262,13 +198,13 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.90000000",
-    "longitude": "99.76667000",
+    "latitude": "13.92027778",
+    "longitude": "99.76666667",
     "native": "ท่ามะกา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
-    "population": 52907,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q12005687"
   },
   {
@@ -278,13 +214,13 @@
     "state_code": "71",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.96118000",
-    "longitude": "99.64122000",
+    "latitude": "13.96111111",
+    "longitude": "99.64111111",
     "native": "ท่าม่วง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 26746,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28735554"
   },
   {

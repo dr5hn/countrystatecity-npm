@@ -1,37 +1,5 @@
 [
   {
-    "id": 48909,
-    "name": "Chalfont Saint Peter",
-    "state_id": 2376,
-    "state_code": "HIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.60885000",
-    "longitude": "-0.55618000",
-    "native": "Chalfont Saint Peter",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 20059,
-    "wikiDataId": "Q2006494"
-  },
-  {
-    "id": 49262,
-    "name": "Denham",
-    "state_id": 2376,
-    "state_code": "HIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.56667000",
-    "longitude": "-0.50000000",
-    "native": "Denham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1432,
-    "wikiDataId": "Q988761"
-  },
-  {
     "id": 49806,
     "name": "Harefield",
     "state_id": 2376,
@@ -64,22 +32,6 @@
     "wikiDataId": "Q678138"
   },
   {
-    "id": 50087,
-    "name": "Iver",
-    "state_id": 2376,
-    "state_code": "HIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.50000000",
-    "longitude": "-0.50000000",
-    "native": "Iver",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7492,
-    "wikiDataId": "Q2074422"
-  },
-  {
     "id": 50088,
     "name": "Iver Heath",
     "state_id": 2376,
@@ -93,39 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 8065,
-    "wikiDataId": "Q2074422"
-  },
-  {
-    "id": 50324,
-    "name": "Little Chalfont",
-    "state_id": 2376,
-    "state_code": "HIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.66829000",
-    "longitude": "-0.57038000",
-    "native": "Little Chalfont",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4497,
-    "wikiDataId": "Q3915288"
-  },
-  {
-    "id": 50489,
-    "name": "Maple Cross",
-    "state_id": 2376,
-    "state_code": "HIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.62500000",
-    "longitude": "-0.50800000",
-    "native": "Maple Cross",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2600,
-    "wikiDataId": "Q19940"
+    "wikiDataId": null
   },
   {
     "id": 51143,
@@ -144,6 +64,22 @@
     "wikiDataId": "Q2379971"
   },
   {
+    "id": 163986,
+    "name": "Uxbridge",
+    "state_id": 2376,
+    "state_code": "HIL",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.54850000",
+    "longitude": "-0.47960000",
+    "native": "Uxbridge",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q214642"
+  },
+  {
     "id": 51814,
     "name": "West Drayton",
     "state_id": 2376,
@@ -157,6 +93,6 @@
     "translations": {},
     "type": "city",
     "population": 12156,
-    "wikiDataId": "Q7984873"
+    "wikiDataId": null
   }
 ]

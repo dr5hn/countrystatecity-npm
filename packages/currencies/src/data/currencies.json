@@ -60,19 +60,6 @@
     ]
   },
   {
-    "code": "ANG",
-    "name": "Netherlands Antillean guilder",
-    "namePlural": "Netherlands Antillean guilders",
-    "symbol": "ƒ",
-    "symbolNative": "NAf.",
-    "decimalDigits": 2,
-    "rounding": 0,
-    "countries": [
-      "CW",
-      "SX"
-    ]
-  },
-  {
     "code": "AOA",
     "name": "Angolan kwanza",
     "namePlural": "Angolan kwanzas",
@@ -328,8 +315,7 @@
     "decimalDigits": 2,
     "rounding": 0,
     "countries": [
-      "CD",
-      "CG"
+      "CD"
     ]
   },
   {
@@ -1512,7 +1498,7 @@
     ]
   },
   {
-    "code": "SLL",
+    "code": "SLE",
     "name": "Sierra Leonean leone",
     "namePlural": "Sierra Leonean leone",
     "symbol": "Le",
@@ -1837,6 +1823,7 @@
     "rounding": 0,
     "countries": [
       "CF",
+      "CG",
       "CM",
       "GA",
       "GQ",
@@ -1860,6 +1847,19 @@
       "LC",
       "MS",
       "VC"
+    ]
+  },
+  {
+    "code": "XCG",
+    "name": "Caribbean guilder",
+    "namePlural": "Caribbean guilder",
+    "symbol": "Cg",
+    "symbolNative": "Cg",
+    "decimalDigits": 2,
+    "rounding": 0,
+    "countries": [
+      "CW",
+      "SX"
     ]
   },
   {
@@ -1932,11 +1932,11 @@
     ]
   },
   {
-    "code": "ZWL",
-    "name": "Zimbabwe Dollar",
-    "namePlural": "Zimbabwean dollars",
-    "symbol": "$",
-    "symbolNative": "$",
+    "code": "ZWG",
+    "name": "Zimbabwe Gold",
+    "namePlural": "Zimbabwe Gold",
+    "symbol": "ZiG",
+    "symbolNative": "ZiG",
     "decimalDigits": 2,
     "rounding": 0,
     "countries": [

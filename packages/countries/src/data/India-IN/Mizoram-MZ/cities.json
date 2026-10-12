@@ -6,8 +6,8 @@
     "state_code": "MZ",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "23.80000000",
-    "longitude": "92.90000000",
+    "latitude": "23.72894000",
+    "longitude": "92.71791000",
     "native": "आइजोल",
     "timezone": "Asia/Kolkata",
     "translations": {},
@@ -27,7 +27,7 @@
     "native": "चम्फाई",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 125745,
     "wikiDataId": "Q1965256"
   },
@@ -62,6 +62,22 @@
     "type": "city",
     "population": 2537,
     "wikiDataId": "Q2119988"
+  },
+  {
+    "id": 165078,
+    "name": "Khawzawl",
+    "state_id": 4036,
+    "state_code": "MZ",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "23.51771000",
+    "longitude": "93.18886000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": 11022,
+    "wikiDataId": "Q2238867"
   },
   {
     "id": 132554,

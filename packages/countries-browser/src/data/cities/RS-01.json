@@ -11,25 +11,9 @@
     "native": "Бачка Топола",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 16154,
     "wikiDataId": "Q2661603"
-  },
-  {
-    "id": 97259,
-    "name": "Krivaja",
-    "state_id": 3714,
-    "state_code": "01",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "44.55021000",
-    "longitude": "19.59153000",
-    "native": "Криваја",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "locality",
-    "population": 1296,
-    "wikiDataId": "Q2736657"
   },
   {
     "id": 155063,
@@ -43,7 +27,7 @@
     "native": "Мали Иђош",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 12770,
     "wikiDataId": "Q1811772"
   },
@@ -59,8 +43,8 @@
     "native": "Суботица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 105681,
-    "wikiDataId": "Q170287"
+    "wikiDataId": "Q1041949"
   }
 ]

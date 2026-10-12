@@ -11,9 +11,9 @@
     "native": "Aldeia Nova de São Bento",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q850697"
+    "wikiDataId": "Q132183464"
   },
   {
     "id": 88944,
@@ -27,9 +27,9 @@
     "native": "Aljustrel",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5334,
-    "wikiDataId": "Q31879046"
+    "wikiDataId": "Q939511"
   },
   {
     "id": 88949,
@@ -43,8 +43,8 @@
     "native": "Almodôvar",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 7449,
+    "type": "municipality",
+    "population": 6712,
     "wikiDataId": "Q936943"
   },
   {
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 1356,
-    "wikiDataId": "Q936943"
+    "wikiDataId": null
   },
   {
     "id": 88957,
@@ -75,8 +75,8 @@
     "native": "Alvito",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 1196,
+    "type": "municipality",
+    "population": 2280,
     "wikiDataId": "Q449526"
   },
   {
@@ -88,11 +88,11 @@
     "country_code": "PT",
     "latitude": "38.13446000",
     "longitude": "-6.97604000",
-    "native": "Ravinas",
+    "native": "Barrancos",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 1438,
     "wikiDataId": "Q368867"
   },
   {
@@ -107,9 +107,9 @@
     "native": "Beja",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 35854,
-    "wikiDataId": "Q3344424"
+    "wikiDataId": "Q213251"
   },
   {
     "id": 89036,
@@ -120,10 +120,10 @@
     "country_code": "PT",
     "latitude": "38.05656000",
     "longitude": "-7.98427000",
-    "native": "Bingel",
+    "native": "Beringel",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1188,
     "wikiDataId": "Q820659"
   },
@@ -139,9 +139,9 @@
     "native": "Boavista dos Pinheiros",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1975,
-    "wikiDataId": "Q616959"
+    "wikiDataId": null
   },
   {
     "id": 89056,
@@ -155,9 +155,9 @@
     "native": "Cabeça Gorda",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1125,
-    "wikiDataId": "Q551048"
+    "wikiDataId": null
   },
   {
     "id": 89111,
@@ -171,8 +171,8 @@
     "native": "Castro Verde",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 4857,
+    "type": "municipality",
+    "population": 6873,
     "wikiDataId": "Q551696"
   },
   {
@@ -187,9 +187,25 @@
     "native": "Cuba",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 4878,
+    "type": "municipality",
+    "population": 4373,
     "wikiDataId": "Q552580"
+  },
+  {
+    "id": 166297,
+    "name": "Ferreira do Alentejo",
+    "state_id": 2230,
+    "state_code": "02",
+    "country_id": 177,
+    "country_code": "PT",
+    "latitude": "38.05888889",
+    "longitude": "-8.11555556",
+    "native": "Ferreira do Alentejo",
+    "timezone": "Europe/Lisbon",
+    "translations": {},
+    "type": "municipality",
+    "population": 7684,
+    "wikiDataId": "Q552015"
   },
   {
     "id": 89176,
@@ -219,8 +235,8 @@
     "native": "Mértola",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 3093,
+    "type": "municipality",
+    "population": 6206,
     "wikiDataId": "Q551056"
   },
   {
@@ -235,7 +251,7 @@
     "native": "Minas de São Domingos",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2500,
     "wikiDataId": "Q1518830"
   },
@@ -251,8 +267,8 @@
     "native": "Moura",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 9360,
+    "type": "municipality",
+    "population": 13258,
     "wikiDataId": "Q551662"
   },
   {
@@ -269,7 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 1747,
-    "wikiDataId": "Q687790"
+    "wikiDataId": null
   },
   {
     "id": 89352,
@@ -283,9 +299,9 @@
     "native": "Odemira",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5830,
-    "wikiDataId": "Q49358759"
+    "wikiDataId": "Q551669"
   },
   {
     "id": 89372,
@@ -299,8 +315,8 @@
     "native": "Ourique",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 4840,
+    "type": "municipality",
+    "population": 4839,
     "wikiDataId": "Q519052"
   },
   {
@@ -315,9 +331,9 @@
     "native": "Penedo Gordo",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1167,
-    "wikiDataId": "Q995183"
+    "wikiDataId": null
   },
   {
     "id": 89485,
@@ -333,7 +349,7 @@
     "translations": {},
     "type": "city",
     "population": 1352,
-    "wikiDataId": "Q49366795"
+    "wikiDataId": null
   },
   {
     "id": 89572,
@@ -349,7 +365,7 @@
     "translations": {},
     "type": "city",
     "population": 1006,
-    "wikiDataId": "Q2119166"
+    "wikiDataId": null
   },
   {
     "id": 89590,
@@ -363,7 +379,7 @@
     "native": "São Teotónio",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4936,
     "wikiDataId": "Q33503252"
   },
@@ -379,8 +395,8 @@
     "native": "Serpa",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 15623,
+    "type": "municipality",
+    "population": 13757,
     "wikiDataId": "Q550963"
   },
   {
@@ -395,8 +411,8 @@
     "native": "Vidigueira",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 5176,
+    "type": "municipality",
+    "population": 5175,
     "wikiDataId": "Q551672"
   },
   {
@@ -411,8 +427,8 @@
     "native": "Vila Nova de Milfontes",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 4258,
+    "type": "section",
+    "population": 5660,
     "wikiDataId": "Q1304376"
   },
   {
@@ -429,6 +445,6 @@
     "translations": {},
     "type": "city",
     "population": 2011,
-    "wikiDataId": "Q33512640"
+    "wikiDataId": null
   }
 ]

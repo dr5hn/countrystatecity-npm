@@ -11,9 +11,9 @@
     "native": "Oilo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 66118,
-    "wikiDataId": "Q1000341"
+    "wikiDataId": "Q2885071"
   },
   {
     "id": 80719,
@@ -27,8 +27,24 @@
     "native": "Moquegua",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 69882,
+    "wikiDataId": "Q3312924"
+  },
+  {
+    "id": 80862,
+    "name": "Moquegua",
+    "state_id": 3698,
+    "state_code": "MOQ",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-17.19500000",
+    "longitude": "-70.93694444",
+    "native": "Moquegua",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1000346"
   },
   {
@@ -59,7 +75,7 @@
     "native": "Provincia de General Sánchez Cerro",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 14865,
     "wikiDataId": "Q1947893"
   },
@@ -75,25 +91,9 @@
     "native": "OIM Provincial",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 74649,
     "wikiDataId": "Q1944257"
-  },
-  {
-    "id": 80862,
-    "name": "Provincia de Mariscal Nieto",
-    "state_id": 3698,
-    "state_code": "MOQ",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-17.08361000",
-    "longitude": "-71.00333000",
-    "native": "Provincia de Mariscal Nieto",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 85349,
-    "wikiDataId": "Q1944431"
   },
   {
     "id": 80996,
@@ -107,8 +107,8 @@
     "native": "Torata",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6198,
-    "wikiDataId": "Q3344048"
+    "wikiDataId": "Q3312414"
   }
 ]

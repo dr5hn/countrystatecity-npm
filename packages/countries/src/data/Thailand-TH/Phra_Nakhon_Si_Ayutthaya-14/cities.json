@@ -1,21 +1,5 @@
 [
   {
-    "id": 105221,
-    "name": "Amphoe Bang Ban",
-    "state_id": 3494,
-    "state_code": "14",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.38333000",
-    "longitude": "100.46667000",
-    "native": "อำเภอบางบาล",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q186421"
-  },
-  {
     "id": 105234,
     "name": "Amphoe Bang Pa-in",
     "state_id": 3494,
@@ -80,22 +64,6 @@
     "wikiDataId": "Q476434"
   },
   {
-    "id": 106282,
-    "name": "Amphoe Tha Ruea",
-    "state_id": 3494,
-    "state_code": "14",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.53587000",
-    "longitude": "100.71268000",
-    "native": "อำเภอท่าเรือ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476847"
-  },
-  {
     "id": 106341,
     "name": "Amphoe Wang Noi",
     "state_id": 3494,
@@ -125,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 27911,
-    "wikiDataId": "Q4784166"
+    "wikiDataId": null
   },
   {
     "id": 105213,
@@ -152,10 +120,10 @@
     "country_code": "TH",
     "latitude": "14.37395000",
     "longitude": "100.48528000",
-    "native": "บังบัน",
+    "native": "บางบาล",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 16588,
     "wikiDataId": "Q28737753"
   },
@@ -171,7 +139,7 @@
     "native": "บางปะอิน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 20484,
     "wikiDataId": "Q2658511"
   },
@@ -251,7 +219,7 @@
     "native": "นครหลวง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 15008,
     "wikiDataId": "Q28737728"
   },
@@ -283,7 +251,7 @@
     "native": "ผักไห่",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 19386,
     "wikiDataId": "Q28737739"
   },
@@ -299,7 +267,7 @@
     "native": "พระนครศรีอยุธยา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 50830,
     "wikiDataId": "Q203370"
   },
@@ -331,7 +299,7 @@
     "native": "ท่าเรือ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 19116,
     "wikiDataId": "Q15980706"
   },
@@ -342,14 +310,14 @@
     "state_code": "14",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.35321000",
-    "longitude": "100.69643000",
-    "native": "อำเภออุทัย",
+    "latitude": "14.36800515",
+    "longitude": "100.67134274",
+    "native": "อุทัย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476975"
+    "wikiDataId": "Q16440427"
   },
   {
     "id": 106744,
@@ -365,6 +333,6 @@
     "translations": {},
     "type": "adm2",
     "population": 15865,
-    "wikiDataId": "Q13025388"
+    "wikiDataId": null
   }
 ]

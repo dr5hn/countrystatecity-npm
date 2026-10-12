@@ -1,5 +1,21 @@
 [
   {
+    "id": 48537,
+    "name": "Bishopton",
+    "state_id": 2443,
+    "state_code": "RFW",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.90969000",
+    "longitude": "-4.50560000",
+    "native": "Bishopton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 4640,
+    "wikiDataId": "Q2098147"
+  },
+  {
     "id": 48682,
     "name": "Bridge of Weir",
     "state_id": 2443,
@@ -11,25 +27,9 @@
     "native": "Bridge of Weir",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4820,
     "wikiDataId": "Q1009612"
-  },
-  {
-    "id": 49043,
-    "name": "Clydebank",
-    "state_id": 2443,
-    "state_code": "RFW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.90137000",
-    "longitude": "-4.40570000",
-    "native": "Clydebank",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 26320,
-    "wikiDataId": "Q996502"
   },
   {
     "id": 49450,
@@ -43,7 +43,7 @@
     "native": "EldersLie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5330,
     "wikiDataId": "Q950200"
   },
@@ -59,7 +59,7 @@
     "native": "Erskine",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15510,
     "wikiDataId": "Q1010175"
   },
@@ -75,7 +75,7 @@
     "native": "Houston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6360,
     "wikiDataId": "Q31028"
   },
@@ -91,7 +91,7 @@
     "native": "Howwood",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1798,
     "wikiDataId": "Q974134"
   },
@@ -104,10 +104,10 @@
     "country_code": "GB",
     "latitude": "55.88995000",
     "longitude": "-4.43842000",
-    "native": "Inchinna",
+    "native": "Inchinnan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1860,
     "wikiDataId": "Q3797631"
   },
@@ -123,7 +123,7 @@
     "native": "Johnstone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 16090,
     "wikiDataId": "Q2240072"
   },
@@ -139,7 +139,7 @@
     "native": "Kilbarchan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3480,
     "wikiDataId": "Q2146505"
   },
@@ -155,9 +155,9 @@
     "native": "Linwood",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8590,
-    "wikiDataId": "Q2953094"
+    "wikiDataId": null
   },
   {
     "id": 50380,
@@ -171,7 +171,7 @@
     "native": "Lochwinnoch",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2880,
     "wikiDataId": "Q1010180"
   },
@@ -187,7 +187,7 @@
     "native": "Paisley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 77220,
     "wikiDataId": "Q211870"
   },
@@ -203,24 +203,8 @@
     "native": "Renfrew",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 22570,
     "wikiDataId": "Q615693"
-  },
-  {
-    "id": 51061,
-    "name": "Renfrewshire",
-    "state_id": 2443,
-    "state_code": "RFW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.83333000",
-    "longitude": "-4.50000000",
-    "native": "Renfrewshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 179100,
-    "wikiDataId": "Q211091"
   }
 ]

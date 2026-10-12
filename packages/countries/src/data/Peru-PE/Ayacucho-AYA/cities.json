@@ -1,5 +1,21 @@
 [
   {
+    "id": 80829,
+    "name": "Ayacucho",
+    "state_id": 3692,
+    "state_code": "AYA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.15416667",
+    "longitude": "-74.22277778",
+    "native": "Ayacucho",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q504215"
+  },
+  {
     "id": 80568,
     "name": "Ayacucho",
     "state_id": 3692,
@@ -11,9 +27,9 @@
     "native": "Ayacucho",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 140033,
-    "wikiDataId": "Q504215"
+    "wikiDataId": "Q3312393"
   },
   {
     "id": 80570,
@@ -24,7 +40,7 @@
     "country_code": "PE",
     "latitude": "-12.65000000",
     "longitude": "-73.91667000",
-    "native": "Y el",
+    "native": "Ayna",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
@@ -43,8 +59,24 @@
     "native": "Coracora",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7420,
+    "wikiDataId": "Q3825827"
+  },
+  {
+    "id": 80873,
+    "name": "Coracora",
+    "state_id": 3692,
+    "state_code": "AYA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.01611111",
+    "longitude": "-73.78194444",
+    "native": "Coracora",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q763662"
   },
   {
@@ -59,8 +91,24 @@
     "native": "Huanta",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 18627,
+    "wikiDataId": "Q2576396"
+  },
+  {
+    "id": 80835,
+    "name": "Huanta",
+    "state_id": 3692,
+    "state_code": "AYA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-12.93861111",
+    "longitude": "-74.24861111",
+    "native": "Huanta",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q2158344"
   },
   {
@@ -91,25 +139,9 @@
     "native": "Provincia de Cangallo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 30443,
     "wikiDataId": "Q1814190"
-  },
-  {
-    "id": 80829,
-    "name": "Provincia de Huamanga",
-    "state_id": 3692,
-    "state_code": "AYA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.20000000",
-    "longitude": "-74.25000000",
-    "native": "Provincia de Huamanga",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 282194,
-    "wikiDataId": "Q1784857"
   },
   {
     "id": 80830,
@@ -128,22 +160,6 @@
     "wikiDataId": "Q1808513"
   },
   {
-    "id": 80835,
-    "name": "Provincia de Huanta",
-    "state_id": 3692,
-    "state_code": "AYA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-12.50000000",
-    "longitude": "-74.16667000",
-    "native": "Provincia de Huanta",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 89466,
-    "wikiDataId": "Q930214"
-  },
-  {
     "id": 80850,
     "name": "Provincia de La Mar",
     "state_id": 3692,
@@ -155,7 +171,7 @@
     "native": "Provincia de La Mar",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 70653,
     "wikiDataId": "Q514494"
   },
@@ -171,25 +187,9 @@
     "native": "Provincia de Lucanas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 51328,
     "wikiDataId": "Q1814203"
-  },
-  {
-    "id": 80873,
-    "name": "Provincia de Parinacochas",
-    "state_id": 3692,
-    "state_code": "AYA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-15.02965000",
-    "longitude": "-73.63487000",
-    "native": "Provincia de Parinacochas",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 27659,
-    "wikiDataId": "Q549969"
   },
   {
     "id": 80895,
@@ -219,7 +219,7 @@
     "native": "Provincia de Víctor Fajardo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 20109,
     "wikiDataId": "Q1947116"
   },
@@ -235,7 +235,7 @@
     "native": "Provincia de Vilcas Huamán",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 16861,
     "wikiDataId": "Q537708"
   },
@@ -251,9 +251,9 @@
     "native": "Puquio",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10491,
-    "wikiDataId": "Q2726653"
+    "wikiDataId": "Q3826135"
   },
   {
     "id": 80951,
@@ -267,9 +267,9 @@
     "native": "San Miguel",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 8400,
-    "wikiDataId": "Q2726675"
+    "wikiDataId": "Q938891"
   },
   {
     "id": 80985,

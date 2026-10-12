@@ -1,21 +1,5 @@
 [
   {
-    "id": 58,
-    "name": "Bāsawul",
-    "state_id": 3882,
-    "state_code": "NAN",
-    "country_id": 1,
-    "country_code": "AF",
-    "latitude": "34.24749000",
-    "longitude": "70.87218000",
-    "native": "باسول",
-    "timezone": "Asia/Kabul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q21763679"
-  },
-  {
     "id": 77,
     "name": "Jalālābād",
     "state_id": 3882,
@@ -30,5 +14,37 @@
     "type": "adm1",
     "population": 263312,
     "wikiDataId": "Q183303"
+  },
+  {
+    "id": 164350,
+    "name": "Kaz̲h̲ah",
+    "state_id": 3882,
+    "state_code": "NAN",
+    "country_id": 1,
+    "country_code": "AF",
+    "latitude": "34.24088000",
+    "longitude": "70.18274000",
+    "native": null,
+    "timezone": "Asia/Kabul",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6346310"
+  },
+  {
+    "id": 58,
+    "name": "Muhmand Dara",
+    "state_id": 3882,
+    "state_code": "NAN",
+    "country_id": 1,
+    "country_code": "AF",
+    "latitude": "34.24749000",
+    "longitude": "70.87218000",
+    "native": "مهمنددره",
+    "timezone": "Asia/Kabul",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q21763679"
   }
 ]

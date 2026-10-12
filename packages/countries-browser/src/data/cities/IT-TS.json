@@ -11,7 +11,7 @@
     "native": "Aurisina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 2202,
     "wikiDataId": "Q2256594"
   },
@@ -48,6 +48,22 @@
     "wikiDataId": "Q18449382"
   },
   {
+    "id": 138341,
+    "name": "Duino",
+    "state_id": 1763,
+    "state_code": "TS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "45.77342000",
+    "longitude": "13.60436000",
+    "native": "Duino",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 1369,
+    "wikiDataId": "Q2477512"
+  },
+  {
     "id": 140677,
     "name": "Muggia",
     "state_id": 1763,
@@ -59,8 +75,8 @@
     "native": "Muggia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 12862,
+    "type": "municipality",
+    "population": 12627,
     "wikiDataId": "Q16937"
   },
   {
@@ -75,7 +91,7 @@
     "native": "Prosecco-Contovello",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1994,
     "wikiDataId": null
   },
@@ -107,9 +123,25 @@
     "native": "Sgonico",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 200,
+    "type": "municipality",
+    "population": 1948,
     "wikiDataId": "Q16939"
+  },
+  {
+    "id": 60881,
+    "name": "Sistiana-Visogliano",
+    "state_id": 1763,
+    "state_code": "TS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "45.77237000",
+    "longitude": "13.63824000",
+    "native": "Sistiana-Visogliano",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 2996,
+    "wikiDataId": null
   },
   {
     "id": 61524,
@@ -123,8 +155,8 @@
     "native": "Trieste",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm1",
-    "population": 198417,
+    "type": "municipality",
+    "population": 198622,
     "wikiDataId": "Q546"
   },
   {
@@ -139,7 +171,7 @@
     "native": "Villa Opicina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8009,
     "wikiDataId": "Q425566"
   },

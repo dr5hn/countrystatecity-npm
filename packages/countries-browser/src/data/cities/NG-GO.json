@@ -11,9 +11,25 @@
     "native": "Urkko",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6129,
-    "wikiDataId": "Q3509527"
+    "wikiDataId": "Q33420690"
+  },
+  {
+    "id": 165311,
+    "name": "Bajoga",
+    "state_id": 310,
+    "state_code": "GO",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "10.85152000",
+    "longitude": "11.43169000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q4848927"
   },
   {
     "id": 76794,
@@ -24,12 +40,12 @@
     "country_code": "NG",
     "latitude": "10.37444000",
     "longitude": "10.72884000",
-    "native": "Only",
+    "native": "Bara",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
     "population": 11673,
-    "wikiDataId": "Q793588"
+    "wikiDataId": null
   },
   {
     "id": 76802,
@@ -43,9 +59,9 @@
     "native": "BILLIRI",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 15976,
-    "wikiDataId": "Q320704"
+    "wikiDataId": null
   },
   {
     "id": 76823,
@@ -56,12 +72,12 @@
     "country_code": "NG",
     "latitude": "9.61667000",
     "longitude": "11.43333000",
-    "native": "So",
+    "native": "Dadiya",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
     "population": 7152,
-    "wikiDataId": "Q844091"
+    "wikiDataId": null
   },
   {
     "id": 76839,
@@ -75,9 +91,9 @@
     "native": "Deba",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 17671,
-    "wikiDataId": "Q1173023"
+    "wikiDataId": "Q5247803"
   },
   {
     "id": 76846,
@@ -88,12 +104,12 @@
     "country_code": "NG",
     "latitude": "10.82379000",
     "longitude": "10.77221000",
-    "native": "You all",
+    "native": "Dukku",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 16961,
-    "wikiDataId": "Q1173023"
+    "wikiDataId": "Q5313235"
   },
   {
     "id": 76877,
@@ -104,12 +120,12 @@
     "country_code": "NG",
     "latitude": "10.17506000",
     "longitude": "11.16458000",
-    "native": "Barner",
+    "native": "Garko",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21141,
-    "wikiDataId": "Q3056264"
+    "wikiDataId": "Q33437852"
   },
   {
     "id": 76884,
@@ -123,7 +139,7 @@
     "native": "Gombe",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 560000,
     "wikiDataId": "Q591598"
   },
@@ -136,12 +152,12 @@
     "country_code": "NG",
     "latitude": "10.30426000",
     "longitude": "11.49905000",
-    "native": "The other",
+    "native": "Hinna",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7826,
-    "wikiDataId": "Q5637733"
+    "wikiDataId": "Q33445145"
   },
   {
     "id": 76968,
@@ -155,9 +171,9 @@
     "native": "Kafarati",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11535,
-    "wikiDataId": "Q6346073"
+    "wikiDataId": "Q33449903"
   },
   {
     "id": 76973,
@@ -171,9 +187,9 @@
     "native": "Krtungo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 12357,
-    "wikiDataId": "Q6346073"
+    "wikiDataId": "Q6354502"
   },
   {
     "id": 76993,
@@ -184,12 +200,12 @@
     "country_code": "NG",
     "latitude": "10.04807000",
     "longitude": "11.21055000",
-    "native": "Fist",
+    "native": "Kumo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 35712,
-    "wikiDataId": "Q937487"
+    "wikiDataId": null
   },
   {
     "id": 77037,
@@ -203,9 +219,9 @@
     "native": "Nafada",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 22920,
-    "wikiDataId": "Q1951627"
+    "wikiDataId": "Q6958144"
   },
   {
     "id": 77088,
@@ -219,8 +235,8 @@
     "native": "Pindiga",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 106322,
-    "wikiDataId": "Q1023703"
+    "wikiDataId": "Q33472716"
   }
 ]

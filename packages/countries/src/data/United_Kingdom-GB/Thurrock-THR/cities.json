@@ -1,35 +1,19 @@
 [
   {
-    "id": 48420,
-    "name": "Basildon",
+    "id": 48318,
+    "name": "Aveley",
     "state_id": 2468,
     "state_code": "THR",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "51.56844000",
-    "longitude": "0.45782000",
-    "native": "Basildon",
+    "latitude": "51.49987000",
+    "longitude": "0.25174000",
+    "native": "Aveley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 144859,
-    "wikiDataId": "Q216649"
-  },
-  {
-    "id": 48503,
-    "name": "Billericay",
-    "state_id": 2468,
-    "state_code": "THR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.62867000",
-    "longitude": "0.41963000",
-    "native": "Billericay",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 36338,
-    "wikiDataId": "Q862832"
+    "type": "town",
+    "population": 9801,
+    "wikiDataId": "Q2449718"
   },
   {
     "id": 48608,
@@ -43,7 +27,7 @@
     "native": "Borough of Thurrock",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1549155"
   },
@@ -59,7 +43,7 @@
     "native": "Bulphan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1032,
     "wikiDataId": "Q2979077"
   },
@@ -72,10 +56,10 @@
     "country_code": "GB",
     "latitude": "51.48140000",
     "longitude": "0.36343000",
-    "native": "St. Mary",
+    "native": "Chadwell St Mary",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "section",
+    "type": "town",
     "population": 9631,
     "wikiDataId": "Q2270700"
   },
@@ -93,7 +77,7 @@
     "translations": {},
     "type": "section",
     "population": 13466,
-    "wikiDataId": "Q2270700"
+    "wikiDataId": null
   },
   {
     "id": 49412,
@@ -107,25 +91,9 @@
     "native": "East Tilbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5471,
     "wikiDataId": "Q2135238"
-  },
-  {
-    "id": 49703,
-    "name": "Gravesend",
-    "state_id": 2468,
-    "state_code": "THR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.44206000",
-    "longitude": "0.37106000",
-    "native": "Gravesend",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 54263,
-    "wikiDataId": "Q676689"
   },
   {
     "id": 49704,
@@ -139,7 +107,7 @@
     "native": "Grays",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 89755,
     "wikiDataId": "Q991532"
   },
@@ -155,7 +123,7 @@
     "native": "Horndon on the Hill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1596,
     "wikiDataId": "Q2205748"
   },
@@ -171,25 +139,41 @@
     "native": "Orsett",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1267,
     "wikiDataId": "Q1987584"
   },
   {
-    "id": 50919,
-    "name": "Pitsea",
+    "id": 51004,
+    "name": "Purfleet",
     "state_id": 2468,
     "state_code": "THR",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "51.56387000",
-    "longitude": "0.50859000",
-    "native": "Seal",
+    "latitude": "51.48390000",
+    "longitude": "0.24247000",
+    "native": "Purfleet",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
-    "population": 25000,
-    "wikiDataId": "Q2236621"
+    "population": null,
+    "wikiDataId": "Q1972020"
+  },
+  {
+    "id": 51363,
+    "name": "South Ockendon",
+    "state_id": 2468,
+    "state_code": "THR",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.50799000",
+    "longitude": "0.28333000",
+    "native": "South Ockendon",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 22442,
+    "wikiDataId": "Q747456"
   },
   {
     "id": 51423,
@@ -203,25 +187,9 @@
     "native": "Stanford-le-Hope",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 28725,
     "wikiDataId": "Q2574529"
-  },
-  {
-    "id": 51531,
-    "name": "Swanscombe",
-    "state_id": 2468,
-    "state_code": "THR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.44713000",
-    "longitude": "0.31028000",
-    "native": "Swanscombe",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 15732,
-    "wikiDataId": "Q1083051"
   },
   {
     "id": 51623,
@@ -235,7 +203,7 @@
     "native": "Tilbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11717,
     "wikiDataId": "Q648432"
   },
@@ -254,21 +222,5 @@
     "type": "city",
     "population": 7795,
     "wikiDataId": "Q971550"
-  },
-  {
-    "id": 51891,
-    "name": "Wickford",
-    "state_id": 2468,
-    "state_code": "THR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.61101000",
-    "longitude": "0.52331000",
-    "native": "Wickford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 27601,
-    "wikiDataId": "Q932841"
   }
 ]

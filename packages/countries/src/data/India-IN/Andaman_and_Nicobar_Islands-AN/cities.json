@@ -16,6 +16,22 @@
     "wikiDataId": "Q627037"
   },
   {
+    "id": 164881,
+    "name": "Diglipur",
+    "state_id": 4023,
+    "state_code": "AN",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "13.26667000",
+    "longitude": "93.00000000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 42877,
+    "wikiDataId": "Q5276296"
+  },
+  {
     "id": 133213,
     "name": "Nicobar",
     "state_id": 4023,
@@ -27,25 +43,9 @@
     "native": "निकोबार",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 36842,
     "wikiDataId": "Q797295"
-  },
-  {
-    "id": 133482,
-    "name": "Port Blair",
-    "state_id": 4023,
-    "state_code": "AN",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "11.66613000",
-    "longitude": "92.74635000",
-    "native": "पोर्ट ब्लेयर",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "adm1",
-    "population": 100608,
-    "wikiDataId": "Q203476"
   },
   {
     "id": 134006,
@@ -59,8 +59,24 @@
     "native": "दक्षिण अंडमान",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 238142,
     "wikiDataId": "Q796979"
+  },
+  {
+    "id": 133482,
+    "name": "Sri Vijaya Puram",
+    "state_id": 4023,
+    "state_code": "AN",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "11.66613000",
+    "longitude": "92.74635000",
+    "native": "श्री विजय पुरम",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm1",
+    "population": 100608,
+    "wikiDataId": "Q203476"
   }
 ]

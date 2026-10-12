@@ -1,18 +1,18 @@
 [
   {
     "id": 68010,
-    "name": "Abala",
+    "name": "Abalá",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "20.64745000",
     "longitude": "-89.68094000",
-    "native": "Ocupado",
+    "native": "Abalá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 1890,
+    "type": "locality",
+    "population": 2039,
     "wikiDataId": "Q2093673"
   },
   {
@@ -24,11 +24,11 @@
     "country_code": "MX",
     "latitude": "20.81269000",
     "longitude": "-89.45295000",
-    "native": "Acá",
+    "native": "Acanceh",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 10968,
+    "type": "locality",
+    "population": 11917,
     "wikiDataId": "Q8186545"
   },
   {
@@ -43,8 +43,8 @@
     "native": "Akil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 10176,
+    "type": "locality",
+    "population": 12022,
     "wikiDataId": "Q8192621"
   },
   {
@@ -59,8 +59,8 @@
     "native": "Baca",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4553,
+    "type": "locality",
+    "population": 4997,
     "wikiDataId": "Q5716000"
   },
   {
@@ -75,9 +75,9 @@
     "native": "Becanado",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1713,
-    "wikiDataId": "Q2919569"
+    "type": "locality",
+    "population": 1953,
+    "wikiDataId": "Q5482684"
   },
   {
     "id": 68628,
@@ -88,11 +88,11 @@
     "country_code": "MX",
     "latitude": "21.00755000",
     "longitude": "-89.17913000",
-    "native": "Mantenga",
+    "native": "Bokoba",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2052,
+    "type": "locality",
+    "population": 2167,
     "wikiDataId": "Q8250474"
   },
   {
@@ -107,9 +107,9 @@
     "native": "Bolos",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1392,
-    "wikiDataId": "Q2576175"
+    "type": "locality",
+    "population": 1489,
+    "wikiDataId": "Q5691940"
   },
   {
     "id": 68657,
@@ -123,8 +123,8 @@
     "native": "Buctzotz",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 7515,
+    "type": "locality",
+    "population": 7973,
     "wikiDataId": "Q8253334"
   },
   {
@@ -139,8 +139,8 @@
     "native": "Cacalchen",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 6787,
+    "type": "locality",
+    "population": 7460,
     "wikiDataId": "Q4208884"
   },
   {
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 1503,
-    "wikiDataId": "Q3892704"
+    "wikiDataId": null
   },
   {
     "id": 68745,
@@ -171,7 +171,7 @@
     "native": "Calotmul",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2764,
     "wikiDataId": "Q2575635"
   },
@@ -187,8 +187,8 @@
     "native": "Campestre Flamboyanes",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4027,
+    "type": "locality",
+    "population": 7361,
     "wikiDataId": "Q5745614"
   },
   {
@@ -200,11 +200,11 @@
     "country_code": "MX",
     "latitude": "21.15749000",
     "longitude": "-89.10131000",
-    "native": "Bote",
+    "native": "Cansahcab",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4293,
+    "type": "locality",
+    "population": 4065,
     "wikiDataId": "Q5747629"
   },
   {
@@ -219,7 +219,7 @@
     "native": "Cantamayec",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1695,
     "wikiDataId": "Q2575621"
   },
@@ -235,9 +235,9 @@
     "native": "Caucel",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6988,
-    "wikiDataId": "Q20275325"
+    "wikiDataId": "Q5758884"
   },
   {
     "id": 68893,
@@ -251,7 +251,7 @@
     "native": "Celestún",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8389,
     "wikiDataId": "Q1917547"
   },
@@ -267,7 +267,7 @@
     "native": "Cenotillo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3272,
     "wikiDataId": "Q8343446"
   },
@@ -283,9 +283,9 @@
     "native": "Cepeda",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3064,
-    "wikiDataId": "Q20257378"
+    "wikiDataId": "Q5762325"
   },
   {
     "id": 68942,
@@ -299,9 +299,9 @@
     "native": "Chablekal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3626,
-    "wikiDataId": "Q20257918"
+    "wikiDataId": "Q5763925"
   },
   {
     "id": 68950,
@@ -315,8 +315,8 @@
     "native": "Chacsín",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2555,
+    "type": "locality",
+    "population": 2860,
     "wikiDataId": "Q5764020"
   },
   {
@@ -331,9 +331,9 @@
     "native": "Chan cenote",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2225,
-    "wikiDataId": "Q1061542"
+    "type": "locality",
+    "population": 2587,
+    "wikiDataId": "Q4507017"
   },
   {
     "id": 68975,
@@ -347,8 +347,8 @@
     "native": "Chankom",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 685,
+    "type": "municipality",
+    "population": 4686,
     "wikiDataId": "Q2577482"
   },
   {
@@ -363,7 +363,7 @@
     "native": "Chaple",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2141,
     "wikiDataId": "Q2577517"
   },
@@ -376,11 +376,11 @@
     "country_code": "MX",
     "latitude": "21.26967000",
     "longitude": "-89.74006000",
-    "native": "Golpe",
+    "native": "Chelem",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3509,
+    "type": "locality",
+    "population": 4862,
     "wikiDataId": "Q5765543"
   },
   {
@@ -395,8 +395,8 @@
     "native": "Chinax",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 14885,
+    "type": "locality",
+    "population": 17502,
     "wikiDataId": "Q8345195"
   },
   {
@@ -411,7 +411,7 @@
     "native": "Chichén-Itzá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18000,
     "wikiDataId": "Q20275587"
   },
@@ -424,11 +424,11 @@
     "country_code": "MX",
     "latitude": "20.63176000",
     "longitude": "-88.21689000",
-    "native": "Delito",
+    "native": "Chichimila",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 5528,
+    "type": "locality",
+    "population": 6540,
     "wikiDataId": "Q5766039"
   },
   {
@@ -443,9 +443,9 @@
     "native": "Chicxulub Pueblo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 4080,
-    "wikiDataId": "Q2533073"
+    "type": "locality",
+    "population": 4463,
+    "wikiDataId": "Q8345334"
   },
   {
     "id": 69050,
@@ -459,8 +459,8 @@
     "native": "Chicxulub Puerto",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 5052,
+    "type": "locality",
+    "population": 7591,
     "wikiDataId": "Q387107"
   },
   {
@@ -475,13 +475,13 @@
     "native": "Chikindzonot",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2699,
+    "type": "locality",
+    "population": 3019,
     "wikiDataId": "Q5766222"
   },
   {
     "id": 69098,
-    "name": "Chochola",
+    "name": "Chocholá",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -491,8 +491,8 @@
     "native": "Cascano",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 4511,
+    "type": "locality",
+    "population": 4847,
     "wikiDataId": "Q5767006"
   },
   {
@@ -507,9 +507,9 @@
     "native": "Chol",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5880,
-    "wikiDataId": "Q1075824"
+    "wikiDataId": "Q5661507"
   },
   {
     "id": 69102,
@@ -523,7 +523,7 @@
     "native": "Cholul Cantón",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4716,
     "wikiDataId": "Q20244770"
   },
@@ -539,9 +539,9 @@
     "native": "Regordete",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1929,
-    "wikiDataId": "Q20237434"
+    "type": "locality",
+    "population": 2874,
+    "wikiDataId": null
   },
   {
     "id": 69116,
@@ -555,8 +555,8 @@
     "native": "Chumayel",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "section",
-    "population": 3135,
+    "type": "locality",
+    "population": 3237,
     "wikiDataId": "Q5768491"
   },
   {
@@ -571,9 +571,9 @@
     "native": "Chunchucmil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1091,
-    "wikiDataId": "Q5768491"
+    "type": "locality",
+    "population": 1135,
+    "wikiDataId": "Q5768514"
   },
   {
     "id": 69139,
@@ -587,8 +587,8 @@
     "native": "Citilcum",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2247,
+    "type": "locality",
+    "population": 2339,
     "wikiDataId": "Q5770455"
   },
   {
@@ -603,9 +603,9 @@
     "native": "Colonia Yucatán",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1264,
-    "wikiDataId": "Q5777896"
+    "type": "locality",
+    "population": 1218,
+    "wikiDataId": "Q5777898"
   },
   {
     "id": 69459,
@@ -619,7 +619,7 @@
     "native": "Conkal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 7173,
     "wikiDataId": "Q4230853"
   },
@@ -635,9 +635,9 @@
     "native": "Holoch Cuch",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2017,
-    "wikiDataId": "Q5138674"
+    "type": "locality",
+    "population": 2404,
+    "wikiDataId": "Q5793579"
   },
   {
     "id": 69639,
@@ -648,10 +648,10 @@
     "country_code": "MX",
     "latitude": "20.62333000",
     "longitude": "-88.34637000",
-    "native": "Picar",
+    "native": "Cuncunul",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1314,
     "wikiDataId": "Q2577445"
   },
@@ -667,8 +667,8 @@
     "native": "Cuzama",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3721,
+    "type": "locality",
+    "population": 4208,
     "wikiDataId": "Q5408098"
   },
   {
@@ -683,8 +683,8 @@
     "native": "Dzan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 5357,
+    "type": "locality",
+    "population": 6001,
     "wikiDataId": "Q5815421"
   },
   {
@@ -696,10 +696,10 @@
     "country_code": "MX",
     "latitude": "21.21036000",
     "longitude": "-89.30956000",
-    "native": "Nul",
+    "native": "Dzemul",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3228,
     "wikiDataId": "Q921976"
   },
@@ -715,9 +715,9 @@
     "native": "Dzibikak",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1388,
-    "wikiDataId": "Q20258224"
+    "type": "locality",
+    "population": 1573,
+    "wikiDataId": "Q5815432"
   },
   {
     "id": 69737,
@@ -728,10 +728,10 @@
     "country_code": "MX",
     "latitude": "21.24898000",
     "longitude": "-89.04205000",
-    "native": "Estudio",
+    "native": "Dzidzantun",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7393,
     "wikiDataId": "Q5319753"
   },
@@ -747,7 +747,7 @@
     "native": "Bravo dzilam",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2374,
     "wikiDataId": "Q2577531"
   },
@@ -760,11 +760,11 @@
     "country_code": "MX",
     "latitude": "21.28098000",
     "longitude": "-88.92957000",
-    "native": "Llamé a González",
+    "native": "Dzilam González",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 5875,
+    "type": "locality",
+    "population": 6169,
     "wikiDataId": "Q5815455"
   },
   {
@@ -779,8 +779,8 @@
     "native": "Dzidad",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 2879,
+    "type": "locality",
+    "population": 3204,
     "wikiDataId": "Q5815469"
   },
   {
@@ -795,8 +795,8 @@
     "native": "Dzitnup",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1248,
+    "type": "locality",
+    "population": 1518,
     "wikiDataId": "Q5815462"
   },
   {
@@ -811,9 +811,9 @@
     "native": "Dzityá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1602,
-    "wikiDataId": "Q5815462"
+    "wikiDataId": "Q5815467"
   },
   {
     "id": 69746,
@@ -827,7 +827,7 @@
     "native": "Dzoncauich",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2318,
     "wikiDataId": "Q2576165"
   },
@@ -843,13 +843,13 @@
     "native": "Dzonot Carretero",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2184,
-    "wikiDataId": "Q2576165"
+    "type": "locality",
+    "population": 2290,
+    "wikiDataId": "Q5815476"
   },
   {
     "id": 69749,
-    "name": "Dzununcan",
+    "name": "Dzununcán",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -859,9 +859,9 @@
     "native": "Dzununcan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1802,
-    "wikiDataId": "Q2576165"
+    "wikiDataId": "Q5815489"
   },
   {
     "id": 69820,
@@ -872,12 +872,12 @@
     "country_code": "MX",
     "latitude": "20.96460000",
     "longitude": "-89.35004000",
-    "native": "Roble mul",
+    "native": "Ekmul",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2168,
-    "wikiDataId": "Q1144317"
+    "wikiDataId": "Q5820735"
   },
   {
     "id": 69821,
@@ -888,12 +888,12 @@
     "country_code": "MX",
     "latitude": "20.31647000",
     "longitude": "-88.43064000",
-    "native": "Alimentación",
+    "native": "Ekpedz",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1374,
-    "wikiDataId": "Q1144317"
+    "type": "locality",
+    "population": 1617,
+    "wikiDataId": "Q5820739"
   },
   {
     "id": 69939,
@@ -907,9 +907,9 @@
     "native": "El Cuyo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1567,
-    "wikiDataId": "Q20278807"
+    "type": "locality",
+    "population": 1787,
+    "wikiDataId": "Q3049828"
   },
   {
     "id": 70280,
@@ -923,9 +923,9 @@
     "native": "Emiliano Zapata",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1350,
-    "wikiDataId": "Q27777391"
+    "type": "locality",
+    "population": 1670,
+    "wikiDataId": "Q5830942"
   },
   {
     "id": 70331,
@@ -936,16 +936,16 @@
     "country_code": "MX",
     "latitude": "21.01098000",
     "longitude": "-88.30681000",
-    "native": "Espiar",
+    "native": "Espita",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 11551,
+    "type": "locality",
+    "population": 12320,
     "wikiDataId": "Q2448265"
   },
   {
     "id": 70378,
-    "name": "Euan",
+    "name": "Euán",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -955,9 +955,9 @@
     "native": "Euan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1186,
-    "wikiDataId": "Q20136266"
+    "type": "locality",
+    "population": 1291,
+    "wikiDataId": "Q5852485"
   },
   {
     "id": 70661,
@@ -971,8 +971,8 @@
     "native": "Halachar",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 9412,
+    "type": "locality",
+    "population": 10183,
     "wikiDataId": "Q4494984"
   },
   {
@@ -987,7 +987,7 @@
     "native": "Hocaba",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4127,
     "wikiDataId": "Q20283302"
   },
@@ -1003,13 +1003,13 @@
     "native": "Hoctún",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4686,
     "wikiDataId": "Q5900829"
   },
   {
     "id": 70703,
-    "name": "Holca",
+    "name": "Holcá",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -1019,9 +1019,9 @@
     "native": "Holca",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1988,
-    "wikiDataId": "Q2577430"
+    "type": "locality",
+    "population": 1964,
+    "wikiDataId": "Q5900961"
   },
   {
     "id": 70704,
@@ -1035,8 +1035,8 @@
     "native": "Homun",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 6146,
+    "type": "locality",
+    "population": 6810,
     "wikiDataId": "Q5901470"
   },
   {
@@ -1048,11 +1048,11 @@
     "country_code": "MX",
     "latitude": "20.72603000",
     "longitude": "-89.16072000",
-    "native": "Hihi",
+    "native": "Huhi",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4745,
+    "type": "locality",
+    "population": 5194,
     "wikiDataId": "Q5904717"
   },
   {
@@ -1067,7 +1067,7 @@
     "native": "Hunuhem",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 24910,
     "wikiDataId": "Q5838711"
   },
@@ -1080,12 +1080,12 @@
     "country_code": "MX",
     "latitude": "20.85230000",
     "longitude": "-88.08946000",
-    "native": "Mover",
+    "native": "Hunuku",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2971,
-    "wikiDataId": "Q5838711"
+    "type": "locality",
+    "population": 3549,
+    "wikiDataId": "Q5905309"
   },
   {
     "id": 70895,
@@ -1101,7 +1101,7 @@
     "translations": {},
     "type": "city",
     "population": 5013,
-    "wikiDataId": "Q20244888"
+    "wikiDataId": "Q5795731"
   },
   {
     "id": 70917,
@@ -1112,11 +1112,11 @@
     "country_code": "MX",
     "latitude": "21.15235000",
     "longitude": "-89.48182000",
-    "native": "Breve",
+    "native": "Ixil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3728,
+    "type": "locality",
+    "population": 4115,
     "wikiDataId": "Q5923627"
   },
   {
@@ -1128,11 +1128,11 @@
     "country_code": "MX",
     "latitude": "20.93537000",
     "longitude": "-89.01802000",
-    "native": "Graso",
+    "native": "Izamal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 16195,
+    "type": "locality",
+    "population": 17841,
     "wikiDataId": "Q1020762"
   },
   {
@@ -1147,7 +1147,7 @@
     "native": "Kanasin",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 77240,
     "wikiDataId": "Q613003"
   },
@@ -1160,12 +1160,12 @@
     "country_code": "MX",
     "latitude": "20.19571000",
     "longitude": "-89.34563000",
-    "native": "Cañón",
+    "native": "Kancab",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2819,
-    "wikiDataId": "Q613003"
+    "type": "locality",
+    "population": 3327,
+    "wikiDataId": "Q5957853"
   },
   {
     "id": 71153,
@@ -1179,8 +1179,8 @@
     "native": "Kantunil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3491,
+    "type": "locality",
+    "population": 3573,
     "wikiDataId": "Q5957979"
   },
   {
@@ -1195,9 +1195,9 @@
     "native": "Kanxoc",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3126,
-    "wikiDataId": "Q1709319"
+    "type": "locality",
+    "population": 3579,
+    "wikiDataId": "Q5957986"
   },
   {
     "id": 71156,
@@ -1208,12 +1208,12 @@
     "country_code": "MX",
     "latitude": "20.62476000",
     "longitude": "-88.42440000",
-    "native": "No",
+    "native": "Kaua",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 2340,
-    "wikiDataId": "Q2466571"
+    "type": "locality",
+    "population": 2879,
+    "wikiDataId": "Q5958688"
   },
   {
     "id": 71160,
@@ -1224,11 +1224,11 @@
     "country_code": "MX",
     "latitude": "20.93403000",
     "longitude": "-89.12470000",
-    "native": "Encarcelado",
+    "native": "Kimbila",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3633,
+    "type": "locality",
+    "population": 4130,
     "wikiDataId": "Q2887461"
   },
   {
@@ -1240,11 +1240,11 @@
     "country_code": "MX",
     "latitude": "20.91519000",
     "longitude": "-89.94825000",
-    "native": "Pañuelo",
+    "native": "Kinchil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 6307,
+    "type": "locality",
+    "population": 7190,
     "wikiDataId": "Q5478261"
   },
   {
@@ -1256,12 +1256,12 @@
     "country_code": "MX",
     "latitude": "21.13557000",
     "longitude": "-89.31691000",
-    "native": "él",
+    "native": "Kini",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1581,
-    "wikiDataId": "Q5478261"
+    "wikiDataId": "Q5959896"
   },
   {
     "id": 71163,
@@ -1275,8 +1275,8 @@
     "native": "kinll",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1127,
+    "type": "locality",
+    "population": 1264,
     "wikiDataId": "Q5959874"
   },
   {
@@ -1288,12 +1288,12 @@
     "country_code": "MX",
     "latitude": "20.61867000",
     "longitude": "-90.15906000",
-    "native": "Amar",
+    "native": "Kochol",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1560,
-    "wikiDataId": "Q5959874"
+    "type": "locality",
+    "population": 1767,
+    "wikiDataId": "Q5960296"
   },
   {
     "id": 71165,
@@ -1307,25 +1307,25 @@
     "native": "El komchén",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4259,
     "wikiDataId": "Q1770500"
   },
   {
     "id": 71166,
-    "name": "Kopoma",
+    "name": "Kopomá",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "20.64906000",
     "longitude": "-89.89989000",
-    "native": "Tierra",
+    "native": "Kopomá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 2026,
-    "wikiDataId": "Q1770500"
+    "type": "locality",
+    "population": 2211,
+    "wikiDataId": "Q5960493"
   },
   {
     "id": 71590,
@@ -1339,9 +1339,9 @@
     "native": "Las Coloradas",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1151,
-    "wikiDataId": "Q20142798"
+    "type": "locality",
+    "population": 1399,
+    "wikiDataId": "Q5970353"
   },
   {
     "id": 71660,
@@ -1371,9 +1371,9 @@
     "native": "Lepan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1240,
-    "wikiDataId": "Q5973107"
+    "wikiDataId": "Q5973661"
   },
   {
     "id": 71673,
@@ -1387,9 +1387,9 @@
     "native": "Libre Unión",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1671,
-    "wikiDataId": "Q20282185"
+    "type": "locality",
+    "population": 1901,
+    "wikiDataId": "Q5974891"
   },
   {
     "id": 71705,
@@ -1400,12 +1400,12 @@
     "country_code": "MX",
     "latitude": "21.38828000",
     "longitude": "-88.14566000",
-    "native": "Lago",
+    "native": "Loché",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1237,
-    "wikiDataId": "Q20245000"
+    "wikiDataId": "Q5438864"
   },
   {
     "id": 71950,
@@ -1419,9 +1419,9 @@
     "native": "Mamá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2876,
-    "wikiDataId": "Q20144341"
+    "type": "locality",
+    "population": 3189,
+    "wikiDataId": "Q5406707"
   },
   {
     "id": 71956,
@@ -1435,8 +1435,8 @@
     "native": "Mani",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4146,
+    "type": "locality",
+    "population": 4715,
     "wikiDataId": "Q957947"
   },
   {
@@ -1451,7 +1451,7 @@
     "native": "Maxcanunu",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 12621,
     "wikiDataId": "Q2000119"
   },
@@ -1467,9 +1467,9 @@
     "native": "Mayapan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3263,
-    "wikiDataId": "Q20146553"
+    "type": "locality",
+    "population": 3956,
+    "wikiDataId": "Q6007638"
   },
   {
     "id": 72261,
@@ -1483,13 +1483,13 @@
     "native": "Mérida",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 892363,
     "wikiDataId": "Q165204"
   },
   {
     "id": 72174,
-    "name": "Mococha",
+    "name": "Mocochá",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -1499,9 +1499,9 @@
     "native": "Mococha",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2042,
-    "wikiDataId": "Q6887609"
+    "wikiDataId": "Q6019954"
   },
   {
     "id": 72182,
@@ -1512,12 +1512,12 @@
     "country_code": "MX",
     "latitude": "20.81665000",
     "longitude": "-89.62998000",
-    "native": "Primavera",
+    "native": "Molas",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2014,
-    "wikiDataId": "Q3844561"
+    "wikiDataId": "Q6020838"
   },
   {
     "id": 72242,
@@ -1531,7 +1531,7 @@
     "native": "Moto",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23240,
     "wikiDataId": "Q944292"
   },
@@ -1547,8 +1547,8 @@
     "native": "Muna",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 11469,
+    "type": "locality",
+    "population": 12553,
     "wikiDataId": "Q1997424"
   },
   {
@@ -1560,11 +1560,11 @@
     "country_code": "MX",
     "latitude": "21.04728000",
     "longitude": "-89.32810000",
-    "native": "Sostenimiento",
+    "native": "Muxupip",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 2837,
+    "type": "municipality",
+    "population": 2990,
     "wikiDataId": "Q3293965"
   },
   {
@@ -1579,8 +1579,8 @@
     "native": "Naclche",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1219,
+    "type": "locality",
+    "population": 1403,
     "wikiDataId": "Q6957344"
   },
   {
@@ -1595,13 +1595,13 @@
     "native": "Nolo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1493,
-    "wikiDataId": "Q990001"
+    "type": "locality",
+    "population": 1590,
+    "wikiDataId": "Q6044515"
   },
   {
     "id": 72511,
-    "name": "Opichen",
+    "name": "Opichén",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -1611,9 +1611,9 @@
     "native": "Opicén",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4751,
-    "wikiDataId": "Q20290328"
+    "wikiDataId": "Q3293971"
   },
   {
     "id": 72547,
@@ -1627,9 +1627,9 @@
     "native": "Óxi",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1175,
-    "wikiDataId": "Q27768301"
+    "type": "locality",
+    "population": 1407,
+    "wikiDataId": "Q6054988"
   },
   {
     "id": 72551,
@@ -1643,7 +1643,7 @@
     "native": "Oxkutzcab",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 23096,
     "wikiDataId": "Q2990961"
   },
@@ -1661,7 +1661,7 @@
     "translations": {},
     "type": "city",
     "population": 23096,
-    "wikiDataId": "Q20291446"
+    "wikiDataId": null
   },
   {
     "id": 72619,
@@ -1675,8 +1675,8 @@
     "native": "Panaba",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 5232,
+    "type": "locality",
+    "population": 5318,
     "wikiDataId": "Q4343816"
   },
   {
@@ -1688,12 +1688,12 @@
     "country_code": "MX",
     "latitude": "20.29408000",
     "longitude": "-89.28947000",
-    "native": "Traspuesta",
+    "native": "Pencuyut",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1524,
-    "wikiDataId": "Q20228317"
+    "type": "locality",
+    "population": 1801,
+    "wikiDataId": "Q6071212"
   },
   {
     "id": 72746,
@@ -1707,9 +1707,9 @@
     "native": "Peto",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19821,
-    "wikiDataId": "Q20245210"
+    "wikiDataId": "Q2977890"
   },
   {
     "id": 72788,
@@ -1723,8 +1723,8 @@
     "native": "Piste",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 5528,
+    "type": "locality",
+    "population": 6496,
     "wikiDataId": "Q952675"
   },
   {
@@ -1739,9 +1739,9 @@
     "native": "Pixoy",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1054,
-    "wikiDataId": "Q2991688"
+    "type": "locality",
+    "population": 1158,
+    "wikiDataId": "Q6077070"
   },
   {
     "id": 72850,
@@ -1752,12 +1752,12 @@
     "country_code": "MX",
     "latitude": "20.73324000",
     "longitude": "-88.23744000",
-    "native": "Gente",
+    "native": "Popola",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 4176,
-    "wikiDataId": "Q20260304"
+    "type": "locality",
+    "population": 4960,
+    "wikiDataId": "Q5551252"
   },
   {
     "id": 72851,
@@ -1768,12 +1768,12 @@
     "country_code": "MX",
     "latitude": "20.99350000",
     "longitude": "-87.56281000",
-    "native": "Completo",
+    "native": "Popolnah",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3276,
-    "wikiDataId": "Q20260304"
+    "type": "locality",
+    "population": 3504,
+    "wikiDataId": "Q6082653"
   },
   {
     "id": 72908,
@@ -1787,8 +1787,8 @@
     "native": "Progreso",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 37369,
+    "type": "locality",
+    "population": 41965,
     "wikiDataId": "Q657637"
   },
   {
@@ -1803,9 +1803,9 @@
     "native": "Pustunich",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2480,
-    "wikiDataId": "Q948895"
+    "type": "locality",
+    "population": 2624,
+    "wikiDataId": "Q6093448"
   },
   {
     "id": 73037,
@@ -1819,7 +1819,7 @@
     "native": "Quintana Roo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 942,
     "wikiDataId": "Q2588077"
   },
@@ -1835,8 +1835,8 @@
     "native": "Río Lagartos",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2218,
+    "type": "locality",
+    "population": 2493,
     "wikiDataId": "Q6115313"
   },
   {
@@ -1851,8 +1851,8 @@
     "native": "Sacalum",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3721,
+    "type": "locality",
+    "population": 3999,
     "wikiDataId": "Q6116629"
   },
   {
@@ -1867,8 +1867,8 @@
     "native": "Sahcaba",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1922,
+    "type": "locality",
+    "population": 2085,
     "wikiDataId": "Q20131715"
   },
   {
@@ -1883,7 +1883,7 @@
     "native": "Samahil",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5631,
     "wikiDataId": "Q2588196"
   },
@@ -1899,9 +1899,9 @@
     "native": "San Antonio Tedzidz",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1237,
-    "wikiDataId": "Q6118383"
+    "type": "locality",
+    "population": 1284,
+    "wikiDataId": "Q6118384"
   },
   {
     "id": 73564,
@@ -1915,9 +1915,9 @@
     "native": "San Francisco Grande",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1603,
-    "wikiDataId": "Q7413969"
+    "type": "locality",
+    "population": 1793,
+    "wikiDataId": "Q6118764"
   },
   {
     "id": 73797,
@@ -1931,9 +1931,9 @@
     "native": "San José Tzal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3543,
-    "wikiDataId": "Q20142948"
+    "wikiDataId": "Q6119026"
   },
   {
     "id": 74324,
@@ -1947,9 +1947,9 @@
     "native": "San Pedro Chimay",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1241,
-    "wikiDataId": "Q20209703"
+    "type": "locality",
+    "population": 1578,
+    "wikiDataId": "Q6119548"
   },
   {
     "id": 74423,
@@ -1963,9 +1963,9 @@
     "native": "San Rafael",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1252,
-    "wikiDataId": "Q510556"
+    "type": "locality",
+    "population": 1560,
+    "wikiDataId": "Q6119634"
   },
   {
     "id": 74513,
@@ -1979,7 +1979,7 @@
     "native": "Sanahcat",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1619,
     "wikiDataId": "Q2588037"
   },
@@ -1995,9 +1995,9 @@
     "native": "Santa Elena",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3833,
-    "wikiDataId": "Q20245452"
+    "wikiDataId": "Q12219348"
   },
   {
     "id": 74707,
@@ -2011,8 +2011,8 @@
     "native": "Santa María ACU",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1437,
+    "type": "locality",
+    "population": 1512,
     "wikiDataId": "Q6120533"
   },
   {
@@ -2027,9 +2027,9 @@
     "native": "Santo Domingo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1234,
-    "wikiDataId": "Q20284198"
+    "type": "locality",
+    "population": 1346,
+    "wikiDataId": "Q6121346"
   },
   {
     "id": 75066,
@@ -2043,8 +2043,8 @@
     "native": "Seyé",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 9724,
+    "type": "locality",
+    "population": 9141,
     "wikiDataId": "Q6126568"
   },
   {
@@ -2059,7 +2059,7 @@
     "native": "Sierra Papacal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1108,
     "wikiDataId": "Q6127616"
   },
@@ -2075,9 +2075,9 @@
     "native": "Sinananche",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3088,
-    "wikiDataId": "Q766307"
+    "type": "locality",
+    "population": 2586,
+    "wikiDataId": "Q6129070"
   },
   {
     "id": 75097,
@@ -2091,8 +2091,8 @@
     "native": "Sisal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1837,
+    "type": "locality",
+    "population": 2078,
     "wikiDataId": "Q517463"
   },
   {
@@ -2107,8 +2107,8 @@
     "native": "Sitilpech",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1799,
+    "type": "locality",
+    "population": 1923,
     "wikiDataId": "Q6130058"
   },
   {
@@ -2123,9 +2123,9 @@
     "native": "Sitpach",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1634,
-    "wikiDataId": "Q3889520"
+    "type": "locality",
+    "population": 2226,
+    "wikiDataId": "Q6130158"
   },
   {
     "id": 75128,
@@ -2136,10 +2136,10 @@
     "country_code": "MX",
     "latitude": "20.59678000",
     "longitude": "-89.00815000",
-    "native": "Ardiente",
+    "native": "Sotuta",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 5548,
     "wikiDataId": "Q7564040"
   },
@@ -2155,9 +2155,9 @@
     "native": "Sucilá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3930,
-    "wikiDataId": "Q20245507"
+    "type": "locality",
+    "population": 3855,
+    "wikiDataId": "Q6135047"
   },
   {
     "id": 75144,
@@ -2171,9 +2171,9 @@
     "native": "Sucopó",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1517,
-    "wikiDataId": "Q20245507"
+    "type": "locality",
+    "population": 1668,
+    "wikiDataId": "Q6135053"
   },
   {
     "id": 75145,
@@ -2187,8 +2187,8 @@
     "native": "Sudzal",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1710,
+    "type": "municipality",
+    "population": 1949,
     "wikiDataId": "Q2591099"
   },
   {
@@ -2203,24 +2203,8 @@
     "native": "Suma",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 1861,
-    "wikiDataId": "Q2588127"
-  },
-  {
-    "id": 75148,
-    "name": "Suma de Hidalgo",
-    "state_id": 3466,
-    "state_code": "YUC",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "21.08643000",
-    "longitude": "-89.14766000",
-    "native": "Suma de Hidalgo",
-    "timezone": "America/Merida",
-    "translations": {},
-    "type": "city",
-    "population": 1861,
+    "type": "locality",
+    "population": 1847,
     "wikiDataId": "Q6135440"
   },
   {
@@ -2235,9 +2219,9 @@
     "native": "Tahdzibicheno",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1699,
-    "wikiDataId": "Q20285962"
+    "type": "locality",
+    "population": 1717,
+    "wikiDataId": "Q6138012"
   },
   {
     "id": 75169,
@@ -2251,9 +2235,9 @@
     "native": "Tahdziu",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3742,
-    "wikiDataId": "Q20285962"
+    "type": "locality",
+    "population": 4963,
+    "wikiDataId": "Q6138014"
   },
   {
     "id": 75171,
@@ -2267,8 +2251,8 @@
     "native": "Tahtmek",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3609,
+    "type": "locality",
+    "population": 3654,
     "wikiDataId": "Q6138021"
   },
   {
@@ -2283,9 +2267,9 @@
     "native": "Teabo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 6551,
-    "wikiDataId": "Q20245523"
+    "type": "locality",
+    "population": 6890,
+    "wikiDataId": "Q6139522"
   },
   {
     "id": 75268,
@@ -2299,9 +2283,9 @@
     "native": "Tecax",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 25751,
-    "wikiDataId": "Q20286709"
+    "type": "locality",
+    "population": 28461,
+    "wikiDataId": "Q1880859"
   },
   {
     "id": 75273,
@@ -2315,8 +2299,8 @@
     "native": "Tecoh",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 16200,
+    "type": "municipality",
+    "population": 17939,
     "wikiDataId": "Q2977881"
   },
   {
@@ -2331,8 +2315,8 @@
     "native": "Tempal de Venegas",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 2616,
+    "type": "locality",
+    "population": 2645,
     "wikiDataId": "Q5855632"
   },
   {
@@ -2344,12 +2328,12 @@
     "country_code": "MX",
     "latitude": "21.00968000",
     "longitude": "-89.10723000",
-    "native": "Escandaloso",
+    "native": "Tekanto",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3683,
-    "wikiDataId": "Q20245527"
+    "wikiDataId": "Q931018"
   },
   {
     "id": 75311,
@@ -2363,8 +2347,8 @@
     "native": "Técnico",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 42440,
+    "type": "municipality",
+    "population": 45062,
     "wikiDataId": "Q535727"
   },
   {
@@ -2379,9 +2363,9 @@
     "native": "Tek de regil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1938,
-    "wikiDataId": "Q535727"
+    "wikiDataId": null
   },
   {
     "id": 75313,
@@ -2392,11 +2376,11 @@
     "country_code": "MX",
     "latitude": "20.53465000",
     "longitude": "-89.33315000",
-    "native": "Tek",
+    "native": "Tekit",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 9884,
+    "type": "locality",
+    "population": 11015,
     "wikiDataId": "Q5649946"
   },
   {
@@ -2408,10 +2392,10 @@
     "country_code": "MX",
     "latitude": "20.74361000",
     "longitude": "-89.47406000",
-    "native": "Texto",
+    "native": "Tekoh",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9134,
     "wikiDataId": "Q4453846"
   },
@@ -2424,11 +2408,11 @@
     "country_code": "MX",
     "latitude": "20.60303000",
     "longitude": "-88.26490000",
-    "native": "Durante",
+    "native": "Tekom",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2540,
+    "type": "locality",
+    "population": 2785,
     "wikiDataId": "Q6140354"
   },
   {
@@ -2443,7 +2427,7 @@
     "native": "Telchac Pueblo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3557,
     "wikiDataId": "Q10751880"
   },
@@ -2459,8 +2443,8 @@
     "native": "Telchac Puerto",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 1722,
+    "type": "locality",
+    "population": 1913,
     "wikiDataId": "Q1027590"
   },
   {
@@ -2475,9 +2459,9 @@
     "native": "Telchaquillo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1385,
-    "wikiDataId": "Q1027590"
+    "type": "locality",
+    "population": 1483,
+    "wikiDataId": "Q9082353"
   },
   {
     "id": 75334,
@@ -2491,8 +2475,8 @@
     "native": "Temax",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 6817,
+    "type": "locality",
+    "population": 6472,
     "wikiDataId": "Q20245531"
   },
   {
@@ -2507,8 +2491,8 @@
     "native": "Temázon",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 6553,
+    "type": "locality",
+    "population": 7365,
     "wikiDataId": "Q6140944"
   },
   {
@@ -2520,11 +2504,11 @@
     "country_code": "MX",
     "latitude": "21.04882000",
     "longitude": "-89.03873000",
-    "native": "Borde",
+    "native": "Tepakan",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2226,
+    "type": "locality",
+    "population": 1942,
     "wikiDataId": "Q6142087"
   },
   {
@@ -2539,8 +2523,8 @@
     "native": "Tesoco",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1362,
+    "type": "locality",
+    "population": 1872,
     "wikiDataId": "Q6143461"
   },
   {
@@ -2555,7 +2539,7 @@
     "native": "Tethriz",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3939,
     "wikiDataId": "Q6143606"
   },
@@ -2571,8 +2555,8 @@
     "native": "Texan de Palomeque",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3264,
+    "type": "locality",
+    "population": 3812,
     "wikiDataId": "Q6143768"
   },
   {
@@ -2584,11 +2568,11 @@
     "country_code": "MX",
     "latitude": "21.05071000",
     "longitude": "-89.07310000",
-    "native": "Té",
+    "native": "Teya",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1977,
+    "type": "locality",
+    "population": 1917,
     "wikiDataId": "Q6143772"
   },
   {
@@ -2603,9 +2587,9 @@
     "native": "Tibolón",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1633,
-    "wikiDataId": "Q20244271"
+    "type": "locality",
+    "population": 1847,
+    "wikiDataId": "Q5644698"
   },
   {
     "id": 75540,
@@ -2619,8 +2603,8 @@
     "native": "Ticopó",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1660,
+    "type": "locality",
+    "population": 1869,
     "wikiDataId": "Q6146458"
   },
   {
@@ -2632,10 +2616,10 @@
     "country_code": "MX",
     "latitude": "20.39833000",
     "longitude": "-89.53541000",
-    "native": "tic",
+    "native": "Ticul",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 32796,
     "wikiDataId": "Q1997462"
   },
@@ -2651,9 +2635,9 @@
     "native": "Tiholop",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1463,
-    "wikiDataId": "Q20245546"
+    "type": "locality",
+    "population": 1605,
+    "wikiDataId": "Q6146862"
   },
   {
     "id": 75564,
@@ -2667,8 +2651,8 @@
     "native": "Twek",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1336,
+    "type": "locality",
+    "population": 1654,
     "wikiDataId": "Q6146894"
   },
   {
@@ -2683,8 +2667,8 @@
     "native": "Timucuy",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3872,
+    "type": "locality",
+    "population": 4204,
     "wikiDataId": "Q6147093"
   },
   {
@@ -2696,11 +2680,11 @@
     "country_code": "MX",
     "latitude": "20.70004000",
     "longitude": "-88.51631000",
-    "native": "Estaño",
+    "native": "Tinum",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 11942,
+    "type": "municipality",
+    "population": 12700,
     "wikiDataId": "Q386901"
   },
   {
@@ -2715,8 +2699,8 @@
     "native": "Tixcacalcupul",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "city",
-    "population": 7157,
+    "type": "municipality",
+    "population": 7888,
     "wikiDataId": "Q2588020"
   },
   {
@@ -2731,7 +2715,7 @@
     "native": "Tixcacaltuyub",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2146,
     "wikiDataId": "Q6147641"
   },
@@ -2747,9 +2731,9 @@
     "native": "Tixcancal",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2165,
-    "wikiDataId": "Q6147641"
+    "type": "locality",
+    "population": 2235,
+    "wikiDataId": "Q6147643"
   },
   {
     "id": 75587,
@@ -2763,8 +2747,8 @@
     "native": "Tixhualactún",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1576,
+    "type": "locality",
+    "population": 1982,
     "wikiDataId": "Q6147650"
   },
   {
@@ -2779,7 +2763,7 @@
     "native": "Tixkokob",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10968,
     "wikiDataId": "Q1999963"
   },
@@ -2795,13 +2779,13 @@
     "native": "Tizerhuac",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 617,
+    "type": "municipality",
+    "population": 5444,
     "wikiDataId": "Q2591122"
   },
   {
     "id": 75591,
-    "name": "Tixpehual",
+    "name": "Tixpéhual",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -2811,8 +2795,8 @@
     "native": "Tixpehual",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3470,
+    "type": "locality",
+    "population": 3723,
     "wikiDataId": "Q5401058"
   },
   {
@@ -2827,24 +2811,24 @@
     "native": "Tizimin",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 52593,
     "wikiDataId": "Q2085590"
   },
   {
     "id": 75810,
-    "name": "Tunkas",
+    "name": "Tunkás",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "20.90294000",
     "longitude": "-88.75171000",
-    "native": "Astuto",
+    "native": "Tunkás",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3522,
+    "type": "locality",
+    "population": 3004,
     "wikiDataId": "Q4465535"
   },
   {
@@ -2859,8 +2843,8 @@
     "native": "Tzucacab",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 9967,
+    "type": "locality",
+    "population": 10879,
     "wikiDataId": "Q6154436"
   },
   {
@@ -2875,7 +2859,7 @@
     "native": "Uayalceh de Peón",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2323,
     "wikiDataId": "Q5689144"
   },
@@ -2891,8 +2875,8 @@
     "native": "Uayma",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3126,
+    "type": "locality",
+    "population": 3460,
     "wikiDataId": "Q1999633"
   },
   {
@@ -2907,9 +2891,9 @@
     "native": "UCI",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1224,
-    "wikiDataId": "Q1999633"
+    "type": "locality",
+    "population": 1212,
+    "wikiDataId": "Q6155213"
   },
   {
     "id": 75864,
@@ -2920,16 +2904,16 @@
     "country_code": "MX",
     "latitude": "21.03135000",
     "longitude": "-89.74466000",
-    "native": "Los trozos",
+    "native": "Ucú",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 2601,
+    "type": "locality",
+    "population": 3119,
     "wikiDataId": "Q6155214"
   },
   {
     "id": 75866,
-    "name": "Uman",
+    "name": "Umán",
     "state_id": 3466,
     "state_code": "YUC",
     "country_id": 142,
@@ -2939,7 +2923,7 @@
     "native": "UMAN",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 39611,
     "wikiDataId": "Q3548253"
   },
@@ -2955,8 +2939,8 @@
     "native": "Valladolid",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 48973,
+    "type": "locality",
+    "population": 56494,
     "wikiDataId": "Q1024731"
   },
   {
@@ -2971,8 +2955,8 @@
     "native": "X-tánh",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 5191,
+    "type": "locality",
+    "population": 5530,
     "wikiDataId": "Q6168428"
   },
   {
@@ -2987,8 +2971,8 @@
     "native": "Xanabá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1440,
+    "type": "locality",
+    "population": 1538,
     "wikiDataId": "Q6169074"
   },
   {
@@ -3000,12 +2984,12 @@
     "country_code": "MX",
     "latitude": "20.29653000",
     "longitude": "-89.18674000",
-    "native": "Uno",
+    "native": "Xaya",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1814,
-    "wikiDataId": "Q6169074"
+    "type": "locality",
+    "population": 2176,
+    "wikiDataId": "Q6169155"
   },
   {
     "id": 76131,
@@ -3016,12 +3000,12 @@
     "country_code": "MX",
     "latitude": "21.07664000",
     "longitude": "-89.63028000",
-    "native": "Xcanat encogido de hombros",
+    "native": "Xcanatún",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1495,
-    "wikiDataId": "Q20247502"
+    "type": "locality",
+    "population": 1733,
+    "wikiDataId": "Q6169163"
   },
   {
     "id": 76153,
@@ -3035,8 +3019,8 @@
     "native": "Xocchel",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 3482,
+    "type": "locality",
+    "population": 3447,
     "wikiDataId": "Q6169295"
   },
   {
@@ -3051,9 +3035,9 @@
     "native": "Xocen",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2407,
-    "wikiDataId": "Q6169295"
+    "type": "locality",
+    "population": 2816,
+    "wikiDataId": "Q6169318"
   },
   {
     "id": 76189,
@@ -3067,9 +3051,9 @@
     "native": "Xohuayo",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1405,
-    "wikiDataId": "Q20293940"
+    "type": "locality",
+    "population": 1600,
+    "wikiDataId": "Q6169320"
   },
   {
     "id": 76206,
@@ -3080,12 +3064,12 @@
     "country_code": "MX",
     "latitude": "20.10128000",
     "longitude": "-89.46274000",
-    "native": "Selección",
+    "native": "Xul",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1110,
-    "wikiDataId": "Q950717"
+    "type": "locality",
+    "population": 1434,
+    "wikiDataId": "Q6169371"
   },
   {
     "id": 76213,
@@ -3101,7 +3085,7 @@
     "translations": {},
     "type": "city",
     "population": 2808,
-    "wikiDataId": "Q4967826"
+    "wikiDataId": null
   },
   {
     "id": 76223,
@@ -3115,8 +3099,8 @@
     "native": "Yaxcabá",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3007,
+    "type": "locality",
+    "population": 3310,
     "wikiDataId": "Q6169846"
   },
   {
@@ -3131,9 +3115,9 @@
     "native": "Yakopoil",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1149,
-    "wikiDataId": "Q6169846"
+    "type": "locality",
+    "population": 1262,
+    "wikiDataId": "Q5891136"
   },
   {
     "id": 76226,
@@ -3147,9 +3131,9 @@
     "native": "Yaxhachen",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 1633,
-    "wikiDataId": "Q6169846"
+    "type": "locality",
+    "population": 1833,
+    "wikiDataId": "Q6169859"
   },
   {
     "id": 76227,
@@ -3163,8 +3147,8 @@
     "native": "Yaxkukul",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "adm2",
-    "population": 3109,
+    "type": "locality",
+    "population": 3197,
     "wikiDataId": "Q6169864"
   },
   {
@@ -3179,8 +3163,8 @@
     "native": "Yobain",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2227,
+    "type": "locality",
+    "population": 1876,
     "wikiDataId": "Q9097118"
   },
   {
@@ -3195,8 +3179,8 @@
     "native": "Yotholina",
     "timezone": "America/Merida",
     "translations": {},
-    "type": "city",
-    "population": 2267,
-    "wikiDataId": "Q20240657"
+    "type": "locality",
+    "population": 2569,
+    "wikiDataId": "Q6170318"
   }
 ]

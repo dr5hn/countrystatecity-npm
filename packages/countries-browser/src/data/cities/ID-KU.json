@@ -1,35 +1,19 @@
 [
   {
-    "id": 56381,
-    "name": "Bulungan",
-    "state_id": 1824,
-    "state_code": "KU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.00000000",
-    "longitude": "117.16667000",
-    "native": "Kabupaten Bulungan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14404"
-  },
-  {
     "id": 56512,
     "name": "Malinau",
     "state_id": 1824,
     "state_code": "KU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "2.45000000",
-    "longitude": "115.68333000",
-    "native": "Kabupaten Malinau",
-    "timezone": "Asia/Jakarta",
+    "latitude": "3.58902111",
+    "longitude": "116.62289889",
+    "native": "Malinau",
+    "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q14476"
+    "wikiDataId": "Q20455246"
   },
   {
     "id": 56562,
@@ -38,30 +22,14 @@
     "state_code": "KU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "4.13333000",
-    "longitude": "116.70000000",
-    "native": "Kabupaten Nunukan",
-    "timezone": "Asia/Jakarta",
+    "latitude": "4.07678898",
+    "longitude": "117.71891526",
+    "native": "Nunukan",
+    "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q14481"
-  },
-  {
-    "id": 56661,
-    "name": "Tana Tidung",
-    "state_id": 1824,
-    "state_code": "KU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.55000000",
-    "longitude": "117.25000000",
-    "native": "Kabupaten Tana Tidung",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14487"
+    "wikiDataId": "Q26759516"
   },
   {
     "id": 57019,
@@ -94,5 +62,21 @@
     "type": "city",
     "population": 201635,
     "wikiDataId": "Q14501"
+  },
+  {
+    "id": 56661,
+    "name": "Tideng Pale",
+    "state_id": 1824,
+    "state_code": "KU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "3.60833333",
+    "longitude": "116.90694444",
+    "native": "Tideng Pale",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "village",
+    "population": null,
+    "wikiDataId": "Q12521399"
   }
 ]

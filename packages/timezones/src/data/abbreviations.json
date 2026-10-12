@@ -1,16 +1,10 @@
 [
   {
-    "abbreviation": "ACDT",
-    "name": "Australian Central Daylight Saving Time",
-    "timezones": [
-      "Australia/Adelaide",
-      "Australia/Broken_Hill"
-    ]
-  },
-  {
     "abbreviation": "ACST",
     "name": "Australian Central Standard Time",
     "timezones": [
+      "Australia/Adelaide",
+      "Australia/Broken_Hill",
       "Australia/Darwin"
     ]
   },
@@ -30,21 +24,16 @@
     ]
   },
   {
-    "abbreviation": "AEDT",
-    "name": "Australian Eastern Daylight Saving Time",
-    "timezones": [
-      "Australia/Currie",
-      "Australia/Hobart",
-      "Australia/Melbourne",
-      "Australia/Sydney"
-    ]
-  },
-  {
     "abbreviation": "AEST",
     "name": "Australian Eastern Standard Time",
     "timezones": [
+      "Antarctica/Macquarie",
       "Australia/Brisbane",
-      "Australia/Lindeman"
+      "Australia/Currie",
+      "Australia/Hobart",
+      "Australia/Lindeman",
+      "Australia/Melbourne",
+      "Australia/Sydney"
     ]
   },
   {
@@ -67,13 +56,6 @@
     ]
   },
   {
-    "abbreviation": "ALMT",
-    "name": "Alma-Ata Time[1",
-    "timezones": [
-      "Asia/Almaty"
-    ]
-  },
-  {
     "abbreviation": "AMT",
     "name": "Armenia Time",
     "timezones": [
@@ -86,7 +68,7 @@
   },
   {
     "abbreviation": "ANAT",
-    "name": "Anadyr Time[4",
+    "name": "Anadyr Time",
     "timezones": [
       "Asia/Anadyr"
     ]
@@ -140,6 +122,7 @@
       "America/Grenada",
       "America/Guadeloupe",
       "Asia/Baghdad",
+      "Asia/Amman",
       "Asia/Kuwait",
       "America/Martinique",
       "America/Montserrat",
@@ -151,6 +134,7 @@
       "America/St_Barthelemy",
       "America/Marigot",
       "Asia/Riyadh",
+      "Asia/Damascus",
       "America/Port_of_Spain",
       "America/Tortola",
       "America/St_Thomas",
@@ -239,6 +223,8 @@
       "Africa/Blantyre",
       "Africa/Maputo",
       "Africa/Kigali",
+      "Africa/Juba",
+      "Africa/Khartoum",
       "Africa/Lusaka",
       "Africa/Harare"
     ]
@@ -339,8 +325,14 @@
     "timezones": [
       "Antarctica/Palmer",
       "America/Punta_Arenas",
-      "America/Santiago",
       "America/Coyhaique"
+    ]
+  },
+  {
+    "abbreviation": "CLT",
+    "name": "Chile Standard Time",
+    "timezones": [
+      "America/Santiago"
     ]
   },
   {
@@ -355,12 +347,15 @@
     "name": "Central Standard Time (North America)",
     "timezones": [
       "America/Belize",
+      "America/Edmonton",
+      "America/Inuvik",
       "America/Rainy_River",
       "America/Rankin_Inlet",
       "America/Regina",
       "America/Resolute",
       "America/Swift_Current",
       "America/Winnipeg",
+      "America/Yellowknife",
       "Asia/Shanghai",
       "America/Costa_Rica",
       "America/Havana",
@@ -369,10 +364,12 @@
       "America/Tegucigalpa",
       "Asia/Macau",
       "America/Bahia_Banderas",
+      "America/Chihuahua",
       "America/Matamoros",
       "America/Merida",
       "America/Mexico_City",
       "America/Monterrey",
+      "America/Ojinaga",
       "America/Managua",
       "Asia/Taipei",
       "America/Chicago",
@@ -413,8 +410,8 @@
     ]
   },
   {
-    "abbreviation": "EASST",
-    "name": "Easter Island Summer Time",
+    "abbreviation": "EAST",
+    "name": "Easter Island Standard Time",
     "timezones": [
       "Pacific/Easter"
     ]
@@ -431,8 +428,6 @@
       "Indian/Antananarivo",
       "Indian/Mayotte",
       "Africa/Mogadishu",
-      "Africa/Juba",
-      "Africa/Khartoum",
       "Africa/Dar_es_Salaam",
       "Africa/Kampala"
     ]
@@ -456,7 +451,6 @@
       "Europe/Tallinn",
       "Europe/Helsinki",
       "Europe/Athens",
-      "Asia/Amman",
       "Europe/Riga",
       "Asia/Beirut",
       "Africa/Tripoli",
@@ -466,18 +460,10 @@
       "Asia/Hebron",
       "Europe/Bucharest",
       "Europe/Kaliningrad",
-      "Asia/Damascus",
       "Europe/Istanbul",
       "Europe/Kyiv",
       "Europe/Uzhgorod",
       "Europe/Zaporozhye"
-    ]
-  },
-  {
-    "abbreviation": "EGT",
-    "name": "Eastern Greenland Time",
-    "timezones": [
-      "America/Scoresbysund"
     ]
   },
   {
@@ -710,8 +696,18 @@
     ]
   },
   {
+    "abbreviation": "KZT",
+    "name": "Kazakhstan Time",
+    "timezones": [
+      "Asia/Almaty",
+      "Asia/Atyrau",
+      "Asia/Qostanay",
+      "Asia/Qyzylorda"
+    ]
+  },
+  {
     "abbreviation": "LHST",
-    "name": "Lord Howe Summer Time",
+    "name": "Lord Howe Standard Time",
     "timezones": [
       "Australia/Lord_Howe"
     ]
@@ -753,13 +749,6 @@
     ]
   },
   {
-    "abbreviation": "MIST",
-    "name": "Macquarie Island Station Time",
-    "timezones": [
-      "Antarctica/Macquarie"
-    ]
-  },
-  {
     "abbreviation": "MMT",
     "name": "Myanmar Standard Time",
     "timezones": [
@@ -771,13 +760,6 @@
     "name": "Moscow Daylight Time+4",
     "timezones": [
       "Europe/Saratov"
-    ]
-  },
-  {
-    "abbreviation": "MSD+1",
-    "name": "Moscow Daylight Time+1",
-    "timezones": [
-      "Asia/Atyrau"
     ]
   },
   {
@@ -806,15 +788,11 @@
       "America/Creston",
       "America/Dawson",
       "America/Dawson_Creek",
-      "America/Edmonton",
       "America/Fort_Nelson",
-      "America/Inuvik",
+      "America/Vancouver",
       "America/Whitehorse",
-      "America/Yellowknife",
-      "America/Chihuahua",
       "America/Hermosillo",
       "America/Mazatlan",
-      "America/Ojinaga",
       "America/Ciudad_Juarez",
       "America/Boise",
       "America/Denver",
@@ -893,8 +871,8 @@
     ]
   },
   {
-    "abbreviation": "NZDT",
-    "name": "New Zealand Daylight Time",
+    "abbreviation": "NZST",
+    "name": "New Zealand Standard Time",
     "timezones": [
       "Antarctica/McMurdo",
       "Pacific/Auckland"
@@ -974,7 +952,6 @@
     "abbreviation": "PST",
     "name": "Pacific Standard Time (North America)",
     "timezones": [
-      "America/Vancouver",
       "America/Tijuana",
       "Pacific/Pitcairn",
       "America/Los_Angeles"
@@ -992,20 +969,6 @@
     "name": "Paraguay Summer Time",
     "timezones": [
       "America/Asuncion"
-    ]
-  },
-  {
-    "abbreviation": "QYZST",
-    "name": "Qyzylorda Summer Time",
-    "timezones": [
-      "Asia/Qostanay"
-    ]
-  },
-  {
-    "abbreviation": "QYZT",
-    "name": "Qyzylorda Summer Time",
-    "timezones": [
-      "Asia/Qyzylorda"
     ]
   },
   {
@@ -1236,18 +1199,12 @@
     ]
   },
   {
-    "abbreviation": "WEST",
-    "name": "Western European Summer Time",
-    "timezones": [
-      "Africa/Casablanca",
-      "Africa/El_Aaiun"
-    ]
-  },
-  {
     "abbreviation": "WET",
     "name": "Western European Time",
     "timezones": [
       "Atlantic/Faroe",
+      "Africa/Casablanca",
+      "Africa/El_Aaiun",
       "Atlantic/Madeira",
       "Europe/Lisbon",
       "Atlantic/Canary"
@@ -1264,7 +1221,8 @@
     "abbreviation": "WGT",
     "name": "West Greenland Time",
     "timezones": [
-      "America/Nuuk"
+      "America/Nuuk",
+      "America/Scoresbysund"
     ]
   },
   {

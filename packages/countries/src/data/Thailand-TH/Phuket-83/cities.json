@@ -160,22 +160,6 @@
     "wikiDataId": "Q15629541"
   },
   {
-    "id": 105575,
-    "name": "Mueang Phuket",
-    "state_id": 3536,
-    "state_code": "83",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.85609000",
-    "longitude": "98.37183000",
-    "native": "อำเภอเมืองภูเก็ต",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476065"
-  },
-  {
     "id": 106578,
     "name": "Nai Harn",
     "state_id": 3536,
@@ -189,7 +173,7 @@
     "translations": {},
     "type": "city",
     "population": 4767,
-    "wikiDataId": "Q28727633"
+    "wikiDataId": null
   },
   {
     "id": 106615,
@@ -219,7 +203,7 @@
     "native": "ภูเก็ต",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 77610,
     "wikiDataId": "Q844430"
   },
@@ -235,7 +219,7 @@
     "native": "ราไวย์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 16988,
     "wikiDataId": "Q15629557"
   },
@@ -267,7 +251,7 @@
     "native": "วิชิต",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 46440,
     "wikiDataId": "Q15141380"
   }

@@ -8,10 +8,10 @@
     "country_code": "CH",
     "latitude": "47.14995000",
     "longitude": "9.02551000",
-    "native": "Bulletin",
+    "native": "Bilten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2011,
     "wikiDataId": "Q661545"
   },
@@ -24,10 +24,10 @@
     "country_code": "CH",
     "latitude": "47.03363000",
     "longitude": "9.07888000",
-    "native": "Donnda",
+    "native": "Ennenda",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2637,
     "wikiDataId": "Q659434"
   },
@@ -43,9 +43,9 @@
     "native": "Glarus",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm1",
-    "population": 12539,
-    "wikiDataId": "Q15730054"
+    "type": "municipality",
+    "population": 12968,
+    "wikiDataId": "Q63912"
   },
   {
     "id": 18086,
@@ -59,7 +59,7 @@
     "native": "Lintal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1080,
     "wikiDataId": "Q661454"
   },
@@ -75,7 +75,7 @@
     "native": "Luchsingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1119,
     "wikiDataId": "Q659932"
   },
@@ -88,10 +88,10 @@
     "country_code": "CH",
     "latitude": "47.08878000",
     "longitude": "9.07242000",
-    "native": "Weich",
+    "native": "Mollis",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3014,
     "wikiDataId": "Q644055"
   },
@@ -107,7 +107,7 @@
     "native": "Näfels",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3978,
     "wikiDataId": "Q182806"
   },
@@ -123,7 +123,7 @@
     "native": "Netstal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2900,
     "wikiDataId": "Q607716"
   },
@@ -139,7 +139,7 @@
     "native": "Niederurnen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3657,
     "wikiDataId": "Q659838"
   },
@@ -155,7 +155,7 @@
     "native": "Oberurnen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1870,
     "wikiDataId": "Q659884"
   },
@@ -171,7 +171,7 @@
     "native": "Schwanden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2541,
     "wikiDataId": "Q659947"
   }

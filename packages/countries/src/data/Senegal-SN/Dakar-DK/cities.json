@@ -1,5 +1,21 @@
 [
   {
+    "id": 165548,
+    "name": "Bargny",
+    "state_id": 473,
+    "state_code": "DK",
+    "country_id": 195,
+    "country_code": "SN",
+    "latitude": "14.69707000",
+    "longitude": "-17.23015000",
+    "native": null,
+    "timezone": "Africa/Dakar",
+    "translations": {},
+    "type": "city",
+    "population": 69242,
+    "wikiDataId": "Q2884475"
+  },
+  {
     "id": 104704,
     "name": "Dakar",
     "state_id": 473,
@@ -27,9 +43,25 @@
     "native": "Département Dakar",
     "timezone": "Africa/Dakar",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1278469,
     "wikiDataId": "Q2066372"
+  },
+  {
+    "id": 165549,
+    "name": "Diamniadio",
+    "state_id": 473,
+    "state_code": "DK",
+    "country_id": 195,
+    "country_code": "SN",
+    "latitude": "14.72051000",
+    "longitude": "-17.18160000",
+    "native": null,
+    "timezone": "Africa/Dakar",
+    "translations": {},
+    "type": "city",
+    "population": 47759,
+    "wikiDataId": "Q3026080"
   },
   {
     "id": 104716,
@@ -43,7 +75,7 @@
     "native": "Guédiawaye Department",
     "timezone": "Africa/Dakar",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 372708,
     "wikiDataId": "Q957409"
   },
@@ -72,7 +104,7 @@
     "country_code": "SN",
     "latitude": "14.78148000",
     "longitude": "-17.38410000",
-    "native": "N'diaree Five",
+    "native": "N’diareme limamoulaye",
     "timezone": "Africa/Dakar",
     "translations": {},
     "type": "city",
@@ -104,12 +136,28 @@
     "country_code": "SN",
     "latitude": "14.76515000",
     "longitude": "-17.35198000",
-    "native": "Département des pikines",
+    "native": "Pikine Department",
     "timezone": "Africa/Dakar",
     "translations": {},
     "type": "city",
     "population": 758554,
     "wikiDataId": "Q255486"
+  },
+  {
+    "id": 165546,
+    "name": "Rufisque",
+    "state_id": 473,
+    "state_code": "DK",
+    "country_id": 195,
+    "country_code": "SN",
+    "latitude": "14.71542000",
+    "longitude": "-17.27334000",
+    "native": null,
+    "timezone": "Africa/Dakar",
+    "translations": {},
+    "type": "city",
+    "population": 295459,
+    "wikiDataId": "Q1019424"
   },
   {
     "id": 104756,
@@ -126,5 +174,21 @@
     "type": "city",
     "population": 818337,
     "wikiDataId": "Q2067770"
+  },
+  {
+    "id": 165550,
+    "name": "Sébikhotane",
+    "state_id": 473,
+    "state_code": "DK",
+    "country_id": 195,
+    "country_code": "SN",
+    "latitude": "14.74521000",
+    "longitude": "-17.13783000",
+    "native": null,
+    "timezone": "Africa/Dakar",
+    "translations": {},
+    "type": "city",
+    "population": 42839,
+    "wikiDataId": "Q842200"
   }
 ]

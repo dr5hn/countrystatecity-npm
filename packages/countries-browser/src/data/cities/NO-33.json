@@ -11,25 +11,25 @@
     "native": "Ål",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 2278,
+    "type": "municipality",
+    "population": 5106,
     "wikiDataId": "Q113538"
   },
   {
-    "id": 79685,
-    "name": "Åros",
+    "id": 79070,
+    "name": "Berger",
     "state_id": 5449,
     "state_code": "33",
     "country_id": 165,
     "country_code": "NO",
-    "latitude": "59.70610000",
-    "longitude": "10.51092000",
-    "native": "Åros",
+    "latitude": "59.54994000",
+    "longitude": "10.38641000",
+    "native": "Berger",
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "city",
-    "population": 1142,
-    "wikiDataId": "Q1873950"
+    "population": 1095,
+    "wikiDataId": "Q3366014"
   },
   {
     "id": 79104,
@@ -43,9 +43,9 @@
     "native": "Drammen",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm1",
-    "population": 105452,
-    "wikiDataId": "Q15138612"
+    "type": "city",
+    "population": 106013,
+    "wikiDataId": "Q26525"
   },
   {
     "id": 79153,
@@ -59,8 +59,8 @@
     "native": "Flå",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 1117,
+    "type": "municipality",
+    "population": 1122,
     "wikiDataId": "Q93703"
   },
   {
@@ -75,8 +75,8 @@
     "native": "Flesberg",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 2797,
+    "type": "municipality",
+    "population": 2790,
     "wikiDataId": "Q93633"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Geilo",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 2586,
+    "type": "locality",
+    "population": 2648,
     "wikiDataId": "Q728230"
   },
   {
@@ -107,8 +107,8 @@
     "native": "Gol",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 4888,
+    "type": "municipality",
+    "population": 4902,
     "wikiDataId": "Q493301"
   },
   {
@@ -123,9 +123,25 @@
     "native": "Hemsedal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 2685,
+    "type": "municipality",
+    "population": 2707,
     "wikiDataId": "Q497248"
+  },
+  {
+    "id": 165374,
+    "name": "Hokksund",
+    "state_id": 5449,
+    "state_code": "33",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.77077000",
+    "longitude": "9.90987000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1310876"
   },
   {
     "id": 79227,
@@ -139,8 +155,8 @@
     "native": "Hol",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 4527,
+    "type": "municipality",
+    "population": 4552,
     "wikiDataId": "Q484057"
   },
   {
@@ -152,11 +168,11 @@
     "country_code": "NO",
     "latitude": "60.08017000",
     "longitude": "10.27840000",
-    "native": "Hull",
+    "native": "Hole",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 7205,
     "wikiDataId": "Q488622"
   },
   {
@@ -171,25 +187,9 @@
     "native": "Hønefoss",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 17084,
+    "type": "town",
+    "population": 17342,
     "wikiDataId": "Q865925"
-  },
-  {
-    "id": 79240,
-    "name": "Hurum",
-    "state_id": 5449,
-    "state_code": "33",
-    "country_id": 165,
-    "country_code": "NO",
-    "latitude": "59.61401000",
-    "longitude": "10.45763000",
-    "native": "Hurum",
-    "timezone": "Europe/Oslo",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q488611"
   },
   {
     "id": 79242,
@@ -203,7 +203,7 @@
     "native": "Hvittingfoss",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1122,
     "wikiDataId": "Q1770925"
   },
@@ -219,8 +219,8 @@
     "native": "Kongsberg",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 29011,
+    "type": "city",
+    "population": 29169,
     "wikiDataId": "Q108988"
   },
   {
@@ -235,9 +235,25 @@
     "native": "Krødsherad",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 2235,
+    "type": "municipality",
+    "population": 2276,
     "wikiDataId": "Q48886"
+  },
+  {
+    "id": 165381,
+    "name": "Lampeland",
+    "state_id": 5449,
+    "state_code": "33",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.83486000",
+    "longitude": "9.57912000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "locality",
+    "population": 661,
+    "wikiDataId": "Q2783890"
   },
   {
     "id": 79320,
@@ -251,9 +267,25 @@
     "native": "Lier",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 28797,
     "wikiDataId": "Q488607"
+  },
+  {
+    "id": 165385,
+    "name": "Lierbyen",
+    "state_id": 5449,
+    "state_code": "33",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.78651000",
+    "longitude": "10.24447000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2072812"
   },
   {
     "id": 79368,
@@ -264,11 +296,11 @@
     "country_code": "NO",
     "latitude": "59.97346000",
     "longitude": "10.00468000",
-    "native": "Metodisk",
+    "native": "Modum",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 14664,
+    "type": "municipality",
+    "population": 14776,
     "wikiDataId": "Q484001"
   },
   {
@@ -299,8 +331,8 @@
     "native": "Nesbyen",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 2145,
+    "type": "locality",
+    "population": 2097,
     "wikiDataId": "Q2723773"
   },
   {
@@ -315,8 +347,8 @@
     "native": "Nore og Uvdal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 2459,
     "wikiDataId": "Q48924"
   },
   {
@@ -331,8 +363,8 @@
     "native": "Noresund",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 374,
+    "type": "locality",
+    "population": 383,
     "wikiDataId": "Q1776829"
   },
   {
@@ -347,8 +379,8 @@
     "native": "Øvre Eiker",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 20861,
+    "type": "municipality",
+    "population": 20965,
     "wikiDataId": "Q110311"
   },
   {
@@ -363,8 +395,8 @@
     "native": "Prestfoss",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 520,
+    "type": "locality",
+    "population": 516,
     "wikiDataId": "Q1779198"
   },
   {
@@ -379,8 +411,8 @@
     "native": "Ringerike",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 31793,
+    "type": "municipality",
+    "population": 31942,
     "wikiDataId": "Q110848"
   },
   {
@@ -395,41 +427,25 @@
     "native": "Rollag",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 1414,
+    "type": "municipality",
+    "population": 1452,
     "wikiDataId": "Q483911"
   },
   {
-    "id": 79471,
-    "name": "Røyken",
+    "id": 165393,
+    "name": "Rødberg",
     "state_id": 5449,
     "state_code": "33",
     "country_id": 165,
     "country_code": "NO",
-    "latitude": "59.74019000",
-    "longitude": "10.41321000",
-    "native": "Røyken",
+    "latitude": "60.26722000",
+    "longitude": "8.94721000",
+    "native": null,
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 4030,
-    "wikiDataId": "Q488663"
-  },
-  {
-    "id": 79574,
-    "name": "Sætre",
-    "state_id": 5449,
-    "state_code": "33",
-    "country_id": 165,
-    "country_code": "NO",
-    "latitude": "59.68129000",
-    "longitude": "10.52749000",
-    "native": "Sætre",
-    "timezone": "Europe/Oslo",
-    "translations": {},
-    "type": "city",
-    "population": 3009,
-    "wikiDataId": "Q2440843"
+    "type": "locality",
+    "population": 508,
+    "wikiDataId": "Q4129912"
   },
   {
     "id": 79497,
@@ -443,8 +459,8 @@
     "native": "Sigdal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 3530,
+    "type": "municipality",
+    "population": 3514,
     "wikiDataId": "Q486726"
   },
   {
@@ -464,36 +480,20 @@
     "wikiDataId": "Q48265"
   },
   {
-    "id": 79597,
-    "name": "Tofte",
+    "id": 79570,
+    "name": "Svelvik",
     "state_id": 5449,
     "state_code": "33",
     "country_id": 165,
     "country_code": "NO",
-    "latitude": "59.54275000",
-    "longitude": "10.56138000",
-    "native": "Tofte",
+    "latitude": "59.60677000",
+    "longitude": "10.40225000",
+    "native": "Svelvik",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 3158,
-    "wikiDataId": "Q3434129"
-  },
-  {
-    "id": 79601,
-    "name": "Tomter",
-    "state_id": 5449,
-    "state_code": "33",
-    "country_id": 165,
-    "country_code": "NO",
-    "latitude": "59.65910000",
-    "longitude": "10.99487000",
-    "native": "Tomter",
-    "timezone": "Europe/Oslo",
-    "translations": {},
-    "type": "city",
-    "population": 2238,
-    "wikiDataId": "Q2143217"
+    "type": "adm2",
+    "population": 4235,
+    "wikiDataId": "Q48701"
   },
   {
     "id": 79604,
@@ -512,6 +512,22 @@
     "wikiDataId": "Q2681619"
   },
   {
+    "id": 165406,
+    "name": "Vik",
+    "state_id": 5449,
+    "state_code": "33",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "60.07706000",
+    "longitude": "10.27908000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4572988"
+  },
+  {
     "id": 79653,
     "name": "Vikersund",
     "state_id": 5449,
@@ -523,8 +539,8 @@
     "native": "Vikersund",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 3250,
+    "type": "locality",
+    "population": 3338,
     "wikiDataId": "Q988426"
   }
 ]

@@ -11,7 +11,7 @@
     "native": "Altrincham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 41548,
     "wikiDataId": "Q445058"
   },
@@ -27,7 +27,7 @@
     "native": "Bowdon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6214,
     "wikiDataId": "Q4950774"
   },
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 1068,
-    "wikiDataId": "Q210891"
+    "wikiDataId": null
   },
   {
     "id": 49781,
@@ -64,70 +64,6 @@
     "wikiDataId": "Q5641345"
   },
   {
-    "id": 49928,
-    "name": "High Legh",
-    "state_id": 2293,
-    "state_code": "TRF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.35139000",
-    "longitude": "-2.45380000",
-    "native": "High Legh",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1145,
-    "wikiDataId": "Q2673596"
-  },
-  {
-    "id": 50069,
-    "name": "Irlam",
-    "state_id": 2293,
-    "state_code": "TRF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.44253000",
-    "longitude": "-2.42323000",
-    "native": "Iram",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 19442,
-    "wikiDataId": "Q2249195"
-  },
-  {
-    "id": 50223,
-    "name": "Knutsford",
-    "state_id": 2293,
-    "state_code": "TRF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.30289000",
-    "longitude": "-2.37482000",
-    "native": "Knutsford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13259,
-    "wikiDataId": "Q1470791"
-  },
-  {
-    "id": 50608,
-    "name": "Mobberley",
-    "state_id": 2293,
-    "state_code": "TRF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.31667000",
-    "longitude": "-2.31667000",
-    "native": "Mobberley",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 2034,
-    "wikiDataId": "Q6886651"
-  },
-  {
     "id": 50856,
     "name": "Partington",
     "state_id": 2293,
@@ -139,7 +75,7 @@
     "native": "Partington",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 7708,
     "wikiDataId": "Q1615943"
   },
@@ -155,7 +91,7 @@
     "native": "Sale",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 55689,
     "wikiDataId": "Q1022733"
   },
@@ -171,7 +107,7 @@
     "native": "Stretford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 46910,
     "wikiDataId": "Q374458"
   },
@@ -192,20 +128,20 @@
     "wikiDataId": "Q7807653"
   },
   {
-    "id": 51657,
-    "name": "Trafford",
+    "id": 51658,
+    "name": "Trafford Park",
     "state_id": 2293,
     "state_code": "TRF",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.41667000",
-    "longitude": "-2.33333000",
-    "native": "Trafford",
+    "latitude": "53.46879000",
+    "longitude": "-2.31194000",
+    "native": "Trafford Park",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
-    "population": 11049,
-    "wikiDataId": "Q915954"
+    "population": 3060,
+    "wikiDataId": "Q940877"
   },
   {
     "id": 51708,
@@ -216,10 +152,10 @@
     "country_code": "GB",
     "latitude": "53.44852000",
     "longitude": "-2.35419000",
-    "native": "Urfon",
+    "native": "Urmston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 41198,
     "wikiDataId": "Q4006479"
   }

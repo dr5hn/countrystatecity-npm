@@ -1,5 +1,21 @@
 [
   {
+    "id": 165606,
+    "name": "Adıyaman",
+    "state_id": 2155,
+    "state_code": "02",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "37.76441000",
+    "longitude": "38.27629000",
+    "native": null,
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 235160,
+    "wikiDataId": "Q168197"
+  },
+  {
     "id": 107332,
     "name": "Besni",
     "state_id": 2155,
@@ -11,9 +27,9 @@
     "native": "Besni",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 41892,
-    "wikiDataId": "Q1911139"
+    "type": "municipality",
+    "population": 38956,
+    "wikiDataId": "Q2411923"
   },
   {
     "id": 108814,
@@ -29,7 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16065,
-    "wikiDataId": "Q122320"
+    "wikiDataId": null
   },
   {
     "id": 107666,
@@ -43,9 +59,9 @@
     "native": "Gerger",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 19450,
-    "wikiDataId": "Q1023286"
+    "type": "municipality",
+    "population": 2633,
+    "wikiDataId": "Q2408119"
   },
   {
     "id": 107688,
@@ -61,7 +77,7 @@
     "translations": {},
     "type": "adm2",
     "population": 28078,
-    "wikiDataId": "Q1020643"
+    "wikiDataId": null
   },
   {
     "id": 108069,
@@ -77,23 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 73105,
-    "wikiDataId": "Q211952"
-  },
-  {
-    "id": 108194,
-    "name": "Merkez",
-    "state_id": 2155,
-    "state_code": "02",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "37.74454000",
-    "longitude": "38.26801000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "wikiDataId": null
   },
   {
     "id": 108379,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7893,
-    "wikiDataId": "Q2671116"
+    "wikiDataId": null
   },
   {
     "id": 108471,
@@ -125,7 +125,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7152,
-    "wikiDataId": "Q1020659"
+    "wikiDataId": null
   },
   {
     "id": 108606,
@@ -136,11 +136,11 @@
     "country_code": "TR",
     "latitude": "37.79529000",
     "longitude": "37.91610000",
-    "native": "Tutturmak",
+    "native": "Tut",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
     "population": 7560,
-    "wikiDataId": "Q5250179"
+    "wikiDataId": null
   }
 ]

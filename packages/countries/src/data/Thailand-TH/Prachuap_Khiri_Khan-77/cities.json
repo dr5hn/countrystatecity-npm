@@ -16,54 +16,6 @@
     "wikiDataId": "Q475257"
   },
   {
-    "id": 105349,
-    "name": "Amphoe Hua Hin",
-    "state_id": 3508,
-    "state_code": "77",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.53522000",
-    "longitude": "99.70366000",
-    "native": "อำเภอ หัวหิน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q1666491"
-  },
-  {
-    "id": 105460,
-    "name": "Amphoe Kui Buri",
-    "state_id": 3508,
-    "state_code": "77",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.11311000",
-    "longitude": "99.75462000",
-    "native": "อำเภอกุยบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475843"
-  },
-  {
-    "id": 105796,
-    "name": "Amphoe Pran Buri",
-    "state_id": 3508,
-    "state_code": "77",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.39040000",
-    "longitude": "99.69690000",
-    "native": "อำเภอปราณบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476524"
-  },
-  {
     "id": 106177,
     "name": "Amphoe Sam Roi Yot",
     "state_id": 3508,
@@ -93,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 15134,
-    "wikiDataId": "Q28732633"
+    "wikiDataId": null
   },
   {
     "id": 105245,
@@ -102,14 +54,14 @@
     "state_code": "77",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "11.07057000",
-    "longitude": "99.34105000",
-    "native": "อำเภอบางสะพานน้อย",
+    "latitude": "11.07535000",
+    "longitude": "99.44152000",
+    "native": "บางสะพานน้อย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475262"
+    "wikiDataId": null
   },
   {
     "id": 106498,
@@ -134,30 +86,14 @@
     "state_code": "77",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "12.08283000",
-    "longitude": "99.85431000",
+    "latitude": "12.07020000",
+    "longitude": "99.86670000",
     "native": "กุยบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 19046,
-    "wikiDataId": "Q28731273"
-  },
-  {
-    "id": 105577,
-    "name": "Mueang Prachuap Khiri Khan",
-    "state_id": 3508,
-    "state_code": "77",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "11.87144000",
-    "longitude": "99.73563000",
-    "native": "อำเภอเมืองประจวบคีรีขันธ์",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476067"
+    "wikiDataId": "Q28731273"
   },
   {
     "id": 106656,
@@ -171,7 +107,7 @@
     "native": "ประจวบคีรีขันธ์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 33521,
     "wikiDataId": "Q373340"
   },
@@ -182,13 +118,13 @@
     "state_code": "77",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "12.38487000",
-    "longitude": "99.90157000",
+    "latitude": "12.39388889",
+    "longitude": "99.91588889",
     "native": "ปราณบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 47293,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28731267"
   },
   {
@@ -205,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 19709,
-    "wikiDataId": "Q13025385"
+    "wikiDataId": null
   },
   {
     "id": 106301,
@@ -214,13 +150,13 @@
     "state_code": "77",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "11.54787000",
-    "longitude": "99.57159000",
-    "native": "อำเภอทับสะแก",
+    "latitude": "11.49964000",
+    "longitude": "99.62170000",
+    "native": "ทับสะแก",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476896"
+    "wikiDataId": null
   }
 ]

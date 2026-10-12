@@ -11,9 +11,9 @@
     "native": "Ayabaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5985,
-    "wikiDataId": "Q792713"
+    "wikiDataId": "Q6317672"
   },
   {
     "id": 80577,
@@ -27,9 +27,9 @@
     "native": "Bernal",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6855,
-    "wikiDataId": "Q3344055"
+    "wikiDataId": "Q4892846"
   },
   {
     "id": 80578,
@@ -43,9 +43,9 @@
     "native": "Buenos Aires",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7932,
-    "wikiDataId": "Q3344055"
+    "wikiDataId": "Q2879044"
   },
   {
     "id": 80596,
@@ -59,9 +59,9 @@
     "native": "Catacaos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 57304,
-    "wikiDataId": "Q3312424"
+    "wikiDataId": "Q5051137"
   },
   {
     "id": 80624,
@@ -75,9 +75,9 @@
     "native": "Chulucanas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 68835,
-    "wikiDataId": "Q1089449"
+    "wikiDataId": "Q2973511"
   },
   {
     "id": 80638,
@@ -91,9 +91,9 @@
     "native": "El Alto",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9303,
-    "wikiDataId": "Q5582862"
+    "wikiDataId": "Q5350730"
   },
   {
     "id": 80650,
@@ -107,9 +107,9 @@
     "native": "Huancabamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8553,
-    "wikiDataId": "Q2307821"
+    "wikiDataId": "Q3826128"
   },
   {
     "id": 80686,
@@ -120,7 +120,7 @@
     "country_code": "PE",
     "latitude": "-4.25691000",
     "longitude": "-80.88599000",
-    "native": "Brío",
+    "native": "La Breita",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
@@ -139,9 +139,9 @@
     "native": "La Huaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8468,
-    "wikiDataId": "Q2640092"
+    "wikiDataId": "Q6318118"
   },
   {
     "id": 80691,
@@ -155,9 +155,9 @@
     "native": "La Unión",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 34834,
-    "wikiDataId": "Q595441"
+    "wikiDataId": "Q3826644"
   },
   {
     "id": 80698,
@@ -171,9 +171,9 @@
     "native": "Las Lomas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9450,
-    "wikiDataId": "Q6488869"
+    "wikiDataId": "Q3826737"
   },
   {
     "id": 80727,
@@ -187,9 +187,9 @@
     "native": "Máncora",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10547,
-    "wikiDataId": "Q529807"
+    "wikiDataId": "Q6949621"
   },
   {
     "id": 80711,
@@ -200,12 +200,12 @@
     "country_code": "PE",
     "latitude": "-4.87778000",
     "longitude": "-80.70528000",
-    "native": "Marca",
+    "native": "Marcavelica",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 29569,
-    "wikiDataId": "Q1026235"
+    "wikiDataId": "Q8560848"
   },
   {
     "id": 80721,
@@ -232,11 +232,27 @@
     "country_code": "PE",
     "latitude": "-5.08917000",
     "longitude": "-81.11444000",
-    "native": "Camisa",
+    "native": "Paita",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 56151,
+    "wikiDataId": "Q6318040"
+  },
+  {
+    "id": 80870,
+    "name": "Paita",
+    "state_id": 3697,
+    "state_code": "PIU",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-5.10189000",
+    "longitude": "-81.09695000",
+    "native": "Paita",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1026270"
   },
   {
@@ -251,8 +267,24 @@
     "native": "Piura",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 473025,
+    "wikiDataId": "Q3825445"
+  },
+  {
+    "id": 80879,
+    "name": "Piura",
+    "state_id": 3697,
+    "state_code": "PIU",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-5.19416667",
+    "longitude": "-80.62888889",
+    "native": "Piura",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q223966"
   },
   {
@@ -267,7 +299,7 @@
     "native": "Provincia de Ayabaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 119287,
     "wikiDataId": "Q1367672"
   },
@@ -283,73 +315,9 @@
     "native": "Provincia de Huancabamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 111501,
     "wikiDataId": "Q1422619"
-  },
-  {
-    "id": 80870,
-    "name": "Provincia de Paita",
-    "state_id": 3697,
-    "state_code": "PIU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-5.10189000",
-    "longitude": "-81.09695000",
-    "native": "Provincia de Paita",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 56151,
-    "wikiDataId": "Q2084618"
-  },
-  {
-    "id": 80879,
-    "name": "Provincia de Piura",
-    "state_id": 3697,
-    "state_code": "PIU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-5.21416000",
-    "longitude": "-80.40617000",
-    "native": "Provincia de Piura",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 799321,
-    "wikiDataId": "Q676572"
-  },
-  {
-    "id": 80896,
-    "name": "Provincia de Sullana",
-    "state_id": 3697,
-    "state_code": "PIU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-4.50000000",
-    "longitude": "-80.66667000",
-    "native": "Provincia de Sullana",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 311454,
-    "wikiDataId": "Q612923"
-  },
-  {
-    "id": 80899,
-    "name": "Provincia de Talara",
-    "state_id": 3697,
-    "state_code": "PIU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-4.41667000",
-    "longitude": "-81.08333000",
-    "native": "Provincia de Talara",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 144150,
-    "wikiDataId": "Q2287241"
   },
   {
     "id": 80927,
@@ -363,9 +331,9 @@
     "native": "Querecotillo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 26395,
-    "wikiDataId": "Q672921"
+    "wikiDataId": "Q7271359"
   },
   {
     "id": 80937,
@@ -395,9 +363,9 @@
     "native": "Salitral",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5385,
-    "wikiDataId": "Q7403730"
+    "wikiDataId": "Q7404856"
   },
   {
     "id": 80973,
@@ -416,6 +384,22 @@
     "wikiDataId": "Q3236446"
   },
   {
+    "id": 80896,
+    "name": "Sullana",
+    "state_id": 3697,
+    "state_code": "PIU",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-4.90444444",
+    "longitude": "-80.70472222",
+    "native": "Sullana",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q510413"
+  },
+  {
     "id": 80979,
     "name": "Sullana",
     "state_id": 3697,
@@ -427,9 +411,9 @@
     "native": "Sullana",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 162434,
-    "wikiDataId": "Q510413"
+    "wikiDataId": "Q7636360"
   },
   {
     "id": 80983,
@@ -472,11 +456,11 @@
     "country_code": "PE",
     "latitude": "-5.41667000",
     "longitude": "-80.78333000",
-    "native": "Vicio",
+    "native": "Vice",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 15630,
-    "wikiDataId": "Q941183"
+    "wikiDataId": "Q6318710"
   }
 ]

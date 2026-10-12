@@ -11,7 +11,7 @@
     "native": "Belica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2038,
     "wikiDataId": "Q578190"
   },
@@ -27,9 +27,9 @@
     "native": "Čakovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 15078,
-    "wikiDataId": "Q167839"
+    "wikiDataId": null
   },
   {
     "id": 54451,
@@ -43,7 +43,7 @@
     "native": "Dekanovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 739,
     "wikiDataId": "Q912794"
   },
@@ -59,7 +59,7 @@
     "native": "Domašinec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1456,
     "wikiDataId": "Q202586"
   },
@@ -75,7 +75,7 @@
     "native": "Goričan",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2343,
     "wikiDataId": "Q248701"
   },
@@ -91,9 +91,9 @@
     "native": "Grad Čakovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": 15078,
-    "wikiDataId": "Q1194688"
+    "type": "city",
+    "population": 27122,
+    "wikiDataId": "Q167839"
   },
   {
     "id": 54595,
@@ -107,7 +107,7 @@
     "native": "Hodošan",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1063,
     "wikiDataId": "Q898858"
   },
@@ -123,7 +123,7 @@
     "native": "Ivanovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1922,
     "wikiDataId": "Q908872"
   },
@@ -139,7 +139,7 @@
     "native": "Kotoriba",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2938,
     "wikiDataId": "Q1088573"
   },
@@ -155,7 +155,7 @@
     "native": "Kuršanec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1727,
     "wikiDataId": "Q226067"
   },
@@ -168,12 +168,12 @@
     "country_code": "HR",
     "latitude": "46.43333000",
     "longitude": "16.38333000",
-    "native": "Lopata",
+    "native": "Lopatinec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 906,
-    "wikiDataId": "Q1013185"
+    "wikiDataId": "Q908094"
   },
   {
     "id": 54726,
@@ -184,10 +184,10 @@
     "country_code": "HR",
     "latitude": "46.42417000",
     "longitude": "16.43361000",
-    "native": "Mačka",
+    "native": "Mačkovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1222,
     "wikiDataId": "Q843762"
   },
@@ -203,7 +203,7 @@
     "native": "Mala Subotica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1766,
     "wikiDataId": "Q774000"
   },
@@ -219,9 +219,9 @@
     "native": "Mihovljan",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1677,
-    "wikiDataId": "Q390588"
+    "wikiDataId": "Q843740"
   },
   {
     "id": 54744,
@@ -235,7 +235,7 @@
     "native": "Mursko Središće",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3321,
     "wikiDataId": "Q326952"
   },
@@ -251,7 +251,7 @@
     "native": "Nedelišće",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3840,
     "wikiDataId": "Q386276"
   },
@@ -267,9 +267,9 @@
     "native": "Novo Selo Rok",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1320,
-    "wikiDataId": "Q5395"
+    "wikiDataId": "Q1038498"
   },
   {
     "id": 54788,
@@ -283,7 +283,7 @@
     "native": "Orehovica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1803,
     "wikiDataId": "Q910218"
   },
@@ -296,10 +296,10 @@
     "country_code": "HR",
     "latitude": "46.49528000",
     "longitude": "16.47611000",
-    "native": "Ohladiti",
+    "native": "Peklenica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1072,
     "wikiDataId": "Q842783"
   },
@@ -315,7 +315,7 @@
     "native": "Podturen",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1323,
     "wikiDataId": "Q786568"
   },
@@ -331,7 +331,7 @@
     "native": "Prelog",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4042,
     "wikiDataId": "Q839783"
   },
@@ -347,7 +347,7 @@
     "native": "Pribislavec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2963,
     "wikiDataId": "Q1088578"
   },
@@ -363,7 +363,7 @@
     "native": "Šenkovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2708,
     "wikiDataId": "Q955681"
   },
@@ -379,7 +379,7 @@
     "native": "Strahoninec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2598,
     "wikiDataId": "Q910271"
   },
@@ -395,9 +395,9 @@
     "native": "Sveti Juraj na Bregu",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4929,
-    "wikiDataId": "Q1014083"
+    "wikiDataId": "Q1194732"
   },
   {
     "id": 54988,
@@ -411,7 +411,7 @@
     "native": "Vratišinec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1155,
     "wikiDataId": "Q266531"
   }

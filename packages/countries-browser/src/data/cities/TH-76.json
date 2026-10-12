@@ -1,37 +1,5 @@
 [
   {
-    "id": 105266,
-    "name": "Amphoe Cha-am",
-    "state_id": 3532,
-    "state_code": "76",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.75374000",
-    "longitude": "99.89828000",
-    "native": "อำเภอชะอำ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475314"
-  },
-  {
-    "id": 105400,
-    "name": "Amphoe Khao Yoi",
-    "state_id": 3532,
-    "state_code": "76",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.24240000",
-    "longitude": "99.80753000",
-    "native": "อำเภอเขาย้อย",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475674"
-  },
-  {
     "id": 106292,
     "name": "Amphoe Tha Yang",
     "state_id": 3532,
@@ -54,14 +22,14 @@
     "state_code": "76",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.16968000",
-    "longitude": "99.98771000",
-    "native": "อำเภอบ้านแหลม",
+    "latitude": "13.21676499",
+    "longitude": "99.97674563",
+    "native": "บ้านแหลม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475119"
+    "wikiDataId": "Q15212108"
   },
   {
     "id": 105199,
@@ -70,14 +38,14 @@
     "state_code": "76",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.04533000",
-    "longitude": "99.83788000",
-    "native": "อำเภอบ้านลาด",
+    "latitude": "13.04960000",
+    "longitude": "99.91880000",
+    "native": "บ้านลาด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475122"
+    "wikiDataId": "Q13025243"
   },
   {
     "id": 106459,
@@ -91,7 +59,7 @@
     "native": "ชะอำ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 49375,
     "wikiDataId": "Q927810"
   },
@@ -123,25 +91,9 @@
     "native": "เขาย้อย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 18506,
     "wikiDataId": "Q13025313"
-  },
-  {
-    "id": 105571,
-    "name": "Mueang Phetchaburi",
-    "state_id": 3532,
-    "state_code": "76",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.08173000",
-    "longitude": "99.96721000",
-    "native": "อำเภอเมืองเพชรบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476060"
   },
   {
     "id": 105685,
@@ -150,14 +102,14 @@
     "state_code": "76",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.12590000",
-    "longitude": "99.46880000",
-    "native": "อำเภอหนองหญ้าปล้อง",
+    "latitude": "13.16288000",
+    "longitude": "99.69723000",
+    "native": "หนองหญ้าปล้อง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476289"
+    "wikiDataId": null
   },
   {
     "id": 106632,
@@ -171,7 +123,7 @@
     "native": "เพชรบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 46601,
     "wikiDataId": "Q641383"
   },
@@ -187,7 +139,7 @@
     "native": "ท่ายาง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 42602,
     "wikiDataId": "Q15212080"
   }

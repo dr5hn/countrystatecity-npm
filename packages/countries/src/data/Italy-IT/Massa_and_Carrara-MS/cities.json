@@ -1,5 +1,21 @@
 [
   {
+    "id": 135371,
+    "name": "Albiano Magra",
+    "state_id": 1759,
+    "state_code": "MS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.17574000",
+    "longitude": "9.91619000",
+    "native": "Albiano Magra",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 1907,
+    "wikiDataId": "Q3608754"
+  },
+  {
     "id": 135687,
     "name": "Aulla",
     "state_id": 1759,
@@ -11,8 +27,8 @@
     "native": "Aulla",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 4321,
+    "type": "municipality",
+    "population": 10915,
     "wikiDataId": "Q52227"
   },
   {
@@ -27,8 +43,8 @@
     "native": "Bagnone",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 648,
+    "type": "municipality",
+    "population": 1686,
     "wikiDataId": "Q52228"
   },
   {
@@ -43,9 +59,41 @@
     "native": "Barbarasco",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 930,
     "wikiDataId": "Q18489270"
+  },
+  {
+    "id": 136164,
+    "name": "Borghetto-Melara",
+    "state_id": 1759,
+    "state_code": "MS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.09852000",
+    "longitude": "9.99073000",
+    "native": "Borghetto-Melara",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 1868,
+    "wikiDataId": "Q18489303"
+  },
+  {
+    "id": 136760,
+    "name": "Capanne-Prato-Cinquale",
+    "state_id": 1759,
+    "state_code": "MS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "43.99720000",
+    "longitude": "10.15636000",
+    "native": "Capanne-Prato-Cinquale",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 8270,
+    "wikiDataId": null
   },
   {
     "id": 136924,
@@ -59,8 +107,8 @@
     "native": "Carrara",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 59905,
+    "type": "municipality",
+    "population": 59723,
     "wikiDataId": "Q13372"
   },
   {
@@ -75,8 +123,8 @@
     "native": "Casola in Lunigiana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 206,
+    "type": "municipality",
+    "population": 901,
     "wikiDataId": "Q52230"
   },
   {
@@ -91,8 +139,8 @@
     "native": "Comano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 277,
+    "type": "municipality",
+    "population": 636,
     "wikiDataId": "Q52231"
   },
   {
@@ -107,8 +155,8 @@
     "native": "Filattiera",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 830,
+    "type": "municipality",
+    "population": 2147,
     "wikiDataId": "Q52232"
   },
   {
@@ -123,8 +171,8 @@
     "native": "Fivizzano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1323,
+    "type": "municipality",
+    "population": 6886,
     "wikiDataId": "Q52233"
   },
   {
@@ -139,8 +187,8 @@
     "native": "Fosdinovo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 403,
+    "type": "municipality",
+    "population": 4580,
     "wikiDataId": "Q52234"
   },
   {
@@ -155,25 +203,57 @@
     "native": "Licciana Nardi",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 664,
+    "type": "municipality",
+    "population": 4706,
     "wikiDataId": "Q52235"
   },
   {
-    "id": 139966,
+    "id": 139881,
+    "name": "Marina di Carrara",
+    "state_id": 1759,
+    "state_code": "MS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.03837000",
+    "longitude": "10.04142000",
+    "native": "Marina di Carrara",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "city",
+    "population": 25000,
+    "wikiDataId": "Q16965"
+  },
+  {
+    "id": 139889,
+    "name": "Marina di Massa",
+    "state_id": 1759,
+    "state_code": "MS",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.00380000",
+    "longitude": "10.10674000",
+    "native": "Marina di Massa",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "city",
+    "population": 19092,
+    "wikiDataId": null
+  },
+  {
+    "id": 164332,
     "name": "Massa",
     "state_id": 1759,
     "state_code": "MS",
     "country_id": 107,
     "country_code": "IT",
-    "latitude": "43.90925000",
-    "longitude": "10.74441000",
+    "latitude": "44.03541000",
+    "longitude": "10.13927000",
     "native": "Massa",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 350,
-    "wikiDataId": "Q18491019"
+    "type": "municipality",
+    "population": 65547,
+    "wikiDataId": "Q13370"
   },
   {
     "id": 140554,
@@ -187,7 +267,7 @@
     "native": "Monti",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1369,
     "wikiDataId": "Q18489692"
   },
@@ -203,8 +283,8 @@
     "native": "Montignoso",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 10015,
+    "type": "municipality",
+    "population": 10050,
     "wikiDataId": "Q52236"
   },
   {
@@ -219,8 +299,8 @@
     "native": "Mulazzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 200,
+    "type": "municipality",
+    "population": 2269,
     "wikiDataId": "Q52238"
   },
   {
@@ -235,7 +315,7 @@
     "native": "Pallerone",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1049,
     "wikiDataId": "Q18489720"
   },
@@ -251,7 +331,7 @@
     "native": "Patigno",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 207,
     "wikiDataId": "Q18489737"
   },
@@ -267,8 +347,8 @@
     "native": "Podenzana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1819,
+    "type": "municipality",
+    "population": 2153,
     "wikiDataId": "Q52239"
   },
   {
@@ -283,8 +363,8 @@
     "native": "Pontremoli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 5208,
+    "type": "municipality",
+    "population": 6867,
     "wikiDataId": "Q52240"
   },
   {
@@ -299,7 +379,7 @@
     "native": "San Vito-Cerreto",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1311,
     "wikiDataId": null
   },
@@ -315,7 +395,7 @@
     "native": "Terrarossa",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1334,
     "wikiDataId": "Q2309058"
   },
@@ -331,8 +411,8 @@
     "native": "Tresana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 99,
+    "type": "municipality",
+    "population": 1880,
     "wikiDataId": "Q52241"
   },
   {
@@ -347,8 +427,8 @@
     "native": "Villafranca in Lunigiana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3070,
+    "type": "municipality",
+    "population": 4801,
     "wikiDataId": "Q52243"
   },
   {
@@ -363,8 +443,8 @@
     "native": "Zeri",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1382,
+    "type": "municipality",
+    "population": 890,
     "wikiDataId": "Q52244"
   }
 ]

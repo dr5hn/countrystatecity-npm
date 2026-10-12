@@ -27,7 +27,7 @@
     "native": "الهدا",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 143100,
     "wikiDataId": "Q1650858"
   },
@@ -43,7 +43,7 @@
     "native": "المنار",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 49390,
     "wikiDataId": "Q4117307"
   },
@@ -75,7 +75,7 @@
     "native": "دوران أنيس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 121553,
     "wikiDataId": "Q4118402"
   },
@@ -107,7 +107,7 @@
     "native": "جبل الشرق",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 62034,
     "wikiDataId": "Q6109810"
   },
@@ -123,9 +123,25 @@
     "native": "جهران",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 86590,
     "wikiDataId": "Q4117825"
+  },
+  {
+    "id": 165935,
+    "name": "Ma‘bar",
+    "state_id": 1246,
+    "state_code": "DH",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "14.79395000",
+    "longitude": "44.29354000",
+    "native": "معبر",
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q6860386"
   },
   {
     "id": 130904,
@@ -139,7 +155,7 @@
     "native": "المغرب أنس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 53261,
     "wikiDataId": "Q4117191"
   },
@@ -155,7 +171,7 @@
     "native": "ميفعات أنس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 60854,
     "wikiDataId": "Q3302970"
   },
@@ -171,7 +187,7 @@
     "native": "عُتمة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 145284,
     "wikiDataId": "Q4117268"
   },
@@ -187,7 +203,7 @@
     "native": "وصاب العلي",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 164223,
     "wikiDataId": "Q4117263"
   },
@@ -203,7 +219,7 @@
     "native": "وصاب السافل",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 149531,
     "wikiDataId": "Q4117298"
   }

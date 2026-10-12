@@ -11,9 +11,9 @@
     "native": "Acarí",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4445,
-    "wikiDataId": "Q25247498"
+    "wikiDataId": "Q3321945"
   },
   {
     "id": 80561,
@@ -27,8 +27,24 @@
     "native": "Arequipa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 1008290,
+    "wikiDataId": "Q3321924"
+  },
+  {
+    "id": 80777,
+    "name": "Arequipa",
+    "state_id": 3681,
+    "state_code": "ARE",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-16.40083333",
+    "longitude": "-71.53777778",
+    "native": "Arequipa",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q159273"
   },
   {
@@ -43,8 +59,24 @@
     "native": "Camaná",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 16434,
+    "wikiDataId": "Q3321991"
+  },
+  {
+    "id": 80789,
+    "name": "Camaná",
+    "state_id": 3681,
+    "state_code": "ARE",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-16.62361111",
+    "longitude": "-72.71138889",
+    "native": "Camaná",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1028011"
   },
   {
@@ -75,9 +107,9 @@
     "native": "Chivay",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4543,
-    "wikiDataId": "Q2351933"
+    "wikiDataId": "Q3322010"
   },
   {
     "id": 80627,
@@ -91,9 +123,9 @@
     "native": "Cocaquacra",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8347,
-    "wikiDataId": "Q3344173"
+    "wikiDataId": "Q3825629"
   },
   {
     "id": 80634,
@@ -107,9 +139,9 @@
     "native": "Cotahuasi",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q2638258"
+    "wikiDataId": "Q3314316"
   },
   {
     "id": 80655,
@@ -152,7 +184,7 @@
     "country_code": "PE",
     "latitude": "-15.75003000",
     "longitude": "-71.34641000",
-    "native": "Gran Orcochiri",
+    "native": "Jatun Orcochiri",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
@@ -184,7 +216,7 @@
     "country_code": "PE",
     "latitude": "-15.63951000",
     "longitude": "-71.29921000",
-    "native": "Barco",
+    "native": "Llongasora",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
@@ -203,9 +235,9 @@
     "native": "Lluta",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5998,
-    "wikiDataId": "Q3344864"
+    "wikiDataId": "Q3314080"
   },
   {
     "id": 80717,
@@ -219,9 +251,9 @@
     "native": "Mollendo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 28305,
-    "wikiDataId": "Q2351948"
+    "wikiDataId": "Q3322644"
   },
   {
     "id": 80733,
@@ -235,41 +267,9 @@
     "native": "Orcopampa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5643,
-    "wikiDataId": "Q916382"
-  },
-  {
-    "id": 80777,
-    "name": "Provincia de Arequipa",
-    "state_id": 3681,
-    "state_code": "ARE",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-16.33333000",
-    "longitude": "-71.50000000",
-    "native": "Provincia de Arequipa",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 583,
-    "wikiDataId": "Q601118"
-  },
-  {
-    "id": 80789,
-    "name": "Provincia de Camaná",
-    "state_id": 3681,
-    "state_code": "ARE",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-16.41667000",
-    "longitude": "-72.83333000",
-    "native": "Provincia de Camaná",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 59370,
-    "wikiDataId": "Q1784851"
+    "wikiDataId": "Q3314207"
   },
   {
     "id": 80795,
@@ -283,7 +283,7 @@
     "native": "Provincia de Caravelí",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 41346,
     "wikiDataId": "Q1779727"
   },
@@ -299,7 +299,7 @@
     "native": "Provincia de Castilla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 33629,
     "wikiDataId": "Q614628"
   },
@@ -315,7 +315,7 @@
     "native": "Provincia de Caylloma",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 86771,
     "wikiDataId": "Q1806435"
   },
@@ -331,7 +331,7 @@
     "native": "Provincia de Condesuyos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 16118,
     "wikiDataId": "Q1814253"
   },
@@ -347,7 +347,7 @@
     "native": "Provincia de Islay",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 52034,
     "wikiDataId": "Q1779688"
   },
@@ -363,7 +363,7 @@
     "native": "Provincia de La Unión",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 12827,
     "wikiDataId": "Q1779698"
   },
@@ -395,9 +395,9 @@
     "native": "Punta de Bombón",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6336,
-    "wikiDataId": "Q232842"
+    "wikiDataId": "Q3824572"
   },
   {
     "id": 81012,
@@ -427,8 +427,8 @@
     "native": "Yura",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5686,
-    "wikiDataId": "Q2306609"
+    "wikiDataId": "Q2702940"
   }
 ]

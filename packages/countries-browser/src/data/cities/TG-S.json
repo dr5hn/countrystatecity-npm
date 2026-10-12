@@ -17,18 +17,34 @@
   },
   {
     "id": 105172,
-    "name": "Sansanné-Mango",
+    "name": "Mango",
     "state_id": 2578,
     "state_code": "S",
     "country_id": 220,
     "country_code": "TG",
     "latitude": "10.35917000",
     "longitude": "0.47083000",
-    "native": "Ils sont",
+    "native": "Mango",
     "timezone": "Africa/Lome",
     "translations": {},
     "type": "city",
     "population": null,
     "wikiDataId": "Q1392195"
+  },
+  {
+    "id": 165583,
+    "name": "Sinkassé",
+    "state_id": 2578,
+    "state_code": "S",
+    "country_id": 220,
+    "country_code": "TG",
+    "latitude": "11.10389000",
+    "longitude": "0.00944000",
+    "native": null,
+    "timezone": "Africa/Lome",
+    "translations": {},
+    "type": "city",
+    "population": 26926,
+    "wikiDataId": "Q2972817"
   }
 ]

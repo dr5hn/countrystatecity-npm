@@ -11,8 +11,8 @@
     "native": "31 de Octubre",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1440,
+    "type": "locality",
+    "population": 1225,
     "wikiDataId": "Q20129193"
   },
   {
@@ -27,7 +27,7 @@
     "native": "Aconqui",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1650,
     "wikiDataId": "Q20199700"
   },
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 1295,
-    "wikiDataId": "Q20258279"
+    "wikiDataId": null
   },
   {
     "id": 68098,
@@ -59,8 +59,8 @@
     "native": "Agiabampo uno",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1929,
+    "type": "locality",
+    "population": 1882,
     "wikiDataId": "Q27949216"
   },
   {
@@ -73,9 +73,9 @@
     "latitude": "31.33071000",
     "longitude": "-109.54876000",
     "native": "Agua Prieta",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 91029,
     "wikiDataId": "Q397759"
   },
@@ -89,9 +89,9 @@
     "latitude": "27.02326000",
     "longitude": "-108.93440000",
     "native": "Álamos",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10961,
     "wikiDataId": "Q250531"
   },
@@ -107,9 +107,25 @@
     "native": "Allende",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1810,
+    "type": "locality",
+    "population": 1580,
     "wikiDataId": "Q27951334"
+  },
+  {
+    "id": 165244,
+    "name": "Altar",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "30.71627000",
+    "longitude": "-111.83804000",
+    "native": "Altar",
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 8439,
+    "wikiDataId": "Q434440"
   },
   {
     "id": 68280,
@@ -123,8 +139,8 @@
     "native": "Antonio Rosales",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2287,
+    "type": "locality",
+    "population": 2054,
     "wikiDataId": "Q20227693"
   },
   {
@@ -136,12 +152,12 @@
     "country_code": "MX",
     "latitude": "28.92765000",
     "longitude": "-109.18681000",
-    "native": "Llegó",
+    "native": "Arivechi",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 635,
-    "wikiDataId": "Q20431243"
+    "wikiDataId": "Q2600953"
   },
   {
     "id": 68353,
@@ -155,23 +171,23 @@
     "native": "Arizpe",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1666,
     "wikiDataId": "Q614445"
   },
   {
     "id": 68405,
-    "name": "Atil",
+    "name": "Átil",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "30.84361000",
     "longitude": "-111.58361000",
-    "native": "Illinois",
+    "native": "Átil",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 612,
     "wikiDataId": "Q755883"
   },
@@ -187,8 +203,8 @@
     "native": "Bacabachi",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1380,
+    "type": "locality",
+    "population": 1370,
     "wikiDataId": "Q28051226"
   },
   {
@@ -203,8 +219,8 @@
     "native": "Bacadéhuachi",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 1251,
+    "type": "locality",
+    "population": 979,
     "wikiDataId": "Q24576717"
   },
   {
@@ -219,7 +235,7 @@
     "native": "Bacame Nuevo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3220,
     "wikiDataId": "Q513027"
   },
@@ -235,7 +251,7 @@
     "native": "Bacanora",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 498,
     "wikiDataId": "Q2652290"
   },
@@ -251,7 +267,7 @@
     "native": "Bacraac",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1019,
     "wikiDataId": "Q2991325"
   },
@@ -267,9 +283,9 @@
     "native": "Bacobampo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 8539,
-    "wikiDataId": "Q863131"
+    "type": "locality",
+    "population": 8267,
+    "wikiDataId": "Q20227740"
   },
   {
     "id": 68695,
@@ -280,10 +296,10 @@
     "country_code": "MX",
     "latitude": "27.55142000",
     "longitude": "-110.08330000",
-    "native": "Cachorro",
+    "native": "Bácum",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4326,
     "wikiDataId": "Q3844371"
   },
@@ -299,7 +315,7 @@
     "native": "Bahía de Kino",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6454,
     "wikiDataId": "Q477216"
   },
@@ -313,10 +329,10 @@
     "latitude": "27.35167000",
     "longitude": "-110.45472000",
     "native": "Bahía de Lobos",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "locality",
+    "population": 2991,
     "wikiDataId": "Q20140235"
   },
   {
@@ -331,8 +347,8 @@
     "native": "Basconco",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2926,
+    "type": "locality",
+    "population": 2913,
     "wikiDataId": "Q28051646"
   },
   {
@@ -347,7 +363,7 @@
     "native": "Bavispe",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 674,
     "wikiDataId": "Q2919569"
   },
@@ -363,7 +379,7 @@
     "native": "Benjamin Hill",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4837,
     "wikiDataId": "Q817772"
   },
@@ -379,8 +395,8 @@
     "native": "Buaysiacobo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 4356,
+    "type": "locality",
+    "population": 4727,
     "wikiDataId": "Q27949120"
   },
   {
@@ -395,9 +411,9 @@
     "native": "Buayums",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1198,
-    "wikiDataId": "Q27949120"
+    "type": "locality",
+    "population": 1244,
+    "wikiDataId": "Q61309474"
   },
   {
     "id": 68775,
@@ -411,8 +427,8 @@
     "native": "Campo Carretero",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1252,
+    "type": "locality",
+    "population": 1265,
     "wikiDataId": "Q28315004"
   },
   {
@@ -425,7 +441,7 @@
     "latitude": "27.45000000",
     "longitude": "-110.10000000",
     "native": "Campo Sesenta",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
     "type": "city",
     "population": 0,
@@ -441,15 +457,15 @@
     "latitude": "30.98699000",
     "longitude": "-110.29062000",
     "native": "Cananea",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 39451,
     "wikiDataId": "Q176924"
   },
   {
     "id": 68816,
-    "name": "Carbo",
+    "name": "Carbó",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
@@ -459,9 +475,9 @@
     "native": "Carbo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 4946,
-    "wikiDataId": "Q20275220"
+    "type": "locality",
+    "population": 4483,
+    "wikiDataId": "Q3844253"
   },
   {
     "id": 68902,
@@ -475,8 +491,8 @@
     "native": "Centro de Readaptación Social Nuevo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2203,
+    "type": "locality",
+    "population": 1136,
     "wikiDataId": "Q20257349"
   },
   {
@@ -491,8 +507,8 @@
     "native": "Chucarit",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1609,
+    "type": "locality",
+    "population": 1465,
     "wikiDataId": "Q28445675"
   },
   {
@@ -507,13 +523,13 @@
     "native": "Ciudad Obregón",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 329404,
     "wikiDataId": "Q681340"
   },
   {
     "id": 69238,
-    "name": "Cocorit",
+    "name": "Cócorit",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
@@ -523,7 +539,7 @@
     "native": "Cocorit",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7424,
     "wikiDataId": "Q4227390"
   },
@@ -539,8 +555,8 @@
     "native": "Cuauhtémoc (Campo Cinco)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2629,
+    "type": "locality",
+    "population": 2493,
     "wikiDataId": "Q20137446"
   },
   {
@@ -555,7 +571,7 @@
     "native": "Cucurpe",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 595,
     "wikiDataId": "Q3844262"
   },
@@ -571,7 +587,7 @@
     "native": "Compas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2934,
     "wikiDataId": "Q3844664"
   },
@@ -587,7 +603,7 @@
     "native": "Ejido Lagunitas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1019,
     "wikiDataId": "Q56475540"
   },
@@ -603,8 +619,8 @@
     "native": "El Coyote",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1337,
+    "type": "locality",
+    "population": 1602,
     "wikiDataId": "Q20228147"
   },
   {
@@ -619,25 +635,9 @@
     "native": "El Diamante (La Retranca)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1374,
+    "type": "locality",
+    "population": 1630,
     "wikiDataId": "Q20261571"
-  },
-  {
-    "id": 70093,
-    "name": "El Paredoncito",
-    "state_id": 3468,
-    "state_code": "SON",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "27.05920000",
-    "longitude": "-109.91286000",
-    "native": "El Paredoncito",
-    "timezone": "America/Hermosillo",
-    "translations": {},
-    "type": "city",
-    "population": 2251,
-    "wikiDataId": "Q20261820"
   },
   {
     "id": 70146,
@@ -651,8 +651,8 @@
     "native": "El Recodo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1050,
+    "type": "locality",
+    "population": 987,
     "wikiDataId": "Q20261873"
   },
   {
@@ -667,8 +667,8 @@
     "native": "El Rodeo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1543,
+    "type": "locality",
+    "population": 1750,
     "wikiDataId": "Q41772392"
   },
   {
@@ -685,7 +685,7 @@
     "translations": {},
     "type": "city",
     "population": 2726,
-    "wikiDataId": "Q1858643"
+    "wikiDataId": null
   },
   {
     "id": 70196,
@@ -699,8 +699,8 @@
     "native": "El Saneal",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1164,
+    "type": "locality",
+    "population": 1196,
     "wikiDataId": "Q41783118"
   },
   {
@@ -715,8 +715,8 @@
     "native": "El Siviral (Jigica)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1021,
+    "type": "locality",
+    "population": 1063,
     "wikiDataId": "Q20228517"
   },
   {
@@ -747,7 +747,7 @@
     "native": "Empalme",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 38886,
     "wikiDataId": "Q934086"
   },
@@ -763,8 +763,8 @@
     "native": "Esperanza",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 38969,
+    "type": "locality",
+    "population": 39164,
     "wikiDataId": "Q27940770"
   },
   {
@@ -779,8 +779,8 @@
     "native": "Esqueda",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 6749,
+    "type": "locality",
+    "population": 7240,
     "wikiDataId": "Q20228584"
   },
   {
@@ -795,8 +795,8 @@
     "native": "Estación Corral",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1788,
+    "type": "locality",
+    "population": 1774,
     "wikiDataId": "Q20135856"
   },
   {
@@ -811,25 +811,9 @@
     "native": "Estación Llano",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1292,
     "wikiDataId": "Q43157979"
-  },
-  {
-    "id": 70358,
-    "name": "Estación Zamora",
-    "state_id": 3468,
-    "state_code": "SON",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "29.26116000",
-    "longitude": "-110.88653000",
-    "native": "Estación Zamora",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 1049,
-    "wikiDataId": "Q20230225"
   },
   {
     "id": 70374,
@@ -843,7 +827,7 @@
     "native": "Etchojoa",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 9831,
     "wikiDataId": "Q1360265"
   },
@@ -859,8 +843,8 @@
     "native": "Ettropopo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1162,
+    "type": "locality",
+    "population": 1029,
     "wikiDataId": "Q20228593"
   },
   {
@@ -875,8 +859,8 @@
     "native": "Francisco Javier Mina",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 6242,
+    "type": "locality",
+    "population": 6338,
     "wikiDataId": "Q27639490"
   },
   {
@@ -891,8 +875,8 @@
     "native": "Fronteras",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 834,
+    "type": "locality",
+    "population": 806,
     "wikiDataId": "Q1470224"
   },
   {
@@ -905,10 +889,10 @@
     "latitude": "31.68689000",
     "longitude": "-114.49797000",
     "native": "Golfo de Santa Clara",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 3967,
+    "type": "locality",
+    "population": 4618,
     "wikiDataId": "Q5882441"
   },
   {
@@ -923,9 +907,9 @@
     "native": "Granados",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1009,
-    "wikiDataId": "Q3846541"
+    "wikiDataId": "Q5594128"
   },
   {
     "id": 70644,
@@ -939,8 +923,8 @@
     "native": "Guasimas (de Belem)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1804,
+    "type": "locality",
+    "population": 1959,
     "wikiDataId": "Q20228647"
   },
   {
@@ -955,8 +939,8 @@
     "native": "Guaymitas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1301,
+    "type": "locality",
+    "population": 1331,
     "wikiDataId": "Q20228649"
   },
   {
@@ -969,9 +953,9 @@
     "latitude": "29.10260000",
     "longitude": "-110.97732000",
     "native": "Hermosillo",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 855563,
     "wikiDataId": "Q189138"
   },
@@ -987,7 +971,7 @@
     "native": "Heroica Caborca",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 67604,
     "wikiDataId": "Q1024929"
   },
@@ -1003,7 +987,7 @@
     "native": "Heroica Guaymas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 117253,
     "wikiDataId": "Q985521"
   },
@@ -1019,9 +1003,9 @@
     "native": "Huachinera",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 810,
-    "wikiDataId": "Q3844382"
+    "wikiDataId": "Q61310928"
   },
   {
     "id": 70825,
@@ -1035,7 +1019,7 @@
     "native": "Huasabas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 865,
     "wikiDataId": "Q2991322"
   },
@@ -1051,7 +1035,7 @@
     "native": "Huatabampo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 30324,
     "wikiDataId": "Q1632892"
   },
@@ -1067,9 +1051,9 @@
     "native": "Huépac",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 725,
-    "wikiDataId": "Q3844423"
+    "type": "locality",
+    "population": 685,
+    "wikiDataId": "Q5951586"
   },
   {
     "id": 70867,
@@ -1083,9 +1067,9 @@
     "native": "Imuris",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6924,
-    "wikiDataId": "Q27784467"
+    "wikiDataId": "Q9008189"
   },
   {
     "id": 70890,
@@ -1099,8 +1083,8 @@
     "native": "Islita",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1825,
+    "type": "locality",
+    "population": 2332,
     "wikiDataId": "Q47468211"
   },
   {
@@ -1115,7 +1099,7 @@
     "native": "Jecopaco",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1152,
     "wikiDataId": "Q5928926"
   },
@@ -1131,8 +1115,8 @@
     "native": "Jitonhueca",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1112,
+    "type": "locality",
+    "population": 1121,
     "wikiDataId": "Q20228695"
   },
   {
@@ -1147,9 +1131,9 @@
     "native": "José María Morelos y Pavón",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2098,
-    "wikiDataId": "Q20284570"
+    "type": "locality",
+    "population": 2342,
+    "wikiDataId": "Q32984943"
   },
   {
     "id": 71141,
@@ -1163,7 +1147,7 @@
     "native": "Juraré",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1451,
     "wikiDataId": "Q50414282"
   },
@@ -1179,8 +1163,8 @@
     "native": "La Bocana",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1349,
+    "type": "locality",
+    "population": 1421,
     "wikiDataId": "Q50415358"
   },
   {
@@ -1195,8 +1179,8 @@
     "native": "La Colorada",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 274,
+    "type": "locality",
+    "population": 394,
     "wikiDataId": "Q1798725"
   },
   {
@@ -1211,8 +1195,8 @@
     "native": "La Libertad",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2782,
+    "type": "locality",
+    "population": 2750,
     "wikiDataId": "Q6092093"
   },
   {
@@ -1243,8 +1227,8 @@
     "native": "La Palma",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1160,
+    "type": "locality",
+    "population": 1017,
     "wikiDataId": "Q20129687"
   },
   {
@@ -1259,8 +1243,8 @@
     "native": "La Providencia",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 4916,
+    "type": "locality",
+    "population": 7,
     "wikiDataId": "Q20262308"
   },
   {
@@ -1275,8 +1259,8 @@
     "native": "La Unión",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 4812,
+    "type": "locality",
+    "population": 4962,
     "wikiDataId": "Q20255971"
   },
   {
@@ -1291,9 +1275,9 @@
     "native": "La Victoria",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1966,
-    "wikiDataId": "Q20239873"
+    "type": "locality",
+    "population": 2237,
+    "wikiDataId": "Q56475507"
   },
   {
     "id": 71578,
@@ -1307,8 +1291,8 @@
     "native": "Las Bocas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1049,
+    "type": "locality",
+    "population": 1053,
     "wikiDataId": "Q6492075"
   },
   {
@@ -1323,9 +1307,9 @@
     "native": "Las Mercedes [Agropecuaria]",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1147,
-    "wikiDataId": "Q56554711"
+    "wikiDataId": "Q20146727"
   },
   {
     "id": 71725,
@@ -1336,11 +1320,11 @@
     "country_code": "MX",
     "latitude": "27.58707000",
     "longitude": "-110.08601000",
-    "native": "Atrás",
+    "native": "Loma de Bácum",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1503,
+    "type": "locality",
+    "population": 1689,
     "wikiDataId": "Q27640382"
   },
   {
@@ -1355,8 +1339,8 @@
     "native": "Loma de Guamúchil",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1135,
+    "type": "locality",
+    "population": 1571,
     "wikiDataId": "Q30119571"
   },
   {
@@ -1371,8 +1355,8 @@
     "native": "Loma del Refugio",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1008,
+    "type": "locality",
+    "population": 1010,
     "wikiDataId": "Q20283054"
   },
   {
@@ -1387,8 +1371,8 @@
     "native": "Los Bahuises",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1303,
+    "type": "locality",
+    "population": 1234,
     "wikiDataId": "Q20131211"
   },
   {
@@ -1403,7 +1387,7 @@
     "native": "Los Hoyos",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1080,
     "wikiDataId": "Q20229280"
   },
@@ -1419,7 +1403,7 @@
     "native": "Magdalena de Kino",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 30429,
     "wikiDataId": "Q1572516"
   },
@@ -1435,8 +1419,8 @@
     "native": "Marte R. Gómez (Tobarito)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 8700,
+    "type": "locality",
+    "population": 8473,
     "wikiDataId": "Q20145778"
   },
   {
@@ -1451,9 +1435,9 @@
     "native": "Masaana",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1514,
-    "wikiDataId": "Q20270603"
+    "type": "locality",
+    "population": 1505,
+    "wikiDataId": "Q6005425"
   },
   {
     "id": 72050,
@@ -1467,7 +1451,7 @@
     "native": "Mazatán",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1058,
     "wikiDataId": "Q3311957"
   },
@@ -1483,8 +1467,8 @@
     "native": "Mi Patria es Primero",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1455,
+    "type": "locality",
+    "population": 1316,
     "wikiDataId": "Q37780381"
   },
   {
@@ -1499,25 +1483,9 @@
     "native": "Miguel Alemán (La Doce)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 30869,
+    "type": "locality",
+    "population": 39474,
     "wikiDataId": "Q20252359"
-  },
-  {
-    "id": 72140,
-    "name": "Milpillas",
-    "state_id": 3468,
-    "state_code": "SON",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "27.20534000",
-    "longitude": "-108.64493000",
-    "native": "Milpillas",
-    "timezone": "America/Chihuahua",
-    "translations": {},
-    "type": "city",
-    "population": 1025,
-    "wikiDataId": "Q17374449"
   },
   {
     "id": 72178,
@@ -1529,11 +1497,11 @@
     "latitude": "29.80615000",
     "longitude": "-109.67949000",
     "native": "Moctezuma",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4787,
-    "wikiDataId": "Q20149594"
+    "wikiDataId": "Q27798313"
   },
   {
     "id": 72184,
@@ -1547,9 +1515,9 @@
     "native": "Molino de Camou",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1116,
-    "wikiDataId": "Q20149760"
+    "type": "locality",
+    "population": 1277,
+    "wikiDataId": "Q61307431"
   },
   {
     "id": 72222,
@@ -1563,13 +1531,13 @@
     "native": "Mora Villalobos",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1105,
+    "type": "locality",
+    "population": 1177,
     "wikiDataId": "Q30144383"
   },
   {
     "id": 72239,
-    "name": "Moroncarit",
+    "name": "Moroncárit",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
@@ -1579,9 +1547,9 @@
     "native": "Moroncarit",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1445,
-    "wikiDataId": "Q605127"
+    "type": "locality",
+    "population": 1480,
+    "wikiDataId": "Q61310668"
   },
   {
     "id": 72266,
@@ -1595,8 +1563,8 @@
     "native": "Naco",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 5774,
+    "type": "locality",
+    "population": 5485,
     "wikiDataId": "Q1963147"
   },
   {
@@ -1611,9 +1579,9 @@
     "native": "Nácori Chico",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 816,
-    "wikiDataId": "Q3844441"
+    "wikiDataId": "Q61309740"
   },
   {
     "id": 72268,
@@ -1627,7 +1595,7 @@
     "native": "Nacozari de García",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 12987,
     "wikiDataId": "Q123329"
   },
@@ -1643,7 +1611,7 @@
     "native": "Nacozari Viejo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11872,
     "wikiDataId": "Q20229403"
   },
@@ -1659,7 +1627,7 @@
     "native": "Navojoa",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 120926,
     "wikiDataId": "Q1001522"
   },
@@ -1675,8 +1643,8 @@
     "native": "Nogales",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 264782,
+    "type": "locality",
+    "population": 261137,
     "wikiDataId": "Q990001"
   },
   {
@@ -1691,9 +1659,9 @@
     "native": "Nuevo Michoacán (Estación Riíto)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1425,
-    "wikiDataId": "Q20256917"
+    "type": "locality",
+    "population": 1413,
+    "wikiDataId": "Q61303640"
   },
   {
     "id": 72509,
@@ -1707,9 +1675,9 @@
     "native": "Onava",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 350,
-    "wikiDataId": "Q3844457"
+    "wikiDataId": "Q61309970"
   },
   {
     "id": 72513,
@@ -1720,10 +1688,10 @@
     "country_code": "MX",
     "latitude": "29.92573000",
     "longitude": "-110.62933000",
-    "native": "Oponerse a",
+    "native": "Opodepe",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 295,
     "wikiDataId": "Q3844410"
   },
@@ -1739,7 +1707,7 @@
     "native": "Oquitoa",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 474,
     "wikiDataId": "Q1971384"
   },
@@ -1755,9 +1723,9 @@
     "native": "Ortiz",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1112,
-    "wikiDataId": "Q49982819"
+    "type": "locality",
+    "population": 1161,
+    "wikiDataId": "Q61309325"
   },
   {
     "id": 72655,
@@ -1771,9 +1739,25 @@
     "native": "Paredón Colorado",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2665,
+    "type": "locality",
+    "population": 2945,
     "wikiDataId": "Q28359047"
+  },
+  {
+    "id": 70093,
+    "name": "Paredoncito",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "27.05920000",
+    "longitude": "-109.91286000",
+    "native": "El Paredoncito",
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 2400,
+    "wikiDataId": "Q20261820"
   },
   {
     "id": 72739,
@@ -1784,11 +1768,11 @@
     "country_code": "MX",
     "latitude": "29.37972000",
     "longitude": "-110.89611000",
-    "native": "Pesca",
+    "native": "Pesqueira",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 5699,
+    "type": "locality",
+    "population": 9442,
     "wikiDataId": "Q20262731"
   },
   {
@@ -1803,7 +1787,7 @@
     "native": "Pitiquito",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 5139,
     "wikiDataId": "Q2991688"
   },
@@ -1819,25 +1803,25 @@
     "native": "Plutarco Elías Calles (La Y Griega)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3725,
     "wikiDataId": "Q20262764"
   },
   {
     "id": 72859,
-    "name": "Potam",
+    "name": "Pótam",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "27.62600000",
     "longitude": "-110.41580000",
-    "native": "Beber",
+    "native": "Pótam",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7044,
-    "wikiDataId": "Q20229626"
+    "wikiDataId": "Q18327062"
   },
   {
     "id": 72871,
@@ -1851,9 +1835,9 @@
     "native": "Pozo Dulce",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1295,
-    "wikiDataId": "Q1010503"
+    "type": "locality",
+    "population": 1274,
+    "wikiDataId": "Q61310566"
   },
   {
     "id": 72900,
@@ -1867,8 +1851,8 @@
     "native": "Primero de Mayo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2225,
+    "type": "locality",
+    "population": 2105,
     "wikiDataId": "Q27640308"
   },
   {
@@ -1883,8 +1867,8 @@
     "native": "Progreso (Campo 47)",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1170,
+    "type": "locality",
+    "population": 1050,
     "wikiDataId": "Q20229652"
   },
   {
@@ -1899,8 +1883,8 @@
     "native": "Providencia",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 4501,
+    "type": "locality",
+    "population": 4146,
     "wikiDataId": "Q27949082"
   },
   {
@@ -1915,8 +1899,8 @@
     "native": "Pueblo Mayo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 2568,
+    "type": "locality",
+    "population": 2668,
     "wikiDataId": "Q20297256"
   },
   {
@@ -1931,8 +1915,8 @@
     "native": "Pueblo Yaqui",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 14234,
+    "type": "locality",
+    "population": 14173,
     "wikiDataId": "Q20229664"
   },
   {
@@ -1947,7 +1931,7 @@
     "native": "Puerto Peñasco",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 62301,
     "wikiDataId": "Q746968"
   },
@@ -1963,9 +1947,9 @@
     "native": "Querobabi",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1988,
-    "wikiDataId": "Q20298049"
+    "wikiDataId": "Q6094505"
   },
   {
     "id": 73027,
@@ -1979,8 +1963,8 @@
     "native": "Quetchehueca",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 3001,
+    "type": "locality",
+    "population": 3002,
     "wikiDataId": "Q28052148"
   },
   {
@@ -1995,7 +1979,7 @@
     "native": "Quiriego",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1299,
     "wikiDataId": "Q3311475"
   },
@@ -2011,7 +1995,7 @@
     "native": "Rayón",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1301,
     "wikiDataId": "Q3311502"
   },
@@ -2027,9 +2011,9 @@
     "native": "Rosales",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1214,
-    "wikiDataId": "Q7419450"
+    "type": "locality",
+    "population": 1263,
+    "wikiDataId": "Q61309679"
   },
   {
     "id": 73162,
@@ -2043,7 +2027,7 @@
     "native": "Rosario",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2927,
     "wikiDataId": "Q3844430"
   },
@@ -2059,9 +2043,9 @@
     "native": "Sahuaral de Otero",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1055,
-    "wikiDataId": "Q20131715"
+    "type": "locality",
+    "population": 1035,
+    "wikiDataId": "Q61310552"
   },
   {
     "id": 73202,
@@ -2075,7 +2059,7 @@
     "native": "Sapahipa",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3600,
     "wikiDataId": "Q376541"
   },
@@ -2091,8 +2075,8 @@
     "native": "San Bernardo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1067,
+    "type": "locality",
+    "population": 1086,
     "wikiDataId": "Q26218058"
   },
   {
@@ -2107,9 +2091,25 @@
     "native": "San Carlos",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2264,
     "wikiDataId": "Q7413529"
+  },
+  {
+    "id": 165256,
+    "name": "San Felipe de Jesús",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "29.86255000",
+    "longitude": "-110.23868000",
+    "native": null,
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 366,
+    "wikiDataId": "Q3844392"
   },
   {
     "id": 73649,
@@ -2123,9 +2123,9 @@
     "native": "San Ignacio",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1140,
-    "wikiDataId": "Q1754752"
+    "type": "locality",
+    "population": 874,
+    "wikiDataId": "Q61311042"
   },
   {
     "id": 73653,
@@ -2139,9 +2139,25 @@
     "native": "San Ignacio Río Muerto",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 8435,
+    "type": "locality",
+    "population": 8135,
     "wikiDataId": "Q7414308"
+  },
+  {
+    "id": 165255,
+    "name": "San Javier",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "28.59588000",
+    "longitude": "-109.73966000",
+    "native": "San Javier",
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 523,
+    "wikiDataId": "Q2991295"
   },
   {
     "id": 73810,
@@ -2155,8 +2171,8 @@
     "native": "San José de Bacum",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 4318,
+    "type": "locality",
+    "population": 4312,
     "wikiDataId": "Q27640217"
   },
   {
@@ -2171,9 +2187,9 @@
     "native": "San José de Guaymas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1088,
-    "wikiDataId": "Q3850526"
+    "type": "locality",
+    "population": 941,
+    "wikiDataId": "Q61309299"
   },
   {
     "id": 74052,
@@ -2187,7 +2203,7 @@
     "native": "San Luis Río Colorado",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 176685,
     "wikiDataId": "Q995380"
   },
@@ -2203,7 +2219,7 @@
     "native": "San Miguel de Horcasitas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 440,
     "wikiDataId": "Q3311516"
   },
@@ -2217,11 +2233,11 @@
     "latitude": "29.28684000",
     "longitude": "-109.73696000",
     "native": "San Pedro de la Cueva",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1458,
-    "wikiDataId": "Q20229901"
+    "wikiDataId": "Q7415153"
   },
   {
     "id": 74370,
@@ -2237,7 +2253,7 @@
     "translations": {},
     "type": "city",
     "population": 1466,
-    "wikiDataId": "Q2449374"
+    "wikiDataId": null
   },
   {
     "id": 74521,
@@ -2251,7 +2267,7 @@
     "native": "Santa Ana",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 12372,
     "wikiDataId": "Q1972455"
   },
@@ -2267,8 +2283,8 @@
     "native": "Santa Cruz",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 1038,
+    "type": "locality",
+    "population": 846,
     "wikiDataId": "Q3844397"
   },
   {
@@ -2283,8 +2299,8 @@
     "native": "Santa María de Guaymas",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1469,
+    "type": "locality",
+    "population": 1719,
     "wikiDataId": "Q35908600"
   },
   {
@@ -2299,9 +2315,9 @@
     "native": "Santa María del Buáraje",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1044,
-    "wikiDataId": "Q20297724"
+    "type": "locality",
+    "population": 1099,
+    "wikiDataId": "Q61309579"
   },
   {
     "id": 75154,
@@ -2315,24 +2331,24 @@
     "native": "Sáric",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 892,
-    "wikiDataId": "Q2651753"
+    "wikiDataId": "Q7665321"
   },
   {
     "id": 75088,
-    "name": "Sinahuiza",
+    "name": "Sinahuisa",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
     "country_code": "MX",
     "latitude": "26.91105000",
     "longitude": "-109.43901000",
-    "native": "No creo",
-    "timezone": "America/Mexico_City",
+    "native": "Sinahuisa",
+    "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "locality",
+    "population": 965,
     "wikiDataId": "Q20285290"
   },
   {
@@ -2349,11 +2365,11 @@
     "translations": {},
     "type": "city",
     "population": 1021,
-    "wikiDataId": "Q3889520"
+    "wikiDataId": null
   },
   {
     "id": 75121,
-    "name": "Sonoita",
+    "name": "Sonoyta",
     "state_id": 3468,
     "state_code": "SON",
     "country_id": 142,
@@ -2363,8 +2379,8 @@
     "native": "Sonoita",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 12849,
+    "type": "locality",
+    "population": 11440,
     "wikiDataId": "Q992883"
   },
   {
@@ -2379,7 +2395,7 @@
     "native": "Soyopa",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 131,
     "wikiDataId": "Q3844403"
   },
@@ -2392,10 +2408,10 @@
     "country_code": "MX",
     "latitude": "28.39383000",
     "longitude": "-109.88798000",
-    "native": "Tu gran",
+    "native": "Suaqui Grande",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1074,
     "wikiDataId": "Q3311962"
   },
@@ -2411,9 +2427,9 @@
     "native": "Tepache",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1128,
-    "wikiDataId": "Q3893008"
+    "wikiDataId": "Q21010265"
   },
   {
     "id": 75544,
@@ -2427,9 +2443,25 @@
     "native": "Tierra Blanca",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1061,
-    "wikiDataId": "Q1997462"
+    "type": "locality",
+    "population": 1128,
+    "wikiDataId": "Q61309616"
+  },
+  {
+    "id": 165251,
+    "name": "Trincheras",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "30.39779000",
+    "longitude": "-111.53079000",
+    "native": null,
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 929,
+    "wikiDataId": "Q1434929"
   },
   {
     "id": 75786,
@@ -2443,8 +2475,8 @@
     "native": "Tubo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 348,
+    "type": "locality",
+    "population": 217,
     "wikiDataId": "Q3311492"
   },
   {
@@ -2459,9 +2491,9 @@
     "native": "Ures",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3894,
-    "wikiDataId": "Q20230171"
+    "wikiDataId": "Q2119805"
   },
   {
     "id": 75969,
@@ -2472,11 +2504,11 @@
     "country_code": "MX",
     "latitude": "27.64354000",
     "longitude": "-110.29351000",
-    "native": "Conquistado",
+    "native": "Vicam",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 8837,
+    "type": "locality",
+    "population": 9392,
     "wikiDataId": "Q7944571"
   },
   {
@@ -2491,8 +2523,8 @@
     "native": "Vicente Guerrero",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 1317,
+    "type": "locality",
+    "population": 1248,
     "wikiDataId": "Q30119424"
   },
   {
@@ -2507,9 +2539,9 @@
     "native": "Villa Hidalgo",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 1372,
-    "wikiDataId": "Q7930355"
+    "type": "locality",
+    "population": 1183,
+    "wikiDataId": "Q49901542"
   },
   {
     "id": 76021,
@@ -2523,7 +2555,7 @@
     "native": "Villa Juárez",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 13153,
     "wikiDataId": "Q20230192"
   },
@@ -2539,9 +2571,9 @@
     "native": "Villa pesqueira",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "adm2",
-    "population": 629,
-    "wikiDataId": "Q7930450"
+    "type": "locality",
+    "population": 483,
+    "wikiDataId": "Q6005748"
   },
   {
     "id": 76222,
@@ -2555,8 +2587,40 @@
     "native": "Yavaros",
     "timezone": "America/Hermosillo",
     "translations": {},
-    "type": "city",
-    "population": 3692,
+    "type": "locality",
+    "population": 3677,
     "wikiDataId": "Q6169839"
+  },
+  {
+    "id": 76252,
+    "name": "Yécora",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "28.37154000",
+    "longitude": "-108.92781000",
+    "native": "Yécora",
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 2453,
+    "wikiDataId": "Q22874690"
+  },
+  {
+    "id": 70358,
+    "name": "Zamora",
+    "state_id": 3468,
+    "state_code": "SON",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "29.26116000",
+    "longitude": "-110.88653000",
+    "native": "Estación Zamora",
+    "timezone": "America/Hermosillo",
+    "translations": {},
+    "type": "locality",
+    "population": 1107,
+    "wikiDataId": "Q20230225"
   }
 ]

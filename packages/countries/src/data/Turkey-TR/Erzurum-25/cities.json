@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 15462,
-    "wikiDataId": "Q199575"
+    "wikiDataId": null
   },
   {
     "id": 107237,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm3",
     "population": 50989,
-    "wikiDataId": "Q793383"
+    "wikiDataId": "Q2641900"
   },
   {
     "id": 108786,
@@ -40,12 +40,28 @@
     "country_code": "TR",
     "latitude": "39.61055000",
     "longitude": "40.97851000",
-    "native": "Çatırtı",
+    "native": "Çat",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 34,
+    "type": "municipality",
+    "population": 14015,
     "wikiDataId": "Q272652"
+  },
+  {
+    "id": 165603,
+    "name": "Erzurum",
+    "state_id": 2165,
+    "state_code": "25",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "39.90861000",
+    "longitude": "41.27694000",
+    "native": "Erzurum",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "adm1",
+    "population": 767848,
+    "wikiDataId": "Q122803"
   },
   {
     "id": 107842,
@@ -59,9 +75,9 @@
     "native": "Hınıs",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 35472,
-    "wikiDataId": "Q1004584"
+    "type": "municipality",
+    "population": 23011,
+    "wikiDataId": "Q1946099"
   },
   {
     "id": 107836,
@@ -75,9 +91,9 @@
     "native": "Horasan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 15898,
-    "wikiDataId": "Q657127"
+    "type": "municipality",
+    "population": 34896,
+    "wikiDataId": "Q374068"
   },
   {
     "id": 108918,
@@ -91,9 +107,9 @@
     "native": "İspir",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 15898,
-    "wikiDataId": "Q344115"
+    "type": "municipality",
+    "population": 13984,
+    "wikiDataId": "Q2068148"
   },
   {
     "id": 107921,
@@ -109,7 +125,7 @@
     "translations": {},
     "type": "adm2",
     "population": 23246,
-    "wikiDataId": "Q1023333"
+    "wikiDataId": null
   },
   {
     "id": 107919,
@@ -123,9 +139,9 @@
     "native": "Karayazı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 7340,
-    "wikiDataId": "Q1012874"
+    "type": "municipality",
+    "population": 22570,
+    "wikiDataId": "Q2070028"
   },
   {
     "id": 108076,
@@ -155,9 +171,9 @@
     "native": "Narman",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 10104,
-    "wikiDataId": "Q643505"
+    "type": "municipality",
+    "population": 11119,
+    "wikiDataId": "Q1872374"
   },
   {
     "id": 108265,
@@ -171,9 +187,9 @@
     "native": "Oldu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 23504,
-    "wikiDataId": "Q988069"
+    "type": "municipality",
+    "population": 29765,
+    "wikiDataId": "Q2546707"
   },
   {
     "id": 108267,
@@ -184,7 +200,7 @@
     "country_code": "TR",
     "latitude": "40.82165000",
     "longitude": "42.13055000",
-    "native": "Olmak",
+    "native": "Olur",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
@@ -203,9 +219,9 @@
     "native": "Palandöken",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
-    "wikiDataId": "Q1022230"
+    "type": "municipality",
+    "population": 181922,
+    "wikiDataId": "Q1004488"
   },
   {
     "id": 108314,
@@ -219,8 +235,8 @@
     "native": "Pasinler",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 28961,
+    "type": "municipality",
+    "population": 25401,
     "wikiDataId": "Q2744950"
   },
   {
@@ -237,7 +253,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5878,
-    "wikiDataId": "Q3056115"
+    "wikiDataId": null
   },
   {
     "id": 108950,
@@ -269,7 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 8270,
-    "wikiDataId": "Q2530261"
+    "wikiDataId": null
   },
   {
     "id": 108589,
@@ -285,7 +301,7 @@
     "translations": {},
     "type": "adm2",
     "population": 9429,
-    "wikiDataId": "Q2306513"
+    "wikiDataId": null
   },
   {
     "id": 108636,
@@ -299,8 +315,8 @@
     "native": "Uzundere",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 5555,
+    "type": "municipality",
+    "population": 8263,
     "wikiDataId": "Q1843445"
   },
   {
@@ -315,8 +331,8 @@
     "native": "Yakutiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 191224,
+    "type": "municipality",
+    "population": 189149,
     "wikiDataId": "Q2577943"
   }
 ]

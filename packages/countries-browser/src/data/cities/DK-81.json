@@ -11,8 +11,8 @@
     "native": "Aalborg",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm1",
-    "population": 121878,
+    "type": "town",
+    "population": 122550,
     "wikiDataId": "Q25410"
   },
   {
@@ -27,8 +27,8 @@
     "native": "Aars",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 8246,
+    "type": "town",
+    "population": 8738,
     "wikiDataId": "Q303066"
   },
   {
@@ -43,8 +43,8 @@
     "native": "Åbybro",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 6318,
+    "type": "town",
+    "population": 6773,
     "wikiDataId": "Q3171757"
   },
   {
@@ -59,8 +59,8 @@
     "native": "Ålborg Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 226033,
     "wikiDataId": "Q300856"
   },
   {
@@ -75,8 +75,8 @@
     "native": "Ålestrup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2780,
+    "type": "town",
+    "population": 2755,
     "wikiDataId": "Q300888"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Arden",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2516,
+    "type": "town",
+    "population": 2595,
     "wikiDataId": "Q10417379"
   },
   {
@@ -107,8 +107,8 @@
     "native": "Brovst",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2624,
+    "type": "town",
+    "population": 2665,
     "wikiDataId": "Q8092118"
   },
   {
@@ -123,8 +123,8 @@
     "native": "Brønderslev",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 12549,
+    "type": "town",
+    "population": 12825,
     "wikiDataId": "Q995880"
   },
   {
@@ -139,9 +139,25 @@
     "native": "Brønderslev Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 36529,
     "wikiDataId": "Q511376"
+  },
+  {
+    "id": 164612,
+    "name": "Byrum",
+    "state_id": 1532,
+    "state_code": "81",
+    "country_id": 59,
+    "country_code": "DK",
+    "latitude": "57.25679000",
+    "longitude": "10.99738000",
+    "native": null,
+    "timezone": "Europe/Copenhagen",
+    "translations": {},
+    "type": "town",
+    "population": 425,
+    "wikiDataId": "Q2487240"
   },
   {
     "id": 30624,
@@ -155,8 +171,8 @@
     "native": "Dronninglund",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3487,
+    "type": "town",
+    "population": 3769,
     "wikiDataId": "Q1260229"
   },
   {
@@ -171,8 +187,8 @@
     "native": "Farsø",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3349,
+    "type": "town",
+    "population": 3324,
     "wikiDataId": "Q3413045"
   },
   {
@@ -187,8 +203,8 @@
     "native": "Fjerritslev",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3326,
+    "type": "town",
+    "population": 3300,
     "wikiDataId": "Q3167139"
   },
   {
@@ -203,8 +219,8 @@
     "native": "Frederikshavn",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 23501,
+    "type": "town",
+    "population": 22496,
     "wikiDataId": "Q27452"
   },
   {
@@ -219,8 +235,8 @@
     "native": "Frederikshavn Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 57523,
     "wikiDataId": "Q502168"
   },
   {
@@ -235,8 +251,8 @@
     "native": "Frejlev",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3056,
+    "type": "town",
+    "population": 3236,
     "wikiDataId": "Q2701822"
   },
   {
@@ -251,8 +267,8 @@
     "native": "Gistrup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3664,
+    "type": "town",
+    "population": 3679,
     "wikiDataId": "Q1936506"
   },
   {
@@ -267,8 +283,8 @@
     "native": "Hadsund",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 5051,
+    "type": "town",
+    "population": 4902,
     "wikiDataId": "Q663011"
   },
   {
@@ -283,8 +299,8 @@
     "native": "Hals",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2388,
+    "type": "town",
+    "population": 2382,
     "wikiDataId": "Q678119"
   },
   {
@@ -299,8 +315,8 @@
     "native": "Hanstholm",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2154,
+    "type": "town",
+    "population": 2058,
     "wikiDataId": "Q1026874"
   },
   {
@@ -315,8 +331,8 @@
     "native": "Hirtshals",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 5532,
+    "type": "town",
+    "population": 5265,
     "wikiDataId": "Q846052"
   },
   {
@@ -331,8 +347,8 @@
     "native": "Hjallerup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 4235,
+    "type": "town",
+    "population": 4498,
     "wikiDataId": "Q2326573"
   },
   {
@@ -347,8 +363,8 @@
     "native": "Hjørring",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 25917,
+    "type": "town",
+    "population": 25794,
     "wikiDataId": "Q21185"
   },
   {
@@ -363,8 +379,8 @@
     "native": "Hjørring Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 62979,
     "wikiDataId": "Q511214"
   },
   {
@@ -379,8 +395,8 @@
     "native": "Hobro",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 12071,
+    "type": "town",
+    "population": 12440,
     "wikiDataId": "Q927713"
   },
   {
@@ -392,11 +408,11 @@
     "country_code": "DK",
     "latitude": "56.74944000",
     "longitude": "8.41953000",
-    "native": "breve",
+    "native": "Hurup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2769,
+    "type": "town",
+    "population": 2619,
     "wikiDataId": "Q1879794"
   },
   {
@@ -411,8 +427,8 @@
     "native": "Jammerbugt Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 37998,
     "wikiDataId": "Q503222"
   },
   {
@@ -427,8 +443,8 @@
     "native": "Kås",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 1990,
+    "type": "town",
+    "population": 2292,
     "wikiDataId": "Q3643248"
   },
   {
@@ -443,8 +459,8 @@
     "native": "Klarup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 4969,
+    "type": "town",
+    "population": 5745,
     "wikiDataId": "Q2398552"
   },
   {
@@ -459,8 +475,8 @@
     "native": "Læso Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1683,
     "wikiDataId": "Q498457"
   },
   {
@@ -475,8 +491,8 @@
     "native": "Løgstør",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3967,
+    "type": "town",
+    "population": 3929,
     "wikiDataId": "Q3414045"
   },
   {
@@ -491,7 +507,7 @@
     "native": "Løkken",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8828,
     "wikiDataId": "Q1021910"
   },
@@ -507,8 +523,8 @@
     "native": "Mariager",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2506,
+    "type": "town",
+    "population": 2651,
     "wikiDataId": "Q3173150"
   },
   {
@@ -523,8 +539,8 @@
     "native": "Mariagerfjord Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 41541,
     "wikiDataId": "Q512528"
   },
   {
@@ -539,8 +555,8 @@
     "native": "Morsø Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 19344,
     "wikiDataId": "Q502770"
   },
   {
@@ -552,11 +568,11 @@
     "country_code": "DK",
     "latitude": "56.98150000",
     "longitude": "9.63917000",
-    "native": "Der",
+    "native": "Nibe",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 5433,
+    "type": "town",
+    "population": 5703,
     "wikiDataId": "Q1019502"
   },
   {
@@ -571,8 +587,8 @@
     "native": "Nørresundby",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 23718,
+    "type": "town",
+    "population": 24831,
     "wikiDataId": "Q1246235"
   },
   {
@@ -587,8 +603,8 @@
     "native": "Nykøbing Mors",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 9031,
+    "type": "town",
+    "population": 8866,
     "wikiDataId": "Q1019481"
   },
   {
@@ -603,8 +619,8 @@
     "native": "Pandrup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2862,
+    "type": "town",
+    "population": 2849,
     "wikiDataId": "Q3169598"
   },
   {
@@ -619,8 +635,8 @@
     "native": "Rebild Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "municipality",
+    "population": 31280,
     "wikiDataId": "Q499896"
   },
   {
@@ -635,8 +651,8 @@
     "native": "Sæby",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 8838,
+    "type": "town",
+    "population": 9012,
     "wikiDataId": "Q346802"
   },
   {
@@ -651,8 +667,8 @@
     "native": "Sindal",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3095,
+    "type": "town",
+    "population": 3032,
     "wikiDataId": "Q3177752"
   },
   {
@@ -667,8 +683,8 @@
     "native": "Skagen",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 8198,
+    "type": "town",
+    "population": 7250,
     "wikiDataId": "Q215177"
   },
   {
@@ -683,8 +699,8 @@
     "native": "Skørping",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2971,
+    "type": "town",
+    "population": 3087,
     "wikiDataId": "Q3413549"
   },
   {
@@ -699,8 +715,8 @@
     "native": "Storvorde",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 3425,
+    "type": "town",
+    "population": 3491,
     "wikiDataId": "Q2349723"
   },
   {
@@ -715,8 +731,8 @@
     "native": "Støvring",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 9089,
+    "type": "town",
+    "population": 9808,
     "wikiDataId": "Q3413440"
   },
   {
@@ -731,8 +747,8 @@
     "native": "Strandby",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2518,
+    "type": "town",
+    "population": 2266,
     "wikiDataId": "Q1999151"
   },
   {
@@ -747,9 +763,9 @@
     "native": "Svenstrup",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7650,
-    "wikiDataId": "Q21182"
+    "wikiDataId": "Q3198692"
   },
   {
     "id": 30948,
@@ -763,8 +779,8 @@
     "native": "Tårs",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 1932,
+    "type": "town",
+    "population": 1825,
     "wikiDataId": "Q2086166"
   },
   {
@@ -779,8 +795,8 @@
     "native": "Thisted",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "adm2",
-    "population": 13461,
+    "type": "town",
+    "population": 13535,
     "wikiDataId": "Q1008152"
   },
   {
@@ -795,8 +811,8 @@
     "native": "Thisted Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 42572,
     "wikiDataId": "Q7715809"
   },
   {
@@ -811,8 +827,8 @@
     "native": "Vadum",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "locality",
-    "population": 1978,
+    "type": "town",
+    "population": 2552,
     "wikiDataId": "Q2590975"
   },
   {
@@ -827,8 +843,8 @@
     "native": "Vestbjerg",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2888,
+    "type": "town",
+    "population": 3091,
     "wikiDataId": "Q2458635"
   },
   {
@@ -843,8 +859,8 @@
     "native": "Vester Hassing",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2589,
+    "type": "town",
+    "population": 2608,
     "wikiDataId": "Q1015392"
   },
   {
@@ -859,8 +875,8 @@
     "native": "Vesthimmerland Kommune",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 35632,
     "wikiDataId": "Q511975"
   },
   {
@@ -875,8 +891,8 @@
     "native": "Vodskov",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 4663,
+    "type": "town",
+    "population": 4822,
     "wikiDataId": "Q2205752"
   },
   {
@@ -891,8 +907,8 @@
     "native": "Vrå",
     "timezone": "Europe/Copenhagen",
     "translations": {},
-    "type": "city",
-    "population": 2509,
+    "type": "town",
+    "population": 2662,
     "wikiDataId": "Q912141"
   }
 ]

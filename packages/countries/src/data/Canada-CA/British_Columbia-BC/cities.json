@@ -56,12 +56,12 @@
     "country_code": "CA",
     "latitude": "49.05593000",
     "longitude": "-122.42299000",
-    "native": "Aldergove East",
-    "timezone": "America/Toronto",
+    "native": "Aldergrove East",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "section",
     "population": null,
-    "wikiDataId": "Q2832285"
+    "wikiDataId": null
   },
   {
     "id": 16169,
@@ -72,11 +72,11 @@
     "country_code": "CA",
     "latitude": "49.31637000",
     "longitude": "-122.85263000",
-    "native": "Emore",
+    "native": "Anmore",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm3",
-    "population": 2210,
+    "type": "village",
+    "population": 2356,
     "wikiDataId": "Q557967"
   },
   {
@@ -91,9 +91,9 @@
     "native": "Arbutus Ridge",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15295,
-    "wikiDataId": "Q575483"
+    "wikiDataId": "Q3505250"
   },
   {
     "id": 16173,
@@ -123,8 +123,8 @@
     "native": "Ashcroft",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 1558,
+    "type": "village",
+    "population": 1670,
     "wikiDataId": "Q2739451"
   },
   {
@@ -136,10 +136,10 @@
     "country_code": "CA",
     "latitude": "51.18308000",
     "longitude": "-120.11920000",
-    "native": "Barrier",
+    "native": "Barrière",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1765,
     "wikiDataId": "Q808957"
   },
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 4256,
-    "wikiDataId": "Q573968"
+    "wikiDataId": "Q22581866"
   },
   {
     "id": 16253,
@@ -171,7 +171,7 @@
     "native": "Burnaby",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 249125,
     "wikiDataId": "Q244025"
   },
@@ -187,7 +187,7 @@
     "native": "Burns Lake",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1779,
     "wikiDataId": "Q954302"
   },
@@ -203,8 +203,8 @@
     "native": "Cache Creek",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 1061,
+    "type": "village",
+    "population": 969,
     "wikiDataId": "Q986003"
   },
   {
@@ -220,7 +220,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 32588,
+    "population": 35519,
     "wikiDataId": "Q1030509"
   },
   {
@@ -236,7 +236,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 8039,
+    "population": 8338,
     "wikiDataId": "Q1026779"
   },
   {
@@ -264,8 +264,8 @@
     "country_code": "CA",
     "latitude": "52.16638000",
     "longitude": "-127.00323000",
-    "native": "Central Coast Regional District",
-    "timezone": "America/Toronto",
+    "native": "Central Coast Regional",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "district",
     "population": 3319,
@@ -283,8 +283,8 @@
     "native": "Chase",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 2471,
+    "type": "village",
+    "population": 2399,
     "wikiDataId": "Q2957005"
   },
   {
@@ -296,12 +296,12 @@
     "country_code": "CA",
     "latitude": "48.91633000",
     "longitude": "-123.71937000",
-    "native": "Of the motherus",
+    "native": "Chemainus",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3021,
-    "wikiDataId": "Q1068386"
+    "wikiDataId": "Q988668"
   },
   {
     "id": 16306,
@@ -315,8 +315,8 @@
     "native": "Chetwynd",
     "timezone": "America/Dawson_Creek",
     "translations": {},
-    "type": "city",
-    "population": 2587,
+    "type": "municipality",
+    "population": 2302,
     "wikiDataId": "Q987459"
   },
   {
@@ -331,7 +331,7 @@
     "native": "Chilliwack",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 83788,
     "wikiDataId": "Q983026"
   },
@@ -379,7 +379,7 @@
     "native": "Coquitlam",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 148625,
     "wikiDataId": "Q643215"
   },
@@ -413,7 +413,7 @@
     "translations": {},
     "type": "city",
     "population": 2799,
-    "wikiDataId": "Q142107"
+    "wikiDataId": null
   },
   {
     "id": 16346,
@@ -443,7 +443,7 @@
     "native": "Creston",
     "timezone": "America/Creston",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5583,
     "wikiDataId": "Q1139747"
   },
@@ -476,7 +476,7 @@
     "timezone": "America/Dawson_Creek",
     "translations": {},
     "type": "city",
-    "population": 12178,
+    "population": 12323,
     "wikiDataId": "Q1012625"
   },
   {
@@ -493,7 +493,7 @@
     "translations": {},
     "type": "city",
     "population": 101668,
-    "wikiDataId": "Q142180"
+    "wikiDataId": "Q851838"
   },
   {
     "id": 16367,
@@ -509,7 +509,7 @@
     "translations": {},
     "type": "city",
     "population": 1020,
-    "wikiDataId": "Q142180"
+    "wikiDataId": null
   },
   {
     "id": 16368,
@@ -525,7 +525,7 @@
     "translations": {},
     "type": "city",
     "population": 1165,
-    "wikiDataId": "Q142180"
+    "wikiDataId": null
   },
   {
     "id": 16386,
@@ -541,7 +541,7 @@
     "translations": {},
     "type": "city",
     "population": 15817,
-    "wikiDataId": "Q141940"
+    "wikiDataId": null
   },
   {
     "id": 16387,
@@ -573,7 +573,7 @@
     "translations": {},
     "type": "city",
     "population": 1444,
-    "wikiDataId": "Q483424"
+    "wikiDataId": "Q116043042"
   },
   {
     "id": 16400,
@@ -585,11 +585,11 @@
     "latitude": "50.05007000",
     "longitude": "-114.88540000",
     "native": "Elkford",
-    "timezone": "America/Toronto",
+    "timezone": "America/Edmonton",
     "translations": {},
-    "type": "city",
-    "population": 2585,
-    "wikiDataId": "Q2093074"
+    "type": "municipality",
+    "population": 2749,
+    "wikiDataId": "Q338360"
   },
   {
     "id": 16402,
@@ -605,7 +605,7 @@
     "translations": {},
     "type": "city",
     "population": 3094,
-    "wikiDataId": "Q2729034"
+    "wikiDataId": "Q24191108"
   },
   {
     "id": 16404,
@@ -637,7 +637,7 @@
     "translations": {},
     "type": "city",
     "population": 1147,
-    "wikiDataId": "Q1743603"
+    "wikiDataId": null
   },
   {
     "id": 16421,
@@ -652,7 +652,7 @@
     "timezone": "America/Edmonton",
     "translations": {},
     "type": "city",
-    "population": 5249,
+    "population": 6320,
     "wikiDataId": "Q204442"
   },
   {
@@ -684,7 +684,7 @@
     "timezone": "America/Dawson_Creek",
     "translations": {},
     "type": "city",
-    "population": 17402,
+    "population": 21465,
     "wikiDataId": "Q23021"
   },
   {
@@ -696,8 +696,8 @@
     "country_code": "CA",
     "latitude": "49.58299000",
     "longitude": "-121.83587000",
-    "native": "Fraser Valley Regional District",
-    "timezone": "America/Toronto",
+    "native": "Fraser Valley Regional",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "district",
     "population": 295934,
@@ -717,7 +717,7 @@
     "translations": {},
     "type": "city",
     "population": 1024,
-    "wikiDataId": "Q2138"
+    "wikiDataId": null
   },
   {
     "id": 16443,
@@ -731,8 +731,8 @@
     "native": "Fruitvale",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 3491,
+    "type": "village",
+    "population": 1958,
     "wikiDataId": "Q2956998"
   },
   {
@@ -744,11 +744,11 @@
     "country_code": "CA",
     "latitude": "49.39539000",
     "longitude": "-123.50555000",
-    "native": "Gibson",
+    "native": "Gibsons",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 6821,
+    "type": "town",
+    "population": 4758,
     "wikiDataId": "Q11483763"
   },
   {
@@ -763,8 +763,8 @@
     "native": "Golden",
     "timezone": "America/Edmonton",
     "translations": {},
-    "type": "city",
-    "population": 4038,
+    "type": "town",
+    "population": 3986,
     "wikiDataId": "Q1020179"
   },
   {
@@ -780,7 +780,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 4049,
+    "population": 4112,
     "wikiDataId": "Q984028"
   },
   {
@@ -797,7 +797,7 @@
     "translations": {},
     "type": "locality",
     "population": 10000,
-    "wikiDataId": "Q928252"
+    "wikiDataId": "Q5646989"
   },
   {
     "id": 16507,
@@ -811,8 +811,8 @@
     "native": "Hope",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 4434,
+    "type": "municipality",
+    "population": 6686,
     "wikiDataId": "Q1610654"
   },
   {
@@ -829,7 +829,7 @@
     "translations": {},
     "type": "city",
     "population": 1100,
-    "wikiDataId": "Q1610654"
+    "wikiDataId": null
   },
   {
     "id": 16510,
@@ -843,8 +843,8 @@
     "native": "Houston",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 2993,
+    "type": "municipality",
+    "population": 3052,
     "wikiDataId": "Q1257381"
   },
   {
@@ -856,11 +856,11 @@
     "country_code": "CA",
     "latitude": "50.51666000",
     "longitude": "-116.03538000",
-    "native": "Inverters",
+    "native": "Invermere",
     "timezone": "America/Edmonton",
     "translations": {},
-    "type": "city",
-    "population": 3391,
+    "type": "municipality",
+    "population": 3917,
     "wikiDataId": "Q282363"
   },
   {
@@ -888,7 +888,7 @@
     "country_code": "CA",
     "latitude": "49.88307000",
     "longitude": "-119.48568000",
-    "native": "Kowouli",
+    "native": "Kelowna",
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
@@ -908,7 +908,7 @@
     "timezone": "America/Edmonton",
     "translations": {},
     "type": "city",
-    "population": 7425,
+    "population": 8115,
     "wikiDataId": "Q1305726"
   },
   {
@@ -923,8 +923,8 @@
     "native": "Kitimat",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 8131,
+    "type": "municipality",
+    "population": 8236,
     "wikiDataId": "Q1307936"
   },
   {
@@ -939,7 +939,7 @@
     "native": "Ladner",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22193,
     "wikiDataId": "Q14874652"
   },
@@ -955,8 +955,8 @@
     "native": "Ladysmith",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 8537,
+    "type": "town",
+    "population": 8990,
     "wikiDataId": "Q373626"
   },
   {
@@ -971,8 +971,8 @@
     "native": "Lake Cowichan",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 3226,
+    "type": "town",
+    "population": 3325,
     "wikiDataId": "Q6475523"
   },
   {
@@ -1019,7 +1019,7 @@
     "native": "Lillooet",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2302,
     "wikiDataId": "Q355257"
   },
@@ -1035,8 +1035,8 @@
     "native": "Lions Bay",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 1334,
+    "type": "village",
+    "population": 1390,
     "wikiDataId": "Q1827312"
   },
   {
@@ -1049,11 +1049,11 @@
     "latitude": "50.49976000",
     "longitude": "-120.80253000",
     "native": "Logan Lake",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 2190,
-    "wikiDataId": "Q985674"
+    "type": "municipality",
+    "population": 2255,
+    "wikiDataId": "Q6667078"
   },
   {
     "id": 16635,
@@ -1067,7 +1067,7 @@
     "native": "Lumby",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2063,
     "wikiDataId": "Q2957128"
   },
@@ -1083,9 +1083,9 @@
     "native": "Mackenzie",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 3262,
-    "wikiDataId": "Q141576"
+    "type": "municipality",
+    "population": 3281,
+    "wikiDataId": "Q6724341"
   },
   {
     "id": 16656,
@@ -1100,7 +1100,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 82256,
+    "population": 90990,
     "wikiDataId": "Q16740"
   },
   {
@@ -1116,7 +1116,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 7139,
+    "population": 7051,
     "wikiDataId": "Q1025990"
   },
   {
@@ -1131,7 +1131,7 @@
     "native": "Metchosin",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5067,
     "wikiDataId": "Q6823363"
   },
@@ -1144,8 +1144,8 @@
     "country_code": "CA",
     "latitude": "49.33296000",
     "longitude": "-123.00264000",
-    "native": "Metro Vancouver Regional District",
-    "timezone": "America/Toronto",
+    "native": "Metro Vancouver Regional",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "district",
     "population": 2463431,
@@ -1164,8 +1164,8 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 38833,
-    "wikiDataId": "Q1348913"
+    "population": 41519,
+    "wikiDataId": "Q557643"
   },
   {
     "id": 16727,
@@ -1179,8 +1179,8 @@
     "native": "Nakusp",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 1706,
+    "type": "village",
+    "population": 1589,
     "wikiDataId": "Q2957435"
   },
   {
@@ -1192,7 +1192,7 @@
     "country_code": "CA",
     "latitude": "49.16638000",
     "longitude": "-123.94003000",
-    "native": "Nanonoon",
+    "native": "Nanaimo",
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
@@ -1212,7 +1212,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 10664,
+    "population": 11106,
     "wikiDataId": "Q1779015"
   },
   {
@@ -1228,7 +1228,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 70996,
+    "population": 78916,
     "wikiDataId": "Q876122"
   },
   {
@@ -1243,7 +1243,7 @@
     "native": "North Cowichan",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 29676,
     "wikiDataId": "Q7054960"
   },
@@ -1261,7 +1261,7 @@
     "translations": {},
     "type": "city",
     "population": 1320,
-    "wikiDataId": "Q7054960"
+    "wikiDataId": null
   },
   {
     "id": 16760,
@@ -1275,8 +1275,8 @@
     "native": "North Saanich",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 11089,
+    "type": "municipality",
+    "population": 12235,
     "wikiDataId": "Q2000769"
   },
   {
@@ -1292,8 +1292,8 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 88168,
-    "wikiDataId": "Q2000769"
+    "population": 58120,
+    "wikiDataId": "Q1001626"
   },
   {
     "id": 16769,
@@ -1307,8 +1307,8 @@
     "native": "Oak Bay",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 18015,
+    "type": "municipality",
+    "population": 17990,
     "wikiDataId": "Q7073424"
   },
   {
@@ -1321,11 +1321,11 @@
     "latitude": "50.36386000",
     "longitude": "-119.34997000",
     "native": "Okanagan",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q729382"
+    "wikiDataId": null
   },
   {
     "id": 16773,
@@ -1355,7 +1355,7 @@
     "native": "Oliver",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5094,
     "wikiDataId": "Q3350642"
   },
@@ -1388,7 +1388,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 12514,
+    "population": 13642,
     "wikiDataId": "Q1438931"
   },
   {
@@ -1400,8 +1400,8 @@
     "country_code": "CA",
     "latitude": "56.66650000",
     "longitude": "-122.75302000",
-    "native": "Peace River Regional District",
-    "timezone": "America/Toronto",
+    "native": "Peace River Regional",
+    "timezone": "America/Dawson_Creek",
     "translations": {},
     "type": "district",
     "population": 62942,
@@ -1417,7 +1417,7 @@
     "latitude": "49.76647000",
     "longitude": "-119.73568000",
     "native": "Peachland",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": 5006,
@@ -1435,7 +1435,7 @@
     "native": "Pemberton",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2574,
     "wikiDataId": "Q1727611"
   },
@@ -1452,7 +1452,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 33761,
+    "population": 36885,
     "wikiDataId": "Q935519"
   },
   {
@@ -1468,7 +1468,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 18573,
+    "population": 19146,
     "wikiDataId": "Q1369892"
   },
   {
@@ -1484,7 +1484,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 17678,
+    "population": 18259,
     "wikiDataId": "Q1022127"
   },
   {
@@ -1499,7 +1499,7 @@
     "native": "Port Coquitlam",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 58000,
     "wikiDataId": "Q643326"
   },
@@ -1513,10 +1513,10 @@
     "latitude": "50.58716000",
     "longitude": "-127.08053000",
     "native": "Port McNeill",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 2234,
+    "type": "town",
+    "population": 2356,
     "wikiDataId": "Q2104736"
   },
   {
@@ -1531,8 +1531,8 @@
     "native": "Port Moody",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm3",
-    "population": 33551,
+    "type": "city",
+    "population": 33535,
     "wikiDataId": "Q776261"
   },
   {
@@ -1564,7 +1564,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 74003,
+    "population": 76708,
     "wikiDataId": "Q590205"
   },
   {
@@ -1580,7 +1580,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 12220,
+    "population": 12300,
     "wikiDataId": "Q1015639"
   },
   {
@@ -1595,8 +1595,8 @@
     "native": "Princeton",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 2828,
+    "type": "town",
+    "population": 2894,
     "wikiDataId": "Q1020218"
   },
   {
@@ -1609,11 +1609,11 @@
     "latitude": "49.66168000",
     "longitude": "-125.05686000",
     "native": "Puntledge",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q141385"
+    "wikiDataId": "Q116043699"
   },
   {
     "id": 16865,
@@ -1628,7 +1628,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 9879,
+    "population": 9889,
     "wikiDataId": "Q2067514"
   },
   {
@@ -1641,9 +1641,9 @@
     "latitude": "49.24962000",
     "longitude": "-125.33615000",
     "native": "Regional District of Alberni-Clayoquot",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1778727"
   },
@@ -1657,7 +1657,7 @@
     "latitude": "49.99978000",
     "longitude": "-119.41908000",
     "native": "Regional District of Central Okanagan",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": 194882,
@@ -1676,7 +1676,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 7547,
+    "population": 8275,
     "wikiDataId": "Q1893229"
   },
   {
@@ -1737,7 +1737,7 @@
     "latitude": "49.19986000",
     "longitude": "-117.26890000",
     "native": "Salmo",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": 1141,
@@ -1757,7 +1757,7 @@
     "translations": {},
     "type": "city",
     "population": 12875,
-    "wikiDataId": "Q2957546"
+    "wikiDataId": null
   },
   {
     "id": 17018,
@@ -1769,11 +1769,11 @@
     "latitude": "48.81852000",
     "longitude": "-123.49061000",
     "native": "Salt Spring Island",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q2957546"
+    "wikiDataId": null
   },
   {
     "id": 17019,
@@ -1784,12 +1784,12 @@
     "country_code": "CA",
     "latitude": "48.94963000",
     "longitude": "-123.76939000",
-    "native": "Poster",
+    "native": "Saltair",
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
     "population": 2069,
-    "wikiDataId": "Q2957546"
+    "wikiDataId": "Q4083284"
   },
   {
     "id": 17025,
@@ -1803,7 +1803,7 @@
     "native": "Sechelt",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8832,
     "wikiDataId": "Q1259274"
   },
@@ -1819,8 +1819,8 @@
     "native": "Sicamous",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 1786,
+    "type": "municipality",
+    "population": 2613,
     "wikiDataId": "Q7507390"
   },
   {
@@ -1837,7 +1837,7 @@
     "translations": {},
     "type": "city",
     "population": 1031,
-    "wikiDataId": "Q3054408"
+    "wikiDataId": null
   },
   {
     "id": 17050,
@@ -1851,8 +1851,8 @@
     "native": "Smithers",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 5401,
+    "type": "town",
+    "population": 5378,
     "wikiDataId": "Q1009247"
   },
   {
@@ -1867,8 +1867,8 @@
     "native": "Sooke",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 6145,
+    "type": "municipality",
+    "population": 15086,
     "wikiDataId": "Q993727"
   },
   {
@@ -1885,7 +1885,7 @@
     "translations": {},
     "type": "city",
     "population": 1187,
-    "wikiDataId": "Q4397"
+    "wikiDataId": null
   },
   {
     "id": 17060,
@@ -1899,8 +1899,8 @@
     "native": "Sparwood",
     "timezone": "America/Edmonton",
     "translations": {},
-    "type": "city",
-    "population": 3784,
+    "type": "municipality",
+    "population": 4148,
     "wikiDataId": "Q7573961"
   },
   {
@@ -1915,8 +1915,8 @@
     "native": "Summerland",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 11615,
+    "type": "municipality",
+    "population": 12042,
     "wikiDataId": "Q984379"
   },
   {
@@ -1948,7 +1948,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 19443,
+    "population": 12017,
     "wikiDataId": "Q1021037"
   },
   {
@@ -1963,7 +1963,7 @@
     "native": "Tofino",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2516,
     "wikiDataId": "Q462564"
   },
@@ -1980,7 +1980,7 @@
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 7709,
+    "population": 7920,
     "wikiDataId": "Q1808502"
   },
   {
@@ -1992,12 +1992,12 @@
     "country_code": "CA",
     "latitude": "49.01667000",
     "longitude": "-123.08333000",
-    "native": "Tsjust",
+    "native": "Tsawwassen",
     "timezone": "America/Vancouver",
     "translations": {},
     "type": "section",
     "population": 21588,
-    "wikiDataId": "Q283064"
+    "wikiDataId": null
   },
   {
     "id": 17129,
@@ -2011,8 +2011,8 @@
     "native": "Tumbler Ridge",
     "timezone": "America/Dawson_Creek",
     "translations": {},
-    "type": "city",
-    "population": 2454,
+    "type": "municipality",
+    "population": 2399,
     "wikiDataId": "Q7852567"
   },
   {
@@ -2027,7 +2027,7 @@
     "native": "Ucluelet",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2066,
     "wikiDataId": "Q994047"
   },
@@ -2059,7 +2059,7 @@
     "native": "Vanderhoof",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4346,
     "wikiDataId": "Q908439"
   },
@@ -2091,8 +2091,8 @@
     "native": "Victoria",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "adm1",
-    "population": 289625,
+    "type": "city",
+    "population": 91867,
     "wikiDataId": "Q2132"
   },
   {
@@ -2109,7 +2109,7 @@
     "translations": {},
     "type": "city",
     "population": 25683,
-    "wikiDataId": "Q835304"
+    "wikiDataId": "Q7963585"
   },
   {
     "id": 17183,
@@ -2125,7 +2125,7 @@
     "translations": {},
     "type": "locality",
     "population": 1125,
-    "wikiDataId": "Q1284782"
+    "wikiDataId": "Q106669951"
   },
   {
     "id": 17189,
@@ -2139,7 +2139,7 @@
     "native": "West End",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 47200,
     "wikiDataId": "Q1076122"
   },
@@ -2169,10 +2169,10 @@
     "latitude": "49.36672000",
     "longitude": "-123.16652000",
     "native": "West Vancouver",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 42473,
+    "type": "municipality",
+    "population": 44122,
     "wikiDataId": "Q991329"
   },
   {
@@ -2187,8 +2187,8 @@
     "native": "Whistler",
     "timezone": "America/Vancouver",
     "translations": {},
-    "type": "city",
-    "population": 8713,
+    "type": "municipality",
+    "population": 13982,
     "wikiDataId": "Q203122"
   },
   {
@@ -2201,10 +2201,10 @@
     "latitude": "49.01636000",
     "longitude": "-122.80260000",
     "native": "White Rock",
-    "timezone": "America/Toronto",
+    "timezone": "America/Vancouver",
     "translations": {},
     "type": "city",
-    "population": 19952,
+    "population": 21939,
     "wikiDataId": "Q629056"
   },
   {

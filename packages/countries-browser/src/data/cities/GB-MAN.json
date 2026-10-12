@@ -16,6 +16,22 @@
     "wikiDataId": "Q4923090"
   },
   {
+    "id": 48772,
+    "name": "Burnage",
+    "state_id": 2398,
+    "state_code": "MAN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.43265000",
+    "longitude": "-2.19967000",
+    "native": "Burnage",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": 13706,
+    "wikiDataId": "Q2736509"
+  },
+  {
     "id": 48942,
     "name": "Cheetham Hill",
     "state_id": 2398,
@@ -40,7 +56,7 @@
     "country_code": "GB",
     "latitude": "53.43505000",
     "longitude": "-2.26310000",
-    "native": "Hardy Cum Chorlton",
+    "native": "Chorlton cum Hardy",
     "timezone": "Europe/London",
     "translations": {},
     "type": "section",
@@ -62,6 +78,22 @@
     "type": "section",
     "population": 11363,
     "wikiDataId": "Q2341373"
+  },
+  {
+    "id": 49283,
+    "name": "Didsbury",
+    "state_id": 2398,
+    "state_code": "MAN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.41698000",
+    "longitude": "-2.23145000",
+    "native": "Didsbury",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 14292,
+    "wikiDataId": "Q1210672"
   },
   {
     "id": 49524,
@@ -110,5 +142,21 @@
     "type": "section",
     "population": 16007,
     "wikiDataId": "Q2423211"
+  },
+  {
+    "id": 50481,
+    "name": "Manchester",
+    "state_id": 2398,
+    "state_code": "MAN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.41667000",
+    "longitude": "-2.25000000",
+    "native": "Manchester",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 547627,
+    "wikiDataId": null
   }
 ]

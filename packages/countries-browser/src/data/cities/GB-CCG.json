@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 2103,
-    "wikiDataId": "Q1012304"
+    "wikiDataId": null
   },
   {
     "id": 48351,
@@ -27,9 +27,25 @@
     "native": "Ballycastle",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5566,
     "wikiDataId": "Q805405"
+  },
+  {
+    "id": 48354,
+    "name": "Ballykelly",
+    "state_id": 2316,
+    "state_code": "CCG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.04425000",
+    "longitude": "-7.01855000",
+    "native": "Ballykelly",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1735,
+    "wikiDataId": "Q575071"
   },
   {
     "id": 48356,
@@ -43,7 +59,7 @@
     "native": "Ballymoney",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9625,
     "wikiDataId": "Q805450"
   },
@@ -61,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 2310,
-    "wikiDataId": "Q58125"
+    "wikiDataId": null
   },
   {
     "id": 48802,
@@ -75,7 +91,7 @@
     "native": "Bushmills",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1309,
     "wikiDataId": "Q611570"
   },
@@ -96,22 +112,6 @@
     "wikiDataId": "Q619264"
   },
   {
-    "id": 48896,
-    "name": "Causeway Coast and Glens",
-    "state_id": 2316,
-    "state_code": "CCG",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.06014000",
-    "longitude": "-6.59081000",
-    "native": "Causeway Coast and Glens",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 144246,
-    "wikiDataId": "Q386087"
-  },
-  {
     "id": 49067,
     "name": "Coleraine",
     "state_id": 2316,
@@ -123,9 +123,25 @@
     "native": "Coleraine",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 25681,
     "wikiDataId": "Q1108185"
+  },
+  {
+    "id": 49213,
+    "name": "Cushendall",
+    "state_id": 2316,
+    "state_code": "CCG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.08033000",
+    "longitude": "-6.06291000",
+    "native": "Cushendall",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1226,
+    "wikiDataId": "Q2580652"
   },
   {
     "id": 49354,
@@ -136,7 +152,7 @@
     "country_code": "GB",
     "latitude": "54.93333000",
     "longitude": "-6.91667000",
-    "native": "Downy",
+    "native": "Dungiven",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -155,7 +171,7 @@
     "native": "Dunloy",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1091,
     "wikiDataId": "Q1752141"
   },
@@ -176,6 +192,22 @@
     "wikiDataId": "Q3270941"
   },
   {
+    "id": 49655,
+    "name": "Glenariff",
+    "state_id": 2316,
+    "state_code": "CCG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.05000000",
+    "longitude": "-6.06667000",
+    "native": "Glenariff",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 1286,
+    "wikiDataId": null
+  },
+  {
     "id": 50152,
     "name": "Kilrea",
     "state_id": 2316,
@@ -187,7 +219,7 @@
     "native": "Kilrea",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1616,
     "wikiDataId": "Q950125"
   },
@@ -203,41 +235,9 @@
     "native": "Limavady",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 12970,
     "wikiDataId": "Q1002115"
-  },
-  {
-    "id": 50466,
-    "name": "Maghera",
-    "state_id": 2316,
-    "state_code": "CCG",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.84390000",
-    "longitude": "-6.67145000",
-    "native": "Maghera",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4085,
-    "wikiDataId": "Q1025604"
-  },
-  {
-    "id": 50959,
-    "name": "Portglenone",
-    "state_id": 2316,
-    "state_code": "CCG",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.87147000",
-    "longitude": "-6.47146000",
-    "native": "Portglenone",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1230,
-    "wikiDataId": "Q2150770"
   },
   {
     "id": 50968,
@@ -251,7 +251,7 @@
     "native": "Portrush",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6684,
     "wikiDataId": "Q1027679"
   },
@@ -267,7 +267,7 @@
     "native": "Portstewart",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8394,
     "wikiDataId": "Q2239914"
   }

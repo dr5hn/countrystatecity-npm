@@ -11,7 +11,7 @@
     "native": "Begliano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1019,
     "wikiDataId": "Q18448096"
   },
@@ -27,25 +27,9 @@
     "native": "Capriva del Friuli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1639,
+    "type": "municipality",
+    "population": 1566,
     "wikiDataId": "Q53123"
-  },
-  {
-    "id": 137680,
-    "name": "Chiopris",
-    "state_id": 1777,
-    "state_code": "GO",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "45.92667000",
-    "longitude": "13.40417000",
-    "native": "Chiopris",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "adm3",
-    "population": 385,
-    "wikiDataId": null
   },
   {
     "id": 138021,
@@ -59,8 +43,8 @@
     "native": "Cormons",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 7135,
+    "type": "municipality",
+    "population": 7001,
     "wikiDataId": "Q53124"
   },
   {
@@ -75,8 +59,8 @@
     "native": "Doberdò del Lago",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 890,
+    "type": "municipality",
+    "population": 1293,
     "wikiDataId": "Q53125"
   },
   {
@@ -91,25 +75,9 @@
     "native": "Dolegna del Collio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 50,
+    "type": "municipality",
+    "population": 285,
     "wikiDataId": "Q53126"
-  },
-  {
-    "id": 138341,
-    "name": "Duino",
-    "state_id": 1777,
-    "state_code": "GO",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "45.77342000",
-    "longitude": "13.60436000",
-    "native": "Duino",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 1369,
-    "wikiDataId": "Q2477512"
   },
   {
     "id": 138452,
@@ -123,8 +91,8 @@
     "native": "Farra d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1678,
+    "type": "municipality",
+    "population": 1681,
     "wikiDataId": "Q53127"
   },
   {
@@ -139,9 +107,25 @@
     "native": "Fogliano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1715,
     "wikiDataId": null
+  },
+  {
+    "id": 166148,
+    "name": "Fogliano Redipuglia",
+    "state_id": 1777,
+    "state_code": "GO",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "45.86666667",
+    "longitude": "13.48333333",
+    "native": "Fogliano Redipuglia",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 2966,
+    "wikiDataId": "Q53128"
   },
   {
     "id": 139032,
@@ -155,8 +139,8 @@
     "native": "Gorizia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm2",
-    "population": 33506,
+    "type": "municipality",
+    "population": 33679,
     "wikiDataId": "Q6596"
   },
   {
@@ -171,8 +155,8 @@
     "native": "Gradisca d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 6430,
+    "type": "municipality",
+    "population": 6394,
     "wikiDataId": "Q53129"
   },
   {
@@ -187,8 +171,8 @@
     "native": "Grado",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 7658,
+    "type": "municipality",
+    "population": 7454,
     "wikiDataId": "Q53130"
   },
   {
@@ -203,8 +187,8 @@
     "native": "Mariano del Friuli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1450,
+    "type": "municipality",
+    "population": 1478,
     "wikiDataId": "Q53131"
   },
   {
@@ -219,8 +203,8 @@
     "native": "Medea",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 948,
+    "type": "municipality",
+    "population": 956,
     "wikiDataId": "Q53132"
   },
   {
@@ -251,8 +235,8 @@
     "native": "Moraro",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 702,
+    "type": "municipality",
+    "population": 722,
     "wikiDataId": "Q53134"
   },
   {
@@ -267,8 +251,8 @@
     "native": "Mossa",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1526,
+    "type": "municipality",
+    "population": 1512,
     "wikiDataId": "Q53135"
   },
   {
@@ -283,7 +267,7 @@
     "native": "Pieris",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 3140,
     "wikiDataId": "Q3903065"
   },
@@ -299,8 +283,8 @@
     "native": "Romans d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3622,
+    "type": "municipality",
+    "population": 3556,
     "wikiDataId": "Q53136"
   },
   {
@@ -315,8 +299,8 @@
     "native": "Ronchi dei Legionari",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 11780,
+    "type": "municipality",
+    "population": 11859,
     "wikiDataId": "Q53137"
   },
   {
@@ -331,8 +315,8 @@
     "native": "Sagrado",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1300,
+    "type": "municipality",
+    "population": 2132,
     "wikiDataId": "Q53138"
   },
   {
@@ -347,8 +331,8 @@
     "native": "San Canzian d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
-    "population": 1679,
+    "type": "municipality",
+    "population": 6048,
     "wikiDataId": "Q53140"
   },
   {
@@ -363,8 +347,8 @@
     "native": "San Floriano del Collio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 297,
+    "type": "municipality",
+    "population": 718,
     "wikiDataId": "Q53141"
   },
   {
@@ -379,8 +363,8 @@
     "native": "San Lorenzo Isontino",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1514,
+    "type": "municipality",
+    "population": 1479,
     "wikiDataId": "Q53142"
   },
   {
@@ -395,8 +379,8 @@
     "native": "San Pier d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1552,
+    "type": "municipality",
+    "population": 1914,
     "wikiDataId": "Q53143"
   },
   {
@@ -411,25 +395,9 @@
     "native": "Savogna d'Isonzo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 793,
+    "type": "municipality",
+    "population": 1678,
     "wikiDataId": "Q53144"
-  },
-  {
-    "id": 60881,
-    "name": "Sistiana-Visogliano",
-    "state_id": 1777,
-    "state_code": "GO",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "45.77237000",
-    "longitude": "13.63824000",
-    "native": "Sistiana-Visogliano",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 2996,
-    "wikiDataId": null
   },
   {
     "id": 61047,
@@ -443,8 +411,8 @@
     "native": "Staranzano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 7136,
+    "type": "municipality",
+    "population": 7130,
     "wikiDataId": "Q53145"
   },
   {
@@ -459,8 +427,8 @@
     "native": "Turriaco",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2754,
+    "type": "municipality",
+    "population": 2784,
     "wikiDataId": "Q53146"
   },
   {
@@ -475,8 +443,8 @@
     "native": "Villesse",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1615,
+    "type": "municipality",
+    "population": 1665,
     "wikiDataId": "Q53147"
   }
 ]

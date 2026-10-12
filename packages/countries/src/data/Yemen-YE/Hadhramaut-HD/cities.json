@@ -8,10 +8,10 @@
     "country_code": "YE",
     "latitude": "15.09490000",
     "longitude": "50.01590000",
-    "native": "إعلان ديس",
+    "native": "مديرية الديس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 23092,
     "wikiDataId": "Q4117698"
   },
@@ -43,7 +43,7 @@
     "native": "أده ضليعة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 18678,
     "wikiDataId": "Q4117682"
   },
@@ -123,7 +123,7 @@
     "native": "القطن",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 59204,
     "wikiDataId": "Q4117526"
   },
@@ -139,7 +139,7 @@
     "native": "أمد",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 20052,
     "wikiDataId": "Q4117560"
   },
@@ -155,9 +155,25 @@
     "native": "الريدة والقصير",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 45180,
     "wikiDataId": "Q4117638"
+  },
+  {
+    "id": 165856,
+    "name": "As Salāsil",
+    "state_id": 1238,
+    "state_code": "HD",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "16.47959000",
+    "longitude": "48.83153000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q5950068"
   },
   {
     "id": 130780,
@@ -171,7 +187,7 @@
     "native": "الصوم",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 12666,
     "wikiDataId": "Q4117602"
   },
@@ -187,7 +203,7 @@
     "native": "أش شهر",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 73482,
     "wikiDataId": "Q4117645"
   },
@@ -200,7 +216,7 @@
     "country_code": "YE",
     "latitude": "15.93786000",
     "longitude": "48.78641000",
-    "native": "في التحالف",
+    "native": "التحالف",
     "timezone": "Asia/Aden",
     "translations": {},
     "type": "section",
@@ -219,9 +235,25 @@
     "native": "بروم مايفا",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 17327,
     "wikiDataId": "Q4117805"
+  },
+  {
+    "id": 165860,
+    "name": "Burūm",
+    "state_id": 1238,
+    "state_code": "HD",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "14.36361000",
+    "longitude": "48.97972000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q5000982"
   },
   {
     "id": 130832,
@@ -235,7 +267,7 @@
     "native": "دوان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 43836,
     "wikiDataId": "Q4117696"
   },
@@ -267,7 +299,7 @@
     "native": "غيل بن يامين",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 28120,
     "wikiDataId": "Q4117704"
   },
@@ -336,6 +368,22 @@
     "wikiDataId": "Q4117301"
   },
   {
+    "id": 165864,
+    "name": "Minwakh",
+    "state_id": 1238,
+    "state_code": "HD",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "16.80035000",
+    "longitude": "48.10854000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6871216"
+  },
+  {
     "id": 130929,
     "name": "Mukalla",
     "state_id": 1238,
@@ -376,7 +424,7 @@
     "country_code": "YE",
     "latitude": "17.81450000",
     "longitude": "51.07590000",
-    "native": "منزل",
+    "native": "مديرية رماه",
     "timezone": "Asia/Aden",
     "translations": {},
     "type": "city",
@@ -395,7 +443,7 @@
     "native": "صح",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 24146,
     "wikiDataId": "Q4117543"
   },
@@ -411,7 +459,7 @@
     "native": "سايون",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 102409,
     "wikiDataId": "Q4117557"
   },
@@ -430,6 +478,22 @@
     "type": "city",
     "population": 13316,
     "wikiDataId": "Q4117552"
+  },
+  {
+    "id": 165865,
+    "name": "Şīf",
+    "state_id": 1238,
+    "state_code": "HD",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.31389000",
+    "longitude": "48.33000000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q12220453"
   },
   {
     "id": 130984,
@@ -459,7 +523,7 @@
     "native": "تاريم",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 105552,
     "wikiDataId": "Q4117824"
   },

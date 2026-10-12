@@ -43,7 +43,7 @@
     "native": "الجراحي",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 89163,
     "wikiDataId": "Q4117451"
   },
@@ -75,7 +75,7 @@
     "native": "الحلي",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm1",
+    "type": "area",
     "population": 168071,
     "wikiDataId": "Q4117610"
   },
@@ -112,6 +112,22 @@
     "wikiDataId": "Q270041"
   },
   {
+    "id": 165854,
+    "name": "Al Luḩayyah",
+    "state_id": 1241,
+    "state_code": "HU",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.70309000",
+    "longitude": "42.69093000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q292439"
+  },
+  {
     "id": 130720,
     "name": "Al Mansuriyah",
     "state_id": 1241,
@@ -123,7 +139,7 @@
     "native": "المنصورية",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 44744,
     "wikiDataId": "Q4117598"
   },
@@ -139,7 +155,7 @@
     "native": "المراوعة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 129527,
     "wikiDataId": "Q4117620"
   },
@@ -171,7 +187,7 @@
     "native": "الميناء",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm1",
+    "type": "area",
     "population": 91843,
     "wikiDataId": "Q4117627"
   },
@@ -187,7 +203,7 @@
     "native": "المنيرة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 37183,
     "wikiDataId": "Q4117477"
   },
@@ -219,7 +235,7 @@
     "native": "اللهيه",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 105682,
     "wikiDataId": "Q4733335"
   },
@@ -251,7 +267,7 @@
     "native": "السخنة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 59652,
     "wikiDataId": "Q4117635"
   },
@@ -264,10 +280,10 @@
     "country_code": "YE",
     "latitude": "14.10994000",
     "longitude": "43.15979000",
-    "native": "في التحيتا",
+    "native": "مديرية التحيتا",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 67660,
     "wikiDataId": "Q4117542"
   },
@@ -347,7 +363,7 @@
     "native": "بورا",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 45116,
     "wikiDataId": "Q4117582"
   },
@@ -379,7 +395,7 @@
     "native": "جبل رأس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 44674,
     "wikiDataId": "Q4117601"
   },
@@ -411,7 +427,7 @@
     "native": "زبيد",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 50781,
     "wikiDataId": "Q4117562"
   }

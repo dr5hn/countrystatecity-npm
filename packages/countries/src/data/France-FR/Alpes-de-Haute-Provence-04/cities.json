@@ -1,21 +1,5 @@
 [
   {
-    "id": 39335,
-    "name": "Alpes-de-Haute-Provence",
-    "state_id": 4970,
-    "state_code": "04",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "44.09829000",
-    "longitude": "6.26537000",
-    "native": "Alpes-de-Haute-Provence",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": 167179,
-    "wikiDataId": "Q3131"
-  },
-  {
     "id": 39424,
     "name": "Annot",
     "state_id": 4970,
@@ -27,8 +11,8 @@
     "native": "Annot",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1013,
+    "type": "municipality",
+    "population": 1009,
     "wikiDataId": "Q157724"
   },
   {
@@ -43,8 +27,8 @@
     "native": "Barcelonnette",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 3487,
+    "type": "municipality",
+    "population": 2518,
     "wikiDataId": "Q207577"
   },
   {
@@ -59,8 +43,8 @@
     "native": "Castellane",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 1454,
+    "type": "municipality",
+    "population": 1472,
     "wikiDataId": "Q207083"
   },
   {
@@ -75,7 +59,7 @@
     "native": "Céreste",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1213,
     "wikiDataId": "Q865855"
   },
@@ -91,7 +75,7 @@
     "native": "Château-Arnoux-Saint-Auban",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5107,
     "wikiDataId": null
   },
@@ -107,8 +91,8 @@
     "native": "Digne-les-Bains",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm2",
-    "population": 17694,
+    "type": "municipality",
+    "population": 17979,
     "wikiDataId": "Q181306"
   },
   {
@@ -123,8 +107,8 @@
     "native": "Forcalquier",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 5142,
+    "type": "municipality",
+    "population": 5222,
     "wikiDataId": "Q104431"
   },
   {
@@ -139,8 +123,8 @@
     "native": "Gréoux-les-Bains",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2045,
+    "type": "municipality",
+    "population": 3084,
     "wikiDataId": "Q455660"
   },
   {
@@ -155,8 +139,8 @@
     "native": "Jausiers",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1142,
+    "type": "municipality",
+    "population": 1146,
     "wikiDataId": "Q217065"
   },
   {
@@ -171,9 +155,9 @@
     "native": "L’Escale",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1282,
-    "wikiDataId": "Q1148196"
+    "type": "municipality",
+    "population": 1427,
+    "wikiDataId": "Q391103"
   },
   {
     "id": 43147,
@@ -187,8 +171,8 @@
     "native": "Le Brusquet",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 967,
+    "type": "municipality",
+    "population": 965,
     "wikiDataId": "Q644032"
   },
   {
@@ -203,9 +187,9 @@
     "native": "Les Mées",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3126,
-    "wikiDataId": "Q317433"
+    "type": "municipality",
+    "population": 4099,
+    "wikiDataId": "Q473275"
   },
   {
     "id": 43760,
@@ -219,8 +203,8 @@
     "native": "Malijai",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2019,
+    "type": "municipality",
+    "population": 2020,
     "wikiDataId": "Q1018567"
   },
   {
@@ -235,8 +219,8 @@
     "native": "Mallemoisson",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 968,
+    "type": "municipality",
+    "population": 957,
     "wikiDataId": "Q1018630"
   },
   {
@@ -251,9 +235,9 @@
     "native": "Mane",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1390,
-    "wikiDataId": "Q244249"
+    "type": "municipality",
+    "population": 1410,
+    "wikiDataId": "Q637211"
   },
   {
     "id": 43780,
@@ -267,25 +251,9 @@
     "native": "Manosque",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 22807,
+    "type": "municipality",
+    "population": 22718,
     "wikiDataId": "Q234274"
-  },
-  {
-    "id": 44066,
-    "name": "Mezel",
-    "state_id": 4970,
-    "state_code": "04",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "45.75508000",
-    "longitude": "3.24225000",
-    "native": "Mezel",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": 1560,
-    "wikiDataId": "Q637853"
   },
   {
     "id": 44752,
@@ -299,9 +267,9 @@
     "native": "Oraison",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 4399,
-    "wikiDataId": "Q1076759"
+    "type": "municipality",
+    "population": 6155,
+    "wikiDataId": "Q501501"
   },
   {
     "id": 44885,
@@ -315,8 +283,8 @@
     "native": "Peipin",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1144,
+    "type": "municipality",
+    "population": 1506,
     "wikiDataId": "Q383608"
   },
   {
@@ -331,8 +299,8 @@
     "native": "Peyruis",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2796,
+    "type": "municipality",
+    "population": 2798,
     "wikiDataId": "Q374183"
   },
   {
@@ -347,8 +315,8 @@
     "native": "Pierrevert",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3943,
+    "type": "municipality",
+    "population": 3945,
     "wikiDataId": "Q1017916"
   },
   {
@@ -363,7 +331,7 @@
     "native": "Reillanne",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1730,
     "wikiDataId": "Q1002092"
   },
@@ -379,8 +347,8 @@
     "native": "Riez",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1625,
+    "type": "municipality",
+    "population": 1610,
     "wikiDataId": "Q457002"
   },
   {
@@ -395,25 +363,9 @@
     "native": "Saint-Michel-l’Observatoire",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1142,
-    "wikiDataId": "Q1412457"
-  },
-  {
-    "id": 46428,
-    "name": "Saint-Pierre",
-    "state_id": 4970,
-    "state_code": "04",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "43.29282000",
-    "longitude": "5.40682000",
-    "native": "Saint-Pierre",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "section",
-    "population": 8836,
-    "wikiDataId": "Q1113925"
+    "type": "municipality",
+    "population": 1329,
+    "wikiDataId": "Q1016829"
   },
   {
     "id": 46732,
@@ -427,25 +379,9 @@
     "native": "Sainte-Tulle",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3530,
+    "type": "municipality",
+    "population": 3558,
     "wikiDataId": "Q1016740"
-  },
-  {
-    "id": 46750,
-    "name": "Salignac",
-    "state_id": 4970,
-    "state_code": "04",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "45.01607000",
-    "longitude": "-0.37964000",
-    "native": "Salignac",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": 1255,
-    "wikiDataId": "Q324160"
   },
   {
     "id": 46982,
@@ -459,8 +395,8 @@
     "native": "Seyne-les-Alpes",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1438,
+    "type": "municipality",
+    "population": 1379,
     "wikiDataId": "Q842778"
   },
   {
@@ -475,8 +411,8 @@
     "native": "Sisteron",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 7776,
+    "type": "municipality",
+    "population": 7850,
     "wikiDataId": "Q271085"
   },
   {
@@ -491,8 +427,8 @@
     "native": "Valensole",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2479,
+    "type": "municipality",
+    "population": 3137,
     "wikiDataId": "Q466634"
   },
   {
@@ -507,8 +443,8 @@
     "native": "Volonne",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1637,
+    "type": "municipality",
+    "population": 1633,
     "wikiDataId": "Q326027"
   },
   {
@@ -523,8 +459,8 @@
     "native": "Volx",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3227,
+    "type": "municipality",
+    "population": 3243,
     "wikiDataId": "Q1016902"
   }
 ]

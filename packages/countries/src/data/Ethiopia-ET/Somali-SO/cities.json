@@ -11,9 +11,25 @@
     "native": "Arder ዞን",
     "timezone": "Africa/Addis_Ababa",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 570629,
     "wikiDataId": "Q382135"
+  },
+  {
+    "id": 164692,
+    "name": "Degeh Bur",
+    "state_id": 2,
+    "state_code": "SO",
+    "country_id": 70,
+    "country_code": "ET",
+    "latitude": "8.22056000",
+    "longitude": "43.55722000",
+    "native": null,
+    "timezone": "Africa/Addis_Ababa",
+    "translations": {},
+    "type": "city",
+    "population": 47200,
+    "wikiDataId": "Q1182807"
   },
   {
     "id": 38618,
@@ -32,6 +48,22 @@
     "wikiDataId": "Q1182808"
   },
   {
+    "id": 164687,
+    "name": "Gode",
+    "state_id": 2,
+    "state_code": "SO",
+    "country_id": 70,
+    "country_code": "ET",
+    "latitude": "5.95056000",
+    "longitude": "43.55186000",
+    "native": null,
+    "timezone": "Africa/Addis_Ababa",
+    "translations": {},
+    "type": "city",
+    "population": 67900,
+    "wikiDataId": "Q744673"
+  },
+  {
     "id": 38641,
     "name": "Gode Zone",
     "state_id": 2,
@@ -48,6 +80,22 @@
     "wikiDataId": "Q1435849"
   },
   {
+    "id": 164711,
+    "name": "Hartīshēk",
+    "state_id": 2,
+    "state_code": "SO",
+    "country_id": 70,
+    "country_code": "ET",
+    "latitude": "9.15722000",
+    "longitude": "43.35417000",
+    "native": null,
+    "timezone": "Africa/Addis_Ababa",
+    "translations": {},
+    "type": "city",
+    "population": 22000,
+    "wikiDataId": "Q1587198"
+  },
+  {
     "id": 38659,
     "name": "Jijiga",
     "state_id": 2,
@@ -56,12 +104,28 @@
     "country_code": "ET",
     "latitude": "9.35000000",
     "longitude": "42.80000000",
-    "native": "ጩኸት",
+    "native": "ጅጅጋ",
     "timezone": "Africa/Addis_Ababa",
     "translations": {},
     "type": "adm1",
     "population": 483000,
     "wikiDataId": "Q755763"
+  },
+  {
+    "id": 164693,
+    "name": "Kebri Dahar",
+    "state_id": 2,
+    "state_code": "SO",
+    "country_id": 70,
+    "country_code": "ET",
+    "latitude": "6.74000000",
+    "longitude": "44.27806000",
+    "native": "Qabridahare",
+    "timezone": "Africa/Addis_Ababa",
+    "translations": {},
+    "type": "city",
+    "population": 45900,
+    "wikiDataId": "Q614650"
   },
   {
     "id": 38673,
@@ -75,7 +139,7 @@
     "native": "ሊብን ዞን",
     "timezone": "Africa/Addis_Ababa",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 539821,
     "wikiDataId": "Q1822845"
   },
@@ -94,5 +158,21 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q2279103"
+  },
+  {
+    "id": 165921,
+    "name": "Warder",
+    "state_id": 2,
+    "state_code": "SO",
+    "country_id": 70,
+    "country_code": "ET",
+    "latitude": "6.97444000",
+    "longitude": "45.34083000",
+    "native": "Wardheer",
+    "timezone": "Africa/Addis_Ababa",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q635334"
   }
 ]

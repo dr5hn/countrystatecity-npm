@@ -59,8 +59,8 @@
     "native": "Älvängen",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 4759,
+    "type": "locality",
+    "population": 6684,
     "wikiDataId": "Q255042"
   },
   {
@@ -75,8 +75,8 @@
     "native": "Åmål",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 8954,
+    "type": "locality",
+    "population": 8716,
     "wikiDataId": "Q271082"
   },
   {
@@ -88,7 +88,7 @@
     "country_code": "SE",
     "latitude": "57.70039000",
     "longitude": "11.76136000",
-    "native": "Anka",
+    "native": "Andalen",
     "timezone": "Europe/Stockholm",
     "translations": {},
     "type": "city",
@@ -120,7 +120,7 @@
     "country_code": "SE",
     "latitude": "57.78628000",
     "longitude": "12.09852000",
-    "native": "Ilsken",
+    "native": "Angered",
     "timezone": "Europe/Stockholm",
     "translations": {},
     "type": "city",
@@ -171,8 +171,8 @@
     "native": "Bengtsfors",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3102,
+    "type": "locality",
+    "population": 3006,
     "wikiDataId": "Q817252"
   },
   {
@@ -200,7 +200,7 @@
     "country_code": "SE",
     "latitude": "58.98333000",
     "longitude": "12.25000000",
-    "native": "Fakturor",
+    "native": "Billingsfors",
     "timezone": "Europe/Stockholm",
     "translations": {},
     "type": "city",
@@ -219,8 +219,8 @@
     "native": "Björboholm",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1215,
+    "type": "locality",
+    "population": 1222,
     "wikiDataId": "Q2067385"
   },
   {
@@ -235,8 +235,8 @@
     "native": "Björkö",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1495,
+    "type": "locality",
+    "population": 1520,
     "wikiDataId": "Q2586650"
   },
   {
@@ -267,8 +267,8 @@
     "native": "Bollebygd",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 4670,
+    "type": "locality",
+    "population": 4657,
     "wikiDataId": "Q632092"
   },
   {
@@ -283,8 +283,8 @@
     "native": "Borås",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 75565,
+    "type": "municipality",
+    "population": 115238,
     "wikiDataId": "Q894327"
   },
   {
@@ -299,8 +299,8 @@
     "native": "Brålanda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1461,
+    "type": "locality",
+    "population": 1424,
     "wikiDataId": "Q2283709"
   },
   {
@@ -315,8 +315,8 @@
     "native": "Brastad",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1947,
+    "type": "locality",
+    "population": 1958,
     "wikiDataId": "Q2335136"
   },
   {
@@ -331,8 +331,8 @@
     "native": "Dals Långed",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1337,
+    "type": "locality",
+    "population": 1304,
     "wikiDataId": "Q1839844"
   },
   {
@@ -363,8 +363,8 @@
     "native": "Diseröd",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1570,
+    "type": "locality",
+    "population": 1554,
     "wikiDataId": "Q404977"
   },
   {
@@ -395,8 +395,8 @@
     "native": "Ed",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 2901,
+    "type": "locality",
+    "population": 2922,
     "wikiDataId": "Q1026286"
   },
   {
@@ -443,8 +443,8 @@
     "native": "Falköping",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 17924,
+    "type": "locality",
+    "population": 17812,
     "wikiDataId": "Q21165"
   },
   {
@@ -459,8 +459,8 @@
     "native": "Färgelanda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 1938,
+    "type": "locality",
+    "population": 1865,
     "wikiDataId": "Q1478884"
   },
   {
@@ -475,8 +475,8 @@
     "native": "Floby",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1548,
+    "type": "locality",
+    "population": 1545,
     "wikiDataId": "Q1014050"
   },
   {
@@ -491,8 +491,8 @@
     "native": "Fristad",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 6189,
+    "type": "locality",
+    "population": 6180,
     "wikiDataId": "Q3291202"
   },
   {
@@ -507,8 +507,8 @@
     "native": "Fritsla",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 2346,
+    "type": "locality",
+    "population": 2323,
     "wikiDataId": "Q516883"
   },
   {
@@ -571,25 +571,9 @@
     "native": "Göta",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1002,
+    "type": "locality",
+    "population": 1298,
     "wikiDataId": "Q2369220"
-  },
-  {
-    "id": 103245,
-    "name": "Göteborg",
-    "state_id": 1547,
-    "state_code": "O",
-    "country_id": 213,
-    "country_code": "SE",
-    "latitude": "57.70716000",
-    "longitude": "11.96679000",
-    "native": "Göteborg",
-    "timezone": "Europe/Stockholm",
-    "translations": {},
-    "type": "adm1",
-    "population": 608462,
-    "wikiDataId": "Q25287"
   },
   {
     "id": 103246,
@@ -603,8 +587,8 @@
     "native": "Göteborgs stad",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 613278,
     "wikiDataId": "Q52502"
   },
   {
@@ -619,9 +603,25 @@
     "native": "Götene",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 5153,
+    "type": "locality",
+    "population": 5175,
     "wikiDataId": "Q1559732"
+  },
+  {
+    "id": 103245,
+    "name": "Gothenburg",
+    "state_id": 1547,
+    "state_code": "O",
+    "country_id": 213,
+    "country_code": "SE",
+    "latitude": "57.70716000",
+    "longitude": "11.96679000",
+    "native": "Göteborg",
+    "timezone": "Europe/Stockholm",
+    "translations": {},
+    "type": "adm1",
+    "population": 608462,
+    "wikiDataId": "Q25287"
   },
   {
     "id": 103230,
@@ -635,8 +635,8 @@
     "native": "Gråbo",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 6953,
+    "type": "locality",
+    "population": 6987,
     "wikiDataId": "Q2680101"
   },
   {
@@ -651,8 +651,8 @@
     "native": "Grästorp",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3022,
+    "type": "locality",
+    "population": 3055,
     "wikiDataId": "Q1551485"
   },
   {
@@ -683,8 +683,8 @@
     "native": "Gullspång",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1579,
+    "type": "locality",
+    "population": 1539,
     "wikiDataId": "Q1554356"
   },
   {
@@ -715,8 +715,8 @@
     "native": "Henån",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 2394,
+    "type": "locality",
+    "population": 2407,
     "wikiDataId": "Q1016950"
   },
   {
@@ -731,8 +731,8 @@
     "native": "Herrljunga",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 4113,
+    "type": "locality",
+    "population": 4171,
     "wikiDataId": "Q1614296"
   },
   {
@@ -763,8 +763,8 @@
     "native": "Hjo",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 6427,
+    "type": "locality",
+    "population": 6449,
     "wikiDataId": "Q429467"
   },
   {
@@ -811,8 +811,8 @@
     "native": "Horred",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1283,
+    "type": "locality",
+    "population": 1345,
     "wikiDataId": "Q2680901"
   },
   {
@@ -824,11 +824,11 @@
     "country_code": "SE",
     "latitude": "58.85363000",
     "longitude": "14.21914000",
-    "native": "Där",
+    "native": "Hova",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 1225,
+    "type": "locality",
+    "population": 1151,
     "wikiDataId": "Q1631543"
   },
   {
@@ -859,8 +859,8 @@
     "native": "Hunnebostrand",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1988,
+    "type": "locality",
+    "population": 1975,
     "wikiDataId": "Q2685807"
   },
   {
@@ -872,7 +872,7 @@
     "country_code": "SE",
     "latitude": "57.85989000",
     "longitude": "12.45161000",
-    "native": "Inklädd",
+    "native": "Ingared",
     "timezone": "Europe/Stockholm",
     "translations": {},
     "type": "city",
@@ -907,8 +907,8 @@
     "native": "Jörland",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1471,
+    "type": "locality",
+    "population": 1455,
     "wikiDataId": "Q1909162"
   },
   {
@@ -923,8 +923,8 @@
     "native": "Källby",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1511,
+    "type": "locality",
+    "population": 1493,
     "wikiDataId": "Q2753703"
   },
   {
@@ -955,8 +955,8 @@
     "native": "Karlsborg",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3624,
+    "type": "locality",
+    "population": 3859,
     "wikiDataId": "Q760222"
   },
   {
@@ -971,8 +971,8 @@
     "native": "Kinna",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 15507,
+    "type": "locality",
+    "population": 15399,
     "wikiDataId": "Q667818"
   },
   {
@@ -987,8 +987,8 @@
     "native": "Koda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1569,
+    "type": "locality",
+    "population": 1600,
     "wikiDataId": "Q404661"
   },
   {
@@ -1035,8 +1035,8 @@
     "native": "Kvänum",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1330,
+    "type": "locality",
+    "population": 1353,
     "wikiDataId": "Q2658219"
   },
   {
@@ -1051,8 +1051,8 @@
     "native": "Landvetter",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 9999,
+    "type": "locality",
+    "population": 10026,
     "wikiDataId": "Q2718041"
   },
   {
@@ -1067,8 +1067,8 @@
     "native": "Länghem",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1091,
+    "type": "locality",
+    "population": 1086,
     "wikiDataId": "Q3301385"
   },
   {
@@ -1099,8 +1099,8 @@
     "native": "Lidköping",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 23585,
+    "type": "locality",
+    "population": 23480,
     "wikiDataId": "Q29988"
   },
   {
@@ -1115,8 +1115,8 @@
     "native": "Lilla Edet",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3907,
+    "type": "locality",
+    "population": 3848,
     "wikiDataId": "Q1016712"
   },
   {
@@ -1131,8 +1131,8 @@
     "native": "Limmared",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1441,
+    "type": "locality",
+    "population": 1478,
     "wikiDataId": "Q2842587"
   },
   {
@@ -1163,8 +1163,8 @@
     "native": "Ljungskile",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 4026,
+    "type": "locality",
+    "population": 3963,
     "wikiDataId": "Q1721409"
   },
   {
@@ -1179,8 +1179,8 @@
     "native": "Lödöse",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1895,
+    "type": "locality",
+    "population": 1954,
     "wikiDataId": "Q1639127"
   },
   {
@@ -1211,8 +1211,8 @@
     "native": "Lysekil",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 7340,
+    "type": "locality",
+    "population": 7217,
     "wikiDataId": "Q602574"
   },
   {
@@ -1243,8 +1243,8 @@
     "native": "Mariestad",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 16750,
+    "type": "locality",
+    "population": 16679,
     "wikiDataId": "Q948117"
   },
   {
@@ -1259,8 +1259,8 @@
     "native": "Mellerud",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3974,
+    "type": "locality",
+    "population": 3885,
     "wikiDataId": "Q201182"
   },
   {
@@ -1323,8 +1323,8 @@
     "native": "Munkedal",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 4178,
+    "type": "locality",
+    "population": 4021,
     "wikiDataId": "Q772339"
   },
   {
@@ -1355,8 +1355,8 @@
     "native": "Nolvik",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1535,
+    "type": "locality",
+    "population": 1518,
     "wikiDataId": "Q2898648"
   },
   {
@@ -1371,8 +1371,8 @@
     "native": "Nossebro",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 1931,
+    "type": "locality",
+    "population": 1890,
     "wikiDataId": "Q1639452"
   },
   {
@@ -1435,8 +1435,8 @@
     "native": "Olofstorp",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 4169,
+    "type": "locality",
+    "population": 4154,
     "wikiDataId": "Q2626816"
   },
   {
@@ -1515,8 +1515,8 @@
     "native": "Rävlanda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1734,
+    "type": "locality",
+    "population": 1698,
     "wikiDataId": "Q2145009"
   },
   {
@@ -1563,8 +1563,8 @@
     "native": "Sandared",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 3640,
+    "type": "locality",
+    "population": 3667,
     "wikiDataId": "Q5038"
   },
   {
@@ -1579,8 +1579,8 @@
     "native": "Sätila",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1493,
+    "type": "locality",
+    "population": 1471,
     "wikiDataId": "Q3032670"
   },
   {
@@ -1611,8 +1611,8 @@
     "native": "Sjuntorp",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 2218,
+    "type": "locality",
+    "population": 2213,
     "wikiDataId": "Q2790350"
   },
   {
@@ -1627,8 +1627,8 @@
     "native": "Skara",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 11475,
+    "type": "locality",
+    "population": 11570,
     "wikiDataId": "Q939389"
   },
   {
@@ -1643,8 +1643,8 @@
     "native": "Skärhamn",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3725,
+    "type": "locality",
+    "population": 3692,
     "wikiDataId": "Q1026309"
   },
   {
@@ -1659,8 +1659,8 @@
     "native": "Skepplanda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1821,
+    "type": "locality",
+    "population": 1841,
     "wikiDataId": "Q2966000"
   },
   {
@@ -1675,8 +1675,8 @@
     "native": "Skövde",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 40422,
+    "type": "locality",
+    "population": 40814,
     "wikiDataId": "Q21166"
   },
   {
@@ -1723,7 +1723,7 @@
     "native": "Sollebrunn",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1400,
     "wikiDataId": "Q2420672"
   },
@@ -1755,8 +1755,8 @@
     "native": "Stenstorp",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1823,
+    "type": "locality",
+    "population": 1821,
     "wikiDataId": "Q1014060"
   },
   {
@@ -1771,8 +1771,8 @@
     "native": "Stenungsund",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 14381,
+    "type": "locality",
+    "population": 14347,
     "wikiDataId": "Q1001939"
   },
   {
@@ -1784,10 +1784,10 @@
     "country_code": "SE",
     "latitude": "58.47802000",
     "longitude": "13.86611000",
-    "native": "Stänkad",
+    "native": "Stöpen",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1505,
     "wikiDataId": "Q2553069"
   },
@@ -1803,8 +1803,8 @@
     "native": "Stora Höga",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 3122,
+    "type": "locality",
+    "population": 3110,
     "wikiDataId": "Q2671027"
   },
   {
@@ -1819,8 +1819,8 @@
     "native": "Strömstad",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 7836,
+    "type": "locality",
+    "population": 7994,
     "wikiDataId": "Q748559"
   },
   {
@@ -1848,11 +1848,11 @@
     "country_code": "SE",
     "latitude": "57.82533000",
     "longitude": "12.01604000",
-    "native": "Det levererar",
+    "native": "Surte",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 6530,
+    "type": "locality",
+    "population": 6574,
     "wikiDataId": "Q287691"
   },
   {
@@ -1867,8 +1867,8 @@
     "native": "Svanesund",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 2014,
+    "type": "locality",
+    "population": 2060,
     "wikiDataId": "Q2466808"
   },
   {
@@ -1883,8 +1883,8 @@
     "native": "Svenljunga",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3717,
+    "type": "locality",
+    "population": 3620,
     "wikiDataId": "Q1297746"
   },
   {
@@ -1899,8 +1899,8 @@
     "native": "Tanumshede",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 2012,
+    "type": "locality",
+    "population": 1957,
     "wikiDataId": "Q670220"
   },
   {
@@ -1915,8 +1915,8 @@
     "native": "Tibro",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 8588,
+    "type": "locality",
+    "population": 8571,
     "wikiDataId": "Q1017565"
   },
   {
@@ -1931,8 +1931,8 @@
     "native": "Tidaholm",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 8285,
+    "type": "locality",
+    "population": 8199,
     "wikiDataId": "Q983889"
   },
   {
@@ -1947,8 +1947,8 @@
     "native": "Tjuvkil",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1013,
+    "type": "locality",
+    "population": 1399,
     "wikiDataId": "Q405817"
   },
   {
@@ -1963,8 +1963,8 @@
     "native": "Töreboda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 4731,
+    "type": "locality",
+    "population": 4673,
     "wikiDataId": "Q1485924"
   },
   {
@@ -1995,8 +1995,8 @@
     "native": "Tranemo",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 3455,
+    "type": "locality",
+    "population": 3501,
     "wikiDataId": "Q1864024"
   },
   {
@@ -2011,8 +2011,8 @@
     "native": "Trollhättan",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 50063,
+    "type": "municipality",
+    "population": 59265,
     "wikiDataId": "Q28532"
   },
   {
@@ -2027,8 +2027,8 @@
     "native": "Uddevalla",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 35639,
+    "type": "locality",
+    "population": 35331,
     "wikiDataId": "Q27447"
   },
   {
@@ -2043,8 +2043,8 @@
     "native": "Ulricehamn",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 11794,
+    "type": "locality",
+    "population": 11844,
     "wikiDataId": "Q27999"
   },
   {
@@ -2059,8 +2059,8 @@
     "native": "Vänersborg",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 23119,
+    "type": "locality",
+    "population": 24943,
     "wikiDataId": "Q54759"
   },
   {
@@ -2091,8 +2091,8 @@
     "native": "Vårgårda",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "adm2",
-    "population": 6198,
+    "type": "locality",
+    "population": 6244,
     "wikiDataId": "Q178538"
   },
   {
@@ -2107,8 +2107,8 @@
     "native": "Vargön",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 4942,
+    "type": "locality",
+    "population": 4896,
     "wikiDataId": "Q1986670"
   },
   {
@@ -2136,11 +2136,11 @@
     "country_code": "SE",
     "latitude": "58.45000000",
     "longitude": "13.26667000",
-    "native": "Pris",
+    "native": "Vinninga",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 1063,
+    "type": "locality",
+    "population": 1061,
     "wikiDataId": "Q404656"
   },
   {
@@ -2155,8 +2155,8 @@
     "native": "Viskafors",
     "timezone": "Europe/Stockholm",
     "translations": {},
-    "type": "city",
-    "population": 3701,
+    "type": "locality",
+    "population": 2752,
     "wikiDataId": "Q2293295"
   }
 ]

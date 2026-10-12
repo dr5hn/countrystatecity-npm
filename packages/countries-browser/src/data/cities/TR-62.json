@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 6891,
-    "wikiDataId": "Q374068"
+    "wikiDataId": null
   },
   {
     "id": 108161,
@@ -45,23 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2704,
-    "wikiDataId": "Q209908"
-  },
-  {
-    "id": 108179,
-    "name": "Merkez",
-    "state_id": 2192,
-    "state_code": "62",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "39.17114000",
-    "longitude": "39.55570000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "wikiDataId": null
   },
   {
     "id": 108245,
@@ -107,9 +91,9 @@
     "native": "Pertek",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 6837,
-    "wikiDataId": "Q1022161"
+    "type": "municipality",
+    "population": 6133,
+    "wikiDataId": "Q2540906"
   },
   {
     "id": 108353,
@@ -126,5 +110,21 @@
     "type": "adm2",
     "population": 3760,
     "wikiDataId": "Q1023268"
+  },
+  {
+    "id": 165615,
+    "name": "Tunceli",
+    "state_id": 2192,
+    "state_code": "62",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "39.09921000",
+    "longitude": "39.54351000",
+    "native": null,
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 36938,
+    "wikiDataId": "Q202195"
   }
 ]

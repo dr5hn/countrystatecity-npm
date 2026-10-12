@@ -11,9 +11,9 @@
     "native": "Ardon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2305,
-    "wikiDataId": "Q22449922"
+    "type": "municipality",
+    "population": 3938,
+    "wikiDataId": "Q69556"
   },
   {
     "id": 17427,
@@ -24,12 +24,12 @@
     "country_code": "CH",
     "latitude": "46.28249000",
     "longitude": "7.41028000",
-    "native": "Haben",
+    "native": "Ayent",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3243,
-    "wikiDataId": "Q22465263"
+    "type": "municipality",
+    "population": 4509,
+    "wikiDataId": "Q70167"
   },
   {
     "id": 17433,
@@ -40,10 +40,10 @@
     "country_code": "CH",
     "latitude": "46.08333000",
     "longitude": "7.21667000",
-    "native": "Gefängnis",
+    "native": "Bagnes",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8096,
     "wikiDataId": "Q68906"
   },
@@ -59,9 +59,9 @@
     "native": "Baltschieder",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1328,
-    "wikiDataId": "Q7096"
+    "type": "municipality",
+    "population": 1406,
+    "wikiDataId": "Q70154"
   },
   {
     "id": 17441,
@@ -72,10 +72,10 @@
     "country_code": "CH",
     "latitude": "46.18993000",
     "longitude": "7.31209000",
-    "native": "Basse-Netaz",
+    "native": "Basse-Nendaz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5410,
     "wikiDataId": "Q2887342"
   },
@@ -91,25 +91,9 @@
     "native": "Brigg",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 5000,
     "wikiDataId": "Q15582"
-  },
-  {
-    "id": 17562,
-    "name": "Brig District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.28255000",
-    "longitude": "8.01185000",
-    "native": "Briggbezirk",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 27360,
-    "wikiDataId": "Q659687"
   },
   {
     "id": 17621,
@@ -120,12 +104,12 @@
     "country_code": "CH",
     "latitude": "46.26758000",
     "longitude": "7.51145000",
-    "native": "Chalalais",
+    "native": "Chalais",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
     "population": 2665,
-    "wikiDataId": "Q22476197"
+    "wikiDataId": "Q70736"
   },
   {
     "id": 17623,
@@ -136,11 +120,11 @@
     "country_code": "CH",
     "latitude": "46.20275000",
     "longitude": "7.22319000",
-    "native": "Chaposon",
+    "native": "Chamoson",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2628,
+    "type": "municipality",
+    "population": 4486,
     "wikiDataId": "Q70178"
   },
   {
@@ -155,8 +139,8 @@
     "native": "Champéry",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1336,
+    "type": "municipality",
+    "population": 1415,
     "wikiDataId": "Q70099"
   },
   {
@@ -168,10 +152,10 @@
     "country_code": "CH",
     "latitude": "46.12490000",
     "longitude": "7.13138000",
-    "native": "Ziel",
+    "native": "Charrat",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1156,
     "wikiDataId": "Q68524"
   },
@@ -184,10 +168,10 @@
     "country_code": "CH",
     "latitude": "46.28844000",
     "longitude": "7.47487000",
-    "native": "Chermignon-D´aur",
+    "native": "Chermignon-d’en Haut",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2773,
     "wikiDataId": "Q69532"
   },
@@ -219,9 +203,9 @@
     "native": "Collombey-Muraz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5926,
-    "wikiDataId": "Q22701994"
+    "type": "municipality",
+    "population": 10188,
+    "wikiDataId": "Q70165"
   },
   {
     "id": 17650,
@@ -235,41 +219,9 @@
     "native": "Conthey",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 8792,
-    "wikiDataId": "Q22532735"
-  },
-  {
-    "id": 17651,
-    "name": "Conthey District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.20485000",
-    "longitude": "7.27857000",
-    "native": "Distrikt Conthey",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 4137,
-    "wikiDataId": "Q660562"
-  },
-  {
-    "id": 17755,
-    "name": "Entremont",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.02099000",
-    "longitude": "7.21260000",
-    "native": "Bezirk entremont",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 15519,
-    "wikiDataId": "Q660495"
+    "type": "municipality",
+    "population": 9661,
+    "wikiDataId": "Q69563"
   },
   {
     "id": 17778,
@@ -283,9 +235,9 @@
     "native": "Evionnaz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1001,
-    "wikiDataId": "Q22447932"
+    "type": "municipality",
+    "population": 1535,
+    "wikiDataId": "Q70163"
   },
   {
     "id": 17779,
@@ -299,9 +251,9 @@
     "native": "Evolène",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1684,
-    "wikiDataId": "Q22447932"
+    "type": "municipality",
+    "population": 1673,
+    "wikiDataId": "Q69551"
   },
   {
     "id": 17788,
@@ -312,12 +264,12 @@
     "country_code": "CH",
     "latitude": "46.39981000",
     "longitude": "8.13533000",
-    "native": "Fiequi",
+    "native": "Fiesch",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 921,
-    "wikiDataId": "Q22464667"
+    "type": "municipality",
+    "population": 894,
+    "wikiDataId": "Q68051"
   },
   {
     "id": 17815,
@@ -328,11 +280,11 @@
     "country_code": "CH",
     "latitude": "46.13851000",
     "longitude": "7.11468000",
-    "native": "Voll",
+    "native": "Fully",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5922,
+    "type": "municipality",
+    "population": 9407,
     "wikiDataId": "Q70137"
   },
   {
@@ -347,25 +299,9 @@
     "native": "Gampel",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1386,
     "wikiDataId": "Q689575"
-  },
-  {
-    "id": 17851,
-    "name": "Goms",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.46161000",
-    "longitude": "8.22190000",
-    "native": "GOMS DISTRICT",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 4377,
-    "wikiDataId": "Q660663"
   },
   {
     "id": 17879,
@@ -379,9 +315,9 @@
     "native": "Grächen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1251,
-    "wikiDataId": "Q22652016"
+    "type": "municipality",
+    "population": 1321,
+    "wikiDataId": "Q70097"
   },
   {
     "id": 17869,
@@ -392,7 +328,7 @@
     "country_code": "CH",
     "latitude": "46.25938000",
     "longitude": "7.38408000",
-    "native": "Grimisat",
+    "native": "Grimisuat",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
@@ -411,9 +347,9 @@
     "native": "Grône",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2414,
-    "wikiDataId": "Q22652016"
+    "type": "municipality",
+    "population": 2598,
+    "wikiDataId": "Q70151"
   },
   {
     "id": 17941,
@@ -424,28 +360,12 @@
     "country_code": "CH",
     "latitude": "46.18032000",
     "longitude": "7.40477000",
-    "native": "Heremz",
+    "native": "Hérémence",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1392,
-    "wikiDataId": "Q633980"
-  },
-  {
-    "id": 17940,
-    "name": "Hérens",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.19407000",
-    "longitude": "7.42391000",
-    "native": "Distrikt Hérens",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 10953,
-    "wikiDataId": "Q633980"
+    "type": "municipality",
+    "population": 1553,
+    "wikiDataId": "Q69553"
   },
   {
     "id": 18065,
@@ -456,11 +376,11 @@
     "country_code": "CH",
     "latitude": "46.28298000",
     "longitude": "7.44976000",
-    "native": "Linse",
+    "native": "Lens",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4198,
+    "type": "municipality",
+    "population": 4590,
     "wikiDataId": "Q70361"
   },
   {
@@ -472,28 +392,12 @@
     "country_code": "CH",
     "latitude": "46.31736000",
     "longitude": "7.63412000",
-    "native": "Hübsch",
+    "native": "Leuk",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 3948,
-    "wikiDataId": "Q22414413"
-  },
-  {
-    "id": 18075,
-    "name": "Leuk District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.31439000",
-    "longitude": "7.67291000",
-    "native": "Schöner Bezirk",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 12434,
-    "wikiDataId": "Q661326"
+    "type": "municipality",
+    "population": 4349,
+    "wikiDataId": "Q69590"
   },
   {
     "id": 18076,
@@ -504,12 +408,12 @@
     "country_code": "CH",
     "latitude": "46.37943000",
     "longitude": "7.62687000",
-    "native": "Schöneres Bad",
+    "native": "Leukerbad",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1368,
-    "wikiDataId": "Q22418566"
+    "type": "municipality",
+    "population": 1401,
+    "wikiDataId": "Q69436"
   },
   {
     "id": 18080,
@@ -523,25 +427,9 @@
     "native": "Leytron",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2194,
+    "type": "municipality",
+    "population": 3594,
     "wikiDataId": "Q68849"
-  },
-  {
-    "id": 18125,
-    "name": "Martigny",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.12386000",
-    "longitude": "7.10354000",
-    "native": "Martigny District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 48906,
-    "wikiDataId": "Q656949"
   },
   {
     "id": 18126,
@@ -555,8 +443,8 @@
     "native": "Martigny-Combe",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1731,
+    "type": "municipality",
+    "population": 2416,
     "wikiDataId": "Q68871"
   },
   {
@@ -571,7 +459,7 @@
     "native": "Martigny-Ville",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 18301,
     "wikiDataId": "Q15834158"
   },
@@ -587,7 +475,7 @@
     "native": "Montana",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2301,
     "wikiDataId": "Q70186"
   },
@@ -600,28 +488,12 @@
     "country_code": "CH",
     "latitude": "46.25451000",
     "longitude": "6.95406000",
-    "native": "Monaty",
+    "native": "Monthey",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 17777,
-    "wikiDataId": "Q70075"
-  },
-  {
-    "id": 18168,
-    "name": "Monthey District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.27043000",
-    "longitude": "6.90274000",
-    "native": "MONATEY DISTRICT",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 47912,
-    "wikiDataId": "Q660517"
+    "type": "city",
+    "population": 19351,
+    "wikiDataId": "Q64051"
   },
   {
     "id": 18207,
@@ -635,9 +507,9 @@
     "native": "Naters",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 7552,
-    "wikiDataId": "Q54963861"
+    "type": "municipality",
+    "population": 10791,
+    "wikiDataId": "Q67040"
   },
   {
     "id": 18290,
@@ -651,8 +523,8 @@
     "native": "Orsières",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3183,
+    "type": "municipality",
+    "population": 3339,
     "wikiDataId": "Q70206"
   },
   {
@@ -667,7 +539,7 @@
     "native": "Randogne",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3157,
     "wikiDataId": "Q70355"
   },
@@ -680,28 +552,12 @@
     "country_code": "CH",
     "latitude": "46.31196000",
     "longitude": "7.80029000",
-    "native": "Sie retteten",
+    "native": "Raron",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 1944,
+    "type": "municipality",
+    "population": 2030,
     "wikiDataId": "Q69786"
-  },
-  {
-    "id": 18340,
-    "name": "Raron District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.30000000",
-    "longitude": "7.80000000",
-    "native": "Raron District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 1944,
-    "wikiDataId": "Q689882"
   },
   {
     "id": 18374,
@@ -712,11 +568,11 @@
     "country_code": "CH",
     "latitude": "46.17276000",
     "longitude": "7.22360000",
-    "native": "Ritterlich",
+    "native": "Riddes",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2213,
+    "type": "municipality",
+    "population": 3831,
     "wikiDataId": "Q68504"
   },
   {
@@ -731,9 +587,9 @@
     "native": "Saas-Fee",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1561,
-    "wikiDataId": "Q22371960"
+    "type": "municipality",
+    "population": 1637,
+    "wikiDataId": "Q69693"
   },
   {
     "id": 18417,
@@ -763,8 +619,8 @@
     "native": "Saillon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1598,
+    "type": "municipality",
+    "population": 3226,
     "wikiDataId": "Q70710"
   },
   {
@@ -781,7 +637,7 @@
     "translations": {},
     "type": "city",
     "population": 1937,
-    "wikiDataId": "Q22383039"
+    "wikiDataId": null
   },
   {
     "id": 18428,
@@ -792,28 +648,12 @@
     "country_code": "CH",
     "latitude": "46.21826000",
     "longitude": "7.00320000",
-    "native": "Heiliger-Maurice",
+    "native": "Saint-Maurice",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 4571,
-    "wikiDataId": "Q22383039"
-  },
-  {
-    "id": 18429,
-    "name": "Saint-Maurice District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.15384000",
-    "longitude": "6.99823000",
-    "native": "Saint-Maurice District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 14102,
-    "wikiDataId": "Q176556"
+    "type": "city",
+    "population": 4656,
+    "wikiDataId": "Q69545"
   },
   {
     "id": 18432,
@@ -824,11 +664,11 @@
     "country_code": "CH",
     "latitude": "46.31155000",
     "longitude": "7.57120000",
-    "native": "Gehalt",
+    "native": "Salgesch",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1547,
+    "type": "municipality",
+    "population": 1777,
     "wikiDataId": "Q70317"
   },
   {
@@ -840,11 +680,11 @@
     "country_code": "CH",
     "latitude": "46.11890000",
     "longitude": "7.02078000",
-    "native": "Speichern",
+    "native": "Salvan",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1393,
+    "type": "municipality",
+    "population": 1521,
     "wikiDataId": "Q68912"
   },
   {
@@ -859,8 +699,8 @@
     "native": "Sankt Niklaus",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2352,
+    "type": "municipality",
+    "population": 2347,
     "wikiDataId": "Q68464"
   },
   {
@@ -872,12 +712,12 @@
     "country_code": "CH",
     "latitude": "46.25115000",
     "longitude": "7.34558000",
-    "native": "Savoe",
+    "native": "Savièse",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5575,
-    "wikiDataId": "Q22433869"
+    "type": "municipality",
+    "population": 8453,
+    "wikiDataId": "Q69558"
   },
   {
     "id": 18453,
@@ -888,11 +728,11 @@
     "country_code": "CH",
     "latitude": "46.14937000",
     "longitude": "7.17514000",
-    "native": "Sachsen",
+    "native": "Saxon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3477,
+    "type": "municipality",
+    "population": 7605,
     "wikiDataId": "Q69572"
   },
   {
@@ -907,41 +747,9 @@
     "native": "Sierre",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 16790,
-    "wikiDataId": "Q22623308"
-  },
-  {
-    "id": 18518,
-    "name": "Sierre District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.27052000",
-    "longitude": "7.51570000",
-    "native": "Bezirk Sierre",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 49427,
-    "wikiDataId": "Q651884"
-  },
-  {
-    "id": 18524,
-    "name": "Sion",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.23343000",
-    "longitude": "7.34939000",
-    "native": "Sion District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 48447,
-    "wikiDataId": "Q282169"
+    "type": "city",
+    "population": 18059,
+    "wikiDataId": "Q68297"
   },
   {
     "id": 18527,
@@ -952,12 +760,12 @@
     "country_code": "CH",
     "latitude": "46.22739000",
     "longitude": "7.35559000",
-    "native": "Dann",
+    "native": "Sitten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm1",
-    "population": 34708,
-    "wikiDataId": "Q22631389"
+    "type": "city",
+    "population": 37844,
+    "wikiDataId": "Q68136"
   },
   {
     "id": 18545,
@@ -968,11 +776,11 @@
     "country_code": "CH",
     "latitude": "46.23341000",
     "longitude": "7.87273000",
-    "native": "Stabil",
+    "native": "Stalden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1086,
+    "type": "municipality",
+    "population": 1140,
     "wikiDataId": "Q68460"
   },
   {
@@ -987,7 +795,7 @@
     "native": "Tanay",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1124,
     "wikiDataId": "Q22462549"
   },
@@ -1003,8 +811,8 @@
     "native": "Troistorrents",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4683,
+    "type": "municipality",
+    "population": 5068,
     "wikiDataId": "Q68823"
   },
   {
@@ -1019,7 +827,7 @@
     "native": "Turtmann",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1025,
     "wikiDataId": "Q70054"
   },
@@ -1035,8 +843,8 @@
     "native": "Varen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1203,
+    "type": "municipality",
+    "population": 701,
     "wikiDataId": "Q67482"
   },
   {
@@ -1051,7 +859,7 @@
     "native": "Verbier",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2000,
     "wikiDataId": "Q688517"
   },
@@ -1067,9 +875,9 @@
     "native": "Vernayaz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1885,
-    "wikiDataId": "Q688517"
+    "type": "municipality",
+    "population": 1978,
+    "wikiDataId": "Q68713"
   },
   {
     "id": 18697,
@@ -1083,9 +891,9 @@
     "native": "Vetroz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4137,
-    "wikiDataId": "Q22418739"
+    "type": "municipality",
+    "population": 6725,
+    "wikiDataId": "Q69515"
   },
   {
     "id": 18675,
@@ -1096,11 +904,11 @@
     "country_code": "CH",
     "latitude": "46.21239000",
     "longitude": "7.39826000",
-    "native": "Ärgern",
+    "native": "Vex",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1418,
+    "type": "municipality",
+    "population": 1970,
     "wikiDataId": "Q67724"
   },
   {
@@ -1115,8 +923,8 @@
     "native": "Vionnaz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1719,
+    "type": "municipality",
+    "population": 3080,
     "wikiDataId": "Q69549"
   },
   {
@@ -1128,28 +936,12 @@
     "country_code": "CH",
     "latitude": "46.29370000",
     "longitude": "7.88149000",
-    "native": "Schneebesen",
+    "native": "Visp",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 8483,
-    "wikiDataId": "Q69549"
-  },
-  {
-    "id": 18688,
-    "name": "Visp District",
-    "state_id": 1648,
-    "state_code": "VS",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.17612000",
-    "longitude": "7.85609000",
-    "native": "VISP -Distrikt",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 28547,
-    "wikiDataId": "Q660348"
+    "type": "municipality",
+    "population": 9075,
+    "wikiDataId": "Q64147"
   },
   {
     "id": 18689,
@@ -1160,11 +952,11 @@
     "country_code": "CH",
     "latitude": "46.25899000",
     "longitude": "7.90192000",
-    "native": "Das flüsterminor",
+    "native": "Visperterminen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1345,
+    "type": "municipality",
+    "population": 1301,
     "wikiDataId": "Q70387"
   },
   {
@@ -1176,11 +968,11 @@
     "country_code": "CH",
     "latitude": "46.33746000",
     "longitude": "6.88950000",
-    "native": "Duvry",
+    "native": "Vouvry",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3296,
+    "type": "municipality",
+    "population": 4936,
     "wikiDataId": "Q68889"
   },
   {
@@ -1195,8 +987,8 @@
     "native": "Zermatt",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6023,
+    "type": "municipality",
+    "population": 6113,
     "wikiDataId": "Q27494"
   }
 ]

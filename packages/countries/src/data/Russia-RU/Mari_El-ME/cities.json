@@ -16,22 +16,6 @@
     "wikiDataId": "Q312438"
   },
   {
-    "id": 99039,
-    "name": "Kilemarskiy Rayon",
-    "state_id": 1870,
-    "state_code": "ME",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "56.75000000",
-    "longitude": "46.91667000",
-    "native": "Килемарский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q394362"
-  },
-  {
     "id": 99040,
     "name": "Kilemary",
     "state_id": 1870,
@@ -40,10 +24,10 @@
     "country_code": "RU",
     "latitude": "56.77825000",
     "longitude": "46.86594000",
-    "native": "Килемари",
+    "native": "Килемары",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3897,
     "wikiDataId": "Q2029192"
   },
@@ -59,7 +43,7 @@
     "native": "Козьмодемьянск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q35701175"
   },
@@ -75,7 +59,7 @@
     "native": "Красногорский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7065,
     "wikiDataId": "Q35702366"
   },
@@ -91,7 +75,7 @@
     "native": "Куженер",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4744,
     "wikiDataId": "Q2511335"
   },
@@ -123,7 +107,7 @@
     "native": "Мари-Турек",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5900,
     "wikiDataId": "Q1027060"
   },
@@ -155,7 +139,7 @@
     "native": "Медведево",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 16407,
     "wikiDataId": "Q1024687"
   },
@@ -187,7 +171,7 @@
     "native": "Мочалище",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2225,
     "wikiDataId": "Q4305176"
   },
@@ -203,7 +187,7 @@
     "native": "Морки",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8618,
     "wikiDataId": "Q975788"
   },
@@ -251,7 +235,7 @@
     "native": "Оршанка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5501,
     "wikiDataId": "Q37903741"
   },
@@ -315,7 +299,7 @@
     "native": "Помары",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1500,
     "wikiDataId": "Q37958933"
   },
@@ -331,7 +315,7 @@
     "native": "Приволжский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4110,
     "wikiDataId": "Q37959727"
   },
@@ -347,25 +331,9 @@
     "native": "Сернур",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8060,
     "wikiDataId": "Q1027650"
-  },
-  {
-    "id": 101189,
-    "name": "Sernurskiy Rayon",
-    "state_id": 1870,
-    "state_code": "ME",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "57.00000000",
-    "longitude": "49.25000000",
-    "native": "Сернурский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q40255"
   },
   {
     "id": 101510,
@@ -379,7 +347,7 @@
     "native": "Советский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 10674,
     "wikiDataId": "Q2097829"
   },
@@ -411,7 +379,7 @@
     "native": "Сурок",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2629,
     "wikiDataId": "Q37959699"
   },
@@ -427,7 +395,7 @@
     "native": "Суслонгер",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3597,
     "wikiDataId": "Q37956841"
   },
@@ -443,7 +411,7 @@
     "native": "Виловатово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1360,
     "wikiDataId": "Q37955319"
   },
@@ -459,25 +427,9 @@
     "native": "Волжск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 52164,
     "wikiDataId": "Q133293"
-  },
-  {
-    "id": 102371,
-    "name": "Volzhskiy Rayon",
-    "state_id": 1870,
-    "state_code": "ME",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "56.08333000",
-    "longitude": "48.58333000",
-    "native": "Волжский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": 106923,
-    "wikiDataId": "Q138963"
   },
   {
     "id": 102581,
@@ -491,7 +443,7 @@
     "native": "Йошкар-Ола",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 285218,
     "wikiDataId": "Q5449"
   },
@@ -507,7 +459,7 @@
     "native": "Юрино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 2546,
     "wikiDataId": "Q630271"
   },
@@ -539,7 +491,7 @@
     "native": "Звенигово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 10822,
     "wikiDataId": "Q136813"
   },

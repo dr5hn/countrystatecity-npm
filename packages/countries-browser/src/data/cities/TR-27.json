@@ -8,12 +8,28 @@
     "country_code": "TR",
     "latitude": "37.42559000",
     "longitude": "37.78175000",
-    "native": "Álava",
+    "native": "Araban",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 32846,
+    "type": "municipality",
+    "population": 32540,
     "wikiDataId": "Q623678"
+  },
+  {
+    "id": 165601,
+    "name": "Gaziantep",
+    "state_id": 2203,
+    "state_code": "27",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "37.05944000",
+    "longitude": "37.38250000",
+    "native": "Gaziantep",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "adm1",
+    "population": 2222415,
+    "wikiDataId": "Q93338"
   },
   {
     "id": 108917,
@@ -43,8 +59,8 @@
     "native": "Karkamış",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 4951,
+    "type": "municipality",
+    "population": 9087,
     "wikiDataId": "Q1018531"
   },
   {
@@ -77,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 12827,
-    "wikiDataId": "Q194146"
+    "wikiDataId": null
   },
   {
     "id": 108303,
@@ -91,9 +107,9 @@
     "native": "Oğuzeli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 11527,
-    "wikiDataId": "Q963947"
+    "type": "municipality",
+    "population": 36644,
+    "wikiDataId": "Q1022230"
   },
   {
     "id": 108929,
@@ -107,8 +123,8 @@
     "native": "Şahinbey",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 957792,
     "wikiDataId": "Q2195037"
   },
   {
@@ -123,8 +139,8 @@
     "native": "Şehitkamil",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 774179,
+    "type": "municipality",
+    "population": 905880,
     "wikiDataId": "Q388703"
   },
   {
@@ -141,6 +157,6 @@
     "translations": {},
     "type": "adm2",
     "population": 8170,
-    "wikiDataId": "Q177880"
+    "wikiDataId": null
   }
 ]

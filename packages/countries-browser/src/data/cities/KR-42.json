@@ -11,7 +11,7 @@
     "native": "철원군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50329"
   },
@@ -33,7 +33,7 @@
   },
   {
     "id": 65298,
-    "name": "Chuncheon-si",
+    "name": "Chuncheon",
     "state_id": 3862,
     "state_code": "42",
     "country_id": 116,
@@ -123,7 +123,7 @@
     "native": "횡성군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50347"
   },
@@ -222,6 +222,22 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q50323"
+  },
+  {
+    "id": 165147,
+    "name": "Jumunjin",
+    "state_id": 3862,
+    "state_code": "42",
+    "country_id": 116,
+    "country_code": "KR",
+    "latitude": "37.89139000",
+    "longitude": "128.82583000",
+    "native": "주문진",
+    "timezone": "Asia/Seoul",
+    "translations": {},
+    "type": "city",
+    "population": 20600,
+    "wikiDataId": "Q11271869"
   },
   {
     "id": 65430,
@@ -475,7 +491,7 @@
     "native": "양양군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50254"
   }

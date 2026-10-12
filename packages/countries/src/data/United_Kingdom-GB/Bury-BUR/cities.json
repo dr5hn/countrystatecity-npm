@@ -1,37 +1,5 @@
 [
   {
-    "id": 48587,
-    "name": "Bolton",
-    "state_id": 2459,
-    "state_code": "BUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.58333000",
-    "longitude": "-2.43333000",
-    "native": "Bolton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 141331,
-    "wikiDataId": "Q184579"
-  },
-  {
-    "id": 48600,
-    "name": "Borough of Bury",
-    "state_id": 2459,
-    "state_code": "BUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.58333000",
-    "longitude": "-2.33333000",
-    "native": "Borough of Bury",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q512036"
-  },
-  {
     "id": 48798,
     "name": "Bury",
     "state_id": 2459,
@@ -43,57 +11,25 @@
     "native": "Bury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 61044,
     "wikiDataId": "Q47822"
   },
   {
-    "id": 49437,
-    "name": "Edenfield",
+    "id": 50989,
+    "name": "Prestwich",
     "state_id": 2459,
     "state_code": "BUR",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.66674000",
-    "longitude": "-2.30481000",
-    "native": "Edenfield",
+    "latitude": "53.53333000",
+    "longitude": "-2.28333000",
+    "native": "Prestwich",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 2126,
-    "wikiDataId": "Q5336994"
-  },
-  {
-    "id": 49533,
-    "name": "Farnworth",
-    "state_id": 2459,
-    "state_code": "BUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.55000000",
-    "longitude": "-2.40000000",
-    "native": "Farnworth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 25680,
-    "wikiDataId": "Q1397011"
-  },
-  {
-    "id": 50330,
-    "name": "Little Lever",
-    "state_id": 2459,
-    "state_code": "BUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.56346000",
-    "longitude": "-2.37803000",
-    "native": "Little Lever",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 11329,
-    "wikiDataId": "Q3835039"
+    "type": "town",
+    "population": 32125,
+    "wikiDataId": "Q1003559"
   },
   {
     "id": 51016,
@@ -107,7 +43,7 @@
     "native": "Radcliffe",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 34239,
     "wikiDataId": "Q968937"
   },
@@ -123,25 +59,9 @@
     "native": "Ramsbottom",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17738,
     "wikiDataId": "Q2736093"
-  },
-  {
-    "id": 51042,
-    "name": "Rawtenstall",
-    "state_id": 2459,
-    "state_code": "BUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.70076000",
-    "longitude": "-2.28442000",
-    "native": "Rawtenstall",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 22114,
-    "wikiDataId": "Q2201943"
   },
   {
     "id": 51111,
@@ -157,7 +77,7 @@
     "translations": {},
     "type": "locality",
     "population": 71169,
-    "wikiDataId": "Q2057705"
+    "wikiDataId": null
   },
   {
     "id": 51651,
@@ -173,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 7713,
-    "wikiDataId": "Q1520166"
+    "wikiDataId": null
   },
   {
     "id": 51872,
@@ -187,7 +107,7 @@
     "native": "Whitefield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 23545,
     "wikiDataId": "Q1615791"
   }

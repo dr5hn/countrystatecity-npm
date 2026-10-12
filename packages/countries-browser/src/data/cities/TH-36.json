@@ -11,7 +11,7 @@
     "native": "บำเหน็จณรงค์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 14890,
     "wikiDataId": "Q28732560"
   },
@@ -27,7 +27,7 @@
     "native": "ชัยภูมิ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 58350,
     "wikiDataId": "Q997062"
   },
@@ -43,7 +43,7 @@
     "native": "แก่งโคร่",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 29056,
     "wikiDataId": "Q15260331"
   },
@@ -59,25 +59,9 @@
     "native": "เกษตรสมบูรณ์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 16996,
     "wikiDataId": "Q28732564"
-  },
-  {
-    "id": 148558,
-    "name": "Nakhon Nayok",
-    "state_id": 4954,
-    "state_code": "36",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.20305600",
-    "longitude": "101.21500000",
-    "native": "นครนายก",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "adm1",
-    "population": 21309,
-    "wikiDataId": "Q595853"
   },
   {
     "id": 148559,
@@ -91,7 +75,7 @@
     "native": "ภูเขียว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 17122,
     "wikiDataId": "Q28732567"
   }

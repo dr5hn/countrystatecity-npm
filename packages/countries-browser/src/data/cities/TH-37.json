@@ -1,5 +1,21 @@
 [
   {
+    "id": 105495,
+    "name": "Amnat",
+    "state_id": 3523,
+    "state_code": "37",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "15.69476000",
+    "longitude": "104.64846000",
+    "native": "อำนาจ",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 105179,
     "name": "Amnat Charoen",
     "state_id": 3523,
@@ -11,7 +27,7 @@
     "native": "อำนาจเจริญ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 34769,
     "wikiDataId": "Q473674"
   },
@@ -22,14 +38,14 @@
     "state_code": "37",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.12553000",
-    "longitude": "104.92279000",
-    "native": "อำเภอชานุมาน",
+    "latitude": "16.23356000",
+    "longitude": "105.00050000",
+    "native": "ชานุมาน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475365"
+    "wikiDataId": null
   },
   {
     "id": 105351,
@@ -38,46 +54,14 @@
     "state_code": "37",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.67594000",
-    "longitude": "104.52702000",
-    "native": "อำเภอหัวตะพาน",
+    "latitude": "15.69710000",
+    "longitude": "104.49160000",
+    "native": "หัวตะพาน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475531"
-  },
-  {
-    "id": 105495,
-    "name": "Lue Amnat",
-    "state_id": 3523,
-    "state_code": "37",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "15.70781000",
-    "longitude": "104.71118000",
-    "native": "อำเภอลืออำนาจ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475916"
-  },
-  {
-    "id": 105531,
-    "name": "Mueang Amnat Charoen",
-    "state_id": 3523,
-    "state_code": "37",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "15.87864000",
-    "longitude": "104.64284000",
-    "native": "อำเภอเมืองอำนาจเจริญ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475998"
+    "wikiDataId": null
   },
   {
     "id": 105715,
@@ -86,14 +70,14 @@
     "state_code": "37",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.89542000",
-    "longitude": "104.89611000",
-    "native": "อำเภอปทุมราชวงศา",
+    "latitude": "15.89476400",
+    "longitude": "104.92638200",
+    "native": "ปทุมราชวงศา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476355"
+    "wikiDataId": "Q15379465"
   },
   {
     "id": 105722,
@@ -102,14 +86,14 @@
     "state_code": "37",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.66895000",
-    "longitude": "104.85675000",
-    "native": "อำเภอพนา",
+    "latitude": "15.68231000",
+    "longitude": "104.84603000",
+    "native": "พนา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476367"
+    "wikiDataId": null
   },
   {
     "id": 106208,
@@ -118,13 +102,13 @@
     "state_code": "37",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.05130000",
-    "longitude": "104.68441000",
-    "native": "อำเภอเสนางคนิคม",
+    "latitude": "16.03972000",
+    "longitude": "104.66939000",
+    "native": "เสนางคนิคม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476683"
+    "wikiDataId": null
   }
 ]

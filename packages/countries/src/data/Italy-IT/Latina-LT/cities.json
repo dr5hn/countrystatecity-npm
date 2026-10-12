@@ -11,8 +11,8 @@
     "native": "Aprilia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 74126,
+    "type": "municipality",
+    "population": 74697,
     "wikiDataId": "Q128052"
   },
   {
@@ -27,8 +27,8 @@
     "native": "Bassiano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 922,
+    "type": "municipality",
+    "population": 1432,
     "wikiDataId": "Q128057"
   },
   {
@@ -43,7 +43,7 @@
     "native": "Bella Farnia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1002,
     "wikiDataId": "Q18453643"
   },
@@ -59,7 +59,7 @@
     "native": "Borgo Grappa",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1097,
     "wikiDataId": "Q3642495"
   },
@@ -75,7 +75,7 @@
     "native": "Borgo Hermada",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3037,
     "wikiDataId": "Q3642496"
   },
@@ -91,7 +91,7 @@
     "native": "Borgo Podgora",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1623,
     "wikiDataId": "Q1120731"
   },
@@ -107,7 +107,7 @@
     "native": "Borgo Sabotino-Foce Verde",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2045,
     "wikiDataId": "Q18453656"
   },
@@ -123,9 +123,41 @@
     "native": "Borgo San Michele",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2149,
     "wikiDataId": "Q16255215"
+  },
+  {
+    "id": 136587,
+    "name": "Camilleri-Vallelata",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.59848000",
+    "longitude": "12.61738000",
+    "native": "Camilleri-Vallelata",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 1101,
+    "wikiDataId": "Q18453662"
+  },
+  {
+    "id": 136634,
+    "name": "Campo di Carne",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.55265000",
+    "longitude": "12.64114000",
+    "native": "Campo di Carne",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 3792,
+    "wikiDataId": "Q18453665"
   },
   {
     "id": 136646,
@@ -139,8 +171,8 @@
     "native": "Campodimele",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 338,
+    "type": "municipality",
+    "population": 545,
     "wikiDataId": "Q128060"
   },
   {
@@ -155,9 +187,25 @@
     "native": "Carrara-Pontenuovo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2235,
     "wikiDataId": "Q18453683"
+  },
+  {
+    "id": 136963,
+    "name": "Casalazzara",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.62299000",
+    "longitude": "12.57634000",
+    "native": "Casalazzara",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 1496,
+    "wikiDataId": "Q16537681"
   },
   {
     "id": 137195,
@@ -171,8 +219,8 @@
     "native": "Castelforte",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2676,
+    "type": "municipality",
+    "population": 4010,
     "wikiDataId": "Q128062"
   },
   {
@@ -187,8 +235,8 @@
     "native": "Cisterna di Latina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 27362,
+    "type": "municipality",
+    "population": 36255,
     "wikiDataId": "Q128065"
   },
   {
@@ -203,8 +251,8 @@
     "native": "Cori",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 6376,
+    "type": "municipality",
+    "population": 10465,
     "wikiDataId": "Q128081"
   },
   {
@@ -219,8 +267,8 @@
     "native": "Fondi",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 39550,
+    "type": "municipality",
+    "population": 40310,
     "wikiDataId": "Q128084"
   },
   {
@@ -235,9 +283,25 @@
     "native": "Formia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 28521,
+    "type": "municipality",
+    "population": 36775,
     "wikiDataId": "Q128086"
+  },
+  {
+    "id": 138678,
+    "name": "Fossignano",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.59226000",
+    "longitude": "12.56333000",
+    "native": "Fossignano",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 3718,
+    "wikiDataId": "Q16556993"
   },
   {
     "id": 138774,
@@ -251,9 +315,25 @@
     "native": "Gaeta",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 19423,
+    "type": "municipality",
+    "population": 18908,
     "wikiDataId": "Q128089"
+  },
+  {
+    "id": 138897,
+    "name": "Genio Civile",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.54807000",
+    "longitude": "12.69161000",
+    "native": "Genio Civile",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 4298,
+    "wikiDataId": "Q18453753"
   },
   {
     "id": 138990,
@@ -267,7 +347,7 @@
     "native": "Giulianello",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2519,
     "wikiDataId": "Q18453758"
   },
@@ -283,7 +363,7 @@
     "native": "Grunuovo-Campomaggiore San Luca",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3912,
     "wikiDataId": null
   },
@@ -299,8 +379,8 @@
     "native": "Itri",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 10357,
+    "type": "municipality",
+    "population": 10579,
     "wikiDataId": "Q128092"
   },
   {
@@ -315,8 +395,8 @@
     "native": "Latina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm2",
-    "population": 76305,
+    "type": "municipality",
+    "population": 127450,
     "wikiDataId": "Q13410"
   },
   {
@@ -331,7 +411,7 @@
     "native": "Latina Scalo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6883,
     "wikiDataId": "Q3827479"
   },
@@ -344,10 +424,10 @@
     "country_code": "IT",
     "latitude": "40.92475000",
     "longitude": "12.96896000",
-    "native": "Le ex",
+    "native": "Le Forna",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1268,
     "wikiDataId": "Q18453779"
   },
@@ -363,8 +443,8 @@
     "native": "Lenola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2855,
+    "type": "municipality",
+    "population": 4095,
     "wikiDataId": "Q128101"
   },
   {
@@ -379,8 +459,8 @@
     "native": "Maenza",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1627,
+    "type": "municipality",
+    "population": 2956,
     "wikiDataId": "Q128103"
   },
   {
@@ -395,7 +475,7 @@
     "native": "Maranola-Trivio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2823,
     "wikiDataId": null
   },
@@ -411,8 +491,8 @@
     "native": "Minturno",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 20268,
+    "type": "municipality",
+    "population": 20400,
     "wikiDataId": "Q128105"
   },
   {
@@ -424,10 +504,10 @@
     "country_code": "IT",
     "latitude": "41.26009000",
     "longitude": "13.06221000",
-    "native": "Raccontare",
+    "native": "Molella",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1090,
     "wikiDataId": "Q18453817"
   },
@@ -443,8 +523,8 @@
     "native": "Monte San Biagio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3481,
+    "type": "municipality",
+    "population": 6028,
     "wikiDataId": "Q128107"
   },
   {
@@ -459,8 +539,8 @@
     "native": "Norma",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3623,
+    "type": "municipality",
+    "population": 3723,
     "wikiDataId": "Q128119"
   },
   {
@@ -472,10 +552,10 @@
     "country_code": "IT",
     "latitude": "41.27328000",
     "longitude": "13.69262000",
-    "native": "Matita",
+    "native": "Penitro",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2132,
     "wikiDataId": "Q18453835"
   },
@@ -491,8 +571,8 @@
     "native": "Pontinia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 6407,
+    "type": "municipality",
+    "population": 15084,
     "wikiDataId": "Q128130"
   },
   {
@@ -507,8 +587,8 @@
     "native": "Ponza",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1831,
+    "type": "municipality",
+    "population": 3295,
     "wikiDataId": "Q128134"
   },
   {
@@ -523,7 +603,7 @@
     "native": "Prato di Coppola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1501,
     "wikiDataId": "Q18453863"
   },
@@ -539,8 +619,8 @@
     "native": "Priverno",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 10005,
+    "type": "municipality",
+    "population": 13694,
     "wikiDataId": "Q128139"
   },
   {
@@ -555,8 +635,8 @@
     "native": "Prossedi",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 571,
+    "type": "municipality",
+    "population": 1112,
     "wikiDataId": "Q128143"
   },
   {
@@ -571,8 +651,8 @@
     "native": "Rocca Massima",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 392,
+    "type": "municipality",
+    "population": 1127,
     "wikiDataId": "Q128157"
   },
   {
@@ -587,8 +667,8 @@
     "native": "Roccagorga",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2477,
+    "type": "municipality",
+    "population": 4087,
     "wikiDataId": "Q128161"
   },
   {
@@ -603,8 +683,8 @@
     "native": "Roccasecca dei Volsci",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 740,
+    "type": "municipality",
+    "population": 1060,
     "wikiDataId": "Q128163"
   },
   {
@@ -619,8 +699,8 @@
     "native": "Sabaudia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 8743,
+    "type": "municipality",
+    "population": 19326,
     "wikiDataId": "Q128165"
   },
   {
@@ -635,8 +715,8 @@
     "native": "San Felice Circeo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 6497,
+    "type": "municipality",
+    "population": 10089,
     "wikiDataId": "Q128170"
   },
   {
@@ -651,8 +731,8 @@
     "native": "Santi Cosma e Damiano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 753,
+    "type": "municipality",
+    "population": 6878,
     "wikiDataId": "Q128185"
   },
   {
@@ -667,8 +747,8 @@
     "native": "Sermoneta",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1066,
+    "type": "municipality",
+    "population": 9951,
     "wikiDataId": "Q128202"
   },
   {
@@ -683,8 +763,8 @@
     "native": "Sezze",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 16071,
+    "type": "municipality",
+    "population": 23766,
     "wikiDataId": "Q128206"
   },
   {
@@ -699,7 +779,7 @@
     "native": "Sezze Scalo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2865,
     "wikiDataId": "Q18453903"
   },
@@ -715,8 +795,8 @@
     "native": "Sonnino",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3350,
+    "type": "municipality",
+    "population": 7465,
     "wikiDataId": "Q128211"
   },
   {
@@ -731,9 +811,57 @@
     "native": "Sperlonga",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3050,
+    "type": "municipality",
+    "population": 2990,
     "wikiDataId": "Q128217"
+  },
+  {
+    "id": 166216,
+    "name": "Spigno Saturnia",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.30000000",
+    "longitude": "13.73333333",
+    "native": "Spigno Saturnia",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 2845,
+    "wikiDataId": "Q128222"
+  },
+  {
+    "id": 61008,
+    "name": "Spigno Saturnia Inferiore",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.31146000",
+    "longitude": "13.73685000",
+    "native": "Spigno Saturnia Inferiore",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 954,
+    "wikiDataId": "Q18453908"
+  },
+  {
+    "id": 61009,
+    "name": "Spigno Saturnia Superiore",
+    "state_id": 1674,
+    "state_code": "LT",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "41.31425000",
+    "longitude": "13.70888000",
+    "native": "Spigno Saturnia Superiore",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "locality",
+    "population": 231,
+    "wikiDataId": "Q18453909"
   },
   {
     "id": 61235,
@@ -747,8 +875,8 @@
     "native": "Terracina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 30980,
+    "type": "municipality",
+    "population": 45055,
     "wikiDataId": "Q128226"
   },
   {
@@ -763,8 +891,8 @@
     "native": "Ventotene",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 530,
+    "type": "municipality",
+    "population": 678,
     "wikiDataId": "Q128230"
   }
 ]

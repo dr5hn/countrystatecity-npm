@@ -1,21 +1,5 @@
 [
   {
-    "id": 48353,
-    "name": "Ballygowan",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.50165000",
-    "longitude": "-5.79168000",
-    "native": "Ballygowan",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2832,
-    "wikiDataId": "Q116772"
-  },
-  {
     "id": 48458,
     "name": "Belfast",
     "state_id": 2311,
@@ -27,7 +11,7 @@
     "native": "Belfast",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 345006,
     "wikiDataId": "Q10686"
   },
@@ -45,39 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 2775,
-    "wikiDataId": "Q1570525"
-  },
-  {
-    "id": 48870,
-    "name": "Carrickfergus",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.71580000",
-    "longitude": "-5.80580000",
-    "native": "Carrickfergus",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 29208,
-    "wikiDataId": "Q1020354"
-  },
-  {
-    "id": 48873,
-    "name": "Carryduff",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.51799000",
-    "longitude": "-5.88713000",
-    "native": "Carryduff",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7798,
-    "wikiDataId": "Q2398355"
+    "wikiDataId": null
   },
   {
     "id": 48884,
@@ -93,7 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": 56679,
-    "wikiDataId": "Q546485"
+    "wikiDataId": null
   },
   {
     "id": 49006,
@@ -109,71 +61,7 @@
     "translations": {},
     "type": "adm1",
     "population": null,
-    "wikiDataId": "Q10996863"
-  },
-  {
-    "id": 49081,
-    "name": "Comber",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.54937000",
-    "longitude": "-5.74379000",
-    "native": "Comber",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 9190,
-    "wikiDataId": "Q116787"
-  },
-  {
-    "id": 49348,
-    "name": "Dundonald",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.59196000",
-    "longitude": "-5.79803000",
-    "native": "Dundonald",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13985,
-    "wikiDataId": "Q116756"
-  },
-  {
-    "id": 49746,
-    "name": "Greenisland",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.70081000",
-    "longitude": "-5.87479000",
-    "native": "Greenisland",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 5073,
-    "wikiDataId": "Q1375188"
-  },
-  {
-    "id": 49975,
-    "name": "Holywood",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.63863000",
-    "longitude": "-5.82473000",
-    "native": "Holywood",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13109,
-    "wikiDataId": "Q1625366"
+    "wikiDataId": null
   },
   {
     "id": 50097,
@@ -189,22 +77,6 @@
     "translations": {},
     "type": "city",
     "population": 5494,
-    "wikiDataId": "Q2240072"
-  },
-  {
-    "id": 50739,
-    "name": "Newtownabbey",
-    "state_id": 2311,
-    "state_code": "BFS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.65983000",
-    "longitude": "-5.90858000",
-    "native": "Newtownabbey",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 62056,
-    "wikiDataId": "Q918947"
+    "wikiDataId": null
   }
 ]

@@ -11,7 +11,7 @@
     "native": "Brestovac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 597,
     "wikiDataId": "Q910430"
   },
@@ -27,9 +27,9 @@
     "native": "Grad Pakrac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q1640"
+    "type": "city",
+    "population": 7086,
+    "wikiDataId": "Q398115"
   },
   {
     "id": 54545,
@@ -43,9 +43,9 @@
     "native": "Grad Požega",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q1640"
+    "type": "city",
+    "population": 22294,
+    "wikiDataId": "Q273114"
   },
   {
     "id": 54612,
@@ -59,9 +59,9 @@
     "native": "Jakšić",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1566,
-    "wikiDataId": "Q947769"
+    "wikiDataId": "Q1272324"
   },
   {
     "id": 54631,
@@ -75,7 +75,7 @@
     "native": "Kaptol",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1040,
     "wikiDataId": "Q1284387"
   },
@@ -91,7 +91,7 @@
     "native": "Kutjevo",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1941,
     "wikiDataId": "Q398139"
   },
@@ -107,7 +107,7 @@
     "native": "Lipik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1967,
     "wikiDataId": "Q396595"
   },
@@ -123,9 +123,9 @@
     "native": "Pakrac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4151,
-    "wikiDataId": "Q1021806"
+    "wikiDataId": null
   },
   {
     "id": 54811,
@@ -139,7 +139,7 @@
     "native": "Pleternica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2895,
     "wikiDataId": "Q397633"
   },
@@ -155,9 +155,9 @@
     "native": "Požega",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 16867,
-    "wikiDataId": "Q273114"
+    "wikiDataId": null
   },
   {
     "id": 54955,
@@ -171,7 +171,7 @@
     "native": "Velika",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1650,
     "wikiDataId": "Q1092424"
   },
@@ -187,7 +187,7 @@
     "native": "Vidovci",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1264,
     "wikiDataId": "Q2239482"
   }

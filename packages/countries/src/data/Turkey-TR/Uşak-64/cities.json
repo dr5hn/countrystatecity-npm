@@ -11,9 +11,9 @@
     "native": "Banaz",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 17080,
-    "wikiDataId": "Q199723"
+    "type": "municipality",
+    "population": 17078,
+    "wikiDataId": "Q669172"
   },
   {
     "id": 107629,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 11000,
-    "wikiDataId": "Q586434"
+    "wikiDataId": "Q1004540"
   },
   {
     "id": 107894,
@@ -43,25 +43,9 @@
     "native": "Karahallı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 4948,
-    "wikiDataId": "Q189697"
-  },
-  {
-    "id": 108183,
-    "name": "Merkez",
-    "state_id": 2201,
-    "state_code": "64",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "38.68463000",
-    "longitude": "29.29455000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "type": "municipality",
+    "population": 5595,
+    "wikiDataId": "Q2198340"
   },
   {
     "id": 108474,
@@ -75,9 +59,9 @@
     "native": "Sivaslı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 7378,
-    "wikiDataId": "Q107401"
+    "type": "municipality",
+    "population": 6981,
+    "wikiDataId": "Q14358589"
   },
   {
     "id": 108621,
@@ -91,8 +75,24 @@
     "native": "Ulubey",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 5092,
+    "type": "municipality",
+    "population": 5987,
     "wikiDataId": "Q1816898"
+  },
+  {
+    "id": 108183,
+    "name": "Uşak",
+    "state_id": 2201,
+    "state_code": "64",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "38.68333333",
+    "longitude": "29.40000000",
+    "native": "Uşak",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 237028,
+    "wikiDataId": "Q189134"
   }
 ]

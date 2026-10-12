@@ -8,12 +8,12 @@
     "country_code": "PE",
     "latitude": "-17.94167000",
     "longitude": "-70.18694000",
-    "native": "Pantalones",
+    "native": "Calana",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 875,
-    "wikiDataId": "Q205119"
+    "wikiDataId": "Q3824267"
   },
   {
     "id": 80590,
@@ -27,9 +27,9 @@
     "native": "Candarave",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3415,
-    "wikiDataId": "Q3344236"
+    "wikiDataId": "Q5031628"
   },
   {
     "id": 80618,
@@ -72,12 +72,12 @@
     "country_code": "PE",
     "latitude": "-17.42083000",
     "longitude": "-70.51333000",
-    "native": "Liberar",
+    "native": "Ilabaya",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9492,
-    "wikiDataId": "Q840712"
+    "wikiDataId": "Q3824525"
   },
   {
     "id": 80680,
@@ -94,22 +94,6 @@
     "type": "city",
     "population": 10773,
     "wikiDataId": "Q589047"
-  },
-  {
-    "id": 80897,
-    "name": "Provincia de Tacna",
-    "state_id": 3696,
-    "state_code": "TAC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-17.83333000",
-    "longitude": "-70.50000000",
-    "native": "Provincia de Tacna",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1355960"
   },
   {
     "id": 80901,
@@ -152,12 +136,28 @@
     "country_code": "PE",
     "latitude": "-17.31778000",
     "longitude": "-70.25806000",
-    "native": "El tiene",
+    "native": "Quilahuani",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3176,
-    "wikiDataId": "Q672921"
+    "wikiDataId": "Q3824646"
+  },
+  {
+    "id": 80897,
+    "name": "Tacna",
+    "state_id": 3696,
+    "state_code": "TAC",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-18.01000000",
+    "longitude": "-70.24777778",
+    "native": "Tacna",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q272795"
   },
   {
     "id": 80982,
@@ -171,9 +171,9 @@
     "native": "Tacna",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 306363,
-    "wikiDataId": "Q272795"
+    "wikiDataId": "Q3312467"
   },
   {
     "id": 80990,
@@ -184,12 +184,12 @@
     "country_code": "PE",
     "latitude": "-17.47444000",
     "longitude": "-70.03278000",
-    "native": "Calibre",
+    "native": "Tarata",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3052,
-    "wikiDataId": "Q2588449"
+    "wikiDataId": "Q3825983"
   },
   {
     "id": 80997,

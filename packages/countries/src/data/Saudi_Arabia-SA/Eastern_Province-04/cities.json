@@ -11,7 +11,7 @@
     "native": "بقيق",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 36207,
     "wikiDataId": "Q27177"
   },
@@ -91,7 +91,7 @@
     "native": "الجبيل",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 237274,
     "wikiDataId": "Q27430"
   },
@@ -107,7 +107,7 @@
     "native": "الخفجي",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 54857,
     "wikiDataId": "Q31873774"
   },
@@ -203,7 +203,7 @@
     "native": "القطيف",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 98259,
     "wikiDataId": "Q31875721"
   },
@@ -256,20 +256,20 @@
     "wikiDataId": "Q288287"
   },
   {
-    "id": 148562,
-    "name": "Al-Awjam",
+    "id": 148825,
+    "name": "Al-Jafr",
     "state_id": 2856,
     "state_code": "04",
     "country_id": 194,
     "country_code": "SA",
-    "latitude": "26.55830000",
-    "longitude": "49.95030000",
-    "native": "الأوجام",
+    "latitude": "25.41666667",
+    "longitude": "49.61666667",
+    "native": "الجفر",
     "timezone": "Asia/Riyadh",
     "translations": {},
     "type": "city",
-    "population": 9111,
-    "wikiDataId": "Q4164621"
+    "population": 0,
+    "wikiDataId": "Q4702579"
   },
   {
     "id": 102843,
@@ -331,7 +331,7 @@
     "native": "الدمام",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 1252523,
     "wikiDataId": "Q160320"
   },
@@ -350,22 +350,6 @@
     "type": "city",
     "population": 99540,
     "wikiDataId": "Q268915"
-  },
-  {
-    "id": 148564,
-    "name": "Ha'il",
-    "state_id": 2856,
-    "state_code": "04",
-    "country_id": 194,
-    "country_code": "SA",
-    "latitude": "27.51666667",
-    "longitude": "41.68333333",
-    "native": "يشيد ",
-    "timezone": "Asia/Riyadh",
-    "translations": {},
-    "type": "adm1",
-    "population": 310897,
-    "wikiDataId": "Q675568"
   },
   {
     "id": 102857,
@@ -443,7 +427,7 @@
     "native": "مليجة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5247,
     "wikiDataId": "Q32141302"
   },
@@ -475,7 +459,7 @@
     "native": "القيصومة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20685,
     "wikiDataId": "Q3543647"
   },
@@ -491,9 +475,9 @@
     "native": "رحيمة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 41188,
-    "wikiDataId": "Q2829401"
+    "wikiDataId": null
   },
   {
     "id": 102895,

@@ -27,9 +27,25 @@
     "native": "Birdwell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3056,
     "wikiDataId": "Q3640308"
+  },
+  {
+    "id": 48589,
+    "name": "Bolton upon Dearne",
+    "state_id": 2499,
+    "state_code": "BNS",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.51667000",
+    "longitude": "-1.31667000",
+    "native": "Bolton upon Dearne",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 13236,
+    "wikiDataId": "Q4940256"
   },
   {
     "id": 48899,
@@ -43,25 +59,9 @@
     "native": "Cawthorne",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 893,
     "wikiDataId": "Q5055245"
-  },
-  {
-    "id": 49023,
-    "name": "Clayton West",
-    "state_id": 2499,
-    "state_code": "BNS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.59501000",
-    "longitude": "-1.61107000",
-    "native": "Clayton West",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8109,
-    "wikiDataId": "Q5130366"
   },
   {
     "id": 49195,
@@ -75,7 +75,7 @@
     "native": "Cudworth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 11903,
     "wikiDataId": "Q954528"
   },
@@ -91,7 +91,7 @@
     "native": "Darfield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8246,
     "wikiDataId": "Q676757"
   },
@@ -107,7 +107,7 @@
     "native": "Darton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15259,
     "wikiDataId": "Q1617106"
   },
@@ -123,7 +123,7 @@
     "native": "Dodworth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5870,
     "wikiDataId": "Q959905"
   },
@@ -139,7 +139,7 @@
     "native": "Great Houghton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2487,
     "wikiDataId": "Q1617097"
   },
@@ -155,25 +155,9 @@
     "native": "Grimethorpe",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4672,
     "wikiDataId": "Q1619619"
-  },
-  {
-    "id": 49899,
-    "name": "Hemsworth",
-    "state_id": 2499,
-    "state_code": "BNS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.61267000",
-    "longitude": "-1.35424000",
-    "native": "Hemsworth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 9246,
-    "wikiDataId": "Q2556975"
   },
   {
     "id": 50016,
@@ -192,22 +176,6 @@
     "wikiDataId": "Q3787287"
   },
   {
-    "id": 50788,
-    "name": "Notton",
-    "state_id": 2499,
-    "state_code": "BNS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.61267000",
-    "longitude": "-1.47234000",
-    "native": "Notton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 479,
-    "wikiDataId": "Q962234"
-  },
-  {
     "id": 50882,
     "name": "Penistone",
     "state_id": 2499,
@@ -219,7 +187,7 @@
     "native": "Penistone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 12674,
     "wikiDataId": "Q2010576"
   },
@@ -235,25 +203,9 @@
     "native": "Silkstone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1764,
     "wikiDataId": "Q2307737"
-  },
-  {
-    "id": 51456,
-    "name": "Stocksbridge",
-    "state_id": 2499,
-    "state_code": "BNS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.48249000",
-    "longitude": "-1.59373000",
-    "native": "Stocksbridge",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13301,
-    "wikiDataId": "Q1813994"
   },
   {
     "id": 51966,
@@ -267,24 +219,8 @@
     "native": "Wombwell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15518,
     "wikiDataId": "Q2096359"
-  },
-  {
-    "id": 51981,
-    "name": "Woolley",
-    "state_id": 2499,
-    "state_code": "BNS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.61339000",
-    "longitude": "-1.51457000",
-    "native": "Woolley",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 365,
-    "wikiDataId": "Q4355527"
   }
 ]

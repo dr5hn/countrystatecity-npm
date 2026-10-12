@@ -1,35 +1,19 @@
 [
   {
-    "id": 31316,
-    "name": "Djamaa",
+    "id": 146190,
+    "name": "El Bour",
     "state_id": 1139,
     "state_code": "30",
     "country_id": 4,
     "country_code": "DZ",
-    "latitude": "33.53388000",
-    "longitude": "5.99306000",
-    "native": "جماعة",
+    "latitude": "32.16305556",
+    "longitude": "5.34527778",
+    "native": "البور",
     "timezone": "Africa/Algiers",
     "translations": {},
-    "type": "city",
-    "population": 34920,
-    "wikiDataId": "Q3032751"
-  },
-  {
-    "id": 31335,
-    "name": "El Hadjira",
-    "state_id": 1139,
-    "state_code": "30",
-    "country_id": 4,
-    "country_code": "DZ",
-    "latitude": "32.61336000",
-    "longitude": "5.51259000",
-    "native": "الحجيرة",
-    "timezone": "Africa/Algiers",
-    "translations": {},
-    "type": "city",
-    "population": 39744,
-    "wikiDataId": "Q3049930"
+    "type": "adm1",
+    "population": 0,
+    "wikiDataId": "Q12403129"
   },
   {
     "id": 31353,
@@ -48,22 +32,6 @@
     "wikiDataId": "Q1000139"
   },
   {
-    "id": 31378,
-    "name": "Megarine",
-    "state_id": 1139,
-    "state_code": "30",
-    "country_id": 4,
-    "country_code": "DZ",
-    "latitude": "33.19195000",
-    "longitude": "6.08695000",
-    "native": "ميجارين",
-    "timezone": "Africa/Algiers",
-    "translations": {},
-    "type": "city",
-    "population": 31711,
-    "wikiDataId": "Q2384877"
-  },
-  {
     "id": 31396,
     "name": "Ouargla",
     "state_id": 1139,
@@ -77,6 +45,22 @@
     "translations": {},
     "type": "adm1",
     "population": 169928,
+    "wikiDataId": "Q852469"
+  },
+  {
+    "id": 146202,
+    "name": "Ouargla",
+    "state_id": 1139,
+    "state_code": "30",
+    "country_id": 4,
+    "country_code": "DZ",
+    "latitude": "31.95000000",
+    "longitude": "5.31666667",
+    "native": "ورقلة",
+    "timezone": "Africa/Algiers",
+    "translations": {},
+    "type": "adm1",
+    "population": 133024,
     "wikiDataId": "Q852469"
   },
   {
@@ -94,53 +78,5 @@
     "type": "city",
     "population": 80784,
     "wikiDataId": "Q1649802"
-  },
-  {
-    "id": 31425,
-    "name": "Sidi Amrane",
-    "state_id": 1139,
-    "state_code": "30",
-    "country_id": 4,
-    "country_code": "DZ",
-    "latitude": "33.49885000",
-    "longitude": "6.00803000",
-    "native": "سيدي عمران",
-    "timezone": "Africa/Algiers",
-    "translations": {},
-    "type": "city",
-    "population": 29734,
-    "wikiDataId": "Q3325140"
-  },
-  {
-    "id": 31445,
-    "name": "Tebesbest",
-    "state_id": 1139,
-    "state_code": "30",
-    "country_id": 4,
-    "country_code": "DZ",
-    "latitude": "33.11667000",
-    "longitude": "6.08333000",
-    "native": "تيبسبيست",
-    "timezone": "Africa/Algiers",
-    "translations": {},
-    "type": "city",
-    "population": 41091,
-    "wikiDataId": "Q601174"
-  },
-  {
-    "id": 31462,
-    "name": "Touggourt",
-    "state_id": 1139,
-    "state_code": "30",
-    "country_id": 4,
-    "country_code": "DZ",
-    "latitude": "33.10527000",
-    "longitude": "6.05796000",
-    "native": "تقرت",
-    "timezone": "Africa/Algiers",
-    "translations": {},
-    "type": "adm1",
-    "population": 143270,
-    "wikiDataId": "Q852515"
   }
 ]

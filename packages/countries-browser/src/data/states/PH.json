@@ -113,8 +113,8 @@
     "iso2": "AUR",
     "iso3166_2": "PH-AUR",
     "type": "province",
-    "latitude": "16.99088110",
-    "longitude": "121.63580000",
+    "latitude": "15.88333333",
+    "longitude": "121.55000000",
     "native": "Aurora",
     "timezone": "Asia/Manila",
     "translations": {}
@@ -975,6 +975,21 @@
     "translations": {}
   },
   {
+    "id": 5853,
+    "name": "Negros Island Region",
+    "country_id": 174,
+    "country_code": "PH",
+    "fips_code": null,
+    "iso2": "18",
+    "iso3166_2": null,
+    "type": "region",
+    "latitude": "10.00755118",
+    "longitude": "123.01959839",
+    "native": "Negros Island Region",
+    "timezone": "Asia/Manila",
+    "translations": {}
+  },
+  {
     "id": 1351,
     "name": "Negros Occidental",
     "country_id": 174,
@@ -1286,6 +1301,21 @@
     "latitude": "10.34750990",
     "longitude": "125.12508960",
     "native": "Southern Leyte",
+    "timezone": "Asia/Manila",
+    "translations": {}
+  },
+  {
+    "id": 5829,
+    "name": "Special Geographic Area",
+    "country_id": 174,
+    "country_code": "PH",
+    "fips_code": null,
+    "iso2": "19999",
+    "iso3166_2": null,
+    "type": "special geographic area",
+    "latitude": null,
+    "longitude": null,
+    "native": "Special Geographic Area",
     "timezone": "Asia/Manila",
     "translations": {}
   },

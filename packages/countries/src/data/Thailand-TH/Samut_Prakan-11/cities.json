@@ -1,37 +1,5 @@
 [
   {
-    "id": 105222,
-    "name": "Amphoe Bang Bo",
-    "state_id": 3481,
-    "state_code": "11",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.58960000",
-    "longitude": "100.86711000",
-    "native": "อำเภอบางบ่อ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475191"
-  },
-  {
-    "id": 105763,
-    "name": "Amphoe Phra Pradaeng",
-    "state_id": 3481,
-    "state_code": "11",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.65246000",
-    "longitude": "100.55271000",
-    "native": "อำเภอพระประแดง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476440"
-  },
-  {
     "id": 106394,
     "name": "Ban Khlong Bang Sao Thong",
     "state_id": 3481,
@@ -48,20 +16,20 @@
     "wikiDataId": "Q340034"
   },
   {
-    "id": 106421,
-    "name": "Bang Bo District",
+    "id": 105222,
+    "name": "Bang Bo",
     "state_id": 3481,
     "state_code": "11",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.58333000",
-    "longitude": "100.81667000",
-    "native": "เขตบางบ่อ",
+    "latitude": "13.57443000",
+    "longitude": "100.83585000",
+    "native": "บางบ่อ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 28376,
-    "wikiDataId": "Q28737753"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 105238,
@@ -70,14 +38,14 @@
     "state_code": "11",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.61972000",
-    "longitude": "100.72582000",
-    "native": "อำเภอบางพลี",
+    "latitude": "13.60678000",
+    "longitude": "100.71201000",
+    "native": "บางพลี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475240"
+    "wikiDataId": null
   },
   {
     "id": 105243,
@@ -86,30 +54,14 @@
     "state_code": "11",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.63286000",
-    "longitude": "100.81038000",
-    "native": "อำเภอบางเสาธง",
+    "latitude": "13.58120000",
+    "longitude": "100.79570000",
+    "native": "บางเสาธง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475256"
-  },
-  {
-    "id": 105584,
-    "name": "Mueang Samut Prakan",
-    "state_id": 3481,
-    "state_code": "11",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.56855000",
-    "longitude": "100.65148000",
-    "native": "อำเภอเมืองสมุทรปราการ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q2219208"
+    "wikiDataId": "Q13025222"
   },
   {
     "id": 106646,
@@ -123,7 +75,7 @@
     "native": "พระประแดง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 196129,
     "wikiDataId": "Q15176892"
   },
@@ -134,14 +86,14 @@
     "state_code": "11",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.55622000",
-    "longitude": "100.51485000",
-    "native": "อำเภอพระสมุทรเจดีย์",
+    "latitude": "13.59755556",
+    "longitude": "100.58477778",
+    "native": "พระสมุทรเจดีย์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476444"
+    "wikiDataId": "Q15310375"
   },
   {
     "id": 106680,
@@ -155,7 +107,7 @@
     "native": "สมุทรปราการ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 388920,
     "wikiDataId": "Q13139252"
   }

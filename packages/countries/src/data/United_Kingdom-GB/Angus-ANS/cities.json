@@ -1,37 +1,5 @@
 [
   {
-    "id": 48238,
-    "name": "Alyth",
-    "state_id": 2387,
-    "state_code": "ANS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.62209000",
-    "longitude": "-3.23005000",
-    "native": "Alyth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2400,
-    "wikiDataId": "Q1012038"
-  },
-  {
-    "id": 48251,
-    "name": "Angus",
-    "state_id": 2387,
-    "state_code": "ANS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.66667000",
-    "longitude": "-2.91667000",
-    "native": "Angus",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 115820,
-    "wikiDataId": "Q202177"
-  },
-  {
     "id": 48266,
     "name": "Arbroath",
     "state_id": 2387,
@@ -43,7 +11,7 @@
     "native": "Arbroath",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 23940,
     "wikiDataId": "Q630668"
   },
@@ -59,9 +27,25 @@
     "native": "Brechin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7400,
     "wikiDataId": "Q45848"
+  },
+  {
+    "id": 48868,
+    "name": "Carnoustie",
+    "state_id": 2387,
+    "state_code": "ANS",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "56.50263000",
+    "longitude": "-2.70530000",
+    "native": "Carnoustie",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 11360,
+    "wikiDataId": "Q1012395"
   },
   {
     "id": 49587,
@@ -75,7 +59,7 @@
     "native": "Forfar",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 14230,
     "wikiDataId": "Q996509"
   },
@@ -91,7 +75,7 @@
     "native": "Friockheim",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 980,
     "wikiDataId": "Q1011829"
   },
@@ -107,7 +91,7 @@
     "native": "Hillside",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1210,
     "wikiDataId": "Q5763841"
   },
@@ -123,25 +107,9 @@
     "native": "Kirriemuir",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6120,
     "wikiDataId": "Q1011603"
-  },
-  {
-    "id": 50257,
-    "name": "Laurencekirk",
-    "state_id": 2387,
-    "state_code": "ANS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.83338000",
-    "longitude": "-2.46540000",
-    "native": "Laurencekirk",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3040,
-    "wikiDataId": "Q987775"
   },
   {
     "id": 50289,
@@ -155,9 +123,25 @@
     "native": "Letham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1640,
     "wikiDataId": "Q1821070"
+  },
+  {
+    "id": 50617,
+    "name": "Monifieth",
+    "state_id": 2387,
+    "state_code": "ANS",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "56.48227000",
+    "longitude": "-2.81732000",
+    "native": "Monifieth",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": 8110,
+    "wikiDataId": "Q3179174"
   },
   {
     "id": 50621,
@@ -171,24 +155,24 @@
     "native": "Montrose",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 12100,
     "wikiDataId": "Q420303"
   },
   {
-    "id": 51169,
-    "name": "Saint Cyrus",
+    "id": 50648,
+    "name": "Muirhead",
     "state_id": 2387,
     "state_code": "ANS",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "56.77504000",
-    "longitude": "-2.41553000",
-    "native": "Saint Cyrus",
+    "latitude": "56.50000000",
+    "longitude": "-3.06667000",
+    "native": "Muirhead",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
-    "population": 1060,
-    "wikiDataId": "Q1011272"
+    "population": 1380,
+    "wikiDataId": "Q24639685"
   }
 ]

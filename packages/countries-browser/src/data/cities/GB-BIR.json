@@ -1,5 +1,21 @@
 [
   {
+    "id": 48191,
+    "name": "Acocks Green",
+    "state_id": 2425,
+    "state_code": "BIR",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "52.45000000",
+    "longitude": "-1.81667000",
+    "native": "Acocks Green",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": 26635,
+    "wikiDataId": "Q4674449"
+  },
+  {
     "id": 48304,
     "name": "Aston",
     "state_id": 2425,
@@ -16,22 +32,6 @@
     "wikiDataId": "Q649838"
   },
   {
-    "id": 48404,
-    "name": "Barnt Green",
-    "state_id": 2425,
-    "state_code": "BIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.35902000",
-    "longitude": "-2.00715000",
-    "native": "Barnt Green",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 5366,
-    "wikiDataId": "Q582689"
-  },
-  {
     "id": 48414,
     "name": "Bartley Green",
     "state_id": 2425,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 25473,
-    "wikiDataId": "Q809009"
+    "wikiDataId": null
   },
   {
     "id": 48521,
@@ -59,7 +59,7 @@
     "native": "Birmingham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1137100,
     "wikiDataId": "Q2256"
   },
@@ -77,39 +77,7 @@
     "translations": {},
     "type": "cities",
     "population": 10000,
-    "wikiDataId": "Q1007856"
-  },
-  {
-    "id": 49001,
-    "name": "City and Borough of Birmingham",
-    "state_id": 2425,
-    "state_code": "BIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.48048000",
-    "longitude": "-1.89823000",
-    "native": "City and Borough of Birmingham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 1157603,
-    "wikiDataId": "Q20986424"
-  },
-  {
-    "id": 49210,
-    "name": "Curdworth",
-    "state_id": 2425,
-    "state_code": "BIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.53382000",
-    "longitude": "-1.73687000",
-    "native": "Curdworth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1146,
-    "wikiDataId": "Q2381361"
+    "wikiDataId": null
   },
   {
     "id": 49953,
@@ -125,23 +93,7 @@
     "translations": {},
     "type": "section",
     "population": 13919,
-    "wikiDataId": "Q19798"
-  },
-  {
-    "id": 50170,
-    "name": "Kingsbury",
-    "state_id": 2425,
-    "state_code": "BIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.56106000",
-    "longitude": "-1.67936000",
-    "native": "Kingsbury",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3730,
-    "wikiDataId": "Q519687"
+    "wikiDataId": null
   },
   {
     "id": 51521,
@@ -155,7 +107,7 @@
     "native": "Sutton Coldfield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 96475,
     "wikiDataId": "Q868196"
   },
@@ -173,22 +125,6 @@
     "translations": {},
     "type": "section",
     "population": 32921,
-    "wikiDataId": "Q1018448"
-  },
-  {
-    "id": 51767,
-    "name": "Water Orton",
-    "state_id": 2425,
-    "state_code": "BIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.51575000",
-    "longitude": "-1.74005000",
-    "native": "Water Orton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3482,
-    "wikiDataId": "Q1858244"
+    "wikiDataId": null
   }
 ]

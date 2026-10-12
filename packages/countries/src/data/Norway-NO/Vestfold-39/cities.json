@@ -12,7 +12,7 @@
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "locality",
-    "population": 2052,
+    "population": 1582,
     "wikiDataId": "Q1788218"
   },
   {
@@ -44,24 +44,24 @@
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "locality",
-    "population": 1238,
+    "population": 1850,
     "wikiDataId": "Q1785120"
   },
   {
-    "id": 79070,
-    "name": "Berger",
+    "id": 165365,
+    "name": "Borgheim",
     "state_id": 5452,
     "state_code": "39",
     "country_id": 165,
     "country_code": "NO",
-    "latitude": "59.54994000",
-    "longitude": "10.38641000",
-    "native": "Berger",
+    "latitude": "59.22629000",
+    "longitude": "10.40745000",
+    "native": null,
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1095,
-    "wikiDataId": "Q3366014"
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1783896"
   },
   {
     "id": 79168,
@@ -75,8 +75,8 @@
     "native": "Færder",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 27569,
+    "type": "municipality",
+    "population": 27743,
     "wikiDataId": "Q42320251"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Gullhaug",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 2651,
+    "type": "locality",
+    "population": 2684,
     "wikiDataId": "Q2275078"
   },
   {
@@ -139,8 +139,8 @@
     "native": "Larvik",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 48870,
+    "type": "city",
+    "population": 49022,
     "wikiDataId": "Q156125"
   },
   {
@@ -158,6 +158,54 @@
     "type": "city",
     "population": 2083,
     "wikiDataId": "Q1777265"
+  },
+  {
+    "id": 79441,
+    "name": "Re",
+    "state_id": 5452,
+    "state_code": "39",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.35056000",
+    "longitude": "10.24763000",
+    "native": "Re",
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q499570"
+  },
+  {
+    "id": 165390,
+    "name": "Revetal",
+    "state_id": 5452,
+    "state_code": "39",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.37240000",
+    "longitude": "10.26308000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1792375"
+  },
+  {
+    "id": 79480,
+    "name": "Sande",
+    "state_id": 5452,
+    "state_code": "39",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.59362000",
+    "longitude": "10.20757000",
+    "native": "Sande",
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "city",
+    "population": 1389,
+    "wikiDataId": "Q183029"
   },
   {
     "id": 79482,
@@ -187,8 +235,8 @@
     "native": "Selvik",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1829,
+    "type": "locality",
+    "population": 3576,
     "wikiDataId": "Q2354706"
   },
   {
@@ -200,7 +248,7 @@
     "country_code": "NO",
     "latitude": "59.28230000",
     "longitude": "10.33004000",
-    "native": "Hvilken",
+    "native": "Sem",
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "city",
@@ -219,8 +267,8 @@
     "native": "Skoppum",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1732,
+    "type": "locality",
+    "population": 1736,
     "wikiDataId": "Q2490964"
   },
   {
@@ -235,8 +283,8 @@
     "native": "Stavern",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 6121,
+    "type": "town",
+    "population": 6159,
     "wikiDataId": "Q1541556"
   },
   {
@@ -251,25 +299,9 @@
     "native": "Stokke",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 11657,
+    "type": "locality",
+    "population": 4288,
     "wikiDataId": "Q513649"
-  },
-  {
-    "id": 79570,
-    "name": "Svelvik",
-    "state_id": 5452,
-    "state_code": "39",
-    "country_id": 165,
-    "country_code": "NO",
-    "latitude": "59.60677000",
-    "longitude": "10.40225000",
-    "native": "Svelvik",
-    "timezone": "Europe/Oslo",
-    "translations": {},
-    "type": "adm2",
-    "population": 4235,
-    "wikiDataId": "Q48701"
   },
   {
     "id": 79596,

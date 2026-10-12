@@ -27,7 +27,7 @@
     "native": "ACSA",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1320,
     "wikiDataId": "Q482001"
   },
@@ -59,7 +59,7 @@
     "native": "Alsónémedi",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5584,
     "wikiDataId": "Q253865"
   },
@@ -80,22 +80,6 @@
     "wikiDataId": "Q752838"
   },
   {
-    "id": 55198,
-    "name": "Aszódi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.64738000",
-    "longitude": "19.54240000",
-    "native": "Aszódi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q779802"
-  },
-  {
     "id": 55201,
     "name": "Bag",
     "state_id": 1059,
@@ -104,10 +88,10 @@
     "country_code": "HU",
     "latitude": "47.63333000",
     "longitude": "19.48333000",
-    "native": "Táska",
+    "native": "Bag",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3712,
     "wikiDataId": "Q281099"
   },
@@ -155,25 +139,9 @@
     "native": "Budakeszi",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 15950,
     "wikiDataId": "Q842912"
-  },
-  {
-    "id": 55262,
-    "name": "Budakeszi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.49788000",
-    "longitude": "18.84980000",
-    "native": "Budakeszi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q376273"
   },
   {
     "id": 55282,
@@ -203,7 +171,7 @@
     "native": "Bugyi",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5330,
     "wikiDataId": "Q851614"
   },
@@ -219,7 +187,7 @@
     "native": "Cegléd",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 36125,
     "wikiDataId": "Q214948"
   },
@@ -235,25 +203,9 @@
     "native": "Ceglédbercel",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4248,
     "wikiDataId": "Q519585"
-  },
-  {
-    "id": 55317,
-    "name": "Ceglédi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.20000000",
-    "longitude": "19.82463000",
-    "native": "Ceglédi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q851960"
   },
   {
     "id": 55327,
@@ -267,7 +219,7 @@
     "native": "Csemő",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4409,
     "wikiDataId": "Q377504"
   },
@@ -283,7 +235,7 @@
     "native": "Csobánka",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3588,
     "wikiDataId": "Q370208"
   },
@@ -299,7 +251,7 @@
     "native": "Csömör",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 7544,
     "wikiDataId": "Q876321"
   },
@@ -312,28 +264,12 @@
     "country_code": "HU",
     "latitude": "47.18594000",
     "longitude": "19.31091000",
-    "native": "Természetes",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "adm2",
-    "population": 17670,
-    "wikiDataId": "Q854940"
-  },
-  {
-    "id": 55352,
-    "name": "Dabasi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.19000000",
-    "longitude": "19.33000000",
-    "native": "Dabasi Járás",
+    "native": "Dabas",
     "timezone": "Europe/Budapest",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q854287"
+    "population": 17670,
+    "wikiDataId": "Q854940"
   },
   {
     "id": 55384,
@@ -347,7 +283,7 @@
     "native": "Dánszentmiklós",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2576,
     "wikiDataId": "Q768477"
   },
@@ -360,10 +296,10 @@
     "country_code": "HU",
     "latitude": "47.52000000",
     "longitude": "19.54400000",
-    "native": "Adott",
+    "native": "Dány",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4529,
     "wikiDataId": "Q912580"
   },
@@ -379,7 +315,7 @@
     "native": "Délegyháza",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2506,
     "wikiDataId": "Q986788"
   },
@@ -411,7 +347,7 @@
     "native": "Domóna",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2209,
     "wikiDataId": "Q908466"
   },
@@ -427,7 +363,7 @@
     "native": "Dömsöd",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5948,
     "wikiDataId": "Q241396"
   },
@@ -443,7 +379,7 @@
     "native": "Dunabogdány",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3256,
     "wikiDataId": "Q734021"
   },
@@ -475,25 +411,9 @@
     "native": "Dunakeszi",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 30246,
     "wikiDataId": "Q547479"
-  },
-  {
-    "id": 55376,
-    "name": "Dunakeszi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.63365000",
-    "longitude": "19.16254000",
-    "native": "Dunakeszi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "section",
-    "population": null,
-    "wikiDataId": "Q853136"
   },
   {
     "id": 55380,
@@ -523,41 +443,9 @@
     "native": "Ecser",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4109,
     "wikiDataId": "Q30317"
-  },
-  {
-    "id": 56145,
-    "name": "Érd",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.39489000",
-    "longitude": "18.91361000",
-    "native": "Érd",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "adm2",
-    "population": 62408,
-    "wikiDataId": "Q193050"
-  },
-  {
-    "id": 56146,
-    "name": "Érdi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.35600000",
-    "longitude": "18.90167000",
-    "native": "Érdi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q722573"
   },
   {
     "id": 55411,
@@ -571,7 +459,7 @@
     "native": "Erdőkertes",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5996,
     "wikiDataId": "Q510886"
   },
@@ -584,10 +472,10 @@
     "country_code": "HU",
     "latitude": "47.36067000",
     "longitude": "19.84619000",
-    "native": "Faragókészülék",
+    "native": "Farmos",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3414,
     "wikiDataId": "Q608728"
   },
@@ -603,7 +491,7 @@
     "native": "Felsőpakony",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3756,
     "wikiDataId": "Q976187"
   },
@@ -632,7 +520,7 @@
     "country_code": "HU",
     "latitude": "47.61770000",
     "longitude": "19.18870000",
-    "native": "Láb",
+    "native": "Fót",
     "timezone": "Europe/Budapest",
     "translations": {},
     "type": "city",
@@ -651,7 +539,7 @@
     "native": "Galgahévíz",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2542,
     "wikiDataId": "Q221851"
   },
@@ -667,7 +555,7 @@
     "native": "Galgamácsa",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1857,
     "wikiDataId": "Q580799"
   },
@@ -699,25 +587,9 @@
     "native": "Gödöllő",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 32410,
     "wikiDataId": "Q209988"
-  },
-  {
-    "id": 55476,
-    "name": "Gödöllői Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.55127000",
-    "longitude": "19.39595000",
-    "native": "Gödöllői Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q853188"
   },
   {
     "id": 55449,
@@ -731,7 +603,7 @@
     "native": "Gomba",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3192,
     "wikiDataId": "Q1011712"
   },
@@ -747,7 +619,7 @@
     "native": "Gyál",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24267,
     "wikiDataId": "Q842908"
   },
@@ -763,7 +635,7 @@
     "native": "Gyáli Járás",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "section",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q853181"
   },
@@ -811,7 +683,7 @@
     "native": "Hernád",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4143,
     "wikiDataId": "Q856693"
   },
@@ -827,7 +699,7 @@
     "native": "Hévízgyörk",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3348,
     "wikiDataId": "Q1057545"
   },
@@ -843,7 +715,7 @@
     "native": "Iklad",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1978,
     "wikiDataId": "Q1089636"
   },
@@ -859,7 +731,7 @@
     "native": "Inárcs",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4885,
     "wikiDataId": "Q509995"
   },
@@ -891,7 +763,7 @@
     "native": "Jászkarajenő",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3125,
     "wikiDataId": "Q1102553"
   },
@@ -907,7 +779,7 @@
     "native": "Kakucs",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3170,
     "wikiDataId": "Q1103372"
   },
@@ -920,10 +792,10 @@
     "country_code": "HU",
     "latitude": "47.67133000",
     "longitude": "19.54200000",
-    "native": "Sas",
+    "native": "Kartal",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5985,
     "wikiDataId": "Q925492"
   },
@@ -971,7 +843,7 @@
     "native": "Kismaros",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1911,
     "wikiDataId": "Q1089453"
   },
@@ -1003,7 +875,7 @@
     "native": "Kocsér",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1822,
     "wikiDataId": "Q1114801"
   },
@@ -1019,7 +891,7 @@
     "native": "Kóka",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4454,
     "wikiDataId": "Q1124858"
   },
@@ -1035,7 +907,7 @@
     "native": "Kosd",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2493,
     "wikiDataId": "Q265671"
   },
@@ -1051,7 +923,7 @@
     "native": "Leányfalu",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2534,
     "wikiDataId": "Q373512"
   },
@@ -1080,10 +952,10 @@
     "country_code": "HU",
     "latitude": "47.43133000",
     "longitude": "19.45628000",
-    "native": "Század",
+    "native": "Mende",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4250,
     "wikiDataId": "Q773365"
   },
@@ -1099,7 +971,7 @@
     "native": "Mogyoród",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4949,
     "wikiDataId": "Q649514"
   },
@@ -1115,25 +987,9 @@
     "native": "Monor",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 19355,
     "wikiDataId": "Q749320"
-  },
-  {
-    "id": 55712,
-    "name": "Monori Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.34990000",
-    "longitude": "19.47680000",
-    "native": "Monori Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q612006"
   },
   {
     "id": 55753,
@@ -1147,25 +1003,9 @@
     "native": "Nagykáta",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11874,
     "wikiDataId": "Q766168"
-  },
-  {
-    "id": 55754,
-    "name": "Nagykátai Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.39109000",
-    "longitude": "19.73920000",
-    "native": "Nagykátai Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q831162"
   },
   {
     "id": 55755,
@@ -1179,25 +1019,9 @@
     "native": "Nagykőrös",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 22940,
     "wikiDataId": "Q830394"
-  },
-  {
-    "id": 55756,
-    "name": "Nagykőrösi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.03563000",
-    "longitude": "19.79259000",
-    "native": "Nagykőrösi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q16522077"
   },
   {
     "id": 55750,
@@ -1243,7 +1067,7 @@
     "native": "Nagytarcsa",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2846,
     "wikiDataId": "Q685439"
   },
@@ -1259,7 +1083,7 @@
     "native": "Nyáregyháza",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3840,
     "wikiDataId": "Q1185674"
   },
@@ -1323,7 +1147,7 @@
     "native": "Pand",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1853,
     "wikiDataId": "Q1186528"
   },
@@ -1339,7 +1163,7 @@
     "native": "Páty",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5475,
     "wikiDataId": "Q1186235"
   },
@@ -1371,7 +1195,7 @@
     "native": "Perbál",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2146,
     "wikiDataId": "Q1027271"
   },
@@ -1387,7 +1211,7 @@
     "native": "Péteri",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1970,
     "wikiDataId": "Q1186205"
   },
@@ -1400,7 +1224,7 @@
     "country_code": "HU",
     "latitude": "47.28904000",
     "longitude": "19.54848000",
-    "native": "A kastély",
+    "native": "Pilis",
     "timezone": "Europe/Budapest",
     "translations": {},
     "type": "city",
@@ -1419,7 +1243,7 @@
     "native": "Pilisborosjenő",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3180,
     "wikiDataId": "Q934564"
   },
@@ -1451,7 +1275,7 @@
     "native": "Pilisszántó",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2686,
     "wikiDataId": "Q1236038"
   },
@@ -1467,7 +1291,7 @@
     "native": "Pilisszentiván",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4283,
     "wikiDataId": "Q1186565"
   },
@@ -1483,7 +1307,7 @@
     "native": "Pilisszentkereszt",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2167,
     "wikiDataId": "Q1095184"
   },
@@ -1502,22 +1326,6 @@
     "type": "city",
     "population": 14547,
     "wikiDataId": "Q530634"
-  },
-  {
-    "id": 55824,
-    "name": "Pilisvörösvári Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.60925000",
-    "longitude": "18.86658000",
-    "native": "Pilisvörösvári Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q853874"
   },
   {
     "id": 55829,
@@ -1547,25 +1355,9 @@
     "native": "Ráckeve",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11086,
     "wikiDataId": "Q755701"
-  },
-  {
-    "id": 55873,
-    "name": "Ráckevei Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.15158000",
-    "longitude": "19.01456000",
-    "native": "Ráckevei Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q538324"
   },
   {
     "id": 55905,
@@ -1579,7 +1371,7 @@
     "native": "Solymár",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 10927,
     "wikiDataId": "Q1184326"
   },
@@ -1592,10 +1384,10 @@
     "country_code": "HU",
     "latitude": "47.40665000",
     "longitude": "18.82247000",
-    "native": "Kolbász",
+    "native": "Sóskút",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2998,
     "wikiDataId": "Q590540"
   },
@@ -1627,7 +1419,7 @@
     "native": "Szada",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3370,
     "wikiDataId": "Q576287"
   },
@@ -1659,25 +1451,9 @@
     "native": "Szentendre",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 28483,
     "wikiDataId": "Q390798"
-  },
-  {
-    "id": 55935,
-    "name": "Szentendrei Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.71146000",
-    "longitude": "19.02524000",
-    "native": "Szentendrei Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q854326"
   },
   {
     "id": 55946,
@@ -1691,7 +1467,7 @@
     "native": "Szentlőrinckáta",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1875,
     "wikiDataId": "Q1186512"
   },
@@ -1707,7 +1483,7 @@
     "native": "Szentmártonkáta",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4947,
     "wikiDataId": "Q1186519"
   },
@@ -1723,7 +1499,7 @@
     "native": "Szigetcsép",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2821,
     "wikiDataId": "Q1076191"
   },
@@ -1755,25 +1531,9 @@
     "native": "Szigetszentmiklós",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24874,
     "wikiDataId": "Q740853"
-  },
-  {
-    "id": 55953,
-    "name": "Szigetszentmiklósi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.30566000",
-    "longitude": "19.02829000",
-    "native": "Szigetszentmiklósi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q14942540"
   },
   {
     "id": 55956,
@@ -1787,7 +1547,7 @@
     "native": "Szigetújfalu",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2139,
     "wikiDataId": "Q531717"
   },
@@ -1803,25 +1563,9 @@
     "native": "Szob",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2488,
     "wikiDataId": "Q429409"
-  },
-  {
-    "id": 55963,
-    "name": "Szobi Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.93419000",
-    "longitude": "18.85438000",
-    "native": "Szobi Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q853088"
   },
   {
     "id": 55977,
@@ -1835,7 +1579,7 @@
     "native": "Sződ",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3473,
     "wikiDataId": "Q1186311"
   },
@@ -1851,7 +1595,7 @@
     "native": "Sződliget",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4915,
     "wikiDataId": "Q659772"
   },
@@ -1867,7 +1611,7 @@
     "native": "Táborfalva",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3324,
     "wikiDataId": "Q1186452"
   },
@@ -1883,7 +1627,7 @@
     "native": "Tahitótfalu",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6358,
     "wikiDataId": "Q967910"
   },
@@ -1899,7 +1643,7 @@
     "native": "Taksony",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6815,
     "wikiDataId": "Q921821"
   },
@@ -1915,7 +1659,7 @@
     "native": "Tápióbicske",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3655,
     "wikiDataId": "Q643517"
   },
@@ -1931,7 +1675,7 @@
     "native": "Tápiógyörgye",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3590,
     "wikiDataId": "Q1186555"
   },
@@ -1947,7 +1691,7 @@
     "native": "Tápióság",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2674,
     "wikiDataId": "Q685084"
   },
@@ -1963,7 +1707,7 @@
     "native": "Tápiószecső",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6119,
     "wikiDataId": "Q515144"
   },
@@ -1995,7 +1739,7 @@
     "native": "Tápiószentmárton",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5717,
     "wikiDataId": "Q1186781"
   },
@@ -2011,7 +1755,7 @@
     "native": "Tápiószőlős",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2870,
     "wikiDataId": "Q1187125"
   },
@@ -2027,7 +1771,7 @@
     "native": "Tárnok",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 7990,
     "wikiDataId": "Q765023"
   },
@@ -2040,10 +1784,10 @@
     "country_code": "HU",
     "latitude": "47.54791000",
     "longitude": "18.82816000",
-    "native": "Sátor",
+    "native": "Telki",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2071,
     "wikiDataId": "Q571329"
   },
@@ -2059,7 +1803,7 @@
     "native": "Tóalmás",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4066,
     "wikiDataId": "Q1186789"
   },
@@ -2107,7 +1851,7 @@
     "native": "Törtel",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4212,
     "wikiDataId": "Q1187106"
   },
@@ -2155,7 +1899,7 @@
     "native": "Újszilvás",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2635,
     "wikiDataId": "Q1185655"
   },
@@ -2187,7 +1931,7 @@
     "native": "Úri",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2530,
     "wikiDataId": "Q763119"
   },
@@ -2203,7 +1947,7 @@
     "native": "Üröm",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4753,
     "wikiDataId": "Q1069219"
   },
@@ -2216,28 +1960,12 @@
     "country_code": "HU",
     "latitude": "47.77591000",
     "longitude": "19.13612000",
-    "native": "Hordozás",
+    "native": "Vác",
     "timezone": "Europe/Budapest",
     "translations": {},
     "type": "city",
     "population": 33871,
     "wikiDataId": "Q207408"
-  },
-  {
-    "id": 56106,
-    "name": "Váci Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.78316000",
-    "longitude": "19.23882000",
-    "native": "Váci Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q742957"
   },
   {
     "id": 56107,
@@ -2251,7 +1979,7 @@
     "native": "Vácszentlászló",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2190,
     "wikiDataId": "Q1186050"
   },
@@ -2267,7 +1995,7 @@
     "native": "Valkó",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2564,
     "wikiDataId": "Q1072182"
   },
@@ -2283,25 +2011,9 @@
     "native": "Vecsés",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 21379,
     "wikiDataId": "Q36063"
-  },
-  {
-    "id": 56095,
-    "name": "Vecsési Járás",
-    "state_id": 1059,
-    "state_code": "PE",
-    "country_id": 99,
-    "country_code": "HU",
-    "latitude": "47.42923000",
-    "longitude": "19.30136000",
-    "native": "Vecsési Járás",
-    "timezone": "Europe/Budapest",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q16523679"
   },
   {
     "id": 56097,
@@ -2328,10 +2040,10 @@
     "country_code": "HU",
     "latitude": "47.82468000",
     "longitude": "19.03484000",
-    "native": "Lát",
+    "native": "Verőce",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4146,
     "wikiDataId": "Q1047624"
   },
@@ -2379,7 +2091,7 @@
     "native": "Zsámbok",
     "timezone": "Europe/Budapest",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2362,
     "wikiDataId": "Q924012"
   }

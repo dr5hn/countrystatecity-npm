@@ -1,5 +1,21 @@
 [
   {
+    "id": 165309,
+    "name": "Aboh",
+    "state_id": 316,
+    "state_code": "DE",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.54781000",
+    "longitude": "6.52588000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q4668214"
+  },
+  {
     "id": 76748,
     "name": "Abraka",
     "state_id": 316,
@@ -11,7 +27,7 @@
     "native": "Abraka",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6940,
     "wikiDataId": "Q13479516"
   },
@@ -43,7 +59,7 @@
     "native": "Asaba",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 73374,
     "wikiDataId": "Q1061665"
   },
@@ -56,12 +72,12 @@
     "country_code": "NG",
     "latitude": "5.16073000",
     "longitude": "5.92375000",
-    "native": "Bully",
+    "native": "Bomadi",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 8402,
-    "wikiDataId": "Q320704"
+    "wikiDataId": "Q4940347"
   },
   {
     "id": 76820,
@@ -72,12 +88,28 @@
     "country_code": "NG",
     "latitude": "5.35328000",
     "longitude": "5.50826000",
-    "native": "Accomplish",
+    "native": "Burutu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 16410,
     "wikiDataId": "Q3510499"
+  },
+  {
+    "id": 165315,
+    "name": "Issele-Uku",
+    "state_id": 316,
+    "state_code": "DE",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "6.31584000",
+    "longitude": "6.47599000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q6088180"
   },
   {
     "id": 76996,
@@ -88,12 +120,12 @@
     "country_code": "NG",
     "latitude": "5.70773000",
     "longitude": "6.43402000",
-    "native": "For this",
+    "native": "Kwale",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 20226,
-    "wikiDataId": "Q937487"
+    "wikiDataId": "Q49277794"
   },
   {
     "id": 77047,
@@ -107,7 +139,7 @@
     "native": "Obiaruku",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 11936,
     "wikiDataId": "Q7074926"
   },
@@ -120,10 +152,10 @@
     "country_code": "NG",
     "latitude": "6.17811000",
     "longitude": "6.52461000",
-    "native": "Ostlasts - to",
+    "native": "Ogwashi-Uku",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 26137,
     "wikiDataId": "Q7080311"
   },
@@ -139,9 +171,41 @@
     "native": "OReKPE",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5893,
-    "wikiDataId": "Q852238"
+    "wikiDataId": "Q7101623"
+  },
+  {
+    "id": 165318,
+    "name": "Otor-Udu",
+    "state_id": 316,
+    "state_code": "DE",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.45341000",
+    "longitude": "5.86930000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q7109007"
+  },
+  {
+    "id": 165319,
+    "name": "Ozoro",
+    "state_id": 316,
+    "state_code": "DE",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.54692000",
+    "longitude": "6.22649000",
+    "native": "Ozoro",
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q7116654"
   },
   {
     "id": 77086,
@@ -155,9 +219,9 @@
     "native": "Patani",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 7327,
-    "wikiDataId": "Q1023703"
+    "wikiDataId": "Q7144238"
   },
   {
     "id": 77099,
@@ -171,9 +235,9 @@
     "native": "Sapele",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 305000,
-    "wikiDataId": "Q3500788"
+    "wikiDataId": "Q3495356"
   },
   {
     "id": 77123,
@@ -187,7 +251,7 @@
     "native": "UGE",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 79986,
     "wikiDataId": "Q3509166"
   },
@@ -203,9 +267,9 @@
     "native": "Umunede",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8331,
-    "wikiDataId": "Q203301"
+    "wikiDataId": "Q33510386"
   },
   {
     "id": 77133,
@@ -219,7 +283,7 @@
     "native": "Warri",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 910000,
     "wikiDataId": "Q574593"
   }

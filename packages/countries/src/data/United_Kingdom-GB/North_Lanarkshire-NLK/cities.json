@@ -11,7 +11,7 @@
     "native": "Airdrie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 37410,
     "wikiDataId": "Q408536"
   },
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 1460,
-    "wikiDataId": "Q725261"
+    "wikiDataId": null
   },
   {
     "id": 48383,
@@ -43,9 +43,9 @@
     "native": "Bargeddie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2960,
-    "wikiDataId": "Q4860222"
+    "wikiDataId": null
   },
   {
     "id": 48463,
@@ -59,7 +59,7 @@
     "native": "Bellshill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 20290,
     "wikiDataId": "Q680984"
   },
@@ -77,23 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 2010,
-    "wikiDataId": "Q170377"
-  },
-  {
-    "id": 48618,
-    "name": "Bothwell",
-    "state_id": 2487,
-    "state_code": "NLK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.80272000",
-    "longitude": "-4.06835000",
-    "native": "Bothwell",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 6380,
-    "wikiDataId": "Q1773759"
+    "wikiDataId": null
   },
   {
     "id": 48821,
@@ -107,9 +91,9 @@
     "native": "Calderbank",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1600,
-    "wikiDataId": "Q5018858"
+    "wikiDataId": null
   },
   {
     "id": 48822,
@@ -123,7 +107,7 @@
     "native": "Caldercruix",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2450,
     "wikiDataId": "Q1009805"
   },
@@ -139,7 +123,7 @@
     "native": "Carfin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2510,
     "wikiDataId": "Q5039238"
   },
@@ -155,9 +139,25 @@
     "native": "Chapelhall",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6690,
     "wikiDataId": "Q5073132"
+  },
+  {
+    "id": 48989,
+    "name": "Chryston",
+    "state_id": 2487,
+    "state_code": "NLK",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.90280000",
+    "longitude": "-4.10759000",
+    "native": "Chryston",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": 3000,
+    "wikiDataId": "Q1009980"
   },
   {
     "id": 49029,
@@ -171,7 +171,7 @@
     "native": "Cleland",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3130,
     "wikiDataId": "Q3439048"
   },
@@ -187,7 +187,7 @@
     "native": "Coatbridge",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 43960,
     "wikiDataId": "Q1018723"
   },
@@ -200,12 +200,12 @@
     "country_code": "GB",
     "latitude": "55.96064000",
     "longitude": "-4.03932000",
-    "native": "Believer",
+    "native": "Croy",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
     "population": 1570,
-    "wikiDataId": "Q1833112"
+    "wikiDataId": null
   },
   {
     "id": 49206,
@@ -219,41 +219,9 @@
     "native": "Cumbernauld",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 50920,
     "wikiDataId": "Q996616"
-  },
-  {
-    "id": 49226,
-    "name": "Dalserf",
-    "state_id": 2487,
-    "state_code": "NLK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.73333000",
-    "longitude": "-3.91667000",
-    "native": "Dalserf",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 17985,
-    "wikiDataId": "Q5211630"
-  },
-  {
-    "id": 49534,
-    "name": "Fauldhouse",
-    "state_id": 2487,
-    "state_code": "NLK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.82749000",
-    "longitude": "-3.70741000",
-    "native": "Fauldhouse",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4780,
-    "wikiDataId": "Q1009114"
   },
   {
     "id": 49631,
@@ -267,7 +235,7 @@
     "native": "Gartcosh",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2200,
     "wikiDataId": "Q1009722"
   },
@@ -283,7 +251,7 @@
     "native": "Glenboig",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2820,
     "wikiDataId": "Q1009206"
   },
@@ -299,25 +267,9 @@
     "native": "Glenmavis",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2240,
-    "wikiDataId": "Q1983221"
-  },
-  {
-    "id": 49795,
-    "name": "Hamilton",
-    "state_id": 2487,
-    "state_code": "NLK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.76667000",
-    "longitude": "-4.03333000",
-    "native": "Hamilton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 54480,
-    "wikiDataId": "Q4131"
+    "wikiDataId": null
   },
   {
     "id": 49821,
@@ -331,7 +283,7 @@
     "native": "Harthill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3710,
     "wikiDataId": "Q5674615"
   },
@@ -347,41 +299,41 @@
     "native": "Holytown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5160,
     "wikiDataId": "Q5887146"
   },
   {
-    "id": 50252,
-    "name": "Larkhall",
+    "id": 50154,
+    "name": "Kilsyth",
     "state_id": 2487,
     "state_code": "NLK",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.73333000",
-    "longitude": "-3.96667000",
-    "native": "Larkhall",
+    "latitude": "55.97596000",
+    "longitude": "-4.05916000",
+    "native": "Kilsyth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 14740,
-    "wikiDataId": "Q1012019"
+    "type": "town",
+    "population": 10080,
+    "wikiDataId": "Q1010328"
   },
   {
-    "id": 50261,
-    "name": "Law",
+    "id": 50622,
+    "name": "Moodiesburn",
     "state_id": 2487,
     "state_code": "NLK",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.75000000",
-    "longitude": "-3.88333000",
-    "native": "Law",
+    "latitude": "55.91501000",
+    "longitude": "-4.08331000",
+    "native": "Moodiesburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 3220,
-    "wikiDataId": "Q6502895"
+    "type": "section",
+    "population": 6890,
+    "wikiDataId": "Q1011148"
   },
   {
     "id": 50638,
@@ -395,7 +347,7 @@
     "native": "Motherwell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 32590,
     "wikiDataId": "Q737547"
   },
@@ -413,7 +365,7 @@
     "translations": {},
     "type": "city",
     "population": 5660,
-    "wikiDataId": "Q181071"
+    "wikiDataId": null
   },
   {
     "id": 50699,
@@ -427,7 +379,7 @@
     "native": "Newarthill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6360,
     "wikiDataId": "Q15059273"
   },
@@ -443,25 +395,9 @@
     "native": "Newmains",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5480,
     "wikiDataId": "Q3339125"
-  },
-  {
-    "id": 50756,
-    "name": "North Lanarkshire",
-    "state_id": 2487,
-    "state_code": "NLK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.86667000",
-    "longitude": "-3.91667000",
-    "native": "North Lanarkshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 341370,
-    "wikiDataId": "Q207111"
   },
   {
     "id": 50837,
@@ -475,7 +411,7 @@
     "native": "Overtown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2010,
     "wikiDataId": "Q7114042"
   },
@@ -491,9 +427,9 @@
     "native": "Plains",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2770,
-    "wikiDataId": "Q1011685"
+    "wikiDataId": null
   },
   {
     "id": 51185,
@@ -507,9 +443,9 @@
     "native": "Salsburgh",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1350,
-    "wikiDataId": "Q160642"
+    "wikiDataId": null
   },
   {
     "id": 51294,
@@ -523,25 +459,25 @@
     "native": "Shotts",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8570,
     "wikiDataId": "Q1009915"
   },
   {
-    "id": 51690,
-    "name": "Uddingston",
+    "id": 51439,
+    "name": "Stepps",
     "state_id": 2487,
     "state_code": "NLK",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.81971000",
-    "longitude": "-4.08362000",
-    "native": "Uddingston",
+    "latitude": "55.88899000",
+    "longitude": "-4.15210000",
+    "native": "Stepps",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 6370,
-    "wikiDataId": "Q3091189"
+    "type": "section",
+    "population": 7450,
+    "wikiDataId": "Q7611149"
   },
   {
     "id": 51718,
@@ -555,9 +491,9 @@
     "native": "Viewpark",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 15770,
-    "wikiDataId": "Q1242850"
+    "wikiDataId": null
   },
   {
     "id": 51942,
@@ -571,7 +507,7 @@
     "native": "Wishaw",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 30290,
     "wikiDataId": "Q2305226"
   }

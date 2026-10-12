@@ -11,8 +11,24 @@
     "native": "Huancavelica",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 49570,
+    "wikiDataId": "Q5925410"
+  },
+  {
+    "id": 80833,
+    "name": "Huancavelica",
+    "state_id": 3679,
+    "state_code": "HUV",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-12.78694444",
+    "longitude": "-74.97555556",
+    "native": "Huancavelica",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1000333"
   },
   {
@@ -43,9 +59,9 @@
     "native": "Pampa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5521,
-    "wikiDataId": "Q2725364"
+    "wikiDataId": "Q5577966"
   },
   {
     "id": 80768,
@@ -59,7 +75,7 @@
     "native": "Provincia de Acobamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 38208,
     "wikiDataId": "Q1948039"
   },
@@ -75,7 +91,7 @@
     "native": "Provincia de Angaraes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 49207,
     "wikiDataId": "Q2084862"
   },
@@ -91,7 +107,7 @@
     "native": "Provincia de Castrovirreyna",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 13982,
     "wikiDataId": "Q1944312"
   },
@@ -112,22 +128,6 @@
     "wikiDataId": "Q639598"
   },
   {
-    "id": 80833,
-    "name": "Provincia de Huancavelica",
-    "state_id": 3679,
-    "state_code": "HUV",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-12.66667000",
-    "longitude": "-75.25000000",
-    "native": "Provincia de Huancavelica",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 115054,
-    "wikiDataId": "Q2088859"
-  },
-  {
     "id": 80903,
     "name": "Provincia de Tayacaja",
     "state_id": 3679,
@@ -139,7 +139,7 @@
     "native": "Provincia de Tayacaja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 81403,
     "wikiDataId": "Q1948195"
   }

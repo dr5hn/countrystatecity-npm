@@ -1,5 +1,21 @@
 [
   {
+    "id": 164447,
+    "name": "Algarrobo del Águila",
+    "state_id": 3655,
+    "state_code": "L",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-36.40053000",
+    "longitude": "-67.14457000",
+    "native": null,
+    "timezone": "America/Argentina/Salta",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q2386731"
+  },
+  {
     "id": 652,
     "name": "Alpachiri",
     "state_id": 3655,
@@ -11,7 +27,7 @@
     "native": "Alpachiri",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2138,
     "wikiDataId": "Q4734750"
   },
@@ -43,7 +59,7 @@
     "native": "Angulio",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1977,
     "wikiDataId": "Q937524"
   },
@@ -59,7 +75,7 @@
     "native": "Arata",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1202,
     "wikiDataId": "Q933365"
   },
@@ -75,7 +91,7 @@
     "native": "Bernardo Larroudé",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1619,
     "wikiDataId": "Q584726"
   },
@@ -104,7 +120,7 @@
     "country_code": "AR",
     "latitude": "-35.59559000",
     "longitude": "-64.55778000",
-    "native": "Beeufú",
+    "native": "Caleufú",
     "timezone": "America/Argentina/Salta",
     "translations": {},
     "type": "city",
@@ -142,38 +158,6 @@
     "type": "city",
     "population": 3317,
     "wikiDataId": "Q5148214"
-  },
-  {
-    "id": 843,
-    "name": "Departamento de Caleu-Caleu",
-    "state_id": 3655,
-    "state_code": "L",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-38.58333000",
-    "longitude": "-64.00000000",
-    "native": "Departamento de Caleu-Caleu",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1190307"
-  },
-  {
-    "id": 1021,
-    "name": "Departamento de Toay",
-    "state_id": 3655,
-    "state_code": "L",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-36.58333000",
-    "longitude": "-64.80000000",
-    "native": "Departamento de Toay",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 18029,
-    "wikiDataId": "Q2145575"
   },
   {
     "id": 1041,
@@ -248,7 +232,7 @@
     "country_code": "AR",
     "latitude": "-37.46025000",
     "longitude": "-63.58537000",
-    "native": "Manual general J. Fields",
+    "native": "General Manuel J. Campos",
     "timezone": "America/Argentina/Salta",
     "translations": {},
     "type": "city",
@@ -285,7 +269,7 @@
     "translations": {},
     "type": "city",
     "population": 2846,
-    "wikiDataId": "Q21839895"
+    "wikiDataId": "Q5532167"
   },
   {
     "id": 1130,
@@ -312,7 +296,7 @@
     "country_code": "AR",
     "latitude": "-35.38585000",
     "longitude": "-64.46519000",
-    "native": "Luiggi ingenuo",
+    "native": "Ingeniero Luiggi",
     "timezone": "America/Argentina/Salta",
     "translations": {},
     "type": "city",
@@ -331,7 +315,7 @@
     "native": "Intendente Alvear",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6990,
     "wikiDataId": "Q58371"
   },
@@ -365,7 +349,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
-    "wikiDataId": "Q3190556"
+    "wikiDataId": "Q2343547"
   },
   {
     "id": 1192,
@@ -411,7 +395,7 @@
     "native": "Macachín",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4768,
     "wikiDataId": "Q2911913"
   },
@@ -456,7 +440,7 @@
     "country_code": "AR",
     "latitude": "-36.05463000",
     "longitude": "-63.56428000",
-    "native": "A quien",
+    "native": "Quemú Quemú",
     "timezone": "America/Argentina/Salta",
     "translations": {},
     "type": "adm2",
@@ -475,7 +459,7 @@
     "native": "Rance",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3699,
     "wikiDataId": "Q954161"
   },
@@ -491,7 +475,7 @@
     "native": "Realicó",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 7151,
     "wikiDataId": "Q3036199"
   },
@@ -507,7 +491,7 @@
     "native": "Santa Isabel",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2493,
     "wikiDataId": "Q3034804"
   },
@@ -536,12 +520,28 @@
     "country_code": "AR",
     "latitude": "-36.26429000",
     "longitude": "-65.51018000",
-    "native": "Durante el invierno",
+    "native": "Telén",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1549,
     "wikiDataId": "Q7697943"
+  },
+  {
+    "id": 1021,
+    "name": "Toay",
+    "state_id": 3655,
+    "state_code": "L",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-36.67500000",
+    "longitude": "-64.37850000",
+    "native": "Toay",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q58372"
   },
   {
     "id": 1513,
@@ -555,7 +555,7 @@
     "native": "Trenel",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3387,
     "wikiDataId": "Q3037564"
   },
@@ -568,7 +568,7 @@
     "country_code": "AR",
     "latitude": "-36.50682000",
     "longitude": "-63.86225000",
-    "native": "Portal",
+    "native": "Uriburu",
     "timezone": "America/Argentina/Salta",
     "translations": {},
     "type": "city",

@@ -1,21 +1,5 @@
 [
   {
-    "id": 105413,
-    "name": "Amphoe Khlung",
-    "state_id": 3486,
-    "state_code": "22",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.57246000",
-    "longitude": "102.30783000",
-    "native": "อำเภอขลุง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475713"
-  },
-  {
     "id": 105471,
     "name": "Amphoe Laem Sing",
     "state_id": 3486,
@@ -32,38 +16,6 @@
     "wikiDataId": "Q475865"
   },
   {
-    "id": 105792,
-    "name": "Amphoe Pong Nam Ron",
-    "state_id": 3486,
-    "state_code": "22",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.93467000",
-    "longitude": "102.37189000",
-    "native": "อำเภอโป่งน้ำร้อน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476515"
-  },
-  {
-    "id": 106277,
-    "name": "Amphoe Tha Mai",
-    "state_id": 3486,
-    "state_code": "22",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.73848000",
-    "longitude": "101.97696000",
-    "native": "อำเภอท่าใหม่",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476834"
-  },
-  {
     "id": 106467,
     "name": "Chanthaburi",
     "state_id": 3486,
@@ -75,7 +27,7 @@
     "native": "จันทบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 99819,
     "wikiDataId": "Q1015899"
   },
@@ -123,7 +75,7 @@
     "native": "ขลุง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 10835,
     "wikiDataId": "Q15980680"
   },
@@ -139,7 +91,7 @@
     "native": "แหลมสิงห์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 16066,
     "wikiDataId": "Q28732570"
   },
@@ -150,30 +102,14 @@
     "state_code": "22",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "12.73333000",
-    "longitude": "102.21667000",
-    "native": "อำเภอมะขาม",
+    "latitude": "12.67300000",
+    "longitude": "102.19617000",
+    "native": "มะขาม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475986"
-  },
-  {
-    "id": 105538,
-    "name": "Mueang Chanthaburi",
-    "state_id": 3486,
-    "state_code": "22",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "12.59542000",
-    "longitude": "102.12263000",
-    "native": "อำเภอเมืองจันทบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q1935516"
+    "wikiDataId": null
   },
   {
     "id": 105627,
@@ -182,14 +118,14 @@
     "state_code": "22",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "12.73833000",
-    "longitude": "101.87502000",
-    "native": "อำเภอนายายอาม",
+    "latitude": "12.78165000",
+    "longitude": "101.82239000",
+    "native": "นายายอาม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476158"
+    "wikiDataId": null
   },
   {
     "id": 106653,
@@ -198,13 +134,13 @@
     "state_code": "22",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "12.90575000",
-    "longitude": "102.26225000",
+    "latitude": "12.90460000",
+    "longitude": "102.26397000",
     "native": "โป่งน้ำร้อน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 8878,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28732576"
   },
   {
@@ -235,7 +171,7 @@
     "native": "ท่าไม้",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 22445,
     "wikiDataId": "Q15980679"
   }

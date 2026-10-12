@@ -11,9 +11,9 @@
     "native": "Ascopio",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 14015,
-    "wikiDataId": "Q3344017"
+    "wikiDataId": "Q4804007"
   },
   {
     "id": 80595,
@@ -24,11 +24,27 @@
     "country_code": "PE",
     "latitude": "-7.48333000",
     "longitude": "-78.81667000",
-    "native": "Ladrar",
+    "native": "Cascas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4299,
+    "wikiDataId": "Q5048246"
+  },
+  {
+    "id": 80643,
+    "name": "Cascas",
+    "state_id": 3683,
+    "state_code": "LAL",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-7.48027778",
+    "longitude": "-78.81666667",
+    "native": "Cascas",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q3344040"
   },
   {
@@ -59,9 +75,9 @@
     "native": "Chicama",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 14915,
-    "wikiDataId": "Q7258550"
+    "wikiDataId": "Q5095925"
   },
   {
     "id": 80620,
@@ -75,25 +91,9 @@
     "native": "Chocope",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 32370,
-    "wikiDataId": "Q5103685"
-  },
-  {
-    "id": 80643,
-    "name": "Gran Chimu",
-    "state_id": 3683,
-    "state_code": "LAL",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-7.57976000",
-    "longitude": "-78.64718000",
-    "native": "Gran Chimu",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 26892,
-    "wikiDataId": "Q1920564"
+    "wikiDataId": "Q3031143"
   },
   {
     "id": 80644,
@@ -107,9 +107,9 @@
     "native": "Guadalupo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 25376,
-    "wikiDataId": "Q2117510"
+    "wikiDataId": "Q3391867"
   },
   {
     "id": 80649,
@@ -123,8 +123,24 @@
     "native": "Huamachuco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 21768,
+    "wikiDataId": "Q5925302"
+  },
+  {
+    "id": 80959,
+    "name": "Huamachuco",
+    "state_id": 3683,
+    "state_code": "LAL",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-7.81527778",
+    "longitude": "-78.05250000",
+    "native": "Huamachuco",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1632770"
   },
   {
@@ -187,8 +203,24 @@
     "native": "Otuzco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10134,
+    "wikiDataId": "Q22704450"
+  },
+  {
+    "id": 80866,
+    "name": "Otuzco",
+    "state_id": 3683,
+    "state_code": "LAL",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-7.90457000",
+    "longitude": "-78.56362000",
+    "native": "Otuzco",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q3056421"
   },
   {
@@ -203,9 +235,9 @@
     "native": "Pacanga",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8750,
-    "wikiDataId": "Q7121871"
+    "wikiDataId": "Q6318307"
   },
   {
     "id": 80742,
@@ -219,9 +251,9 @@
     "native": "Pacasmayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 29165,
-    "wikiDataId": "Q1279608"
+    "wikiDataId": "Q6319125"
   },
   {
     "id": 80745,
@@ -232,12 +264,12 @@
     "country_code": "PE",
     "latitude": "-7.73291000",
     "longitude": "-79.30150000",
-    "native": "Pagar",
+    "native": "Paiján",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21128,
-    "wikiDataId": "Q7124745"
+    "wikiDataId": "Q6318521"
   },
   {
     "id": 80783,
@@ -251,25 +283,9 @@
     "native": "Provincia de Bolívar",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 14457,
     "wikiDataId": "Q951816"
-  },
-  {
-    "id": 80866,
-    "name": "Provincia de Otuzco",
-    "state_id": 3683,
-    "state_code": "LAL",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-7.90457000",
-    "longitude": "-78.56362000",
-    "native": "Provincia de Otuzco",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 77862,
-    "wikiDataId": "Q583300"
   },
   {
     "id": 80868,
@@ -283,7 +299,7 @@
     "native": "Provincia de Pacasmayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 102897,
     "wikiDataId": "Q1944266"
   },
@@ -299,25 +315,9 @@
     "native": "Provincia de Pataz",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 76103,
     "wikiDataId": "Q1948180"
-  },
-  {
-    "id": 80892,
-    "name": "Provincia de Santiago de Chuco",
-    "state_id": 3683,
-    "state_code": "LAL",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-8.33333000",
-    "longitude": "-78.25000000",
-    "native": "Provincia de Santiago de Chuco",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 50896,
-    "wikiDataId": "Q1944238"
   },
   {
     "id": 80904,
@@ -331,7 +331,7 @@
     "native": "Provincia de Trujillo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 970016,
     "wikiDataId": "Q2013427"
   },
@@ -344,12 +344,12 @@
     "country_code": "PE",
     "latitude": "-7.96667000",
     "longitude": "-78.20000000",
-    "native": "Gorjeo",
+    "native": "Quiruvilca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9226,
-    "wikiDataId": "Q27194717"
+    "wikiDataId": "Q6318245"
   },
   {
     "id": 80936,
@@ -376,28 +376,12 @@
     "country_code": "PE",
     "latitude": "-7.42890000",
     "longitude": "-79.50416000",
-    "native": "San Pedro del lugar",
+    "native": "San Pedro de Lloc",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 16198,
-    "wikiDataId": "Q1014474"
-  },
-  {
-    "id": 80959,
-    "name": "Sanchez Carrion",
-    "state_id": 3683,
-    "state_code": "LAL",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-7.78538000",
-    "longitude": "-77.92586000",
-    "native": "Carrión de Sánchez",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 144405,
-    "wikiDataId": "Q1944245"
+    "wikiDataId": "Q2119620"
   },
   {
     "id": 80965,
@@ -411,9 +395,25 @@
     "native": "Santiago de Cao",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21982,
-    "wikiDataId": "Q15275280"
+    "wikiDataId": "Q5573845"
+  },
+  {
+    "id": 80892,
+    "name": "Santiago de Chuco",
+    "state_id": 3683,
+    "state_code": "LAL",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-8.14555556",
+    "longitude": "-78.17527778",
+    "native": "Santiago de Chuco",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3344084"
   },
   {
     "id": 80966,
@@ -427,9 +427,9 @@
     "native": "Santiago de Chuco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6759,
-    "wikiDataId": "Q3344084"
+    "wikiDataId": "Q304879"
   },
   {
     "id": 80998,

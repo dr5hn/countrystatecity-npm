@@ -27,7 +27,7 @@
     "native": "Aires Puros",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q408664"
   },
@@ -75,25 +75,9 @@
     "native": "Bañados de Carrasco",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q812710"
-  },
-  {
-    "id": 153693,
-    "name": "Barra de Carrasco",
-    "state_id": 3218,
-    "state_code": "MO",
-    "country_id": 235,
-    "country_code": "UY",
-    "latitude": "-34.88400000",
-    "longitude": "-56.04700000",
-    "native": "Barra de Carrasco",
-    "timezone": "America/Montevideo",
-    "translations": {},
-    "type": "city",
-    "population": 5410,
-    "wikiDataId": "Q808781"
   },
   {
     "id": 153694,
@@ -120,7 +104,7 @@
     "country_code": "UY",
     "latitude": "-34.85600000",
     "longitude": "-56.15500000",
-    "native": "Hermosa Italia",
+    "native": "Bella Italia",
     "timezone": "America/Montevideo",
     "translations": {},
     "type": "city",
@@ -136,7 +120,7 @@
     "country_code": "UY",
     "latitude": "-34.87527778",
     "longitude": "-56.18666667",
-    "native": "Hermosa vista",
+    "native": "Bella Vista",
     "timezone": "America/Montevideo",
     "translations": {},
     "type": "city",
@@ -155,7 +139,7 @@
     "native": "Belvedere",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q1005240"
   },
@@ -171,7 +155,7 @@
     "native": "Buceo",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q997676"
   },
@@ -200,10 +184,10 @@
     "country_code": "UY",
     "latitude": "-34.88333333",
     "longitude": "-56.06666667",
-    "native": "Arquero",
+    "native": "Carrasco",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q1005003"
   },
@@ -267,8 +251,8 @@
     "native": "Centro",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
-    "population": 1270737,
+    "type": "section",
+    "population": null,
     "wikiDataId": "Q984382"
   },
   {
@@ -299,7 +283,7 @@
     "native": "Cerro",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q1010338"
   },
@@ -315,7 +299,7 @@
     "native": "Ciudad Vieja",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q1007576"
   },
@@ -344,10 +328,10 @@
     "country_code": "UY",
     "latitude": "-34.82361111",
     "longitude": "-56.23194444",
-    "native": "Conciliatura",
+    "native": "Conciliación",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q985021"
   },
@@ -363,7 +347,7 @@
     "native": "Cordón",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q1005742"
   },
@@ -379,7 +363,7 @@
     "native": "Flor de Maroñas",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984899"
   },
@@ -411,7 +395,7 @@
     "native": "Ituzaingó",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 771,
     "wikiDataId": "Q985110"
   },
@@ -427,7 +411,7 @@
     "native": "Jacinto vera",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q6336405"
   },
@@ -461,7 +445,7 @@
     "translations": {},
     "type": "capital",
     "population": null,
-    "wikiDataId": "Q6197335"
+    "wikiDataId": null
   },
   {
     "id": 153706,
@@ -523,7 +507,7 @@
     "native": "La Unión",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984518"
   },
@@ -587,7 +571,7 @@
     "native": "Malvín",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q1004920"
   },
@@ -619,7 +603,7 @@
     "native": "Manga",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q985379"
   },
@@ -637,7 +621,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q56671640"
+    "wikiDataId": null
   },
   {
     "id": 149293,
@@ -648,7 +632,7 @@
     "country_code": "UY",
     "latitude": "-34.86338889",
     "longitude": "-56.12963889",
-    "native": "Mar",
+    "native": "Maroñas",
     "timezone": "America/Montevideo",
     "translations": {},
     "type": "city",
@@ -699,7 +683,7 @@
     "native": "Montevideo",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "city",
     "population": 1302954,
     "wikiDataId": "Q1335"
   },
@@ -715,7 +699,7 @@
     "native": "Nuevo París",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q751376"
   },
@@ -733,7 +717,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
-    "wikiDataId": "Q984873"
+    "wikiDataId": null
   },
   {
     "id": 153716,
@@ -779,9 +763,9 @@
     "native": "Parque Rodó",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "section",
     "population": null,
-    "wikiDataId": "Q124499800"
+    "wikiDataId": null
   },
   {
     "id": 153719,
@@ -811,7 +795,7 @@
     "native": "Paso Molino",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q10345885"
   },
@@ -859,7 +843,7 @@
     "native": "Piedras Blancas",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984919"
   },
@@ -875,7 +859,7 @@
     "native": "Pocitos",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q2094894"
   },
@@ -907,7 +891,7 @@
     "native": "Punta Carretas",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984390"
   },
@@ -955,7 +939,7 @@
     "native": "Punta Gorda",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984180"
   },
@@ -971,8 +955,8 @@
     "native": "Reducto",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
-    "population": 1270737,
+    "type": "section",
+    "population": null,
     "wikiDataId": "Q984388"
   },
   {
@@ -1019,7 +1003,7 @@
     "native": "Sayago",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q1004942"
   },
@@ -1051,7 +1035,7 @@
     "native": "Tres Cruces",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984193"
   },
@@ -1083,7 +1067,7 @@
     "native": "Villa Española",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984929"
   },
@@ -1115,7 +1099,7 @@
     "native": "Villa Muñoz",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "capital",
+    "type": "section",
     "population": 0,
     "wikiDataId": "Q984422"
   }

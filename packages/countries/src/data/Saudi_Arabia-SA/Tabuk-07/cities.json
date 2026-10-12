@@ -27,9 +27,9 @@
     "native": "دوبا",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 22000,
-    "wikiDataId": "Q268915"
+    "wikiDataId": null
   },
   {
     "id": 102881,
@@ -43,9 +43,25 @@
     "native": "تبوك",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 667000,
     "wikiDataId": "Q244232"
+  },
+  {
+    "id": 165526,
+    "name": "Taymā’",
+    "state_id": 2852,
+    "state_code": "07",
+    "country_id": 194,
+    "country_code": "SA",
+    "latitude": "27.62233000",
+    "longitude": "38.53882000",
+    "native": "تيماء",
+    "timezone": "Asia/Riyadh",
+    "translations": {},
+    "type": "town",
+    "population": 37579,
+    "wikiDataId": "Q27365"
   },
   {
     "id": 102889,
@@ -59,7 +75,7 @@
     "native": "أم لاج",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 33874,
     "wikiDataId": "Q32190969"
   }

@@ -11,8 +11,8 @@
     "native": "足利",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 142882,
+    "type": "city",
+    "population": 144746,
     "wikiDataId": "Q374477"
   },
   {
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 64323,
-    "wikiDataId": "Q461020"
+    "wikiDataId": null
   },
   {
     "id": 63694,
@@ -59,8 +59,8 @@
     "native": "上三川",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 30886,
+    "type": "town",
+    "population": 30806,
     "wikiDataId": "Q1345604"
   },
   {
@@ -72,27 +72,11 @@
     "country_code": "JP",
     "latitude": "36.55000000",
     "longitude": "139.73333000",
-    "native": "鹿沼",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 94591,
-    "wikiDataId": "Q819578"
-  },
-  {
-    "id": 63716,
-    "name": "Kanuma-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.57550000",
-    "longitude": "139.64149000",
     "native": "鹿沼市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 94033,
     "wikiDataId": "Q390792"
   },
   {
@@ -109,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 18488,
-    "wikiDataId": "Q861270"
+    "wikiDataId": null
   },
   {
     "id": 63878,
@@ -139,9 +123,9 @@
     "native": "益子",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 21621,
-    "wikiDataId": "Q1350953"
+    "type": "town",
+    "population": 21898,
+    "wikiDataId": "Q1346925"
   },
   {
     "id": 63945,
@@ -155,8 +139,8 @@
     "native": "壬生",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 39151,
+    "type": "town",
+    "population": 39474,
     "wikiDataId": "Q1354910"
   },
   {
@@ -173,7 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": 78665,
-    "wikiDataId": "Q692745"
+    "wikiDataId": null
   },
   {
     "id": 64027,
@@ -188,7 +172,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 78190,
     "wikiDataId": "Q498060"
   },
   {
@@ -203,9 +187,25 @@
     "native": "茂木",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 11631,
+    "type": "town",
+    "population": 11891,
     "wikiDataId": "Q644327"
+  },
+  {
+    "id": 165116,
+    "name": "Nasu",
+    "state_id": 854,
+    "state_code": "09",
+    "country_id": 109,
+    "country_code": "JP",
+    "latitude": "37.04209000",
+    "longitude": "140.09379000",
+    "native": null,
+    "timezone": "Asia/Tokyo",
+    "translations": {},
+    "type": "town",
+    "population": 23956,
+    "wikiDataId": "Q636416"
   },
   {
     "id": 64113,
@@ -219,24 +219,8 @@
     "native": "那須烏山",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 24456,
-    "wikiDataId": "Q847562"
-  },
-  {
-    "id": 64114,
-    "name": "Nasukarasuyama-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.66270000",
-    "longitude": "140.13405000",
-    "native": "那須烏山市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 24875,
     "wikiDataId": "Q847562"
   },
   {
@@ -256,24 +240,8 @@
     "wikiDataId": "Q847562"
   },
   {
-    "id": 64139,
-    "name": "Nikkō",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.75000000",
-    "longitude": "139.61667000",
-    "native": "日光",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 77661,
-    "wikiDataId": "Q235753"
-  },
-  {
     "id": 64138,
-    "name": "Nikko-shi",
+    "name": "Nikkō",
     "state_id": 854,
     "state_code": "09",
     "country_id": 109,
@@ -284,8 +252,8 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": 77027,
-    "wikiDataId": "Q847550"
+    "population": 77661,
+    "wikiDataId": "Q235753"
   },
   {
     "id": 64762,
@@ -296,27 +264,11 @@
     "country_code": "JP",
     "latitude": "36.86667000",
     "longitude": "140.03333000",
-    "native": "大田原",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 72923,
-    "wikiDataId": "Q386322"
-  },
-  {
-    "id": 64763,
-    "name": "Ōtawara-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.86129000",
-    "longitude": "140.11915000",
     "native": "大田原市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 72087,
     "wikiDataId": "Q386322"
   },
   {
@@ -328,27 +280,11 @@
     "country_code": "JP",
     "latitude": "36.30000000",
     "longitude": "139.80000000",
-    "native": "大山",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 167874,
-    "wikiDataId": "Q374511"
-  },
-  {
-    "id": 64223,
-    "name": "Oyama-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.30800000",
-    "longitude": "139.80195000",
     "native": "小山市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 166666,
     "wikiDataId": "Q374511"
   },
   {
@@ -376,27 +312,11 @@
     "country_code": "JP",
     "latitude": "36.31667000",
     "longitude": "139.58333000",
-    "native": "佐野",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 114842,
-    "wikiDataId": "Q646912"
-  },
-  {
-    "id": 64282,
-    "name": "Sano-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.42406000",
-    "longitude": "139.53578000",
     "native": "佐野市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 116228,
     "wikiDataId": "Q646912"
   },
   {
@@ -412,7 +332,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 59507,
     "wikiDataId": "Q851804"
   },
   {
@@ -444,7 +364,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 155549,
     "wikiDataId": "Q44830"
   },
   {
@@ -461,7 +381,7 @@
     "translations": {},
     "type": "city",
     "population": 30366,
-    "wikiDataId": "Q326956"
+    "wikiDataId": null
   },
   {
     "id": 64611,
@@ -472,27 +392,11 @@
     "country_code": "JP",
     "latitude": "36.56667000",
     "longitude": "139.88333000",
-    "native": "宇都宮",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm1",
-    "population": 518197,
-    "wikiDataId": "Q861262"
-  },
-  {
-    "id": 64612,
-    "name": "Utsunomiya-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.59688000",
-    "longitude": "139.88657000",
     "native": "宇都宮市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 518757,
     "wikiDataId": "Q200589"
   },
   {
@@ -507,24 +411,8 @@
     "native": "矢板",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 31145,
-    "wikiDataId": "Q695926"
-  },
-  {
-    "id": 64633,
-    "name": "Yaita-shi",
-    "state_id": 854,
-    "state_code": "09",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.82746000",
-    "longitude": "139.89809000",
-    "native": "矢板市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
+    "type": "city",
+    "population": 31165,
     "wikiDataId": "Q695926"
   }
 ]

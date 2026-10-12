@@ -11,13 +11,13 @@
     "native": "ایبٹ آباد",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 275890,
     "wikiDataId": "Q170315"
   },
   {
     "id": 85333,
-    "name": "Akora",
+    "name": "Akora Khattak",
     "state_id": 3171,
     "state_code": "KP",
     "country_id": 167,
@@ -27,7 +27,7 @@
     "native": "اکوڑہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 29750,
     "wikiDataId": "Q2475251"
   },
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 3334,
-    "wikiDataId": "Q2475251"
+    "wikiDataId": null
   },
   {
     "id": 85337,
@@ -59,9 +59,9 @@
     "native": "امان گڑھ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 42123,
-    "wikiDataId": "Q2475251"
+    "wikiDataId": null
   },
   {
     "id": 85338,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 3000,
-    "wikiDataId": "Q2475251"
+    "wikiDataId": null
   },
   {
     "id": 85340,
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "village",
     "population": 1275,
-    "wikiDataId": "Q2984767"
+    "wikiDataId": null
   },
   {
     "id": 85345,
@@ -107,9 +107,9 @@
     "native": "بافہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14047,
-    "wikiDataId": "Q2625289"
+    "wikiDataId": null
   },
   {
     "id": 85351,
@@ -123,7 +123,7 @@
     "native": "بنوں",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 1357890,
     "wikiDataId": "Q806916"
   },
@@ -157,39 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": 700000,
-    "wikiDataId": "Q2582559"
-  },
-  {
-    "id": 85358,
-    "name": "Battagram District",
-    "state_id": 3171,
-    "state_code": "KP",
-    "country_id": 167,
-    "country_code": "PK",
-    "latitude": "34.68051000",
-    "longitude": "73.00535000",
-    "native": "ضلع بٹگرام",
-    "timezone": "Asia/Karachi",
-    "translations": {},
-    "type": "district",
-    "population": 554133,
-    "wikiDataId": "Q3240074"
-  },
-  {
-    "id": 85374,
-    "name": "Buner",
-    "state_id": 3171,
-    "state_code": "KP",
-    "country_id": 167,
-    "country_code": "PK",
-    "latitude": "34.44301000",
-    "longitude": "72.49933000",
-    "native": "ضلع بونیر",
-    "timezone": "Asia/Karachi",
-    "translations": {},
-    "type": "district",
-    "population": 897319,
-    "wikiDataId": "Q2039096"
+    "wikiDataId": null
   },
   {
     "id": 85387,
@@ -203,7 +171,7 @@
     "native": "چارسدہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 105414,
     "wikiDataId": "Q1642808"
   },
@@ -235,9 +203,25 @@
     "native": "چترال",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 0,
     "wikiDataId": "Q12126543"
+  },
+  {
+    "id": 165460,
+    "name": "Daggar",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "34.51106000",
+    "longitude": "72.48438000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3695610"
   },
   {
     "id": 85419,
@@ -251,25 +235,9 @@
     "native": "ڈیرہ اسماعیل خان",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 763195,
     "wikiDataId": "Q1249888"
-  },
-  {
-    "id": 85420,
-    "name": "Dera Ismāīl Khān District",
-    "state_id": 3171,
-    "state_code": "KP",
-    "country_id": 167,
-    "country_code": "PK",
-    "latitude": "31.85963000",
-    "longitude": "70.64879000",
-    "native": "ضلع ڈیرہ اسماعیل خان",
-    "timezone": "Asia/Karachi",
-    "translations": {},
-    "type": "district",
-    "population": 852995,
-    "wikiDataId": "Q284210"
   },
   {
     "id": 85430,
@@ -283,9 +251,9 @@
     "native": "دوآبہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8893,
-    "wikiDataId": "Q2985681"
+    "wikiDataId": null
   },
   {
     "id": 85458,
@@ -301,7 +269,7 @@
     "translations": {},
     "type": "abandoned",
     "population": 1261,
-    "wikiDataId": "Q243322"
+    "wikiDataId": null
   },
   {
     "id": 85463,
@@ -315,7 +283,7 @@
     "native": "ہنگو",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 39766,
     "wikiDataId": "Q1575544"
   },
@@ -331,7 +299,7 @@
     "native": "ہری پور",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 49318,
     "wikiDataId": "Q520821"
   },
@@ -347,9 +315,41 @@
     "native": "حویلیاں",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 40481,
     "wikiDataId": "Q2659092"
+  },
+  {
+    "id": 165446,
+    "name": "Jahangira",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "33.96416000",
+    "longitude": "72.22097000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "city",
+    "population": 57011,
+    "wikiDataId": "Q4159993"
+  },
+  {
+    "id": 165447,
+    "name": "Jamrud",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "34.00152000",
+    "longitude": "71.38007000",
+    "native": "Jamrud",
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "town",
+    "population": 56642,
+    "wikiDataId": "Q142571"
   },
   {
     "id": 85504,
@@ -365,7 +365,7 @@
     "translations": {},
     "type": "city",
     "population": 3000,
-    "wikiDataId": "Q988103"
+    "wikiDataId": null
   },
   {
     "id": 85522,
@@ -379,7 +379,7 @@
     "native": "کرک",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 13679,
     "wikiDataId": "Q2579936"
   },
@@ -395,9 +395,9 @@
     "native": "خلابت",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "destroyed",
+    "type": "town",
     "population": 39148,
-    "wikiDataId": "Q1179634"
+    "wikiDataId": null
   },
   {
     "id": 85551,
@@ -411,7 +411,7 @@
     "native": "کوہاٹ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 170800,
     "wikiDataId": "Q1195983"
   },
@@ -427,9 +427,9 @@
     "native": "کلاچی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 24738,
-    "wikiDataId": "Q2571465"
+    "wikiDataId": null
   },
   {
     "id": 85570,
@@ -443,9 +443,9 @@
     "native": "لاچی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 18537,
-    "wikiDataId": "Q951628"
+    "wikiDataId": null
   },
   {
     "id": 85574,
@@ -459,9 +459,9 @@
     "native": "لکی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 36391,
-    "wikiDataId": "Q11739"
+    "wikiDataId": null
   },
   {
     "id": 85577,
@@ -475,7 +475,7 @@
     "native": "لنڈی کوتل",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2223,
     "wikiDataId": "Q1803018"
   },
@@ -491,7 +491,7 @@
     "native": "مانسہرہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 69085,
     "wikiDataId": "Q2662991"
   },
@@ -507,7 +507,7 @@
     "native": "مردان",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 300424,
     "wikiDataId": "Q993859"
   },
@@ -523,7 +523,7 @@
     "native": "مینگورہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 279914,
     "wikiDataId": "Q31356"
   },
@@ -539,7 +539,7 @@
     "native": "میران شاہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3334,
     "wikiDataId": "Q124385"
   },
@@ -557,7 +557,7 @@
     "translations": {},
     "type": "city",
     "population": 1100,
-    "wikiDataId": "Q2579925"
+    "wikiDataId": null
   },
   {
     "id": 85645,
@@ -573,7 +573,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q2579925"
+    "wikiDataId": null
   },
   {
     "id": 85646,
@@ -619,7 +619,7 @@
     "native": "پبی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 52701,
     "wikiDataId": "Q3045006"
   },
@@ -635,9 +635,25 @@
     "native": "پہاڑ پور",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17294,
-    "wikiDataId": "Q3045006"
+    "wikiDataId": null
+  },
+  {
+    "id": 165463,
+    "name": "Parachinar",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "33.89968000",
+    "longitude": "70.10012000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q1026627"
   },
   {
     "id": 85661,
@@ -651,7 +667,7 @@
     "native": "پشاور",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 4758762,
     "wikiDataId": "Q1113311"
   },
@@ -672,6 +688,22 @@
     "wikiDataId": "Q1740709"
   },
   {
+    "id": 165464,
+    "name": "Saidu Sharif",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "34.74655000",
+    "longitude": "72.35568000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q378879"
+  },
+  {
     "id": 85700,
     "name": "Sarai Naurang",
     "state_id": 3171,
@@ -685,7 +717,7 @@
     "translations": {},
     "type": "city",
     "population": 19694,
-    "wikiDataId": "Q3243456"
+    "wikiDataId": null
   },
   {
     "id": 85705,
@@ -699,7 +731,7 @@
     "native": "شبقدر",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 79029,
     "wikiDataId": "Q4519132"
   },
@@ -717,7 +749,7 @@
     "translations": {},
     "type": "city",
     "population": 4000,
-    "wikiDataId": "Q1250069"
+    "wikiDataId": null
   },
   {
     "id": 85717,
@@ -733,7 +765,7 @@
     "translations": {},
     "type": "city",
     "population": 1111,
-    "wikiDataId": "Q1250069"
+    "wikiDataId": null
   },
   {
     "id": 85708,
@@ -749,7 +781,7 @@
     "translations": {},
     "type": "city",
     "population": 71469,
-    "wikiDataId": "Q1250069"
+    "wikiDataId": null
   },
   {
     "id": 85728,
@@ -765,7 +797,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q7635235"
+    "wikiDataId": null
   },
   {
     "id": 85733,
@@ -779,7 +811,7 @@
     "native": "صوابی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 115018,
     "wikiDataId": "Q2665241"
   },
@@ -795,9 +827,9 @@
     "native": "تنگی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 29444,
-    "wikiDataId": "Q3695618"
+    "wikiDataId": null
   },
   {
     "id": 85747,
@@ -811,9 +843,9 @@
     "native": "ٹینک",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 44996,
-    "wikiDataId": "Q3695618"
+    "wikiDataId": null
   },
   {
     "id": 85749,
@@ -829,7 +861,23 @@
     "translations": {},
     "type": "city",
     "population": 29331,
-    "wikiDataId": "Q3243471"
+    "wikiDataId": null
+  },
+  {
+    "id": 165466,
+    "name": "Timargara",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "34.82659000",
+    "longitude": "71.84423000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q2583846"
   },
   {
     "id": 85754,
@@ -843,9 +891,25 @@
     "native": "ٹوپی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 74867,
     "wikiDataId": "Q4460662"
+  },
+  {
+    "id": 165443,
+    "name": "Tordher",
+    "state_id": 3171,
+    "state_code": "KP",
+    "country_id": 167,
+    "country_code": "PK",
+    "latitude": "33.99047000",
+    "longitude": "72.28630000",
+    "native": null,
+    "timezone": "Asia/Karachi",
+    "translations": {},
+    "type": "town",
+    "population": 150000,
+    "wikiDataId": "Q4461073"
   },
   {
     "id": 85759,
@@ -859,7 +923,7 @@
     "native": "دیر بالا",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 29869,
     "wikiDataId": "Q654483"
   },
@@ -875,9 +939,9 @@
     "native": "اتمانزئی",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 29423,
-    "wikiDataId": "Q2581505"
+    "wikiDataId": null
   },
   {
     "id": 85764,
@@ -907,7 +971,7 @@
     "native": "زیدہ",
     "timezone": "Asia/Karachi",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 26787,
     "wikiDataId": "Q4184172"
   }

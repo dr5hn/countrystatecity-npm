@@ -11,25 +11,9 @@
     "native": "Бољевац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2047431"
-  },
-  {
-    "id": 97181,
-    "name": "Boljevci",
-    "state_id": 3731,
-    "state_code": "15",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "44.72355000",
-    "longitude": "20.22348000",
-    "native": "Бољевци",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": 3990,
-    "wikiDataId": "Q2909457"
   },
   {
     "id": 97247,
@@ -43,7 +27,7 @@
     "native": "Књажевац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 25000,
     "wikiDataId": "Q1348256"
   },
@@ -59,7 +43,7 @@
     "native": "Сокобања",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q838616"
   },
@@ -77,6 +61,6 @@
     "translations": {},
     "type": "city",
     "population": 49800,
-    "wikiDataId": "Q209329"
+    "wikiDataId": null
   }
 ]

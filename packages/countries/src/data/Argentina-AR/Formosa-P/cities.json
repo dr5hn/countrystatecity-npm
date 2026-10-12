@@ -11,7 +11,7 @@
     "native": "Clorinda",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 15000,
     "wikiDataId": "Q106063"
   },
@@ -27,25 +27,9 @@
     "native": "Comandante de fontana",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5655,
     "wikiDataId": "Q106069"
-  },
-  {
-    "id": 958,
-    "name": "Departamento de Pilcomayo",
-    "state_id": 3652,
-    "state_code": "P",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-25.50000000",
-    "longitude": "-58.08333000",
-    "native": "Departamento de Pilcomayo",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 94383,
-    "wikiDataId": "Q1190958"
   },
   {
     "id": 1053,
@@ -59,7 +43,7 @@
     "native": "El Colorado",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 12780,
     "wikiDataId": "Q994889"
   },
@@ -75,7 +59,7 @@
     "native": "Estanislao del Campo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4055,
     "wikiDataId": "Q8843108"
   },
@@ -91,7 +75,7 @@
     "native": "Formosa",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 222226,
     "wikiDataId": "Q44214"
   },
@@ -109,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q2132246"
+    "wikiDataId": null
   },
   {
     "id": 1138,
@@ -123,7 +107,7 @@
     "native": "Herradura",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2333,
     "wikiDataId": "Q3197888"
   },
@@ -136,10 +120,10 @@
     "country_code": "AR",
     "latitude": "-25.21438000",
     "longitude": "-59.85851000",
-    "native": "Valle",
+    "native": "Ibarreta",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8687,
     "wikiDataId": "Q5983760"
   },
@@ -168,7 +152,7 @@
     "country_code": "AR",
     "latitude": "-25.24769000",
     "longitude": "-58.09383000",
-    "native": "Cuello de laguna",
+    "native": "Laguna Naick-Neck",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
     "type": "city",
@@ -187,7 +171,7 @@
     "native": "Laguna Yema",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2744,
     "wikiDataId": "Q1016035"
   },
@@ -203,7 +187,7 @@
     "native": "Las Lomitas",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10354,
     "wikiDataId": "Q6492291"
   },
@@ -219,7 +203,7 @@
     "native": "Palo Santo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5324,
     "wikiDataId": "Q9054861"
   },
@@ -235,7 +219,7 @@
     "native": "Pirañero",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 19124,
     "wikiDataId": "Q2031369"
   },
@@ -251,7 +235,7 @@
     "native": "Pozo del Tigre",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3948,
     "wikiDataId": "Q937642"
   },
@@ -267,13 +251,13 @@
     "native": "Riacho eh-eh",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3566,
-    "wikiDataId": "Q21827591"
+    "wikiDataId": "Q7322101"
   },
   {
     "id": 1423,
-    "name": "San Francisco de Laishí",
+    "name": "San Francisco de Laishi",
     "state_id": 3652,
     "state_code": "P",
     "country_id": 11,
@@ -283,7 +267,7 @@
     "native": "San Francisco de Laishí",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4384,
     "wikiDataId": "Q994886"
   },
@@ -299,7 +283,7 @@
     "native": "Villa Escolar",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1261,
     "wikiDataId": "Q5854222"
   },
@@ -315,8 +299,8 @@
     "native": "Villa General Guemes",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4000,
-    "wikiDataId": "Q1013424"
+    "wikiDataId": "Q9093795"
   }
 ]

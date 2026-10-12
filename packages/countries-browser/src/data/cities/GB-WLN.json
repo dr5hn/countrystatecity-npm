@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 1470,
-    "wikiDataId": "Q352863"
+    "wikiDataId": null
   },
   {
     "id": 48276,
@@ -32,22 +32,6 @@
     "wikiDataId": "Q2706897"
   },
   {
-    "id": 48343,
-    "name": "Balerno",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.88437000",
-    "longitude": "-3.33975000",
-    "native": "Balerno",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 6000,
-    "wikiDataId": "Q2880785"
-  },
-  {
     "id": 48428,
     "name": "Bathgate",
     "state_id": 2354,
@@ -59,7 +43,7 @@
     "native": "Bathgate",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 22920,
     "wikiDataId": "Q810794"
   },
@@ -91,57 +75,9 @@
     "native": "Broxburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15440,
     "wikiDataId": "Q991350"
-  },
-  {
-    "id": 48816,
-    "name": "Cairneyhill",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.05908000",
-    "longitude": "-3.53518000",
-    "native": "Cairneyhill",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2400,
-    "wikiDataId": "Q1011976"
-  },
-  {
-    "id": 49174,
-    "name": "Crossford",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.06303000",
-    "longitude": "-3.49674000",
-    "native": "Crossford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2360,
-    "wikiDataId": "Q3698674"
-  },
-  {
-    "id": 49352,
-    "name": "Dunfermline",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.07156000",
-    "longitude": "-3.45887000",
-    "native": "Dunfermline",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 53100,
-    "wikiDataId": "Q211950"
   },
   {
     "id": 49389,
@@ -155,7 +91,7 @@
     "native": "East Calder",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5260,
     "wikiDataId": "Q5327978"
   },
@@ -171,57 +107,25 @@
     "native": "East Whitburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1300,
-    "wikiDataId": "Q1010166"
+    "wikiDataId": null
   },
   {
-    "id": 49591,
-    "name": "Forth",
+    "id": 49534,
+    "name": "Fauldhouse",
     "state_id": 2354,
     "state_code": "WLN",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.76502000",
-    "longitude": "-3.68874000",
-    "native": "Forth",
+    "latitude": "55.82749000",
+    "longitude": "-3.70741000",
+    "native": "Fauldhouse",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 2190,
-    "wikiDataId": "Q5472578"
-  },
-  {
-    "id": 50062,
-    "name": "Inverkeithing",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.03297000",
-    "longitude": "-3.39555000",
-    "native": "Influence",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4890,
-    "wikiDataId": "Q1010422"
-  },
-  {
-    "id": 50208,
-    "name": "Kirkliston",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.95364000",
-    "longitude": "-3.40288000",
-    "native": "Kirkliston",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4740,
-    "wikiDataId": "Q239193"
+    "type": "town",
+    "population": 4780,
+    "wikiDataId": "Q1009114"
   },
   {
     "id": 50209,
@@ -235,25 +139,9 @@
     "native": "Kirknewton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1980,
     "wikiDataId": "Q3980"
-  },
-  {
-    "id": 50304,
-    "name": "Limekilns",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.03336000",
-    "longitude": "-3.47713000",
-    "native": "Limekilns",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1410,
-    "wikiDataId": "Q1011954"
   },
   {
     "id": 50311,
@@ -267,7 +155,7 @@
     "native": "Linlithgow",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13260,
     "wikiDataId": "Q1016911"
   },
@@ -283,7 +171,7 @@
     "native": "Livingston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 57030,
     "wikiDataId": "Q848287"
   },
@@ -299,41 +187,9 @@
     "native": "Mid Calder",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3340,
     "wikiDataId": "Q4115"
-  },
-  {
-    "id": 50702,
-    "name": "Newbridge",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.93333000",
-    "longitude": "-3.40000000",
-    "native": "Newbridge",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1040,
-    "wikiDataId": "Q7017057"
-  },
-  {
-    "id": 50762,
-    "name": "North Queensferry",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.00899000",
-    "longitude": "-3.39134000",
-    "native": "North Queensferry",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1060,
-    "wikiDataId": "Q1009725"
   },
   {
     "id": 50930,
@@ -347,41 +203,9 @@
     "native": "Polbeth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2310,
-    "wikiDataId": "Q1520038"
-  },
-  {
-    "id": 51012,
-    "name": "Queensferry",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.99089000",
-    "longitude": "-3.39847000",
-    "native": "Queensferry",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8960,
-    "wikiDataId": "Q767798"
-  },
-  {
-    "id": 51035,
-    "name": "Ratho",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.92164000",
-    "longitude": "-3.38028000",
-    "native": "Ratho",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1950,
-    "wikiDataId": "Q1011133"
+    "wikiDataId": null
   },
   {
     "id": 51036,
@@ -400,22 +224,6 @@
     "wikiDataId": "Q1011133"
   },
   {
-    "id": 51114,
-    "name": "Rosyth",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.03689000",
-    "longitude": "-3.43800000",
-    "native": "Rosy",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13780,
-    "wikiDataId": "Q376329"
-  },
-  {
     "id": 51220,
     "name": "Seafield",
     "state_id": 2354,
@@ -427,9 +235,9 @@
     "native": "Seafield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1330,
-    "wikiDataId": "Q913386"
+    "wikiDataId": null
   },
   {
     "id": 51478,
@@ -443,25 +251,9 @@
     "native": "Stoneyburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1980,
-    "wikiDataId": "Q3973838"
-  },
-  {
-    "id": 51656,
-    "name": "Townhill",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.08910000",
-    "longitude": "-3.43889000",
-    "native": "Townhill",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1180,
-    "wikiDataId": "Q7830119"
+    "wikiDataId": null
   },
   {
     "id": 51810,
@@ -475,25 +267,9 @@
     "native": "West Calder",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3130,
     "wikiDataId": "Q1011751"
-  },
-  {
-    "id": 51826,
-    "name": "West Lothian",
-    "state_id": 2354,
-    "state_code": "WLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.91667000",
-    "longitude": "-3.50000000",
-    "native": "West Lothian",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 183100,
-    "wikiDataId": "Q204940"
   },
   {
     "id": 51866,
@@ -507,7 +283,7 @@
     "native": "Whitburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10460,
     "wikiDataId": "Q840684"
   },
@@ -523,8 +299,8 @@
     "native": "Winchburgh",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3040,
-    "wikiDataId": "Q1026640"
+    "wikiDataId": null
   }
 ]

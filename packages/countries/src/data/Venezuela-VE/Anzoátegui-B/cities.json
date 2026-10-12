@@ -8,7 +8,7 @@
     "country_code": "VE",
     "latitude": "9.42958000",
     "longitude": "-64.46428000",
-    "native": "Pedazo",
+    "native": "Anaco",
     "timezone": "America/Caracas",
     "translations": {},
     "type": "adm2",
@@ -64,6 +64,22 @@
     "wikiDataId": "Q2919593"
   },
   {
+    "id": 165774,
+    "name": "Clarines",
+    "state_id": 2050,
+    "state_code": "B",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "9.93991000",
+    "longitude": "-65.16517000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": 21582,
+    "wikiDataId": "Q2975618"
+  },
+  {
     "id": 130078,
     "name": "El Tigre",
     "state_id": 2050,
@@ -78,6 +94,22 @@
     "type": "adm2",
     "population": 213524,
     "wikiDataId": "Q1020297"
+  },
+  {
+    "id": 165817,
+    "name": "Guanta",
+    "state_id": 2050,
+    "state_code": "B",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "10.23453000",
+    "longitude": "-64.59708000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3067120"
   },
   {
     "id": 130113,
@@ -158,5 +190,37 @@
     "type": "adm2",
     "population": 83092,
     "wikiDataId": "Q3067441"
+  },
+  {
+    "id": 165792,
+    "name": "San Mateo",
+    "state_id": 2050,
+    "state_code": "B",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "9.74004000",
+    "longitude": "-64.54937000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3471565"
+  },
+  {
+    "id": 165790,
+    "name": "Valle de Guanape",
+    "state_id": 2050,
+    "state_code": "B",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "9.90999000",
+    "longitude": "-65.67405000",
+    "native": "Valle de Guanape",
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3553845"
   }
 ]

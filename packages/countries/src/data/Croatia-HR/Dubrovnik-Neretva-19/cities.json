@@ -1,5 +1,37 @@
 [
   {
+    "id": 164792,
+    "name": "Babino Polje",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.73538000",
+    "longitude": "17.55068000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 262,
+    "wikiDataId": "Q3442639"
+  },
+  {
+    "id": 164794,
+    "name": "Blato",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.76250000",
+    "longitude": "17.48222000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 31,
+    "wikiDataId": "Q2494648"
+  },
+  {
     "id": 54437,
     "name": "Cavtat",
     "state_id": 728,
@@ -11,7 +43,7 @@
     "native": "Cavtat",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2189,
     "wikiDataId": "Q221350"
   },
@@ -24,12 +56,12 @@
     "country_code": "HR",
     "latitude": "42.62889000",
     "longitude": "18.17111000",
-    "native": "Šljokica",
+    "native": "Čibača",
     "timezone": "Europe/Zagreb",
     "translations": {},
     "type": "locality",
     "population": 2039,
-    "wikiDataId": "Q338684"
+    "wikiDataId": "Q3515174"
   },
   {
     "id": 54471,
@@ -43,9 +75,9 @@
     "native": "Dubrovačko primorje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1636,
-    "wikiDataId": "Q987249"
+    "wikiDataId": "Q1018647"
   },
   {
     "id": 54513,
@@ -59,7 +91,7 @@
     "native": "Grad Dubrovnik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q1722"
   },
@@ -75,9 +107,9 @@
     "native": "Grad Korčula",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q1722"
+    "type": "city",
+    "population": 5415,
+    "wikiDataId": "Q13289"
   },
   {
     "id": 54544,
@@ -91,9 +123,9 @@
     "native": "Grad Ploče",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4711,
-    "wikiDataId": "Q1640"
+    "wikiDataId": "Q115117"
   },
   {
     "id": 54653,
@@ -104,10 +136,10 @@
     "country_code": "HR",
     "latitude": "43.04083000",
     "longitude": "17.53694000",
-    "native": "Pao",
+    "native": "Komin",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 941,
     "wikiDataId": "Q3071147"
   },
@@ -123,9 +155,9 @@
     "native": "Konavle",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q3441457"
+    "wikiDataId": "Q1781214"
   },
   {
     "id": 54662,
@@ -139,9 +171,9 @@
     "native": "Korčula",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2659,
-    "wikiDataId": "Q13289"
+    "wikiDataId": null
   },
   {
     "id": 54684,
@@ -155,7 +187,7 @@
     "native": "Lastovo",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 309,
     "wikiDataId": "Q660689"
   },
@@ -171,7 +203,7 @@
     "native": "Lumbarda",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1209,
     "wikiDataId": "Q1018611"
   },
@@ -187,9 +219,41 @@
     "native": "Metković",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 15235,
     "wikiDataId": "Q390588"
+  },
+  {
+    "id": 164783,
+    "name": "Mlini",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.62306000",
+    "longitude": "18.20722000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 933,
+    "wikiDataId": "Q3069512"
+  },
+  {
+    "id": 164793,
+    "name": "Mlinište",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.99250000",
+    "longitude": "17.61583000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 254,
+    "wikiDataId": "Q12796938"
   },
   {
     "id": 54736,
@@ -203,9 +267,9 @@
     "native": "Mljet",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q911309"
+    "wikiDataId": "Q1275429"
   },
   {
     "id": 54737,
@@ -235,9 +299,9 @@
     "native": "Općina Lastovo",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q396465"
+    "wikiDataId": "Q20107555"
   },
   {
     "id": 54780,
@@ -251,7 +315,7 @@
     "native": "Opuzen",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2838,
     "wikiDataId": "Q396465"
   },
@@ -267,9 +331,25 @@
     "native": "Orebić",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3705,
     "wikiDataId": "Q994320"
+  },
+  {
+    "id": 164785,
+    "name": "Otrić-Seoci",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "43.15861000",
+    "longitude": "17.45083000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 689,
+    "wikiDataId": "Q2090700"
   },
   {
     "id": 54813,
@@ -285,7 +365,7 @@
     "translations": {},
     "type": "city",
     "population": 2233,
-    "wikiDataId": "Q397633"
+    "wikiDataId": "Q1853390"
   },
   {
     "id": 54821,
@@ -296,12 +376,28 @@
     "country_code": "HR",
     "latitude": "43.15741000",
     "longitude": "17.45152000",
-    "native": "Pjevači",
+    "native": "Pojezerje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 943,
-    "wikiDataId": "Q786568"
+    "wikiDataId": "Q568993"
+  },
+  {
+    "id": 164787,
+    "name": "Slano",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.78611000",
+    "longitude": "17.89194000",
+    "native": "Slano",
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 577,
+    "wikiDataId": "Q1277113"
   },
   {
     "id": 54898,
@@ -315,9 +411,9 @@
     "native": "Slivno",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q1012789"
+    "wikiDataId": "Q787545"
   },
   {
     "id": 54900,
@@ -331,9 +427,25 @@
     "native": "Smokvica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 868,
     "wikiDataId": "Q609468"
+  },
+  {
+    "id": 164790,
+    "name": "Srebreno",
+    "state_id": 728,
+    "state_code": "19",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "42.62333000",
+    "longitude": "18.19611000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 382,
+    "wikiDataId": "Q12642582"
   },
   {
     "id": 54914,
@@ -344,10 +456,10 @@
     "country_code": "HR",
     "latitude": "42.83861000",
     "longitude": "17.69639000",
-    "native": "Kamen",
+    "native": "Ston",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 500,
     "wikiDataId": "Q428227"
   },
@@ -363,7 +475,7 @@
     "native": "Vela Luka",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3772,
     "wikiDataId": "Q994341"
   },
@@ -376,12 +488,12 @@
     "country_code": "HR",
     "latitude": "43.01113000",
     "longitude": "17.65683000",
-    "native": "Sjaj",
+    "native": "Zažablje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 553,
-    "wikiDataId": "Q5408"
+    "wikiDataId": "Q167955"
   },
   {
     "id": 55041,
@@ -395,7 +507,7 @@
     "native": "Žrnovo",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1401,
     "wikiDataId": "Q394257"
   },
@@ -411,8 +523,8 @@
     "native": "Župa dubrovačka",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 953,
-    "wikiDataId": "Q394257"
+    "wikiDataId": "Q394299"
   }
 ]

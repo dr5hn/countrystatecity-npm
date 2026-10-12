@@ -11,25 +11,9 @@
     "native": "Анадырь",
     "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 13224,
     "wikiDataId": "Q7978"
-  },
-  {
-    "id": 97619,
-    "name": "Anadyrskiy Rayon",
-    "state_id": 1859,
-    "state_code": "CHU",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "65.00000000",
-    "longitude": "173.00000000",
-    "native": "Анадырский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q698395"
   },
   {
     "id": 97897,
@@ -43,7 +27,7 @@
     "native": "Беринговский",
     "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1861,
     "wikiDataId": "Q820680"
   },
@@ -73,9 +57,9 @@
     "latitude": "66.32166000",
     "longitude": "-179.12198000",
     "native": "Эгвекинот",
-    "timezone": "Europe/Moscow",
+    "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3516,
     "wikiDataId": "Q1240765"
   },
@@ -89,9 +73,9 @@
     "latitude": "65.58604000",
     "longitude": "-171.02082000",
     "native": "Лаврентия",
-    "timezone": "Europe/Moscow",
+    "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1425,
     "wikiDataId": "Q1020011"
   },
@@ -107,7 +91,7 @@
     "native": "Лорино",
     "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1470,
     "wikiDataId": "Q1010651"
   },
@@ -121,9 +105,9 @@
     "latitude": "69.70287000",
     "longitude": "170.29993000",
     "native": "Певек",
-    "timezone": "Europe/Moscow",
+    "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4083,
     "wikiDataId": "Q178105"
   },
@@ -139,24 +123,8 @@
     "native": "Провидения",
     "timezone": "Asia/Anadyr",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2193,
     "wikiDataId": "Q1014296"
-  },
-  {
-    "id": 100873,
-    "name": "Providenskiy Rayon",
-    "state_id": 1859,
-    "state_code": "CHU",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "65.25000000",
-    "longitude": "-175.00000000",
-    "native": "Провиденский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q740303"
   }
 ]

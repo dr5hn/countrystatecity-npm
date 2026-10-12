@@ -8,12 +8,28 @@
     "country_code": "IT",
     "latitude": "44.16232000",
     "longitude": "12.34280000",
-    "native": "BAGNO",
+    "native": "Bagnarola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1875,
     "wikiDataId": "Q18439834"
+  },
+  {
+    "id": 166171,
+    "name": "Bagno di Romagna",
+    "state_id": 1779,
+    "state_code": "FC",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "43.83333333",
+    "longitude": "11.96666667",
+    "native": "Bagno di Romagna",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 5584,
+    "wikiDataId": "Q99933"
   },
   {
     "id": 136000,
@@ -27,8 +43,8 @@
     "native": "Bertinoro",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1550,
+    "type": "municipality",
+    "population": 11193,
     "wikiDataId": "Q99934"
   },
   {
@@ -43,7 +59,7 @@
     "native": "Bora Bassa",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1115,
     "wikiDataId": "Q18439865"
   },
@@ -59,7 +75,7 @@
     "native": "Borello",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1945,
     "wikiDataId": "Q2296497"
   },
@@ -75,8 +91,8 @@
     "native": "Borghi",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 433,
+    "type": "municipality",
+    "population": 2915,
     "wikiDataId": "Q99935"
   },
   {
@@ -91,8 +107,8 @@
     "native": "Castrocaro Terme e Terra del Sole",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 6352,
+    "type": "municipality",
+    "population": 6530,
     "wikiDataId": "Q99936"
   },
   {
@@ -107,8 +123,8 @@
     "native": "Cesena",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 95778,
+    "type": "municipality",
+    "population": 95620,
     "wikiDataId": "Q6662"
   },
   {
@@ -123,8 +139,8 @@
     "native": "Cesenatico",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 18925,
+    "type": "municipality",
+    "population": 26042,
     "wikiDataId": "Q99937"
   },
   {
@@ -139,25 +155,9 @@
     "native": "Civitella di Romagna",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1523,
+    "type": "municipality",
+    "population": 3626,
     "wikiDataId": "Q99938"
-  },
-  {
-    "id": 138038,
-    "name": "Corpolò",
-    "state_id": 1779,
-    "state_code": "FC",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.01905000",
-    "longitude": "12.45266000",
-    "native": "Corpo",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 1338,
-    "wikiDataId": "Q18447769"
   },
   {
     "id": 138213,
@@ -171,7 +171,7 @@
     "native": "Cusercoli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1076,
     "wikiDataId": "Q3699734"
   },
@@ -187,8 +187,8 @@
     "native": "Dovadola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1186,
+    "type": "municipality",
+    "population": 1591,
     "wikiDataId": "Q99939"
   },
   {
@@ -203,7 +203,7 @@
     "native": "Fiumana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1647,
     "wikiDataId": "Q2530264"
   },
@@ -219,8 +219,8 @@
     "native": "Forlì",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm2",
-    "population": 116440,
+    "type": "municipality",
+    "population": 118053,
     "wikiDataId": "Q13367"
   },
   {
@@ -235,8 +235,8 @@
     "native": "Forlimpopoli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 9392,
+    "type": "municipality",
+    "population": 13140,
     "wikiDataId": "Q99940"
   },
   {
@@ -251,7 +251,7 @@
     "native": "Fratta Terme",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1487,
     "wikiDataId": "Q3752466"
   },
@@ -267,8 +267,8 @@
     "native": "Galeata",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2433,
+    "type": "municipality",
+    "population": 2556,
     "wikiDataId": "Q99941"
   },
   {
@@ -283,9 +283,25 @@
     "native": "Gambettola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 10682,
+    "type": "municipality",
+    "population": 10963,
     "wikiDataId": "Q99942"
+  },
+  {
+    "id": 166172,
+    "name": "Gatteo",
+    "state_id": 1779,
+    "state_code": "FC",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.13709985",
+    "longitude": "12.40426705",
+    "native": "Gatteo",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 9469,
+    "wikiDataId": "Q99943"
   },
   {
     "id": 138866,
@@ -299,7 +315,7 @@
     "native": "Gatteo a Mare",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1912,
     "wikiDataId": "Q15078215"
   },
@@ -315,7 +331,7 @@
     "native": "Gatteo-Sant'Angelo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 5603,
     "wikiDataId": null
   },
@@ -331,8 +347,8 @@
     "native": "Longiano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1270,
+    "type": "municipality",
+    "population": 7194,
     "wikiDataId": "Q99944"
   },
   {
@@ -347,8 +363,8 @@
     "native": "Meldola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 7011,
+    "type": "municipality",
+    "population": 10037,
     "wikiDataId": "Q99945"
   },
   {
@@ -363,8 +379,8 @@
     "native": "Mercato Saraceno",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2098,
+    "type": "municipality",
+    "population": 6826,
     "wikiDataId": "Q99946"
   },
   {
@@ -379,8 +395,8 @@
     "native": "Modigliana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 4288,
+    "type": "municipality",
+    "population": 4301,
     "wikiDataId": "Q99947"
   },
   {
@@ -395,8 +411,8 @@
     "native": "Montiano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 682,
+    "type": "municipality",
+    "population": 1695,
     "wikiDataId": "Q99948"
   },
   {
@@ -411,25 +427,9 @@
     "native": "Panighina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1195,
     "wikiDataId": "Q18440168"
-  },
-  {
-    "id": 58710,
-    "name": "Pisignano",
-    "state_id": 1779,
-    "state_code": "FC",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.23787000",
-    "longitude": "12.26841000",
-    "native": "Pisignano",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 1208,
-    "wikiDataId": "Q18446170"
   },
   {
     "id": 58751,
@@ -459,7 +459,7 @@
     "native": "Portico di Romagna",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 315,
     "wikiDataId": "Q18440198"
   },
@@ -475,8 +475,8 @@
     "native": "Portico e San Benedetto",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 723,
+    "type": "municipality",
+    "population": 716,
     "wikiDataId": "Q99949"
   },
   {
@@ -491,8 +491,8 @@
     "native": "Predappio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2760,
+    "type": "municipality",
+    "population": 6364,
     "wikiDataId": "Q99950"
   },
   {
@@ -507,8 +507,8 @@
     "native": "Premilcuore",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 692,
+    "type": "municipality",
+    "population": 675,
     "wikiDataId": "Q99951"
   },
   {
@@ -523,8 +523,8 @@
     "native": "Rocca San Casciano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1798,
+    "type": "municipality",
+    "population": 1823,
     "wikiDataId": "Q99952"
   },
   {
@@ -539,8 +539,8 @@
     "native": "Roncofreddo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3422,
+    "type": "municipality",
+    "population": 3558,
     "wikiDataId": "Q99953"
   },
   {
@@ -555,7 +555,7 @@
     "native": "Roncofreddo-Santa Paola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1237,
     "wikiDataId": "Q18440248"
   },
@@ -571,7 +571,7 @@
     "native": "Sala",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2157,
     "wikiDataId": "Q18440279"
   },
@@ -603,7 +603,7 @@
     "native": "San Mauro a Mare",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1238,
     "wikiDataId": null
   },
@@ -619,8 +619,8 @@
     "native": "San Mauro Pascoli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 8372,
+    "type": "municipality",
+    "population": 12458,
     "wikiDataId": "Q99954"
   },
   {
@@ -635,7 +635,7 @@
     "native": "San Piero in Bagno",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 3210,
     "wikiDataId": "Q18440301"
   },
@@ -667,7 +667,7 @@
     "native": "Santa Maria Nuova",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2181,
     "wikiDataId": "Q18440309"
   },
@@ -683,25 +683,9 @@
     "native": "Santa Sofia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 3037,
+    "type": "municipality",
+    "population": 4033,
     "wikiDataId": "Q99955"
-  },
-  {
-    "id": 60503,
-    "name": "Santarcangelo",
-    "state_id": 1779,
-    "state_code": "FC",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.06326000",
-    "longitude": "12.44657000",
-    "native": "Santarcangelo",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "adm3",
-    "population": 10934,
-    "wikiDataId": null
   },
   {
     "id": 60558,
@@ -715,8 +699,8 @@
     "native": "Sarsina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1688,
+    "type": "municipality",
+    "population": 3287,
     "wikiDataId": "Q99956"
   },
   {
@@ -731,8 +715,8 @@
     "native": "Savignano sul Rubicone",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 17842,
+    "type": "municipality",
+    "population": 18147,
     "wikiDataId": "Q99957"
   },
   {
@@ -747,8 +731,8 @@
     "native": "Sogliano al Rubicone",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 682,
+    "type": "municipality",
+    "population": 3145,
     "wikiDataId": "Q99958"
   },
   {
@@ -763,8 +747,8 @@
     "native": "Tredozio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1110,
+    "type": "municipality",
+    "population": 1075,
     "wikiDataId": "Q99959"
   },
   {
@@ -779,8 +763,8 @@
     "native": "Verghereto",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 220,
+    "type": "municipality",
+    "population": 1721,
     "wikiDataId": "Q99960"
   },
   {

@@ -32,6 +32,22 @@
     "wikiDataId": "Q1134454"
   },
   {
+    "id": 165754,
+    "name": "La Vela de Coro",
+    "state_id": 2035,
+    "state_code": "I",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "11.46077000",
+    "longitude": "-69.56570000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": 34680,
+    "wikiDataId": "Q3213480"
+  },
+  {
     "id": 130116,
     "name": "Municipio Los Taques",
     "state_id": 2035,
@@ -40,7 +56,7 @@
     "country_code": "VE",
     "latitude": "11.82308000",
     "longitude": "-70.25353000",
-    "native": "Municipio las manchas",
+    "native": "Municipio Los Taques",
     "timezone": "America/Caracas",
     "translations": {},
     "type": "city",
@@ -62,6 +78,38 @@
     "type": "city",
     "population": 211537,
     "wikiDataId": "Q1910828"
+  },
+  {
+    "id": 165828,
+    "name": "Pedregal",
+    "state_id": 2035,
+    "state_code": "I",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "11.02142000",
+    "longitude": "-70.12106000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3373995"
+  },
+  {
+    "id": 165784,
+    "name": "Pueblo Nuevo",
+    "state_id": 2035,
+    "state_code": "I",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "11.94788000",
+    "longitude": "-69.92306000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q600959"
   },
   {
     "id": 130135,
@@ -96,6 +144,22 @@
     "wikiDataId": "Q1020279"
   },
   {
+    "id": 165837,
+    "name": "San Juan de los Cayos",
+    "state_id": 2035,
+    "state_code": "I",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "11.17203000",
+    "longitude": "-68.41280000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q986297"
+  },
+  {
     "id": 130160,
     "name": "Tucacas",
     "state_id": 2035,
@@ -110,5 +174,21 @@
     "type": "adm2",
     "population": 34407,
     "wikiDataId": "Q2094682"
+  },
+  {
+    "id": 165849,
+    "name": "Urumaco",
+    "state_id": 2035,
+    "state_code": "I",
+    "country_id": 239,
+    "country_code": "VE",
+    "latitude": "11.19996000",
+    "longitude": "-70.25543000",
+    "native": null,
+    "timezone": "America/Caracas",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2096142"
   }
 ]

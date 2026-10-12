@@ -11,7 +11,7 @@
     "native": "أبها",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 210886,
     "wikiDataId": "Q190948"
   },
@@ -27,7 +27,7 @@
     "native": "المجاردة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14830,
     "wikiDataId": "Q31874518"
   },
@@ -48,6 +48,22 @@
     "wikiDataId": "Q15178975"
   },
   {
+    "id": 165525,
+    "name": "Bīshah",
+    "state_id": 2853,
+    "state_code": "14",
+    "country_id": 194,
+    "country_code": "SA",
+    "latitude": "20.00054000",
+    "longitude": "42.60520000",
+    "native": "بيشة",
+    "timezone": "Asia/Riyadh",
+    "translations": {},
+    "type": "town",
+    "population": 115537,
+    "wikiDataId": "Q97290752"
+  },
+  {
     "id": 102861,
     "name": "Khamis Mushait",
     "state_id": 2853,
@@ -59,7 +75,7 @@
     "native": "خميس مشيط",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 387553,
     "wikiDataId": "Q759381"
   },
@@ -104,12 +120,12 @@
     "country_code": "SA",
     "latitude": "18.50730000",
     "longitude": "42.04860000",
-    "native": "مونال",
+    "native": "Muhayil",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q3139388"
+    "wikiDataId": null
   },
   {
     "id": 148598,

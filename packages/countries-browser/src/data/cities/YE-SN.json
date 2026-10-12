@@ -11,7 +11,7 @@
     "native": "الهايمة الداخلية",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 83243,
     "wikiDataId": "Q4118988"
   },
@@ -27,7 +27,7 @@
     "native": "الهايمة الخارجية",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 58454,
     "wikiDataId": "Q4117232"
   },
@@ -43,7 +43,7 @@
     "native": "الحصن",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 30124,
     "wikiDataId": "Q4117303"
   },
@@ -64,6 +64,22 @@
     "wikiDataId": "Q4117347"
   },
   {
+    "id": 165855,
+    "name": "Al Madīd",
+    "state_id": 1236,
+    "state_code": "SN",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.64453000",
+    "longitude": "44.47337000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6727704"
+  },
+  {
     "id": 130770,
     "name": "Arhab",
     "state_id": 1236,
@@ -75,7 +91,7 @@
     "native": "أرحب",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 90038,
     "wikiDataId": "Q4117519"
   },
@@ -91,7 +107,7 @@
     "native": "أتيل",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 36253,
     "wikiDataId": "Q4117335"
   },
@@ -107,7 +123,7 @@
     "native": "بني ظبيان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 16262,
     "wikiDataId": "Q4117374"
   },
@@ -123,7 +139,7 @@
     "native": "بني حشيش",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 73957,
     "wikiDataId": "Q4117336"
   },
@@ -139,9 +155,25 @@
     "native": "بني مطر",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 100012,
     "wikiDataId": "Q4117326"
+  },
+  {
+    "id": 165859,
+    "name": "Bayt Marrān",
+    "state_id": 1236,
+    "state_code": "SN",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.69312000",
+    "longitude": "44.20530000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4874900"
   },
   {
     "id": 130825,
@@ -155,7 +187,7 @@
     "native": "بلاد الروس",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 31259,
     "wikiDataId": "Q4907490"
   },
@@ -187,7 +219,7 @@
     "native": "جيهانه",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 50747,
     "wikiDataId": "Q4117339"
   },
@@ -203,9 +235,25 @@
     "native": "خولان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 28925,
     "wikiDataId": "Q4117301"
+  },
+  {
+    "id": 165861,
+    "name": "Mafḩaq",
+    "state_id": 1236,
+    "state_code": "SN",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.10162000",
+    "longitude": "43.90304000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6729467"
   },
   {
     "id": 130909,
@@ -224,6 +272,38 @@
     "wikiDataId": "Q1010798"
   },
   {
+    "id": 165862,
+    "name": "Matnah",
+    "state_id": 1236,
+    "state_code": "SN",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.25333000",
+    "longitude": "44.02472000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6787698"
+  },
+  {
+    "id": 165863,
+    "name": "Matwaḩ",
+    "state_id": 1236,
+    "state_code": "SN",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "15.06760000",
+    "longitude": "43.64213000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6792041"
+  },
+  {
     "id": 130937,
     "name": "Nihm",
     "state_id": 1236,
@@ -235,7 +315,7 @@
     "native": "نهم",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 41502,
     "wikiDataId": "Q4117369"
   },
@@ -251,7 +331,7 @@
     "native": "سعفان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 33722,
     "wikiDataId": "Q4117236"
   },
@@ -283,7 +363,7 @@
     "native": "سنحان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 80399,
     "wikiDataId": "Q4117320"
   },

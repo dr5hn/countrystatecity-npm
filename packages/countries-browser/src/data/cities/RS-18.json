@@ -1,21 +1,5 @@
 [
   {
-    "id": 97231,
-    "name": "Jarebice",
-    "state_id": 3725,
-    "state_code": "18",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "44.53995000",
-    "longitude": "19.42418000",
-    "native": "Јаребице",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "locality",
-    "population": 1549,
-    "wikiDataId": "Q2435677"
-  },
-  {
     "id": 97258,
     "name": "Kraljevo",
     "state_id": 3725,
@@ -27,9 +11,9 @@
     "native": "Краљево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 66688,
-    "wikiDataId": "Q206317"
+    "wikiDataId": "Q2041718"
   },
   {
     "id": 97314,
@@ -43,9 +27,9 @@
     "native": "Нови Пазар",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 85996,
-    "wikiDataId": "Q202453"
+    "wikiDataId": "Q2500635"
   },
   {
     "id": 97361,
@@ -59,7 +43,7 @@
     "native": "Рашка",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4,
     "wikiDataId": "Q2500624"
   },
@@ -75,7 +59,7 @@
     "native": "Тутин",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4,
     "wikiDataId": "Q2043118"
   },
@@ -91,7 +75,7 @@
     "native": "Врњачка Бања",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10207,
     "wikiDataId": "Q2047443"
   }

@@ -16,22 +16,6 @@
     "wikiDataId": "Q18970"
   },
   {
-    "id": 56322,
-    "name": "Badung",
-    "state_id": 1826,
-    "state_code": "BA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.51667000",
-    "longitude": "115.20000000",
-    "native": "Kabupaten Badung",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11482"
-  },
-  {
     "id": 56334,
     "name": "Bangli",
     "state_id": 1826,
@@ -41,7 +25,7 @@
     "latitude": "-8.28333000",
     "longitude": "115.35000000",
     "native": "Kabupaten Bangli",
-    "timezone": "Asia/Jakarta",
+    "timezone": "Asia/Makassar",
     "translations": {},
     "type": "regency",
     "population": null,
@@ -96,20 +80,20 @@
     "wikiDataId": "Q11434"
   },
   {
-    "id": 56379,
-    "name": "Buleleng",
+    "id": 164806,
+    "name": "Dalung",
     "state_id": 1826,
     "state_code": "BA",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-8.25000000",
-    "longitude": "114.96667000",
-    "native": "Kabupaten Buleleng",
+    "latitude": "-8.62553000",
+    "longitude": "115.17042000",
+    "native": null,
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11495"
+    "type": "village",
+    "population": 30228,
+    "wikiDataId": "Q12480741"
   },
   {
     "id": 56263,
@@ -123,7 +107,7 @@
     "native": "Denpasar",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 670210,
     "wikiDataId": "Q11506"
   },
@@ -171,25 +155,9 @@
     "native": "Jimbaran",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1785,
     "wikiDataId": "Q670243"
-  },
-  {
-    "id": 56460,
-    "name": "Kabupaten Klungkung",
-    "state_id": 1826,
-    "state_code": "BA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.55000000",
-    "longitude": "115.40000000",
-    "native": "Kabupaten Klungkung",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11503"
   },
   {
     "id": 56658,
@@ -217,7 +185,7 @@
     "latitude": "-8.38910000",
     "longitude": "115.53930000",
     "native": "Kabupaten Karang Asem",
-    "timezone": "Asia/Jakarta",
+    "timezone": "Asia/Makassar",
     "translations": {},
     "type": "regency",
     "population": null,
@@ -267,7 +235,7 @@
     "native": "Legian",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 10000,
     "wikiDataId": "Q985292"
   },
@@ -286,6 +254,22 @@
     "type": "city",
     "population": 10000,
     "wikiDataId": "Q1872519"
+  },
+  {
+    "id": 56322,
+    "name": "Mangupura",
+    "state_id": 1826,
+    "state_code": "BA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.60277778",
+    "longitude": "115.17861111",
+    "native": "Mangupura",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q6749189"
   },
   {
     "id": 56879,
@@ -312,7 +296,7 @@
     "country_code": "ID",
     "latitude": "-8.35694000",
     "longitude": "114.61694000",
-    "native": "Bangsa",
+    "native": "Negara",
     "timezone": "Asia/Makassar",
     "translations": {},
     "type": "city",
@@ -333,7 +317,23 @@
     "translations": {},
     "type": "city",
     "population": 2500,
-    "wikiDataId": "Q25080319"
+    "wikiDataId": null
+  },
+  {
+    "id": 56460,
+    "name": "Semarapura",
+    "state_id": 1826,
+    "state_code": "BA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.53527778",
+    "longitude": "115.40361111",
+    "native": "Semarapura",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q7449126"
   },
   {
     "id": 56970,
@@ -347,7 +347,7 @@
     "native": "Seririt",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 25000,
     "wikiDataId": "Q2297206"
   },

@@ -1,5 +1,21 @@
 [
   {
+    "id": 108195,
+    "name": "Amasya",
+    "state_id": 2161,
+    "state_code": "05",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "40.65333000",
+    "longitude": "35.83306000",
+    "native": "Amasya",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 119931,
+    "wikiDataId": "Q170532"
+  },
+  {
     "id": 107716,
     "name": "Göynücek",
     "state_id": 2161,
@@ -13,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2796,
-    "wikiDataId": "Q6710593"
+    "wikiDataId": null
   },
   {
     "id": 107737,
@@ -29,7 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": 14734,
-    "wikiDataId": "Q1003182"
+    "wikiDataId": null
   },
   {
     "id": 107781,
@@ -43,25 +59,9 @@
     "native": "Hamamözü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 3567,
+    "type": "municipality",
+    "population": 2090,
     "wikiDataId": "Q2670691"
-  },
-  {
-    "id": 108195,
-    "name": "Merkez",
-    "state_id": 2161,
-    "state_code": "05",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "40.61939000",
-    "longitude": "35.87016000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q3055997"
   },
   {
     "id": 108200,
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 46608,
-    "wikiDataId": "Q5248613"
+    "wikiDataId": null
   },
   {
     "id": 108554,
@@ -109,6 +109,6 @@
     "translations": {},
     "type": "adm2",
     "population": 19253,
-    "wikiDataId": "Q1023307"
+    "wikiDataId": null
   }
 ]

@@ -11,7 +11,7 @@
     "native": "Бабушница",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q15093698"
   },
@@ -27,7 +27,7 @@
     "native": "Бела Паланка",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q1264591"
   },
@@ -43,7 +43,7 @@
     "native": "Димитровград",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q4161724"
   },
@@ -61,22 +61,6 @@
     "translations": {},
     "type": "adm2",
     "population": 40678,
-    "wikiDataId": "Q19429"
-  },
-  {
-    "id": 97402,
-    "name": "Sumulicë",
-    "state_id": 3712,
-    "state_code": "22",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "42.38682000",
-    "longitude": "21.73400000",
-    "native": "Шумулица",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": 2350,
-    "wikiDataId": "Q170287"
+    "wikiDataId": null
   }
 ]

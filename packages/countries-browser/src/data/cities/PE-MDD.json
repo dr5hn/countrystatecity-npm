@@ -11,9 +11,9 @@
     "native": "Iberia",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5791,
-    "wikiDataId": "Q504394"
+    "wikiDataId": "Q6317912"
   },
   {
     "id": 80858,
@@ -27,7 +27,7 @@
     "native": "Provincia de Manú",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 18549,
     "wikiDataId": "Q2320717"
   },
@@ -43,25 +43,9 @@
     "native": "Provincia de Tahuamanú",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 11047,
     "wikiDataId": "Q945636"
-  },
-  {
-    "id": 80900,
-    "name": "Provincia de Tambopata",
-    "state_id": 3678,
-    "state_code": "MDD",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-12.19948000",
-    "longitude": "-70.05006000",
-    "native": "Provincia de Tambopata",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 111474,
-    "wikiDataId": "Q1999122"
   },
   {
     "id": 80918,
@@ -107,8 +91,8 @@
     "native": "Tambopata",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 38966,
-    "wikiDataId": "Q723584"
+    "wikiDataId": "Q6317167"
   }
 ]

@@ -11,7 +11,7 @@
     "native": "Багратионовск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6379,
     "wikiDataId": "Q104354"
   },
@@ -43,7 +43,7 @@
     "native": "Большое Исаково",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3187,
     "wikiDataId": "Q31918310"
   },
@@ -59,7 +59,7 @@
     "native": "Черняховск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 45187,
     "wikiDataId": "Q5655"
   },
@@ -91,7 +91,7 @@
     "native": "Гурьевск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11474,
     "wikiDataId": "Q134707"
   },
@@ -123,7 +123,7 @@
     "native": "Гвардейск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 13962,
     "wikiDataId": "Q5668"
   },
@@ -139,7 +139,7 @@
     "native": "Калининград",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 488690,
     "wikiDataId": "Q1829"
   },
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 2143,
-    "wikiDataId": "Q35695538"
+    "wikiDataId": null
   },
   {
     "id": 99356,
@@ -171,7 +171,7 @@
     "native": "Краснознаменск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3374,
     "wikiDataId": "Q155606"
   },
@@ -187,7 +187,7 @@
     "native": "Ладушкин",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3634,
     "wikiDataId": "Q23116"
   },
@@ -203,7 +203,7 @@
     "native": "Малое Исаково",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2563,
     "wikiDataId": "Q35723631"
   },
@@ -219,7 +219,7 @@
     "native": "Мамоново",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 8295,
     "wikiDataId": "Q158101"
   },
@@ -235,25 +235,9 @@
     "native": "Неман",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 12507,
     "wikiDataId": "Q5671"
-  },
-  {
-    "id": 100101,
-    "name": "Nemanskiy Rayon",
-    "state_id": 1902,
-    "state_code": "KGD",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "54.91667000",
-    "longitude": "22.00000000",
-    "native": "Неманский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q80300"
   },
   {
     "id": 100111,
@@ -281,7 +265,7 @@
     "latitude": "54.58333000",
     "longitude": "22.58333000",
     "native": "Нестеровский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Kaliningrad",
     "translations": {},
     "type": "city",
     "population": null,
@@ -315,25 +299,9 @@
     "native": "Озерск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5705,
     "wikiDataId": "Q175795"
-  },
-  {
-    "id": 100520,
-    "name": "Ozerskiy Rayon",
-    "state_id": 1902,
-    "state_code": "KGD",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "54.41667000",
-    "longitude": "22.00000000",
-    "native": "Озерский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q80296"
   },
   {
     "id": 100680,
@@ -347,7 +315,7 @@
     "native": "Пионерский",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11856,
     "wikiDataId": "Q179439"
   },
@@ -363,7 +331,7 @@
     "native": "Полесск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6954,
     "wikiDataId": "Q182892"
   },
@@ -379,7 +347,7 @@
     "native": "Правдинск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3934,
     "wikiDataId": "Q183193"
   },
@@ -411,7 +379,7 @@
     "native": "Славск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5248,
     "wikiDataId": "Q194708"
   },
@@ -425,7 +393,7 @@
     "latitude": "55.00000000",
     "longitude": "21.66667000",
     "native": "Славский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Kaliningrad",
     "translations": {},
     "type": "adm2",
     "population": null,
@@ -443,7 +411,7 @@
     "native": "Советск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 38614,
     "wikiDataId": "Q5647"
   },
@@ -459,7 +427,7 @@
     "native": "Светлогорск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11000,
     "wikiDataId": "Q193595"
   },
@@ -509,7 +477,7 @@
     "translations": {},
     "type": "city",
     "population": 1988,
-    "wikiDataId": "Q3266276"
+    "wikiDataId": null
   },
   {
     "id": 102486,
@@ -523,7 +491,7 @@
     "native": "Янтарный",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5527,
     "wikiDataId": "Q76785"
   },
@@ -539,7 +507,7 @@
     "native": "Южный",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2772,
     "wikiDataId": "Q33523767"
   },
@@ -555,7 +523,7 @@
     "native": "Зеленоградск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17085,
     "wikiDataId": "Q5584"
   },
@@ -571,7 +539,7 @@
     "native": "Железнодорожный",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2984,
     "wikiDataId": "Q1897000"
   },
@@ -587,7 +555,7 @@
     "native": "Знаменск",
     "timezone": "Europe/Kaliningrad",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4600,
     "wikiDataId": "Q1779185"
   }

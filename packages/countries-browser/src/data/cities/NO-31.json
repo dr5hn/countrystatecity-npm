@@ -11,8 +11,8 @@
     "native": "Aremark",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1346,
+    "type": "municipality",
+    "population": 1354,
     "wikiDataId": "Q48393"
   },
   {
@@ -48,6 +48,22 @@
     "wikiDataId": "Q113740"
   },
   {
+    "id": 165369,
+    "name": "Elvestad",
+    "state_id": 5450,
+    "state_code": "31",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.62401000",
+    "longitude": "10.95080000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2744355"
+  },
+  {
     "id": 79158,
     "name": "Fossby",
     "state_id": 5450,
@@ -75,8 +91,8 @@
     "native": "Fredrikstad",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 85862,
+    "type": "city",
+    "population": 86243,
     "wikiDataId": "Q107135"
   },
   {
@@ -123,8 +139,8 @@
     "native": "Hvaler",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 4777,
+    "type": "municipality",
+    "population": 4714,
     "wikiDataId": "Q488435"
   },
   {
@@ -139,8 +155,8 @@
     "native": "Karlshus",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 1801,
+    "type": "locality",
+    "population": 2491,
     "wikiDataId": "Q2258399"
   },
   {
@@ -152,7 +168,7 @@
     "country_code": "NO",
     "latitude": "59.62424000",
     "longitude": "11.03274000",
-    "native": "Sykistisk",
+    "native": "Knappstad",
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "city",
@@ -171,8 +187,8 @@
     "native": "Larkollen",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1544,
+    "type": "locality",
+    "population": 1567,
     "wikiDataId": "Q3356486"
   },
   {
@@ -188,7 +204,7 @@
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "locality",
-    "population": 2331,
+    "population": 3348,
     "wikiDataId": "Q2002924"
   },
   {
@@ -200,11 +216,11 @@
     "country_code": "NO",
     "latitude": "59.47952000",
     "longitude": "11.65917000",
-    "native": "Markør",
+    "native": "Marker",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 1722,
+    "type": "municipality",
+    "population": 3647,
     "wikiDataId": "Q486736"
   },
   {
@@ -216,7 +232,7 @@
     "country_code": "NO",
     "latitude": "59.43436000",
     "longitude": "10.65968000",
-    "native": "Mose",
+    "native": "Moss",
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "adm2",
@@ -235,8 +251,8 @@
     "native": "Mysen",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 5516,
+    "type": "town",
+    "population": 7292,
     "wikiDataId": "Q2719327"
   },
   {
@@ -251,8 +267,8 @@
     "native": "Ørje",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 1859,
+    "type": "locality",
+    "population": 1842,
     "wikiDataId": "Q2731440"
   },
   {
@@ -264,11 +280,11 @@
     "country_code": "NO",
     "latitude": "59.35162000",
     "longitude": "10.87135000",
-    "native": "Seire",
+    "native": "Råde",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 7850,
+    "type": "municipality",
+    "population": 7892,
     "wikiDataId": "Q483906"
   },
   {
@@ -283,25 +299,9 @@
     "native": "Rakkestad",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 8527,
+    "type": "municipality",
+    "population": 8583,
     "wikiDataId": "Q483969"
-  },
-  {
-    "id": 79467,
-    "name": "Rømskog",
-    "state_id": 5450,
-    "state_code": "31",
-    "country_id": 165,
-    "country_code": "NO",
-    "latitude": "59.74968000",
-    "longitude": "11.81122000",
-    "native": "Rømskog",
-    "timezone": "Europe/Oslo",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q113622"
   },
   {
     "id": 79460,
@@ -347,8 +347,8 @@
     "native": "Sarpsborg",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm1",
-    "population": 60139,
+    "type": "city",
+    "population": 60614,
     "wikiDataId": "Q108025"
   },
   {
@@ -363,8 +363,8 @@
     "native": "Skiptvet",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 3956,
+    "type": "municipality",
+    "population": 3940,
     "wikiDataId": "Q156420"
   },
   {
@@ -379,8 +379,8 @@
     "native": "Skjærhalden",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 642,
+    "type": "locality",
+    "population": 906,
     "wikiDataId": "Q2728826"
   },
   {
@@ -395,9 +395,25 @@
     "native": "Skjeberg",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1594,
+    "type": "locality",
+    "population": 1614,
     "wikiDataId": "Q1988168"
+  },
+  {
+    "id": 165398,
+    "name": "Skjønhaug",
+    "state_id": 5450,
+    "state_code": "31",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.64069000",
+    "longitude": "11.31591000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "locality",
+    "population": 2189,
+    "wikiDataId": "Q3735034"
   },
   {
     "id": 79536,
@@ -414,6 +430,22 @@
     "type": "adm2",
     "population": 6694,
     "wikiDataId": "Q48668"
+  },
+  {
+    "id": 79601,
+    "name": "Tomter",
+    "state_id": 5450,
+    "state_code": "31",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.65910000",
+    "longitude": "10.99487000",
+    "native": "Tomter",
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "city",
+    "population": 2238,
+    "wikiDataId": "Q2143217"
   },
   {
     "id": 79612,
@@ -443,8 +475,8 @@
     "native": "Våler",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 3559,
+    "type": "municipality",
+    "population": 6229,
     "wikiDataId": "Q499446"
   }
 ]

@@ -9,9 +9,9 @@
     "latitude": "-19.89787000",
     "longitude": "-52.95089000",
     "native": "Água Clara",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 17901,
     "wikiDataId": "Q1796727"
   },
@@ -25,11 +25,11 @@
     "latitude": "-18.19955000",
     "longitude": "-53.75814000",
     "native": "Alcinópolis",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4649,
-    "wikiDataId": "Q986243"
+    "wikiDataId": "Q2012238"
   },
   {
     "id": 10202,
@@ -41,11 +41,11 @@
     "latitude": "-23.12710000",
     "longitude": "-54.95790000",
     "native": "Amambai",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 39325,
-    "wikiDataId": "Q1756032"
+    "wikiDataId": "Q453479"
   },
   {
     "id": 10238,
@@ -57,11 +57,11 @@
     "latitude": "-20.76269000",
     "longitude": "-55.73052000",
     "native": "Anastácio",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 24781,
-    "wikiDataId": "Q22067433"
+    "wikiDataId": "Q10854988"
   },
   {
     "id": 10239,
@@ -75,9 +75,9 @@
     "native": "Anaurilândia",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7688,
-    "wikiDataId": "Q22067433"
+    "wikiDataId": "Q1806340"
   },
   {
     "id": 10259,
@@ -89,9 +89,9 @@
     "latitude": "-22.02780000",
     "longitude": "-53.86668000",
     "native": "Angélica",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11308,
     "wikiDataId": "Q1793031"
   },
@@ -105,9 +105,9 @@
     "latitude": "-22.20114000",
     "longitude": "-55.93897000",
     "native": "Antônio João",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9717,
     "wikiDataId": "Q22067430"
   },
@@ -121,10 +121,10 @@
     "latitude": "-20.00909000",
     "longitude": "-51.34632000",
     "native": "Aparecida do Taboado",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 27674,
+    "type": "municipality",
+    "population": 29826,
     "wikiDataId": "Q22067429"
   },
   {
@@ -137,9 +137,9 @@
     "latitude": "-20.45790000",
     "longitude": "-55.83801000",
     "native": "Aquidauana",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 48689,
     "wikiDataId": "Q1792157"
   },
@@ -153,9 +153,9 @@
     "latitude": "-22.90946000",
     "longitude": "-55.37007000",
     "native": "Aral Moreira",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11125,
     "wikiDataId": "Q22067428"
   },
@@ -169,11 +169,11 @@
     "latitude": "-19.80863000",
     "longitude": "-54.33095000",
     "native": "Bandeirantes",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 31747,
-    "wikiDataId": "Q2064780"
+    "type": "municipality",
+    "population": 8342,
+    "wikiDataId": "Q2012476"
   },
   {
     "id": 10579,
@@ -185,27 +185,11 @@
     "latitude": "-21.78550000",
     "longitude": "-52.56542000",
     "native": "Bataguus",
-    "timezone": "America/Sao_Paulo",
-    "translations": {},
-    "type": "city",
-    "population": 24222,
-    "wikiDataId": "Q971397"
-  },
-  {
-    "id": 10580,
-    "name": "Bataiporã",
-    "state_id": 2010,
-    "state_code": "MS",
-    "country_id": 31,
-    "country_code": "BR",
-    "latitude": "-22.29528000",
-    "longitude": "-53.27111000",
-    "native": "Breakbong quebrado",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 10712,
-    "wikiDataId": "Q1796657"
+    "type": "municipality",
+    "population": 24222,
+    "wikiDataId": "Q1805582"
   },
   {
     "id": 10584,
@@ -217,11 +201,27 @@
     "latitude": "-22.46496000",
     "longitude": "-53.17683000",
     "native": "Batayporã",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10947,
-    "wikiDataId": "Q650500"
+    "wikiDataId": "Q1796657"
+  },
+  {
+    "id": 10580,
+    "name": "Batayporã",
+    "state_id": 2010,
+    "state_code": "MS",
+    "country_id": 31,
+    "country_code": "BR",
+    "latitude": "-22.29528000",
+    "longitude": "-53.27111000",
+    "native": "Batayporã",
+    "timezone": "America/Campo_Grande",
+    "translations": {},
+    "type": "municipality",
+    "population": 10947,
+    "wikiDataId": "Q1796657"
   },
   {
     "id": 10594,
@@ -233,10 +233,10 @@
     "latitude": "-22.10889000",
     "longitude": "-56.52111000",
     "native": "Bela Vista",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 21881,
     "wikiDataId": "Q1148023"
   },
   {
@@ -249,11 +249,11 @@
     "latitude": "-20.48226000",
     "longitude": "-56.65893000",
     "native": "Bodoquena",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "adm2",
-    "population": 8567,
-    "wikiDataId": "Q524487"
+    "type": "municipality",
+    "population": 8887,
+    "wikiDataId": "Q966840"
   },
   {
     "id": 10737,
@@ -267,8 +267,8 @@
     "native": "Bonito",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 23659,
+    "type": "municipality",
+    "population": 25034,
     "wikiDataId": "Q768535"
   },
   {
@@ -281,11 +281,11 @@
     "latitude": "-21.11993000",
     "longitude": "-52.43829000",
     "native": "Brasilândia",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11833,
-    "wikiDataId": "Q2329749"
+    "wikiDataId": "Q1805829"
   },
   {
     "id": 10843,
@@ -299,8 +299,8 @@
     "native": "Caarapó",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 30612,
+    "type": "municipality",
+    "population": 32748,
     "wikiDataId": "Q279492"
   },
   {
@@ -313,9 +313,9 @@
     "latitude": "-19.05769000",
     "longitude": "-53.85781000",
     "native": "Camapuã",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 13928,
     "wikiDataId": "Q1797146"
   },
@@ -331,8 +331,8 @@
     "native": "Campo Grande",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "adm1",
-    "population": 906092,
+    "type": "municipality",
+    "population": 962883,
     "wikiDataId": "Q168929"
   },
   {
@@ -349,7 +349,7 @@
     "translations": {},
     "type": "city",
     "population": 22806,
-    "wikiDataId": "Q1773327"
+    "wikiDataId": null
   },
   {
     "id": 11102,
@@ -360,12 +360,12 @@
     "country_code": "BR",
     "latitude": "-21.96712000",
     "longitude": "-57.12672000",
-    "native": "Lesma",
-    "timezone": "America/Sao_Paulo",
+    "native": "Caracol",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5096,
-    "wikiDataId": "Q1803147"
+    "wikiDataId": "Q2289933"
   },
   {
     "id": 11183,
@@ -379,7 +379,7 @@
     "native": "Cassilândia",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21565,
     "wikiDataId": "Q1806605"
   },
@@ -393,11 +393,11 @@
     "latitude": "-19.06696000",
     "longitude": "-52.74056000",
     "native": "Chapadão do Sul",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 34606,
-    "wikiDataId": "Q1784522"
+    "wikiDataId": "Q1805278"
   },
   {
     "id": 11407,
@@ -409,9 +409,9 @@
     "latitude": "-19.81861000",
     "longitude": "-55.00199000",
     "native": "Corguinho",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4892,
     "wikiDataId": "Q2012367"
   },
@@ -425,11 +425,11 @@
     "latitude": "-23.33759000",
     "longitude": "-55.38899000",
     "native": "Coronel Sapucaia",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14685,
-    "wikiDataId": "Q1803215"
+    "wikiDataId": "Q1806310"
   },
   {
     "id": 11442,
@@ -443,8 +443,8 @@
     "native": "Corumbá",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 96520,
+    "type": "municipality",
+    "population": 98751,
     "wikiDataId": "Q271215"
   },
   {
@@ -457,10 +457,10 @@
     "latitude": "-18.63739000",
     "longitude": "-53.27361000",
     "native": "Costa Rica",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 12930,
+    "type": "municipality",
+    "population": 28740,
     "wikiDataId": "Q1024894"
   },
   {
@@ -475,7 +475,7 @@
     "native": "Coxim",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 33440,
     "wikiDataId": "Q1793013"
   },
@@ -489,11 +489,11 @@
     "latitude": "-22.08040000",
     "longitude": "-54.20322000",
     "native": "Deodapol",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14317,
-    "wikiDataId": "Q1847425"
+    "wikiDataId": "Q1805488"
   },
   {
     "id": 11616,
@@ -505,11 +505,11 @@
     "latitude": "-20.57189000",
     "longitude": "-55.36839000",
     "native": "Dois Irmãos do Buriti",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11521,
-    "wikiDataId": "Q685613"
+    "wikiDataId": "Q777024"
   },
   {
     "id": 11651,
@@ -521,9 +521,9 @@
     "latitude": "-21.98525000",
     "longitude": "-54.58145000",
     "native": "Douradina",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5768,
     "wikiDataId": "Q1805588"
   },
@@ -539,8 +539,8 @@
     "native": "Dourados",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 162202,
+    "type": "municipality",
+    "population": 264017,
     "wikiDataId": "Q651874"
   },
   {
@@ -555,8 +555,8 @@
     "native": "Eldorado",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 13069,
+    "type": "municipality",
+    "population": 11622,
     "wikiDataId": "Q2019293"
   },
   {
@@ -569,11 +569,11 @@
     "latitude": "-22.34424000",
     "longitude": "-54.37064000",
     "native": "Fátima do Sul",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21504,
-    "wikiDataId": "Q593133"
+    "wikiDataId": "Q597397"
   },
   {
     "id": 11817,
@@ -587,9 +587,9 @@
     "native": "Figueirão",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3751,
-    "wikiDataId": "Q2029914"
+    "wikiDataId": "Q2289863"
   },
   {
     "id": 11952,
@@ -601,11 +601,11 @@
     "latitude": "-22.48388000",
     "longitude": "-54.09006000",
     "native": "Glória de Dourados",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10817,
-    "wikiDataId": "Q2012397"
+    "wikiDataId": "Q1806358"
   },
   {
     "id": 12079,
@@ -617,9 +617,9 @@
     "latitude": "-21.61081000",
     "longitude": "-55.93458000",
     "native": "Guia Lopes da Laguna",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10116,
     "wikiDataId": "Q1793002"
   },
@@ -633,9 +633,9 @@
     "latitude": "-23.42596000",
     "longitude": "-54.55844000",
     "native": "Iguatemi",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 13960,
     "wikiDataId": "Q431778"
   },
@@ -649,11 +649,11 @@
     "latitude": "-19.67150000",
     "longitude": "-52.04393000",
     "native": "Inocência",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8764,
-    "wikiDataId": "Q986245"
+    "wikiDataId": "Q1805505"
   },
   {
     "id": 12433,
@@ -665,11 +665,11 @@
     "latitude": "-21.92184000",
     "longitude": "-54.81409000",
     "native": "Itaporã",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 25263,
-    "wikiDataId": "Q2079014"
+    "wikiDataId": "Q1805496"
   },
   {
     "id": 12445,
@@ -681,11 +681,11 @@
     "latitude": "-23.47080000",
     "longitude": "-54.19281000",
     "native": "Itaquiraí",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20060,
-    "wikiDataId": "Q1750103"
+    "wikiDataId": "Q1805021"
   },
   {
     "id": 12502,
@@ -697,11 +697,11 @@
     "latitude": "-22.38076000",
     "longitude": "-53.75565000",
     "native": "Ivinhema",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 30001,
-    "wikiDataId": "Q745307"
+    "wikiDataId": "Q2011871"
   },
   {
     "id": 12574,
@@ -713,11 +713,11 @@
     "latitude": "-23.79410000",
     "longitude": "-54.54402000",
     "native": "Japorã",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8441,
-    "wikiDataId": "Q1112881"
+    "wikiDataId": "Q1805419"
   },
   {
     "id": 12579,
@@ -729,11 +729,11 @@
     "latitude": "-20.27238000",
     "longitude": "-54.23743000",
     "native": "Jaraguari",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7480,
-    "wikiDataId": "Q2011203"
+    "wikiDataId": "Q1805001"
   },
   {
     "id": 12583,
@@ -747,8 +747,8 @@
     "native": "Jardim",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 23981,
+    "type": "municipality",
+    "population": 24504,
     "wikiDataId": "Q927504"
   },
   {
@@ -761,11 +761,11 @@
     "latitude": "-22.73989000",
     "longitude": "-53.81496000",
     "native": "Jateí",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3596,
-    "wikiDataId": "Q963195"
+    "wikiDataId": "Q971568"
   },
   {
     "id": 12711,
@@ -776,10 +776,10 @@
     "country_code": "BR",
     "latitude": "-22.85356000",
     "longitude": "-54.52155000",
-    "native": "Vem.",
-    "timezone": "America/Sao_Paulo",
+    "native": "Juti",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7067,
     "wikiDataId": "Q991137"
   },
@@ -793,9 +793,9 @@
     "latitude": "-19.10505000",
     "longitude": "-57.58416000",
     "native": "Ladário",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 22425,
     "wikiDataId": "Q1798712"
   },
@@ -809,11 +809,11 @@
     "latitude": "-22.71043000",
     "longitude": "-55.08248000",
     "native": "Laguna Carapã",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7037,
-    "wikiDataId": "Q1615291"
+    "wikiDataId": "Q384939"
   },
   {
     "id": 12966,
@@ -827,8 +827,8 @@
     "native": "Maracaju",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 45047,
+    "type": "municipality",
+    "population": 48073,
     "wikiDataId": "Q1792127"
   },
   {
@@ -843,8 +843,8 @@
     "native": "Miranda",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 25536,
+    "type": "municipality",
+    "population": 26512,
     "wikiDataId": "Q519471"
   },
   {
@@ -857,9 +857,9 @@
     "latitude": "-23.92628000",
     "longitude": "-54.25746000",
     "native": "Mundo Novo",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20087,
     "wikiDataId": "Q2289881"
   },
@@ -875,7 +875,7 @@
     "native": "Naviraí",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 53014,
     "wikiDataId": "Q1793018"
   },
@@ -889,11 +889,11 @@
     "latitude": "-21.18151000",
     "longitude": "-55.75856000",
     "native": "Nioaque",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 13354,
-    "wikiDataId": "Q2020346"
+    "wikiDataId": "Q1805437"
   },
   {
     "id": 13348,
@@ -905,11 +905,11 @@
     "latitude": "-21.48079000",
     "longitude": "-54.15260000",
     "native": "Nova Alvorada do Sul",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 23409,
-    "wikiDataId": "Q2104808"
+    "wikiDataId": "Q1806336"
   },
   {
     "id": 13351,
@@ -921,11 +921,11 @@
     "latitude": "-21.88205000",
     "longitude": "-53.46637000",
     "native": "Nova Andradina",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 50848,
-    "wikiDataId": "Q2104808"
+    "wikiDataId": "Q746291"
   },
   {
     "id": 13465,
@@ -937,11 +937,11 @@
     "latitude": "-22.63068000",
     "longitude": "-53.73643000",
     "native": "Novo Horizonte do Sul",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4801,
-    "wikiDataId": "Q1815907"
+    "wikiDataId": "Q1805007"
   },
   {
     "id": 13661,
@@ -971,7 +971,7 @@
     "native": "Paranaíba",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 42638,
     "wikiDataId": "Q925758"
   },
@@ -987,8 +987,8 @@
     "native": "Paranhos",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 12921,
+    "type": "municipality",
+    "population": 13368,
     "wikiDataId": "Q522494"
   },
   {
@@ -1001,11 +1001,11 @@
     "latitude": "-17.83882000",
     "longitude": "-54.12943000",
     "native": "Pedro Gomes",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6910,
-    "wikiDataId": "Q1957216"
+    "wikiDataId": "Q1804993"
   },
   {
     "id": 13958,
@@ -1019,8 +1019,8 @@
     "native": "Ponta Porã",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 92017,
+    "type": "municipality",
+    "population": 98598,
     "wikiDataId": "Q928094"
   },
   {
@@ -1051,7 +1051,7 @@
     "native": "Porto Murtinho",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 12721,
     "wikiDataId": "Q1792999"
   },
@@ -1067,8 +1067,8 @@
     "native": "Ribas do Rio Pardo",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 23150,
+    "type": "municipality",
+    "population": 24152,
     "wikiDataId": "Q691658"
   },
   {
@@ -1083,7 +1083,7 @@
     "native": "Rio Brilhante",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 40419,
     "wikiDataId": "Q1793219"
   },
@@ -1097,9 +1097,9 @@
     "latitude": "-19.44620000",
     "longitude": "-54.97947000",
     "native": "Rio Negro",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4921,
     "wikiDataId": "Q2167306"
   },
@@ -1115,7 +1115,7 @@
     "native": "Rio Verde de Mato Grosso",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20454,
     "wikiDataId": "Q1805638"
   },
@@ -1129,11 +1129,11 @@
     "latitude": "-19.98799000",
     "longitude": "-54.78184000",
     "native": "Rochedo",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5451,
-    "wikiDataId": "Q1759077"
+    "wikiDataId": "Q2012023"
   },
   {
     "id": 14535,
@@ -1145,11 +1145,11 @@
     "latitude": "-21.35479000",
     "longitude": "-52.69315000",
     "native": "Santa Rita do Pardo",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7165,
-    "wikiDataId": "Q1789077"
+    "wikiDataId": "Q1806537"
   },
   {
     "id": 14911,
@@ -1161,11 +1161,11 @@
     "latitude": "-19.13170000",
     "longitude": "-54.44865000",
     "native": "São Gabriel do Oeste",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 32207,
-    "wikiDataId": "Q1798735"
+    "wikiDataId": "Q1805031"
   },
   {
     "id": 14690,
@@ -1177,11 +1177,11 @@
     "latitude": "-20.24958000",
     "longitude": "-51.83228000",
     "native": "Selvíria",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8716,
-    "wikiDataId": "Q1794971"
+    "wikiDataId": "Q1806509"
   },
   {
     "id": 14766,
@@ -1193,11 +1193,11 @@
     "latitude": "-23.88066000",
     "longitude": "-55.02727000",
     "native": "Sete Quedas",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11322,
-    "wikiDataId": "Q841226"
+    "wikiDataId": "Q1794989"
   },
   {
     "id": 14773,
@@ -1211,7 +1211,7 @@
     "native": "Sidrolândia",
     "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 49735,
     "wikiDataId": "Q1792185"
   },
@@ -1225,11 +1225,11 @@
     "latitude": "-17.67403000",
     "longitude": "-54.45326000",
     "native": "Sonora",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14813,
-    "wikiDataId": "Q1784827"
+    "wikiDataId": "Q2022558"
   },
   {
     "id": 15197,
@@ -1241,11 +1241,11 @@
     "latitude": "-23.68722000",
     "longitude": "-54.91099000",
     "native": "Tacur",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11205,
-    "wikiDataId": "Q22064418"
+    "wikiDataId": "Q1805286"
   },
   {
     "id": 15250,
@@ -1257,11 +1257,11 @@
     "latitude": "-22.73419000",
     "longitude": "-53.48002000",
     "native": "Taquarussu",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3740,
-    "wikiDataId": "Q1759820"
+    "wikiDataId": "Q2082853"
   },
   {
     "id": 15283,
@@ -1273,10 +1273,10 @@
     "latitude": "-20.42068000",
     "longitude": "-55.10602000",
     "native": "Terenos",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 17652,
+    "type": "municipality",
+    "population": 18182,
     "wikiDataId": "Q22067369"
   },
   {
@@ -1289,10 +1289,10 @@
     "latitude": "-20.37964000",
     "longitude": "-52.25961000",
     "native": "Três Lagoas",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
-    "population": 78712,
+    "type": "municipality",
+    "population": 143523,
     "wikiDataId": "Q22067368"
   },
   {
@@ -1305,10 +1305,10 @@
     "latitude": "-22.49155000",
     "longitude": "-54.46183000",
     "native": "Vicentine",
-    "timezone": "America/Sao_Paulo",
+    "timezone": "America/Campo_Grande",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6505,
-    "wikiDataId": "Q22067073"
+    "wikiDataId": "Q1793009"
   }
 ]

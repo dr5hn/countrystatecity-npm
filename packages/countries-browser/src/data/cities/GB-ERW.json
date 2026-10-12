@@ -11,7 +11,7 @@
     "native": "Barrhead",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 17610,
     "wikiDataId": "Q2598252"
   },
@@ -43,25 +43,9 @@
     "native": "Clarkston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 9860,
     "wikiDataId": "Q1446963"
-  },
-  {
-    "id": 49358,
-    "name": "Dunlop",
-    "state_id": 2333,
-    "state_code": "ERW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.71198000",
-    "longitude": "-4.53622000",
-    "native": "Dunlop",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1150,
-    "wikiDataId": "Q3041358"
   },
   {
     "id": 49374,
@@ -75,25 +59,9 @@
     "native": "Eaglesham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3400,
     "wikiDataId": "Q638046"
-  },
-  {
-    "id": 49401,
-    "name": "East Kilbride",
-    "state_id": 2333,
-    "state_code": "ERW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.76412000",
-    "longitude": "-4.17669000",
-    "native": "East Kilbride",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 75120,
-    "wikiDataId": "Q654226"
   },
   {
     "id": 49409,
@@ -107,41 +75,25 @@
     "native": "East Renfrewshire",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 95530,
     "wikiDataId": "Q211925"
   },
   {
-    "id": 49544,
-    "name": "Fenwick",
+    "id": 49639,
+    "name": "Giffnock",
     "state_id": 2333,
     "state_code": "ERW",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.65823000",
-    "longitude": "-4.44342000",
-    "native": "Fenwick",
+    "latitude": "55.80373000",
+    "longitude": "-4.29488000",
+    "native": "Giffnock",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 1200,
-    "wikiDataId": "Q5443668"
-  },
-  {
-    "id": 50150,
-    "name": "Kilmarnock",
-    "state_id": 2333,
-    "state_code": "ERW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.61171000",
-    "longitude": "-4.49581000",
-    "native": "Kilmarnock",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 46770,
-    "wikiDataId": "Q576562"
+    "type": "section",
+    "population": 12300,
+    "wikiDataId": "Q1016935"
   },
   {
     "id": 50673,
@@ -155,7 +107,7 @@
     "native": "Neilston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5170,
     "wikiDataId": "Q747777"
   },
@@ -171,25 +123,9 @@
     "native": "Newton Mearns",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 26600,
     "wikiDataId": "Q1018543"
-  },
-  {
-    "id": 51445,
-    "name": "Stewarton",
-    "state_id": 2333,
-    "state_code": "ERW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.67986000",
-    "longitude": "-4.51435000",
-    "native": "Stewarton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7140,
-    "wikiDataId": "Q1011948"
   },
   {
     "id": 51602,
@@ -203,9 +139,9 @@
     "native": "Thornliebank",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 4070,
-    "wikiDataId": "Q7796462"
+    "wikiDataId": null
   },
   {
     "id": 51769,
@@ -219,8 +155,8 @@
     "native": "Waterfoot",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1330,
-    "wikiDataId": "Q686675"
+    "wikiDataId": null
   }
 ]

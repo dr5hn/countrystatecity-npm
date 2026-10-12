@@ -8,12 +8,28 @@
     "country_code": "TW",
     "latitude": "23.47722000",
     "longitude": "120.44527000",
-    "native": "嘉义",
+    "native": "嘉義",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 260749,
     "wikiDataId": "Q249995"
+  },
+  {
+    "id": 163998,
+    "name": "East District",
+    "state_id": 3408,
+    "state_code": "CYI",
+    "country_id": 216,
+    "country_code": "TW",
+    "latitude": "23.48890000",
+    "longitude": "120.47700000",
+    "native": "東區",
+    "timezone": "Asia/Taipei",
+    "translations": {},
+    "type": "section",
+    "population": null,
+    "wikiDataId": "Q707815"
   },
   {
     "id": 109026,
@@ -24,11 +40,27 @@
     "country_code": "TW",
     "latitude": "23.48556000",
     "longitude": "120.44472000",
-    "native": "痞子头",
+    "native": "埤子頭",
     "timezone": "Asia/Taipei",
     "translations": {},
     "type": "section",
     "population": 5000,
-    "wikiDataId": "Q194989"
+    "wikiDataId": null
+  },
+  {
+    "id": 163999,
+    "name": "West District",
+    "state_id": 3408,
+    "state_code": "CYI",
+    "country_id": 216,
+    "country_code": "TW",
+    "latitude": "23.48370000",
+    "longitude": "120.42200000",
+    "native": "西區",
+    "timezone": "Asia/Taipei",
+    "translations": {},
+    "type": "section",
+    "population": null,
+    "wikiDataId": "Q707524"
   }
 ]

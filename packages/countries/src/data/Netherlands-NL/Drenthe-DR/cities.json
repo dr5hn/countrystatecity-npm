@@ -11,7 +11,7 @@
     "native": "Aalden",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1625,
     "wikiDataId": "Q2432807"
   },
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "section",
     "population": 7840,
-    "wikiDataId": "Q2265087"
+    "wikiDataId": null
   },
   {
     "id": 77349,
@@ -40,10 +40,10 @@
     "country_code": "NL",
     "latitude": "53.05750000",
     "longitude": "6.71944000",
-    "native": "Ander",
+    "native": "Annen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3405,
     "wikiDataId": "Q2439040"
   },
@@ -59,7 +59,7 @@
     "native": "Assen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 68836,
     "wikiDataId": "Q49280472"
   },
@@ -75,9 +75,9 @@
     "native": "Ballast",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1710,
-    "wikiDataId": "Q2240991"
+    "wikiDataId": "Q1921682"
   },
   {
     "id": 77380,
@@ -91,7 +91,7 @@
     "native": "Barger-Oosterveld",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3090,
     "wikiDataId": "Q2884467"
   },
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "section",
     "population": 9060,
-    "wikiDataId": "Q2884467"
+    "wikiDataId": "Q1979105"
   },
   {
     "id": 77395,
@@ -123,7 +123,7 @@
     "native": "Beilen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9495,
     "wikiDataId": "Q2034045"
   },
@@ -136,10 +136,10 @@
     "country_code": "NL",
     "latitude": "52.92333000",
     "longitude": "6.79306000",
-    "native": "Borg",
+    "native": "Borger",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4570,
     "wikiDataId": "Q2301825"
   },
@@ -155,9 +155,9 @@
     "native": "Coevorden",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14600,
-    "wikiDataId": "Q2369076"
+    "wikiDataId": "Q33430758"
   },
   {
     "id": 77528,
@@ -168,10 +168,10 @@
     "country_code": "NL",
     "latitude": "52.69917000",
     "longitude": "6.75556000",
-    "native": "Vallei",
+    "native": "Dalen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3295,
     "wikiDataId": "Q1974246"
   },
@@ -189,7 +189,7 @@
     "translations": {},
     "type": "section",
     "population": 1275,
-    "wikiDataId": "Q1616247"
+    "wikiDataId": null
   },
   {
     "id": 77563,
@@ -203,7 +203,7 @@
     "native": "De Wijk",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2495,
     "wikiDataId": "Q2187499"
   },
@@ -219,7 +219,7 @@
     "native": "Diever",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2175,
     "wikiDataId": "Q2497377"
   },
@@ -235,7 +235,7 @@
     "native": "Dwingeloo",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2430,
     "wikiDataId": "Q1268530"
   },
@@ -251,7 +251,7 @@
     "native": "Eelde",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7102,
     "wikiDataId": "Q225591"
   },
@@ -267,7 +267,7 @@
     "native": "Eext",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1225,
     "wikiDataId": "Q284660"
   },
@@ -283,7 +283,7 @@
     "native": "Emmen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 57010,
     "wikiDataId": "Q6807568"
   },
@@ -299,7 +299,7 @@
     "native": "Emmer-Compascuum",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8130,
     "wikiDataId": "Q3053020"
   },
@@ -315,9 +315,9 @@
     "native": "Emmer-Erfscheidenveen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1875,
-    "wikiDataId": "Q3053020"
+    "wikiDataId": null
   },
   {
     "id": 77656,
@@ -333,7 +333,7 @@
     "translations": {},
     "type": "section",
     "population": 7375,
-    "wikiDataId": "Q3053020"
+    "wikiDataId": null
   },
   {
     "id": 77657,
@@ -349,7 +349,7 @@
     "translations": {},
     "type": "section",
     "population": 5995,
-    "wikiDataId": "Q3053020"
+    "wikiDataId": null
   },
   {
     "id": 77658,
@@ -363,9 +363,9 @@
     "native": "Emmerschans",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1005,
-    "wikiDataId": "Q3053020"
+    "wikiDataId": null
   },
   {
     "id": 77671,
@@ -379,7 +379,7 @@
     "native": "Exloo",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1525,
     "wikiDataId": "Q2317589"
   },
@@ -395,7 +395,7 @@
     "native": "Gasselte",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1495,
     "wikiDataId": "Q2015118"
   },
@@ -411,7 +411,7 @@
     "native": "Gasselternijveen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1780,
     "wikiDataId": "Q2162450"
   },
@@ -427,7 +427,7 @@
     "native": "Gieten",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5877,
     "wikiDataId": "Q3025896"
   },
@@ -443,7 +443,7 @@
     "native": "Havelte",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3060,
     "wikiDataId": "Q1591522"
   },
@@ -459,7 +459,7 @@
     "native": "Hoogeveen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 38754,
     "wikiDataId": "Q18691547"
   },
@@ -475,7 +475,7 @@
     "native": "Klazienaveen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11919,
     "wikiDataId": "Q2738719"
   },
@@ -491,9 +491,9 @@
     "native": "Koekange",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1085,
-    "wikiDataId": "Q76996"
+    "wikiDataId": "Q2023703"
   },
   {
     "id": 78255,
@@ -509,7 +509,7 @@
     "translations": {},
     "type": "section",
     "population": 5105,
-    "wikiDataId": "Q2228461"
+    "wikiDataId": null
   },
   {
     "id": 78354,
@@ -525,7 +525,7 @@
     "translations": {},
     "type": "section",
     "population": 12241,
-    "wikiDataId": "Q2304407"
+    "wikiDataId": null
   },
   {
     "id": 78381,
@@ -539,9 +539,9 @@
     "native": "Meppel",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 34386,
-    "wikiDataId": "Q2246377"
+    "wikiDataId": "Q33461897"
   },
   {
     "id": 78431,
@@ -555,7 +555,7 @@
     "native": "Nieuw-Buinen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4705,
     "wikiDataId": "Q2281401"
   },
@@ -571,7 +571,7 @@
     "native": "Nieuw-Dordrecht",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1370,
     "wikiDataId": "Q3030491"
   },
@@ -587,7 +587,7 @@
     "native": "Nieuw-Roden",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1300,
     "wikiDataId": "Q2231797"
   },
@@ -619,7 +619,7 @@
     "native": "Norg",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3290,
     "wikiDataId": "Q934932"
   },
@@ -635,7 +635,7 @@
     "native": "Odoorn",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1835,
     "wikiDataId": "Q2694139"
   },
@@ -651,7 +651,7 @@
     "native": "Oosterhesselen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1690,
     "wikiDataId": "Q523812"
   },
@@ -667,7 +667,7 @@
     "native": "Paterswolde",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3655,
     "wikiDataId": "Q939394"
   },
@@ -685,7 +685,7 @@
     "translations": {},
     "type": "section",
     "population": 6635,
-    "wikiDataId": "Q939394"
+    "wikiDataId": null
   },
   {
     "id": 78585,
@@ -699,7 +699,7 @@
     "native": "Peize",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5005,
     "wikiDataId": "Q1985729"
   },
@@ -715,7 +715,7 @@
     "native": "Roden",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7030,
     "wikiDataId": "Q2405988"
   },
@@ -731,7 +731,7 @@
     "native": "Rolde",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3740,
     "wikiDataId": "Q2182709"
   },
@@ -744,10 +744,10 @@
     "country_code": "NL",
     "latitude": "52.76250000",
     "longitude": "6.35417000",
-    "native": "ruïnes",
+    "native": "Ruinen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2610,
     "wikiDataId": "Q1007156"
   },
@@ -763,7 +763,7 @@
     "native": "Ruinerwold",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2485,
     "wikiDataId": "Q2215451"
   },
@@ -779,7 +779,7 @@
     "native": "Schoonebeek",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3845,
     "wikiDataId": "Q2006601"
   },
@@ -795,7 +795,7 @@
     "native": "Schoonoord",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1733,
     "wikiDataId": "Q2040082"
   },
@@ -811,7 +811,7 @@
     "native": "Sleen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2200,
     "wikiDataId": "Q2781496"
   },
@@ -827,7 +827,7 @@
     "native": "Tweede Exloërmond",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2365,
     "wikiDataId": "Q585186"
   },
@@ -843,7 +843,7 @@
     "native": "Tynaarlo",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1530,
     "wikiDataId": "Q462504"
   },
@@ -859,7 +859,7 @@
     "native": "Uffelte",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1235,
     "wikiDataId": "Q593294"
   },
@@ -875,7 +875,7 @@
     "native": "Valthe",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1095,
     "wikiDataId": "Q2784673"
   },
@@ -891,7 +891,7 @@
     "native": "Valthermond",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3385,
     "wikiDataId": "Q2786054"
   },
@@ -907,7 +907,7 @@
     "native": "Veenoord",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2175,
     "wikiDataId": "Q2409225"
   },
@@ -923,7 +923,7 @@
     "native": "Vledder",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1815,
     "wikiDataId": "Q770097"
   },
@@ -939,7 +939,7 @@
     "native": "Vries",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3915,
     "wikiDataId": "Q501788"
   },
@@ -955,7 +955,7 @@
     "native": "Weiteveen",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1510,
     "wikiDataId": "Q3567118"
   },
@@ -971,7 +971,7 @@
     "native": "Westerbork",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4605,
     "wikiDataId": "Q2143944"
   },
@@ -987,9 +987,9 @@
     "native": "Westlaren",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1410,
-    "wikiDataId": "Q1352711"
+    "wikiDataId": null
   },
   {
     "id": 78976,
@@ -1005,7 +1005,7 @@
     "translations": {},
     "type": "section",
     "population": 4215,
-    "wikiDataId": "Q3027084"
+    "wikiDataId": null
   },
   {
     "id": 79028,
@@ -1019,7 +1019,7 @@
     "native": "Zuidlaren",
     "timezone": "Europe/Amsterdam",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3905,
     "wikiDataId": "Q228666"
   }

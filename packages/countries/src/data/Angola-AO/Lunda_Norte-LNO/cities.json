@@ -1,5 +1,37 @@
 [
   {
+    "id": 164387,
+    "name": "Cafunfo",
+    "state_id": 223,
+    "state_code": "LNO",
+    "country_id": 7,
+    "country_code": "AO",
+    "latitude": "-8.76720000",
+    "longitude": "17.99572000",
+    "native": null,
+    "timezone": "Africa/Luanda",
+    "translations": {},
+    "type": "city",
+    "population": 90000,
+    "wikiDataId": "Q2944595"
+  },
+  {
+    "id": 164384,
+    "name": "Dundo",
+    "state_id": 223,
+    "state_code": "LNO",
+    "country_id": 7,
+    "country_code": "AO",
+    "latitude": "-7.36643000",
+    "longitude": "20.81557000",
+    "native": null,
+    "timezone": "Africa/Luanda",
+    "translations": {},
+    "type": "adm1",
+    "population": 177604,
+    "wikiDataId": "Q2425651"
+  },
+  {
     "id": 618,
     "name": "Lucapa",
     "state_id": 223,
@@ -14,5 +46,21 @@
     "type": "city",
     "population": 154305,
     "wikiDataId": "Q620866"
+  },
+  {
+    "id": 164394,
+    "name": "Nzaji",
+    "state_id": 223,
+    "state_code": "LNO",
+    "country_id": 7,
+    "country_code": "AO",
+    "latitude": "-7.68896000",
+    "longitude": "21.36201000",
+    "native": null,
+    "timezone": "Africa/Luanda",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2944849"
   }
 ]

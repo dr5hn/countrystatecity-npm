@@ -1,19 +1,51 @@
 [
   {
-    "id": 109018,
-    "name": "Lienchiang",
+    "id": 164266,
+    "name": "Beigan Township",
     "state_id": 3420,
     "state_code": "LIE",
     "country_id": 216,
     "country_code": "TW",
-    "latitude": "26.37004000",
-    "longitude": "120.49545000",
-    "native": "连江",
+    "latitude": "26.22361111",
+    "longitude": "119.98916667",
+    "native": "北竿鄉",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q249872"
+    "wikiDataId": "Q708075"
+  },
+  {
+    "id": 164267,
+    "name": "Dongyin Township",
+    "state_id": 3420,
+    "state_code": "LIE",
+    "country_id": 216,
+    "country_code": "TW",
+    "latitude": "26.37666667",
+    "longitude": "120.50666667",
+    "native": "東引鄉",
+    "timezone": "Asia/Taipei",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q262171"
+  },
+  {
+    "id": 164268,
+    "name": "Juguang Township",
+    "state_id": 3420,
+    "state_code": "LIE",
+    "country_id": 216,
+    "country_code": "TW",
+    "latitude": "25.96400000",
+    "longitude": "119.95900000",
+    "native": "莒光鄉",
+    "timezone": "Asia/Taipei",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q714903"
   },
   {
     "id": 109022,
@@ -27,7 +59,7 @@
     "native": "南竿",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 7815,
     "wikiDataId": "Q702125"
   }

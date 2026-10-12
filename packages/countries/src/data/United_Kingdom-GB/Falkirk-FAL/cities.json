@@ -11,7 +11,7 @@
     "native": "Airth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1940,
     "wikiDataId": "Q1012333"
   },
@@ -27,9 +27,9 @@
     "native": "Banknock",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2440,
-    "wikiDataId": "Q1013600"
+    "wikiDataId": null
   },
   {
     "id": 48641,
@@ -59,7 +59,7 @@
     "native": "Bonnybridge",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5210,
     "wikiDataId": "Q1014515"
   },
@@ -75,9 +75,9 @@
     "native": "Brightons",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 4420,
-    "wikiDataId": "Q1022488"
+    "wikiDataId": null
   },
   {
     "id": 48871,
@@ -91,9 +91,9 @@
     "native": "Carron",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2530,
-    "wikiDataId": "Q1020354"
+    "wikiDataId": null
   },
   {
     "id": 48872,
@@ -107,7 +107,7 @@
     "native": "Carronshore",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3000,
     "wikiDataId": "Q5046689"
   },
@@ -123,7 +123,7 @@
     "native": "Denny",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8300,
     "wikiDataId": "Q3778259"
   },
@@ -155,7 +155,7 @@
     "native": "Dunipace",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2560,
     "wikiDataId": "Q5315302"
   },
@@ -187,7 +187,7 @@
     "native": "Grangemouth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 16650,
     "wikiDataId": "Q617845"
   },
@@ -205,7 +205,7 @@
     "translations": {},
     "type": "section",
     "population": 2410,
-    "wikiDataId": "Q83475"
+    "wikiDataId": null
   },
   {
     "id": 49786,
@@ -219,9 +219,9 @@
     "native": "Hallglen",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3180,
-    "wikiDataId": "Q1011584"
+    "wikiDataId": null
   },
   {
     "id": 49871,
@@ -235,41 +235,9 @@
     "native": "Head of Muir",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1700,
-    "wikiDataId": "Q2199636"
-  },
-  {
-    "id": 49931,
-    "name": "High Valleyfield",
-    "state_id": 2344,
-    "state_code": "FAL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.06357000",
-    "longitude": "-3.59913000",
-    "native": "High Valleyfield",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2280,
-    "wikiDataId": "Q50355626"
-  },
-  {
-    "id": 50159,
-    "name": "Kincardine",
-    "state_id": 2344,
-    "state_code": "FAL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.06945000",
-    "longitude": "-3.71964000",
-    "native": "Kincardine",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2750,
-    "wikiDataId": "Q1011221"
+    "wikiDataId": null
   },
   {
     "id": 50248,
@@ -283,7 +251,7 @@
     "native": "Larbert",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 11050,
     "wikiDataId": "Q1389537"
   },
@@ -299,9 +267,9 @@
     "native": "Laurieston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2660,
-    "wikiDataId": "Q987775"
+    "wikiDataId": null
   },
   {
     "id": 50463,
@@ -315,9 +283,9 @@
     "native": "Maddiston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3720,
-    "wikiDataId": "Q1017010"
+    "wikiDataId": null
   },
   {
     "id": 50933,
@@ -328,10 +296,10 @@
     "country_code": "GB",
     "latitude": "55.99050000",
     "longitude": "-3.70737000",
-    "native": "Polm",
+    "native": "Polmont",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5320,
     "wikiDataId": "Q972353"
   },
@@ -347,9 +315,9 @@
     "native": "Redding",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2540,
-    "wikiDataId": "Q1434448"
+    "wikiDataId": null
   },
   {
     "id": 51051,
@@ -363,9 +331,9 @@
     "native": "Reddingmuirhead",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1580,
-    "wikiDataId": "Q1434448"
+    "wikiDataId": null
   },
   {
     "id": 51276,
@@ -379,9 +347,9 @@
     "native": "Shieldhill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2420,
-    "wikiDataId": "Q2523597"
+    "wikiDataId": null
   },
   {
     "id": 51328,
@@ -395,7 +363,7 @@
     "native": "Slamannan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1310,
     "wikiDataId": "Q1016958"
   },
@@ -411,7 +379,7 @@
     "native": "Stenhousemuir",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 9740,
     "wikiDataId": "Q3358826"
   },
@@ -427,8 +395,8 @@
     "native": "Westquarter",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1120,
-    "wikiDataId": "Q2337112"
+    "wikiDataId": null
   }
 ]

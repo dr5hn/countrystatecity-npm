@@ -1,5 +1,21 @@
 [
   {
+    "id": 56481,
+    "name": "Aek Kanopan",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "2.56666667",
+    "longitude": "99.65000000",
+    "native": "Aek Kanopan",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "section",
+    "population": null,
+    "wikiDataId": "Q12052756"
+  },
+  {
     "id": 56177,
     "name": "Ambarita",
     "state_id": 1792,
@@ -56,7 +72,7 @@
     "country_code": "ID",
     "latitude": "3.16166000",
     "longitude": "99.52652000",
-    "native": "Kabupaten Teman Batu",
+    "native": "Batu Bara",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "regency",
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 48244,
-    "wikiDataId": "Q8042"
+    "wikiDataId": null
   },
   {
     "id": 56222,
@@ -107,7 +123,7 @@
     "native": "Binjai",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 269053,
     "wikiDataId": "Q5954"
   },
@@ -128,22 +144,6 @@
     "wikiDataId": "Q5801"
   },
   {
-    "id": 56396,
-    "name": "Deli Serdang",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.41667000",
-    "longitude": "98.66667000",
-    "native": "Kabupaten Deli Serdang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5804"
-  },
-  {
     "id": 56261,
     "name": "Deli Tua",
     "state_id": 1792,
@@ -152,12 +152,44 @@
     "country_code": "ID",
     "latitude": "3.50780000",
     "longitude": "98.68390000",
-    "native": "Del Anda",
+    "native": "Deli Tua",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
     "population": 27940,
     "wikiDataId": "Q24821924"
+  },
+  {
+    "id": 56423,
+    "name": "Dolok Sanggul",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "2.25880000",
+    "longitude": "98.75010000",
+    "native": "Dolok Sanggul",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q138791058"
+  },
+  {
+    "id": 56570,
+    "name": "Gunung Tua",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "1.51274000",
+    "longitude": "99.62628000",
+    "native": "Gunung Tua",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q5619521"
   },
   {
     "id": 56290,
@@ -171,25 +203,9 @@
     "native": "Gunungsitoli",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 137104,
     "wikiDataId": "Q5967"
-  },
-  {
-    "id": 56423,
-    "name": "Humbang Hasundutan",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.26551000",
-    "longitude": "98.50376000",
-    "native": "Kabupaten Humbang Hasundutan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5808"
   },
   {
     "id": 56306,
@@ -205,23 +221,7 @@
     "translations": {},
     "type": "adm2",
     "population": 73581,
-    "wikiDataId": "Q24920614"
-  },
-  {
-    "id": 56442,
-    "name": "Karo",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.11667000",
-    "longitude": "98.30000000",
-    "native": "Kabupaten Karo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5810"
+    "wikiDataId": "Q138784438"
   },
   {
     "id": 56717,
@@ -240,22 +240,6 @@
     "wikiDataId": "Q24884538"
   },
   {
-    "id": 56479,
-    "name": "Labuhan Batu",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.26667000",
-    "longitude": "100.10000000",
-    "native": "Kabupaten Labuhan Batu",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5814"
-  },
-  {
     "id": 56480,
     "name": "Labuhan Batu Selatan",
     "state_id": 1792,
@@ -272,22 +256,6 @@
     "wikiDataId": "Q5905"
   },
   {
-    "id": 56481,
-    "name": "Labuhan Batu Utara",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.33349000",
-    "longitude": "99.63776000",
-    "native": "Kabupaten Labuhan Batu Utara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5842"
-  },
-  {
     "id": 56832,
     "name": "Labuhan Deli",
     "state_id": 1792,
@@ -299,7 +267,7 @@
     "native": "Labuhan Deli",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "section",
     "population": 49668,
     "wikiDataId": "Q24822162"
   },
@@ -320,20 +288,20 @@
     "wikiDataId": "Q5833"
   },
   {
-    "id": 56523,
-    "name": "Mandailing Natal",
+    "id": 164818,
+    "name": "Lubuk Pakam",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "0.78378000",
-    "longitude": "99.25495000",
-    "native": "Kabupaten Mandailing Natal",
+    "latitude": "3.55920000",
+    "longitude": "98.87330000",
+    "native": null,
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "adm2",
     "population": null,
-    "wikiDataId": "Q5837"
+    "wikiDataId": "Q137766841"
   },
   {
     "id": 56867,
@@ -344,10 +312,10 @@
     "country_code": "ID",
     "latitude": "3.58333000",
     "longitude": "98.66667000",
-    "native": "Ketika",
+    "native": "Medan",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 2109330,
     "wikiDataId": "Q5972"
   },
@@ -400,38 +368,6 @@
     "wikiDataId": "Q5853"
   },
   {
-    "id": 56569,
-    "name": "Padang Lawas",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.44684000",
-    "longitude": "99.99207000",
-    "native": "Kabupaten Padang Lawas",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5866"
-  },
-  {
-    "id": 56570,
-    "name": "Padang Lawas Utara",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.46011000",
-    "longitude": "99.67346000",
-    "native": "Kabupaten Padang Lawas Utara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5857"
-  },
-  {
     "id": 56894,
     "name": "Padangsidempuan",
     "state_id": 1792,
@@ -448,22 +384,6 @@
     "wikiDataId": "Q5974"
   },
   {
-    "id": 56572,
-    "name": "Pakpak Bharat",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.56667000",
-    "longitude": "98.28333000",
-    "native": "Distrik Bharat",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5872"
-  },
-  {
     "id": 56910,
     "name": "Pangkalan Brandan",
     "state_id": 1792,
@@ -478,6 +398,38 @@
     "type": "city",
     "population": 25542,
     "wikiDataId": "Q7130959"
+  },
+  {
+    "id": 56615,
+    "name": "Pangururan",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "2.60810000",
+    "longitude": "98.69610000",
+    "native": "Pangururan",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q138791064"
+  },
+  {
+    "id": 56523,
+    "name": "Panyabungan",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.79676271",
+    "longitude": "99.57892183",
+    "native": "Panyabungan",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q26758929"
   },
   {
     "id": 56914,
@@ -576,36 +528,36 @@
     "wikiDataId": "Q4899310"
   },
   {
-    "id": 56615,
-    "name": "Samosir",
+    "id": 56572,
+    "name": "Salak",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "2.64025000",
-    "longitude": "98.71525000",
-    "native": "Kabupaten Samosir",
+    "latitude": "2.55660000",
+    "longitude": "98.32350000",
+    "native": "Salak",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q5888"
+    "wikiDataId": "Q138791057"
   },
   {
     "id": 56624,
-    "name": "Serdang Bedagai",
+    "name": "Sei Rampah",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "3.36667000",
-    "longitude": "99.03333000",
-    "native": "Kabupaten Serdang Bedagai",
+    "latitude": "3.48450000",
+    "longitude": "99.13660000",
+    "native": "Sei Rampah",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q5899"
+    "wikiDataId": "Q138791065"
   },
   {
     "id": 56973,
@@ -622,6 +574,22 @@
     "type": "city",
     "population": 94971,
     "wikiDataId": "Q5984"
+  },
+  {
+    "id": 164822,
+    "name": "Sibuhuan",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "1.05387000",
+    "longitude": "99.73018000",
+    "native": null,
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q7507306"
   },
   {
     "id": 56633,
@@ -648,7 +616,7 @@
     "country_code": "ID",
     "latitude": "3.73335000",
     "longitude": "98.45025000",
-    "native": "Berdiri",
+    "native": "Stabat",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
@@ -667,7 +635,7 @@
     "native": "Sunggal",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 157914,
     "wikiDataId": "Q12518013"
   },
@@ -736,20 +704,20 @@
     "wikiDataId": "Q5800"
   },
   {
-    "id": 56672,
-    "name": "Tapanuli Utara",
+    "id": 164804,
+    "name": "Tarutung",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "2.00280000",
-    "longitude": "99.07070000",
-    "native": "Kabupaten Tapanuli Utara",
+    "latitude": "2.01467000",
+    "longitude": "98.96548000",
+    "native": null,
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5863"
+    "type": "city",
+    "population": 39500,
+    "wikiDataId": "Q18715197"
   },
   {
     "id": 57027,
@@ -811,7 +779,7 @@
     "native": "Tongging",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 16000,
     "wikiDataId": "Q12522046"
   },

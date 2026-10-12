@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm1",
     "population": 149683,
-    "wikiDataId": "Q202162"
+    "wikiDataId": null
   },
   {
     "id": 76754,
@@ -40,12 +40,12 @@
     "country_code": "NG",
     "latitude": "6.63105000",
     "longitude": "8.05814000",
-    "native": "Accomplish",
+    "native": "Effium",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 86945,
-    "wikiDataId": "Q1173023"
+    "wikiDataId": "Q5347499"
   },
   {
     "id": 76867,
@@ -56,12 +56,12 @@
     "country_code": "NG",
     "latitude": "6.44094000",
     "longitude": "8.08432000",
-    "native": "Ezza-Service",
+    "native": "Ezza-Ohu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 67414,
-    "wikiDataId": "Q1023707"
+    "wikiDataId": "Q33435676"
   },
   {
     "id": 76954,
@@ -72,11 +72,27 @@
     "country_code": "NG",
     "latitude": "6.38186000",
     "longitude": "8.03736000",
-    "native": "Isics",
+    "native": "Isieke",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 89990,
-    "wikiDataId": "Q3140630"
+    "wikiDataId": "Q6081059"
+  },
+  {
+    "id": 165317,
+    "name": "Onueke",
+    "state_id": 311,
+    "state_code": "EB",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "6.15537000",
+    "longitude": "8.03735000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q3510958"
   }
 ]

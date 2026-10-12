@@ -11,7 +11,7 @@
     "native": "Auvernier",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1559,
     "wikiDataId": "Q70385"
   },
@@ -27,7 +27,7 @@
     "native": "Bevaix",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3866,
     "wikiDataId": "Q22405843"
   },
@@ -44,7 +44,7 @@
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
-    "population": 4886,
+    "population": 6341,
     "wikiDataId": "Q69507"
   },
   {
@@ -75,7 +75,7 @@
     "native": "Cernier",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2223,
     "wikiDataId": "Q68535"
   },
@@ -104,12 +104,12 @@
     "country_code": "CH",
     "latitude": "47.03960000",
     "longitude": "7.01872000",
-    "native": "Cornals",
+    "native": "Cornaux",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1587,
-    "wikiDataId": "Q22543054"
+    "type": "municipality",
+    "population": 1684,
+    "wikiDataId": "Q70479"
   },
   {
     "id": 17657,
@@ -123,8 +123,8 @@
     "native": "Cortaillod",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4696,
+    "type": "municipality",
+    "population": 4769,
     "wikiDataId": "Q70308"
   },
   {
@@ -139,7 +139,7 @@
     "native": "Couvet",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2811,
     "wikiDataId": "Q688493"
   },
@@ -155,7 +155,7 @@
     "native": "Dombresson",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1659,
     "wikiDataId": "Q70459"
   },
@@ -168,10 +168,10 @@
     "country_code": "CH",
     "latitude": "46.90224000",
     "longitude": "6.58253000",
-    "native": "Blühen",
+    "native": "Fleurier",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3681,
     "wikiDataId": "Q628354"
   },
@@ -187,7 +187,7 @@
     "native": "Fontainemelon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1647,
     "wikiDataId": "Q68544"
   },
@@ -203,7 +203,7 @@
     "native": "Gorgier",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1832,
     "wikiDataId": "Q22380135"
   },
@@ -235,9 +235,9 @@
     "native": "La Chaux-de-Fonds",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 37233,
-    "wikiDataId": "Q22565182"
+    "type": "city",
+    "population": 37858,
+    "wikiDataId": "Q68124"
   },
   {
     "id": 18022,
@@ -264,12 +264,12 @@
     "country_code": "CH",
     "latitude": "47.05702000",
     "longitude": "7.07052000",
-    "native": "Sie legten ihn",
+    "native": "Le Landeron",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4645,
-    "wikiDataId": "Q22385481"
+    "type": "municipality",
+    "population": 4685,
+    "wikiDataId": "Q70204"
   },
   {
     "id": 18057,
@@ -280,12 +280,12 @@
     "country_code": "CH",
     "latitude": "47.05619000",
     "longitude": "6.74913000",
-    "native": "Das Lokal",
+    "native": "Le Locle",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 10216,
-    "wikiDataId": "Q22385481"
+    "type": "city",
+    "population": 10912,
+    "wikiDataId": "Q64093"
   },
   {
     "id": 18058,
@@ -296,7 +296,7 @@
     "country_code": "CH",
     "latitude": "47.01927000",
     "longitude": "6.69635000",
-    "native": "Lokalbezirk",
+    "native": "Le Locle District",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "district",
@@ -315,7 +315,7 @@
     "native": "Brenets",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1169,
     "wikiDataId": "Q22412297"
   },
@@ -331,7 +331,7 @@
     "native": "Les Geneveys-sur-Coffrane",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1458,
     "wikiDataId": "Q70448"
   },
@@ -347,9 +347,9 @@
     "native": "Les Ponts-de-Martel",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1248,
-    "wikiDataId": "Q22414413"
+    "type": "municipality",
+    "population": 1234,
+    "wikiDataId": "Q68617"
   },
   {
     "id": 18121,
@@ -360,7 +360,7 @@
     "country_code": "CH",
     "latitude": "47.01017000",
     "longitude": "6.99941000",
-    "native": "Marine Epagnies",
+    "native": "Marin-Epagnier",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
@@ -379,8 +379,8 @@
     "native": "Neuchâtel",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm1",
-    "population": 33475,
+    "type": "city",
+    "population": 45466,
     "wikiDataId": "Q69345"
   },
   {
@@ -411,9 +411,9 @@
     "native": "Peseux",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5716,
-    "wikiDataId": "Q22516446"
+    "wikiDataId": "Q70078"
   },
   {
     "id": 18422,
@@ -424,12 +424,12 @@
     "country_code": "CH",
     "latitude": "46.89419000",
     "longitude": "6.77251000",
-    "native": "Saint-Auubin-Sauges",
+    "native": "Saint-Aubin-Sauges",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2476,
-    "wikiDataId": "Q70710"
+    "wikiDataId": "Q22380421"
   },
   {
     "id": 18423,
@@ -443,7 +443,7 @@
     "native": "Saint-Blaise",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3089,
     "wikiDataId": "Q22380701"
   },
@@ -459,7 +459,7 @@
     "native": "Travers",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1233,
     "wikiDataId": "Q689961"
   },

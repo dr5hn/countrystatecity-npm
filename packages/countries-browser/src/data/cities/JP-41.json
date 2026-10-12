@@ -12,8 +12,8 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q461020"
+    "population": 52629,
+    "wikiDataId": "Q857266"
   },
   {
     "id": 63563,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 57940,
-    "wikiDataId": "Q857266"
+    "wikiDataId": null
   },
   {
     "id": 63717,
@@ -59,24 +59,8 @@
     "native": "唐津",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 116052,
-    "wikiDataId": "Q738275"
-  },
-  {
-    "id": 63722,
-    "name": "Karatsu Shi",
-    "state_id": 863,
-    "state_code": "41",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "33.41802000",
-    "longitude": "129.99775000",
-    "native": "唐津市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 117373,
     "wikiDataId": "Q738275"
   },
   {
@@ -88,27 +72,11 @@
     "country_code": "JP",
     "latitude": "33.10611000",
     "longitude": "130.09056000",
-    "native": "鹿島",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 30159,
-    "wikiDataId": "Q684494"
-  },
-  {
-    "id": 63737,
-    "name": "Kashima Shi",
-    "state_id": 863,
-    "state_code": "41",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "33.06203000",
-    "longitude": "130.09396000",
     "native": "鹿島市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 27892,
     "wikiDataId": "Q684494"
   },
   {
@@ -139,8 +107,8 @@
     "native": "小城市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 43952,
     "wikiDataId": "Q877227"
   },
   {
@@ -152,32 +120,16 @@
     "country_code": "JP",
     "latitude": "33.23333000",
     "longitude": "130.30000000",
-    "native": "佐賀",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm1",
-    "population": 232359,
-    "wikiDataId": "Q499047"
-  },
-  {
-    "id": 64240,
-    "name": "Saga Shi",
-    "state_id": 863,
-    "state_code": "41",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "33.32558000",
-    "longitude": "130.26430000",
     "native": "佐賀市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 233301,
     "wikiDataId": "Q209766"
   },
   {
     "id": 64447,
-    "name": "Takeo Shi",
+    "name": "Takeo",
     "state_id": 863,
     "state_code": "41",
     "country_id": 109,
@@ -188,22 +140,6 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q200500"
-  },
-  {
-    "id": 64448,
-    "name": "Takeochō-takeo",
-    "state_id": 863,
-    "state_code": "41",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "33.19009000",
-    "longitude": "130.02084000",
-    "native": "竹尾町竹尾",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
     "population": 47914,
     "wikiDataId": "Q877220"
   },
@@ -235,8 +171,8 @@
     "native": "鳥栖市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 74196,
     "wikiDataId": "Q860674"
   },
   {
@@ -252,7 +188,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 25848,
     "wikiDataId": "Q634130"
   }
 ]

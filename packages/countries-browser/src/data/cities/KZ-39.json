@@ -1,5 +1,21 @@
 [
   {
+    "id": 165154,
+    "name": "Amangeldi",
+    "state_id": 157,
+    "state_code": "39",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "50.18271000",
+    "longitude": "65.18966000",
+    "native": null,
+    "timezone": "Asia/Qostanay",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4063922"
+  },
+  {
     "id": 65616,
     "name": "Arkalyk",
     "state_id": 157,
@@ -14,6 +30,22 @@
     "type": "adm2",
     "population": 28169,
     "wikiDataId": "Q698941"
+  },
+  {
+    "id": 165159,
+    "name": "Äūlīeköl",
+    "state_id": 157,
+    "state_code": "39",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "52.35850000",
+    "longitude": "64.13429000",
+    "native": null,
+    "timezone": "Asia/Qostanay",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1651017"
   },
   {
     "id": 65628,
@@ -46,22 +78,6 @@
     "type": "adm2",
     "population": 9659,
     "wikiDataId": "Q27357540"
-  },
-  {
-    "id": 65671,
-    "name": "Dzhetygara",
-    "state_id": 157,
-    "state_code": "39",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "52.19019000",
-    "longitude": "61.19894000",
-    "native": "Жетіғара",
-    "timezone": "Asia/Qostanay",
-    "translations": {},
-    "type": "adm2",
-    "population": 43104,
-    "wikiDataId": "Q1018868"
   },
   {
     "id": 65679,
@@ -254,5 +270,21 @@
     "type": "city",
     "population": 2951,
     "wikiDataId": "Q32382"
+  },
+  {
+    "id": 65671,
+    "name": "Zhitikara",
+    "state_id": 157,
+    "state_code": "39",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "52.19019000",
+    "longitude": "61.19894000",
+    "native": "Жетіғара",
+    "timezone": "Asia/Qostanay",
+    "translations": {},
+    "type": "adm2",
+    "population": 43104,
+    "wikiDataId": "Q1018868"
   }
 ]

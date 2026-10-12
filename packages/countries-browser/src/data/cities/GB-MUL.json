@@ -11,7 +11,7 @@
     "native": "Bellaghy",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1072,
     "wikiDataId": "Q619278"
   },
@@ -27,7 +27,7 @@
     "native": "Castledawson",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2263,
     "wikiDataId": "Q853324"
   },
@@ -43,7 +43,7 @@
     "native": "Coalisland",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6323,
     "wikiDataId": "Q2503992"
   },
@@ -59,7 +59,7 @@
     "native": "Cookstown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 10646,
     "wikiDataId": "Q1129639"
   },
@@ -91,9 +91,41 @@
     "native": "Dungannon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 11935,
     "wikiDataId": "Q1025602"
+  },
+  {
+    "id": 49566,
+    "name": "Fivemiletown",
+    "state_id": 2399,
+    "state_code": "MUL",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "54.38333000",
+    "longitude": "-7.30000000",
+    "native": "Fivemiletown",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 1109,
+    "wikiDataId": "Q608356"
+  },
+  {
+    "id": 50466,
+    "name": "Maghera",
+    "state_id": 2399,
+    "state_code": "MUL",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "54.84390000",
+    "longitude": "-6.67145000",
+    "native": "Maghera",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 4085,
+    "wikiDataId": "Q1025604"
   },
   {
     "id": 50467,
@@ -107,7 +139,7 @@
     "native": "Magherafelt",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 9157,
     "wikiDataId": "Q1854188"
   },
@@ -123,9 +155,9 @@
     "native": "Mid Ulster",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 147392,
-    "wikiDataId": "Q4115"
+    "wikiDataId": null
   },
   {
     "id": 50616,
@@ -139,7 +171,7 @@
     "native": "Moneymore",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1426,
     "wikiDataId": "Q2288719"
   }

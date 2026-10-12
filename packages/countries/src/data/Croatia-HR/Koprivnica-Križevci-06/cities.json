@@ -11,7 +11,7 @@
     "native": "Drnje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 805,
     "wikiDataId": "Q987249"
   },
@@ -27,9 +27,9 @@
     "native": "Đelekovec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q318961"
+    "wikiDataId": "Q764340"
   },
   {
     "id": 55027,
@@ -43,9 +43,9 @@
     "native": "Đurđevac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
-    "wikiDataId": "Q318961"
+    "wikiDataId": "Q25297134"
   },
   {
     "id": 54481,
@@ -59,7 +59,7 @@
     "native": "Ferdinandovac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1415,
     "wikiDataId": "Q912736"
   },
@@ -75,7 +75,7 @@
     "native": "Gola",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 779,
     "wikiDataId": "Q376316"
   },
@@ -91,9 +91,9 @@
     "native": "Gornja Rijeka",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 331,
-    "wikiDataId": "Q850523"
+    "wikiDataId": "Q1012291"
   },
   {
     "id": 54524,
@@ -107,9 +107,9 @@
     "native": "Grad Koprivnica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 28580,
-    "wikiDataId": "Q1722"
+    "wikiDataId": "Q5640"
   },
   {
     "id": 54527,
@@ -139,7 +139,7 @@
     "native": "Hlebine",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1180,
     "wikiDataId": "Q257842"
   },
@@ -155,7 +155,7 @@
     "native": "Kalinovac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1297,
     "wikiDataId": "Q1103518"
   },
@@ -171,9 +171,9 @@
     "native": "Koprivnica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": 28580,
-    "wikiDataId": "Q5640"
+    "type": "locality",
+    "population": 22262,
+    "wikiDataId": null
   },
   {
     "id": 54660,
@@ -187,9 +187,9 @@
     "native": "Koprivnički Ivanec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 997,
-    "wikiDataId": "Q5640"
+    "wikiDataId": "Q775578"
   },
   {
     "id": 54670,
@@ -203,9 +203,9 @@
     "native": "Križevci",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10522,
-    "wikiDataId": "Q263195"
+    "wikiDataId": "Q33452999"
   },
   {
     "id": 54685,
@@ -219,7 +219,7 @@
     "native": "Legrad",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 862,
     "wikiDataId": "Q1014822"
   },
@@ -235,7 +235,7 @@
     "native": "Molve",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1195,
     "wikiDataId": "Q954214"
   },
@@ -251,9 +251,9 @@
     "native": "Novo Virje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1026,
-    "wikiDataId": "Q5395"
+    "wikiDataId": "Q1088590"
   },
   {
     "id": 54803,
@@ -264,10 +264,10 @@
     "country_code": "HR",
     "latitude": "46.19222000",
     "longitude": "16.89167000",
-    "native": "Kvrga",
+    "native": "Peteranec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1240,
     "wikiDataId": "Q601788"
   },
@@ -283,7 +283,7 @@
     "native": "Rasinja",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 730,
     "wikiDataId": "Q264607"
   },
@@ -296,12 +296,12 @@
     "country_code": "HR",
     "latitude": "46.13028000",
     "longitude": "16.76694000",
-    "native": "Sladak",
+    "native": "Reka",
     "timezone": "Europe/Zagreb",
     "translations": {},
     "type": "city",
     "population": 1317,
-    "wikiDataId": "Q1014078"
+    "wikiDataId": null
   },
   {
     "id": 54888,
@@ -315,9 +315,9 @@
     "native": "Sigtec",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1016,
-    "wikiDataId": "Q1271750"
+    "wikiDataId": "Q1287929"
   },
   {
     "id": 54972,
@@ -331,7 +331,7 @@
     "native": "Virje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2811,
     "wikiDataId": "Q947792"
   }

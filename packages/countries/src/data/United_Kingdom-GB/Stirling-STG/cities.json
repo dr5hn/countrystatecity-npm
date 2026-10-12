@@ -1,5 +1,21 @@
 [
   {
+    "id": 48344,
+    "name": "Balfron",
+    "state_id": 2488,
+    "state_code": "STG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "56.06809000",
+    "longitude": "-4.33559000",
+    "native": "Balfron",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 2100,
+    "wikiDataId": "Q1010220"
+  },
+  {
     "id": 48376,
     "name": "Bannockburn",
     "state_id": 2488,
@@ -11,7 +27,7 @@
     "native": "Bannockburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6840,
     "wikiDataId": "Q806906"
   },
@@ -27,7 +43,7 @@
     "native": "Bridge of Allan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5380,
     "wikiDataId": "Q187892"
   },
@@ -43,7 +59,7 @@
     "native": "Callander",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3160,
     "wikiDataId": "Q1014066"
   },
@@ -59,7 +75,7 @@
     "native": "Cowie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2640,
     "wikiDataId": "Q1138204"
   },
@@ -72,10 +88,10 @@
     "country_code": "GB",
     "latitude": "56.18995000",
     "longitude": "-4.05288000",
-    "native": "You",
+    "native": "Doune",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2150,
     "wikiDataId": "Q1014524"
   },
@@ -91,7 +107,7 @@
     "native": "Dunblane",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9410,
     "wikiDataId": "Q614314"
   },
@@ -107,9 +123,25 @@
     "native": "Fallin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2880,
-    "wikiDataId": "Q1012069"
+    "wikiDataId": null
+  },
+  {
+    "id": 50147,
+    "name": "Killearn",
+    "state_id": 2488,
+    "state_code": "STG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "56.04239000",
+    "longitude": "-4.36840000",
+    "native": "Killearn",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1690,
+    "wikiDataId": "Q1010543"
   },
   {
     "id": 50192,
@@ -120,28 +152,12 @@
     "country_code": "GB",
     "latitude": "56.12673000",
     "longitude": "-4.17083000",
-    "native": "Gauge",
+    "native": "Kippen",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1080,
     "wikiDataId": "Q1020227"
-  },
-  {
-    "id": 50548,
-    "name": "Menstrie",
-    "state_id": 2488,
-    "state_code": "STG",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.15138000",
-    "longitude": "-3.85466000",
-    "native": "Menstrie",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2870,
-    "wikiDataId": "Q1010052"
   },
   {
     "id": 50923,
@@ -152,10 +168,10 @@
     "country_code": "GB",
     "latitude": "56.06516000",
     "longitude": "-3.87596000",
-    "native": "Plan",
+    "native": "Plean",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1980,
     "wikiDataId": "Q1011227"
   },
@@ -176,19 +192,19 @@
     "wikiDataId": "Q217838"
   },
   {
-    "id": 51676,
-    "name": "Tullibody",
+    "id": 51492,
+    "name": "Strathblane",
     "state_id": 2488,
     "state_code": "STG",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "56.13364000",
-    "longitude": "-3.83835000",
-    "native": "Tullibody",
+    "latitude": "55.98596000",
+    "longitude": "-4.30658000",
+    "native": "Strathblane",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 8580,
-    "wikiDataId": "Q180803"
+    "type": "village",
+    "population": 1990,
+    "wikiDataId": "Q1010547"
   }
 ]

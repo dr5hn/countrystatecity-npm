@@ -11,9 +11,9 @@
     "native": "Arcos de Valdevez",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 22847,
-    "wikiDataId": "Q31887240"
+    "wikiDataId": "Q490302"
   },
   {
     "id": 89073,
@@ -27,8 +27,8 @@
     "native": "Caminha",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 16684,
+    "type": "municipality",
+    "population": 15797,
     "wikiDataId": "Q1029544"
   },
   {
@@ -43,8 +43,8 @@
     "native": "Melgaço",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 9213,
+    "type": "municipality",
+    "population": 7773,
     "wikiDataId": "Q491888"
   },
   {
@@ -59,9 +59,9 @@
     "native": "Monção",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19230,
-    "wikiDataId": "Q35733554"
+    "wikiDataId": "Q425738"
   },
   {
     "id": 89384,
@@ -75,8 +75,8 @@
     "native": "Paredes de Coura",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 9198,
+    "type": "municipality",
+    "population": 8632,
     "wikiDataId": "Q489105"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Ponte do barco",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 12061,
+    "type": "municipality",
+    "population": 11044,
     "wikiDataId": "Q491484"
   },
   {
@@ -107,8 +107,8 @@
     "native": "Ponte de Lima",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 43498,
+    "type": "municipality",
+    "population": 41164,
     "wikiDataId": "Q490180"
   },
   {
@@ -123,8 +123,8 @@
     "native": "Valença",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 14127,
+    "type": "municipality",
+    "population": 13623,
     "wikiDataId": "Q492475"
   },
   {
@@ -139,8 +139,24 @@
     "native": "Viana do Castelo",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm1",
-    "population": 36148,
+    "type": "municipality",
+    "population": 85778,
     "wikiDataId": "Q208158"
+  },
+  {
+    "id": 166299,
+    "name": "Vila Nova de Cerveira",
+    "state_id": 2245,
+    "state_code": "16",
+    "country_id": 177,
+    "country_code": "PT",
+    "latitude": "41.93333333",
+    "longitude": "-8.73333333",
+    "native": "Vila Nova de Cerveira",
+    "timezone": "Europe/Lisbon",
+    "translations": {},
+    "type": "municipality",
+    "population": 8921,
+    "wikiDataId": "Q164434"
   }
 ]

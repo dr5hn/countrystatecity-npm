@@ -59,9 +59,9 @@
     "native": "इम्फाल पूर्व",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 456113,
-    "wikiDataId": "Q706291"
+    "wikiDataId": null
   },
   {
     "id": 132953,
@@ -144,6 +144,54 @@
     "wikiDataId": "Q706442"
   },
   {
+    "id": 164960,
+    "name": "Mayang Imphal",
+    "state_id": 4010,
+    "state_code": "MN",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "24.60998000",
+    "longitude": "93.88873000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 24239,
+    "wikiDataId": "Q2564021"
+  },
+  {
+    "id": 165004,
+    "name": "Moirang",
+    "state_id": 4010,
+    "state_code": "MN",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "24.49750000",
+    "longitude": "93.77791000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 19893,
+    "wikiDataId": "Q2625382"
+  },
+  {
+    "id": 164974,
+    "name": "Nambol",
+    "state_id": 4010,
+    "state_code": "MN",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "24.69557000",
+    "longitude": "93.81974000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 22512,
+    "wikiDataId": "Q2564000"
+  },
+  {
     "id": 153528,
     "name": "Noney",
     "state_id": 4010,
@@ -187,7 +235,7 @@
     "native": "सेनापति",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 479148,
     "wikiDataId": "Q2718737"
   },

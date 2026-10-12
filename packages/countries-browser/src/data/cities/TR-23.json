@@ -11,9 +11,9 @@
     "native": "Ağın",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 4014,
-    "wikiDataId": "Q199575"
+    "type": "municipality",
+    "population": 1653,
+    "wikiDataId": "Q49101030"
   },
   {
     "id": 153354,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5168,
-    "wikiDataId": "Q193445"
+    "wikiDataId": null
   },
   {
     "id": 107288,
@@ -59,9 +59,25 @@
     "native": "Baskil",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 15922,
-    "wikiDataId": "Q211805"
+    "type": "municipality",
+    "population": 6412,
+    "wikiDataId": "Q810374"
+  },
+  {
+    "id": 108188,
+    "name": "Elazığ",
+    "state_id": 2159,
+    "state_code": "23",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "38.66666667",
+    "longitude": "39.21666667",
+    "native": "Elazığ",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 408032,
+    "wikiDataId": "Q174060"
   },
   {
     "id": 107901,
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5837,
-    "wikiDataId": "Q1004438"
+    "wikiDataId": null
   },
   {
     "id": 108027,
@@ -109,7 +125,7 @@
     "translations": {},
     "type": "adm2",
     "population": 22976,
-    "wikiDataId": "Q6432728"
+    "wikiDataId": null
   },
   {
     "id": 108137,
@@ -120,28 +136,12 @@
     "country_code": "TR",
     "latitude": "38.39354000",
     "longitude": "39.67252000",
-    "native": "Yemek",
+    "native": "Maden",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 885,
-    "wikiDataId": "Q214670"
-  },
-  {
-    "id": 108188,
-    "name": "Merkez",
-    "state_id": 2159,
-    "state_code": "23",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "38.66790000",
-    "longitude": "39.21567000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "type": "municipality",
+    "population": 3021,
+    "wikiDataId": "Q3032160"
   },
   {
     "id": 108308,
@@ -152,12 +152,12 @@
     "country_code": "TR",
     "latitude": "38.69135000",
     "longitude": "39.91984000",
-    "native": "Çekiç",
+    "native": "Palu",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
     "population": 11271,
-    "wikiDataId": "Q1022230"
+    "wikiDataId": null
   },
   {
     "id": 108479,
@@ -173,6 +173,6 @@
     "translations": {},
     "type": "adm2",
     "population": 5481,
-    "wikiDataId": "Q1022144"
+    "wikiDataId": null
   }
 ]

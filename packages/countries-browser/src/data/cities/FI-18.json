@@ -11,9 +11,9 @@
     "native": "Askola",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 4700,
-    "wikiDataId": "Q730954"
+    "type": "municipality",
+    "population": 4677,
+    "wikiDataId": "Q732159"
   },
   {
     "id": 38743,
@@ -24,10 +24,10 @@
     "country_code": "FI",
     "latitude": "59.97359000",
     "longitude": "23.43389000",
-    "native": "Ekkisarja",
+    "native": "Ekenäs",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 14377,
     "wikiDataId": "Q1004838"
   },
@@ -43,9 +43,9 @@
     "native": "Espoo",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 314821,
-    "wikiDataId": "Q984861"
+    "type": "city",
+    "population": 325716,
+    "wikiDataId": "Q47034"
   },
   {
     "id": 38753,
@@ -56,12 +56,12 @@
     "country_code": "FI",
     "latitude": "60.21948000",
     "longitude": "24.61684000",
-    "native": "Kutistaa",
+    "native": "Gumböle",
     "timezone": "Europe/Helsinki",
     "translations": {},
     "type": "city",
     "population": 1237,
-    "wikiDataId": "Q829842"
+    "wikiDataId": "Q10510751"
   },
   {
     "id": 38761,
@@ -75,8 +75,8 @@
     "native": "Hanko",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 9962,
+    "type": "city",
+    "population": 7620,
     "wikiDataId": "Q216790"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Helsinki",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "capital",
-    "population": 686595,
+    "type": "city",
+    "population": 694392,
     "wikiDataId": "Q1757"
   },
   {
@@ -107,9 +107,9 @@
     "native": "Hyvini",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 43515,
-    "wikiDataId": "Q984934"
+    "type": "city",
+    "population": 47015,
+    "wikiDataId": "Q207753"
   },
   {
     "id": 38789,
@@ -120,11 +120,11 @@
     "country_code": "FI",
     "latitude": "60.04587000",
     "longitude": "24.00459000",
-    "native": "Sisältää",
+    "native": "Ingå",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 5379,
+    "type": "municipality",
+    "population": 5391,
     "wikiDataId": "Q986331"
   },
   {
@@ -139,8 +139,8 @@
     "native": "Järvenpää",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 46597,
+    "type": "city",
+    "population": 46944,
     "wikiDataId": "Q208293"
   },
   {
@@ -184,7 +184,7 @@
     "country_code": "FI",
     "latitude": "60.07178000",
     "longitude": "23.66163000",
-    "native": "Saalis",
+    "native": "Karis",
     "timezone": "Europe/Helsinki",
     "translations": {},
     "type": "city",
@@ -219,9 +219,9 @@
     "native": "Karkkila",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 8581,
-    "wikiDataId": "Q990572"
+    "type": "city",
+    "population": 8274,
+    "wikiDataId": "Q530309"
   },
   {
     "id": 38889,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 4114,
-    "wikiDataId": "Q646502"
+    "wikiDataId": null
   },
   {
     "id": 38837,
@@ -251,8 +251,8 @@
     "native": "Kauniainen",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 10270,
+    "type": "city",
+    "population": 10318,
     "wikiDataId": "Q208287"
   },
   {
@@ -283,8 +283,8 @@
     "native": "Kerava",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 38211,
+    "type": "city",
+    "population": 38767,
     "wikiDataId": "Q216900"
   },
   {
@@ -299,7 +299,7 @@
     "native": "Kilo",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "locality",
+    "type": "section",
     "population": 10554,
     "wikiDataId": "Q653536"
   },
@@ -315,9 +315,25 @@
     "native": "Kirkkonummi",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 41154,
-    "wikiDataId": "Q999255"
+    "type": "municipality",
+    "population": 41725,
+    "wikiDataId": "Q748092"
+  },
+  {
+    "id": 164715,
+    "name": "Klaukkala",
+    "state_id": 1510,
+    "state_code": "18",
+    "country_id": 74,
+    "country_code": "FI",
+    "latitude": "60.38244000",
+    "longitude": "24.75100000",
+    "native": "Klaukkala",
+    "timezone": "Europe/Helsinki",
+    "translations": {},
+    "type": "city",
+    "population": 21019,
+    "wikiDataId": "Q6419813"
   },
   {
     "id": 38873,
@@ -333,7 +349,7 @@
     "translations": {},
     "type": "section",
     "population": 1038,
-    "wikiDataId": "Q192155"
+    "wikiDataId": "Q24368435"
   },
   {
     "id": 38896,
@@ -347,9 +363,9 @@
     "native": "Lapinjärvi",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 2449,
-    "wikiDataId": "Q1025715"
+    "type": "municipality",
+    "population": 2430,
+    "wikiDataId": "Q647849"
   },
   {
     "id": 38904,
@@ -365,7 +381,7 @@
     "translations": {},
     "type": "section",
     "population": 20000,
-    "wikiDataId": "Q990553"
+    "wikiDataId": "Q1020168"
   },
   {
     "id": 38914,
@@ -395,9 +411,9 @@
     "native": "Lohja",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 45645,
-    "wikiDataId": "Q608803"
+    "type": "city",
+    "population": 45435,
+    "wikiDataId": "Q214777"
   },
   {
     "id": 38920,
@@ -411,8 +427,8 @@
     "native": "Lovisa",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 14362,
+    "type": "city",
+    "population": 14196,
     "wikiDataId": "Q748513"
   },
   {
@@ -427,8 +443,8 @@
     "native": "Mäntsälä",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 18074,
+    "type": "municipality",
+    "population": 20861,
     "wikiDataId": "Q986318"
   },
   {
@@ -475,9 +491,9 @@
     "native": "Myrskylä",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 1715,
-    "wikiDataId": "Q1641664"
+    "type": "municipality",
+    "population": 1692,
+    "wikiDataId": "Q999226"
   },
   {
     "id": 38958,
@@ -491,9 +507,9 @@
     "native": "Nurmijärvi",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 44833,
-    "wikiDataId": "Q1641623"
+    "type": "municipality",
+    "population": 45333,
+    "wikiDataId": "Q597156"
   },
   {
     "id": 38964,
@@ -555,9 +571,9 @@
     "native": "Pornainen",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 4973,
-    "wikiDataId": "Q180233"
+    "type": "municipality",
+    "population": 4919,
+    "wikiDataId": "Q999249"
   },
   {
     "id": 38993,
@@ -571,8 +587,8 @@
     "native": "Porvoo",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 51464,
+    "type": "city",
+    "population": 51863,
     "wikiDataId": "Q193367"
   },
   {
@@ -587,8 +603,8 @@
     "native": "Pukkila",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "city",
-    "population": 1781,
+    "type": "municipality",
+    "population": 1720,
     "wikiDataId": "Q599159"
   },
   {
@@ -603,9 +619,25 @@
     "native": "Raaseporin",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "city",
+    "type": "region",
     "population": null,
     "wikiDataId": "Q1191746"
+  },
+  {
+    "id": 164714,
+    "name": "Raseborg",
+    "state_id": 1510,
+    "state_code": "18",
+    "country_id": 74,
+    "country_code": "FI",
+    "latitude": "59.97735000",
+    "longitude": "23.43967000",
+    "native": "Raasepori",
+    "timezone": "Europe/Helsinki",
+    "translations": {},
+    "type": "city",
+    "population": 26856,
+    "wikiDataId": "Q633371"
   },
   {
     "id": 39029,
@@ -651,9 +683,9 @@
     "native": "Sibbo",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 22903,
-    "wikiDataId": "Q984938"
+    "type": "municipality",
+    "population": 23006,
+    "wikiDataId": "Q986320"
   },
   {
     "id": 39051,
@@ -667,9 +699,9 @@
     "native": "Siuntio",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 6158,
-    "wikiDataId": "Q999210"
+    "type": "municipality",
+    "population": 6192,
+    "wikiDataId": "Q984931"
   },
   {
     "id": 39085,
@@ -683,8 +715,8 @@
     "native": "Tuusula",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 41475,
+    "type": "municipality",
+    "population": 42479,
     "wikiDataId": "Q214773"
   },
   {
@@ -699,8 +731,8 @@
     "native": "Vantaa",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 248199,
+    "type": "city",
+    "population": 252956,
     "wikiDataId": "Q127623"
   },
   {
@@ -715,9 +747,9 @@
     "native": "Vihti",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "adm3",
-    "population": 28811,
-    "wikiDataId": "Q992240"
+    "type": "municipality",
+    "population": 28852,
+    "wikiDataId": "Q935858"
   },
   {
     "id": 39116,

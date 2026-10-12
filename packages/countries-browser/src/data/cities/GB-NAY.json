@@ -11,7 +11,7 @@
     "native": "Ardrossan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 10670,
     "wikiDataId": "Q640073"
   },
@@ -24,28 +24,12 @@
     "country_code": "GB",
     "latitude": "55.74923000",
     "longitude": "-4.63680000",
-    "native": "Birch",
+    "native": "Beith",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6040,
     "wikiDataId": "Q1013620"
-  },
-  {
-    "id": 49177,
-    "name": "Crosshouse",
-    "state_id": 2535,
-    "state_code": "NAY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.61258000",
-    "longitude": "-4.55091000",
-    "native": "Crosshouse",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2720,
-    "wikiDataId": "Q996516"
   },
   {
     "id": 49224,
@@ -59,7 +43,7 @@
     "native": "Dalry",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5360,
     "wikiDataId": "Q3467446"
   },
@@ -75,25 +59,9 @@
     "native": "Dreghorn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3540,
     "wikiDataId": "Q5306868"
-  },
-  {
-    "id": 49349,
-    "name": "Dundonald",
-    "state_id": 2535,
-    "state_code": "NAY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.57939000",
-    "longitude": "-4.59473000",
-    "native": "Dundonald",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2670,
-    "wikiDataId": "Q5314885"
   },
   {
     "id": 49518,
@@ -107,7 +75,7 @@
     "native": "Fairlie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1400,
     "wikiDataId": "Q5430546"
   },
@@ -123,7 +91,7 @@
     "native": "Irvine",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 34090,
     "wikiDataId": "Q1774629"
   },
@@ -141,7 +109,7 @@
     "translations": {},
     "type": "locality",
     "population": 5058,
-    "wikiDataId": "Q2533408"
+    "wikiDataId": null
   },
   {
     "id": 50077,
@@ -157,7 +125,7 @@
     "translations": {},
     "type": "locality",
     "population": 1434,
-    "wikiDataId": "Q2533408"
+    "wikiDataId": null
   },
   {
     "id": 50140,
@@ -171,25 +139,9 @@
     "native": "Kilbirnie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7340,
     "wikiDataId": "Q1016743"
-  },
-  {
-    "id": 50151,
-    "name": "Kilmaurs",
-    "state_id": 2535,
-    "state_code": "NAY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.63801000",
-    "longitude": "-4.52730000",
-    "native": "Kilmaur",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2780,
-    "wikiDataId": "Q205448"
   },
   {
     "id": 50155,
@@ -203,7 +155,7 @@
     "native": "Kilwinning",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 16460,
     "wikiDataId": "Q1013827"
   },
@@ -216,10 +168,10 @@
     "country_code": "GB",
     "latitude": "55.53358000",
     "longitude": "-5.12956000",
-    "native": "Glaze",
+    "native": "Lamlash",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1120,
     "wikiDataId": "Q1011746"
   },
@@ -235,7 +187,7 @@
     "native": "Largs",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11260,
     "wikiDataId": "Q1016169"
   },
@@ -251,7 +203,7 @@
     "native": "Millport",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1100,
     "wikiDataId": "Q391948"
   },
@@ -267,7 +219,7 @@
     "native": "North Ayrshire",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 134740,
     "wikiDataId": "Q206926"
   },
@@ -283,9 +235,25 @@
     "native": "Saltcoats",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 12640,
     "wikiDataId": "Q1018756"
+  },
+  {
+    "id": 51321,
+    "name": "Skelmorlie",
+    "state_id": 2535,
+    "state_code": "NAY",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.86950000",
+    "longitude": "-4.88475000",
+    "native": "Skelmorlie",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 2060,
+    "wikiDataId": "Q1013753"
   },
   {
     "id": 51393,
@@ -299,7 +267,7 @@
     "native": "Springside",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1250,
     "wikiDataId": "Q7581176"
   },
@@ -315,25 +283,9 @@
     "native": "Stevenston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 9230,
     "wikiDataId": "Q2376078"
-  },
-  {
-    "id": 51673,
-    "name": "Troon",
-    "state_id": 2535,
-    "state_code": "NAY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.54359000",
-    "longitude": "-4.66335000",
-    "native": "Troon",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 14680,
-    "wikiDataId": "Q1021167"
   },
   {
     "id": 51822,
@@ -347,7 +299,7 @@
     "native": "West Kilbride",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4700,
     "wikiDataId": "Q1010320"
   }

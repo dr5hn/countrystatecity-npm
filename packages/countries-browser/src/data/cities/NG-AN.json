@@ -1,5 +1,21 @@
 [
   {
+    "id": 165308,
+    "name": "Abagana",
+    "state_id": 315,
+    "state_code": "AN",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "6.19031000",
+    "longitude": "6.99357000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q89380599"
+  },
+  {
     "id": 76759,
     "name": "Agulu",
     "state_id": 315,
@@ -8,12 +24,12 @@
     "country_code": "NG",
     "latitude": "6.10045000",
     "longitude": "7.06100000",
-    "native": "Group",
+    "native": "Agulu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 79021,
-    "wikiDataId": "Q3509527"
+    "wikiDataId": null
   },
   {
     "id": 76781,
@@ -24,12 +40,12 @@
     "country_code": "NG",
     "latitude": "6.01277000",
     "longitude": "6.74768000",
-    "native": "Healies",
+    "native": "Atani",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 230000,
-    "wikiDataId": "Q1061665"
+    "wikiDataId": "Q4812785"
   },
   {
     "id": 76785,
@@ -43,7 +59,7 @@
     "native": "Awka",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 167738,
     "wikiDataId": "Q791766"
   },
@@ -56,12 +72,12 @@
     "country_code": "NG",
     "latitude": "6.17146000",
     "longitude": "7.00525000",
-    "native": "The edge",
+    "native": "Enugu-Ukwu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 68785,
-    "wikiDataId": "Q465022"
+    "wikiDataId": "Q33435401"
   },
   {
     "id": 76920,
@@ -72,10 +88,10 @@
     "country_code": "NG",
     "latitude": "6.01798000",
     "longitude": "7.02027000",
-    "native": "Great beams",
+    "native": "Igbo-Ukwu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 75224,
     "wikiDataId": "Q1024641"
   },
@@ -88,12 +104,12 @@
     "country_code": "NG",
     "latitude": "5.85475000",
     "longitude": "6.85944000",
-    "native": "I don't",
+    "native": "Ihiala",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 83265,
-    "wikiDataId": "Q5991613"
+    "wikiDataId": "Q3056230"
   },
   {
     "id": 77043,
@@ -104,12 +120,12 @@
     "country_code": "NG",
     "latitude": "6.15038000",
     "longitude": "6.83042000",
-    "native": "Drop",
+    "native": "Nkpor",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
     "population": 103733,
-    "wikiDataId": "Q1951627"
+    "wikiDataId": null
   },
   {
     "id": 77044,
@@ -120,10 +136,10 @@
     "country_code": "NG",
     "latitude": "6.01962000",
     "longitude": "6.91729000",
-    "native": "Heri",
+    "native": "Nnewi",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 193987,
     "wikiDataId": "Q2750772"
   },
@@ -139,7 +155,7 @@
     "native": "Onitsha",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1483000,
     "wikiDataId": "Q852238"
   },
@@ -152,12 +168,12 @@
     "country_code": "NG",
     "latitude": "5.95753000",
     "longitude": "6.85305000",
-    "native": "Corpse",
+    "native": "Ozubulu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 73812,
-    "wikiDataId": "Q1023703"
+    "wikiDataId": "Q15043594"
   },
   {
     "id": 77120,
@@ -168,12 +184,28 @@
     "country_code": "NG",
     "latitude": "5.93576000",
     "longitude": "7.07930000",
-    "native": "Than the",
+    "native": "Uga",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 64179,
-    "wikiDataId": "Q7859479"
+    "wikiDataId": "Q7877563"
+  },
+  {
+    "id": 165322,
+    "name": "Umunze",
+    "state_id": 315,
+    "state_code": "AN",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.96694000",
+    "longitude": "7.23664000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q7881858"
   },
   {
     "id": 77128,
@@ -187,8 +219,8 @@
     "native": "Umobo-Okija",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13898,
-    "wikiDataId": "Q3510262"
+    "wikiDataId": "Q33510813"
   }
 ]

@@ -49,7 +49,7 @@
   },
   {
     "id": 106766,
-    "name": "Chkalov",
+    "name": "Buston",
     "state_id": 3400,
     "state_code": "SU",
     "country_id": 217,
@@ -62,6 +62,22 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q2997217"
+  },
+  {
+    "id": 165585,
+    "name": "Dalyoni Bolo",
+    "state_id": 3400,
+    "state_code": "SU",
+    "country_id": 217,
+    "country_code": "TJ",
+    "latitude": "39.74897000",
+    "longitude": "68.99566000",
+    "native": "Далёни Боло",
+    "timezone": "Asia/Dushanbe",
+    "translations": {},
+    "type": "city",
+    "population": 23670,
+    "wikiDataId": "Q5211799"
   },
   {
     "id": 106772,
@@ -78,6 +94,22 @@
     "type": "adm2",
     "population": 0,
     "wikiDataId": "Q187977"
+  },
+  {
+    "id": 165584,
+    "name": "Guliston",
+    "state_id": 3400,
+    "state_code": "SU",
+    "country_id": 217,
+    "country_code": "TJ",
+    "latitude": "40.26598000",
+    "longitude": "69.79585000",
+    "native": null,
+    "timezone": "Asia/Dushanbe",
+    "translations": {},
+    "type": "city",
+    "population": 49200,
+    "wikiDataId": "Q615274"
   },
   {
     "id": 106775,
@@ -112,8 +144,24 @@
     "wikiDataId": "Q936510"
   },
   {
+    "id": 106818,
+    "name": "Istiqlol",
+    "state_id": 3400,
+    "state_code": "SU",
+    "country_id": 217,
+    "country_code": "TJ",
+    "latitude": "40.57017000",
+    "longitude": "69.64175000",
+    "native": "Табошар",
+    "timezone": "Asia/Dushanbe",
+    "translations": {},
+    "type": "city",
+    "population": 17600,
+    "wikiDataId": "Q2391218"
+  },
+  {
     "id": 106782,
-    "name": "Khŭjand",
+    "name": "Khujand",
     "state_id": 3400,
     "state_code": "SU",
     "country_id": 217,
@@ -350,22 +398,6 @@
     "type": "city",
     "population": 2900,
     "wikiDataId": "Q2499450"
-  },
-  {
-    "id": 106818,
-    "name": "Taboshar",
-    "state_id": 3400,
-    "state_code": "SU",
-    "country_id": 217,
-    "country_code": "TJ",
-    "latitude": "40.57017000",
-    "longitude": "69.64175000",
-    "native": "Табошар",
-    "timezone": "Asia/Dushanbe",
-    "translations": {},
-    "type": "city",
-    "population": 17600,
-    "wikiDataId": "Q2391218"
   },
   {
     "id": 106827,

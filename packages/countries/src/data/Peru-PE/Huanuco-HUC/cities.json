@@ -11,8 +11,24 @@
     "native": "Ambos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6865,
+    "wikiDataId": "Q539231"
+  },
+  {
+    "id": 80771,
+    "name": "Ambo",
+    "state_id": 3687,
+    "state_code": "HUC",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-10.12944444",
+    "longitude": "-76.20472222",
+    "native": "Ambo",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q3317423"
   },
   {
@@ -27,9 +43,9 @@
     "native": "Huacaybamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q2084668"
+    "wikiDataId": "Q5924968"
   },
   {
     "id": 80665,
@@ -43,9 +59,9 @@
     "native": "Huánuco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 196627,
-    "wikiDataId": "Q504394"
+    "wikiDataId": "Q933179"
   },
   {
     "id": 80699,
@@ -72,28 +88,12 @@
     "country_code": "PE",
     "latitude": "-9.41667000",
     "longitude": "-76.78333000",
-    "native": "Estaño",
+    "native": "Llata",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": 4585,
     "wikiDataId": "Q3344864"
-  },
-  {
-    "id": 80771,
-    "name": "Provincia de Ambo",
-    "state_id": 3687,
-    "state_code": "HUC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-10.16667000",
-    "longitude": "-76.16667000",
-    "native": "Provincia de Ambo",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 50880,
-    "wikiDataId": "Q980098"
   },
   {
     "id": 80821,
@@ -107,7 +107,7 @@
     "native": "Provincia de Dos de Mayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 33258,
     "wikiDataId": "Q2088810"
   },
@@ -123,7 +123,7 @@
     "native": "Provincia de Huamalíes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 52039,
     "wikiDataId": "Q1819840"
   },
@@ -139,25 +139,9 @@
     "native": "Provincia de Huánuco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 293397,
     "wikiDataId": "Q2100624"
-  },
-  {
-    "id": 80855,
-    "name": "Provincia de Leoncio Prado",
-    "state_id": 3687,
-    "state_code": "HUC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-9.16667000",
-    "longitude": "-76.00000000",
-    "native": "Provincia de Leoncio Prado",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 0,
-    "wikiDataId": "Q1468138"
   },
   {
     "id": 80859,
@@ -171,7 +155,7 @@
     "native": "Provincia de Marañón",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 26622,
     "wikiDataId": "Q764487"
   },
@@ -187,7 +171,7 @@
     "native": "Provincia de Pachítea",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 49159,
     "wikiDataId": "Q2084641"
   },
@@ -203,9 +187,9 @@
     "native": "Puerto Inca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q1944276"
+    "wikiDataId": "Q7258563"
   },
   {
     "id": 80952,
@@ -219,9 +203,9 @@
     "native": "San Miguel de Cauri",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5326,
-    "wikiDataId": "Q2726675"
+    "wikiDataId": "Q2761311"
   },
   {
     "id": 80992,
@@ -267,7 +251,7 @@
     "native": "Yarowilca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 19897,
     "wikiDataId": "Q2088849"
   }

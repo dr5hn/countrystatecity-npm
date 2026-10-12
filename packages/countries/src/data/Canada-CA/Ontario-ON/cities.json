@@ -11,7 +11,7 @@
     "native": "Ajax",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 126666,
     "wikiDataId": "Q386567"
   },
@@ -59,8 +59,8 @@
     "native": "Amherstburg",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 13910,
+    "type": "town",
+    "population": 23524,
     "wikiDataId": "Q385335"
   },
   {
@@ -72,12 +72,12 @@
     "country_code": "CA",
     "latitude": "44.70011000",
     "longitude": "-79.39963000",
-    "native": "Beach friend",
+    "native": "Amigo Beach",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q385335"
+    "wikiDataId": null
   },
   {
     "id": 16166,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "locality",
     "population": 10269,
-    "wikiDataId": "Q2849264"
+    "wikiDataId": "Q20434164"
   },
   {
     "id": 16174,
@@ -123,8 +123,8 @@
     "native": "Arnprior",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 8795,
+    "type": "town",
+    "population": 9629,
     "wikiDataId": "Q543997"
   },
   {
@@ -136,12 +136,12 @@
     "country_code": "CA",
     "latitude": "48.75667000",
     "longitude": "-91.62409000",
-    "native": "At the pic",
+    "native": "Atikokan",
     "timezone": "America/Atikokan",
     "translations": {},
-    "type": "city",
-    "population": 2753,
-    "wikiDataId": "Q754638"
+    "type": "town",
+    "population": 2642,
+    "wikiDataId": "Q4815788"
   },
   {
     "id": 16180,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 1501,
-    "wikiDataId": "Q1656303"
+    "wikiDataId": null
   },
   {
     "id": 16181,
@@ -171,8 +171,8 @@
     "native": "Aurora",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 55445,
+    "type": "town",
+    "population": 62057,
     "wikiDataId": "Q266438"
   },
   {
@@ -187,8 +187,8 @@
     "native": "Aylmer",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7492,
+    "type": "town",
+    "population": 7699,
     "wikiDataId": "Q2874907"
   },
   {
@@ -200,12 +200,12 @@
     "country_code": "CA",
     "latitude": "46.55008000",
     "longitude": "-81.09975000",
-    "native": "In a manger",
+    "native": "Azilda",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": 4663,
-    "wikiDataId": "Q2874907"
+    "wikiDataId": null
   },
   {
     "id": 16188,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 4065,
-    "wikiDataId": "Q4851434"
+    "wikiDataId": null
   },
   {
     "id": 16193,
@@ -269,7 +269,7 @@
     "translations": {},
     "type": "city",
     "population": 1180,
-    "wikiDataId": "Q773061"
+    "wikiDataId": null
   },
   {
     "id": 16211,
@@ -284,7 +284,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 50716,
+    "population": 55071,
     "wikiDataId": "Q34227"
   },
   {
@@ -299,7 +299,7 @@
     "native": "Bells Corners",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9272,
     "wikiDataId": "Q4082975"
   },
@@ -317,7 +317,7 @@
     "translations": {},
     "type": "city",
     "population": 1140,
-    "wikiDataId": "Q4082975"
+    "wikiDataId": null
   },
   {
     "id": 16218,
@@ -331,9 +331,9 @@
     "native": "Binbrook",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8796,
-    "wikiDataId": "Q859632"
+    "wikiDataId": "Q4913952"
   },
   {
     "id": 16222,
@@ -347,9 +347,25 @@
     "native": "Bluewater",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7044,
+    "type": "municipality",
+    "population": 7540,
     "wikiDataId": "Q4864429"
+  },
+  {
+    "id": 164523,
+    "name": "Bolton",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.87952000",
+    "longitude": "-79.73791000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "locality",
+    "population": 26795,
+    "wikiDataId": "Q891636"
   },
   {
     "id": 16233,
@@ -360,12 +376,28 @@
     "country_code": "CA",
     "latitude": "45.43340000",
     "longitude": "-75.14930000",
-    "native": "Hedgerow",
+    "native": "Bourget",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "locality",
     "population": 1169,
-    "wikiDataId": "Q2071178"
+    "wikiDataId": "Q559280"
+  },
+  {
+    "id": 164519,
+    "name": "Bowmanville",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.91682000",
+    "longitude": "-78.68286000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "city",
+    "population": 39371,
+    "wikiDataId": "Q2922719"
   },
   {
     "id": 16236,
@@ -379,8 +411,8 @@
     "native": "Bracebridge",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 15414,
+    "type": "town",
+    "population": 17305,
     "wikiDataId": "Q896553"
   },
   {
@@ -448,6 +480,22 @@
     "wikiDataId": "Q34047"
   },
   {
+    "id": 164524,
+    "name": "Brooklin",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.95833000",
+    "longitude": "-78.95972000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "city",
+    "population": 25000,
+    "wikiDataId": "Q4974685"
+  },
+  {
     "id": 16248,
     "name": "Brussels",
     "state_id": 866,
@@ -477,7 +525,7 @@
     "translations": {},
     "type": "city",
     "population": 1615,
-    "wikiDataId": "Q2927470"
+    "wikiDataId": "Q4998473"
   },
   {
     "id": 16252,
@@ -494,6 +542,22 @@
     "type": "city",
     "population": 186948,
     "wikiDataId": "Q34218"
+  },
+  {
+    "id": 164518,
+    "name": "Caledon",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.86544000",
+    "longitude": "-79.99322000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "town",
+    "population": 76581,
+    "wikiDataId": "Q424659"
   },
   {
     "id": 16261,
@@ -525,7 +589,7 @@
     "translations": {},
     "type": "city",
     "population": 7506,
-    "wikiDataId": "Q1028279"
+    "wikiDataId": "Q22698652"
   },
   {
     "id": 16274,
@@ -555,8 +619,8 @@
     "native": "Carleton Place",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 11901,
+    "type": "town",
+    "population": 12517,
     "wikiDataId": "Q1041701"
   },
   {
@@ -571,8 +635,8 @@
     "native": "Casselman",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 3074,
+    "type": "municipality",
+    "population": 3960,
     "wikiDataId": "Q681272"
   },
   {
@@ -589,7 +653,7 @@
     "translations": {},
     "type": "city",
     "population": 43550,
-    "wikiDataId": "Q2957005"
+    "wikiDataId": null
   },
   {
     "id": 16300,
@@ -603,8 +667,8 @@
     "native": "Chatham-Kent",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 43550,
+    "type": "municipality",
+    "population": 103988,
     "wikiDataId": "Q113464"
   },
   {
@@ -620,7 +684,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 20790,
+    "population": 26505,
     "wikiDataId": "Q2364972"
   },
   {
@@ -635,7 +699,7 @@
     "native": "Cobourg",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20519,
     "wikiDataId": "Q1007418"
   },
@@ -648,7 +712,7 @@
     "country_code": "CA",
     "latitude": "50.00022000",
     "longitude": "-82.99979000",
-    "native": "Cochrane District",
+    "native": "Cochrane",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "district",
@@ -667,8 +731,8 @@
     "native": "Collingwood",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 21793,
+    "type": "town",
+    "population": 24811,
     "wikiDataId": "Q3501912"
   },
   {
@@ -683,7 +747,7 @@
     "native": "Concord",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8255,
     "wikiDataId": "Q5158752"
   },
@@ -701,7 +765,7 @@
     "translations": {},
     "type": "city",
     "population": 2314,
-    "wikiDataId": "Q5158752"
+    "wikiDataId": null
   },
   {
     "id": 16333,
@@ -717,7 +781,7 @@
     "translations": {},
     "type": "city",
     "population": 1214,
-    "wikiDataId": "Q142239"
+    "wikiDataId": null
   },
   {
     "id": 16337,
@@ -732,7 +796,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 48821,
+    "population": 47845,
     "wikiDataId": "Q956690"
   },
   {
@@ -749,7 +813,7 @@
     "translations": {},
     "type": "city",
     "population": 5686,
-    "wikiDataId": "Q1018959"
+    "wikiDataId": null
   },
   {
     "id": 16361,
@@ -763,8 +827,8 @@
     "native": "Deep River",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 4296,
+    "type": "town",
+    "population": 4175,
     "wikiDataId": "Q3267284"
   },
   {
@@ -781,7 +845,7 @@
     "translations": {},
     "type": "locality",
     "population": 2521,
-    "wikiDataId": "Q2674298"
+    "wikiDataId": "Q5253209"
   },
   {
     "id": 16369,
@@ -795,8 +859,8 @@
     "native": "Deseronto",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 1897,
+    "type": "town",
+    "population": 1747,
     "wikiDataId": "Q603823"
   },
   {
@@ -813,7 +877,7 @@
     "translations": {},
     "type": "city",
     "population": 9329,
-    "wikiDataId": "Q141639"
+    "wikiDataId": "Q5297584"
   },
   {
     "id": 16382,
@@ -827,9 +891,9 @@
     "native": "Dowling",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1466,
-    "wikiDataId": "Q141963"
+    "wikiDataId": "Q115178145"
   },
   {
     "id": 16385,
@@ -845,7 +909,7 @@
     "translations": {},
     "type": "city",
     "population": 7388,
-    "wikiDataId": "Q141940"
+    "wikiDataId": "Q3040214"
   },
   {
     "id": 16389,
@@ -875,7 +939,7 @@
     "native": "Ear Falls",
     "timezone": "America/Winnipeg",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 924,
     "wikiDataId": "Q5325627"
   },
@@ -891,8 +955,8 @@
     "native": "East Gwillimbury",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 23991,
+    "type": "town",
+    "population": 34637,
     "wikiDataId": "Q483424"
   },
   {
@@ -924,7 +988,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 10741,
+    "population": 11372,
     "wikiDataId": "Q2729034"
   },
   {
@@ -941,7 +1005,7 @@
     "translations": {},
     "type": "city",
     "population": 2314,
-    "wikiDataId": "Q2729034"
+    "wikiDataId": null
   },
   {
     "id": 16405,
@@ -968,11 +1032,11 @@
     "country_code": "CA",
     "latitude": "46.25837000",
     "longitude": "-81.76649000",
-    "native": "Spanish",
+    "native": "Espanola",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 5364,
+    "type": "town",
+    "population": 5185,
     "wikiDataId": "Q3058383"
   },
   {
@@ -987,8 +1051,8 @@
     "native": "Essex",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7446,
+    "type": "town",
+    "population": 21216,
     "wikiDataId": "Q559147"
   },
   {
@@ -1000,7 +1064,7 @@
     "country_code": "CA",
     "latitude": "43.65421000",
     "longitude": "-79.56711000",
-    "native": "Ethobicoke",
+    "native": "Etobicoke",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "section",
@@ -1024,6 +1088,38 @@
     "wikiDataId": "Q5420085"
   },
   {
+    "id": 16417,
+    "name": "Fallingbrook",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "45.47558000",
+    "longitude": "-75.48401000",
+    "native": "Fallingbrook",
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "locality",
+    "population": 25000,
+    "wikiDataId": "Q5432394"
+  },
+  {
+    "id": 164527,
+    "name": "Fergus",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.70604000",
+    "longitude": "-80.37761000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "city",
+    "population": 20767,
+    "wikiDataId": "Q5444155"
+  },
+  {
     "id": 16427,
     "name": "Fort Erie",
     "state_id": 866,
@@ -1035,8 +1131,8 @@
     "native": "Fort Erie",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 30710,
+    "type": "town",
+    "population": 32901,
     "wikiDataId": "Q268103"
   },
   {
@@ -1051,7 +1147,7 @@
     "native": "Fort Frances",
     "timezone": "America/Winnipeg",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7739,
     "wikiDataId": "Q1438546"
   },
@@ -1067,8 +1163,8 @@
     "native": "Gananoque",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 5458,
+    "type": "town",
+    "population": 5383,
     "wikiDataId": "Q1208051"
   },
   {
@@ -1085,7 +1181,7 @@
     "translations": {},
     "type": "city",
     "population": 2126,
-    "wikiDataId": "Q3108251"
+    "wikiDataId": null
   },
   {
     "id": 16457,
@@ -1099,8 +1195,8 @@
     "native": "Goderich",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7628,
+    "type": "town",
+    "population": 7881,
     "wikiDataId": "Q33974"
   },
   {
@@ -1117,7 +1213,7 @@
     "translations": {},
     "type": "city",
     "population": 1154,
-    "wikiDataId": "Q1020179"
+    "wikiDataId": null
   },
   {
     "id": 16470,
@@ -1131,8 +1227,8 @@
     "native": "Gravenhurst",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 12311,
+    "type": "town",
+    "population": 13157,
     "wikiDataId": "Q937901"
   },
   {
@@ -1147,7 +1243,7 @@
     "native": "Greater Napanee",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 16879,
     "wikiDataId": "Q1007509"
   },
@@ -1179,9 +1275,25 @@
     "native": "Greenstone",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4636,
     "wikiDataId": "Q3492487"
+  },
+  {
+    "id": 164522,
+    "name": "Grimsby",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.20011000",
+    "longitude": "-79.56631000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "town",
+    "population": 28883,
+    "wikiDataId": "Q424901"
   },
   {
     "id": 16478,
@@ -1208,12 +1320,12 @@
     "country_code": "CA",
     "latitude": "42.98341000",
     "longitude": "-79.86633000",
-    "native": "Haldimand County",
+    "native": "Haldimand",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "county",
     "population": 45608,
-    "wikiDataId": "Q1001810"
+    "wikiDataId": null
   },
   {
     "id": 16481,
@@ -1229,7 +1341,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q1001810"
+    "wikiDataId": null
   },
   {
     "id": 16483,
@@ -1240,7 +1352,7 @@
     "country_code": "CA",
     "latitude": "43.50011000",
     "longitude": "-79.88294000",
-    "native": "Stop",
+    "native": "Halton",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "adm2",
@@ -1275,8 +1387,8 @@
     "native": "Hanover",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7688,
+    "type": "town",
+    "population": 7967,
     "wikiDataId": "Q1576700"
   },
   {
@@ -1293,7 +1405,7 @@
     "translations": {},
     "type": "city",
     "population": 1797,
-    "wikiDataId": "Q3127311"
+    "wikiDataId": null
   },
   {
     "id": 16497,
@@ -1307,8 +1419,8 @@
     "native": "Hawkesbury",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 10263,
+    "type": "town",
+    "population": 10194,
     "wikiDataId": "Q2573770"
   },
   {
@@ -1323,8 +1435,8 @@
     "native": "Hearst",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 5070,
+    "type": "town",
+    "population": 4794,
     "wikiDataId": "Q2270394"
   },
   {
@@ -1339,7 +1451,7 @@
     "native": "Hornepayne",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 968,
     "wikiDataId": "Q729585"
   },
@@ -1355,8 +1467,8 @@
     "native": "Huntsville",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 19816,
+    "type": "town",
+    "population": 21147,
     "wikiDataId": "Q1024091"
   },
   {
@@ -1371,8 +1483,8 @@
     "native": "Huron East",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 9264,
+    "type": "municipality",
+    "population": 9512,
     "wikiDataId": "Q3492472"
   },
   {
@@ -1387,8 +1499,8 @@
     "native": "Ingersoll",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 12757,
+    "type": "town",
+    "population": 13693,
     "wikiDataId": "Q594706"
   },
   {
@@ -1403,7 +1515,7 @@
     "native": "Innisfil",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 43326,
     "wikiDataId": "Q3492080"
   },
@@ -1419,8 +1531,8 @@
     "native": "Iroquois Falls",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 4537,
+    "type": "town",
+    "population": 4418,
     "wikiDataId": "Q3154557"
   },
   {
@@ -1464,11 +1576,11 @@
     "country_code": "CA",
     "latitude": "49.41694000",
     "longitude": "-82.43308000",
-    "native": "KapusiTang",
+    "native": "Kapuskasing",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 8292,
+    "type": "town",
+    "population": 8057,
     "wikiDataId": "Q1027634"
   },
   {
@@ -1484,8 +1596,8 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 75423,
-    "wikiDataId": "Q1027634"
+    "population": 79247,
+    "wikiDataId": "Q384755"
   },
   {
     "id": 16537,
@@ -1517,7 +1629,7 @@
     "translations": {},
     "type": "section",
     "population": 21000,
-    "wikiDataId": "Q1914825"
+    "wikiDataId": "Q6395263"
   },
   {
     "id": 16546,
@@ -1531,8 +1643,8 @@
     "native": "Kincardine",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm3",
-    "population": 6725,
+    "type": "municipality",
+    "population": 12268,
     "wikiDataId": "Q3492582"
   },
   {
@@ -1547,8 +1659,8 @@
     "native": "King",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 6970,
+    "type": "municipality",
+    "population": 27333,
     "wikiDataId": "Q483483"
   },
   {
@@ -1579,8 +1691,8 @@
     "native": "Kirkland Lake",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 7775,
+    "type": "town",
+    "population": 7750,
     "wikiDataId": "Q1362758"
   },
   {
@@ -1595,7 +1707,7 @@
     "native": "Kitchener",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 256885,
     "wikiDataId": "Q200166"
   },
@@ -1608,12 +1720,12 @@
     "country_code": "CA",
     "latitude": "45.61980000",
     "longitude": "-74.69150000",
-    "native": "Moose",
+    "native": "L'Orignal",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": 1450,
-    "wikiDataId": "Q141754"
+    "wikiDataId": null
   },
   {
     "id": 16590,
@@ -1629,7 +1741,7 @@
     "translations": {},
     "type": "city",
     "population": 2753,
-    "wikiDataId": "Q6475523"
+    "wikiDataId": null
   },
   {
     "id": 16591,
@@ -1643,9 +1755,9 @@
     "native": "Lambton Shores",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 10631,
-    "wikiDataId": "Q6475523"
+    "type": "municipality",
+    "population": 11876,
+    "wikiDataId": "Q3476268"
   },
   {
     "id": 16601,
@@ -1656,12 +1768,28 @@
     "country_code": "CA",
     "latitude": "48.56680000",
     "longitude": "-89.35013000",
-    "native": "Rags",
+    "native": "Lappe",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": 1436,
-    "wikiDataId": "Q3217608"
+    "wikiDataId": "Q6488337"
+  },
+  {
+    "id": 164521,
+    "name": "LaSalle",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "42.24481000",
+    "longitude": "-83.06095000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "town",
+    "population": 32721,
+    "wikiDataId": "Q1435042"
   },
   {
     "id": 16607,
@@ -1675,7 +1803,7 @@
     "native": "Leamington",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 27595,
     "wikiDataId": "Q2566566"
   },
@@ -1707,7 +1835,7 @@
     "native": "Lindsay",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20713,
     "wikiDataId": "Q3241437"
   },
@@ -1741,7 +1869,7 @@
     "translations": {},
     "type": "city",
     "population": 2156,
-    "wikiDataId": "Q1864950"
+    "wikiDataId": null
   },
   {
     "id": 16624,
@@ -1755,9 +1883,9 @@
     "native": "Lively",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5608,
-    "wikiDataId": "Q1864950"
+    "wikiDataId": "Q115178272"
   },
   {
     "id": 16627,
@@ -1789,7 +1917,7 @@
     "translations": {},
     "type": "city",
     "population": 2541,
-    "wikiDataId": "Q141410"
+    "wikiDataId": null
   },
   {
     "id": 16643,
@@ -1816,7 +1944,7 @@
     "country_code": "CA",
     "latitude": "45.75007000",
     "longitude": "-82.49985000",
-    "native": "Manitoulin District",
+    "native": "Manitoulin",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "district",
@@ -1835,7 +1963,7 @@
     "native": "Manitouwadge",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1974,
     "wikiDataId": "Q1614488"
   },
@@ -1851,8 +1979,8 @@
     "native": "Marathon",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "town",
+    "population": 3138,
     "wikiDataId": "Q1341278"
   },
   {
@@ -1864,12 +1992,12 @@
     "country_code": "CA",
     "latitude": "44.31680000",
     "longitude": "-80.64971000",
-    "native": "Market dale",
+    "native": "Markdale",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": 1216,
-    "wikiDataId": "Q141420"
+    "wikiDataId": null
   },
   {
     "id": 16662,
@@ -1896,11 +2024,11 @@
     "country_code": "CA",
     "latitude": "46.31681000",
     "longitude": "-78.69957000",
-    "native": "Matthew",
+    "native": "Mattawa",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 2023,
+    "type": "town",
+    "population": 1881,
     "wikiDataId": "Q1013150"
   },
   {
@@ -1915,8 +2043,8 @@
     "native": "Meaford",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 4910,
+    "type": "municipality",
+    "population": 11485,
     "wikiDataId": "Q3492570"
   },
   {
@@ -1931,7 +2059,7 @@
     "native": "Metcalfe",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1776,
     "wikiDataId": "Q14875295"
   },
@@ -1947,8 +2075,8 @@
     "native": "Midland",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 24353,
+    "type": "town",
+    "population": 17817,
     "wikiDataId": "Q1931996"
   },
   {
@@ -1960,7 +2088,7 @@
     "country_code": "CA",
     "latitude": "44.05009000",
     "longitude": "-81.11644000",
-    "native": "Milled",
+    "native": "Mildmay",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
@@ -1981,7 +2109,7 @@
     "translations": {},
     "type": "city",
     "population": 1695,
-    "wikiDataId": "Q6850915"
+    "wikiDataId": null
   },
   {
     "id": 16692,
@@ -1995,7 +2123,7 @@
     "native": "Milton",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 132979,
     "wikiDataId": "Q425057"
   },
@@ -2029,7 +2157,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q50816"
+    "wikiDataId": null
   },
   {
     "id": 16712,
@@ -2059,8 +2187,8 @@
     "native": "Moosonee",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 1481,
+    "type": "town",
+    "population": 1512,
     "wikiDataId": "Q1736159"
   },
   {
@@ -2091,9 +2219,9 @@
     "native": "Mount Albert",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4925,
-    "wikiDataId": "Q11883244"
+    "wikiDataId": "Q6919322"
   },
   {
     "id": 16723,
@@ -2109,7 +2237,7 @@
     "translations": {},
     "type": "locality",
     "population": 1842,
-    "wikiDataId": "Q11883244"
+    "wikiDataId": null
   },
   {
     "id": 16731,
@@ -2123,9 +2251,9 @@
     "native": "Napanee Downtown",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1500,
-    "wikiDataId": "Q1744143"
+    "wikiDataId": "Q22658165"
   },
   {
     "id": 16733,
@@ -2139,8 +2267,8 @@
     "native": "Neebing",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 1986,
+    "type": "municipality",
+    "population": 2241,
     "wikiDataId": "Q4859501"
   },
   {
@@ -2187,8 +2315,8 @@
     "native": "Newmarket",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 84224,
+    "type": "town",
+    "population": 87942,
     "wikiDataId": "Q52999"
   },
   {
@@ -2204,7 +2332,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 88071,
+    "population": 94415,
     "wikiDataId": "Q274120"
   },
   {
@@ -2216,7 +2344,7 @@
     "country_code": "CA",
     "latitude": "46.00010000",
     "longitude": "-78.99959000",
-    "native": "Nipissing District",
+    "native": "Nipissing",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "district",
@@ -2235,7 +2363,7 @@
     "native": "Norfolk County",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "county",
+    "type": "municipality",
     "population": 60847,
     "wikiDataId": "Q385229"
   },
@@ -2252,7 +2380,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 51553,
+    "population": 52662,
     "wikiDataId": "Q912253"
   },
   {
@@ -2267,8 +2395,8 @@
     "native": "North Perth",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 13130,
+    "type": "municipality",
+    "population": 15538,
     "wikiDataId": "Q3089368"
   },
   {
@@ -2283,7 +2411,7 @@
     "native": "North York",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm1",
+    "type": "section",
     "population": 672955,
     "wikiDataId": "Q1586510"
   },
@@ -2315,7 +2443,7 @@
     "native": "Oakville",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 213759,
     "wikiDataId": "Q424984"
   },
@@ -2328,10 +2456,10 @@
     "country_code": "CA",
     "latitude": "44.29897000",
     "longitude": "-78.55989000",
-    "native": "Omehy",
+    "native": "Omemee",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1323,
     "wikiDataId": "Q22702375"
   },
@@ -2347,7 +2475,7 @@
     "native": "Orangeville",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 30167,
     "wikiDataId": "Q2470087"
   },
@@ -2360,11 +2488,11 @@
     "country_code": "CA",
     "latitude": "44.60868000",
     "longitude": "-79.42068000",
-    "native": "Orile",
+    "native": "Orillia",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 30586,
+    "population": 33411,
     "wikiDataId": "Q2373358"
   },
   {
@@ -2379,7 +2507,7 @@
     "native": "Osgoode",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm4",
+    "type": "locality",
     "population": 2453,
     "wikiDataId": "Q7106550"
   },
@@ -2411,7 +2539,7 @@
     "native": "Ottawa",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "capital",
+    "type": "city",
     "population": 1017449,
     "wikiDataId": "Q1930"
   },
@@ -2477,7 +2605,7 @@
     "translations": {},
     "type": "city",
     "population": 1737,
-    "wikiDataId": "Q3305306"
+    "wikiDataId": null
   },
   {
     "id": 16800,
@@ -2491,8 +2619,8 @@
     "native": "Parry Sound",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 6321,
+    "type": "town",
+    "population": 6879,
     "wikiDataId": "Q2219667"
   },
   {
@@ -2540,7 +2668,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 13882,
+    "population": 14364,
     "wikiDataId": "Q1075086"
   },
   {
@@ -2555,8 +2683,8 @@
     "native": "Perth",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 5930,
+    "type": "town",
+    "population": 6469,
     "wikiDataId": "Q2428683"
   },
   {
@@ -2571,8 +2699,8 @@
     "native": "PETAWAWA",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 17187,
+    "type": "town",
+    "population": 18160,
     "wikiDataId": "Q1455440"
   },
   {
@@ -2588,7 +2716,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 81032,
+    "population": 83651,
     "wikiDataId": "Q776930"
   },
   {
@@ -2600,7 +2728,7 @@
     "country_code": "CA",
     "latitude": "42.86678000",
     "longitude": "-82.14981000",
-    "native": "Petroli",
+    "native": "Petrolia",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
@@ -2635,7 +2763,7 @@
     "native": "Picton",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4702,
     "wikiDataId": "Q7191105"
   },
@@ -2653,7 +2781,7 @@
     "translations": {},
     "type": "city",
     "population": 9680,
-    "wikiDataId": "Q1369892"
+    "wikiDataId": null
   },
   {
     "id": 16828,
@@ -2669,7 +2797,7 @@
     "translations": {},
     "type": "city",
     "population": 1366,
-    "wikiDataId": "Q1369892"
+    "wikiDataId": "Q115174469"
   },
   {
     "id": 16838,
@@ -2684,7 +2812,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 18306,
+    "population": 20033,
     "wikiDataId": "Q424704"
   },
   {
@@ -2699,9 +2827,9 @@
     "native": "Port Hope",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 12587,
-    "wikiDataId": "Q2326975"
+    "type": "municipality",
+    "population": 17294,
+    "wikiDataId": "Q613870"
   },
   {
     "id": 16844,
@@ -2712,12 +2840,12 @@
     "country_code": "CA",
     "latitude": "42.61680000",
     "longitude": "-80.46638000",
-    "native": "Rowan Port",
+    "native": "Port Rowan",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
     "population": 1102,
-    "wikiDataId": "Q776261"
+    "wikiDataId": null
   },
   {
     "id": 16845,
@@ -2749,7 +2877,7 @@
     "translations": {},
     "type": "city",
     "population": 1243,
-    "wikiDataId": "Q142430"
+    "wikiDataId": null
   },
   {
     "id": 16853,
@@ -2763,8 +2891,8 @@
     "native": "Prescott",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 3965,
+    "type": "town",
+    "population": 4078,
     "wikiDataId": "Q2420628"
   },
   {
@@ -2779,8 +2907,8 @@
     "native": "Prince Edward",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 24735,
+    "type": "municipality",
+    "population": 25704,
     "wikiDataId": "Q385085"
   },
   {
@@ -2795,9 +2923,9 @@
     "native": "Queenswood Heights",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12000,
-    "wikiDataId": "Q141385"
+    "wikiDataId": "Q7271129"
   },
   {
     "id": 16866,
@@ -2812,7 +2940,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 43086,
+    "population": 46560,
     "wikiDataId": "Q3276918"
   },
   {
@@ -2824,7 +2952,7 @@
     "country_code": "CA",
     "latitude": "48.49981000",
     "longitude": "-92.50031000",
-    "native": "Rainy River District",
+    "native": "Rainy River",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "district",
@@ -2843,7 +2971,7 @@
     "native": "Rayside-Balfour",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14557,
     "wikiDataId": "Q3421337"
   },
@@ -2859,9 +2987,9 @@
     "native": "Red Lake",
     "timezone": "America/Winnipeg",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4094,
-    "wikiDataId": "Q23025"
+    "wikiDataId": "Q1018643"
   },
   {
     "id": 16879,
@@ -2891,8 +3019,8 @@
     "native": "Renfrew",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 8223,
+    "type": "town",
+    "population": 8190,
     "wikiDataId": "Q2143987"
   },
   {
@@ -2907,7 +3035,7 @@
     "native": "Richmond",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4055,
     "wikiDataId": "Q14875404"
   },
@@ -2941,7 +3069,7 @@
     "translations": {},
     "type": "city",
     "population": 3002,
-    "wikiDataId": "Q52998"
+    "wikiDataId": null
   },
   {
     "id": 16900,
@@ -2957,7 +3085,7 @@
     "translations": {},
     "type": "city",
     "population": 4629,
-    "wikiDataId": "Q695157"
+    "wikiDataId": "Q25391975"
   },
   {
     "id": 16909,
@@ -2973,7 +3101,7 @@
     "translations": {},
     "type": "city",
     "population": 6135,
-    "wikiDataId": "Q1664593"
+    "wikiDataId": null
   },
   {
     "id": 17020,
@@ -2988,7 +3116,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 72320,
+    "population": 72047,
     "wikiDataId": "Q34106"
   },
   {
@@ -3000,11 +3128,11 @@
     "country_code": "CA",
     "latitude": "46.51677000",
     "longitude": "-84.33325000",
-    "native": "Sault star. increase",
+    "native": "Sault Ste. Marie",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm2",
-    "population": 73368,
+    "type": "city",
+    "population": 72051,
     "wikiDataId": "Q463165"
   },
   {
@@ -3021,7 +3149,7 @@
     "translations": {},
     "type": "section",
     "population": 632098,
-    "wikiDataId": "Q463165"
+    "wikiDataId": null
   },
   {
     "id": 17024,
@@ -3035,7 +3163,7 @@
     "native": "Seaforth",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2680,
     "wikiDataId": "Q7440408"
   },
@@ -3051,8 +3179,8 @@
     "native": "Shelburne",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 8126,
+    "type": "town",
+    "population": 8994,
     "wikiDataId": "Q4859980"
   },
   {
@@ -3067,7 +3195,7 @@
     "native": "Simcoe",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13922,
     "wikiDataId": "Q3054408"
   },
@@ -3085,7 +3213,7 @@
     "translations": {},
     "type": "city",
     "population": 2941,
-    "wikiDataId": "Q3054408"
+    "wikiDataId": null
   },
   {
     "id": 17048,
@@ -3101,7 +3229,7 @@
     "translations": {},
     "type": "section",
     "population": 1500,
-    "wikiDataId": "Q3054408"
+    "wikiDataId": null
   },
   {
     "id": 17051,
@@ -3115,8 +3243,8 @@
     "native": "Smiths Falls",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 8780,
+    "type": "town",
+    "population": 9254,
     "wikiDataId": "Q1938153"
   },
   {
@@ -3131,7 +3259,7 @@
     "native": "South Huron",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9982,
     "wikiDataId": "Q4397"
   },
@@ -3181,7 +3309,7 @@
     "translations": {},
     "type": "city",
     "population": 3255,
-    "wikiDataId": "Q126805"
+    "wikiDataId": "Q104840893"
   },
   {
     "id": 17073,
@@ -3213,7 +3341,7 @@
     "translations": {},
     "type": "city",
     "population": 2030,
-    "wikiDataId": "Q1746019"
+    "wikiDataId": null
   },
   {
     "id": 17081,
@@ -3229,7 +3357,23 @@
     "translations": {},
     "type": "locality",
     "population": 1087,
-    "wikiDataId": "Q393324"
+    "wikiDataId": "Q115277814"
+  },
+  {
+    "id": 164520,
+    "name": "Stouffville",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "43.96682000",
+    "longitude": "-79.24960000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "city",
+    "population": 36753,
+    "wikiDataId": "Q7620544"
   },
   {
     "id": 17083,
@@ -3244,7 +3388,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 31465,
+    "population": 33232,
     "wikiDataId": "Q740756"
   },
   {
@@ -3277,7 +3421,23 @@
     "translations": {},
     "type": "city",
     "population": 2955,
-    "wikiDataId": "Q1746037"
+    "wikiDataId": "Q108792719"
+  },
+  {
+    "id": 164525,
+    "name": "Tecumseh",
+    "state_id": 866,
+    "state_code": "ON",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "42.31600000",
+    "longitude": "-82.88400000",
+    "native": null,
+    "timezone": "America/Toronto",
+    "translations": {},
+    "type": "town",
+    "population": 23300,
+    "wikiDataId": "Q3089334"
   },
   {
     "id": 17101,
@@ -3292,7 +3452,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 10442,
+    "population": 9634,
     "wikiDataId": "Q1982768"
   },
   {
@@ -3340,7 +3500,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 18801,
+    "population": 23816,
     "wikiDataId": "Q448120"
   },
   {
@@ -3384,7 +3544,7 @@
     "country_code": "CA",
     "latitude": "47.75016000",
     "longitude": "-80.33303000",
-    "native": "Timiskaming District",
+    "native": "Timiskaming",
     "timezone": "America/Toronto",
     "translations": {},
     "type": "district",
@@ -3404,7 +3564,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 41788,
+    "population": 41145,
     "wikiDataId": "Q991310"
   },
   {
@@ -3435,7 +3595,7 @@
     "native": "Toronto",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "section",
+    "type": "city",
     "population": 2794356,
     "wikiDataId": "Q172"
   },
@@ -3469,7 +3629,7 @@
     "translations": {},
     "type": "city",
     "population": 5143,
-    "wikiDataId": "Q172"
+    "wikiDataId": null
   },
   {
     "id": 17130,
@@ -3485,7 +3645,7 @@
     "translations": {},
     "type": "city",
     "population": 1701,
-    "wikiDataId": "Q7852567"
+    "wikiDataId": null
   },
   {
     "id": 17136,
@@ -3499,8 +3659,8 @@
     "native": "Uxbridge",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 21176,
+    "type": "municipality",
+    "population": 21556,
     "wikiDataId": "Q386959"
   },
   {
@@ -3517,7 +3677,7 @@
     "translations": {},
     "type": "city",
     "population": 0,
-    "wikiDataId": "Q141813"
+    "wikiDataId": null
   },
   {
     "id": 17147,
@@ -3531,7 +3691,7 @@
     "native": "Vanier",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17000,
     "wikiDataId": "Q3554592"
   },
@@ -3581,7 +3741,7 @@
     "translations": {},
     "type": "city",
     "population": 2937,
-    "wikiDataId": "Q75861"
+    "wikiDataId": null
   },
   {
     "id": 17169,
@@ -3593,11 +3753,11 @@
     "latitude": "42.61520000",
     "longitude": "-82.51398000",
     "native": "Walpole Island",
-    "timezone": "America/Detroit",
+    "timezone": "America/Toronto",
     "translations": {},
     "type": "locality",
     "population": 1878,
-    "wikiDataId": "Q835304"
+    "wikiDataId": null
   },
   {
     "id": 17172,
@@ -3611,8 +3771,8 @@
     "native": "Wasaga Beach",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
-    "population": 20675,
+    "type": "town",
+    "population": 24862,
     "wikiDataId": "Q3047234"
   },
   {
@@ -3627,7 +3787,7 @@
     "native": "Waterford",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3132,
     "wikiDataId": "Q7973998"
   },
@@ -3661,7 +3821,7 @@
     "translations": {},
     "type": "city",
     "population": 1536,
-    "wikiDataId": "Q142289"
+    "wikiDataId": null
   },
   {
     "id": 17181,
@@ -3675,7 +3835,7 @@
     "native": "Wawa",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2705,
     "wikiDataId": "Q1284782"
   },
@@ -3692,7 +3852,7 @@
     "timezone": "America/Toronto",
     "translations": {},
     "type": "city",
-    "population": 52293,
+    "population": 55750,
     "wikiDataId": "Q424773"
   },
   {
@@ -3709,7 +3869,7 @@
     "translations": {},
     "type": "city",
     "population": 3246,
-    "wikiDataId": "Q424773"
+    "wikiDataId": null
   },
   {
     "id": 17188,
@@ -3725,7 +3885,7 @@
     "translations": {},
     "type": "city",
     "population": 1302,
-    "wikiDataId": "Q7982171"
+    "wikiDataId": "Q115277873"
   },
   {
     "id": 17191,
@@ -3741,7 +3901,7 @@
     "translations": {},
     "type": "city",
     "population": 1337,
-    "wikiDataId": "Q5958093"
+    "wikiDataId": null
   },
   {
     "id": 17208,
@@ -3757,7 +3917,7 @@
     "translations": {},
     "type": "locality",
     "population": 79440,
-    "wikiDataId": "Q2039207"
+    "wikiDataId": "Q3569134"
   },
   {
     "id": 17209,
@@ -3773,7 +3933,7 @@
     "translations": {},
     "type": "city",
     "population": 2394,
-    "wikiDataId": "Q2039207"
+    "wikiDataId": null
   },
   {
     "id": 17212,
@@ -3819,7 +3979,7 @@
     "native": "Woodstock",
     "timezone": "America/Toronto",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 46705,
     "wikiDataId": "Q1642364"
   },

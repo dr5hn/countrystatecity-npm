@@ -11,9 +11,25 @@
     "native": "Біла",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3728,
     "wikiDataId": "Q4081579"
+  },
+  {
+    "id": 110873,
+    "name": "Berezhany",
+    "state_id": 4674,
+    "state_code": "61",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.45000000",
+    "longitude": "24.93333000",
+    "native": "Бережани",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q793424"
   },
   {
     "id": 109434,
@@ -59,29 +75,13 @@
     "native": "Чортків",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 29053,
     "wikiDataId": "Q148473"
   },
   {
-    "id": 109579,
-    "name": "Druzhba",
-    "state_id": 4674,
-    "state_code": "61",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "49.04251000",
-    "longitude": "25.45055000",
-    "native": "Дружба",
-    "timezone": "Europe/Kyiv",
-    "translations": {},
-    "type": "city",
-    "population": 484,
-    "wikiDataId": "Q4462957"
-  },
-  {
     "id": 109657,
-    "name": "Hrymayliv",
+    "name": "Hrymailiv",
     "state_id": 4674,
     "state_code": "61",
     "country_id": 230,
@@ -91,7 +91,7 @@
     "native": "Гримайлів",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q1632587"
   },
@@ -107,7 +107,7 @@
     "native": "Гусятин",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7083,
     "wikiDataId": "Q1638961"
   },
@@ -155,7 +155,7 @@
     "native": "Козова",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8989,
     "wikiDataId": "Q1475951"
   },
@@ -171,7 +171,7 @@
     "native": "Кременець",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 20674,
     "wikiDataId": "Q849116"
   },
@@ -193,7 +193,7 @@
   },
   {
     "id": 110029,
-    "name": "Mikulintsy",
+    "name": "Mykulyntsi",
     "state_id": 4674,
     "state_code": "61",
     "country_id": 230,
@@ -203,7 +203,7 @@
     "native": "Микулинці",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3604,
     "wikiDataId": "Q1956628"
   },
@@ -219,7 +219,7 @@
     "native": "Нирків",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1013,
     "wikiDataId": "Q2466363"
   },
@@ -235,13 +235,13 @@
     "native": "Озерна",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3451,
     "wikiDataId": "Q4332287"
   },
   {
     "id": 110256,
-    "name": "Petrikov",
+    "name": "Petrykiv",
     "state_id": 4674,
     "state_code": "61",
     "country_id": 230,
@@ -251,7 +251,7 @@
     "native": "Петриків",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4360546"
   },
@@ -267,7 +267,7 @@
     "native": "Підгайці",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q149170"
   },
@@ -283,7 +283,7 @@
     "native": "Підволочиськ",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7843,
     "wikiDataId": "Q2092533"
   },
@@ -304,6 +304,22 @@
     "wikiDataId": "Q149060"
   },
   {
+    "id": 149496,
+    "name": "Shumsk",
+    "state_id": 4674,
+    "state_code": "61",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "50.11944444",
+    "longitude": "26.11666667",
+    "native": "Шумськ",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "city",
+    "population": 5366,
+    "wikiDataId": "Q219601"
+  },
+  {
     "id": 110467,
     "name": "Skala-Podil’s’ka",
     "state_id": 4674,
@@ -315,7 +331,7 @@
     "native": "Скала-Подільська",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4174,
     "wikiDataId": "Q969475"
   },
@@ -363,7 +379,7 @@
     "native": "Тернопіль",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 225238,
     "wikiDataId": "Q156743"
   },
@@ -379,23 +395,39 @@
     "native": "Товсте",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3248,
     "wikiDataId": "Q1026945"
   },
   {
+    "id": 109579,
+    "name": "Trybukhivtsi",
+    "state_id": 4674,
+    "state_code": "61",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "49.04251000",
+    "longitude": "25.45055000",
+    "native": "Трибухівці",
+    "timezone": "Europe/Kyiv",
+    "translations": {},
+    "type": "village",
+    "population": 484,
+    "wikiDataId": "Q4462957"
+  },
+  {
     "id": 110682,
-    "name": "Velikiye Borki",
+    "name": "Velyki Birky",
     "state_id": 4674,
     "state_code": "61",
     "country_id": 230,
     "country_code": "UA",
     "latitude": "49.52363000",
     "longitude": "25.75753000",
-    "native": "Великі Борки",
+    "native": "Великі Бірки",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q748781"
   },
@@ -411,7 +443,7 @@
     "native": "Ягільниця",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4536122"
   },
@@ -443,7 +475,7 @@
     "native": "Залізці",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2540,
     "wikiDataId": "Q1026940"
   },
@@ -459,7 +491,7 @@
     "native": "Збараж",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 13746,
     "wikiDataId": "Q1019899"
   },
@@ -475,7 +507,7 @@
     "native": "Зборів",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6664,
     "wikiDataId": "Q148928"
   },
@@ -491,24 +523,8 @@
     "native": "Золотий Потік",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q2602963"
-  },
-  {
-    "id": 110873,
-    "name": "Бережани",
-    "state_id": 4674,
-    "state_code": "61",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "49.45000000",
-    "longitude": "24.93333000",
-    "native": "Бережани",
-    "timezone": "Europe/Kyiv",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q793424"
   }
 ]

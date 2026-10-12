@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 84234,
-    "wikiDataId": "Q2619996"
+    "wikiDataId": null
   },
   {
     "id": 108842,
@@ -59,9 +59,9 @@
     "native": "Hayrabolu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 19793,
-    "wikiDataId": "Q1020642"
+    "type": "municipality",
+    "population": 29706,
+    "wikiDataId": "Q2924221"
   },
   {
     "id": 107885,
@@ -123,8 +123,8 @@
     "native": "Muratlı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 28537,
+    "type": "municipality",
+    "population": 30410,
     "wikiDataId": "Q2581023"
   },
   {
@@ -155,8 +155,8 @@
     "native": "Şarköy",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 32565,
+    "type": "municipality",
+    "population": 34458,
     "wikiDataId": "Q388544"
   },
   {
@@ -171,8 +171,24 @@
     "native": "Süleymanpaşa",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 219230,
+    "type": "municipality",
+    "population": 226582,
     "wikiDataId": "Q16897309"
+  },
+  {
+    "id": 165610,
+    "name": "Tekirdağ",
+    "state_id": 2167,
+    "state_code": "59",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "40.97810000",
+    "longitude": "27.51101000",
+    "native": "Tekirdağ",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "adm1",
+    "population": 122287,
+    "wikiDataId": "Q182009"
   }
 ]

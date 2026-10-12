@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 19433,
-    "wikiDataId": "Q19790"
+    "wikiDataId": null
   },
   {
     "id": 49295,
@@ -29,87 +29,7 @@
     "translations": {},
     "type": "section",
     "population": 3024,
-    "wikiDataId": "Q3270518"
-  },
-  {
-    "id": 49406,
-    "name": "East Molesey",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.39872000",
-    "longitude": "-0.34916000",
-    "native": "East Molesey",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 18565,
-    "wikiDataId": "Q1967854"
-  },
-  {
-    "id": 49479,
-    "name": "Epsom",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.33050000",
-    "longitude": "-0.27011000",
-    "native": "Epsom",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 31489,
-    "wikiDataId": "Q993164"
-  },
-  {
-    "id": 49484,
-    "name": "Esher",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.36969000",
-    "longitude": "-0.36693000",
-    "native": "Esher",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 50904,
-    "wikiDataId": "Q637482"
-  },
-  {
-    "id": 49500,
-    "name": "Ewell",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.34948000",
-    "longitude": "-0.24940000",
-    "native": "Ewell",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "section",
-    "population": 34872,
-    "wikiDataId": "Q963723"
-  },
-  {
-    "id": 49943,
-    "name": "Hinchley Wood",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.37461000",
-    "longitude": "-0.33838000",
-    "native": "Hinchley Wood",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3674,
-    "wikiDataId": "Q5765741"
+    "wikiDataId": null
   },
   {
     "id": 49979,
@@ -126,6 +46,22 @@
     "type": "city",
     "population": 18973,
     "wikiDataId": "Q15224991"
+  },
+  {
+    "id": 50180,
+    "name": "Kingston upon Thames",
+    "state_id": 2481,
+    "state_code": "KTT",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.41259000",
+    "longitude": "-0.29740000",
+    "native": "Kingston upon Thames",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "adm3",
+    "population": 10001,
+    "wikiDataId": "Q2321706"
   },
   {
     "id": 50689,
@@ -157,23 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 45132,
-    "wikiDataId": "Q3069845"
-  },
-  {
-    "id": 51585,
-    "name": "Thames Ditton",
-    "state_id": 2481,
-    "state_code": "KTT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.38964000",
-    "longitude": "-0.33928000",
-    "native": "Thames Ditton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 6307,
-    "wikiDataId": "Q954764"
+    "wikiDataId": null
   },
   {
     "id": 51985,
@@ -189,6 +109,6 @@
     "translations": {},
     "type": "city",
     "population": 16031,
-    "wikiDataId": "Q1646181"
+    "wikiDataId": null
   }
 ]

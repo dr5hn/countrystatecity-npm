@@ -27,7 +27,7 @@
     "native": "Алексеевка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1936,
     "wikiDataId": "Q4061836"
   },
@@ -41,11 +41,11 @@
     "latitude": "51.93261000",
     "longitude": "43.49779000",
     "native": "Аркадак",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q103703"
+    "wikiDataId": null
   },
   {
     "id": 97712,
@@ -59,7 +59,7 @@
     "native": "Аткарск",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 22709,
     "wikiDataId": "Q104143"
   },
@@ -73,7 +73,7 @@
     "latitude": "51.91667000",
     "longitude": "45.00000000",
     "native": "Аткарский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "adm2",
     "population": null,
@@ -89,9 +89,9 @@
     "latitude": "52.02782000",
     "longitude": "47.80070000",
     "native": "Балаково",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 180694,
     "wikiDataId": "Q104560"
   },
@@ -105,9 +105,9 @@
     "latitude": "51.55020000",
     "longitude": "43.16670000",
     "native": "Балашов",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 71959,
     "wikiDataId": "Q104564"
   },
@@ -123,7 +123,7 @@
     "native": "Балтай",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3277,
     "wikiDataId": "Q4076869"
   },
@@ -137,9 +137,9 @@
     "latitude": "52.50000000",
     "longitude": "46.66667000",
     "native": "Балтайский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1651123"
   },
@@ -153,7 +153,7 @@
     "latitude": "52.33333000",
     "longitude": "46.33333000",
     "native": "Базарно-Карабулакский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -169,9 +169,9 @@
     "latitude": "52.26833000",
     "longitude": "46.41444000",
     "native": "Базарный Карабулак",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 9134,
     "wikiDataId": "Q809783"
   },
@@ -187,7 +187,7 @@
     "native": "Большой Карай",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2180,
     "wikiDataId": "Q18768048"
   },
@@ -203,7 +203,7 @@
     "native": "Черкасское",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3434,
     "wikiDataId": "Q4513125"
   },
@@ -233,9 +233,9 @@
     "latitude": "52.48280000",
     "longitude": "48.21370000",
     "native": "Духовницкое",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4628,
     "wikiDataId": "Q3701913"
   },
@@ -265,7 +265,7 @@
     "latitude": "51.50000000",
     "longitude": "46.16667000",
     "native": "Энгельсский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -281,7 +281,7 @@
     "latitude": "51.75780000",
     "longitude": "48.54130000",
     "native": "Горный",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "adm2",
     "population": null,
@@ -299,7 +299,7 @@
     "native": "Ивантеевка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 6127,
     "wikiDataId": "Q4196813"
   },
@@ -315,7 +315,7 @@
     "native": "Калининск",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 14949,
     "wikiDataId": "Q143697"
   },
@@ -331,7 +331,7 @@
     "native": "Каменский",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3617,
     "wikiDataId": "Q4211378"
   },
@@ -347,7 +347,7 @@
     "native": "Хвалынск",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 12042,
     "wikiDataId": "Q197560"
   },
@@ -361,7 +361,7 @@
     "latitude": "52.50000000",
     "longitude": "47.91667000",
     "native": "Хвалынский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -395,7 +395,7 @@
     "native": "Кормёжка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1500,
     "wikiDataId": "Q4233226"
   },
@@ -411,7 +411,7 @@
     "native": "Красноармейск",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 26606,
     "wikiDataId": "Q155553"
   },
@@ -425,9 +425,9 @@
     "latitude": "50.95000000",
     "longitude": "46.96667000",
     "native": "Красный Кут",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q155797"
   },
@@ -443,7 +443,7 @@
     "native": "Красный Октябрь",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3303,
     "wikiDataId": "Q4239552"
   },
@@ -459,7 +459,7 @@
     "native": "Красный Яр",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3095,
     "wikiDataId": "Q4239663"
   },
@@ -489,9 +489,9 @@
     "latitude": "51.71111000",
     "longitude": "46.74861000",
     "native": "Маркс",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 28749,
     "wikiDataId": "Q158357"
   },
@@ -505,7 +505,7 @@
     "latitude": "51.66667000",
     "longitude": "46.83333000",
     "native": "Марксовский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -523,7 +523,7 @@
     "native": "Мокроус",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5860,
     "wikiDataId": "Q3701926"
   },
@@ -539,7 +539,7 @@
     "native": "Новоузенск",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 15216,
     "wikiDataId": "Q175371"
   },
@@ -553,9 +553,9 @@
     "latitude": "52.13236000",
     "longitude": "46.07144000",
     "native": "Новые Бурасы",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q4326340"
   },
@@ -571,7 +571,7 @@
     "native": "Перелюб",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4575,
     "wikiDataId": "Q4350534"
   },
@@ -585,9 +585,9 @@
     "latitude": "52.30639000",
     "longitude": "45.39167000",
     "native": "Петровск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 13,
     "wikiDataId": "Q178857"
   },
@@ -603,7 +603,7 @@
     "native": "Пинеровка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3224,
     "wikiDataId": "Q4362989"
   },
@@ -617,9 +617,9 @@
     "latitude": "50.68030000",
     "longitude": "47.44539000",
     "native": "Питерка",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4821,
     "wikiDataId": "Q4363850"
   },
@@ -635,7 +635,7 @@
     "native": "Подлесное",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4149,
     "wikiDataId": "Q4367751"
   },
@@ -651,7 +651,7 @@
     "native": "Приволжский",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 31849,
     "wikiDataId": "Q2111215"
   },
@@ -667,7 +667,7 @@
     "native": "Приволжское",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1326,
     "wikiDataId": "Q21103856"
   },
@@ -681,9 +681,9 @@
     "latitude": "52.01333000",
     "longitude": "48.80250000",
     "native": "Пугачев",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q184220"
   },
@@ -699,7 +699,7 @@
     "native": "Пушкино",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2728,
     "wikiDataId": "Q37958729"
   },
@@ -715,7 +715,7 @@
     "native": "Репное",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3131,
     "wikiDataId": "Q37958635"
   },
@@ -731,7 +731,7 @@
     "native": "Романовка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8370,
     "wikiDataId": "Q4397307"
   },
@@ -747,7 +747,7 @@
     "native": "Ровное",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4550,
     "wikiDataId": "Q4395294"
   },
@@ -763,7 +763,7 @@
     "native": "Ртищево",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 36766,
     "wikiDataId": "Q193371"
   },
@@ -779,7 +779,7 @@
     "native": "Самойловка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8584,
     "wikiDataId": "Q37958337"
   },
@@ -793,7 +793,7 @@
     "latitude": "51.54056000",
     "longitude": "46.00861000",
     "native": "Саратов",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": 838042,
@@ -809,7 +809,7 @@
     "latitude": "51.75000000",
     "longitude": "46.16667000",
     "native": "Саратовский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -827,7 +827,7 @@
     "native": "Сенной",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5881,
     "wikiDataId": "Q37958093"
   },
@@ -843,7 +843,7 @@
     "native": "Шиханы",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6688,
     "wikiDataId": "Q198332"
   },
@@ -859,9 +859,9 @@
     "native": "Шумейка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1469,
-    "wikiDataId": "Q198349"
+    "wikiDataId": "Q13653239"
   },
   {
     "id": 101376,
@@ -875,9 +875,9 @@
     "native": "Синодское",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2478,
-    "wikiDataId": "Q37957569"
+    "wikiDataId": "Q19638771"
   },
   {
     "id": 101440,
@@ -891,7 +891,7 @@
     "native": "Соколовый",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6183,
     "wikiDataId": "Q37957430"
   },
@@ -907,7 +907,7 @@
     "native": "Советское",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2816,
     "wikiDataId": "Q37957267"
   },
@@ -923,7 +923,7 @@
     "native": "Старые Озинки",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 9733,
     "wikiDataId": "Q37959374"
   },
@@ -939,7 +939,7 @@
     "native": "Степное",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 12355,
     "wikiDataId": "Q37957051"
   },
@@ -957,7 +957,7 @@
     "translations": {},
     "type": "city",
     "population": 12222,
-    "wikiDataId": "Q5665"
+    "wikiDataId": null
   },
   {
     "id": 101713,
@@ -971,7 +971,7 @@
     "native": "Свободный",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2275,
     "wikiDataId": "Q37956783"
   },
@@ -985,9 +985,9 @@
     "latitude": "51.67028000",
     "longitude": "45.59528000",
     "native": "Татищево",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q37956608"
   },
@@ -1003,9 +1003,9 @@
     "native": "Терса",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2000,
-    "wikiDataId": "Q1655750"
+    "wikiDataId": "Q24200022"
   },
   {
     "id": 101979,
@@ -1019,7 +1019,7 @@
     "native": "Турки",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 6821,
     "wikiDataId": "Q37956223"
   },
@@ -1033,9 +1033,9 @@
     "latitude": "52.04541000",
     "longitude": "47.37993000",
     "native": "Вольск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q133416"
   },
@@ -1049,7 +1049,7 @@
     "latitude": "52.08333000",
     "longitude": "47.25000000",
     "native": "Вольский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -1065,7 +1065,7 @@
     "latitude": "51.84139000",
     "longitude": "46.90250000",
     "native": "Воскресенский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
     "type": "city",
     "population": null,
@@ -1083,7 +1083,7 @@
     "native": "Воскресенское",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3211,
     "wikiDataId": "Q4126272"
   },
@@ -1099,7 +1099,7 @@
     "native": "Екатериновка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5817,
     "wikiDataId": "Q3623617"
   },
@@ -1115,7 +1115,7 @@
     "native": "Елшанка",
     "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1983,
     "wikiDataId": "Q4175151"
   },
@@ -1129,9 +1129,9 @@
     "latitude": "51.35130000",
     "longitude": "48.27660000",
     "native": "Ершов",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Saratov",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 18095,
     "wikiDataId": "Q135754"
   }

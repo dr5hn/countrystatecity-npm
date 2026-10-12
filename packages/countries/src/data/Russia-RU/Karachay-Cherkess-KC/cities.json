@@ -11,7 +11,7 @@
     "native": "Адыге-Хабль",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3666,
     "wikiDataId": "Q2026112"
   },
@@ -27,7 +27,7 @@
     "native": "Али-Бердуковский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5093,
     "wikiDataId": "Q31878812"
   },
@@ -43,7 +43,7 @@
     "native": "Бесленей",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3528,
     "wikiDataId": "Q31915049"
   },
@@ -59,7 +59,7 @@
     "native": "Черкесск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 123100,
     "wikiDataId": "Q5326"
   },
@@ -75,9 +75,25 @@
     "native": "Дружба",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3112,
     "wikiDataId": "Q37783849"
+  },
+  {
+    "id": 165495,
+    "name": "Erken-Shakhar",
+    "state_id": 1869,
+    "state_code": "KC",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "44.37780000",
+    "longitude": "41.95840000",
+    "native": null,
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4532481"
   },
   {
     "id": 98638,
@@ -91,7 +107,7 @@
     "native": "Икон-Халк",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4575,
     "wikiDataId": "Q37807380"
   },
@@ -107,7 +123,7 @@
     "native": "Исправная",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4429,
     "wikiDataId": "Q37808924"
   },
@@ -123,7 +139,7 @@
     "native": "Карачаевск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 23841,
     "wikiDataId": "Q145073"
   },
@@ -139,7 +155,7 @@
     "native": "Карачаевский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1049128"
   },
@@ -155,7 +171,7 @@
     "native": "Кардоникская",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 7586,
     "wikiDataId": "Q37824374"
   },
@@ -171,7 +187,7 @@
     "native": "Кавказский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q37824724"
   },
@@ -187,7 +203,7 @@
     "native": "Хабез",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 6740,
     "wikiDataId": "Q4494375"
   },
@@ -203,7 +219,7 @@
     "native": "Красный Курган",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3243,
     "wikiDataId": "Q35702629"
   },
@@ -219,7 +235,7 @@
     "native": "Кумыш",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5154,
     "wikiDataId": "Q35705180"
   },
@@ -235,7 +251,7 @@
     "native": "Курджиново",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4234,
     "wikiDataId": "Q4248151"
   },
@@ -253,7 +269,7 @@
     "translations": {},
     "type": "city",
     "population": 3603,
-    "wikiDataId": "Q35706495"
+    "wikiDataId": null
   },
   {
     "id": 99763,
@@ -283,7 +299,7 @@
     "native": "Медногорский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4328,
     "wikiDataId": "Q35727494"
   },
@@ -299,7 +315,7 @@
     "native": "Нижний Архыз",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2000,
     "wikiDataId": "Q37896810"
   },
@@ -315,7 +331,7 @@
     "native": "Новый Карачай",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2172,
     "wikiDataId": "Q3752174"
   },
@@ -331,7 +347,7 @@
     "native": "Орджоникидзевский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3246,
     "wikiDataId": "Q37903358"
   },
@@ -347,7 +363,7 @@
     "native": "Первомайское",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5345,
     "wikiDataId": "Q37959178"
   },
@@ -363,7 +379,7 @@
     "native": "Правокубанский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2971,
     "wikiDataId": "Q37959919"
   },
@@ -379,7 +395,7 @@
     "native": "Преградная",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 7553,
     "wikiDataId": "Q37958844"
   },
@@ -411,7 +427,7 @@
     "native": "Псыж",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6840,
     "wikiDataId": "Q4383059"
   },
@@ -427,7 +443,7 @@
     "native": "Сары-Тюз",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3188,
     "wikiDataId": "Q37958243"
   },
@@ -443,7 +459,7 @@
     "native": "Сторожевая",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 7986,
     "wikiDataId": "Q37957031"
   },
@@ -475,7 +491,7 @@
     "native": "Учкекен",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 15783,
     "wikiDataId": "Q1019438"
   },
@@ -491,9 +507,9 @@
     "native": "Учкулан",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5000,
-    "wikiDataId": "Q37960024"
+    "wikiDataId": "Q16710816"
   },
   {
     "id": 102019,
@@ -507,7 +523,7 @@
     "native": "Ударный",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1142,
     "wikiDataId": "Q37959791"
   },
@@ -523,7 +539,7 @@
     "native": "Усть-Джегута",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 34001,
     "wikiDataId": "Q196938"
   },
@@ -539,7 +555,7 @@
     "native": "Зеленчукская",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 20009,
     "wikiDataId": "Q2268181"
   }

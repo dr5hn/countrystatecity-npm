@@ -11,7 +11,7 @@
     "native": "Acton Park",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2293,
     "wikiDataId": "Q4677678"
   },
@@ -27,7 +27,7 @@
     "native": "Austins Ferry",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2395,
     "wikiDataId": "Q2300970"
   },
@@ -43,7 +43,7 @@
     "native": "Bagdad",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1482,
     "wikiDataId": "Q2879005"
   },
@@ -59,7 +59,7 @@
     "native": "Battery Point",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2096,
     "wikiDataId": "Q4869876"
   },
@@ -75,7 +75,7 @@
     "native": "Beaconsfield",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1258,
     "wikiDataId": "Q812900"
   },
@@ -91,7 +91,7 @@
     "native": "Beauty Point",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1285,
     "wikiDataId": "Q2124988"
   },
@@ -107,7 +107,7 @@
     "native": "Bellerive",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4945,
     "wikiDataId": "Q815911"
   },
@@ -123,7 +123,7 @@
     "native": "Berriedale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2905,
     "wikiDataId": "Q4894694"
   },
@@ -139,7 +139,7 @@
     "native": "Blackmans Bay",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7688,
     "wikiDataId": "Q4923150"
   },
@@ -155,7 +155,7 @@
     "native": "Blackstone Heights",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1245,
     "wikiDataId": "Q880922"
   },
@@ -171,7 +171,7 @@
     "native": "Break O'Day",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q903612"
   },
@@ -187,7 +187,7 @@
     "native": "Bridgewater",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4592,
     "wikiDataId": "Q1426910"
   },
@@ -203,7 +203,7 @@
     "native": "Bridport",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1742,
     "wikiDataId": "Q181428"
   },
@@ -219,7 +219,7 @@
     "native": "Brighton",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 4983,
     "wikiDataId": "Q740644"
   },
@@ -235,8 +235,8 @@
     "native": "Burnie",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 19972,
+    "type": "municipality",
+    "population": 20420,
     "wikiDataId": "Q1016792"
   },
   {
@@ -251,7 +251,7 @@
     "native": "Cambridge",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1454,
     "wikiDataId": "Q1028267"
   },
@@ -267,7 +267,7 @@
     "native": "Central Coast",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1053740"
   },
@@ -283,7 +283,7 @@
     "native": "Central Highlands",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q648240"
   },
@@ -299,7 +299,7 @@
     "native": "Chigwell",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2050,
     "wikiDataId": "Q5097245"
   },
@@ -315,8 +315,8 @@
     "native": "Circular Head",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 8117,
+    "type": "municipality",
+    "population": 8286,
     "wikiDataId": "Q764011"
   },
   {
@@ -331,7 +331,7 @@
     "native": "Claremont",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9248,
     "wikiDataId": "Q2439907"
   },
@@ -347,7 +347,7 @@
     "native": "Clarence",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 3369,
     "wikiDataId": "Q1095386"
   },
@@ -363,7 +363,7 @@
     "native": "Clarendon Vale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1271,
     "wikiDataId": "Q5126889"
   },
@@ -379,7 +379,7 @@
     "native": "Cressy",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1149,
     "wikiDataId": "Q5184528"
   },
@@ -395,7 +395,7 @@
     "native": "Currie",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 766,
     "wikiDataId": "Q1144877"
   },
@@ -411,7 +411,7 @@
     "native": "Cygnet",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1742,
     "wikiDataId": "Q1147690"
   },
@@ -427,7 +427,7 @@
     "native": "Deloraine",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3035,
     "wikiDataId": "Q630336"
   },
@@ -443,7 +443,7 @@
     "native": "Derwent Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1200416"
   },
@@ -459,7 +459,7 @@
     "native": "Devonport",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 24591,
     "wikiDataId": "Q927683"
   },
@@ -475,7 +475,7 @@
     "native": "Dodges Ferry",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2646,
     "wikiDataId": "Q1234392"
   },
@@ -491,7 +491,7 @@
     "native": "Dorset",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6829,
     "wikiDataId": "Q386645"
   },
@@ -504,10 +504,10 @@
     "country_code": "AU",
     "latitude": "-42.90541000",
     "longitude": "147.31576000",
-    "native": "Tight",
+    "native": "Dynnyrne",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1633,
     "wikiDataId": "Q5319222"
   },
@@ -523,9 +523,9 @@
     "native": "East Devonport",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4384,
-    "wikiDataId": "Q5328175"
+    "wikiDataId": "Q31410573"
   },
   {
     "id": 5085,
@@ -539,7 +539,7 @@
     "native": "East Launceston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2270,
     "wikiDataId": "Q5328810"
   },
@@ -555,7 +555,7 @@
     "native": "Evandale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1378,
     "wikiDataId": "Q2123296"
   },
@@ -571,8 +571,8 @@
     "native": "Flinders",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 7118,
+    "type": "municipality",
+    "population": 924,
     "wikiDataId": "Q1848365"
   },
   {
@@ -587,7 +587,7 @@
     "native": "Franklin",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1061,
     "wikiDataId": "Q5491176"
   },
@@ -603,7 +603,7 @@
     "native": "Gagebrook",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1572,
     "wikiDataId": "Q5516856"
   },
@@ -619,7 +619,7 @@
     "native": "Geeveston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1431,
     "wikiDataId": "Q1497778"
   },
@@ -635,7 +635,7 @@
     "native": "Geilston Bay",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3461,
     "wikiDataId": "Q5530141"
   },
@@ -651,8 +651,8 @@
     "native": "George Town",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 4536,
+    "type": "municipality",
+    "population": 7420,
     "wikiDataId": "Q1508377"
   },
   {
@@ -667,7 +667,7 @@
     "native": "Glamorgan/Spring Bay",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1529157"
   },
@@ -683,7 +683,7 @@
     "native": "Glenorchy",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 1672,
     "wikiDataId": "Q1435919"
   },
@@ -699,7 +699,7 @@
     "native": "Goodwood",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1042,
     "wikiDataId": "Q5583704"
   },
@@ -715,7 +715,7 @@
     "native": "Granton",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1903,
     "wikiDataId": "Q5596661"
   },
@@ -728,10 +728,10 @@
     "country_code": "AU",
     "latitude": "-41.50059000",
     "longitude": "147.07359000",
-    "native": "Had -pear",
+    "native": "Hadspen",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2429,
     "wikiDataId": "Q5638095"
   },
@@ -747,9 +747,9 @@
     "native": "Herdsmans Cove",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1199,
-    "wikiDataId": "Q5733379"
+    "wikiDataId": "Q31411102"
   },
   {
     "id": 5609,
@@ -763,9 +763,9 @@
     "native": "Hillcrest",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1088,
-    "wikiDataId": "Q5762605"
+    "wikiDataId": "Q24089990"
   },
   {
     "id": 5621,
@@ -779,9 +779,9 @@
     "native": "Hobart",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 252639,
-    "wikiDataId": "Q40191"
+    "wikiDataId": "Q1621560"
   },
   {
     "id": 5622,
@@ -811,7 +811,7 @@
     "native": "Howrah",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9545,
     "wikiDataId": "Q5922480"
   },
@@ -824,11 +824,11 @@
     "country_code": "AU",
     "latitude": "-43.29385000",
     "longitude": "146.56555000",
-    "native": "Eat Valley",
+    "native": "Huon Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 19893,
     "wikiDataId": "Q605668"
   },
   {
@@ -840,10 +840,10 @@
     "country_code": "AU",
     "latitude": "-43.03124000",
     "longitude": "147.04813000",
-    "native": "Badly",
+    "native": "Huonville",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3002,
     "wikiDataId": "Q679881"
   },
@@ -859,9 +859,9 @@
     "native": "Invermay",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3042,
-    "wikiDataId": "Q2037996"
+    "wikiDataId": "Q6060152"
   },
   {
     "id": 5835,
@@ -875,7 +875,7 @@
     "native": "Kentish",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1739063"
   },
@@ -891,8 +891,8 @@
     "native": "King Island",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1647,
     "wikiDataId": "Q941713"
   },
   {
@@ -907,8 +907,8 @@
     "native": "Kingborough",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 41628,
     "wikiDataId": "Q1742110"
   },
   {
@@ -923,7 +923,7 @@
     "native": "Kings Meadows",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4359,
     "wikiDataId": "Q6412950"
   },
@@ -939,7 +939,7 @@
     "native": "Kingston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10154,
     "wikiDataId": "Q942696"
   },
@@ -955,7 +955,7 @@
     "native": "Kingston Beach",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2305,
     "wikiDataId": "Q6413464"
   },
@@ -971,8 +971,8 @@
     "native": "Latrobe",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 5030,
+    "type": "municipality",
+    "population": 13264,
     "wikiDataId": "Q1575755"
   },
   {
@@ -987,7 +987,7 @@
     "native": "Lauderdale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2592,
     "wikiDataId": "Q673919"
   },
@@ -1003,9 +1003,9 @@
     "native": "Launceston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 80943,
-    "wikiDataId": "Q339527"
+    "wikiDataId": "Q937765"
   },
   {
     "id": 5986,
@@ -1032,10 +1032,10 @@
     "country_code": "AU",
     "latitude": "-41.36572000",
     "longitude": "147.04584000",
-    "native": "relieved",
+    "native": "Legana",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4719,
     "wikiDataId": "Q6517662"
   },
@@ -1051,7 +1051,7 @@
     "native": "Lenah Valley",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6522,
     "wikiDataId": "Q6522224"
   },
@@ -1067,7 +1067,7 @@
     "native": "Lindisfarne",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6639,
     "wikiDataId": "Q124370"
   },
@@ -1083,7 +1083,7 @@
     "native": "Longford",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3769,
     "wikiDataId": "Q941931"
   },
@@ -1099,7 +1099,7 @@
     "native": "Lutana",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2616,
     "wikiDataId": "Q6705382"
   },
@@ -1115,7 +1115,7 @@
     "native": "Margate",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3849,
     "wikiDataId": "Q6760249"
   },
@@ -1131,7 +1131,7 @@
     "native": "Mayfield",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1525,
     "wikiDataId": "Q6797160"
   },
@@ -1147,7 +1147,7 @@
     "native": "Meander Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1848537"
   },
@@ -1160,12 +1160,12 @@
     "country_code": "AU",
     "latitude": "-41.19550000",
     "longitude": "146.35322000",
-    "native": "Mianadet",
+    "native": "Miandetta",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1822,
-    "wikiDataId": "Q6827232"
+    "wikiDataId": "Q29326144"
   },
   {
     "id": 6282,
@@ -1179,9 +1179,9 @@
     "native": "Midway Point",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3384,
-    "wikiDataId": "Q6843124"
+    "wikiDataId": "Q1238194"
   },
   {
     "id": 6350,
@@ -1195,9 +1195,9 @@
     "native": "Montello",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1241,
-    "wikiDataId": "Q6903022"
+    "wikiDataId": "Q24089991"
   },
   {
     "id": 6355,
@@ -1211,7 +1211,7 @@
     "native": "Montrose",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2313,
     "wikiDataId": "Q6906454"
   },
@@ -1227,7 +1227,7 @@
     "native": "Moonah",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5884,
     "wikiDataId": "Q6907636"
   },
@@ -1243,7 +1243,7 @@
     "native": "Mornington",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2469,
     "wikiDataId": "Q6913014"
   },
@@ -1259,7 +1259,7 @@
     "native": "Mount Nelson",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2749,
     "wikiDataId": "Q6922380"
   },
@@ -1275,9 +1275,9 @@
     "native": "Mount Stuart",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2444,
-    "wikiDataId": "Q21922217"
+    "wikiDataId": "Q14935633"
   },
   {
     "id": 6467,
@@ -1291,9 +1291,9 @@
     "native": "Mowbray",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3718,
-    "wikiDataId": "Q1403529"
+    "wikiDataId": "Q6927230"
   },
   {
     "id": 6560,
@@ -1307,7 +1307,7 @@
     "native": "New Norfolk",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6037,
     "wikiDataId": "Q1982848"
   },
@@ -1323,7 +1323,7 @@
     "native": "New Town",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6781,
     "wikiDataId": "Q14935638"
   },
@@ -1339,7 +1339,7 @@
     "native": "Newnham",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7073,
     "wikiDataId": "Q7018651"
   },
@@ -1355,7 +1355,7 @@
     "native": "Newstead",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5617,
     "wikiDataId": "Q14935639"
   },
@@ -1371,9 +1371,9 @@
     "native": "North Hobart",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2500,
-    "wikiDataId": "Q7055568"
+    "wikiDataId": "Q7055645"
   },
   {
     "id": 6668,
@@ -1387,7 +1387,7 @@
     "native": "Northern Midlands",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q964717"
   },
@@ -1403,7 +1403,7 @@
     "native": "Norwood",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3869,
     "wikiDataId": "Q14935640"
   },
@@ -1419,7 +1419,7 @@
     "native": "Oakdowns",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1433,
     "wikiDataId": "Q7073821"
   },
@@ -1435,7 +1435,7 @@
     "native": "Old Beach",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4394,
     "wikiDataId": "Q7083446"
   },
@@ -1451,9 +1451,9 @@
     "native": "Park Grove",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2613,
-    "wikiDataId": "Q3365090"
+    "wikiDataId": "Q24089995"
   },
   {
     "id": 6828,
@@ -1467,7 +1467,7 @@
     "native": "Penguin",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4132,
     "wikiDataId": "Q1789818"
   },
@@ -1483,7 +1483,7 @@
     "native": "Perth",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2907,
     "wikiDataId": "Q1009433"
   },
@@ -1499,7 +1499,7 @@
     "native": "Port sorell",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2221,
     "wikiDataId": "Q2104789"
   },
@@ -1515,9 +1515,9 @@
     "native": "Prospect Vale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5433,
-    "wikiDataId": "Q3437255"
+    "wikiDataId": "Q7250822"
   },
   {
     "id": 6943,
@@ -1531,8 +1531,8 @@
     "native": "Queenstown",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
-    "population": 1943,
+    "type": "locality",
+    "population": 1808,
     "wikiDataId": "Q1009718"
   },
   {
@@ -1547,7 +1547,7 @@
     "native": "Ranelagh",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1484,
     "wikiDataId": "Q14935641"
   },
@@ -1563,9 +1563,9 @@
     "native": "Ravenswood",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3600,
-    "wikiDataId": "Q2094089"
+    "wikiDataId": "Q7296561"
   },
   {
     "id": 7009,
@@ -1579,7 +1579,7 @@
     "native": "Richmond",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1474,
     "wikiDataId": "Q3407391"
   },
@@ -1595,7 +1595,7 @@
     "native": "Risdon Vale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3171,
     "wikiDataId": "Q7335855"
   },
@@ -1611,9 +1611,9 @@
     "native": "Riverside",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7326,
-    "wikiDataId": "Q7338224"
+    "wikiDataId": "Q7338397"
   },
   {
     "id": 7039,
@@ -1627,9 +1627,9 @@
     "native": "Rocherlea",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1033,
-    "wikiDataId": "Q7353855"
+    "wikiDataId": "Q7353913"
   },
   {
     "id": 7050,
@@ -1640,10 +1640,10 @@
     "country_code": "AU",
     "latitude": "-42.89875000",
     "longitude": "147.44917000",
-    "native": "Rake",
+    "native": "Rokeby",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4211,
     "wikiDataId": "Q7359975"
   },
@@ -1659,9 +1659,9 @@
     "native": "Romaine",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1850,
-    "wikiDataId": "Q2063327"
+    "wikiDataId": "Q24090005"
   },
   {
     "id": 7070,
@@ -1675,7 +1675,7 @@
     "native": "Rosetta",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2833,
     "wikiDataId": "Q7368678"
   },
@@ -1691,7 +1691,7 @@
     "native": "Saint Leonards",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1977,
     "wikiDataId": "Q14935644"
   },
@@ -1707,7 +1707,7 @@
     "native": "Sandford",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1834,
     "wikiDataId": "Q7416203"
   },
@@ -1723,7 +1723,7 @@
     "native": "Sandy Bay",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12315,
     "wikiDataId": "Q7417154"
   },
@@ -1739,7 +1739,7 @@
     "native": "Scottsdale",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2408,
     "wikiDataId": "Q1366429"
   },
@@ -1755,9 +1755,9 @@
     "native": "Seven Mile Beach",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1467,
-    "wikiDataId": "Q5680232"
+    "wikiDataId": "Q21923426"
   },
   {
     "id": 7194,
@@ -1771,9 +1771,9 @@
     "native": "Shearwater",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2051,
-    "wikiDataId": "Q21902574"
+    "wikiDataId": "Q7492214"
   },
   {
     "id": 7195,
@@ -1787,7 +1787,7 @@
     "native": "Sheffield",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1602,
     "wikiDataId": "Q2277715"
   },
@@ -1803,9 +1803,9 @@
     "native": "Shorewell Park",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2150,
-    "wikiDataId": "Q820286"
+    "wikiDataId": "Q24190136"
   },
   {
     "id": 7231,
@@ -1819,7 +1819,7 @@
     "native": "Smithton",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3934,
     "wikiDataId": "Q1001465"
   },
@@ -1835,7 +1835,7 @@
     "native": "Snug",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1440,
     "wikiDataId": "Q7548845"
   },
@@ -1851,7 +1851,7 @@
     "native": "Somerset",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4067,
     "wikiDataId": "Q1498015"
   },
@@ -1864,10 +1864,10 @@
     "country_code": "AU",
     "latitude": "-42.78908000",
     "longitude": "147.69488000",
-    "native": "Sore",
+    "native": "Sorell",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1848526"
   },
@@ -1883,9 +1883,9 @@
     "native": "South Hobart",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5221,
-    "wikiDataId": "Q7567447"
+    "wikiDataId": "Q7567497"
   },
   {
     "id": 7272,
@@ -1899,9 +1899,9 @@
     "native": "South Launceston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4894,
-    "wikiDataId": "Q7567755"
+    "wikiDataId": "Q7567800"
   },
   {
     "id": 7296,
@@ -1915,7 +1915,7 @@
     "native": "Southern Midlands",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1848356"
   },
@@ -1928,10 +1928,10 @@
     "country_code": "AU",
     "latitude": "-41.23524000",
     "longitude": "146.35108000",
-    "native": "Spray",
+    "native": "Spreyton",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1876,
     "wikiDataId": "Q2643405"
   },
@@ -1947,7 +1947,7 @@
     "native": "St Helens",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2206,
     "wikiDataId": "Q1579722"
   },
@@ -1963,9 +1963,9 @@
     "native": "Summerhill",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3139,
-    "wikiDataId": "Q2777749"
+    "wikiDataId": "Q7637594"
   },
   {
     "id": 7441,
@@ -1979,7 +1979,7 @@
     "native": "Taroona",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3121,
     "wikiDataId": "Q7686553"
   },
@@ -1995,7 +1995,7 @@
     "native": "Tasman Peninsula",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1848510"
   },
@@ -2011,7 +2011,7 @@
     "native": "Tranmere",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1639,
     "wikiDataId": "Q7833436"
   },
@@ -2027,7 +2027,7 @@
     "native": "Trevallyn",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4826,
     "wikiDataId": "Q7838914"
   },
@@ -2043,9 +2043,9 @@
     "native": "Turners Beach",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1966,
-    "wikiDataId": "Q4455973"
+    "wikiDataId": "Q7855981"
   },
   {
     "id": 7599,
@@ -2059,7 +2059,7 @@
     "native": "Ulverstone",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6653,
     "wikiDataId": "Q2169513"
   },
@@ -2075,9 +2075,9 @@
     "native": "Upper Burnie",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1891,
-    "wikiDataId": "Q7897035"
+    "wikiDataId": "Q24190336"
   },
   {
     "id": 7701,
@@ -2091,8 +2091,8 @@
     "native": "Waratah/Wynyard",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 14916,
     "wikiDataId": "Q1848324"
   },
   {
@@ -2107,7 +2107,7 @@
     "native": "Warrane",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2695,
     "wikiDataId": "Q7969935"
   },
@@ -2123,7 +2123,7 @@
     "native": "Waverley",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1583,
     "wikiDataId": "Q7975404"
   },
@@ -2139,8 +2139,8 @@
     "native": "West Coast",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 4320,
     "wikiDataId": "Q2092649"
   },
   {
@@ -2155,7 +2155,7 @@
     "native": "West Hobart",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6525,
     "wikiDataId": "Q7985404"
   },
@@ -2171,7 +2171,7 @@
     "native": "West Launceston",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4316,
     "wikiDataId": "Q7985716"
   },
@@ -2187,7 +2187,7 @@
     "native": "West Moonah",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4522,
     "wikiDataId": "Q7986024"
   },
@@ -2203,7 +2203,7 @@
     "native": "West Tamar",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1665325"
   },
@@ -2219,9 +2219,9 @@
     "native": "West Ulverstone",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4515,
-    "wikiDataId": "Q7986634"
+    "wikiDataId": "Q31408341"
   },
   {
     "id": 7818,
@@ -2235,7 +2235,7 @@
     "native": "Westbury",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2272,
     "wikiDataId": "Q385934"
   },
@@ -2248,10 +2248,10 @@
     "country_code": "AU",
     "latitude": "-40.98970000",
     "longitude": "145.72617000",
-    "native": "White",
+    "native": "Wynyard",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6296,
     "wikiDataId": "Q916063"
   },
@@ -2267,8 +2267,8 @@
     "native": "Youngtown",
     "timezone": "Australia/Hobart",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4315,
-    "wikiDataId": "Q3305212"
+    "wikiDataId": "Q8058680"
   }
 ]

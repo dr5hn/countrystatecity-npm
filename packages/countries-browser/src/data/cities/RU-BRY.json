@@ -11,7 +11,7 @@
     "native": "Алтухово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1679,
     "wikiDataId": "Q31880402"
   },
@@ -43,7 +43,7 @@
     "native": "Белые Берега",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10425,
     "wikiDataId": "Q1966041"
   },
@@ -107,7 +107,7 @@
     "native": "Чуровичи",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1228,
     "wikiDataId": "Q34794136"
   },
@@ -139,7 +139,7 @@
     "native": "Дубровка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 467,
     "wikiDataId": "Q37783954"
   },
@@ -171,7 +171,7 @@
     "native": "Дятьково",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 25000,
     "wikiDataId": "Q135559"
   },
@@ -192,6 +192,22 @@
     "wikiDataId": "Q2737405"
   },
   {
+    "id": 165496,
+    "name": "Fokino",
+    "state_id": 1867,
+    "state_code": "BRY",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "53.45472000",
+    "longitude": "34.41345000",
+    "native": null,
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q197382"
+  },
+  {
     "id": 98498,
     "name": "Glinishchevo",
     "state_id": 1867,
@@ -203,7 +219,7 @@
     "native": "Глинищево",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4348,
     "wikiDataId": "Q37786188"
   },
@@ -219,7 +235,7 @@
     "native": "Гордеевка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3014,
     "wikiDataId": "Q37803668"
   },
@@ -285,7 +301,7 @@
     "translations": {},
     "type": "city",
     "population": 1150,
-    "wikiDataId": "Q37809222"
+    "wikiDataId": null
   },
   {
     "id": 98743,
@@ -299,7 +315,7 @@
     "native": "Ивот",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5844,
     "wikiDataId": "Q1966050"
   },
@@ -315,7 +331,7 @@
     "native": "Карачев",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17449,
     "wikiDataId": "Q145115"
   },
@@ -331,7 +347,7 @@
     "native": "Клетня",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 11947,
     "wikiDataId": "Q35697116"
   },
@@ -363,7 +379,7 @@
     "native": "Климово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 13554,
     "wikiDataId": "Q1383599"
   },
@@ -395,7 +411,7 @@
     "native": "Клинцовский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2737400"
   },
@@ -411,7 +427,7 @@
     "native": "Клинцы",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 63059,
     "wikiDataId": "Q153715"
   },
@@ -427,7 +443,7 @@
     "native": "Кокино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4616,
     "wikiDataId": "Q13642045"
   },
@@ -443,7 +459,7 @@
     "native": "Кокоревка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1786,
     "wikiDataId": "Q1965254"
   },
@@ -459,7 +475,7 @@
     "native": "Комаричи",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7325,
     "wikiDataId": "Q35698748"
   },
@@ -475,7 +491,7 @@
     "native": "Комаричский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2708373"
   },
@@ -491,7 +507,7 @@
     "native": "Коржовка-Голубовка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2224,
     "wikiDataId": "Q35700134"
   },
@@ -507,7 +523,7 @@
     "native": "Красная Гора",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5504,
     "wikiDataId": "Q35702161"
   },
@@ -539,7 +555,7 @@
     "native": "Локоть",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 11853,
     "wikiDataId": "Q2374909"
   },
@@ -555,7 +571,7 @@
     "native": "Лопандино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1561,
     "wikiDataId": "Q35719254"
   },
@@ -571,7 +587,7 @@
     "native": "Любохна",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4957,
     "wikiDataId": "Q1966011"
   },
@@ -603,7 +619,7 @@
     "native": "Мглин",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6919,
     "wikiDataId": "Q158393"
   },
@@ -651,7 +667,7 @@
     "native": "Навля",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 15536,
     "wikiDataId": "Q37894793"
   },
@@ -683,7 +699,7 @@
     "native": "Новозыбков",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 38680,
     "wikiDataId": "Q174138"
   },
@@ -715,7 +731,7 @@
     "native": "Новый Ропск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1293,
     "wikiDataId": "Q37898907"
   },
@@ -731,7 +747,7 @@
     "native": "Почеп",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 14991,
     "wikiDataId": "Q183145"
   },
@@ -747,7 +763,7 @@
     "native": "Почепский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2708394"
   },
@@ -763,7 +779,7 @@
     "native": "Погар",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 9484,
     "wikiDataId": "Q37958976"
   },
@@ -795,7 +811,7 @@
     "native": "Путёвка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3656,
     "wikiDataId": "Q4384486"
   },
@@ -811,7 +827,7 @@
     "native": "Радица-Крыловка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3151,
     "wikiDataId": "Q1965993"
   },
@@ -827,7 +843,7 @@
     "native": "Рогнедино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 2775,
     "wikiDataId": "Q2374886"
   },
@@ -859,7 +875,7 @@
     "native": "Ржаница",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4262,
     "wikiDataId": "Q37958404"
   },
@@ -875,7 +891,7 @@
     "native": "Сачковичи",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1118,
     "wikiDataId": "Q37958383"
   },
@@ -891,7 +907,7 @@
     "native": "Сельцо",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 18167,
     "wikiDataId": "Q193930"
   },
@@ -923,7 +939,7 @@
     "native": "Севск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6732,
     "wikiDataId": "Q193917"
   },
@@ -952,10 +968,10 @@
     "country_code": "RU",
     "latitude": "53.62362000",
     "longitude": "34.15183000",
-    "native": "Звезда",
+    "native": "Старь",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4994,
     "wikiDataId": "Q2374864"
   },
@@ -971,7 +987,7 @@
     "native": "Стародуб",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17687,
     "wikiDataId": "Q196483"
   },
@@ -1003,7 +1019,7 @@
     "native": "Супонево",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 9450,
     "wikiDataId": "Q4446340"
   },
@@ -1051,7 +1067,7 @@
     "native": "Суземка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8672,
     "wikiDataId": "Q37956827"
   },
@@ -1085,7 +1101,7 @@
     "translations": {},
     "type": "city",
     "population": 3491,
-    "wikiDataId": "Q37956818"
+    "wikiDataId": null
   },
   {
     "id": 101928,
@@ -1099,7 +1115,7 @@
     "native": "Трубчевск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 13287,
     "wikiDataId": "Q196700"
   },
@@ -1115,7 +1131,7 @@
     "native": "Трубчевский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2708335"
   },
@@ -1131,7 +1147,7 @@
     "native": "Унеча",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24274,
     "wikiDataId": "Q196827"
   },
@@ -1163,7 +1179,7 @@
     "native": "Выгоничи",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4658,
     "wikiDataId": "Q37954941"
   },
@@ -1179,7 +1195,7 @@
     "native": "Выгоничский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2534501"
   },
@@ -1195,7 +1211,7 @@
     "native": "Вышков",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2497,
     "wikiDataId": "Q37954921"
   },
@@ -1213,7 +1229,7 @@
     "translations": {},
     "type": "city",
     "population": 1300,
-    "wikiDataId": "Q1409442"
+    "wikiDataId": "Q21336295"
   },
   {
     "id": 102686,
@@ -1227,7 +1243,7 @@
     "native": "Займище",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5026,
     "wikiDataId": "Q33526186"
   },
@@ -1243,7 +1259,7 @@
     "native": "Жирятино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 2501,
     "wikiDataId": "Q33527655"
   },
@@ -1275,25 +1291,9 @@
     "native": "Жуковка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 340,
     "wikiDataId": "Q136411"
-  },
-  {
-    "id": 102744,
-    "name": "Zhukovskiy Rayon",
-    "state_id": 1867,
-    "state_code": "BRY",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "53.50000000",
-    "longitude": "33.83333000",
-    "native": "Жуковский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2628016"
   },
   {
     "id": 102751,
@@ -1307,7 +1307,7 @@
     "native": "Злынка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5270,
     "wikiDataId": "Q140117"
   }
