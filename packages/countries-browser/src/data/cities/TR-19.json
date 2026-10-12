@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 27019,
-    "wikiDataId": "Q2313013"
+    "wikiDataId": null
   },
   {
     "id": 107294,
@@ -24,7 +24,7 @@
     "country_code": "TR",
     "latitude": "40.64583000",
     "longitude": "34.26139000",
-    "native": "Sırasında",
+    "native": "Bayat",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
@@ -46,6 +46,22 @@
     "type": "adm2",
     "population": 2477,
     "wikiDataId": "Q848800"
+  },
+  {
+    "id": 165607,
+    "name": "Çorum",
+    "state_id": 2173,
+    "state_code": "19",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "40.54889000",
+    "longitude": "34.95333000",
+    "native": null,
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 270361,
+    "wikiDataId": "Q206900"
   },
   {
     "id": 107506,
@@ -77,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 19829,
-    "wikiDataId": "Q174341"
+    "wikiDataId": null
   },
   {
     "id": 107924,
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "adm2",
     "population": 15684,
-    "wikiDataId": "Q1023333"
+    "wikiDataId": null
   },
   {
     "id": 108128,
@@ -109,7 +125,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2471,
-    "wikiDataId": "Q2279679"
+    "wikiDataId": null
   },
   {
     "id": 108167,
@@ -125,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5506,
-    "wikiDataId": "Q1004646"
+    "wikiDataId": null
   },
   {
     "id": 108185,
@@ -141,7 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q3055997"
+    "wikiDataId": null
   },
   {
     "id": 108305,
@@ -155,9 +171,9 @@
     "native": "Oğuzlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 5483,
-    "wikiDataId": "Q1022230"
+    "type": "municipality",
+    "population": 2639,
+    "wikiDataId": "Q117336391"
   },
   {
     "id": 108286,
@@ -203,9 +219,9 @@
     "native": "Sungurlu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 49082,
-    "wikiDataId": "Q1015401"
+    "type": "municipality",
+    "population": 34158,
+    "wikiDataId": "Q14421288"
   },
   {
     "id": 108642,
@@ -221,6 +237,6 @@
     "translations": {},
     "type": "adm2",
     "population": 8252,
-    "wikiDataId": "Q775225"
+    "wikiDataId": null
   }
 ]

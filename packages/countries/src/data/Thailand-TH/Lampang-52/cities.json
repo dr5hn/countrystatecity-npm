@@ -1,21 +1,5 @@
 [
   {
-    "id": 105517,
-    "name": "Amphoe Mae Tha",
-    "state_id": 3544,
-    "state_code": "52",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "18.11122000",
-    "longitude": "99.57826000",
-    "native": "อำเภอแม่ทา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475975"
-  },
-  {
     "id": 106307,
     "name": "Amphoe Thoen",
     "state_id": 3544,
@@ -32,36 +16,20 @@
     "wikiDataId": "Q476917"
   },
   {
-    "id": 106342,
-    "name": "Amphoe Wang Nuea",
-    "state_id": 3544,
-    "state_code": "52",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "19.16011000",
-    "longitude": "99.64767000",
-    "native": "อำเภอวังเหนือ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q477015"
-  },
-  {
     "id": 105268,
     "name": "Chae Hom",
     "state_id": 3544,
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.75404000",
-    "longitude": "99.66822000",
-    "native": "อำเภอแจ้ห่ม",
+    "latitude": "18.71267000",
+    "longitude": "99.55758000",
+    "native": "แจ้ห่ม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475318"
+    "wikiDataId": null
   },
   {
     "id": 105343,
@@ -70,14 +38,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.35497000",
-    "longitude": "99.27978000",
-    "native": "อำเภอห้างฉัตร",
+    "latitude": "18.32883000",
+    "longitude": "99.34621000",
+    "native": "ห้างฉัตร",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475505"
+    "wikiDataId": null
   },
   {
     "id": 105440,
@@ -86,14 +54,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.14408000",
-    "longitude": "99.35229000",
-    "native": "อำเภอเกาะคา",
+    "latitude": "18.19225000",
+    "longitude": "99.39433000",
+    "native": "เกาะคา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475785"
+    "wikiDataId": null
   },
   {
     "id": 106549,
@@ -107,7 +75,7 @@
     "native": "ลำปาง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 156139,
     "wikiDataId": "Q1012610"
   },
@@ -118,14 +86,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.40244000",
-    "longitude": "99.82135000",
-    "native": "อำเภอแม่เมาะ",
+    "latitude": "18.27561000",
+    "longitude": "99.65045000",
+    "native": "แม่เมาะ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q177779"
+    "wikiDataId": null
   },
   {
     "id": 105507,
@@ -134,30 +102,30 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.50450000",
-    "longitude": "99.05847000",
-    "native": "อำเภอแม่พริก",
+    "latitude": "17.44688000",
+    "longitude": "99.11420000",
+    "native": "แม่พริก",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475948"
+    "wikiDataId": null
   },
   {
-    "id": 105547,
-    "name": "Mueang Lampang",
+    "id": 105517,
+    "name": "Mae Tha",
     "state_id": 3544,
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.38901000",
-    "longitude": "99.54388000",
-    "native": "อำเภอเมืองลำปาง",
+    "latitude": "18.13411000",
+    "longitude": "99.51389000",
+    "native": "แม่ทะ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476024"
+    "wikiDataId": null
   },
   {
     "id": 105564,
@@ -166,14 +134,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.79093000",
-    "longitude": "99.45408000",
-    "native": "อำเภอเมืองปาน",
+    "latitude": "18.76803000",
+    "longitude": "99.50250000",
+    "native": "เมืองปาน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476052"
+    "wikiDataId": null
   },
   {
     "id": 105642,
@@ -198,14 +166,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.09406000",
-    "longitude": "99.17297000",
-    "native": "อำเภอเสริมงาม",
+    "latitude": "18.06506000",
+    "longitude": "99.24537000",
+    "native": "เสริมงาม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q250854"
+    "wikiDataId": null
   },
   {
     "id": 106249,
@@ -214,14 +182,14 @@
     "state_code": "52",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.89861000",
-    "longitude": "99.34081000",
-    "native": "อำเภอสบปราบ",
+    "latitude": "17.88053000",
+    "longitude": "99.33700000",
+    "native": "สบปราบ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476768"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106731,
@@ -251,7 +219,7 @@
     "native": "วังเหนือ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 0,
     "wikiDataId": "Q42108582"
   }

@@ -1,21 +1,5 @@
 [
   {
-    "id": 97143,
-    "name": "Aleksandrovo",
-    "state_id": 3722,
-    "state_code": "20",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "45.63755000",
-    "longitude": "20.59288000",
-    "native": "Александрово",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": 3061,
-    "wikiDataId": "Q848667"
-  },
-  {
     "id": 155057,
     "name": "Aleksinac",
     "state_id": 3722,
@@ -27,7 +11,7 @@
     "native": "Алексинац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 43098,
     "wikiDataId": "Q1270290"
   },
@@ -59,7 +43,7 @@
     "native": "Гаџин Хан",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5850,
     "wikiDataId": "Q2535004"
   },
@@ -91,9 +75,9 @@
     "native": "Ниш",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 250000,
-    "wikiDataId": "Q129259"
+    "wikiDataId": "Q60198357"
   },
   {
     "id": 155061,

@@ -1,5 +1,21 @@
 [
   {
+    "id": 165080,
+    "name": "Ampati",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.46230000",
+    "longitude": "89.93325000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4748075"
+  },
+  {
     "id": 131520,
     "name": "Cherrapunji",
     "state_id": 4006,
@@ -27,7 +43,7 @@
     "native": "पूर्वी गारो हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 317917,
     "wikiDataId": "Q2085455"
   },
@@ -43,7 +59,7 @@
     "native": "पूर्वी जयंतिया हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 122436,
     "wikiDataId": "Q15923776"
   },
@@ -59,9 +75,41 @@
     "native": "पूर्वी खासी हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 825922,
     "wikiDataId": "Q1945304"
+  },
+  {
+    "id": 164926,
+    "name": "Jowai",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.43596000",
+    "longitude": "92.19132000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 28430,
+    "wikiDataId": "Q2070576"
+  },
+  {
+    "id": 165081,
+    "name": "Khliehriat",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.35776000",
+    "longitude": "92.36643000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q16895297"
   },
   {
     "id": 132858,
@@ -78,22 +126,6 @@
     "type": "city",
     "population": 14363,
     "wikiDataId": "Q2606858"
-  },
-  {
-    "id": 132916,
-    "name": "Mankachar",
-    "state_id": 4006,
-    "state_code": "ML",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "25.53347000",
-    "longitude": "89.86373000",
-    "native": "मनकाचर",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 31091,
-    "wikiDataId": "Q720860"
   },
   {
     "id": 133232,
@@ -128,6 +160,22 @@
     "wikiDataId": "Q2341832"
   },
   {
+    "id": 164893,
+    "name": "Nongthymmai",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.56370000",
+    "longitude": "91.90640000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 38004,
+    "wikiDataId": "Q2454723"
+  },
+  {
     "id": 133237,
     "name": "North Garo Hills",
     "state_id": 4006,
@@ -139,9 +187,25 @@
     "native": "उत्तरी गारो हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 118325,
     "wikiDataId": "Q7055466"
+  },
+  {
+    "id": 165009,
+    "name": "Resubelpara",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.90404000",
+    "longitude": "90.60747000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": 19595,
+    "wikiDataId": "Q2564095"
   },
   {
     "id": 133636,
@@ -155,7 +219,7 @@
     "native": "री-भोई",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 258840,
     "wikiDataId": "Q1884672"
   },
@@ -187,7 +251,7 @@
     "native": "दक्षिण गारो हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 142334,
     "wikiDataId": "Q2329228"
   },
@@ -203,7 +267,7 @@
     "native": "दक्षिण पश्चिम गारो हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 172495,
     "wikiDataId": "Q15961576"
   },
@@ -219,7 +283,7 @@
     "native": "दक्षिण पश्चिम खासी हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 110152,
     "wikiDataId": "Q15923741"
   },
@@ -251,7 +315,7 @@
     "native": "पश्चिम गारो हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 643291,
     "wikiDataId": "Q2329181"
   },
@@ -283,8 +347,24 @@
     "native": "पश्चिमी खासी हिल्स",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 383461,
     "wikiDataId": "Q2064752"
+  },
+  {
+    "id": 164957,
+    "name": "Williamnagar",
+    "state_id": 4006,
+    "state_code": "ML",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.49550000",
+    "longitude": "90.61680000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": 24597,
+    "wikiDataId": "Q2484012"
   }
 ]

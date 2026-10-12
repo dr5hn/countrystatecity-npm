@@ -1,5 +1,21 @@
 [
   {
+    "id": 164587,
+    "name": "Baimajing",
+    "state_id": 2273,
+    "state_code": "HI",
+    "country_id": 45,
+    "country_code": "CN",
+    "latitude": "19.71195000",
+    "longitude": "109.21801000",
+    "native": null,
+    "timezone": "Asia/Shanghai",
+    "translations": {},
+    "type": "adm4",
+    "population": 59585,
+    "wikiDataId": "Q4848510"
+  },
+  {
     "id": 157669,
     "name": "Baisha",
     "state_id": 2273,
@@ -13,7 +29,7 @@
     "translations": {},
     "type": "county",
     "population": 8077,
-    "wikiDataId": "Q1213741"
+    "wikiDataId": "Q203510"
   },
   {
     "id": 157673,
@@ -72,7 +88,7 @@
     "country_code": "CN",
     "latitude": "19.21972200",
     "longitude": "108.99777800",
-    "native": "长江",
+    "native": "昌江",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -94,22 +110,6 @@
     "type": "county",
     "population": 497953,
     "wikiDataId": null
-  },
-  {
-    "id": 157656,
-    "name": "Chengqu",
-    "state_id": 2273,
-    "state_code": "HI",
-    "country_id": 45,
-    "country_code": "CN",
-    "latitude": "0.00000000",
-    "longitude": "0.00000000",
-    "native": "城区",
-    "timezone": "Asia/Shanghai",
-    "translations": {},
-    "type": "area",
-    "population": 450959,
-    "wikiDataId": "Q424839"
   },
   {
     "id": 19406,
@@ -152,7 +152,7 @@
     "country_code": "CN",
     "latitude": "19.56888900",
     "longitude": "109.40444400",
-    "native": "儋",
+    "native": "儋州",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "prefecture",
@@ -176,22 +176,6 @@
     "wikiDataId": null
   },
   {
-    "id": 157658,
-    "name": "Directly",
-    "state_id": 2273,
-    "state_code": "HI",
-    "country_id": 45,
-    "country_code": "CN",
-    "latitude": "0.00000000",
-    "longitude": "0.00000000",
-    "native": "直接地",
-    "timezone": "Asia/Shanghai",
-    "translations": {},
-    "type": "prefecture",
-    "population": null,
-    "wikiDataId": null
-  },
-  {
     "id": 157664,
     "name": "Dongfang",
     "state_id": 2273,
@@ -205,7 +189,7 @@
     "translations": {},
     "type": "city",
     "population": 0,
-    "wikiDataId": "Q2250777"
+    "wikiDataId": "Q174123"
   },
   {
     "id": 19584,
@@ -237,7 +221,7 @@
     "translations": {},
     "type": "district",
     "population": 24252,
-    "wikiDataId": "Q15947972"
+    "wikiDataId": "Q16259193"
   },
   {
     "id": 19745,
@@ -269,7 +253,7 @@
     "translations": {},
     "type": "district",
     "population": 515679,
-    "wikiDataId": "Q16071567"
+    "wikiDataId": "Q16259367"
   },
   {
     "id": 157671,
@@ -312,7 +296,7 @@
     "country_code": "CN",
     "latitude": "19.80166700",
     "longitude": "109.71277800",
-    "native": "凌高",
+    "native": "临高",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -333,7 +317,7 @@
     "translations": {},
     "type": "county",
     "population": null,
-    "wikiDataId": "Q6553960"
+    "wikiDataId": "Q944615"
   },
   {
     "id": 157646,
@@ -349,7 +333,7 @@
     "translations": {},
     "type": "district",
     "population": 347707,
-    "wikiDataId": "Q424207"
+    "wikiDataId": "Q1340019"
   },
   {
     "id": 157648,
@@ -365,7 +349,7 @@
     "translations": {},
     "type": "district",
     "population": 853013,
-    "wikiDataId": "Q92769908"
+    "wikiDataId": "Q951789"
   },
   {
     "id": 19932,
@@ -432,22 +416,6 @@
     "wikiDataId": "Q1005059"
   },
   {
-    "id": 157647,
-    "name": "Qiongshan",
-    "state_id": 2273,
-    "state_code": "HI",
-    "country_id": 45,
-    "country_code": "CN",
-    "latitude": "19.98587820",
-    "longitude": "110.38019660",
-    "native": "琼山",
-    "timezone": "Asia/Shanghai",
-    "translations": {},
-    "type": "district",
-    "population": 655553,
-    "wikiDataId": null
-  },
-  {
     "id": 20034,
     "name": "Qiongshan",
     "state_id": 2273,
@@ -462,6 +430,22 @@
     "type": "city",
     "population": 87657,
     "wikiDataId": "Q1005059"
+  },
+  {
+    "id": 157647,
+    "name": "Qiongshan",
+    "state_id": 2273,
+    "state_code": "HI",
+    "country_id": 45,
+    "country_code": "CN",
+    "latitude": "19.98587820",
+    "longitude": "110.38019660",
+    "native": "琼山",
+    "timezone": "Asia/Shanghai",
+    "translations": {},
+    "type": "district",
+    "population": 655553,
+    "wikiDataId": null
   },
   {
     "id": 157674,
@@ -525,7 +509,7 @@
     "translations": {},
     "type": "district",
     "population": 0,
-    "wikiDataId": "Q10940372"
+    "wikiDataId": "Q16259651"
   },
   {
     "id": 157666,
@@ -621,7 +605,7 @@
     "translations": {},
     "type": "city",
     "population": 112269,
-    "wikiDataId": "Q1210240"
+    "wikiDataId": "Q1001424"
   },
   {
     "id": 157653,

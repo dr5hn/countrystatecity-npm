@@ -112,6 +112,22 @@
     "wikiDataId": "Q34995"
   },
   {
+    "id": 164511,
+    "name": "Colcapirhua",
+    "state_id": 3381,
+    "state_code": "C",
+    "country_id": 27,
+    "country_code": "BO",
+    "latitude": "-17.38570000",
+    "longitude": "-66.23814000",
+    "native": null,
+    "timezone": "America/La_Paz",
+    "translations": {},
+    "type": "city",
+    "population": 52732,
+    "wikiDataId": "Q1107673"
+  },
+  {
     "id": 9850,
     "name": "Colchani",
     "state_id": 3381,
@@ -184,7 +200,7 @@
     "country_code": "BO",
     "latitude": "-17.94101000",
     "longitude": "-65.34016000",
-    "native": "Mizca",
+    "native": "Mizque",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -203,7 +219,7 @@
     "native": "Provincia de Arani",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 10398,
     "wikiDataId": "Q1325748"
   },
@@ -219,7 +235,7 @@
     "native": "La provincia de arque",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 20850,
     "wikiDataId": "Q1366072"
   },
@@ -235,7 +251,7 @@
     "native": "Provincia Ayopaya Provincia",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 54531,
     "wikiDataId": "Q1365999"
   },
@@ -267,7 +283,7 @@
     "native": "Provincia Capinota",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 26725,
     "wikiDataId": "Q1366004"
   },
@@ -283,7 +299,7 @@
     "native": "Provincia Carrasco",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 97414,
     "wikiDataId": "Q1366060"
   },
@@ -299,7 +315,7 @@
     "native": "Provincia Cercado",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 632013,
     "wikiDataId": "Q200795"
   },
@@ -315,7 +331,7 @@
     "native": "Provincia Chaparé",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 263137,
     "wikiDataId": "Q1434538"
   },
@@ -347,9 +363,9 @@
     "native": "Provincia Germán Jordán",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 34498,
-    "wikiDataId": "Q1295948"
+    "wikiDataId": null
   },
   {
     "id": 9954,
@@ -379,7 +395,7 @@
     "native": "Provincia castigada",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 54655,
     "wikiDataId": "Q1420274"
   },
@@ -395,7 +411,7 @@
     "native": "Provincia Quillacollo",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 289824,
     "wikiDataId": "Q1360766"
   },
@@ -411,7 +427,7 @@
     "native": "Provincia Tapacarí",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 24625,
     "wikiDataId": "Q277886"
   },
@@ -424,7 +440,7 @@
     "country_code": "BO",
     "latitude": "-17.54234000",
     "longitude": "-65.83472000",
-    "native": "Castigado",
+    "native": "Punata",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -488,7 +504,7 @@
     "country_code": "BO",
     "latitude": "-17.60898000",
     "longitude": "-66.02135000",
-    "native": "Calibre",
+    "native": "Tarata",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -520,7 +536,7 @@
     "country_code": "BO",
     "latitude": "-17.33333000",
     "longitude": "-65.91667000",
-    "native": "Provincia de tirque",
+    "native": "Tiraque",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "province",
@@ -542,5 +558,21 @@
     "type": "city",
     "population": 1597,
     "wikiDataId": "Q2038566"
+  },
+  {
+    "id": 164510,
+    "name": "Vinto",
+    "state_id": 3381,
+    "state_code": "C",
+    "country_id": 27,
+    "country_code": "BO",
+    "latitude": "-17.39141000",
+    "longitude": "-66.31681000",
+    "native": null,
+    "timezone": "America/La_Paz",
+    "translations": {},
+    "type": "city",
+    "population": 58739,
+    "wikiDataId": "Q125924"
   }
 ]

@@ -11,9 +11,9 @@
     "native": "Aberfoyle Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11234,
-    "wikiDataId": "Q319540"
+    "wikiDataId": "Q4667077"
   },
   {
     "id": 3919,
@@ -27,9 +27,9 @@
     "native": "Adelaide",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 1387290,
-    "wikiDataId": "Q5112"
+    "wikiDataId": "Q1094063"
   },
   {
     "id": 3921,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "section",
     "population": 19820,
-    "wikiDataId": "Q353997"
+    "wikiDataId": null
   },
   {
     "id": 3920,
@@ -59,8 +59,8 @@
     "native": "Adelaide Hills",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 40879,
+    "type": "municipality",
+    "population": 42875,
     "wikiDataId": "Q353997"
   },
   {
@@ -75,9 +75,9 @@
     "native": "Albert Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 1685,
-    "wikiDataId": "Q705686"
+    "type": "locality",
+    "population": 1780,
+    "wikiDataId": "Q4710968"
   },
   {
     "id": 3935,
@@ -91,7 +91,7 @@
     "native": "Alberton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1792,
     "wikiDataId": "Q4712262"
   },
@@ -107,7 +107,7 @@
     "native": "Aldgate",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3471,
     "wikiDataId": "Q1309158"
   },
@@ -123,9 +123,9 @@
     "native": "Aldinga Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10667,
-    "wikiDataId": "Q1309158"
+    "wikiDataId": "Q4713822"
   },
   {
     "id": 3951,
@@ -139,8 +139,8 @@
     "native": "Alexandrina",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 28730,
+    "type": "municipality",
+    "population": 31427,
     "wikiDataId": "Q909559"
   },
   {
@@ -155,7 +155,7 @@
     "native": "Allenby Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2045,
     "wikiDataId": "Q4731978"
   },
@@ -168,10 +168,10 @@
     "country_code": "AU",
     "latitude": "-27.05797000",
     "longitude": "131.37314000",
-    "native": "Anangu Portangatjara",
+    "native": "Anangu Pitjantjatjara",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q485826"
   },
@@ -187,7 +187,7 @@
     "native": "Andrews Farm",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8699,
     "wikiDataId": "Q4759071"
   },
@@ -203,7 +203,7 @@
     "native": "Angaston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2202,
     "wikiDataId": "Q530643"
   },
@@ -219,9 +219,9 @@
     "native": "Angle Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1555,
-    "wikiDataId": "Q530643"
+    "wikiDataId": "Q4763348"
   },
   {
     "id": 3981,
@@ -235,7 +235,7 @@
     "native": "Angle Vale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2865,
     "wikiDataId": "Q4763354"
   },
@@ -251,7 +251,7 @@
     "native": "Ardrossan",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1269,
     "wikiDataId": "Q138398"
   },
@@ -267,7 +267,7 @@
     "native": "Ascot Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3588,
     "wikiDataId": "Q4804033"
   },
@@ -283,7 +283,7 @@
     "native": "Ashford",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1157,
     "wikiDataId": "Q725263"
   },
@@ -299,7 +299,7 @@
     "native": "Athelstone",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9601,
     "wikiDataId": "Q4813352"
   },
@@ -315,7 +315,7 @@
     "native": "Athol Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2023,
     "wikiDataId": "Q4815633"
   },
@@ -331,7 +331,7 @@
     "native": "Balaklava",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2083,
     "wikiDataId": "Q2086426"
   },
@@ -347,7 +347,7 @@
     "native": "Balhannah",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1756,
     "wikiDataId": "Q2675436"
   },
@@ -363,7 +363,7 @@
     "native": "Banksia Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3346,
     "wikiDataId": "Q4856537"
   },
@@ -379,7 +379,7 @@
     "native": "Barmera",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2884,
     "wikiDataId": "Q2884630"
   },
@@ -395,7 +395,7 @@
     "native": "Barossa",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 25066,
     "wikiDataId": "Q808736"
   },
@@ -411,8 +411,8 @@
     "native": "Barunga West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 2619,
+    "type": "municipality",
+    "population": 2688,
     "wikiDataId": "Q809642"
   },
   {
@@ -427,7 +427,7 @@
     "native": "Beaumont",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2731,
     "wikiDataId": "Q4877535"
   },
@@ -443,7 +443,7 @@
     "native": "Bedford Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2689,
     "wikiDataId": "Q4879178"
   },
@@ -459,7 +459,7 @@
     "native": "Belair",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4718,
     "wikiDataId": "Q4881870"
   },
@@ -475,7 +475,7 @@
     "native": "Bellevue Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2712,
     "wikiDataId": "Q4883932"
   },
@@ -488,10 +488,10 @@
     "country_code": "AU",
     "latitude": "-34.28107000",
     "longitude": "140.59958000",
-    "native": "New",
+    "native": "Berri",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4143,
     "wikiDataId": "Q827089"
   },
@@ -507,7 +507,7 @@
     "native": "Berri and Barmera",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10484,
     "wikiDataId": "Q827093"
   },
@@ -523,7 +523,7 @@
     "native": "Beulah Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1601,
     "wikiDataId": "Q4899274"
   },
@@ -539,7 +539,7 @@
     "native": "Beverley",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1578,
     "wikiDataId": "Q4899382"
   },
@@ -552,10 +552,10 @@
     "country_code": "AU",
     "latitude": "-34.81826000",
     "longitude": "138.96478000",
-    "native": "Birrwood",
+    "native": "Birdwood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 932,
     "wikiDataId": "Q865122"
   },
@@ -571,7 +571,7 @@
     "native": "Birkenhead",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1798,
     "wikiDataId": "Q4916420"
   },
@@ -587,7 +587,7 @@
     "native": "Black Forest",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1982,
     "wikiDataId": "Q4920780"
   },
@@ -603,7 +603,7 @@
     "native": "Blackwood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4266,
     "wikiDataId": "Q4923618"
   },
@@ -619,7 +619,7 @@
     "native": "Blair Athol",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4574,
     "wikiDataId": "Q4924044"
   },
@@ -635,7 +635,7 @@
     "native": "Blakeview",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7043,
     "wikiDataId": "Q4924651"
   },
@@ -651,7 +651,7 @@
     "native": "Bordertown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3095,
     "wikiDataId": "Q721784"
   },
@@ -667,7 +667,7 @@
     "native": "Brahma Lodge",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3380,
     "wikiDataId": "Q4955499"
   },
@@ -683,7 +683,7 @@
     "native": "Bridgewater",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4592,
     "wikiDataId": "Q4966824"
   },
@@ -699,7 +699,7 @@
     "native": "Brighton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3465,
     "wikiDataId": "Q3644691"
   },
@@ -715,7 +715,7 @@
     "native": "Broadview",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4450,
     "wikiDataId": "Q4972321"
   },
@@ -731,9 +731,9 @@
     "native": "Brompton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3729,
-    "wikiDataId": "Q925757"
+    "wikiDataId": "Q4973751"
   },
   {
     "id": 4428,
@@ -747,9 +747,9 @@
     "native": "Brooklyn Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5040,
-    "wikiDataId": "Q4974725"
+    "wikiDataId": "Q4974883"
   },
   {
     "id": 4486,
@@ -763,8 +763,8 @@
     "native": "Burnside",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 1421,
+    "type": "municipality",
+    "population": 48257,
     "wikiDataId": "Q1016835"
   },
   {
@@ -776,10 +776,10 @@
     "country_code": "AU",
     "latitude": "-33.67171000",
     "longitude": "138.92835000",
-    "native": "Men",
+    "native": "Burra",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1112,
     "wikiDataId": "Q1000133"
   },
@@ -795,7 +795,7 @@
     "native": "Burton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6519,
     "wikiDataId": "Q5000780"
   },
@@ -811,9 +811,9 @@
     "native": "Camden Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3338,
-    "wikiDataId": "Q21907229"
+    "wikiDataId": "Q5025798"
   },
   {
     "id": 4559,
@@ -827,7 +827,7 @@
     "native": "Campbelltown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 9263,
     "wikiDataId": "Q1030580"
   },
@@ -843,8 +843,8 @@
     "native": "Ceduna",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1955,
+    "type": "municipality",
+    "population": 3757,
     "wikiDataId": "Q179717"
   },
   {
@@ -859,7 +859,7 @@
     "native": "Charles Sturt",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 121840,
     "wikiDataId": "Q1066185"
   },
@@ -875,8 +875,8 @@
     "native": "Cheltenham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 2166,
+    "type": "locality",
+    "population": 2236,
     "wikiDataId": "Q5090176"
   },
   {
@@ -891,7 +891,7 @@
     "native": "Christie Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5239,
     "wikiDataId": "Q5110665"
   },
@@ -907,7 +907,7 @@
     "native": "Christies Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5962,
     "wikiDataId": "Q5110724"
   },
@@ -923,7 +923,7 @@
     "native": "City of West Torrens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1813391"
   },
@@ -939,7 +939,7 @@
     "native": "Clapham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1685,
     "wikiDataId": "Q5125861"
   },
@@ -955,7 +955,7 @@
     "native": "Clare",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3238,
     "wikiDataId": "Q2975529"
   },
@@ -971,7 +971,7 @@
     "native": "Clare and Gilbert Valleys",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9187,
     "wikiDataId": "Q909571"
   },
@@ -987,7 +987,7 @@
     "native": "Clarence Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2373,
     "wikiDataId": "Q5126534"
   },
@@ -1003,9 +1003,9 @@
     "native": "Clarence Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2487,
-    "wikiDataId": "Q5126534"
+    "wikiDataId": "Q5126692"
   },
   {
     "id": 4733,
@@ -1019,7 +1019,7 @@
     "native": "Clearview",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4261,
     "wikiDataId": "Q5130902"
   },
@@ -1035,8 +1035,8 @@
     "native": "Cleve",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 953,
+    "type": "municipality",
+    "population": 1771,
     "wikiDataId": "Q278050"
   },
   {
@@ -1051,7 +1051,7 @@
     "native": "Clovelly Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3126,
     "wikiDataId": "Q5135847"
   },
@@ -1067,7 +1067,7 @@
     "native": "Collinswood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1496,
     "wikiDataId": "Q5147467"
   },
@@ -1083,7 +1083,7 @@
     "native": "Colonel Light Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3311,
     "wikiDataId": "Q5148151"
   },
@@ -1099,8 +1099,8 @@
     "native": "COOBER PEDY",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 2106,
+    "type": "locality",
+    "population": 1566,
     "wikiDataId": "Q779188"
   },
   {
@@ -1115,8 +1115,8 @@
     "native": "Copper Coast",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 16601,
     "wikiDataId": "Q371346"
   },
   {
@@ -1131,7 +1131,7 @@
     "native": "Coromandel Valley",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4380,
     "wikiDataId": "Q14935703"
   },
@@ -1147,7 +1147,7 @@
     "native": "Cowandilla",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1455,
     "wikiDataId": "Q5179458"
   },
@@ -1163,7 +1163,7 @@
     "native": "Cowell",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1124,
     "wikiDataId": "Q2082300"
   },
@@ -1195,9 +1195,9 @@
     "native": "Crafers West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2006,
-    "wikiDataId": "Q5180517"
+    "wikiDataId": "Q5180518"
   },
   {
     "id": 4858,
@@ -1211,7 +1211,7 @@
     "native": "Craigburn Farm",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2336,
     "wikiDataId": "Q5181650"
   },
@@ -1227,7 +1227,7 @@
     "native": "Craigmore",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10943,
     "wikiDataId": "Q5181733"
   },
@@ -1243,7 +1243,7 @@
     "native": "Croydon Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4230,
     "wikiDataId": "Q5189692"
   },
@@ -1259,7 +1259,7 @@
     "native": "Crystal Brook",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1537,
     "wikiDataId": "Q2255269"
   },
@@ -1275,7 +1275,7 @@
     "native": "Cumberland Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2571,
     "wikiDataId": "Q5193934"
   },
@@ -1291,8 +1291,8 @@
     "native": "Darlington",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1080,
+    "type": "locality",
+    "population": 1275,
     "wikiDataId": "Q5223965"
   },
   {
@@ -1304,10 +1304,10 @@
     "country_code": "AU",
     "latitude": "-34.69063000",
     "longitude": "138.66862000",
-    "native": "In front of the park",
+    "native": "Davoren Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6392,
     "wikiDataId": "Q14297"
   },
@@ -1323,7 +1323,7 @@
     "native": "Daw Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2705,
     "wikiDataId": "Q5242254"
   },
@@ -1339,7 +1339,7 @@
     "native": "Dernancourt",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4063,
     "wikiDataId": "Q5262869"
   },
@@ -1355,7 +1355,7 @@
     "native": "Dover Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3062,
     "wikiDataId": "Q5302486"
   },
@@ -1371,7 +1371,7 @@
     "native": "Dulwich",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1659,
     "wikiDataId": "Q5313536"
   },
@@ -1384,10 +1384,10 @@
     "country_code": "AU",
     "latitude": "-35.10354000",
     "longitude": "138.79588000",
-    "native": "Chew",
+    "native": "Echunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1219,
     "wikiDataId": "Q2261821"
   },
@@ -1403,9 +1403,9 @@
     "native": "Eden Hills",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2882,
-    "wikiDataId": "Q5336865"
+    "wikiDataId": "Q5336868"
   },
   {
     "id": 5118,
@@ -1419,7 +1419,7 @@
     "native": "Edwardstown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4514,
     "wikiDataId": "Q5346153"
   },
@@ -1435,9 +1435,9 @@
     "native": "Elizabeth Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5160,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5362693"
   },
   {
     "id": 5132,
@@ -1451,9 +1451,9 @@
     "native": "Elizabeth East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4607,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5362707"
   },
   {
     "id": 5133,
@@ -1467,9 +1467,9 @@
     "native": "Elizabeth Grove",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2531,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5362884"
   },
   {
     "id": 5135,
@@ -1483,9 +1483,9 @@
     "native": "Elizabeth North",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 3479,
-    "wikiDataId": "Q2918794"
+    "type": "locality",
+    "population": 3588,
+    "wikiDataId": "Q5363269"
   },
   {
     "id": 5136,
@@ -1499,9 +1499,9 @@
     "native": "Elizabeth Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4428,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5363309"
   },
   {
     "id": 5137,
@@ -1515,9 +1515,9 @@
     "native": "Elizabeth South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2933,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5363530"
   },
   {
     "id": 5138,
@@ -1531,9 +1531,9 @@
     "native": "Elizabeth Vale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4331,
-    "wikiDataId": "Q2918794"
+    "wikiDataId": "Q5363661"
   },
   {
     "id": 5144,
@@ -1547,8 +1547,8 @@
     "native": "Elliston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 375,
+    "type": "municipality",
+    "population": 1057,
     "wikiDataId": "Q1332499"
   },
   {
@@ -1563,9 +1563,9 @@
     "native": "Encounter Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5305,
-    "wikiDataId": "Q3437562"
+    "wikiDataId": "Q21893480"
   },
   {
     "id": 5160,
@@ -1579,7 +1579,7 @@
     "native": "Enfield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6204,
     "wikiDataId": "Q5377280"
   },
@@ -1592,12 +1592,12 @@
     "country_code": "AU",
     "latitude": "-34.92785000",
     "longitude": "138.66313000",
-    "native": "Erright",
+    "native": "Erindale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1172,
-    "wikiDataId": "Q5389242"
+    "wikiDataId": "Q5389265"
   },
   {
     "id": 5181,
@@ -1611,9 +1611,9 @@
     "native": "Ethelton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1487,
-    "wikiDataId": "Q5400901"
+    "wikiDataId": "Q5403281"
   },
   {
     "id": 5192,
@@ -1627,7 +1627,7 @@
     "native": "Evandale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1378,
     "wikiDataId": "Q5415588"
   },
@@ -1643,7 +1643,7 @@
     "native": "Evanston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2580,
     "wikiDataId": "Q5415991"
   },
@@ -1659,7 +1659,7 @@
     "native": "Evanston Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1832,
     "wikiDataId": "Q5416000"
   },
@@ -1675,9 +1675,9 @@
     "native": "Evanston Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4228,
-    "wikiDataId": "Q5416000"
+    "wikiDataId": "Q5416004"
   },
   {
     "id": 5198,
@@ -1691,9 +1691,9 @@
     "native": "Everard Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1071,
-    "wikiDataId": "Q516923"
+    "wikiDataId": "Q5416911"
   },
   {
     "id": 5201,
@@ -1707,7 +1707,7 @@
     "native": "Exeter",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1066,
     "wikiDataId": "Q5420088"
   },
@@ -1723,7 +1723,7 @@
     "native": "Fairview Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3792,
     "wikiDataId": "Q5430843"
   },
@@ -1739,7 +1739,7 @@
     "native": "Felixstow",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2477,
     "wikiDataId": "Q5442396"
   },
@@ -1755,9 +1755,9 @@
     "native": "Ferryden Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4495,
-    "wikiDataId": "Q5445174"
+    "wikiDataId": "Q5445534"
   },
   {
     "id": 5235,
@@ -1771,7 +1771,7 @@
     "native": "Findon",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6997,
     "wikiDataId": "Q5450012"
   },
@@ -1787,7 +1787,7 @@
     "native": "Firle",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1508,
     "wikiDataId": "Q5452090"
   },
@@ -1803,7 +1803,7 @@
     "native": "Flagstaff Hill",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10184,
     "wikiDataId": "Q5457021"
   },
@@ -1819,7 +1819,7 @@
     "native": "Flinders Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5489,
     "wikiDataId": "Q5459415"
   },
@@ -1835,8 +1835,8 @@
     "native": "Flinders Ranges",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1662,
     "wikiDataId": "Q910265"
   },
   {
@@ -1851,7 +1851,7 @@
     "native": "Forestville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1347,
     "wikiDataId": "Q5469297"
   },
@@ -1867,8 +1867,8 @@
     "native": "Franklin Harbour",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 1367,
     "wikiDataId": "Q1445247"
   },
   {
@@ -1883,7 +1883,7 @@
     "native": "Freeling",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2688,
     "wikiDataId": "Q1453565"
   },
@@ -1899,9 +1899,9 @@
     "native": "Fulham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2920,
-    "wikiDataId": "Q5503094"
+    "wikiDataId": "Q5507907"
   },
   {
     "id": 5295,
@@ -1915,9 +1915,9 @@
     "native": "Fulham Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6573,
-    "wikiDataId": "Q5503094"
+    "wikiDataId": "Q5507920"
   },
   {
     "id": 5296,
@@ -1931,7 +1931,7 @@
     "native": "Fullarton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4500,
     "wikiDataId": "Q5508220"
   },
@@ -1947,7 +1947,7 @@
     "native": "Gawler",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 668,
     "wikiDataId": "Q1847617"
   },
@@ -1963,9 +1963,9 @@
     "native": "Gawler East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5291,
-    "wikiDataId": "Q1847617"
+    "wikiDataId": "Q5528458"
   },
   {
     "id": 5312,
@@ -1979,9 +1979,9 @@
     "native": "Gawler South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2618,
-    "wikiDataId": "Q1847617"
+    "wikiDataId": "Q5528464"
   },
   {
     "id": 5331,
@@ -1995,7 +1995,7 @@
     "native": "Gilberton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1528,
     "wikiDataId": "Q3764261"
   },
@@ -2011,7 +2011,7 @@
     "native": "Gilles Plains",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4101,
     "wikiDataId": "Q5562080"
   },
@@ -2027,7 +2027,7 @@
     "native": "Glandore",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3041,
     "wikiDataId": "Q5566609"
   },
@@ -2043,7 +2043,7 @@
     "native": "Glen Osmond",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2154,
     "wikiDataId": "Q5567936"
   },
@@ -2059,7 +2059,7 @@
     "native": "Glenalta",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2039,
     "wikiDataId": "Q5568131"
   },
@@ -2075,7 +2075,7 @@
     "native": "Glenelg",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3440,
     "wikiDataId": "Q3108740"
   },
@@ -2091,7 +2091,7 @@
     "native": "Glenelg East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3855,
     "wikiDataId": "Q5568468"
   },
@@ -2107,9 +2107,9 @@
     "native": "Glenelg North",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6594,
-    "wikiDataId": "Q5568468"
+    "wikiDataId": "Q5568473"
   },
   {
     "id": 5375,
@@ -2123,9 +2123,9 @@
     "native": "Glenelg South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2184,
-    "wikiDataId": "Q5568468"
+    "wikiDataId": "Q5568477"
   },
   {
     "id": 5381,
@@ -2139,7 +2139,7 @@
     "native": "Glengowrie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5767,
     "wikiDataId": "Q5568552"
   },
@@ -2155,7 +2155,7 @@
     "native": "Glenside",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2852,
     "wikiDataId": "Q5569340"
   },
@@ -2171,7 +2171,7 @@
     "native": "Glenunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2184,
     "wikiDataId": "Q5569372"
   },
@@ -2187,7 +2187,7 @@
     "native": "Glynde",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2102,
     "wikiDataId": "Q5572914"
   },
@@ -2203,7 +2203,7 @@
     "native": "Golden Grove",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10299,
     "wikiDataId": "Q5579520"
   },
@@ -2219,7 +2219,7 @@
     "native": "Goodwood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2823,
     "wikiDataId": "Q1397015"
   },
@@ -2232,10 +2232,10 @@
     "country_code": "AU",
     "latitude": "-35.50159000",
     "longitude": "138.78191000",
-    "native": "Gewa",
+    "native": "Goolwa",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2558,
     "wikiDataId": "Q983824"
   },
@@ -2253,7 +2253,7 @@
     "translations": {},
     "type": "city",
     "population": 2222,
-    "wikiDataId": "Q983824"
+    "wikiDataId": null
   },
   {
     "id": 5431,
@@ -2267,7 +2267,7 @@
     "native": "Goyder",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4060,
     "wikiDataId": "Q591459"
   },
@@ -2283,7 +2283,7 @@
     "native": "Grange",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4615,
     "wikiDataId": "Q5595626"
   },
@@ -2299,7 +2299,7 @@
     "native": "Grant",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8636,
     "wikiDataId": "Q1538299"
   },
@@ -2315,7 +2315,7 @@
     "native": "Greenacres",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3356,
     "wikiDataId": "Q5603642"
   },
@@ -2331,7 +2331,7 @@
     "native": "Greenock",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1199,
     "wikiDataId": "Q1544752"
   },
@@ -2347,7 +2347,7 @@
     "native": "Greenwith",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10103,
     "wikiDataId": "Q5604921"
   },
@@ -2363,7 +2363,7 @@
     "native": "Gulfview Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3674,
     "wikiDataId": "Q5617644"
   },
@@ -2395,9 +2395,9 @@
     "native": "Hackham West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3464,
-    "wikiDataId": "Q5637296"
+    "wikiDataId": "Q5637298"
   },
   {
     "id": 5504,
@@ -2411,7 +2411,7 @@
     "native": "Hahndorf",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2814,
     "wikiDataId": "Q547709"
   },
@@ -2427,9 +2427,9 @@
     "native": "Hallett Cove",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12512,
-    "wikiDataId": "Q5642748"
+    "wikiDataId": "Q5642914"
   },
   {
     "id": 5519,
@@ -2443,7 +2443,7 @@
     "native": "Hampstead Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1535,
     "wikiDataId": "Q5646117"
   },
@@ -2475,7 +2475,7 @@
     "native": "Hawthorn",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2221,
     "wikiDataId": "Q5685466"
   },
@@ -2491,7 +2491,7 @@
     "native": "Hawthorndene",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3389,
     "wikiDataId": "Q5685520"
   },
@@ -2507,7 +2507,7 @@
     "native": "Hayborough",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2238,
     "wikiDataId": "Q5686204"
   },
@@ -2523,7 +2523,7 @@
     "native": "Hazelwood Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1953,
     "wikiDataId": "Q5688191"
   },
@@ -2539,7 +2539,7 @@
     "native": "Hectorville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4241,
     "wikiDataId": "Q5697027"
   },
@@ -2555,9 +2555,9 @@
     "native": "Henley Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6259,
-    "wikiDataId": "Q5713613"
+    "wikiDataId": "Q12059873"
   },
   {
     "id": 5577,
@@ -2571,7 +2571,7 @@
     "native": "Henley Beach South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2799,
     "wikiDataId": "Q5714587"
   },
@@ -2603,9 +2603,9 @@
     "native": "Highbury",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6956,
-    "wikiDataId": "Q730334"
+    "wikiDataId": "Q5757873"
   },
   {
     "id": 5598,
@@ -2619,7 +2619,7 @@
     "native": "Highgate",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1504,
     "wikiDataId": "Q5758546"
   },
@@ -2635,9 +2635,9 @@
     "native": "Hillbank",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5013,
-    "wikiDataId": "Q5762605"
+    "wikiDataId": "Q14935714"
   },
   {
     "id": 5607,
@@ -2651,9 +2651,9 @@
     "native": "Hillcrest",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3335,
-    "wikiDataId": "Q5762605"
+    "wikiDataId": "Q5762756"
   },
   {
     "id": 5619,
@@ -2667,9 +2667,9 @@
     "native": "Hindmarsh Island",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1341,
-    "wikiDataId": "Q667866"
+    "wikiDataId": "Q141564459"
   },
   {
     "id": 5628,
@@ -2683,9 +2683,9 @@
     "native": "Holden Hill",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3716,
-    "wikiDataId": "Q14218357"
+    "wikiDataId": "Q10767974"
   },
   {
     "id": 5630,
@@ -2699,7 +2699,7 @@
     "native": "Holdfast Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 5356,
     "wikiDataId": "Q1624414"
   },
@@ -2731,7 +2731,7 @@
     "native": "Hove",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3189,
     "wikiDataId": "Q14935719"
   },
@@ -2747,7 +2747,7 @@
     "native": "Huntfield Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4199,
     "wikiDataId": "Q14935721"
   },
@@ -2763,9 +2763,9 @@
     "native": "Hyde Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1660,
-    "wikiDataId": "Q5953604"
+    "wikiDataId": "Q5953601"
   },
   {
     "id": 5690,
@@ -2779,7 +2779,7 @@
     "native": "Ingle Farm",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9543,
     "wikiDataId": "Q6032545"
   },
@@ -2795,7 +2795,7 @@
     "native": "Jamestown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1549,
     "wikiDataId": "Q3806782"
   },
@@ -2811,7 +2811,7 @@
     "native": "Joslin",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1243,
     "wikiDataId": "Q6291014"
   },
@@ -2824,10 +2824,10 @@
     "country_code": "AU",
     "latitude": "-33.96495000",
     "longitude": "137.71634000",
-    "native": "To the woman",
+    "native": "Kadina",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2944,
     "wikiDataId": "Q3191785"
   },
@@ -2843,8 +2843,8 @@
     "native": "Kangaroo Island",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 5212,
     "wikiDataId": "Q910328"
   },
   {
@@ -2859,7 +2859,7 @@
     "native": "Kapunda",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2947,
     "wikiDataId": "Q2679736"
   },
@@ -2872,10 +2872,10 @@
     "country_code": "AU",
     "latitude": "-34.92846000",
     "longitude": "140.02484000",
-    "native": "Karoona East Murray",
+    "native": "Karoonda East Murray",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q910357"
   },
@@ -2891,7 +2891,7 @@
     "native": "Keith",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1405,
     "wikiDataId": "Q1735638"
   },
@@ -2907,7 +2907,7 @@
     "native": "Kensington Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2498,
     "wikiDataId": "Q6391446"
   },
@@ -2923,7 +2923,7 @@
     "native": "Kensington Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2627,
     "wikiDataId": "Q6391470"
   },
@@ -2939,7 +2939,7 @@
     "native": "Kent Town",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1443,
     "wikiDataId": "Q6391937"
   },
@@ -2955,9 +2955,9 @@
     "native": "Kersbrook",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1116,
-    "wikiDataId": "Q1739176"
+    "wikiDataId": "Q6394714"
   },
   {
     "id": 5851,
@@ -2971,7 +2971,7 @@
     "native": "Kidman Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3874,
     "wikiDataId": "Q6404768"
   },
@@ -2987,7 +2987,7 @@
     "native": "Kilburn",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5633,
     "wikiDataId": "Q6406612"
   },
@@ -3003,7 +3003,7 @@
     "native": "Kilkenny",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1846,
     "wikiDataId": "Q6407023"
   },
@@ -3019,8 +3019,8 @@
     "native": "Kimba",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 608,
+    "type": "municipality",
+    "population": 1064,
     "wikiDataId": "Q967010"
   },
   {
@@ -3035,7 +3035,7 @@
     "native": "Kingscote",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1962,
     "wikiDataId": "Q1361416"
   },
@@ -3051,8 +3051,8 @@
     "native": "Kingston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 6579,
+    "type": "municipality",
+    "population": 2420,
     "wikiDataId": "Q1538349"
   },
   {
@@ -3067,7 +3067,7 @@
     "native": "Kingston South East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1306,
     "wikiDataId": "Q1028160"
   },
@@ -3080,10 +3080,10 @@
     "country_code": "AU",
     "latitude": "-34.87928000",
     "longitude": "138.63562000",
-    "native": "Clip -in",
+    "native": "Klemzig",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6713,
     "wikiDataId": "Q1442959"
   },
@@ -3096,10 +3096,10 @@
     "country_code": "AU",
     "latitude": "-34.95142000",
     "longitude": "138.56702000",
-    "native": "Parking Park",
+    "native": "Kurralta Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3139,
     "wikiDataId": "Q6446487"
   },
@@ -3115,7 +3115,7 @@
     "native": "Largs Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4104,
     "wikiDataId": "Q6489307"
   },
@@ -3131,9 +3131,9 @@
     "native": "Largs North",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4005,
-    "wikiDataId": "Q6489307"
+    "wikiDataId": "Q6489313"
   },
   {
     "id": 5994,
@@ -3147,7 +3147,7 @@
     "native": "Leabrook",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1605,
     "wikiDataId": "Q6508267"
   },
@@ -3163,7 +3163,7 @@
     "native": "Lewiston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3275,
     "wikiDataId": "Q6537380"
   },
@@ -3179,7 +3179,7 @@
     "native": "Light",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1538164"
   },
@@ -3195,13 +3195,13 @@
     "native": "Linden Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2367,
     "wikiDataId": "Q6552339"
   },
   {
     "id": 6037,
-    "name": "Little Hampton",
+    "name": "Littlehampton",
     "state_id": 3904,
     "state_code": "SA",
     "country_id": 14,
@@ -3211,7 +3211,7 @@
     "native": "Little Hampton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2062,
     "wikiDataId": "Q6652979"
   },
@@ -3227,7 +3227,7 @@
     "native": "Lobethal",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2534,
     "wikiDataId": "Q744821"
   },
@@ -3243,7 +3243,7 @@
     "native": "Lockleys",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5987,
     "wikiDataId": "Q6665693"
   },
@@ -3259,7 +3259,7 @@
     "native": "Lower Eyre Peninsula",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1538334"
   },
@@ -3275,9 +3275,9 @@
     "native": "Lower Mitcham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2187,
-    "wikiDataId": "Q6693550"
+    "wikiDataId": "Q6693626"
   },
   {
     "id": 6080,
@@ -3291,7 +3291,7 @@
     "native": "Loxton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4677,
     "wikiDataId": "Q645439"
   },
@@ -3307,7 +3307,7 @@
     "native": "Loxton Waikerie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11666,
     "wikiDataId": "Q911495"
   },
@@ -3320,10 +3320,10 @@
     "country_code": "AU",
     "latitude": "-34.60124000",
     "longitude": "138.89094000",
-    "native": "Leap",
+    "native": "Lyndoch",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2151,
     "wikiDataId": "Q1415174"
   },
@@ -3339,8 +3339,8 @@
     "native": "Macclesfield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1343,
+    "type": "locality",
+    "population": 1413,
     "wikiDataId": "Q6722912"
   },
   {
@@ -3355,9 +3355,9 @@
     "native": "Magill",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9693,
-    "wikiDataId": "Q1883669"
+    "wikiDataId": "Q12061437"
   },
   {
     "id": 6128,
@@ -3371,8 +3371,8 @@
     "native": "Maitland",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1222,
+    "type": "locality",
+    "population": 1312,
     "wikiDataId": "Q2082525"
   },
   {
@@ -3384,10 +3384,10 @@
     "country_code": "AU",
     "latitude": "-34.51035000",
     "longitude": "138.42783000",
-    "native": "Possession",
+    "native": "Mallala",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1042,
     "wikiDataId": "Q1538150"
   },
@@ -3403,7 +3403,7 @@
     "native": "Malvern",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2713,
     "wikiDataId": "Q6745044"
   },
@@ -3419,9 +3419,9 @@
     "native": "Manningham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1391,
-    "wikiDataId": "Q765334"
+    "wikiDataId": "Q6750891"
   },
   {
     "id": 6158,
@@ -3435,7 +3435,7 @@
     "native": "Mannum",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2919,
     "wikiDataId": "Q393109"
   },
@@ -3451,9 +3451,9 @@
     "native": "Mansfield Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4608,
-    "wikiDataId": "Q647929"
+    "wikiDataId": "Q10791163"
   },
   {
     "id": 6166,
@@ -3464,10 +3464,10 @@
     "country_code": "AU",
     "latitude": "-29.60092000",
     "longitude": "130.84442000",
-    "native": "Marilinga Tjarutja",
+    "native": "Maralinga Tjarutja",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 96,
     "wikiDataId": "Q431586"
   },
@@ -3483,7 +3483,7 @@
     "native": "Marden",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2645,
     "wikiDataId": "Q6758627"
   },
@@ -3499,7 +3499,7 @@
     "native": "Marino",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2277,
     "wikiDataId": "Q6764422"
   },
@@ -3515,7 +3515,7 @@
     "native": "Marion",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3783,
     "wikiDataId": "Q1812769"
   },
@@ -3531,9 +3531,9 @@
     "native": "Marleston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1950,
-    "wikiDataId": "Q1812769"
+    "wikiDataId": "Q6771773"
   },
   {
     "id": 6202,
@@ -3547,7 +3547,7 @@
     "native": "Maslin Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1213,
     "wikiDataId": "Q6783461"
   },
@@ -3563,7 +3563,7 @@
     "native": "Mawson Lakes",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13794,
     "wikiDataId": "Q6794461"
   },
@@ -3579,9 +3579,9 @@
     "native": "Maylands",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1508,
-    "wikiDataId": "Q21889732"
+    "wikiDataId": "Q12061524"
   },
   {
     "id": 6213,
@@ -3595,7 +3595,7 @@
     "native": "McCracken",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2076,
     "wikiDataId": "Q6800661"
   },
@@ -3611,7 +3611,7 @@
     "native": "McLaren Flat",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1625,
     "wikiDataId": "Q6802056"
   },
@@ -3627,7 +3627,7 @@
     "native": "McLaren Vale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4061,
     "wikiDataId": "Q6802084"
   },
@@ -3643,7 +3643,7 @@
     "native": "Meadows",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1342,
     "wikiDataId": "Q2678308"
   },
@@ -3659,7 +3659,7 @@
     "native": "Medindie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1175,
     "wikiDataId": "Q6806947"
   },
@@ -3675,7 +3675,7 @@
     "native": "Melrose Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2319,
     "wikiDataId": "Q6813667"
   },
@@ -3691,7 +3691,7 @@
     "native": "Meningie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1118,
     "wikiDataId": "Q180093"
   },
@@ -3707,8 +3707,8 @@
     "native": "Mid Murray",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 9674,
     "wikiDataId": "Q911515"
   },
   {
@@ -3723,7 +3723,7 @@
     "native": "Middleton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1298,
     "wikiDataId": "Q6841989"
   },
@@ -3739,7 +3739,7 @@
     "native": "Mile End",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4536,
     "wikiDataId": "Q6851062"
   },
@@ -3755,7 +3755,7 @@
     "native": "Millicent",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5110,
     "wikiDataId": "Q2083195"
   },
@@ -3771,7 +3771,7 @@
     "native": "Millswood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2173,
     "wikiDataId": "Q6860057"
   },
@@ -3787,7 +3787,7 @@
     "native": "Minlaton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1018,
     "wikiDataId": "Q6867874"
   },
@@ -3803,7 +3803,7 @@
     "native": "Mitcham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 4288,
     "wikiDataId": "Q1279553"
   },
@@ -3819,7 +3819,7 @@
     "native": "Mitchell Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5754,
     "wikiDataId": "Q6881331"
   },
@@ -3835,7 +3835,7 @@
     "native": "Moana",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2544,
     "wikiDataId": "Q6886392"
   },
@@ -3851,7 +3851,7 @@
     "native": "Modbury",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5593,
     "wikiDataId": "Q3859800"
   },
@@ -3867,9 +3867,9 @@
     "native": "Modbury Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6995,
-    "wikiDataId": "Q3859800"
+    "wikiDataId": "Q6888060"
   },
   {
     "id": 6332,
@@ -3883,9 +3883,9 @@
     "native": "Modbury North",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5704,
-    "wikiDataId": "Q3859800"
+    "wikiDataId": "Q6888066"
   },
   {
     "id": 6343,
@@ -3899,7 +3899,7 @@
     "native": "Monash",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1097,
     "wikiDataId": "Q6898220"
   },
@@ -3915,7 +3915,7 @@
     "native": "Moonta Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2633,
     "wikiDataId": "Q6907999"
   },
@@ -3931,9 +3931,9 @@
     "native": "Moorak",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1412,
-    "wikiDataId": "Q1479557"
+    "wikiDataId": "Q6908079"
   },
   {
     "id": 6392,
@@ -3947,7 +3947,7 @@
     "native": "Morphett Vale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24002,
     "wikiDataId": "Q6913373"
   },
@@ -3963,7 +3963,7 @@
     "native": "Morphettville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3686,
     "wikiDataId": "Q6913378"
   },
@@ -3979,8 +3979,8 @@
     "native": "Mount Barker",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 18330,
+    "type": "municipality",
+    "population": 45111,
     "wikiDataId": "Q1538176"
   },
   {
@@ -3995,7 +3995,7 @@
     "native": "Mount Compass",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1580,
     "wikiDataId": "Q6920225"
   },
@@ -4011,8 +4011,8 @@
     "native": "Mount Gambier",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 25591,
+    "type": "municipality",
+    "population": 28057,
     "wikiDataId": "Q911503"
   },
   {
@@ -4027,8 +4027,8 @@
     "native": "Mount Remarkable",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 2861,
     "wikiDataId": "Q1538545"
   },
   {
@@ -4040,12 +4040,12 @@
     "country_code": "AU",
     "latitude": "-34.66792000",
     "longitude": "138.70149000",
-    "native": "Morno for",
+    "native": "Munno Para",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3708,
-    "wikiDataId": "Q163379"
+    "wikiDataId": "Q6936801"
   },
   {
     "id": 6486,
@@ -4056,7 +4056,7 @@
     "country_code": "AU",
     "latitude": "-34.66464000",
     "longitude": "138.68066000",
-    "native": "Muno Para West",
+    "native": "Munno Para West",
     "timezone": "Australia/Adelaide",
     "translations": {},
     "type": "section",
@@ -4075,7 +4075,7 @@
     "native": "Murray Bridge",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 15043,
     "wikiDataId": "Q736750"
   },
@@ -4091,7 +4091,7 @@
     "native": "Mylor",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1067,
     "wikiDataId": "Q14935750"
   },
@@ -4107,7 +4107,7 @@
     "native": "Myrtle Bank",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3158,
     "wikiDataId": "Q6948587"
   },
@@ -4123,7 +4123,7 @@
     "native": "Nailsworth",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2235,
     "wikiDataId": "Q6959635"
   },
@@ -4139,7 +4139,7 @@
     "native": "Nairne",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5327,
     "wikiDataId": "Q6959760"
   },
@@ -4155,7 +4155,7 @@
     "native": "Naracoorte",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6211,
     "wikiDataId": "Q492231"
   },
@@ -4171,7 +4171,7 @@
     "native": "Naracoorte and Lucindale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1538142"
   },
@@ -4187,7 +4187,7 @@
     "native": "Netherby",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1510,
     "wikiDataId": "Q6999013"
   },
@@ -4203,7 +4203,7 @@
     "native": "Netley",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1910,
     "wikiDataId": "Q6999758"
   },
@@ -4219,7 +4219,7 @@
     "native": "Newton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5117,
     "wikiDataId": "Q14935752"
   },
@@ -4235,7 +4235,7 @@
     "native": "Noarlunga Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4031,
     "wikiDataId": "Q7045548"
   },
@@ -4251,7 +4251,7 @@
     "native": "Normanville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1965,
     "wikiDataId": "Q7053114"
   },
@@ -4267,7 +4267,7 @@
     "native": "North Adelaide",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6823,
     "wikiDataId": "Q7053663"
   },
@@ -4283,9 +4283,9 @@
     "native": "North Brighton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2665,
-    "wikiDataId": "Q7054226"
+    "wikiDataId": "Q14935755"
   },
   {
     "id": 6631,
@@ -4299,7 +4299,7 @@
     "native": "North Haven",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5585,
     "wikiDataId": "Q7055568"
   },
@@ -4315,9 +4315,9 @@
     "native": "North Plympton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3610,
-    "wikiDataId": "Q7056320"
+    "wikiDataId": "Q7056359"
   },
   {
     "id": 6666,
@@ -4331,8 +4331,8 @@
     "native": "Northern Areas",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 4559,
+    "type": "municipality",
+    "population": 4688,
     "wikiDataId": "Q911555"
   },
   {
@@ -4347,7 +4347,7 @@
     "native": "Northfield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5043,
     "wikiDataId": "Q7059358"
   },
@@ -4363,8 +4363,8 @@
     "native": "Northgate",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 6154,
+    "type": "locality",
+    "population": 3184,
     "wikiDataId": "Q7059436"
   },
   {
@@ -4379,9 +4379,9 @@
     "native": "Norwood",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5803,
-    "wikiDataId": "Q14935640"
+    "wikiDataId": "Q985768"
   },
   {
     "id": 6676,
@@ -4395,7 +4395,7 @@
     "native": "Norwood Payneham St Peters",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q905608"
   },
@@ -4411,9 +4411,9 @@
     "native": "Novar Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2508,
-    "wikiDataId": "Q14935265"
+    "wikiDataId": "Q7064435"
   },
   {
     "id": 6688,
@@ -4427,7 +4427,7 @@
     "native": "Nuriootpa",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6901,
     "wikiDataId": "Q1391691"
   },
@@ -4443,7 +4443,7 @@
     "native": "O'Sullivan Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1844,
     "wikiDataId": "Q7071963"
   },
@@ -4459,9 +4459,9 @@
     "native": "O’Halloran Hill",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 2613,
-    "wikiDataId": "Q3643583"
+    "type": "locality",
+    "population": 2722,
+    "wikiDataId": "Q7071805"
   },
   {
     "id": 6696,
@@ -4475,7 +4475,7 @@
     "native": "Oakden",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3583,
     "wikiDataId": "Q7073819"
   },
@@ -4491,9 +4491,9 @@
     "native": "Oaklands Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3948,
-    "wikiDataId": "Q7073910"
+    "wikiDataId": "Q7074084"
   },
   {
     "id": 6718,
@@ -4507,9 +4507,9 @@
     "native": "Old Noarlunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1531,
-    "wikiDataId": "Q12064298"
+    "wikiDataId": "Q7084622"
   },
   {
     "id": 6719,
@@ -4523,9 +4523,9 @@
     "native": "Old Reynella",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3458,
-    "wikiDataId": "Q12064298"
+    "wikiDataId": "Q7084834"
   },
   {
     "id": 6723,
@@ -4539,7 +4539,7 @@
     "native": "One Tree Hill",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1043,
     "wikiDataId": "Q7093305"
   },
@@ -4552,10 +4552,10 @@
     "country_code": "AU",
     "latitude": "-35.18680000",
     "longitude": "138.57776000",
-    "native": "Overpass",
+    "native": "Onkaparinga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 175204,
     "wikiDataId": "Q1812778"
   },
@@ -4571,9 +4571,9 @@
     "native": "Onkaparinga Hills",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2610,
-    "wikiDataId": "Q1812778"
+    "wikiDataId": "Q7093975"
   },
   {
     "id": 6741,
@@ -4587,8 +4587,8 @@
     "native": "Orroroo/Carrieton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 884,
     "wikiDataId": "Q431210"
   },
   {
@@ -4603,7 +4603,7 @@
     "native": "Osborne",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1951,
     "wikiDataId": "Q7105773"
   },
@@ -4616,10 +4616,10 @@
     "country_code": "AU",
     "latitude": "-34.84756000",
     "longitude": "138.53575000",
-    "native": "Ottowway",
+    "native": "Ottoway",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2783,
     "wikiDataId": "Q7110003"
   },
@@ -4635,7 +4635,7 @@
     "native": "Panorama",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2388,
     "wikiDataId": "Q7131485"
   },
@@ -4651,9 +4651,9 @@
     "native": "Para Hills",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6793,
-    "wikiDataId": "Q7131895"
+    "wikiDataId": "Q7133648"
   },
   {
     "id": 6777,
@@ -4667,9 +4667,9 @@
     "native": "Para Hills West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3295,
-    "wikiDataId": "Q7131895"
+    "wikiDataId": "Q7133650"
   },
   {
     "id": 6778,
@@ -4680,12 +4680,12 @@
     "country_code": "AU",
     "latitude": "-34.82094000",
     "longitude": "138.66111000",
-    "native": "For view",
+    "native": "Para Vista",
     "timezone": "Australia/Adelaide",
     "translations": {},
     "type": "section",
     "population": 3023,
-    "wikiDataId": "Q7131895"
+    "wikiDataId": "Q7133664"
   },
   {
     "id": 6780,
@@ -4699,7 +4699,7 @@
     "native": "Paradise",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7217,
     "wikiDataId": "Q7134189"
   },
@@ -4715,7 +4715,7 @@
     "native": "Parafield Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18467,
     "wikiDataId": "Q7134528"
   },
@@ -4728,10 +4728,10 @@
     "country_code": "AU",
     "latitude": "-34.75705000",
     "longitude": "138.60819000",
-    "native": "Parallel",
+    "native": "Paralowie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17504,
     "wikiDataId": "Q7135062"
   },
@@ -4744,10 +4744,10 @@
     "country_code": "AU",
     "latitude": "-34.17644000",
     "longitude": "140.78579000",
-    "native": "Interpret",
+    "native": "Paringa",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1131,
     "wikiDataId": "Q3365090"
   },
@@ -4763,7 +4763,7 @@
     "native": "Park Holme",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3199,
     "wikiDataId": "Q7137788"
   },
@@ -4779,7 +4779,7 @@
     "native": "Parkside",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5126,
     "wikiDataId": "Q7138698"
   },
@@ -4795,7 +4795,7 @@
     "native": "Pasadena",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3073,
     "wikiDataId": "Q7141523"
   },
@@ -4811,7 +4811,7 @@
     "native": "Payneham",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2438,
     "wikiDataId": "Q7156844"
   },
@@ -4827,7 +4827,7 @@
     "native": "Payneham South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1731,
     "wikiDataId": "Q7156843"
   },
@@ -4843,7 +4843,7 @@
     "native": "Pennington",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3773,
     "wikiDataId": "Q7163461"
   },
@@ -4856,10 +4856,10 @@
     "country_code": "AU",
     "latitude": "-37.37520000",
     "longitude": "140.83678000",
-    "native": "PENAPA",
+    "native": "Penola",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1622,
     "wikiDataId": "Q958646"
   },
@@ -4875,8 +4875,8 @@
     "native": "Peterborough",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1490,
+    "type": "municipality",
+    "population": 1701,
     "wikiDataId": "Q610601"
   },
   {
@@ -4891,7 +4891,7 @@
     "native": "Peterhead",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1201,
     "wikiDataId": "Q7178052"
   },
@@ -4907,7 +4907,7 @@
     "native": "Playford",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 792,
     "wikiDataId": "Q976355"
   },
@@ -4923,7 +4923,7 @@
     "native": "Plympton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5459,
     "wikiDataId": "Q7205891"
   },
@@ -4939,7 +4939,7 @@
     "native": "Plympton Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3881,
     "wikiDataId": "Q7205895"
   },
@@ -4952,12 +4952,12 @@
     "country_code": "AU",
     "latitude": "-34.82471000",
     "longitude": "138.62637000",
-    "native": "Vow",
+    "native": "Pooraka",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7583,
-    "wikiDataId": "Q7227372"
+    "wikiDataId": "Q7228845"
   },
   {
     "id": 6882,
@@ -4971,7 +4971,7 @@
     "native": "Port Adelaide",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1338,
     "wikiDataId": "Q3908652"
   },
@@ -4987,7 +4987,7 @@
     "native": "Port Adelaide Enfield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 132400,
     "wikiDataId": "Q1533526"
   },
@@ -5003,8 +5003,8 @@
     "native": "Port Augusta",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 6437,
+    "type": "municipality",
+    "population": 14469,
     "wikiDataId": "Q1538187"
   },
   {
@@ -5019,9 +5019,9 @@
     "native": "Port Augusta West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4046,
-    "wikiDataId": "Q1538187"
+    "wikiDataId": "Q21884505"
   },
   {
     "id": 6886,
@@ -5035,7 +5035,7 @@
     "native": "Port Broughton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1312,
     "wikiDataId": "Q576377"
   },
@@ -5051,7 +5051,7 @@
     "native": "Port Elliot",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2251,
     "wikiDataId": "Q2544411"
   },
@@ -5067,8 +5067,8 @@
     "native": "Port Lincoln",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 14458,
+    "type": "municipality",
+    "population": 15065,
     "wikiDataId": "Q1538207"
   },
   {
@@ -5083,7 +5083,7 @@
     "native": "Port Noarlunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3245,
     "wikiDataId": "Q7230825"
   },
@@ -5099,9 +5099,9 @@
     "native": "Port Noarlunga South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3058,
-    "wikiDataId": "Q7230825"
+    "wikiDataId": "Q7230828"
   },
   {
     "id": 6902,
@@ -5131,7 +5131,7 @@
     "native": "Port Pirie City and Dists",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2104769"
   },
@@ -5147,9 +5147,9 @@
     "native": "Port Pirie South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3878,
-    "wikiDataId": "Q2104769"
+    "wikiDataId": "Q31441229"
   },
   {
     "id": 6905,
@@ -5163,9 +5163,9 @@
     "native": "Port Pirie West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2556,
-    "wikiDataId": "Q2104769"
+    "wikiDataId": "Q31441237"
   },
   {
     "id": 6908,
@@ -5179,7 +5179,7 @@
     "native": "Port Willunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1785,
     "wikiDataId": "Q7231045"
   },
@@ -5195,7 +5195,7 @@
     "native": "Prospect",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5187,
     "wikiDataId": "Q1537228"
   },
@@ -5211,7 +5211,7 @@
     "native": "Queenstown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1943,
     "wikiDataId": "Q14935760"
   },
@@ -5227,7 +5227,7 @@
     "native": "Quorn",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1232,
     "wikiDataId": "Q984138"
   },
@@ -5243,7 +5243,7 @@
     "native": "Redwood Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5367,
     "wikiDataId": "Q14935761"
   },
@@ -5259,7 +5259,7 @@
     "native": "Renmark",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4665,
     "wikiDataId": "Q746623"
   },
@@ -5275,8 +5275,8 @@
     "native": "Renmark Paringa",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 4665,
+    "type": "municipality",
+    "population": 10274,
     "wikiDataId": "Q1538197"
   },
   {
@@ -5291,7 +5291,7 @@
     "native": "Renmark West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1358,
     "wikiDataId": "Q21905122"
   },
@@ -5307,9 +5307,9 @@
     "native": "Renown Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1663,
-    "wikiDataId": "Q21905122"
+    "wikiDataId": "Q7313456"
   },
   {
     "id": 7001,
@@ -5323,7 +5323,7 @@
     "native": "Reynella",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4836,
     "wikiDataId": "Q7319576"
   },
@@ -5339,9 +5339,9 @@
     "native": "Reynella East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1990,
-    "wikiDataId": "Q7319576"
+    "wikiDataId": "Q7319578"
   },
   {
     "id": 7010,
@@ -5355,9 +5355,9 @@
     "native": "Richmond",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3474,
-    "wikiDataId": "Q3407391"
+    "wikiDataId": "Q7330734"
   },
   {
     "id": 7012,
@@ -5371,9 +5371,9 @@
     "native": "Ridgehaven",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4304,
-    "wikiDataId": "Q820691"
+    "wikiDataId": "Q7332754"
   },
   {
     "id": 7014,
@@ -5387,9 +5387,9 @@
     "native": "Ridleyton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1180,
-    "wikiDataId": "Q7332842"
+    "wikiDataId": "Q7333029"
   },
   {
     "id": 7019,
@@ -5403,9 +5403,9 @@
     "native": "Risdon Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3878,
-    "wikiDataId": "Q7335744"
+    "wikiDataId": "Q30587957"
   },
   {
     "id": 7020,
@@ -5419,9 +5419,9 @@
     "native": "Risdon Park South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2230,
-    "wikiDataId": "Q7335744"
+    "wikiDataId": "Q31441329"
   },
   {
     "id": 7032,
@@ -5435,8 +5435,8 @@
     "native": "Robe",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1252,
+    "type": "municipality",
+    "population": 1621,
     "wikiDataId": "Q2156191"
   },
   {
@@ -5451,9 +5451,9 @@
     "native": "Rose Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1375,
-    "wikiDataId": "Q995167"
+    "wikiDataId": "Q7367886"
   },
   {
     "id": 7073,
@@ -5467,9 +5467,9 @@
     "native": "Rosewater",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3582,
-    "wikiDataId": "Q7368731"
+    "wikiDataId": "Q7368751"
   },
   {
     "id": 7078,
@@ -5483,7 +5483,7 @@
     "native": "Rosslyn Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1469,
     "wikiDataId": "Q14935764"
   },
@@ -5499,7 +5499,7 @@
     "native": "Rostrevor",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8452,
     "wikiDataId": "Q7370069"
   },
@@ -5515,8 +5515,8 @@
     "native": "Roxby Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 3671,
+    "type": "municipality",
+    "population": 4089,
     "wikiDataId": "Q2170743"
   },
   {
@@ -5531,7 +5531,7 @@
     "native": "Royal Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3453,
     "wikiDataId": "Q7374689"
   },
@@ -5547,7 +5547,7 @@
     "native": "Royston Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1246,
     "wikiDataId": "Q7375260"
   },
@@ -5563,7 +5563,7 @@
     "native": "Salisbury",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6790,
     "wikiDataId": "Q947334"
   },
@@ -5579,9 +5579,9 @@
     "native": "Salisbury Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6296,
-    "wikiDataId": "Q947334"
+    "wikiDataId": "Q7404762"
   },
   {
     "id": 7122,
@@ -5595,9 +5595,9 @@
     "native": "Salisbury East",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9273,
-    "wikiDataId": "Q947334"
+    "wikiDataId": "Q7404764"
   },
   {
     "id": 7123,
@@ -5611,9 +5611,9 @@
     "native": "Salisbury Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4488,
-    "wikiDataId": "Q947334"
+    "wikiDataId": "Q7404770"
   },
   {
     "id": 7124,
@@ -5629,7 +5629,7 @@
     "translations": {},
     "type": "section",
     "population": 10683,
-    "wikiDataId": "Q947334"
+    "wikiDataId": null
   },
   {
     "id": 7125,
@@ -5643,9 +5643,9 @@
     "native": "Salisbury Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2276,
-    "wikiDataId": "Q947334"
+    "wikiDataId": "Q7404791"
   },
   {
     "id": 7126,
@@ -5659,9 +5659,9 @@
     "native": "Salisbury Plain",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1333,
-    "wikiDataId": "Q947334"
+    "wikiDataId": "Q7404793"
   },
   {
     "id": 7159,
@@ -5672,10 +5672,10 @@
     "country_code": "AU",
     "latitude": "-35.03474000",
     "longitude": "138.52288000",
-    "native": "Seucliff",
+    "native": "Seacliff",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2117,
     "wikiDataId": "Q7440257"
   },
@@ -5688,7 +5688,7 @@
     "country_code": "AU",
     "latitude": "-35.02983000",
     "longitude": "138.53129000",
-    "native": "Seuclified Park",
+    "native": "Seacliff Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
     "type": "section",
@@ -5707,9 +5707,9 @@
     "native": "Seacombe Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3373,
-    "wikiDataId": "Q7440262"
+    "wikiDataId": "Q7440283"
   },
   {
     "id": 7162,
@@ -5723,9 +5723,9 @@
     "native": "Seacombe Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1549,
-    "wikiDataId": "Q7440262"
+    "wikiDataId": "Q7440284"
   },
   {
     "id": 7164,
@@ -5739,7 +5739,7 @@
     "native": "Seaford",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4493,
     "wikiDataId": "Q7440368"
   },
@@ -5755,9 +5755,9 @@
     "native": "Seaford Meadows",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3780,
-    "wikiDataId": "Q7440368"
+    "wikiDataId": "Q7440385"
   },
   {
     "id": 7166,
@@ -5771,9 +5771,9 @@
     "native": "Seaford Rise",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6105,
-    "wikiDataId": "Q7440368"
+    "wikiDataId": "Q7440389"
   },
   {
     "id": 7169,
@@ -5787,7 +5787,7 @@
     "native": "Seaton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10877,
     "wikiDataId": "Q7442000"
   },
@@ -5803,9 +5803,9 @@
     "native": "Seaview Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2718,
-    "wikiDataId": "Q7442000"
+    "wikiDataId": "Q7442249"
   },
   {
     "id": 7175,
@@ -5819,9 +5819,9 @@
     "native": "Sefton Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1274,
-    "wikiDataId": "Q6270771"
+    "wikiDataId": "Q7446120"
   },
   {
     "id": 7177,
@@ -5835,9 +5835,9 @@
     "native": "Sellicks Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2705,
-    "wikiDataId": "Q7447542"
+    "wikiDataId": "Q7448643"
   },
   {
     "id": 7178,
@@ -5851,7 +5851,7 @@
     "native": "Semaphore",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2749,
     "wikiDataId": "Q7449109"
   },
@@ -5867,9 +5867,9 @@
     "native": "Semaphore Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4541,
-    "wikiDataId": "Q7449109"
+    "wikiDataId": "Q7449112"
   },
   {
     "id": 7180,
@@ -5883,9 +5883,9 @@
     "native": "Semaphore South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1031,
-    "wikiDataId": "Q7449109"
+    "wikiDataId": "Q7449113"
   },
   {
     "id": 7196,
@@ -5899,9 +5899,9 @@
     "native": "Sheidow Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6731,
-    "wikiDataId": "Q2277715"
+    "wikiDataId": "Q7492868"
   },
   {
     "id": 7227,
@@ -5915,7 +5915,7 @@
     "native": "Smithfield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2418,
     "wikiDataId": "Q7545489"
   },
@@ -5931,9 +5931,9 @@
     "native": "Smithfield Plains",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3305,
-    "wikiDataId": "Q7545483"
+    "wikiDataId": "Q7545508"
   },
   {
     "id": 7238,
@@ -5947,7 +5947,7 @@
     "native": "Solomontown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1464,
     "wikiDataId": "Q21885755"
   },
@@ -5963,9 +5963,9 @@
     "native": "Somerton Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5811,
-    "wikiDataId": "Q1498015"
+    "wikiDataId": "Q7559946"
   },
   {
     "id": 7252,
@@ -5979,9 +5979,9 @@
     "native": "South Brighton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2763,
-    "wikiDataId": "Q522919"
+    "wikiDataId": "Q7566405"
   },
   {
     "id": 7282,
@@ -5995,7 +5995,7 @@
     "native": "South Plympton",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4721,
     "wikiDataId": "Q7568240"
   },
@@ -6011,7 +6011,7 @@
     "native": "Southern Mallee",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1979,
     "wikiDataId": "Q912597"
   },
@@ -6027,7 +6027,7 @@
     "native": "St Agnes",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4233,
     "wikiDataId": "Q7592225"
   },
@@ -6043,7 +6043,7 @@
     "native": "St Georges",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1726,
     "wikiDataId": "Q7593243"
   },
@@ -6059,7 +6059,7 @@
     "native": "St Marys",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3010,
     "wikiDataId": "Q7594675"
   },
@@ -6075,7 +6075,7 @@
     "native": "St Morris",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1598,
     "wikiDataId": "Q7594893"
   },
@@ -6091,7 +6091,7 @@
     "native": "St Peters",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3231,
     "wikiDataId": "Q7595375"
   },
@@ -6107,7 +6107,7 @@
     "native": "Stirling",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2867,
     "wikiDataId": "Q1432101"
   },
@@ -6123,9 +6123,9 @@
     "native": "Stirling North",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2619,
-    "wikiDataId": "Q7617547"
+    "wikiDataId": "Q2383134"
   },
   {
     "id": 7353,
@@ -6139,7 +6139,7 @@
     "native": "Stonyfell",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1266,
     "wikiDataId": "Q7619620"
   },
@@ -6155,7 +6155,7 @@
     "native": "Strathalbyn",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6348,
     "wikiDataId": "Q7622017"
   },
@@ -6171,8 +6171,8 @@
     "native": "Streaky Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 1436,
+    "type": "municipality",
+    "population": 2292,
     "wikiDataId": "Q1538971"
   },
   {
@@ -6187,8 +6187,8 @@
     "native": "Sturt",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 2022,
+    "type": "locality",
+    "population": 2787,
     "wikiDataId": "Q949824"
   },
   {
@@ -6203,7 +6203,7 @@
     "native": "Surrey Downs",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3358,
     "wikiDataId": "Q7646797"
   },
@@ -6219,7 +6219,7 @@
     "native": "Tailem Bend",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1705,
     "wikiDataId": "Q988010"
   },
@@ -6235,7 +6235,7 @@
     "native": "Tanunda",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4710,
     "wikiDataId": "Q2393202"
   },
@@ -6248,10 +6248,10 @@
     "country_code": "AU",
     "latitude": "-34.80425000",
     "longitude": "138.49593000",
-    "native": "Tapero",
+    "native": "Taperoo",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3250,
     "wikiDataId": "Q7684545"
   },
@@ -6264,11 +6264,11 @@
     "country_code": "AU",
     "latitude": "-36.22232000",
     "longitude": "140.50748000",
-    "native": "Stand",
+    "native": "Tatiara",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 6891,
+    "type": "municipality",
+    "population": 7088,
     "wikiDataId": "Q1538963"
   },
   {
@@ -6283,8 +6283,8 @@
     "native": "Tea Tree Gully",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 3499,
+    "type": "municipality",
+    "population": 105120,
     "wikiDataId": "Q2062776"
   },
   {
@@ -6299,7 +6299,7 @@
     "native": "Tennyson",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1137,
     "wikiDataId": "Q7700515"
   },
@@ -6315,7 +6315,7 @@
     "native": "The Coorong",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5463,
     "wikiDataId": "Q145862"
   },
@@ -6347,7 +6347,7 @@
     "native": "Toorak Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2604,
     "wikiDataId": "Q7824206"
   },
@@ -6363,7 +6363,7 @@
     "native": "Torrens Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2687,
     "wikiDataId": "Q3995665"
   },
@@ -6379,9 +6379,9 @@
     "native": "Torrensville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4110,
-    "wikiDataId": "Q3995665"
+    "wikiDataId": "Q7827036"
   },
   {
     "id": 7557,
@@ -6395,7 +6395,7 @@
     "native": "Tranmere",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4136,
     "wikiDataId": "Q7833435"
   },
@@ -6411,7 +6411,7 @@
     "native": "Trinity Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1264,
     "wikiDataId": "Q7842813"
   },
@@ -6424,10 +6424,10 @@
     "country_code": "AU",
     "latitude": "-35.07576000",
     "longitude": "138.54189000",
-    "native": "Believed Park",
+    "native": "Trott Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3124,
     "wikiDataId": "Q7846355"
   },
@@ -6443,7 +6443,7 @@
     "native": "Tumby Bay",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1781,
     "wikiDataId": "Q1538562"
   },
@@ -6475,7 +6475,7 @@
     "native": "Two Wells",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2515,
     "wikiDataId": "Q3427218"
   },
@@ -6491,7 +6491,7 @@
     "native": "Underdale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2429,
     "wikiDataId": "Q7883556"
   },
@@ -6507,8 +6507,8 @@
     "native": "Unley",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 1402,
+    "type": "municipality",
+    "population": 40731,
     "wikiDataId": "Q1766439"
   },
   {
@@ -6523,7 +6523,7 @@
     "native": "Unley Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1383,
     "wikiDataId": "Q7897035"
   },
@@ -6539,7 +6539,7 @@
     "native": "Vale Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2452,
     "wikiDataId": "Q7909493"
   },
@@ -6555,7 +6555,7 @@
     "native": "Valley View",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6405,
     "wikiDataId": "Q7912257"
   },
@@ -6571,8 +6571,8 @@
     "native": "Victor Harbor",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 4520,
+    "type": "municipality",
+    "population": 17457,
     "wikiDataId": "Q912566"
   },
   {
@@ -6587,7 +6587,7 @@
     "native": "Virginia",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1802,
     "wikiDataId": "Q7934083"
   },
@@ -6600,10 +6600,10 @@
     "country_code": "AU",
     "latitude": "-34.18178000",
     "longitude": "139.98552000",
-    "native": "Waiker",
+    "native": "Waikerie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2681,
     "wikiDataId": "Q7960016"
   },
@@ -6619,8 +6619,8 @@
     "native": "Wakefield",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 144,
+    "type": "municipality",
+    "population": 6993,
     "wikiDataId": "Q629014"
   },
   {
@@ -6635,8 +6635,8 @@
     "native": "Walkerville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 4066,
+    "type": "municipality",
+    "population": 8673,
     "wikiDataId": "Q1521840"
   },
   {
@@ -6651,9 +6651,9 @@
     "native": "Walkley Heights",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3513,
-    "wikiDataId": "Q1521840"
+    "wikiDataId": "Q7962553"
   },
   {
     "id": 7672,
@@ -6664,10 +6664,10 @@
     "country_code": "AU",
     "latitude": "-33.93881000",
     "longitude": "137.63365000",
-    "native": "Pair",
+    "native": "Wallaroo",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3699,
     "wikiDataId": "Q3565483"
   },
@@ -6683,7 +6683,7 @@
     "native": "Warradale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5801,
     "wikiDataId": "Q7969914"
   },
@@ -6699,7 +6699,7 @@
     "native": "Waterloo Corner",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1103,
     "wikiDataId": "Q7974223"
   },
@@ -6715,7 +6715,7 @@
     "native": "Wattle Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1885,
     "wikiDataId": "Q7974987"
   },
@@ -6731,8 +6731,8 @@
     "native": "Wattle Range",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 12378,
     "wikiDataId": "Q913151"
   },
   {
@@ -6747,7 +6747,7 @@
     "native": "Wayville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1922,
     "wikiDataId": "Q7976896"
   },
@@ -6763,7 +6763,7 @@
     "native": "West Beach",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4986,
     "wikiDataId": "Q7984417"
   },
@@ -6779,7 +6779,7 @@
     "native": "West Croydon",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4242,
     "wikiDataId": "Q7984914"
   },
@@ -6795,9 +6795,9 @@
     "native": "West Hindmarsh",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1560,
-    "wikiDataId": "Q7985236"
+    "wikiDataId": "Q7985398"
   },
   {
     "id": 7793,
@@ -6811,7 +6811,7 @@
     "native": "West Lakes",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6768,
     "wikiDataId": "Q7985682"
   },
@@ -6827,7 +6827,7 @@
     "native": "West Lakes Shore",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3236,
     "wikiDataId": "Q7985684"
   },
@@ -6843,7 +6843,7 @@
     "native": "Westbourne Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2564,
     "wikiDataId": "Q7987151"
   },
@@ -6859,8 +6859,8 @@
     "native": "Whyalla",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 20880,
+    "type": "municipality",
+    "population": 21720,
     "wikiDataId": "Q945838"
   },
   {
@@ -6875,9 +6875,9 @@
     "native": "Whyalla Jenkins",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1961,
-    "wikiDataId": "Q945838"
+    "wikiDataId": "Q31440696"
   },
   {
     "id": 7845,
@@ -6891,9 +6891,9 @@
     "native": "Whyalla Norrie",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6288,
-    "wikiDataId": "Q945838"
+    "wikiDataId": "Q24190244"
   },
   {
     "id": 7846,
@@ -6907,9 +6907,9 @@
     "native": "Whyalla Playford",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2540,
-    "wikiDataId": "Q945838"
+    "wikiDataId": "Q31440697"
   },
   {
     "id": 7847,
@@ -6923,9 +6923,9 @@
     "native": "Whyalla Stuart",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6476,
-    "wikiDataId": "Q945838"
+    "wikiDataId": "Q31440698"
   },
   {
     "id": 7854,
@@ -6939,7 +6939,7 @@
     "native": "Willaston",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3458,
     "wikiDataId": "Q8003513"
   },
@@ -6955,7 +6955,7 @@
     "native": "Williamstown",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2981,
     "wikiDataId": "Q2581297"
   },
@@ -6971,7 +6971,7 @@
     "native": "Willunga",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2445,
     "wikiDataId": "Q115718"
   },
@@ -6987,9 +6987,9 @@
     "native": "Windsor Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5827,
-    "wikiDataId": "Q8024591"
+    "wikiDataId": "Q8024607"
   },
   {
     "id": 7915,
@@ -7003,7 +7003,7 @@
     "native": "Woodcroft",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11326,
     "wikiDataId": "Q8032547"
   },
@@ -7019,7 +7019,7 @@
     "native": "Woodside",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2701,
     "wikiDataId": "Q4020792"
   },
@@ -7035,8 +7035,8 @@
     "native": "Woodville",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 2915,
+    "type": "locality",
+    "population": 2180,
     "wikiDataId": "Q1114613"
   },
   {
@@ -7051,9 +7051,9 @@
     "native": "Woodville Gardens",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2412,
-    "wikiDataId": "Q1114613"
+    "wikiDataId": "Q8033523"
   },
   {
     "id": 7930,
@@ -7083,9 +7083,9 @@
     "native": "Woodville Park",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1852,
-    "wikiDataId": "Q14935775"
+    "wikiDataId": "Q8033534"
   },
   {
     "id": 7932,
@@ -7099,9 +7099,9 @@
     "native": "Woodville South",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3464,
-    "wikiDataId": "Q14935775"
+    "wikiDataId": "Q8033540"
   },
   {
     "id": 7933,
@@ -7115,8 +7115,8 @@
     "native": "Woodville West",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
-    "population": 3071,
+    "type": "locality",
+    "population": 3854,
     "wikiDataId": "Q8033543"
   },
   {
@@ -7131,8 +7131,8 @@
     "native": "Wudinna",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 594,
+    "type": "municipality",
+    "population": 1171,
     "wikiDataId": "Q770176"
   },
   {
@@ -7147,9 +7147,9 @@
     "native": "Wynn Vale",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7865,
-    "wikiDataId": "Q2094067"
+    "wikiDataId": "Q8040186"
   },
   {
     "id": 7993,
@@ -7160,11 +7160,11 @@
     "country_code": "AU",
     "latitude": "-35.49390000",
     "longitude": "138.34225000",
-    "native": "Sixth",
+    "native": "Yankalilla",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 963,
+    "type": "municipality",
+    "population": 6299,
     "wikiDataId": "Q547233"
   },
   {
@@ -7179,8 +7179,8 @@
     "native": "Yorke Peninsula",
     "timezone": "Australia/Adelaide",
     "translations": {},
-    "type": "city",
-    "population": 11598,
+    "type": "municipality",
+    "population": 12242,
     "wikiDataId": "Q913845"
   }
 ]

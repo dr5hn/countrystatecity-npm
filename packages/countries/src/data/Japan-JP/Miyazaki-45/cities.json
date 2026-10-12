@@ -12,7 +12,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 17638,
     "wikiDataId": "Q374701"
   },
   {
@@ -28,7 +28,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": 59276,
+    "population": 59629,
     "wikiDataId": "Q850388"
   },
   {
@@ -43,24 +43,8 @@
     "native": "小林",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 43114,
-    "wikiDataId": "Q861283"
-  },
-  {
-    "id": 63819,
-    "name": "Kobayashi Shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "32.04556000",
-    "longitude": "131.02762000",
-    "native": "小林史",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 43670,
     "wikiDataId": "Q861283"
   },
   {
@@ -75,24 +59,8 @@
     "native": "串間市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 22102,
-    "wikiDataId": "Q845800"
-  },
-  {
-    "id": 63885,
-    "name": "Kushima Shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "31.48571000",
-    "longitude": "131.26485000",
-    "native": "串間市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 16822,
     "wikiDataId": "Q845800"
   },
   {
@@ -104,27 +72,11 @@
     "country_code": "JP",
     "latitude": "31.73333000",
     "longitude": "131.06667000",
-    "native": "都城",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 160392,
-    "wikiDataId": "Q638301"
-  },
-  {
-    "id": 64004,
-    "name": "Miyakonojō Shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "31.80920000",
-    "longitude": "131.07904000",
     "native": "都城市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 160640,
     "wikiDataId": "Q638301"
   },
   {
@@ -136,27 +88,11 @@
     "country_code": "JP",
     "latitude": "31.91667000",
     "longitude": "131.41667000",
-    "native": "宮崎",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm1",
-    "population": 397476,
-    "wikiDataId": "Q990431"
-  },
-  {
-    "id": 64010,
-    "name": "Miyazaki-shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "31.96192000",
-    "longitude": "131.38455000",
     "native": "宮崎市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 401339,
     "wikiDataId": "Q204308"
   },
   {
@@ -171,24 +107,8 @@
     "native": "日南",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 50518,
-    "wikiDataId": "Q860669"
-  },
-  {
-    "id": 64126,
-    "name": "Nichinan Shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "31.63737000",
-    "longitude": "131.33409000",
-    "native": "日南市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 50848,
     "wikiDataId": "Q860669"
   },
   {
@@ -200,27 +120,11 @@
     "country_code": "JP",
     "latitude": "32.58333000",
     "longitude": "131.66667000",
-    "native": "延岡",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 117711,
-    "wikiDataId": "Q653389"
-  },
-  {
-    "id": 64160,
-    "name": "Nobeoka-shi",
-    "state_id": 855,
-    "state_code": "45",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "32.67238000",
-    "longitude": "131.64311000",
     "native": "延岡市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 118394,
     "wikiDataId": "Q653389"
   },
   {
@@ -236,7 +140,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 28610,
     "wikiDataId": "Q850479"
   },
   {
@@ -251,9 +155,9 @@
     "native": "高鍋",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 20030,
-    "wikiDataId": "Q200707"
+    "type": "town",
+    "population": 19922,
+    "wikiDataId": "Q1206737"
   },
   {
     "id": 64551,
@@ -269,6 +173,6 @@
     "translations": {},
     "type": "city",
     "population": 34318,
-    "wikiDataId": "Q840580"
+    "wikiDataId": null
   }
 ]

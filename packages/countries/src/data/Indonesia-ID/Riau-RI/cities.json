@@ -1,5 +1,21 @@
 [
   {
+    "id": 164811,
+    "name": "Bagan Si Api-api",
+    "state_id": 1809,
+    "state_code": "RI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "2.15668000",
+    "longitude": "100.80763000",
+    "native": null,
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4841445"
+  },
+  {
     "id": 56188,
     "name": "Balaipungut",
     "state_id": 1809,
@@ -8,7 +24,7 @@
     "country_code": "ID",
     "latitude": "1.05949000",
     "longitude": "101.29054000",
-    "native": "Pernyataan",
+    "native": "Balaipungut",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
@@ -16,20 +32,20 @@
     "wikiDataId": "Q25015779"
   },
   {
-    "id": 56208,
-    "name": "Batam",
+    "id": 164813,
+    "name": "Bangkinang",
     "state_id": 1809,
     "state_code": "RI",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "1.14937000",
-    "longitude": "104.02491000",
-    "native": "Batam",
+    "latitude": "0.33833000",
+    "longitude": "101.02361000",
+    "native": null,
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
-    "population": 1196396,
-    "wikiDataId": "Q10103"
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4855188"
   },
   {
     "id": 56354,
@@ -38,14 +54,14 @@
     "state_code": "RI",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "0.98380000",
-    "longitude": "102.50960000",
-    "native": "Kabupaten Bengkalis",
+    "latitude": "1.48972222",
+    "longitude": "102.07972222",
+    "native": "Bengkalis",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q7594"
+    "wikiDataId": "Q2598137"
   },
   {
     "id": 56270,
@@ -80,38 +96,6 @@
     "wikiDataId": "Q7599"
   },
   {
-    "id": 56425,
-    "name": "Indragiri Hulu",
-    "state_id": 1809,
-    "state_code": "RI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-0.55000000",
-    "longitude": "102.31667000",
-    "native": "Kabupaten Indragiri Hulu",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7605"
-  },
-  {
-    "id": 56436,
-    "name": "Kampar",
-    "state_id": 1809,
-    "state_code": "RI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "0.23440000",
-    "longitude": "101.21310000",
-    "native": "Kabupaten Kampar",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7613"
-  },
-  {
     "id": 56453,
     "name": "Kepulauan Meranti",
     "state_id": 1809,
@@ -128,22 +112,6 @@
     "wikiDataId": "Q7630"
   },
   {
-    "id": 56471,
-    "name": "Kuantan Singingi",
-    "state_id": 1809,
-    "state_code": "RI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-0.47532000",
-    "longitude": "101.45857000",
-    "native": "Kabupaten Kuantan Singingi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7626"
-  },
-  {
     "id": 56927,
     "name": "Pekanbaru",
     "state_id": 1809,
@@ -155,7 +123,7 @@
     "native": "Pekanbaru",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 983356,
     "wikiDataId": "Q7786"
   },
@@ -176,20 +144,20 @@
     "wikiDataId": "Q7641"
   },
   {
-    "id": 56611,
-    "name": "Rokan Hilir",
+    "id": 56425,
+    "name": "Rengat",
     "state_id": 1809,
     "state_code": "RI",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "2.16599000",
-    "longitude": "100.82514000",
-    "native": "Kabupaten Rokan Hilir",
+    "latitude": "-0.39290976",
+    "longitude": "102.43786020",
+    "native": "Rengat",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q7759"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q26757559"
   },
   {
     "id": 56612,
@@ -208,19 +176,51 @@
     "wikiDataId": "Q7744"
   },
   {
-    "id": 56626,
-    "name": "Siak",
+    "id": 164820,
+    "name": "Selat Panjang",
     "state_id": 1809,
     "state_code": "RI",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "0.97453000",
-    "longitude": "102.01355000",
-    "native": "Kabupaten Siak",
+    "latitude": "0.99408000",
+    "longitude": "102.70817000",
+    "native": null,
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "adm2",
     "population": null,
-    "wikiDataId": "Q7777"
+    "wikiDataId": "Q145764"
+  },
+  {
+    "id": 164821,
+    "name": "Siak Sri Indrapura",
+    "state_id": 1809,
+    "state_code": "RI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.79317000",
+    "longitude": "102.05110000",
+    "native": null,
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3482884"
+  },
+  {
+    "id": 56471,
+    "name": "Teluk Kuantan",
+    "state_id": 1809,
+    "state_code": "RI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-0.50525281",
+    "longitude": "101.53788204",
+    "native": "Teluk Kuantan",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q123436782"
   }
 ]

@@ -11,7 +11,7 @@
     "native": "Алибунар",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3431,
     "wikiDataId": "Q590106"
   },
@@ -43,7 +43,7 @@
     "native": "Баранда",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1656,
     "wikiDataId": "Q790191"
   },
@@ -59,7 +59,7 @@
     "native": "Барице",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1044,
     "wikiDataId": "Q761366"
   },
@@ -75,7 +75,7 @@
     "native": "Бела Црква",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10675,
     "wikiDataId": "Q914484"
   },
@@ -91,7 +91,7 @@
     "native": "Црепаја",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5369,
     "wikiDataId": "Q617510"
   },
@@ -107,7 +107,7 @@
     "native": "Дебељача",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6413,
     "wikiDataId": "Q543032"
   },
@@ -123,7 +123,7 @@
     "native": "Добрица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2006,
     "wikiDataId": "Q767030"
   },
@@ -139,7 +139,7 @@
     "native": "Гудурица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1448,
     "wikiDataId": "Q264698"
   },
@@ -155,7 +155,7 @@
     "native": "Хајдучица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1519,
     "wikiDataId": "Q948339"
   },
@@ -171,7 +171,7 @@
     "native": "Идвор",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1442,
     "wikiDataId": "Q280980"
   },
@@ -187,7 +187,7 @@
     "native": "Иланджа",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2426,
     "wikiDataId": "Q962644"
   },
@@ -203,7 +203,7 @@
     "native": "Избиште",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2094,
     "wikiDataId": "Q739564"
   },
@@ -219,7 +219,7 @@
     "native": "Јаношик",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1372,
     "wikiDataId": "Q948541"
   },
@@ -235,7 +235,7 @@
     "native": "Јерменовци",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1454,
     "wikiDataId": "Q948327"
   },
@@ -251,7 +251,7 @@
     "native": "Ковачица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7357,
     "wikiDataId": "Q613179"
   },
@@ -267,9 +267,25 @@
     "native": "Ковин",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 14250,
     "wikiDataId": "Q1041926"
+  },
+  {
+    "id": 97254,
+    "name": "Kozjak",
+    "state_id": 3713,
+    "state_code": "04",
+    "country_id": 196,
+    "country_code": "RS",
+    "latitude": "45.18264000",
+    "longitude": "20.86381000",
+    "native": "Козјак",
+    "timezone": "Europe/Belgrade",
+    "translations": {},
+    "type": "locality",
+    "population": 1170,
+    "wikiDataId": "Q1000445"
   },
   {
     "id": 97267,
@@ -283,7 +299,7 @@
     "native": "Куштиљ",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1189,
     "wikiDataId": "Q1091353"
   },
@@ -299,7 +315,7 @@
     "native": "Локве",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3511,
     "wikiDataId": "Q1080830"
   },
@@ -315,7 +331,7 @@
     "native": "Маргита",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1550,
     "wikiDataId": "Q1062197"
   },
@@ -331,7 +347,7 @@
     "native": "Николинци",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1905,
     "wikiDataId": "Q278182"
   },
@@ -347,7 +363,7 @@
     "native": "Опово",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4769,
     "wikiDataId": "Q543044"
   },
@@ -363,7 +379,7 @@
     "native": "Падина",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6367,
     "wikiDataId": "Q1194851"
   },
@@ -379,9 +395,9 @@
     "native": "Панчево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 73401,
-    "wikiDataId": "Q205432"
+    "wikiDataId": "Q1041943"
   },
   {
     "id": 97332,
@@ -395,7 +411,7 @@
     "native": "Павлиш",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2137,
     "wikiDataId": "Q634652"
   },
@@ -411,7 +427,7 @@
     "native": "Пландиште",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4122,
     "wikiDataId": "Q917286"
   },
@@ -427,7 +443,7 @@
     "native": "Сакуле",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2280,
     "wikiDataId": "Q1064938"
   },
@@ -443,7 +459,7 @@
     "native": "Самош",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1658,
     "wikiDataId": "Q729158"
   },
@@ -459,7 +475,7 @@
     "native": "Сефкерин",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2836,
     "wikiDataId": "Q1040000"
   },
@@ -475,7 +491,7 @@
     "native": "Селеуш",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1765,
     "wikiDataId": "Q794097"
   },
@@ -491,7 +507,7 @@
     "native": "Стари Лец",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1341,
     "wikiDataId": "Q947294"
   },
@@ -507,7 +523,7 @@
     "native": "Уљма",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4115,
     "wikiDataId": "Q1038306"
   },
@@ -523,7 +539,7 @@
     "native": "Уздин",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3885,
     "wikiDataId": "Q1091384"
   },
@@ -539,7 +555,7 @@
     "native": "Велика Греда",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1585,
     "wikiDataId": "Q1030489"
   },
@@ -555,7 +571,7 @@
     "native": "Велики Гај",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1039,
     "wikiDataId": "Q921166"
   },
@@ -571,7 +587,7 @@
     "native": "Велико Средиште",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1698,
     "wikiDataId": "Q1091363"
   },
@@ -587,7 +603,7 @@
     "native": "Владимировац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4111,
     "wikiDataId": "Q1079742"
   },
@@ -603,7 +619,7 @@
     "native": "Влајковац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1356,
     "wikiDataId": "Q1091315"
   },
@@ -619,8 +635,8 @@
     "native": "Вршац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 31946,
-    "wikiDataId": "Q209329"
+    "wikiDataId": "Q917740"
   }
 ]

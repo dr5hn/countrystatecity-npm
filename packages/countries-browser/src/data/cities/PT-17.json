@@ -11,8 +11,8 @@
     "native": "Alijó",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 11942,
+    "type": "municipality",
+    "population": 10486,
     "wikiDataId": "Q712064"
   },
   {
@@ -27,8 +27,8 @@
     "native": "Boticas",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 5750,
+    "type": "municipality",
+    "population": 5000,
     "wikiDataId": "Q894746"
   },
   {
@@ -43,8 +43,8 @@
     "native": "Chaves",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 17535,
+    "type": "municipality",
+    "population": 37590,
     "wikiDataId": "Q504580"
   },
   {
@@ -59,7 +59,7 @@
     "native": "Favaios",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 937,
     "wikiDataId": "Q168690"
   },
@@ -72,7 +72,7 @@
     "country_code": "PT",
     "latitude": "41.17104000",
     "longitude": "-7.80303000",
-    "native": "Estou velho",
+    "native": "Godim",
     "timezone": "Europe/Lisbon",
     "translations": {},
     "type": "city",
@@ -91,8 +91,8 @@
     "native": "Mesão Frio",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 4159,
+    "type": "municipality",
+    "population": 3547,
     "wikiDataId": "Q1006385"
   },
   {
@@ -107,8 +107,8 @@
     "native": "Mondim de Basto",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 7493,
+    "type": "municipality",
+    "population": 6410,
     "wikiDataId": "Q932771"
   },
   {
@@ -123,8 +123,8 @@
     "native": "Montalegre",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 9261,
     "wikiDataId": "Q757860"
   },
   {
@@ -139,8 +139,8 @@
     "native": "Murça",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 5952,
+    "type": "municipality",
+    "population": 5245,
     "wikiDataId": "Q513049"
   },
   {
@@ -155,8 +155,8 @@
     "native": "Peso da Régua",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 17131,
+    "type": "municipality",
+    "population": 14540,
     "wikiDataId": "Q757858"
   },
   {
@@ -171,8 +171,8 @@
     "native": "Ribeira de Pena",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 6544,
+    "type": "municipality",
+    "population": 5884,
     "wikiDataId": "Q1006378"
   },
   {
@@ -184,11 +184,11 @@
     "country_code": "PT",
     "latitude": "41.26702000",
     "longitude": "-7.57601000",
-    "native": "Saboroso",
+    "native": "Sabrosa",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 6361,
+    "type": "municipality",
+    "population": 5548,
     "wikiDataId": "Q1006389"
   },
   {
@@ -205,7 +205,7 @@
     "translations": {},
     "type": "city",
     "population": 3430,
-    "wikiDataId": "Q49366997"
+    "wikiDataId": null
   },
   {
     "id": 89508,
@@ -219,8 +219,8 @@
     "native": "Santa Marta de Penaguião",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 6100,
     "wikiDataId": "Q1006372"
   },
   {
@@ -232,7 +232,7 @@
     "country_code": "PT",
     "latitude": "41.52371000",
     "longitude": "-7.80234000",
-    "native": "Cortiça",
+    "native": "Sobreira",
     "timezone": "Europe/Lisbon",
     "translations": {},
     "type": "city",
@@ -251,8 +251,8 @@
     "native": "Valpaços",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 16882,
+    "type": "municipality",
+    "population": 14701,
     "wikiDataId": "Q757856"
   },
   {
@@ -267,8 +267,8 @@
     "native": "Vila Pouca de Aguiar",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 13187,
+    "type": "municipality",
+    "population": 11812,
     "wikiDataId": "Q1006397"
   },
   {
@@ -283,9 +283,25 @@
     "native": "Vila Real",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm1",
-    "population": 51850,
+    "type": "section",
+    "population": 17343,
     "wikiDataId": "Q3349006"
+  },
+  {
+    "id": 166300,
+    "name": "Vila Real",
+    "state_id": 2234,
+    "state_code": "17",
+    "country_id": 177,
+    "country_code": "PT",
+    "latitude": "41.29527778",
+    "longitude": "-7.74611111",
+    "native": "Vila Real",
+    "timezone": "Europe/Lisbon",
+    "translations": {},
+    "type": "municipality",
+    "population": 49571,
+    "wikiDataId": "Q503856"
   },
   {
     "id": 89680,

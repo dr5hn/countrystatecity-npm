@@ -9,9 +9,9 @@
     "latitude": "48.27955000",
     "longitude": "46.17217000",
     "native": "Ахтубинск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 35635,
     "wikiDataId": "Q104201"
   },
@@ -25,7 +25,7 @@
     "latitude": "48.16667000",
     "longitude": "46.25000000",
     "native": "Ахтубинский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
     "type": "city",
     "population": null,
@@ -59,7 +59,7 @@
     "native": "Астрахань",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 465990,
     "wikiDataId": "Q3927"
   },
@@ -75,7 +75,7 @@
     "native": "Черный Яр",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 8006,
     "wikiDataId": "Q4518846"
   },
@@ -91,7 +91,7 @@
     "native": "Икряное",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 10452,
     "wikiDataId": "Q4199081"
   },
@@ -105,9 +105,9 @@
     "latitude": "46.10995000",
     "longitude": "48.07364000",
     "native": "Камызяк",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 16154,
     "wikiDataId": "Q144123"
   },
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "city",
     "population": 1240,
-    "wikiDataId": "Q1093979"
+    "wikiDataId": "Q27535931"
   },
   {
     "id": 98963,
@@ -153,7 +153,7 @@
     "latitude": "47.41958000",
     "longitude": "47.25678000",
     "native": "Харабали",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
     "type": "adm2",
     "population": 18514,
@@ -171,25 +171,9 @@
     "native": "Кировский",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2447,
     "wikiDataId": "Q1743570"
-  },
-  {
-    "id": 99347,
-    "name": "Krasnoyarskiy Rayon",
-    "state_id": 1866,
-    "state_code": "AST",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "46.83333000",
-    "longitude": "48.25000000",
-    "native": "Красноярский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1764314"
   },
   {
     "id": 99377,
@@ -203,7 +187,7 @@
     "native": "Красный Яр",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 10876,
     "wikiDataId": "Q1946320"
   },
@@ -219,7 +203,7 @@
     "native": "Красные Баррикады",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6592,
     "wikiDataId": "Q1786758"
   },
@@ -235,25 +219,9 @@
     "native": "Лиман",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 9014,
     "wikiDataId": "Q374100"
-  },
-  {
-    "id": 99629,
-    "name": "Limanskiy Rayon",
-    "state_id": 1866,
-    "state_code": "AST",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "45.83333000",
-    "longitude": "47.25000000",
-    "native": "Лиманский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q890394"
   },
   {
     "id": 99792,
@@ -267,7 +235,7 @@
     "native": "Марфино",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3268,
     "wikiDataId": "Q4283031"
   },
@@ -283,9 +251,9 @@
     "native": "Мумра",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2372,
-    "wikiDataId": "Q4306916"
+    "wikiDataId": "Q4307054"
   },
   {
     "id": 100038,
@@ -297,9 +265,9 @@
     "latitude": "46.33800000",
     "longitude": "48.20128000",
     "native": "Началово",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 12459,
     "wikiDataId": "Q4315163"
   },
@@ -315,7 +283,7 @@
     "native": "Нариманов",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11104,
     "wikiDataId": "Q163986"
   },
@@ -331,7 +299,7 @@
     "native": "Нижний Баскунчак",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3153,
     "wikiDataId": "Q1677219"
   },
@@ -347,7 +315,7 @@
     "native": "Оранжереи",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4352,
     "wikiDataId": "Q4335648"
   },
@@ -377,7 +345,7 @@
     "latitude": "46.25000000",
     "longitude": "48.16667000",
     "native": "Приволжский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Astrakhan",
     "translations": {},
     "type": "city",
     "population": null,
@@ -395,7 +363,7 @@
     "native": "Сасыколи",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4933,
     "wikiDataId": "Q4408949"
   },
@@ -413,7 +381,7 @@
     "translations": {},
     "type": "city",
     "population": 1582,
-    "wikiDataId": "Q51004"
+    "wikiDataId": "Q27535661"
   },
   {
     "id": 101471,
@@ -427,7 +395,7 @@
     "native": "Солянка",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3173,
     "wikiDataId": "Q4428585"
   },
@@ -443,7 +411,7 @@
     "native": "Старокучергановка",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6833,
     "wikiDataId": "Q4440457"
   },
@@ -459,7 +427,7 @@
     "native": "Тамбовка",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3528,
     "wikiDataId": "Q4450838"
   },
@@ -475,7 +443,7 @@
     "native": "Трудфронт",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2441,
     "wikiDataId": "Q4464443"
   },
@@ -491,7 +459,7 @@
     "native": "Тумак",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2375,
     "wikiDataId": "Q4465286"
   },
@@ -523,7 +491,7 @@
     "native": "Верхний Баскунчак",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7295,
     "wikiDataId": "Q986757"
   },
@@ -539,7 +507,7 @@
     "native": "Волго-Каспийский",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2757,
     "wikiDataId": "Q986759"
   },
@@ -555,7 +523,7 @@
     "native": "Володарский",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 11200,
     "wikiDataId": "Q4123740"
   },
@@ -571,7 +539,7 @@
     "native": "Яксатово",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3749,
     "wikiDataId": "Q4537082"
   },
@@ -587,7 +555,7 @@
     "native": "Яндыки",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3111,
     "wikiDataId": "Q4538018"
   },
@@ -603,7 +571,7 @@
     "native": "Енотаевка",
     "timezone": "Europe/Astrakhan",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 8140,
     "wikiDataId": "Q695151"
   },

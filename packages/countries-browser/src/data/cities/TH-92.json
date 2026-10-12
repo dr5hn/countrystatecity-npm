@@ -1,51 +1,19 @@
 [
   {
-    "id": 105359,
-    "name": "Amphoe Huai Yot",
-    "state_id": 3541,
-    "state_code": "92",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.80063000",
-    "longitude": "99.60500000",
-    "native": "อำเภอห้วยยอด",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475551"
-  },
-  {
-    "id": 105370,
-    "name": "Amphoe Kantang",
-    "state_id": 3541,
-    "state_code": "92",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.38563000",
-    "longitude": "99.47064000",
-    "native": "อำเภอกันตัง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475586"
-  },
-  {
     "id": 105346,
     "name": "Hat Samran",
     "state_id": 3541,
     "state_code": "92",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.25733000",
-    "longitude": "99.58160000",
-    "native": "อำเภอหาดสำราญ",
+    "latitude": "7.24034000",
+    "longitude": "99.57621000",
+    "native": "หาดสำราญ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475515"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106502,
@@ -59,8 +27,8 @@
     "native": "ห้วยยอด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 16586,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q15980663"
   },
   {
@@ -75,25 +43,9 @@
     "native": "กันตัง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 12533,
     "wikiDataId": "Q13025348"
-  },
-  {
-    "id": 105598,
-    "name": "Mueang Trang",
-    "state_id": 3541,
-    "state_code": "92",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.60944000",
-    "longitude": "99.61772000",
-    "native": "อำเภอเมืองตรัง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 66713,
-    "wikiDataId": "Q3270526"
   },
   {
     "id": 105629,
@@ -150,14 +102,14 @@
     "state_code": "92",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.57122000",
-    "longitude": "99.33915000",
-    "native": "อำเภอสิเกา",
+    "latitude": "7.57158000",
+    "longitude": "99.34494000",
+    "native": "สิเกา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476732"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106735,
@@ -171,7 +123,7 @@
     "native": "ตรัง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 60591,
     "wikiDataId": "Q1014322"
   },
@@ -182,14 +134,14 @@
     "state_code": "92",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.76061000",
-    "longitude": "99.40861000",
-    "native": "อำเภอวังวิเศษ",
+    "latitude": "7.73631000",
+    "longitude": "99.39870000",
+    "native": "วังวิเศษ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q477030"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106373,
@@ -198,13 +150,13 @@
     "state_code": "92",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.42580000",
-    "longitude": "99.73438000",
-    "native": "อำเภอย่านตาขาว",
+    "latitude": "7.38622000",
+    "longitude": "99.66692000",
+    "native": "ย่านตาขาว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q477107"
+    "wikiDataId": null
   }
 ]

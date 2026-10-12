@@ -8,10 +8,10 @@
     "country_code": "AR",
     "latitude": "-32.78215000",
     "longitude": "-61.60222000",
-    "native": "Brazo",
+    "native": "Armstrong",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11181,
     "wikiDataId": "Q2397804"
   },
@@ -27,7 +27,7 @@
     "native": "Arroyo Seco",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20620,
     "wikiDataId": "Q974987"
   },
@@ -43,7 +43,7 @@
     "native": "Arrufó",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2190,
     "wikiDataId": "Q8205105"
   },
@@ -59,7 +59,7 @@
     "native": "Avellaneda",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 23341,
     "wikiDataId": "Q932398"
   },
@@ -72,10 +72,10 @@
     "country_code": "AR",
     "latitude": "-31.28182000",
     "longitude": "-61.41092000",
-    "native": "Hermosa Italia",
+    "native": "Bella Italia",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1100,
     "wikiDataId": "Q5725165"
   },
@@ -91,7 +91,7 @@
     "native": "Calchaquí",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10221,
     "wikiDataId": "Q1955294"
   },
@@ -107,7 +107,7 @@
     "native": "Cañada de Gómez",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 32108,
     "wikiDataId": "Q971555"
   },
@@ -123,7 +123,7 @@
     "native": "Capitán Bermúdez",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 29218,
     "wikiDataId": "Q1620664"
   },
@@ -139,7 +139,7 @@
     "native": "Carcarañá",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 17350,
     "wikiDataId": "Q3658334"
   },
@@ -155,7 +155,7 @@
     "native": "Casilda",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 35058,
     "wikiDataId": "Q2097797"
   },
@@ -171,7 +171,7 @@
     "native": "Ceres",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14499,
     "wikiDataId": "Q2544458"
   },
@@ -187,7 +187,7 @@
     "native": "Chañar Ladeado",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5639,
     "wikiDataId": "Q2518584"
   },
@@ -203,201 +203,9 @@
     "native": "Coronda",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 18115,
     "wikiDataId": "Q52542"
-  },
-  {
-    "id": 835,
-    "name": "Departamento de Belgrano",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-32.50000000",
-    "longitude": "-61.75000000",
-    "native": "Departamento de Belgrano",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 48781,
-    "wikiDataId": "Q1190264"
-  },
-  {
-    "id": 853,
-    "name": "Departamento de Caseros",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-33.25000000",
-    "longitude": "-61.66667000",
-    "native": "Departamento de Caseros",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 86912,
-    "wikiDataId": "Q1190342"
-  },
-  {
-    "id": 854,
-    "name": "Departamento de Castellanos",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-31.16667000",
-    "longitude": "-61.66667000",
-    "native": "Departamento de Castellanos",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 190577,
-    "wikiDataId": "Q1125823"
-  },
-  {
-    "id": 869,
-    "name": "Departamento de Constitución",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-33.50000000",
-    "longitude": "-60.91667000",
-    "native": "Departamento de Constitución",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 93441,
-    "wikiDataId": "Q1190426"
-  },
-  {
-    "id": 916,
-    "name": "Departamento de La Capital",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-31.50000000",
-    "longitude": "-60.66667000",
-    "native": "Departamento de La Capital",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 186947,
-    "wikiDataId": "Q858183"
-  },
-  {
-    "id": 951,
-    "name": "Departamento de Nueve de Julio",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-28.83333000",
-    "longitude": "-61.33333000",
-    "native": "Departamento de Nueve de Julio",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 12514,
-    "wikiDataId": "Q770031"
-  },
-  {
-    "id": 985,
-    "name": "Departamento de San Cristóbal",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-30.33333000",
-    "longitude": "-61.33333000",
-    "native": "Departamento de San Cristóbal",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 72801,
-    "wikiDataId": "Q645679"
-  },
-  {
-    "id": 988,
-    "name": "Departamento de San Javier",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-30.33333000",
-    "longitude": "-59.91667000",
-    "native": "Departamento de San Javier",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "adm2",
-    "population": 33274,
-    "wikiDataId": "Q651117"
-  },
-  {
-    "id": 992,
-    "name": "Departamento de San Justo",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-30.66667000",
-    "longitude": "-60.50000000",
-    "native": "Departamento de San Justo",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 230339,
-    "wikiDataId": "Q1191097"
-  },
-  {
-    "id": 993,
-    "name": "Departamento de San Lorenzo",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-33.00000000",
-    "longitude": "-61.00000000",
-    "native": "Departamento de San Lorenzo",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 194580,
-    "wikiDataId": "Q1191103"
-  },
-  {
-    "id": 1000,
-    "name": "Departamento de San Martín",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-32.00000000",
-    "longitude": "-61.83333000",
-    "native": "Departamento de San Martín",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 15187,
-    "wikiDataId": "Q284326"
-  },
-  {
-    "id": 1033,
-    "name": "Departamento de Vera",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-29.00000000",
-    "longitude": "-60.50000000",
-    "native": "Departamento de Vera",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 56027,
-    "wikiDataId": "Q1191274"
   },
   {
     "id": 1062,
@@ -411,7 +219,7 @@
     "native": "El Trébol",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11086,
     "wikiDataId": "Q5352295"
   },
@@ -427,7 +235,7 @@
     "native": "Esperanza",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 42082,
     "wikiDataId": "Q1368165"
   },
@@ -440,10 +248,10 @@
     "country_code": "AR",
     "latitude": "-33.45937000",
     "longitude": "-61.48320000",
-    "native": "Compañía",
+    "native": "Firmat",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 18294,
     "wikiDataId": "Q677450"
   },
@@ -459,7 +267,7 @@
     "native": "Fray Luis A. Beltrán",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14390,
     "wikiDataId": "Q5493943"
   },
@@ -475,7 +283,7 @@
     "native": "Funes",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14750,
     "wikiDataId": "Q2370892"
   },
@@ -491,7 +299,7 @@
     "native": "Gálvez",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20100,
     "wikiDataId": "Q2407577"
   },
@@ -507,9 +315,9 @@
     "native": "Gato Colorado",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1412,
-    "wikiDataId": "Q1016275"
+    "wikiDataId": "Q11682053"
   },
   {
     "id": 1117,
@@ -539,7 +347,7 @@
     "native": "Granadero Baigorria",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 36994,
     "wikiDataId": "Q5594127"
   },
@@ -555,7 +363,7 @@
     "native": "Helvecia",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2804220"
   },
@@ -571,25 +379,9 @@
     "native": "Hersilia",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3000,
-    "wikiDataId": "Q21840344"
-  },
-  {
-    "id": 1158,
-    "name": "Iriondo Department",
-    "state_id": 3641,
-    "state_code": "S",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-32.63333000",
-    "longitude": "-61.33333000",
-    "native": "Iriondo Department",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 74504,
-    "wikiDataId": "Q538693"
+    "wikiDataId": "Q3785332"
   },
   {
     "id": 1210,
@@ -600,12 +392,12 @@
     "country_code": "AR",
     "latitude": "-31.30391000",
     "longitude": "-60.65894000",
-    "native": "Deja que la potencia late",
+    "native": "Laguna Paiva",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 12334,
-    "wikiDataId": "Q21838090"
+    "wikiDataId": "Q2472496"
   },
   {
     "id": 1227,
@@ -619,7 +411,7 @@
     "native": "Las Parejas",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 12375,
     "wikiDataId": "Q926587"
   },
@@ -635,7 +427,7 @@
     "native": "Las Rosas",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 13068,
     "wikiDataId": "Q518660"
   },
@@ -651,7 +443,7 @@
     "native": "Las Toscas",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11811,
     "wikiDataId": "Q2278387"
   },
@@ -667,9 +459,9 @@
     "native": "Los Laureles",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1519,
-    "wikiDataId": "Q2917961"
+    "wikiDataId": "Q11689549"
   },
   {
     "id": 1265,
@@ -683,9 +475,9 @@
     "native": "Malabrigo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7026,
-    "wikiDataId": "Q21827083"
+    "wikiDataId": "Q2071397"
   },
   {
     "id": 1276,
@@ -696,10 +488,10 @@
     "country_code": "AR",
     "latitude": "-33.65847000",
     "longitude": "-61.45459000",
-    "native": "Melletuit",
+    "native": "Melincué",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2301762"
   },
@@ -715,7 +507,7 @@
     "native": "Pérez",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 26448,
     "wikiDataId": "Q7264669"
   },
@@ -731,7 +523,7 @@
     "native": "Rafaela",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 110709,
     "wikiDataId": "Q259498"
   },
@@ -747,9 +539,9 @@
     "native": "Reconquista",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 87965,
-    "wikiDataId": "Q3036199"
+    "wikiDataId": "Q933165"
   },
   {
     "id": 1377,
@@ -760,7 +552,7 @@
     "country_code": "AR",
     "latitude": "-31.49076000",
     "longitude": "-60.73299000",
-    "native": "Cría",
+    "native": "Recreo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
     "type": "city",
@@ -779,7 +571,7 @@
     "native": "Roldán",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14113,
     "wikiDataId": "Q7360617"
   },
@@ -795,7 +587,7 @@
     "native": "Rosario",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1029619,
     "wikiDataId": "Q52535"
   },
@@ -811,7 +603,7 @@
     "native": "Rufino",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 18980,
     "wikiDataId": "Q960119"
   },
@@ -827,7 +619,7 @@
     "native": "San Carlos Centro",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10465,
     "wikiDataId": "Q2261100"
   },
@@ -843,7 +635,7 @@
     "native": "San Cristóbal",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 14389,
     "wikiDataId": "Q607174"
   },
@@ -859,7 +651,7 @@
     "native": "San Javier",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 13604,
     "wikiDataId": "Q2527694"
   },
@@ -875,9 +667,9 @@
     "native": "San Jorge",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19521,
-    "wikiDataId": "Q21833909"
+    "wikiDataId": "Q1449543"
   },
   {
     "id": 1436,
@@ -891,9 +683,25 @@
     "native": "San Justo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 21809,
     "wikiDataId": "Q2134760"
+  },
+  {
+    "id": 993,
+    "name": "San Lorenzo",
+    "state_id": 3641,
+    "state_code": "S",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-32.75096893",
+    "longitude": "-60.73498535",
+    "native": "San Lorenzo",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q52546"
   },
   {
     "id": 1458,
@@ -907,7 +715,7 @@
     "native": "Santa Fe",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 405683,
     "wikiDataId": "Q44244"
   },
@@ -923,7 +731,7 @@
     "native": "Santo Tomé",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 59072,
     "wikiDataId": "Q2540118"
   },
@@ -939,7 +747,7 @@
     "native": "Sastre",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5521,
     "wikiDataId": "Q3473836"
   },
@@ -955,7 +763,7 @@
     "native": "Sunchales",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20537,
     "wikiDataId": "Q2509609"
   },
@@ -971,9 +779,9 @@
     "native": "Tacuarendí",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3067,
-    "wikiDataId": "Q1579288"
+    "wikiDataId": "Q2582828"
   },
   {
     "id": 1509,
@@ -987,7 +795,7 @@
     "native": "Tostado",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 14582,
     "wikiDataId": "Q971021"
   },
@@ -1003,7 +811,7 @@
     "native": "Totoras",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9587,
     "wikiDataId": "Q2226504"
   },
@@ -1019,7 +827,7 @@
     "native": "Venado Tuerto",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 82757,
     "wikiDataId": "Q1889146"
   },
@@ -1035,7 +843,7 @@
     "native": "Vera",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 19185,
     "wikiDataId": "Q2540770"
   },
@@ -1051,7 +859,7 @@
     "native": "Villa Cañás",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9328,
     "wikiDataId": "Q1865187"
   },
@@ -1067,7 +875,7 @@
     "native": "Villa Constitución",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 47374,
     "wikiDataId": "Q2584195"
   },
@@ -1083,9 +891,9 @@
     "native": "Villa mugueta",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "locality",
+    "type": "municipality",
     "population": 2789,
-    "wikiDataId": "Q1756745"
+    "wikiDataId": "Q10751274"
   },
   {
     "id": 1568,
@@ -1099,9 +907,9 @@
     "native": "Villa Ocampo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19026,
-    "wikiDataId": "Q21825595"
+    "wikiDataId": "Q2430700"
   },
   {
     "id": 1577,
@@ -1115,7 +923,7 @@
     "native": "Villa Trinidad",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2945,
     "wikiDataId": "Q10751249"
   }

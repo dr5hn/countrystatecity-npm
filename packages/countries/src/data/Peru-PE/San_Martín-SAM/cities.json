@@ -11,9 +11,9 @@
     "native": "Bellavista",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 15231,
-    "wikiDataId": "Q3344055"
+    "wikiDataId": "Q4883554"
   },
   {
     "id": 80606,
@@ -27,25 +27,9 @@
     "native": "Chazuta",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9497,
-    "wikiDataId": "Q765311"
-  },
-  {
-    "id": 80640,
-    "name": "El Dorado",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.56298000",
-    "longitude": "-76.74130000",
-    "native": "El Dorado",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 920,
-    "wikiDataId": "Q2084675"
+    "wikiDataId": "Q5088699"
   },
   {
     "id": 80664,
@@ -56,12 +40,12 @@
     "country_code": "PE",
     "latitude": "-7.31860000",
     "longitude": "-76.77556000",
-    "native": "Hublego",
+    "native": "Huicungo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6757,
-    "wikiDataId": "Q629736"
+    "wikiDataId": "Q5934986"
   },
   {
     "id": 80679,
@@ -72,12 +56,12 @@
     "country_code": "PE",
     "latitude": "-6.11667000",
     "longitude": "-76.95000000",
-    "native": "Jepelación",
+    "native": "Jepelacio",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7150,
-    "wikiDataId": "Q1229885"
+    "wikiDataId": "Q6180385"
   },
   {
     "id": 80681,
@@ -91,9 +75,9 @@
     "native": "Juanjuí",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 37715,
-    "wikiDataId": "Q2671983"
+    "wikiDataId": "Q4502016"
   },
   {
     "id": 80693,
@@ -107,9 +91,41 @@
     "native": "Lamas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 13693,
+    "wikiDataId": "Q6317226"
+  },
+  {
+    "id": 80852,
+    "name": "Lamas",
+    "state_id": 3694,
+    "state_code": "SAM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.42166667",
+    "longitude": "-76.52111111",
+    "native": "Lamas",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q3139869"
+  },
+  {
+    "id": 80864,
+    "name": "Moyobamba",
+    "state_id": 3694,
+    "state_code": "SAM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.02833333",
+    "longitude": "-76.97194444",
+    "native": "Moyobamba",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q285672"
   },
   {
     "id": 80726,
@@ -123,9 +139,9 @@
     "native": "Moyobamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 50073,
-    "wikiDataId": "Q285672"
+    "wikiDataId": "Q6317899"
   },
   {
     "id": 80759,
@@ -139,9 +155,9 @@
     "native": "Picota",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6697,
-    "wikiDataId": "Q3344087"
+    "wikiDataId": "Q6317752"
   },
   {
     "id": 80827,
@@ -155,25 +171,9 @@
     "native": "Provincia de Huallaga",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 27506,
     "wikiDataId": "Q731515"
-  },
-  {
-    "id": 80852,
-    "name": "Provincia de Lamas",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.33333000",
-    "longitude": "-76.66667000",
-    "native": "Provincia de Lamas",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 81521,
-    "wikiDataId": "Q2281473"
   },
   {
     "id": 80860,
@@ -187,25 +187,9 @@
     "native": "Provincia de Mariscal Cáceres",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 64626,
     "wikiDataId": "Q1947944"
-  },
-  {
-    "id": 80864,
-    "name": "Provincia de Moyobamba",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-5.75000000",
-    "longitude": "-77.25000000",
-    "native": "Provincia de Moyobamba",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 122365,
-    "wikiDataId": "Q1948150"
   },
   {
     "id": 80884,
@@ -219,25 +203,9 @@
     "native": "Provincia de Rioja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 122544,
     "wikiDataId": "Q2084648"
-  },
-  {
-    "id": 80887,
-    "name": "Provincia de San Martín",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.58333000",
-    "longitude": "-76.16667000",
-    "native": "Provincia de San Martín",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 193095,
-    "wikiDataId": "Q588491"
   },
   {
     "id": 80934,
@@ -251,9 +219,9 @@
     "native": "la Rioja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 25057,
-    "wikiDataId": "Q3344069"
+    "wikiDataId": "Q269272"
   },
   {
     "id": 80969,
@@ -267,9 +235,9 @@
     "native": "Saposoa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 14894,
-    "wikiDataId": "Q3344065"
+    "wikiDataId": "Q7421013"
   },
   {
     "id": 80976,
@@ -280,10 +248,10 @@
     "country_code": "PE",
     "latitude": "-6.61085000",
     "longitude": "-76.69302000",
-    "native": "Resto",
+    "native": "Sisa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9477,
     "wikiDataId": "Q11034041"
   },
@@ -299,9 +267,9 @@
     "native": "Soritor",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10858,
-    "wikiDataId": "Q11034041"
+    "wikiDataId": "Q6318739"
   },
   {
     "id": 80981,
@@ -315,9 +283,25 @@
     "native": "Tabalosos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 13879,
-    "wikiDataId": "Q510413"
+    "wikiDataId": "Q6316878"
+  },
+  {
+    "id": 80887,
+    "name": "Tarapoto",
+    "state_id": 3694,
+    "state_code": "SAM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.49694444",
+    "longitude": "-76.36638889",
+    "native": "Tarapoto",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q927933"
   },
   {
     "id": 80989,
@@ -331,9 +315,9 @@
     "native": "Tarapoto",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q927933"
+    "wikiDataId": "Q6318726"
   },
   {
     "id": 80995,
@@ -347,9 +331,9 @@
     "native": "Tocache",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 29029,
-    "wikiDataId": "Q3344048"
+    "wikiDataId": "Q605803"
   },
   {
     "id": 81002,
@@ -360,11 +344,11 @@
     "country_code": "PE",
     "latitude": "-8.45917000",
     "longitude": "-76.46333000",
-    "native": "Correr",
+    "native": "Uchiza",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 20149,
-    "wikiDataId": "Q1677131"
+    "wikiDataId": "Q6318790"
   }
 ]

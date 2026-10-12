@@ -1,5 +1,21 @@
 [
   {
+    "id": 165166,
+    "name": "Aarsâl",
+    "state_id": 2283,
+    "state_code": "BH",
+    "country_id": 121,
+    "country_code": "LB",
+    "latitude": "34.17944000",
+    "longitude": "36.42083000",
+    "native": null,
+    "timezone": "Asia/Beirut",
+    "translations": {},
+    "type": "city",
+    "population": 50000,
+    "wikiDataId": "Q4796334"
+  },
+  {
     "id": 65933,
     "name": "Baalbek",
     "state_id": 2283,
@@ -30,5 +46,37 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q782804"
+  },
+  {
+    "id": 165167,
+    "name": "Chmistâr",
+    "state_id": 2283,
+    "state_code": "BH",
+    "country_id": 121,
+    "country_code": "LB",
+    "latitude": "33.96472000",
+    "longitude": "36.01750000",
+    "native": null,
+    "timezone": "Asia/Beirut",
+    "translations": {},
+    "type": "city",
+    "population": 30000,
+    "wikiDataId": "Q5103255"
+  },
+  {
+    "id": 165168,
+    "name": "El Hermel",
+    "state_id": 2283,
+    "state_code": "BH",
+    "country_id": 121,
+    "country_code": "LB",
+    "latitude": "34.39417000",
+    "longitude": "36.38472000",
+    "native": null,
+    "timezone": "Asia/Beirut",
+    "translations": {},
+    "type": "adm2",
+    "population": 22250,
+    "wikiDataId": "Q26117"
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "id": 110874,
-    "name": "Adjumani",
-    "state_id": 332,
-    "state_code": "N",
-    "country_id": 229,
-    "country_code": "UG",
-    "latitude": "3.37786000",
-    "longitude": "31.79090000",
-    "native": "Adjumani",
-    "timezone": "Africa/Kampala",
-    "translations": {},
-    "type": "adm2",
-    "population": 43022,
-    "wikiDataId": "Q3499673"
-  },
-  {
     "id": 110875,
     "name": "Amudat",
     "state_id": 332,
@@ -72,7 +56,7 @@
     "country_code": "UG",
     "latitude": "2.77457000",
     "longitude": "32.29899000",
-    "native": "Cavalry",
+    "native": "Gulu",
     "timezone": "Africa/Kampala",
     "translations": {},
     "type": "adm1",
@@ -192,22 +176,6 @@
     "wikiDataId": "Q3539602"
   },
   {
-    "id": 110951,
-    "name": "Oyam",
-    "state_id": 332,
-    "state_code": "N",
-    "country_id": 229,
-    "country_code": "UG",
-    "latitude": "2.38129000",
-    "longitude": "32.50071000",
-    "native": "Oyam District",
-    "timezone": "Africa/Kampala",
-    "translations": {},
-    "type": "district",
-    "population": 477464,
-    "wikiDataId": "Q1318833"
-  },
-  {
     "id": 110952,
     "name": "Pader",
     "state_id": 332,
@@ -216,7 +184,7 @@
     "country_code": "UG",
     "latitude": "3.05000000",
     "longitude": "33.21667000",
-    "native": "Wall",
+    "native": "Pader",
     "timezone": "Africa/Kampala",
     "translations": {},
     "type": "adm2",
@@ -232,7 +200,7 @@
     "country_code": "UG",
     "latitude": "2.80056000",
     "longitude": "33.13500000",
-    "native": "Palwo wall",
+    "native": "Pader Palwo",
     "timezone": "Africa/Kampala",
     "translations": {},
     "type": "city",
@@ -254,21 +222,5 @@
     "type": "city",
     "population": 37500,
     "wikiDataId": "Q7124680"
-  },
-  {
-    "id": 110964,
-    "name": "Yumbe",
-    "state_id": 332,
-    "state_code": "N",
-    "country_id": 229,
-    "country_code": "UG",
-    "latitude": "3.46506000",
-    "longitude": "31.24689000",
-    "native": "Hello",
-    "timezone": "Africa/Kampala",
-    "translations": {},
-    "type": "adm2",
-    "population": 47600,
-    "wikiDataId": "Q2488907"
   }
 ]

@@ -16,6 +16,22 @@
     "wikiDataId": "Q219746"
   },
   {
+    "id": 97528,
+    "name": "Akademicheskoe",
+    "state_id": 1879,
+    "state_code": "SPE",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "60.01375000",
+    "longitude": "30.39471000",
+    "native": "Академическое",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 103304,
+    "wikiDataId": "Q4059198"
+  },
+  {
     "id": 97570,
     "name": "Aleksandrovskaya",
     "state_id": 1879,
@@ -45,7 +61,7 @@
     "translations": {},
     "type": "section",
     "population": 43206,
-    "wikiDataId": "Q31893962"
+    "wikiDataId": "Q4056185"
   },
   {
     "id": 97859,
@@ -77,7 +93,7 @@
     "translations": {},
     "type": "section",
     "population": 214625,
-    "wikiDataId": "Q1965244"
+    "wikiDataId": null
   },
   {
     "id": 98231,
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "section",
     "population": 72822,
-    "wikiDataId": "Q34799875"
+    "wikiDataId": null
   },
   {
     "id": 98438,
@@ -128,6 +144,22 @@
     "wikiDataId": "Q2708342"
   },
   {
+    "id": 98568,
+    "name": "Gorskaya",
+    "state_id": 1879,
+    "state_code": "SPE",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "60.04640000",
+    "longitude": "29.97137000",
+    "native": "Горская",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 3800,
+    "wikiDataId": "Q37804400"
+  },
+  {
     "id": 98579,
     "name": "Grazhdanka",
     "state_id": 1879,
@@ -141,7 +173,23 @@
     "translations": {},
     "type": "section",
     "population": 76338,
-    "wikiDataId": "Q2216907"
+    "wikiDataId": "Q4147488"
+  },
+  {
+    "id": 98790,
+    "name": "Kalininskiy",
+    "state_id": 1879,
+    "state_code": "SPE",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "59.99675000",
+    "longitude": "30.38990000",
+    "native": "Калининский",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 504641,
+    "wikiDataId": null
   },
   {
     "id": 99144,
@@ -157,7 +205,7 @@
     "translations": {},
     "type": "section",
     "population": 46420,
-    "wikiDataId": "Q133026"
+    "wikiDataId": "Q4228405"
   },
   {
     "id": 99147,
@@ -205,7 +253,7 @@
     "translations": {},
     "type": "section",
     "population": 90658,
-    "wikiDataId": "Q35698755"
+    "wikiDataId": "Q4229524"
   },
   {
     "id": 99319,
@@ -221,7 +269,7 @@
     "translations": {},
     "type": "section",
     "population": 337091,
-    "wikiDataId": "Q105150"
+    "wikiDataId": null
   },
   {
     "id": 99353,
@@ -237,7 +285,7 @@
     "translations": {},
     "type": "section",
     "population": 44323,
-    "wikiDataId": "Q16666900"
+    "wikiDataId": null
   },
   {
     "id": 99397,
@@ -269,7 +317,7 @@
     "translations": {},
     "type": "section",
     "population": 53158,
-    "wikiDataId": "Q35705337"
+    "wikiDataId": "Q4247646"
   },
   {
     "id": 99470,
@@ -283,7 +331,7 @@
     "native": "Курортный район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q270402"
   },
@@ -317,7 +365,7 @@
     "translations": {},
     "type": "section",
     "population": 10000,
-    "wikiDataId": "Q157439"
+    "wikiDataId": null
   },
   {
     "id": 99614,
@@ -333,7 +381,7 @@
     "translations": {},
     "type": "city",
     "population": 3665,
-    "wikiDataId": "Q1438994"
+    "wikiDataId": null
   },
   {
     "id": 99636,
@@ -349,7 +397,7 @@
     "translations": {},
     "type": "city",
     "population": 4759,
-    "wikiDataId": "Q35717894"
+    "wikiDataId": null
   },
   {
     "id": 99657,
@@ -381,7 +429,7 @@
     "translations": {},
     "type": "city",
     "population": 27313,
-    "wikiDataId": "Q1924337"
+    "wikiDataId": null
   },
   {
     "id": 99951,
@@ -413,7 +461,7 @@
     "translations": {},
     "type": "section",
     "population": 20000,
-    "wikiDataId": "Q18406045"
+    "wikiDataId": null
   },
   {
     "id": 100392,
@@ -589,7 +637,7 @@
     "translations": {},
     "type": "city",
     "population": 9001,
-    "wikiDataId": "Q4371829"
+    "wikiDataId": null
   },
   {
     "id": 100833,
@@ -621,7 +669,7 @@
     "translations": {},
     "type": "city",
     "population": 108187,
-    "wikiDataId": "Q184346"
+    "wikiDataId": null
   },
   {
     "id": 100951,
@@ -667,7 +715,7 @@
     "native": "Санкт-Петербург",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 5652922,
     "wikiDataId": "Q656"
   },
@@ -765,7 +813,7 @@
     "translations": {},
     "type": "section",
     "population": 48271,
-    "wikiDataId": "Q196415"
+    "wikiDataId": "Q4429522"
   },
   {
     "id": 101486,
@@ -829,7 +877,7 @@
     "translations": {},
     "type": "section",
     "population": 7000,
-    "wikiDataId": "Q37963327"
+    "wikiDataId": null
   },
   {
     "id": 101989,
@@ -861,7 +909,7 @@
     "translations": {},
     "type": "section",
     "population": 58799,
-    "wikiDataId": "Q37963214"
+    "wikiDataId": "Q4477041"
   },
   {
     "id": 102122,
@@ -877,7 +925,7 @@
     "translations": {},
     "type": "city",
     "population": 1354,
-    "wikiDataId": "Q4478405"
+    "wikiDataId": null
   },
   {
     "id": 102196,

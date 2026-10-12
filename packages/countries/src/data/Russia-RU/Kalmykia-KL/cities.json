@@ -11,9 +11,25 @@
     "native": "Аршан",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3542,
     "wikiDataId": "Q4071009"
+  },
+  {
+    "id": 165492,
+    "name": "Bol’shoy Tsaryn",
+    "state_id": 1883,
+    "state_code": "KL",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "47.84982000",
+    "longitude": "45.42722000",
+    "native": null,
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4092934"
   },
   {
     "id": 98389,
@@ -27,7 +43,7 @@
     "native": "Элиста",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 104082,
     "wikiDataId": "Q3977"
   },
@@ -75,7 +91,7 @@
     "native": "Ики-Бурул",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3348,
     "wikiDataId": "Q4198991"
   },
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q4198991"
+    "wikiDataId": "Q717142"
   },
   {
     "id": 98901,
@@ -110,6 +126,22 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q156614"
+  },
+  {
+    "id": 101516,
+    "name": "Ketchenery",
+    "state_id": 1883,
+    "state_code": "KL",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "47.30868000",
+    "longitude": "44.52162000",
+    "native": "Советское",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 2816,
+    "wikiDataId": "Q37957269"
   },
   {
     "id": 99174,
@@ -139,7 +171,7 @@
     "native": "Малые Дербеты",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 5822,
     "wikiDataId": "Q4278606"
   },
@@ -155,7 +187,7 @@
     "native": "Приютное",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 5182,
     "wikiDataId": "Q4379447"
   },
@@ -171,7 +203,7 @@
     "native": "Садовое",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 5775,
     "wikiDataId": "Q4404723"
   },
@@ -192,22 +224,6 @@
     "wikiDataId": "Q717145"
   },
   {
-    "id": 101516,
-    "name": "Sovetskoye",
-    "state_id": 1883,
-    "state_code": "KL",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "47.30868000",
-    "longitude": "44.52162000",
-    "native": "Советское",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": 2816,
-    "wikiDataId": "Q37957269"
-  },
-  {
     "id": 101921,
     "name": "Troitskoye",
     "state_id": 1883,
@@ -219,7 +235,7 @@
     "native": "Троицкое",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 10025,
     "wikiDataId": "Q37956346"
   },
@@ -235,7 +251,7 @@
     "native": "Цаган Аман",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 5578,
     "wikiDataId": "Q37956312"
   },
@@ -251,7 +267,7 @@
     "native": "Яшалта",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4457,
     "wikiDataId": "Q29385"
   },
@@ -267,7 +283,7 @@
     "native": "Яшалтинский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q717121"
   },
@@ -283,7 +299,7 @@
     "native": "Яшкуль",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 7203,
     "wikiDataId": "Q33523089"
   }

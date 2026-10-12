@@ -1,21 +1,5 @@
 [
   {
-    "id": 105410,
-    "name": "Amphoe Khlong Luang",
-    "state_id": 3500,
-    "state_code": "13",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.09323000",
-    "longitude": "100.68106000",
-    "native": "อำเภอคลองหลวง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475707"
-  },
-  {
     "id": 106397,
     "name": "Ban Lam Luk Ka",
     "state_id": 3500,
@@ -43,7 +27,7 @@
     "native": "คลองหลวง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 118551,
     "wikiDataId": "Q11980574"
   },
@@ -80,36 +64,20 @@
     "wikiDataId": "Q279560"
   },
   {
-    "id": 105565,
-    "name": "Mueang Pathum Thani",
-    "state_id": 3500,
-    "state_code": "13",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.99105000",
-    "longitude": "100.53554000",
-    "native": "อำเภอเมืองปทุมธานี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 24547,
-    "wikiDataId": "Q1935501"
-  },
-  {
     "id": 105682,
     "name": "Nong Suea",
     "state_id": 3500,
     "state_code": "13",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.16030000",
-    "longitude": "100.83929000",
-    "native": "อำเภอหนองเสือ",
+    "latitude": "14.13104600",
+    "longitude": "100.81285400",
+    "native": "หนองเสือ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476285"
+    "wikiDataId": "Q98949762"
   },
   {
     "id": 106614,
@@ -123,8 +91,8 @@
     "native": "ปทุมธานี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
-    "population": 22948,
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1365723"
   },
   {
@@ -134,13 +102,13 @@
     "state_code": "13",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.02852000",
-    "longitude": "100.76291000",
-    "native": "อำเภอธัญบุรี",
+    "latitude": "14.01670000",
+    "longitude": "100.75000000",
+    "native": "ธัญบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476881"
+    "wikiDataId": "Q7710650"
   }
 ]

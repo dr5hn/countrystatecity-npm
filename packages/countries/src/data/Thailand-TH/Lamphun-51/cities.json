@@ -16,36 +16,20 @@
     "wikiDataId": "Q475974"
   },
   {
-    "id": 105697,
-    "name": "Amphoe Pa Sang",
-    "state_id": 3483,
-    "state_code": "51",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "18.41397000",
-    "longitude": "98.88281000",
-    "native": "อำเภอป่าซาง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476314"
-  },
-  {
     "id": 105193,
     "name": "Ban Hong",
     "state_id": 3483,
     "state_code": "51",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.27422000",
-    "longitude": "98.83794000",
-    "native": "อำเภอบ้านโฮ่ง",
+    "latitude": "18.33086000",
+    "longitude": "98.81925000",
+    "native": "บ้านโฮ่ง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475104"
+    "wikiDataId": null
   },
   {
     "id": 105220,
@@ -54,14 +38,14 @@
     "state_code": "51",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.65894000",
-    "longitude": "99.15883000",
-    "native": "อำเภอบ้านธิ",
+    "latitude": "18.63186000",
+    "longitude": "99.11661000",
+    "native": "บ้านธิ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475185"
+    "wikiDataId": null
   },
   {
     "id": 106550,
@@ -75,7 +59,7 @@
     "native": "ลำพูน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 43196,
     "wikiDataId": "Q1211214"
   },
@@ -109,23 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10048,
-    "wikiDataId": "Q1015445"
-  },
-  {
-    "id": 105548,
-    "name": "Mueang Lamphun",
-    "state_id": 3483,
-    "state_code": "51",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "18.55217000",
-    "longitude": "99.05905000",
-    "native": "อำเภอเมืองลำพูน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476025"
+    "wikiDataId": null
   },
   {
     "id": 106607,
@@ -136,10 +104,10 @@
     "country_code": "TH",
     "latitude": "18.52617000",
     "longitude": "98.93936000",
-    "native": "ป้าซาง",
+    "native": "ป่าซาง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 15607,
     "wikiDataId": "Q28727197"
   },
@@ -150,14 +118,14 @@
     "state_code": "51",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.98333000",
-    "longitude": "99.05000000",
-    "native": "อำเภอทุ่งหัวช้าง",
+    "latitude": "18.00301000",
+    "longitude": "99.02780000",
+    "native": "ทุ่งหัวช้าง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476935"
+    "wikiDataId": null
   },
   {
     "id": 106364,

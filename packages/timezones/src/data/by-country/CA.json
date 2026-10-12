@@ -50,10 +50,10 @@
   {
     "zoneName": "America/Edmonton",
     "countryCode": "CA",
-    "abbreviation": "MST",
-    "gmtOffset": -25200,
-    "gmtOffsetName": "UTC-07:00",
-    "tzName": "Mountain Standard Time (North America)"
+    "abbreviation": "CST",
+    "gmtOffset": -21600,
+    "gmtOffsetName": "UTC-06:00",
+    "tzName": "Central Standard Time (North America)"
   },
   {
     "zoneName": "America/Fort_Nelson",
@@ -90,10 +90,10 @@
   {
     "zoneName": "America/Inuvik",
     "countryCode": "CA",
-    "abbreviation": "MST",
-    "gmtOffset": -25200,
-    "gmtOffsetName": "UTC-07:00",
-    "tzName": "Mountain Standard Time (North America)"
+    "abbreviation": "CST",
+    "gmtOffset": -21600,
+    "gmtOffsetName": "UTC-06:00",
+    "tzName": "Central Standard Time (North America)"
   },
   {
     "zoneName": "America/Iqaluit",
@@ -194,10 +194,10 @@
   {
     "zoneName": "America/Vancouver",
     "countryCode": "CA",
-    "abbreviation": "PST",
-    "gmtOffset": -28800,
-    "gmtOffsetName": "UTC-08:00",
-    "tzName": "Pacific Standard Time (North America)"
+    "abbreviation": "MST",
+    "gmtOffset": -25200,
+    "gmtOffsetName": "UTC-07:00",
+    "tzName": "Mountain Standard Time (North America)"
   },
   {
     "zoneName": "America/Whitehorse",
@@ -218,9 +218,9 @@
   {
     "zoneName": "America/Yellowknife",
     "countryCode": "CA",
-    "abbreviation": "MST",
-    "gmtOffset": -25200,
-    "gmtOffsetName": "UTC-07:00",
-    "tzName": "Mountain Standard Time (North America)"
+    "abbreviation": "CST",
+    "gmtOffset": -21600,
+    "gmtOffsetName": "UTC-06:00",
+    "tzName": "Central Standard Time (North America)"
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": 164389,
+    "name": "Buco Zau",
+    "state_id": 228,
+    "state_code": "CAB",
+    "country_id": 7,
+    "country_code": "AO",
+    "latitude": "-4.76667000",
+    "longitude": "12.55000000",
+    "native": null,
+    "timezone": "Africa/Luanda",
+    "translations": {},
+    "type": "adm2",
+    "population": 40953,
+    "wikiDataId": "Q1000367"
+  },
+  {
     "id": 591,
     "name": "Cabinda",
     "state_id": 228,
@@ -14,5 +30,21 @@
     "type": "adm1",
     "population": 550000,
     "wikiDataId": "Q459360"
+  },
+  {
+    "id": 164393,
+    "name": "Cacongo",
+    "state_id": 228,
+    "state_code": "CAB",
+    "country_id": 7,
+    "country_code": "AO",
+    "latitude": "-5.23864000",
+    "longitude": "12.14428000",
+    "native": null,
+    "timezone": "Africa/Luanda",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2944600"
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "id": 49003,
-    "name": "City and Borough of Salford",
-    "state_id": 2493,
-    "state_code": "SLF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.50000000",
-    "longitude": "-2.33333000",
-    "native": "City and Borough of Salford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 37275,
-    "wikiDataId": "Q1142118"
-  },
-  {
     "id": 49432,
     "name": "Eccles",
     "state_id": 2493,
@@ -27,25 +11,25 @@
     "native": "Eccles",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 37275,
     "wikiDataId": "Q2342197"
   },
   {
-    "id": 50100,
-    "name": "Kearsley",
+    "id": 50069,
+    "name": "Irlam",
     "state_id": 2493,
     "state_code": "SLF",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.53333000",
-    "longitude": "-2.38333000",
-    "native": "Kearsley",
+    "latitude": "53.44253000",
+    "longitude": "-2.42323000",
+    "native": "Irlam",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 10127,
-    "wikiDataId": "Q3814209"
+    "type": "town",
+    "population": 19442,
+    "wikiDataId": "Q2249195"
   },
   {
     "id": 50329,
@@ -59,25 +43,9 @@
     "native": "Little Hulton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10216,
     "wikiDataId": "Q6650377"
-  },
-  {
-    "id": 50989,
-    "name": "Prestwich",
-    "state_id": 2493,
-    "state_code": "SLF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.53333000",
-    "longitude": "-2.28333000",
-    "native": "Prestwich",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 32125,
-    "wikiDataId": "Q1003559"
   },
   {
     "id": 51181,
@@ -91,7 +59,7 @@
     "native": "Salford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 103886,
     "wikiDataId": "Q47952"
   },
@@ -107,25 +75,9 @@
     "native": "Swinton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 20000,
     "wikiDataId": "Q2575363"
-  },
-  {
-    "id": 51658,
-    "name": "Trafford Park",
-    "state_id": 2493,
-    "state_code": "SLF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.46879000",
-    "longitude": "-2.31194000",
-    "native": "Trafford Park",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3060,
-    "wikiDataId": "Q940877"
   },
   {
     "id": 51729,
@@ -139,7 +91,7 @@
     "native": "Walkden",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 35937,
     "wikiDataId": "Q4017800"
   }

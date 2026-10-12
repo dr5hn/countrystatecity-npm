@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0
+
+### Major Changes
+
+The v4.0-export.50 snapshot corrects timezone offsets and abbreviations. All 432 IANA zone records remain, but abbreviation lookups for `ACDT`, `AEDT`, `ALMT`, `EASST`, `EGT`, `MIST`, `MSD+1`, `NZDT`, `QYZST`, `QYZT`, and `WEST` now return no matches. Abbreviations `CLT`, `EAST`, `KZT`, and `NZST` were added. Persist IANA zone names and refresh abbreviation/offset metadata before upgrading.
+
+This package does not contain city/state ids. If you combine it with geographic packages, the [upstream v4.0 release](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v4.0) documents removed geographic ids and provides [`removed_ids_v3.2_to_v4.0.csv`](https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0/removed_ids_v3.2_to_v4.0.csv) for migrating stored city/state ids.
+
 ## 1.0.9
 
 ### Patch Changes

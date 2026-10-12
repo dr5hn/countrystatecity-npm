@@ -8,7 +8,7 @@
     "country_code": "IN",
     "latitude": "28.16951000",
     "longitude": "94.80060000",
-    "native": "साथ में",
+    "native": "अलोंग",
     "timezone": "Asia/Kolkata",
     "translations": {},
     "type": "adm2",
@@ -27,7 +27,7 @@
     "native": "अंजॉ",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 21167,
     "wikiDataId": "Q15413"
   },
@@ -75,7 +75,7 @@
     "native": "चांगलांग",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 148226,
     "wikiDataId": "Q15427"
   },
@@ -107,7 +107,7 @@
     "native": "पूर्वी कामेंग",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 78690,
     "wikiDataId": "Q15424"
   },
@@ -126,6 +126,22 @@
     "type": "city",
     "population": 99214,
     "wikiDataId": "Q1945304"
+  },
+  {
+    "id": 165079,
+    "name": "Hawai",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "27.88677000",
+    "longitude": "96.80170000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q968485"
   },
   {
     "id": 132090,
@@ -187,7 +203,7 @@
     "native": "कुरुंग कुमे",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 92076,
     "wikiDataId": "Q2449506"
   },
@@ -219,7 +235,7 @@
     "native": "निचली दिबांग घाटी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 54080,
     "wikiDataId": "Q2373368"
   },
@@ -240,22 +256,6 @@
     "wikiDataId": "Q15436"
   },
   {
-    "id": 132934,
-    "name": "Margherita",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.28482000",
-    "longitude": "95.66796000",
-    "native": "मार्गेरिटा",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 26914,
-    "wikiDataId": "Q1924981"
-  },
-  {
     "id": 133121,
     "name": "Naharlagun",
     "state_id": 4024,
@@ -270,6 +270,38 @@
     "type": "city",
     "population": 36158,
     "wikiDataId": "Q2576091"
+  },
+  {
+    "id": 165077,
+    "name": "Namsai",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "27.66904000",
+    "longitude": "95.86395000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2484068"
+  },
+  {
+    "id": 165082,
+    "name": "Pangin",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "28.21022000",
+    "longitude": "94.98873000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q25247765"
   },
   {
     "id": 133551,
@@ -331,7 +363,7 @@
     "native": "तिराप",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 111975,
     "wikiDataId": "Q15448"
   },
@@ -363,7 +395,7 @@
     "native": "ऊपरी सुबनसिरी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 83448,
     "wikiDataId": "Q15464"
   },
@@ -379,7 +411,7 @@
     "native": "पश्चिम कामेंग",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 83947,
     "wikiDataId": "Q15459"
   },

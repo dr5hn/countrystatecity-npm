@@ -11,7 +11,7 @@
     "native": "Abeokuta",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 888924,
     "wikiDataId": "Q206484"
   },
@@ -24,12 +24,12 @@
     "country_code": "NG",
     "latitude": "6.60000000",
     "longitude": "2.93333000",
-    "native": "Adage",
+    "native": "Ado Odo",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
     "population": 15442,
-    "wikiDataId": "Q3787"
+    "wikiDataId": null
   },
   {
     "id": 76912,
@@ -40,12 +40,12 @@
     "country_code": "NG",
     "latitude": "6.63333000",
     "longitude": "2.73333000",
-    "native": "Reason why",
+    "native": "Idi Iroko",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7487,
-    "wikiDataId": "Q183298"
+    "wikiDataId": null
   },
   {
     "id": 76914,
@@ -59,9 +59,9 @@
     "native": "Ifo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 88272,
-    "wikiDataId": "Q183298"
+    "wikiDataId": null
   },
   {
     "id": 76926,
@@ -72,12 +72,12 @@
     "country_code": "NG",
     "latitude": "6.77837000",
     "longitude": "4.03386000",
-    "native": "ID-love-love",
+    "native": "Ijebu-Ife",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5733,
-    "wikiDataId": "Q5991613"
+    "wikiDataId": "Q33447786"
   },
   {
     "id": 76927,
@@ -88,10 +88,10 @@
     "country_code": "NG",
     "latitude": "6.97198000",
     "longitude": "3.99938000",
-    "native": "Bush",
+    "native": "Ijebu-Igbo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 109261,
     "wikiDataId": "Q3320832"
   },
@@ -104,12 +104,28 @@
     "country_code": "NG",
     "latitude": "6.81944000",
     "longitude": "3.91731000",
-    "native": "Rampage",
+    "native": "Ijebu-Ode",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 360000,
-    "wikiDataId": "Q3509424"
+    "wikiDataId": "Q1023726"
+  },
+  {
+    "id": 165306,
+    "name": "Ijoko",
+    "state_id": 323,
+    "state_code": "OG",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "6.74241000",
+    "longitude": "3.26217000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q5995200"
   },
   {
     "id": 76940,
@@ -120,10 +136,10 @@
     "country_code": "NG",
     "latitude": "6.88901000",
     "longitude": "3.01416000",
-    "native": "Gear",
+    "native": "Ilaro",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 46999,
     "wikiDataId": "Q5997200"
   },
@@ -136,12 +152,12 @@
     "country_code": "NG",
     "latitude": "7.44888000",
     "longitude": "2.84289000",
-    "native": "Condition",
+    "native": "Imeko",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8627,
-    "wikiDataId": "Q587085"
+    "wikiDataId": "Q49277611"
   },
   {
     "id": 76949,
@@ -152,12 +168,12 @@
     "country_code": "NG",
     "latitude": "6.91002000",
     "longitude": "3.66557000",
-    "native": "Purchase",
+    "native": "Iperu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15935,
-    "wikiDataId": "Q6034035"
+    "wikiDataId": "Q33448413"
   },
   {
     "id": 76952,
@@ -168,12 +184,12 @@
     "country_code": "NG",
     "latitude": "6.99345000",
     "longitude": "3.68148000",
-    "native": "Close",
+    "native": "Isara",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8205,
-    "wikiDataId": "Q6034035"
+    "wikiDataId": null
   },
   {
     "id": 77080,
@@ -184,11 +200,11 @@
     "country_code": "NG",
     "latitude": "6.94851000",
     "longitude": "3.50561000",
-    "native": "Plure",
+    "native": "Owode",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8513,
-    "wikiDataId": "Q1788128"
+    "wikiDataId": "Q49278023"
   }
 ]

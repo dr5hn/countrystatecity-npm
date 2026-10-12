@@ -11,9 +11,9 @@
     "native": "Aguas Verdes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9106,
-    "wikiDataId": "Q5660311"
+    "wikiDataId": "Q4694508"
   },
   {
     "id": 80751,
@@ -48,22 +48,6 @@
     "wikiDataId": "Q1422590"
   },
   {
-    "id": 80905,
-    "name": "Provincia de Tumbes",
-    "state_id": 3689,
-    "state_code": "TUM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-3.75000000",
-    "longitude": "-80.41667000",
-    "native": "Provincia de Tumbes",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 154962,
-    "wikiDataId": "Q1479348"
-  },
-  {
     "id": 80912,
     "name": "Provincia de Zarumilla",
     "state_id": 3689,
@@ -75,9 +59,25 @@
     "native": "Provincia de Zarumilla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 48844,
     "wikiDataId": "Q1477797"
+  },
+  {
+    "id": 80905,
+    "name": "Tumbes",
+    "state_id": 3689,
+    "state_code": "TUM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-3.56472222",
+    "longitude": "-80.45361111",
+    "native": "Tumbes",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q827640"
   },
   {
     "id": 80999,
@@ -91,9 +91,9 @@
     "native": "Tumbes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 96946,
-    "wikiDataId": "Q827640"
+    "wikiDataId": "Q2039785"
   },
   {
     "id": 81021,
@@ -107,9 +107,9 @@
     "native": "Zarumilla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 16907,
-    "wikiDataId": "Q2877763"
+    "wikiDataId": "Q6318172"
   },
   {
     "id": 81022,
@@ -123,8 +123,8 @@
     "native": "Zorritos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 12261,
-    "wikiDataId": "Q3317432"
+    "wikiDataId": "Q6316996"
   }
 ]

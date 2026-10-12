@@ -11,7 +11,7 @@
     "native": "Белая",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 9,
     "wikiDataId": "Q31913394"
   },
@@ -27,7 +27,7 @@
     "native": "Черемисиново",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3367,
     "wikiDataId": "Q34792538"
   },
@@ -75,7 +75,7 @@
     "native": "Фатеж",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4592,
     "wikiDataId": "Q197356"
   },
@@ -107,7 +107,7 @@
     "native": "Глушково",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4785,
     "wikiDataId": "Q37786465"
   },
@@ -139,7 +139,7 @@
     "native": "Горшечное",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 6758,
     "wikiDataId": "Q4146016"
   },
@@ -155,7 +155,7 @@
     "native": "Иванино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2268,
     "wikiDataId": "Q37809219"
   },
@@ -187,7 +187,7 @@
     "native": "Касторное",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4390,
     "wikiDataId": "Q37824629"
   },
@@ -203,7 +203,7 @@
     "native": "Хомутовка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4936,
     "wikiDataId": "Q4499672"
   },
@@ -235,13 +235,13 @@
     "native": "Конышевка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4038,
     "wikiDataId": "Q4232001"
   },
   {
     "id": 99204,
-    "name": "Korenëvo",
+    "name": "Korenevo",
     "state_id": 1855,
     "state_code": "KRS",
     "country_id": 182,
@@ -251,7 +251,7 @@
     "native": "Коренёво",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5555,
     "wikiDataId": "Q35699764"
   },
@@ -267,7 +267,7 @@
     "native": "Кшенский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 6504,
     "wikiDataId": "Q35704635"
   },
@@ -299,7 +299,7 @@
     "native": "Курск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 434696,
     "wikiDataId": "Q3159"
   },
@@ -363,7 +363,7 @@
     "native": "Мантурово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 2755,
     "wikiDataId": "Q35724136"
   },
@@ -379,7 +379,7 @@
     "native": "Медвенский район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2629589"
   },
@@ -395,7 +395,7 @@
     "native": "Михайловка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3012,
     "wikiDataId": "Q35729582"
   },
@@ -411,7 +411,7 @@
     "native": "Обоянь",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 14000,
     "wikiDataId": "Q72656"
   },
@@ -459,9 +459,25 @@
     "native": "Первоавгустовский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1677,
     "wikiDataId": "Q37959197"
+  },
+  {
+    "id": 165504,
+    "name": "Ponyri",
+    "state_id": 1855,
+    "state_code": "KRS",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "52.31839000",
+    "longitude": "36.29766000",
+    "native": null,
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4372105"
   },
   {
     "id": 100770,
@@ -491,7 +507,7 @@
     "native": "Пристень",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q37958807"
   },
@@ -523,7 +539,7 @@
     "native": "Прямицыно",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5179,
     "wikiDataId": "Q37958773"
   },
@@ -539,7 +555,7 @@
     "native": "Рыльск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17007,
     "wikiDataId": "Q193425"
   },
@@ -555,7 +571,7 @@
     "native": "Щигры",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 19198,
     "wikiDataId": "Q146013"
   },
@@ -571,7 +587,7 @@
     "native": "Солнцево",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 126309,
     "wikiDataId": "Q37957397"
   },
@@ -619,7 +635,7 @@
     "native": "Суджа",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6940,
     "wikiDataId": "Q72704"
   },
@@ -635,7 +651,7 @@
     "native": "Тим",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3070,
     "wikiDataId": "Q4457301"
   },
@@ -653,7 +669,7 @@
     "translations": {},
     "type": "city",
     "population": 3275,
-    "wikiDataId": "Q4125798"
+    "wikiDataId": null
   },
   {
     "id": 102720,
@@ -667,7 +683,7 @@
     "native": "Железногорск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 94959,
     "wikiDataId": "Q72536"
   },
@@ -683,7 +699,7 @@
     "native": "Золотухино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4487,
     "wikiDataId": "Q4193644"
   },

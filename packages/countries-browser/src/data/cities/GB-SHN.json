@@ -1,21 +1,5 @@
 [
   {
-    "id": 48296,
-    "name": "Ashton in Makerfield",
-    "state_id": 2290,
-    "state_code": "SHN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.48333000",
-    "longitude": "-2.65000000",
-    "native": "Ashton in Makerfield",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 29039,
-    "wikiDataId": "Q2557991"
-  },
-  {
     "id": 48505,
     "name": "Billinge",
     "state_id": 2290,
@@ -32,22 +16,6 @@
     "wikiDataId": "Q4911915"
   },
   {
-    "id": 48795,
-    "name": "Burtonwood",
-    "state_id": 2290,
-    "state_code": "SHN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.42948000",
-    "longitude": "-2.65852000",
-    "native": "Burtonwood",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3361,
-    "wikiDataId": "Q995213"
-  },
-  {
     "id": 49859,
     "name": "Haydock",
     "state_id": 2290,
@@ -59,9 +27,25 @@
     "native": "Haydock",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17333,
     "wikiDataId": "Q3783795"
+  },
+  {
+    "id": 50734,
+    "name": "Newton-le-Willows",
+    "state_id": 2290,
+    "state_code": "SHN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.45000000",
+    "longitude": "-2.60000000",
+    "native": "Newton-le-Willows",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 21782,
+    "wikiDataId": "Q750000"
   },
   {
     "id": 51023,
@@ -75,7 +59,7 @@
     "native": "Rainford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6131,
     "wikiDataId": "Q2253752"
   },

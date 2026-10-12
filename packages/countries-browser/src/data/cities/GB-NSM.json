@@ -1,21 +1,5 @@
 [
   {
-    "id": 48322,
-    "name": "Axbridge",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.28466000",
-    "longitude": "-2.82078000",
-    "native": "Axbridge",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1997,
-    "wikiDataId": "Q651889"
-  },
-  {
     "id": 48378,
     "name": "Banwell",
     "state_id": 2430,
@@ -27,7 +11,7 @@
     "native": "Banwell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1956,
     "wikiDataId": "Q2229524"
   },
@@ -43,7 +27,7 @@
     "native": "Blagdon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1148,
     "wikiDataId": "Q2240982"
   },
@@ -56,10 +40,10 @@
     "country_code": "GB",
     "latitude": "51.30861000",
     "longitude": "-2.94750000",
-    "native": "Blending",
+    "native": "Bleadon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 900,
     "wikiDataId": "Q2458518"
   },
@@ -77,7 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 0,
-    "wikiDataId": "Q738184"
+    "wikiDataId": null
   },
   {
     "id": 48717,
@@ -91,7 +75,7 @@
     "native": "Brockley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 458,
     "wikiDataId": "Q2485076"
   },
@@ -107,25 +91,9 @@
     "native": "Burrington",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 237,
     "wikiDataId": "Q2368875"
-  },
-  {
-    "id": 48939,
-    "name": "Cheddar",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.27537000",
-    "longitude": "-2.77662000",
-    "native": "Cheddar",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 6264,
-    "wikiDataId": "Q1019479"
   },
   {
     "id": 48997,
@@ -139,7 +107,7 @@
     "native": "Churchill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1378,
     "wikiDataId": "Q2126341"
   },
@@ -155,25 +123,9 @@
     "native": "Clevedon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 21404,
     "wikiDataId": "Q670079"
-  },
-  {
-    "id": 49084,
-    "name": "Compton Martin",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.31056000",
-    "longitude": "-2.65528000",
-    "native": "Compton Martin",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 554,
-    "wikiDataId": "Q2311927"
   },
   {
     "id": 49087,
@@ -187,25 +139,41 @@
     "native": "Congresbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3725,
     "wikiDataId": "Q1975999"
   },
   {
-    "id": 49324,
-    "name": "Draycott",
+    "id": 49351,
+    "name": "Dundry",
     "state_id": 2430,
     "state_code": "NSM",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "51.25615000",
-    "longitude": "-2.75116000",
-    "native": "Draycott",
+    "latitude": "51.39880000",
+    "longitude": "-2.63964000",
+    "native": "Dundry",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 269,
+    "wikiDataId": "Q2518710"
+  },
+  {
+    "id": 49423,
+    "name": "Easton-in-Gordano",
+    "state_id": 2430,
+    "state_code": "NSM",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.47592000",
+    "longitude": "-2.69987000",
+    "native": "Easton-in-Gordano",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
-    "population": 1057,
-    "wikiDataId": "Q5306087"
+    "population": 4824,
+    "wikiDataId": "Q3895750"
   },
   {
     "id": 50178,
@@ -219,7 +187,7 @@
     "native": "Kingston Seymour",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 416,
     "wikiDataId": "Q2333642"
   },
@@ -235,9 +203,25 @@
     "native": "Locking",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1742,
     "wikiDataId": "Q2132258"
+  },
+  {
+    "id": 50390,
+    "name": "Long Ashton",
+    "state_id": 2430,
+    "state_code": "NSM",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.42997000",
+    "longitude": "-2.66098000",
+    "native": "Long Ashton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 6534,
+    "wikiDataId": "Q4990691"
   },
   {
     "id": 50659,
@@ -251,25 +235,9 @@
     "native": "Nailsea",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20543,
     "wikiDataId": "Q942474"
-  },
-  {
-    "id": 50765,
-    "name": "North Somerset",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.33333000",
-    "longitude": "-2.83333000",
-    "native": "North Somerset",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q178196"
   },
   {
     "id": 50963,
@@ -283,7 +251,7 @@
     "native": "Portishead",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 26305,
     "wikiDataId": "Q1018157"
   },
@@ -301,39 +269,7 @@
     "translations": {},
     "type": "city",
     "population": 2135,
-    "wikiDataId": "Q2913513"
-  },
-  {
-    "id": 51283,
-    "name": "Shipham",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.31428000",
-    "longitude": "-2.80010000",
-    "native": "Shipham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1104,
-    "wikiDataId": "Q3071509"
-  },
-  {
-    "id": 51780,
-    "name": "Wedmore",
-    "state_id": 2430,
-    "state_code": "NSM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.22727000",
-    "longitude": "-2.81152000",
-    "native": "Wedmore",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1409,
-    "wikiDataId": "Q2700621"
+    "wikiDataId": null
   },
   {
     "id": 51847,
@@ -347,7 +283,7 @@
     "native": "Weston-super-Mare",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 82225,
     "wikiDataId": "Q845623"
   },
@@ -363,7 +299,7 @@
     "native": "Winford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1165,
     "wikiDataId": "Q795358"
   },
@@ -395,7 +331,7 @@
     "native": "Wrington",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1918,
     "wikiDataId": "Q1825419"
   },
@@ -411,7 +347,7 @@
     "native": "Yatton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 10251,
     "wikiDataId": "Q2499687"
   }

@@ -11,8 +11,8 @@
     "native": "Bay Roberts",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 6012,
+    "type": "town",
+    "population": 5974,
     "wikiDataId": "Q2892168"
   },
   {
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 1103,
-    "wikiDataId": "Q2892168"
+    "wikiDataId": null
   },
   {
     "id": 16228,
@@ -59,8 +59,8 @@
     "native": "Botwood",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2875,
+    "type": "town",
+    "population": 2778,
     "wikiDataId": "Q2911880"
   },
   {
@@ -75,8 +75,8 @@
     "native": "Burgeo",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 1307,
+    "type": "town",
+    "population": 1176,
     "wikiDataId": "Q2928455"
   },
   {
@@ -91,8 +91,8 @@
     "native": "Carbonear",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 4838,
+    "type": "town",
+    "population": 4696,
     "wikiDataId": "Q2937956"
   },
   {
@@ -120,11 +120,11 @@
     "country_code": "CA",
     "latitude": "47.57286000",
     "longitude": "-59.13808000",
-    "native": "Channel-Port to Basques",
+    "native": "Channel-Port aux Basques",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 4220,
+    "type": "town",
+    "population": 3547,
     "wikiDataId": "Q1013617"
   },
   {
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "city",
     "population": 3478,
-    "wikiDataId": "Q2364972"
+    "wikiDataId": "Q22506815"
   },
   {
     "id": 16327,
@@ -155,7 +155,7 @@
     "native": "Conception Bay South",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17087,
     "wikiDataId": "Q1123842"
   },
@@ -187,8 +187,8 @@
     "native": "Deer Lake",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 4602,
+    "type": "town",
+    "population": 4864,
     "wikiDataId": "Q2674298"
   },
   {
@@ -203,9 +203,9 @@
     "native": "Fogo Island",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2244,
-    "wikiDataId": "Q551124"
+    "type": "town",
+    "population": 2117,
+    "wikiDataId": "Q5464129"
   },
   {
     "id": 16445,
@@ -219,8 +219,8 @@
     "native": "Gambo",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 1978,
+    "type": "town",
+    "population": 1816,
     "wikiDataId": "Q3094948"
   },
   {
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 4418,
-    "wikiDataId": "Q1020179"
+    "wikiDataId": null
   },
   {
     "id": 16462,
@@ -251,8 +251,8 @@
     "native": "Grand Bank",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 4623,
+    "type": "town",
+    "population": 2152,
     "wikiDataId": "Q3113519"
   },
   {
@@ -267,8 +267,8 @@
     "native": "Grand Falls-Windsor",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 14171,
+    "type": "town",
+    "population": 13853,
     "wikiDataId": "Q1542592"
   },
   {
@@ -283,8 +283,8 @@
     "native": "Happy Valley-Goose Bay",
     "timezone": "America/Goose_Bay",
     "translations": {},
-    "type": "city",
-    "population": 8109,
+    "type": "town",
+    "population": 8040,
     "wikiDataId": "Q1266964"
   },
   {
@@ -315,8 +315,8 @@
     "native": "Labrador City",
     "timezone": "America/Goose_Bay",
     "translations": {},
-    "type": "city",
-    "population": 7220,
+    "type": "town",
+    "population": 7412,
     "wikiDataId": "Q767147"
   },
   {
@@ -331,8 +331,8 @@
     "native": "Lewisporte",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2174,
+    "type": "town",
+    "population": 3288,
     "wikiDataId": "Q6537373"
   },
   {
@@ -347,8 +347,8 @@
     "native": "Marystown",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2697,
+    "type": "town",
+    "population": 5204,
     "wikiDataId": "Q3296356"
   },
   {
@@ -368,6 +368,22 @@
     "wikiDataId": "Q1950648"
   },
   {
+    "id": 164526,
+    "name": "Paradise",
+    "state_id": 877,
+    "state_code": "NL",
+    "country_id": 39,
+    "country_code": "CA",
+    "latitude": "47.52909000",
+    "longitude": "-52.88136000",
+    "native": null,
+    "timezone": "America/St_Johns",
+    "translations": {},
+    "type": "town",
+    "population": 22957,
+    "wikiDataId": "Q7134185"
+  },
+  {
     "id": 16802,
     "name": "Pasadena",
     "state_id": 877,
@@ -379,8 +395,8 @@
     "native": "Pasadena",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 3620,
+    "type": "town",
+    "population": 3524,
     "wikiDataId": "Q3367223"
   },
   {
@@ -411,8 +427,8 @@
     "native": "St. Anthony",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2049,
+    "type": "town",
+    "population": 2180,
     "wikiDataId": "Q2317218"
   },
   {
@@ -427,7 +443,7 @@
     "native": "St. John's",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 110525,
     "wikiDataId": "Q2082"
   },
@@ -443,8 +459,8 @@
     "native": "Stephenville",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 6278,
+    "type": "town",
+    "population": 6540,
     "wikiDataId": "Q626279"
   },
   {
@@ -475,8 +491,8 @@
     "native": "Torbay",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 3097,
+    "type": "town",
+    "population": 7852,
     "wikiDataId": "Q7825435"
   },
   {
@@ -491,8 +507,8 @@
     "native": "Upper Island Cove",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 1142,
+    "type": "town",
+    "population": 1401,
     "wikiDataId": "Q7898706"
   },
   {
@@ -507,8 +523,8 @@
     "native": "Wabana",
     "timezone": "America/St_Johns",
     "translations": {},
-    "type": "city",
-    "population": 2146,
+    "type": "town",
+    "population": 1815,
     "wikiDataId": "Q3303444"
   }
 ]

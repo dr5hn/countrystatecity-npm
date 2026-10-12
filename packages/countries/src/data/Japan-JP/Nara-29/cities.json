@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 27578,
-    "wikiDataId": "Q847572"
+    "wikiDataId": null
   },
   {
     "id": 63390,
@@ -27,8 +27,8 @@
     "native": "五條市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 27927,
     "wikiDataId": "Q602571"
   },
   {
@@ -40,11 +40,11 @@
     "country_code": "JP",
     "latitude": "34.45000000",
     "longitude": "135.73333000",
-    "native": "ゴーゼ",
+    "native": "御所市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 24317,
+    "type": "city",
+    "population": 24096,
     "wikiDataId": "Q847334"
   },
   {
@@ -91,25 +91,25 @@
     "native": "生駒",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 116518,
+    "type": "city",
+    "population": 116675,
     "wikiDataId": "Q328610"
   },
   {
-    "id": 63559,
-    "name": "Ikoma-shi",
+    "id": 165118,
+    "name": "Kanmaki",
     "state_id": 824,
     "state_code": "29",
     "country_id": 109,
     "country_code": "JP",
-    "latitude": "34.69187000",
-    "longitude": "135.70057000",
-    "native": "生駒市",
+    "latitude": "34.56419000",
+    "longitude": "135.70627000",
+    "native": "上牧町",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q328610"
+    "type": "town",
+    "population": 21714,
+    "wikiDataId": "Q1203559"
   },
   {
     "id": 63733,
@@ -124,7 +124,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 78113,
     "wikiDataId": "Q696643"
   },
   {
@@ -139,8 +139,8 @@
     "native": "橿原市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 120922,
     "wikiDataId": "Q496319"
   },
   {
@@ -155,24 +155,8 @@
     "native": "葛城",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 37225,
-    "wikiDataId": "Q659672"
-  },
-  {
-    "id": 63756,
-    "name": "Katsuragi Shi",
-    "state_id": 824,
-    "state_code": "29",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.49682000",
-    "longitude": "135.70464000",
-    "native": "葛城史",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 36832,
     "wikiDataId": "Q659672"
   },
   {
@@ -187,8 +171,8 @@
     "native": "奈良市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm1",
-    "population": 367353,
+    "type": "city",
+    "population": 354630,
     "wikiDataId": "Q169134"
   },
   {
@@ -200,27 +184,11 @@
     "country_code": "JP",
     "latitude": "34.50000000",
     "longitude": "135.85000000",
-    "native": "桜井",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 53716,
-    "wikiDataId": "Q990350"
-  },
-  {
-    "id": 64274,
-    "name": "Sakurai-shi",
-    "state_id": 824,
-    "state_code": "29",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.51816000",
-    "longitude": "135.84320000",
     "native": "桜井市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 54857,
     "wikiDataId": "Q127026"
   },
   {
@@ -235,9 +203,9 @@
     "native": "田原本",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 30961,
-    "wikiDataId": "Q877190"
+    "type": "town",
+    "population": 31177,
+    "wikiDataId": "Q1203159"
   },
   {
     "id": 64483,
@@ -251,24 +219,8 @@
     "native": "天理",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 61471,
-    "wikiDataId": "Q502196"
-  },
-  {
-    "id": 64484,
-    "name": "Tenri-shi",
-    "state_id": 824,
-    "state_code": "29",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "34.59619000",
-    "longitude": "135.83736000",
-    "native": "天理市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "city",
+    "population": 63889,
     "wikiDataId": "Q502196"
   },
   {
@@ -284,8 +236,8 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q468765"
+    "population": 28121,
+    "wikiDataId": "Q863747"
   },
   {
     "id": 64645,
@@ -299,8 +251,8 @@
     "native": "大和郡山市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm1",
-    "population": null,
+    "type": "city",
+    "population": 83285,
     "wikiDataId": "Q118213"
   },
   {
@@ -316,7 +268,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": 33810,
+    "population": 61744,
     "wikiDataId": "Q838669"
   },
   {
@@ -331,8 +283,8 @@
     "native": "吉野町",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 8829,
-    "wikiDataId": "Q873546"
+    "type": "town",
+    "population": 6229,
+    "wikiDataId": "Q1203731"
   }
 ]

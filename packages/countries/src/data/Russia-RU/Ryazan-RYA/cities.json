@@ -11,7 +11,7 @@
     "native": "Александро-Невский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3605,
     "wikiDataId": "Q4061034"
   },
@@ -27,7 +27,7 @@
     "native": "Баграмово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2174,
     "wikiDataId": "Q31897363"
   },
@@ -59,7 +59,7 @@
     "native": "Гусь-Железный",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2381,
     "wikiDataId": "Q4152904"
   },
@@ -75,7 +75,7 @@
     "native": "Ижевское",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3703,
     "wikiDataId": "Q37809506"
   },
@@ -91,7 +91,7 @@
     "native": "Кадом",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 5031,
     "wikiDataId": "Q2631412"
   },
@@ -107,25 +107,9 @@
     "native": "Касимов",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 27821,
     "wikiDataId": "Q145457"
-  },
-  {
-    "id": 98898,
-    "name": "Kasimovskiy Rayon",
-    "state_id": 1905,
-    "state_code": "RYA",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "54.91667000",
-    "longitude": "41.41667000",
-    "native": "Касимовский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2628828"
   },
   {
     "id": 99058,
@@ -139,25 +123,9 @@
     "native": "Кирицы",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1255,
     "wikiDataId": "Q35696536"
-  },
-  {
-    "id": 99097,
-    "name": "Klepikovskiy Rayon",
-    "state_id": 1905,
-    "state_code": "RYA",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "55.08333000",
-    "longitude": "40.08333000",
-    "native": "Клепиковский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1652999"
   },
   {
     "id": 99202,
@@ -171,7 +139,7 @@
     "native": "Кораблино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 10084,
     "wikiDataId": "Q155229"
   },
@@ -187,7 +155,7 @@
     "native": "Лашма",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1510,
     "wikiDataId": "Q35712255"
   },
@@ -203,7 +171,7 @@
     "native": "Лесной",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7335,
     "wikiDataId": "Q35715818"
   },
@@ -219,7 +187,7 @@
     "native": "Михайлов",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 10085,
     "wikiDataId": "Q159071"
   },
@@ -235,7 +203,7 @@
     "native": "Милославское",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 42,
     "wikiDataId": "Q35730034"
   },
@@ -251,7 +219,7 @@
     "native": "Мурмино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3321,
     "wikiDataId": "Q35735783"
   },
@@ -283,7 +251,7 @@
     "native": "Октябрьский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6067,
     "wikiDataId": "Q37900636"
   },
@@ -299,7 +267,7 @@
     "native": "Павелец",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2153,
     "wikiDataId": "Q37959291"
   },
@@ -315,7 +283,7 @@
     "native": "Пителино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 1907,
     "wikiDataId": "Q37959061"
   },
@@ -331,7 +299,7 @@
     "native": "Поляны",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6371,
     "wikiDataId": "Q37958936"
   },
@@ -347,7 +315,7 @@
     "native": "Пронск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4757,
     "wikiDataId": "Q1644777"
   },
@@ -363,7 +331,7 @@
     "native": "Путятино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3199,
     "wikiDataId": "Q37958719"
   },
@@ -416,22 +384,6 @@
     "wikiDataId": "Q174185"
   },
   {
-    "id": 101052,
-    "name": "Rybnovskiy Rayon",
-    "state_id": 1905,
-    "state_code": "RYA",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "54.75000000",
-    "longitude": "39.50000000",
-    "native": "Рыбновский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1654543"
-  },
-  {
     "id": 101053,
     "name": "Rybnoye",
     "state_id": 1905,
@@ -443,7 +395,7 @@
     "native": "Рыбное",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 21200,
     "wikiDataId": "Q193419"
   },
@@ -459,7 +411,7 @@
     "native": "Сапожок",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 2984,
     "wikiDataId": "Q37958300"
   },
@@ -491,7 +443,7 @@
     "native": "Сасово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 29858,
     "wikiDataId": "Q193557"
   },
@@ -507,7 +459,7 @@
     "native": "Шацк",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5791,
     "wikiDataId": "Q187032"
   },
@@ -523,7 +475,7 @@
     "native": "Шилово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 13598,
     "wikiDataId": "Q37957735"
   },
@@ -539,7 +491,7 @@
     "native": "Скопин",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24055,
     "wikiDataId": "Q194670"
   },
@@ -571,7 +523,7 @@
     "native": "Спас-Клепики",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4591,
     "wikiDataId": "Q196439"
   },
@@ -587,7 +539,7 @@
     "native": "Спасск-Рязанский",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 8655,
     "wikiDataId": "Q196458"
   },
@@ -603,7 +555,7 @@
     "native": "Старожилово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 4935,
     "wikiDataId": "Q37957094"
   },
@@ -651,7 +603,7 @@
     "native": "Ухолово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 3859,
     "wikiDataId": "Q37956136"
   },
@@ -667,7 +619,7 @@
     "native": "Виленка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1221,
     "wikiDataId": "Q37955331"
   },
@@ -683,9 +635,9 @@
     "native": "Ямбирно",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1623,
-    "wikiDataId": "Q33522910"
+    "wikiDataId": "Q23958993"
   },
   {
     "id": 102537,
@@ -699,7 +651,7 @@
     "native": "Елатьма",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3700,
     "wikiDataId": "Q33523283"
   },
@@ -731,25 +683,9 @@
     "native": "Захарово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 2336,
     "wikiDataId": "Q33524636"
-  },
-  {
-    "id": 102636,
-    "name": "Zakharovskiy Rayon",
-    "state_id": 1905,
-    "state_code": "RYA",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "54.41667000",
-    "longitude": "39.25000000",
-    "native": "Захаровский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1658627"
   },
   {
     "id": 102653,

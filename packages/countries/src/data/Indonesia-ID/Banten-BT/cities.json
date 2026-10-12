@@ -6,8 +6,8 @@
     "state_code": "BT",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-5.96849850",
-    "longitude": "105.92142320",
+    "latitude": "-6.01666667",
+    "longitude": "106.01666667",
     "native": "Kota Cilegon",
     "timezone": "Asia/Jakarta",
     "translations": {},
@@ -27,25 +27,9 @@
     "native": "Kota Serang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 692101,
     "wikiDataId": "Q10126"
-  },
-  {
-    "id": 57014,
-    "name": "Kota Tangerang",
-    "state_id": 1810,
-    "state_code": "BT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.17806000",
-    "longitude": "106.63000000",
-    "native": "Kota Tangerang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "city",
-    "population": 1912679,
-    "wikiDataId": "Q10127"
   },
   {
     "id": 56996,
@@ -80,6 +64,22 @@
     "wikiDataId": "Q10119"
   },
   {
+    "id": 56905,
+    "name": "Pamulang",
+    "state_id": 1810,
+    "state_code": "BT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.34278000",
+    "longitude": "106.73833000",
+    "native": "Pamulang",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "city",
+    "population": 174557,
+    "wikiDataId": "Q24849733"
+  },
+  {
     "id": 56574,
     "name": "Pandeglang",
     "state_id": 1810,
@@ -112,6 +112,22 @@
     "wikiDataId": "Q10122"
   },
   {
+    "id": 56971,
+    "name": "Serpong",
+    "state_id": 1810,
+    "state_code": "BT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.31694000",
+    "longitude": "106.66417000",
+    "native": "Serpong",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "city",
+    "population": 80193,
+    "wikiDataId": "Q24838071"
+  },
+  {
     "id": 56666,
     "name": "Tangerang",
     "state_id": 1810,
@@ -126,5 +142,21 @@
     "type": "regency",
     "population": null,
     "wikiDataId": "Q10123"
+  },
+  {
+    "id": 57014,
+    "name": "Tangerang",
+    "state_id": 1810,
+    "state_code": "BT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.17806000",
+    "longitude": "106.63000000",
+    "native": "Kota Tangerang",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "city",
+    "population": 1912679,
+    "wikiDataId": "Q10127"
   }
 ]

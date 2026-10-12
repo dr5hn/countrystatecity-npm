@@ -1,37 +1,5 @@
 [
   {
-    "id": 48570,
-    "name": "Blindley Heath",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.19344000",
-    "longitude": "-0.05116000",
-    "native": "Blindley Heath",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1123,
-    "wikiDataId": "Q591927"
-  },
-  {
-    "id": 48890,
-    "name": "Caterham",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.28230000",
-    "longitude": "-0.07889000",
-    "native": "Caterham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 21030,
-    "wikiDataId": "Q1996975"
-  },
-  {
     "id": 49186,
     "name": "Croydon",
     "state_id": 2512,
@@ -46,22 +14,6 @@
     "type": "adm3",
     "population": 173314,
     "wikiDataId": "Q2213391"
-  },
-  {
-    "id": 49673,
-    "name": "Godstone",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.24779000",
-    "longitude": "-0.06914000",
-    "native": "Freight",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2564,
-    "wikiDataId": "Q2954373"
   },
   {
     "id": 51006,
@@ -93,7 +45,7 @@
     "translations": {},
     "type": "locality",
     "population": 55198,
-    "wikiDataId": "Q1791976"
+    "wikiDataId": null
   },
   {
     "id": 51605,
@@ -112,22 +64,6 @@
     "wikiDataId": "Q2123194"
   },
   {
-    "id": 51753,
-    "name": "Warlingham",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.30953000",
-    "longitude": "-0.05794000",
-    "native": "Wardlingham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8492,
-    "wikiDataId": "Q3062919"
-  },
-  {
     "id": 51835,
     "name": "West Wickham",
     "state_id": 2512,
@@ -141,38 +77,6 @@
     "translations": {},
     "type": "city",
     "population": 14276,
-    "wikiDataId": "Q2111159"
-  },
-  {
-    "id": 51887,
-    "name": "Whyteleafe",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.30808000",
-    "longitude": "-0.08429000",
-    "native": "Whyteleafe",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3315,
-    "wikiDataId": "Q1610387"
-  },
-  {
-    "id": 51959,
-    "name": "Woldingham",
-    "state_id": 2512,
-    "state_code": "CRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.28527000",
-    "longitude": "-0.03372000",
-    "native": "Woldingham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1502,
-    "wikiDataId": "Q2679683"
+    "wikiDataId": null
   }
 ]

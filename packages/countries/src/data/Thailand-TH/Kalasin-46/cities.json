@@ -1,37 +1,5 @@
 [
   {
-    "id": 105354,
-    "name": "Amphoe Huai Mek",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.58868000",
-    "longitude": "103.24098000",
-    "native": "อำเภอห้วยเม็ก",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475536"
-  },
-  {
-    "id": 105368,
-    "name": "Amphoe Kamalasai",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.27999000",
-    "longitude": "103.60010000",
-    "native": "อำเภอกมลาไสย",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475576"
-  },
-  {
     "id": 105399,
     "name": "Amphoe Khao Wong",
     "state_id": 3550,
@@ -46,22 +14,6 @@
     "type": "district",
     "population": null,
     "wikiDataId": "Q475671"
-  },
-  {
-    "id": 105459,
-    "name": "Amphoe Kuchinarai",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.51977000",
-    "longitude": "104.05097000",
-    "native": "อำเภอกุฉินารายณ์",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 20532,
-    "wikiDataId": "Q475841"
   },
   {
     "id": 105670,
@@ -80,36 +32,20 @@
     "wikiDataId": "Q476263"
   },
   {
-    "id": 106376,
-    "name": "Amphoe Yang Talat",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.43961000",
-    "longitude": "103.34085000",
-    "native": "อำเภอยางตลาด",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q477114"
-  },
-  {
     "id": 105329,
     "name": "Don Chan",
     "state_id": 3550,
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.46667000",
-    "longitude": "103.71667000",
-    "native": "อำเภอดอนจาน",
+    "latitude": "16.45711000",
+    "longitude": "103.69558000",
+    "native": "ดอนจาน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475469"
+    "wikiDataId": null
   },
   {
     "id": 106501,
@@ -123,7 +59,7 @@
     "native": "ห้วยเม็ก",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 12352,
     "wikiDataId": "Q28736775"
   },
@@ -155,7 +91,7 @@
     "native": "กาฬสินธุ์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 55102,
     "wikiDataId": "Q1012635"
   },
@@ -171,8 +107,8 @@
     "native": "กมลาไสย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 23393,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28736770"
   },
   {
@@ -182,14 +118,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.93884000",
-    "longitude": "103.63980000",
-    "native": "อำเภอคำม่วง",
+    "latitude": "16.92902000",
+    "longitude": "103.63518000",
+    "native": "คำม่วง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475634"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106520,
@@ -205,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 15184,
-    "wikiDataId": "Q28572792"
+    "wikiDataId": null
   },
   {
     "id": 105423,
@@ -224,6 +160,22 @@
     "wikiDataId": "Q475742"
   },
   {
+    "id": 105459,
+    "name": "Kuchinarai",
+    "state_id": 3550,
+    "state_code": "46",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "16.53179500",
+    "longitude": "104.04400200",
+    "native": "กุฉินารายณ์",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q13025357"
+  },
+  {
     "id": 106543,
     "name": "Kuchinarai",
     "state_id": 3550,
@@ -237,23 +189,7 @@
     "translations": {},
     "type": "adm2",
     "population": 20532,
-    "wikiDataId": "Q15216155"
-  },
-  {
-    "id": 105542,
-    "name": "Mueang Kalasin",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.50918000",
-    "longitude": "103.54984000",
-    "native": "อำเภอเมืองกาฬสินธุ์",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476017"
+    "wikiDataId": null
   },
   {
     "id": 105615,
@@ -262,14 +198,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.75018000",
-    "longitude": "104.00062000",
-    "native": "อำเภอนาคู",
+    "latitude": "16.76384000",
+    "longitude": "104.02626000",
+    "native": "นาคู",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476131"
+    "wikiDataId": null
   },
   {
     "id": 105618,
@@ -278,14 +214,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.56994000",
-    "longitude": "103.78015000",
-    "native": "อำเภอนามอน",
+    "latitude": "16.57653000",
+    "longitude": "103.78711000",
+    "native": "นามน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476136"
+    "wikiDataId": null
   },
   {
     "id": 106602,
@@ -299,7 +235,7 @@
     "native": "น้องกุงสี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17001,
     "wikiDataId": "Q28736761"
   },
@@ -310,14 +246,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.27925000",
-    "longitude": "103.71238000",
-    "native": "อำเภอร่องคำ",
+    "latitude": "16.27095400",
+    "longitude": "103.74735400",
+    "native": "ร่องคำ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476570"
+    "wikiDataId": "Q25143248"
   },
   {
     "id": 105820,
@@ -358,14 +294,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.76973000",
-    "longitude": "103.75012000",
-    "native": "อำเภอสมเด็จ",
+    "latitude": "16.70462000",
+    "longitude": "103.74935000",
+    "native": "สมเด็จ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476751"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106274,
@@ -374,14 +310,14 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.88333000",
-    "longitude": "103.25000000",
-    "native": "อำเภอท่าคันโท",
+    "latitude": "16.93953000",
+    "longitude": "103.24586000",
+    "native": "ท่าคันโท",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476829"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 106757,
@@ -390,13 +326,13 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.39982000",
-    "longitude": "103.36785000",
-    "native": "ยาง ทาลัต",
+    "latitude": "16.39972222",
+    "longitude": "103.36777778",
+    "native": "ยางตลาด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 13360,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28736750"
   }
 ]

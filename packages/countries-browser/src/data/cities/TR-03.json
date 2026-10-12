@@ -1,5 +1,21 @@
 [
   {
+    "id": 108190,
+    "name": "Afyonkarahisar",
+    "state_id": 2179,
+    "state_code": "03",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "38.75805556",
+    "longitude": "30.53861111",
+    "native": "Afyonkarahisar",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 260577,
+    "wikiDataId": "Q166824"
+  },
+  {
     "id": 107318,
     "name": "Başmakçı",
     "state_id": 2179,
@@ -13,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10031,
-    "wikiDataId": "Q812759"
+    "wikiDataId": null
   },
   {
     "id": 107293,
@@ -24,12 +40,12 @@
     "country_code": "TR",
     "latitude": "38.98306000",
     "longitude": "30.92472000",
-    "native": "Sırasında",
+    "native": "Bayat",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 4790,
-    "wikiDataId": "Q810916"
+    "type": "municipality",
+    "population": 4176,
+    "wikiDataId": "Q1910298"
   },
   {
     "id": 107367,
@@ -43,9 +59,9 @@
     "native": "Bolvadin",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 55870,
-    "wikiDataId": "Q200951"
+    "type": "municipality",
+    "population": 34122,
+    "wikiDataId": "Q1915508"
   },
   {
     "id": 108795,
@@ -61,7 +77,7 @@
     "translations": {},
     "type": "adm2",
     "population": 31412,
-    "wikiDataId": "Q272692"
+    "wikiDataId": null
   },
   {
     "id": 108841,
@@ -75,8 +91,8 @@
     "native": "Çobanlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 14503,
+    "type": "municipality",
+    "population": 9468,
     "wikiDataId": "Q1948398"
   },
   {
@@ -88,12 +104,12 @@
     "country_code": "TR",
     "latitude": "37.91861000",
     "longitude": "29.86056000",
-    "native": "İhanet",
+    "native": "Dazkırı",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
     "population": 6450,
-    "wikiDataId": "Q3233819"
+    "wikiDataId": null
   },
   {
     "id": 107498,
@@ -104,12 +120,12 @@
     "country_code": "TR",
     "latitude": "38.06500000",
     "longitude": "30.16557000",
-    "native": "Kirli",
+    "native": "Dinar",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
     "population": 35359,
-    "wikiDataId": "Q2473716"
+    "wikiDataId": null
   },
   {
     "id": 107576,
@@ -141,7 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4902,
-    "wikiDataId": "Q1029159"
+    "wikiDataId": null
   },
   {
     "id": 107831,
@@ -157,7 +173,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2588,
-    "wikiDataId": "Q475253"
+    "wikiDataId": null
   },
   {
     "id": 108883,
@@ -173,7 +189,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5767,
-    "wikiDataId": "Q335204"
+    "wikiDataId": null
   },
   {
     "id": 108912,
@@ -189,7 +205,7 @@
     "translations": {},
     "type": "adm2",
     "population": 11809,
-    "wikiDataId": "Q4819763"
+    "wikiDataId": null
   },
   {
     "id": 108120,
@@ -205,23 +221,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2403,
-    "wikiDataId": "Q693929"
-  },
-  {
-    "id": 108190,
-    "name": "Merkez",
-    "state_id": 2179,
-    "state_code": "03",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "38.79698000",
-    "longitude": "30.51951000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "wikiDataId": null
   },
   {
     "id": 108383,
@@ -235,9 +235,9 @@
     "native": "Sandıklı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 42981,
-    "wikiDataId": "Q160450"
+    "type": "municipality",
+    "population": 34876,
+    "wikiDataId": "Q2423834"
   },
   {
     "id": 108468,
@@ -253,7 +253,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5940,
-    "wikiDataId": "Q1948344"
+    "wikiDataId": null
   },
   {
     "id": 108964,
@@ -267,9 +267,9 @@
     "native": "Şuhut",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 13842,
-    "wikiDataId": "Q390637"
+    "type": "municipality",
+    "population": 15336,
+    "wikiDataId": "Q1947545"
   },
   {
     "id": 108493,

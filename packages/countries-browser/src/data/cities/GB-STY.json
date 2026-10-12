@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 5001,
-    "wikiDataId": "Q2185491"
+    "wikiDataId": null
   },
   {
     "id": 49880,
@@ -27,7 +27,7 @@
     "native": "Hebburn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 18808,
     "wikiDataId": "Q984308"
   },
@@ -43,7 +43,7 @@
     "native": "Jarrow",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 27526,
     "wikiDataId": "Q782155"
   },
@@ -59,25 +59,9 @@
     "native": "South Shields",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 75337,
     "wikiDataId": "Q279000"
-  },
-  {
-    "id": 51366,
-    "name": "South Tyneside",
-    "state_id": 2409,
-    "state_code": "STY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.95000000",
-    "longitude": "-1.41667000",
-    "native": "South Tyneside",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1541228"
   },
   {
     "id": 51588,
@@ -93,23 +77,7 @@
     "translations": {},
     "type": "locality",
     "population": 13567,
-    "wikiDataId": "Q2283481"
-  },
-  {
-    "id": 51763,
-    "name": "Washington",
-    "state_id": 2409,
-    "state_code": "STY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.90000000",
-    "longitude": "-1.51667000",
-    "native": "Washington",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 53526,
-    "wikiDataId": "Q1018448"
+    "wikiDataId": null
   },
   {
     "id": 51867,

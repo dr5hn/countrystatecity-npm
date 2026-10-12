@@ -11,25 +11,9 @@
     "native": "Backworth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1399,
     "wikiDataId": "Q3632663"
-  },
-  {
-    "id": 48602,
-    "name": "Borough of North Tyneside",
-    "state_id": 2521,
-    "state_code": "NTY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.03333000",
-    "longitude": "-1.50000000",
-    "native": "Borough of North Tyneside",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1120443"
   },
   {
     "id": 50763,
@@ -59,7 +43,7 @@
     "native": "Shiremoor",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4889,
     "wikiDataId": "Q7498554"
   },
@@ -75,7 +59,7 @@
     "native": "Tynemouth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 17436,
     "wikiDataId": "Q1755020"
   },
@@ -91,7 +75,7 @@
     "native": "Wallsend",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 42739,
     "wikiDataId": "Q1248150"
   },
@@ -107,8 +91,24 @@
     "native": "Whitley Bay",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 38055,
     "wikiDataId": "Q2575441"
+  },
+  {
+    "id": 51896,
+    "name": "Wideopen",
+    "state_id": 2521,
+    "state_code": "NTY",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.04514000",
+    "longitude": "-1.62246000",
+    "native": "Wideopen",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 8976,
+    "wikiDataId": "Q9372539"
   }
 ]

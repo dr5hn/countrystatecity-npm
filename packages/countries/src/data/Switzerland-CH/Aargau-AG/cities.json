@@ -11,9 +11,9 @@
     "native": "Aarau",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm1",
-    "population": 21503,
-    "wikiDataId": "Q223920"
+    "type": "city",
+    "population": 22932,
+    "wikiDataId": "Q14274"
   },
   {
     "id": 17359,
@@ -28,8 +28,8 @@
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
-    "population": 8185,
-    "wikiDataId": "Q223920"
+    "population": 9040,
+    "wikiDataId": "Q64165"
   },
   {
     "id": 17407,
@@ -43,9 +43,9 @@
     "native": "Aristau",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1498,
-    "wikiDataId": "Q22450934"
+    "type": "municipality",
+    "population": 1655,
+    "wikiDataId": "Q64752"
   },
   {
     "id": 17424,
@@ -56,12 +56,12 @@
     "country_code": "CH",
     "latitude": "47.21082000",
     "longitude": "8.36583000",
-    "native": "Wady",
+    "native": "Auw",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1610,
-    "wikiDataId": "Q22464223"
+    "type": "municipality",
+    "population": 2325,
+    "wikiDataId": "Q64420"
   },
   {
     "id": 17431,
@@ -72,10 +72,10 @@
     "country_code": "CH",
     "latitude": "47.58764000",
     "longitude": "8.29365000",
-    "native": "Schlechtes Zuzach",
+    "native": "Bad Zurzach",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4344,
     "wikiDataId": "Q22471704"
   },
@@ -91,9 +91,9 @@
     "native": "Baden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 19340,
-    "wikiDataId": "Q22471704"
+    "type": "city",
+    "population": 24012,
+    "wikiDataId": "Q63939"
   },
   {
     "id": 17460,
@@ -104,12 +104,12 @@
     "country_code": "CH",
     "latitude": "47.35155000",
     "longitude": "8.37232000",
-    "native": "Lager",
+    "native": "Berikon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4776,
-    "wikiDataId": "Q22396636"
+    "type": "municipality",
+    "population": 5026,
+    "wikiDataId": "Q64334"
   },
   {
     "id": 17467,
@@ -120,188 +120,12 @@
     "country_code": "CH",
     "latitude": "47.31439000",
     "longitude": "8.34586000",
-    "native": "Besenbürren",
+    "native": "Besenbüren",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 0,
+    "type": "municipality",
+    "population": 677,
     "wikiDataId": "Q659378"
-  },
-  {
-    "id": 17471,
-    "name": "Bezirk Aarau",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.37706000",
-    "longitude": "8.05235000",
-    "native": "Bezirk Aarau",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q121410"
-  },
-  {
-    "id": 17475,
-    "name": "Bezirk Baden",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.45660000",
-    "longitude": "8.30059000",
-    "native": "Bezirk Baden",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q659597"
-  },
-  {
-    "id": 17476,
-    "name": "Bezirk Bremgarten",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.34927000",
-    "longitude": "8.33343000",
-    "native": "Bezirk Bremgarten",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q598525"
-  },
-  {
-    "id": 17477,
-    "name": "Bezirk Brugg",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.47776000",
-    "longitude": "8.17798000",
-    "native": "Bezirk Brugg",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "city",
-    "population": 4022,
-    "wikiDataId": "Q658994"
-  },
-  {
-    "id": 17491,
-    "name": "Bezirk Kulm",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.28757000",
-    "longitude": "8.13302000",
-    "native": "Bezirk Kulm",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm3",
-    "population": null,
-    "wikiDataId": "Q659715"
-  },
-  {
-    "id": 17494,
-    "name": "Bezirk Laufenburg",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.51844000",
-    "longitude": "8.03878000",
-    "native": "Bezirk Laufenburg",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q533676"
-  },
-  {
-    "id": 17496,
-    "name": "Bezirk Lenzburg",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.37184000",
-    "longitude": "8.18910000",
-    "native": "Bezirk Lenzburg",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q659293"
-  },
-  {
-    "id": 17501,
-    "name": "Bezirk Muri",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.25233000",
-    "longitude": "8.35362000",
-    "native": "Bezirk Muri",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q656740"
-  },
-  {
-    "id": 17506,
-    "name": "Bezirk Rheinfelden",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.54048000",
-    "longitude": "7.83331000",
-    "native": "Bezirk Rheinfeld",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q854013"
-  },
-  {
-    "id": 17521,
-    "name": "Bezirk Zofingen",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.28864000",
-    "longitude": "7.95697000",
-    "native": "Bezirk Zofingen",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q659332"
-  },
-  {
-    "id": 17522,
-    "name": "Bezirk Zurzach",
-    "state_id": 1639,
-    "state_code": "AG",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "47.56182000",
-    "longitude": "8.28020000",
-    "native": "Bezirk Zurzach",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q659309"
   },
   {
     "id": 17536,
@@ -315,9 +139,9 @@
     "native": "Birmenstorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2992,
-    "wikiDataId": "Q22551003"
+    "type": "municipality",
+    "population": 3053,
+    "wikiDataId": "Q64457"
   },
   {
     "id": 17537,
@@ -331,9 +155,9 @@
     "native": "Birr",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4354,
-    "wikiDataId": "Q22551193"
+    "type": "municipality",
+    "population": 4868,
+    "wikiDataId": "Q64411"
   },
   {
     "id": 17549,
@@ -344,12 +168,12 @@
     "country_code": "CH",
     "latitude": "47.31725000",
     "longitude": "8.18963000",
-    "native": "Bonikil",
+    "native": "Boniswil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1427,
-    "wikiDataId": "Q22580171"
+    "type": "municipality",
+    "population": 1795,
+    "wikiDataId": "Q64529"
   },
   {
     "id": 17558,
@@ -363,9 +187,9 @@
     "native": "Bremgarten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 6543,
-    "wikiDataId": "Q22592231"
+    "type": "city",
+    "population": 8902,
+    "wikiDataId": "Q64139"
   },
   {
     "id": 17565,
@@ -379,9 +203,9 @@
     "native": "Brittnau",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3954,
-    "wikiDataId": "Q22595470"
+    "type": "municipality",
+    "population": 4350,
+    "wikiDataId": "Q64273"
   },
   {
     "id": 17570,
@@ -395,9 +219,9 @@
     "native": "Brugg",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11177,
-    "wikiDataId": "Q495882"
+    "wikiDataId": "Q64099"
   },
   {
     "id": 17579,
@@ -411,9 +235,9 @@
     "native": "Buchs",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 7966,
-    "wikiDataId": "Q22603234"
+    "type": "municipality",
+    "population": 8651,
+    "wikiDataId": "Q64512"
   },
   {
     "id": 17588,
@@ -427,9 +251,9 @@
     "native": "Buttwil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1228,
-    "wikiDataId": "Q22363323"
+    "type": "municipality",
+    "population": 1305,
+    "wikiDataId": "Q64792"
   },
   {
     "id": 17682,
@@ -443,9 +267,9 @@
     "native": "Densburen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 730,
-    "wikiDataId": "Q22622647"
+    "type": "municipality",
+    "population": 784,
+    "wikiDataId": "Q64537"
   },
   {
     "id": 17705,
@@ -456,12 +280,12 @@
     "country_code": "CH",
     "latitude": "47.38437000",
     "longitude": "8.23981000",
-    "native": "Physikel",
+    "native": "Dottikon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3881,
-    "wikiDataId": "Q22588230"
+    "type": "municipality",
+    "population": 4240,
+    "wikiDataId": "Q64438"
   },
   {
     "id": 17717,
@@ -475,9 +299,9 @@
     "native": "Dürrenäsch",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1255,
-    "wikiDataId": "Q22609484"
+    "type": "municipality",
+    "population": 1393,
+    "wikiDataId": "Q64979"
   },
   {
     "id": 17732,
@@ -491,9 +315,9 @@
     "native": "Egliswil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1456,
-    "wikiDataId": "Q22376926"
+    "type": "municipality",
+    "population": 1627,
+    "wikiDataId": "Q65155"
   },
   {
     "id": 17734,
@@ -507,9 +331,9 @@
     "native": "Ehrendingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4823,
-    "wikiDataId": "Q22377720"
+    "type": "municipality",
+    "population": 4919,
+    "wikiDataId": "Q65294"
   },
   {
     "id": 17737,
@@ -520,12 +344,12 @@
     "country_code": "CH",
     "latitude": "47.53361000",
     "longitude": "7.98801000",
-    "native": "Eiche",
+    "native": "Eiken",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2289,
-    "wikiDataId": "Q22379634"
+    "type": "municipality",
+    "population": 2573,
+    "wikiDataId": "Q66433"
   },
   {
     "id": 17749,
@@ -539,9 +363,9 @@
     "native": "Endingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1935,
-    "wikiDataId": "Q22702045"
+    "type": "municipality",
+    "population": 2758,
+    "wikiDataId": "Q69438"
   },
   {
     "id": 17810,
@@ -552,12 +376,12 @@
     "country_code": "CH",
     "latitude": "47.51169000",
     "longitude": "8.02471000",
-    "native": "Verrückt",
+    "native": "Frick",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5563,
-    "wikiDataId": "Q22578706"
+    "type": "municipality",
+    "population": 6211,
+    "wikiDataId": "Q66617"
   },
   {
     "id": 17824,
@@ -571,9 +395,9 @@
     "native": "Gebenstorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4100,
-    "wikiDataId": "Q22633025"
+    "type": "municipality",
+    "population": 5840,
+    "wikiDataId": "Q64486"
   },
   {
     "id": 17834,
@@ -587,9 +411,9 @@
     "native": "Gipf-oberfrick",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3542,
-    "wikiDataId": "Q22644619"
+    "type": "municipality",
+    "population": 3886,
+    "wikiDataId": "Q66986"
   },
   {
     "id": 17853,
@@ -600,12 +424,12 @@
     "country_code": "CH",
     "latitude": "47.27166000",
     "longitude": "8.14396000",
-    "native": "Gonenschwil",
+    "native": "Gontenschwil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2171,
-    "wikiDataId": "Q22366778"
+    "type": "municipality",
+    "population": 2249,
+    "wikiDataId": "Q65333"
   },
   {
     "id": 17880,
@@ -619,9 +443,9 @@
     "native": "Gränichen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 7733,
-    "wikiDataId": "Q22652016"
+    "type": "municipality",
+    "population": 8699,
+    "wikiDataId": "Q64267"
   },
   {
     "id": 17939,
@@ -635,9 +459,9 @@
     "native": "Hägglingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2422,
-    "wikiDataId": "Q22652879"
+    "type": "municipality",
+    "population": 2707,
+    "wikiDataId": "Q65286"
   },
   {
     "id": 17895,
@@ -651,9 +475,9 @@
     "native": "Hausen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2881,
-    "wikiDataId": "Q22601809"
+    "type": "municipality",
+    "population": 3850,
+    "wikiDataId": "Q65497"
   },
   {
     "id": 17960,
@@ -667,9 +491,9 @@
     "native": "Jonen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1683,
-    "wikiDataId": "Q22486116"
+    "type": "municipality",
+    "population": 2333,
+    "wikiDataId": "Q64957"
   },
   {
     "id": 17966,
@@ -683,9 +507,9 @@
     "native": "Kaiseraugst",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3600,
-    "wikiDataId": "Q22504776"
+    "type": "municipality",
+    "population": 5985,
+    "wikiDataId": "Q69048"
   },
   {
     "id": 17967,
@@ -696,12 +520,12 @@
     "country_code": "CH",
     "latitude": "47.54160000",
     "longitude": "8.04337000",
-    "native": "Koisten",
+    "native": "Kaisten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2670,
-    "wikiDataId": "Q22504869"
+    "type": "municipality",
+    "population": 3063,
+    "wikiDataId": "Q67904"
   },
   {
     "id": 17978,
@@ -712,12 +536,12 @@
     "country_code": "CH",
     "latitude": "47.43223000",
     "longitude": "8.35097000",
-    "native": "Tötet",
+    "native": "Killwangen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2074,
-    "wikiDataId": "Q22408216"
+    "type": "municipality",
+    "population": 2272,
+    "wikiDataId": "Q64547"
   },
   {
     "id": 17985,
@@ -732,8 +556,8 @@
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
-    "population": 3480,
-    "wikiDataId": "Q22543965"
+    "population": 3710,
+    "wikiDataId": "Q67135"
   },
   {
     "id": 17999,
@@ -747,9 +571,9 @@
     "native": "Koblenz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1651,
-    "wikiDataId": "Q22547330"
+    "type": "municipality",
+    "population": 1835,
+    "wikiDataId": "Q69441"
   },
   {
     "id": 18010,
@@ -763,9 +587,9 @@
     "native": "Kölliken",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4476,
-    "wikiDataId": "Q22565297"
+    "type": "municipality",
+    "population": 5133,
+    "wikiDataId": "Q68106"
   },
   {
     "id": 18012,
@@ -779,9 +603,9 @@
     "native": "Künten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1749,
-    "wikiDataId": "Q22565012"
+    "type": "municipality",
+    "population": 1978,
+    "wikiDataId": "Q64247"
   },
   {
     "id": 18020,
@@ -795,9 +619,9 @@
     "native": "Küttigen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6180,
-    "wikiDataId": "Q22565182"
+    "type": "municipality",
+    "population": 7025,
+    "wikiDataId": "Q65007"
   },
   {
     "id": 18043,
@@ -808,12 +632,12 @@
     "country_code": "CH",
     "latitude": "47.55985000",
     "longitude": "8.06225000",
-    "native": "LAULLENBURG",
+    "native": "Laufenburg",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 3632,
-    "wikiDataId": "Q22372470"
+    "type": "city",
+    "population": 3882,
+    "wikiDataId": "Q69191"
   },
   {
     "id": 18044,
@@ -843,9 +667,9 @@
     "native": "Leibstadt",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1325,
-    "wikiDataId": "Q22401542"
+    "type": "municipality",
+    "population": 1639,
+    "wikiDataId": "Q66347"
   },
   {
     "id": 18066,
@@ -859,9 +683,9 @@
     "native": "Lenzburg",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 10569,
-    "wikiDataId": "Q70361"
+    "type": "city",
+    "population": 11322,
+    "wikiDataId": "Q69433"
   },
   {
     "id": 18115,
@@ -875,9 +699,9 @@
     "native": "Magden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3915,
-    "wikiDataId": "Q22365375"
+    "type": "municipality",
+    "population": 3903,
+    "wikiDataId": "Q66567"
   },
   {
     "id": 18144,
@@ -891,9 +715,9 @@
     "native": "Meisterschwanden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2960,
-    "wikiDataId": "Q22492753"
+    "type": "municipality",
+    "population": 3330,
+    "wikiDataId": "Q65316"
   },
   {
     "id": 18148,
@@ -904,12 +728,12 @@
     "country_code": "CH",
     "latitude": "47.41903000",
     "longitude": "8.27331000",
-    "native": "Malen",
+    "native": "Mellingen",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
-    "population": 4224,
-    "wikiDataId": "Q22493909"
+    "population": 6324,
+    "wikiDataId": "Q64216"
   },
   {
     "id": 18151,
@@ -923,9 +747,9 @@
     "native": "Menziken",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6330,
-    "wikiDataId": "Q22496025"
+    "type": "municipality",
+    "population": 8909,
+    "wikiDataId": "Q65309"
   },
   {
     "id": 18154,
@@ -939,9 +763,9 @@
     "native": "Merenschwand",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2479,
-    "wikiDataId": "Q22496906"
+    "type": "municipality",
+    "population": 3945,
+    "wikiDataId": "Q64755"
   },
   {
     "id": 18191,
@@ -955,9 +779,9 @@
     "native": "Möhlin",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 11042,
-    "wikiDataId": "Q22644873"
+    "type": "municipality",
+    "population": 11351,
+    "wikiDataId": "Q69126"
   },
   {
     "id": 18176,
@@ -971,9 +795,9 @@
     "native": "Muhen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3877,
-    "wikiDataId": "Q22624864"
+    "type": "municipality",
+    "population": 4099,
+    "wikiDataId": "Q64985"
   },
   {
     "id": 18177,
@@ -989,7 +813,7 @@
     "translations": {},
     "type": "city",
     "population": 1467,
-    "wikiDataId": "Q22578650"
+    "wikiDataId": "Q66293"
   },
   {
     "id": 18181,
@@ -1003,9 +827,9 @@
     "native": "Murgenthal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2984,
-    "wikiDataId": "Q22630788"
+    "type": "municipality",
+    "population": 3188,
+    "wikiDataId": "Q64478"
   },
   {
     "id": 18182,
@@ -1016,12 +840,12 @@
     "country_code": "CH",
     "latitude": "47.27428000",
     "longitude": "8.33854000",
-    "native": "Hinteren",
+    "native": "Muri",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 7810,
-    "wikiDataId": "Q22630800"
+    "type": "municipality",
+    "population": 8850,
+    "wikiDataId": "Q69011"
   },
   {
     "id": 18215,
@@ -1035,9 +859,9 @@
     "native": "Neuenhof",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 8824,
-    "wikiDataId": "Q22597037"
+    "type": "municipality",
+    "population": 9306,
+    "wikiDataId": "Q64461"
   },
   {
     "id": 18227,
@@ -1051,9 +875,9 @@
     "native": "Niederlenz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4896,
-    "wikiDataId": "Q54963822"
+    "type": "municipality",
+    "population": 4998,
+    "wikiDataId": "Q64732"
   },
   {
     "id": 18228,
@@ -1067,9 +891,9 @@
     "native": "Niederrohrdorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2784,
-    "wikiDataId": "Q22610798"
+    "type": "municipality",
+    "population": 4751,
+    "wikiDataId": "Q64465"
   },
   {
     "id": 18250,
@@ -1083,9 +907,9 @@
     "native": "Oberentfelden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 8360,
-    "wikiDataId": "Q22420179"
+    "type": "municipality",
+    "population": 9061,
+    "wikiDataId": "Q64990"
   },
   {
     "id": 18257,
@@ -1099,9 +923,9 @@
     "native": "Oberlunkhofen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 2037,
-    "wikiDataId": "Q22420868"
+    "type": "municipality",
+    "population": 2196,
+    "wikiDataId": "Q64245"
   },
   {
     "id": 18263,
@@ -1115,9 +939,9 @@
     "native": "Oberrohrdorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4072,
-    "wikiDataId": "Q22421229"
+    "type": "municipality",
+    "population": 4265,
+    "wikiDataId": "Q64496"
   },
   {
     "id": 18264,
@@ -1128,12 +952,12 @@
     "country_code": "CH",
     "latitude": "47.16673000",
     "longitude": "8.39441000",
-    "native": "Oberdrurti",
+    "native": "Oberrüti",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1534,
-    "wikiDataId": "Q22421286"
+    "type": "municipality",
+    "population": 1631,
+    "wikiDataId": "Q64771"
   },
   {
     "id": 18266,
@@ -1144,12 +968,12 @@
     "country_code": "CH",
     "latitude": "47.48750000",
     "longitude": "8.29652000",
-    "native": "Oberiggenthal",
+    "native": "Obersiggenthal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 8565,
-    "wikiDataId": "Q22421462"
+    "type": "municipality",
+    "population": 9020,
+    "wikiDataId": "Q64541"
   },
   {
     "id": 18281,
@@ -1160,12 +984,12 @@
     "country_code": "CH",
     "latitude": "47.31382000",
     "longitude": "7.92533000",
-    "native": "Am meisten",
+    "native": "Oftringen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 10390,
-    "wikiDataId": "Q22430133"
+    "type": "municipality",
+    "population": 15198,
+    "wikiDataId": "Q68220"
   },
   {
     "id": 18293,
@@ -1176,12 +1000,12 @@
     "country_code": "CH",
     "latitude": "47.40125000",
     "longitude": "8.21383000",
-    "native": "Othmarden",
+    "native": "Othmarsingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2267,
-    "wikiDataId": "Q22452667"
+    "type": "municipality",
+    "population": 3301,
+    "wikiDataId": "Q65124"
   },
   {
     "id": 18363,
@@ -1195,9 +1019,9 @@
     "native": "Reinach",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 8498,
-    "wikiDataId": "Q22594985"
+    "type": "municipality",
+    "population": 9858,
+    "wikiDataId": "Q67507"
   },
   {
     "id": 18366,
@@ -1211,9 +1035,9 @@
     "native": "Rheinfeld",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 10733,
-    "wikiDataId": "Q22372648"
+    "type": "city",
+    "population": 14034,
+    "wikiDataId": "Q269667"
   },
   {
     "id": 18394,
@@ -1227,9 +1051,9 @@
     "native": "Rothrist",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 9121,
-    "wikiDataId": "Q22467400"
+    "type": "municipality",
+    "population": 9979,
+    "wikiDataId": "Q64482"
   },
   {
     "id": 18397,
@@ -1243,7 +1067,7 @@
     "native": "Rudolfstetten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3800,
     "wikiDataId": "Q22699205"
   },
@@ -1259,9 +1083,9 @@
     "native": "Rupperswil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4137,
-    "wikiDataId": "Q22360739"
+    "type": "municipality",
+    "population": 6317,
+    "wikiDataId": "Q65306"
   },
   {
     "id": 18419,
@@ -1275,9 +1099,9 @@
     "native": "Safenwil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3798,
-    "wikiDataId": "Q22376909"
+    "type": "municipality",
+    "population": 4629,
+    "wikiDataId": "Q64448"
   },
   {
     "id": 18446,
@@ -1291,9 +1115,9 @@
     "native": "Sarmenstorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2902,
-    "wikiDataId": "Q22425870"
+    "type": "municipality",
+    "population": 3194,
+    "wikiDataId": "Q65217"
   },
   {
     "id": 18456,
@@ -1307,9 +1131,9 @@
     "native": "Schafisheim",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2997,
-    "wikiDataId": "Q22441049"
+    "type": "municipality",
+    "population": 3131,
+    "wikiDataId": "Q65993"
   },
   {
     "id": 18462,
@@ -1323,7 +1147,7 @@
     "native": "Schinznach Bad",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1327,
     "wikiDataId": "Q22698706"
   },
@@ -1339,7 +1163,7 @@
     "native": "Schinznach Dorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1736,
     "wikiDataId": "Q22698717"
   },
@@ -1355,9 +1179,9 @@
     "native": "Schöftland",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3310,
-    "wikiDataId": "Q22548656"
+    "type": "municipality",
+    "population": 4658,
+    "wikiDataId": "Q65411"
   },
   {
     "id": 18474,
@@ -1371,9 +1195,9 @@
     "native": "Schwaderloch",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 672,
-    "wikiDataId": "Q22547402"
+    "type": "municipality",
+    "population": 727,
+    "wikiDataId": "Q67340"
   },
   {
     "id": 18501,
@@ -1384,12 +1208,12 @@
     "country_code": "CH",
     "latitude": "47.32503000",
     "longitude": "8.20724000",
-    "native": "Sene",
+    "native": "Seengen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3994,
-    "wikiDataId": "Q22559065"
+    "type": "municipality",
+    "population": 4516,
+    "wikiDataId": "Q65004"
   },
   {
     "id": 18511,
@@ -1403,9 +1227,9 @@
     "native": "Seon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5288,
-    "wikiDataId": "Q22563067"
+    "type": "municipality",
+    "population": 5716,
+    "wikiDataId": "Q64563"
   },
   {
     "id": 18523,
@@ -1416,12 +1240,12 @@
     "country_code": "CH",
     "latitude": "47.19296000",
     "longitude": "8.39384000",
-    "native": "Sünden",
+    "native": "Sins",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4259,
-    "wikiDataId": "Q22630461"
+    "type": "municipality",
+    "population": 4561,
+    "wikiDataId": "Q64372"
   },
   {
     "id": 18534,
@@ -1432,12 +1256,12 @@
     "country_code": "CH",
     "latitude": "47.42285000",
     "longitude": "8.36792000",
-    "native": "SPRITENBACH",
+    "native": "Spreitenbach",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 11875,
-    "wikiDataId": "Q22356103"
+    "type": "municipality",
+    "population": 13377,
+    "wikiDataId": "Q64210"
   },
   {
     "id": 18544,
@@ -1451,9 +1275,9 @@
     "native": "Staffelbach",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1281,
-    "wikiDataId": "Q22374538"
+    "type": "municipality",
+    "population": 1398,
+    "wikiDataId": "Q64239"
   },
   {
     "id": 18548,
@@ -1467,9 +1291,9 @@
     "native": "Staufen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2424,
-    "wikiDataId": "Q22384274"
+    "type": "municipality",
+    "population": 4411,
+    "wikiDataId": "Q65137"
   },
   {
     "id": 18551,
@@ -1483,9 +1307,9 @@
     "native": "Stein",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2504,
-    "wikiDataId": "Q22389665"
+    "type": "municipality",
+    "population": 3660,
+    "wikiDataId": "Q65914"
   },
   {
     "id": 18559,
@@ -1496,12 +1320,12 @@
     "country_code": "CH",
     "latitude": "47.27917000",
     "longitude": "7.92895000",
-    "native": "Stregelbach",
+    "native": "Strengelbach",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4893,
-    "wikiDataId": "Q22416317"
+    "type": "municipality",
+    "population": 5080,
+    "wikiDataId": "Q64237"
   },
   {
     "id": 18562,
@@ -1515,9 +1339,9 @@
     "native": "Suhr",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 10424,
-    "wikiDataId": "Q22430909"
+    "type": "municipality",
+    "population": 11760,
+    "wikiDataId": "Q65195"
   },
   {
     "id": 18564,
@@ -1531,7 +1355,7 @@
     "native": "Sulz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1244,
     "wikiDataId": "Q669229"
   },
@@ -1544,12 +1368,12 @@
     "country_code": "CH",
     "latitude": "47.55809000",
     "longitude": "8.28914000",
-    "native": "Tegerfeld",
+    "native": "Tegerfelden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1190,
-    "wikiDataId": "Q22467577"
+    "type": "municipality",
+    "population": 1326,
+    "wikiDataId": "Q64255"
   },
   {
     "id": 18580,
@@ -1563,9 +1387,9 @@
     "native": "Teufenthal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1672,
-    "wikiDataId": "Q22479419"
+    "type": "municipality",
+    "population": 1772,
+    "wikiDataId": "Q65182"
   },
   {
     "id": 18614,
@@ -1576,10 +1400,10 @@
     "country_code": "CH",
     "latitude": "47.49201000",
     "longitude": "8.25412000",
-    "native": "Markt",
+    "native": "Turgi",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2982,
     "wikiDataId": "Q22357941"
   },
@@ -1595,9 +1419,9 @@
     "native": "Uerkheim",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1334,
-    "wikiDataId": "Q22380761"
+    "type": "municipality",
+    "population": 1442,
+    "wikiDataId": "Q64376"
   },
   {
     "id": 18633,
@@ -1611,9 +1435,9 @@
     "native": "UNTERKULM",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 3086,
-    "wikiDataId": "Q22388546"
+    "type": "municipality",
+    "population": 3807,
+    "wikiDataId": "Q65140"
   },
   {
     "id": 18634,
@@ -1627,9 +1451,9 @@
     "native": "Unterlunkhofen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 1415,
-    "wikiDataId": "Q22388614"
+    "type": "municipality",
+    "population": 1662,
+    "wikiDataId": "Q65150"
   },
   {
     "id": 18636,
@@ -1640,12 +1464,12 @@
     "country_code": "CH",
     "latitude": "47.50213000",
     "longitude": "8.25554000",
-    "native": "Imgentigenthal",
+    "native": "Untersiggenthal",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 7240,
-    "wikiDataId": "Q22388730"
+    "type": "municipality",
+    "population": 7875,
+    "wikiDataId": "Q64269"
   },
   {
     "id": 18664,
@@ -1659,9 +1483,9 @@
     "native": "Veltheim",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1465,
-    "wikiDataId": "Q22413230"
+    "type": "municipality",
+    "population": 1598,
+    "wikiDataId": "Q65142"
   },
   {
     "id": 18683,
@@ -1672,12 +1496,12 @@
     "country_code": "CH",
     "latitude": "47.52682000",
     "longitude": "8.21486000",
-    "native": "Bereit",
+    "native": "Villigen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1381,
-    "wikiDataId": "Q22423944"
+    "type": "municipality",
+    "population": 2257,
+    "wikiDataId": "Q65193"
   },
   {
     "id": 18684,
@@ -1691,9 +1515,9 @@
     "native": "Villmergen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5489,
-    "wikiDataId": "Q22423982"
+    "type": "municipality",
+    "population": 8290,
+    "wikiDataId": "Q64232"
   },
   {
     "id": 18685,
@@ -1707,7 +1531,7 @@
     "native": "Villnachern",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1632,
     "wikiDataId": "Q22424021"
   },
@@ -1723,9 +1547,9 @@
     "native": "Vordemwald",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1954,
-    "wikiDataId": "Q22429969"
+    "type": "municipality",
+    "population": 2026,
+    "wikiDataId": "Q64234"
   },
   {
     "id": 18719,
@@ -1739,9 +1563,9 @@
     "native": "Waltenschwil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2192,
-    "wikiDataId": "Q22544770"
+    "type": "municipality",
+    "population": 3291,
+    "wikiDataId": "Q64242"
   },
   {
     "id": 18728,
@@ -1752,12 +1576,12 @@
     "country_code": "CH",
     "latitude": "47.49797000",
     "longitude": "7.93141000",
-    "native": "Straßenstiche",
+    "native": "Wegenstetten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1066,
-    "wikiDataId": "Q22559280"
+    "type": "municipality",
+    "population": 1008,
+    "wikiDataId": "Q65889"
   },
   {
     "id": 18736,
@@ -1771,7 +1595,7 @@
     "native": "Wettingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20843,
     "wikiDataId": "Q22601617"
   },
@@ -1787,9 +1611,9 @@
     "native": "Windisch",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 7668,
-    "wikiDataId": "Q22624981"
+    "type": "municipality",
+    "population": 8286,
+    "wikiDataId": "Q69208"
   },
   {
     "id": 18760,
@@ -1800,12 +1624,12 @@
     "country_code": "CH",
     "latitude": "47.48139000",
     "longitude": "7.97577000",
-    "native": "Wittn",
+    "native": "Wittnau",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 1309,
-    "wikiDataId": "Q22075295"
+    "type": "municipality",
+    "population": 1449,
+    "wikiDataId": "Q69058"
   },
   {
     "id": 18761,
@@ -1819,9 +1643,9 @@
     "native": "Wohlen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 13875,
-    "wikiDataId": "Q22630188"
+    "type": "municipality",
+    "population": 18162,
+    "wikiDataId": "Q68244"
   },
   {
     "id": 18782,
@@ -1835,9 +1659,9 @@
     "native": "Wölflinswil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 1048,
-    "wikiDataId": "Q22641825"
+    "type": "municipality",
+    "population": 1105,
+    "wikiDataId": "Q66442"
   },
   {
     "id": 18788,
@@ -1851,9 +1675,9 @@
     "native": "Würenlingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3741,
-    "wikiDataId": "Q22641249"
+    "type": "municipality",
+    "population": 5323,
+    "wikiDataId": "Q64219"
   },
   {
     "id": 18789,
@@ -1867,9 +1691,9 @@
     "native": "Würenlos",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6482,
-    "wikiDataId": "Q22641271"
+    "type": "municipality",
+    "population": 7046,
+    "wikiDataId": "Q64258"
   },
   {
     "id": 18796,
@@ -1883,8 +1707,8 @@
     "native": "Zofingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 11655,
-    "wikiDataId": "Q27494"
+    "type": "city",
+    "population": 13054,
+    "wikiDataId": "Q63986"
   }
 ]

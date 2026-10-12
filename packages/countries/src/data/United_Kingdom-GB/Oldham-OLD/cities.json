@@ -1,19 +1,19 @@
 [
   {
-    "id": 48603,
-    "name": "Borough of Oldham",
+    "id": 164724,
+    "name": "Chadderton",
     "state_id": 2477,
     "state_code": "OLD",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.55000000",
-    "longitude": "-2.08333000",
-    "native": "Borough of Oldham",
+    "latitude": "53.54480000",
+    "longitude": "-2.13984000",
+    "native": null,
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1278608"
+    "type": "town",
+    "population": 37602,
+    "wikiDataId": "Q2199102"
   },
   {
     "id": 49258,
@@ -27,7 +27,7 @@
     "native": "Delph",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1899,
     "wikiDataId": "Q3705152"
   },
@@ -43,7 +43,7 @@
     "native": "Diggle",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1716,
     "wikiDataId": "Q5275671"
   },
@@ -59,25 +59,9 @@
     "native": "Failsworth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20555,
     "wikiDataId": "Q2346848"
-  },
-  {
-    "id": 50573,
-    "name": "Middleton",
-    "state_id": 2477,
-    "state_code": "OLD",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.55000000",
-    "longitude": "-2.20000000",
-    "native": "Middleton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 45589,
-    "wikiDataId": "Q2560244"
   },
   {
     "id": 50807,
@@ -91,7 +75,7 @@
     "native": "Oldham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 237110,
     "wikiDataId": "Q202628"
   },
@@ -107,7 +91,7 @@
     "native": "Royton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 22848,
     "wikiDataId": "Q2338847"
   },

@@ -1,5 +1,21 @@
 [
   {
+    "id": 65850,
+    "name": "Altai",
+    "state_id": 154,
+    "state_code": "63",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "49.72654000",
+    "longitude": "84.27318000",
+    "native": "Алтай",
+    "timezone": "Asia/Almaty",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2139924"
+  },
+  {
     "id": 65608,
     "name": "Altayskiy",
     "state_id": 154,
@@ -64,22 +80,6 @@
     "wikiDataId": "Q486913"
   },
   {
-    "id": 65627,
-    "name": "Ayagoz",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "47.96447000",
-    "longitude": "80.43437000",
-    "native": "Аягөз",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "adm2",
-    "population": 33479,
-    "wikiDataId": "Q2391391"
-  },
-  {
     "id": 65643,
     "name": "Belogorskīy",
     "state_id": 154,
@@ -128,22 +128,6 @@
     "wikiDataId": "Q27357540"
   },
   {
-    "id": 65681,
-    "name": "Georgīevka",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "49.32671000",
-    "longitude": "81.57373000",
-    "native": "Георгиевка",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "adm2",
-    "population": 22047,
-    "wikiDataId": "Q1192007"
-  },
-  {
     "id": 65682,
     "name": "Glubokoye",
     "state_id": 154,
@@ -158,22 +142,6 @@
     "type": "adm2",
     "population": 11192,
     "wikiDataId": "Q1192007"
-  },
-  {
-    "id": 65705,
-    "name": "Kurchatov",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "50.75617000",
-    "longitude": "78.54188000",
-    "native": "Курчатов",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "adm2",
-    "population": 12383,
-    "wikiDataId": "Q767177"
   },
   {
     "id": 65706,
@@ -272,22 +240,6 @@
     "wikiDataId": "Q986100"
   },
   {
-    "id": 65774,
-    "name": "Semey",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "50.42675000",
-    "longitude": "80.26669000",
-    "native": "Семей",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "adm1",
-    "population": 350201,
-    "wikiDataId": "Q61944"
-  },
-  {
     "id": 65782,
     "name": "Shar",
     "state_id": 154,
@@ -305,7 +257,7 @@
   },
   {
     "id": 65785,
-    "name": "Shemonaīkha",
+    "name": "Shemonaikha",
     "state_id": 154,
     "state_code": "63",
     "country_id": 112,
@@ -350,22 +302,6 @@
     "type": "city",
     "population": 6696,
     "wikiDataId": "Q848638"
-  },
-  {
-    "id": 65822,
-    "name": "Urzhar",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "47.09302000",
-    "longitude": "81.62939000",
-    "native": "Үржар",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": 14826,
-    "wikiDataId": "Q2073917"
   },
   {
     "id": 65824,
@@ -462,21 +398,5 @@
     "type": "city",
     "population": 8896,
     "wikiDataId": "Q2231416"
-  },
-  {
-    "id": 65850,
-    "name": "Zyryanovsk",
-    "state_id": 154,
-    "state_code": "63",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "49.72654000",
-    "longitude": "84.27318000",
-    "native": "Зырян",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2139924"
   }
 ]

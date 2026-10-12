@@ -368,22 +368,6 @@
     "wikiDataId": "Q4704992"
   },
   {
-    "id": 148825,
-    "name": "Al-Jafr",
-    "state_id": 2851,
-    "state_code": "03",
-    "country_id": 194,
-    "country_code": "SA",
-    "latitude": "25.41666667",
-    "longitude": "49.61666667",
-    "native": "الجفر",
-    "timezone": "Asia/Riyadh",
-    "translations": {},
-    "type": "city",
-    "population": 0,
-    "wikiDataId": "Q4702579"
-  },
-  {
     "id": 102839,
     "name": "Al-Ula",
     "state_id": 2851,
@@ -395,7 +379,7 @@
     "native": "العلا",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 32413,
     "wikiDataId": "Q27242"
   },
@@ -459,7 +443,7 @@
     "native": "السويرقيه",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 0,
     "wikiDataId": "Q4803020"
   },
@@ -568,7 +552,7 @@
     "country_code": "SA",
     "latitude": "23.81670000",
     "longitude": "38.86670000",
-    "native": "بعيد",
+    "native": "فرع",
     "timezone": "Asia/Riyadh",
     "translations": {},
     "type": "city",
@@ -779,7 +763,7 @@
     "native": "المدينة المنورة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 1411599,
     "wikiDataId": "Q35484"
   },
@@ -955,7 +939,7 @@
     "native": "ينبع",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 200161,
     "wikiDataId": "Q466027"
   }

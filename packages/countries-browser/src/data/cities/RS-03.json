@@ -27,7 +27,7 @@
     "native": "Адорјан",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1128,
     "wikiDataId": "Q505426"
   },
@@ -43,7 +43,7 @@
     "native": "Банатска Топола",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1463,
     "wikiDataId": "Q1071667"
   },
@@ -59,7 +59,7 @@
     "native": "Банатско Велико Село",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3332,
     "wikiDataId": "Q853306"
   },
@@ -75,7 +75,7 @@
     "native": "Башаид",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3123,
     "wikiDataId": "Q302123"
   },
@@ -91,7 +91,7 @@
     "native": "Чока",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4707,
     "wikiDataId": "Q876197"
   },
@@ -107,9 +107,25 @@
     "native": "Горњи Брег",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2536,
     "wikiDataId": "Q999195"
+  },
+  {
+    "id": 97408,
+    "name": "Iđoš",
+    "state_id": 3736,
+    "state_code": "03",
+    "country_id": 196,
+    "country_code": "RS",
+    "latitude": "45.82648000",
+    "longitude": "20.31791000",
+    "native": "Тисахеђеш",
+    "timezone": "Europe/Belgrade",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q1091230"
   },
   {
     "id": 97233,
@@ -123,7 +139,7 @@
     "native": "Јазово",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1261,
     "wikiDataId": "Q940255"
   },
@@ -139,7 +155,7 @@
     "native": "Кањижа",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9871,
     "wikiDataId": "Q614614"
   },
@@ -155,9 +171,9 @@
     "native": "Кикинда",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 38065,
-    "wikiDataId": "Q309355"
+    "wikiDataId": "Q914430"
   },
   {
     "id": 97296,
@@ -171,7 +187,7 @@
     "native": "Мокрин",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6567,
     "wikiDataId": "Q941155"
   },
@@ -203,7 +219,7 @@
     "native": "Наково",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2604,
     "wikiDataId": "Q116732"
   },
@@ -219,7 +235,7 @@
     "native": "Нови Кнежевац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8627,
     "wikiDataId": "Q914451"
   },
@@ -235,7 +251,7 @@
     "native": "Нови Козарци",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2668,
     "wikiDataId": "Q1063486"
   },
@@ -251,7 +267,7 @@
     "native": "Остојићево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2844,
     "wikiDataId": "Q598500"
   },
@@ -267,7 +283,7 @@
     "native": "Падеј",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2882,
     "wikiDataId": "Q952009"
   },
@@ -283,7 +299,7 @@
     "native": "Руско Село",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3657,
     "wikiDataId": "Q1042546"
   },
@@ -299,7 +315,7 @@
     "native": "Сајан",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1655,
     "wikiDataId": "Q519373"
   },
@@ -315,7 +331,7 @@
     "native": "Санад",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1584,
     "wikiDataId": "Q1183397"
   },
@@ -331,24 +347,8 @@
     "native": "Сента",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 20302,
     "wikiDataId": "Q917716"
-  },
-  {
-    "id": 97408,
-    "name": "Tiszahegyes",
-    "state_id": 3736,
-    "state_code": "03",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "45.82648000",
-    "longitude": "20.31791000",
-    "native": "Тисахеђеш",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1091230"
   }
 ]

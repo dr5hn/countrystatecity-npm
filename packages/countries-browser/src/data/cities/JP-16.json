@@ -28,8 +28,8 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q209801"
+    "population": 43950,
+    "wikiDataId": "Q646886"
   },
   {
     "id": 63481,
@@ -60,7 +60,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 90742,
     "wikiDataId": "Q851411"
   },
   {
@@ -75,8 +75,8 @@
     "native": "上市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 19318,
+    "type": "town",
+    "population": 19351,
     "wikiDataId": "Q1204302"
   },
   {
@@ -91,8 +91,8 @@
     "native": "黒部市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 41564,
+    "type": "city",
+    "population": 39638,
     "wikiDataId": "Q753864"
   },
   {
@@ -104,27 +104,11 @@
     "country_code": "JP",
     "latitude": "36.75965000",
     "longitude": "137.36215000",
-    "native": "滑川",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
-    "type": "adm2",
-    "population": 32317,
-    "wikiDataId": "Q877184"
-  },
-  {
-    "id": 64096,
-    "name": "Namerikawa-shi",
-    "state_id": 838,
-    "state_code": "16",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.74934000",
-    "longitude": "137.38129000",
     "native": "滑川市",
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 32349,
     "wikiDataId": "Q823513"
   },
   {
@@ -157,7 +141,7 @@
     "translations": {},
     "type": "city",
     "population": 35994,
-    "wikiDataId": "Q317844"
+    "wikiDataId": null
   },
   {
     "id": 64173,
@@ -171,9 +155,9 @@
     "native": "入善",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "city",
-    "population": 25007,
-    "wikiDataId": "Q241037"
+    "type": "town",
+    "population": 23839,
+    "wikiDataId": "Q1203765"
   },
   {
     "id": 64220,
@@ -187,24 +171,8 @@
     "native": "小矢部",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 28634,
-    "wikiDataId": "Q734366"
-  },
-  {
-    "id": 64221,
-    "name": "Oyabe Shi",
-    "state_id": 838,
-    "state_code": "16",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.66349000",
-    "longitude": "136.85499000",
-    "native": "小矢部市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 28983,
     "wikiDataId": "Q734366"
   },
   {
@@ -236,7 +204,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 166393,
     "wikiDataId": "Q502988"
   },
   {
@@ -252,7 +220,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 48154,
     "wikiDataId": "Q526760"
   },
   {
@@ -268,7 +236,7 @@
     "timezone": "Asia/Tokyo",
     "translations": {},
     "type": "city",
-    "population": null,
+    "population": 413938,
     "wikiDataId": "Q204266"
   },
   {
@@ -283,24 +251,8 @@
     "native": "魚津市",
     "timezone": "Asia/Tokyo",
     "translations": {},
-    "type": "adm2",
-    "population": 40828,
-    "wikiDataId": "Q819613"
-  },
-  {
-    "id": 64595,
-    "name": "Uozu Shi",
-    "state_id": 838,
-    "state_code": "16",
-    "country_id": 109,
-    "country_code": "JP",
-    "latitude": "36.76234000",
-    "longitude": "137.48984000",
-    "native": "魚津市",
-    "timezone": "Asia/Tokyo",
-    "translations": {},
     "type": "city",
-    "population": null,
+    "population": 40535,
     "wikiDataId": "Q819613"
   },
   {
@@ -317,6 +269,6 @@
     "translations": {},
     "type": "city",
     "population": 22205,
-    "wikiDataId": "Q332825"
+    "wikiDataId": null
   }
 ]

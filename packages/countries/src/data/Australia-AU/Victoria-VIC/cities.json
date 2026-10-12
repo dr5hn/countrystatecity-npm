@@ -11,7 +11,7 @@
     "native": "Abbotsford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8087,
     "wikiDataId": "Q306710"
   },
@@ -27,7 +27,7 @@
     "native": "Aberfeldie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3925,
     "wikiDataId": "Q319540"
   },
@@ -43,7 +43,7 @@
     "native": "Airport West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8173,
     "wikiDataId": "Q4698960"
   },
@@ -59,7 +59,7 @@
     "native": "Albanvale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5641,
     "wikiDataId": "Q1500097"
   },
@@ -75,7 +75,7 @@
     "native": "Albert Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6044,
     "wikiDataId": "Q591771"
   },
@@ -91,7 +91,7 @@
     "native": "Albion",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4334,
     "wikiDataId": "Q4712478"
   },
@@ -107,7 +107,7 @@
     "native": "Alexandra",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2801,
     "wikiDataId": "Q2643563"
   },
@@ -123,7 +123,7 @@
     "native": "Alfredton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9013,
     "wikiDataId": "Q4723904"
   },
@@ -139,7 +139,7 @@
     "native": "Allansford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1410,
     "wikiDataId": "Q2648090"
   },
@@ -155,7 +155,7 @@
     "native": "Alphington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5702,
     "wikiDataId": "Q2651034"
   },
@@ -171,8 +171,8 @@
     "native": "Alpine",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 141,
+    "type": "municipality",
+    "population": 13236,
     "wikiDataId": "Q1419674"
   },
   {
@@ -187,7 +187,7 @@
     "native": "Altona",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11490,
     "wikiDataId": "Q443946"
   },
@@ -203,7 +203,7 @@
     "native": "Altona Meadows",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18479,
     "wikiDataId": "Q443960"
   },
@@ -219,7 +219,7 @@
     "native": "Altona North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12962,
     "wikiDataId": "Q443965"
   },
@@ -235,7 +235,7 @@
     "native": "Anglesea",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2473,
     "wikiDataId": "Q540478"
   },
@@ -251,7 +251,7 @@
     "native": "Apollo Bay",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1790,
     "wikiDataId": "Q619097"
   },
@@ -267,8 +267,8 @@
     "native": "Ararat",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 8500,
+    "type": "municipality",
+    "population": 11732,
     "wikiDataId": "Q626313"
   },
   {
@@ -280,10 +280,10 @@
     "country_code": "AU",
     "latitude": "-37.77586000",
     "longitude": "144.80144000",
-    "native": "Arde",
+    "native": "Ardeer",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3170,
     "wikiDataId": "Q638779"
   },
@@ -299,7 +299,7 @@
     "native": "Armadale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9368,
     "wikiDataId": "Q4792515"
   },
@@ -315,9 +315,9 @@
     "native": "Armstrong Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4175,
-    "wikiDataId": "Q606169"
+    "wikiDataId": "Q4793929"
   },
   {
     "id": 4012,
@@ -331,9 +331,9 @@
     "native": "Ascot",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1926,
-    "wikiDataId": "Q2321177"
+    "wikiDataId": "Q4804024"
   },
   {
     "id": 4015,
@@ -347,7 +347,7 @@
     "native": "Ascot Vale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15197,
     "wikiDataId": "Q723342"
   },
@@ -363,7 +363,7 @@
     "native": "Ashburton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7952,
     "wikiDataId": "Q724906"
   },
@@ -379,7 +379,7 @@
     "native": "Ashwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7154,
     "wikiDataId": "Q726631"
   },
@@ -395,7 +395,7 @@
     "native": "Aspendale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7285,
     "wikiDataId": "Q205720"
   },
@@ -411,7 +411,7 @@
     "native": "Aspendale Gardens",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6427,
     "wikiDataId": "Q736110"
   },
@@ -427,7 +427,7 @@
     "native": "Attwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3309,
     "wikiDataId": "Q758264"
   },
@@ -443,7 +443,7 @@
     "native": "Avenel",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1112,
     "wikiDataId": "Q2873433"
   },
@@ -459,7 +459,7 @@
     "native": "Avoca",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1169,
     "wikiDataId": "Q791235"
   },
@@ -475,7 +475,7 @@
     "native": "Avondale Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12388,
     "wikiDataId": "Q791305"
   },
@@ -491,7 +491,7 @@
     "native": "Bacchus Marsh",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 24717,
     "wikiDataId": "Q2878215"
   },
@@ -523,7 +523,7 @@
     "native": "Bairnsdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17666,
     "wikiDataId": "Q803960"
   },
@@ -552,10 +552,10 @@
     "country_code": "AU",
     "latitude": "-37.59987000",
     "longitude": "144.22890000",
-    "native": "Guarantee",
+    "native": "Ballan",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3392,
     "wikiDataId": "Q2738690"
   },
@@ -571,9 +571,9 @@
     "native": "Ballarat",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 116201,
-    "wikiDataId": "Q17856"
+    "wikiDataId": "Q805150"
   },
   {
     "id": 4081,
@@ -587,7 +587,7 @@
     "native": "Ballarat Central",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5378,
     "wikiDataId": "Q4851458"
   },
@@ -603,7 +603,7 @@
     "native": "Ballarat East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5937,
     "wikiDataId": "Q4851462"
   },
@@ -621,7 +621,7 @@
     "translations": {},
     "type": "section",
     "population": null,
-    "wikiDataId": "Q4851462"
+    "wikiDataId": null
   },
   {
     "id": 4088,
@@ -635,7 +635,7 @@
     "native": "Balnarring",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2371,
     "wikiDataId": "Q944965"
   },
@@ -648,10 +648,10 @@
     "country_code": "AU",
     "latitude": "-37.80914000",
     "longitude": "145.07890000",
-    "native": "Ball",
+    "native": "Balwyn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13495,
     "wikiDataId": "Q4853147"
   },
@@ -664,10 +664,10 @@
     "country_code": "AU",
     "latitude": "-37.79086000",
     "longitude": "145.09386000",
-    "native": "Ballwyn North",
+    "native": "Balwyn North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21302,
     "wikiDataId": "Q805854"
   },
@@ -683,7 +683,7 @@
     "native": "Bannockburn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5203,
     "wikiDataId": "Q4857005"
   },
@@ -696,11 +696,11 @@
     "country_code": "AU",
     "latitude": "-37.73386000",
     "longitude": "145.08576000",
-    "native": "They have chosen",
+    "native": "Banyule",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 132770,
     "wikiDataId": "Q650144"
   },
   {
@@ -712,12 +712,12 @@
     "country_code": "AU",
     "latitude": "-36.19114000",
     "longitude": "146.95380000",
-    "native": "Barnduda",
+    "native": "Baranduda",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2311,
-    "wikiDataId": "Q4857913"
+    "wikiDataId": "Q30435266"
   },
   {
     "id": 4131,
@@ -731,9 +731,9 @@
     "native": "Barwon Heads",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4353,
-    "wikiDataId": "Q7076006"
+    "wikiDataId": "Q4865984"
   },
   {
     "id": 4133,
@@ -747,7 +747,7 @@
     "native": "Bass Coast",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q810446"
   },
@@ -763,8 +763,8 @@
     "native": "Baw baw",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 271,
+    "type": "municipality",
+    "population": 62784,
     "wikiDataId": "Q812028"
   },
   {
@@ -779,7 +779,7 @@
     "native": "Baxter",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2166,
     "wikiDataId": "Q4873824"
   },
@@ -795,8 +795,8 @@
     "native": "Bayside",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 16757,
+    "type": "municipality",
+    "population": 107164,
     "wikiDataId": "Q546554"
   },
   {
@@ -811,7 +811,7 @@
     "native": "Bayswater",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11599,
     "wikiDataId": "Q812628"
   },
@@ -827,7 +827,7 @@
     "native": "Bayswater North",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9014,
     "wikiDataId": "Q4874857"
   },
@@ -843,7 +843,7 @@
     "native": "Beaconsfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5899,
     "wikiDataId": "Q812898"
   },
@@ -859,7 +859,7 @@
     "native": "Beaconsfield Upper",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2997,
     "wikiDataId": "Q4876041"
   },
@@ -875,7 +875,7 @@
     "native": "Beaufort",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1712,
     "wikiDataId": "Q813371"
   },
@@ -891,9 +891,9 @@
     "native": "Beaumaris",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13947,
-    "wikiDataId": "Q813371"
+    "wikiDataId": "Q813411"
   },
   {
     "id": 4176,
@@ -907,7 +907,7 @@
     "native": "Beechworth",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4274,
     "wikiDataId": "Q2750312"
   },
@@ -923,7 +923,7 @@
     "native": "Belgrave",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3894,
     "wikiDataId": "Q815564"
   },
@@ -939,7 +939,7 @@
     "native": "Belgrave Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1398,
     "wikiDataId": "Q815565"
   },
@@ -955,7 +955,7 @@
     "native": "Belgrave South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1670,
     "wikiDataId": "Q4882686"
   },
@@ -971,7 +971,7 @@
     "native": "Bell Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5602,
     "wikiDataId": "Q4883224"
   },
@@ -987,7 +987,7 @@
     "native": "Bell Post Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5083,
     "wikiDataId": "Q4883233"
   },
@@ -1003,7 +1003,7 @@
     "native": "Bellfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1996,
     "wikiDataId": "Q4883981"
   },
@@ -1019,7 +1019,7 @@
     "native": "Belmont",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15066,
     "wikiDataId": "Q4884307"
   },
@@ -1035,8 +1035,8 @@
     "native": "Benalla",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 9656,
+    "type": "municipality",
+    "population": 14581,
     "wikiDataId": "Q745220"
   },
   {
@@ -1051,9 +1051,9 @@
     "native": "Bendigo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 103034,
-    "wikiDataId": "Q497793"
+    "wikiDataId": "Q31447285"
   },
   {
     "id": 4219,
@@ -1083,7 +1083,7 @@
     "native": "Bentleigh",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17921,
     "wikiDataId": "Q4890439"
   },
@@ -1099,7 +1099,7 @@
     "native": "Bentleigh East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 30159,
     "wikiDataId": "Q4890443"
   },
@@ -1115,7 +1115,7 @@
     "native": "Berwick",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 50298,
     "wikiDataId": "Q829245"
   },
@@ -1131,7 +1131,7 @@
     "native": "Beveridge",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4642,
     "wikiDataId": "Q2143313"
   },
@@ -1147,7 +1147,7 @@
     "native": "Bittern",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4276,
     "wikiDataId": "Q2904938"
   },
@@ -1163,7 +1163,7 @@
     "native": "Black Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2124,
     "wikiDataId": "Q4920932"
   },
@@ -1179,7 +1179,7 @@
     "native": "Black Rock",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6389,
     "wikiDataId": "Q880513"
   },
@@ -1195,7 +1195,7 @@
     "native": "Blackburn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14478,
     "wikiDataId": "Q880723"
   },
@@ -1211,7 +1211,7 @@
     "native": "Blackburn North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7627,
     "wikiDataId": "Q4922699"
   },
@@ -1227,7 +1227,7 @@
     "native": "Blackburn South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10939,
     "wikiDataId": "Q4922714"
   },
@@ -1243,8 +1243,8 @@
     "native": "Blairgowrie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 2195,
+    "type": "locality",
+    "population": 2786,
     "wikiDataId": "Q4924208"
   },
   {
@@ -1259,7 +1259,7 @@
     "native": "Blind Bight",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1290,
     "wikiDataId": "Q4926517"
   },
@@ -1275,7 +1275,7 @@
     "native": "Bonbeach",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6855,
     "wikiDataId": "Q4941224"
   },
@@ -1291,7 +1291,7 @@
     "native": "Boronia",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23607,
     "wikiDataId": "Q894057"
   },
@@ -1304,11 +1304,11 @@
     "country_code": "AU",
     "latitude": "-37.82640000",
     "longitude": "145.05299000",
-    "native": "Borondara",
+    "native": "Boroondara",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 17909,
+    "type": "municipality",
+    "population": 178601,
     "wikiDataId": "Q894060"
   },
   {
@@ -1339,7 +1339,7 @@
     "native": "Box Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14353,
     "wikiDataId": "Q4951523"
   },
@@ -1355,7 +1355,7 @@
     "native": "Box Hill North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12337,
     "wikiDataId": "Q4951534"
   },
@@ -1371,7 +1371,7 @@
     "native": "Box Hill South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8491,
     "wikiDataId": "Q4951543"
   },
@@ -1387,7 +1387,7 @@
     "native": "Braybrook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9682,
     "wikiDataId": "Q1854516"
   },
@@ -1403,7 +1403,7 @@
     "native": "Briagolong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1133,
     "wikiDataId": "Q4962897"
   },
@@ -1419,7 +1419,7 @@
     "native": "Briar Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3220,
     "wikiDataId": "Q4965769"
   },
@@ -1435,7 +1435,7 @@
     "native": "Bright",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2620,
     "wikiDataId": "Q915640"
   },
@@ -1451,7 +1451,7 @@
     "native": "Brighton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23252,
     "wikiDataId": "Q915776"
   },
@@ -1467,7 +1467,7 @@
     "native": "Brighton East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16757,
     "wikiDataId": "Q4967635"
   },
@@ -1483,8 +1483,8 @@
     "native": "Brimbank",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 4337,
+    "type": "municipality",
+    "population": 198181,
     "wikiDataId": "Q917261"
   },
   {
@@ -1499,7 +1499,7 @@
     "native": "Broadford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4592,
     "wikiDataId": "Q2925842"
   },
@@ -1515,7 +1515,7 @@
     "native": "Broadmeadows",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12524,
     "wikiDataId": "Q4972237"
   },
@@ -1531,7 +1531,7 @@
     "native": "Brookfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10782,
     "wikiDataId": "Q4974556"
   },
@@ -1547,7 +1547,7 @@
     "native": "Brooklyn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1979,
     "wikiDataId": "Q4974725"
   },
@@ -1563,7 +1563,7 @@
     "native": "Brown Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3078,
     "wikiDataId": "Q14935070"
   },
@@ -1579,7 +1579,7 @@
     "native": "Brunswick",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24896,
     "wikiDataId": "Q994135"
   },
@@ -1595,7 +1595,7 @@
     "native": "Brunswick East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13279,
     "wikiDataId": "Q118974"
   },
@@ -1611,7 +1611,7 @@
     "native": "Brunswick West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14746,
     "wikiDataId": "Q24533"
   },
@@ -1624,10 +1624,10 @@
     "country_code": "AU",
     "latitude": "-37.76667000",
     "longitude": "145.08333000",
-    "native": "Bullets",
+    "native": "Bulleen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11219,
     "wikiDataId": "Q4996743"
   },
@@ -1640,11 +1640,11 @@
     "country_code": "AU",
     "latitude": "-35.84638000",
     "longitude": "143.05201000",
-    "native": "Enthusie",
+    "native": "Buloke",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 5887,
     "wikiDataId": "Q1004687"
   },
   {
@@ -1656,10 +1656,10 @@
     "country_code": "AU",
     "latitude": "-37.69825000",
     "longitude": "145.05967000",
-    "native": "Bundoor",
+    "native": "Bundoora",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 28068,
     "wikiDataId": "Q4997558"
   },
@@ -1672,10 +1672,10 @@
     "country_code": "AU",
     "latitude": "-37.65019000",
     "longitude": "143.88388000",
-    "native": "Bunnong",
+    "native": "Buninyong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3797,
     "wikiDataId": "Q2928211"
   },
@@ -1691,7 +1691,7 @@
     "native": "Bunyip",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3131,
     "wikiDataId": "Q4997975"
   },
@@ -1707,9 +1707,9 @@
     "native": "Burnside",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5800,
-    "wikiDataId": "Q1016835"
+    "wikiDataId": "Q5000119"
   },
   {
     "id": 4489,
@@ -1723,7 +1723,7 @@
     "native": "Burnside Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6377,
     "wikiDataId": "Q5000133"
   },
@@ -1739,9 +1739,9 @@
     "native": "Burwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18224,
-    "wikiDataId": "Q5000780"
+    "wikiDataId": "Q5001054"
   },
   {
     "id": 4502,
@@ -1755,7 +1755,7 @@
     "native": "Burwood East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10675,
     "wikiDataId": "Q5001058"
   },
@@ -1771,7 +1771,7 @@
     "native": "Cairnlea",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10038,
     "wikiDataId": "Q5017696"
   },
@@ -1787,7 +1787,7 @@
     "native": "California Gully",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4476,
     "wikiDataId": "Q5020525"
   },
@@ -1803,7 +1803,7 @@
     "native": "Camberwell",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21965,
     "wikiDataId": "Q2934668"
   },
@@ -1819,8 +1819,8 @@
     "native": "Campaspe",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 37954,
     "wikiDataId": "Q1030333"
   },
   {
@@ -1835,7 +1835,7 @@
     "native": "Campbellfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4977,
     "wikiDataId": "Q5028192"
   },
@@ -1851,7 +1851,7 @@
     "native": "Campbells Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2071,
     "wikiDataId": "Q385907"
   },
@@ -1867,7 +1867,7 @@
     "native": "Camperdown",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3354,
     "wikiDataId": "Q2935500"
   },
@@ -1883,7 +1883,7 @@
     "native": "Canadian",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4098,
     "wikiDataId": "Q5029628"
   },
@@ -1899,7 +1899,7 @@
     "native": "Canterbury",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9430,
     "wikiDataId": "Q1033731"
   },
@@ -1915,7 +1915,7 @@
     "native": "Cape Woolamai",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1641,
     "wikiDataId": "Q2937257"
   },
@@ -1931,8 +1931,8 @@
     "native": "Cardinia",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 736,
+    "type": "municipality",
+    "population": 133472,
     "wikiDataId": "Q1035752"
   },
   {
@@ -1947,7 +1947,7 @@
     "native": "Carisbrook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1192,
     "wikiDataId": "Q5039680"
   },
@@ -1963,7 +1963,7 @@
     "native": "Carlton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16055,
     "wikiDataId": "Q47002"
   },
@@ -1979,7 +1979,7 @@
     "native": "Carlton North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6177,
     "wikiDataId": "Q5043042"
   },
@@ -1995,9 +1995,9 @@
     "native": "Carnegie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17909,
-    "wikiDataId": "Q1021880"
+    "wikiDataId": "Q5043870"
   },
   {
     "id": 4607,
@@ -2011,7 +2011,7 @@
     "native": "Caroline Springs",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24488,
     "wikiDataId": "Q1044568"
   },
@@ -2024,10 +2024,10 @@
     "country_code": "AU",
     "latitude": "-38.08333000",
     "longitude": "145.13333000",
-    "native": "Wagon",
+    "native": "Carrum",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4239,
     "wikiDataId": "Q5046748"
   },
@@ -2040,10 +2040,10 @@
     "country_code": "AU",
     "latitude": "-38.09968000",
     "longitude": "145.17248000",
-    "native": "Cart downs",
+    "native": "Carrum Downs",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21976,
     "wikiDataId": "Q1045308"
   },
@@ -2059,8 +2059,8 @@
     "native": "Casey",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 6471,
+    "type": "municipality",
+    "population": 414929,
     "wikiDataId": "Q1756241"
   },
   {
@@ -2075,7 +2075,7 @@
     "native": "Casterton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1673,
     "wikiDataId": "Q2633771"
   },
@@ -2091,7 +2091,7 @@
     "native": "Castlemaine",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7506,
     "wikiDataId": "Q260317"
   },
@@ -2107,7 +2107,7 @@
     "native": "Caulfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5748,
     "wikiDataId": "Q5054509"
   },
@@ -2123,7 +2123,7 @@
     "native": "Caulfield East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1293,
     "wikiDataId": "Q5054508"
   },
@@ -2139,7 +2139,7 @@
     "native": "Caulfield North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16903,
     "wikiDataId": "Q2943098"
   },
@@ -2155,7 +2155,7 @@
     "native": "Caulfield South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12328,
     "wikiDataId": "Q5054518"
   },
@@ -2171,8 +2171,8 @@
     "native": "Central Goldfields",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 13753,
     "wikiDataId": "Q1053792"
   },
   {
@@ -2187,7 +2187,7 @@
     "native": "Chadstone",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9552,
     "wikiDataId": "Q5066500"
   },
@@ -2203,7 +2203,7 @@
     "native": "Charlton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1095,
     "wikiDataId": "Q2961059"
   },
@@ -2219,7 +2219,7 @@
     "native": "Chelsea",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8347,
     "wikiDataId": "Q5090027"
   },
@@ -2235,7 +2235,7 @@
     "native": "Chelsea Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5393,
     "wikiDataId": "Q1069125"
   },
@@ -2251,7 +2251,7 @@
     "native": "Cheltenham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23992,
     "wikiDataId": "Q5090177"
   },
@@ -2267,7 +2267,7 @@
     "native": "Chewton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1309,
     "wikiDataId": "Q5094544"
   },
@@ -2283,7 +2283,7 @@
     "native": "Chiltern",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1580,
     "wikiDataId": "Q2963640"
   },
@@ -2299,7 +2299,7 @@
     "native": "Chirnside Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11779,
     "wikiDataId": "Q5101947"
   },
@@ -2315,9 +2315,9 @@
     "native": "Churchill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4732,
-    "wikiDataId": "Q5118149"
+    "wikiDataId": "Q923145"
   },
   {
     "id": 4726,
@@ -2331,9 +2331,9 @@
     "native": "Clarinda",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7441,
-    "wikiDataId": "Q5126889"
+    "wikiDataId": "Q5126971"
   },
   {
     "id": 4730,
@@ -2347,9 +2347,9 @@
     "native": "Clayton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18988,
-    "wikiDataId": "Q5130111"
+    "wikiDataId": "Q5130161"
   },
   {
     "id": 4731,
@@ -2363,7 +2363,7 @@
     "native": "Clayton South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13381,
     "wikiDataId": "Q5130327"
   },
@@ -2395,7 +2395,7 @@
     "native": "Clifton Springs",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7646,
     "wikiDataId": "Q2800261"
   },
@@ -2408,10 +2408,10 @@
     "country_code": "AU",
     "latitude": "-37.29473000",
     "longitude": "143.78636000",
-    "native": "Clun",
+    "native": "Clunes",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1844,
     "wikiDataId": "Q2980390"
   },
@@ -2427,7 +2427,7 @@
     "native": "Clyde",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11177,
     "wikiDataId": "Q5136840"
   },
@@ -2443,7 +2443,7 @@
     "native": "Clyde North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8110,
     "wikiDataId": "Q5136991"
   },
@@ -2459,7 +2459,7 @@
     "native": "Cobden",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1804,
     "wikiDataId": "Q2981144"
   },
@@ -2472,10 +2472,10 @@
     "country_code": "AU",
     "latitude": "-35.92069000",
     "longitude": "145.64066000",
-    "native": "Charge",
+    "native": "Cobram",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6148,
     "wikiDataId": "Q2981173"
   },
@@ -2491,7 +2491,7 @@
     "native": "Coburg",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 26574,
     "wikiDataId": "Q647356"
   },
@@ -2507,7 +2507,7 @@
     "native": "Coburg North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8327,
     "wikiDataId": "Q1104802"
   },
@@ -2523,7 +2523,7 @@
     "native": "Cockatoo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4408,
     "wikiDataId": "Q2981283"
   },
@@ -2539,7 +2539,7 @@
     "native": "Cohuna",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2415,
     "wikiDataId": "Q2025839"
   },
@@ -2552,10 +2552,10 @@
     "country_code": "AU",
     "latitude": "-38.33900000",
     "longitude": "143.58489000",
-    "native": "curl",
+    "native": "Colac",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9243,
     "wikiDataId": "Q1009509"
   },
@@ -2571,8 +2571,8 @@
     "native": "Colac-Otway",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 22209,
     "wikiDataId": "Q1107583"
   },
   {
@@ -2587,9 +2587,9 @@
     "native": "Coldstream",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2199,
-    "wikiDataId": "Q1107583"
+    "wikiDataId": "Q5142560"
   },
   {
     "id": 4775,
@@ -2603,7 +2603,7 @@
     "native": "Collingwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9179,
     "wikiDataId": "Q1109698"
   },
@@ -2619,7 +2619,7 @@
     "native": "Coolaroo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3193,
     "wikiDataId": "Q5167411"
   },
@@ -2635,8 +2635,8 @@
     "native": "Corangamite",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 15712,
     "wikiDataId": "Q1131914"
   },
   {
@@ -2648,10 +2648,10 @@
     "country_code": "AU",
     "latitude": "-38.08333000",
     "longitude": "144.38333000",
-    "native": "Leather",
+    "native": "Corio",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15497,
     "wikiDataId": "Q5170698"
   },
@@ -2667,7 +2667,7 @@
     "native": "Corryong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1352,
     "wikiDataId": "Q2998001"
   },
@@ -2683,7 +2683,7 @@
     "native": "Cowes",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4770,
     "wikiDataId": "Q2720312"
   },
@@ -2699,7 +2699,7 @@
     "native": "Craigieburn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 65178,
     "wikiDataId": "Q5181698"
   },
@@ -2715,7 +2715,7 @@
     "native": "Cranbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21281,
     "wikiDataId": "Q3309297"
   },
@@ -2731,7 +2731,7 @@
     "native": "Cranbourne East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24679,
     "wikiDataId": "Q5181931"
   },
@@ -2747,7 +2747,7 @@
     "native": "Cranbourne North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24683,
     "wikiDataId": "Q5181934"
   },
@@ -2763,7 +2763,7 @@
     "native": "Cranbourne South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1610,
     "wikiDataId": "Q5181935"
   },
@@ -2779,7 +2779,7 @@
     "native": "Cranbourne West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19969,
     "wikiDataId": "Q5181937"
   },
@@ -2795,7 +2795,7 @@
     "native": "Cremorne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1564,
     "wikiDataId": "Q5184107"
   },
@@ -2811,7 +2811,7 @@
     "native": "Creswick",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3279,
     "wikiDataId": "Q992412"
   },
@@ -2827,7 +2827,7 @@
     "native": "Crib Point",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3343,
     "wikiDataId": "Q5184872"
   },
@@ -2843,7 +2843,7 @@
     "native": "Croydon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 26502,
     "wikiDataId": "Q5189639"
   },
@@ -2859,7 +2859,7 @@
     "native": "Croydon Hills",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4839,
     "wikiDataId": "Q5189674"
   },
@@ -2875,7 +2875,7 @@
     "native": "Croydon North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8092,
     "wikiDataId": "Q5189682"
   },
@@ -2891,7 +2891,7 @@
     "native": "Croydon South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4759,
     "wikiDataId": "Q5189701"
   },
@@ -2907,9 +2907,9 @@
     "native": "Dallas",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6762,
-    "wikiDataId": "Q5211061"
+    "wikiDataId": "Q5211219"
   },
   {
     "id": 4931,
@@ -2923,7 +2923,7 @@
     "native": "Dandenong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 30127,
     "wikiDataId": "Q1159408"
   },
@@ -2939,7 +2939,7 @@
     "native": "Dandenong North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22550,
     "wikiDataId": "Q5215700"
   },
@@ -2955,8 +2955,8 @@
     "native": "Darebin",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 162496,
     "wikiDataId": "Q541032"
   },
   {
@@ -2971,9 +2971,9 @@
     "native": "Darley",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9190,
-    "wikiDataId": "Q541032"
+    "wikiDataId": "Q5223867"
   },
   {
     "id": 4954,
@@ -2987,7 +2987,7 @@
     "native": "Daylesford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2781,
     "wikiDataId": "Q3019340"
   },
@@ -3003,7 +3003,7 @@
     "native": "Deer Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18145,
     "wikiDataId": "Q5250802"
   },
@@ -3019,7 +3019,7 @@
     "native": "Delacombe",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5408,
     "wikiDataId": "Q5253058"
   },
@@ -3035,7 +3035,7 @@
     "native": "Delahey",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8077,
     "wikiDataId": "Q5253079"
   },
@@ -3051,9 +3051,9 @@
     "native": "Dennington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1994,
-    "wikiDataId": "Q115534"
+    "wikiDataId": "Q5258102"
   },
   {
     "id": 4980,
@@ -3067,7 +3067,7 @@
     "native": "Derrimut",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8651,
     "wikiDataId": "Q1200355"
   },
@@ -3083,7 +3083,7 @@
     "native": "Devon Meadows",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1551,
     "wikiDataId": "Q5267742"
   },
@@ -3099,7 +3099,7 @@
     "native": "Diamond Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12503,
     "wikiDataId": "Q5270756"
   },
@@ -3115,7 +3115,7 @@
     "native": "Diggers Rest",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2776,
     "wikiDataId": "Q5275644"
   },
@@ -3131,7 +3131,7 @@
     "native": "Dimboola",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1635,
     "wikiDataId": "Q835611"
   },
@@ -3147,7 +3147,7 @@
     "native": "Dingley Village",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10495,
     "wikiDataId": "Q5278238"
   },
@@ -3163,8 +3163,8 @@
     "native": "Dinner Plain",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 1122,
+    "type": "locality",
+    "population": 128,
     "wikiDataId": "Q3028373"
   },
   {
@@ -3179,7 +3179,7 @@
     "native": "Docklands",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15495,
     "wikiDataId": "Q5287226"
   },
@@ -3195,7 +3195,7 @@
     "native": "Donald",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1472,
     "wikiDataId": "Q3035979"
   },
@@ -3211,7 +3211,7 @@
     "native": "Doncaster",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 25020,
     "wikiDataId": "Q429307"
   },
@@ -3227,7 +3227,7 @@
     "native": "Doncaster East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 30926,
     "wikiDataId": "Q5295495"
   },
@@ -3243,7 +3243,7 @@
     "native": "Donvale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12644,
     "wikiDataId": "Q5296927"
   },
@@ -3259,7 +3259,7 @@
     "native": "Doreen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 27122,
     "wikiDataId": "Q5297649"
   },
@@ -3275,7 +3275,7 @@
     "native": "Doveton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9603,
     "wikiDataId": "Q5302556"
   },
@@ -3291,7 +3291,7 @@
     "native": "Dromana",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6626,
     "wikiDataId": "Q5308257"
   },
@@ -3307,7 +3307,7 @@
     "native": "Drouin",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11887,
     "wikiDataId": "Q3040050"
   },
@@ -3323,7 +3323,7 @@
     "native": "Drysdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4976,
     "wikiDataId": "Q2183429"
   },
@@ -3339,7 +3339,7 @@
     "native": "Eagle Point",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1034,
     "wikiDataId": "Q5325198"
   },
@@ -3355,7 +3355,7 @@
     "native": "Eaglehawk",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5538,
     "wikiDataId": "Q5325327"
   },
@@ -3371,9 +3371,9 @@
     "native": "Eaglemont",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3960,
-    "wikiDataId": "Q5325327"
+    "wikiDataId": "Q3556821"
   },
   {
     "id": 5064,
@@ -3387,9 +3387,9 @@
     "native": "East Bairnsdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1352,
-    "wikiDataId": "Q3688163"
+    "wikiDataId": "Q31605120"
   },
   {
     "id": 5066,
@@ -3403,9 +3403,9 @@
     "native": "East Bendigo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2246,
-    "wikiDataId": "Q2881292"
+    "wikiDataId": "Q31606844"
   },
   {
     "id": 5075,
@@ -3419,7 +3419,7 @@
     "native": "East Geelong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4012,
     "wikiDataId": "Q5328412"
   },
@@ -3435,8 +3435,8 @@
     "native": "East Gippsland",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 49669,
     "wikiDataId": "Q721318"
   },
   {
@@ -3451,7 +3451,7 @@
     "native": "East Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6196,
     "wikiDataId": "Q5328965"
   },
@@ -3467,7 +3467,7 @@
     "native": "Echuca",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15056,
     "wikiDataId": "Q991600"
   },
@@ -3480,10 +3480,10 @@
     "country_code": "AU",
     "latitude": "-37.48333000",
     "longitude": "145.08333000",
-    "native": "Eating park",
+    "native": "Eden Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1194,
     "wikiDataId": "Q5336895"
   },
@@ -3499,7 +3499,7 @@
     "native": "Edithvale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6276,
     "wikiDataId": "Q5338704"
   },
@@ -3515,9 +3515,9 @@
     "native": "Elliminyt",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3260,
-    "wikiDataId": "Q5365097"
+    "wikiDataId": "Q30902052"
   },
   {
     "id": 5145,
@@ -3531,9 +3531,9 @@
     "native": "Elsternwick",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10887,
-    "wikiDataId": "Q1332499"
+    "wikiDataId": "Q5367746"
   },
   {
     "id": 5146,
@@ -3547,7 +3547,7 @@
     "native": "Eltham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18847,
     "wikiDataId": "Q2437209"
   },
@@ -3563,7 +3563,7 @@
     "native": "Eltham North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6830,
     "wikiDataId": "Q5367801"
   },
@@ -3579,7 +3579,7 @@
     "native": "Elwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15153,
     "wikiDataId": "Q1334377"
   },
@@ -3595,7 +3595,7 @@
     "native": "Emerald",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5890,
     "wikiDataId": "Q5370390"
   },
@@ -3611,7 +3611,7 @@
     "native": "Endeavour Hills",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24455,
     "wikiDataId": "Q5375990"
   },
@@ -3627,7 +3627,7 @@
     "native": "Epping",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 29551,
     "wikiDataId": "Q5383865"
   },
@@ -3643,7 +3643,7 @@
     "native": "Epsom",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5014,
     "wikiDataId": "Q518754"
   },
@@ -3659,7 +3659,7 @@
     "native": "Essendon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21240,
     "wikiDataId": "Q1368694"
   },
@@ -3675,7 +3675,7 @@
     "native": "Essendon North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3071,
     "wikiDataId": "Q1368687"
   },
@@ -3691,7 +3691,7 @@
     "native": "Essendon West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1559,
     "wikiDataId": "Q1368695"
   },
@@ -3704,10 +3704,10 @@
     "country_code": "AU",
     "latitude": "-37.99780000",
     "longitude": "145.24821000",
-    "native": "Eummer ring",
+    "native": "Eumemmerring",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2285,
     "wikiDataId": "Q5409549"
   },
@@ -3720,10 +3720,10 @@
     "country_code": "AU",
     "latitude": "-36.75555000",
     "longitude": "145.57075000",
-    "native": "Euro",
+    "native": "Euroa",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3508,
     "wikiDataId": "Q5411679"
   },
@@ -3739,9 +3739,9 @@
     "native": "Eynesbury",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2838,
-    "wikiDataId": "Q1383997"
+    "wikiDataId": "Q5422947"
   },
   {
     "id": 5205,
@@ -3755,7 +3755,7 @@
     "native": "Fairfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6452,
     "wikiDataId": "Q5430228"
   },
@@ -3771,9 +3771,9 @@
     "native": "Falls Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3288,
-    "wikiDataId": "Q5431717"
+    "wikiDataId": "Q1394700"
   },
   {
     "id": 5221,
@@ -3787,7 +3787,7 @@
     "native": "Fawkner",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14274,
     "wikiDataId": "Q14935141"
   },
@@ -3803,7 +3803,7 @@
     "native": "Ferntree Gully",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 27398,
     "wikiDataId": "Q5445148"
   },
@@ -3819,7 +3819,7 @@
     "native": "Ferny Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1524,
     "wikiDataId": "Q5445165"
   },
@@ -3835,7 +3835,7 @@
     "native": "Fitzroy",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10431,
     "wikiDataId": "Q1421389"
   },
@@ -3851,7 +3851,7 @@
     "native": "Fitzroy North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12781,
     "wikiDataId": "Q5455716"
   },
@@ -3883,9 +3883,9 @@
     "native": "Flora Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3989,
-    "wikiDataId": "Q5459426"
+    "wikiDataId": "Q24090131"
   },
   {
     "id": 5259,
@@ -3899,7 +3899,7 @@
     "native": "Footscray",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17131,
     "wikiDataId": "Q5466574"
   },
@@ -3915,9 +3915,9 @@
     "native": "Forest Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10780,
-    "wikiDataId": "Q5468912"
+    "wikiDataId": "Q5468920"
   },
   {
     "id": 5276,
@@ -3931,7 +3931,7 @@
     "native": "Foster",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2044,
     "wikiDataId": "Q3749041"
   },
@@ -3947,8 +3947,8 @@
     "native": "Frankston",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 11767,
+    "type": "municipality",
+    "population": 145369,
     "wikiDataId": "Q1445363"
   },
   {
@@ -3979,7 +3979,7 @@
     "native": "Frankston North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5711,
     "wikiDataId": "Q5492269"
   },
@@ -3995,7 +3995,7 @@
     "native": "Frankston South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18801,
     "wikiDataId": "Q5492271"
   },
@@ -4008,11 +4008,11 @@
     "country_code": "AU",
     "latitude": "-35.73211000",
     "longitude": "143.85316000",
-    "native": "Glawling",
+    "native": "Gannawarra",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 110,
+    "type": "municipality",
+    "population": 10311,
     "wikiDataId": "Q1475578"
   },
   {
@@ -4027,7 +4027,7 @@
     "native": "Garfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2114,
     "wikiDataId": "Q3098327"
   },
@@ -4043,9 +4043,9 @@
     "native": "Geelong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 282809,
-    "wikiDataId": "Q231765"
+    "wikiDataId": "Q5529870"
   },
   {
     "id": 5318,
@@ -4061,7 +4061,7 @@
     "translations": {},
     "type": "section",
     "population": 5881,
-    "wikiDataId": "Q5529867"
+    "wikiDataId": null
   },
   {
     "id": 5317,
@@ -4075,7 +4075,7 @@
     "native": "Geelong West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7345,
     "wikiDataId": "Q5529867"
   },
@@ -4091,7 +4091,7 @@
     "native": "Gembrook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2559,
     "wikiDataId": "Q5530582"
   },
@@ -4107,7 +4107,7 @@
     "native": "Gisborne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10142,
     "wikiDataId": "Q3107752"
   },
@@ -4123,7 +4123,7 @@
     "native": "Gladstone Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8213,
     "wikiDataId": "Q5566343"
   },
@@ -4139,8 +4139,8 @@
     "native": "Glen eira",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 4946,
+    "type": "municipality",
+    "population": 163025,
     "wikiDataId": "Q1530742"
   },
   {
@@ -4155,9 +4155,9 @@
     "native": "Glen Huntly",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4946,
-    "wikiDataId": "Q1530742"
+    "wikiDataId": "Q5567817"
   },
   {
     "id": 5362,
@@ -4187,7 +4187,7 @@
     "native": "Glen Waverley",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 42642,
     "wikiDataId": "Q3108712"
   },
@@ -4203,8 +4203,8 @@
     "native": "Glenelg",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 3440,
+    "type": "municipality",
+    "population": 19908,
     "wikiDataId": "Q606378"
   },
   {
@@ -4221,7 +4221,7 @@
     "translations": {},
     "type": "section",
     "population": 21177,
-    "wikiDataId": "Q5568468"
+    "wikiDataId": null
   },
   {
     "id": 5380,
@@ -4235,9 +4235,9 @@
     "native": "Glengarry",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1052,
-    "wikiDataId": "Q5568509"
+    "wikiDataId": "Q5568536"
   },
   {
     "id": 5387,
@@ -4251,7 +4251,7 @@
     "native": "Glenroy",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23792,
     "wikiDataId": "Q3108837"
   },
@@ -4267,8 +4267,8 @@
     "native": "Golden Plains",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 26620,
     "wikiDataId": "Q1338860"
   },
   {
@@ -4283,7 +4283,7 @@
     "native": "Golden Point",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2217,
     "wikiDataId": "Q5579715"
   },
@@ -4299,7 +4299,7 @@
     "native": "Golden Square",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9220,
     "wikiDataId": "Q5579809"
   },
@@ -4315,7 +4315,7 @@
     "native": "Gordon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1130,
     "wikiDataId": "Q5584757"
   },
@@ -4331,7 +4331,7 @@
     "native": "Gowanbrae",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2971,
     "wikiDataId": "Q5589982"
   },
@@ -4347,8 +4347,8 @@
     "native": "Greater Bendigo",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 126568,
     "wikiDataId": "Q678469"
   },
   {
@@ -4363,8 +4363,8 @@
     "native": "Greater Dandenong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 7394,
+    "type": "municipality",
+    "population": 168684,
     "wikiDataId": "Q1544419"
   },
   {
@@ -4379,8 +4379,8 @@
     "native": "Greater Geelong",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 295052,
     "wikiDataId": "Q1476602"
   },
   {
@@ -4395,8 +4395,8 @@
     "native": "Greater Shepparton",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 69865,
     "wikiDataId": "Q473188"
   },
   {
@@ -4411,7 +4411,7 @@
     "native": "Greensborough",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21070,
     "wikiDataId": "Q5604476"
   },
@@ -4424,10 +4424,10 @@
     "country_code": "AU",
     "latitude": "-37.63333000",
     "longitude": "144.86667000",
-    "native": "GREENVAL",
+    "native": "Greenvale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 21274,
     "wikiDataId": "Q5604620"
   },
@@ -4443,7 +4443,7 @@
     "native": "Grovedale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14869,
     "wikiDataId": "Q5611478"
   },
@@ -4459,7 +4459,7 @@
     "native": "Haddon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1276,
     "wikiDataId": "Q5637689"
   },
@@ -4475,7 +4475,7 @@
     "native": "Hadfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6269,
     "wikiDataId": "Q5637794"
   },
@@ -4491,7 +4491,7 @@
     "native": "Hallam",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11355,
     "wikiDataId": "Q5642748"
   },
@@ -4507,7 +4507,7 @@
     "native": "Hamilton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10346,
     "wikiDataId": "Q762430"
   },
@@ -4523,7 +4523,7 @@
     "native": "Hamlyn Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6518,
     "wikiDataId": "Q5645522"
   },
@@ -4541,7 +4541,7 @@
     "translations": {},
     "type": "section",
     "population": 13518,
-    "wikiDataId": "Q5646117"
+    "wikiDataId": null
   },
   {
     "id": 5521,
@@ -4555,7 +4555,7 @@
     "native": "Hampton East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5069,
     "wikiDataId": "Q5646195"
   },
@@ -4571,7 +4571,7 @@
     "native": "Hampton Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 26082,
     "wikiDataId": "Q5646261"
   },
@@ -4587,7 +4587,7 @@
     "native": "Hastings",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10369,
     "wikiDataId": "Q3128258"
   },
@@ -4603,7 +4603,7 @@
     "native": "Haven",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1443,
     "wikiDataId": "Q5683635"
   },
@@ -4619,7 +4619,7 @@
     "native": "Hawthorn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22322,
     "wikiDataId": "Q5685475"
   },
@@ -4635,7 +4635,7 @@
     "native": "Hawthorn East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14834,
     "wikiDataId": "Q5685486"
   },
@@ -4653,7 +4653,7 @@
     "translations": {},
     "type": "section",
     "population": 21177,
-    "wikiDataId": "Q5685486"
+    "wikiDataId": null
   },
   {
     "id": 5552,
@@ -4667,9 +4667,9 @@
     "native": "Hazelwood North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1552,
-    "wikiDataId": "Q12324458"
+    "wikiDataId": "Q5688194"
   },
   {
     "id": 5554,
@@ -4683,7 +4683,7 @@
     "native": "Healesville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7589,
     "wikiDataId": "Q1015813"
   },
@@ -4699,7 +4699,7 @@
     "native": "Heathcote",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2962,
     "wikiDataId": "Q1592513"
   },
@@ -4715,9 +4715,9 @@
     "native": "Heatherton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2826,
-    "wikiDataId": "Q1592513"
+    "wikiDataId": "Q5694243"
   },
   {
     "id": 5559,
@@ -4731,7 +4731,7 @@
     "native": "Heathmont",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9933,
     "wikiDataId": "Q5694307"
   },
@@ -4747,7 +4747,7 @@
     "native": "Heidelberg",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7360,
     "wikiDataId": "Q1594002"
   },
@@ -4763,7 +4763,7 @@
     "native": "Heidelberg Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6758,
     "wikiDataId": "Q5698660"
   },
@@ -4779,7 +4779,7 @@
     "native": "Heidelberg West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5252,
     "wikiDataId": "Q5698734"
   },
@@ -4795,8 +4795,8 @@
     "native": "Hepburn",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 631,
+    "type": "municipality",
+    "population": 17011,
     "wikiDataId": "Q663654"
   },
   {
@@ -4811,9 +4811,9 @@
     "native": "Herne Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3507,
-    "wikiDataId": "Q5742343"
+    "wikiDataId": "Q5742341"
   },
   {
     "id": 5590,
@@ -4827,7 +4827,7 @@
     "native": "Heyfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2050,
     "wikiDataId": "Q1616962"
   },
@@ -4843,7 +4843,7 @@
     "native": "Heywood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1815,
     "wikiDataId": "Q5749836"
   },
@@ -4856,10 +4856,10 @@
     "country_code": "AU",
     "latitude": "-37.95000000",
     "longitude": "145.05000000",
-    "native": "Care",
+    "native": "Highett",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 803,
     "wikiDataId": "Q5758468"
   },
@@ -4875,9 +4875,9 @@
     "native": "Highton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 20736,
-    "wikiDataId": "Q5758555"
+    "wikiDataId": "Q5759711"
   },
   {
     "id": 5612,
@@ -4891,7 +4891,7 @@
     "native": "Hillside",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17331,
     "wikiDataId": "Q5763864"
   },
@@ -4907,8 +4907,8 @@
     "native": "Hindmarsh",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 232,
+    "type": "municipality",
+    "population": 5447,
     "wikiDataId": "Q667866"
   },
   {
@@ -4923,7 +4923,7 @@
     "native": "Hmas Cerberus",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1124,
     "wikiDataId": "Q3124910"
   },
@@ -4939,8 +4939,8 @@
     "native": "Hobsons Bay",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 9558,
+    "type": "municipality",
+    "population": 97031,
     "wikiDataId": "Q660298"
   },
   {
@@ -4955,7 +4955,7 @@
     "native": "Hoppers Crossing",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 37216,
     "wikiDataId": "Q5901240"
   },
@@ -4971,7 +4971,7 @@
     "native": "Horsham",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 15134,
     "wikiDataId": "Q1476336"
   },
@@ -4987,9 +4987,9 @@
     "native": "Hotham Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2221,
-    "wikiDataId": "Q5906384"
+    "wikiDataId": "Q31676326"
   },
   {
     "id": 5664,
@@ -5003,7 +5003,7 @@
     "native": "Hughesdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7563,
     "wikiDataId": "Q5933486"
   },
@@ -5019,8 +5019,8 @@
     "native": "Hume",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 667,
+    "type": "municipality",
+    "population": 278885,
     "wikiDataId": "Q1637032"
   },
   {
@@ -5035,9 +5035,9 @@
     "native": "Huntingdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1826,
-    "wikiDataId": "Q14935721"
+    "wikiDataId": "Q5945068"
   },
   {
     "id": 5672,
@@ -5051,9 +5051,9 @@
     "native": "Huntly",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2321,
-    "wikiDataId": "Q14935721"
+    "wikiDataId": "Q29434974"
   },
   {
     "id": 5676,
@@ -5067,7 +5067,7 @@
     "native": "Hurstbridge",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3554,
     "wikiDataId": "Q5948626"
   },
@@ -5083,7 +5083,7 @@
     "native": "Indented Head",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1105,
     "wikiDataId": "Q6015866"
   },
@@ -5099,8 +5099,8 @@
     "native": "Indigo",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 17758,
     "wikiDataId": "Q1478179"
   },
   {
@@ -5115,7 +5115,7 @@
     "native": "Inverleigh",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1746,
     "wikiDataId": "Q2399392"
   },
@@ -5131,7 +5131,7 @@
     "native": "Inverloch",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6526,
     "wikiDataId": "Q2037996"
   },
@@ -5147,9 +5147,9 @@
     "native": "Invermay Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1692,
-    "wikiDataId": "Q2037996"
+    "wikiDataId": "Q55466606"
   },
   {
     "id": 5703,
@@ -5163,9 +5163,9 @@
     "native": "Ironbark",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1173,
-    "wikiDataId": "Q1631867"
+    "wikiDataId": "Q31676025"
   },
   {
     "id": 5705,
@@ -5179,7 +5179,7 @@
     "native": "Irymple",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7700,
     "wikiDataId": "Q772372"
   },
@@ -5195,7 +5195,7 @@
     "native": "Ivanhoe",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13374,
     "wikiDataId": "Q3156237"
   },
@@ -5211,7 +5211,7 @@
     "native": "Ivanhoe East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3762,
     "wikiDataId": "Q6098125"
   },
@@ -5227,7 +5227,7 @@
     "native": "Jacana",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2187,
     "wikiDataId": "Q14935170"
   },
@@ -5243,7 +5243,7 @@
     "native": "Jackass Flat",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1139,
     "wikiDataId": "Q6116079"
   },
@@ -5259,7 +5259,7 @@
     "native": "Jan Juc",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4151,
     "wikiDataId": "Q1890874"
   },
@@ -5275,7 +5275,7 @@
     "native": "Junction Village",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1051,
     "wikiDataId": "Q6311789"
   },
@@ -5288,12 +5288,12 @@
     "country_code": "AU",
     "latitude": "-36.77106000",
     "longitude": "144.36311000",
-    "native": "Junurson",
+    "native": "Junortoun",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3862,
-    "wikiDataId": "Q180858"
+    "wikiDataId": "Q30993048"
   },
   {
     "id": 5761,
@@ -5304,12 +5304,12 @@
     "country_code": "AU",
     "latitude": "-37.87011000",
     "longitude": "147.96664000",
-    "native": "Kalmina",
+    "native": "Kalimna",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1350,
-    "wikiDataId": "Q203327"
+    "wikiDataId": "Q31675550"
   },
   {
     "id": 5766,
@@ -5320,10 +5320,10 @@
     "country_code": "AU",
     "latitude": "-37.89815000",
     "longitude": "145.38226000",
-    "native": "Expensive",
+    "native": "Kallista",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1418,
     "wikiDataId": "Q6353868"
   },
@@ -5339,7 +5339,7 @@
     "native": "Kalorama",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1277,
     "wikiDataId": "Q6354279"
   },
@@ -5355,7 +5355,7 @@
     "native": "Kangaroo Flat",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11328,
     "wikiDataId": "Q6362529"
   },
@@ -5371,7 +5371,7 @@
     "native": "Kangaroo Ground",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1208,
     "wikiDataId": "Q1723723"
   },
@@ -5387,7 +5387,7 @@
     "native": "Kealba",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3226,
     "wikiDataId": "Q6382123"
   },
@@ -5403,7 +5403,7 @@
     "native": "Keilor",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5906,
     "wikiDataId": "Q1638235"
   },
@@ -5419,7 +5419,7 @@
     "native": "Keilor Downs",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9857,
     "wikiDataId": "Q6383741"
   },
@@ -5435,7 +5435,7 @@
     "native": "Keilor East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15078,
     "wikiDataId": "Q1424133"
   },
@@ -5451,7 +5451,7 @@
     "native": "Keilor Lodge",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1668,
     "wikiDataId": "Q6383745"
   },
@@ -5467,7 +5467,7 @@
     "native": "Keilor Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2684,
     "wikiDataId": "Q6383747"
   },
@@ -5483,7 +5483,7 @@
     "native": "Kennington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5880,
     "wikiDataId": "Q6390914"
   },
@@ -5499,7 +5499,7 @@
     "native": "Kensington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11927,
     "wikiDataId": "Q2608078"
   },
@@ -5512,10 +5512,10 @@
     "country_code": "AU",
     "latitude": "-35.73489000",
     "longitude": "143.92027000",
-    "native": "Shell",
+    "native": "Kerang",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3960,
     "wikiDataId": "Q1739176"
   },
@@ -5531,7 +5531,7 @@
     "native": "Kew",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24499,
     "wikiDataId": "Q72216"
   },
@@ -5547,7 +5547,7 @@
     "native": "Kew East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6620,
     "wikiDataId": "Q6397892"
   },
@@ -5563,7 +5563,7 @@
     "native": "Keysborough",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 30018,
     "wikiDataId": "Q6398390"
   },
@@ -5576,10 +5576,10 @@
     "country_code": "AU",
     "latitude": "-36.44729000",
     "longitude": "145.41422000",
-    "native": "In a kira",
+    "native": "Kialla",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6608,
     "wikiDataId": "Q6403696"
   },
@@ -5595,7 +5595,7 @@
     "native": "Kilmore",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9207,
     "wikiDataId": "Q2778994"
   },
@@ -5611,7 +5611,7 @@
     "native": "Kilsyth",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11699,
     "wikiDataId": "Q6408209"
   },
@@ -5627,7 +5627,7 @@
     "native": "Kilsyth South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2862,
     "wikiDataId": "Q6408217"
   },
@@ -5643,9 +5643,9 @@
     "native": "Kinglake",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1662,
-    "wikiDataId": "Q1742110"
+    "wikiDataId": "Q968998"
   },
   {
     "id": 5869,
@@ -5659,7 +5659,7 @@
     "native": "Kinglake West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 901,
     "wikiDataId": "Q6412782"
   },
@@ -5675,9 +5675,9 @@
     "native": "Kings Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8126,
-    "wikiDataId": "Q6412977"
+    "wikiDataId": "Q6412981"
   },
   {
     "id": 5875,
@@ -5691,9 +5691,9 @@
     "native": "Kingsbury",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3460,
-    "wikiDataId": "Q6412977"
+    "wikiDataId": "Q1151185"
   },
   {
     "id": 5884,
@@ -5707,8 +5707,8 @@
     "native": "Kingston",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 6579,
+    "type": "municipality",
+    "population": 168061,
     "wikiDataId": "Q1500830"
   },
   {
@@ -5723,7 +5723,7 @@
     "native": "Kingsville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3920,
     "wikiDataId": "Q6413698"
   },
@@ -5739,8 +5739,8 @@
     "native": "Knox",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 163820,
     "wikiDataId": "Q1500804"
   },
   {
@@ -5755,7 +5755,7 @@
     "native": "Knoxfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7645,
     "wikiDataId": "Q6423635"
   },
@@ -5771,7 +5771,7 @@
     "native": "Koo-Wee-Rup",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3079,
     "wikiDataId": "Q1783750"
   },
@@ -5784,10 +5784,10 @@
     "country_code": "AU",
     "latitude": "-38.29180000",
     "longitude": "142.36729000",
-    "native": "Interest",
+    "native": "Koroit",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2184,
     "wikiDataId": "Q6432497"
   },
@@ -5803,7 +5803,7 @@
     "native": "Korumburra",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4749,
     "wikiDataId": "Q1876313"
   },
@@ -5816,10 +5816,10 @@
     "country_code": "AU",
     "latitude": "-37.67587000",
     "longitude": "144.59690000",
-    "native": "I visit",
+    "native": "Kurunjang",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10711,
     "wikiDataId": "Q6447466"
   },
@@ -5835,7 +5835,7 @@
     "native": "Kyabram",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7416,
     "wikiDataId": "Q2740588"
   },
@@ -5851,7 +5851,7 @@
     "native": "Kyneton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7513,
     "wikiDataId": "Q1931613"
   },
@@ -5867,9 +5867,9 @@
     "native": "Lake Gardens",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1801,
-    "wikiDataId": "Q6475206"
+    "wikiDataId": "Q6475915"
   },
   {
     "id": 5952,
@@ -5883,7 +5883,7 @@
     "native": "Lake Wendouree",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2878,
     "wikiDataId": "Q6478468"
   },
@@ -5899,7 +5899,7 @@
     "native": "Lakes Entrance",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5145,
     "wikiDataId": "Q1020987"
   },
@@ -5915,7 +5915,7 @@
     "native": "Lalor",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23219,
     "wikiDataId": "Q6480572"
   },
@@ -5931,7 +5931,7 @@
     "native": "Lancefield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2743,
     "wikiDataId": "Q936713"
   },
@@ -5947,7 +5947,7 @@
     "native": "Lang lang",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1543,
     "wikiDataId": "Q1804848"
   },
@@ -5963,7 +5963,7 @@
     "native": "Langwarrin",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23588,
     "wikiDataId": "Q1805451"
   },
@@ -5979,7 +5979,7 @@
     "native": "Langwarrin South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1346,
     "wikiDataId": "Q6486971"
   },
@@ -5995,7 +5995,7 @@
     "native": "Lara",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19014,
     "wikiDataId": "Q6488514"
   },
@@ -6011,8 +6011,8 @@
     "native": "Latrobe",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 5030,
+    "type": "municipality",
+    "population": 79112,
     "wikiDataId": "Q1475256"
   },
   {
@@ -6027,9 +6027,9 @@
     "native": "Launching Place",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2495,
-    "wikiDataId": "Q339527"
+    "wikiDataId": "Q14935191"
   },
   {
     "id": 5988,
@@ -6043,7 +6043,7 @@
     "native": "Laverton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5001,
     "wikiDataId": "Q6502627"
   },
@@ -6056,10 +6056,10 @@
     "country_code": "AU",
     "latitude": "-38.47607000",
     "longitude": "145.94685000",
-    "native": "The handle",
+    "native": "Leongatha",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5869,
     "wikiDataId": "Q1767620"
   },
@@ -6075,7 +6075,7 @@
     "native": "Leopold",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13272,
     "wikiDataId": "Q6526896"
   },
@@ -6091,7 +6091,7 @@
     "native": "Lilydale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17348,
     "wikiDataId": "Q6548615"
   },
@@ -6107,7 +6107,7 @@
     "native": "Little River",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1353,
     "wikiDataId": "Q6651574"
   },
@@ -6123,8 +6123,8 @@
     "native": "Loddon",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 7718,
     "wikiDataId": "Q662483"
   },
   {
@@ -6139,7 +6139,7 @@
     "native": "Long Gully",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3420,
     "wikiDataId": "Q12061365"
   },
@@ -6155,9 +6155,9 @@
     "native": "Longford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1489,
-    "wikiDataId": "Q941931"
+    "wikiDataId": "Q6673823"
   },
   {
     "id": 6068,
@@ -6171,7 +6171,7 @@
     "native": "Longwarry",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2436,
     "wikiDataId": "Q3259186"
   },
@@ -6187,7 +6187,7 @@
     "native": "Lorne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1327,
     "wikiDataId": "Q838210"
   },
@@ -6203,7 +6203,7 @@
     "native": "Lovely Banks",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2782,
     "wikiDataId": "Q6692265"
   },
@@ -6219,7 +6219,7 @@
     "native": "Lower Plenty",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3962,
     "wikiDataId": "Q6693710"
   },
@@ -6235,9 +6235,9 @@
     "native": "Lucknow",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1439,
-    "wikiDataId": "Q911495"
+    "wikiDataId": "Q30973024"
   },
   {
     "id": 6089,
@@ -6251,7 +6251,7 @@
     "native": "Lynbrook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9121,
     "wikiDataId": "Q6708388"
   },
@@ -6267,7 +6267,7 @@
     "native": "Lysterfield",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6681,
     "wikiDataId": "Q6710291"
   },
@@ -6283,7 +6283,7 @@
     "native": "Macedon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2073,
     "wikiDataId": "Q3274192"
   },
@@ -6299,8 +6299,8 @@
     "native": "Macedon Ranges",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 54464,
     "wikiDataId": "Q662472"
   },
   {
@@ -6331,9 +6331,9 @@
     "native": "Maddingley",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3426,
-    "wikiDataId": "Q8273407"
+    "wikiDataId": "Q13157530"
   },
   {
     "id": 6121,
@@ -6347,7 +6347,7 @@
     "native": "Maffra",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5384,
     "wikiDataId": "Q1883669"
   },
@@ -6363,7 +6363,7 @@
     "native": "Maiden Gully",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5407,
     "wikiDataId": "Q6735368"
   },
@@ -6379,7 +6379,7 @@
     "native": "Maidstone",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9389,
     "wikiDataId": "Q2787790"
   },
@@ -6395,7 +6395,7 @@
     "native": "Maldon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1665,
     "wikiDataId": "Q3281764"
   },
@@ -6408,10 +6408,10 @@
     "country_code": "AU",
     "latitude": "-37.55896000",
     "longitude": "149.75407000",
-    "native": "The Male",
+    "native": "Mallacoota",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1183,
     "wikiDataId": "Q1002461"
   },
@@ -6427,7 +6427,7 @@
     "native": "Malvern",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9929,
     "wikiDataId": "Q6745046"
   },
@@ -6443,7 +6443,7 @@
     "native": "Malvern East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22296,
     "wikiDataId": "Q6745056"
   },
@@ -6459,7 +6459,7 @@
     "native": "Manifold Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2681,
     "wikiDataId": "Q6749563"
   },
@@ -6475,7 +6475,7 @@
     "native": "Manningham",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 1391,
     "wikiDataId": "Q765334"
   },
@@ -6491,8 +6491,8 @@
     "native": "Mansfield",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 5541,
+    "type": "municipality",
+    "population": 10979,
     "wikiDataId": "Q647929"
   },
   {
@@ -6507,8 +6507,8 @@
     "native": "Maribyrnong",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 12573,
+    "type": "municipality",
+    "population": 94672,
     "wikiDataId": "Q1502208"
   },
   {
@@ -6520,12 +6520,12 @@
     "country_code": "AU",
     "latitude": "-36.73333000",
     "longitude": "144.13333000",
-    "native": "In the piles",
+    "native": "Marong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1394,
-    "wikiDataId": "Q6772133"
+    "wikiDataId": "Q6772321"
   },
   {
     "id": 6189,
@@ -6539,8 +6539,8 @@
     "native": "Maroondah",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 120247,
     "wikiDataId": "Q473183"
   },
   {
@@ -6555,7 +6555,7 @@
     "native": "Maryborough",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7830,
     "wikiDataId": "Q1014561"
   },
@@ -6571,7 +6571,7 @@
     "native": "McCrae",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2629,
     "wikiDataId": "Q6800675"
   },
@@ -6603,7 +6603,7 @@
     "native": "Meadow Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14890,
     "wikiDataId": "Q6803241"
   },
@@ -6619,9 +6619,9 @@
     "native": "Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 5350705,
-    "wikiDataId": "Q3141"
+    "wikiDataId": "Q1919098"
   },
   {
     "id": 6236,
@@ -6651,7 +6651,7 @@
     "native": "Melton",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7953,
     "wikiDataId": "Q979561"
   },
@@ -6667,7 +6667,7 @@
     "native": "Melton South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11362,
     "wikiDataId": "Q12061667"
   },
@@ -6683,7 +6683,7 @@
     "native": "Melton West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8784,
     "wikiDataId": "Q6813803"
   },
@@ -6699,7 +6699,7 @@
     "native": "Mentone",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13197,
     "wikiDataId": "Q14935220"
   },
@@ -6715,7 +6715,7 @@
     "native": "Merbein",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4976,
     "wikiDataId": "Q6817975"
   },
@@ -6731,7 +6731,7 @@
     "native": "Mernda",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23369,
     "wikiDataId": "Q6819892"
   },
@@ -6744,10 +6744,10 @@
     "country_code": "AU",
     "latitude": "-37.89154000",
     "longitude": "147.85300000",
-    "native": "One",
+    "native": "Metung",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1382,
     "wikiDataId": "Q3908460"
   },
@@ -6763,7 +6763,7 @@
     "native": "Mickleham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3132,
     "wikiDataId": "Q6838860"
   },
@@ -6779,7 +6779,7 @@
     "native": "Middle Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3845,
     "wikiDataId": "Q6841517"
   },
@@ -6795,7 +6795,7 @@
     "native": "Mildura",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 34565,
     "wikiDataId": "Q705829"
   },
@@ -6811,7 +6811,7 @@
     "native": "Mildura Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1476850"
   },
@@ -6827,7 +6827,7 @@
     "native": "Mill Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 28712,
     "wikiDataId": "Q6858372"
   },
@@ -6843,7 +6843,7 @@
     "native": "Millgrove",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1666,
     "wikiDataId": "Q6859494"
   },
@@ -6859,9 +6859,9 @@
     "native": "Miners Rest",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3042,
-    "wikiDataId": "Q1313065"
+    "wikiDataId": "Q24286776"
   },
   {
     "id": 6316,
@@ -6875,7 +6875,7 @@
     "native": "Mirboo North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2263,
     "wikiDataId": "Q2159743"
   },
@@ -6891,7 +6891,7 @@
     "native": "Mitcham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16795,
     "wikiDataId": "Q6881034"
   },
@@ -6907,8 +6907,8 @@
     "native": "Mitchell",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 995,
+    "type": "municipality",
+    "population": 58459,
     "wikiDataId": "Q652395"
   },
   {
@@ -6923,7 +6923,7 @@
     "native": "Moe",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9375,
     "wikiDataId": "Q1420012"
   },
@@ -6939,8 +6939,8 @@
     "native": "Moira",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 0,
+    "type": "municipality",
+    "population": 30866,
     "wikiDataId": "Q657666"
   },
   {
@@ -6955,8 +6955,8 @@
     "native": "Monash",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 5644,
+    "type": "municipality",
+    "population": 211833,
     "wikiDataId": "Q1785372"
   },
   {
@@ -6971,7 +6971,7 @@
     "native": "Monbulk",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3651,
     "wikiDataId": "Q6898457"
   },
@@ -6987,7 +6987,7 @@
     "native": "Mont Albert",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4948,
     "wikiDataId": "Q6903020"
   },
@@ -7003,7 +7003,7 @@
     "native": "Mont Albert North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5609,
     "wikiDataId": "Q6903022"
   },
@@ -7019,7 +7019,7 @@
     "native": "Montmorency",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9250,
     "wikiDataId": "Q6906086"
   },
@@ -7035,7 +7035,7 @@
     "native": "Montrose",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6595,
     "wikiDataId": "Q6906456"
   },
@@ -7051,7 +7051,7 @@
     "native": "Moolap",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1318,
     "wikiDataId": "Q6907358"
   },
@@ -7067,7 +7067,7 @@
     "native": "Moonee Ponds",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16224,
     "wikiDataId": "Q1586921"
   },
@@ -7083,8 +7083,8 @@
     "native": "Moonee Valley",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 5901,
+    "type": "municipality",
+    "population": 130501,
     "wikiDataId": "Q1786648"
   },
   {
@@ -7096,10 +7096,10 @@
     "country_code": "AU",
     "latitude": "-37.94146000",
     "longitude": "145.05779000",
-    "native": "Magon",
+    "native": "Moorabbin",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6287,
     "wikiDataId": "Q6908064"
   },
@@ -7115,7 +7115,7 @@
     "native": "Moorabool",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 94,
     "wikiDataId": "Q1479557"
   },
@@ -7128,10 +7128,10 @@
     "country_code": "AU",
     "latitude": "-38.21667000",
     "longitude": "145.11667000",
-    "native": "Moorodc",
+    "native": "Moorooduc",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1004,
     "wikiDataId": "Q14935231"
   },
@@ -7147,9 +7147,9 @@
     "native": "Mooroolbark",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 23059,
-    "wikiDataId": "Q6908447"
+    "wikiDataId": "Q6908450"
   },
   {
     "id": 6375,
@@ -7160,10 +7160,10 @@
     "country_code": "AU",
     "latitude": "-36.40000000",
     "longitude": "145.35000000",
-    "native": "Moroopna",
+    "native": "Mooroopna",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8312,
     "wikiDataId": "Q6908458"
   },
@@ -7176,10 +7176,10 @@
     "country_code": "AU",
     "latitude": "-38.00000000",
     "longitude": "145.08333000",
-    "native": "Bite",
+    "native": "Mordialloc",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8886,
     "wikiDataId": "Q1947451"
   },
@@ -7195,7 +7195,7 @@
     "native": "Moreland",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 2116,
     "wikiDataId": "Q1947531"
   },
@@ -7211,7 +7211,7 @@
     "native": "Mornington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 25759,
     "wikiDataId": "Q6913013"
   },
@@ -7227,8 +7227,8 @@
     "native": "Mornington Peninsula",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 172217,
     "wikiDataId": "Q684708"
   },
   {
@@ -7243,7 +7243,7 @@
     "native": "Mortlake",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1334,
     "wikiDataId": "Q6914771"
   },
@@ -7259,7 +7259,7 @@
     "native": "Morwell",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14389,
     "wikiDataId": "Q72337"
   },
@@ -7275,8 +7275,8 @@
     "native": "Mount Alexander",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 20939,
     "wikiDataId": "Q657741"
   },
   {
@@ -7291,7 +7291,7 @@
     "native": "Mount Buller",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2568,
     "wikiDataId": "Q984117"
   },
@@ -7307,7 +7307,7 @@
     "native": "Mount Clear",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3671,
     "wikiDataId": "Q1662750"
   },
@@ -7323,7 +7323,7 @@
     "native": "Mount Dandenong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1271,
     "wikiDataId": "Q3321799"
   },
@@ -7355,7 +7355,7 @@
     "native": "Mount Eliza",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18734,
     "wikiDataId": "Q6920590"
   },
@@ -7371,7 +7371,7 @@
     "native": "Mount Evelyn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9799,
     "wikiDataId": "Q6920694"
   },
@@ -7387,9 +7387,9 @@
     "native": "Mount Helen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3011,
-    "wikiDataId": "Q6921089"
+    "wikiDataId": "Q16895450"
   },
   {
     "id": 6438,
@@ -7403,7 +7403,7 @@
     "native": "Mount Macedon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1450,
     "wikiDataId": "Q1622641"
   },
@@ -7419,7 +7419,7 @@
     "native": "Mount Martha",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19846,
     "wikiDataId": "Q6922032"
   },
@@ -7451,7 +7451,7 @@
     "native": "Mount Waverley",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 35340,
     "wikiDataId": "Q6924525"
   },
@@ -7467,8 +7467,8 @@
     "native": "Moyne",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 17760,
     "wikiDataId": "Q278688"
   },
   {
@@ -7483,7 +7483,7 @@
     "native": "Mulgrave",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19889,
     "wikiDataId": "Q6933974"
   },
@@ -7496,11 +7496,11 @@
     "country_code": "AU",
     "latitude": "-37.28104000",
     "longitude": "145.67437000",
-    "native": "Fracture",
+    "native": "Murrindindi",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 114,
+    "type": "municipality",
+    "population": 15648,
     "wikiDataId": "Q1478730"
   },
   {
@@ -7515,7 +7515,7 @@
     "native": "Murrumbeena",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9369,
     "wikiDataId": "Q6939635"
   },
@@ -7531,7 +7531,7 @@
     "native": "Myrtleford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3285,
     "wikiDataId": "Q1657718"
   },
@@ -7547,7 +7547,7 @@
     "native": "Nagambie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2254,
     "wikiDataId": "Q6958405"
   },
@@ -7560,10 +7560,10 @@
     "country_code": "AU",
     "latitude": "-38.03333000",
     "longitude": "145.30000000",
-    "native": "Fool Warren",
+    "native": "Narre Warren",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 27689,
     "wikiDataId": "Q6966236"
   },
@@ -7579,7 +7579,7 @@
     "native": "Narre Warren North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8033,
     "wikiDataId": "Q6966240"
   },
@@ -7595,7 +7595,7 @@
     "native": "Narre Warren south",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 30909,
     "wikiDataId": "Q6966241"
   },
@@ -7611,7 +7611,7 @@
     "native": "Nathalia",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1982,
     "wikiDataId": "Q3336527"
   },
@@ -7627,9 +7627,9 @@
     "native": "Neerim South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1599,
-    "wikiDataId": "Q1490452"
+    "wikiDataId": "Q2624355"
   },
   {
     "id": 6557,
@@ -7643,9 +7643,9 @@
     "native": "New Gisborne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2509,
-    "wikiDataId": "Q7007563"
+    "wikiDataId": "Q7007809"
   },
   {
     "id": 6562,
@@ -7659,9 +7659,9 @@
     "native": "Newborough",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6886,
-    "wikiDataId": "Q14935638"
+    "wikiDataId": "Q7017029"
   },
   {
     "id": 6566,
@@ -7675,7 +7675,7 @@
     "native": "Newcomb",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4704,
     "wikiDataId": "Q7017603"
   },
@@ -7691,7 +7691,7 @@
     "native": "Newington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1876,
     "wikiDataId": "Q7018241"
   },
@@ -7707,7 +7707,7 @@
     "native": "Newport",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13658,
     "wikiDataId": "Q14935251"
   },
@@ -7723,7 +7723,7 @@
     "native": "Newtown",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9827,
     "wikiDataId": "Q14935255"
   },
@@ -7739,7 +7739,7 @@
     "native": "Nhill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2401,
     "wikiDataId": "Q2663753"
   },
@@ -7755,7 +7755,7 @@
     "native": "Nichols Point",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1723,
     "wikiDataId": "Q7026571"
   },
@@ -7771,9 +7771,9 @@
     "native": "Nicholson",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1045,
-    "wikiDataId": "Q7026571"
+    "wikiDataId": "Q14935258"
   },
   {
     "id": 6591,
@@ -7787,7 +7787,7 @@
     "native": "Niddrie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5901,
     "wikiDataId": "Q7030829"
   },
@@ -7803,8 +7803,8 @@
     "native": "Nillumbik",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 63797,
     "wikiDataId": "Q175701"
   },
   {
@@ -7819,7 +7819,7 @@
     "native": "Noble Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 32257,
     "wikiDataId": "Q7045757"
   },
@@ -7835,7 +7835,7 @@
     "native": "Noble Park North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7436,
     "wikiDataId": "Q7045759"
   },
@@ -7851,7 +7851,7 @@
     "native": "Norlane",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8682,
     "wikiDataId": "Q14935260"
   },
@@ -7867,9 +7867,9 @@
     "native": "North Bendigo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4277,
-    "wikiDataId": "Q7054111"
+    "wikiDataId": "Q24089915"
   },
   {
     "id": 6621,
@@ -7885,7 +7885,7 @@
     "translations": {},
     "type": "section",
     "population": 2109,
-    "wikiDataId": "Q7054226"
+    "wikiDataId": null
   },
   {
     "id": 6628,
@@ -7899,9 +7899,9 @@
     "native": "North Geelong",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3049,
-    "wikiDataId": "Q7055450"
+    "wikiDataId": "Q7055470"
   },
   {
     "id": 6640,
@@ -7915,9 +7915,9 @@
     "native": "North Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14953,
-    "wikiDataId": "Q12736890"
+    "wikiDataId": "Q7056074"
   },
   {
     "id": 6657,
@@ -7931,7 +7931,7 @@
     "native": "North Warrandyte",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3027,
     "wikiDataId": "Q7057191"
   },
@@ -7947,7 +7947,7 @@
     "native": "North Wonthaggi",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2746,
     "wikiDataId": "Q21905614"
   },
@@ -7963,7 +7963,7 @@
     "native": "Northcote",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 25276,
     "wikiDataId": "Q7057754"
   },
@@ -7979,7 +7979,7 @@
     "native": "Northern Grampians",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q667893"
   },
@@ -7995,7 +7995,7 @@
     "native": "Notting Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2895,
     "wikiDataId": "Q14935265"
   },
@@ -8011,7 +8011,7 @@
     "native": "Numurkah",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4604,
     "wikiDataId": "Q2115087"
   },
@@ -8024,10 +8024,10 @@
     "country_code": "AU",
     "latitude": "-37.82043000",
     "longitude": "145.17308000",
-    "native": "Nody",
+    "native": "Nunawading",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12413,
     "wikiDataId": "Q7069760"
   },
@@ -8040,10 +8040,10 @@
     "country_code": "AU",
     "latitude": "-38.33364000",
     "longitude": "145.67248000",
-    "native": "Write",
+    "native": "Nyora",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1644,
     "wikiDataId": "Q8034527"
   },
@@ -8059,7 +8059,7 @@
     "native": "Oak Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6714,
     "wikiDataId": "Q7073652"
   },
@@ -8075,7 +8075,7 @@
     "native": "Oakleigh",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8442,
     "wikiDataId": "Q7074107"
   },
@@ -8091,7 +8091,7 @@
     "native": "Oakleigh East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6804,
     "wikiDataId": "Q7074111"
   },
@@ -8107,7 +8107,7 @@
     "native": "Oakleigh South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9851,
     "wikiDataId": "Q7074118"
   },
@@ -8123,9 +8123,9 @@
     "native": "Ocean Grove",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14165,
-    "wikiDataId": "Q820717"
+    "wikiDataId": "Q7076006"
   },
   {
     "id": 6713,
@@ -8139,7 +8139,7 @@
     "native": "Officer",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18503,
     "wikiDataId": "Q7079440"
   },
@@ -8155,7 +8155,7 @@
     "native": "Olinda",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1773,
     "wikiDataId": "Q7086922"
   },
@@ -8171,7 +8171,7 @@
     "native": "Orbost",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2264,
     "wikiDataId": "Q2028572"
   },
@@ -8184,7 +8184,7 @@
     "country_code": "AU",
     "latitude": "-37.90000000",
     "longitude": "145.03333000",
-    "native": "Bin",
+    "native": "Ormond",
     "timezone": "Australia/Melbourne",
     "translations": {},
     "type": "section",
@@ -8203,7 +8203,7 @@
     "native": "Ouyen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1170,
     "wikiDataId": "Q2042167"
   },
@@ -8219,7 +8219,7 @@
     "native": "Pakenham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 54118,
     "wikiDataId": "Q2046587"
   },
@@ -8235,7 +8235,7 @@
     "native": "Pakenham Upper",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1196,
     "wikiDataId": "Q21903696"
   },
@@ -8251,7 +8251,7 @@
     "native": "Panton Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1063,
     "wikiDataId": "Q7131895"
   },
@@ -8267,7 +8267,7 @@
     "native": "Park Orchards",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3835,
     "wikiDataId": "Q7137916"
   },
@@ -8283,9 +8283,9 @@
     "native": "Parkdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12308,
-    "wikiDataId": "Q7137969"
+    "wikiDataId": "Q7138209"
   },
   {
     "id": 6800,
@@ -8299,7 +8299,7 @@
     "native": "Parkville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7074,
     "wikiDataId": "Q3427921"
   },
@@ -8315,7 +8315,7 @@
     "native": "Pascoe Vale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18171,
     "wikiDataId": "Q7141839"
   },
@@ -8331,7 +8331,7 @@
     "native": "Pascoe Vale South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10534,
     "wikiDataId": "Q7141845"
   },
@@ -8347,7 +8347,7 @@
     "native": "Patterson Lakes",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7793,
     "wikiDataId": "Q7148453"
   },
@@ -8363,7 +8363,7 @@
     "native": "Paynesville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3636,
     "wikiDataId": "Q3165638"
   },
@@ -8379,7 +8379,7 @@
     "native": "Pearcedale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3867,
     "wikiDataId": "Q7157991"
   },
@@ -8397,7 +8397,7 @@
     "translations": {},
     "type": "city",
     "population": 7071,
-    "wikiDataId": "Q7185600"
+    "wikiDataId": null
   },
   {
     "id": 6867,
@@ -8411,7 +8411,7 @@
     "native": "Plenty",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2575,
     "wikiDataId": "Q7204559"
   },
@@ -8443,7 +8443,7 @@
     "native": "Point Cook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 66781,
     "wikiDataId": "Q7207994"
   },
@@ -8459,7 +8459,7 @@
     "native": "Point Lonsdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2490,
     "wikiDataId": "Q2485919"
   },
@@ -8475,7 +8475,7 @@
     "native": "Port Fairy",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3742,
     "wikiDataId": "Q459900"
   },
@@ -8491,7 +8491,7 @@
     "native": "Port Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17633,
     "wikiDataId": "Q1623026"
   },
@@ -8507,8 +8507,8 @@
     "native": "Port Phillip",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 6177,
+    "type": "municipality",
+    "population": 114434,
     "wikiDataId": "Q747477"
   },
   {
@@ -8523,7 +8523,7 @@
     "native": "Portarlington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3490,
     "wikiDataId": "Q7231520"
   },
@@ -8539,7 +8539,7 @@
     "native": "Portland",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10016,
     "wikiDataId": "Q1663450"
   },
@@ -8552,10 +8552,10 @@
     "country_code": "AU",
     "latitude": "-37.85114000",
     "longitude": "144.99318000",
-    "native": "Nueed",
+    "native": "Prahran",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12203,
     "wikiDataId": "Q1733565"
   },
@@ -8571,7 +8571,7 @@
     "native": "Preston",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 33790,
     "wikiDataId": "Q1471471"
   },
@@ -8587,7 +8587,7 @@
     "native": "Princes Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2005,
     "wikiDataId": "Q7244455"
   },
@@ -8603,7 +8603,7 @@
     "native": "Puckapunyal",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1108,
     "wikiDataId": "Q7258247"
   },
@@ -8619,8 +8619,8 @@
     "native": "Pyrenees",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 7957,
     "wikiDataId": "Q667879"
   },
   {
@@ -8635,7 +8635,7 @@
     "native": "Quarry Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2365,
     "wikiDataId": "Q7269215"
   },
@@ -8651,7 +8651,7 @@
     "native": "Queenscliff",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1239,
     "wikiDataId": "Q3359425"
   },
@@ -8667,8 +8667,8 @@
     "native": "Queenscliffe",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
-    "population": 1239,
+    "type": "municipality",
+    "population": 3317,
     "wikiDataId": "Q663742"
   },
   {
@@ -8683,7 +8683,7 @@
     "native": "Ravenhall",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1155,
     "wikiDataId": "Q7296449"
   },
@@ -8699,7 +8699,7 @@
     "native": "Red Cliffs",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5294,
     "wikiDataId": "Q3422682"
   },
@@ -8712,12 +8712,12 @@
     "country_code": "AU",
     "latitude": "-37.57649000",
     "longitude": "143.83862000",
-    "native": "Already",
+    "native": "Redan",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3000,
-    "wikiDataId": "Q3422727"
+    "wikiDataId": "Q7305435"
   },
   {
     "id": 6997,
@@ -8731,7 +8731,7 @@
     "native": "Research",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2695,
     "wikiDataId": "Q7315046"
   },
@@ -8747,7 +8747,7 @@
     "native": "Reservoir",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 51096,
     "wikiDataId": "Q7315303"
   },
@@ -8763,7 +8763,7 @@
     "native": "Richmond",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 28587,
     "wikiDataId": "Q1012076"
   },
@@ -8779,7 +8779,7 @@
     "native": "Ringwood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19144,
     "wikiDataId": "Q3019699"
   },
@@ -8795,7 +8795,7 @@
     "native": "Ringwood East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10764,
     "wikiDataId": "Q7335020"
   },
@@ -8811,7 +8811,7 @@
     "native": "Ringwood North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9964,
     "wikiDataId": "Q7335023"
   },
@@ -8843,7 +8843,7 @@
     "native": "Robinvale",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3497,
     "wikiDataId": "Q526671"
   },
@@ -8859,7 +8859,7 @@
     "native": "Rochester",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3154,
     "wikiDataId": "Q3437662"
   },
@@ -8891,7 +8891,7 @@
     "native": "Romsey",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4625,
     "wikiDataId": "Q3441263"
   },
@@ -8907,7 +8907,7 @@
     "native": "Rosanna",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8616,
     "wikiDataId": "Q7367325"
   },
@@ -8923,7 +8923,7 @@
     "native": "Rosebud",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14381,
     "wikiDataId": "Q2104028"
   },
@@ -8939,7 +8939,7 @@
     "native": "Rosebud West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4904,
     "wikiDataId": "Q7368107"
   },
@@ -8955,7 +8955,7 @@
     "native": "Rosedale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1729,
     "wikiDataId": "Q7368153"
   },
@@ -8971,9 +8971,9 @@
     "native": "Ross Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1221,
-    "wikiDataId": "Q2167341"
+    "wikiDataId": "Q20623308"
   },
   {
     "id": 7083,
@@ -8987,7 +8987,7 @@
     "native": "Rowville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 33571,
     "wikiDataId": "Q7372303"
   },
@@ -9003,7 +9003,7 @@
     "native": "Roxburgh Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24129,
     "wikiDataId": "Q7372398"
   },
@@ -9019,7 +9019,7 @@
     "native": "Rushworth",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1411,
     "wikiDataId": "Q1835215"
   },
@@ -9035,7 +9035,7 @@
     "native": "Rutherglen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2579,
     "wikiDataId": "Q2375558"
   },
@@ -9051,7 +9051,7 @@
     "native": "Rye",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9438,
     "wikiDataId": "Q7384943"
   },
@@ -9067,8 +9067,8 @@
     "native": "Safety Beach",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 4587,
+    "type": "locality",
+    "population": 6328,
     "wikiDataId": "Q7398603"
   },
   {
@@ -9083,7 +9083,7 @@
     "native": "Saint Albans",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 35091,
     "wikiDataId": "Q474528"
   },
@@ -9099,7 +9099,7 @@
     "native": "Saint Andrews",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1195,
     "wikiDataId": "Q7592430"
   },
@@ -9115,25 +9115,9 @@
     "native": "Saint Andrews Beach",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1138,
     "wikiDataId": "Q7592432"
-  },
-  {
-    "id": 7111,
-    "name": "Saint Helena",
-    "state_id": 3903,
-    "state_code": "VIC",
-    "country_id": 14,
-    "country_code": "AU",
-    "latitude": "-37.70000000",
-    "longitude": "145.13333000",
-    "native": "Saint Helena",
-    "timezone": "Australia/Melbourne",
-    "translations": {},
-    "type": "section",
-    "population": 2890,
-    "wikiDataId": "Q7593327"
   },
   {
     "id": 7113,
@@ -9147,7 +9131,7 @@
     "native": "Saint Kilda",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19490,
     "wikiDataId": "Q823531"
   },
@@ -9163,7 +9147,7 @@
     "native": "Saint Leonards",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2409,
     "wikiDataId": "Q7594013"
   },
@@ -9179,7 +9163,7 @@
     "native": "Sale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14296,
     "wikiDataId": "Q1026976"
   },
@@ -9195,7 +9179,7 @@
     "native": "San Remo",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1286,
     "wikiDataId": "Q3375102"
   },
@@ -9211,7 +9195,7 @@
     "native": "Sandhurst",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5211,
     "wikiDataId": "Q7416279"
   },
@@ -9227,7 +9211,7 @@
     "native": "Sandringham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10926,
     "wikiDataId": "Q3472028"
   },
@@ -9243,7 +9227,7 @@
     "native": "Sassafras",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 970,
     "wikiDataId": "Q1735132"
   },
@@ -9259,7 +9243,7 @@
     "native": "Scoresby",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6066,
     "wikiDataId": "Q7435336"
   },
@@ -9275,9 +9259,9 @@
     "native": "Seabrook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4952,
-    "wikiDataId": "Q256629"
+    "wikiDataId": "Q7440220"
   },
   {
     "id": 7163,
@@ -9291,7 +9275,7 @@
     "native": "Seaford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17215,
     "wikiDataId": "Q7440369"
   },
@@ -9307,7 +9291,7 @@
     "native": "Seaholme",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2067,
     "wikiDataId": "Q7440490"
   },
@@ -9323,7 +9307,7 @@
     "native": "Sebastopol",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10194,
     "wikiDataId": "Q7442721"
   },
@@ -9339,7 +9323,7 @@
     "native": "Seddon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5048,
     "wikiDataId": "Q7445161"
   },
@@ -9355,7 +9339,7 @@
     "native": "Selby",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1626,
     "wikiDataId": "Q7447542"
   },
@@ -9371,7 +9355,7 @@
     "native": "Seville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2559,
     "wikiDataId": "Q7458058"
   },
@@ -9387,7 +9371,7 @@
     "native": "Seymour",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6016,
     "wikiDataId": "Q985689"
   },
@@ -9403,7 +9387,7 @@
     "native": "Shepparton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 32067,
     "wikiDataId": "Q707030"
   },
@@ -9419,9 +9403,9 @@
     "native": "Shepparton East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1192,
-    "wikiDataId": "Q707030"
+    "wikiDataId": "Q29364312"
   },
   {
     "id": 7213,
@@ -9435,7 +9419,7 @@
     "native": "Silvan",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1323,
     "wikiDataId": "Q7515664"
   },
@@ -9451,7 +9435,7 @@
     "native": "Skye",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8088,
     "wikiDataId": "Q14935287"
   },
@@ -9467,9 +9451,9 @@
     "native": "Smythes Creek",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1762,
-    "wikiDataId": "Q1001465"
+    "wikiDataId": "Q31446062"
   },
   {
     "id": 7233,
@@ -9483,7 +9467,7 @@
     "native": "Smythesdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1189,
     "wikiDataId": "Q7546777"
   },
@@ -9499,7 +9483,7 @@
     "native": "Soldiers Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2757,
     "wikiDataId": "Q7557391"
   },
@@ -9515,7 +9499,7 @@
     "native": "Somers",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1857,
     "wikiDataId": "Q3489802"
   },
@@ -9531,7 +9515,7 @@
     "native": "Somerville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11767,
     "wikiDataId": "Q7559958"
   },
@@ -9547,7 +9531,7 @@
     "native": "Sorrento",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1522,
     "wikiDataId": "Q3375047"
   },
@@ -9563,8 +9547,8 @@
     "native": "South Gippsland",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 31109,
     "wikiDataId": "Q652386"
   },
   {
@@ -9579,7 +9563,7 @@
     "native": "South Kingsville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2156,
     "wikiDataId": "Q7567622"
   },
@@ -9595,7 +9579,7 @@
     "native": "South Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11548,
     "wikiDataId": "Q3965520"
   },
@@ -9611,7 +9595,7 @@
     "native": "South Morang",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24989,
     "wikiDataId": "Q7567979"
   },
@@ -9627,7 +9611,7 @@
     "native": "South Yarra",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 25028,
     "wikiDataId": "Q2304617"
   },
@@ -9643,7 +9627,7 @@
     "native": "Southbank",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22631,
     "wikiDataId": "Q1049218"
   },
@@ -9659,8 +9643,8 @@
     "native": "Southern Grampians",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 16483,
     "wikiDataId": "Q666486"
   },
   {
@@ -9675,9 +9659,9 @@
     "native": "Spotswood",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2578,
-    "wikiDataId": "Q7576147"
+    "wikiDataId": "Q1796979"
   },
   {
     "id": 7313,
@@ -9691,7 +9675,7 @@
     "native": "Springvale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 22174,
     "wikiDataId": "Q7581218"
   },
@@ -9707,7 +9691,7 @@
     "native": "SpringVale south",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12766,
     "wikiDataId": "Q640131"
   },
@@ -9723,12 +9707,12 @@
     "native": "St Albans Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4942,
-    "wikiDataId": "Q7592225"
+    "wikiDataId": "Q7592277"
   },
   {
-    "id": 7325,
+    "id": 7111,
     "name": "St Helena",
     "state_id": 3903,
     "state_code": "VIC",
@@ -9739,7 +9723,7 @@
     "native": "St Helena",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2890,
     "wikiDataId": "Q7593327"
   },
@@ -9755,7 +9739,7 @@
     "native": "St Kilda East",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12571,
     "wikiDataId": "Q7593906"
   },
@@ -9771,7 +9755,7 @@
     "native": "St Kilda West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2951,
     "wikiDataId": "Q7593916"
   },
@@ -9787,7 +9771,7 @@
     "native": "Stawell",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6220,
     "wikiDataId": "Q2190456"
   },
@@ -9803,8 +9787,8 @@
     "native": "Stonnington",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": null,
+    "type": "municipality",
+    "population": 114789,
     "wikiDataId": "Q1409285"
   },
   {
@@ -9819,7 +9803,7 @@
     "native": "Stratford",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2509,
     "wikiDataId": "Q7621911"
   },
@@ -9832,11 +9816,11 @@
     "country_code": "AU",
     "latitude": "-36.72402000",
     "longitude": "145.32938000",
-    "native": "Strathboogie",
+    "native": "Strathbogie",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 351,
+    "type": "municipality",
+    "population": 11839,
     "wikiDataId": "Q652391"
   },
   {
@@ -9851,9 +9835,9 @@
     "native": "Strathdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5756,
-    "wikiDataId": "Q652391"
+    "wikiDataId": "Q31033230"
   },
   {
     "id": 7361,
@@ -9867,7 +9851,7 @@
     "native": "Strathfieldsaye",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5283,
     "wikiDataId": "Q7622109"
   },
@@ -9883,7 +9867,7 @@
     "native": "Strathmerton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1072,
     "wikiDataId": "Q1814336"
   },
@@ -9899,9 +9883,9 @@
     "native": "Strathmore",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 8980,
-    "wikiDataId": "Q1814336"
+    "wikiDataId": "Q7622134"
   },
   {
     "id": 7378,
@@ -9915,7 +9899,7 @@
     "native": "Sunbury",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 38851,
     "wikiDataId": "Q1007711"
   },
@@ -9931,7 +9915,7 @@
     "native": "Sunshine",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 9445,
     "wikiDataId": "Q7641406"
   },
@@ -9947,7 +9931,7 @@
     "native": "Sunshine North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12047,
     "wikiDataId": "Q7641541"
   },
@@ -9963,7 +9947,7 @@
     "native": "Sunshine West",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 18552,
     "wikiDataId": "Q7641592"
   },
@@ -9979,8 +9963,8 @@
     "native": "Surf Coast",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 40265,
     "wikiDataId": "Q1476815"
   },
   {
@@ -9995,9 +9979,9 @@
     "native": "Surrey Hills",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 13655,
-    "wikiDataId": "Q7646797"
+    "wikiDataId": "Q7646816"
   },
   {
     "id": 7402,
@@ -10011,8 +9995,8 @@
     "native": "Swan Hill",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 11186,
+    "type": "municipality",
+    "population": 20962,
     "wikiDataId": "Q1476725"
   },
   {
@@ -10027,7 +10011,7 @@
     "native": "Sydenham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10578,
     "wikiDataId": "Q7659769"
   },
@@ -10040,10 +10024,10 @@
     "country_code": "AU",
     "latitude": "-36.21791000",
     "longitude": "147.17699000",
-    "native": "Advertising",
+    "native": "Tallangatta",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1175,
     "wikiDataId": "Q595043"
   },
@@ -10056,10 +10040,10 @@
     "country_code": "AU",
     "latitude": "-37.83634000",
     "longitude": "144.65952000",
-    "native": "Supply",
+    "native": "Tarneit",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 56370,
     "wikiDataId": "Q7686407"
   },
@@ -10075,7 +10059,7 @@
     "native": "Tatura",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4955,
     "wikiDataId": "Q3516125"
   },
@@ -10091,7 +10075,7 @@
     "native": "Taylors Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15419,
     "wikiDataId": "Q7690243"
   },
@@ -10107,7 +10091,7 @@
     "native": "Taylors Lakes",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15174,
     "wikiDataId": "Q14935294"
   },
@@ -10123,7 +10107,7 @@
     "native": "Tecoma",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2064,
     "wikiDataId": "Q14935296"
   },
@@ -10139,7 +10123,7 @@
     "native": "Teesdale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1695,
     "wikiDataId": "Q7694555"
   },
@@ -10155,7 +10139,7 @@
     "native": "Templestowe",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 16966,
     "wikiDataId": "Q7698810"
   },
@@ -10171,7 +10155,7 @@
     "native": "Templestowe Lower",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14098,
     "wikiDataId": "Q7698813"
   },
@@ -10184,10 +10168,10 @@
     "country_code": "AU",
     "latitude": "-38.24084000",
     "longitude": "142.92123000",
-    "native": "Bright",
+    "native": "Terang",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2254,
     "wikiDataId": "Q2752921"
   },
@@ -10203,7 +10187,7 @@
     "native": "The Basin",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4497,
     "wikiDataId": "Q7715767"
   },
@@ -10219,7 +10203,7 @@
     "native": "The Patch",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1046,
     "wikiDataId": "Q7756315"
   },
@@ -10235,7 +10219,7 @@
     "native": "Thomastown",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 20234,
     "wikiDataId": "Q7795600"
   },
@@ -10251,9 +10235,9 @@
     "native": "Thomson",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1606,
-    "wikiDataId": "Q7795600"
+    "wikiDataId": "Q7795853"
   },
   {
     "id": 7503,
@@ -10267,7 +10251,7 @@
     "native": "Thornbury",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 19005,
     "wikiDataId": "Q12006208"
   },
@@ -10280,10 +10264,10 @@
     "country_code": "AU",
     "latitude": "-38.48434000",
     "longitude": "142.98033000",
-    "native": "Timboo",
+    "native": "Timboon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1250,
     "wikiDataId": "Q2301422"
   },
@@ -10299,7 +10283,7 @@
     "native": "Tongala",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1973,
     "wikiDataId": "Q2339659"
   },
@@ -10312,10 +10296,10 @@
     "country_code": "AU",
     "latitude": "-38.21475000",
     "longitude": "145.38325000",
-    "native": "Dire",
+    "native": "Tooradin",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1722,
     "wikiDataId": "Q7824200"
   },
@@ -10328,10 +10312,10 @@
     "country_code": "AU",
     "latitude": "-37.84165000",
     "longitude": "145.01438000",
-    "native": "Apologetic",
+    "native": "Toorak",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 12817,
     "wikiDataId": "Q2443083"
   },
@@ -10347,7 +10331,7 @@
     "native": "Tootgarook",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3178,
     "wikiDataId": "Q7824240"
   },
@@ -10363,7 +10347,7 @@
     "native": "Torquay",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18534,
     "wikiDataId": "Q726992"
   },
@@ -10379,8 +10363,8 @@
     "native": "Towong",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 143,
+    "type": "municipality",
+    "population": 6158,
     "wikiDataId": "Q646200"
   },
   {
@@ -10395,7 +10379,7 @@
     "native": "Trafalgar",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4349,
     "wikiDataId": "Q378358"
   },
@@ -10411,7 +10395,7 @@
     "native": "TRARALGON",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 26907,
     "wikiDataId": "Q249022"
   },
@@ -10427,7 +10411,7 @@
     "native": "Travancore",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2116,
     "wikiDataId": "Q7835866"
   },
@@ -10443,7 +10427,7 @@
     "native": "Trentham",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1382,
     "wikiDataId": "Q3538503"
   },
@@ -10456,10 +10440,10 @@
     "country_code": "AU",
     "latitude": "-37.81667000",
     "longitude": "144.75000000",
-    "native": "Truganine",
+    "native": "Truganina",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 36305,
     "wikiDataId": "Q7847627"
   },
@@ -10475,7 +10459,7 @@
     "native": "Tullamarine",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6733,
     "wikiDataId": "Q1521059"
   },
@@ -10488,7 +10472,7 @@
     "country_code": "AU",
     "latitude": "-38.25000000",
     "longitude": "145.18333000",
-    "native": "Rabb",
+    "native": "Tyabb",
     "timezone": "Australia/Melbourne",
     "translations": {},
     "type": "section",
@@ -10507,7 +10491,7 @@
     "native": "Upwey",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6818,
     "wikiDataId": "Q7899493"
   },
@@ -10523,7 +10507,7 @@
     "native": "Vermont",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 10993,
     "wikiDataId": "Q7921664"
   },
@@ -10539,7 +10523,7 @@
     "native": "Vermont South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11954,
     "wikiDataId": "Q7921770"
   },
@@ -10555,7 +10539,7 @@
     "native": "Viewbank",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7030,
     "wikiDataId": "Q7928784"
   },
@@ -10571,7 +10555,7 @@
     "native": "Wahgunyah",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1061,
     "wikiDataId": "Q3565121"
   },
@@ -10587,9 +10571,9 @@
     "native": "Wallan",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15004,
-    "wikiDataId": "Q14935031"
+    "wikiDataId": "Q2400081"
   },
   {
     "id": 7674,
@@ -10603,7 +10587,7 @@
     "native": "Wallington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1515,
     "wikiDataId": "Q2748088"
   },
@@ -10619,7 +10603,7 @@
     "native": "Wandana Heights",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2195,
     "wikiDataId": "Q7967163"
   },
@@ -10635,7 +10619,7 @@
     "native": "Wandin North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3132,
     "wikiDataId": "Q7967260"
   },
@@ -10667,8 +10651,8 @@
     "native": "Wangaratta",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 19214,
+    "type": "municipality",
+    "population": 30089,
     "wikiDataId": "Q1477083"
   },
   {
@@ -10680,10 +10664,10 @@
     "country_code": "AU",
     "latitude": "-37.85000000",
     "longitude": "145.21667000",
-    "native": "W wantirirana",
+    "native": "Wantirna",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14237,
     "wikiDataId": "Q7968177"
   },
@@ -10699,7 +10683,7 @@
     "native": "Wantirna South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 20754,
     "wikiDataId": "Q7968179"
   },
@@ -10715,7 +10699,7 @@
     "native": "Warburton",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2020,
     "wikiDataId": "Q914214"
   },
@@ -10731,7 +10715,7 @@
     "native": "Warracknabeal",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2359,
     "wikiDataId": "Q2288705"
   },
@@ -10747,7 +10731,7 @@
     "native": "Warragul",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23051,
     "wikiDataId": "Q942732"
   },
@@ -10763,7 +10747,7 @@
     "native": "Warrandyte",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5541,
     "wikiDataId": "Q2549639"
   },
@@ -10779,7 +10763,7 @@
     "native": "Warranwood",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4820,
     "wikiDataId": "Q7969962"
   },
@@ -10795,7 +10779,7 @@
     "native": "Warrnambool",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 31308,
     "wikiDataId": "Q705867"
   },
@@ -10811,7 +10795,7 @@
     "native": "Waterways",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2422,
     "wikiDataId": "Q7974568"
   },
@@ -10827,7 +10811,7 @@
     "native": "Watsonia",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5352,
     "wikiDataId": "Q7974877"
   },
@@ -10843,7 +10827,7 @@
     "native": "Watsonia North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3799,
     "wikiDataId": "Q7974879"
   },
@@ -10859,9 +10843,9 @@
     "native": "Wattleglen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1904,
-    "wikiDataId": "Q21898711"
+    "wikiDataId": "Q7974976"
   },
   {
     "id": 7745,
@@ -10875,9 +10859,9 @@
     "native": "Waurn Ponds",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4956,
-    "wikiDataId": "Q2104626"
+    "wikiDataId": "Q7975212"
   },
   {
     "id": 7757,
@@ -10891,8 +10875,8 @@
     "native": "Wellington",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": 184,
+    "type": "municipality",
+    "population": 46551,
     "wikiDataId": "Q646195"
   },
   {
@@ -10907,9 +10891,9 @@
     "native": "Wendouree",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15000,
-    "wikiDataId": "Q7982179"
+    "wikiDataId": "Q7982538"
   },
   {
     "id": 7767,
@@ -10923,7 +10907,7 @@
     "native": "Werribee",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 50027,
     "wikiDataId": "Q2563357"
   },
@@ -10939,7 +10923,7 @@
     "native": "Werribee South",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1788,
     "wikiDataId": "Q7983581"
   },
@@ -10955,7 +10939,7 @@
     "native": "Wesburn",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1052,
     "wikiDataId": "Q7983785"
   },
@@ -10971,7 +10955,7 @@
     "native": "West Footscray",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 11729,
     "wikiDataId": "Q7985168"
   },
@@ -10987,7 +10971,7 @@
     "native": "West Melbourne",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 5588,
     "wikiDataId": "Q12010545"
   },
@@ -11003,8 +10987,8 @@
     "native": "West Wimmera",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 3915,
     "wikiDataId": "Q674471"
   },
   {
@@ -11016,12 +11000,12 @@
     "country_code": "AU",
     "latitude": "-36.12346000",
     "longitude": "146.85193000",
-    "native": "West chaff",
+    "native": "West Wodonga",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14794,
-    "wikiDataId": "Q674471"
+    "wikiDataId": "Q30890410"
   },
   {
     "id": 7825,
@@ -11035,9 +11019,9 @@
     "native": "Westmeadows",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 6502,
-    "wikiDataId": "Q7989076"
+    "wikiDataId": "Q12072769"
   },
   {
     "id": 7832,
@@ -11051,7 +11035,7 @@
     "native": "Wheelers Hill",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 20652,
     "wikiDataId": "Q4019311"
   },
@@ -11067,7 +11051,7 @@
     "native": "White Hills",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3620,
     "wikiDataId": "Q7994799"
   },
@@ -11083,7 +11067,7 @@
     "native": "Whitehorse",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q1502393"
   },
@@ -11099,9 +11083,9 @@
     "native": "Whittington",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3990,
-    "wikiDataId": "Q1069401"
+    "wikiDataId": "Q7996900"
   },
   {
     "id": 7842,
@@ -11115,8 +11099,8 @@
     "native": "Whittlesea",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
-    "population": 5497,
+    "type": "municipality",
+    "population": 259759,
     "wikiDataId": "Q970191"
   },
   {
@@ -11131,8 +11115,8 @@
     "native": "Williams Landing",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 6607,
+    "type": "locality",
+    "population": 9448,
     "wikiDataId": "Q8021059"
   },
   {
@@ -11147,7 +11131,7 @@
     "native": "Williamstown",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 14407,
     "wikiDataId": "Q1012058"
   },
@@ -11163,7 +11147,7 @@
     "native": "Williamstown North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1622,
     "wikiDataId": "Q8021306"
   },
@@ -11179,7 +11163,7 @@
     "native": "Winchelsea",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1905,
     "wikiDataId": "Q2508511"
   },
@@ -11195,7 +11179,7 @@
     "native": "Windsor",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 7273,
     "wikiDataId": "Q8024538"
   },
@@ -11208,11 +11192,11 @@
     "country_code": "AU",
     "latitude": "-36.14469000",
     "longitude": "146.88818000",
-    "native": "Wall",
+    "native": "Wodonga",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
-    "population": 38949,
+    "type": "municipality",
+    "population": 44717,
     "wikiDataId": "Q582046"
   },
   {
@@ -11227,7 +11211,7 @@
     "native": "Wollert",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 24407,
     "wikiDataId": "Q8030341"
   },
@@ -11240,10 +11224,10 @@
     "country_code": "AU",
     "latitude": "-37.73333000",
     "longitude": "145.26667000",
-    "native": "Get park",
+    "native": "Wonga Park",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3843,
     "wikiDataId": "Q8032045"
   },
@@ -11259,7 +11243,7 @@
     "native": "Wonthaggi",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5215,
     "wikiDataId": "Q2022320"
   },
@@ -11275,7 +11259,7 @@
     "native": "Woodend",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5709,
     "wikiDataId": "Q3569828"
   },
@@ -11291,7 +11275,7 @@
     "native": "Woori Yallock",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2964,
     "wikiDataId": "Q8034033"
   },
@@ -11307,9 +11291,9 @@
     "native": "Wurruk",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1177,
-    "wikiDataId": "Q8039249"
+    "wikiDataId": "Q30471770"
   },
   {
     "id": 7965,
@@ -11323,9 +11307,9 @@
     "native": "Wy Yung",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1940,
-    "wikiDataId": "Q18034"
+    "wikiDataId": "Q31440511"
   },
   {
     "id": 7969,
@@ -11339,7 +11323,7 @@
     "native": "Wyndham",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 418,
     "wikiDataId": "Q1502429"
   },
@@ -11355,7 +11339,7 @@
     "native": "Wyndham Vale",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 20518,
     "wikiDataId": "Q8040132"
   },
@@ -11371,7 +11355,7 @@
     "native": "Yackandandah",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2008,
     "wikiDataId": "Q3425090"
   },
@@ -11384,10 +11368,10 @@
     "country_code": "AU",
     "latitude": "-37.72515000",
     "longitude": "145.09352000",
-    "native": "Yallambwe",
+    "native": "Yallambie",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4161,
     "wikiDataId": "Q8047488"
   },
@@ -11403,9 +11387,9 @@
     "native": "Yallourn North",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1511,
-    "wikiDataId": "Q8047495"
+    "wikiDataId": "Q8047498"
   },
   {
     "id": 7995,
@@ -11419,8 +11403,8 @@
     "native": "Yarra",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
-    "population": 6606,
+    "type": "municipality",
+    "population": 101356,
     "wikiDataId": "Q1474848"
   },
   {
@@ -11435,7 +11419,7 @@
     "native": "Yarra Glen",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3012,
     "wikiDataId": "Q2453315"
   },
@@ -11451,7 +11435,7 @@
     "native": "Yarra Junction",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 2875,
     "wikiDataId": "Q8049502"
   },
@@ -11467,8 +11451,8 @@
     "native": "Yarra Ranges",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 160906,
     "wikiDataId": "Q188422"
   },
   {
@@ -11483,7 +11467,7 @@
     "native": "Yarragon",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1893,
     "wikiDataId": "Q8049522"
   },
@@ -11496,10 +11480,10 @@
     "country_code": "AU",
     "latitude": "-38.56479000",
     "longitude": "146.67557000",
-    "native": "Fract",
+    "native": "Yarram",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2136,
     "wikiDataId": "Q985428"
   },
@@ -11515,9 +11499,9 @@
     "native": "Yarrambat",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 1602,
-    "wikiDataId": "Q3571889"
+    "wikiDataId": "Q8049534"
   },
   {
     "id": 8007,
@@ -11531,9 +11515,9 @@
     "native": "Yarraville",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 15636,
-    "wikiDataId": "Q3571889"
+    "wikiDataId": "Q8049542"
   },
   {
     "id": 8009,
@@ -11544,10 +11528,10 @@
     "country_code": "AU",
     "latitude": "-36.01923000",
     "longitude": "145.99973000",
-    "native": "On",
+    "native": "Yarrawonga",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8661,
     "wikiDataId": "Q3571892"
   },
@@ -11563,8 +11547,8 @@
     "native": "Yarriambiack",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "municipality",
+    "population": 6295,
     "wikiDataId": "Q673273"
   },
   {
@@ -11579,7 +11563,7 @@
     "native": "Yea",
     "timezone": "Australia/Melbourne",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1789,
     "wikiDataId": "Q605944"
   }

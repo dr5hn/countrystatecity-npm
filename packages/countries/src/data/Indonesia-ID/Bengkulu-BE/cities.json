@@ -1,5 +1,21 @@
 [
   {
+    "id": 56357,
+    "name": "Arga Makmur",
+    "state_id": 1793,
+    "state_code": "BE",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.43672810",
+    "longitude": "102.20178360",
+    "native": "Arga Makmur",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q138784439"
+  },
+  {
     "id": 56217,
     "name": "Bengkulu",
     "state_id": 1793,
@@ -11,25 +27,9 @@
     "native": "Bengkulu",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 360495,
     "wikiDataId": "Q8042"
-  },
-  {
-    "id": 56355,
-    "name": "Bengkulu Selatan",
-    "state_id": 1793,
-    "state_code": "BE",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-4.35000000",
-    "longitude": "103.03333000",
-    "native": "Kabupaten Bengkulu Selatan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8040"
   },
   {
     "id": 56356,
@@ -46,22 +46,6 @@
     "type": "regency",
     "population": null,
     "wikiDataId": "Q7796"
-  },
-  {
-    "id": 56357,
-    "name": "Bengkulu Utara",
-    "state_id": 1793,
-    "state_code": "BE",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.33333000",
-    "longitude": "102.05000000",
-    "native": "Kabupaten Bengkulu Utara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8034"
   },
   {
     "id": 56258,
@@ -102,30 +86,30 @@
     "state_code": "BE",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-3.60194000",
-    "longitude": "102.56424000",
-    "native": "Kabupaten Kepahiang",
+    "latitude": "-3.64550000",
+    "longitude": "102.57120000",
+    "native": "Kepahiang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q7940"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q138791070"
   },
   {
-    "id": 56492,
-    "name": "Lebong",
+    "id": 56355,
+    "name": "Manna",
     "state_id": 1793,
     "state_code": "BE",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-3.24278000",
-    "longitude": "102.33490000",
-    "native": "Kabupaten Lebong",
+    "latitude": "-4.44004500",
+    "longitude": "102.89512292",
+    "native": "Manna",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q8031"
+    "wikiDataId": "Q14907681"
   },
   {
     "id": 56544,
@@ -134,14 +118,14 @@
     "state_code": "BE",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-3.07438000",
-    "longitude": "101.54766000",
-    "native": "Kabupaten Mukomuko",
+    "latitude": "-2.55311111",
+    "longitude": "101.10378056",
+    "native": "Mukomuko",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q8033"
+    "wikiDataId": "Q12499428"
   },
   {
     "id": 56609,
@@ -174,5 +158,21 @@
     "type": "regency",
     "population": null,
     "wikiDataId": "Q8037"
+  },
+  {
+    "id": 56492,
+    "name": "Tubei",
+    "state_id": 1793,
+    "state_code": "BE",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.11917000",
+    "longitude": "102.20000000",
+    "native": "Tubei",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q138791069"
   }
 ]

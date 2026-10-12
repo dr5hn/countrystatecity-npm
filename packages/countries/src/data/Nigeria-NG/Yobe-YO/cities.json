@@ -11,7 +11,7 @@
     "native": "Damaturu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 46000,
     "wikiDataId": "Q1023722"
   },
@@ -27,9 +27,9 @@
     "native": "Dadal",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5730,
-    "wikiDataId": "Q1023722"
+    "wikiDataId": "Q33432142"
   },
   {
     "id": 76834,
@@ -40,12 +40,28 @@
     "country_code": "NG",
     "latitude": "12.49536000",
     "longitude": "11.49977000",
-    "native": "Donap",
+    "native": "Dapchi",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 14077,
-    "wikiDataId": "Q1023722"
+    "wikiDataId": "Q5221571"
+  },
+  {
+    "id": 165303,
+    "name": "Daura",
+    "state_id": 297,
+    "state_code": "YO",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "11.55410000",
+    "longitude": "11.40600000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": 78277,
+    "wikiDataId": "Q33432292"
   },
   {
     "id": 76869,
@@ -56,10 +72,10 @@
     "country_code": "NG",
     "latitude": "11.37700000",
     "longitude": "11.23746000",
-    "native": "Coffee",
+    "native": "Fika",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 136895,
     "wikiDataId": "Q5448220"
   },
@@ -75,7 +91,7 @@
     "native": "Gashua",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 125817,
     "wikiDataId": "Q5526456"
   },
@@ -91,9 +107,9 @@
     "native": "Geidam",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 41367,
-    "wikiDataId": "Q5526456"
+    "wikiDataId": "Q5530097"
   },
   {
     "id": 76886,
@@ -104,12 +120,12 @@
     "country_code": "NG",
     "latitude": "11.48451000",
     "longitude": "12.31264000",
-    "native": "Farm",
+    "native": "Goniri",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11673,
-    "wikiDataId": "Q591598"
+    "wikiDataId": "Q33439043"
   },
   {
     "id": 76888,
@@ -123,9 +139,9 @@
     "native": "Gorgoram",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12470,
-    "wikiDataId": "Q591598"
+    "wikiDataId": "Q33439179"
   },
   {
     "id": 76890,
@@ -139,9 +155,9 @@
     "native": "Gujba",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11359,
-    "wikiDataId": "Q591598"
+    "wikiDataId": "Q33441859"
   },
   {
     "id": 76900,
@@ -152,12 +168,12 @@
     "country_code": "NG",
     "latitude": "12.67479000",
     "longitude": "11.06690000",
-    "native": "GwoI to grow",
+    "native": "Gwio Kura",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7091,
-    "wikiDataId": "Q591598"
+    "wikiDataId": "Q5623677"
   },
   {
     "id": 76992,
@@ -168,12 +184,12 @@
     "country_code": "NG",
     "latitude": "13.15498000",
     "longitude": "10.63468000",
-    "native": "Summarizing",
+    "native": "Kumagunnam",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16557,
-    "wikiDataId": "Q937487"
+    "wikiDataId": null
   },
   {
     "id": 77003,
@@ -187,9 +203,9 @@
     "native": "Lajere",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7356,
-    "wikiDataId": "Q8673"
+    "wikiDataId": "Q33455100"
   },
   {
     "id": 77012,
@@ -203,9 +219,9 @@
     "native": "Machina",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11707,
-    "wikiDataId": "Q8673"
+    "wikiDataId": "Q6723600"
   },
   {
     "id": 77042,
@@ -216,12 +232,12 @@
     "country_code": "NG",
     "latitude": "12.87695000",
     "longitude": "10.45536000",
-    "native": "Ng",
+    "native": "Nguru",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 111014,
-    "wikiDataId": "Q1951627"
+    "wikiDataId": "Q3508977"
   },
   {
     "id": 77089,
@@ -235,8 +251,8 @@
     "native": "Potiskum",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 86002,
-    "wikiDataId": "Q1023703"
+    "wikiDataId": "Q3309364"
   }
 ]

@@ -27,7 +27,7 @@
     "native": "Cà Mau",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 226372,
     "wikiDataId": "Q25262"
   },
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q800052"
+    "wikiDataId": null
   },
   {
     "id": 130540,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q3031261"
+    "wikiDataId": null
   },
   {
     "id": 130318,
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q5942590"
+    "wikiDataId": null
   },
   {
     "id": 130204,
@@ -126,5 +126,21 @@
     "type": "adm2",
     "population": null,
     "wikiDataId": "Q7786654"
+  },
+  {
+    "id": 165851,
+    "name": "Năm Căn",
+    "state_id": 3778,
+    "state_code": "59",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "8.75899000",
+    "longitude": "104.99285000",
+    "native": null,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "adm2",
+    "population": 30135,
+    "wikiDataId": "Q7071583"
   }
 ]

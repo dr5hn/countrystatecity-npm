@@ -11,9 +11,25 @@
     "native": "Bebington",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15768,
     "wikiDataId": "Q813552"
+  },
+  {
+    "id": 48520,
+    "name": "Birkenhead",
+    "state_id": 2408,
+    "state_code": "WRL",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.39337000",
+    "longitude": "-3.01479000",
+    "native": "Birkenhead",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 325264,
+    "wikiDataId": "Q746718"
   },
   {
     "id": 48718,
@@ -32,22 +48,6 @@
     "wikiDataId": "Q2338272"
   },
   {
-    "id": 49456,
-    "name": "Ellesmere Port",
-    "state_id": 2408,
-    "state_code": "WRL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.27875000",
-    "longitude": "-2.90134000",
-    "native": "Ellesmere Port",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 61090,
-    "wikiDataId": "Q1011600"
-  },
-  {
     "id": 49705,
     "name": "Greasby",
     "state_id": 2408,
@@ -59,9 +59,9 @@
     "native": "Greasby",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9830,
-    "wikiDataId": "Q991532"
+    "wikiDataId": null
   },
   {
     "id": 49915,
@@ -75,7 +75,7 @@
     "native": "Heswall",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 29789,
     "wikiDataId": "Q674669"
   },
@@ -91,25 +91,9 @@
     "native": "Hoylake",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5710,
     "wikiDataId": "Q2024069"
-  },
-  {
-    "id": 50561,
-    "name": "Metropolitan Borough of Wirral",
-    "state_id": 2408,
-    "state_code": "WRL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.33333000",
-    "longitude": "-3.08333000",
-    "native": "Metropolitan Borough of Wirral",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q11365639"
   },
   {
     "id": 50628,
@@ -126,22 +110,6 @@
     "type": "city",
     "population": 17670,
     "wikiDataId": "Q3862955"
-  },
-  {
-    "id": 50676,
-    "name": "Neston",
-    "state_id": 2408,
-    "state_code": "WRL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.28333000",
-    "longitude": "-3.05000000",
-    "native": "Nest",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 15352,
-    "wikiDataId": "Q925760"
   },
   {
     "id": 50688,
@@ -173,23 +141,23 @@
     "translations": {},
     "type": "city",
     "population": 14429,
-    "wikiDataId": "Q3328129"
+    "wikiDataId": null
   },
   {
-    "id": 51201,
-    "name": "Saughall",
+    "id": 51732,
+    "name": "Wallasey",
     "state_id": 2408,
     "state_code": "WRL",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.22618000",
-    "longitude": "-2.95649000",
-    "native": "Saughall",
+    "latitude": "53.42324000",
+    "longitude": "-3.06497000",
+    "native": "Wallasey",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 3009,
-    "wikiDataId": "Q2134251"
+    "type": "town",
+    "population": 60284,
+    "wikiDataId": "Q780923"
   },
   {
     "id": 51824,
@@ -203,24 +171,8 @@
     "native": "West Kirby",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7680,
     "wikiDataId": "Q633627"
-  },
-  {
-    "id": 51905,
-    "name": "Willaston",
-    "state_id": 2408,
-    "state_code": "WRL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.29550000",
-    "longitude": "-2.99732000",
-    "native": "Willaston",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2813,
-    "wikiDataId": "Q8003516"
   }
 ]

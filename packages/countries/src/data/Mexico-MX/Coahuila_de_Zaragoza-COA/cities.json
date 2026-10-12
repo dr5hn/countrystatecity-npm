@@ -8,11 +8,11 @@
     "country_code": "MX",
     "latitude": "27.18219000",
     "longitude": "-101.42757000",
-    "native": "Tarifa",
+    "native": "Abasolo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
-    "population": 739,
+    "type": "locality",
+    "population": 735,
     "wikiDataId": "Q2820196"
   },
   {
@@ -27,9 +27,9 @@
     "native": "Agua Nueva",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1465,
-    "wikiDataId": "Q20131591"
+    "type": "locality",
+    "population": 1566,
+    "wikiDataId": "Q49843159"
   },
   {
     "id": 68175,
@@ -40,12 +40,12 @@
     "country_code": "MX",
     "latitude": "25.66537000",
     "longitude": "-103.36253000",
-    "native": "cama",
+    "native": "Albia",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1694,
-    "wikiDataId": "Q3311839"
+    "type": "locality",
+    "population": 1705,
+    "wikiDataId": "Q26763667"
   },
   {
     "id": 68188,
@@ -59,9 +59,25 @@
     "native": "Alejo González (Bilbao)",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1214,
     "wikiDataId": "Q20134196"
+  },
+  {
+    "id": 165242,
+    "name": "Allende",
+    "state_id": 3471,
+    "state_code": "COA",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "28.34124000",
+    "longitude": "-100.85111000",
+    "native": "Allende",
+    "timezone": "America/Matamoros",
+    "translations": {},
+    "type": "locality",
+    "population": 21376,
+    "wikiDataId": "Q2448272"
   },
   {
     "id": 68374,
@@ -75,7 +91,7 @@
     "native": "Arteaga",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 8446,
     "wikiDataId": "Q2447743"
   },
@@ -91,9 +107,9 @@
     "native": "Boquilla de las Perlas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1705,
-    "wikiDataId": "Q8250809"
+    "type": "locality",
+    "population": 1876,
+    "wikiDataId": "Q49865589"
   },
   {
     "id": 68788,
@@ -107,7 +123,7 @@
     "native": "Candela",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1404,
     "wikiDataId": "Q8261827"
   },
@@ -123,9 +139,9 @@
     "native": "Castaños",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 27314,
-    "wikiDataId": "Q20275318"
+    "wikiDataId": "Q1999604"
   },
   {
     "id": 69112,
@@ -139,7 +155,7 @@
     "native": "Chula Vista",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1671,
     "wikiDataId": "Q20275711"
   },
@@ -155,8 +171,8 @@
     "native": "Ciudad Acuña",
     "timezone": "America/Matamoros",
     "translations": {},
-    "type": "city",
-    "population": 216099,
+    "type": "locality",
+    "population": 160225,
     "wikiDataId": "Q179841"
   },
   {
@@ -171,7 +187,7 @@
     "native": "Ciudad Melchor Múzquiz",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 38992,
     "wikiDataId": "Q20251740"
   },
@@ -187,7 +203,7 @@
     "native": "Cloete",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3447,
     "wikiDataId": "Q4224160"
   },
@@ -203,8 +219,8 @@
     "native": "Colonia Diana Laura Riojas de Colosio",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1885,
+    "type": "locality",
+    "population": 2589,
     "wikiDataId": "Q20276256"
   },
   {
@@ -219,7 +235,7 @@
     "native": "Colonia Venustiano Carranza",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4921,
     "wikiDataId": "Q20132574"
   },
@@ -235,9 +251,9 @@
     "native": "Compuertas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1017,
-    "wikiDataId": "Q20133103"
+    "type": "locality",
+    "population": 975,
+    "wikiDataId": "Q49969096"
   },
   {
     "id": 69445,
@@ -251,25 +267,9 @@
     "native": "Concordia",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 7858,
+    "type": "locality",
+    "population": 7972,
     "wikiDataId": "Q20276535"
-  },
-  {
-    "id": 69520,
-    "name": "Coyote",
-    "state_id": 3471,
-    "state_code": "COA",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "25.69510000",
-    "longitude": "-103.28420000",
-    "native": "Coyote",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q20135480"
   },
   {
     "id": 69570,
@@ -283,7 +283,7 @@
     "native": "Cuatro Ciénegas de Carranza",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10395,
     "wikiDataId": "Q992866"
   },
@@ -299,9 +299,9 @@
     "native": "Ejido Venustiano Carranza",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 4288,
-    "wikiDataId": "Q20277109"
+    "type": "locality",
+    "population": 192,
+    "wikiDataId": "Q6160463"
   },
   {
     "id": 69858,
@@ -315,9 +315,9 @@
     "native": "El Cambio",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 3773,
-    "wikiDataId": "Q20230502"
+    "type": "locality",
+    "population": 3960,
+    "wikiDataId": "Q20147358"
   },
   {
     "id": 69919,
@@ -331,9 +331,9 @@
     "native": "El Consuelo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1142,
-    "wikiDataId": "Q20278144"
+    "type": "locality",
+    "population": 1039,
+    "wikiDataId": "Q20278174"
   },
   {
     "id": 69936,
@@ -347,9 +347,9 @@
     "native": "El Cuije",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1015,
-    "wikiDataId": "Q8772991"
+    "type": "locality",
+    "population": 1001,
+    "wikiDataId": "Q49969123"
   },
   {
     "id": 70012,
@@ -365,7 +365,7 @@
     "translations": {},
     "type": "city",
     "population": 1914,
-    "wikiDataId": "Q20220807"
+    "wikiDataId": null
   },
   {
     "id": 70063,
@@ -379,9 +379,9 @@
     "native": "El Nilo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1091,
-    "wikiDataId": "Q20220862"
+    "type": "locality",
+    "population": 984,
+    "wikiDataId": "Q49973185"
   },
   {
     "id": 70099,
@@ -395,9 +395,9 @@
     "native": "El Perú",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1836,
-    "wikiDataId": "Q20253066"
+    "type": "locality",
+    "population": 1869,
+    "wikiDataId": "Q26763645"
   },
   {
     "id": 70119,
@@ -411,8 +411,8 @@
     "native": "El Porvenir (El Porvenir de Arriba)",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1672,
+    "type": "locality",
+    "population": 1327,
     "wikiDataId": "Q20253878"
   },
   {
@@ -427,9 +427,25 @@
     "native": "El Retiro",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1806,
-    "wikiDataId": "Q20280633"
+    "type": "locality",
+    "population": 1578,
+    "wikiDataId": "Q49952287"
+  },
+  {
+    "id": 165253,
+    "name": "Escobedo",
+    "state_id": 3471,
+    "state_code": "COA",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "27.23372000",
+    "longitude": "-101.41314000",
+    "native": "Escobedo",
+    "timezone": "America/Monterrey",
+    "translations": {},
+    "type": "locality",
+    "population": 541,
+    "wikiDataId": "Q5272866"
   },
   {
     "id": 70321,
@@ -443,8 +459,8 @@
     "native": "Escuadrón Doscientos Uno",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1066,
+    "type": "locality",
+    "population": 1160,
     "wikiDataId": "Q20135412"
   },
   {
@@ -475,7 +491,7 @@
     "native": "Frontera",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 75242,
     "wikiDataId": "Q1997138"
   },
@@ -491,8 +507,8 @@
     "native": "General Cepeda",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
-    "population": 4382,
+    "type": "locality",
+    "population": 5535,
     "wikiDataId": "Q5531764"
   },
   {
@@ -507,9 +523,9 @@
     "native": "Gilita",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1285,
-    "wikiDataId": "Q20238938"
+    "type": "locality",
+    "population": 1208,
+    "wikiDataId": "Q49973728"
   },
   {
     "id": 70561,
@@ -523,9 +539,9 @@
     "native": "Granada",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1286,
-    "wikiDataId": "Q2606306"
+    "type": "locality",
+    "population": 1335,
+    "wikiDataId": "Q49907380"
   },
   {
     "id": 70630,
@@ -536,12 +552,12 @@
     "country_code": "MX",
     "latitude": "28.30992000",
     "longitude": "-100.38048000",
-    "native": "Guerrillero",
+    "native": "Guerrero",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
-    "population": 959,
-    "wikiDataId": "Q49906659"
+    "type": "locality",
+    "population": 775,
+    "wikiDataId": "Q1301146"
   },
   {
     "id": 70828,
@@ -555,9 +571,9 @@
     "native": "Hércules",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4573,
-    "wikiDataId": "Q20283176"
+    "wikiDataId": "Q5906540"
   },
   {
     "id": 70683,
@@ -571,8 +587,8 @@
     "native": "Hidalgo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
-    "population": 1638,
+    "type": "locality",
+    "population": 1674,
     "wikiDataId": "Q1658395"
   },
   {
@@ -587,8 +603,8 @@
     "native": "Hormiguero",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2069,
+    "type": "locality",
+    "population": 2264,
     "wikiDataId": "Q20283341"
   },
   {
@@ -603,25 +619,9 @@
     "native": "Huachichil",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1616,
-    "wikiDataId": "Q20207417"
-  },
-  {
-    "id": 70802,
-    "name": "Huitrón",
-    "state_id": 3471,
-    "state_code": "COA",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "25.85748000",
-    "longitude": "-103.34825000",
-    "native": "Huitrón",
-    "timezone": "America/Monterrey",
-    "translations": {},
-    "type": "city",
-    "population": 1511,
-    "wikiDataId": "Q27769233"
+    "type": "locality",
+    "population": 1314,
+    "wikiDataId": "Q49949055"
   },
   {
     "id": 70956,
@@ -635,8 +635,8 @@
     "native": "Jaboncillo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1152,
+    "type": "locality",
+    "population": 1025,
     "wikiDataId": "Q20284044"
   },
   {
@@ -651,7 +651,7 @@
     "native": "Jiménez",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1162,
     "wikiDataId": "Q6201745"
   },
@@ -667,9 +667,9 @@
     "native": "La Concha",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "section",
-    "population": 3794,
-    "wikiDataId": "Q20238702"
+    "type": "locality",
+    "population": 4078,
+    "wikiDataId": "Q26763098"
   },
   {
     "id": 71248,
@@ -683,9 +683,9 @@
     "native": "La Cruz",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1672,
-    "wikiDataId": "Q20242503"
+    "type": "locality",
+    "population": 1905,
+    "wikiDataId": "Q49969340"
   },
   {
     "id": 71268,
@@ -699,9 +699,9 @@
     "native": "La Esmeralda",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1111,
-    "wikiDataId": "Q20228063"
+    "type": "locality",
+    "population": 948,
+    "wikiDataId": "Q49974216"
   },
   {
     "id": 71273,
@@ -715,9 +715,9 @@
     "native": "La Esperanza",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1447,
-    "wikiDataId": "Q20259510"
+    "type": "locality",
+    "population": 1492,
+    "wikiDataId": "Q49966601"
   },
   {
     "id": 71289,
@@ -731,9 +731,9 @@
     "native": "La Fe",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1183,
-    "wikiDataId": "Q20289643"
+    "type": "locality",
+    "population": 1136,
+    "wikiDataId": "Q20289875"
   },
   {
     "id": 71293,
@@ -747,9 +747,9 @@
     "native": "La Florida",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1782,
-    "wikiDataId": "Q20219531"
+    "type": "locality",
+    "population": 1445,
+    "wikiDataId": "Q49969434"
   },
   {
     "id": 71374,
@@ -763,9 +763,9 @@
     "native": "La Luz",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2432,
-    "wikiDataId": "Q20221430"
+    "type": "locality",
+    "population": 2368,
+    "wikiDataId": "Q49966604"
   },
   {
     "id": 71425,
@@ -779,9 +779,9 @@
     "native": "La Palma",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1242,
-    "wikiDataId": "Q20246488"
+    "type": "locality",
+    "population": 1118,
+    "wikiDataId": "Q49974120"
   },
   {
     "id": 71432,
@@ -795,9 +795,9 @@
     "native": "La Partida",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 4010,
-    "wikiDataId": "Q20254367"
+    "type": "locality",
+    "population": 4222,
+    "wikiDataId": "Q26763320"
   },
   {
     "id": 71435,
@@ -811,9 +811,9 @@
     "native": "La Paz",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "section",
-    "population": 2485,
-    "wikiDataId": "Q20130683"
+    "type": "locality",
+    "population": 2102,
+    "wikiDataId": "Q26763603"
   },
   {
     "id": 71442,
@@ -827,9 +827,9 @@
     "native": "La Perla",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "section",
-    "population": 171,
-    "wikiDataId": "Q20131414"
+    "type": "locality",
+    "population": 1666,
+    "wikiDataId": "Q49974125"
   },
   {
     "id": 71449,
@@ -843,9 +843,9 @@
     "native": "La Pinta",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1165,
-    "wikiDataId": "Q20254618"
+    "type": "locality",
+    "population": 1027,
+    "wikiDataId": "Q49969428"
   },
   {
     "id": 71559,
@@ -859,8 +859,8 @@
     "native": "Laguna del Rey (Químicas del Rey)",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2651,
+    "type": "locality",
+    "population": 2369,
     "wikiDataId": "Q474420"
   },
   {
@@ -875,7 +875,7 @@
     "native": "Lamadrid",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1743,
     "wikiDataId": "Q6480770"
   },
@@ -893,7 +893,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q56554711"
+    "wikiDataId": null
   },
   {
     "id": 71869,
@@ -907,9 +907,9 @@
     "native": "Los Álamos",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1133,
-    "wikiDataId": "Q20143055"
+    "type": "locality",
+    "population": 1005,
+    "wikiDataId": "Q49966743"
   },
   {
     "id": 71878,
@@ -925,7 +925,7 @@
     "translations": {},
     "type": "city",
     "population": 2929,
-    "wikiDataId": "Q20208663"
+    "wikiDataId": null
   },
   {
     "id": 71984,
@@ -939,9 +939,9 @@
     "native": "Maravillas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 946,
-    "wikiDataId": "Q1477420"
+    "type": "locality",
+    "population": 1034,
+    "wikiDataId": "Q49966566"
   },
   {
     "id": 72018,
@@ -955,13 +955,13 @@
     "native": "Matamoros",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 52233,
     "wikiDataId": "Q1962172"
   },
   {
     "id": 72035,
-    "name": "Mayran",
+    "name": "Mayrán",
     "state_id": 3471,
     "state_code": "COA",
     "country_id": 142,
@@ -971,9 +971,9 @@
     "native": "Mayran",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1507,
-    "wikiDataId": "Q2764644"
+    "type": "locality",
+    "population": 1473,
+    "wikiDataId": "Q49951607"
   },
   {
     "id": 72144,
@@ -987,8 +987,8 @@
     "native": "Minas de Barroterán",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 7842,
+    "type": "locality",
+    "population": 7746,
     "wikiDataId": "Q20252580"
   },
   {
@@ -1003,9 +1003,25 @@
     "native": "Monclova",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 237169,
     "wikiDataId": "Q990007"
+  },
+  {
+    "id": 165246,
+    "name": "Morelos",
+    "state_id": 3471,
+    "state_code": "COA",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "28.40676000",
+    "longitude": "-100.88854000",
+    "native": "Morelos",
+    "timezone": "America/Matamoros",
+    "translations": {},
+    "type": "locality",
+    "population": 6720,
+    "wikiDataId": "Q10794737"
   },
   {
     "id": 72270,
@@ -1019,7 +1035,7 @@
     "native": "Nadadores",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4526,
     "wikiDataId": "Q1999532"
   },
@@ -1035,7 +1051,7 @@
     "native": "Nava",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 26963,
     "wikiDataId": "Q6981573"
   },
@@ -1051,7 +1067,7 @@
     "native": "Nueva Rosita",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 39058,
     "wikiDataId": "Q2014880"
   },
@@ -1067,9 +1083,9 @@
     "native": "Nuevo León",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1456,
-    "wikiDataId": "Q328846"
+    "type": "locality",
+    "population": 1385,
+    "wikiDataId": "Q49969311"
   },
   {
     "id": 72438,
@@ -1083,7 +1099,7 @@
     "native": "Ocampo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3651,
     "wikiDataId": "Q10802286"
   },
@@ -1099,13 +1115,13 @@
     "native": "Ocho de Enero",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1746,
-    "wikiDataId": "Q20264579"
+    "type": "locality",
+    "population": 1743,
+    "wikiDataId": "Q20257788"
   },
   {
     "id": 72581,
-    "name": "Palau",
+    "name": "Palaú",
     "state_id": 3471,
     "state_code": "COA",
     "country_id": 142,
@@ -1115,7 +1131,7 @@
     "native": "Palau",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16970,
     "wikiDataId": "Q1978638"
   },
@@ -1131,9 +1147,9 @@
     "native": "Paredón",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1165,
-    "wikiDataId": "Q20219909"
+    "type": "locality",
+    "population": 1003,
+    "wikiDataId": "Q6061649"
   },
   {
     "id": 72661,
@@ -1147,7 +1163,7 @@
     "native": "Parras de la Fuente",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 33817,
     "wikiDataId": "Q1861513"
   },
@@ -1163,7 +1179,7 @@
     "native": "Piedras Negras",
     "timezone": "America/Matamoros",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 173959,
     "wikiDataId": "Q1856408"
   },
@@ -1179,9 +1195,9 @@
     "native": "Primero de Mayo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1613,
-    "wikiDataId": "Q27640308"
+    "type": "locality",
+    "population": 1766,
+    "wikiDataId": "Q49969415"
   },
   {
     "id": 72909,
@@ -1195,9 +1211,9 @@
     "native": "Progreso",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 796,
-    "wikiDataId": "Q7248518"
+    "wikiDataId": "Q3844650"
   },
   {
     "id": 72993,
@@ -1211,9 +1227,9 @@
     "native": "Purísima",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1771,
-    "wikiDataId": "Q9064894"
+    "type": "locality",
+    "population": 1896,
+    "wikiDataId": "Q49966684"
   },
   {
     "id": 73049,
@@ -1227,8 +1243,8 @@
     "native": "Ramos Arizpe",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
-    "population": 66554,
+    "type": "locality",
+    "population": 114010,
     "wikiDataId": "Q1013930"
   },
   {
@@ -1243,9 +1259,9 @@
     "native": "Rancho Alegre",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1228,
-    "wikiDataId": "Q20239740"
+    "type": "locality",
+    "population": 1049,
+    "wikiDataId": "Q49974094"
   },
   {
     "id": 73169,
@@ -1259,9 +1275,9 @@
     "native": "Río Bravo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1349,
-    "wikiDataId": "Q2179073"
+    "type": "locality",
+    "population": 1190,
+    "wikiDataId": "Q49968475"
   },
   {
     "id": 73196,
@@ -1275,9 +1291,9 @@
     "native": "Sabinas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 64811,
-    "wikiDataId": "Q20275847"
+    "wikiDataId": "Q2656443"
   },
   {
     "id": 73199,
@@ -1291,7 +1307,7 @@
     "native": "Sacramento",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2437,
     "wikiDataId": "Q4405466"
   },
@@ -1307,7 +1323,7 @@
     "native": "Saltillo",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 1560,
     "wikiDataId": "Q53077"
   },
@@ -1323,24 +1339,24 @@
     "native": "San Antonio de las Alazanas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2425,
     "wikiDataId": "Q7413380"
   },
   {
-    "id": 73379,
+    "id": 69520,
     "name": "San Antonio del Coyote",
     "state_id": 3471,
     "state_code": "COA",
     "country_id": 142,
     "country_code": "MX",
-    "latitude": "25.69444000",
-    "longitude": "-103.28556000",
+    "latitude": "25.69510000",
+    "longitude": "-103.28420000",
     "native": "San Antonio del Coyote",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 8856,
+    "type": "locality",
+    "population": 9213,
     "wikiDataId": "Q20134420"
   },
   {
@@ -1355,7 +1371,7 @@
     "native": "San Buenaventura",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 20480,
     "wikiDataId": "Q7413489"
   },
@@ -1371,9 +1387,9 @@
     "native": "San Carlos",
     "timezone": "America/Mexico_City",
     "translations": {},
-    "type": "section",
-    "population": 2264,
-    "wikiDataId": "Q27798247"
+    "type": "locality",
+    "population": 3303,
+    "wikiDataId": "Q49969129"
   },
   {
     "id": 73509,
@@ -1387,9 +1403,9 @@
     "native": "San Esteban de Abajo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1158,
-    "wikiDataId": "Q3893346"
+    "type": "locality",
+    "population": 1109,
+    "wikiDataId": "Q49974056"
   },
   {
     "id": 73608,
@@ -1403,9 +1419,9 @@
     "native": "San Francisco de Arriba",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1157,
-    "wikiDataId": "Q20231611"
+    "type": "locality",
+    "population": 1059,
+    "wikiDataId": "Q49951898"
   },
   {
     "id": 73648,
@@ -1419,9 +1435,9 @@
     "native": "San Ignacio",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2062,
-    "wikiDataId": "Q1754752"
+    "type": "locality",
+    "population": 1969,
+    "wikiDataId": "Q49973962"
   },
   {
     "id": 73808,
@@ -1435,8 +1451,8 @@
     "native": "San José de Aura",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1219,
+    "type": "locality",
+    "population": 1232,
     "wikiDataId": "Q20290911"
   },
   {
@@ -1451,9 +1467,9 @@
     "native": "San Juan de la Vaquería",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1077,
-    "wikiDataId": "Q430781"
+    "type": "locality",
+    "population": 1330,
+    "wikiDataId": "Q20292234"
   },
   {
     "id": 73963,
@@ -1467,7 +1483,7 @@
     "native": "San Juan de Sabinas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1257,
     "wikiDataId": "Q430781"
   },
@@ -1483,9 +1499,9 @@
     "native": "San Lorenzo",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1593,
-    "wikiDataId": "Q3890961"
+    "type": "locality",
+    "population": 1424,
+    "wikiDataId": "Q49953432"
   },
   {
     "id": 74065,
@@ -1499,8 +1515,8 @@
     "native": "San Marcos",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1151,
+    "type": "locality",
+    "population": 1131,
     "wikiDataId": "Q20293271"
   },
   {
@@ -1515,9 +1531,9 @@
     "native": "San Miguel",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1268,
-    "wikiDataId": "Q3888190"
+    "type": "locality",
+    "population": 1241,
+    "wikiDataId": "Q49973965"
   },
   {
     "id": 74555,
@@ -1531,9 +1547,9 @@
     "native": "Santa Ana del Pilar",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1260,
-    "wikiDataId": "Q20295909"
+    "type": "locality",
+    "population": 1231,
+    "wikiDataId": "Q49966642"
   },
   {
     "id": 74662,
@@ -1547,9 +1563,9 @@
     "native": "Santa Fe",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2057,
-    "wikiDataId": "Q20235584"
+    "wikiDataId": "Q26763630"
   },
   {
     "id": 75020,
@@ -1563,9 +1579,9 @@
     "native": "Santo Niño Aguanaval",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2164,
-    "wikiDataId": "Q20283984"
+    "type": "locality",
+    "population": 2487,
+    "wikiDataId": "Q49966646"
   },
   {
     "id": 75058,
@@ -1579,8 +1595,8 @@
     "native": "Seis de Octubre (Santo Niño)",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 2053,
+    "type": "locality",
+    "population": 2016,
     "wikiDataId": "Q20284764"
   },
   {
@@ -1595,7 +1611,7 @@
     "native": "Sierra Mojada",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 462,
     "wikiDataId": "Q2000131"
   },
@@ -1608,12 +1624,12 @@
     "country_code": "MX",
     "latitude": "25.66249000",
     "longitude": "-103.27560000",
-    "native": "Sal",
+    "native": "Solima",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1602,
-    "wikiDataId": "Q1962080"
+    "type": "locality",
+    "population": 1693,
+    "wikiDataId": "Q49966454"
   },
   {
     "id": 75162,
@@ -1627,8 +1643,8 @@
     "native": "Tacubaya",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1433,
+    "type": "locality",
+    "population": 1282,
     "wikiDataId": "Q20285983"
   },
   {
@@ -1643,7 +1659,7 @@
     "native": "Torreón",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 690193,
     "wikiDataId": "Q386991"
   },
@@ -1659,8 +1675,8 @@
     "native": "Veinte de Noviembre",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1420,
+    "type": "locality",
+    "population": 1474,
     "wikiDataId": "Q20291910"
   },
   {
@@ -1675,8 +1691,8 @@
     "native": "Veinte de Noviembre (Santa Lucía)",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 1097,
+    "type": "locality",
+    "population": 944,
     "wikiDataId": "Q20291922"
   },
   {
@@ -1693,7 +1709,7 @@
     "translations": {},
     "type": "city",
     "population": 1966,
-    "wikiDataId": "Q20246893"
+    "wikiDataId": null
   },
   {
     "id": 75987,
@@ -1707,7 +1723,7 @@
     "native": "Viesca",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3522,
     "wikiDataId": "Q1999618"
   },
@@ -1725,7 +1741,7 @@
     "translations": {},
     "type": "city",
     "population": 3029,
-    "wikiDataId": "Q20211235"
+    "wikiDataId": null
   },
   {
     "id": 76049,
@@ -1739,9 +1755,9 @@
     "native": "Unión de villas",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "city",
-    "population": 5147,
-    "wikiDataId": "Q20240688"
+    "type": "locality",
+    "population": 5443,
+    "wikiDataId": "Q6934180"
   },
   {
     "id": 76092,
@@ -1757,7 +1773,7 @@
     "translations": {},
     "type": "city",
     "population": 1432,
-    "wikiDataId": "Q20292976"
+    "wikiDataId": null
   },
   {
     "id": 76318,
@@ -1771,7 +1787,7 @@
     "native": "Zaragoza",
     "timezone": "America/Monterrey",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 11354,
     "wikiDataId": "Q20295355"
   }

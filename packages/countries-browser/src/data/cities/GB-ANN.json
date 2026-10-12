@@ -27,9 +27,9 @@
     "native": "Antrim and Newtownabbey",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 142492,
-    "wikiDataId": "Q609235"
+    "wikiDataId": null
   },
   {
     "id": 48352,
@@ -43,7 +43,7 @@
     "native": "Ballyclare",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9472,
     "wikiDataId": "Q805403"
   },
@@ -59,7 +59,7 @@
     "native": "Crumlin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5149,
     "wikiDataId": "Q2053639"
   },
@@ -72,7 +72,7 @@
     "country_code": "GB",
     "latitude": "54.75000000",
     "longitude": "-6.08333000",
-    "native": "Dohagh",
+    "native": "Doagh",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -80,20 +80,20 @@
     "wikiDataId": "Q1702678"
   },
   {
-    "id": 49656,
-    "name": "Glenavy",
+    "id": 50739,
+    "name": "Newtownabbey",
     "state_id": 2412,
     "state_code": "ANN",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "54.59231000",
-    "longitude": "-6.21371000",
-    "native": "Glenavy",
+    "latitude": "54.65983000",
+    "longitude": "-5.90858000",
+    "native": "Newtownabbey",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 1089,
-    "wikiDataId": "Q1816005"
+    "type": "adm2",
+    "population": 62056,
+    "wikiDataId": "Q918947"
   },
   {
     "id": 51030,

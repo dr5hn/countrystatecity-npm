@@ -11,7 +11,7 @@
     "native": "Биљача",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2349,
     "wikiDataId": "Q31916016"
   },
@@ -27,7 +27,7 @@
     "native": "Босилеград",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2986161"
   },
@@ -43,7 +43,7 @@
     "native": "Бујановац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2500642"
   },
@@ -59,7 +59,7 @@
     "native": "Миратовац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2872,
     "wikiDataId": "Q386397"
   },
@@ -75,7 +75,7 @@
     "native": "Прешево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q157363"
   },
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "locality",
     "population": 1062,
-    "wikiDataId": "Q1046240"
+    "wikiDataId": "Q2738418"
   },
   {
     "id": 97356,
@@ -107,7 +107,7 @@
     "native": "Рајинце",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2020,
     "wikiDataId": "Q3104619"
   },
@@ -128,6 +128,22 @@
     "wikiDataId": "Q3104463"
   },
   {
+    "id": 97402,
+    "name": "Sumulicë",
+    "state_id": 3721,
+    "state_code": "24",
+    "country_id": 196,
+    "country_code": "RS",
+    "latitude": "42.38682000",
+    "longitude": "21.73400000",
+    "native": "Шумулица",
+    "timezone": "Europe/Belgrade",
+    "translations": {},
+    "type": "locality",
+    "population": 2350,
+    "wikiDataId": null
+  },
+  {
     "id": 155069,
     "name": "Surdulica",
     "state_id": 3721,
@@ -139,7 +155,7 @@
     "native": "Сурдулица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q1264710"
   },
@@ -155,7 +171,7 @@
     "native": "Трговиште",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4316,
     "wikiDataId": "Q1551657"
   },
@@ -171,7 +187,7 @@
     "native": "Владичин Хан",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2500669"
   },
@@ -187,9 +203,9 @@
     "native": "Врање",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 55214,
-    "wikiDataId": "Q211645"
+    "wikiDataId": "Q1824822"
   },
   {
     "id": 97475,
@@ -203,7 +219,7 @@
     "native": "Жујинце",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1284,
     "wikiDataId": "Q3104551"
   }

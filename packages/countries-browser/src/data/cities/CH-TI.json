@@ -11,9 +11,9 @@
     "native": "Acquarossa",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 1808,
-    "wikiDataId": "Q69222"
+    "type": "municipality",
+    "population": 1781,
+    "wikiDataId": "Q68358"
   },
   {
     "id": 17380,
@@ -24,12 +24,12 @@
     "country_code": "CH",
     "latitude": "45.99863000",
     "longitude": "8.90030000",
-    "native": "Lamm",
+    "native": "Agno",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 4445,
-    "wikiDataId": "Q22363736"
+    "type": "municipality",
+    "population": 4582,
+    "wikiDataId": "Q67109"
   },
   {
     "id": 17384,
@@ -40,12 +40,12 @@
     "country_code": "CH",
     "latitude": "46.52855000",
     "longitude": "8.61189000",
-    "native": "Airol",
+    "native": "Airolo",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1501,
-    "wikiDataId": "Q647923"
+    "type": "municipality",
+    "population": 1443,
+    "wikiDataId": "Q69265"
   },
   {
     "id": 17413,
@@ -59,7 +59,7 @@
     "native": "Arzo",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1188,
     "wikiDataId": "Q718800"
   },
@@ -75,9 +75,9 @@
     "native": "Ascona",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 5479,
-    "wikiDataId": "Q22456277"
+    "type": "municipality",
+    "population": 5290,
+    "wikiDataId": "Q63992"
   },
   {
     "id": 17434,
@@ -88,12 +88,12 @@
     "country_code": "CH",
     "latitude": "45.84638000",
     "longitude": "9.00724000",
-    "native": "Die Ballen",
+    "native": "Balerna",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 3269,
-    "wikiDataId": "Q22505683"
+    "type": "municipality",
+    "population": 3415,
+    "wikiDataId": "Q70141"
   },
   {
     "id": 17452,
@@ -107,25 +107,9 @@
     "native": "Bellinzona",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm1",
-    "population": 43785,
+    "type": "city",
+    "population": 45828,
     "wikiDataId": "Q64044"
-  },
-  {
-    "id": 17453,
-    "name": "Bellinzona District",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.18858000",
-    "longitude": "9.00254000",
-    "native": "Bezirk Bellinzona",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 55906,
-    "wikiDataId": "Q206164"
   },
   {
     "id": 17524,
@@ -139,8 +123,8 @@
     "native": "Biasca",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6115,
+    "type": "municipality",
+    "population": 6213,
     "wikiDataId": "Q67523"
   },
   {
@@ -155,25 +139,9 @@
     "native": "Bioggio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1784,
-    "wikiDataId": "Q3640144"
-  },
-  {
-    "id": 17540,
-    "name": "Blenio",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.47613000",
-    "longitude": "8.94609000",
-    "native": "Blenio District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 5656,
-    "wikiDataId": "Q660533"
+    "type": "municipality",
+    "population": 2802,
+    "wikiDataId": "Q68425"
   },
   {
     "id": 17544,
@@ -184,10 +152,10 @@
     "country_code": "CH",
     "latitude": "46.37808000",
     "longitude": "8.90991000",
-    "native": "Sei",
+    "native": "Bodio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 992,
     "wikiDataId": "Q22579332"
   },
@@ -203,9 +171,9 @@
     "native": "Brissago",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1737,
-    "wikiDataId": "Q22594982"
+    "type": "municipality",
+    "population": 1577,
+    "wikiDataId": "Q69706"
   },
   {
     "id": 17607,
@@ -219,9 +187,9 @@
     "native": "Cadempino",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1530,
-    "wikiDataId": "Q22376341"
+    "type": "municipality",
+    "population": 1601,
+    "wikiDataId": "Q67975"
   },
   {
     "id": 17608,
@@ -235,9 +203,9 @@
     "native": "Cadenazzo",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1906,
-    "wikiDataId": "Q22376384"
+    "type": "municipality",
+    "population": 3139,
+    "wikiDataId": "Q69790"
   },
   {
     "id": 17609,
@@ -248,10 +216,10 @@
     "country_code": "CH",
     "latitude": "46.04595000",
     "longitude": "8.98725000",
-    "native": "Bild",
+    "native": "Cadro",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1596,
     "wikiDataId": "Q68401"
   },
@@ -267,7 +235,7 @@
     "native": "Camorino",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2358,
     "wikiDataId": "Q22389779"
   },
@@ -283,9 +251,9 @@
     "native": "Canobbio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2249,
-    "wikiDataId": "Q22404957"
+    "type": "municipality",
+    "population": 2403,
+    "wikiDataId": "Q68434"
   },
   {
     "id": 17613,
@@ -299,9 +267,9 @@
     "native": "Caslano",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4356,
-    "wikiDataId": "Q22448948"
+    "type": "municipality",
+    "population": 4393,
+    "wikiDataId": "Q67270"
   },
   {
     "id": 17614,
@@ -315,9 +283,9 @@
     "native": "Castel San Pietro",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2159,
-    "wikiDataId": "Q22449466"
+    "type": "municipality",
+    "population": 2241,
+    "wikiDataId": "Q67872"
   },
   {
     "id": 17620,
@@ -331,9 +299,9 @@
     "native": "Cevio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 1844,
-    "wikiDataId": "Q22474970"
+    "type": "municipality",
+    "population": 1083,
+    "wikiDataId": "Q67675"
   },
   {
     "id": 17636,
@@ -344,12 +312,12 @@
     "country_code": "CH",
     "latitude": "45.83203000",
     "longitude": "9.03119000",
-    "native": "Gestell",
+    "native": "Chiasso",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
-    "population": 7975,
-    "wikiDataId": "Q22490557"
+    "population": 7677,
+    "wikiDataId": "Q68111"
   },
   {
     "id": 17645,
@@ -360,10 +328,10 @@
     "country_code": "CH",
     "latitude": "46.25763000",
     "longitude": "9.02252000",
-    "native": "Natürlich",
+    "native": "Claro",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2296,
     "wikiDataId": "Q22508541"
   },
@@ -379,9 +347,9 @@
     "native": "Comano",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2035,
-    "wikiDataId": "Q22530436"
+    "type": "municipality",
+    "population": 2194,
+    "wikiDataId": "Q70133"
   },
   {
     "id": 17670,
@@ -392,7 +360,7 @@
     "country_code": "CH",
     "latitude": "46.17473000",
     "longitude": "8.91684000",
-    "native": "Stampascasco",
+    "native": "Cugnasco",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
@@ -411,9 +379,9 @@
     "native": "Faido",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 1512,
-    "wikiDataId": "Q22450710"
+    "type": "municipality",
+    "population": 2706,
+    "wikiDataId": "Q69673"
   },
   {
     "id": 17836,
@@ -427,7 +395,7 @@
     "native": "Giubiasco",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7752,
     "wikiDataId": "Q22645562"
   },
@@ -443,9 +411,9 @@
     "native": "Gordola",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4697,
-    "wikiDataId": "Q22376597"
+    "type": "municipality",
+    "population": 4877,
+    "wikiDataId": "Q69671"
   },
   {
     "id": 17863,
@@ -461,7 +429,7 @@
     "translations": {},
     "type": "city",
     "population": 1062,
-    "wikiDataId": "Q22421122"
+    "wikiDataId": "Q69385"
   },
   {
     "id": 18053,
@@ -475,25 +443,9 @@
     "native": "Lavertezzo",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1302,
     "wikiDataId": "Q22376106"
-  },
-  {
-    "id": 18078,
-    "name": "Leventina",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.46912000",
-    "longitude": "8.75539000",
-    "native": "Bezirk Leventina",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 8827,
-    "wikiDataId": "Q539271"
   },
   {
     "id": 18084,
@@ -507,7 +459,7 @@
     "native": "Ligornetto",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1524,
     "wikiDataId": "Q70330"
   },
@@ -523,25 +475,9 @@
     "native": "Locarno",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 15824,
-    "wikiDataId": "Q688652"
-  },
-  {
-    "id": 18089,
-    "name": "Locarno District",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.18033000",
-    "longitude": "8.75991000",
-    "native": "Distrikt Locarno",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 63774,
-    "wikiDataId": "Q660653"
+    "type": "city",
+    "population": 16463,
+    "wikiDataId": "Q11935"
   },
   {
     "id": 18090,
@@ -555,7 +491,7 @@
     "native": "Lodrino",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1526,
     "wikiDataId": "Q22576667"
   },
@@ -571,9 +507,9 @@
     "native": "Losone",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6701,
-    "wikiDataId": "Q22659847"
+    "type": "municipality",
+    "population": 6780,
+    "wikiDataId": "Q67116"
   },
   {
     "id": 18098,
@@ -587,25 +523,9 @@
     "native": "Lugano",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 63495,
+    "type": "city",
+    "population": 63691,
     "wikiDataId": "Q7024"
-  },
-  {
-    "id": 18099,
-    "name": "Lugano District",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.02322000",
-    "longitude": "8.93802000",
-    "native": "Distrikt Lugano",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 150556,
-    "wikiDataId": "Q660612"
   },
   {
     "id": 18100,
@@ -616,12 +536,12 @@
     "country_code": "CH",
     "latitude": "46.23020000",
     "longitude": "9.06420000",
-    "native": "Abfall",
+    "native": "Lumino",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1190,
-    "wikiDataId": "Q22604346"
+    "type": "municipality",
+    "population": 1712,
+    "wikiDataId": "Q67670"
   },
   {
     "id": 18114,
@@ -635,7 +555,7 @@
     "native": "Magadino",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1538,
     "wikiDataId": "Q661679"
   },
@@ -648,10 +568,10 @@
     "country_code": "CH",
     "latitude": "46.40588000",
     "longitude": "8.98190000",
-    "native": "Teuflisch",
+    "native": "Malvaglia",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1290,
     "wikiDataId": "Q660999"
   },
@@ -667,9 +587,9 @@
     "native": "Massagno",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 6227,
-    "wikiDataId": "Q22447990"
+    "type": "municipality",
+    "population": 6976,
+    "wikiDataId": "Q67055"
   },
   {
     "id": 18145,
@@ -683,7 +603,7 @@
     "native": "Melano",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1133,
     "wikiDataId": "Q22493195"
   },
@@ -699,9 +619,9 @@
     "native": "Melide",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1802,
-    "wikiDataId": "Q22493402"
+    "type": "municipality",
+    "population": 1812,
+    "wikiDataId": "Q69981"
   },
   {
     "id": 18149,
@@ -715,25 +635,9 @@
     "native": "Mendrisio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm2",
-    "population": 14942,
+    "type": "city",
+    "population": 15076,
     "wikiDataId": "Q69041"
-  },
-  {
-    "id": 18150,
-    "name": "Mendrisio District",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "45.86592000",
-    "longitude": "8.99931000",
-    "native": "Bezirk Mendrisio",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 49969,
-    "wikiDataId": "Q869646"
   },
   {
     "id": 18159,
@@ -744,12 +648,12 @@
     "country_code": "CH",
     "latitude": "46.17769000",
     "longitude": "8.81473000",
-    "native": "Minus",
+    "native": "Minusio",
     "timezone": "Europe/Zurich",
     "translations": {},
     "type": "city",
     "population": 7303,
-    "wikiDataId": "Q22521685"
+    "wikiDataId": "Q69065"
   },
   {
     "id": 18163,
@@ -763,7 +667,7 @@
     "native": "Montagnola",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2297,
     "wikiDataId": "Q694086"
   },
@@ -795,9 +699,9 @@
     "native": "Morbio Inferiore",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4575,
-    "wikiDataId": "Q22386770"
+    "type": "municipality",
+    "population": 4437,
+    "wikiDataId": "Q70143"
   },
   {
     "id": 18180,
@@ -840,10 +744,10 @@
     "country_code": "CH",
     "latitude": "46.02021000",
     "longitude": "8.97429000",
-    "native": "Predason",
+    "native": "Pregassona",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 7548,
     "wikiDataId": "Q682851"
   },
@@ -859,9 +763,9 @@
     "native": "Pura",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "adm3",
-    "population": 1069,
-    "wikiDataId": "Q22629976"
+    "type": "municipality",
+    "population": 1368,
+    "wikiDataId": "Q68195"
   },
   {
     "id": 18378,
@@ -875,25 +779,9 @@
     "native": "Riva San Vitale",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 2646,
+    "type": "municipality",
+    "population": 2740,
     "wikiDataId": "Q67130"
-  },
-  {
-    "id": 18379,
-    "name": "Riviera",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.30926000",
-    "longitude": "8.98148000",
-    "native": "Bezirk Riviera",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 1526,
-    "wikiDataId": "Q659663"
   },
   {
     "id": 18507,
@@ -904,10 +792,10 @@
     "country_code": "CH",
     "latitude": "46.18363000",
     "longitude": "8.99162000",
-    "native": "Semetina",
+    "native": "Sementina",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2695,
     "wikiDataId": "Q22561287"
   },
@@ -923,9 +811,9 @@
     "native": "Sorengo",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 1774,
-    "wikiDataId": "Q22652988"
+    "type": "municipality",
+    "population": 2153,
+    "wikiDataId": "Q69995"
   },
   {
     "id": 18536,
@@ -939,9 +827,9 @@
     "native": "Stabio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
-    "population": 4591,
-    "wikiDataId": "Q22373692"
+    "type": "municipality",
+    "population": 4518,
+    "wikiDataId": "Q67760"
   },
   {
     "id": 18578,
@@ -952,28 +840,12 @@
     "country_code": "CH",
     "latitude": "46.06813000",
     "longitude": "8.96501000",
-    "native": "Fliesen",
+    "native": "Tesserete",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1533,
     "wikiDataId": "Q3387646"
-  },
-  {
-    "id": 18658,
-    "name": "Vallemaggia",
-    "state_id": 1643,
-    "state_code": "TI",
-    "country_id": 214,
-    "country_code": "CH",
-    "latitude": "46.35483000",
-    "longitude": "8.60540000",
-    "native": "Vallemaggia District",
-    "timezone": "Europe/Zurich",
-    "translations": {},
-    "type": "district",
-    "population": 5952,
-    "wikiDataId": "Q660418"
   },
   {
     "id": 18671,
@@ -984,10 +856,10 @@
     "country_code": "CH",
     "latitude": "46.18482000",
     "longitude": "8.73224000",
-    "native": "Vercio",
+    "native": "Verscio",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1009,
     "wikiDataId": "Q67662"
   },
@@ -1003,7 +875,7 @@
     "native": "Viganello",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6375,
     "wikiDataId": "Q693420"
   }

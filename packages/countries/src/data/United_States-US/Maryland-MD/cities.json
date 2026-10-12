@@ -27,7 +27,7 @@
     "native": "Aberdeen Proving Ground",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2093,
     "wikiDataId": "Q319506"
   },
@@ -43,7 +43,7 @@
     "native": "Accokeek",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10573,
     "wikiDataId": "Q754782"
   },
@@ -59,7 +59,7 @@
     "native": "Adamstown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2372,
     "wikiDataId": "Q3886989"
   },
@@ -75,7 +75,7 @@
     "native": "Adelphi",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15086,
     "wikiDataId": "Q755153"
   },
@@ -91,7 +91,7 @@
     "native": "Algonquin",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1241,
     "wikiDataId": "Q754683"
   },
@@ -107,9 +107,9 @@
     "native": "Andrews AFB",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2973,
-    "wikiDataId": "Q509541"
+    "wikiDataId": null
   },
   {
     "id": 111352,
@@ -124,7 +124,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 40687,
+    "population": 40634,
     "wikiDataId": "Q28271"
   },
   {
@@ -139,7 +139,7 @@
     "native": "Arbutus",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20483,
     "wikiDataId": "Q630838"
   },
@@ -155,7 +155,7 @@
     "native": "Arden on the Severn",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1953,
     "wikiDataId": "Q754615"
   },
@@ -171,9 +171,9 @@
     "native": "Arlington",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3065,
-    "wikiDataId": "Q2567888"
+    "wikiDataId": null
   },
   {
     "id": 111485,
@@ -187,7 +187,7 @@
     "native": "Arnold",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23106,
     "wikiDataId": "Q755581"
   },
@@ -203,7 +203,7 @@
     "native": "Ashton-Sandy Spring",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5628,
     "wikiDataId": "Q754081"
   },
@@ -219,7 +219,7 @@
     "native": "Aspen Hill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 48759,
     "wikiDataId": "Q753733"
   },
@@ -235,7 +235,7 @@
     "native": "Baden",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2128,
     "wikiDataId": "Q4840744"
   },
@@ -251,7 +251,7 @@
     "native": "Ballenger creek",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18274,
     "wikiDataId": "Q753926"
   },
@@ -268,7 +268,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 585708,
+    "population": 569997,
     "wikiDataId": "Q5092"
   },
   {
@@ -283,7 +283,7 @@
     "native": "Baltimore Highlands",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7019,
     "wikiDataId": "Q4852876"
   },
@@ -299,7 +299,7 @@
     "native": "Bartonsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1451,
     "wikiDataId": "Q17399824"
   },
@@ -312,7 +312,7 @@
     "country_code": "US",
     "latitude": "39.53594000",
     "longitude": "-76.34829000",
-    "native": "Bubble",
+    "native": "Bel Air",
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
@@ -331,7 +331,7 @@
     "native": "Bel Air North",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30568,
     "wikiDataId": "Q754706"
   },
@@ -347,7 +347,7 @@
     "native": "Bel Air South",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 47709,
     "wikiDataId": "Q753325"
   },
@@ -363,7 +363,7 @@
     "native": "Beltsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16772,
     "wikiDataId": "Q753707"
   },
@@ -379,9 +379,9 @@
     "native": "Bennsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11923,
-    "wikiDataId": "Q511647"
+    "wikiDataId": null
   },
   {
     "id": 112234,
@@ -395,7 +395,7 @@
     "native": "Berlin",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5065,
     "wikiDataId": "Q614184"
   },
@@ -411,7 +411,7 @@
     "native": "Berwyn Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3345,
     "wikiDataId": "Q755028"
   },
@@ -427,7 +427,7 @@
     "native": "Bethesda",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 60858,
     "wikiDataId": "Q584451"
   },
@@ -443,7 +443,7 @@
     "native": "Bladensburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9640,
     "wikiDataId": "Q174272"
   },
@@ -459,7 +459,7 @@
     "native": "Boonsboro",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3799,
     "wikiDataId": "Q756468"
   },
@@ -491,7 +491,7 @@
     "native": "Bowleys Quarters",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6755,
     "wikiDataId": "Q754481"
   },
@@ -507,7 +507,7 @@
     "native": "Bowling Green",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1077,
     "wikiDataId": "Q3887975"
   },
@@ -523,7 +523,7 @@
     "native": "Braddock Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2608,
     "wikiDataId": "Q754993"
   },
@@ -539,7 +539,7 @@
     "native": "Brandywine",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6719,
     "wikiDataId": "Q753678"
   },
@@ -555,7 +555,7 @@
     "native": "Brentwood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3191,
     "wikiDataId": "Q753912"
   },
@@ -571,7 +571,7 @@
     "native": "Brock Hall",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9552,
     "wikiDataId": "Q3887729"
   },
@@ -587,7 +587,7 @@
     "native": "Brooklyn Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14373,
     "wikiDataId": "Q755109"
   },
@@ -603,7 +603,7 @@
     "native": "Brookmont",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3468,
     "wikiDataId": "Q754633"
   },
@@ -635,7 +635,7 @@
     "native": "Bryans Road",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7244,
     "wikiDataId": "Q753770"
   },
@@ -651,7 +651,7 @@
     "native": "Buckeystown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1019,
     "wikiDataId": "Q616192"
   },
@@ -667,7 +667,7 @@
     "native": "Burtonsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8323,
     "wikiDataId": "Q754958"
   },
@@ -685,7 +685,7 @@
     "translations": {},
     "type": "city",
     "population": 1970,
-    "wikiDataId": "Q2215140"
+    "wikiDataId": null
   },
   {
     "id": 113152,
@@ -699,7 +699,7 @@
     "native": "Cabin John",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2280,
     "wikiDataId": "Q586576"
   },
@@ -715,7 +715,7 @@
     "native": "California",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11857,
     "wikiDataId": "Q754623"
   },
@@ -731,7 +731,7 @@
     "native": "Calverton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17724,
     "wikiDataId": "Q754233"
   },
@@ -748,7 +748,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 12507,
+    "population": 13457,
     "wikiDataId": "Q755862"
   },
   {
@@ -763,7 +763,7 @@
     "native": "Camp Springs",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 19096,
     "wikiDataId": "Q753851"
   },
@@ -779,7 +779,7 @@
     "native": "Cape Saint Claire",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8747,
     "wikiDataId": "Q754571"
   },
@@ -795,7 +795,7 @@
     "native": "Capitol Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4050,
     "wikiDataId": "Q753587"
   },
@@ -811,7 +811,7 @@
     "native": "Carney",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 29941,
     "wikiDataId": "Q755947"
   },
@@ -827,7 +827,7 @@
     "native": "Catonsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 41567,
     "wikiDataId": "Q755075"
   },
@@ -843,7 +843,7 @@
     "native": "Cavetown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1473,
     "wikiDataId": "Q753969"
   },
@@ -860,7 +860,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 4627,
+    "population": 4782,
     "wikiDataId": "Q754606"
   },
   {
@@ -875,7 +875,7 @@
     "native": "Charles Village",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8267,
     "wikiDataId": "Q5083136"
   },
@@ -891,7 +891,7 @@
     "native": "Charlestown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1198,
     "wikiDataId": "Q754637"
   },
@@ -907,7 +907,7 @@
     "native": "Charlotte Hall",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1420,
     "wikiDataId": "Q755591"
   },
@@ -923,7 +923,7 @@
     "native": "Chesapeake Beach",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6356,
     "wikiDataId": "Q755111"
   },
@@ -939,7 +939,7 @@
     "native": "Chesapeake Ranch Estates",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10519,
     "wikiDataId": "Q5092874"
   },
@@ -955,7 +955,7 @@
     "native": "Chester",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4167,
     "wikiDataId": "Q753806"
   },
@@ -972,7 +972,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 5532,
+    "population": 5658,
     "wikiDataId": "Q755851"
   },
   {
@@ -987,7 +987,7 @@
     "native": "Cheverly",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6170,
     "wikiDataId": "Q754443"
   },
@@ -1019,7 +1019,7 @@
     "native": "Chillum",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 33513,
     "wikiDataId": "Q754960"
   },
@@ -1037,7 +1037,7 @@
     "translations": {},
     "type": "section",
     "population": 5497,
-    "wikiDataId": "Q13188841"
+    "wikiDataId": null
   },
   {
     "id": 114143,
@@ -1051,7 +1051,7 @@
     "native": "Clarksburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13766,
     "wikiDataId": "Q754074"
   },
@@ -1067,7 +1067,7 @@
     "native": "Clinton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 35970,
     "wikiDataId": "Q755090"
   },
@@ -1083,7 +1083,7 @@
     "native": "Clover Hill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3542,
     "wikiDataId": "Q754587"
   },
@@ -1099,7 +1099,7 @@
     "native": "Cloverly",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15126,
     "wikiDataId": "Q754904"
   },
@@ -1115,7 +1115,7 @@
     "native": "Cobb Island",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1166,
     "wikiDataId": "Q3888371"
   },
@@ -1131,7 +1131,7 @@
     "native": "Cockeysville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20776,
     "wikiDataId": "Q754698"
   },
@@ -1147,7 +1147,7 @@
     "native": "Colesville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14647,
     "wikiDataId": "Q3295716"
   },
@@ -1179,7 +1179,7 @@
     "native": "Colmar Manor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1588,
     "wikiDataId": "Q755042"
   },
@@ -1195,7 +1195,7 @@
     "native": "Columbia",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 99615,
     "wikiDataId": "Q397905"
   },
@@ -1211,7 +1211,7 @@
     "native": "Coral Hills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9895,
     "wikiDataId": "Q754697"
   },
@@ -1227,7 +1227,7 @@
     "native": "Cottage City",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1335,
     "wikiDataId": "Q753577"
   },
@@ -1243,7 +1243,7 @@
     "native": "Cresaptown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4592,
     "wikiDataId": "Q5184301"
   },
@@ -1275,7 +1275,7 @@
     "native": "Crofton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 27348,
     "wikiDataId": "Q755950"
   },
@@ -1291,7 +1291,7 @@
     "native": "Croom",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2631,
     "wikiDataId": "Q261100"
   },
@@ -1307,7 +1307,7 @@
     "native": "Crownsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1757,
     "wikiDataId": "Q754492"
   },
@@ -1324,7 +1324,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 20130,
+    "population": 18799,
     "wikiDataId": "Q754868"
   },
   {
@@ -1339,7 +1339,7 @@
     "native": "Damascus",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15257,
     "wikiDataId": "Q754122"
   },
@@ -1355,7 +1355,7 @@
     "native": "Darnestown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6802,
     "wikiDataId": "Q753634"
   },
@@ -1371,7 +1371,7 @@
     "native": "Davidsonville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8000,
     "wikiDataId": "Q5241683"
   },
@@ -1384,10 +1384,10 @@
     "country_code": "US",
     "latitude": "38.77651000",
     "longitude": "-76.55524000",
-    "native": "Deal",
+    "native": "Deale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4945,
     "wikiDataId": "Q753567"
   },
@@ -1404,7 +1404,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 4349,
+    "population": 5075,
     "wikiDataId": "Q754313"
   },
   {
@@ -1419,7 +1419,7 @@
     "native": "Derwood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2381,
     "wikiDataId": "Q923226"
   },
@@ -1451,7 +1451,7 @@
     "native": "Drum Point",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2731,
     "wikiDataId": "Q22074940"
   },
@@ -1467,7 +1467,7 @@
     "native": "Dundalk",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 63597,
     "wikiDataId": "Q754390"
   },
@@ -1483,9 +1483,9 @@
     "native": "Dunkirk",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2509,
-    "wikiDataId": "Q3021148"
+    "wikiDataId": "Q754988"
   },
   {
     "id": 115540,
@@ -1501,7 +1501,7 @@
     "translations": {},
     "type": "city",
     "population": 2520,
-    "wikiDataId": "Q911609"
+    "wikiDataId": null
   },
   {
     "id": 115748,
@@ -1515,7 +1515,7 @@
     "native": "East Riverdale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q754784"
   },
@@ -1532,7 +1532,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 16617,
+    "population": 17293,
     "wikiDataId": "Q754306"
   },
   {
@@ -1544,10 +1544,10 @@
     "country_code": "US",
     "latitude": "39.24205000",
     "longitude": "-76.44802000",
-    "native": "Edge",
+    "native": "Edgemere",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8669,
     "wikiDataId": "Q754445"
   },
@@ -1563,7 +1563,7 @@
     "native": "Edgewater",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8018,
     "wikiDataId": "Q5337831"
   },
@@ -1579,7 +1579,7 @@
     "native": "Edgewood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 25562,
     "wikiDataId": "Q755908"
   },
@@ -1595,7 +1595,7 @@
     "native": "Edmonston",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1617,
     "wikiDataId": "Q754767"
   },
@@ -1611,7 +1611,7 @@
     "native": "Eldersburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30531,
     "wikiDataId": "Q754876"
   },
@@ -1627,7 +1627,7 @@
     "native": "Elkridge",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15593,
     "wikiDataId": "Q755962"
   },
@@ -1644,7 +1644,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 15782,
+    "population": 16670,
     "wikiDataId": "Q754338"
   },
   {
@@ -1675,7 +1675,7 @@
     "native": "Emmitsburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2770,
     "wikiDataId": "Q754471"
   },
@@ -1691,7 +1691,7 @@
     "native": "Essex",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 39262,
     "wikiDataId": "Q754704"
   },
@@ -1707,7 +1707,7 @@
     "native": "Fairland",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23681,
     "wikiDataId": "Q753727"
   },
@@ -1723,7 +1723,7 @@
     "native": "Fairmount Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1528,
     "wikiDataId": "Q754818"
   },
@@ -1739,7 +1739,7 @@
     "native": "Fairwood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5031,
     "wikiDataId": "Q5430926"
   },
@@ -1755,7 +1755,7 @@
     "native": "Fallston",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8958,
     "wikiDataId": "Q753603"
   },
@@ -1771,7 +1771,7 @@
     "native": "Federalsburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2833,
     "wikiDataId": "Q753973"
   },
@@ -1787,7 +1787,7 @@
     "native": "Ferndale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15048,
     "wikiDataId": "Q755132"
   },
@@ -1803,7 +1803,7 @@
     "native": "Forest Glen",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6582,
     "wikiDataId": "Q754794"
   },
@@ -1819,7 +1819,7 @@
     "native": "Forest Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2658,
     "wikiDataId": "Q754626"
   },
@@ -1835,7 +1835,7 @@
     "native": "Forestville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12353,
     "wikiDataId": "Q753872"
   },
@@ -1851,9 +1851,9 @@
     "native": "Fort George G Mead Junction",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9505,
-    "wikiDataId": "Q2361460"
+    "wikiDataId": "Q49350348"
   },
   {
     "id": 116729,
@@ -1867,7 +1867,7 @@
     "native": "Fort Meade",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9327,
     "wikiDataId": "Q755026"
   },
@@ -1883,7 +1883,7 @@
     "native": "Fort Washington",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23717,
     "wikiDataId": "Q754010"
   },
@@ -1899,7 +1899,7 @@
     "native": "Fountainhead-Orchard Hills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5666,
     "wikiDataId": "Q754206"
   },
@@ -1915,7 +1915,7 @@
     "native": "Four Corners",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7945,
     "wikiDataId": "Q5475091"
   },
@@ -1932,7 +1932,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 69479,
+    "population": 92059,
     "wikiDataId": "Q472675"
   },
   {
@@ -1947,7 +1947,7 @@
     "native": "Friendly",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9250,
     "wikiDataId": "Q754663"
   },
@@ -1963,7 +1963,7 @@
     "native": "Friendship Village",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4791,
     "wikiDataId": "Q754692"
   },
@@ -2011,7 +2011,7 @@
     "native": "Fulton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2049,
     "wikiDataId": "Q3886491"
   },
@@ -2043,7 +2043,7 @@
     "native": "Gambrills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q3886319"
   },
@@ -2059,7 +2059,7 @@
     "native": "Garrett Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 996,
     "wikiDataId": "Q2575098"
   },
@@ -2075,7 +2075,7 @@
     "native": "Garrison",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8823,
     "wikiDataId": "Q756396"
   },
@@ -2091,7 +2091,7 @@
     "native": "Germantown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 86395,
     "wikiDataId": "Q755901"
   },
@@ -2107,7 +2107,7 @@
     "native": "Glassmanor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17295,
     "wikiDataId": "Q3885829"
   },
@@ -2123,7 +2123,7 @@
     "native": "Glen Burnie",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 67639,
     "wikiDataId": "Q754452"
   },
@@ -2155,7 +2155,7 @@
     "native": "Glenmont",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13529,
     "wikiDataId": "Q5568613"
   },
@@ -2171,7 +2171,7 @@
     "native": "Glenn Dale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13466,
     "wikiDataId": "Q753954"
   },
@@ -2187,7 +2187,7 @@
     "native": "Goddard",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5084,
     "wikiDataId": "Q755953"
   },
@@ -2203,7 +2203,7 @@
     "native": "Golden Beach",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3796,
     "wikiDataId": "Q753316"
   },
@@ -2216,10 +2216,10 @@
     "country_code": "US",
     "latitude": "38.95817000",
     "longitude": "-76.21023000",
-    "native": "Fatonville",
+    "native": "Grasonville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3425,
     "wikiDataId": "Q754578"
   },
@@ -2267,9 +2267,9 @@
     "native": "Green Valley",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12262,
-    "wikiDataId": "Q1185761"
+    "wikiDataId": "Q49352271"
   },
   {
     "id": 117616,
@@ -2299,9 +2299,25 @@
     "native": "Greensboro",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1873,
     "wikiDataId": "Q756313"
+  },
+  {
+    "id": 165682,
+    "name": "Gwynn Oak",
+    "state_id": 1401,
+    "state_code": "MD",
+    "country_id": 233,
+    "country_code": "US",
+    "latitude": "39.33261000",
+    "longitude": "-76.69275000",
+    "native": null,
+    "timezone": "America/New_York",
+    "translations": {},
+    "type": "locality",
+    "population": 47092,
+    "wikiDataId": "Q5623873"
   },
   {
     "id": 117838,
@@ -2316,7 +2332,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 43527,
+    "population": 44228,
     "wikiDataId": "Q755559"
   },
   {
@@ -2331,7 +2347,7 @@
     "native": "Halfway",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10701,
     "wikiDataId": "Q756603"
   },
@@ -2347,7 +2363,7 @@
     "native": "Hampstead",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7016,
     "wikiDataId": "Q753632"
   },
@@ -2363,7 +2379,7 @@
     "native": "Hampton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5052,
     "wikiDataId": "Q753372"
   },
@@ -2379,7 +2395,7 @@
     "native": "Hancock",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1731,
     "wikiDataId": "Q755066"
   },
@@ -2395,7 +2411,7 @@
     "native": "Hanover",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 38088,
     "wikiDataId": "Q5649355"
   },
@@ -2427,7 +2443,7 @@
     "native": "Hebron",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1092,
     "wikiDataId": "Q755030"
   },
@@ -2443,7 +2459,7 @@
     "native": "Herald Harbor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2603,
     "wikiDataId": "Q753879"
   },
@@ -2459,7 +2475,7 @@
     "native": "Highfield-Cascade",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1112,
     "wikiDataId": "Q2278858"
   },
@@ -2475,7 +2491,7 @@
     "native": "Highland",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 874,
     "wikiDataId": "Q3886853"
   },
@@ -2488,10 +2504,10 @@
     "country_code": "US",
     "latitude": "39.02650000",
     "longitude": "-76.97414000",
-    "native": "To Hillanda",
+    "native": "Hillandale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6043,
     "wikiDataId": "Q754108"
   },
@@ -2507,7 +2523,7 @@
     "native": "Hillcrest Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16469,
     "wikiDataId": "Q753976"
   },
@@ -2523,7 +2539,7 @@
     "native": "Hillsmere Shores",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2872,
     "wikiDataId": "Q754516"
   },
@@ -2539,7 +2555,7 @@
     "native": "Hughesville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2197,
     "wikiDataId": "Q753704"
   },
@@ -2555,7 +2571,7 @@
     "native": "Hunt Valley",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23915,
     "wikiDataId": "Q5944006"
   },
@@ -2571,7 +2587,7 @@
     "native": "Huntingtown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2587,
     "wikiDataId": "Q754761"
   },
@@ -2603,7 +2619,7 @@
     "native": "Hurlock",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2070,
     "wikiDataId": "Q755898"
   },
@@ -2635,7 +2651,7 @@
     "native": "Ilchester",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23476,
     "wikiDataId": "Q3796339"
   },
@@ -2651,7 +2667,7 @@
     "native": "Indian Head",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3894,
     "wikiDataId": "Q634154"
   },
@@ -2669,7 +2685,7 @@
     "translations": {},
     "type": "section",
     "population": 4548,
-    "wikiDataId": "Q2128681"
+    "wikiDataId": null
   },
   {
     "id": 119135,
@@ -2683,7 +2699,7 @@
     "native": "Jarrettsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2916,
     "wikiDataId": "Q754932"
   },
@@ -2699,7 +2715,7 @@
     "native": "Jefferson",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1875,
     "wikiDataId": "Q3887456"
   },
@@ -2715,7 +2731,7 @@
     "native": "Jessup",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7137,
     "wikiDataId": "Q755574"
   },
@@ -2731,7 +2747,7 @@
     "native": "Joppatowne",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q753712"
   },
@@ -2747,7 +2763,7 @@
     "native": "Keedysville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1213,
     "wikiDataId": "Q754521"
   },
@@ -2763,7 +2779,7 @@
     "native": "Kemp Mill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12564,
     "wikiDataId": "Q753650"
   },
@@ -2779,7 +2795,7 @@
     "native": "Kensington",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2330,
     "wikiDataId": "Q753414"
   },
@@ -2795,7 +2811,7 @@
     "native": "Kettering",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12790,
     "wikiDataId": "Q754385"
   },
@@ -2811,7 +2827,7 @@
     "native": "Kingstown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1733,
     "wikiDataId": "Q754913"
   },
@@ -2827,7 +2843,7 @@
     "native": "Kingsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4318,
     "wikiDataId": "Q385481"
   },
@@ -2844,7 +2860,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 9125,
+    "population": 12137,
     "wikiDataId": "Q286925"
   },
   {
@@ -2856,10 +2872,10 @@
     "country_code": "US",
     "latitude": "39.65564000",
     "longitude": "-78.81058000",
-    "native": "Vale",
+    "native": "La Vale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3551,
     "wikiDataId": "Q753725"
   },
@@ -2875,7 +2891,7 @@
     "native": "Lake Arbor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9776,
     "wikiDataId": "Q756345"
   },
@@ -2891,7 +2907,7 @@
     "native": "Lake Shore",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 19477,
     "wikiDataId": "Q756566"
   },
@@ -2907,7 +2923,7 @@
     "native": "Landover",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23078,
     "wikiDataId": "Q1811669"
   },
@@ -2923,7 +2939,7 @@
     "native": "Landover Hills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1815,
     "wikiDataId": "Q754689"
   },
@@ -2939,7 +2955,7 @@
     "native": "Langley Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18755,
     "wikiDataId": "Q753918"
   },
@@ -2955,7 +2971,7 @@
     "native": "Lanham",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10157,
     "wikiDataId": "Q3217563"
   },
@@ -2987,7 +3003,7 @@
     "native": "Lansdowne",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8409,
     "wikiDataId": "Q3886494"
   },
@@ -3003,7 +3019,7 @@
     "native": "Largo",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10709,
     "wikiDataId": "Q753659"
   },
@@ -3035,7 +3051,7 @@
     "native": "Layhill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5169,
     "wikiDataId": "Q5971974"
   },
@@ -3051,9 +3067,9 @@
     "native": "Leisure World",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8749,
-    "wikiDataId": "Q1088100"
+    "wikiDataId": "Q35714806"
   },
   {
     "id": 120390,
@@ -3068,7 +3084,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 3633,
+    "population": 5033,
     "wikiDataId": "Q754573"
   },
   {
@@ -3083,7 +3099,7 @@
     "native": "Lexington Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11626,
     "wikiDataId": "Q650694"
   },
@@ -3094,12 +3110,12 @@
     "state_code": "MD",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "39.44038000",
-    "longitude": "-77.20804000",
+    "latitude": "39.41389700",
+    "longitude": "-77.30068300",
     "native": "Linganore",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q17406615"
   },
@@ -3115,7 +3131,7 @@
     "native": "Linthicum",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10324,
     "wikiDataId": "Q753673"
   },
@@ -3131,7 +3147,7 @@
     "native": "Lochearn",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 25333,
     "wikiDataId": "Q517396"
   },
@@ -3147,7 +3163,7 @@
     "native": "Lonaconing",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1001,
     "wikiDataId": "Q755146"
   },
@@ -3179,7 +3195,7 @@
     "native": "Long Beach",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1688,
     "wikiDataId": "Q6672256"
   },
@@ -3190,12 +3206,12 @@
     "state_code": "MD",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "38.41068000",
-    "longitude": "-76.45523000",
+    "latitude": "38.36267800",
+    "longitude": "-76.43802500",
     "native": "Lusby",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q755598"
   },
@@ -3211,7 +3227,7 @@
     "native": "Lutherville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6504,
     "wikiDataId": "Q6705768"
   },
@@ -3243,7 +3259,7 @@
     "native": "Manchester",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5408,
     "wikiDataId": "Q755118"
   },
@@ -3259,7 +3275,7 @@
     "native": "Marlboro Meadows",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3672,
     "wikiDataId": "Q3886619"
   },
@@ -3275,7 +3291,7 @@
     "native": "Marlboro Village",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9438,
     "wikiDataId": "Q2919349"
   },
@@ -3291,7 +3307,7 @@
     "native": "Marlow Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5618,
     "wikiDataId": "Q754902"
   },
@@ -3307,7 +3323,7 @@
     "native": "Marlton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9031,
     "wikiDataId": "Q753653"
   },
@@ -3323,7 +3339,7 @@
     "native": "Maryland City",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16093,
     "wikiDataId": "Q753934"
   },
@@ -3339,7 +3355,7 @@
     "native": "Maugansville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3071,
     "wikiDataId": "Q755880"
   },
@@ -3355,7 +3371,7 @@
     "native": "Mayo",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8298,
     "wikiDataId": "Q754311"
   },
@@ -3371,7 +3387,7 @@
     "native": "Mays Chapel",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11420,
     "wikiDataId": "Q753757"
   },
@@ -3387,7 +3403,7 @@
     "native": "Mechanicsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1508,
     "wikiDataId": "Q3888865"
   },
@@ -3403,9 +3419,9 @@
     "native": "Mellwood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3051,
-    "wikiDataId": "Q495261"
+    "wikiDataId": "Q6009846"
   },
   {
     "id": 121762,
@@ -3419,7 +3435,7 @@
     "native": "Middle River",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 25191,
     "wikiDataId": "Q754852"
   },
@@ -3435,7 +3451,7 @@
     "native": "Middletown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4469,
     "wikiDataId": "Q756107"
   },
@@ -3451,7 +3467,7 @@
     "native": "Milford Mill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 29042,
     "wikiDataId": "Q753988"
   },
@@ -3462,12 +3478,12 @@
     "state_code": "MD",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "38.92511000",
-    "longitude": "-76.74275000",
+    "latitude": "38.93692200",
+    "longitude": "-76.80832700",
     "native": "Mitchellville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 293,
     "wikiDataId": "Q753993"
   },
@@ -3483,7 +3499,7 @@
     "native": "Montgomery Village",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 32032,
     "wikiDataId": "Q754801"
   },
@@ -3499,7 +3515,7 @@
     "native": "Morningside",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2086,
     "wikiDataId": "Q754909"
   },
@@ -3515,7 +3531,7 @@
     "native": "Mount Airy",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9654,
     "wikiDataId": "Q753395"
   },
@@ -3547,7 +3563,7 @@
     "native": "Mountain Lake Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2147,
     "wikiDataId": "Q755820"
   },
@@ -3563,7 +3579,7 @@
     "native": "Myersville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1748,
     "wikiDataId": "Q754644"
   },
@@ -3579,7 +3595,7 @@
     "native": "National Harbor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3788,
     "wikiDataId": "Q3887684"
   },
@@ -3595,7 +3611,7 @@
     "native": "Naval Academy",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4802,
     "wikiDataId": "Q567744"
   },
@@ -3627,7 +3643,7 @@
     "native": "New Windsor",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1400,
     "wikiDataId": "Q756365"
   },
@@ -3643,7 +3659,7 @@
     "native": "North Beach",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2146,
     "wikiDataId": "Q754710"
   },
@@ -3661,7 +3677,7 @@
     "translations": {},
     "type": "section",
     "population": 33925,
-    "wikiDataId": "Q1085406"
+    "wikiDataId": "Q49005950"
   },
   {
     "id": 122989,
@@ -3675,7 +3691,7 @@
     "native": "North Bethesda",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 43828,
     "wikiDataId": "Q602896"
   },
@@ -3691,7 +3707,7 @@
     "native": "North East",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4085,
     "wikiDataId": "Q571856"
   },
@@ -3707,7 +3723,7 @@
     "native": "North Kensington",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9514,
     "wikiDataId": "Q587191"
   },
@@ -3723,7 +3739,7 @@
     "native": "North Laurel",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4474,
     "wikiDataId": "Q525718"
   },
@@ -3739,7 +3755,7 @@
     "native": "North Potomac",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 24410,
     "wikiDataId": "Q518064"
   },
@@ -3756,7 +3772,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 1875,
+    "population": 1808,
     "wikiDataId": "Q755860"
   },
   {
@@ -3771,7 +3787,7 @@
     "native": "Ocean City",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7055,
     "wikiDataId": "Q687905"
   },
@@ -3787,7 +3803,7 @@
     "native": "Ocean Pines",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11710,
     "wikiDataId": "Q756573"
   },
@@ -3803,7 +3819,7 @@
     "native": "Odenton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 37132,
     "wikiDataId": "Q753584"
   },
@@ -3819,7 +3835,7 @@
     "native": "Olney",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 33844,
     "wikiDataId": "Q754434"
   },
@@ -3835,7 +3851,7 @@
     "native": "Overlea",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12275,
     "wikiDataId": "Q754466"
   },
@@ -3851,7 +3867,7 @@
     "native": "Owings",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2149,
     "wikiDataId": "Q754934"
   },
@@ -3867,7 +3883,7 @@
     "native": "Owings Mills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30622,
     "wikiDataId": "Q755623"
   },
@@ -3883,7 +3899,7 @@
     "native": "Oxon Hill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17722,
     "wikiDataId": "Q3888021"
   },
@@ -3915,7 +3931,7 @@
     "native": "Paramount-Long Meadow",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2571,
     "wikiDataId": "Q754953"
   },
@@ -3931,7 +3947,7 @@
     "native": "Parkville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30734,
     "wikiDataId": "Q755039"
   },
@@ -3947,7 +3963,7 @@
     "native": "Parole",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q749977"
   },
@@ -3958,12 +3974,12 @@
     "state_code": "MD",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "39.10733000",
-    "longitude": "-76.57108000",
+    "latitude": "39.15242300",
+    "longitude": "-76.56088900",
     "native": "Pasadena",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 24287,
     "wikiDataId": "Q755602"
   },
@@ -3979,7 +3995,7 @@
     "native": "Peppermill Village",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4895,
     "wikiDataId": "Q6071934"
   },
@@ -3995,7 +4011,7 @@
     "native": "Perry Hall",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 28474,
     "wikiDataId": "Q754681"
   },
@@ -4011,7 +4027,7 @@
     "native": "Perryman",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2342,
     "wikiDataId": "Q754772"
   },
@@ -4027,7 +4043,7 @@
     "native": "Perryville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4437,
     "wikiDataId": "Q753761"
   },
@@ -4043,7 +4059,7 @@
     "native": "Pikesville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30764,
     "wikiDataId": "Q755020"
   },
@@ -4059,7 +4075,7 @@
     "native": "Pittsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1428,
     "wikiDataId": "Q753840"
   },
@@ -4075,7 +4091,7 @@
     "native": "Pleasant Hills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3379,
     "wikiDataId": "Q753946"
   },
@@ -4107,7 +4123,7 @@
     "native": "Point of Rocks",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1466,
     "wikiDataId": "Q3886924"
   },
@@ -4120,10 +4136,10 @@
     "country_code": "US",
     "latitude": "39.14594000",
     "longitude": "-77.41693000",
-    "native": "Half -wool",
+    "native": "Poolesville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5742,
     "wikiDataId": "Q755052"
   },
@@ -4139,7 +4155,7 @@
     "native": "Potomac",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 44965,
     "wikiDataId": "Q755844"
   },
@@ -4155,7 +4171,7 @@
     "native": "Potomac Heights",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1117,
     "wikiDataId": "Q754536"
   },
@@ -4171,7 +4187,7 @@
     "native": "Potomac Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2530,
     "wikiDataId": "Q3885663"
   },
@@ -4204,7 +4220,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 3446,
+    "population": 3642,
     "wikiDataId": "Q754512"
   },
   {
@@ -4219,7 +4235,7 @@
     "native": "Pumphrey",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5322,
     "wikiDataId": "Q756550"
   },
@@ -4235,9 +4251,9 @@
     "native": "Queen Anne",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1280,
-    "wikiDataId": "Q489642"
+    "wikiDataId": "Q7270203"
   },
   {
     "id": 124789,
@@ -4251,7 +4267,7 @@
     "native": "Queenland",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1929,
     "wikiDataId": "Q6094353"
   },
@@ -4267,7 +4283,7 @@
     "native": "Randallstown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 32430,
     "wikiDataId": "Q755604"
   },
@@ -4283,7 +4299,7 @@
     "native": "Redland",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 17242,
     "wikiDataId": "Q754812"
   },
@@ -4299,7 +4315,7 @@
     "native": "Reisterstown",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 25968,
     "wikiDataId": "Q755255"
   },
@@ -4315,7 +4331,7 @@
     "native": "Ridgely",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1690,
     "wikiDataId": "Q754945"
   },
@@ -4331,7 +4347,7 @@
     "native": "Rising Sun",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2740,
     "wikiDataId": "Q754858"
   },
@@ -4347,7 +4363,7 @@
     "native": "Riva",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4076,
     "wikiDataId": "Q754654"
   },
@@ -4363,7 +4379,7 @@
     "native": "Riverdale Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7351,
     "wikiDataId": "Q754948"
   },
@@ -4379,7 +4395,7 @@
     "native": "Riverside",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6425,
     "wikiDataId": "Q614798"
   },
@@ -4395,7 +4411,7 @@
     "native": "Riviera Beach",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12677,
     "wikiDataId": "Q753544"
   },
@@ -4411,9 +4427,9 @@
     "native": "Robinwood",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6918,
-    "wikiDataId": "Q981477"
+    "wikiDataId": null
   },
   {
     "id": 125278,
@@ -4427,7 +4443,7 @@
     "native": "Rock Hall",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1198,
     "wikiDataId": "Q510434"
   },
@@ -4444,7 +4460,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 66980,
+    "population": 67563,
     "wikiDataId": "Q327022"
   },
   {
@@ -4459,7 +4475,7 @@
     "native": "Rosaryville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10697,
     "wikiDataId": "Q753965"
   },
@@ -4475,7 +4491,7 @@
     "native": "Rosedale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 19257,
     "wikiDataId": "Q648142"
   },
@@ -4507,7 +4523,7 @@
     "native": "Rossville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18792,
     "wikiDataId": "Q754985"
   },
@@ -4539,7 +4555,7 @@
     "native": "Saint James",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2953,
     "wikiDataId": "Q2115390"
   },
@@ -4555,7 +4571,7 @@
     "native": "Saint Michaels",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1049,
     "wikiDataId": "Q753688"
   },
@@ -4572,7 +4588,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 32899,
+    "population": 33845,
     "wikiDataId": "Q755566"
   },
   {
@@ -4587,9 +4603,9 @@
     "native": "Savage",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7054,
-    "wikiDataId": "Q828729"
+    "wikiDataId": "Q7427684"
   },
   {
     "id": 125994,
@@ -4603,7 +4619,7 @@
     "native": "Scaggsville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 24333,
     "wikiDataId": "Q3886356"
   },
@@ -4619,7 +4635,7 @@
     "native": "Seabrook",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8401,
     "wikiDataId": "Q936644"
   },
@@ -4651,7 +4667,7 @@
     "native": "Selby-on-the-Bay",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4040,
     "wikiDataId": "Q755839"
   },
@@ -4667,7 +4683,7 @@
     "native": "Severn",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 44231,
     "wikiDataId": "Q755156"
   },
@@ -4680,10 +4696,10 @@
     "country_code": "US",
     "latitude": "39.07039000",
     "longitude": "-76.54524000",
-    "native": "Northern park",
+    "native": "Severna Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 37634,
     "wikiDataId": "Q755102"
   },
@@ -4699,7 +4715,7 @@
     "native": "Shady Side",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5803,
     "wikiDataId": "Q754732"
   },
@@ -4715,7 +4731,7 @@
     "native": "Silver Hill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5950,
     "wikiDataId": "Q7516063"
   },
@@ -4731,7 +4747,7 @@
     "native": "Silver Spring",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 71452,
     "wikiDataId": "Q755741"
   },
@@ -4747,7 +4763,7 @@
     "native": "Smithsburg",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2977,
     "wikiDataId": "Q754588"
   },
@@ -4764,7 +4780,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 2156,
+    "population": 2237,
     "wikiDataId": "Q754519"
   },
   {
@@ -4779,7 +4795,7 @@
     "native": "Solomons",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2368,
     "wikiDataId": "Q753730"
   },
@@ -4795,7 +4811,7 @@
     "native": "Somerset",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1288,
     "wikiDataId": "Q753952"
   },
@@ -4813,7 +4829,7 @@
     "translations": {},
     "type": "section",
     "population": 48828,
-    "wikiDataId": "Q2570675"
+    "wikiDataId": "Q49006054"
   },
   {
     "id": 126658,
@@ -4827,7 +4843,7 @@
     "native": "South Gate",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 29658,
     "wikiDataId": "Q754528"
   },
@@ -4843,7 +4859,7 @@
     "native": "South Kensington",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q754646"
   },
@@ -4859,7 +4875,7 @@
     "native": "South Laurel",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 26112,
     "wikiDataId": "Q754862"
   },
@@ -4875,7 +4891,7 @@
     "native": "Spencerville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1594,
     "wikiDataId": "Q3885732"
   },
@@ -4891,9 +4907,9 @@
     "native": "Spring Ridge",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5795,
-    "wikiDataId": "Q2327597"
+    "wikiDataId": "Q5403170"
   },
   {
     "id": 126884,
@@ -4907,7 +4923,7 @@
     "native": "Springdale",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2994,
     "wikiDataId": "Q753629"
   },
@@ -4923,7 +4939,7 @@
     "native": "Stevensville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6803,
     "wikiDataId": "Q755246"
   },
@@ -4939,7 +4955,7 @@
     "native": "Suitland",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 25825,
     "wikiDataId": "Q3886817"
   },
@@ -4971,7 +4987,7 @@
     "native": "Summerfield",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10951,
     "wikiDataId": "Q6135493"
   },
@@ -4984,10 +5000,10 @@
     "country_code": "US",
     "latitude": "39.37371000",
     "longitude": "-76.96776000",
-    "native": "Heart rate",
+    "native": "Sykesville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4316,
     "wikiDataId": "Q753667"
   },
@@ -5035,7 +5051,7 @@
     "native": "Temple Hills",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7852,
     "wikiDataId": "Q754167"
   },
@@ -5051,7 +5067,7 @@
     "native": "Thurmont",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6213,
     "wikiDataId": "Q755596"
   },
@@ -5067,7 +5083,7 @@
     "native": "Timonium",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9925,
     "wikiDataId": "Q7806933"
   },
@@ -5096,10 +5112,10 @@
     "country_code": "US",
     "latitude": "38.65845000",
     "longitude": "-76.05800000",
-    "native": "Stairs",
+    "native": "Trappe",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1177,
     "wikiDataId": "Q753815"
   },
@@ -5115,7 +5131,7 @@
     "native": "Travilah",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12159,
     "wikiDataId": "Q753423"
   },
@@ -5131,7 +5147,7 @@
     "native": "University Park",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2665,
     "wikiDataId": "Q753491"
   },
@@ -5148,7 +5164,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 652,
+    "population": 708,
     "wikiDataId": "Q753334"
   },
   {
@@ -5163,7 +5179,7 @@
     "native": "Urbana",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9175,
     "wikiDataId": "Q3482438"
   },
@@ -5179,7 +5195,7 @@
     "native": "Waldorf",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 67752,
     "wikiDataId": "Q755056"
   },
@@ -5195,7 +5211,7 @@
     "native": "Walker Mill",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11302,
     "wikiDataId": "Q754593"
   },
@@ -5211,7 +5227,7 @@
     "native": "Walkersville",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6156,
     "wikiDataId": "Q755672"
   },
@@ -5227,9 +5243,9 @@
     "native": "West Elkridge",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 28734,
-    "wikiDataId": "Q952475"
+    "wikiDataId": "Q49370658"
   },
   {
     "id": 128912,
@@ -5243,7 +5259,7 @@
     "native": "West Laurel",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4230,
     "wikiDataId": "Q754866"
   },
@@ -5259,7 +5275,7 @@
     "native": "West Ocean City",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4375,
     "wikiDataId": "Q754685"
   },
@@ -5275,7 +5291,7 @@
     "native": "Westernport",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1812,
     "wikiDataId": "Q754524"
   },
@@ -5292,7 +5308,7 @@
     "timezone": "America/New_York",
     "translations": {},
     "type": "city",
-    "population": 18670,
+    "population": 20589,
     "wikiDataId": "Q755018"
   },
   {
@@ -5307,7 +5323,7 @@
     "native": "Westphalia",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7266,
     "wikiDataId": "Q6167009"
   },
@@ -5323,7 +5339,7 @@
     "native": "Wheaton",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 48284,
     "wikiDataId": "Q7991947"
   },
@@ -5339,7 +5355,7 @@
     "native": "White Marsh",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9513,
     "wikiDataId": "Q2542346"
   },
@@ -5355,7 +5371,7 @@
     "native": "White Oak",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17403,
     "wikiDataId": "Q753641"
   },
@@ -5371,7 +5387,7 @@
     "native": "Williamsport",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2162,
     "wikiDataId": "Q755892"
   },
@@ -5387,7 +5403,7 @@
     "native": "Wilson-Conococheague",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2282,
     "wikiDataId": "Q755062"
   },
@@ -5403,7 +5419,7 @@
     "native": "Woodlawn",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 37879,
     "wikiDataId": "Q754435"
   },
@@ -5419,7 +5435,7 @@
     "native": "Woodmore",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3936,
     "wikiDataId": "Q753530"
   },
@@ -5435,7 +5451,7 @@
     "native": "Woodsboro",
     "timezone": "America/New_York",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1319,
     "wikiDataId": "Q755889"
   }

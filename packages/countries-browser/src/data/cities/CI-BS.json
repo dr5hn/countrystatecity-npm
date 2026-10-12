@@ -8,7 +8,7 @@
     "country_code": "CI",
     "latitude": "4.95712000",
     "longitude": "-6.09372000",
-    "native": "Se fâcher",
+    "native": "Gbôklé",
     "timezone": "Africa/Abidjan",
     "translations": {},
     "type": "city",
@@ -24,7 +24,7 @@
     "country_code": "CI",
     "latitude": "5.80112000",
     "longitude": "-6.60313000",
-    "native": "Combien",
+    "native": "Nawa",
     "timezone": "Africa/Abidjan",
     "translations": {},
     "type": "city",
@@ -64,6 +64,22 @@
     "wikiDataId": "Q1102546"
   },
   {
+    "id": 164556,
+    "name": "Soubré",
+    "state_id": 2643,
+    "state_code": "BS",
+    "country_id": 54,
+    "country_code": "CI",
+    "latitude": "5.78377000",
+    "longitude": "-6.59388000",
+    "native": null,
+    "timezone": "Africa/Abidjan",
+    "translations": {},
+    "type": "adm2",
+    "population": 131181,
+    "wikiDataId": "Q1587131"
+  },
+  {
     "id": 18933,
     "name": "Tabou",
     "state_id": 2643,
@@ -78,5 +94,21 @@
     "type": "adm3",
     "population": 29469,
     "wikiDataId": "Q952665"
+  },
+  {
+    "id": 164561,
+    "name": "Yabayo",
+    "state_id": 2643,
+    "state_code": "BS",
+    "country_id": 54,
+    "country_code": "CI",
+    "latitude": "5.93876000",
+    "longitude": "-6.59826000",
+    "native": null,
+    "timezone": "Africa/Abidjan",
+    "translations": {},
+    "type": "city",
+    "population": 26037,
+    "wikiDataId": "Q3571225"
   }
 ]

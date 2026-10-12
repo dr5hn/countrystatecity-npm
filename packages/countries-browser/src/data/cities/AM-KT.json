@@ -176,6 +176,22 @@
     "wikiDataId": "Q1752731"
   },
   {
+    "id": 164373,
+    "name": "Charentsavan",
+    "state_id": 2033,
+    "state_code": "KT",
+    "country_id": 12,
+    "country_code": "AM",
+    "latitude": "40.40289000",
+    "longitude": "44.64447000",
+    "native": "Չարենցավան",
+    "timezone": "Asia/Yerevan",
+    "translations": {},
+    "type": "city",
+    "population": 22071,
+    "wikiDataId": "Q1451780"
+  },
+  {
     "id": 379,
     "name": "Dzoraghbyur",
     "state_id": 2033,
@@ -209,7 +225,7 @@
   },
   {
     "id": 386,
-    "name": "Garrni",
+    "name": "Garni",
     "state_id": 2033,
     "state_code": "KT",
     "country_id": 12,
@@ -289,7 +305,7 @@
   },
   {
     "id": 442,
-    "name": "Lerrnanist",
+    "name": "Lernanist",
     "state_id": 2033,
     "state_code": "KT",
     "country_id": 12,
@@ -384,8 +400,24 @@
     "wikiDataId": "Q3343429"
   },
   {
+    "id": 164376,
+    "name": "Nor Hachn",
+    "state_id": 2033,
+    "state_code": "KT",
+    "country_id": 12,
+    "country_code": "AM",
+    "latitude": "40.30296000",
+    "longitude": "44.58314000",
+    "native": "Նոր Հաճն",
+    "timezone": "Asia/Yerevan",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q1647456"
+  },
+  {
     "id": 500,
-    "name": "Prroshyan",
+    "name": "Proshyan",
     "state_id": 2033,
     "state_code": "KT",
     "country_id": 12,
@@ -465,7 +497,7 @@
   },
   {
     "id": 583,
-    "name": "Zarr",
+    "name": "Zar",
     "state_id": 2033,
     "state_code": "KT",
     "country_id": 12,
@@ -494,21 +526,5 @@
     "type": "city",
     "population": 1758,
     "wikiDataId": "Q1920843"
-  },
-  {
-    "id": 587,
-    "name": "Zovaber",
-    "state_id": 2033,
-    "state_code": "KT",
-    "country_id": 12,
-    "country_code": "AM",
-    "latitude": "40.56671000",
-    "longitude": "44.79028000",
-    "native": "Զովաբեր",
-    "timezone": "Asia/Yerevan",
-    "translations": {},
-    "type": "city",
-    "population": 1683,
-    "wikiDataId": "Q1528217"
   }
 ]

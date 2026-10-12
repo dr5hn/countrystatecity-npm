@@ -1,5 +1,21 @@
 [
   {
+    "id": 164995,
+    "name": "Ahiwara",
+    "state_id": 4040,
+    "state_code": "CT",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "21.35799000",
+    "longitude": "81.41794000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 20384,
+    "wikiDataId": "Q368124"
+  },
+  {
     "id": 57619,
     "name": "Akaltara",
     "state_id": 4040,
@@ -155,7 +171,7 @@
     "native": "बस्तर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1413199,
     "wikiDataId": "Q100152"
   },
@@ -302,6 +318,22 @@
     "type": "city",
     "population": 7093,
     "wikiDataId": "Q1105863"
+  },
+  {
+    "id": 164880,
+    "name": "Dalli Rajhara",
+    "state_id": 4040,
+    "state_code": "CT",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "20.58573000",
+    "longitude": "81.07501000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 44363,
+    "wikiDataId": "Q1190684"
   },
   {
     "id": 153519,
@@ -477,7 +509,7 @@
     "translations": {},
     "type": "city",
     "population": 7440,
-    "wikiDataId": "Q41543"
+    "wikiDataId": "Q1656961"
   },
   {
     "id": 132186,
@@ -494,6 +526,22 @@
     "type": "city",
     "population": 125463,
     "wikiDataId": "Q1006363"
+  },
+  {
+    "id": 164944,
+    "name": "Jamul",
+    "state_id": 4040,
+    "state_code": "CT",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "21.25000000",
+    "longitude": "81.40000000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 25878,
+    "wikiDataId": "Q3806843"
   },
   {
     "id": 132312,
@@ -539,7 +587,7 @@
     "native": "जशपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 851669,
     "wikiDataId": "Q2577551"
   },
@@ -558,22 +606,6 @@
     "type": "city",
     "population": 28301,
     "wikiDataId": "Q2577551"
-  },
-  {
-    "id": 132318,
-    "name": "Junagarh",
-    "state_id": 4040,
-    "state_code": "CT",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "19.85993000",
-    "longitude": "82.93385000",
-    "native": "जूनागढ़",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 19656,
-    "wikiDataId": "Q1937526"
   },
   {
     "id": 132319,
@@ -864,6 +896,22 @@
     "wikiDataId": "Q2450240"
   },
   {
+    "id": 164903,
+    "name": "Manendragarh",
+    "state_id": 4040,
+    "state_code": "CT",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "23.21337000",
+    "longitude": "82.20232000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 33071,
+    "wikiDataId": "Q2625568"
+  },
+  {
     "id": 133031,
     "name": "Mungeli",
     "state_id": 4040,
@@ -891,7 +939,7 @@
     "native": "नारायणपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 139820,
     "wikiDataId": "Q2322000"
   },
@@ -1030,8 +1078,8 @@
     "state_code": "CT",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "22.08582000",
-    "longitude": "83.30603000",
+    "latitude": "21.89764000",
+    "longitude": "83.39660000",
     "native": "रायगढ़",
     "timezone": "Asia/Kolkata",
     "translations": {},
@@ -1195,7 +1243,7 @@
     "native": "सरगुजा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 2359886,
     "wikiDataId": "Q1805075"
   },

@@ -7,10 +7,16 @@
 
 Comprehensive world currency data with ISO 4217 codes, symbols, and country mappings.
 
+## Upgrading to 2.0.0
+
+The v4.0-export.50 snapshot replaces currency codes `ANG` → `XCG`, `SLL` → `SLE`, and `ZWL` → `ZWG`. Lookups for the retired codes no longer return a currency. The Republic of the Congo (`CG`) maps to `XAF` instead of `CDF`. Refresh stored currency codes and country mappings before upgrading; these are code replacements, not an amount-conversion API.
+
+This package does not contain city/state ids. If you combine it with geographic packages, the [upstream v4.0 release](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v4.0) documents removed geographic ids and provides [`removed_ids_v3.2_to_v4.0.csv`](https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0/removed_ids_v3.2_to_v4.0.csv) for migrating stored city/state ids.
+
 ## ✨ Features
 
-- 💰 **155 ISO 4217 Currencies**: Complete world currency database
-- 🌍 **195 Countries**: Full country-to-currency and currency-to-countries mapping
+- 💰 **154 ISO 4217 Currencies**: Complete world currency database
+- 🌍 **250 Countries**: Full country-to-currency and currency-to-countries mapping
 - 🔍 **Flexible Lookup**: Find by code, name, symbol, or country
 - 🖋️ **Native Symbols**: Both display (`$`) and native (`₹`) symbols included
 - 🔢 **Decimal Rules**: Correct `decimalDigits` and `rounding` per currency
@@ -43,7 +49,7 @@ import {
 
 // Get all currencies
 const currencies = await getCurrencies();
-console.log(currencies.length); // 155
+console.log(currencies.length); // 154
 
 // Look up by ISO 4217 code
 const usd = await getCurrencyByCode('USD');
@@ -241,7 +247,7 @@ async function getCountryCurrencyInfo(countryCode: string) {
 const usCurrencies = await getCountryCurrencyInfo('US');
 // [{ code: 'USD', name: 'US Dollar', symbol: '$', nativeSymbol: '$' }]
 
-const paCurrencies = await getCountryCurrencyInfo('PA'); // Panama uses USD + PAB
+const paCurrencies = await getCountryCurrencyInfo('PA'); // Upstream records PAB for Panama
 // [{ code: 'PAB', ... }, { code: 'USD', ... }]
 ```
 
@@ -327,9 +333,9 @@ interface ICurrency {
 
 ### Data Coverage
 
-- **155 ISO 4217 Currencies**: All major and minor world currencies
-- **195 Countries**: Complete country-to-currency mappings
-- **Multi-currency countries**: Countries that use more than one currency (e.g., Panama, Zimbabwe) are fully supported
+- **154 ISO 4217 Currencies**: All major and minor world currencies
+- **250 Countries**: Complete country-to-currency mappings
+- **Country mappings** follow upstream's single currency field per country; additional currencies used in a country may not appear in this snapshot.
 
 **Note**: Currency data is automatically sourced from the [Countries States Cities Database](https://github.com/dr5hn/countries-states-cities-database) and updates weekly.
 

@@ -1,21 +1,5 @@
 [
   {
-    "id": 67742,
-    "name": "Centipede",
-    "state_id": 1968,
-    "state_code": "047",
-    "country_id": 146,
-    "country_code": "MN",
-    "latitude": "47.70693000",
-    "longitude": "106.95276000",
-    "native": "Зээрийн чулуу",
-    "timezone": "Asia/Ulaanbaatar",
-    "translations": {},
-    "type": "city",
-    "population": 16953,
-    "wikiDataId": "Q3404181"
-  },
-  {
     "id": 67715,
     "name": "Dzuunmod",
     "state_id": 1968,
@@ -43,7 +27,7 @@
     "native": "Мөнхморьт",
     "timezone": "Asia/Ulaanbaatar",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 0,
     "wikiDataId": "Q3403761"
   },
@@ -78,5 +62,21 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q23430"
+  },
+  {
+    "id": 67742,
+    "name": "Zuunmod",
+    "state_id": 1968,
+    "state_code": "047",
+    "country_id": 146,
+    "country_code": "MN",
+    "latitude": "47.70693000",
+    "longitude": "106.95276000",
+    "native": "Зуунмод",
+    "timezone": "Asia/Ulaanbaatar",
+    "translations": {},
+    "type": "city",
+    "population": 16953,
+    "wikiDataId": null
   }
 ]

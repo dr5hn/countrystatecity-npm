@@ -11,7 +11,7 @@
     "native": "Abra Pampa",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9425,
     "wikiDataId": "Q55386"
   },
@@ -27,7 +27,7 @@
     "native": "Caimancito",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5403,
     "wikiDataId": "Q1749213"
   },
@@ -43,57 +43,9 @@
     "native": "Calilegua",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5174,
     "wikiDataId": "Q1749231"
-  },
-  {
-    "id": 862,
-    "name": "Departamento de Cochinoca",
-    "state_id": 3645,
-    "state_code": "Y",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-23.00000000",
-    "longitude": "-65.83333000",
-    "native": "Departamento de Cochinoca",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 15054,
-    "wikiDataId": "Q609628"
-  },
-  {
-    "id": 965,
-    "name": "Departamento de Rinconada",
-    "state_id": 3645,
-    "state_code": "Y",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-22.50000000",
-    "longitude": "-66.50000000",
-    "native": "Departamento de Rinconada",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 1802,
-    "wikiDataId": "Q1063533"
-  },
-  {
-    "id": 1025,
-    "name": "Departamento de Tumbaya",
-    "state_id": 3645,
-    "state_code": "Y",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-23.71667000",
-    "longitude": "-65.66667000",
-    "native": "Departamento de Tumbaya",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1063348"
   },
   {
     "id": 1047,
@@ -107,7 +59,7 @@
     "native": "El Aguilar",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3655,
     "wikiDataId": "Q3720844"
   },
@@ -123,7 +75,7 @@
     "native": "Fraile Pintado",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 13682,
     "wikiDataId": "Q1923525"
   },
@@ -139,13 +91,13 @@
     "native": "Humahuaca",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11369,
     "wikiDataId": "Q1026833"
   },
   {
     "id": 1155,
-    "name": "Ingenio La Esperanza",
+    "name": "La Esperanza",
     "state_id": 3645,
     "state_code": "Y",
     "country_id": 11,
@@ -155,9 +107,9 @@
     "native": "Ingenio La Esperanza",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5002,
-    "wikiDataId": "Q21840643"
+    "wikiDataId": "Q55387"
   },
   {
     "id": 1193,
@@ -171,7 +123,7 @@
     "native": "La Mendieta",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3812,
     "wikiDataId": "Q3820983"
   },
@@ -187,7 +139,7 @@
     "native": "La Quiaca",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 16874,
     "wikiDataId": "Q693381"
   },
@@ -203,7 +155,7 @@
     "native": "Libertador General San Martín",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 49267,
     "wikiDataId": "Q600706"
   },
@@ -235,7 +187,7 @@
     "native": "Palma Sola",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5318,
     "wikiDataId": "Q1749064"
   },
@@ -251,9 +203,41 @@
     "native": "Palpalá",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 48199,
-    "wikiDataId": "Q9054861"
+    "wikiDataId": "Q55385"
+  },
+  {
+    "id": 965,
+    "name": "Rinconada",
+    "state_id": 3645,
+    "state_code": "Y",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-22.44065099",
+    "longitude": "-66.16757043",
+    "native": "Rinconada",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q1817419"
+  },
+  {
+    "id": 164456,
+    "name": "San Antonio",
+    "state_id": 3645,
+    "state_code": "Y",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-24.36841000",
+    "longitude": "-65.33409000",
+    "native": null,
+    "timezone": "America/Argentina/Jujuy",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q2219283"
   },
   {
     "id": 1447,
@@ -267,7 +251,7 @@
     "native": "San Pedro de Jujuy",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 71000,
     "wikiDataId": "Q1020263"
   },
@@ -283,9 +267,25 @@
     "native": "San Salvador de Jujuy",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 321789,
     "wikiDataId": "Q44217"
+  },
+  {
+    "id": 164458,
+    "name": "Santa Catalina",
+    "state_id": 3645,
+    "state_code": "Y",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-21.94567000",
+    "longitude": "-66.05188000",
+    "native": null,
+    "timezone": "America/Argentina/Jujuy",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q2096227"
   },
   {
     "id": 1455,
@@ -299,7 +299,7 @@
     "native": "Santa Clara",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4883,
     "wikiDataId": "Q2001906"
   },
@@ -315,9 +315,25 @@
     "native": "Tilcara",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5640,
     "wikiDataId": "Q604722"
+  },
+  {
+    "id": 1025,
+    "name": "Tumbaya",
+    "state_id": 3645,
+    "state_code": "Y",
+    "country_id": 11,
+    "country_code": "AR",
+    "latitude": "-23.85777464",
+    "longitude": "-65.46682869",
+    "native": "Tumbaya",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q2302575"
   },
   {
     "id": 1597,
@@ -331,7 +347,7 @@
     "native": "Yuto",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7732,
     "wikiDataId": "Q1115054"
   }

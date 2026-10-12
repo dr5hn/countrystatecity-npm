@@ -1,19 +1,35 @@
 [
   {
-    "id": 48180,
-    "name": "Aberporth",
+    "id": 48246,
+    "name": "Ammanford",
     "state_id": 2484,
     "state_code": "CMN",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "52.13248000",
-    "longitude": "-4.54173000",
-    "native": "Aberporth",
+    "latitude": "51.79279000",
+    "longitude": "-3.98833000",
+    "native": "Ammanford",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 23709,
+    "wikiDataId": "Q2472406"
+  },
+  {
+    "id": 48784,
+    "name": "Burry Port",
+    "state_id": 2484,
+    "state_code": "CMN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.68435000",
+    "longitude": "-4.24687000",
+    "native": "Burry Port",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
-    "population": 1648,
-    "wikiDataId": "Q319672"
+    "population": 8310,
+    "wikiDataId": "Q2253279"
   },
   {
     "id": 48862,
@@ -27,25 +43,9 @@
     "native": "Carmarthen",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 14638,
     "wikiDataId": "Q835835"
-  },
-  {
-    "id": 48863,
-    "name": "Carmarthenshire",
-    "state_id": 2484,
-    "state_code": "CMN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.83333000",
-    "longitude": "-4.16667000",
-    "native": "Carmarthenshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 187568,
-    "wikiDataId": "Q217840"
   },
   {
     "id": 49172,
@@ -64,6 +64,22 @@
     "wikiDataId": "Q1351146"
   },
   {
+    "id": 49647,
+    "name": "Glanamman",
+    "state_id": 2484,
+    "state_code": "CMN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.80000000",
+    "longitude": "-3.93333000",
+    "native": "Glanamman",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 4168,
+    "wikiDataId": "Q2079042"
+  },
+  {
     "id": 50138,
     "name": "Kidwelly",
     "state_id": 2484,
@@ -75,7 +91,7 @@
     "native": "Kidwelly",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 2782,
     "wikiDataId": "Q3395358"
   },
@@ -91,7 +107,7 @@
     "native": "Llandeilo",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1787,
     "wikiDataId": "Q2204179"
   },
@@ -107,7 +123,7 @@
     "native": "Llandovery",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1987,
     "wikiDataId": "Q651733"
   },
@@ -128,20 +144,20 @@
     "wikiDataId": "Q6661267"
   },
   {
-    "id": 50349,
-    "name": "Llandysul",
+    "id": 50350,
+    "name": "Llanelli",
     "state_id": 2484,
     "state_code": "CMN",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "52.04166000",
-    "longitude": "-4.30909000",
-    "native": "Llandysul",
+    "latitude": "51.68195000",
+    "longitude": "-4.16191000",
+    "native": "Llanelli",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 1484,
-    "wikiDataId": "Q2193617"
+    "type": "town",
+    "population": 49591,
+    "wikiDataId": "Q990125"
   },
   {
     "id": 50370,
@@ -184,7 +200,7 @@
     "country_code": "GB",
     "latitude": "52.00080000",
     "longitude": "-4.26575000",
-    "native": "Punch",
+    "native": "Pencader",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -200,7 +216,7 @@
     "country_code": "GB",
     "latitude": "51.75182000",
     "longitude": "-4.21718000",
-    "native": "Carp",
+    "native": "Pontyates",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -235,7 +251,7 @@
     "native": "Saint Clears",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1605,
     "wikiDataId": "Q2085995"
   },
@@ -251,7 +267,7 @@
     "native": "Trimsaran",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1584,
     "wikiDataId": "Q7842265"
   },
@@ -270,5 +286,37 @@
     "type": "city",
     "population": 4040,
     "wikiDataId": "Q7852544"
+  },
+  {
+    "id": 51684,
+    "name": "Tycroes",
+    "state_id": 2484,
+    "state_code": "CMN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.77806000",
+    "longitude": "-4.02000000",
+    "native": "Tycroes",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 2156,
+    "wikiDataId": "Q7859766"
+  },
+  {
+    "id": 51877,
+    "name": "Whitland",
+    "state_id": 2484,
+    "state_code": "CMN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.81889000",
+    "longitude": "-4.61528000",
+    "native": "Whitland",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 1514,
+    "wikiDataId": "Q1996667"
   }
 ]

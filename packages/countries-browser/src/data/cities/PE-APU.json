@@ -11,8 +11,24 @@
     "native": "Abancay",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 72277,
+    "wikiDataId": "Q2718510"
+  },
+  {
+    "id": 80767,
+    "name": "Abancay",
+    "state_id": 3699,
+    "state_code": "APU",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.63666667",
+    "longitude": "-72.87916667",
+    "native": "Abancay",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q215238"
   },
   {
@@ -27,41 +43,25 @@
     "native": "Andahuaylas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 17444,
-    "wikiDataId": "Q489660"
-  },
-  {
-    "id": 80767,
-    "name": "Provincia de Abancay",
-    "state_id": 3699,
-    "state_code": "APU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.66667000",
-    "longitude": "-72.91667000",
-    "native": "Provincia de Abancay",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm1",
-    "population": 110520,
-    "wikiDataId": "Q1771870"
+    "wikiDataId": "Q2718496"
   },
   {
     "id": 80772,
-    "name": "Provincia de Andahuaylas",
+    "name": "Andahuaylas",
     "state_id": 3699,
     "state_code": "APU",
     "country_id": 173,
     "country_code": "PE",
     "latitude": "-13.66667000",
     "longitude": "-73.41667000",
-    "native": "Provincia de Andahuaylas",
+    "native": "Andahuaylas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
-    "population": 142477,
-    "wikiDataId": "Q1798747"
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q489660"
   },
   {
     "id": 80775,
@@ -75,7 +75,7 @@
     "native": "Provincia de Antabamba",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 11310,
     "wikiDataId": "Q1814228"
   },
@@ -91,7 +91,7 @@
     "native": "Provincia de Aymaraes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 24307,
     "wikiDataId": "Q1814234"
   },
@@ -107,7 +107,7 @@
     "native": "Provincia de Cotabambas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 50656,
     "wikiDataId": "Q1814244"
   },
@@ -123,7 +123,7 @@
     "native": "Provincia de Grau",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 21242,
     "wikiDataId": "Q1814172"
   },
@@ -139,8 +139,8 @@
     "native": "Talavera",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7381,
-    "wikiDataId": "Q723584"
+    "wikiDataId": "Q2547246"
   }
 ]

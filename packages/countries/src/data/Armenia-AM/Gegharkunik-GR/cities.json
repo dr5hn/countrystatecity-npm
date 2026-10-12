@@ -129,7 +129,7 @@
   },
   {
     "id": 387,
-    "name": "Gavarr",
+    "name": "Gavar",
     "state_id": 2028,
     "state_code": "GR",
     "country_id": 12,
@@ -496,6 +496,22 @@
     "wikiDataId": "Q1024185"
   },
   {
+    "id": 555,
+    "name": "Vardadzor",
+    "state_id": 2028,
+    "state_code": "GR",
+    "country_id": 12,
+    "country_code": "AM",
+    "latitude": "40.18701000",
+    "longitude": "45.19212000",
+    "native": "Վարդաձոր",
+    "timezone": "Asia/Yerevan",
+    "translations": {},
+    "type": "city",
+    "population": 2864,
+    "wikiDataId": "Q2636168"
+  },
+  {
     "id": 556,
     "name": "Vardenik",
     "state_id": 2028,
@@ -574,5 +590,21 @@
     "type": "city",
     "population": 5479,
     "wikiDataId": "Q2636149"
+  },
+  {
+    "id": 587,
+    "name": "Zovaber",
+    "state_id": 2028,
+    "state_code": "GR",
+    "country_id": 12,
+    "country_code": "AM",
+    "latitude": "40.56671000",
+    "longitude": "44.79028000",
+    "native": "Զովաբեր",
+    "timezone": "Asia/Yerevan",
+    "translations": {},
+    "type": "city",
+    "population": 1683,
+    "wikiDataId": "Q1528217"
   }
 ]

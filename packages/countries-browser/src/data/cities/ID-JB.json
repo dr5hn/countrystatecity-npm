@@ -24,7 +24,7 @@
     "country_code": "ID",
     "latitude": "-6.80170000",
     "longitude": "108.63110000",
-    "native": "Antilles Belanda",
+    "native": "Astanajapura",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
@@ -43,7 +43,7 @@
     "native": "Bandung",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 2444160,
     "wikiDataId": "Q10389"
   },
@@ -88,10 +88,10 @@
     "country_code": "ID",
     "latitude": "-7.04528000",
     "longitude": "107.58778000",
-    "native": "Jangkauan",
+    "native": "Banjaran",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 164952,
     "wikiDataId": "Q25012347"
   },
@@ -139,7 +139,7 @@
     "native": "Caringin",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 91845,
     "wikiDataId": "Q24992785"
   },
@@ -429,7 +429,7 @@
     "translations": {},
     "type": "adm2",
     "population": 123263,
-    "wikiDataId": "Q5967"
+    "wikiDataId": null
   },
   {
     "id": 56296,
@@ -624,22 +624,6 @@
     "wikiDataId": "Q10381"
   },
   {
-    "id": 56654,
-    "name": "Kabupaten Sumedang",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.81667000",
-    "longitude": "107.98333000",
-    "native": "Kabupaten Sumedang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10382"
-  },
-  {
     "id": 56674,
     "name": "Kabupaten Tasikmalaya",
     "state_id": 1825,
@@ -694,14 +678,14 @@
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.26667000",
-    "longitude": "107.41667000",
-    "native": "Kabupaten Karawang",
+    "latitude": "-6.31250000",
+    "longitude": "107.29500000",
+    "native": "Karawang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q10375"
+    "wikiDataId": "Q12489610"
   },
   {
     "id": 56704,
@@ -712,7 +696,7 @@
     "country_code": "ID",
     "latitude": "-7.38170000",
     "longitude": "108.20820000",
-    "native": "Kawaguchi",
+    "native": "Kawalu",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "adm3",
@@ -765,7 +749,7 @@
     "translations": {},
     "type": "adm2",
     "population": 111742,
-    "wikiDataId": "Q24886761"
+    "wikiDataId": null
   },
   {
     "id": 56842,
@@ -814,22 +798,6 @@
     "type": "city",
     "population": 83119,
     "wikiDataId": "Q24879713"
-  },
-  {
-    "id": 56886,
-    "name": "Ngawi",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.40380000",
-    "longitude": "111.44610000",
-    "native": "Ngawi Ngawi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "city",
-    "population": 22412,
-    "wikiDataId": "Q24853376"
   },
   {
     "id": 56892,
@@ -888,28 +856,12 @@
     "country_code": "ID",
     "latitude": "-7.01833000",
     "longitude": "107.60389000",
-    "native": "blocker",
+    "native": "Pameungpeuk",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
     "population": 48294,
     "wikiDataId": "Q24849712"
-  },
-  {
-    "id": 56905,
-    "name": "Pamulang",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.34278000",
-    "longitude": "106.73833000",
-    "native": "Pamulang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "city",
-    "population": 174557,
-    "wikiDataId": "Q24849733"
   },
   {
     "id": 56575,
@@ -1086,22 +1038,6 @@
     "type": "city",
     "population": 118439,
     "wikiDataId": "Q24842426"
-  },
-  {
-    "id": 56971,
-    "name": "Serpong",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.31694000",
-    "longitude": "106.66417000",
-    "native": "Serpong",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "city",
-    "population": 80193,
-    "wikiDataId": "Q24838071"
   },
   {
     "id": 56980,

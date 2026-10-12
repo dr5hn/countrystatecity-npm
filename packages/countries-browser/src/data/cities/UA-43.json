@@ -139,7 +139,7 @@
     "native": "Алушта",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 29586,
     "wikiDataId": "Q46001"
   },
@@ -171,7 +171,7 @@
     "native": "Армянськ",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24442,
     "wikiDataId": "Q688716"
   },
@@ -219,7 +219,7 @@
     "native": "Багерове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 4315,
     "wikiDataId": "Q2879290"
   },
@@ -235,7 +235,7 @@
     "native": "Бахчисарай",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 27448,
     "wikiDataId": "Q158604"
   },
@@ -315,7 +315,7 @@
     "native": "Білогірський район",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2353538"
   },
@@ -331,7 +331,7 @@
     "native": "Берегове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2377,
     "wikiDataId": "Q3920757"
   },
@@ -363,9 +363,25 @@
     "native": "Білогірськ",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q863330"
+  },
+  {
+    "id": 110183,
+    "name": "Biyuk-Onlar",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "45.28866000",
+    "longitude": "34.13521000",
+    "native": "Біюк-Онлар",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "adm3",
+    "population": 10244,
+    "wikiDataId": null
   },
   {
     "id": 109412,
@@ -496,22 +512,6 @@
     "wikiDataId": "Q2237994"
   },
   {
-    "id": 109490,
-    "name": "Chernomorskoye",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "45.50657000",
-    "longitude": "32.69776000",
-    "native": "Чорноморське",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "city",
-    "population": 11039,
-    "wikiDataId": "Q1555482"
-  },
-  {
     "id": 109491,
     "name": "Chernopolye",
     "state_id": 4689,
@@ -523,7 +523,7 @@
     "native": "Чорнопілля",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1251,
     "wikiDataId": "Q4514124"
   },
@@ -640,6 +640,22 @@
     "wikiDataId": "Q664445"
   },
   {
+    "id": 109490,
+    "name": "Chornomorske",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "45.50657000",
+    "longitude": "32.69776000",
+    "native": "Чорноморське",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "town",
+    "population": 11039,
+    "wikiDataId": "Q1555482"
+  },
+  {
     "id": 109527,
     "name": "Dachnoye",
     "state_id": 4689,
@@ -715,7 +731,7 @@
     "native": "Доброє",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2976,
     "wikiDataId": "Q4163685"
   },
@@ -811,7 +827,7 @@
     "native": "Джанкой",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 41731,
     "wikiDataId": "Q161978"
   },
@@ -843,7 +859,7 @@
     "native": "Феодосія",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q158491"
   },
@@ -891,7 +907,7 @@
     "native": "Форос",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1844,
     "wikiDataId": "Q1437932"
   },
@@ -923,7 +939,7 @@
     "native": "Гаспра",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10310,
     "wikiDataId": "Q206045"
   },
@@ -1201,7 +1217,7 @@
   },
   {
     "id": 109623,
-    "name": "Gurzuf",
+    "name": "Hurzuf",
     "state_id": 4689,
     "state_code": "43",
     "country_id": 230,
@@ -1211,7 +1227,7 @@
     "native": "Гурзуф",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8933,
     "wikiDataId": "Q1026062"
   },
@@ -1229,7 +1245,23 @@
     "translations": {},
     "type": "adm3",
     "population": 12589,
-    "wikiDataId": "Q4153056"
+    "wikiDataId": null
+  },
+  {
+    "id": 110517,
+    "name": "Ichki",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "45.34267000",
+    "longitude": "34.92463000",
+    "native": "Ічкі",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "adm2",
+    "population": 10410,
+    "wikiDataId": null
   },
   {
     "id": 109669,
@@ -1360,6 +1392,22 @@
     "wikiDataId": "Q841029"
   },
   {
+    "id": 110201,
+    "name": "Kaihador",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "44.96401000",
+    "longitude": "35.35576000",
+    "native": "Кайгадор",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "town",
+    "population": 2572,
+    "wikiDataId": "Q1010485"
+  },
+  {
     "id": 109700,
     "name": "Kalinino",
     "state_id": 4689,
@@ -1371,7 +1419,7 @@
     "native": "Калініно",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1120,
     "wikiDataId": "Q2084111"
   },
@@ -1451,7 +1499,7 @@
     "native": "Керч",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 148932,
     "wikiDataId": "Q157065"
   },
@@ -1563,7 +1611,7 @@
     "native": "Коктебель",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2807,
     "wikiDataId": "Q1743602"
   },
@@ -1691,7 +1739,7 @@
     "native": "Кореїз",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5455,
     "wikiDataId": "Q206189"
   },
@@ -1840,22 +1888,6 @@
     "wikiDataId": "Q4238632"
   },
   {
-    "id": 109837,
-    "name": "Krasnogvardeyskoye",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "45.50271000",
-    "longitude": "34.30134000",
-    "native": "Красногвардійське",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "adm2",
-    "population": 11134,
-    "wikiDataId": "Q4238632"
-  },
-  {
     "id": 109839,
     "name": "Krasnohvardiiske",
     "state_id": 4689,
@@ -1883,7 +1915,7 @@
     "native": "Краснокам'янка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1051,
     "wikiDataId": "Q3847642"
   },
@@ -1915,7 +1947,7 @@
     "native": "Красноперекопськ",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q161987"
   },
@@ -2128,6 +2160,22 @@
     "wikiDataId": "Q2391279"
   },
   {
+    "id": 109837,
+    "name": "Kurman",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "45.50271000",
+    "longitude": "34.30134000",
+    "native": "Курман",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "adm2",
+    "population": 11134,
+    "wikiDataId": null
+  },
+  {
     "id": 109890,
     "name": "Kurskoye",
     "state_id": 4689,
@@ -2203,7 +2251,7 @@
     "native": "Леніно",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7426,
     "wikiDataId": "Q1817745"
   },
@@ -2289,7 +2337,7 @@
   },
   {
     "id": 109926,
-    "name": "Livadia",
+    "name": "Livadiya",
     "state_id": 4689,
     "state_code": "43",
     "country_id": 230,
@@ -2299,7 +2347,7 @@
     "native": "Лівадія",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1074,
     "wikiDataId": "Q2287115"
   },
@@ -2427,7 +2475,7 @@
     "native": "Малоріченське",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1313,
     "wikiDataId": "Q2880849"
   },
@@ -2443,7 +2491,7 @@
     "native": "Малий Маяк",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2298,
     "wikiDataId": "Q3849361"
   },
@@ -2523,7 +2571,7 @@
     "native": "Масандра",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7280,
     "wikiDataId": "Q206345"
   },
@@ -2619,7 +2667,7 @@
     "native": "Міжводне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2087,
     "wikiDataId": "Q4288066"
   },
@@ -2699,7 +2747,7 @@
     "native": "Мирний",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4209,
     "wikiDataId": "Q821951"
   },
@@ -2769,7 +2817,7 @@
   },
   {
     "id": 110053,
-    "name": "Morskoye",
+    "name": "Morske",
     "state_id": 4689,
     "state_code": "43",
     "country_id": 230,
@@ -2779,7 +2827,7 @@
     "native": "Морське",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2394,
     "wikiDataId": "Q4303312"
   },
@@ -2827,7 +2875,7 @@
     "native": "Мисове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 429,
     "wikiDataId": "Q4309555"
   },
@@ -2904,10 +2952,10 @@
     "country_code": "UA",
     "latitude": "44.51564000",
     "longitude": "34.23840000",
-    "native": "Микита",
+    "native": "Нікіта",
     "timezone": "Europe/Kyiv",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
     "wikiDataId": "Q2368326"
   },
@@ -2939,7 +2987,7 @@
     "native": "Нижньогірський",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8741,
     "wikiDataId": "Q2626741"
   },
@@ -3083,7 +3131,7 @@
     "native": "Новоозерне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4998,
     "wikiDataId": "Q3889296"
   },
@@ -3211,7 +3259,7 @@
     "native": "Новий Світ",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1248,
     "wikiDataId": "Q388147"
   },
@@ -3264,22 +3312,6 @@
     "wikiDataId": "Q1786696"
   },
   {
-    "id": 110183,
-    "name": "Oktyabr’skoye",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "45.28866000",
-    "longitude": "34.13521000",
-    "native": "Жовтневе",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "adm3",
-    "population": 10244,
-    "wikiDataId": "Q1786696"
-  },
-  {
     "id": 110184,
     "name": "Okunevka",
     "state_id": 4689,
@@ -3307,39 +3339,23 @@
     "native": "Оленівка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1441,
     "wikiDataId": "Q4333548"
   },
   {
-    "id": 110201,
-    "name": "Ordzhonikidze",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "44.96401000",
-    "longitude": "35.35576000",
-    "native": "Орджонікідзе",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "city",
-    "population": 2572,
-    "wikiDataId": "Q1010485"
-  },
-  {
     "id": 110202,
-    "name": "Orekhovo",
+    "name": "Orikhove",
     "state_id": 4689,
     "state_code": "43",
     "country_id": 230,
     "country_code": "UA",
     "latitude": "45.12944000",
     "longitude": "33.63180000",
-    "native": "Орєхово",
+    "native": "Оріхове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3049,
     "wikiDataId": "Q4336318"
   },
@@ -3419,7 +3435,7 @@
     "native": "Партеніт",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6193,
     "wikiDataId": "Q1401243"
   },
@@ -3467,7 +3483,7 @@
     "native": "Перевальне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3426,
     "wikiDataId": "Q4350000"
   },
@@ -3515,7 +3531,7 @@
     "native": "Первомайське",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8470,
     "wikiDataId": "Q2368313"
   },
@@ -3693,7 +3709,7 @@
     "translations": {},
     "type": "city",
     "population": 12560,
-    "wikiDataId": "Q4377263"
+    "wikiDataId": null
   },
   {
     "id": 110311,
@@ -3707,7 +3723,7 @@
     "native": "Приозерне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3005,
     "wikiDataId": "Q4378947"
   },
@@ -3851,7 +3867,7 @@
     "native": "Роздольне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7326,
     "wikiDataId": "Q2506771"
   },
@@ -3864,10 +3880,10 @@
     "country_code": "UA",
     "latitude": "45.04296000",
     "longitude": "33.95407000",
-    "native": "Родніково",
+    "native": "Родникове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3492,
     "wikiDataId": "Q4395945"
   },
@@ -3979,7 +3995,7 @@
     "native": "Рибач'є",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1414,
     "wikiDataId": "Q4401498"
   },
@@ -4000,22 +4016,6 @@
     "wikiDataId": "Q71731"
   },
   {
-    "id": 110402,
-    "name": "Saki",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "45.13424000",
-    "longitude": "33.59996000",
-    "native": "Сакі",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "city",
-    "population": 28322,
-    "wikiDataId": "Q161970"
-  },
-  {
     "id": 110403,
     "name": "Sakskiy rayon",
     "state_id": 4689,
@@ -4030,6 +4030,22 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q2353478"
+  },
+  {
+    "id": 110402,
+    "name": "Saky",
+    "state_id": 4689,
+    "state_code": "43",
+    "country_id": 230,
+    "country_code": "UA",
+    "latitude": "45.13424000",
+    "longitude": "33.59996000",
+    "native": "Саки",
+    "timezone": "Europe/Simferopol",
+    "translations": {},
+    "type": "city",
+    "population": 28322,
+    "wikiDataId": "Q161970"
   },
   {
     "id": 110409,
@@ -4107,7 +4123,7 @@
     "native": "Щебетівка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3442,
     "wikiDataId": "Q3894352"
   },
@@ -4120,10 +4136,10 @@
     "country_code": "UA",
     "latitude": "45.42985000",
     "longitude": "35.82250000",
-    "native": "Щолкіно",
+    "native": "Щолкіне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 10593,
     "wikiDataId": "Q997522"
   },
@@ -4171,7 +4187,7 @@
     "native": "Шкільне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 1964,
     "wikiDataId": "Q4525284"
   },
@@ -4187,7 +4203,7 @@
     "native": "Штормове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1124,
     "wikiDataId": "Q4526937"
   },
@@ -4203,7 +4219,7 @@
     "native": "Сімеїз",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2703,
     "wikiDataId": "Q514390"
   },
@@ -4219,7 +4235,7 @@
     "native": "Сімферополь",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 336460,
     "wikiDataId": "Q19566"
   },
@@ -4363,7 +4379,7 @@
     "native": "Соколине",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1251,
     "wikiDataId": "Q1107226"
   },
@@ -4395,7 +4411,7 @@
     "native": "Солнечногорське",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1150,
     "wikiDataId": "Q4427787"
   },
@@ -4414,22 +4430,6 @@
     "type": "city",
     "population": 1015,
     "wikiDataId": "Q4427787"
-  },
-  {
-    "id": 110517,
-    "name": "Sovetskiy",
-    "state_id": 4689,
-    "state_code": "43",
-    "country_id": 230,
-    "country_code": "UA",
-    "latitude": "45.34267000",
-    "longitude": "34.92463000",
-    "native": "Радянський",
-    "timezone": "Europe/Simferopol",
-    "translations": {},
-    "type": "adm2",
-    "population": 10410,
-    "wikiDataId": "Q1718330"
   },
   {
     "id": 110518,
@@ -4497,7 +4497,7 @@
   },
   {
     "id": 110536,
-    "name": "Stary Krym",
+    "name": "Staryi Krym",
     "state_id": 4689,
     "state_code": "43",
     "country_id": 230,
@@ -4507,7 +4507,7 @@
     "native": "Старий Крим",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 9370,
     "wikiDataId": "Q576937"
   },
@@ -4555,7 +4555,7 @@
     "native": "Строгонівка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3337,
     "wikiDataId": "Q4444081"
   },
@@ -4571,7 +4571,7 @@
     "native": "Судак",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 16597,
     "wikiDataId": "Q7830"
   },
@@ -4795,7 +4795,7 @@
     "native": "Углове",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3334,
     "wikiDataId": "Q4468971"
   },
@@ -4891,7 +4891,7 @@
     "native": "Уютне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 4745,
     "wikiDataId": "Q4479861"
   },
@@ -4987,7 +4987,7 @@
     "native": "Віліно",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 6960,
     "wikiDataId": "Q3915403"
   },
@@ -5115,7 +5115,7 @@
     "native": "Воїнка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 4089,
     "wikiDataId": "Q4122416"
   },
@@ -5179,7 +5179,7 @@
     "native": "Войково",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 4284,
     "wikiDataId": "Q4122529"
   },
@@ -5195,7 +5195,7 @@
     "native": "Ялта",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 77003,
     "wikiDataId": "Q128499"
   },
@@ -5307,7 +5307,7 @@
     "native": "Євпаторія",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 106202,
     "wikiDataId": "Q33345"
   },
@@ -5339,7 +5339,7 @@
     "native": "Заозерне",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4332,
     "wikiDataId": "Q3889732"
   },
@@ -5483,7 +5483,7 @@
     "native": "Желябівка",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2669,
     "wikiDataId": "Q4179237"
   },
@@ -5611,7 +5611,7 @@
     "native": "Зуя",
     "timezone": "Europe/Simferopol",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 6230,
     "wikiDataId": "Q2562216"
   },

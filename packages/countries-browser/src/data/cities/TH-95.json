@@ -1,35 +1,19 @@
 [
   {
-    "id": 105250,
-    "name": "Amphoe Betong",
-    "state_id": 3493,
-    "state_code": "95",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "5.86362000",
-    "longitude": "101.22737000",
-    "native": "อำเภอเบตง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475274"
-  },
-  {
     "id": 105247,
     "name": "Bannang Sata",
     "state_id": 3493,
     "state_code": "95",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.25643000",
-    "longitude": "101.27852000",
-    "native": "อำเภอบันนังสตา",
+    "latitude": "6.26604882",
+    "longitude": "101.26624625",
+    "native": "บันนังสตา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475267"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q4856861"
   },
   {
     "id": 106451,
@@ -43,7 +27,7 @@
     "native": "เบตง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 29604,
     "wikiDataId": "Q2900126"
   },
@@ -80,36 +64,20 @@
     "wikiDataId": "Q475838"
   },
   {
-    "id": 105604,
-    "name": "Mueang Yala",
-    "state_id": 3493,
-    "state_code": "95",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "6.54378000",
-    "longitude": "101.25105000",
-    "native": "อำเภอเมืองยะลา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q1935289"
-  },
-  {
     "id": 105803,
-    "name": "Raman",
+    "name": "Mueang Raman",
     "state_id": 3493,
     "state_code": "95",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.48985000",
-    "longitude": "101.43442000",
-    "native": "อำเภอรามัน",
+    "latitude": "6.47748215",
+    "longitude": "101.42550269",
+    "native": "เมืองรามันห์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476544"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q2055930"
   },
   {
     "id": 106297,
@@ -134,14 +102,14 @@
     "state_code": "95",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.40529000",
-    "longitude": "101.12679000",
-    "native": "อำเภอยะหา",
+    "latitude": "6.48369444",
+    "longitude": "101.13336111",
+    "native": "ยะหา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q477101"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q73295072"
   },
   {
     "id": 106755,
@@ -150,13 +118,13 @@
     "state_code": "95",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.53995000",
-    "longitude": "101.28128000",
+    "latitude": "6.53972222",
+    "longitude": "101.28111111",
     "native": "ยะลา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
-    "population": 93558,
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1207083"
   }
 ]

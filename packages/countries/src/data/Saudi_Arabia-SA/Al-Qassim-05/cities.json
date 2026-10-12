@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 4630,
-    "wikiDataId": "Q31868886"
+    "wikiDataId": null
   },
   {
     "id": 102817,
@@ -27,7 +27,7 @@
     "native": "البكيرية",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 43229,
     "wikiDataId": "Q31872259"
   },
@@ -43,7 +43,7 @@
     "native": "الفويلق",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5205,
     "wikiDataId": "Q31872595"
   },
@@ -59,9 +59,9 @@
     "native": "المذنب",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 33341,
-    "wikiDataId": "Q31875144"
+    "wikiDataId": null
   },
   {
     "id": 102841,
@@ -75,25 +75,9 @@
     "native": "الراس",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 81728,
     "wikiDataId": "Q1878991"
-  },
-  {
-    "id": 148577,
-    "name": "Buraidah",
-    "state_id": 2861,
-    "state_code": "05",
-    "country_id": 194,
-    "country_code": "SA",
-    "latitude": "26.33333333",
-    "longitude": "43.96666667",
-    "native": "بريدة",
-    "timezone": "Asia/Riyadh",
-    "translations": {},
-    "type": "adm1",
-    "population": null,
-    "wikiDataId": "Q259253"
   },
   {
     "id": 102850,
@@ -107,7 +91,7 @@
     "native": "بريدة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 745353,
     "wikiDataId": "Q259253"
   },
@@ -123,7 +107,7 @@
     "native": "دخنة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6354,
     "wikiDataId": "Q6768386"
   },
@@ -139,7 +123,7 @@
     "native": "قبة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9210,
     "wikiDataId": "Q12241875"
   },
@@ -171,9 +155,9 @@
     "native": "عنيزة",
     "timezone": "Asia/Riyadh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q244949"
+    "wikiDataId": null
   },
   {
     "id": 102891,
@@ -184,11 +168,11 @@
     "country_code": "SA",
     "latitude": "25.42670000",
     "longitude": "42.83430000",
-    "native": "الأربعاء النكيل",
+    "native": "Wed Alnkil",
     "timezone": "Asia/Riyadh",
     "translations": {},
     "type": "city",
     "population": 1500,
-    "wikiDataId": "Q32190880"
+    "wikiDataId": null
   }
 ]

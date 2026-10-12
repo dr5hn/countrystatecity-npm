@@ -11,8 +11,24 @@
     "native": "Chincha Alta",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 153076,
+    "wikiDataId": "Q3825242"
+  },
+  {
+    "id": 80805,
+    "name": "Chincha Alta",
+    "state_id": 3700,
+    "state_code": "ICA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.42000000",
+    "longitude": "-76.13555556",
+    "native": "Chincha Alta",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q990685"
   },
   {
@@ -27,8 +43,24 @@
     "native": "ICA",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 282407,
+    "wikiDataId": "Q3824339"
+  },
+  {
+    "id": 80843,
+    "name": "Ica",
+    "state_id": 3700,
+    "state_code": "ICA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-14.06777778",
+    "longitude": "-75.73194444",
+    "native": "Ica",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q840712"
   },
   {
@@ -43,9 +75,9 @@
     "native": "Los Aquijes",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7848,
-    "wikiDataId": "Q3344864"
+    "wikiDataId": "Q3824446"
   },
   {
     "id": 80714,
@@ -64,6 +96,22 @@
     "wikiDataId": "Q580017"
   },
   {
+    "id": 80865,
+    "name": "Nasca",
+    "state_id": 3700,
+    "state_code": "ICA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-14.83277778",
+    "longitude": "-74.93611111",
+    "native": "Nasca",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1711521"
+  },
+  {
     "id": 80729,
     "name": "Nazca",
     "state_id": 3700,
@@ -75,9 +123,9 @@
     "native": "Nazca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 22859,
-    "wikiDataId": "Q1711521"
+    "wikiDataId": "Q3031627"
   },
   {
     "id": 80747,
@@ -91,8 +139,24 @@
     "native": "Palpa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5883,
+    "wikiDataId": "Q3823909"
+  },
+  {
+    "id": 80872,
+    "name": "Palpa",
+    "state_id": 3700,
+    "state_code": "ICA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-14.53388889",
+    "longitude": "-75.18388889",
+    "native": "Palpa",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q2640020"
   },
   {
@@ -107,9 +171,9 @@
     "native": "Paracas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 1196,
-    "wikiDataId": "Q2725364"
+    "wikiDataId": "Q2039666"
   },
   {
     "id": 80764,
@@ -123,89 +187,25 @@
     "native": "Pisco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 61869,
-    "wikiDataId": "Q290504"
-  },
-  {
-    "id": 80805,
-    "name": "Provincia de Chincha",
-    "state_id": 3700,
-    "state_code": "ICA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.31791000",
-    "longitude": "-75.93930000",
-    "native": "Provincia de Chincha",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 226113,
-    "wikiDataId": "Q1325771"
-  },
-  {
-    "id": 80843,
-    "name": "Provincia de Ica",
-    "state_id": 3700,
-    "state_code": "ICA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-14.33861000",
-    "longitude": "-75.64833000",
-    "native": "Provincia de Ica",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 391519,
-    "wikiDataId": "Q2084696"
-  },
-  {
-    "id": 80865,
-    "name": "Provincia de Nazca",
-    "state_id": 3700,
-    "state_code": "ICA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-15.00000000",
-    "longitude": "-75.08333000",
-    "native": "Provincia de Nazca",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": null,
-    "wikiDataId": "Q938322"
-  },
-  {
-    "id": 80872,
-    "name": "Provincia de Palpa",
-    "state_id": 3700,
-    "state_code": "ICA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-14.41667000",
-    "longitude": "-75.16667000",
-    "native": "Provincia de Palpa",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 13232,
-    "wikiDataId": "Q783136"
+    "wikiDataId": "Q2566284"
   },
   {
     "id": 80878,
-    "name": "Provincia de Pisco",
+    "name": "Pisco",
     "state_id": 3700,
     "state_code": "ICA",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-13.80377000",
-    "longitude": "-75.94264000",
-    "native": "Provincia de Pisco",
+    "latitude": "-13.70861111",
+    "longitude": "-76.20750000",
+    "native": "Pisco",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
-    "population": 150744,
-    "wikiDataId": "Q1366050"
+    "population": null,
+    "wikiDataId": "Q290504"
   },
   {
     "id": 80935,
@@ -219,9 +219,9 @@
     "native": "Río Grande",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4689,
-    "wikiDataId": "Q3344069"
+    "wikiDataId": "Q3823818"
   },
   {
     "id": 80943,
@@ -235,9 +235,9 @@
     "native": "San Clemente",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 15815,
-    "wikiDataId": "Q1935565"
+    "wikiDataId": "Q3824063"
   },
   {
     "id": 80949,
@@ -251,9 +251,9 @@
     "native": "San Juan Bautista",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6871,
-    "wikiDataId": "Q11011907"
+    "wikiDataId": "Q3825964"
   },
   {
     "id": 80964,
@@ -267,9 +267,9 @@
     "native": "Santiago",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 10449,
-    "wikiDataId": "Q1944245"
+    "wikiDataId": "Q3825497"
   },
   {
     "id": 80978,
@@ -283,9 +283,9 @@
     "native": "Subtanjalla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9096,
-    "wikiDataId": "Q11034041"
+    "wikiDataId": "Q3825490"
   },
   {
     "id": 81009,
@@ -301,6 +301,6 @@
     "translations": {},
     "type": "city",
     "population": 11159,
-    "wikiDataId": "Q941183"
+    "wikiDataId": null
   }
 ]

@@ -2,18 +2,18 @@
   {
     "zoneName": "Antarctica/Macquarie",
     "countryCode": "AU",
-    "abbreviation": "MIST",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Macquarie Island Station Time"
+    "abbreviation": "AEST",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "tzName": "Australian Eastern Standard Time"
   },
   {
     "zoneName": "Australia/Adelaide",
     "countryCode": "AU",
-    "abbreviation": "ACDT",
-    "gmtOffset": 37800,
-    "gmtOffsetName": "UTC+10:30",
-    "tzName": "Australian Central Daylight Saving Time"
+    "abbreviation": "ACST",
+    "gmtOffset": 34200,
+    "gmtOffsetName": "UTC+09:30",
+    "tzName": "Australian Central Standard Time"
   },
   {
     "zoneName": "Australia/Brisbane",
@@ -26,18 +26,18 @@
   {
     "zoneName": "Australia/Broken_Hill",
     "countryCode": "AU",
-    "abbreviation": "ACDT",
-    "gmtOffset": 37800,
-    "gmtOffsetName": "UTC+10:30",
-    "tzName": "Australian Central Daylight Saving Time"
+    "abbreviation": "ACST",
+    "gmtOffset": 34200,
+    "gmtOffsetName": "UTC+09:30",
+    "tzName": "Australian Central Standard Time"
   },
   {
     "zoneName": "Australia/Currie",
     "countryCode": "AU",
-    "abbreviation": "AEDT",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Australian Eastern Daylight Saving Time"
+    "abbreviation": "AEST",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "tzName": "Australian Eastern Standard Time"
   },
   {
     "zoneName": "Australia/Darwin",
@@ -58,10 +58,10 @@
   {
     "zoneName": "Australia/Hobart",
     "countryCode": "AU",
-    "abbreviation": "AEDT",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Australian Eastern Daylight Saving Time"
+    "abbreviation": "AEST",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "tzName": "Australian Eastern Standard Time"
   },
   {
     "zoneName": "Australia/Lindeman",
@@ -75,17 +75,17 @@
     "zoneName": "Australia/Lord_Howe",
     "countryCode": "AU",
     "abbreviation": "LHST",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Lord Howe Summer Time"
+    "gmtOffset": 37800,
+    "gmtOffsetName": "UTC+10:30",
+    "tzName": "Lord Howe Standard Time"
   },
   {
     "zoneName": "Australia/Melbourne",
     "countryCode": "AU",
-    "abbreviation": "AEDT",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Australian Eastern Daylight Saving Time"
+    "abbreviation": "AEST",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "tzName": "Australian Eastern Standard Time"
   },
   {
     "zoneName": "Australia/Perth",
@@ -98,9 +98,9 @@
   {
     "zoneName": "Australia/Sydney",
     "countryCode": "AU",
-    "abbreviation": "AEDT",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "tzName": "Australian Eastern Daylight Saving Time"
+    "abbreviation": "AEST",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "tzName": "Australian Eastern Standard Time"
   }
 ]

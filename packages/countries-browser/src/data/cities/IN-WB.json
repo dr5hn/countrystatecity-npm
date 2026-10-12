@@ -32,6 +32,22 @@
     "wikiDataId": "Q584907"
   },
   {
+    "id": 165011,
+    "name": "Aistala",
+    "state_id": 4853,
+    "state_code": "WB",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "23.18000000",
+    "longitude": "88.58000000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q585675"
+  },
+  {
     "id": 141854,
     "name": "Aknapur",
     "state_id": 4853,
@@ -77,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 19038,
-    "wikiDataId": "Q2317215"
+    "wikiDataId": "Q26791803"
   },
   {
     "id": 141857,
@@ -344,7 +360,7 @@
     "country_code": "IN",
     "latitude": "22.65000000",
     "longitude": "88.34000000",
-    "native": "बेअदबी से",
+    "native": "बाली",
     "timezone": "Asia/Kolkata",
     "translations": {},
     "type": "city",
@@ -379,7 +395,7 @@
     "native": "बामनगोला सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 143906,
     "wikiDataId": "Q4853295"
   },
@@ -475,7 +491,7 @@
     "native": "बंसीहारी सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 141286,
     "wikiDataId": "Q4857141"
   },
@@ -1179,7 +1195,7 @@
     "native": "धनियाखाली सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 320534,
     "wikiDataId": "Q5268978"
   },
@@ -1867,7 +1883,7 @@
     "native": "इंदपुर सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 156522,
     "wikiDataId": "Q6026767"
   },
@@ -2337,7 +2353,7 @@
   },
   {
     "id": 141998,
-    "name": "Khardaha",
+    "name": "Khardah",
     "state_id": 4853,
     "state_code": "WB",
     "country_id": 101,
@@ -2715,7 +2731,7 @@
     "native": "मटियाली सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 117540,
     "wikiDataId": "Q6787401"
   },
@@ -2731,7 +2747,7 @@
     "native": "माटीगाड़ा सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 197278,
     "wikiDataId": "Q6787438"
   },
@@ -2763,7 +2779,7 @@
     "native": "मेजिया सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 86188,
     "wikiDataId": "Q6810483"
   },
@@ -2832,22 +2848,6 @@
     "wikiDataId": "Q1125517"
   },
   {
-    "id": 142030,
-    "name": "Muri",
-    "state_id": 4853,
-    "state_code": "WB",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "23.37000000",
-    "longitude": "85.86000000",
-    "native": "मूरी",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 12744,
-    "wikiDataId": "Q1382206"
-  },
-  {
     "id": 142031,
     "name": "Murshidabad",
     "state_id": 4853,
@@ -2907,7 +2907,7 @@
     "native": "नादिया जिला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "district",
+    "type": "area",
     "population": 5167600,
     "wikiDataId": "Q1143880"
   },
@@ -3019,7 +3019,7 @@
     "native": "नामखाना सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 182830,
     "wikiDataId": "Q3335474"
   },
@@ -3067,7 +3067,7 @@
     "native": "नयाग्राम सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 142199,
     "wikiDataId": "Q6983067"
   },
@@ -3323,7 +3323,7 @@
     "native": "पुंचा सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 123855,
     "wikiDataId": "Q7259963"
   },
@@ -3435,9 +3435,25 @@
     "native": "राजनगर सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 77979,
     "wikiDataId": "Q7286329"
+  },
+  {
+    "id": 164840,
+    "name": "Rajpur Sonarpur",
+    "state_id": 4853,
+    "state_code": "WB",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "22.43820000",
+    "longitude": "88.43205000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 424368,
+    "wikiDataId": "Q261988"
   },
   {
     "id": 142068,
@@ -3691,7 +3707,7 @@
     "native": "संतुरी सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 78515,
     "wikiDataId": "Q7420728"
   },
@@ -3947,7 +3963,7 @@
     "native": "स्वरूपनगर सामुदायिक विकास खंड",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 256075,
     "wikiDataId": "Q7653966"
   },

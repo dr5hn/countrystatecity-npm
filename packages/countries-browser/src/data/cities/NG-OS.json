@@ -11,9 +11,9 @@
     "native": "Aposs",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 71656,
-    "wikiDataId": "Q617618"
+    "wikiDataId": "Q22961958"
   },
   {
     "id": 76856,
@@ -24,12 +24,12 @@
     "country_code": "NG",
     "latitude": "7.90292000",
     "longitude": "4.31419000",
-    "native": "Regularly use",
+    "native": "Ejigbo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 138357,
-    "wikiDataId": "Q1296439"
+    "wikiDataId": "Q5350128"
   },
   {
     "id": 76881,
@@ -40,12 +40,28 @@
     "country_code": "NG",
     "latitude": "7.47734000",
     "longitude": "4.35351000",
-    "native": "Auditorium",
+    "native": "Gbongan",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 139485,
-    "wikiDataId": "Q5526456"
+    "wikiDataId": "Q5529350"
+  },
+  {
+    "id": 165313,
+    "name": "Ibokun",
+    "state_id": 322,
+    "state_code": "OS",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "7.78737000",
+    "longitude": "4.72958000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q17153133"
   },
   {
     "id": 76928,
@@ -59,7 +75,7 @@
     "native": "Ijebu-Jessa",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 51730,
     "wikiDataId": "Q3509424"
   },
@@ -72,10 +88,10 @@
     "country_code": "NG",
     "latitude": "7.36983000",
     "longitude": "4.18630000",
-    "native": "Boot",
+    "native": "Ikire",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 222160,
     "wikiDataId": "Q2749233"
   },
@@ -88,7 +104,7 @@
     "country_code": "NG",
     "latitude": "7.91283000",
     "longitude": "4.66741000",
-    "native": "Shower",
+    "native": "Ikirun",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -104,12 +120,12 @@
     "country_code": "NG",
     "latitude": "8.01714000",
     "longitude": "4.90421000",
-    "native": "A freestyle",
+    "native": "Ila Orangun",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 179192,
-    "wikiDataId": "Q3498903"
+    "wikiDataId": "Q3305665"
   },
   {
     "id": 76941,
@@ -120,10 +136,10 @@
     "country_code": "NG",
     "latitude": "7.48240000",
     "longitude": "4.56032000",
-    "native": "Parcel",
+    "native": "Ile-Ife",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 560000,
     "wikiDataId": "Q180084"
   },
@@ -136,10 +152,10 @@
     "country_code": "NG",
     "latitude": "7.62789000",
     "longitude": "4.74161000",
-    "native": "Unlucky",
+    "native": "Ilesa",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 325000,
     "wikiDataId": "Q763595"
   },
@@ -152,10 +168,10 @@
     "country_code": "NG",
     "latitude": "7.84036000",
     "longitude": "4.48557000",
-    "native": "Scores",
+    "native": "Ilobu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 118089,
     "wikiDataId": "Q3845161"
   },
@@ -176,6 +192,22 @@
     "wikiDataId": "Q6034035"
   },
   {
+    "id": 165314,
+    "name": "Ipetumodu",
+    "state_id": 322,
+    "state_code": "OS",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "7.52152000",
+    "longitude": "4.44477000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q6065006"
+  },
+  {
     "id": 76956,
     "name": "Iwo",
     "state_id": 322,
@@ -187,9 +219,9 @@
     "native": "Iwo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 250443,
-    "wikiDataId": "Q3140630"
+    "wikiDataId": "Q1665608"
   },
   {
     "id": 77032,
@@ -198,12 +230,12 @@
     "state_code": "OS",
     "country_id": 161,
     "country_code": "NG",
-    "latitude": "7.38299000",
-    "longitude": "4.26031000",
-    "native": "Moldings",
+    "latitude": "7.47931667",
+    "longitude": "4.53130167",
+    "native": "Modakeke",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 119529,
     "wikiDataId": "Q6887995"
   },
@@ -221,7 +253,7 @@
     "translations": {},
     "type": "city",
     "population": 79563,
-    "wikiDataId": "Q7080311"
+    "wikiDataId": null
   },
   {
     "id": 77064,
@@ -232,12 +264,12 @@
     "country_code": "NG",
     "latitude": "7.60000000",
     "longitude": "4.18333000",
-    "native": "Suppress",
+    "native": "Olupona",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
     "population": 95002,
-    "wikiDataId": "Q2017187"
+    "wikiDataId": null
   },
   {
     "id": 77075,
@@ -248,10 +280,10 @@
     "country_code": "NG",
     "latitude": "7.77104000",
     "longitude": "4.55698000",
-    "native": "Specialists",
+    "native": "Osogbo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 645000,
     "wikiDataId": "Q868203"
   },
@@ -264,10 +296,10 @@
     "country_code": "NG",
     "latitude": "7.94783000",
     "longitude": "4.78836000",
-    "native": "The concentration",
+    "native": "Otan Ayegbaju",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 37783,
     "wikiDataId": "Q3320817"
   },
@@ -280,11 +312,11 @@
     "country_code": "NG",
     "latitude": "8.05000000",
     "longitude": "4.76667000",
-    "native": "Wake",
+    "native": "Oyan",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 73622,
-    "wikiDataId": "Q1788128"
+    "wikiDataId": "Q18359003"
   }
 ]

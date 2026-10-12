@@ -27,7 +27,7 @@
     "native": "Andijon Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399866"
   },
@@ -59,7 +59,7 @@
     "native": "Asaka Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q578148"
   },
@@ -75,7 +75,7 @@
     "native": "Baliqchi Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1646692"
   },
@@ -91,7 +91,7 @@
     "native": "Bo‘z Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399915"
   },
@@ -107,7 +107,7 @@
     "native": "Buloqboshi Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399900"
   },
@@ -123,7 +123,7 @@
     "native": "Izboskan Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399845"
   },
@@ -139,7 +139,7 @@
     "native": "Jalolkuduk Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q609133"
   },
@@ -155,9 +155,25 @@
     "native": "Khŭjaobod Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399836"
+  },
+  {
+    "id": 165707,
+    "name": "Kuyganyor",
+    "state_id": 2540,
+    "state_code": "AN",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "40.85444000",
+    "longitude": "72.30734000",
+    "native": null,
+    "timezone": "Asia/Tashkent",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4245634"
   },
   {
     "id": 129956,
@@ -187,7 +203,7 @@
     "native": "Marhamat Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2399255"
   },
@@ -203,9 +219,25 @@
     "native": "Oltinkŭl Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q2631630"
+  },
+  {
+    "id": 165700,
+    "name": "Oyim",
+    "state_id": 2540,
+    "state_code": "AN",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "40.81955000",
+    "longitude": "72.74234000",
+    "native": null,
+    "timezone": "Asia/Tashkent",
+    "translations": {},
+    "type": "city",
+    "population": 32750,
+    "wikiDataId": "Q12079880"
   },
   {
     "id": 129973,
@@ -219,7 +251,7 @@
     "native": "Pakhtaobod Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q1646660"
   },
@@ -240,6 +272,22 @@
     "wikiDataId": "Q867159"
   },
   {
+    "id": 165701,
+    "name": "Poytug‘",
+    "state_id": 2540,
+    "state_code": "AN",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "40.89770000",
+    "longitude": "72.24490000",
+    "native": null,
+    "timezone": "Asia/Tashkent",
+    "translations": {},
+    "type": "adm2",
+    "population": 26000,
+    "wikiDataId": "Q769908"
+  },
+  {
     "id": 129987,
     "name": "Qo‘rg‘ontepa",
     "state_id": 2540,
@@ -256,6 +304,22 @@
     "wikiDataId": "Q609368"
   },
   {
+    "id": 165699,
+    "name": "Qorasuv",
+    "state_id": 2540,
+    "state_code": "AN",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "40.72782000",
+    "longitude": "72.88577000",
+    "native": "Qorasuv, Қорасув",
+    "timezone": "Asia/Tashkent",
+    "translations": {},
+    "type": "city",
+    "population": 33000,
+    "wikiDataId": "Q2121778"
+  },
+  {
     "id": 129990,
     "name": "Qŭrghontepa Tumani",
     "state_id": 2540,
@@ -267,8 +331,8 @@
     "native": "Qŭrghontepa Tumani",
     "timezone": "Asia/Tashkent",
     "translations": {},
-    "type": "city",
-    "population": 26055,
+    "type": "area",
+    "population": 236100,
     "wikiDataId": "Q2671584"
   },
   {
@@ -283,7 +347,7 @@
     "native": "Shahrikhon Tumani",
     "timezone": "Asia/Samarkand",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q926306"
   },

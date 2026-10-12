@@ -77,7 +77,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3596,
-    "wikiDataId": "Q1872912"
+    "wikiDataId": "Q3056124"
   },
   {
     "id": 142119,
@@ -96,22 +96,6 @@
     "wikiDataId": "Q2014028"
   },
   {
-    "id": 142120,
-    "name": "Merkez",
-    "state_id": 4854,
-    "state_code": "57",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "41.91835000",
-    "longitude": "35.00687000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2014028"
-  },
-  {
     "id": 142121,
     "name": "Saraydüzü",
     "state_id": 4854,
@@ -123,9 +107,25 @@
     "native": "Saraydüzü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 6777,
+    "type": "municipality",
+    "population": 1213,
     "wikiDataId": "Q1834901"
+  },
+  {
+    "id": 165616,
+    "name": "Sinop",
+    "state_id": 4854,
+    "state_code": "57",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "42.02683000",
+    "longitude": "35.16253000",
+    "native": "Sinop",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "adm1",
+    "population": 34834,
+    "wikiDataId": "Q599416"
   },
   {
     "id": 142123,

@@ -8,10 +8,10 @@
     "country_code": "GT",
     "latitude": "14.54295000",
     "longitude": "-91.32636000",
-    "native": "Porcelana",
+    "native": "Chicacao",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 68296,
     "wikiDataId": "Q2608636"
   },
@@ -24,10 +24,10 @@
     "country_code": "GT",
     "latitude": "14.54006000",
     "longitude": "-91.57179000",
-    "native": "Construcción",
+    "native": "Cuyotenango",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10825,
     "wikiDataId": "Q2402824"
   },
@@ -43,7 +43,7 @@
     "native": "Mazatenango",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 83828,
     "wikiDataId": "Q1023983"
   },
@@ -59,9 +59,9 @@
     "native": "Municipio de San Antonio Suchitepéquez",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q2403612"
+    "wikiDataId": "Q1748818"
   },
   {
     "id": 53587,
@@ -75,9 +75,9 @@
     "native": "Municipio de San Miguel Panán",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q2403612"
+    "wikiDataId": "Q2402447"
   },
   {
     "id": 53590,
@@ -91,9 +91,9 @@
     "native": "Municipio de Santa Bárbara",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q25175887"
+    "wikiDataId": "Q1748767"
   },
   {
     "id": 53624,
@@ -104,10 +104,10 @@
     "country_code": "GT",
     "latitude": "14.42321000",
     "longitude": "-91.16049000",
-    "native": "cama",
+    "native": "Patulul",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 42394,
     "wikiDataId": "Q2608585"
   },
@@ -123,7 +123,7 @@
     "native": "Pueblo Nuevo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3116,
     "wikiDataId": "Q3925380"
   },
@@ -139,9 +139,25 @@
     "native": "Río Bravo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7568,
     "wikiDataId": "Q1748849"
+  },
+  {
+    "id": 53647,
+    "name": "Samayac",
+    "state_id": 3660,
+    "state_code": "10",
+    "country_id": 90,
+    "country_code": "GT",
+    "latitude": "14.58084000",
+    "longitude": "-91.46135000",
+    "native": "Samayac",
+    "timezone": "America/Guatemala",
+    "translations": {},
+    "type": "municipality",
+    "population": 8994,
+    "wikiDataId": "Q371216"
   },
   {
     "id": 53661,
@@ -157,7 +173,7 @@
     "translations": {},
     "type": "adm2",
     "population": 13666,
-    "wikiDataId": "Q1748818"
+    "wikiDataId": "Q25175696"
   },
   {
     "id": 53666,
@@ -171,7 +187,7 @@
     "native": "San Bernardino",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5501,
     "wikiDataId": "Q1748616"
   },
@@ -187,7 +203,7 @@
     "native": "San Francisco Zapotitlán",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 24763,
     "wikiDataId": "Q2608452"
   },
@@ -203,7 +219,7 @@
     "native": "San Gabriel",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4118,
     "wikiDataId": "Q1748775"
   },
@@ -219,7 +235,7 @@
     "native": "San José El Ídolo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2412,
     "wikiDataId": "Q2401870"
   },
@@ -235,7 +251,7 @@
     "native": "San Juan Bautista",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2680,
     "wikiDataId": "Q1748787"
   },
@@ -251,7 +267,7 @@
     "native": "San Lorenzo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2165,
     "wikiDataId": "Q3947493"
   },
@@ -269,7 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2024,
-    "wikiDataId": "Q2402447"
+    "wikiDataId": "Q25175828"
   },
   {
     "id": 53722,
@@ -283,7 +299,7 @@
     "native": "San Pablo Jocopilas",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 22490,
     "wikiDataId": "Q2716950"
   },
@@ -301,7 +317,7 @@
     "translations": {},
     "type": "adm2",
     "population": 17172,
-    "wikiDataId": "Q1748767"
+    "wikiDataId": "Q25175891"
   },
   {
     "id": 53773,
@@ -315,7 +331,7 @@
     "native": "Santo Domingo Suchitepéquez",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6270,
     "wikiDataId": "Q2402403"
   },
@@ -331,7 +347,7 @@
     "native": "Santo Tomás La Unión",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 7081,
     "wikiDataId": "Q2402120"
   },
@@ -347,7 +363,7 @@
     "native": "Zunilito",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2745,
     "wikiDataId": "Q2608644"
   }

@@ -1,21 +1,5 @@
 [
   {
-    "id": 135371,
-    "name": "Albiano Magra",
-    "state_id": 1791,
-    "state_code": "SP",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.17574000",
-    "longitude": "9.91619000",
-    "native": "Albiano Magra",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 1907,
-    "wikiDataId": "Q3608754"
-  },
-  {
     "id": 135467,
     "name": "Ameglia",
     "state_id": 1791,
@@ -27,8 +11,8 @@
     "native": "Ameglia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 2617,
+    "type": "municipality",
+    "population": 4270,
     "wikiDataId": "Q269943"
   },
   {
@@ -43,8 +27,8 @@
     "native": "Arcola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 5941,
+    "type": "municipality",
+    "population": 10229,
     "wikiDataId": "Q269947"
   },
   {
@@ -59,8 +43,8 @@
     "native": "Beverino",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 50,
+    "type": "municipality",
+    "population": 2284,
     "wikiDataId": "Q269978"
   },
   {
@@ -75,8 +59,8 @@
     "native": "Bolano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 712,
+    "type": "municipality",
+    "population": 7456,
     "wikiDataId": "Q270000"
   },
   {
@@ -91,8 +75,8 @@
     "native": "Bonassola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 597,
+    "type": "municipality",
+    "population": 761,
     "wikiDataId": "Q270032"
   },
   {
@@ -107,25 +91,9 @@
     "native": "Borghetto di Vara",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 611,
+    "type": "municipality",
+    "population": 928,
     "wikiDataId": "Q270050"
-  },
-  {
-    "id": 136164,
-    "name": "Borghetto-Melara",
-    "state_id": 1791,
-    "state_code": "SP",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.09852000",
-    "longitude": "9.99073000",
-    "native": "Borghetto-Melara",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 1868,
-    "wikiDataId": "Q18489303"
   },
   {
     "id": 136364,
@@ -139,8 +107,8 @@
     "native": "Brugnato",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1283,
+    "type": "municipality",
+    "population": 1291,
     "wikiDataId": "Q270058"
   },
   {
@@ -155,8 +123,8 @@
     "native": "Calice al Cornoviglio",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 84,
+    "type": "municipality",
+    "population": 1023,
     "wikiDataId": "Q270064"
   },
   {
@@ -171,8 +139,8 @@
     "native": "Carro",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 249,
+    "type": "municipality",
+    "population": 489,
     "wikiDataId": "Q270076"
   },
   {
@@ -187,8 +155,8 @@
     "native": "Carrodano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 473,
+    "type": "municipality",
+    "population": 459,
     "wikiDataId": "Q201412"
   },
   {
@@ -203,7 +171,7 @@
     "native": "Casano-Dogana-Isola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 6704,
     "wikiDataId": "Q18460530"
   },
@@ -219,25 +187,9 @@
     "native": "Castelnuovo Magra",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 463,
+    "type": "municipality",
+    "population": 8236,
     "wikiDataId": "Q270091"
-  },
-  {
-    "id": 137339,
-    "name": "Castiglione",
-    "state_id": 1791,
-    "state_code": "SP",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.27539000",
-    "longitude": "9.51687000",
-    "native": "Castiglione",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "adm3",
-    "population": 466,
-    "wikiDataId": "Q18457021"
   },
   {
     "id": 137506,
@@ -251,7 +203,7 @@
     "native": "Ceparana-Carpena",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5951,
     "wikiDataId": "Q18460581"
   },
@@ -264,10 +216,10 @@
     "country_code": "IT",
     "latitude": "44.08750000",
     "longitude": "10.01037000",
-    "native": "Colombie-Moliccara",
+    "native": "Colombiera-Molicciara",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6945,
     "wikiDataId": "Q18460606"
   },
@@ -283,9 +235,25 @@
     "native": "Deiva Marina",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 700,
+    "type": "municipality",
+    "population": 1276,
     "wikiDataId": "Q270151"
+  },
+  {
+    "id": 165986,
+    "name": "Follo",
+    "state_id": 1791,
+    "state_code": "SP",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.16041990",
+    "longitude": "9.86488530",
+    "native": "Follo",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 6239,
+    "wikiDataId": "Q270155"
   },
   {
     "id": 138691,
@@ -299,8 +267,8 @@
     "native": "Framura",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 744,
+    "type": "municipality",
+    "population": 567,
     "wikiDataId": "Q270164"
   },
   {
@@ -315,8 +283,8 @@
     "native": "La Spezia",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm2",
-    "population": 92119,
+    "type": "municipality",
+    "population": 92610,
     "wikiDataId": "Q8611"
   },
   {
@@ -331,7 +299,7 @@
     "native": "Le Grazie",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1628,
     "wikiDataId": "Q688008"
   },
@@ -347,8 +315,8 @@
     "native": "Lerici",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 9425,
+    "type": "municipality",
+    "population": 9143,
     "wikiDataId": "Q270189"
   },
   {
@@ -363,9 +331,25 @@
     "native": "Levanto",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 5140,
+    "type": "municipality",
+    "population": 5018,
     "wikiDataId": "Q254139"
+  },
+  {
+    "id": 165987,
+    "name": "Luni",
+    "state_id": 1791,
+    "state_code": "SP",
+    "country_id": 107,
+    "country_code": "IT",
+    "latitude": "44.08484167",
+    "longitude": "10.04202778",
+    "native": "Luni",
+    "timezone": "Europe/Rome",
+    "translations": {},
+    "type": "municipality",
+    "population": 8099,
+    "wikiDataId": "Q270220"
   },
   {
     "id": 139752,
@@ -379,25 +363,9 @@
     "native": "Maissana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 45,
+    "type": "municipality",
+    "population": 567,
     "wikiDataId": "Q270209"
-  },
-  {
-    "id": 139881,
-    "name": "Marina di Carrara",
-    "state_id": 1791,
-    "state_code": "SP",
-    "country_id": 107,
-    "country_code": "IT",
-    "latitude": "44.03837000",
-    "longitude": "10.04142000",
-    "native": "Marina di Carrara",
-    "timezone": "Europe/Rome",
-    "translations": {},
-    "type": "city",
-    "population": 25000,
-    "wikiDataId": "Q16965"
   },
   {
     "id": 140525,
@@ -411,8 +379,8 @@
     "native": "Monterosso al Mare",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1350,
+    "type": "municipality",
+    "population": 1289,
     "wikiDataId": "Q270217"
   },
   {
@@ -427,7 +395,7 @@
     "native": "Padivarma",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 217,
     "wikiDataId": "Q16585747"
   },
@@ -440,10 +408,10 @@
     "country_code": "IT",
     "latitude": "44.19322000",
     "longitude": "9.85345000",
-    "native": "Pianta Battle",
+    "native": "Piana Battolla",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1269,
     "wikiDataId": "Q18460870"
   },
@@ -459,7 +427,7 @@
     "native": "Piano di Follo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 2783,
     "wikiDataId": "Q18460878"
   },
@@ -472,7 +440,7 @@
     "country_code": "IT",
     "latitude": "44.27790000",
     "longitude": "9.74573000",
-    "native": "Pieve Jignago",
+    "native": "Pieve di Zignago",
     "timezone": "Europe/Rome",
     "translations": {},
     "type": "adm3",
@@ -491,8 +459,8 @@
     "native": "Pignone",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 328,
+    "type": "municipality",
+    "population": 529,
     "wikiDataId": "Q270242"
   },
   {
@@ -504,10 +472,10 @@
     "country_code": "IT",
     "latitude": "44.09458000",
     "longitude": "9.88490000",
-    "native": "Piazzole",
+    "native": "Pitelli",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1008,
     "wikiDataId": "Q2684384"
   },
@@ -523,8 +491,8 @@
     "native": "Portovenere",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1025,
+    "type": "municipality",
+    "population": 3155,
     "wikiDataId": "Q188315"
   },
   {
@@ -539,7 +507,7 @@
     "native": "Riccò del Golfo",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1072,
     "wikiDataId": "Q18460947"
   },
@@ -555,8 +523,8 @@
     "native": "Riomaggiore",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1326,
+    "type": "municipality",
+    "population": 1260,
     "wikiDataId": "Q270295"
   },
   {
@@ -571,8 +539,8 @@
     "native": "Rocchetta di Vara",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 149,
+    "type": "municipality",
+    "population": 661,
     "wikiDataId": "Q270299"
   },
   {
@@ -587,7 +555,7 @@
     "native": "Romito Magra",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2558,
     "wikiDataId": "Q18460956"
   },
@@ -619,8 +587,8 @@
     "native": "Santo Stefano di Magra",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 9849,
+    "type": "municipality",
+    "population": 10004,
     "wikiDataId": "Q270307"
   },
   {
@@ -635,8 +603,8 @@
     "native": "Sarzana",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 21650,
+    "type": "municipality",
+    "population": 21726,
     "wikiDataId": "Q160628"
   },
   {
@@ -651,8 +619,8 @@
     "native": "Sesta Godano",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 728,
+    "type": "municipality",
+    "population": 1263,
     "wikiDataId": "Q270317"
   },
   {
@@ -667,7 +635,7 @@
     "native": "Stazione-Fornola",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2990,
     "wikiDataId": "Q18461033"
   },
@@ -683,8 +651,8 @@
     "native": "Varese Ligure",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 525,
+    "type": "municipality",
+    "population": 1717,
     "wikiDataId": "Q270320"
   },
   {
@@ -699,8 +667,8 @@
     "native": "Vernazza",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 506,
+    "type": "municipality",
+    "population": 675,
     "wikiDataId": "Q270328"
   },
   {
@@ -715,8 +683,8 @@
     "native": "Vezzano Ligure",
     "timezone": "Europe/Rome",
     "translations": {},
-    "type": "adm3",
-    "population": 1392,
+    "type": "municipality",
+    "population": 7214,
     "wikiDataId": "Q270362"
   }
 ]

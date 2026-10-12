@@ -11,7 +11,7 @@
     "native": "Agaete",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5670,
     "wikiDataId": "Q24013887"
   },
@@ -27,9 +27,9 @@
     "native": "Agüimes",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 33179,
-    "wikiDataId": "Q399683"
+    "type": "municipality",
+    "population": 33800,
+    "wikiDataId": "Q399702"
   },
   {
     "id": 32393,
@@ -43,8 +43,8 @@
     "native": "Antigua",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 13832,
+    "type": "municipality",
+    "population": 14164,
     "wikiDataId": "Q575670"
   },
   {
@@ -59,9 +59,9 @@
     "native": "Arrecife",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 68169,
-    "wikiDataId": "Q384380"
+    "type": "municipality",
+    "population": 70811,
+    "wikiDataId": "Q647543"
   },
   {
     "id": 32523,
@@ -75,9 +75,9 @@
     "native": "Artenara",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 1565,
-    "wikiDataId": "Q12383329"
+    "type": "municipality",
+    "population": 1024,
+    "wikiDataId": "Q706892"
   },
   {
     "id": 32528,
@@ -91,9 +91,9 @@
     "native": "Arucas",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 38936,
-    "wikiDataId": "Q715970"
+    "type": "municipality",
+    "population": 39232,
+    "wikiDataId": "Q716384"
   },
   {
     "id": 153196,
@@ -107,8 +107,8 @@
     "native": "Betancuria",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 812,
+    "type": "municipality",
+    "population": 801,
     "wikiDataId": "Q830969"
   },
   {
@@ -123,9 +123,9 @@
     "native": "Carrizal",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 22000,
-    "wikiDataId": "Q1644871"
+    "wikiDataId": "Q5753686"
   },
   {
     "id": 33802,
@@ -139,7 +139,7 @@
     "native": "Corralejo",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13618,
     "wikiDataId": "Q187978"
   },
@@ -152,10 +152,10 @@
     "country_code": "ES",
     "latitude": "28.16155000",
     "longitude": "-14.22691000",
-    "native": "Costa Calm",
+    "native": "Costa Calma",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5670,
     "wikiDataId": "Q1136332"
   },
@@ -171,7 +171,7 @@
     "native": "Costa Teguise",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7629,
     "wikiDataId": "Q991489"
   },
@@ -208,22 +208,6 @@
     "wikiDataId": "Q1324017"
   },
   {
-    "id": 34004,
-    "name": "El Paso",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.65007000",
-    "longitude": "-17.88274000",
-    "native": "El Paso",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 8156,
-    "wikiDataId": "Q434123"
-  },
-  {
     "id": 34190,
     "name": "Firgas",
     "state_id": 1185,
@@ -232,12 +216,12 @@
     "country_code": "ES",
     "latitude": "28.10711000",
     "longitude": "-15.56299000",
-    "native": "Firme",
+    "native": "Firgas",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 7688,
-    "wikiDataId": "Q1646107"
+    "type": "municipality",
+    "population": 7728,
+    "wikiDataId": "Q606753"
   },
   {
     "id": 34559,
@@ -251,9 +235,9 @@
     "native": "Gáldar",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 24811,
-    "wikiDataId": "Q23986000"
+    "type": "municipality",
+    "population": 25108,
+    "wikiDataId": "Q956757"
   },
   {
     "id": 34541,
@@ -267,9 +251,9 @@
     "native": "Guía",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14031,
-    "wikiDataId": "Q62128920"
+    "wikiDataId": "Q23986419"
   },
   {
     "id": 34573,
@@ -283,9 +267,9 @@
     "native": "Haría",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 5567,
-    "wikiDataId": "Q1643548"
+    "type": "municipality",
+    "population": 5623,
+    "wikiDataId": "Q1588135"
   },
   {
     "id": 34754,
@@ -299,89 +283,25 @@
     "native": "Ingenio",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 32747,
-    "wikiDataId": "Q23984826"
+    "type": "municipality",
+    "population": 32905,
+    "wikiDataId": "Q985599"
   },
   {
-    "id": 153199,
+    "id": 36895,
     "name": "La Aldea de San Nicolás",
     "state_id": 1185,
     "state_code": "GC",
     "country_id": 207,
     "country_code": "ES",
-    "latitude": "27.98222180",
-    "longitude": "-15.77937410",
+    "latitude": "27.98910000",
+    "longitude": "-15.78126000",
     "native": "La Aldea de San Nicolás",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 7449,
-    "wikiDataId": "Q120172081"
-  },
-  {
-    "id": 34880,
-    "name": "La Guancha",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.37320000",
-    "longitude": "-16.65158000",
-    "native": "La guancha",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 5593,
-    "wikiDataId": "Q1228808"
-  },
-  {
-    "id": 34887,
-    "name": "La Laguna",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.48530000",
-    "longitude": "-16.32014000",
-    "native": "La Laguna",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 150661,
-    "wikiDataId": "Q16628307"
-  },
-  {
-    "id": 34894,
-    "name": "La Matanza de Acentejo",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.45242000",
-    "longitude": "-16.44720000",
-    "native": "La Matanza de Acentejo",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 9160,
-    "wikiDataId": "Q13148"
-  },
-  {
-    "id": 34897,
-    "name": "La Oliva",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.61052000",
-    "longitude": "-13.92912000",
-    "native": "La Oliva",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 29693,
-    "wikiDataId": "Q594892"
+    "type": "locality",
+    "population": 1972,
+    "wikiDataId": "Q23980390"
   },
   {
     "id": 153197,
@@ -395,57 +315,25 @@
     "native": "La Oliva",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 29693,
     "wikiDataId": "Q120171119"
   },
   {
-    "id": 34898,
-    "name": "La Orotava",
+    "id": 34897,
+    "name": "La Oliva",
     "state_id": 1185,
     "state_code": "GC",
     "country_id": 207,
     "country_code": "ES",
-    "latitude": "28.39076000",
-    "longitude": "-16.52309000",
-    "native": "La Orotava",
+    "latitude": "28.61052000",
+    "longitude": "-13.92912000",
+    "native": "La Oliva",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 42585,
-    "wikiDataId": "Q920391"
-  },
-  {
-    "id": 34934,
-    "name": "La Victoria de Acentejo",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.43231000",
-    "longitude": "-16.46232000",
-    "native": "La Victoria de Acentejo",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 9313,
-    "wikiDataId": "Q985601"
-  },
-  {
-    "id": 153198,
-    "name": "Las Palmas de Gran Canaria",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.12354590",
-    "longitude": "-15.43625740",
-    "native": "Las Palmas de Gran Canaria",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 380436,
-    "wikiDataId": "Q11974"
+    "type": "municipality",
+    "population": 30022,
+    "wikiDataId": "Q594892"
   },
   {
     "id": 34988,
@@ -459,105 +347,25 @@
     "native": "Las Palmas de Gran Canaria",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 380436,
     "wikiDataId": "Q23984578"
   },
   {
-    "id": 34990,
-    "name": "Las Rosas",
+    "id": 153198,
+    "name": "Las Palmas de Gran Canaria",
     "state_id": 1185,
     "state_code": "GC",
     "country_id": 207,
     "country_code": "ES",
-    "latitude": "28.01539000",
-    "longitude": "-16.65373000",
-    "native": "Las Rosas",
+    "latitude": "28.12354590",
+    "longitude": "-15.43625740",
+    "native": "Las Palmas de Gran Canaria",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "section",
-    "population": 2000,
-    "wikiDataId": "Q24011519"
-  },
-  {
-    "id": 35105,
-    "name": "Lomo de Arico",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.16667000",
-    "longitude": "-16.48333000",
-    "native": "Lomo de Arico",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 7189,
-    "wikiDataId": "Q657738"
-  },
-  {
-    "id": 35122,
-    "name": "Los Gigantes",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.24361000",
-    "longitude": "-16.84153000",
-    "native": "Los Gigantes",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 2721,
-    "wikiDataId": "Q1489481"
-  },
-  {
-    "id": 35124,
-    "name": "Los Llanos de Aridane",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.65851000",
-    "longitude": "-17.91821000",
-    "native": "Los Llanos de Aridane",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 20283,
-    "wikiDataId": "Q366948"
-  },
-  {
-    "id": 35132,
-    "name": "Los Realejos",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.38487000",
-    "longitude": "-16.58275000",
-    "native": "Los Realejos",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 37522,
-    "wikiDataId": "Q953876"
-  },
-  {
-    "id": 35135,
-    "name": "Los Silos",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.36610000",
-    "longitude": "-16.81552000",
-    "native": "Ir a los silos",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 4705,
-    "wikiDataId": "Q682964"
+    "type": "municipality",
+    "population": 381868,
+    "wikiDataId": "Q11974"
   },
   {
     "id": 35702,
@@ -568,10 +376,10 @@
     "country_code": "ES",
     "latitude": "28.94840000",
     "longitude": "-13.69117000",
-    "native": "Máchar",
+    "native": "Mácher",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1253,
     "wikiDataId": "Q6949526"
   },
@@ -587,25 +395,9 @@
     "native": "Maspalomas",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 36065,
     "wikiDataId": "Q580743"
-  },
-  {
-    "id": 35357,
-    "name": "Mazo",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.60906000",
-    "longitude": "-17.77801000",
-    "native": "Pequeño",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 4805,
-    "wikiDataId": "Q23984118"
   },
   {
     "id": 35469,
@@ -619,9 +411,9 @@
     "native": "Mogán",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 21175,
-    "wikiDataId": "Q785888"
+    "type": "municipality",
+    "population": 21172,
+    "wikiDataId": "Q628446"
   },
   {
     "id": 35647,
@@ -635,7 +427,7 @@
     "native": "Moya",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7987,
     "wikiDataId": "Q23983299"
   },
@@ -651,7 +443,7 @@
     "native": "Nazaret",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10000,
     "wikiDataId": "Q1488169"
   },
@@ -667,8 +459,8 @@
     "native": "Pájara",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 21614,
+    "type": "municipality",
+    "population": 21570,
     "wikiDataId": "Q661198"
   },
   {
@@ -683,25 +475,9 @@
     "native": "Playa Blanca",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10000,
     "wikiDataId": "Q2000517"
-  },
-  {
-    "id": 36240,
-    "name": "Playa de las Américas",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.06403000",
-    "longitude": "-16.73012000",
-    "native": "Playa de las Américas",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 3000,
-    "wikiDataId": "Q267946"
   },
   {
     "id": 36241,
@@ -715,7 +491,7 @@
     "native": "Playa del Ingles",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17158,
     "wikiDataId": "Q1929363"
   },
@@ -731,7 +507,7 @@
     "native": "Puerto del Carmen",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30000,
     "wikiDataId": "Q1928400"
   },
@@ -747,8 +523,8 @@
     "native": "Puerto del Rosario",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 35667,
+    "type": "municipality",
+    "population": 46150,
     "wikiDataId": "Q540185"
   },
   {
@@ -763,7 +539,7 @@
     "native": "Puerto Rico",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11000,
     "wikiDataId": "Q2117512"
   },
@@ -784,22 +560,6 @@
     "wikiDataId": "Q2118556"
   },
   {
-    "id": 36553,
-    "name": "Realejo Alto",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.37645000",
-    "longitude": "-16.58575000",
-    "native": "Realejo Alto",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 35963,
-    "wikiDataId": "Q23983386"
-  },
-  {
     "id": 36806,
     "name": "San Bartolomé",
     "state_id": 1185,
@@ -811,9 +571,9 @@
     "native": "San Bartolomé",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 19443,
-    "wikiDataId": "Q1636238"
+    "type": "municipality",
+    "population": 19551,
+    "wikiDataId": "Q962773"
   },
   {
     "id": 36809,
@@ -827,25 +587,9 @@
     "native": "San Bartolomé de Tirajana",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 54116,
+    "type": "municipality",
+    "population": 54291,
     "wikiDataId": "Q693258"
-  },
-  {
-    "id": 36895,
-    "name": "San Nicolás",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "27.98910000",
-    "longitude": "-15.78126000",
-    "native": "San Nicolás",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 7950,
-    "wikiDataId": "Q1905345"
   },
   {
     "id": 37007,
@@ -859,40 +603,24 @@
     "native": "Santa Brígida",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 18551,
-    "wikiDataId": "Q1630172"
+    "type": "municipality",
+    "population": 18766,
+    "wikiDataId": "Q984488"
   },
   {
     "id": 37062,
-    "name": "Santa Lucía",
+    "name": "Santa Lucía de Tirajana",
     "state_id": 1185,
     "state_code": "GC",
     "country_id": 207,
     "country_code": "ES",
     "latitude": "27.91174000",
     "longitude": "-15.54071000",
-    "native": "Santa Lucía",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 71863,
-    "wikiDataId": "Q738674"
-  },
-  {
-    "id": 153200,
-    "name": "Santa Lucía de Tirajana",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "27.91006630",
-    "longitude": "-15.54021120",
     "native": "Santa Lucía de Tirajana",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 77098,
+    "type": "municipality",
+    "population": 78584,
     "wikiDataId": "Q738674"
   },
   {
@@ -907,41 +635,9 @@
     "native": "Santa María de Guía de Gran Canaria",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 14135,
+    "type": "municipality",
+    "population": 14311,
     "wikiDataId": "Q986359"
-  },
-  {
-    "id": 37180,
-    "name": "Sauzal",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.46667000",
-    "longitude": "-16.41667000",
-    "native": "Sauzal",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 8172,
-    "wikiDataId": "Q782910"
-  },
-  {
-    "id": 37368,
-    "name": "Tanque",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.36667000",
-    "longitude": "-16.83333000",
-    "native": "Tanque",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 3068,
-    "wikiDataId": "Q23979490"
   },
   {
     "id": 37392,
@@ -955,7 +651,7 @@
     "native": "Teguise",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23848,
     "wikiDataId": "Q4397801"
   },
@@ -971,8 +667,8 @@
     "native": "Tejeda",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 2338,
+    "type": "municipality",
+    "population": 1806,
     "wikiDataId": "Q986361"
   },
   {
@@ -984,10 +680,10 @@
     "country_code": "ES",
     "latitude": "27.99243000",
     "longitude": "-15.41915000",
-    "native": "Contado",
+    "native": "Telde",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 102867,
     "wikiDataId": "Q24013877"
   },
@@ -1000,11 +696,11 @@
     "country_code": "ES",
     "latitude": "28.06062000",
     "longitude": "-15.54909000",
-    "native": "Terror",
+    "native": "Teror",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 12878,
+    "type": "municipality",
+    "population": 13211,
     "wikiDataId": "Q430147"
   },
   {
@@ -1019,7 +715,7 @@
     "native": "Tías",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 19849,
     "wikiDataId": "Q2046900"
   },
@@ -1032,12 +728,12 @@
     "country_code": "ES",
     "latitude": "29.06326000",
     "longitude": "-13.67647000",
-    "native": "Tina",
+    "native": "Tinajo",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 5228,
-    "wikiDataId": "Q24011484"
+    "type": "municipality",
+    "population": 6939,
+    "wikiDataId": "Q638013"
   },
   {
     "id": 37652,
@@ -1048,28 +744,12 @@
     "country_code": "ES",
     "latitude": "28.32372000",
     "longitude": "-14.04722000",
-    "native": "Jardines",
+    "native": "Tuineje",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 16454,
-    "wikiDataId": "Q1646935"
-  },
-  {
-    "id": 37850,
-    "name": "Vallehermosa",
-    "state_id": 1185,
-    "state_code": "GC",
-    "country_id": 207,
-    "country_code": "ES",
-    "latitude": "28.17944000",
-    "longitude": "-17.26664000",
-    "native": "Vallehermosa",
-    "timezone": "Atlantic/Canary",
-    "translations": {},
-    "type": "city",
-    "population": 2829,
-    "wikiDataId": "Q635308"
+    "type": "municipality",
+    "population": 16834,
+    "wikiDataId": "Q985586"
   },
   {
     "id": 37857,
@@ -1083,9 +763,9 @@
     "native": "Valleseco",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 3741,
-    "wikiDataId": "Q1766957"
+    "type": "municipality",
+    "population": 3775,
+    "wikiDataId": "Q986357"
   },
   {
     "id": 37875,
@@ -1099,8 +779,8 @@
     "native": "Valsequillo de Gran Canaria",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 9768,
+    "type": "municipality",
+    "population": 9869,
     "wikiDataId": "Q914195"
   },
   {
@@ -1115,7 +795,7 @@
     "native": "Vecindario",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 14910,
     "wikiDataId": "Q9092770"
   },
@@ -1131,9 +811,9 @@
     "native": "Vega de San Mateo",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 7856,
-    "wikiDataId": "Q1929334"
+    "type": "municipality",
+    "population": 7899,
+    "wikiDataId": "Q986353"
   },
   {
     "id": 38425,
@@ -1147,8 +827,8 @@
     "native": "Yaiza",
     "timezone": "Atlantic/Canary",
     "translations": {},
-    "type": "city",
-    "population": 16289,
-    "wikiDataId": "Q23986918"
+    "type": "municipality",
+    "population": 18842,
+    "wikiDataId": "Q2323549"
   }
 ]

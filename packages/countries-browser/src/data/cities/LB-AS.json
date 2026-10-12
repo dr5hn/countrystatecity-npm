@@ -1,5 +1,21 @@
 [
   {
+    "id": 165169,
+    "name": "Amioûn",
+    "state_id": 2284,
+    "state_code": "AS",
+    "country_id": 121,
+    "country_code": "LB",
+    "latitude": "34.30000000",
+    "longitude": "35.80889000",
+    "native": "أميون",
+    "timezone": "Asia/Beirut",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q25922"
+  },
+  {
     "id": 65934,
     "name": "Batroûn",
     "state_id": 2284,
@@ -17,7 +33,7 @@
   },
   {
     "id": 65935,
-    "name": "Bcharré",
+    "name": "Bsharri",
     "state_id": 2284,
     "state_code": "AS",
     "country_id": 121,
@@ -46,5 +62,21 @@
     "type": "adm1",
     "population": 229398,
     "wikiDataId": "Q168954"
+  },
+  {
+    "id": 165173,
+    "name": "Zghartā",
+    "state_id": 2284,
+    "state_code": "AS",
+    "country_id": 121,
+    "country_code": "LB",
+    "latitude": "34.39739000",
+    "longitude": "35.89493000",
+    "native": null,
+    "timezone": "Asia/Beirut",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q25739"
   }
 ]

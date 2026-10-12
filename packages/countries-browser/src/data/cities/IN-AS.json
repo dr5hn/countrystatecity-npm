@@ -59,7 +59,7 @@
     "native": "बक्सा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 950075,
     "wikiDataId": "Q622831"
   },
@@ -176,6 +176,22 @@
     "wikiDataId": "Q795803"
   },
   {
+    "id": 165014,
+    "name": "Biswanath Chariali",
+    "state_id": 4027,
+    "state_code": "AS",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "26.72577000",
+    "longitude": "93.14659000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q859133"
+  },
+  {
     "id": 58075,
     "name": "Bokajan",
     "state_id": 4027,
@@ -219,7 +235,7 @@
     "native": "बोंगईगांव",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 738804,
     "wikiDataId": "Q42197"
   },
@@ -235,7 +251,7 @@
     "native": "कछार",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1736617,
     "wikiDataId": "Q42209"
   },
@@ -283,7 +299,7 @@
     "native": "चिरांग",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 482162,
     "wikiDataId": "Q2574898"
   },
@@ -299,7 +315,7 @@
     "native": "दरांग",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 928500,
     "wikiDataId": "Q42461"
   },
@@ -630,8 +646,8 @@
     "state_code": "AS",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "24.50170000",
-    "longitude": "92.60069000",
+    "latitude": "24.68394000",
+    "longitude": "92.56097000",
     "native": "हैलाकांडी",
     "timezone": "Asia/Kolkata",
     "translations": {},
@@ -731,7 +747,7 @@
     "native": "कामरूप",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1517542,
     "wikiDataId": "Q2247441"
   },
@@ -747,7 +763,7 @@
     "native": "कामरूप मेट्रोपॉलिटन",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1253938,
     "wikiDataId": "Q2316852"
   },
@@ -806,8 +822,8 @@
     "state_code": "AS",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "26.60000000",
-    "longitude": "90.20000000",
+    "latitude": "26.40107000",
+    "longitude": "90.27286000",
     "native": "कोकराझार",
     "timezone": "Asia/Kolkata",
     "translations": {},
@@ -942,6 +958,38 @@
     "type": "city",
     "population": 25989,
     "wikiDataId": "Q2308247"
+  },
+  {
+    "id": 132916,
+    "name": "Mankachar",
+    "state_id": 4027,
+    "state_code": "AS",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.53347000",
+    "longitude": "89.86373000",
+    "native": "मनकाचर",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 31091,
+    "wikiDataId": "Q720860"
+  },
+  {
+    "id": 132934,
+    "name": "Margherita",
+    "state_id": 4027,
+    "state_code": "AS",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "27.28482000",
+    "longitude": "95.66796000",
+    "native": "मार्गेरिटा",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": 26914,
+    "wikiDataId": "Q1924981"
   },
   {
     "id": 132937,
@@ -1307,7 +1355,7 @@
     "native": "सोनितपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 1924110,
     "wikiDataId": "Q2734240"
   },
@@ -1326,6 +1374,22 @@
     "type": "city",
     "population": 7614,
     "wikiDataId": "Q2545590"
+  },
+  {
+    "id": 165043,
+    "name": "Tangla",
+    "state_id": 4027,
+    "state_code": "AS",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "26.65693000",
+    "longitude": "91.91381000",
+    "native": null,
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q2733004"
   },
   {
     "id": 134134,

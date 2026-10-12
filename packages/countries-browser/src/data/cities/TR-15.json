@@ -8,12 +8,12 @@
     "country_code": "TR",
     "latitude": "37.64944000",
     "longitude": "30.53417000",
-    "native": "Hadi ağlayalım",
+    "native": "Ağlasun",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 4469,
-    "wikiDataId": "Q793383"
+    "type": "municipality",
+    "population": 3610,
+    "wikiDataId": "Q3454393"
   },
   {
     "id": 107148,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4158,
-    "wikiDataId": "Q2034360"
+    "wikiDataId": null
   },
   {
     "id": 107400,
@@ -43,9 +43,25 @@
     "native": "Bucak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 29234,
+    "type": "municipality",
+    "population": 49190,
     "wikiDataId": "Q581187"
+  },
+  {
+    "id": 108180,
+    "name": "Burdur",
+    "state_id": 2209,
+    "state_code": "15",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "37.71666667",
+    "longitude": "30.28333333",
+    "native": "Burdur",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 98409,
+    "wikiDataId": "Q211811"
   },
   {
     "id": 108793,
@@ -93,7 +109,7 @@
     "translations": {},
     "type": "adm2",
     "population": 12721,
-    "wikiDataId": "Q1614572"
+    "wikiDataId": null
   },
   {
     "id": 107906,
@@ -123,25 +139,9 @@
     "native": "Kemer",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 2217,
-    "wikiDataId": "Q2527260"
-  },
-  {
-    "id": 108180,
-    "name": "Merkez",
-    "state_id": 2209,
-    "state_code": "15",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "37.62762000",
-    "longitude": "30.20408000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "type": "municipality",
+    "population": 1383,
+    "wikiDataId": "Q1023156"
   },
   {
     "id": 108556,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5317,
-    "wikiDataId": "Q1023307"
+    "wikiDataId": null
   },
   {
     "id": 108726,
@@ -171,8 +171,8 @@
     "native": "Yeşilova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 6777,
-    "wikiDataId": "Q1004602"
+    "type": "municipality",
+    "population": 5238,
+    "wikiDataId": "Q2677717"
   }
 ]

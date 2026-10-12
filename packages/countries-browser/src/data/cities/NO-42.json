@@ -11,8 +11,8 @@
     "native": "Åseral",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 915,
+    "type": "municipality",
+    "population": 904,
     "wikiDataId": "Q271275"
   },
   {
@@ -30,6 +30,22 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q499842"
+  },
+  {
+    "id": 165363,
+    "name": "Birketveit",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.45909000",
+    "longitude": "7.91692000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4916474"
   },
   {
     "id": 79134,
@@ -59,9 +75,41 @@
     "native": "Flekkefjord",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 9329,
+    "type": "city",
+    "population": 9373,
     "wikiDataId": "Q493481"
+  },
+  {
+    "id": 165358,
+    "name": "Gjerstad",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.88083000",
+    "longitude": "9.01861000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "locality",
+    "population": 304,
+    "wikiDataId": "Q6475931"
+  },
+  {
+    "id": 165346,
+    "name": "Grimstad",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.34050000",
+    "longitude": "8.59343000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "city",
+    "population": 25569,
+    "wikiDataId": "Q90590"
   },
   {
     "id": 79246,
@@ -75,8 +123,8 @@
     "native": "Hægebostad",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1786,
+    "type": "municipality",
+    "population": 1794,
     "wikiDataId": "Q488962"
   },
   {
@@ -107,8 +155,8 @@
     "native": "Kristiansand",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm1",
-    "population": 118221,
+    "type": "city",
+    "population": 119287,
     "wikiDataId": "Q2415"
   },
   {
@@ -123,9 +171,25 @@
     "native": "Kvinesdal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 6163,
+    "type": "municipality",
+    "population": 6242,
     "wikiDataId": "Q488747"
+  },
+  {
+    "id": 165380,
+    "name": "Kyrkjebygda",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.61523000",
+    "longitude": "7.41391000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q6452532"
   },
   {
     "id": 79322,
@@ -139,9 +203,25 @@
     "native": "Liknes",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 2649,
+    "type": "locality",
+    "population": 2646,
     "wikiDataId": "Q2110437"
+  },
+  {
+    "id": 165349,
+    "name": "Lillesand",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.24879000",
+    "longitude": "8.37780000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q10561843"
   },
   {
     "id": 79325,
@@ -171,8 +251,8 @@
     "native": "Lyngdal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 5602,
+    "type": "city",
+    "population": 10922,
     "wikiDataId": "Q505952"
   },
   {
@@ -208,6 +288,22 @@
     "wikiDataId": "Q378704"
   },
   {
+    "id": 165354,
+    "name": "Myra",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.74921000",
+    "longitude": "8.86254000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "locality",
+    "population": 947,
+    "wikiDataId": "Q4574741"
+  },
+  {
     "id": 79400,
     "name": "Nodeland",
     "state_id": 1014,
@@ -224,6 +320,22 @@
     "wikiDataId": "Q2094768"
   },
   {
+    "id": 165351,
+    "name": "Risør",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.72057000",
+    "longitude": "9.23422000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "city",
+    "population": 6683,
+    "wikiDataId": "Q90595"
+  },
+  {
     "id": 79499,
     "name": "Sirdal",
     "state_id": 1014,
@@ -235,8 +347,8 @@
     "native": "Sirdal",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 874,
+    "type": "municipality",
+    "population": 1911,
     "wikiDataId": "Q281835"
   },
   {
@@ -252,7 +364,7 @@
     "timezone": "Europe/Oslo",
     "translations": {},
     "type": "locality",
-    "population": 2599,
+    "population": 3756,
     "wikiDataId": "Q2119389"
   },
   {
@@ -304,6 +416,22 @@
     "wikiDataId": "Q3366307"
   },
   {
+    "id": 165403,
+    "name": "Tingvatn",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.37570000",
+    "longitude": "7.21970000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q12006437"
+  },
+  {
     "id": 79602,
     "name": "Tonstad",
     "state_id": 1014,
@@ -315,9 +443,25 @@
     "native": "Tonstad",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 899,
+    "type": "locality",
+    "population": 929,
     "wikiDataId": "Q1985569"
+  },
+  {
+    "id": 165350,
+    "name": "Tvedestrand",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "58.62203000",
+    "longitude": "8.93147000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "town",
+    "population": 2921,
+    "wikiDataId": "Q2042136"
   },
   {
     "id": 79613,
@@ -331,9 +475,25 @@
     "native": "Tveit",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "section",
-    "population": 1605,
+    "type": "locality",
+    "population": 1642,
     "wikiDataId": "Q1025357"
+  },
+  {
+    "id": 165359,
+    "name": "Valle",
+    "state_id": 1014,
+    "state_code": "42",
+    "country_id": 165,
+    "country_code": "NO",
+    "latitude": "59.21259000",
+    "longitude": "7.53559000",
+    "native": null,
+    "timezone": "Europe/Oslo",
+    "translations": {},
+    "type": "municipality",
+    "population": 1209,
+    "wikiDataId": "Q90598"
   },
   {
     "id": 79631,
@@ -344,11 +504,11 @@
     "country_code": "NO",
     "latitude": "58.09812000",
     "longitude": "6.69184000",
-    "native": "Komme",
+    "native": "Vanse",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 2057,
+    "type": "locality",
+    "population": 2078,
     "wikiDataId": "Q1006472"
   },
   {
@@ -363,8 +523,8 @@
     "native": "Vennesla",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "adm2",
-    "population": 15622,
+    "type": "municipality",
+    "population": 15772,
     "wikiDataId": "Q500227"
   },
   {
@@ -395,8 +555,8 @@
     "native": "Vigeland",
     "timezone": "Europe/Oslo",
     "translations": {},
-    "type": "city",
-    "population": 1715,
+    "type": "locality",
+    "population": 1673,
     "wikiDataId": "Q1208376"
   }
 ]

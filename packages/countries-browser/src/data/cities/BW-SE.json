@@ -40,7 +40,7 @@
     "country_code": "BW",
     "latitude": "-24.48333000",
     "longitude": "25.88333000",
-    "native": "Hollow",
+    "native": "Kopong",
     "timezone": "Africa/Gaborone",
     "translations": {},
     "type": "city",
@@ -56,7 +56,7 @@
     "country_code": "BW",
     "latitude": "-25.01667000",
     "longitude": "25.73333000",
-    "native": "Directly",
+    "native": "Otse",
     "timezone": "Africa/Gaborone",
     "translations": {},
     "type": "city",
@@ -78,5 +78,21 @@
     "type": "adm1",
     "population": 33271,
     "wikiDataId": "Q170714"
+  },
+  {
+    "id": 164514,
+    "name": "Tlokweng",
+    "state_id": 3064,
+    "state_code": "SE",
+    "country_id": 29,
+    "country_code": "BW",
+    "latitude": "-24.66861000",
+    "longitude": "25.97111000",
+    "native": "Tlokweng",
+    "timezone": "Africa/Gaborone",
+    "translations": {},
+    "type": "city",
+    "population": 55508,
+    "wikiDataId": "Q859785"
   }
 ]

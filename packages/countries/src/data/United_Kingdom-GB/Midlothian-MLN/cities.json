@@ -11,7 +11,7 @@
     "native": "Bilston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1330,
     "wikiDataId": "Q3421561"
   },
@@ -24,10 +24,10 @@
     "country_code": "GB",
     "latitude": "55.87329000",
     "longitude": "-3.10510000",
-    "native": "Bony rig",
+    "native": "Bonnyrigg",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 17530,
     "wikiDataId": "Q4942522"
   },
@@ -40,12 +40,28 @@
     "country_code": "GB",
     "latitude": "55.89317000",
     "longitude": "-3.06806000",
-    "native": "Dal",
+    "native": "Dalkeith",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 13400,
     "wikiDataId": "Q727520"
+  },
+  {
+    "id": 49231,
+    "name": "Danderhall",
+    "state_id": 2519,
+    "state_code": "MLN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.91434000",
+    "longitude": "-3.11062000",
+    "native": "Danderhall",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 2810,
+    "wikiDataId": "Q1012340"
   },
   {
     "id": 49680,
@@ -59,7 +75,7 @@
     "native": "Gorebridge",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 7160,
     "wikiDataId": "Q1009833"
   },
@@ -75,7 +91,7 @@
     "native": "Loanhead",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6440,
     "wikiDataId": "Q1011156"
   },
@@ -91,9 +107,9 @@
     "native": "Mayfield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 13570,
-    "wikiDataId": "Q6797159"
+    "wikiDataId": null
   },
   {
     "id": 50576,
@@ -107,25 +123,9 @@
     "native": "Midlothian",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 92460,
     "wikiDataId": "Q206934"
-  },
-  {
-    "id": 50867,
-    "name": "Peebles",
-    "state_id": 2519,
-    "state_code": "MLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.65190000",
-    "longitude": "-3.18880000",
-    "native": "Peebles",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8940,
-    "wikiDataId": "Q1011507"
   },
   {
     "id": 50881,
@@ -139,7 +139,7 @@
     "native": "Penicuik",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 16120,
     "wikiDataId": "Q1011428"
   },
@@ -155,7 +155,7 @@
     "native": "Rosewell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1680,
     "wikiDataId": "Q7368760"
   },
@@ -171,24 +171,8 @@
     "native": "Roslin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1670,
     "wikiDataId": "Q2037998"
-  },
-  {
-    "id": 51825,
-    "name": "West Linton",
-    "state_id": 2519,
-    "state_code": "MLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.74972000",
-    "longitude": "-3.35607000",
-    "native": "West Linton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1700,
-    "wikiDataId": "Q1011845"
   }
 ]

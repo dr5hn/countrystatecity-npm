@@ -24,7 +24,7 @@
     "country_code": "CN",
     "latitude": "31.30662190",
     "longitude": "113.64802030",
-    "native": "安鲁",
+    "native": "安陆",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "county",
     "population": null,
-    "wikiDataId": "Q5072149"
+    "wikiDataId": "Q1062175"
   },
   {
     "id": 19396,
@@ -184,7 +184,7 @@
     "country_code": "CN",
     "latitude": "29.55882530",
     "longitude": "114.03382890",
-    "native": "重阳",
+    "native": "崇阳",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -248,7 +248,7 @@
     "country_code": "CN",
     "latitude": "31.60942700",
     "longitude": "114.31208200",
-    "native": "大武",
+    "native": "大悟",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -280,7 +280,7 @@
     "country_code": "CN",
     "latitude": "30.09855670",
     "longitude": "114.97480740",
-    "native": "戴伊",
+    "native": "大冶市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -301,22 +301,6 @@
     "translations": {},
     "type": "district",
     "population": 101649,
-    "wikiDataId": null
-  },
-  {
-    "id": 158224,
-    "name": "Directly",
-    "state_id": 2274,
-    "state_code": "HB",
-    "country_id": 45,
-    "country_code": "CN",
-    "latitude": "0.00000000",
-    "longitude": "0.00000000",
-    "native": "直接地",
-    "timezone": "Asia/Shanghai",
-    "translations": {},
-    "type": "prefecture",
-    "population": null,
     "wikiDataId": null
   },
   {
@@ -376,7 +360,7 @@
     "country_code": "CN",
     "latitude": "30.97622000",
     "longitude": "112.20243640",
-    "native": "多刀",
+    "native": "掇刀",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "district",
@@ -472,7 +456,7 @@
     "country_code": "CN",
     "latitude": "32.04674900",
     "longitude": "112.12962980",
-    "native": "繁城",
+    "native": "樊城",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "district",
@@ -637,7 +621,7 @@
     "translations": {},
     "type": "district",
     "population": 145103,
-    "wikiDataId": "Q350174"
+    "wikiDataId": "Q630681"
   },
   {
     "id": 158128,
@@ -653,7 +637,7 @@
     "translations": {},
     "type": "district",
     "population": 837263,
-    "wikiDataId": "Q453227"
+    "wikiDataId": "Q1205133"
   },
   {
     "id": 158223,
@@ -717,7 +701,7 @@
     "translations": {},
     "type": "district",
     "population": 469079,
-    "wikiDataId": "Q355517"
+    "wikiDataId": "Q1337284"
   },
   {
     "id": 19647,
@@ -765,7 +749,7 @@
     "translations": {},
     "type": "county",
     "population": 759928,
-    "wikiDataId": "Q5925985"
+    "wikiDataId": "Q1337631"
   },
   {
     "id": 19654,
@@ -856,7 +840,7 @@
     "country_code": "CN",
     "latitude": "30.43695760",
     "longitude": "114.87507660",
-    "native": "黄",
+    "native": "黄州",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "district",
@@ -909,7 +893,7 @@
     "translations": {},
     "type": "district",
     "population": 647932,
-    "wikiDataId": "Q6191635"
+    "wikiDataId": "Q747296"
   },
   {
     "id": 158192,
@@ -925,7 +909,7 @@
     "translations": {},
     "type": "county",
     "population": 278192,
-    "wikiDataId": "Q1688878"
+    "wikiDataId": "Q1363632"
   },
   {
     "id": 158135,
@@ -941,7 +925,7 @@
     "translations": {},
     "type": "district",
     "population": 0,
-    "wikiDataId": "Q6191783"
+    "wikiDataId": "Q1337329"
   },
   {
     "id": 158196,
@@ -968,7 +952,7 @@
     "country_code": "CN",
     "latitude": "30.66153180",
     "longitude": "109.93676060",
-    "native": "健时",
+    "native": "建始",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -1080,7 +1064,7 @@
     "country_code": "CN",
     "latitude": "29.45672400",
     "longitude": "109.19290500",
-    "native": "来丰",
+    "native": "来凤",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -1229,7 +1213,7 @@
     "translations": {},
     "type": "district",
     "population": 601548,
-    "wikiDataId": "Q92769946"
+    "wikiDataId": "Q1199107"
   },
   {
     "id": 158168,
@@ -1309,7 +1293,7 @@
     "translations": {},
     "type": "city",
     "population": 179079,
-    "wikiDataId": "Q412073"
+    "wikiDataId": "Q71489"
   },
   {
     "id": 158127,
@@ -1373,7 +1357,7 @@
     "translations": {},
     "type": "district",
     "population": 535128,
-    "wikiDataId": "Q366298"
+    "wikiDataId": "Q1117408"
   },
   {
     "id": 20085,
@@ -1435,25 +1419,9 @@
     "native": "神农架",
     "timezone": "Asia/Shanghai",
     "translations": {},
-    "type": "city",
+    "type": "administrative zone",
     "population": 66571,
     "wikiDataId": "Q1359055"
-  },
-  {
-    "id": 158228,
-    "name": "Shennongjia Forestry",
-    "state_id": 2274,
-    "state_code": "HB",
-    "country_id": 45,
-    "country_code": "CN",
-    "latitude": "0.00000000",
-    "longitude": "0.00000000",
-    "native": "神农架林业",
-    "timezone": "Asia/Shanghai",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": null
   },
   {
     "id": 158193,
@@ -1496,7 +1464,7 @@
     "country_code": "CN",
     "latitude": "30.17509720",
     "longitude": "111.75127140",
-    "native": "松子",
+    "native": "松滋市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -1510,14 +1478,14 @@
     "state_code": "HB",
     "country_id": 45,
     "country_code": "CN",
-    "latitude": "0.00000000",
-    "longitude": "0.00000000",
-    "native": "遂县",
+    "latitude": "31.85000000",
+    "longitude": "113.30000000",
+    "native": "随县",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q423253"
   },
   {
     "id": 20145,
@@ -1565,7 +1533,7 @@
     "translations": {},
     "type": "district",
     "population": 15669,
-    "wikiDataId": "Q24076847"
+    "wikiDataId": "Q1199062"
   },
   {
     "id": 158209,
@@ -1645,7 +1613,7 @@
     "translations": {},
     "type": "county",
     "population": 0,
-    "wikiDataId": "Q1216909"
+    "wikiDataId": "Q1199161"
   },
   {
     "id": 20233,
@@ -1672,7 +1640,7 @@
     "country_code": "CN",
     "latitude": "30.64616900",
     "longitude": "111.35500790",
-    "native": "吴家港",
+    "native": "伍家岗",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "district",
@@ -1752,7 +1720,7 @@
     "country_code": "CN",
     "latitude": "29.74236540",
     "longitude": "108.95304800",
-    "native": "仙峰",
+    "native": "咸丰",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -1773,7 +1741,7 @@
     "translations": {},
     "type": "district",
     "population": 973197,
-    "wikiDataId": "Q448103"
+    "wikiDataId": "Q238944"
   },
   {
     "id": 20258,
@@ -1800,7 +1768,7 @@
     "country_code": "CN",
     "latitude": "32.21846700",
     "longitude": "112.26230400",
-    "native": "香洲",
+    "native": "襄州",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "district",
@@ -1997,7 +1965,7 @@
     "translations": {},
     "type": "county",
     "population": 21125,
-    "wikiDataId": "Q1208758"
+    "wikiDataId": "Q204696"
   },
   {
     "id": 20305,
@@ -2072,7 +2040,7 @@
     "country_code": "CN",
     "latitude": "30.59994440",
     "longitude": "115.29931330",
-    "native": "习水",
+    "native": "浠水",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -2125,7 +2093,7 @@
     "translations": {},
     "type": "county",
     "population": 0,
-    "wikiDataId": "Q284410"
+    "wikiDataId": "Q1356685"
   },
   {
     "id": 20366,
@@ -2173,7 +2141,7 @@
     "translations": {},
     "type": "city",
     "population": 469417,
-    "wikiDataId": "Q257744"
+    "wikiDataId": "Q1199240"
   },
   {
     "id": 158162,
@@ -2184,7 +2152,7 @@
     "country_code": "CN",
     "latitude": "30.38196960",
     "longitude": "111.44369270",
-    "native": "义都",
+    "native": "宜都市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -2248,7 +2216,7 @@
     "country_code": "CN",
     "latitude": "31.16924570",
     "longitude": "111.56548500",
-    "native": "元安",
+    "native": "远安",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -2296,7 +2264,7 @@
     "country_code": "CN",
     "latitude": "33.00097280",
     "longitude": "110.17886920",
-    "native": "云熙",
+    "native": "郧西",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -2381,7 +2349,7 @@
     "translations": {},
     "type": "district",
     "population": 6590,
-    "wikiDataId": "Q8070484"
+    "wikiDataId": "Q197395"
   },
   {
     "id": 20445,
@@ -2408,7 +2376,7 @@
     "country_code": "CN",
     "latitude": "30.42139000",
     "longitude": "111.75333000",
-    "native": "之江",
+    "native": "枝江市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -2440,7 +2408,7 @@
     "country_code": "CN",
     "latitude": "31.16611000",
     "longitude": "112.58306000",
-    "native": "忠祥",
+    "native": "钟祥市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -2456,7 +2424,7 @@
     "country_code": "CN",
     "latitude": "31.17023220",
     "longitude": "112.58233310",
-    "native": "忠祥",
+    "native": "钟祥市",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "city",
@@ -2472,7 +2440,7 @@
     "country_code": "CN",
     "latitude": "32.31646620",
     "longitude": "110.15637910",
-    "native": "珠山",
+    "native": "竹山",
     "timezone": "Asia/Shanghai",
     "translations": {},
     "type": "county",
@@ -2493,7 +2461,7 @@
     "translations": {},
     "type": "county",
     "population": 283578,
-    "wikiDataId": "Q8071249"
+    "wikiDataId": "Q198256"
   },
   {
     "id": 158159,

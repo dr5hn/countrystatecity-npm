@@ -11,9 +11,9 @@
     "native": "Bagillt",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2749,
-    "wikiDataId": "Q2646554"
+    "wikiDataId": "Q3401133"
   },
   {
     "id": 48730,
@@ -43,9 +43,25 @@
     "native": "Buckley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 63576,
     "wikiDataId": "Q2019227"
+  },
+  {
+    "id": 48810,
+    "name": "Caergwrle",
+    "state_id": 2437,
+    "state_code": "FLN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.10953000",
+    "longitude": "-3.03808000",
+    "native": "Caergwrle",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 4673,
+    "wikiDataId": "Q2483466"
   },
   {
     "id": 49123,
@@ -59,7 +75,7 @@
     "native": "County of Flintshire",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q505610"
   },
@@ -80,22 +96,6 @@
     "wikiDataId": "Q3405926"
   },
   {
-    "id": 49372,
-    "name": "Dyserth",
-    "state_id": 2437,
-    "state_code": "FLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.30032000",
-    "longitude": "-3.41262000",
-    "native": "Desolate",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2523,
-    "wikiDataId": "Q5319397"
-  },
-  {
     "id": 49574,
     "name": "Flint",
     "state_id": 2437,
@@ -107,7 +107,7 @@
     "native": "Flint",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 26442,
     "wikiDataId": "Q1428848"
   },
@@ -136,7 +136,7 @@
     "country_code": "GB",
     "latitude": "53.33669000",
     "longitude": "-3.36031000",
-    "native": "Accumulate",
+    "native": "Gronant",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -152,10 +152,10 @@
     "country_code": "GB",
     "latitude": "53.18478000",
     "longitude": "-3.02578000",
-    "native": "Warden",
+    "native": "Hawarden",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 25513,
     "wikiDataId": "Q2398901"
   },
@@ -171,9 +171,25 @@
     "native": "Holywell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 6969,
     "wikiDataId": "Q3050619"
+  },
+  {
+    "id": 49983,
+    "name": "Hope",
+    "state_id": 2437,
+    "state_code": "FLN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.11667000",
+    "longitude": "-3.03333000",
+    "native": "Hope",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 4706,
+    "wikiDataId": "Q1985810"
   },
   {
     "id": 50273,
@@ -203,7 +219,7 @@
     "native": "Mold",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 10155,
     "wikiDataId": "Q1191195"
   },
@@ -219,7 +235,7 @@
     "native": "Mostyn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1892,
     "wikiDataId": "Q2424760"
   },
@@ -235,7 +251,7 @@
     "native": "Northop",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1001,
     "wikiDataId": "Q2573736"
   },
@@ -248,27 +264,27 @@
     "country_code": "GB",
     "latitude": "53.14829000",
     "longitude": "-3.04584000",
-    "native": "Road",
+    "native": "Penyffordd",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3554,
     "wikiDataId": "Q2752670"
   },
   {
-    "id": 50984,
-    "name": "Prestatyn",
+    "id": 51668,
+    "name": "Treuddyn",
     "state_id": 2437,
     "state_code": "FLN",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.33748000",
-    "longitude": "-3.40776000",
-    "native": "Prestigyn",
+    "latitude": "53.11480000",
+    "longitude": "-3.12003000",
+    "native": "Treuddyn",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 18890,
-    "wikiDataId": "Q1813948"
+    "type": "village",
+    "population": 1687,
+    "wikiDataId": "Q7838896"
   }
 ]

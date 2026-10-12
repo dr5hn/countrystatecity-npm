@@ -7,6 +7,14 @@ Countries, states, and cities as GeoJSON `Point` `FeatureCollection`s, loaded vi
 
 **Environment:** 🌐 **Browser / Any** (no Node.js dependencies)
 
+## Upgrading to 2.0.0
+
+Data now comes from upstream **v4.0-export.50**. The v3.2 → v4.0 transition removed 4,486 city ids (duplicates, US counties moved to a separate counties dataset, and non-places), reassigned 7,527 cities to different states, and added 27 states while retiring 6. Stored ids and per-state results can change; US counties are no longer returned as cities. Later export corrections are included in this snapshot.
+
+Before upgrading stored city/state ids, use [`removed_ids_v3.2_to_v4.0.csv`](https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0/removed_ids_v3.2_to_v4.0.csv) attached to the [upstream v4.0 release](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v4.0). It identifies merged ids and their survivors, counties moved to new ids, and retired states and their successors. Match the `record`, `outcome`, and `new_table` columns before using `new_id`; a county id is not a city id. Refresh stored state associations against this snapshot.
+
+Feature ids and state membership change with the source data. Properties remain a minimal projection (`id`, `name`, and country/state codes); upstream `type`, `type_local`, `county_id`, `level`, and `parent_id` are intentionally omitted. Geometry remains `Point`, not administrative boundary polygons.
+
 ## ⚠️ Point geometry only — not boundary polygons
 
 Every feature in this package is a single `Point` (one coordinate per country/state/city) — the same latitude/longitude already available via `@countrystatecity/countries`. **There are no country/state boundary shapes (polygons) available** — this package cannot power choropleth maps or shape-outline rendering. It exists to save you the one-line transform from `{lat, lng}` to a GeoJSON `Feature`, and to give you CDN-hosted, lazy-loaded `FeatureCollection`s pre-split by country/state for direct use with `L.geoJSON()` (Leaflet) or as a Mapbox GL source.

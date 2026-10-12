@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 3382,
-    "wikiDataId": "Q680984"
+    "wikiDataId": null
   },
   {
     "id": 48722,
@@ -32,22 +32,6 @@
     "wikiDataId": "Q2277559"
   },
   {
-    "id": 48751,
-    "name": "Bucknell",
-    "state_id": 2500,
-    "state_code": "HEF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.35997000",
-    "longitude": "-2.95066000",
-    "native": "Bucknell",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 717,
-    "wikiDataId": "Q2134613"
-  },
-  {
     "id": 49150,
     "name": "Credenhill",
     "state_id": 2500,
@@ -59,7 +43,7 @@
     "native": "Credenhill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2271,
     "wikiDataId": "Q372195"
   },
@@ -75,7 +59,7 @@
     "native": "Dorstone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 386,
     "wikiDataId": "Q2613273"
   },
@@ -91,7 +75,7 @@
     "native": "Ewyas Harold",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 887,
     "wikiDataId": "Q3399541"
   },
@@ -107,25 +91,9 @@
     "native": "Hereford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 53113,
     "wikiDataId": "Q204720"
-  },
-  {
-    "id": 49909,
-    "name": "Herefordshire",
-    "state_id": 2500,
-    "state_code": "HEF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.08333000",
-    "longitude": "-2.75000000",
-    "native": "Herefordshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q23129"
   },
   {
     "id": 50174,
@@ -139,7 +107,7 @@
     "native": "Kingsland",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 474,
     "wikiDataId": "Q3784597"
   },
@@ -155,7 +123,7 @@
     "native": "Ledbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 9111,
     "wikiDataId": "Q665330"
   },
@@ -171,7 +139,7 @@
     "native": "Leominster",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11954,
     "wikiDataId": "Q550424"
   },
@@ -187,7 +155,7 @@
     "native": "Longtown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2064,
     "wikiDataId": "Q3399511"
   },
@@ -203,7 +171,7 @@
     "native": "Lugwardine",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1833,
     "wikiDataId": "Q3785240"
   },
@@ -219,7 +187,7 @@
     "native": "Orleton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 573,
     "wikiDataId": "Q3784305"
   },
@@ -235,25 +203,9 @@
     "native": "Ross on Wye",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10582,
     "wikiDataId": "Q2057705"
-  },
-  {
-    "id": 51575,
-    "name": "Tenbury Wells",
-    "state_id": 2500,
-    "state_code": "HEF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.31077000",
-    "longitude": "-2.59621000",
-    "native": "Tenbury Wells",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3849,
-    "wikiDataId": "Q2274623"
   },
   {
     "id": 51804,
@@ -267,7 +219,7 @@
     "native": "Weobley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1274,
     "wikiDataId": "Q1998959"
   },
@@ -283,7 +235,7 @@
     "native": "Wigmore",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 793,
     "wikiDataId": "Q608317"
   }

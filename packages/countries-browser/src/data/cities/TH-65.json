@@ -1,37 +1,5 @@
 [
   {
-    "id": 105229,
-    "name": "Amphoe Bang Krathum",
-    "state_id": 3506,
-    "state_code": "65",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.59323000",
-    "longitude": "100.35042000",
-    "native": "อำเภอบางกระทุ่ม",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475206"
-  },
-  {
-    "id": 105241,
-    "name": "Amphoe Bang Rakam",
-    "state_id": 3506,
-    "state_code": "65",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.71844000",
-    "longitude": "100.04217000",
-    "native": "อำเภอบางระกำ",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475242"
-  },
-  {
     "id": 105288,
     "name": "Amphoe Chat Trakan",
     "state_id": 3506,
@@ -48,22 +16,6 @@
     "wikiDataId": "Q475371"
   },
   {
-    "id": 105633,
-    "name": "Amphoe Nakhon Thai",
-    "state_id": 3506,
-    "state_code": "65",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "17.09426000",
-    "longitude": "100.86437000",
-    "native": "อำเภอนครไทย",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476175"
-  },
-  {
     "id": 106430,
     "name": "Bang Krathum",
     "state_id": 3506,
@@ -75,7 +27,7 @@
     "native": "บางกระทุ่ม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 18874,
     "wikiDataId": "Q28732635"
   },
@@ -91,7 +43,7 @@
     "native": "บางระกำ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 16841,
     "wikiDataId": "Q28732633"
   },
@@ -112,22 +64,6 @@
     "wikiDataId": "Q1015899"
   },
   {
-    "id": 105573,
-    "name": "Mueang Phitsanulok",
-    "state_id": 3506,
-    "state_code": "65",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.84040000",
-    "longitude": "100.27298000",
-    "native": "อำเภอเมืองพิษณุโลก",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476061"
-  },
-  {
     "id": 106586,
     "name": "Nakhon Thai",
     "state_id": 3506,
@@ -139,7 +75,7 @@
     "native": "นครไทย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 12345,
     "wikiDataId": "Q28732623"
   },
@@ -150,14 +86,14 @@
     "state_code": "65",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.56400000",
-    "longitude": "100.70995000",
-    "native": "อำเภอเนินมะปราง",
+    "latitude": "16.56834100",
+    "longitude": "100.63556300",
+    "native": "เนินมะปราง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476213"
+    "wikiDataId": "Q15141861"
   },
   {
     "id": 106636,
@@ -171,7 +107,7 @@
     "native": "พิษณุโลก",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 70871,
     "wikiDataId": "Q867579"
   },
@@ -182,14 +118,14 @@
     "state_code": "65",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.06894000",
-    "longitude": "100.15350000",
-    "native": "อำเภอพรหมพิราม",
+    "latitude": "17.03352000",
+    "longitude": "100.20190000",
+    "native": "พรหมพิราม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476467"
+    "wikiDataId": null
   },
   {
     "id": 106348,
@@ -198,14 +134,14 @@
     "state_code": "65",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.85000000",
-    "longitude": "100.58333000",
-    "native": "อำเภอวังทอง",
+    "latitude": "16.82290000",
+    "longitude": "100.42550000",
+    "native": "วังทอง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q477029"
+    "wikiDataId": "Q103493481"
   },
   {
     "id": 106355,
@@ -214,13 +150,13 @@
     "state_code": "65",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.16384000",
-    "longitude": "100.36298000",
-    "native": "อำเภอวัดโบสถ์",
+    "latitude": "16.98114000",
+    "longitude": "100.33195000",
+    "native": "วัดโบสถ์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q142603"
+    "wikiDataId": null
   }
 ]

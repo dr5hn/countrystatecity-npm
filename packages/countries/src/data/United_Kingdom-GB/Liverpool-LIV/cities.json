@@ -1,21 +1,5 @@
 [
   {
-    "id": 48520,
-    "name": "Birkenhead",
-    "state_id": 2340,
-    "state_code": "LIV",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.39337000",
-    "longitude": "-3.01479000",
-    "native": "Birkenhead",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 325264,
-    "wikiDataId": "Q746718"
-  },
-  {
     "id": 50337,
     "name": "Liverpool",
     "state_id": 2340,
@@ -27,24 +11,8 @@
     "native": "Liverpool",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 513441,
     "wikiDataId": "Q24826"
-  },
-  {
-    "id": 51732,
-    "name": "Wallasey",
-    "state_id": 2340,
-    "state_code": "LIV",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.42324000",
-    "longitude": "-3.06497000",
-    "native": "Wallasey",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 60284,
-    "wikiDataId": "Q780923"
   }
 ]

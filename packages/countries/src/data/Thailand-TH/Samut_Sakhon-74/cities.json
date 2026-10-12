@@ -1,35 +1,19 @@
 [
   {
     "id": 105210,
-    "name": "Amphoe Ban Phaeo",
+    "name": "Ban Phaeo",
     "state_id": 3504,
     "state_code": "74",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.58747000",
-    "longitude": "100.11789000",
-    "native": "อำเภอบ้านแพ้ว",
+    "latitude": "13.58677500",
+    "longitude": "100.10366300",
+    "native": "บ้านแพ้ว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475152"
-  },
-  {
-    "id": 105455,
-    "name": "Amphoe Krathum Baen",
-    "state_id": 3504,
-    "state_code": "74",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.65570000",
-    "longitude": "100.27282000",
-    "native": "อำเภอกระทุ่มแบน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475833"
+    "wikiDataId": "Q11960114"
   },
   {
     "id": 106405,
@@ -59,25 +43,9 @@
     "native": "กระทุ่มแบน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 72819,
     "wikiDataId": "Q15216155"
-  },
-  {
-    "id": 105585,
-    "name": "Mueang Samut Sakhon",
-    "state_id": 3504,
-    "state_code": "74",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.53163000",
-    "longitude": "100.25326000",
-    "native": "อำเภอเมืองสมุทรสาคร",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q1934901"
   },
   {
     "id": 106681,
@@ -91,7 +59,7 @@
     "native": "สมุทรสาคร",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 60103,
     "wikiDataId": "Q1359220"
   }

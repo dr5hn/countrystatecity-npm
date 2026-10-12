@@ -88,7 +88,7 @@
     "country_code": "SY",
     "latitude": "33.61033000",
     "longitude": "36.31070000",
-    "native": "في التل",
+    "native": "At Tall",
     "timezone": "Asia/Damascus",
     "translations": {},
     "type": "adm2",
@@ -272,6 +272,22 @@
     "wikiDataId": "Q1280049"
   },
   {
+    "id": 165576,
+    "name": "Şaḩnāyā",
+    "state_id": 2935,
+    "state_code": "RD",
+    "country_id": 215,
+    "country_code": "SY",
+    "latitude": "33.42531000",
+    "longitude": "36.22552000",
+    "native": null,
+    "timezone": "Asia/Damascus",
+    "translations": {},
+    "type": "adm3",
+    "population": 30519,
+    "wikiDataId": "Q7399701"
+  },
+  {
     "id": 105070,
     "name": "Şaydnāyā",
     "state_id": 2935,
@@ -302,5 +318,21 @@
     "type": "adm2",
     "population": 40502,
     "wikiDataId": "Q172251"
+  },
+  {
+    "id": 165579,
+    "name": "Zākīyah",
+    "state_id": 2935,
+    "state_code": "RD",
+    "country_id": 215,
+    "country_code": "SY",
+    "latitude": "33.33406000",
+    "longitude": "36.15880000",
+    "native": null,
+    "timezone": "Asia/Damascus",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q12214191"
   }
 ]

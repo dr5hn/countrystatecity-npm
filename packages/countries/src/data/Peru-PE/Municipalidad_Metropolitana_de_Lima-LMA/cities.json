@@ -11,9 +11,9 @@
     "native": "Barranco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 34378,
-    "wikiDataId": "Q893053"
+    "wikiDataId": "Q808823"
   },
   {
     "id": 160106,
@@ -48,6 +48,22 @@
     "wikiDataId": "Q1016388"
   },
   {
+    "id": 80701,
+    "name": "Lima",
+    "state_id": 5687,
+    "state_code": "LMA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-12.04318000",
+    "longitude": "-77.02824000",
+    "native": "Lima",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "capital",
+    "population": 7737002,
+    "wikiDataId": "Q2868"
+  },
+  {
     "id": 160108,
     "name": "Lince",
     "state_id": 5687,
@@ -75,9 +91,9 @@
     "native": "Magdalena del Mar",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 60290,
-    "wikiDataId": "Q986395"
+    "wikiDataId": "Q3303729"
   },
   {
     "id": 160101,
@@ -91,9 +107,9 @@
     "native": "Miraflores",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 187401,
-    "wikiDataId": "Q747840"
+    "wikiDataId": "Q1026229"
   },
   {
     "id": 160105,
@@ -123,9 +139,9 @@
     "native": "San Borja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "section",
+    "type": "municipality",
     "population": 113247,
-    "wikiDataId": "Q2004830"
+    "wikiDataId": "Q2566267"
   },
   {
     "id": 80945,
@@ -139,9 +155,9 @@
     "native": "San Isidro",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 60735,
-    "wikiDataId": "Q2004827"
+    "wikiDataId": "Q2632912"
   },
   {
     "id": 80967,
@@ -155,8 +171,8 @@
     "native": "Santiago de Surco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 105076,
-    "wikiDataId": "Q833073"
+    "wikiDataId": "Q427011"
   }
 ]

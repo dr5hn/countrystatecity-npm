@@ -32,22 +32,6 @@
     "wikiDataId": "Q475682"
   },
   {
-    "id": 106203,
-    "name": "Amphoe Sawankhalok",
-    "state_id": 3545,
-    "state_code": "64",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "17.29899000",
-    "longitude": "99.85396000",
-    "native": "อำเภอสวรรคโลก",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476671"
-  },
-  {
     "id": 106224,
     "name": "Amphoe Si Satchanalai",
     "state_id": 3545,
@@ -109,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 11272,
-    "wikiDataId": "Q13025313"
+    "wikiDataId": null
   },
   {
     "id": 105447,
@@ -118,30 +102,14 @@
     "state_code": "64",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.93115000",
-    "longitude": "99.97414000",
-    "native": "อำเภอกงไกรลาศ",
+    "latitude": "16.95197000",
+    "longitude": "99.97769000",
+    "native": "กงไกรลาศ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475817"
-  },
-  {
-    "id": 105593,
-    "name": "Mueang Sukhothai",
-    "state_id": 3545,
-    "state_code": "64",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "17.02318000",
-    "longitude": "99.77864000",
-    "native": "อำเภอเมืองสุโขทัย",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476094"
+    "wikiDataId": null
   },
   {
     "id": 106695,
@@ -155,7 +123,7 @@
     "native": "สวรรคโลก",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17148,
     "wikiDataId": "Q1013447"
   },
@@ -166,14 +134,14 @@
     "state_code": "64",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.39275000",
-    "longitude": "99.97666000",
-    "native": "อำเภอศรีนคร",
+    "latitude": "17.35496780",
+    "longitude": "99.99206805",
+    "native": "ศรีนคร",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476698"
+    "wikiDataId": "Q13025257"
   },
   {
     "id": 106223,
@@ -182,14 +150,14 @@
     "state_code": "64",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.16397000",
-    "longitude": "99.74672000",
-    "native": "อำเภอศรีสำโรง",
+    "latitude": "17.16400000",
+    "longitude": "99.86222000",
+    "native": "ศรีสำโรง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476712"
+    "wikiDataId": null
   },
   {
     "id": 106701,
@@ -198,13 +166,13 @@
     "state_code": "64",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.51692000",
-    "longitude": "99.75978000",
+    "latitude": "17.41549800",
+    "longitude": "99.81517900",
     "native": "ศรีสัชนาลัย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 25942,
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q13025272"
   },
   {
@@ -219,7 +187,7 @@
     "native": "สุโขทัย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 37000,
     "wikiDataId": "Q986737"
   },
@@ -230,13 +198,13 @@
     "state_code": "64",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.37082000",
-    "longitude": "99.55265000",
-    "native": "อำเภอทุ่งเสลี่ยม",
+    "latitude": "17.32404889",
+    "longitude": "99.56713694",
+    "native": "ทุ่งเสลี่ยม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476942"
+    "wikiDataId": "Q13025211"
   }
 ]

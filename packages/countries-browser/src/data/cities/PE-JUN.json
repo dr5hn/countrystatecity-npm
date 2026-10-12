@@ -11,9 +11,9 @@
     "native": "Acolla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6077,
-    "wikiDataId": "Q25247498"
+    "wikiDataId": "Q4674465"
   },
   {
     "id": 80591,
@@ -27,9 +27,9 @@
     "native": "Carhuamayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9122,
-    "wikiDataId": "Q3344236"
+    "wikiDataId": "Q24451971"
   },
   {
     "id": 80604,
@@ -43,7 +43,7 @@
     "native": "Chanchamayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 151489,
     "wikiDataId": "Q765311"
   },
@@ -59,9 +59,9 @@
     "native": "Chupaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9877,
-    "wikiDataId": "Q3344173"
+    "wikiDataId": "Q5116486"
   },
   {
     "id": 80630,
@@ -75,9 +75,25 @@
     "native": "Concepción",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 11330,
-    "wikiDataId": "Q43418"
+    "wikiDataId": "Q5158367"
+  },
+  {
+    "id": 80834,
+    "name": "Huancayo",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-12.07027778",
+    "longitude": "-75.21388889",
+    "native": "Huancayo",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q468782"
   },
   {
     "id": 80652,
@@ -91,9 +107,9 @@
     "native": "Huancayo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 450900,
-    "wikiDataId": "Q468782"
+    "wikiDataId": "Q6319902"
   },
   {
     "id": 80659,
@@ -107,9 +123,9 @@
     "native": "Huasahuasi",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5146,
-    "wikiDataId": "Q430862"
+    "wikiDataId": "Q6319990"
   },
   {
     "id": 80663,
@@ -123,9 +139,9 @@
     "native": "Huayucachi",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9800,
-    "wikiDataId": "Q629736"
+    "wikiDataId": "Q5926605"
   },
   {
     "id": 80674,
@@ -139,9 +155,9 @@
     "native": "Jauja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 21057,
-    "wikiDataId": "Q917434"
+    "wikiDataId": "Q5262649"
   },
   {
     "id": 80685,
@@ -155,9 +171,9 @@
     "native": "Junín",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 15320,
-    "wikiDataId": "Q2640092"
+    "wikiDataId": "Q6321850"
   },
   {
     "id": 80688,
@@ -171,8 +187,24 @@
     "native": "La Oroya",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 33345,
+    "wikiDataId": "Q1478051"
+  },
+  {
+    "id": 80909,
+    "name": "La Oroya",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-11.52055556",
+    "longitude": "-75.90138889",
+    "native": "La Oroya",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q1759360"
   },
   {
@@ -187,9 +219,9 @@
     "native": "Mazamari",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6826,
-    "wikiDataId": "Q580017"
+    "wikiDataId": "Q6319861"
   },
   {
     "id": 80720,
@@ -203,9 +235,9 @@
     "native": "Moróco",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7890,
-    "wikiDataId": "Q766735"
+    "wikiDataId": "Q6320389"
   },
   {
     "id": 80734,
@@ -219,9 +251,9 @@
     "native": "Orcotuna",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4199,
-    "wikiDataId": "Q916382"
+    "wikiDataId": "Q6320018"
   },
   {
     "id": 80758,
@@ -232,7 +264,7 @@
     "country_code": "PE",
     "latitude": "-10.94510000",
     "longitude": "-75.22394000",
-    "native": "Paz",
+    "native": "Perené",
     "timezone": "America/Lima",
     "translations": {},
     "type": "adm3",
@@ -248,7 +280,7 @@
     "country_code": "PE",
     "latitude": "-12.04722000",
     "longitude": "-75.24931000",
-    "native": "Pilomeo",
+    "native": "Pilcomay",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
@@ -267,7 +299,7 @@
     "native": "Provincia de Chupaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 52988,
     "wikiDataId": "Q1777631"
   },
@@ -283,25 +315,9 @@
     "native": "Provincia de Concepción",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 55591,
     "wikiDataId": "Q1991124"
-  },
-  {
-    "id": 80834,
-    "name": "Provincia de Huancayo",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-12.17319000",
-    "longitude": "-75.16169000",
-    "native": "Provincia de Huancayo",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 545615,
-    "wikiDataId": "Q1777621"
   },
   {
     "id": 80846,
@@ -334,54 +350,6 @@
     "type": "city",
     "population": 15320,
     "wikiDataId": "Q644721"
-  },
-  {
-    "id": 80893,
-    "name": "Provincia de Satipo",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-11.50000000",
-    "longitude": "-74.25000000",
-    "native": "Provincia de Satipo",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 203985,
-    "wikiDataId": "Q1335384"
-  },
-  {
-    "id": 80902,
-    "name": "Provincia de Tarma",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-11.40562000",
-    "longitude": "-75.69129000",
-    "native": "Provincia de Tarma",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 51350,
-    "wikiDataId": "Q946269"
-  },
-  {
-    "id": 80909,
-    "name": "Provincia de Yauli",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-11.66667000",
-    "longitude": "-76.16667000",
-    "native": "Provincia de Yauli",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 40390,
-    "wikiDataId": "Q1342828"
   },
   {
     "id": 80940,
@@ -427,9 +395,9 @@
     "native": "San Pedro de Cajas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5758,
-    "wikiDataId": "Q25400021"
+    "wikiDataId": "Q7415148"
   },
   {
     "id": 80956,
@@ -443,9 +411,25 @@
     "native": "San Ramón",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14708,
-    "wikiDataId": "Q2219996"
+    "wikiDataId": "Q6320495"
+  },
+  {
+    "id": 80893,
+    "name": "Satipo",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-11.25305556",
+    "longitude": "-74.63722222",
+    "native": "Satipo",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3057885"
   },
   {
     "id": 80970,
@@ -459,9 +443,9 @@
     "native": "Satipo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 15532,
-    "wikiDataId": "Q3057885"
+    "wikiDataId": "Q6319920"
   },
   {
     "id": 80974,
@@ -475,9 +459,25 @@
     "native": "Sicaya",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6842,
-    "wikiDataId": "Q7507402"
+    "wikiDataId": "Q6319759"
+  },
+  {
+    "id": 80902,
+    "name": "Tarma",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-11.40562000",
+    "longitude": "-75.69129000",
+    "native": "Tarma",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1759366"
   },
   {
     "id": 80991,
@@ -491,8 +491,8 @@
     "native": "Tarma",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 54078,
-    "wikiDataId": "Q1759366"
+    "wikiDataId": "Q7686343"
   }
 ]

@@ -1,37 +1,5 @@
 [
   {
-    "id": 48332,
-    "name": "Bacup",
-    "state_id": 2327,
-    "state_code": "RCH",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.70336000",
-    "longitude": "-2.20070000",
-    "native": "Bacup",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 13047,
-    "wikiDataId": "Q2514944"
-  },
-  {
-    "id": 48604,
-    "name": "Borough of Rochdale",
-    "state_id": 2327,
-    "state_code": "RCH",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.58333000",
-    "longitude": "-2.16667000",
-    "native": "Borough of Rochdale",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q1892596"
-  },
-  {
     "id": 49920,
     "name": "Heywood",
     "state_id": 2327,
@@ -43,7 +11,7 @@
     "native": "Heywood",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "section",
+    "type": "town",
     "population": 28024,
     "wikiDataId": "Q1013970"
   },
@@ -59,9 +27,25 @@
     "native": "Littleborough",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13807,
     "wikiDataId": "Q3835082"
+  },
+  {
+    "id": 50573,
+    "name": "Middleton",
+    "state_id": 2327,
+    "state_code": "RCH",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.55000000",
+    "longitude": "-2.20000000",
+    "native": "Middleton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 45589,
+    "wikiDataId": "Q2560244"
   },
   {
     "id": 50591,
@@ -75,7 +59,7 @@
     "native": "Milnrow",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13061,
     "wikiDataId": "Q1615982"
   },
@@ -88,10 +72,10 @@
     "country_code": "GB",
     "latitude": "53.61766000",
     "longitude": "-2.15520000",
-    "native": "Roughly",
+    "native": "Rochdale",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 110194,
     "wikiDataId": "Q474605"
   },
@@ -110,21 +94,5 @@
     "type": "city",
     "population": 7250,
     "wikiDataId": "Q666517"
-  },
-  {
-    "id": 51886,
-    "name": "Whitworth",
-    "state_id": 2327,
-    "state_code": "RCH",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.65601000",
-    "longitude": "-2.17710000",
-    "native": "Whitworth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 5798,
-    "wikiDataId": "Q338864"
   }
 ]

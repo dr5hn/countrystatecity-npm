@@ -61,6 +61,7 @@ export interface ISubregion {
   wikiDataId: string | null;
 }
 
+/** Projected state fields; upstream type_local, level and parent_id are omitted. */
 export interface IState {
   id: number;
   name: string;
@@ -77,6 +78,7 @@ export interface IState {
   translations: ITranslations;
 }
 
+/** Projected city fields; upstream type_local, county_id, level and parent_id are omitted. */
 export interface ICity {
   id: number;
   name: string;
@@ -89,7 +91,7 @@ export interface ICity {
   native: string | null;
   timezone: string | null;
   translations: ITranslations;
-  /** Place classification from the source database (e.g. "city", "adm1", "adm2"). Null if unavailable. */
+  /** Upstream classification (e.g. "municipality", "city", "town", "village", "locality", "section", or legacy "adm1"/"adm2"). Null if unavailable. */
   type?: string | null;
   population?: number | null;
   wikiDataId?: string | null;

@@ -1,35 +1,19 @@
 [
   {
-    "id": 105362,
-    "name": "Amphoe Kabin Buri",
-    "state_id": 3542,
-    "state_code": "25",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.90000000",
-    "longitude": "101.80000000",
-    "native": "อำเภอกบินทร์บุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475560"
-  },
-  {
     "id": 105217,
     "name": "Ban Sang",
     "state_id": 3542,
     "state_code": "25",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.95005000",
-    "longitude": "101.25063000",
-    "native": "อำเภอบ้านสร้าง",
+    "latitude": "13.99551000",
+    "longitude": "101.22084000",
+    "native": "บ้านสร้าง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475174"
+    "wikiDataId": null
   },
   {
     "id": 106504,
@@ -48,36 +32,20 @@
     "wikiDataId": "Q15980713"
   },
   {
-    "id": 105576,
-    "name": "Mueang Prachin Buri",
-    "state_id": 3542,
-    "state_code": "25",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.09335000",
-    "longitude": "101.39776000",
-    "native": "อำเภอเมืองปราจีนบุรี",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 12703,
-    "wikiDataId": "Q1935384"
-  },
-  {
     "id": 105610,
     "name": "Na Di",
     "state_id": 3542,
     "state_code": "25",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.19253000",
-    "longitude": "101.84557000",
-    "native": "อำเภอนาดี",
+    "latitude": "14.11565000",
+    "longitude": "101.78211000",
+    "native": "นาดี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476123"
+    "wikiDataId": null
   },
   {
     "id": 105794,
@@ -107,7 +75,7 @@
     "native": "ปราจีนบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 32600,
     "wikiDataId": "Q1365804"
   },
@@ -118,14 +86,14 @@
     "state_code": "25",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.89041000",
-    "longitude": "101.54181000",
-    "native": "อำเภอศรีมหาโพธิ์",
+    "latitude": "13.96136243",
+    "longitude": "101.51179329",
+    "native": "ศรีมหาโพธิ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476693"
+    "wikiDataId": "Q16335071"
   },
   {
     "id": 106215,

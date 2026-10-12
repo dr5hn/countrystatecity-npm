@@ -11,8 +11,24 @@
     "native": "Bagua Grande",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 20382,
+    "wikiDataId": "Q597029"
+  },
+  {
+    "id": 81006,
+    "name": "Bagua Grande",
+    "state_id": 3685,
+    "state_code": "AMA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-5.75583333",
+    "longitude": "-78.44277778",
+    "native": "Bagua Grande",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q793765"
   },
   {
@@ -24,12 +40,12 @@
     "country_code": "PE",
     "latitude": "-5.73639000",
     "longitude": "-78.42556000",
-    "native": "Vale",
+    "native": "Cajaruro",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7281,
-    "wikiDataId": "Q205119"
+    "wikiDataId": "Q660648"
   },
   {
     "id": 80602,
@@ -43,8 +59,24 @@
     "native": "Chachapoyas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 32026,
+    "wikiDataId": "Q1229806"
+  },
+  {
+    "id": 80803,
+    "name": "Chachapoyas",
+    "state_id": 3685,
+    "state_code": "AMA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.22944444",
+    "longitude": "-77.87138889",
+    "native": "Chachapoyas",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q757133"
   },
   {
@@ -75,9 +107,9 @@
     "native": "La Peca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 27045,
-    "wikiDataId": "Q1759360"
+    "wikiDataId": "Q2640030"
   },
   {
     "id": 80781,
@@ -91,7 +123,7 @@
     "native": "Provincia de Bagua",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 74100,
     "wikiDataId": "Q1366082"
   },
@@ -107,25 +139,9 @@
     "native": "Provincia de Bongará",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 25637,
     "wikiDataId": "Q1342814"
-  },
-  {
-    "id": 80803,
-    "name": "Provincia de Chachapoyas",
-    "state_id": 3685,
-    "state_code": "AMA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.27480000",
-    "longitude": "-77.81067000",
-    "native": "Provincia de Chachapoyas",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 55506,
-    "wikiDataId": "Q997406"
   },
   {
     "id": 80857,
@@ -139,7 +155,7 @@
     "native": "Provincia de Luya",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 44436,
     "wikiDataId": "Q268277"
   },
@@ -155,24 +171,8 @@
     "native": "Provincia de Rodríguez de Mendoza",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 29998,
     "wikiDataId": "Q1366038"
-  },
-  {
-    "id": 81006,
-    "name": "Utcubamba",
-    "state_id": 3685,
-    "state_code": "AMA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-5.77031000",
-    "longitude": "-78.32850000",
-    "native": "Utcubamba",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 107237,
-    "wikiDataId": "Q941183"
   }
 ]

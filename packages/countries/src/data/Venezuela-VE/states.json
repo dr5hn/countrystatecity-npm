@@ -165,6 +165,21 @@
     "translations": {}
   },
   {
+    "id": 2046,
+    "name": "Federal Dependencies",
+    "country_id": 239,
+    "country_code": "VE",
+    "fips_code": null,
+    "iso2": "W",
+    "iso3166_2": "VE-W",
+    "type": "federal dependency",
+    "latitude": "8.00187090",
+    "longitude": "-66.11093180",
+    "native": "Venezuela",
+    "timezone": "America/Caracas",
+    "translations": {}
+  },
+  {
     "id": 2045,
     "name": "Guárico",
     "country_id": 239,
@@ -326,21 +341,6 @@
     "latitude": "9.49581290",
     "longitude": "-70.76889070",
     "native": "Trujillo",
-    "timezone": "America/Caracas",
-    "translations": {}
-  },
-  {
-    "id": 2046,
-    "name": "Venezuela",
-    "country_id": 239,
-    "country_code": "VE",
-    "fips_code": null,
-    "iso2": "W",
-    "iso3166_2": "VE-W",
-    "type": "federal dependency",
-    "latitude": "8.00187090",
-    "longitude": "-66.11093180",
-    "native": "Venezuela",
     "timezone": "America/Caracas",
     "translations": {}
   },

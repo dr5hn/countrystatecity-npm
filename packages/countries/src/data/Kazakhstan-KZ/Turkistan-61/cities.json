@@ -96,22 +96,6 @@
     "wikiDataId": "Q2509316"
   },
   {
-    "id": 65659,
-    "name": "Chardara",
-    "state_id": 149,
-    "state_code": "61",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "41.25832000",
-    "longitude": "67.96991000",
-    "native": "Чардара",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1047741"
-  },
-  {
     "id": 65660,
     "name": "Chayan",
     "state_id": 149,
@@ -320,6 +304,22 @@
     "wikiDataId": "Q12561247"
   },
   {
+    "id": 65659,
+    "name": "Shardara",
+    "state_id": 149,
+    "state_code": "61",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "41.25832000",
+    "longitude": "67.96991000",
+    "native": "Чардара",
+    "timezone": "Asia/Almaty",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1047741"
+  },
+  {
     "id": 65795,
     "name": "Sozaq Aūdany",
     "state_id": 149,
@@ -369,7 +369,7 @@
   },
   {
     "id": 65819,
-    "name": "Turkestan",
+    "name": "Turkistan",
     "state_id": 149,
     "state_code": "61",
     "country_id": 112,
@@ -414,5 +414,21 @@
     "type": "city",
     "population": 2000,
     "wikiDataId": "Q1881641"
+  },
+  {
+    "id": 165150,
+    "name": "Zhetysay",
+    "state_id": 149,
+    "state_code": "61",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "40.77631000",
+    "longitude": "68.32774000",
+    "native": "Жетісай",
+    "timezone": "Asia/Almaty",
+    "translations": {},
+    "type": "adm2",
+    "population": 36494,
+    "wikiDataId": "Q2378055"
   }
 ]

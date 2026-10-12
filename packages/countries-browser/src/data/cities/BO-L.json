@@ -8,12 +8,28 @@
     "country_code": "BO",
     "latitude": "-16.05000000",
     "longitude": "-68.68333000",
-    "native": "AUT ACHACHICHI.",
+    "native": "Achacachi",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
     "population": 8857,
     "wikiDataId": "Q1553175"
+  },
+  {
+    "id": 164512,
+    "name": "Achocalla",
+    "state_id": 3380,
+    "state_code": "L",
+    "country_id": 27,
+    "country_code": "BO",
+    "latitude": "-16.57386000",
+    "longitude": "-68.15112000",
+    "native": null,
+    "timezone": "America/La_Paz",
+    "translations": {},
+    "type": "city",
+    "population": 19583,
+    "wikiDataId": "Q340576"
   },
   {
     "id": 9828,
@@ -72,7 +88,7 @@
     "country_code": "BO",
     "latitude": "-16.40855000",
     "longitude": "-67.52940000",
-    "native": "Tocar",
+    "native": "Chulumani",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -200,7 +216,7 @@
     "country_code": "BO",
     "latitude": "-16.20000000",
     "longitude": "-68.68333000",
-    "native": "Ajetreo",
+    "native": "Huatajata",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -256,6 +272,22 @@
     "wikiDataId": "Q1800652"
   },
   {
+    "id": 164513,
+    "name": "Laja",
+    "state_id": 3380,
+    "state_code": "L",
+    "country_id": 27,
+    "country_code": "BO",
+    "latitude": "-16.53333000",
+    "longitude": "-68.38333000",
+    "native": null,
+    "timezone": "America/La_Paz",
+    "translations": {},
+    "type": "adm3",
+    "population": null,
+    "wikiDataId": "Q1545913"
+  },
+  {
     "id": 9884,
     "name": "Mapiri",
     "state_id": 3380,
@@ -264,7 +296,7 @@
     "country_code": "BO",
     "latitude": "-15.25000000",
     "longitude": "-68.16667000",
-    "native": "Más",
+    "native": "Mapiri",
     "timezone": "America/La_Paz",
     "translations": {},
     "type": "city",
@@ -299,7 +331,7 @@
     "native": "Aroma de la provincia",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 98205,
     "wikiDataId": "Q490997"
   },
@@ -315,7 +347,7 @@
     "native": "Provincia Bautista Saavedra",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 16308,
     "wikiDataId": "Q1166108"
   },
@@ -347,7 +379,7 @@
     "native": "Provincia Franz Tamayo",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 20986,
     "wikiDataId": "Q1355903"
   },
@@ -363,7 +395,7 @@
     "native": "Provincia Gualberto Villarroel",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 17865,
     "wikiDataId": "Q267695"
   },
@@ -379,7 +411,7 @@
     "native": "Provincia de Ingavi",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 134965,
     "wikiDataId": "Q1355971"
   },
@@ -395,7 +427,7 @@
     "native": "Provincias de políticas",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 48804,
     "wikiDataId": "Q1325725"
   },
@@ -427,7 +459,7 @@
     "native": "Provincia Larecaja",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 86122,
     "wikiDataId": "Q1325760"
   },
@@ -443,7 +475,7 @@
     "native": "Provincia Loayza",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 42811,
     "wikiDataId": "Q1424412"
   },
@@ -459,7 +491,7 @@
     "native": "Provincia Los Andes",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 78579,
     "wikiDataId": "Q1355950"
   },
@@ -475,7 +507,7 @@
     "native": "Provincia Manco Kapac",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 27244,
     "wikiDataId": "Q1325738"
   },
@@ -491,7 +523,7 @@
     "native": "Provincia Muñecas",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 17809,
     "wikiDataId": "Q1355881"
   },
@@ -507,7 +539,7 @@
     "native": "Provincia Murillo",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 1669807,
     "wikiDataId": "Q120514"
   },
@@ -523,7 +555,7 @@
     "native": "Provincia Nor Yungas",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 36983,
     "wikiDataId": "Q389311"
   },
@@ -539,7 +571,7 @@
     "native": "Provincia Omasuyos",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 84634,
     "wikiDataId": "Q951271"
   },
@@ -555,7 +587,7 @@
     "native": "La Paz Pahachjes Phujesis",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 51824,
     "wikiDataId": "Q1355941"
   },
@@ -571,7 +603,7 @@
     "native": "Provincia Sud Yungas",
     "timezone": "America/La_Paz",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 100650,
     "wikiDataId": "Q609394"
   },
@@ -593,7 +625,7 @@
   },
   {
     "id": 10017,
-    "name": "San Pablo",
+    "name": "San Pablo de Tiquina",
     "state_id": 3380,
     "state_code": "L",
     "country_id": 27,
@@ -654,6 +686,22 @@
     "type": "city",
     "population": 3037,
     "wikiDataId": "Q61750"
+  },
+  {
+    "id": 164509,
+    "name": "Viacha",
+    "state_id": 3380,
+    "state_code": "L",
+    "country_id": 27,
+    "country_code": "BO",
+    "latitude": "-16.65000000",
+    "longitude": "-68.30000000",
+    "native": null,
+    "timezone": "America/La_Paz",
+    "translations": {},
+    "type": "adm2",
+    "population": 86218,
+    "wikiDataId": "Q1002035"
   },
   {
     "id": 10049,

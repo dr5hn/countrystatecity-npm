@@ -1,69 +1,5 @@
 [
   {
-    "id": 48159,
-    "name": "Abbots Langley",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.70573000",
-    "longitude": "-0.41757000",
-    "native": "Abbots Langley",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 10472,
-    "wikiDataId": "Q2167664"
-  },
-  {
-    "id": 48801,
-    "name": "Bushey",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.64316000",
-    "longitude": "-0.36053000",
-    "native": "Bushey",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 17380,
-    "wikiDataId": "Q10996"
-  },
-  {
-    "id": 48985,
-    "name": "Chorleywood",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.65472000",
-    "longitude": "-0.51404000",
-    "native": "Chorleywood",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 11695,
-    "wikiDataId": "Q2335129"
-  },
-  {
-    "id": 49463,
-    "name": "Elstree",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.64030000",
-    "longitude": "-0.29693000",
-    "native": "Elstree",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1835,
-    "wikiDataId": "Q19931"
-  },
-  {
     "id": 49744,
     "name": "Greenhill",
     "state_id": 2385,
@@ -77,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 9324,
-    "wikiDataId": "Q83475"
+    "wikiDataId": null
   },
   {
     "id": 49818,
@@ -93,23 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 10632,
-    "wikiDataId": "Q1520103"
-  },
-  {
-    "id": 50166,
-    "name": "Kings Langley",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.71395000",
-    "longitude": "-0.45044000",
-    "native": "Kings Langley",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7230,
-    "wikiDataId": "Q19807"
+    "wikiDataId": null
   },
   {
     "id": 50914,
@@ -128,54 +48,6 @@
     "wikiDataId": "Q2453742"
   },
   {
-    "id": 51018,
-    "name": "Radlett",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.68593000",
-    "longitude": "-0.31868000",
-    "native": "Radlett",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8163,
-    "wikiDataId": "Q19772"
-  },
-  {
-    "id": 51079,
-    "name": "Rickmansworth",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.63898000",
-    "longitude": "-0.47718000",
-    "native": "Rickmansworth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 12043,
-    "wikiDataId": "Q9611"
-  },
-  {
-    "id": 51395,
-    "name": "St Albans",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.75000000",
-    "longitude": "-0.33333000",
-    "native": "St Albans",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 82146,
-    "wikiDataId": "Q6226"
-  },
-  {
     "id": 51427,
     "name": "Stanmore",
     "state_id": 2385,
@@ -190,21 +62,5 @@
     "type": "city",
     "population": 4179,
     "wikiDataId": "Q2279685"
-  },
-  {
-    "id": 51773,
-    "name": "Watford",
-    "state_id": 2385,
-    "state_code": "HRW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.65531000",
-    "longitude": "-0.39602000",
-    "native": "Watford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 125707,
-    "wikiDataId": "Q2598"
   }
 ]

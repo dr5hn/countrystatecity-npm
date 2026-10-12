@@ -11,7 +11,7 @@
     "native": "Аксарка",
     "timezone": "Asia/Yekaterinburg",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2576,
     "wikiDataId": "Q31871776"
   },
@@ -43,7 +43,7 @@
     "native": "Харп",
     "timezone": "Asia/Yekaterinburg",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7298,
     "wikiDataId": "Q1067697"
   },
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 6998,
-    "wikiDataId": "Q155309"
+    "wikiDataId": null
   },
   {
     "id": 99531,
@@ -107,7 +107,7 @@
     "native": "Мужи",
     "timezone": "Asia/Yekaterinburg",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3736,
     "wikiDataId": "Q1025907"
   },
@@ -142,22 +142,6 @@
     "type": "city",
     "population": 45229,
     "wikiDataId": "Q5099"
-  },
-  {
-    "id": 100044,
-    "name": "Nadymskiy Rayon",
-    "state_id": 1847,
-    "state_code": "YAN",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "66.00000000",
-    "longitude": "73.00000000",
-    "native": "Надымский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q977071"
   },
   {
     "id": 100352,
@@ -221,7 +205,7 @@
     "translations": {},
     "type": "city",
     "population": 11132,
-    "wikiDataId": "Q37959348"
+    "wikiDataId": null
   },
   {
     "id": 100844,
@@ -233,27 +217,11 @@
     "latitude": "66.66667000",
     "longitude": "67.66667000",
     "native": "Приуральский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Asia/Yekaterinburg",
     "translations": {},
     "type": "city",
     "population": null,
     "wikiDataId": "Q2217991"
-  },
-  {
-    "id": 100892,
-    "name": "Purovskiy Rayon",
-    "state_id": 1847,
-    "state_code": "YAN",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "64.66667000",
-    "longitude": "78.00000000",
-    "native": "Пуровский район",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2483064"
   },
   {
     "id": 100893,
@@ -281,27 +249,11 @@
     "latitude": "66.53000000",
     "longitude": "66.60194000",
     "native": "Салехард",
-    "timezone": "Europe/Moscow",
-    "translations": {},
-    "type": "adm1",
-    "population": 51188,
-    "wikiDataId": "Q6494"
-  },
-  {
-    "id": 101354,
-    "name": "Shuryshkarskiy Rayon",
-    "state_id": 1847,
-    "state_code": "YAN",
-    "country_id": 182,
-    "country_code": "RU",
-    "latitude": "65.33333000",
-    "longitude": "64.00000000",
-    "native": "Шурышкарский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Asia/Yekaterinburg",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q2217901"
+    "population": 51188,
+    "wikiDataId": "Q6494"
   },
   {
     "id": 101606,
@@ -337,7 +289,7 @@
   },
   {
     "id": 101807,
-    "name": "Tazovskiy",
+    "name": "Tazovsky",
     "state_id": 1847,
     "state_code": "YAN",
     "country_id": 182,
@@ -347,7 +299,7 @@
     "native": "Тазовский",
     "timezone": "Asia/Yekaterinburg",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5981,
     "wikiDataId": "Q1420679"
   },
@@ -379,7 +331,7 @@
     "native": "Яр-Сале",
     "timezone": "Asia/Yekaterinburg",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4885,
     "wikiDataId": "Q33523019"
   }

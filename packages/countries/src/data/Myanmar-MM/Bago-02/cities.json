@@ -72,7 +72,7 @@
     "country_code": "MM",
     "latitude": "18.82464000",
     "longitude": "95.22216000",
-    "native": "ပြည်လမ်း",
+    "native": "ပြည်မြို့",
     "timezone": "Asia/Yangon",
     "translations": {},
     "type": "city",
@@ -94,6 +94,22 @@
     "type": "city",
     "population": 40386,
     "wikiDataId": "Q7263956"
+  },
+  {
+    "id": 165226,
+    "name": "Shwegyin",
+    "state_id": 2141,
+    "state_code": "02",
+    "country_id": 151,
+    "country_code": "MM",
+    "latitude": "17.92118000",
+    "longitude": "96.87676000",
+    "native": null,
+    "timezone": "Asia/Yangon",
+    "translations": {},
+    "type": "city",
+    "population": 24579,
+    "wikiDataId": "Q13074760"
   },
   {
     "id": 67694,
@@ -142,5 +158,21 @@
     "type": "city",
     "population": 54386,
     "wikiDataId": "Q7710820"
+  },
+  {
+    "id": 165227,
+    "name": "Yedashe",
+    "state_id": 2141,
+    "state_code": "02",
+    "country_id": 151,
+    "country_code": "MM",
+    "latitude": "19.15633000",
+    "longitude": "96.34593000",
+    "native": null,
+    "timezone": "Asia/Yangon",
+    "translations": {},
+    "type": "city",
+    "population": 24420,
+    "wikiDataId": "Q8051062"
   }
 ]

@@ -11,9 +11,9 @@
     "native": "Бахилово",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1189,
-    "wikiDataId": "Q4076139"
+    "wikiDataId": "Q4079813"
   },
   {
     "id": 97772,
@@ -27,7 +27,7 @@
     "native": "Балашейка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2614,
     "wikiDataId": "Q31900085"
   },
@@ -59,7 +59,7 @@
     "native": "Безенчук",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 22387,
     "wikiDataId": "Q829797"
   },
@@ -73,7 +73,7 @@
     "latitude": "53.06010000",
     "longitude": "51.33250000",
     "native": "Богатое",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "adm2",
     "population": 5594,
@@ -89,11 +89,27 @@
     "latitude": "53.42980000",
     "longitude": "49.94550000",
     "native": "Богатырь",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q3266993"
+  },
+  {
+    "id": 165490,
+    "name": "Bol’shaya Chernigovka",
+    "state_id": 1862,
+    "state_code": "SAM",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "52.09287000",
+    "longitude": "50.86829000",
+    "native": null,
+    "timezone": "Europe/Samara",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q13640261"
   },
   {
     "id": 98043,
@@ -105,9 +121,9 @@
     "latitude": "53.03333000",
     "longitude": "51.71667000",
     "native": "Борское",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 8916,
     "wikiDataId": "Q31924912"
   },
@@ -139,7 +155,7 @@
     "native": "Челно-Вершины",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5519,
     "wikiDataId": "Q13211221"
   },
@@ -155,7 +171,7 @@
     "native": "Дубовый Умёт",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3105,
     "wikiDataId": "Q37783935"
   },
@@ -171,7 +187,7 @@
     "native": "Георгиевка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3638,
     "wikiDataId": "Q18772228"
   },
@@ -185,9 +201,9 @@
     "latitude": "54.13333000",
     "longitude": "51.53333000",
     "native": "Исаклы",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4360,
     "wikiDataId": "Q37808718"
   },
@@ -203,7 +219,7 @@
     "native": "Камышла",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4784,
     "wikiDataId": "Q37823140"
   },
@@ -219,7 +235,7 @@
     "native": "Хрящевка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3472,
     "wikiDataId": "Q19868918"
   },
@@ -235,7 +251,7 @@
     "native": "Хворостянка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 5164,
     "wikiDataId": "Q4496937"
   },
@@ -249,9 +265,9 @@
     "latitude": "53.22571000",
     "longitude": "50.62907000",
     "native": "Кинель",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q146468"
   },
@@ -265,7 +281,7 @@
     "latitude": "53.47060000",
     "longitude": "51.47431000",
     "native": "Кинель-Черкассы",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "city",
     "population": null,
@@ -281,7 +297,7 @@
     "latitude": "53.16667000",
     "longitude": "50.75000000",
     "native": "Кинельский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "city",
     "population": null,
@@ -315,7 +331,7 @@
     "native": "Кошки",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 7338,
     "wikiDataId": "Q35700239"
   },
@@ -331,9 +347,9 @@
     "native": "Красноармейское",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5403,
-    "wikiDataId": "Q3894112"
+    "wikiDataId": "Q13640263"
   },
   {
     "id": 99346,
@@ -345,7 +361,7 @@
     "latitude": "53.50000000",
     "longitude": "50.50000000",
     "native": "Красноярский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "city",
     "population": null,
@@ -363,7 +379,7 @@
     "native": "Красный Яр",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 7664,
     "wikiDataId": "Q4239659"
   },
@@ -379,7 +395,7 @@
     "native": "Кротовка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5275,
     "wikiDataId": "Q18782466"
   },
@@ -395,7 +411,7 @@
     "native": "Курумоч",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5994,
     "wikiDataId": "Q15874"
   },
@@ -411,7 +427,7 @@
     "native": "Майское",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1128,
     "wikiDataId": "Q35726641"
   },
@@ -427,7 +443,7 @@
     "native": "Междуреченск",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3454,
     "wikiDataId": "Q4288632"
   },
@@ -443,7 +459,7 @@
     "native": "Мирный",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7393,
     "wikiDataId": "Q35730470"
   },
@@ -459,7 +475,7 @@
     "native": "Нефтегорск",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 17717,
     "wikiDataId": "Q172575"
   },
@@ -473,7 +489,7 @@
     "latitude": "52.83333000",
     "longitude": "50.83333000",
     "native": "Нефтегорский район",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "city",
     "population": null,
@@ -489,7 +505,7 @@
     "latitude": "53.09590000",
     "longitude": "49.94620000",
     "native": "Новокуйбышевск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "adm2",
     "population": 95862,
@@ -507,7 +523,7 @@
     "native": "Новосемейкино",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10185,
     "wikiDataId": "Q4325394"
   },
@@ -523,7 +539,7 @@
     "native": "Новый Буян",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3508,
     "wikiDataId": "Q18793717"
   },
@@ -539,7 +555,7 @@
     "native": "Обшаровка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5044,
     "wikiDataId": "Q37899991"
   },
@@ -553,7 +569,7 @@
     "latitude": "53.16722000",
     "longitude": "48.70056000",
     "native": "Октябрьск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "adm2",
     "population": null,
@@ -571,7 +587,7 @@
     "native": "Осинки",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2858,
     "wikiDataId": "Q37904039"
   },
@@ -587,7 +603,7 @@
     "native": "Отрадный",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 50127,
     "wikiDataId": "Q177770"
   },
@@ -603,9 +619,9 @@
     "native": "Переволоки",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1130,
-    "wikiDataId": "Q178175"
+    "wikiDataId": "Q19890954"
   },
   {
     "id": 100640,
@@ -617,9 +633,9 @@
     "latitude": "52.39820000",
     "longitude": "49.96100000",
     "native": "Пестравка",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 6057,
     "wikiDataId": "Q4359961"
   },
@@ -651,7 +667,7 @@
     "native": "Подсолнечное",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1138,
     "wikiDataId": "Q37958982"
   },
@@ -667,7 +683,7 @@
     "native": "Подстепки",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3140,
     "wikiDataId": "Q4368376"
   },
@@ -720,6 +736,22 @@
     "wikiDataId": "Q4377710"
   },
   {
+    "id": 165505,
+    "name": "Privolzh’ye",
+    "state_id": 1862,
+    "state_code": "SAM",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "52.85873000",
+    "longitude": "48.59827000",
+    "native": null,
+    "timezone": "Europe/Samara",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4377904"
+  },
+  {
     "id": 100996,
     "name": "Roschinskiy",
     "state_id": 1862,
@@ -733,7 +765,7 @@
     "translations": {},
     "type": "city",
     "population": 10903,
-    "wikiDataId": "Q643611"
+    "wikiDataId": null
   },
   {
     "id": 101015,
@@ -747,7 +779,7 @@
     "native": "Рождествено",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5004,
     "wikiDataId": "Q4396156"
   },
@@ -761,11 +793,27 @@
     "latitude": "53.20007000",
     "longitude": "50.15000000",
     "native": "Самара",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "adm1",
     "population": 1154223,
     "wikiDataId": "Q894"
+  },
+  {
+    "id": 165508,
+    "name": "Sergiyevsk",
+    "state_id": 1862,
+    "state_code": "SAM",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "53.94310000",
+    "longitude": "51.16853000",
+    "native": null,
+    "timezone": "Europe/Samara",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4417053"
   },
   {
     "id": 101187,
@@ -779,7 +827,7 @@
     "native": "Серноводск",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3428,
     "wikiDataId": "Q4417701"
   },
@@ -793,7 +841,7 @@
     "latitude": "54.45000000",
     "longitude": "51.48333000",
     "native": "Шентала",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "city",
     "population": 5663,
@@ -809,7 +857,7 @@
     "latitude": "53.38750000",
     "longitude": "48.67770000",
     "native": "Шигони",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
     "type": "adm2",
     "population": 4959,
@@ -827,7 +875,7 @@
     "native": "Смышляевка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5908,
     "wikiDataId": "Q37957475"
   },
@@ -843,7 +891,7 @@
     "native": "Спиридоновка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4387,
     "wikiDataId": "Q37957226"
   },
@@ -859,7 +907,7 @@
     "native": "Суходол",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14296,
     "wikiDataId": "Q37956957"
   },
@@ -875,7 +923,7 @@
     "native": "Сургут",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4699,
     "wikiDataId": "Q20942025"
   },
@@ -923,7 +971,7 @@
     "native": "Утевка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5677,
     "wikiDataId": "Q37955934"
   },
@@ -939,7 +987,7 @@
     "native": "Варламово",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3353,
     "wikiDataId": "Q19811795"
   },
@@ -955,7 +1003,7 @@
     "native": "Волжский",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7919,
     "wikiDataId": "Q4120406"
   },
@@ -971,7 +1019,7 @@
     "native": "Елховка",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 3277,
     "wikiDataId": "Q33523343"
   },
@@ -985,9 +1033,9 @@
     "latitude": "53.39972000",
     "longitude": "49.49528000",
     "native": "Жигулевск",
-    "timezone": "Europe/Moscow",
+    "timezone": "Europe/Samara",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q136310"
   },
@@ -1003,9 +1051,9 @@
     "native": "Жигули",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1588,
-    "wikiDataId": "Q136310"
+    "wikiDataId": "Q4180032"
   },
   {
     "id": 102767,
@@ -1019,8 +1067,8 @@
     "native": "Зольное",
     "timezone": "Europe/Samara",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1614,
-    "wikiDataId": "Q2629977"
+    "wikiDataId": "Q4193732"
   }
 ]

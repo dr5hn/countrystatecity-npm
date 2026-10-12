@@ -1,5 +1,21 @@
 [
   {
+    "id": 48429,
+    "name": "Batley",
+    "state_id": 2371,
+    "state_code": "KIR",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.70291000",
+    "longitude": "-1.63370000",
+    "native": "Batley",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 50807,
+    "wikiDataId": "Q810847"
+  },
+  {
     "id": 48547,
     "name": "Blackmoorfoot",
     "state_id": 2371,
@@ -13,23 +29,39 @@
     "translations": {},
     "type": "city",
     "population": 3835,
-    "wikiDataId": "Q4923090"
+    "wikiDataId": null
   },
   {
-    "id": 48692,
-    "name": "Brighouse",
+    "id": 49023,
+    "name": "Clayton West",
     "state_id": 2371,
     "state_code": "KIR",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.70322000",
-    "longitude": "-1.78428000",
-    "native": "Brighouse",
+    "latitude": "53.59501000",
+    "longitude": "-1.61107000",
+    "native": "Clayton West",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 32360,
-    "wikiDataId": "Q183296"
+    "type": "section",
+    "population": 8109,
+    "wikiDataId": "Q5130366"
+  },
+  {
+    "id": 49027,
+    "name": "Cleckheaton",
+    "state_id": 2371,
+    "state_code": "KIR",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.72405000",
+    "longitude": "-1.71294000",
+    "native": "Cleckheaton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 27393,
+    "wikiDataId": "Q1022447"
   },
   {
     "id": 49261,
@@ -43,25 +75,25 @@
     "native": "Denby Dale",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3043,
     "wikiDataId": "Q3022297"
   },
   {
-    "id": 49452,
-    "name": "Elland",
+    "id": 49279,
+    "name": "Dewsbury",
     "state_id": 2371,
     "state_code": "KIR",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.68510000",
-    "longitude": "-1.83878000",
-    "native": "Elland",
+    "latitude": "53.69076000",
+    "longitude": "-1.62907000",
+    "native": "Dewsbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 15625,
-    "wikiDataId": "Q2265847"
+    "type": "town",
+    "population": 62945,
+    "wikiDataId": "Q525508"
   },
   {
     "id": 49471,
@@ -75,7 +107,7 @@
     "native": "Emley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1497,
     "wikiDataId": "Q5372666"
   },
@@ -91,7 +123,7 @@
     "native": "Flockton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1368,
     "wikiDataId": "Q5459967"
   },
@@ -107,7 +139,7 @@
     "native": "Heckmondwike",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11542,
     "wikiDataId": "Q768654"
   },
@@ -120,28 +152,12 @@
     "country_code": "GB",
     "latitude": "53.56968000",
     "longitude": "-1.78777000",
-    "native": "Holmfire",
+    "native": "Holmfirth",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
     "population": 1980,
     "wikiDataId": "Q2469027"
-  },
-  {
-    "id": 49974,
-    "name": "Holywell Green",
-    "state_id": 2371,
-    "state_code": "KIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.67406000",
-    "longitude": "-1.86682000",
-    "native": "Holywell Green",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3178,
-    "wikiDataId": "Q2550393"
   },
   {
     "id": 50018,
@@ -155,7 +171,7 @@
     "native": "Huddersfield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 162949,
     "wikiDataId": "Q201812"
   },
@@ -171,25 +187,9 @@
     "native": "Kirkburton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3786,
     "wikiDataId": "Q3152568"
-  },
-  {
-    "id": 50207,
-    "name": "Kirklees",
-    "state_id": 2371,
-    "state_code": "KIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.58333000",
-    "longitude": "-1.75000000",
-    "native": "Kirklees",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q918975"
   },
   {
     "id": 50312,
@@ -219,7 +219,7 @@
     "native": "Liversedge",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11656,
     "wikiDataId": "Q3835533"
   },
@@ -251,7 +251,7 @@
     "native": "Meltham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 9012,
     "wikiDataId": "Q2737155"
   },
@@ -283,25 +283,9 @@
     "native": "Mirfield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 19759,
     "wikiDataId": "Q1301336"
-  },
-  {
-    "id": 51032,
-    "name": "Rastrick",
-    "state_id": 2371,
-    "state_code": "KIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.69210000",
-    "longitude": "-1.78830000",
-    "native": "Rastrick",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 11351,
-    "wikiDataId": "Q2179656"
   },
   {
     "id": 51257,
@@ -315,9 +299,9 @@
     "native": "Shelley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5359,
-    "wikiDataId": "Q2174929"
+    "wikiDataId": null
   },
   {
     "id": 51261,
@@ -331,24 +315,8 @@
     "native": "Shepley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5444,
     "wikiDataId": "Q7494527"
-  },
-  {
-    "id": 51377,
-    "name": "Southowram",
-    "state_id": 2371,
-    "state_code": "KIR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.70988000",
-    "longitude": "-1.83181000",
-    "native": "Southowram",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2003,
-    "wikiDataId": "Q9339839"
   }
 ]

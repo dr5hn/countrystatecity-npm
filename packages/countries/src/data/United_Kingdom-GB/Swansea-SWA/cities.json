@@ -1,21 +1,5 @@
 [
   {
-    "id": 48246,
-    "name": "Ammanford",
-    "state_id": 2433,
-    "state_code": "SWA",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.79279000",
-    "longitude": "-3.98833000",
-    "native": "Ammanford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 23709,
-    "wikiDataId": "Q2472406"
-  },
-  {
     "id": 48533,
     "name": "Bishopston",
     "state_id": 2433,
@@ -27,25 +11,9 @@
     "native": "Bishopston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3229,
     "wikiDataId": "Q4918101"
-  },
-  {
-    "id": 48784,
-    "name": "Burry Port",
-    "state_id": 2433,
-    "state_code": "SWA",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.68435000",
-    "longitude": "-4.24687000",
-    "native": "Burry Port",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 8310,
-    "wikiDataId": "Q2253279"
   },
   {
     "id": 49005,
@@ -59,7 +27,7 @@
     "native": "City and County of Swansea",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q10996863"
   },
@@ -72,12 +40,12 @@
     "country_code": "GB",
     "latitude": "51.68333000",
     "longitude": "-3.90000000",
-    "native": "Cozy",
+    "native": "Clydach",
     "timezone": "Europe/London",
     "translations": {},
     "type": "adm3",
     "population": 19307,
-    "wikiDataId": "Q2098144"
+    "wikiDataId": null
   },
   {
     "id": 49165,
@@ -93,23 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 1012,
-    "wikiDataId": "Q2740386"
-  },
-  {
-    "id": 49647,
-    "name": "Glanamman",
-    "state_id": 2433,
-    "state_code": "SWA",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.80000000",
-    "longitude": "-3.93333000",
-    "native": "Glanamman",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4168,
-    "wikiDataId": "Q2079042"
+    "wikiDataId": null
   },
   {
     "id": 49684,
@@ -120,10 +72,10 @@
     "country_code": "GB",
     "latitude": "51.66931000",
     "longitude": "-4.04163000",
-    "native": "Atory",
+    "native": "Gorseinon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20581,
     "wikiDataId": "Q2741540"
   },
@@ -144,22 +96,6 @@
     "wikiDataId": "Q5611582"
   },
   {
-    "id": 50350,
-    "name": "Llanelli",
-    "state_id": 2433,
-    "state_code": "SWA",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.68195000",
-    "longitude": "-4.16191000",
-    "native": "Llanelli",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 49591,
-    "wikiDataId": "Q990125"
-  },
-  {
     "id": 50875,
     "name": "Pen-clawdd",
     "state_id": 2433,
@@ -168,12 +104,12 @@
     "country_code": "GB",
     "latitude": "51.64028000",
     "longitude": "-4.09917000",
-    "native": "Chief",
+    "native": "Pen-clawdd",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
     "population": 1935,
-    "wikiDataId": "Q1918003"
+    "wikiDataId": null
   },
   {
     "id": 50937,
@@ -184,10 +120,10 @@
     "country_code": "GB",
     "latitude": "51.71423000",
     "longitude": "-4.03859000",
-    "native": "Pontar",
+    "native": "Pontarddulais",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9073,
     "wikiDataId": "Q3397684"
   },
@@ -200,7 +136,7 @@
     "country_code": "GB",
     "latitude": "51.69139000",
     "longitude": "-4.01056000",
-    "native": "Bridge",
+    "native": "Pontlliw",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -221,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 2004,
-    "wikiDataId": "Q2957736"
+    "wikiDataId": null
   },
   {
     "id": 51532,
@@ -235,7 +171,7 @@
     "native": "Swansea",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 246466,
     "wikiDataId": "Q23051"
   },
@@ -251,24 +187,8 @@
     "native": "Three Crosses",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1476,
-    "wikiDataId": "Q784389"
-  },
-  {
-    "id": 51684,
-    "name": "Tycroes",
-    "state_id": 2433,
-    "state_code": "SWA",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.77806000",
-    "longitude": "-4.02000000",
-    "native": "Tyrant",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2156,
-    "wikiDataId": "Q7859766"
+    "wikiDataId": "Q20601928"
   }
 ]

@@ -11,8 +11,8 @@
     "native": "Aigurande",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1689,
+    "type": "municipality",
+    "population": 1321,
     "wikiDataId": "Q211643"
   },
   {
@@ -27,8 +27,8 @@
     "native": "Ardentes",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3747,
+    "type": "municipality",
+    "population": 3715,
     "wikiDataId": "Q1011529"
   },
   {
@@ -43,8 +43,8 @@
     "native": "Argenton-sur-Creuse",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 4817,
+    "type": "municipality",
+    "population": 4786,
     "wikiDataId": "Q275438"
   },
   {
@@ -59,8 +59,8 @@
     "native": "Arthon",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1216,
+    "type": "municipality",
+    "population": 1215,
     "wikiDataId": "Q1071892"
   },
   {
@@ -75,9 +75,9 @@
     "native": "Azay-le-Ferron",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 835,
-    "wikiDataId": "Q72240"
+    "type": "municipality",
+    "population": 817,
+    "wikiDataId": "Q1071845"
   },
   {
     "id": 40422,
@@ -91,8 +91,8 @@
     "native": "Bélâbre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 926,
+    "type": "municipality",
+    "population": 923,
     "wikiDataId": "Q1011330"
   },
   {
@@ -107,8 +107,8 @@
     "native": "Buzançais",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 4431,
+    "type": "municipality",
+    "population": 4356,
     "wikiDataId": "Q454445"
   },
   {
@@ -123,8 +123,8 @@
     "native": "Chabris",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2762,
+    "type": "municipality",
+    "population": 2740,
     "wikiDataId": "Q1080911"
   },
   {
@@ -139,9 +139,25 @@
     "native": "Chaillac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1031,
-    "wikiDataId": "Q34791282"
+    "type": "municipality",
+    "population": 1021,
+    "wikiDataId": "Q624059"
+  },
+  {
+    "id": 40778,
+    "name": "Chantôme",
+    "state_id": 5004,
+    "state_code": "36",
+    "country_id": 75,
+    "country_code": "FR",
+    "latitude": "46.41067000",
+    "longitude": "1.55590000",
+    "native": "Chantôme",
+    "timezone": "Europe/Paris",
+    "translations": {},
+    "type": "section",
+    "population": 1372,
+    "wikiDataId": "Q34791904"
   },
   {
     "id": 40978,
@@ -155,8 +171,8 @@
     "native": "Châteauroux",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm2",
-    "population": 43079,
+    "type": "municipality",
+    "population": 42963,
     "wikiDataId": "Q174251"
   },
   {
@@ -171,8 +187,8 @@
     "native": "Châtillon-sur-Indre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2873,
+    "type": "municipality",
+    "population": 2293,
     "wikiDataId": "Q470682"
   },
   {
@@ -187,9 +203,9 @@
     "native": "Clion",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1155,
-    "wikiDataId": "Q232056"
+    "type": "municipality",
+    "population": 1015,
+    "wikiDataId": "Q1071838"
   },
   {
     "id": 41062,
@@ -203,8 +219,8 @@
     "native": "Cluis",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 979,
+    "type": "municipality",
+    "population": 969,
     "wikiDataId": "Q587042"
   },
   {
@@ -219,25 +235,9 @@
     "native": "Déols",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 7618,
+    "type": "municipality",
+    "population": 7600,
     "wikiDataId": "Q473103"
-  },
-  {
-    "id": 41619,
-    "name": "Département de l'Indre",
-    "state_id": 5004,
-    "state_code": "36",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "46.83333000",
-    "longitude": "1.66667000",
-    "native": "Département de l'Indre",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q12553"
   },
   {
     "id": 48053,
@@ -251,8 +251,8 @@
     "native": "Écueillé",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1189,
+    "type": "municipality",
+    "population": 1188,
     "wikiDataId": "Q273736"
   },
   {
@@ -267,25 +267,9 @@
     "native": "Éguzon-Chantôme",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1314,
+    "type": "municipality",
+    "population": 1301,
     "wikiDataId": "Q274555"
-  },
-  {
-    "id": 41925,
-    "name": "Fougerolles",
-    "state_id": 5004,
-    "state_code": "36",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "47.88542000",
-    "longitude": "6.40454000",
-    "native": "Fougerolles",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": 4242,
-    "wikiDataId": "Q245149"
   },
   {
     "id": 42507,
@@ -299,8 +283,8 @@
     "native": "Issoudun",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 14385,
+    "type": "municipality",
+    "population": 11159,
     "wikiDataId": "Q210772"
   },
   {
@@ -315,8 +299,8 @@
     "native": "La Châtre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 4038,
+    "type": "municipality",
+    "population": 4037,
     "wikiDataId": "Q213313"
   },
   {
@@ -331,9 +315,9 @@
     "native": "Le Blanc",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 6188,
-    "wikiDataId": "Q1010962"
+    "type": "municipality",
+    "population": 6164,
+    "wikiDataId": "Q213290"
   },
   {
     "id": 43289,
@@ -347,8 +331,8 @@
     "native": "Le Pêchereau",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1781,
+    "type": "municipality",
+    "population": 1744,
     "wikiDataId": "Q669815"
   },
   {
@@ -363,8 +347,8 @@
     "native": "Le Poinçonnet",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 5848,
+    "type": "municipality",
+    "population": 5855,
     "wikiDataId": "Q1061591"
   },
   {
@@ -395,9 +379,9 @@
     "native": "Luant",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1584,
-    "wikiDataId": "Q648628"
+    "type": "municipality",
+    "population": 1604,
+    "wikiDataId": "Q1137524"
   },
   {
     "id": 43675,
@@ -411,8 +395,8 @@
     "native": "Luçay-le-Mâle",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1712,
+    "type": "municipality",
+    "population": 1324,
     "wikiDataId": "Q1137585"
   },
   {
@@ -427,8 +411,8 @@
     "native": "Martizay",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 950,
+    "type": "municipality",
+    "population": 956,
     "wikiDataId": "Q1137605"
   },
   {
@@ -443,8 +427,8 @@
     "native": "Mézières-en-Brenne",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 956,
+    "type": "municipality",
+    "population": 941,
     "wikiDataId": "Q631453"
   },
   {
@@ -459,8 +443,8 @@
     "native": "Montgivray",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1557,
+    "type": "municipality",
+    "population": 1546,
     "wikiDataId": "Q388452"
   },
   {
@@ -475,8 +459,8 @@
     "native": "Montierchaume",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1637,
+    "type": "municipality",
+    "population": 1624,
     "wikiDataId": "Q583202"
   },
   {
@@ -491,8 +475,8 @@
     "native": "Neuvy-Pailloux",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1161,
+    "type": "municipality",
+    "population": 1159,
     "wikiDataId": "Q662596"
   },
   {
@@ -507,8 +491,8 @@
     "native": "Neuvy-Saint-Sépulchre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1657,
+    "type": "municipality",
+    "population": 1623,
     "wikiDataId": "Q472855"
   },
   {
@@ -523,8 +507,8 @@
     "native": "Niherne",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1457,
+    "type": "municipality",
+    "population": 1444,
     "wikiDataId": "Q1137259"
   },
   {
@@ -539,8 +523,8 @@
     "native": "Pouligny-Saint-Pierre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1032,
+    "type": "municipality",
+    "population": 1023,
     "wikiDataId": "Q616668"
   },
   {
@@ -555,9 +539,9 @@
     "native": "Reuilly",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2009,
-    "wikiDataId": "Q264270"
+    "type": "municipality",
+    "population": 1984,
+    "wikiDataId": "Q1137201"
   },
   {
     "id": 45952,
@@ -571,8 +555,8 @@
     "native": "Saint-Gaultier",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1714,
+    "type": "municipality",
+    "population": 1701,
     "wikiDataId": "Q627194"
   },
   {
@@ -587,9 +571,9 @@
     "native": "Saint-Marcel",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1510,
-    "wikiDataId": "Q903247"
+    "type": "municipality",
+    "population": 1514,
+    "wikiDataId": "Q750517"
   },
   {
     "id": 46309,
@@ -603,9 +587,9 @@
     "native": "Saint-Maur",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3354,
-    "wikiDataId": "Q1136748"
+    "type": "municipality",
+    "population": 3537,
+    "wikiDataId": "Q28484570"
   },
   {
     "id": 46702,
@@ -619,8 +603,8 @@
     "native": "Sainte-Lizaigne",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1109,
+    "type": "municipality",
+    "population": 1101,
     "wikiDataId": "Q1136652"
   },
   {
@@ -635,8 +619,8 @@
     "native": "Tournon-Saint-Martin",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1120,
+    "type": "municipality",
+    "population": 1112,
     "wikiDataId": "Q1072164"
   },
   {
@@ -651,8 +635,8 @@
     "native": "Valençay",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2897,
+    "type": "municipality",
+    "population": 2228,
     "wikiDataId": "Q474503"
   },
   {
@@ -667,9 +651,9 @@
     "native": "Vatan",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1959,
-    "wikiDataId": "Q1345560"
+    "type": "municipality",
+    "population": 1994,
+    "wikiDataId": "Q472888"
   },
   {
     "id": 47579,
@@ -683,9 +667,9 @@
     "native": "Vendœuvres",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1094,
-    "wikiDataId": "Q214575"
+    "type": "municipality",
+    "population": 1086,
+    "wikiDataId": "Q660300"
   },
   {
     "id": 47731,
@@ -699,8 +683,8 @@
     "native": "Villedieu-sur-Indre",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2615,
+    "type": "municipality",
+    "population": 2583,
     "wikiDataId": "Q545756"
   }
 ]

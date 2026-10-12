@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 31864,
-    "wikiDataId": "Q21848444"
+    "wikiDataId": "Q2837875"
   },
   {
     "id": 739,
@@ -27,7 +27,7 @@
     "native": "Catriel",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 15169,
     "wikiDataId": "Q3663629"
   },
@@ -43,7 +43,7 @@
     "native": "Cervantes",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5173,
     "wikiDataId": "Q5065312"
   },
@@ -59,7 +59,7 @@
     "native": "Chichinales",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3057,
     "wikiDataId": "Q5096059"
   },
@@ -75,7 +75,7 @@
     "native": "Chimpancín",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3905,
     "wikiDataId": "Q4520581"
   },
@@ -91,7 +91,7 @@
     "native": "Choele Choel",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10146,
     "wikiDataId": "Q52522"
   },
@@ -107,7 +107,7 @@
     "native": "Cinco Saltos",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19819,
     "wikiDataId": "Q2933923"
   },
@@ -139,7 +139,7 @@
     "native": "Comallo",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1306,
     "wikiDataId": "Q1954924"
   },
@@ -155,9 +155,9 @@
     "native": "Contraalmirante Cordero",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q21841285"
+    "wikiDataId": "Q5165727"
   },
   {
     "id": 798,
@@ -168,10 +168,10 @@
     "country_code": "AR",
     "latitude": "-39.18688000",
     "longitude": "-65.95422000",
-    "native": "Belisle de coronel",
+    "native": "Coronel Belisle",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1841,
     "wikiDataId": "Q2884472"
   },
@@ -187,41 +187,9 @@
     "native": "Darwin",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1052,
     "wikiDataId": "Q5225916"
-  },
-  {
-    "id": 832,
-    "name": "Departamento de Avellaneda",
-    "state_id": 3639,
-    "state_code": "R",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-39.50000000",
-    "longitude": "-66.50000000",
-    "native": "Departamento de Avellaneda",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 41352,
-    "wikiDataId": "Q1190249"
-  },
-  {
-    "id": 1032,
-    "name": "Departamento de Veinticinco de Mayo",
-    "state_id": 3639,
-    "state_code": "R",
-    "country_id": 11,
-    "country_code": "AR",
-    "latitude": "-41.25000000",
-    "longitude": "-69.00000000",
-    "native": "Departamento de Veinticinco de Mayo",
-    "timezone": "America/Argentina/Buenos_Aires",
-    "translations": {},
-    "type": "city",
-    "population": 20824,
-    "wikiDataId": "Q288586"
   },
   {
     "id": 1050,
@@ -251,7 +219,7 @@
     "native": "El Cuy",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q995105"
   },
@@ -269,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 6401,
-    "wikiDataId": "Q5493943"
+    "wikiDataId": null
   },
   {
     "id": 1099,
@@ -283,9 +251,9 @@
     "native": "General Conesa",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5484,
-    "wikiDataId": "Q21839871"
+    "wikiDataId": "Q1985908"
   },
   {
     "id": 1100,
@@ -315,7 +283,7 @@
     "native": "General Fernández Oro",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6772,
     "wikiDataId": "Q3100497"
   },
@@ -347,7 +315,7 @@
     "native": "Ingeniero Jacobacci",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6261,
     "wikiDataId": "Q2205145"
   },
@@ -379,7 +347,7 @@
     "native": "Lamarque",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7686,
     "wikiDataId": "Q6480952"
   },
@@ -395,20 +363,20 @@
     "native": "Los Menucos",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2689,
     "wikiDataId": "Q4353093"
   },
   {
     "id": 1263,
-    "name": "Mainque",
+    "name": "Mainqué",
     "state_id": 3639,
     "state_code": "R",
     "country_id": 11,
     "country_code": "AR",
     "latitude": "-39.06667000",
     "longitude": "-67.30000000",
-    "native": "Mano",
+    "native": "Mainqué",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
     "type": "city",
@@ -427,13 +395,13 @@
     "native": "Maquinchao",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2494,
     "wikiDataId": "Q2171426"
   },
   {
     "id": 1599,
-    "name": "Ñorquinco",
+    "name": "Ñorquincó",
     "state_id": 3639,
     "state_code": "R",
     "country_id": 11,
@@ -443,7 +411,7 @@
     "native": "Ñorquinco",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q292866"
   },
@@ -475,7 +443,7 @@
     "native": "Río Colorado",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11733,
     "wikiDataId": "Q1410272"
   },
@@ -491,7 +459,7 @@
     "native": "San Antonio Oeste",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 16265,
     "wikiDataId": "Q1894082"
   },
@@ -507,7 +475,7 @@
     "native": "San Carlos de Bariloche",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 95394,
     "wikiDataId": "Q47772"
   },
@@ -523,7 +491,7 @@
     "native": "Sierra Colorada",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1542,
     "wikiDataId": "Q692861"
   },
@@ -539,9 +507,9 @@
     "native": "Sierra Grande",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7404,
-    "wikiDataId": "Q21834393"
+    "wikiDataId": "Q826812"
   },
   {
     "id": 1525,
@@ -555,7 +523,7 @@
     "native": "Valcheta",
     "timezone": "America/Argentina/Salta",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3867,
     "wikiDataId": "Q1015230"
   },
@@ -571,7 +539,7 @@
     "native": "Viedma",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 59993,
     "wikiDataId": "Q44240"
   },

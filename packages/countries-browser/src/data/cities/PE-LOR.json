@@ -11,9 +11,9 @@
     "native": "Andoas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q3649471"
+    "wikiDataId": "Q4754521"
   },
   {
     "id": 147941,
@@ -43,7 +43,7 @@
     "native": "Caballococha",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 0,
     "wikiDataId": "Q3317724"
   },
@@ -59,9 +59,25 @@
     "native": "Cape Pantoja",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 564,
     "wikiDataId": "Q19206831"
+  },
+  {
+    "id": 165434,
+    "name": "Contamana",
+    "state_id": 4922,
+    "state_code": "LOR",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-7.33333000",
+    "longitude": "-75.01667000",
+    "native": null,
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "municipality",
+    "population": 20900,
+    "wikiDataId": "Q5164916"
   },
   {
     "id": 147952,
@@ -75,9 +91,9 @@
     "native": "Indiana",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q6022990"
+    "wikiDataId": "Q8560764"
   },
   {
     "id": 147940,
@@ -91,9 +107,9 @@
     "native": "Iquitos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 377609,
-    "wikiDataId": "Q193289"
+    "wikiDataId": "Q383734"
   },
   {
     "id": 147945,
@@ -107,9 +123,9 @@
     "native": "Jeberos",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q27094722"
+    "wikiDataId": "Q6172546"
   },
   {
     "id": 147946,
@@ -123,9 +139,9 @@
     "native": "Jenaro Herrera",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q15696655"
+    "wikiDataId": "Q6177392"
   },
   {
     "id": 147948,
@@ -139,9 +155,9 @@
     "native": "Lagunas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 9197,
-    "wikiDataId": "Q27194615"
+    "wikiDataId": "Q6473032"
   },
   {
     "id": 147942,
@@ -152,12 +168,12 @@
     "country_code": "PE",
     "latitude": "-4.50833333",
     "longitude": "-73.58333333",
-    "native": "Cejas",
+    "native": "Nauta",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 14646,
-    "wikiDataId": "Q3309417"
+    "wikiDataId": "Q6981448"
   },
   {
     "id": 147953,
@@ -168,7 +184,7 @@
     "country_code": "PE",
     "latitude": "-3.71666667",
     "longitude": "-73.23333333",
-    "native": "Dayana",
+    "native": "Punchana",
     "timezone": "America/Lima",
     "translations": {},
     "type": "section",
@@ -203,7 +219,7 @@
     "native": "San Antonio del Estrecho",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8000,
     "wikiDataId": "Q19799162"
   },
@@ -219,7 +235,7 @@
     "native": "San Lorenzo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 0,
     "wikiDataId": "Q3317765"
   },
@@ -235,9 +251,9 @@
     "native": "San Pablo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q28905458"
+    "wikiDataId": "Q3317744"
   },
   {
     "id": 147951,
@@ -251,7 +267,7 @@
     "native": "Tamshiyacu",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 0,
     "wikiDataId": "Q3514886"
   },
@@ -267,8 +283,8 @@
     "native": "Yurimaguas",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 62903,
-    "wikiDataId": "Q117625"
+    "wikiDataId": "Q8061684"
   }
 ]

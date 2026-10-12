@@ -27,7 +27,7 @@
     "native": "المواسط",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 115857,
     "wikiDataId": "Q4120341"
   },
@@ -59,7 +59,7 @@
     "native": "المظفر",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm1",
+    "type": "area",
     "population": 171315,
     "wikiDataId": "Q4117614"
   },
@@ -120,7 +120,7 @@
     "country_code": "YE",
     "latitude": "13.34590000",
     "longitude": "44.20720000",
-    "native": "كما سيلو",
+    "native": "مديرية الصلو",
     "timezone": "Asia/Aden",
     "translations": {},
     "type": "adm2",
@@ -139,7 +139,7 @@
     "native": "آش شامياتين",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 152486,
     "wikiDataId": "Q4165477"
   },
@@ -152,12 +152,28 @@
     "country_code": "YE",
     "latitude": "13.69479000",
     "longitude": "44.00941000",
-    "native": "في التعزية",
+    "native": "مديرية التعزية",
     "timezone": "Asia/Aden",
     "translations": {},
     "type": "adm1",
     "population": null,
     "wikiDataId": "Q1884248"
+  },
+  {
+    "id": 165858,
+    "name": "At Turbah",
+    "state_id": 1231,
+    "state_code": "TA",
+    "country_id": 245,
+    "country_code": "YE",
+    "latitude": "13.21270000",
+    "longitude": "44.12415000",
+    "native": null,
+    "timezone": "Asia/Aden",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q12184911"
   },
   {
     "id": 130838,
@@ -187,7 +203,7 @@
     "native": "دمنة خضير",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 112653,
     "wikiDataId": "Q4118319"
   },
@@ -203,7 +219,7 @@
     "native": "حيفان",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 75288,
     "wikiDataId": "Q4118985"
   },
@@ -219,7 +235,7 @@
     "native": "جبل حبشي",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 119818,
     "wikiDataId": "Q4119006"
   },
@@ -235,7 +251,7 @@
     "native": "مقبانة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 186955,
     "wikiDataId": "Q4118981"
   },
@@ -267,7 +283,7 @@
     "native": "ماوية",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 129765,
     "wikiDataId": "Q4117789"
   },
@@ -299,7 +315,7 @@
     "native": "صابر الموادم",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 109533,
     "wikiDataId": "Q4118385"
   },
@@ -315,7 +331,7 @@
     "native": "صالح",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "adm2",
+    "type": "area",
     "population": 149394,
     "wikiDataId": "Q4117815"
   },
@@ -331,7 +347,7 @@
     "native": "ساما",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 41464,
     "wikiDataId": "Q7408406"
   },
@@ -347,7 +363,7 @@
     "native": "شراب الرونة",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 146650,
     "wikiDataId": "Q4120339"
   },
@@ -363,7 +379,7 @@
     "native": "شراب السلام",
     "timezone": "Asia/Aden",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 109814,
     "wikiDataId": "Q4120340"
   },

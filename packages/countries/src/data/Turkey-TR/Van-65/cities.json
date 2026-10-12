@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3731,
-    "wikiDataId": "Q788634"
+    "wikiDataId": null
   },
   {
     "id": 107315,
@@ -27,9 +27,9 @@
     "native": "Başkale",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 14516,
-    "wikiDataId": "Q2670796"
+    "type": "municipality",
+    "population": 37568,
+    "wikiDataId": "Q812759"
   },
   {
     "id": 108760,
@@ -59,8 +59,8 @@
     "native": "Çatak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 20937,
+    "type": "municipality",
+    "population": 16361,
     "wikiDataId": "Q272667"
   },
   {
@@ -75,9 +75,9 @@
     "native": "Edremit",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
-    "population": 154487,
-    "wikiDataId": "Q43387"
+    "type": "municipality",
+    "population": 132309,
+    "wikiDataId": "Q2647150"
   },
   {
     "id": 107583,
@@ -91,9 +91,9 @@
     "native": "Erciş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 173313,
-    "wikiDataId": "Q2218549"
+    "type": "municipality",
+    "population": 169040,
+    "wikiDataId": "Q1911586"
   },
   {
     "id": 107670,
@@ -107,9 +107,9 @@
     "native": "Gevaş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 11879,
-    "wikiDataId": "Q1004448"
+    "type": "municipality",
+    "population": 26253,
+    "wikiDataId": "Q1004597"
   },
   {
     "id": 107753,
@@ -155,8 +155,8 @@
     "native": "Muradiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 41402,
     "wikiDataId": "Q1000878"
   },
   {
@@ -171,9 +171,9 @@
     "native": "Özalp",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 8249,
-    "wikiDataId": "Q1344290"
+    "type": "municipality",
+    "population": 51357,
+    "wikiDataId": "Q307726"
   },
   {
     "id": 108387,
@@ -206,5 +206,21 @@
     "type": "city",
     "population": 160522,
     "wikiDataId": "Q16968873"
+  },
+  {
+    "id": 165604,
+    "name": "Van",
+    "state_id": 2152,
+    "state_code": "65",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "38.49457000",
+    "longitude": "43.38323000",
+    "native": "Van",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "adm1",
+    "population": 525016,
+    "wikiDataId": "Q83061"
   }
 ]

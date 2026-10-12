@@ -11,25 +11,9 @@
     "native": "Alexandria",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6860,
     "wikiDataId": "Q1240659"
-  },
-  {
-    "id": 48344,
-    "name": "Balfron",
-    "state_id": 2440,
-    "state_code": "WDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.06809000",
-    "longitude": "-4.33559000",
-    "native": "Balfron",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2100,
-    "wikiDataId": "Q1010220"
   },
   {
     "id": 48350,
@@ -48,22 +32,6 @@
     "wikiDataId": "Q805302"
   },
   {
-    "id": 48537,
-    "name": "Bishopton",
-    "state_id": 2440,
-    "state_code": "WDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.90969000",
-    "longitude": "-4.50560000",
-    "native": "Bishopton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 4640,
-    "wikiDataId": "Q2098147"
-  },
-  {
     "id": 48590,
     "name": "Bonhill",
     "state_id": 2440,
@@ -75,25 +43,25 @@
     "native": "Bonhill",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 9050,
     "wikiDataId": "Q4093370"
   },
   {
-    "id": 48857,
-    "name": "Cardross",
+    "id": 49043,
+    "name": "Clydebank",
     "state_id": 2440,
     "state_code": "WDU",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.96184000",
-    "longitude": "-4.65316000",
-    "native": "Cardross",
+    "latitude": "55.90137000",
+    "longitude": "-4.40570000",
+    "native": "Clydebank",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 2110,
-    "wikiDataId": "Q212088"
+    "type": "section",
+    "population": 26320,
+    "wikiDataId": "Q996502"
   },
   {
     "id": 49340,
@@ -107,7 +75,7 @@
     "native": "Dumbarton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 20560,
     "wikiDataId": "Q34779"
   },
@@ -139,25 +107,9 @@
     "native": "Faifley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 4860,
-    "wikiDataId": "Q1990804"
-  },
-  {
-    "id": 50147,
-    "name": "Killearn",
-    "state_id": 2440,
-    "state_code": "WDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "56.04239000",
-    "longitude": "-4.36840000",
-    "native": "Killearn",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1690,
-    "wikiDataId": "Q1010543"
+    "wikiDataId": null
   },
   {
     "id": 50803,
@@ -171,7 +123,7 @@
     "native": "Old Kilpatrick",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 4680,
     "wikiDataId": "Q2064938"
   },
@@ -187,7 +139,7 @@
     "native": "Renton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2340,
     "wikiDataId": "Q7313552"
   },
@@ -200,12 +152,12 @@
     "country_code": "GB",
     "latitude": "55.97132000",
     "longitude": "-4.57928000",
-    "native": "Pale or life",
+    "native": "Vale of Leven",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 24640,
-    "wikiDataId": "Q844784"
+    "wikiDataId": null
   },
   {
     "id": 51815,
@@ -219,7 +171,7 @@
     "native": "West Dunbartonshire",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 88930,
     "wikiDataId": "Q208121"
   }

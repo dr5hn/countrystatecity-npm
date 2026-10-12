@@ -1,21 +1,5 @@
 [
   {
-    "id": 48354,
-    "name": "Ballykelly",
-    "state_id": 2446,
-    "state_code": "DRS",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.04425000",
-    "longitude": "-7.01855000",
-    "native": "Ballykelly",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1735,
-    "wikiDataId": "Q575071"
-  },
-  {
     "id": 48882,
     "name": "Castlederg",
     "state_id": 2446,
@@ -27,7 +11,7 @@
     "native": "Castlederg",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2822,
     "wikiDataId": "Q3544113"
   },
@@ -43,7 +27,7 @@
     "native": "Culmore",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3645,
     "wikiDataId": "Q702848"
   },
@@ -59,9 +43,9 @@
     "native": "Derry",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 85016,
-    "wikiDataId": "Q5262556"
+    "wikiDataId": null
   },
   {
     "id": 49273,
@@ -75,9 +59,9 @@
     "native": "Derry City and Strabane",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 150679,
-    "wikiDataId": "Q5262556"
+    "wikiDataId": null
   },
   {
     "id": 49446,
@@ -109,7 +93,7 @@
     "translations": {},
     "type": "section",
     "population": 87153,
-    "wikiDataId": "Q84"
+    "wikiDataId": null
   },
   {
     "id": 50741,
@@ -123,7 +107,7 @@
     "native": "Newtownstewart",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1465,
     "wikiDataId": "Q2779526"
   },
@@ -139,7 +123,7 @@
     "native": "Sion Mills",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2212,
     "wikiDataId": "Q576454"
   },
@@ -155,7 +139,7 @@
     "native": "Strabane",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 14198,
     "wikiDataId": "Q1027659"
   }

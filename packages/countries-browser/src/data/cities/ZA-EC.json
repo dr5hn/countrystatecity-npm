@@ -80,6 +80,22 @@
     "wikiDataId": "Q455705"
   },
   {
+    "id": 165912,
+    "name": "Barkly East",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-30.96830000",
+    "longitude": "27.59567000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q808291"
+  },
+  {
     "id": 131037,
     "name": "Bhisho",
     "state_id": 938,
@@ -192,6 +208,22 @@
     "wikiDataId": "Q1138465"
   },
   {
+    "id": 165886,
+    "name": "Dimbaza",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-32.83483000",
+    "longitude": "27.21742000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 26099,
+    "wikiDataId": "Q5277177"
+  },
+  {
     "id": 131086,
     "name": "Dordrecht",
     "state_id": 938,
@@ -224,22 +256,6 @@
     "wikiDataId": "Q209537"
   },
   {
-    "id": 131103,
-    "name": "Elliot",
-    "state_id": 938,
-    "state_code": "EC",
-    "country_id": 204,
-    "country_code": "ZA",
-    "latitude": "-31.33333000",
-    "longitude": "27.85000000",
-    "native": "Elliot",
-    "timezone": "Africa/Johannesburg",
-    "translations": {},
-    "type": "city",
-    "population": 17224,
-    "wikiDataId": "Q1880498"
-  },
-  {
     "id": 131109,
     "name": "Fort Beaufort",
     "state_id": 938,
@@ -254,6 +270,38 @@
     "type": "adm3",
     "population": 58419,
     "wikiDataId": "Q473216"
+  },
+  {
+    "id": 165889,
+    "name": "Gonubie",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-32.94433000",
+    "longitude": "28.01496000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 23733,
+    "wikiDataId": "Q5582119"
+  },
+  {
+    "id": 131225,
+    "name": "Gqeberha",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-33.96109000",
+    "longitude": "25.61494000",
+    "native": "Port Elizabeth",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm2",
+    "population": 1050078,
+    "wikiDataId": "Q125434"
   },
   {
     "id": 131119,
@@ -272,20 +320,20 @@
     "wikiDataId": "Q1004667"
   },
   {
-    "id": 131121,
-    "name": "Grahamstown",
+    "id": 165878,
+    "name": "Humansdorp",
     "state_id": 938,
     "state_code": "EC",
     "country_id": 204,
     "country_code": "ZA",
-    "latitude": "-33.30422000",
-    "longitude": "26.53276000",
-    "native": "Grahamstown",
+    "latitude": "-34.02903000",
+    "longitude": "24.76912000",
+    "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
-    "population": 91548,
-    "wikiDataId": "Q951161"
+    "type": "city",
+    "population": 34733,
+    "wikiDataId": "Q2119634"
   },
   {
     "id": 131133,
@@ -296,12 +344,28 @@
     "country_code": "ZA",
     "latitude": "-31.97676000",
     "longitude": "27.04267000",
-    "native": "It's a challenge",
+    "native": "Ilinge",
     "timezone": "Africa/Johannesburg",
     "translations": {},
     "type": "city",
     "population": 12806,
     "wikiDataId": "Q31922881"
+  },
+  {
+    "id": 165879,
+    "name": "Jeffreys Bay",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-34.04526000",
+    "longitude": "24.92146000",
+    "native": "Jeffreysbaai",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 32477,
+    "wikiDataId": "Q585092"
   },
   {
     "id": 131135,
@@ -318,6 +382,22 @@
     "type": "municipality",
     "population": 372912,
     "wikiDataId": "Q654849"
+  },
+  {
+    "id": 131103,
+    "name": "Khowa",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-31.33333000",
+    "longitude": "27.85000000",
+    "native": "Khowa",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 17224,
+    "wikiDataId": "Q1880498"
   },
   {
     "id": 131141,
@@ -344,12 +424,28 @@
     "country_code": "ZA",
     "latitude": "-34.00333000",
     "longitude": "24.73142000",
-    "native": "Crossfontein",
+    "native": "Kruisfontein",
     "timezone": "Africa/Johannesburg",
     "translations": {},
     "type": "city",
     "population": 18991,
     "wikiDataId": "Q31935880"
+  },
+  {
+    "id": 131259,
+    "name": "KwaNojoli",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-32.72173000",
+    "longitude": "25.58804000",
+    "native": "KwaNojoli",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm3",
+    "population": 22553,
+    "wikiDataId": "Q1021900"
   },
   {
     "id": 131157,
@@ -366,6 +462,38 @@
     "type": "adm3",
     "population": 25041,
     "wikiDataId": "Q3642180"
+  },
+  {
+    "id": 131121,
+    "name": "Makhanda",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-33.30422000",
+    "longitude": "26.53276000",
+    "native": "Makhanda",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm3",
+    "population": 91548,
+    "wikiDataId": "Q951161"
+  },
+  {
+    "id": 165867,
+    "name": "Mdantsane",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-32.93324000",
+    "longitude": "27.77656000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 205504,
+    "wikiDataId": "Q984406"
   },
   {
     "id": 131174,
@@ -400,6 +528,22 @@
     "wikiDataId": "Q1003348"
   },
   {
+    "id": 165913,
+    "name": "Mount Ayliff",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-30.80821000",
+    "longitude": "29.36644000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q3642301"
+  },
+  {
     "id": 131191,
     "name": "Mthatha",
     "state_id": 938,
@@ -414,6 +558,22 @@
     "type": "city",
     "population": 164848,
     "wikiDataId": "Q1020914"
+  },
+  {
+    "id": 165900,
+    "name": "Ndevana",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-32.90769000",
+    "longitude": "27.50973000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q23017320"
   },
   {
     "id": 131197,
@@ -464,22 +624,6 @@
     "wikiDataId": "Q1693203"
   },
   {
-    "id": 131225,
-    "name": "Port Elizabeth",
-    "state_id": 938,
-    "state_code": "EC",
-    "country_id": 204,
-    "country_code": "ZA",
-    "latitude": "-33.96109000",
-    "longitude": "25.61494000",
-    "native": "Port Elizabeth",
-    "timezone": "Africa/Johannesburg",
-    "translations": {},
-    "type": "adm2",
-    "population": 1050078,
-    "wikiDataId": "Q125434"
-  },
-  {
     "id": 131226,
     "name": "Port Saint John’s",
     "state_id": 938,
@@ -528,22 +672,6 @@
     "wikiDataId": "Q610600"
   },
   {
-    "id": 131259,
-    "name": "Somerset East",
-    "state_id": 938,
-    "state_code": "EC",
-    "country_id": 204,
-    "country_code": "ZA",
-    "latitude": "-32.72173000",
-    "longitude": "25.58804000",
-    "native": "Somerset East",
-    "timezone": "Africa/Johannesburg",
-    "translations": {},
-    "type": "adm3",
-    "population": 22553,
-    "wikiDataId": "Q1021900"
-  },
-  {
     "id": 131266,
     "name": "Stutterheim",
     "state_id": 938,
@@ -558,6 +686,22 @@
     "type": "adm3",
     "population": 35510,
     "wikiDataId": "Q1021884"
+  },
+  {
+    "id": 165906,
+    "name": "Tlokoeng",
+    "state_id": 938,
+    "state_code": "EC",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-30.69268000",
+    "longitude": "28.50610000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3643045"
   },
   {
     "id": 131279,

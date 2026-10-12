@@ -11,7 +11,7 @@
     "native": "Борово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2232,
     "wikiDataId": "Q405846"
   },
@@ -27,7 +27,7 @@
     "native": "Две могили",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4526,
     "wikiDataId": "Q407228"
   },
@@ -43,7 +43,7 @@
     "native": "Иваново",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 1031,
     "wikiDataId": "Q935789"
   },
@@ -59,7 +59,7 @@
     "native": "Община Борово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2652921"
   },
@@ -75,9 +75,9 @@
     "native": "Община Бяла",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q132395"
+    "wikiDataId": "Q2609654"
   },
   {
     "id": 9468,
@@ -91,7 +91,7 @@
     "native": "Община Две Могили",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2721034"
   },
@@ -107,7 +107,7 @@
     "native": "Община Иваново",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2721303"
   },
@@ -123,7 +123,7 @@
     "native": "Община Русе",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2652929"
   },
@@ -139,7 +139,7 @@
     "native": "Община Сливо Поле",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2609442"
   },
@@ -155,7 +155,7 @@
     "native": "Община Ценово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2609662"
   },
@@ -171,7 +171,7 @@
     "native": "Община Ветово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2716767"
   },
@@ -187,7 +187,7 @@
     "native": "Русе",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 121168,
     "wikiDataId": "Q160173"
   },
@@ -219,7 +219,7 @@
     "native": "Сливо Поле",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3252,
     "wikiDataId": "Q406747"
   },
@@ -235,9 +235,9 @@
     "native": "Ценово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 2229,
-    "wikiDataId": "Q147938"
+    "wikiDataId": "Q2994082"
   },
   {
     "id": 9739,
@@ -253,6 +253,6 @@
     "translations": {},
     "type": "city",
     "population": 5175,
-    "wikiDataId": "Q405114"
+    "wikiDataId": "Q404746"
   }
 ]

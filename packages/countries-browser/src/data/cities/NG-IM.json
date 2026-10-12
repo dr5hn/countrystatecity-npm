@@ -1,5 +1,21 @@
 [
   {
+    "id": 165312,
+    "name": "Dikenafai",
+    "state_id": 308,
+    "state_code": "IM",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.77015000",
+    "longitude": "7.15473000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q25105778"
+  },
+  {
     "id": 76925,
     "name": "Iho",
     "state_id": 308,
@@ -8,12 +24,12 @@
     "country_code": "NG",
     "latitude": "5.58225000",
     "longitude": "7.09896000",
-    "native": "Down",
+    "native": "Iho",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 7776,
-    "wikiDataId": "Q5991613"
+    "wikiDataId": null
   },
   {
     "id": 77055,
@@ -24,12 +40,12 @@
     "country_code": "NG",
     "latitude": "5.71044000",
     "longitude": "6.80936000",
-    "native": "Guess",
+    "native": "Oguta",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 21639,
-    "wikiDataId": "Q500366"
+    "wikiDataId": "Q3510973"
   },
   {
     "id": 77062,
@@ -40,12 +56,12 @@
     "country_code": "NG",
     "latitude": "5.82917000",
     "longitude": "7.35056000",
-    "native": "Copy",
+    "native": "Okigwe",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 115499,
-    "wikiDataId": "Q2017187"
+    "wikiDataId": "Q3509182"
   },
   {
     "id": 77073,
@@ -59,9 +75,9 @@
     "native": "Orleu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9351,
-    "wikiDataId": "Q852238"
+    "wikiDataId": "Q3508985"
   },
   {
     "id": 77074,
@@ -72,12 +88,12 @@
     "country_code": "NG",
     "latitude": "5.61667000",
     "longitude": "7.03333000",
-    "native": "Race",
+    "native": "Orodo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8527,
-    "wikiDataId": "Q852238"
+    "wikiDataId": "Q7103733"
   },
   {
     "id": 77078,
@@ -91,8 +107,24 @@
     "native": "Owerri",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 545000,
     "wikiDataId": "Q583619"
+  },
+  {
+    "id": 165321,
+    "name": "Umundugba",
+    "state_id": 308,
+    "state_code": "IM",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "5.67597000",
+    "longitude": "7.07184000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": null,
+    "wikiDataId": "Q7881848"
   }
 ]

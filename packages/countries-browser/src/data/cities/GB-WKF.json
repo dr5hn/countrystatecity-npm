@@ -11,41 +11,9 @@
     "native": "Badsworth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 695,
     "wikiDataId": "Q2646554"
-  },
-  {
-    "id": 48429,
-    "name": "Batley",
-    "state_id": 2465,
-    "state_code": "WKF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.70291000",
-    "longitude": "-1.63370000",
-    "native": "Batley",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 50807,
-    "wikiDataId": "Q810847"
-  },
-  {
-    "id": 48807,
-    "name": "Byram",
-    "state_id": 2465,
-    "state_code": "WKF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.72394000",
-    "longitude": "-1.26128000",
-    "native": "Byram",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1406,
-    "wikiDataId": "Q24264129"
   },
   {
     "id": 48883,
@@ -59,25 +27,9 @@
     "native": "Castleford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 60509,
     "wikiDataId": "Q546485"
-  },
-  {
-    "id": 49004,
-    "name": "City and Borough of Wakefield",
-    "state_id": 2465,
-    "state_code": "WKF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.68085000",
-    "longitude": "-1.49895000",
-    "native": "City and Borough of Wakefield",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 109766,
-    "wikiDataId": "Q763171"
   },
   {
     "id": 49164,
@@ -91,7 +43,7 @@
     "native": "Crofton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 6359,
     "wikiDataId": "Q2740386"
   },
@@ -107,25 +59,9 @@
     "native": "Darrington",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 1402,
     "wikiDataId": "Q5225309"
-  },
-  {
-    "id": 49279,
-    "name": "Dewsbury",
-    "state_id": 2465,
-    "state_code": "WKF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.69076000",
-    "longitude": "-1.62907000",
-    "native": "Dewsbury",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 62945,
-    "wikiDataId": "Q525508"
   },
   {
     "id": 49550,
@@ -155,9 +91,25 @@
     "native": "Fitzwilliam",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 4259,
     "wikiDataId": "Q5455748"
+  },
+  {
+    "id": 49899,
+    "name": "Hemsworth",
+    "state_id": 2465,
+    "state_code": "WKF",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.61267000",
+    "longitude": "-1.35424000",
+    "native": "Hemsworth",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 9246,
+    "wikiDataId": "Q2556975"
   },
   {
     "id": 49988,
@@ -171,7 +123,7 @@
     "native": "Horbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10225,
     "wikiDataId": "Q5902902"
   },
@@ -187,7 +139,7 @@
     "native": "Knottingley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13804,
     "wikiDataId": "Q1777543"
   },
@@ -205,23 +157,7 @@
     "translations": {},
     "type": "adm3",
     "population": 167,
-    "wikiDataId": "Q665330"
-  },
-  {
-    "id": 50385,
-    "name": "Lofthouse",
-    "state_id": 2465,
-    "state_code": "WKF",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.72947000",
-    "longitude": "-1.49697000",
-    "native": "Lofthouse",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 23458,
-    "wikiDataId": "Q3836404"
+    "wikiDataId": "Q3423814"
   },
   {
     "id": 50420,
@@ -237,7 +173,7 @@
     "translations": {},
     "type": "city",
     "population": 1500,
-    "wikiDataId": "Q1554129"
+    "wikiDataId": null
   },
   {
     "id": 50559,
@@ -253,7 +189,7 @@
     "translations": {},
     "type": "city",
     "population": 1184,
-    "wikiDataId": "Q938271"
+    "wikiDataId": null
   },
   {
     "id": 50572,
@@ -272,20 +208,20 @@
     "wikiDataId": "Q11779580"
   },
   {
-    "id": 50618,
-    "name": "Monk Fryston",
+    "id": 50788,
+    "name": "Notton",
     "state_id": 2465,
     "state_code": "WKF",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.76160000",
-    "longitude": "-1.23751000",
-    "native": "Monk Fryston",
+    "latitude": "53.61267000",
+    "longitude": "-1.47234000",
+    "native": "Notton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 1728,
-    "wikiDataId": "Q11785210"
+    "type": "village",
+    "population": 479,
+    "wikiDataId": "Q962234"
   },
   {
     "id": 50821,
@@ -296,10 +232,10 @@
     "country_code": "GB",
     "latitude": "53.67978000",
     "longitude": "-1.58006000",
-    "native": "Obset",
+    "native": "Ossett",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 21616,
     "wikiDataId": "Q1788889"
   },
@@ -315,7 +251,7 @@
     "native": "Pontefract",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 44710,
     "wikiDataId": "Q1009235"
   },
@@ -347,25 +283,41 @@
     "native": "Sharlston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 4028,
     "wikiDataId": "Q2797044"
   },
   {
-    "id": 51360,
-    "name": "South Milford",
+    "id": 51352,
+    "name": "South Elmsall",
     "state_id": 2465,
     "state_code": "WKF",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.77672000",
-    "longitude": "-1.24609000",
-    "native": "South Milford",
+    "latitude": "53.59709000",
+    "longitude": "-1.28034000",
+    "native": "South Elmsall",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 1995,
-    "wikiDataId": "Q2538811"
+    "type": "town",
+    "population": 18835,
+    "wikiDataId": "Q953645"
+  },
+  {
+    "id": 51704,
+    "name": "Upton",
+    "state_id": 2465,
+    "state_code": "WKF",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.61466000",
+    "longitude": "-1.28677000",
+    "native": "Upton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "adm3",
+    "population": 5874,
+    "wikiDataId": "Q2065618"
   },
   {
     "id": 51726,
@@ -379,8 +331,24 @@
     "native": "Wakefield",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 99251,
     "wikiDataId": "Q216638"
+  },
+  {
+    "id": 51981,
+    "name": "Woolley",
+    "state_id": 2465,
+    "state_code": "WKF",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.61339000",
+    "longitude": "-1.51457000",
+    "native": "Woolley",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 365,
+    "wikiDataId": "Q4355527"
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": 48386,
+    "name": "Barking",
+    "state_id": 2356,
+    "state_code": "BDG",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "51.53333000",
+    "longitude": "0.08333000",
+    "native": "Barking",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "city",
+    "population": 61000,
+    "wikiDataId": "Q377720"
+  },
+  {
     "id": 48446,
     "name": "Becontree",
     "state_id": 2356,
@@ -13,7 +29,7 @@
     "translations": {},
     "type": "section",
     "population": 100000,
-    "wikiDataId": "Q2568462"
+    "wikiDataId": null
   },
   {
     "id": 48905,
@@ -24,7 +40,7 @@
     "country_code": "GB",
     "latitude": "51.57121000",
     "longitude": "0.13271000",
-    "native": "Keep Heath",
+    "native": "Chadwell Heath",
     "timezone": "Europe/London",
     "translations": {},
     "type": "section",
@@ -45,7 +61,7 @@
     "translations": {},
     "type": "section",
     "population": 10100,
-    "wikiDataId": "Q2530698"
+    "wikiDataId": null
   },
   {
     "id": 49219,
@@ -62,21 +78,5 @@
     "type": "adm3",
     "population": 106247,
     "wikiDataId": "Q1075299"
-  },
-  {
-    "id": 51101,
-    "name": "Romford",
-    "state_id": 2356,
-    "state_code": "BDG",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.57515000",
-    "longitude": "0.18582000",
-    "native": "Romford",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 95000,
-    "wikiDataId": "Q1339305"
   }
 ]

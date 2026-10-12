@@ -8,12 +8,12 @@
     "country_code": "PE",
     "latitude": "-15.68333000",
     "longitude": "-70.15000000",
-    "native": "Atudo",
+    "native": "Atuncolla",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4555,
-    "wikiDataId": "Q1920509"
+    "wikiDataId": "Q3826204"
   },
   {
     "id": 80569,
@@ -27,9 +27,9 @@
     "native": "Ayaviri",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 19310,
-    "wikiDataId": "Q3344141"
+    "wikiDataId": "Q3824230"
   },
   {
     "id": 80571,
@@ -43,9 +43,9 @@
     "native": "Azángaro",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 13290,
-    "wikiDataId": "Q2638284"
+    "wikiDataId": "Q3824537"
   },
   {
     "id": 80637,
@@ -59,9 +59,9 @@
     "native": "Desaguadero",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5329,
-    "wikiDataId": "Q5582862"
+    "wikiDataId": "Q3825232"
   },
   {
     "id": 80639,
@@ -75,7 +75,7 @@
     "native": "El Collao",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 63878,
     "wikiDataId": "Q2088833"
   },
@@ -96,6 +96,22 @@
     "wikiDataId": "Q2117510"
   },
   {
+    "id": 165436,
+    "name": "Huancané",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.20054000",
+    "longitude": "-69.76314000",
+    "native": null,
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q3824385"
+  },
+  {
     "id": 80669,
     "name": "Ilave",
     "state_id": 3682,
@@ -104,12 +120,12 @@
     "country_code": "PE",
     "latitude": "-16.08333000",
     "longitude": "-69.66667000",
-    "native": "Adicional",
+    "native": "Ilave",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 16033,
-    "wikiDataId": "Q3348236"
+    "wikiDataId": "Q3317748"
   },
   {
     "id": 80683,
@@ -123,8 +139,24 @@
     "native": "Julio",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7309,
+    "wikiDataId": "Q3825702"
+  },
+  {
+    "id": 80807,
+    "name": "Juli",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-16.21500000",
+    "longitude": "-69.46194444",
+    "native": "Juli",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q2588438"
   },
   {
@@ -139,8 +171,24 @@
     "native": "Juliaca",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 245675,
+    "wikiDataId": "Q3824849"
+  },
+  {
+    "id": 80957,
+    "name": "Juliaca",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.49388889",
+    "longitude": "-70.13555556",
+    "native": "Juliaca",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q696074"
   },
   {
@@ -168,12 +216,12 @@
     "country_code": "PE",
     "latitude": "-15.35000000",
     "longitude": "-70.36667000",
-    "native": "Lámpara",
+    "native": "Lampa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4780,
-    "wikiDataId": "Q2638295"
+    "wikiDataId": "Q3825382"
   },
   {
     "id": 80707,
@@ -187,13 +235,13 @@
     "native": "Macusani",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 6044,
-    "wikiDataId": "Q3348229"
+    "wikiDataId": "Q3825852"
   },
   {
     "id": 81023,
-    "name": "Ñuñoa",
+    "name": "Nuñoa",
     "state_id": 3682,
     "state_code": "PUN",
     "country_id": 173,
@@ -203,9 +251,9 @@
     "native": "Ñuñoa",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4271,
-    "wikiDataId": "Q27194667"
+    "wikiDataId": "Q3825557"
   },
   {
     "id": 80780,
@@ -219,7 +267,7 @@
     "native": "Provincia de Azángaro",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm2",
+    "type": "province",
     "population": 110392,
     "wikiDataId": "Q2088824"
   },
@@ -235,25 +283,9 @@
     "native": "Provincia de Carabaya",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 73322,
     "wikiDataId": "Q1944216"
-  },
-  {
-    "id": 80807,
-    "name": "Provincia de Chucuito",
-    "state_id": 3682,
-    "state_code": "PUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-16.60545000",
-    "longitude": "-69.35761000",
-    "native": "Provincia de Chucuito",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 89002,
-    "wikiDataId": "Q2088871"
   },
   {
     "id": 80832,
@@ -267,7 +299,7 @@
     "native": "Provincia de Huancané",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 57651,
     "wikiDataId": "Q1944227"
   },
@@ -283,7 +315,7 @@
     "native": "Provincia de lámpara",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 40856,
     "wikiDataId": "Q1944347"
   },
@@ -299,25 +331,9 @@
     "native": "Provincia de Melgar",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "province",
     "population": 67138,
     "wikiDataId": "Q1944356"
-  },
-  {
-    "id": 80881,
-    "name": "Provincia de Puno",
-    "state_id": 3682,
-    "state_code": "PUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-16.00000000",
-    "longitude": "-70.00000000",
-    "native": "Provincia de Puno",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "adm3",
-    "population": 219494,
-    "wikiDataId": "Q2084681"
   },
   {
     "id": 80889,
@@ -331,9 +347,25 @@
     "native": "Provincia de Sandia",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 50742,
     "wikiDataId": "Q1948135"
+  },
+  {
+    "id": 80881,
+    "name": "Puno",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.84055556",
+    "longitude": "-70.02777778",
+    "native": "Puno",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q232842"
   },
   {
     "id": 80922,
@@ -344,12 +376,12 @@
     "country_code": "PE",
     "latitude": "-15.84220000",
     "longitude": "-70.01990000",
-    "native": "Mucho",
+    "native": "Puno",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 128637,
-    "wikiDataId": "Q232842"
+    "wikiDataId": "Q3825025"
   },
   {
     "id": 80941,
@@ -363,25 +395,9 @@
     "native": "San Antonio De Putina",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "province",
     "population": 36113,
     "wikiDataId": "Q1935565"
-  },
-  {
-    "id": 80957,
-    "name": "San Roman",
-    "state_id": 3682,
-    "state_code": "PUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-15.83333000",
-    "longitude": "-70.50000000",
-    "native": "San Roman",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": 307417,
-    "wikiDataId": "Q1944337"
   },
   {
     "id": 80961,
@@ -395,9 +411,9 @@
     "native": "Santa Lucía",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4320,
-    "wikiDataId": "Q1944245"
+    "wikiDataId": "Q3824330"
   },
   {
     "id": 80988,
@@ -427,8 +443,8 @@
     "native": "Yunguyo",
     "timezone": "America/Lima",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 16140,
-    "wikiDataId": "Q2306609"
+    "wikiDataId": "Q3824788"
   }
 ]

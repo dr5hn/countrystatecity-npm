@@ -8,7 +8,7 @@
     "country_code": "NG",
     "latitude": "6.65074410",
     "longitude": "3.26554510",
-    "native": "Absolute village",
+    "native": "Abule Egba",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -43,7 +43,7 @@
     "native": "Alimosho",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 308290,
     "wikiDataId": "Q3509580"
   },
@@ -75,9 +75,9 @@
     "native": "Apapa",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q617618"
+    "wikiDataId": "Q49100758"
   },
   {
     "id": 76789,
@@ -91,9 +91,9 @@
     "native": "Badagry",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 26383,
-    "wikiDataId": "Q793588"
+    "wikiDataId": "Q798812"
   },
   {
     "id": 153677,
@@ -104,7 +104,7 @@
     "country_code": "NG",
     "latitude": "6.53931230",
     "longitude": "3.37627060",
-    "native": "East",
+    "native": "Bariga",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -120,12 +120,12 @@
     "country_code": "NG",
     "latitude": "6.60086000",
     "longitude": "3.48818000",
-    "native": "Portable",
+    "native": "Ebute Ikorodu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 535619,
-    "wikiDataId": "Q1173023"
+    "wikiDataId": "Q33434476"
   },
   {
     "id": 153686,
@@ -152,12 +152,12 @@
     "country_code": "NG",
     "latitude": "6.61423000",
     "longitude": "3.90019000",
-    "native": "Cings",
+    "native": "Ejirin",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9204,
-    "wikiDataId": "Q1296439"
+    "wikiDataId": "Q33434763"
   },
   {
     "id": 76864,
@@ -171,7 +171,7 @@
     "native": "Epe",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 84711,
     "wikiDataId": "Q1023707"
   },
@@ -232,7 +232,7 @@
     "country_code": "NG",
     "latitude": "6.58337980",
     "longitude": "3.20442780",
-    "native": "Clasp",
+    "native": "Idimu",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -280,7 +280,7 @@
     "country_code": "NG",
     "latitude": "6.46330450",
     "longitude": "3.34062410",
-    "native": "Dear",
+    "native": "Ijora",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
@@ -299,9 +299,9 @@
     "native": "Ikeja",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 313196,
-    "wikiDataId": "Q5995177"
+    "wikiDataId": "Q1024647"
   },
   {
     "id": 153663,
@@ -312,10 +312,10 @@
     "country_code": "NG",
     "latitude": "6.61526000",
     "longitude": "3.50690000",
-    "native": "Mirror",
+    "native": "Ikorodu",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q1658159"
   },
@@ -328,12 +328,28 @@
     "country_code": "NG",
     "latitude": "6.60983200",
     "longitude": "3.22299940",
-    "native": "Concentration",
+    "native": "Ipaja",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
     "population": 0,
     "wikiDataId": "Q94751205"
+  },
+  {
+    "id": 165302,
+    "name": "Irewe",
+    "state_id": 306,
+    "state_code": "LA",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "6.41692000",
+    "longitude": "3.14058000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "locality",
+    "population": 139494,
+    "wikiDataId": "Q25052892"
   },
   {
     "id": 153664,
@@ -344,7 +360,7 @@
     "country_code": "NG",
     "latitude": "6.58092030",
     "longitude": "3.27417280",
-    "native": "Isheri-lofty",
+    "native": "Isheri-Olofin",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
@@ -363,7 +379,7 @@
     "native": "Lagos",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 15070000,
     "wikiDataId": "Q8673"
   },
@@ -379,9 +395,9 @@
     "native": "Lagos Island",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 209437,
-    "wikiDataId": "Q98000447"
+    "wikiDataId": "Q605583"
   },
   {
     "id": 153673,
@@ -408,7 +424,7 @@
     "country_code": "NG",
     "latitude": "6.49611000",
     "longitude": "3.38778000",
-    "native": "Sheets",
+    "native": "Makoko",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "section",
@@ -424,7 +440,7 @@
     "country_code": "NG",
     "latitude": "6.53563240",
     "longitude": "3.33022530",
-    "native": "Monin",
+    "native": "Mushin",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -440,12 +456,12 @@
     "country_code": "NG",
     "latitude": "6.62306240",
     "longitude": "3.33418360",
-    "native": "Campaign",
+    "native": "Ogba",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
     "population": 0,
-    "wikiDataId": "Q31793608"
+    "wikiDataId": null
   },
   {
     "id": 153667,
@@ -477,7 +493,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": "Q124669880"
+    "wikiDataId": null
   },
   {
     "id": 153685,

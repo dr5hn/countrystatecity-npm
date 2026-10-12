@@ -96,22 +96,6 @@
     "wikiDataId": "Q599533"
   },
   {
-    "id": 129962,
-    "name": "Nishon Tumani",
-    "state_id": 2543,
-    "state_code": "QA",
-    "country_id": 236,
-    "country_code": "UZ",
-    "latitude": "38.69395000",
-    "longitude": "65.67512000",
-    "native": "Nishon Tumani",
-    "timezone": "Asia/Samarkand",
-    "translations": {},
-    "type": "city",
-    "population": 10558,
-    "wikiDataId": "Q31970870"
-  },
-  {
     "id": 129981,
     "name": "Qarshi",
     "state_id": 2543,
@@ -128,6 +112,22 @@
     "wikiDataId": "Q644008"
   },
   {
+    "id": 165712,
+    "name": "Qorashina",
+    "state_id": 2543,
+    "state_code": "QA",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "38.34185000",
+    "longitude": "66.56342000",
+    "native": null,
+    "timezone": "Asia/Samarkand",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q12108621"
+  },
+  {
     "id": 129997,
     "name": "Shahrisabz",
     "state_id": 2543,
@@ -142,5 +142,37 @@
     "type": "city",
     "population": 142700,
     "wikiDataId": "Q569766"
+  },
+  {
+    "id": 165720,
+    "name": "Yangi Mirishkor",
+    "state_id": 2543,
+    "state_code": "QA",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "38.85143000",
+    "longitude": "65.27789000",
+    "native": null,
+    "timezone": "Asia/Samarkand",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q12173716"
+  },
+  {
+    "id": 129962,
+    "name": "Yangi Nishon",
+    "state_id": 2543,
+    "state_code": "QA",
+    "country_id": 236,
+    "country_code": "UZ",
+    "latitude": "38.69395000",
+    "longitude": "65.67512000",
+    "native": "Yangi Nishon",
+    "timezone": "Asia/Samarkand",
+    "translations": {},
+    "type": "city",
+    "population": 10558,
+    "wikiDataId": "Q31970870"
   }
 ]

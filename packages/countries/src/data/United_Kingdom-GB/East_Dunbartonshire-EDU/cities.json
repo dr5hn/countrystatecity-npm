@@ -1,5 +1,21 @@
 [
   {
+    "id": 48439,
+    "name": "Bearsden",
+    "state_id": 2454,
+    "state_code": "EDU",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.91536000",
+    "longitude": "-4.33279000",
+    "native": "Bearsden",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": 28120,
+    "wikiDataId": "Q1908426"
+  },
+  {
     "id": 48526,
     "name": "Bishopbriggs",
     "state_id": 2454,
@@ -11,57 +27,9 @@
     "native": "Bishopbriggs",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 23540,
     "wikiDataId": "Q866347"
-  },
-  {
-    "id": 48989,
-    "name": "Chryston",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.90280000",
-    "longitude": "-4.10759000",
-    "native": "Chryston",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3000,
-    "wikiDataId": "Q1009980"
-  },
-  {
-    "id": 49394,
-    "name": "East Dunbartonshire",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.93333000",
-    "longitude": "-4.20000000",
-    "native": "East Dunbartonshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 108640,
-    "wikiDataId": "Q211889"
-  },
-  {
-    "id": 50154,
-    "name": "Kilsyth",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.97596000",
-    "longitude": "-4.05916000",
-    "native": "Kilsyth",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 10080,
-    "wikiDataId": "Q1010328"
   },
   {
     "id": 50206,
@@ -72,10 +40,10 @@
     "country_code": "GB",
     "latitude": "55.93933000",
     "longitude": "-4.15262000",
-    "native": "Kirkintoch",
+    "native": "Kirkintilloch",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 21380,
     "wikiDataId": "Q2422689"
   },
@@ -91,7 +59,7 @@
     "native": "Lennoxtown",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4140,
     "wikiDataId": "Q1010313"
   },
@@ -104,12 +72,12 @@
     "country_code": "GB",
     "latitude": "55.92762000",
     "longitude": "-4.15399000",
-    "native": "Lenin",
+    "native": "Lenzie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8070,
-    "wikiDataId": "Q1010313"
+    "wikiDataId": null
   },
   {
     "id": 50590,
@@ -123,7 +91,7 @@
     "native": "Milngavie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 12940,
     "wikiDataId": "Q1438673"
   },
@@ -139,57 +107,9 @@
     "native": "Milton of Campsie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3840,
     "wikiDataId": "Q1011562"
-  },
-  {
-    "id": 50622,
-    "name": "Moodiesburn",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.91501000",
-    "longitude": "-4.08331000",
-    "native": "Moodiesburn",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 6890,
-    "wikiDataId": "Q1011148"
-  },
-  {
-    "id": 51439,
-    "name": "Stepps",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.88899000",
-    "longitude": "-4.15210000",
-    "native": "Steppes",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7450,
-    "wikiDataId": "Q7611149"
-  },
-  {
-    "id": 51492,
-    "name": "Strathblane",
-    "state_id": 2454,
-    "state_code": "EDU",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.98596000",
-    "longitude": "-4.30658000",
-    "native": "Strathblane",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 1990,
-    "wikiDataId": "Q1010547"
   },
   {
     "id": 51648,
@@ -203,9 +123,9 @@
     "native": "Torrance",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2290,
-    "wikiDataId": "Q209055"
+    "wikiDataId": "Q1907087"
   },
   {
     "id": 51681,
@@ -219,8 +139,8 @@
     "native": "Twechar",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1220,
-    "wikiDataId": "Q2596889"
+    "wikiDataId": null
   }
 ]

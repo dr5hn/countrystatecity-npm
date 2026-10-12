@@ -48,38 +48,6 @@
     "wikiDataId": "Q4507143"
   },
   {
-    "id": 65662,
-    "name": "Chingirlau",
-    "state_id": 148,
-    "state_code": "27",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "51.09878000",
-    "longitude": "54.08426000",
-    "native": "Шыңғырлау",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q4516058"
-  },
-  {
-    "id": 65670,
-    "name": "Dzhambeyty",
-    "state_id": 148,
-    "state_code": "27",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "50.25676000",
-    "longitude": "52.59895000",
-    "native": "Жамбылы",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q4737934"
-  },
-  {
     "id": 65677,
     "name": "Fedorovka",
     "state_id": 148,
@@ -94,6 +62,22 @@
     "type": "adm2",
     "population": 5338,
     "wikiDataId": "Q1238323"
+  },
+  {
+    "id": 165156,
+    "name": "Karatobe",
+    "state_id": 148,
+    "state_code": "27",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "49.68914000",
+    "longitude": "53.51005000",
+    "native": "Қаратөбе",
+    "timezone": "Asia/Oral",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4214344"
   },
   {
     "id": 65693,
@@ -136,7 +120,7 @@
     "country_code": "KZ",
     "latitude": "51.23333000",
     "longitude": "51.36667000",
-    "native": "Ауызша",
+    "native": "Орал",
     "timezone": "Asia/Almaty",
     "translations": {},
     "type": "city",
@@ -176,6 +160,22 @@
     "wikiDataId": "Q12561247"
   },
   {
+    "id": 65662,
+    "name": "Shyngyrlau",
+    "state_id": 148,
+    "state_code": "27",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "51.09878000",
+    "longitude": "54.08426000",
+    "native": "Шыңғырлау",
+    "timezone": "Asia/Almaty",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q4516058"
+  },
+  {
     "id": 65805,
     "name": "Tasqala",
     "state_id": 148,
@@ -206,5 +206,21 @@
     "type": "adm2",
     "population": 8212,
     "wikiDataId": "Q141468"
+  },
+  {
+    "id": 65670,
+    "name": "Zhympity",
+    "state_id": 148,
+    "state_code": "27",
+    "country_id": 112,
+    "country_code": "KZ",
+    "latitude": "50.25676000",
+    "longitude": "52.59895000",
+    "native": "Жамбылы",
+    "timezone": "Asia/Almaty",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q4737934"
   }
 ]

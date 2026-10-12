@@ -75,21 +75,6 @@
     "translations": {}
   },
   {
-    "id": 216,
-    "name": "Cuanza",
-    "country_id": 7,
-    "country_code": "AO",
-    "fips_code": null,
-    "iso2": "CUS",
-    "iso3166_2": "AO-CUS",
-    "type": "province",
-    "latitude": "-10.77075270",
-    "longitude": "15.09757120",
-    "native": "Quanza",
-    "timezone": "Africa/Luanda",
-    "translations": {}
-  },
-  {
     "id": 217,
     "name": "Cuanza Norte",
     "country_id": 7,
@@ -101,6 +86,21 @@
     "latitude": "-9.02967520",
     "longitude": "15.09263240",
     "native": "Cuanza Norte",
+    "timezone": "Africa/Luanda",
+    "translations": {}
+  },
+  {
+    "id": 216,
+    "name": "Cuanza Sul",
+    "country_id": 7,
+    "country_code": "AO",
+    "fips_code": null,
+    "iso2": "CUS",
+    "iso3166_2": "AO-CUS",
+    "type": "province",
+    "latitude": "-10.77075270",
+    "longitude": "15.09757120",
+    "native": "Quanza",
     "timezone": "Africa/Luanda",
     "translations": {}
   },

@@ -13,23 +13,7 @@
     "translations": {},
     "type": "adm3",
     "population": null,
-    "wikiDataId": "Q1011675"
-  },
-  {
-    "id": 97238,
-    "name": "Joševa",
-    "state_id": 3724,
-    "state_code": "09",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "44.58772000",
-    "longitude": "19.40967000",
-    "native": "Јошева",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": 1228,
-    "wikiDataId": "Q948327"
+    "wikiDataId": null
   },
   {
     "id": 155051,
@@ -43,7 +27,7 @@
     "native": "Лајковац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2048243"
   },
@@ -59,7 +43,7 @@
     "native": "Љиг",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 10711,
     "wikiDataId": "Q2360583"
   },
@@ -75,7 +59,7 @@
     "native": "Мионица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2047412"
   },
@@ -91,7 +75,7 @@
     "native": "Осечина",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3422,
     "wikiDataId": "Q15629061"
   },
@@ -107,7 +91,7 @@
     "native": "Уб",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 6191,
     "wikiDataId": "Q12756688"
   },
@@ -123,8 +107,8 @@
     "native": "Ваљево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 61035,
-    "wikiDataId": "Q208015"
+    "wikiDataId": "Q2041751"
   }
 ]

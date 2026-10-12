@@ -27,9 +27,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q397958"
   },
   {
     "id": 162809,
@@ -107,9 +107,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q812539"
   },
   {
     "id": 129784,
@@ -187,9 +187,9 @@
     "native": "Carlos Reyles",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 976,
-    "wikiDataId": "Q31890171"
+    "wikiDataId": "Q5818023"
   },
   {
     "id": 162791,
@@ -235,9 +235,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "city",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q1055823"
   },
   {
     "id": 162790,
@@ -320,6 +320,22 @@
     "wikiDataId": null
   },
   {
+    "id": 129892,
+    "name": "Ciudad del Carmen",
+    "state_id": 3209,
+    "state_code": "DU",
+    "country_id": 235,
+    "country_code": "UY",
+    "latitude": "-33.23943000",
+    "longitude": "-56.00936000",
+    "native": "Ciudad del Carmen",
+    "timezone": "America/Montevideo",
+    "translations": {},
+    "type": "municipality",
+    "population": 2692,
+    "wikiDataId": "Q19398124"
+  },
+  {
     "id": 162831,
     "name": "Costa de Cuadra",
     "state_id": 3209,
@@ -347,9 +363,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q60464691"
   },
   {
     "id": 162808,
@@ -395,7 +411,7 @@
     "native": "Durazno",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 34368,
     "wikiDataId": "Q855645"
   },
@@ -443,9 +459,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q911276"
   },
   {
     "id": 162810,
@@ -523,7 +539,7 @@
     "native": "La Paloma",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1567,
     "wikiDataId": "Q281754"
   },
@@ -571,9 +587,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q1806473"
   },
   {
     "id": 162835,
@@ -795,9 +811,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q1305312"
   },
   {
     "id": 163884,
@@ -955,7 +971,7 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "village",
     "population": null,
     "wikiDataId": null
   },
@@ -971,9 +987,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q2117330"
   },
   {
     "id": 162829,
@@ -1099,9 +1115,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q984837"
   },
   {
     "id": 162815,
@@ -1147,9 +1163,9 @@
     "native": null,
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": null,
+    "type": "locality",
     "population": null,
-    "wikiDataId": null
+    "wikiDataId": "Q770683"
   },
   {
     "id": 163878,
@@ -1195,7 +1211,7 @@
     "native": "Santa Bernardina",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1094,
     "wikiDataId": "Q1022299"
   },
@@ -1243,9 +1259,9 @@
     "native": "Sarandí del Yi",
     "timezone": "America/Montevideo",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 7176,
-    "wikiDataId": "Q1784163"
+    "wikiDataId": "Q19387711"
   },
   {
     "id": 162813,
@@ -1326,22 +1342,6 @@
     "type": null,
     "population": null,
     "wikiDataId": null
-  },
-  {
-    "id": 129892,
-    "name": "Villa del Carmen",
-    "state_id": 3209,
-    "state_code": "DU",
-    "country_id": 235,
-    "country_code": "UY",
-    "latitude": "-33.23943000",
-    "longitude": "-56.00936000",
-    "native": "Villa del Carmen",
-    "timezone": "America/Montevideo",
-    "translations": {},
-    "type": "city",
-    "population": 2692,
-    "wikiDataId": "Q289379"
   },
   {
     "id": 162830,

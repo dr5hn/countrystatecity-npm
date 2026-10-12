@@ -11,9 +11,9 @@
     "native": "Almirante",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8744,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 79982,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "city",
     "population": 1398,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 79983,
@@ -43,9 +43,9 @@
     "native": "Barranco Adentro",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1349,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": "Q104540910"
   },
   {
     "id": 79986,
@@ -56,12 +56,12 @@
     "country_code": "PA",
     "latitude": "9.34707000",
     "longitude": "-82.20880000",
-    "native": "Barco",
+    "native": "Bastimentos",
     "timezone": "America/Panama",
     "translations": {},
     "type": "adm3",
     "population": 738,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 80000,
@@ -75,7 +75,7 @@
     "native": "Bocas del Toro",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm1",
+    "type": "section",
     "population": 5380,
     "wikiDataId": "Q888971"
   },
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "adm3",
     "population": 40,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80054,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 17997,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80063,
@@ -123,9 +123,9 @@
     "native": "Chiriquí Grande",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 1525,
-    "wikiDataId": "Q804144"
+    "wikiDataId": "Q5101934"
   },
   {
     "id": 80084,
@@ -139,7 +139,7 @@
     "native": "Distrito Chiriquí Grande",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q515794"
   },
@@ -155,7 +155,7 @@
     "native": "Distrito de Bocas del Toro",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 525,
     "wikiDataId": "Q2702428"
   },
@@ -189,7 +189,7 @@
     "translations": {},
     "type": "city",
     "population": 11035,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": null
   },
   {
     "id": 80202,
@@ -205,7 +205,7 @@
     "translations": {},
     "type": "city",
     "population": 2017,
-    "wikiDataId": "Q1018577"
+    "wikiDataId": null
   },
   {
     "id": 80217,
@@ -219,7 +219,7 @@
     "native": "Guabito",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 1978,
     "wikiDataId": "Q2437057"
   },
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 1500,
-    "wikiDataId": "Q2437057"
+    "wikiDataId": null
   },
   {
     "id": 80354,
@@ -251,9 +251,9 @@
     "native": "Miramar",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 346,
-    "wikiDataId": "Q3711142"
+    "wikiDataId": null
   },
   {
     "id": 80437,
@@ -269,7 +269,7 @@
     "translations": {},
     "type": "adm3",
     "population": 69,
-    "wikiDataId": "Q3130855"
+    "wikiDataId": null
   },
   {
     "id": 80438,
@@ -283,9 +283,9 @@
     "native": "Punta Peña",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 1187,
-    "wikiDataId": "Q3130855"
+    "wikiDataId": null
   },
   {
     "id": 80439,
@@ -299,9 +299,9 @@
     "native": "Punta Róbalo",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 149,
-    "wikiDataId": "Q3130855"
+    "wikiDataId": "Q7260554"
   },
   {
     "id": 80537,
@@ -315,8 +315,8 @@
     "native": "Valle de Risco",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 1171,
-    "wikiDataId": "Q3254645"
+    "wikiDataId": null
   }
 ]

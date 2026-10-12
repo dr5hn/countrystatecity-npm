@@ -162,13 +162,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Apply generated data
+      - name: Download generated data
         if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v8
         with:
           name: generated-data
-          path: packages/
-        continue-on-error: true
+          path: ${{ runner.temp }}/generated-data
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        run: node scripts/apply-generated-data.cjs "$RUNNER_TEMP/generated-data"
 
       - name: Typecheck all packages
         run: pnpm turbo run typecheck
@@ -194,13 +197,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Apply generated data
+      - name: Download generated data
         if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v8
         with:
           name: generated-data
-          path: packages/
-        continue-on-error: true
+          path: ${{ runner.temp }}/generated-data
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        run: node scripts/apply-generated-data.cjs "$RUNNER_TEMP/generated-data"
 
       - name: Build all packages
         run: pnpm turbo run build
@@ -245,13 +251,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Apply generated data
+      - name: Download generated data
         if: needs.generate-data.result == 'success'
         uses: actions/download-artifact@v8
         with:
           name: generated-data
-          path: packages/
-        continue-on-error: true
+          path: ${{ runner.temp }}/generated-data
+
+      - name: Apply generated data
+        if: needs.generate-data.result == 'success'
+        run: node scripts/apply-generated-data.cjs "$RUNNER_TEMP/generated-data"
 
       - name: Run all tests
         run: pnpm test
@@ -282,7 +291,10 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: generated-data
-          path: packages/
+          path: ${{ runner.temp }}/generated-data
+
+      - name: Apply generated data
+        run: node scripts/apply-generated-data.cjs "$RUNNER_TEMP/generated-data"
 
       - name: Restore data manifest
         uses: actions/download-artifact@v8

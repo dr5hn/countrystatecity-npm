@@ -11,7 +11,7 @@
     "native": "Башмаково",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9414,
     "wikiDataId": "Q4080223"
   },
@@ -27,7 +27,7 @@
     "native": "Беково",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6099,
     "wikiDataId": "Q4081425"
   },
@@ -59,7 +59,7 @@
     "native": "Бессоновка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 9880,
     "wikiDataId": "Q31915069"
   },
@@ -75,7 +75,7 @@
     "native": "Богословка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4973,
     "wikiDataId": "Q31917909"
   },
@@ -91,7 +91,7 @@
     "native": "Чаадаевка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6734,
     "wikiDataId": "Q34791223"
   },
@@ -107,7 +107,7 @@
     "native": "Чемодановка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5665,
     "wikiDataId": "Q34792455"
   },
@@ -139,7 +139,7 @@
     "native": "Грабово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 7792,
     "wikiDataId": "Q37804677"
   },
@@ -155,7 +155,7 @@
     "native": "Индерка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3607,
     "wikiDataId": "Q37808161"
   },
@@ -171,7 +171,7 @@
     "native": "Исса",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4917,
     "wikiDataId": "Q37808928"
   },
@@ -192,6 +192,22 @@
     "wikiDataId": "Q1653265"
   },
   {
+    "id": 165469,
+    "name": "Kamenka",
+    "state_id": 1909,
+    "state_code": "PNZ",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "53.18139000",
+    "longitude": "44.04944000",
+    "native": "Каменка",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 33060,
+    "wikiDataId": "Q143839"
+  },
+  {
     "id": 98836,
     "name": "Kanayevka",
     "state_id": 1909,
@@ -205,7 +221,7 @@
     "translations": {},
     "type": "city",
     "population": 1934,
-    "wikiDataId": "Q2626554"
+    "wikiDataId": "Q18779583"
   },
   {
     "id": 99151,
@@ -219,7 +235,7 @@
     "native": "Колышлей",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7978,
     "wikiDataId": "Q35698727"
   },
@@ -235,7 +251,7 @@
     "native": "Кондоль",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3612,
     "wikiDataId": "Q35699145"
   },
@@ -267,7 +283,7 @@
     "native": "Кузнецкий район",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": null,
     "wikiDataId": "Q3817601"
   },
@@ -283,7 +299,7 @@
     "native": "Лермонтово",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1649,
     "wikiDataId": "Q35715187"
   },
@@ -299,7 +315,7 @@
     "native": "Лопатино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4318,
     "wikiDataId": "Q4266649"
   },
@@ -315,7 +331,7 @@
     "native": "Лунино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7227,
     "wikiDataId": "Q35721118"
   },
@@ -331,7 +347,7 @@
     "native": "Махалино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5210,
     "wikiDataId": "Q35723080"
   },
@@ -347,7 +363,7 @@
     "native": "Малая Сердоба",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4039,
     "wikiDataId": "Q35723329"
   },
@@ -363,7 +379,7 @@
     "native": "Мокшан",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10997,
     "wikiDataId": "Q1943221"
   },
@@ -379,7 +395,7 @@
     "native": "Наровчат",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4057,
     "wikiDataId": "Q37894519"
   },
@@ -395,7 +411,7 @@
     "native": "Неверкино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4266,
     "wikiDataId": "Q37895877"
   },
@@ -459,7 +475,7 @@
     "native": "Пачелма",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 8620,
     "wikiDataId": "Q37959371"
   },
@@ -475,7 +491,7 @@
     "native": "Пенза",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 487978,
     "wikiDataId": "Q5540"
   },
@@ -491,7 +507,7 @@
     "native": "Поим",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2712,
     "wikiDataId": "Q37958964"
   },
@@ -507,7 +523,7 @@
     "native": "Поселки",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3144,
     "wikiDataId": "Q37958881"
   },
@@ -523,7 +539,7 @@
     "native": "Русский Камешкир",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5305,
     "wikiDataId": "Q37958458"
   },
@@ -555,7 +571,7 @@
     "native": "Шемышейка",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6368,
     "wikiDataId": "Q37957787"
   },
@@ -571,7 +587,7 @@
     "native": "Сосновоборск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5845,
     "wikiDataId": "Q37957300"
   },
@@ -603,7 +619,7 @@
     "native": "Средняя Елюзань",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 8279,
     "wikiDataId": "Q37957181"
   },
@@ -619,7 +635,7 @@
     "native": "Сура",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2275,
     "wikiDataId": "Q37956874"
   },
@@ -651,7 +667,7 @@
     "native": "Тамала",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7956,
     "wikiDataId": "Q37956650"
   },
@@ -667,7 +683,7 @@
     "native": "Вадинск",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4056,
     "wikiDataId": "Q37955878"
   },
@@ -683,7 +699,7 @@
     "native": "Верхний Ломов",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4390,
     "wikiDataId": "Q37955463"
   },
@@ -699,9 +715,9 @@
     "native": "Верхозим",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1756,
-    "wikiDataId": "Q1094346"
+    "wikiDataId": "Q18770456"
   },
   {
     "id": 102651,
@@ -731,7 +747,7 @@
     "native": "Засечное",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4733,
     "wikiDataId": "Q33525729"
   },
@@ -747,7 +763,7 @@
     "native": "Земетчино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9622,
     "wikiDataId": "Q33527198"
   }

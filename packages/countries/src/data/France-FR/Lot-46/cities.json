@@ -11,9 +11,9 @@
     "native": "Bagnac-sur-Célé",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1481,
-    "wikiDataId": "Q501953"
+    "type": "municipality",
+    "population": 1467,
+    "wikiDataId": "Q1064007"
   },
   {
     "id": 40007,
@@ -27,9 +27,9 @@
     "native": "Biars-sur-Cère",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1968,
-    "wikiDataId": "Q132790"
+    "type": "municipality",
+    "population": 1957,
+    "wikiDataId": "Q1327605"
   },
   {
     "id": 40281,
@@ -43,8 +43,8 @@
     "native": "Bretenoux",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1429,
+    "type": "municipality",
+    "population": 1468,
     "wikiDataId": "Q1105296"
   },
   {
@@ -59,8 +59,8 @@
     "native": "Cahors",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm2",
-    "population": 19902,
+    "type": "municipality",
+    "population": 20050,
     "wikiDataId": "Q23047"
   },
   {
@@ -75,8 +75,8 @@
     "native": "Cajarc",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1134,
+    "type": "municipality",
+    "population": 1136,
     "wikiDataId": "Q660042"
   },
   {
@@ -91,9 +91,9 @@
     "native": "Castelnau-Montratier",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1827,
-    "wikiDataId": "Q629912"
+    "type": "municipality",
+    "population": 1840,
+    "wikiDataId": "Q27031576"
   },
   {
     "id": 41819,
@@ -107,8 +107,8 @@
     "native": "Figeac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 9757,
+    "type": "municipality",
+    "population": 9793,
     "wikiDataId": "Q207614"
   },
   {
@@ -123,9 +123,9 @@
     "native": "Gourdon",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "adm3",
-    "population": 4080,
-    "wikiDataId": "Q1019030"
+    "type": "municipality",
+    "population": 4206,
+    "wikiDataId": "Q175525"
   },
   {
     "id": 42168,
@@ -139,8 +139,8 @@
     "native": "Gramat",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3496,
+    "type": "municipality",
+    "population": 3512,
     "wikiDataId": "Q430834"
   },
   {
@@ -155,8 +155,8 @@
     "native": "Lacapelle-Marival",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1278,
+    "type": "municipality",
+    "population": 1268,
     "wikiDataId": "Q1332222"
   },
   {
@@ -171,9 +171,25 @@
     "native": "Lalbenque",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1142,
-    "wikiDataId": "Q1023498"
+    "type": "municipality",
+    "population": 1899,
+    "wikiDataId": "Q1377828"
+  },
+  {
+    "id": 43334,
+    "name": "Le Vigan",
+    "state_id": 5014,
+    "state_code": "46",
+    "country_id": 75,
+    "country_code": "FR",
+    "latitude": "44.74075000",
+    "longitude": "1.43963000",
+    "native": "Le Vigan",
+    "timezone": "Europe/Paris",
+    "translations": {},
+    "type": "municipality",
+    "population": 1276,
+    "wikiDataId": "Q1383446"
   },
   {
     "id": 43456,
@@ -187,25 +203,9 @@
     "native": "Leyme",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 929,
-    "wikiDataId": "Q644716"
-  },
-  {
-    "id": 43597,
-    "name": "Lot",
-    "state_id": 5014,
-    "state_code": "46",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "44.62703000",
-    "longitude": "1.63461000",
-    "native": "Lot",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "city",
-    "population": 175620,
-    "wikiDataId": "Q12576"
+    "type": "municipality",
+    "population": 932,
+    "wikiDataId": "Q1471261"
   },
   {
     "id": 43672,
@@ -219,8 +219,8 @@
     "native": "Luzech",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1758,
+    "type": "municipality",
+    "population": 1750,
     "wikiDataId": "Q749077"
   },
   {
@@ -235,9 +235,9 @@
     "native": "Martel",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1639,
-    "wikiDataId": "Q1622845"
+    "type": "municipality",
+    "population": 1637,
+    "wikiDataId": "Q732788"
   },
   {
     "id": 44212,
@@ -256,22 +256,6 @@
     "wikiDataId": "Q751945"
   },
   {
-    "id": 44304,
-    "name": "Montredon",
-    "state_id": 5014,
-    "state_code": "46",
-    "country_id": 75,
-    "country_code": "FR",
-    "latitude": "43.24016000",
-    "longitude": "5.36629000",
-    "native": "Montredon",
-    "timezone": "Europe/Paris",
-    "translations": {},
-    "type": "section",
-    "population": 4905,
-    "wikiDataId": "Q839877"
-  },
-  {
     "id": 45274,
     "name": "Pradines",
     "state_id": 5014,
@@ -283,9 +267,9 @@
     "native": "Pradines",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 86,
-    "wikiDataId": "Q196475"
+    "type": "municipality",
+    "population": 3617,
+    "wikiDataId": "Q1321922"
   },
   {
     "id": 45279,
@@ -299,9 +283,9 @@
     "native": "Prayssac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 2500,
-    "wikiDataId": "Q744225"
+    "type": "municipality",
+    "population": 2519,
+    "wikiDataId": "Q1471242"
   },
   {
     "id": 45336,
@@ -315,9 +299,9 @@
     "native": "Puy-l’Évêque",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q751118"
+    "type": "municipality",
+    "population": 1860,
+    "wikiDataId": "Q135478"
   },
   {
     "id": 45892,
@@ -331,8 +315,8 @@
     "native": "Saint-Céré",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3449,
+    "type": "municipality",
+    "population": 3429,
     "wikiDataId": "Q637612"
   },
   {
@@ -347,9 +331,9 @@
     "native": "Salviac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1218,
-    "wikiDataId": "Q821246"
+    "type": "municipality",
+    "population": 1231,
+    "wikiDataId": "Q643540"
   },
   {
     "id": 47067,
@@ -363,9 +347,9 @@
     "native": "Souillac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 3199,
-    "wikiDataId": "Q22437"
+    "type": "municipality",
+    "population": 3192,
+    "wikiDataId": "Q726680"
   },
   {
     "id": 47550,
@@ -379,8 +363,8 @@
     "native": "Vayrac",
     "timezone": "Europe/Paris",
     "translations": {},
-    "type": "city",
-    "population": 1279,
+    "type": "municipality",
+    "population": 1266,
     "wikiDataId": "Q1385704"
   }
 ]

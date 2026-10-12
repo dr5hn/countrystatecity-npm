@@ -43,9 +43,9 @@
     "native": "Benito Juárez",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 4167,
-    "wikiDataId": "Q4888100"
+    "type": "locality",
+    "population": 4197,
+    "wikiDataId": "Q15148890"
   },
   {
     "id": 68689,
@@ -59,7 +59,7 @@
     "native": "Buenos Aires",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1761,
     "wikiDataId": "Q20274956"
   },
@@ -75,7 +75,7 @@
     "native": "Camalú",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8621,
     "wikiDataId": "Q5024916"
   },
@@ -91,8 +91,8 @@
     "native": "Cereso del Hongo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 4278,
+    "type": "locality",
+    "population": 4679,
     "wikiDataId": "Q20247259"
   },
   {
@@ -107,9 +107,25 @@
     "native": "Ciudad Coahuila (Kilómetro Cincuenta y Siete)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 5617,
-    "wikiDataId": "Q15101593"
+    "type": "locality",
+    "population": 6503,
+    "wikiDataId": "Q20135850"
+  },
+  {
+    "id": 70599,
+    "name": "Ciudad Guadalupe Victoria",
+    "state_id": 3457,
+    "state_code": "BCN",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "32.28924000",
+    "longitude": "-115.10534000",
+    "native": "Guadalupe Victoria",
+    "timezone": "America/Tijuana",
+    "translations": {},
+    "type": "locality",
+    "population": 19081,
+    "wikiDataId": "Q4151204"
   },
   {
     "id": 69172,
@@ -123,8 +139,8 @@
     "native": "Ciudad Morelos",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2040,
+    "type": "locality",
+    "population": 2986,
     "wikiDataId": "Q20247270"
   },
   {
@@ -171,8 +187,8 @@
     "native": "Colonia Lomas de San Ramón (Triquis)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 3805,
+    "type": "locality",
+    "population": 4432,
     "wikiDataId": "Q20218012"
   },
   {
@@ -187,8 +203,8 @@
     "native": "Colonia Nueva Era",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 3256,
+    "type": "locality",
+    "population": 3675,
     "wikiDataId": "Q20131059"
   },
   {
@@ -203,9 +219,9 @@
     "native": "Colonia Venustiano Carranza",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 6098,
-    "wikiDataId": "Q20264049"
+    "type": "locality",
+    "population": 6205,
+    "wikiDataId": "Q7920661"
   },
   {
     "id": 69677,
@@ -219,9 +235,9 @@
     "native": "Delta",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5180,
-    "wikiDataId": "Q20138783"
+    "wikiDataId": "Q15211901"
   },
   {
     "id": 69691,
@@ -251,9 +267,9 @@
     "native": "Durango",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1593,
-    "wikiDataId": "Q20276987"
+    "type": "locality",
+    "population": 1493,
+    "wikiDataId": "Q18579260"
   },
   {
     "id": 69762,
@@ -267,8 +283,8 @@
     "native": "Ejido Doctor Alberto Oviedo Mota (El Indiviso)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1009,
+    "type": "locality",
+    "population": 877,
     "wikiDataId": "Q20247341"
   },
   {
@@ -283,8 +299,8 @@
     "native": "Ejido General Leandro Valle",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1174,
+    "type": "locality",
+    "population": 1121,
     "wikiDataId": "Q20141284"
   },
   {
@@ -315,9 +331,9 @@
     "native": "Ejido Jiquilpan",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1681,
-    "wikiDataId": "Q20247346"
+    "type": "locality",
+    "population": 1737,
+    "wikiDataId": "Q18416007"
   },
   {
     "id": 69774,
@@ -331,9 +347,9 @@
     "native": "Ejido Lázaro Cárdenas",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2463,
-    "wikiDataId": "Q56475540"
+    "type": "locality",
+    "population": 3050,
+    "wikiDataId": "Q49962023"
   },
   {
     "id": 69776,
@@ -347,9 +363,9 @@
     "native": "Ejido Michoacán de Ocampo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3086,
-    "wikiDataId": "Q56475540"
+    "wikiDataId": "Q15204075"
   },
   {
     "id": 69778,
@@ -363,24 +379,8 @@
     "native": "Ejido Netzahualcóyotl",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1064,
-    "wikiDataId": "Q20218101"
-  },
-  {
-    "id": 69780,
-    "name": "Ejido Nuevo León",
-    "state_id": 3457,
-    "state_code": "BCN",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "32.41103000",
-    "longitude": "-115.18827000",
-    "native": "Ejido Nuevo León",
-    "timezone": "America/Tijuana",
-    "translations": {},
-    "type": "city",
-    "population": 3655,
+    "type": "locality",
+    "population": 1221,
     "wikiDataId": "Q20218101"
   },
   {
@@ -411,8 +411,8 @@
     "native": "Ejido Pátzcuaro",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1513,
+    "type": "locality",
+    "population": 2275,
     "wikiDataId": "Q20218106"
   },
   {
@@ -427,8 +427,8 @@
     "native": "Ejido Plan de Ayala",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1654,
+    "type": "locality",
+    "population": 1989,
     "wikiDataId": "Q20247353"
   },
   {
@@ -443,9 +443,9 @@
     "native": "Ejido Quintana Roo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2311,
-    "wikiDataId": "Q20218106"
+    "type": "locality",
+    "population": 2556,
+    "wikiDataId": "Q49962018"
   },
   {
     "id": 69787,
@@ -459,9 +459,9 @@
     "native": "Ejido Saltillo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1560,
-    "wikiDataId": "Q20277089"
+    "wikiDataId": "Q18606309"
   },
   {
     "id": 69792,
@@ -475,9 +475,9 @@
     "native": "Ejido Sinaloa",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2505,
-    "wikiDataId": "Q20277095"
+    "wikiDataId": "Q15618747"
   },
   {
     "id": 69793,
@@ -491,9 +491,9 @@
     "native": "Ejido Sonora",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1507,
-    "wikiDataId": "Q20277095"
+    "type": "locality",
+    "population": 1420,
+    "wikiDataId": "Q49925688"
   },
   {
     "id": 69794,
@@ -507,7 +507,7 @@
     "native": "Ejido Tabasco",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1048,
     "wikiDataId": "Q1321929"
   },
@@ -523,9 +523,9 @@
     "native": "Ejido Toluca",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1060,
-    "wikiDataId": "Q1321929"
+    "type": "locality",
+    "population": 1275,
+    "wikiDataId": "Q36195829"
   },
   {
     "id": 69798,
@@ -539,9 +539,9 @@
     "native": "Ejido Vicente Guerrero",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1463,
-    "wikiDataId": "Q20277109"
+    "type": "locality",
+    "population": 1363,
+    "wikiDataId": "Q49961987"
   },
   {
     "id": 69800,
@@ -555,8 +555,8 @@
     "native": "Ejido Yucatán",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1628,
+    "type": "locality",
+    "population": 1670,
     "wikiDataId": "Q20247359"
   },
   {
@@ -587,9 +587,9 @@
     "native": "El Porvenir",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1416,
-    "wikiDataId": "Q20280373"
+    "wikiDataId": "Q49924307"
   },
   {
     "id": 70178,
@@ -603,9 +603,9 @@
     "native": "El Rosario de Arriba",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1704,
-    "wikiDataId": "Q1858643"
+    "type": "locality",
+    "population": 1984,
+    "wikiDataId": "Q49957489"
   },
   {
     "id": 70203,
@@ -619,7 +619,7 @@
     "native": "El Sauzal de Rodríguez",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8832,
     "wikiDataId": "Q20280977"
   },
@@ -635,8 +635,8 @@
     "native": "Emiliano Zapata",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 5756,
+    "type": "locality",
+    "population": 9636,
     "wikiDataId": "Q20247543"
   },
   {
@@ -649,27 +649,11 @@
     "latitude": "31.86667000",
     "longitude": "-116.61666000",
     "native": "Ensenada",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "adm2",
-    "population": 431,
-    "wikiDataId": "Q1548691"
-  },
-  {
-    "id": 70337,
-    "name": "Estación Coahuila",
-    "state_id": 3457,
-    "state_code": "BCN",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "32.19304000",
-    "longitude": "-114.99933000",
-    "native": "Estación Coahuila",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 7596,
-    "wikiDataId": "Q20135850"
+    "type": "municipality",
+    "population": 431,
+    "wikiDataId": null
   },
   {
     "id": 70349,
@@ -683,9 +667,9 @@
     "native": "Estación Pescaderos",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1051,
-    "wikiDataId": "Q20259332"
+    "type": "locality",
+    "population": 860,
+    "wikiDataId": "Q55317073"
   },
   {
     "id": 70449,
@@ -699,8 +683,8 @@
     "native": "Fraccionamiento del Valle",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1052,
+    "type": "locality",
+    "population": 332,
     "wikiDataId": "Q20247683"
   },
   {
@@ -713,43 +697,11 @@
     "latitude": "32.09872000",
     "longitude": "-116.56863000",
     "native": "Francisco Zarco",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 382,
-    "wikiDataId": "Q5484072"
-  },
-  {
-    "id": 70599,
-    "name": "Guadalupe Victoria",
-    "state_id": 3457,
-    "state_code": "BCN",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "32.28924000",
-    "longitude": "-115.10534000",
-    "native": "Guadalupe Victoria",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 17119,
-    "wikiDataId": "Q4151204"
-  },
-  {
-    "id": 70633,
-    "name": "Guerrero Negro",
-    "state_id": 3457,
-    "state_code": "BCN",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "27.96891000",
-    "longitude": "-114.04427000",
-    "native": "Guerrero Negro",
-    "timezone": "America/Mexico_City",
-    "translations": {},
-    "type": "city",
-    "population": 13596,
-    "wikiDataId": "Q957163"
+    "type": "locality",
+    "population": 4334,
+    "wikiDataId": "Q49961176"
   },
   {
     "id": 70655,
@@ -763,8 +715,8 @@
     "native": "Hacienda Tecate",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1871,
+    "type": "locality",
+    "population": 2572,
     "wikiDataId": "Q20144367"
   },
   {
@@ -779,9 +731,9 @@
     "native": "Hermosillo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 5101,
-    "wikiDataId": "Q20144774"
+    "type": "locality",
+    "population": 5072,
+    "wikiDataId": "Q15216128"
   },
   {
     "id": 70888,
@@ -811,9 +763,9 @@
     "native": "Islas Agrarias Grupo B",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1054,
-    "wikiDataId": "Q18575896"
+    "type": "locality",
+    "population": 1082,
+    "wikiDataId": "Q36091124"
   },
   {
     "id": 71277,
@@ -843,9 +795,25 @@
     "native": "La Providencia",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1253,
+    "type": "locality",
+    "population": 1604,
     "wikiDataId": "Q20133535"
+  },
+  {
+    "id": 73165,
+    "name": "La Rumorosa",
+    "state_id": 3457,
+    "state_code": "BCN",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "32.52396000",
+    "longitude": "-116.05397000",
+    "native": "La Rumorosa",
+    "timezone": "America/Tijuana",
+    "translations": {},
+    "type": "locality",
+    "population": 1677,
+    "wikiDataId": "Q2450936"
   },
   {
     "id": 71581,
@@ -859,8 +827,8 @@
     "native": "Las Brisas",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1078,
+    "type": "locality",
+    "population": 66,
     "wikiDataId": "Q20141653"
   },
   {
@@ -889,11 +857,11 @@
     "latitude": "30.52815000",
     "longitude": "-115.92617000",
     "native": "Lázaro Cárdenas",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 297,
-    "wikiDataId": "Q5795966"
+    "type": "locality",
+    "population": 18829,
+    "wikiDataId": "Q16919546"
   },
   {
     "id": 71676,
@@ -907,9 +875,9 @@
     "native": "Licenciado Gustavo Díaz Ordaz",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1239,
-    "wikiDataId": "Q20282194"
+    "type": "locality",
+    "population": 1640,
+    "wikiDataId": "Q49957969"
   },
   {
     "id": 71753,
@@ -955,9 +923,9 @@
     "native": "Los Algodones",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 4874,
-    "wikiDataId": "Q20208442"
+    "type": "locality",
+    "population": 6796,
+    "wikiDataId": "Q1492862"
   },
   {
     "id": 71867,
@@ -987,8 +955,8 @@
     "native": "Luis Rodríguez (El Vergel)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2281,
+    "type": "locality",
+    "population": 1066,
     "wikiDataId": "Q20143464"
   },
   {
@@ -1033,11 +1001,27 @@
     "latitude": "32.50513000",
     "longitude": "-115.14771000",
     "native": "Mexicali",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 854186,
     "wikiDataId": "Q1477270"
+  },
+  {
+    "id": 69780,
+    "name": "Nuevo León",
+    "state_id": 3457,
+    "state_code": "BCN",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "32.41103000",
+    "longitude": "-115.18827000",
+    "native": "Ejido Nuevo León",
+    "timezone": "America/Tijuana",
+    "translations": {},
+    "type": "locality",
+    "population": 3776,
+    "wikiDataId": "Q15211537"
   },
   {
     "id": 72815,
@@ -1051,7 +1035,7 @@
     "native": "Playas de Rosarito",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1361,
     "wikiDataId": "Q2088119"
   },
@@ -1067,8 +1051,8 @@
     "native": "Poblado Chulavista (El Chorizo)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1442,
+    "type": "locality",
+    "population": 1768,
     "wikiDataId": "Q20247969"
   },
   {
@@ -1083,8 +1067,8 @@
     "native": "Poblado Lázaro Cárdenas (La Veintiocho)",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2388,
+    "type": "locality",
+    "population": 3339,
     "wikiDataId": "Q20219182"
   },
   {
@@ -1115,8 +1099,8 @@
     "native": "Primo Tapia",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 4921,
+    "type": "locality",
+    "population": 6238,
     "wikiDataId": "Q20219194"
   },
   {
@@ -1163,8 +1147,8 @@
     "native": "Pueblo Benito García",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1028,
+    "type": "locality",
+    "population": 1505,
     "wikiDataId": "Q20219197"
   },
   {
@@ -1197,7 +1181,7 @@
     "translations": {},
     "type": "city",
     "population": 26860,
-    "wikiDataId": "Q20281961"
+    "wikiDataId": null
   },
   {
     "id": 73071,
@@ -1211,7 +1195,7 @@
     "native": "Rancho Verde",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2758,
     "wikiDataId": "Q20219583"
   },
@@ -1227,9 +1211,9 @@
     "native": "Rodolfo Sánchez Taboada",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 22957,
-    "wikiDataId": "Q20219624"
+    "type": "locality",
+    "population": 27969,
+    "wikiDataId": "Q5991337"
   },
   {
     "id": 73164,
@@ -1243,25 +1227,9 @@
     "native": "Rosarito",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 100660,
     "wikiDataId": "Q1020753"
-  },
-  {
-    "id": 73165,
-    "name": "Rumorosa",
-    "state_id": 3457,
-    "state_code": "BCN",
-    "country_id": 142,
-    "country_code": "MX",
-    "latitude": "32.52396000",
-    "longitude": "-116.05397000",
-    "native": "Ruidoso",
-    "timezone": "America/Tijuana",
-    "translations": {},
-    "type": "city",
-    "population": 1836,
-    "wikiDataId": "Q2450936"
   },
   {
     "id": 73229,
@@ -1291,7 +1259,7 @@
     "native": "San Felipe",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16702,
     "wikiDataId": "Q586007"
   },
@@ -1323,7 +1291,7 @@
     "native": "San Quintín",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4754,
     "wikiDataId": "Q2249597"
   },
@@ -1339,9 +1307,9 @@
     "native": "San Vicente",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 4583,
-    "wikiDataId": "Q20295547"
+    "type": "locality",
+    "population": 5068,
+    "wikiDataId": "Q49924730"
   },
   {
     "id": 74560,
@@ -1355,8 +1323,8 @@
     "native": "Santa Anita",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 1284,
+    "type": "locality",
+    "population": 1192,
     "wikiDataId": "Q20296115"
   },
   {
@@ -1371,9 +1339,9 @@
     "native": "Santa Fe",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 2632,
-    "wikiDataId": "Q20235584"
+    "type": "locality",
+    "population": 3117,
+    "wikiDataId": "Q20219707"
   },
   {
     "id": 74673,
@@ -1385,7 +1353,7 @@
     "latitude": "32.63330000",
     "longitude": "-115.57605000",
     "native": "Santa Isabel",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Tijuana",
     "translations": {},
     "type": "city",
     "population": 29311,
@@ -1403,13 +1371,13 @@
     "native": "Tecate",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 64764,
-    "wikiDataId": "Q2320825"
+    "wikiDataId": "Q1020773"
   },
   {
     "id": 75276,
-    "name": "Tecolots",
+    "name": "Tecolotes",
     "state_id": 3457,
     "state_code": "BCN",
     "country_id": 142,
@@ -1419,9 +1387,9 @@
     "native": "Tecolots",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 5259,
-    "wikiDataId": "Q20219747"
+    "type": "locality",
+    "population": 4197,
+    "wikiDataId": "Q15148890"
   },
   {
     "id": 75469,
@@ -1449,9 +1417,9 @@
     "latitude": "32.50223000",
     "longitude": "-116.97212000",
     "native": "Tijuana",
-    "timezone": "America/Mexico_City",
+    "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1964788,
     "wikiDataId": "Q2360428"
   },
@@ -1467,8 +1435,8 @@
     "native": "Vicente Guerrero",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
-    "population": 11455,
+    "type": "locality",
+    "population": 13876,
     "wikiDataId": "Q7925156"
   },
   {
@@ -1483,7 +1451,7 @@
     "native": "Villa del Campo",
     "timezone": "America/Tijuana",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13906,
     "wikiDataId": "Q1024122"
   },

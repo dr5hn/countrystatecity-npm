@@ -1,21 +1,5 @@
 [
   {
-    "id": 49785,
-    "name": "Halkirk",
-    "state_id": 2474,
-    "state_code": "ORK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "58.51227000",
-    "longitude": "-3.49155000",
-    "native": "Halkirk",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 970,
-    "wikiDataId": "Q1011584"
-  },
-  {
     "id": 50210,
     "name": "Kirkwall",
     "state_id": 2474,
@@ -27,7 +11,7 @@
     "native": "Kirkwall",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7420,
     "wikiDataId": "Q208329"
   },
@@ -45,7 +29,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q510513"
+    "wikiDataId": null
   },
   {
     "id": 51197,
@@ -75,40 +59,8 @@
     "native": "Stromness",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 0,
     "wikiDataId": "Q839556"
-  },
-  {
-    "id": 51615,
-    "name": "Thurso",
-    "state_id": 2474,
-    "state_code": "ORK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "58.59271000",
-    "longitude": "-3.52594000",
-    "native": "Tos",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7610,
-    "wikiDataId": "Q526576"
-  },
-  {
-    "id": 51890,
-    "name": "Wick",
-    "state_id": 2474,
-    "state_code": "ORK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "58.43906000",
-    "longitude": "-3.09424000",
-    "native": "Wick",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 7140,
-    "wikiDataId": "Q1012502"
   }
 ]

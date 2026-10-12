@@ -27,9 +27,9 @@
     "native": "Dvor",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2996,
-    "wikiDataId": "Q1018619"
+    "wikiDataId": "Q12750713"
   },
   {
     "id": 54491,
@@ -43,9 +43,9 @@
     "native": "Glina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 4028,
-    "wikiDataId": "Q396566"
+    "wikiDataId": "Q33438754"
   },
   {
     "id": 54516,
@@ -59,9 +59,9 @@
     "native": "Grad Glina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 7116,
-    "wikiDataId": "Q1722"
+    "wikiDataId": "Q396566"
   },
   {
     "id": 54518,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 1879,
-    "wikiDataId": "Q1722"
+    "wikiDataId": "Q396575"
   },
   {
     "id": 54529,
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q5718"
+    "wikiDataId": "Q396536"
   },
   {
     "id": 54536,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q272009"
+    "wikiDataId": "Q397639"
   },
   {
     "id": 54543,
@@ -124,8 +124,8 @@
     "timezone": "Europe/Zagreb",
     "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q1640"
+    "population": 19950,
+    "wikiDataId": "Q396512"
   },
   {
     "id": 54549,
@@ -139,8 +139,8 @@
     "native": "Grad Sisak",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": null,
+    "type": "city",
+    "population": 40121,
     "wikiDataId": "Q192119"
   },
   {
@@ -155,7 +155,7 @@
     "native": "Gvozd",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2047,
     "wikiDataId": "Q4550"
   },
@@ -171,9 +171,9 @@
     "native": "Hrvatska Kostajnica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1439,
-    "wikiDataId": "Q396575"
+    "wikiDataId": null
   },
   {
     "id": 54676,
@@ -184,12 +184,12 @@
     "country_code": "HR",
     "latitude": "45.47500000",
     "longitude": "16.78194000",
-    "native": "Svrbež",
+    "native": "Kutina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 12012,
-    "wikiDataId": "Q226067"
+    "wikiDataId": "Q33453356"
   },
   {
     "id": 54686,
@@ -203,7 +203,7 @@
     "native": "Lekenik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1697,
     "wikiDataId": "Q1269884"
   },
@@ -219,7 +219,7 @@
     "native": "Lipovljani",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1902,
     "wikiDataId": "Q2455431"
   },
@@ -235,9 +235,9 @@
     "native": "Martinska Ves",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q1281139"
+    "wikiDataId": "Q1112991"
   },
   {
     "id": 54768,
@@ -248,12 +248,12 @@
     "country_code": "HR",
     "latitude": "45.34056000",
     "longitude": "16.97694000",
-    "native": "Studeni",
+    "native": "Novska",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 5922,
-    "wikiDataId": "Q916485"
+    "wikiDataId": "Q33468185"
   },
   {
     "id": 54782,
@@ -267,9 +267,9 @@
     "native": "Općina Dvor",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q396465"
+    "wikiDataId": "Q1018619"
   },
   {
     "id": 54783,
@@ -285,7 +285,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q396465"
+    "wikiDataId": null
   },
   {
     "id": 54807,
@@ -299,9 +299,9 @@
     "native": "Petrinja",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 12963,
-    "wikiDataId": "Q1280634"
+    "wikiDataId": null
   },
   {
     "id": 54825,
@@ -315,7 +315,7 @@
     "native": "Popovača",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3633,
     "wikiDataId": "Q2056085"
   },
@@ -331,7 +331,7 @@
     "native": "Repušnica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1552,
     "wikiDataId": "Q3021936"
   },
@@ -347,9 +347,9 @@
     "native": "Sisak",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 27859,
-    "wikiDataId": "Q1184841"
+    "wikiDataId": null
   },
   {
     "id": 54922,
@@ -363,7 +363,7 @@
     "native": "Sunja",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1170,
     "wikiDataId": "Q1091348"
   },
@@ -379,8 +379,8 @@
     "native": "Voloder",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1574,
-    "wikiDataId": "Q396683"
+    "wikiDataId": "Q3442570"
   }
 ]

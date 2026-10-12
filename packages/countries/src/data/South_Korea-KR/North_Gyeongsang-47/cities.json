@@ -1,5 +1,21 @@
 [
   {
+    "id": 65261,
+    "name": "Andong",
+    "state_id": 3855,
+    "state_code": "47",
+    "country_id": 116,
+    "country_code": "KR",
+    "latitude": "36.56667000",
+    "longitude": "128.71667000",
+    "native": "안동시",
+    "timezone": "Asia/Seoul",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q42116"
+  },
+  {
     "id": 65260,
     "name": "Andong",
     "state_id": 3855,
@@ -16,22 +32,6 @@
     "wikiDataId": "Q42116"
   },
   {
-    "id": 65261,
-    "name": "Andong-si",
-    "state_id": 3855,
-    "state_code": "47",
-    "country_id": 116,
-    "country_code": "KR",
-    "latitude": "36.56667000",
-    "longitude": "128.71667000",
-    "native": "안동시",
-    "timezone": "Asia/Seoul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q42116"
-  },
-  {
     "id": 65269,
     "name": "Bonghwa-gun",
     "state_id": 3855,
@@ -43,7 +43,7 @@
     "native": "봉화군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50245"
   },
@@ -129,7 +129,7 @@
   },
   {
     "id": 65336,
-    "name": "Gimcheon-si",
+    "name": "Gimcheon",
     "state_id": 3855,
     "state_code": "47",
     "country_id": 116,
@@ -305,7 +305,7 @@
   },
   {
     "id": 65447,
-    "name": "Mungyeong-si",
+    "name": "Mungyeong",
     "state_id": 3855,
     "state_code": "47",
     "country_id": 116,
@@ -427,7 +427,7 @@
     "native": "울릉군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q485570"
   },
@@ -459,7 +459,7 @@
     "native": "예천군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50308"
   },
@@ -491,7 +491,7 @@
     "native": "영덕군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50260"
   },
@@ -523,7 +523,7 @@
     "native": "영양군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
     "wikiDataId": "Q50263"
   },

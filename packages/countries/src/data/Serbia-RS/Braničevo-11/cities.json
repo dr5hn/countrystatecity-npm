@@ -11,25 +11,9 @@
     "native": "Голубац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 1655,
     "wikiDataId": "Q2047467"
-  },
-  {
-    "id": 97245,
-    "name": "Klenje",
-    "state_id": 3732,
-    "state_code": "11",
-    "country_id": 196,
-    "country_code": "RS",
-    "latitude": "44.80794000",
-    "longitude": "19.43508000",
-    "native": "Кленје",
-    "timezone": "Europe/Belgrade",
-    "translations": {},
-    "type": "city",
-    "population": 3653,
-    "wikiDataId": "Q2722401"
   },
   {
     "id": 155042,
@@ -43,7 +27,7 @@
     "native": "Кучево",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q1486117"
   },
@@ -91,9 +75,9 @@
     "native": "Пожаревац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 41736,
-    "wikiDataId": "Q199942"
+    "wikiDataId": "Q2041686"
   },
   {
     "id": 97352,
@@ -107,7 +91,7 @@
     "native": "Раденка",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1541,
     "wikiDataId": "Q658485"
   },
@@ -128,6 +112,22 @@
     "wikiDataId": "Q3102834"
   },
   {
+    "id": 97417,
+    "name": "Turija",
+    "state_id": 3732,
+    "state_code": "11",
+    "country_id": 196,
+    "country_code": "RS",
+    "latitude": "44.52273000",
+    "longitude": "21.63945000",
+    "native": "Турија",
+    "timezone": "Europe/Belgrade",
+    "translations": {},
+    "type": "locality",
+    "population": 1039,
+    "wikiDataId": "Q3102490"
+  },
+  {
     "id": 155039,
     "name": "Veliko Gradište",
     "state_id": 3732,
@@ -139,7 +139,7 @@
     "native": "Велико Градиште",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2041692"
   },
@@ -171,7 +171,7 @@
     "native": "Жагубица",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9712,
     "wikiDataId": "Q393335"
   }

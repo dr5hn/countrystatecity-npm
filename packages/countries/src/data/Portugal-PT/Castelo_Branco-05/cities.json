@@ -1,5 +1,21 @@
 [
   {
+    "id": 143244,
+    "name": "Alcains",
+    "state_id": 2241,
+    "state_code": "05",
+    "country_id": 177,
+    "country_code": "PT",
+    "latitude": "39.91540278",
+    "longitude": "-7.46107778",
+    "native": "Alcains",
+    "timezone": "Europe/Lisbon",
+    "translations": {},
+    "type": "section",
+    "population": 4615,
+    "wikiDataId": "Q1024258"
+  },
+  {
     "id": 88926,
     "name": "Aldeia de Joanes",
     "state_id": 2241,
@@ -11,7 +27,7 @@
     "native": "Aldeia de Joanes",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1333,
     "wikiDataId": "Q31877731"
   },
@@ -27,8 +43,8 @@
     "native": "Belmonte",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 6859,
+    "type": "municipality",
+    "population": 6205,
     "wikiDataId": "Q816115"
   },
   {
@@ -43,9 +59,9 @@
     "native": "Castelo Branco",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 33479,
-    "wikiDataId": "Q12899232"
+    "wikiDataId": "Q373720"
   },
   {
     "id": 89133,
@@ -59,9 +75,9 @@
     "native": "Covilhã",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 17610,
-    "wikiDataId": "Q34797275"
+    "wikiDataId": "Q849026"
   },
   {
     "id": 89198,
@@ -75,8 +91,8 @@
     "native": "Fundão",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 29213,
+    "type": "municipality",
+    "population": 26503,
     "wikiDataId": "Q1024927"
   },
   {
@@ -91,8 +107,8 @@
     "native": "Idanha-A-Nova",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 9716,
+    "type": "municipality",
+    "population": 8355,
     "wikiDataId": "Q999446"
   },
   {
@@ -107,8 +123,8 @@
     "native": "Oleiros",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 559,
+    "type": "municipality",
+    "population": 4904,
     "wikiDataId": "Q1012719"
   },
   {
@@ -123,8 +139,8 @@
     "native": "Penamacor",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 0,
+    "type": "municipality",
+    "population": 4768,
     "wikiDataId": "Q995183"
   },
   {
@@ -139,8 +155,8 @@
     "native": "Proença-a-Nova",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 4590,
+    "type": "municipality",
+    "population": 7167,
     "wikiDataId": "Q1003172"
   },
   {
@@ -155,8 +171,8 @@
     "native": "Sertã",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 5636,
+    "type": "municipality",
+    "population": 14769,
     "wikiDataId": "Q193402"
   },
   {
@@ -171,9 +187,9 @@
     "native": "Teixoso",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4703,
-    "wikiDataId": "Q1145109"
+    "wikiDataId": "Q33505842"
   },
   {
     "id": 89670,
@@ -187,8 +203,8 @@
     "native": "Vila de Rei",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "adm2",
-    "population": 2595,
+    "type": "municipality",
+    "population": 3279,
     "wikiDataId": "Q1003126"
   },
   {
@@ -203,8 +219,8 @@
     "native": "Vila Velha de Ródão",
     "timezone": "Europe/Lisbon",
     "translations": {},
-    "type": "city",
-    "population": 3521,
+    "type": "municipality",
+    "population": 3285,
     "wikiDataId": "Q995188"
   }
 ]

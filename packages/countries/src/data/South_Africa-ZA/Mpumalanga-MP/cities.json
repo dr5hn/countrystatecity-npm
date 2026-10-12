@@ -32,22 +32,6 @@
     "wikiDataId": "Q807828"
   },
   {
-    "id": 131031,
-    "name": "Belfast",
-    "state_id": 937,
-    "state_code": "MP",
-    "country_id": 204,
-    "country_code": "ZA",
-    "latitude": "-25.68991000",
-    "longitude": "30.03504000",
-    "native": "Belfast",
-    "timezone": "Africa/Johannesburg",
-    "translations": {},
-    "type": "adm3",
-    "population": 20036,
-    "wikiDataId": "Q301107"
-  },
-  {
     "id": 131035,
     "name": "Bethal",
     "state_id": 937,
@@ -144,6 +128,22 @@
     "wikiDataId": "Q1244497"
   },
   {
+    "id": 131031,
+    "name": "eMakhazeni",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-25.68991000",
+    "longitude": "30.03504000",
+    "native": "eMakhazeni",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "adm3",
+    "population": 20036,
+    "wikiDataId": "Q301107"
+  },
+  {
     "id": 131319,
     "name": "eMbalenhle",
     "state_id": 937,
@@ -208,6 +208,22 @@
     "wikiDataId": "Q2753004"
   },
   {
+    "id": 165899,
+    "name": "Kinross",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-26.41663000",
+    "longitude": "29.08668000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3644429"
+  },
+  {
     "id": 131145,
     "name": "Komatipoort",
     "state_id": 937,
@@ -240,6 +256,22 @@
     "wikiDataId": "Q31935641"
   },
   {
+    "id": 165877,
+    "name": "Leslie",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-26.36737000",
+    "longitude": "28.91890000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 39514,
+    "wikiDataId": "Q6530571"
+  },
+  {
     "id": 131165,
     "name": "Lydenburg",
     "state_id": 937,
@@ -256,6 +288,38 @@
     "wikiDataId": "Q1836921"
   },
   {
+    "id": 165876,
+    "name": "Matsulu",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-25.52297000",
+    "longitude": "31.35693000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 47306,
+    "wikiDataId": "Q15251630"
+  },
+  {
+    "id": 131198,
+    "name": "Mbombela",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-25.47448000",
+    "longitude": "30.97033000",
+    "native": "Nelspruit",
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q170313"
+  },
+  {
     "id": 131175,
     "name": "Middelburg",
     "state_id": 937,
@@ -270,22 +334,6 @@
     "type": "adm2",
     "population": 196263,
     "wikiDataId": "Q1931836"
-  },
-  {
-    "id": 131198,
-    "name": "Nelspruit",
-    "state_id": 937,
-    "state_code": "MP",
-    "country_id": 204,
-    "country_code": "ZA",
-    "latitude": "-25.47448000",
-    "longitude": "30.97033000",
-    "native": "Nelspruit",
-    "timezone": "Africa/Johannesburg",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q170313"
   },
   {
     "id": 131203,
@@ -320,6 +368,22 @@
     "wikiDataId": "Q1395427"
   },
   {
+    "id": 165898,
+    "name": "Sabie",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-25.09990000",
+    "longitude": "30.78001000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1013366"
+  },
+  {
     "id": 131252,
     "name": "Secunda",
     "state_id": 937,
@@ -328,7 +392,7 @@
     "country_code": "ZA",
     "latitude": "-26.55000000",
     "longitude": "29.16667000",
-    "native": "Second",
+    "native": "Secunda",
     "timezone": "Africa/Johannesburg",
     "translations": {},
     "type": "adm2",
@@ -366,6 +430,22 @@
     "type": "adm3",
     "population": 101101,
     "wikiDataId": "Q742514"
+  },
+  {
+    "id": 165874,
+    "name": "Trichardt",
+    "state_id": 937,
+    "state_code": "MP",
+    "country_id": 204,
+    "country_code": "ZA",
+    "latitude": "-26.49155000",
+    "longitude": "29.22878000",
+    "native": null,
+    "timezone": "Africa/Johannesburg",
+    "translations": {},
+    "type": "city",
+    "population": 52776,
+    "wikiDataId": "Q3642970"
   },
   {
     "id": 131291,

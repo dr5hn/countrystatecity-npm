@@ -8,7 +8,7 @@
     "country_code": "NI",
     "latitude": "12.57758000",
     "longitude": "-87.02705000",
-    "native": "El error",
+    "native": "Chichigalpa",
     "timezone": "America/Managua",
     "translations": {},
     "type": "adm2",
@@ -136,7 +136,7 @@
     "country_code": "NI",
     "latitude": "12.54422000",
     "longitude": "-86.97982000",
-    "native": "Sal",
+    "native": "Posoltega",
     "timezone": "America/Managua",
     "translations": {},
     "type": "adm2",
@@ -158,6 +158,22 @@
     "type": "city",
     "population": 7671,
     "wikiDataId": "Q2605034"
+  },
+  {
+    "id": 165335,
+    "name": "San Pedro del Norte",
+    "state_id": 954,
+    "state_code": "CI",
+    "country_id": 159,
+    "country_code": "NI",
+    "latitude": "13.27611000",
+    "longitude": "-86.87782000",
+    "native": null,
+    "timezone": "America/Managua",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q21053606"
   },
   {
     "id": 77278,
@@ -190,5 +206,37 @@
     "type": "adm2",
     "population": 15385,
     "wikiDataId": "Q2604179"
+  },
+  {
+    "id": 165337,
+    "name": "Tonalá",
+    "state_id": 954,
+    "state_code": "CI",
+    "country_id": 159,
+    "country_code": "NI",
+    "latitude": "12.76730000",
+    "longitude": "-87.13323000",
+    "native": null,
+    "timezone": "America/Managua",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q31896714"
+  },
+  {
+    "id": 165338,
+    "name": "Villanueva",
+    "state_id": 954,
+    "state_code": "CI",
+    "country_id": 159,
+    "country_code": "NI",
+    "latitude": "12.96353000",
+    "longitude": "-86.81517000",
+    "native": null,
+    "timezone": "America/Managua",
+    "translations": {},
+    "type": "adm2",
+    "population": null,
+    "wikiDataId": "Q31573223"
   }
 ]

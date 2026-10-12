@@ -1,5 +1,21 @@
 [
   {
+    "id": 164551,
+    "name": "Bouansa",
+    "state_id": 2866,
+    "state_code": "11",
+    "country_id": 50,
+    "country_code": "CG",
+    "latitude": "-4.21861000",
+    "longitude": "13.76167000",
+    "native": null,
+    "timezone": "Africa/Brazzaville",
+    "translations": {},
+    "type": "city",
+    "population": 27512,
+    "wikiDataId": "Q4949228"
+  },
+  {
     "id": 17345,
     "name": "Kayes",
     "state_id": 2866,
@@ -16,6 +32,22 @@
     "wikiDataId": "Q6271177"
   },
   {
+    "id": 164550,
+    "name": "Loutété",
+    "state_id": 2866,
+    "state_code": "11",
+    "country_id": 50,
+    "country_code": "CG",
+    "latitude": "-4.29611000",
+    "longitude": "13.85083000",
+    "native": null,
+    "timezone": "Africa/Brazzaville",
+    "translations": {},
+    "type": "city",
+    "population": 27726,
+    "wikiDataId": "Q6689873"
+  },
+  {
     "id": 17348,
     "name": "Madingou",
     "state_id": 2866,
@@ -24,11 +56,43 @@
     "country_code": "CG",
     "latitude": "-4.15361000",
     "longitude": "13.55000000",
-    "native": "Mode",
+    "native": "Madingou",
     "timezone": "Africa/Brazzaville",
     "translations": {},
     "type": "adm1",
     "population": 1153,
     "wikiDataId": "Q1971302"
+  },
+  {
+    "id": 164553,
+    "name": "Mouyondzi",
+    "state_id": 2866,
+    "state_code": "11",
+    "country_id": 50,
+    "country_code": "CG",
+    "latitude": "-3.99437000",
+    "longitude": "13.92719000",
+    "native": null,
+    "timezone": "Africa/Brazzaville",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3326889"
+  },
+  {
+    "id": 164549,
+    "name": "Nkayi",
+    "state_id": 2866,
+    "state_code": "11",
+    "country_id": 50,
+    "country_code": "CG",
+    "latitude": "-4.18396000",
+    "longitude": "13.28590000",
+    "native": null,
+    "timezone": "Africa/Brazzaville",
+    "translations": {},
+    "type": "adm2",
+    "population": 103000,
+    "wikiDataId": "Q2088506"
   }
 ]

@@ -56,7 +56,7 @@
     "country_code": "IN",
     "latitude": "15.46361000",
     "longitude": "73.85310000",
-    "native": "बाम्बोलिम",
+    "native": "बम्बोलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
     "type": "city",
@@ -94,6 +94,22 @@
     "type": "city",
     "population": 11919,
     "wikiDataId": "Q2564851"
+  },
+  {
+    "id": 131764,
+    "name": "Bicholim",
+    "state_id": 4009,
+    "state_code": "GA",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "15.59319000",
+    "longitude": "73.94571000",
+    "native": "डिचोली",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "adm3",
+    "population": 16986,
+    "wikiDataId": "Q796819"
   },
   {
     "id": 58165,
@@ -304,22 +320,6 @@
     "wikiDataId": "Q1192143"
   },
   {
-    "id": 131764,
-    "name": "Dicholi",
-    "state_id": 4009,
-    "state_code": "GA",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "15.59319000",
-    "longitude": "73.94571000",
-    "native": "डिचोली",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "adm3",
-    "population": 16986,
-    "wikiDataId": "Q796819"
-  },
-  {
     "id": 131960,
     "name": "Goa Velha",
     "state_id": 4009,
@@ -401,7 +401,7 @@
   },
   {
     "id": 133086,
-    "name": "Mapuca",
+    "name": "Mapusa",
     "state_id": 4009,
     "state_code": "GA",
     "country_id": 101,
@@ -600,7 +600,7 @@
     "country_code": "IN",
     "latitude": "15.55359000",
     "longitude": "73.79036000",
-    "native": "सालिगांव",
+    "native": "सालगाँव",
     "timezone": "Asia/Kolkata",
     "translations": {},
     "type": "city",
@@ -715,7 +715,7 @@
     "native": "दक्षिण गोवा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "area",
     "population": 640537,
     "wikiDataId": "Q108244"
   },
@@ -753,7 +753,7 @@
   },
   {
     "id": 134321,
-    "name": "Valpoy",
+    "name": "Valpoi",
     "state_id": 4009,
     "state_code": "GA",
     "country_id": 101,

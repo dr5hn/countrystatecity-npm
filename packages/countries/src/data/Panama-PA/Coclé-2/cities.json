@@ -11,9 +11,9 @@
     "native": "Aguadulce",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 8501,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": "Q397836"
   },
   {
     "id": 79957,
@@ -27,9 +27,9 @@
     "native": "Aguas Blancas",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1053,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 79965,
@@ -43,9 +43,9 @@
     "native": "Alto de La Estancia",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1081,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 79969,
@@ -56,12 +56,12 @@
     "country_code": "PA",
     "latitude": "8.39733000",
     "longitude": "-80.26063000",
-    "native": "Hormiga",
+    "native": "Antón",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 6851,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 79984,
@@ -75,9 +75,9 @@
     "native": "Barranco Colorado",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 52,
-    "wikiDataId": "Q1956983"
+    "wikiDataId": null
   },
   {
     "id": 80013,
@@ -91,9 +91,9 @@
     "native": "Caballero",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 114,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80015,
@@ -107,9 +107,9 @@
     "native": "Cabuya",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 93,
-    "wikiDataId": "Q804144"
+    "wikiDataId": "Q21065738"
   },
   {
     "id": 80039,
@@ -123,9 +123,9 @@
     "native": "Cañaveral",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 827,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80032,
@@ -139,9 +139,9 @@
     "native": "Capellanía",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 2252,
-    "wikiDataId": "Q804144"
+    "wikiDataId": "Q3444003"
   },
   {
     "id": 80058,
@@ -152,12 +152,12 @@
     "country_code": "PA",
     "latitude": "8.53035000",
     "longitude": "-80.35117000",
-    "native": "Quigoroso",
+    "native": "Chigoré",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2899,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80059,
@@ -171,9 +171,9 @@
     "native": "Chiguirí Arriba",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 509,
-    "wikiDataId": "Q804144"
+    "wikiDataId": null
   },
   {
     "id": 80067,
@@ -200,12 +200,12 @@
     "country_code": "PA",
     "latitude": "8.59449000",
     "longitude": "-80.27182000",
-    "native": "Grande",
+    "native": "Churuquita Grande",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1518,
-    "wikiDataId": "Q5118336"
+    "wikiDataId": "Q5118338"
   },
   {
     "id": 80071,
@@ -235,7 +235,7 @@
     "native": "Distrito de Aguadulce",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 989,
     "wikiDataId": "Q2216595"
   },
@@ -251,7 +251,7 @@
     "native": "Distrito de Antón",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 0,
     "wikiDataId": "Q2216997"
   },
@@ -267,7 +267,7 @@
     "native": "Distrito de La Pintada",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 25639,
     "wikiDataId": "Q2215435"
   },
@@ -283,7 +283,7 @@
     "native": "Distrito de Natá",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 18465,
     "wikiDataId": "Q2215891"
   },
@@ -296,10 +296,10 @@
     "country_code": "PA",
     "latitude": "8.48053000",
     "longitude": "-80.65324000",
-    "native": "Hola Distrito",
+    "native": "Distrito de Olá",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5875,
     "wikiDataId": "Q2217017"
   },
@@ -315,7 +315,7 @@
     "native": "Distrito Penonomé",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 799,
     "wikiDataId": "Q2216569"
   },
@@ -331,9 +331,9 @@
     "native": "El Caño",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 1129,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": "Q5350969"
   },
   {
     "id": 80159,
@@ -347,9 +347,9 @@
     "native": "El Chirú",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 531,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": null
   },
   {
     "id": 80165,
@@ -363,9 +363,9 @@
     "native": "El Copé",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1176,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": null
   },
   {
     "id": 80166,
@@ -379,9 +379,9 @@
     "native": "El Cortezo",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1157,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": null
   },
   {
     "id": 80168,
@@ -395,9 +395,9 @@
     "native": "El Cristo",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 989,
-    "wikiDataId": "Q2216393"
+    "wikiDataId": "Q5351081"
   },
   {
     "id": 80198,
@@ -411,9 +411,9 @@
     "native": "El Retiro",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 450,
-    "wikiDataId": "Q1018577"
+    "wikiDataId": "Q21065762"
   },
   {
     "id": 80201,
@@ -427,9 +427,9 @@
     "native": "El Roble",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 1648,
-    "wikiDataId": "Q1018577"
+    "wikiDataId": null
   },
   {
     "id": 80207,
@@ -443,9 +443,9 @@
     "native": "Entradero",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1049,
-    "wikiDataId": "Q5352312"
+    "wikiDataId": null
   },
   {
     "id": 80209,
@@ -459,9 +459,9 @@
     "native": "Farallón",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1967,
-    "wikiDataId": "Q5352312"
+    "wikiDataId": null
   },
   {
     "id": 80228,
@@ -475,9 +475,9 @@
     "native": "Guzmán",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 228,
-    "wikiDataId": "Q2437057"
+    "wikiDataId": "Q21065768"
   },
   {
     "id": 80275,
@@ -493,7 +493,7 @@
     "translations": {},
     "type": "adm2",
     "population": 1917,
-    "wikiDataId": "Q10315061"
+    "wikiDataId": null
   },
   {
     "id": 80293,
@@ -507,9 +507,9 @@
     "native": "Las Huacas del Quije",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 451,
-    "wikiDataId": "Q3916792"
+    "wikiDataId": null
   },
   {
     "id": 80299,
@@ -525,7 +525,7 @@
     "translations": {},
     "type": "adm3",
     "population": 71,
-    "wikiDataId": "Q3916792"
+    "wikiDataId": null
   },
   {
     "id": 80300,
@@ -539,9 +539,9 @@
     "native": "Las Minas",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 548,
-    "wikiDataId": "Q3916792"
+    "wikiDataId": "Q137477069"
   },
   {
     "id": 80305,
@@ -555,9 +555,9 @@
     "native": "Las Sabanas",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 88,
-    "wikiDataId": "Q3916792"
+    "wikiDataId": null
   },
   {
     "id": 80315,
@@ -571,9 +571,9 @@
     "native": "Llano Grande",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 438,
-    "wikiDataId": "Q2712890"
+    "wikiDataId": null
   },
   {
     "id": 80320,
@@ -589,7 +589,7 @@
     "translations": {},
     "type": "city",
     "population": 1757,
-    "wikiDataId": "Q2712890"
+    "wikiDataId": null
   },
   {
     "id": 80340,
@@ -603,9 +603,9 @@
     "native": "Los Pollos",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1419,
-    "wikiDataId": "Q2712890"
+    "wikiDataId": null
   },
   {
     "id": 80366,
@@ -616,10 +616,10 @@
     "country_code": "PA",
     "latitude": "8.33209000",
     "longitude": "-80.51969000",
-    "native": "Crema",
+    "native": "Natá",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm2",
+    "type": "section",
     "population": 5470,
     "wikiDataId": "Q3544851"
   },
@@ -635,9 +635,9 @@
     "native": "Nuestro Amo",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 235,
-    "wikiDataId": "Q3544851"
+    "wikiDataId": null
   },
   {
     "id": 80383,
@@ -651,9 +651,9 @@
     "native": "Hola",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 384,
-    "wikiDataId": "Q7068690"
+    "wikiDataId": "Q33469302"
   },
   {
     "id": 80406,
@@ -667,7 +667,7 @@
     "native": "Penonomé",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm1",
+    "type": "section",
     "population": 16250,
     "wikiDataId": "Q654169"
   },
@@ -680,12 +680,12 @@
     "country_code": "PA",
     "latitude": "8.25814000",
     "longitude": "-80.55000000",
-    "native": "Agujeros",
+    "native": "Pocrí",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 12304,
-    "wikiDataId": "Q654169"
+    "wikiDataId": "Q33473153"
   },
   {
     "id": 80462,
@@ -699,9 +699,9 @@
     "native": "Río Hato",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 5615,
-    "wikiDataId": "Q6115163"
+    "wikiDataId": "Q4845098"
   },
   {
     "id": 80486,
@@ -715,9 +715,9 @@
     "native": "San Juan de Dios",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 400,
-    "wikiDataId": "Q7386411"
+    "wikiDataId": null
   },
   {
     "id": 80522,
@@ -731,9 +731,9 @@
     "native": "Toabré",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 603,
-    "wikiDataId": "Q685509"
+    "wikiDataId": null
   },
   {
     "id": 80528,
@@ -744,11 +744,11 @@
     "country_code": "PA",
     "latitude": "8.34542000",
     "longitude": "-80.64012000",
-    "native": "Limpio",
+    "native": "Toza",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 253,
-    "wikiDataId": "Q186116"
+    "wikiDataId": null
   }
 ]

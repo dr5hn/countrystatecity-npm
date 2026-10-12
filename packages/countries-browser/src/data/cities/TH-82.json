@@ -1,21 +1,5 @@
 [
   {
-    "id": 106383,
-    "name": "Ban Ao Nang",
-    "state_id": 3549,
-    "state_code": "82",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "8.04580000",
-    "longitude": "98.81035000",
-    "native": "บ้านอ่าวนาง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "city",
-    "population": 8000,
-    "wikiDataId": "Q4784166"
-  },
-  {
     "id": 106393,
     "name": "Ban Khao Lak",
     "state_id": 3549,
@@ -70,14 +54,14 @@
     "state_code": "82",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "9.18972000",
-    "longitude": "98.40806000",
-    "native": "อำเภอคุระบุรี",
+    "latitude": "9.19397000",
+    "longitude": "98.41514000",
+    "native": "คุระบุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475764"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q104665202"
   },
   {
     "id": 105446,
@@ -86,30 +70,14 @@
     "state_code": "82",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "8.06549000",
-    "longitude": "98.57851000",
-    "native": "อำเภอเกาะยาว",
+    "latitude": "8.11870000",
+    "longitude": "98.59050000",
+    "native": "เกาะยาว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q475812"
-  },
-  {
-    "id": 105567,
-    "name": "Mueang Phangnga",
-    "state_id": 3549,
-    "state_code": "82",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "8.49350000",
-    "longitude": "98.50775000",
-    "native": "อำเภอเมืองพังงา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q3274991"
+    "wikiDataId": "Q104590988"
   },
   {
     "id": 106622,
@@ -123,7 +91,7 @@
     "native": "พังงา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 10412,
     "wikiDataId": "Q204587"
   },
@@ -134,14 +102,14 @@
     "state_code": "82",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "8.86883000",
-    "longitude": "98.33892000",
-    "native": "อำเภอตะกั่วป่า",
+    "latitude": "8.87050000",
+    "longitude": "98.34383000",
+    "native": "ตะกั่วป่า",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476799"
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q13025358"
   },
   {
     "id": 106265,
@@ -166,14 +134,14 @@
     "state_code": "82",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "8.48995000",
-    "longitude": "98.31292000",
-    "native": "อำเภอท้ายเหมือง",
+    "latitude": "8.39440000",
+    "longitude": "98.25990000",
+    "native": "ท้ายเหมือง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476872"
+    "wikiDataId": "Q104590932"
   },
   {
     "id": 106300,
@@ -182,13 +150,13 @@
     "state_code": "82",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "8.53768000",
-    "longitude": "98.63208000",
-    "native": "อำเภอทับปุด",
+    "latitude": "8.51570000",
+    "longitude": "98.64130000",
+    "native": "ทับปุด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476891"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q104602997"
   }
 ]

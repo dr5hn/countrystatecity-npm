@@ -11,25 +11,9 @@
     "native": "Billingham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 33915,
     "wikiDataId": "Q862891"
-  },
-  {
-    "id": 48538,
-    "name": "Bishopton",
-    "state_id": 2421,
-    "state_code": "STT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.58333000",
-    "longitude": "-1.43333000",
-    "native": "Bishopton",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 0,
-    "wikiDataId": "Q4918118"
   },
   {
     "id": 48860,
@@ -43,7 +27,7 @@
     "native": "Carlton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 874,
     "wikiDataId": "Q1906682"
   },
@@ -62,22 +46,6 @@
     "type": "city",
     "population": 7900,
     "wikiDataId": "Q1612793"
-  },
-  {
-    "id": 51229,
-    "name": "Sedgefield",
-    "state_id": 2421,
-    "state_code": "STT",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.65329000",
-    "longitude": "-1.44952000",
-    "native": "Sedgefield",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 5369,
-    "wikiDataId": "Q14522524"
   },
   {
     "id": 51450,
@@ -139,7 +107,7 @@
     "native": "Yarm",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 19184,
     "wikiDataId": "Q2462654"
   }

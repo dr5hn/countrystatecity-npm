@@ -1,50 +1,18 @@
 [
   {
-    "id": 105231,
-    "name": "Amphoe Bang Len",
-    "state_id": 3503,
-    "state_code": "73",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "14.05000000",
-    "longitude": "100.18333000",
-    "native": "อำเภอบางเลน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q475216"
-  },
-  {
-    "id": 106176,
-    "name": "Amphoe Sam Phran",
-    "state_id": 3503,
-    "state_code": "73",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.72035000",
-    "longitude": "100.21071000",
-    "native": "อำเภอสามพราน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 37115,
-    "wikiDataId": "Q476603"
-  },
-  {
     "id": 106434,
     "name": "Bang Len",
     "state_id": 3503,
     "state_code": "73",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.02188000",
-    "longitude": "100.17183000",
+    "latitude": "14.02194444",
+    "longitude": "100.17194444",
     "native": "บางเลน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 17914,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28726670"
   },
   {
@@ -70,14 +38,14 @@
     "state_code": "73",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.02823000",
-    "longitude": "99.96152000",
-    "native": "อำเภอกำแพงแสน",
+    "latitude": "13.99966000",
+    "longitude": "99.98981000",
+    "native": "กำแพงแสน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q260370"
+    "wikiDataId": null
   },
   {
     "id": 105554,
@@ -102,14 +70,14 @@
     "state_code": "73",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.81173000",
-    "longitude": "100.18157000",
-    "native": "อำเภอนครชัยศรี",
+    "latitude": "13.80050000",
+    "longitude": "100.18690000",
+    "native": "นครชัยศรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q476169"
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q58393537"
   },
   {
     "id": 106581,
@@ -129,19 +97,19 @@
   },
   {
     "id": 105786,
-    "name": "Phutthamonthon",
+    "name": "Sala Ya",
     "state_id": 3503,
     "state_code": "73",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "13.82559000",
-    "longitude": "100.29239000",
-    "native": "อำเภอพุทธมณฑล",
+    "latitude": "13.80230000",
+    "longitude": "100.32080000",
+    "native": "ศาลายา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476502"
+    "wikiDataId": "Q16267152"
   },
   {
     "id": 106677,
@@ -155,8 +123,8 @@
     "native": "สามพราน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 37115,
+    "type": "city",
+    "population": null,
     "wikiDataId": "Q13025385"
   }
 ]

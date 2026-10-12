@@ -11,7 +11,7 @@
     "native": "Αγία Φωτεινή",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q12872912"
   },
@@ -27,7 +27,7 @@
     "native": "Αγία Γαλήνη",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1369,
     "wikiDataId": "Q201088"
   },
@@ -43,7 +43,7 @@
     "native": "Αγία Μαρίνα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2380,
     "wikiDataId": "Q4692505"
   },
@@ -59,7 +59,7 @@
     "native": "Αγία Βαρβάρα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2167,
     "wikiDataId": "Q393633"
   },
@@ -75,7 +75,7 @@
     "native": "Άγιοι Δέκα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q4692593"
   },
@@ -91,9 +91,9 @@
     "native": "Άγιος Νικόλαος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 11421,
-    "wikiDataId": "Q21555128"
+    "wikiDataId": "Q211463"
   },
   {
     "id": 52467,
@@ -107,9 +107,9 @@
     "native": "Άνω Αρχάνες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3913,
-    "wikiDataId": "Q2466281"
+    "wikiDataId": "Q12181506"
   },
   {
     "id": 52480,
@@ -123,7 +123,7 @@
     "native": "Ανώγεια",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2964,
     "wikiDataId": "Q567511"
   },
@@ -139,7 +139,7 @@
     "native": "Αρκαλοχώρι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3501,
     "wikiDataId": "Q2283009"
   },
@@ -155,7 +155,7 @@
     "native": "Ασίμιον",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1148,
     "wikiDataId": "Q12179786"
   },
@@ -171,9 +171,9 @@
     "native": "Ατσιπόπουλο",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1392,
-    "wikiDataId": "Q3566843"
+    "wikiDataId": "Q757785"
   },
   {
     "id": 52530,
@@ -187,7 +187,7 @@
     "native": "Χανιά",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 54559,
     "wikiDataId": "Q182299"
   },
@@ -203,7 +203,7 @@
     "native": "Χώρα Σφακίων",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 243,
     "wikiDataId": "Q1076320"
   },
@@ -219,9 +219,9 @@
     "native": "Δαράτσος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4822,
-    "wikiDataId": "Q205832"
+    "wikiDataId": "Q12211311"
   },
   {
     "id": 52582,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "cities",
     "population": 2193,
-    "wikiDataId": "Q659728"
+    "wikiDataId": "Q1333250"
   },
   {
     "id": 52623,
@@ -251,7 +251,7 @@
     "native": "Γαλατάς",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3166,
     "wikiDataId": "Q12276095"
   },
@@ -267,7 +267,7 @@
     "native": "Γάζι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 13526,
     "wikiDataId": "Q2097291"
   },
@@ -283,7 +283,7 @@
     "native": "Γεωργιούπολη",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2483,
     "wikiDataId": "Q15725356"
   },
@@ -299,7 +299,7 @@
     "native": "Γεράνι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q5549851"
   },
@@ -315,7 +315,7 @@
     "native": "Γκέργκερι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1444,
     "wikiDataId": "Q3104044"
   },
@@ -331,7 +331,7 @@
     "native": "Γούρνες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1628,
     "wikiDataId": "Q12875472"
   },
@@ -347,25 +347,9 @@
     "native": "Γκρα Λιγιά",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1528,
-    "wikiDataId": "Q12875472"
-  },
-  {
-    "id": 153541,
-    "name": "Heraklion",
-    "state_id": 2109,
-    "state_code": "M",
-    "country_id": 85,
-    "country_code": "GR",
-    "latitude": "35.33870000",
-    "longitude": "25.14420000",
-    "native": "Ηράκλειο",
-    "timezone": "Europe/Athens",
-    "translations": {},
-    "type": "adm1",
-    "population": 137154,
-    "wikiDataId": "Q34402"
+    "wikiDataId": "Q2605314"
   },
   {
     "id": 52659,
@@ -379,7 +363,7 @@
     "native": "Ιεράπετρα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 12355,
     "wikiDataId": "Q938412"
   },
@@ -395,8 +379,8 @@
     "native": "Ηράκλειο",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm1",
-    "population": 137154,
+    "type": "locality",
+    "population": 145440,
     "wikiDataId": "Q160544"
   },
   {
@@ -411,7 +395,7 @@
     "native": "Καλύβες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1304,
     "wikiDataId": "Q285734"
   },
@@ -427,7 +411,7 @@
     "native": "Καστέλι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 1828,
     "wikiDataId": "Q845105"
   },
@@ -443,7 +427,7 @@
     "native": "Καστρί",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 37,
     "wikiDataId": "Q21758160"
   },
@@ -459,7 +443,7 @@
     "native": "Κάτω Ασίται",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1264,
     "wikiDataId": "Q3564248"
   },
@@ -475,7 +459,7 @@
     "native": "Κάτω Γούβες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2630,
     "wikiDataId": "Q12234195"
   },
@@ -491,9 +475,9 @@
     "native": "Κεντρί",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1051,
-    "wikiDataId": "Q3558285"
+    "wikiDataId": "Q21731052"
   },
   {
     "id": 52822,
@@ -507,7 +491,7 @@
     "native": "Κίσσαμος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 4295,
     "wikiDataId": "Q1021629"
   },
@@ -523,7 +507,7 @@
     "native": "Κοκκίνη Χάνι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1733,
     "wikiDataId": "Q12234402"
   },
@@ -539,7 +523,7 @@
     "native": "Κολυμπάρι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1032,
     "wikiDataId": "Q12078328"
   },
@@ -555,7 +539,7 @@
     "native": "Κρίτσα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1291,
     "wikiDataId": "Q1384932"
   },
@@ -571,9 +555,9 @@
     "native": "Κρουσόν",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2811,
-    "wikiDataId": "Q640658"
+    "wikiDataId": "Q12234840"
   },
   {
     "id": 52855,
@@ -587,9 +571,9 @@
     "native": "Λιμίν Χερσονήσου",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2968,
-    "wikiDataId": "Q1014258"
+    "wikiDataId": "Q105745673"
   },
   {
     "id": 52953,
@@ -603,9 +587,9 @@
     "native": "Μάλια",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4343,
-    "wikiDataId": "Q21540690"
+    "wikiDataId": "Q284463"
   },
   {
     "id": 52948,
@@ -619,7 +603,7 @@
     "native": "Μοίρες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 6740,
     "wikiDataId": "Q1016694"
   },
@@ -635,9 +619,9 @@
     "native": "Μόχος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1132,
-    "wikiDataId": "Q3859489"
+    "wikiDataId": "Q12246352"
   },
   {
     "id": 52944,
@@ -651,7 +635,7 @@
     "native": "Μουρνιές",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5318,
     "wikiDataId": "Q3326154"
   },
@@ -667,9 +651,9 @@
     "native": "Μουζούρας",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1462,
-    "wikiDataId": "Q3326154"
+    "wikiDataId": "Q6926445"
   },
   {
     "id": 52999,
@@ -683,7 +667,7 @@
     "native": "Νέα Αλικαρνασσός",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12925,
     "wikiDataId": "Q1021602"
   },
@@ -699,9 +683,9 @@
     "native": "Νέα Ανατολή",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1002,
-    "wikiDataId": "Q1021602"
+    "wikiDataId": "Q21731068"
   },
   {
     "id": 52973,
@@ -715,7 +699,7 @@
     "native": "Νεάπολη",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2683,
     "wikiDataId": "Q1736413"
   },
@@ -731,41 +715,9 @@
     "native": "Νεροκούρος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4388,
     "wikiDataId": "Q12249495"
-  },
-  {
-    "id": 52986,
-    "name": "Nomós Irakleíou",
-    "state_id": 2109,
-    "state_code": "M",
-    "country_id": 85,
-    "country_code": "GR",
-    "latitude": "35.32969000",
-    "longitude": "25.12985000",
-    "native": "Νομός Ηρακλείου",
-    "timezone": "Europe/Athens",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q19896769"
-  },
-  {
-    "id": 52991,
-    "name": "Nomós Rethýmnis",
-    "state_id": 2109,
-    "state_code": "M",
-    "country_id": 85,
-    "country_code": "GR",
-    "latitude": "35.25000000",
-    "longitude": "24.58333000",
-    "native": "Νομός Ρεθύμνης",
-    "timezone": "Europe/Athens",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q17317934"
   },
   {
     "id": 53079,
@@ -779,7 +731,7 @@
     "native": "Παλαιόχωρα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 2038,
     "wikiDataId": "Q2047708"
   },
@@ -795,7 +747,7 @@
     "native": "Παλαίκαστρο",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1024,
     "wikiDataId": "Q941860"
   },
@@ -811,7 +763,7 @@
     "native": "Πάνορμος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1157,
     "wikiDataId": "Q238648"
   },
@@ -827,7 +779,7 @@
     "native": "Πέραμα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1937,
     "wikiDataId": "Q2070110"
   },
@@ -843,9 +795,9 @@
     "native": "Περιβόλια",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3320,
-    "wikiDataId": "Q827238"
+    "wikiDataId": "Q12200615"
   },
   {
     "id": 53124,
@@ -859,9 +811,9 @@
     "native": "Πιθάρι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1302,
-    "wikiDataId": "Q58976"
+    "wikiDataId": "Q12200540"
   },
   {
     "id": 53142,
@@ -875,7 +827,7 @@
     "native": "Προφήτης Ηλίας",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1320,
     "wikiDataId": "Q12198148"
   },
@@ -891,7 +843,7 @@
     "native": "Πύργος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1134,
     "wikiDataId": "Q12884059"
   },
@@ -907,7 +859,7 @@
     "native": "Ρέθυμνο",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 34085,
     "wikiDataId": "Q200908"
   },
@@ -923,9 +875,9 @@
     "native": "Σχίσμα Ελούντας",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1730,
-    "wikiDataId": "Q1227707"
+    "wikiDataId": "Q21705807"
   },
   {
     "id": 53272,
@@ -939,7 +891,7 @@
     "native": "Σίσιον",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1003,
     "wikiDataId": "Q3565823"
   },
@@ -955,7 +907,7 @@
     "native": "Σητεία",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 10565,
     "wikiDataId": "Q985549"
   },
@@ -971,7 +923,7 @@
     "native": "Σκαλάνι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1012,
     "wikiDataId": "Q16322951"
   },
@@ -987,7 +939,7 @@
     "native": "Σούδα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6155,
     "wikiDataId": "Q544242"
   },
@@ -1003,9 +955,9 @@
     "native": "Σταλίδα",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1182,
-    "wikiDataId": "Q368275"
+    "wikiDataId": "Q7597243"
   },
   {
     "id": 53281,
@@ -1019,9 +971,9 @@
     "native": "Θραψανό",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1499,
-    "wikiDataId": "Q1142680"
+    "wikiDataId": "Q12203763"
   },
   {
     "id": 53302,
@@ -1035,7 +987,7 @@
     "native": "Τίλισος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1026,
     "wikiDataId": "Q2707725"
   },
@@ -1051,9 +1003,9 @@
     "native": "Τσικαλαριά",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1545,
-    "wikiDataId": "Q2637021"
+    "wikiDataId": "Q21774024"
   },
   {
     "id": 53299,
@@ -1067,7 +1019,7 @@
     "native": "Τυμπάκι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5515,
     "wikiDataId": "Q2462767"
   },
@@ -1083,9 +1035,9 @@
     "native": "Βιολί Χαράκι",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3185,
-    "wikiDataId": "Q213916"
+    "wikiDataId": "Q21747460"
   },
   {
     "id": 53337,
@@ -1099,9 +1051,9 @@
     "native": "Βρύσες",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 812,
-    "wikiDataId": "Q3563193"
+    "wikiDataId": "Q3563709"
   },
   {
     "id": 53359,
@@ -1115,7 +1067,7 @@
     "native": "Ζάρος",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2205,
     "wikiDataId": "Q1142647"
   },
@@ -1131,7 +1083,7 @@
     "native": "Ζωνιανά",
     "timezone": "Europe/Athens",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1703,
     "wikiDataId": "Q219951"
   }

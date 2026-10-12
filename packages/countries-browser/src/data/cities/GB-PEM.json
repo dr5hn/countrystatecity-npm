@@ -1,21 +1,5 @@
 [
   {
-    "id": 48855,
-    "name": "Cardigan",
-    "state_id": 2486,
-    "state_code": "PEM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.08373000",
-    "longitude": "-4.66228000",
-    "native": "Cardigan",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 5301,
-    "wikiDataId": "Q779813"
-  },
-  {
     "id": 49191,
     "name": "Crymych",
     "state_id": 2486,
@@ -24,7 +8,7 @@
     "country_code": "GB",
     "latitude": "51.97361000",
     "longitude": "-4.64722000",
-    "native": "Bow",
+    "native": "Crymych",
     "timezone": "Europe/London",
     "translations": {},
     "type": "adm3",
@@ -61,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 1586,
-    "wikiDataId": "Q2079042"
+    "wikiDataId": null
   },
   {
     "id": 49676,
@@ -91,7 +75,7 @@
     "native": "Haverfordwest",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 12107,
     "wikiDataId": "Q990103"
   },
@@ -107,7 +91,7 @@
     "native": "Hook",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 838,
     "wikiDataId": "Q5897836"
   },
@@ -139,7 +123,7 @@
     "native": "Johnston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2218,
     "wikiDataId": "Q519215"
   },
@@ -171,7 +155,7 @@
     "native": "Letterston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1270,
     "wikiDataId": "Q6533801"
   },
@@ -184,10 +168,10 @@
     "country_code": "GB",
     "latitude": "51.74833000",
     "longitude": "-4.91361000",
-    "native": "Lady",
+    "native": "Llangwm",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 817,
     "wikiDataId": "Q6661542"
   },
@@ -203,7 +187,7 @@
     "native": "Milford Haven",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14798,
     "wikiDataId": "Q991055"
   },
@@ -216,10 +200,10 @@
     "country_code": "GB",
     "latitude": "51.79784000",
     "longitude": "-4.74275000",
-    "native": "Narrative",
+    "native": "Narberth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2265,
     "wikiDataId": "Q177165"
   },
@@ -235,7 +219,7 @@
     "native": "Neyland",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3340,
     "wikiDataId": "Q1939963"
   },
@@ -251,7 +235,7 @@
     "native": "Pembroke",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7552,
     "wikiDataId": "Q1762242"
   },
@@ -272,22 +256,6 @@
     "wikiDataId": "Q784824"
   },
   {
-    "id": 50873,
-    "name": "Pembrokeshire",
-    "state_id": 2486,
-    "state_code": "PEM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.83333000",
-    "longitude": "-4.91667000",
-    "native": "Pembrokeshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 125818,
-    "wikiDataId": "Q213361"
-  },
-  {
     "id": 50876,
     "name": "Penally",
     "state_id": 2486,
@@ -299,7 +267,7 @@
     "native": "Penally",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 809,
     "wikiDataId": "Q7162166"
   },
@@ -317,7 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 1800,
-    "wikiDataId": "Q648732"
+    "wikiDataId": "Q24341876"
   },
   {
     "id": 51202,
@@ -331,7 +299,7 @@
     "native": "Saundersfoot",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 3361,
     "wikiDataId": "Q3405190"
   },
@@ -347,7 +315,7 @@
     "native": "Spittal",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 494,
     "wikiDataId": "Q1009227"
   },
@@ -360,7 +328,7 @@
     "country_code": "GB",
     "latitude": "51.72917000",
     "longitude": "-5.01722000",
-    "native": "Stynton",
+    "native": "Steynton",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
@@ -379,7 +347,7 @@
     "native": "Templeton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 627,
     "wikiDataId": "Q7698820"
   },
@@ -395,24 +363,8 @@
     "native": "Tenby",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 4087,
     "wikiDataId": "Q558878"
-  },
-  {
-    "id": 51877,
-    "name": "Whitland",
-    "state_id": 2486,
-    "state_code": "PEM",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.81889000",
-    "longitude": "-4.61528000",
-    "native": "Whitland",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": 1514,
-    "wikiDataId": "Q1996667"
   }
 ]

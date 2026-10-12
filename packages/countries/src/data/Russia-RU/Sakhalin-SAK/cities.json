@@ -11,7 +11,7 @@
     "native": "Александровск-Сахалинский",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 12024,
     "wikiDataId": "Q103406"
   },
@@ -27,7 +27,7 @@
     "native": "Анива",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 9686,
     "wikiDataId": "Q103652"
   },
@@ -43,7 +43,7 @@
     "native": "Бошняково",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1491,
     "wikiDataId": "Q31925065"
   },
@@ -59,7 +59,7 @@
     "native": "Быков",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3059,
     "wikiDataId": "Q34788192"
   },
@@ -75,7 +75,7 @@
     "native": "Чехов",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 4653,
     "wikiDataId": "Q1631586"
   },
@@ -91,7 +91,7 @@
     "native": "Долинск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 11840,
     "wikiDataId": "Q135406"
   },
@@ -107,7 +107,7 @@
     "native": "Гастелло",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 511,
     "wikiDataId": "Q37785641"
   },
@@ -123,7 +123,7 @@
     "native": "Горнозаводск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 5579,
     "wikiDataId": "Q1141330"
   },
@@ -139,7 +139,7 @@
     "native": "Холмск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 32681,
     "wikiDataId": "Q197609"
   },
@@ -155,7 +155,7 @@
     "native": "Корсаков",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 32772,
     "wikiDataId": "Q155331"
   },
@@ -171,7 +171,7 @@
     "native": "Красногорск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 193127,
     "wikiDataId": "Q35702346"
   },
@@ -219,7 +219,7 @@
     "native": "Леонидово",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 763,
     "wikiDataId": "Q35715101"
   },
@@ -235,7 +235,7 @@
     "native": "Макаров",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5691,
     "wikiDataId": "Q157930"
   },
@@ -251,7 +251,7 @@
     "native": "Мгачи",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 634,
     "wikiDataId": "Q35728494"
   },
@@ -283,7 +283,7 @@
     "native": "Ноглики",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 10518,
     "wikiDataId": "Q37897866"
   },
@@ -299,7 +299,7 @@
     "native": "Оха",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 26560,
     "wikiDataId": "Q177782"
   },
@@ -317,7 +317,7 @@
     "translations": {},
     "type": "city",
     "population": 3215,
-    "wikiDataId": "Q4339576"
+    "wikiDataId": null
   },
   {
     "id": 100779,
@@ -331,7 +331,7 @@
     "native": "Поронайск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 15953,
     "wikiDataId": "Q183093"
   },
@@ -347,7 +347,7 @@
     "native": "Правда",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1793,
     "wikiDataId": "Q37964500"
   },
@@ -395,7 +395,7 @@
     "native": "Шебунино",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1177,
     "wikiDataId": "Q37964466"
   },
@@ -427,7 +427,7 @@
     "native": "Синегорск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1433,
     "wikiDataId": "Q37964453"
   },
@@ -443,7 +443,7 @@
     "native": "Смирных",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8293,
     "wikiDataId": "Q1002883"
   },
@@ -459,7 +459,7 @@
     "native": "Сокол",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3107,
     "wikiDataId": "Q37964438"
   },
@@ -475,7 +475,7 @@
     "native": "Томари",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 4299,
     "wikiDataId": "Q196666"
   },
@@ -491,7 +491,7 @@
     "native": "Троицкое",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 0,
     "wikiDataId": "Q37964378"
   },
@@ -507,7 +507,7 @@
     "native": "Тунгор",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1322,
     "wikiDataId": "Q37964374"
   },
@@ -523,7 +523,7 @@
     "native": "Тымовское",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 8721,
     "wikiDataId": "Q841143"
   },
@@ -571,7 +571,7 @@
     "native": "Углезаводск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1610,
     "wikiDataId": "Q37964358"
   },
@@ -605,7 +605,7 @@
     "translations": {},
     "type": "city",
     "population": 2779,
-    "wikiDataId": "Q4126413"
+    "wikiDataId": null
   },
   {
     "id": 102457,
@@ -635,7 +635,7 @@
     "native": "Южно-Курильск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7777,
     "wikiDataId": "Q600699"
   },
@@ -667,7 +667,7 @@
     "native": "Южно-Сахалинск",
     "timezone": "Asia/Sakhalin",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 181976,
     "wikiDataId": "Q7859"
   }

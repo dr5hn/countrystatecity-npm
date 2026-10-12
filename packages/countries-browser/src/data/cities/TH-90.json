@@ -1,21 +1,5 @@
 [
   {
-    "id": 105347,
-    "name": "Amphoe Hat Yai",
-    "state_id": 3539,
-    "state_code": "90",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "6.98092000",
-    "longitude": "100.46539000",
-    "native": "อำเภอหาดใหญ่",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 191696,
-    "wikiDataId": "Q475518"
-  },
-  {
     "id": 105617,
     "name": "Amphoe Na Mom",
     "state_id": 3539,
@@ -30,38 +14,6 @@
     "type": "district",
     "population": null,
     "wikiDataId": "Q166990"
-  },
-  {
-    "id": 105804,
-    "name": "Amphoe Ranot",
-    "state_id": 3539,
-    "state_code": "90",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.81390000",
-    "longitude": "100.28323000",
-    "native": "อำเภอระโนด",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q218963"
-  },
-  {
-    "id": 105819,
-    "name": "Amphoe Sadao",
-    "state_id": 3539,
-    "state_code": "90",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "6.67135000",
-    "longitude": "100.42409000",
-    "native": "อำเภอสะเดา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 46236,
-    "wikiDataId": "Q133861"
   },
   {
     "id": 106398,
@@ -123,7 +75,7 @@
     "native": "หาดใหญ่",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 159130,
     "wikiDataId": "Q651286"
   },
@@ -150,14 +102,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.18231000",
-    "longitude": "100.37403000",
-    "native": "อำเภอควนเนียง",
+    "latitude": "7.19138000",
+    "longitude": "100.35355000",
+    "native": "ควนเนียง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q195669"
+    "wikiDataId": null
   },
   {
     "id": 105453,
@@ -166,30 +118,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.61254000",
-    "longitude": "100.32827000",
-    "native": "อำเภอกระแสสินธุ์",
+    "latitude": "7.58520000",
+    "longitude": "100.31980000",
+    "native": "กระแสสินธุ์",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q218973"
-  },
-  {
-    "id": 105591,
-    "name": "Mueang Songkhla",
-    "state_id": 3539,
-    "state_code": "90",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "7.11075000",
-    "longitude": "100.60814000",
-    "native": "อำเภอเมืองสงขลา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476090"
+    "wikiDataId": "Q104713902"
   },
   {
     "id": 106576,
@@ -205,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7537,
-    "wikiDataId": "Q11990772"
+    "wikiDataId": null
   },
   {
     "id": 105623,
@@ -214,14 +150,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.63849000",
-    "longitude": "100.68173000",
-    "native": "อำเภอนาทวี",
+    "latitude": "6.74192000",
+    "longitude": "100.69139000",
+    "native": "นาทวี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q94536"
+    "wikiDataId": null
   },
   {
     "id": 106662,
@@ -235,8 +171,8 @@
     "native": "ระโนด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
-    "population": 19780,
+    "type": "town",
+    "population": null,
     "wikiDataId": "Q28599020"
   },
   {
@@ -262,14 +198,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.52971000",
-    "longitude": "100.91232000",
-    "native": "อำเภอสะบ้าย้อย",
+    "latitude": "6.61750000",
+    "longitude": "100.95189000",
+    "native": "สะบ้าย้อย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q82277"
+    "wikiDataId": null
   },
   {
     "id": 106672,
@@ -280,10 +216,10 @@
     "country_code": "TH",
     "latitude": "6.63883000",
     "longitude": "100.42342000",
-    "native": "ซาดาโอะ",
+    "native": "สะเดา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 46236,
     "wikiDataId": "Q13025392"
   },
@@ -294,14 +230,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.47963000",
-    "longitude": "100.42227000",
-    "native": "อำเภอสทิงพระ",
+    "latitude": "7.47303000",
+    "longitude": "100.43908000",
+    "native": "สทิงพระ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q218967"
+    "wikiDataId": null
   },
   {
     "id": 106237,
@@ -310,14 +246,14 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "7.28453000",
-    "longitude": "100.48809000",
-    "native": "อำเภอสิงหนคร",
+    "latitude": "7.23888889",
+    "longitude": "100.55055556",
+    "native": "สิงหนคร",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "city",
     "population": null,
-    "wikiDataId": "Q211419"
+    "wikiDataId": "Q6664229"
   },
   {
     "id": 106704,
@@ -331,7 +267,7 @@
     "native": "สงขลา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 63834,
     "wikiDataId": "Q795595"
   },
@@ -342,13 +278,13 @@
     "state_code": "90",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "6.79726000",
-    "longitude": "100.91025000",
-    "native": "อำเภอเทพา",
+    "latitude": "6.82936000",
+    "longitude": "100.96431000",
+    "native": "เทพา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q74201"
+    "wikiDataId": null
   }
 ]

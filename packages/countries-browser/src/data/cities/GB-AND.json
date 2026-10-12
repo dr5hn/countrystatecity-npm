@@ -1,19 +1,19 @@
 [
   {
-    "id": 48273,
-    "name": "Ards and North Down",
+    "id": 48353,
+    "name": "Ballygowan",
     "state_id": 2523,
     "state_code": "AND",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "54.53439000",
-    "longitude": "-5.62947000",
-    "native": "Ards and North Down",
+    "latitude": "54.50165000",
+    "longitude": "-5.79168000",
+    "native": "Ballygowan",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
-    "population": 160864,
-    "wikiDataId": "Q640073"
+    "type": "village",
+    "population": 2832,
+    "wikiDataId": "Q116772"
   },
   {
     "id": 48359,
@@ -27,7 +27,7 @@
     "native": "Ballywalter",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1572,
     "wikiDataId": "Q149569"
   },
@@ -43,9 +43,25 @@
     "native": "Bangor",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 61011,
     "wikiDataId": "Q806551"
+  },
+  {
+    "id": 49081,
+    "name": "Comber",
+    "state_id": 2523,
+    "state_code": "AND",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "54.54937000",
+    "longitude": "-5.74379000",
+    "native": "Comber",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 9190,
+    "wikiDataId": "Q116787"
   },
   {
     "id": 49302,
@@ -59,7 +75,7 @@
     "native": "Donaghadee",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7369,
     "wikiDataId": "Q2421009"
   },
@@ -75,9 +91,25 @@
     "native": "Greyabbey",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1030,
     "wikiDataId": "Q135049"
+  },
+  {
+    "id": 49975,
+    "name": "Holywood",
+    "state_id": 2523,
+    "state_code": "AND",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "54.63863000",
+    "longitude": "-5.82473000",
+    "native": "Holywood",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 13109,
+    "wikiDataId": "Q1625366"
   },
   {
     "id": 50194,
@@ -91,7 +123,7 @@
     "native": "Kircubbin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1237,
     "wikiDataId": "Q232805"
   },
@@ -107,7 +139,7 @@
     "native": "Millisle",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1914,
     "wikiDataId": "Q135444"
   },
@@ -123,7 +155,7 @@
     "native": "Newtownards",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 29363,
     "wikiDataId": "Q2192709"
   },
@@ -139,7 +171,7 @@
     "native": "Portaferry",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2525,
     "wikiDataId": "Q1959712"
   },
@@ -152,27 +184,11 @@
     "country_code": "GB",
     "latitude": "54.45916000",
     "longitude": "-5.44304000",
-    "native": "Spoiled",
+    "native": "Portavogie",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1639,
     "wikiDataId": "Q75180"
-  },
-  {
-    "id": 51874,
-    "name": "Whitehead",
-    "state_id": 2523,
-    "state_code": "AND",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.75371000",
-    "longitude": "-5.70933000",
-    "native": "Whitehead",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 3697,
-    "wikiDataId": "Q1233469"
   }
 ]

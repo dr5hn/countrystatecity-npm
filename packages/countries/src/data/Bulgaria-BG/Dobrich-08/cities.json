@@ -11,7 +11,7 @@
     "native": "Балчик",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 13000,
     "wikiDataId": "Q329437"
   },
@@ -27,7 +27,7 @@
     "native": "Добрич",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 69434,
     "wikiDataId": "Q168668"
   },
@@ -43,7 +43,7 @@
     "native": "Генерал Тошево",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 7758,
     "wikiDataId": "Q405390"
   },
@@ -59,9 +59,9 @@
     "native": "Каварна",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 10012,
-    "wikiDataId": "Q406227"
+    "wikiDataId": "Q405120"
   },
   {
     "id": 9378,
@@ -75,7 +75,7 @@
     "native": "Крушари",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 1722,
     "wikiDataId": "Q2990389"
   },
@@ -91,7 +91,7 @@
     "native": "Община Балчик",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2663152"
   },
@@ -107,7 +107,7 @@
     "native": "Община Добрич",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2220850"
   },
@@ -123,7 +123,7 @@
     "native": "Община Добрич-Селска",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2561279"
   },
@@ -139,7 +139,7 @@
     "native": "Община Генерал Тошево",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q614612"
   },
@@ -155,7 +155,7 @@
     "native": "Община Каварна",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q965588"
   },
@@ -171,7 +171,7 @@
     "native": "Община Крушари",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2561255"
   },
@@ -187,7 +187,7 @@
     "native": "Община Шабла",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2548849"
   },
@@ -203,7 +203,7 @@
     "native": "Община Тервел",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q680608"
   },
@@ -219,9 +219,9 @@
     "native": "Шабла",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3901,
-    "wikiDataId": "Q326312"
+    "wikiDataId": "Q406639"
   },
   {
     "id": 9720,
@@ -235,8 +235,8 @@
     "native": "Тервел",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6808,
-    "wikiDataId": "Q185114"
+    "wikiDataId": "Q405984"
   }
 ]

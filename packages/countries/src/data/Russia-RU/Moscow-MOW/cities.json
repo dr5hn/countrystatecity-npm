@@ -13,7 +13,7 @@
     "translations": {},
     "type": "section",
     "population": 54000,
-    "wikiDataId": "Q31880389"
+    "wikiDataId": "Q2366768"
   },
   {
     "id": 97613,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "section",
     "population": 30000,
-    "wikiDataId": "Q470509"
+    "wikiDataId": null
   },
   {
     "id": 97634,
@@ -48,6 +48,22 @@
     "wikiDataId": "Q4066675"
   },
   {
+    "id": 97636,
+    "name": "Annino",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.58316000",
+    "longitude": "37.26019000",
+    "native": "Аннино",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 30000,
+    "wikiDataId": "Q31883836"
+  },
+  {
     "id": 97744,
     "name": "Babushkin",
     "state_id": 1901,
@@ -61,7 +77,7 @@
     "translations": {},
     "type": "section",
     "population": 86000,
-    "wikiDataId": "Q31896326"
+    "wikiDataId": null
   },
   {
     "id": 97924,
@@ -77,7 +93,7 @@
     "translations": {},
     "type": "section",
     "population": 158797,
-    "wikiDataId": "Q31915575"
+    "wikiDataId": "Q2367665"
   },
   {
     "id": 97938,
@@ -96,6 +112,22 @@
     "wikiDataId": "Q4087175"
   },
   {
+    "id": 97939,
+    "name": "Biryulëvo Zapadnoye",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.58766000",
+    "longitude": "37.64282000",
+    "native": "Бирюлёво Западное",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 89000,
+    "wikiDataId": "Q1963002"
+  },
+  {
     "id": 97971,
     "name": "Bogorodskoye",
     "state_id": 1901,
@@ -109,7 +141,7 @@
     "translations": {},
     "type": "section",
     "population": 103000,
-    "wikiDataId": "Q31917902"
+    "wikiDataId": "Q2367564"
   },
   {
     "id": 98052,
@@ -139,7 +171,7 @@
     "native": "Черемушки",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 106587,
     "wikiDataId": "Q1112926"
   },
@@ -157,7 +189,7 @@
     "translations": {},
     "type": "section",
     "population": 156092,
-    "wikiDataId": "Q34792685"
+    "wikiDataId": "Q1963154"
   },
   {
     "id": 98250,
@@ -176,6 +208,54 @@
     "wikiDataId": "Q134740"
   },
   {
+    "id": 98320,
+    "name": "Dorogomilovo",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.75000000",
+    "longitude": "37.56667000",
+    "native": "Дорогомилово",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 75669,
+    "wikiDataId": "Q2358875"
+  },
+  {
+    "id": 98424,
+    "name": "Fili",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.74819000",
+    "longitude": "37.47969000",
+    "native": "Фили",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 80000,
+    "wikiDataId": "Q1002971"
+  },
+  {
+    "id": 98425,
+    "name": "Filimonki",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.55794000",
+    "longitude": "37.34719000",
+    "native": "Филимонки",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 1329,
+    "wikiDataId": "Q37785148"
+  },
+  {
     "id": 98514,
     "name": "Gol’yanovo",
     "state_id": 1901,
@@ -189,7 +269,7 @@
     "translations": {},
     "type": "section",
     "population": 158000,
-    "wikiDataId": "Q1753793"
+    "wikiDataId": "Q2365753"
   },
   {
     "id": 98509,
@@ -205,7 +285,7 @@
     "translations": {},
     "type": "section",
     "population": 10000,
-    "wikiDataId": "Q37786748"
+    "wikiDataId": "Q1017756"
   },
   {
     "id": 98735,
@@ -221,7 +301,23 @@
     "translations": {},
     "type": "section",
     "population": 128000,
-    "wikiDataId": "Q37809301"
+    "wikiDataId": "Q2367484"
+  },
+  {
+    "id": 98754,
+    "name": "Izmaylovo",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.78677000",
+    "longitude": "37.80165000",
+    "native": "Измайлово",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 108666,
+    "wikiDataId": "Q635860"
   },
   {
     "id": 98848,
@@ -238,6 +334,22 @@
     "type": "section",
     "population": 32161,
     "wikiDataId": "Q1963403"
+  },
+  {
+    "id": 99008,
+    "name": "Khoroshëvo-Mnevniki",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.78363000",
+    "longitude": "37.47137000",
+    "native": "Хорошёво-Мневники",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 182497,
+    "wikiDataId": "Q630277"
   },
   {
     "id": 99132,
@@ -272,6 +384,38 @@
     "wikiDataId": "Q652464"
   },
   {
+    "id": 99166,
+    "name": "Kommunarka",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.56952000",
+    "longitude": "37.48932000",
+    "native": "Коммунарка",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 5223,
+    "wikiDataId": "Q1780477"
+  },
+  {
+    "id": 99201,
+    "name": "Koptëvo",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.81667000",
+    "longitude": "37.51667000",
+    "native": "Коптево",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 103676,
+    "wikiDataId": "Q2366877"
+  },
+  {
     "id": 99248,
     "name": "Kotlovka",
     "state_id": 1901,
@@ -301,7 +445,23 @@
     "translations": {},
     "type": "section",
     "population": 50000,
-    "wikiDataId": "Q1652697"
+    "wikiDataId": null
+  },
+  {
+    "id": 99264,
+    "name": "Kozhukhovo",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.70000000",
+    "longitude": "37.66667000",
+    "native": "Кожухово",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 50000,
+    "wikiDataId": null
   },
   {
     "id": 99281,
@@ -317,7 +477,7 @@
     "translations": {},
     "type": "adm3",
     "population": 2434,
-    "wikiDataId": "Q35702175"
+    "wikiDataId": null
   },
   {
     "id": 99482,
@@ -368,6 +528,22 @@
     "wikiDataId": "Q1382617"
   },
   {
+    "id": 99575,
+    "name": "Leninskiye Gory",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.70000000",
+    "longitude": "37.56667000",
+    "native": "Ленинские горы",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 30000,
+    "wikiDataId": "Q4258282"
+  },
+  {
     "id": 99582,
     "name": "Leonovo",
     "state_id": 1901,
@@ -381,7 +557,23 @@
     "translations": {},
     "type": "section",
     "population": 30000,
-    "wikiDataId": "Q35715101"
+    "wikiDataId": null
+  },
+  {
+    "id": 99616,
+    "name": "Levoberezhnyy",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.85000000",
+    "longitude": "37.48333000",
+    "native": "Левобережный",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 52000,
+    "wikiDataId": "Q2366787"
   },
   {
     "id": 99621,
@@ -397,7 +589,7 @@
     "translations": {},
     "type": "section",
     "population": 84105,
-    "wikiDataId": "Q19910518"
+    "wikiDataId": "Q2367455"
   },
   {
     "id": 99622,
@@ -461,7 +653,7 @@
     "translations": {},
     "type": "section",
     "population": 172000,
-    "wikiDataId": "Q35721748"
+    "wikiDataId": "Q1963431"
   },
   {
     "id": 99808,
@@ -477,7 +669,7 @@
     "translations": {},
     "type": "section",
     "population": 243000,
-    "wikiDataId": "Q4282950"
+    "wikiDataId": "Q1958176"
   },
   {
     "id": 99817,
@@ -509,7 +701,7 @@
     "translations": {},
     "type": "section",
     "population": 40122,
-    "wikiDataId": "Q1924337"
+    "wikiDataId": "Q2626887"
   },
   {
     "id": 99894,
@@ -539,7 +731,7 @@
     "native": "Москва",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "capital",
+    "type": "city",
     "population": 13274285,
     "wikiDataId": "Q649"
   },
@@ -560,6 +752,22 @@
     "wikiDataId": "Q159261"
   },
   {
+    "id": 99980,
+    "name": "Mosrentgen",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.61970000",
+    "longitude": "37.46402000",
+    "native": "Мосрентген",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 5214,
+    "wikiDataId": "Q35734236"
+  },
+  {
     "id": 100046,
     "name": "Nagornyy",
     "state_id": 1901,
@@ -573,7 +781,7 @@
     "translations": {},
     "type": "section",
     "population": 76000,
-    "wikiDataId": "Q2644994"
+    "wikiDataId": "Q1963134"
   },
   {
     "id": 100091,
@@ -605,7 +813,7 @@
     "translations": {},
     "type": "section",
     "population": 50000,
-    "wikiDataId": "Q15281"
+    "wikiDataId": null
   },
   {
     "id": 100148,
@@ -635,7 +843,7 @@
     "native": "Ново-Переделкино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 122058,
     "wikiDataId": "Q2364381"
   },
@@ -653,7 +861,7 @@
     "translations": {},
     "type": "section",
     "population": 99348,
-    "wikiDataId": "Q37898385"
+    "wikiDataId": "Q2366899"
   },
   {
     "id": 100250,
@@ -685,7 +893,7 @@
     "translations": {},
     "type": "section",
     "population": 50000,
-    "wikiDataId": "Q904732"
+    "wikiDataId": null
   },
   {
     "id": 100328,
@@ -733,7 +941,7 @@
     "translations": {},
     "type": "section",
     "population": 143000,
-    "wikiDataId": "Q4326357"
+    "wikiDataId": null
   },
   {
     "id": 100395,
@@ -813,7 +1021,7 @@
     "translations": {},
     "type": "section",
     "population": 18000,
-    "wikiDataId": "Q4339576"
+    "wikiDataId": "Q2360436"
   },
   {
     "id": 100750,
@@ -891,9 +1099,9 @@
     "native": "Рублёво",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "section",
+    "type": "village",
     "population": 20000,
-    "wikiDataId": "Q193371"
+    "wikiDataId": "Q4399157"
   },
   {
     "id": 101043,
@@ -957,7 +1165,7 @@
     "translations": {},
     "type": "city",
     "population": 28065,
-    "wikiDataId": "Q4528643"
+    "wikiDataId": null
   },
   {
     "id": 101279,
@@ -976,6 +1184,22 @@
     "wikiDataId": "Q598088"
   },
   {
+    "id": 101332,
+    "name": "Shishkin Les",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.41057000",
+    "longitude": "37.18853000",
+    "native": "Шишкин Лес",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "city",
+    "population": 3913,
+    "wikiDataId": null
+  },
+  {
     "id": 101408,
     "name": "Slobodka",
     "state_id": 1901,
@@ -989,7 +1213,7 @@
     "translations": {},
     "type": "section",
     "population": 20000,
-    "wikiDataId": "Q37957499"
+    "wikiDataId": null
   },
   {
     "id": 101432,
@@ -1005,7 +1229,7 @@
     "translations": {},
     "type": "section",
     "population": 57000,
-    "wikiDataId": "Q196378"
+    "wikiDataId": "Q2704327"
   },
   {
     "id": 101441,
@@ -1021,7 +1245,7 @@
     "translations": {},
     "type": "section",
     "population": 57000,
-    "wikiDataId": "Q37957430"
+    "wikiDataId": "Q1935566"
   },
   {
     "id": 101460,
@@ -1069,7 +1293,7 @@
     "translations": {},
     "type": "section",
     "population": 60013,
-    "wikiDataId": "Q15306"
+    "wikiDataId": "Q2365359"
   },
   {
     "id": 101741,
@@ -1101,7 +1325,7 @@
     "translations": {},
     "type": "section",
     "population": 100000,
-    "wikiDataId": "Q1967972"
+    "wikiDataId": "Q1963126"
   },
   {
     "id": 101879,
@@ -1165,7 +1389,7 @@
     "translations": {},
     "type": "section",
     "population": 119021,
-    "wikiDataId": "Q37956312"
+    "wikiDataId": "Q508433"
   },
   {
     "id": 101945,
@@ -1197,7 +1421,7 @@
     "translations": {},
     "type": "section",
     "population": 131899,
-    "wikiDataId": "Q2218142"
+    "wikiDataId": "Q1963160"
   },
   {
     "id": 102174,
@@ -1213,7 +1437,7 @@
     "translations": {},
     "type": "section",
     "population": 50000,
-    "wikiDataId": "Q1753880"
+    "wikiDataId": null
   },
   {
     "id": 102204,
@@ -1261,7 +1485,7 @@
     "translations": {},
     "type": "section",
     "population": 119585,
-    "wikiDataId": "Q28607"
+    "wikiDataId": "Q1019199"
   },
   {
     "id": 102333,
@@ -1293,7 +1517,7 @@
     "translations": {},
     "type": "section",
     "population": 30000,
-    "wikiDataId": "Q4016457"
+    "wikiDataId": null
   },
   {
     "id": 102395,
@@ -1307,7 +1531,7 @@
     "native": "Восточное Дегунино",
     "timezone": "Europe/Moscow",
     "translations": {},
-    "type": "adm3",
+    "type": "section",
     "population": 95000,
     "wikiDataId": "Q2366730"
   },
@@ -1325,7 +1549,23 @@
     "translations": {},
     "type": "section",
     "population": 13011,
-    "wikiDataId": "Q37959510"
+    "wikiDataId": "Q2626858"
+  },
+  {
+    "id": 102402,
+    "name": "Vostryakovo",
+    "state_id": 1901,
+    "state_code": "MOW",
+    "country_id": 182,
+    "country_code": "RU",
+    "latitude": "55.66667000",
+    "longitude": "37.45000000",
+    "native": "Востряково",
+    "timezone": "Europe/Moscow",
+    "translations": {},
+    "type": "section",
+    "population": 30000,
+    "wikiDataId": "Q4126688"
   },
   {
     "id": 102432,
@@ -1357,7 +1597,7 @@
     "translations": {},
     "type": "section",
     "population": 91000,
-    "wikiDataId": "Q33523056"
+    "wikiDataId": "Q2367611"
   },
   {
     "id": 102506,
@@ -1373,7 +1613,7 @@
     "translations": {},
     "type": "section",
     "population": 180000,
-    "wikiDataId": "Q20968662"
+    "wikiDataId": "Q2360561"
   },
   {
     "id": 102629,
@@ -1405,7 +1645,7 @@
     "translations": {},
     "type": "section",
     "population": 55000,
-    "wikiDataId": "Q1409442"
+    "wikiDataId": "Q862107"
   },
   {
     "id": 102698,
@@ -1453,7 +1693,7 @@
     "translations": {},
     "type": "section",
     "population": 133658,
-    "wikiDataId": "Q4025037"
+    "wikiDataId": "Q1963114"
   },
   {
     "id": 102791,
@@ -1469,6 +1709,6 @@
     "translations": {},
     "type": "section",
     "population": 123288,
-    "wikiDataId": "Q16654643"
+    "wikiDataId": "Q2008454"
   }
 ]

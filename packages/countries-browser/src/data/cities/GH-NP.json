@@ -1,5 +1,21 @@
 [
   {
+    "id": 164749,
+    "name": "Bimbila",
+    "state_id": 51,
+    "state_code": "NP",
+    "country_id": 83,
+    "country_code": "GH",
+    "latitude": "8.85488000",
+    "longitude": "0.05922000",
+    "native": null,
+    "timezone": "Africa/Accra",
+    "translations": {},
+    "type": "city",
+    "population": 34262,
+    "wikiDataId": "Q4913712"
+  },
+  {
     "id": 52186,
     "name": "Kpandae",
     "state_id": 51,
@@ -14,22 +30,6 @@
     "type": "adm2",
     "population": 8652,
     "wikiDataId": "Q1016732"
-  },
-  {
-    "id": 52198,
-    "name": "Salaga",
-    "state_id": 51,
-    "state_code": "NP",
-    "country_id": 83,
-    "country_code": "GH",
-    "latitude": "8.55083000",
-    "longitude": "-0.51875000",
-    "native": "Salaga",
-    "timezone": "Africa/Accra",
-    "translations": {},
-    "type": "city",
-    "population": 25472,
-    "wikiDataId": "Q995578"
   },
   {
     "id": 52200,
@@ -72,7 +72,7 @@
     "country_code": "GH",
     "latitude": "9.44272000",
     "longitude": "-0.00991000",
-    "native": "Defeated",
+    "native": "Yendi",
     "timezone": "Africa/Accra",
     "translations": {},
     "type": "city",

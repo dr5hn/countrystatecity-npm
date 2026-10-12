@@ -1087,7 +1087,8 @@
       "17",
       "18",
       "19",
-      "20"
+      "20",
+      "21"
     ],
     "has_unassigned": false
   },
@@ -1281,6 +1282,7 @@
       "CB",
       "CE",
       "CH",
+      "CI",
       "CL",
       "CN",
       "CO",
@@ -1318,7 +1320,9 @@
       "NA",
       "NO",
       "NU",
+      "OG",
       "OR",
+      "OT",
       "PA",
       "PC",
       "PD",
@@ -1346,7 +1350,6 @@
       "SP",
       "SR",
       "SS",
-      "SU",
       "SV",
       "TA",
       "TE",
@@ -1363,6 +1366,7 @@
       "VE",
       "VI",
       "VR",
+      "VS",
       "VT",
       "VV"
     ],
@@ -1535,8 +1539,8 @@
       "DI",
       "EC",
       "ES",
-      "G",
-      "L",
+      "GR",
+      "LU",
       "ME",
       "RD",
       "RM",
@@ -2362,8 +2366,12 @@
   {
     "country_code": "SH",
     "count": 3,
-    "state_codes": [],
-    "has_unassigned": true
+    "state_codes": [
+      "AC",
+      "HL",
+      "TA"
+    ],
+    "has_unassigned": false
   },
   {
     "country_code": "SI",
@@ -3114,26 +3122,42 @@
     "country_code": "VN",
     "count": 63,
     "state_codes": [
+      "01",
       "02",
       "04",
       "05",
       "07",
       "09",
+      "13",
       "18",
       "21",
+      "22",
       "23",
+      "25",
+      "26",
       "29",
+      "30",
+      "33",
+      "34",
+      "35",
       "37",
+      "39",
+      "44",
+      "45",
       "49",
       "56",
       "59",
       "66",
       "68",
       "69",
+      "71",
       "CT",
-      "HP"
+      "DN",
+      "HN",
+      "HP",
+      "SG"
     ],
-    "has_unassigned": true
+    "has_unassigned": false
   },
   {
     "country_code": "WF",

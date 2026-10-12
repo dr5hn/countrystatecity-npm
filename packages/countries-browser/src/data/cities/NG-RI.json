@@ -11,7 +11,7 @@
     "native": "Abram",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 0,
     "wikiDataId": "Q4663313"
   },
@@ -24,7 +24,7 @@
     "country_code": "NG",
     "latitude": "4.72311690",
     "longitude": "6.77884610",
-    "native": "Subscriptions",
+    "native": "Abonnema",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "adm2",
@@ -43,7 +43,7 @@
     "native": "Ahoada",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 12848,
     "wikiDataId": "Q3510354"
   },
@@ -59,7 +59,7 @@
     "native": "Bori",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 11693,
     "wikiDataId": "Q4945102"
   },
@@ -75,7 +75,7 @@
     "native": "Buguma",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 135404,
     "wikiDataId": "Q4986278"
   },
@@ -91,9 +91,25 @@
     "native": "Chokocho",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 0,
     "wikiDataId": "Q5104241"
+  },
+  {
+    "id": 165305,
+    "name": "Degema Hulk",
+    "state_id": 4926,
+    "state_code": "RI",
+    "country_id": 161,
+    "country_code": "NG",
+    "latitude": "4.76145000",
+    "longitude": "6.74957000",
+    "native": null,
+    "timezone": "Africa/Lagos",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q33432716"
   },
   {
     "id": 148547,
@@ -104,10 +120,10 @@
     "country_code": "NG",
     "latitude": "5.10184167",
     "longitude": "6.81902222",
-    "native": "Check",
+    "native": "Elele",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 20620,
     "wikiDataId": "Q5358800"
   },
@@ -120,7 +136,7 @@
     "country_code": "NG",
     "latitude": "4.71138889",
     "longitude": "6.79083333",
-    "native": "Candy",
+    "native": "Obonoma",
     "timezone": "Africa/Lagos",
     "translations": {},
     "type": "city",
@@ -139,7 +155,7 @@
     "native": "Omoku",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 11625,
     "wikiDataId": "Q3510966"
   },
@@ -168,10 +184,10 @@
     "country_code": "NG",
     "latitude": "4.51138889",
     "longitude": "7.54000000",
-    "native": "Reciprocal",
+    "native": "Opobo",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 0,
     "wikiDataId": "Q3238928"
   },
@@ -187,9 +203,9 @@
     "native": "Port Harcourt",
     "timezone": "Africa/Lagos",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 2120000,
-    "wikiDataId": "Q217432"
+    "wikiDataId": "Q20614811"
   },
   {
     "id": 148553,

@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4779,
-    "wikiDataId": "Q2313013"
+    "wikiDataId": "Q424774"
   },
   {
     "id": 107149,
@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5674,
-    "wikiDataId": "Q2034360"
+    "wikiDataId": null
   },
   {
     "id": 107500,
@@ -43,9 +43,9 @@
     "native": "Divriği",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 13139,
-    "wikiDataId": "Q2473716"
+    "type": "municipality",
+    "population": 10674,
+    "wikiDataId": "Q2755924"
   },
   {
     "id": 107523,
@@ -59,9 +59,9 @@
     "native": "Doğanşar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 3781,
-    "wikiDataId": "Q2670793"
+    "type": "municipality",
+    "population": 1249,
+    "wikiDataId": "Q2198211"
   },
   {
     "id": 107658,
@@ -75,9 +75,9 @@
     "native": "Gemerek",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 16916,
-    "wikiDataId": "Q984701"
+    "type": "municipality",
+    "population": 9934,
+    "wikiDataId": "Q49103664"
   },
   {
     "id": 107700,
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4809,
-    "wikiDataId": "Q2551174"
+    "wikiDataId": null
   },
   {
     "id": 107757,
@@ -107,9 +107,9 @@
     "native": "Gürün",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 12715,
-    "wikiDataId": "Q2384475"
+    "type": "municipality",
+    "population": 10279,
+    "wikiDataId": "Q49103942"
   },
   {
     "id": 107772,
@@ -123,9 +123,9 @@
     "native": "Hafik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 3462,
-    "wikiDataId": "Q349498"
+    "type": "municipality",
+    "population": 3311,
+    "wikiDataId": "Q1980478"
   },
   {
     "id": 108894,
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7412,
-    "wikiDataId": "Q2082058"
+    "wikiDataId": null
   },
   {
     "id": 107883,
@@ -155,9 +155,9 @@
     "native": "Kangal",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 11888,
-    "wikiDataId": "Q1022149"
+    "type": "municipality",
+    "population": 8793,
+    "wikiDataId": "Q4319786"
   },
   {
     "id": 108029,
@@ -171,25 +171,9 @@
     "native": "Koyulhisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 5495,
-    "wikiDataId": "Q6432728"
-  },
-  {
-    "id": 108187,
-    "name": "Merkez",
-    "state_id": 2181,
-    "state_code": "58",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "39.71613000",
-    "longitude": "36.97695000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q3055997"
+    "type": "municipality",
+    "population": 4177,
+    "wikiDataId": "Q2621637"
   },
   {
     "id": 108938,
@@ -203,9 +187,25 @@
     "native": "Şarkışla",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 23800,
-    "wikiDataId": "Q388544"
+    "type": "municipality",
+    "population": 23514,
+    "wikiDataId": "Q2794185"
+  },
+  {
+    "id": 108187,
+    "name": "Sivas",
+    "state_id": 2181,
+    "state_code": "58",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "39.71613000",
+    "longitude": "36.97695000",
+    "native": "Sivas",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q107401"
   },
   {
     "id": 108513,
@@ -219,9 +219,9 @@
     "native": "Suşehri",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 24938,
-    "wikiDataId": "Q1022236"
+    "type": "municipality",
+    "population": 16234,
+    "wikiDataId": "Q2319523"
   },
   {
     "id": 108618,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3879,
-    "wikiDataId": "Q993676"
+    "wikiDataId": null
   },
   {
     "id": 108747,
@@ -251,8 +251,8 @@
     "native": "Yıldızeli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 31748,
+    "type": "municipality",
+    "population": 5860,
     "wikiDataId": "Q1011921"
   },
   {
@@ -269,6 +269,6 @@
     "translations": {},
     "type": "adm2",
     "population": 21753,
-    "wikiDataId": "Q2674064"
+    "wikiDataId": null
   }
 ]

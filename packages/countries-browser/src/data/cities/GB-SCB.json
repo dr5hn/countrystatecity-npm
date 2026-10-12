@@ -1,5 +1,21 @@
 [
   {
+    "id": 48977,
+    "name": "Chirnside",
+    "state_id": 2346,
+    "state_code": "SCB",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.80215000",
+    "longitude": "-2.20927000",
+    "native": "Chirnside",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1440,
+    "wikiDataId": "Q1010381"
+  },
+  {
     "id": 49065,
     "name": "Coldstream",
     "state_id": 2346,
@@ -11,9 +27,25 @@
     "native": "Coldstream",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1930,
     "wikiDataId": "Q1018874"
+  },
+  {
+    "id": 49362,
+    "name": "Duns",
+    "state_id": 2346,
+    "state_code": "SCB",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.77704000",
+    "longitude": "-2.34575000",
+    "native": "Duns",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 3127,
+    "wikiDataId": "Q425611"
   },
   {
     "id": 49381,
@@ -27,9 +59,25 @@
     "native": "Earlston",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1750,
     "wikiDataId": "Q1010108"
+  },
+  {
+    "id": 49510,
+    "name": "Eyemouth",
+    "state_id": 2346,
+    "state_code": "SCB",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.87130000",
+    "longitude": "-2.09010000",
+    "native": "Eyemouth",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 3610,
+    "wikiDataId": "Q1020260"
   },
   {
     "id": 49622,
@@ -43,7 +91,7 @@
     "native": "Galashiels",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13000,
     "wikiDataId": "Q1016925"
   },
@@ -59,7 +107,7 @@
     "native": "Hawick",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13740,
     "wikiDataId": "Q407183"
   },
@@ -72,10 +120,10 @@
     "country_code": "GB",
     "latitude": "55.61927000",
     "longitude": "-3.06301000",
-    "native": "Inner lead",
+    "native": "Innerleithen",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3110,
     "wikiDataId": "Q1010316"
   },
@@ -91,7 +139,7 @@
     "native": "Jedburgh",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3910,
     "wikiDataId": "Q1012401"
   },
@@ -107,25 +155,9 @@
     "native": "Kelso",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6910,
     "wikiDataId": "Q654945"
-  },
-  {
-    "id": 50243,
-    "name": "Langholm",
-    "state_id": 2346,
-    "state_code": "SCB",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.15101000",
-    "longitude": "-2.99889000",
-    "native": "Langholm",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 2160,
-    "wikiDataId": "Q1014104"
   },
   {
     "id": 50255,
@@ -139,7 +171,7 @@
     "native": "Lauder",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1790,
     "wikiDataId": "Q1017204"
   },
@@ -157,7 +189,7 @@
     "translations": {},
     "type": "section",
     "population": 1160,
-    "wikiDataId": "Q1522892"
+    "wikiDataId": null
   },
   {
     "id": 50541,
@@ -171,7 +203,7 @@
     "native": "Melrose",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2510,
     "wikiDataId": "Q632993"
   },
@@ -187,9 +219,25 @@
     "native": "Newtown St Boswells",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 1662,
     "wikiDataId": "Q917255"
+  },
+  {
+    "id": 50867,
+    "name": "Peebles",
+    "state_id": 2346,
+    "state_code": "SCB",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.65190000",
+    "longitude": "-3.18880000",
+    "native": "Peebles",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "town",
+    "population": 8940,
+    "wikiDataId": "Q1011507"
   },
   {
     "id": 51166,
@@ -203,7 +251,7 @@
     "native": "Saint Boswells",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1400,
     "wikiDataId": "Q1002153"
   },
@@ -219,25 +267,9 @@
     "native": "Selkirk",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5580,
     "wikiDataId": "Q772507"
-  },
-  {
-    "id": 51589,
-    "name": "The Scottish Borders",
-    "state_id": 2346,
-    "state_code": "SCB",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.58333000",
-    "longitude": "-2.83333000",
-    "native": "The Scottish Borders",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q211113"
   },
   {
     "id": 51682,
@@ -251,8 +283,24 @@
     "native": "Tweedbank",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2040,
     "wikiDataId": "Q7857481"
+  },
+  {
+    "id": 51825,
+    "name": "West Linton",
+    "state_id": 2346,
+    "state_code": "SCB",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "55.74972000",
+    "longitude": "-3.35607000",
+    "native": "West Linton",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "village",
+    "population": 1700,
+    "wikiDataId": "Q1011845"
   }
 ]

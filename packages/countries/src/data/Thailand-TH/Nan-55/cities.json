@@ -1,37 +1,5 @@
 [
   {
-    "id": 105297,
-    "name": "Amphoe Chiang Klang",
-    "state_id": 3530,
-    "state_code": "55",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "19.30637000",
-    "longitude": "100.87878000",
-    "native": "อำเภอเชียงกลาง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": 0,
-    "wikiDataId": "Q475393"
-  },
-  {
-    "id": 106366,
-    "name": "Amphoe Wiang Sa",
-    "state_id": 3530,
-    "state_code": "55",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "18.55088000",
-    "longitude": "100.72754000",
-    "native": "อำเภอเวียงสา",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q477085"
-  },
-  {
     "id": 105200,
     "name": "Ban Luang",
     "state_id": 3530,
@@ -91,7 +59,7 @@
     "native": "เชียงกลาง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 13244,
     "wikiDataId": "Q28726657"
   },
@@ -110,22 +78,6 @@
     "type": "district",
     "population": null,
     "wikiDataId": "Q475927"
-  },
-  {
-    "id": 105559,
-    "name": "Mueang Nan",
-    "state_id": 3530,
-    "state_code": "55",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "18.89008000",
-    "longitude": "100.67472000",
-    "native": "อำเภอเมืองน่าน",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "district",
-    "population": null,
-    "wikiDataId": "Q476043"
   },
   {
     "id": 105619,
@@ -150,14 +102,14 @@
     "state_code": "55",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "18.30269000",
-    "longitude": "100.72393000",
-    "native": "อำเภอนาน้อย",
+    "latitude": "18.32583055",
+    "longitude": "100.71217469",
+    "native": "นาน้อย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q205752"
+    "wikiDataId": "Q13025219"
   },
   {
     "id": 106588,
@@ -171,7 +123,7 @@
     "native": "แนน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 20595,
     "wikiDataId": "Q1014345"
   },
@@ -198,14 +150,14 @@
     "state_code": "55",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "19.16306000",
-    "longitude": "101.02796000",
-    "native": "อำเภอปัว",
+    "latitude": "19.17992698",
+    "longitude": "100.90888171",
+    "native": "ปัว",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476535"
+    "wikiDataId": "Q15272683"
   },
   {
     "id": 106192,
@@ -246,14 +198,14 @@
     "state_code": "55",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "19.13148000",
-    "longitude": "100.76117000",
-    "native": "อำเภอท่าวังผา",
+    "latitude": "19.09446245",
+    "longitude": "100.80969171",
+    "native": "ท่าวังผา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476862"
+    "wikiDataId": "Q15272693"
   },
   {
     "id": 106311,
@@ -262,13 +214,29 @@
     "state_code": "55",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "19.46342000",
-    "longitude": "100.91937000",
-    "native": "อำเภอทุ่งช้าง",
+    "latitude": "19.38834832",
+    "longitude": "100.87808921",
+    "native": "ทุ่งช้าง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "district",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q476933"
+    "wikiDataId": "Q15272689"
+  },
+  {
+    "id": 106366,
+    "name": "Wiang Sa",
+    "state_id": 3530,
+    "state_code": "55",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "18.57066558",
+    "longitude": "100.75122585",
+    "native": "เวียงสา",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": "Q15272681"
   }
 ]

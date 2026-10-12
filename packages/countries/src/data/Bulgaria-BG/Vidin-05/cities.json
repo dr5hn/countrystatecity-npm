@@ -11,7 +11,7 @@
     "native": "Белоградчик",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5688,
     "wikiDataId": "Q407234"
   },
@@ -27,7 +27,7 @@
     "native": "Бойница",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 884,
     "wikiDataId": "Q2469067"
   },
@@ -43,9 +43,9 @@
     "native": "Брегово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1644,
-    "wikiDataId": "Q405383"
+    "wikiDataId": "Q2542167"
   },
   {
     "id": 9303,
@@ -59,9 +59,9 @@
     "native": "Чупрене",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 842,
-    "wikiDataId": "Q2380966"
+    "wikiDataId": "Q2715502"
   },
   {
     "id": 9309,
@@ -75,7 +75,7 @@
     "native": "Димово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1461,
     "wikiDataId": "Q407222"
   },
@@ -91,7 +91,7 @@
     "native": "Дреновец",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1039,
     "wikiDataId": "Q1078511"
   },
@@ -123,9 +123,9 @@
     "native": "Грамада",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 1872,
-    "wikiDataId": "Q457141"
+    "wikiDataId": "Q405591"
   },
   {
     "id": 9380,
@@ -139,7 +139,7 @@
     "native": "Кула",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 3738,
     "wikiDataId": "Q404762"
   },
@@ -155,9 +155,9 @@
     "native": "Макреш",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 660,
-    "wikiDataId": "Q2381003"
+    "wikiDataId": "Q2715413"
   },
   {
     "id": 9411,
@@ -171,9 +171,9 @@
     "native": "Ново Село",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1574,
-    "wikiDataId": "Q2381026"
+    "wikiDataId": "Q576734"
   },
   {
     "id": 9426,
@@ -187,7 +187,7 @@
     "native": "Община Белоградчик",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2254259"
   },
@@ -203,7 +203,7 @@
     "native": "Община Бойница",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2542152"
   },
@@ -219,7 +219,7 @@
     "native": "Община Димово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2715394"
   },
@@ -235,7 +235,7 @@
     "native": "Община Грамада",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2615666"
   },
@@ -251,7 +251,7 @@
     "native": "Община Кула",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2715384"
   },
@@ -267,7 +267,7 @@
     "native": "Община Ружинци",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q2715178"
   },
@@ -283,7 +283,7 @@
     "native": "Община Видин",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q263709"
   },
@@ -299,9 +299,9 @@
     "native": "Ружинци",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 1269,
-    "wikiDataId": "Q160173"
+    "wikiDataId": "Q2490728"
   },
   {
     "id": 9741,
@@ -315,7 +315,7 @@
     "native": "Видин",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 33448,
     "wikiDataId": "Q178531"
   }

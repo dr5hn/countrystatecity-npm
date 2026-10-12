@@ -11,9 +11,9 @@
     "native": "Brodarica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2611,
-    "wikiDataId": "Q283566"
+    "wikiDataId": "Q3299706"
   },
   {
     "id": 54468,
@@ -27,7 +27,7 @@
     "native": "Drniš",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2752,
     "wikiDataId": "Q398131"
   },
@@ -43,9 +43,9 @@
     "native": "Grad Drniš",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
-    "wikiDataId": "Q319276"
+    "wikiDataId": "Q25299126"
   },
   {
     "id": 54572,
@@ -59,8 +59,8 @@
     "native": "Grad Šibenik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": 31115,
+    "type": "city",
+    "population": 42599,
     "wikiDataId": "Q3549"
   },
   {
@@ -75,7 +75,7 @@
     "native": "Kistanje",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1638,
     "wikiDataId": "Q1269951"
   },
@@ -91,7 +91,7 @@
     "native": "Knin",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 8262,
     "wikiDataId": "Q208514"
   },
@@ -107,9 +107,9 @@
     "native": "Murter",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 1920,
-    "wikiDataId": "Q326952"
+    "wikiDataId": "Q3503912"
   },
   {
     "id": 54746,
@@ -123,9 +123,25 @@
     "native": "Murter-Kornati",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q326952"
+    "wikiDataId": "Q1151485"
+  },
+  {
+    "id": 164789,
+    "name": "Oklaj",
+    "state_id": 730,
+    "state_code": "15",
+    "country_id": 55,
+    "country_code": "HR",
+    "latitude": "43.96315000",
+    "longitude": "16.07655000",
+    "native": null,
+    "timezone": "Europe/Zagreb",
+    "translations": {},
+    "type": "locality",
+    "population": 410,
+    "wikiDataId": "Q2613488"
   },
   {
     "id": 54808,
@@ -139,7 +155,7 @@
     "native": "Pirovac",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1606,
     "wikiDataId": "Q600410"
   },
@@ -155,7 +171,7 @@
     "native": "Primošten",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1555,
     "wikiDataId": "Q837474"
   },
@@ -171,9 +187,9 @@
     "native": "Promina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q178965"
+    "wikiDataId": "Q507745"
   },
   {
     "id": 54864,
@@ -187,9 +203,9 @@
     "native": "Rogoznica",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 960,
-    "wikiDataId": "Q1013147"
+    "wikiDataId": null
   },
   {
     "id": 54865,
@@ -203,8 +219,8 @@
     "native": "Rogoznica Općina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
-    "population": null,
+    "type": "municipality",
+    "population": 2106,
     "wikiDataId": "Q1013147"
   },
   {
@@ -219,9 +235,9 @@
     "native": "Šibenik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm1",
-    "population": 42599,
-    "wikiDataId": "Q955681"
+    "type": "locality",
+    "population": 31115,
+    "wikiDataId": null
   },
   {
     "id": 54894,
@@ -235,9 +251,9 @@
     "native": "Skradin",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 508,
-    "wikiDataId": "Q400036"
+    "wikiDataId": "Q81654666"
   },
   {
     "id": 54936,
@@ -251,7 +267,7 @@
     "native": "Tisno",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1192,
     "wikiDataId": "Q930516"
   },
@@ -267,7 +283,7 @@
     "native": "Tribunj",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1594,
     "wikiDataId": "Q607058"
   },
@@ -280,10 +296,10 @@
     "country_code": "HR",
     "latitude": "43.76083000",
     "longitude": "15.78278000",
-    "native": "Voda",
+    "native": "Vodice",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6592,
     "wikiDataId": "Q750427"
   }

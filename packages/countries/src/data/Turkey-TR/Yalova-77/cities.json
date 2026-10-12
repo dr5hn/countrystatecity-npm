@@ -11,9 +11,9 @@
     "native": "Altınova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 3875,
-    "wikiDataId": "Q3233272"
+    "type": "municipality",
+    "population": 10908,
+    "wikiDataId": "Q49100567"
   },
   {
     "id": 107187,
@@ -43,9 +43,9 @@
     "native": "Çiftlikköy",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 5750,
-    "wikiDataId": "Q272835"
+    "type": "municipality",
+    "population": 50641,
+    "wikiDataId": "Q2286178"
   },
   {
     "id": 108856,
@@ -59,25 +59,9 @@
     "native": "Çınarcık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 7629,
-    "wikiDataId": "Q272992"
-  },
-  {
-    "id": 108665,
-    "name": "Merkez",
-    "state_id": 2218,
-    "state_code": "77",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "40.65501000",
-    "longitude": "29.27693000",
-    "native": "Merkez",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm1",
-    "population": 71289,
-    "wikiDataId": "Q2577943"
+    "type": "municipality",
+    "population": 20496,
+    "wikiDataId": "Q3104061"
   },
   {
     "id": 108572,
@@ -91,8 +75,24 @@
     "native": "Termal",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
-    "population": 6784,
-    "wikiDataId": "Q2665536"
+    "type": "municipality",
+    "population": 3702,
+    "wikiDataId": "Q2670606"
+  },
+  {
+    "id": 165613,
+    "name": "Yalova",
+    "state_id": 2218,
+    "state_code": "77",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "40.65501000",
+    "longitude": "29.27693000",
+    "native": null,
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 130445,
+    "wikiDataId": "Q205942"
   }
 ]
