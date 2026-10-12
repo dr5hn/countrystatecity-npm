@@ -53,7 +53,7 @@ export async function lookupPostalCode(
 
 /**
  * Search postal codes within a country + state by locality name (case-insensitive substring match).
- * There is no city_id linkage in the upstream data, so locality name is the only usable place field.
+ * This package omits upstream city_id links, so search uses locality_name.
  */
 export async function searchPostalCodesByLocality(
   countryCode: string,

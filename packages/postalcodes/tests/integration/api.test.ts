@@ -29,7 +29,7 @@ describe('API Integration Tests', () => {
     expect(search.some((r) => r.id === sample.id)).toBe(true);
   });
 
-  it('should never expose city_id — it is null on 100% of upstream records', async () => {
+  it('should keep upstream city_id outside the package projection', async () => {
     const all = await getAllPostalCodesOfCountry('AD');
     expect(all.length).toBeGreaterThan(0);
     expect(all[0]).not.toHaveProperty('city_id');

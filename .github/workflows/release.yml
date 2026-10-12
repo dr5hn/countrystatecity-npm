@@ -22,6 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -41,6 +42,7 @@ jobs:
       # dispatches (code releases) still bump everything.
       - name: Determine release scope
         id: scope
+        shell: bash
         env:
           MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
         run: |
@@ -49,24 +51,39 @@ jobs:
             PKGS="$ALL"
             echo "Manual dispatch — releasing all packages."
           else
-            PKGS=$(git diff --name-only "$MERGE_SHA^1" "$MERGE_SHA" | grep -E '^packages/[^/]+/src/data/' | cut -d/ -f2 | sort -u | tr '\n' ' ' || true)
+            # Keep the diff separate: a missing commit/parent must fail the job.
+            CHANGED=$(git diff --name-only "$MERGE_SHA^1" "$MERGE_SHA" -- 'packages/*/src/data/*')
+            PKGS=$(printf '%s\n' "$CHANGED" | awk -F/ 'NF > 1 {print $2}' | sort -u | tr '\n' ' ')
             echo "Packages with data changes: ${PKGS:-<none>}"
           fi
           echo "packages=$PKGS" >> "$GITHUB_OUTPUT"
 
-      - name: Bump patch versions
+      - name: Bump versions unless already raised by the PR
         id: bump
         if: steps.scope.outputs.packages != ''
         env:
           PACKAGES: ${{ steps.scope.outputs.packages }}
+          MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
         run: |
           node -e "
             const fs = require('fs');
+            const { execFileSync } = require('child_process');
             const packages = process.env.PACKAGES.trim().split(/\s+/);
             for (const pkg of packages) {
               const path = \`packages/\${pkg}/package.json\`;
               const json = JSON.parse(fs.readFileSync(path, 'utf-8'));
               const [major, minor, patch] = json.version.split('.').map(Number);
+              if (process.env.MERGE_SHA) {
+                const previous = JSON.parse(execFileSync('git', ['show', process.env.MERGE_SHA + '^1:' + path], { encoding: 'utf8' })).version;
+                if (json.version !== previous) {
+                  const before = previous.split('.').map(Number);
+                  const raised = [major, minor, patch];
+                  const firstChange = raised.findIndex((value, i) => value !== before[i]);
+                  if (raised[firstChange] < before[firstChange]) throw new Error('Version decreased: ' + json.name);
+                  console.log(json.name + ': retaining PR version ' + json.version);
+                  continue;
+                }
+              }
               const oldVersion = json.version;
               json.version = \`\${major}.\${minor}.\${patch + 1}\`;
               fs.writeFileSync(path, JSON.stringify(json, null, 2) + '\n');
@@ -84,6 +101,10 @@ jobs:
             VERSION=$(node -p "require('./packages/$pkg/package.json').version")
             NAME=$(node -p "require('./packages/$pkg/package.json').name")
             CHANGELOG="packages/$pkg/CHANGELOG.md"
+            # Preserve reviewed migration notes for versions raised in the PR.
+            if [ -f "$CHANGELOG" ] && grep -Fxq "## $VERSION" "$CHANGELOG"; then
+              continue
+            fi
             ENTRY="## $VERSION\n\n### Patch Changes\n\n- Updated data from countries-states-cities-database\n\n"
             if [ -f "$CHANGELOG" ]; then
               TMP=$(mktemp)
@@ -102,8 +123,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add packages/*/package.json packages/*/CHANGELOG.md
-          git commit -m "chore: release packages"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: release packages"
+            git push
+          else
+            echo "PR already contains the release versions and changelogs."
+          fi
 
       - name: Nothing to release
         if: steps.scope.outputs.packages == ''

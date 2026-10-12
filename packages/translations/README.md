@@ -7,6 +7,10 @@
 
 Country name translations in 19 languages — Arabic, Chinese, French, German, Spanish, Japanese, and more.
 
+## Data snapshot
+
+Updated country name translations from upstream v4.0-export.50. This package contains only `iso2`, `name`, and country `translations`; it has no city/state ids, city translations, or administrative structure. All 250 country keys and all 19 locales remain, so this is a patch release.
+
 ## ✨ Features
 
 - 🌍 **250 Countries**: Full ISO 3166-1 coverage

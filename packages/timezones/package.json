@@ -1,6 +1,6 @@
 {
   "name": "@countrystatecity/timezones",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "Comprehensive timezone data with conversion utilities and iOS/Safari support",
   "keywords": [
     "country-state-city",
@@ -50,7 +50,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "tsup",

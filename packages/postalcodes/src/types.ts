@@ -5,9 +5,8 @@
 /**
  * A single postal-code entry.
  *
- * `city_id` from the upstream source is omitted entirely — it is null on
- * 100% of upstream records and carries no usable information. Use
- * `locality_name` for place matching instead.
+ * `city_id` is deliberately omitted from this package projection, even when
+ * upstream provides a link. Use `locality_name` for place matching here.
  */
 export interface IPostalCode {
   id: number;

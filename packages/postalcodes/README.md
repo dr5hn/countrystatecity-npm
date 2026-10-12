@@ -7,6 +7,14 @@ Official postal/ZIP code database with locality search, existence-based validati
 
 **Environment:** 🖥️ **Server-side only** (Node.js, Next.js API routes, Express, etc.)
 
+## Upgrading to 2.0.0
+
+Data now comes from upstream **v4.0-export.50**. The v3.2 → v4.0 transition removed 4,486 city ids (duplicates, US counties moved to a separate counties dataset, and non-places), reassigned 7,527 cities to different states, and added 27 states while retiring 6. Stored ids and per-state results can change; US counties are no longer returned as cities. Later export corrections are included in this snapshot.
+
+Before upgrading stored city/state ids, use [`removed_ids_v3.2_to_v4.0.csv`](https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0/removed_ids_v3.2_to_v4.0.csv) attached to the [upstream v4.0 release](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v4.0). It identifies merged ids and their survivors, counties moved to new ids, and retired states and their successors. Match the `record`, `outcome`, and `new_table` columns before using `new_id`; a county id is not a city id. Refresh stored state associations against this snapshot.
+
+Postal-code records retain their own postal ids, but `state_code` and per-state file membership changed, including retired/replaced state codes in Italy and new assignments elsewhere. Re-query the manifest and refresh stored state codes before using per-state lookups. `city_id` remains deliberately omitted from this package even though upstream now supplies links on many records; use `locality_name` for this package's locality search.
+
 ## ✨ Features
 
 - 📮 **844,000+ postal codes** across ~125 countries
@@ -58,8 +66,8 @@ const isValid = await validatePostalCode('AD', 'AD100'); // true
 const matches = await lookupPostalCode('AD', 'AD100');
 // [{ id: 1, code: 'AD100', country_code: 'AD', state_code: '02', locality_name: 'Canillo', ... }]
 
-// Search by place name — there is no city_id linkage in the upstream
-// data, so locality name is the practical way to find "codes near X".
+// Search by place name — this package deliberately omits upstream
+// city_id links, so locality_name is the search field here.
 const places = await searchPostalCodesByLocalityInCountry('AD', 'Canillo');
 ```
 
@@ -119,14 +127,14 @@ interface IPostalCode {
   code: string;
   country_code: string;
   state_code: string | null; // null when this record has no state subdivision
-  locality_name: string;
+  locality_name: string | null;
   type: string;
   latitude: string | null;
   longitude: string | null;
 }
 ```
 
-`city_id` from the upstream source is intentionally omitted — it is null on 100% of upstream records and carries no usable information.
+`city_id` is intentionally omitted from this package projection; upstream v4.0 now links many postal codes to cities. Use upstream exports if you need those links.
 
 ## 📊 Data Source
 
