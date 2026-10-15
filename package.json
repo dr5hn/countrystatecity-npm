@@ -16,16 +16,22 @@
     "clean": "turbo run clean && rm -rf node_modules"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "turbo": "^2.9.14",
-    "typescript": "^5.5.4",
-    "tsup": "^8.2.4",
-    "vite": "^6.0.0",
-    "vitest": "^4.1.8"
+    "@types/node": "^26.6.5",
+    "turbo": "^2.11.8",
+    "typescript": "^6.0.3",
+    "tsup": "^8.5.1",
+    "vite": "^6.4.4",
+    "eslint": "^9.39.5",
+    "typescript-eslint": "^8.71.2"
   },
   "engines": {
     "node": ">=18",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.0.0"
+  "packageManager": "pnpm@9.0.0",
+  "pnpm": {
+    "overrides": {
+      "fast-uri@^3.0.1": "3.1.8"
+    }
+  }
 }

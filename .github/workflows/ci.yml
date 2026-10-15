@@ -142,13 +142,16 @@ jobs:
   # STAGE 3 — TYPECHECK  (always; waits for generate-data when it ran)
   # ───────────────────────────────────────────────────────────────────────────
   typecheck:
-    name: Typecheck
+    name: Typecheck (Node ${{ matrix.node }})
     needs: [generate-data]
     if: >-
       always() &&
       (needs.generate-data.result == 'success' ||
        needs.generate-data.result == 'skipped')
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 26]
     steps:
       - uses: actions/checkout@v7
 
@@ -156,7 +159,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: ${{ matrix.node }}
           cache: pnpm
 
       - name: Install dependencies
@@ -173,6 +176,9 @@ jobs:
         if: needs.generate-data.result == 'success'
         run: node scripts/apply-generated-data.cjs "$RUNNER_TEMP/generated-data"
 
+      - name: Lint all packages
+        run: pnpm lint
+
       - name: Typecheck all packages
         run: pnpm turbo run typecheck
 
@@ -180,10 +186,13 @@ jobs:
   # STAGE 4 — BUILD
   # ───────────────────────────────────────────────────────────────────────────
   build:
-    name: Build
+    name: Build (Node ${{ matrix.node }})
     needs: [generate-data, typecheck]
     if: always() && needs.typecheck.result == 'success'
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 26]
     steps:
       - uses: actions/checkout@v7
 
@@ -191,7 +200,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: ${{ matrix.node }}
           cache: pnpm
 
       - name: Install dependencies
@@ -226,7 +235,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v7
         with:
-          name: dist-packages
+          name: dist-packages-node-${{ matrix.node }}
           path: packages/*/dist
           retention-days: 1
 
@@ -234,10 +243,13 @@ jobs:
   # STAGE 5 — TEST
   # ───────────────────────────────────────────────────────────────────────────
   test:
-    name: Test
+    name: Test (Node ${{ matrix.node }})
     needs: [generate-data, build]
     if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 26]
     steps:
       - uses: actions/checkout@v7
 
@@ -245,7 +257,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: ${{ matrix.node }}
           cache: pnpm
 
       - name: Install dependencies
