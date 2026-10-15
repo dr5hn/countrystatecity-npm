@@ -21,6 +21,10 @@ export async function getTimezones(): Promise<ITimezone[]> {
  */
 export async function getTimezonesByCountry(countryCode: string): Promise<ITimezone[]> {
   try {
+    // Shared import options bypass esbuild's file lookup; validate before resolving a path.
+    if (typeof countryCode !== 'string' || !/^[A-Z]{2}$/.test(countryCode)) {
+      throw new TypeError('Country code must contain two uppercase ASCII letters');
+    }
     const { default: timezones } = await import(`./data/by-country/${countryCode}.json`, jsonImportOptions);
     return timezones;
   } catch (error) {

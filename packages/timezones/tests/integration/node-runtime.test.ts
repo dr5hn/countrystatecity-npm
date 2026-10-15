@@ -13,6 +13,8 @@ describe('built timezone package in native Node (without Vitest JSON transforms)
         assert.ok((await pkg.getTimezones()).length > 300);
         assert.ok((await pkg.getTimezonesByCountry('US')).length > 0);
         assert.ok((await pkg.getTimezoneAbbreviations()).length > 0);
+        // A country code must not resolve a JSON file outside by-country/.
+        assert.deepEqual(await pkg.getTimezonesByCountry('../abbreviations'), []);
         console.log('ok');
       `], { encoding: 'utf8' });
       expect(output.trim()).toBe('ok');
