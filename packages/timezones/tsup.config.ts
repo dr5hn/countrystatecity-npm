@@ -15,6 +15,8 @@ export default defineConfig({
   // Mark data paths as external so they're not bundled
   esbuildOptions(options) {
     options.external = ['./data/*'];
+    // Preserve JSON import options even though the emitted JS targets ES2020.
+    options.supported = { 'import-attributes': true, 'import-assertions': true };
   },
   // Copy data files to dist directory
   onSuccess: async () => {

@@ -1,12 +1,15 @@
 import type { ITimezone, ITimezoneInfo, ITimezoneAbbreviation } from './types';
 
+// Modern Node uses `with`; older Node 18 uses `assert`. Each ignores the other option.
+const jsonImportOptions = { with: { type: 'json' }, assert: { type: 'json' } };
+
 /**
  * Get all available timezones
  * Bundle impact: ~20KB
  * @returns Promise resolving to array of all timezones
  */
 export async function getTimezones(): Promise<ITimezone[]> {
-  const { default: timezones } = await import('./data/timezones.json');
+  const { default: timezones } = await import('./data/timezones.json', jsonImportOptions);
   return timezones;
 }
 
@@ -18,7 +21,7 @@ export async function getTimezones(): Promise<ITimezone[]> {
  */
 export async function getTimezonesByCountry(countryCode: string): Promise<ITimezone[]> {
   try {
-    const { default: timezones } = await import(`./data/by-country/${countryCode}.json`);
+    const { default: timezones } = await import(`./data/by-country/${countryCode}.json`, jsonImportOptions);
     return timezones;
   } catch (error) {
     console.error(`Timezones for country ${countryCode} not found`);
@@ -72,7 +75,7 @@ export async function getTimezoneInfo(timezoneName: string): Promise<ITimezoneIn
  * @returns Promise resolving to array of timezone abbreviations
  */
 export async function getTimezoneAbbreviations(): Promise<ITimezoneAbbreviation[]> {
-  const { default: abbreviations } = await import('./data/abbreviations.json');
+  const { default: abbreviations } = await import('./data/abbreviations.json', jsonImportOptions);
   return abbreviations;
 }
 
