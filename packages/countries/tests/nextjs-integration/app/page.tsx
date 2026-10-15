@@ -25,7 +25,7 @@ export default async function Page(): Promise<React.JSX.Element> {
 
       <div style={{ marginTop: '20px', padding: '10px', backgroundColor: status.includes('Success') ? '#e8f5e9' : '#fff3cd', borderRadius: '4px' }}>
         <strong>Result:</strong> {status.includes('Success') 
-          ? 'The package builds correctly with NextJS webpack bundler!' 
+          ? 'The package loads correctly with Next.js!'
           : 'Testing in progress or error occurred'}
       </div>
     </div>

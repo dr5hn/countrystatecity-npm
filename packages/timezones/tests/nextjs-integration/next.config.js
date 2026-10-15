@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  serverExternalPackages: ['@countrystatecity/countries'],
+  serverExternalPackages: ['@countrystatecity/timezones'],
 }
 
 module.exports = nextConfig

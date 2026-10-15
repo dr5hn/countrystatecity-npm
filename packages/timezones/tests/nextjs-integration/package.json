@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@countrystatecity/countries": "file:../../../countries",
+    "@countrystatecity/timezones": "file:../..",
     "next": "^16.4.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
