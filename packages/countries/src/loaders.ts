@@ -8,7 +8,7 @@ import type { ICountry, ICountryMeta, IState, ICity, IRegion, ISubregion, IDataV
 
 // Cache for country code to directory name mapping
 let countryDirMap: Map<string, string> | null = null;
-let stateDirMaps: Map<string, Map<string, string>> = new Map();
+const stateDirMaps: Map<string, Map<string, string>> = new Map();
 
 // Helper to check if we're in a Node.js environment
 function isNodeEnvironment(): boolean {

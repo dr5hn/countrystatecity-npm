@@ -1,32 +1,11 @@
-'use client';
+import { getCountries, getStatesOfCountry, getCitiesOfState } from '@countrystatecity/countries';
 
-import { useEffect, useState } from 'react';
-
-export default function Page() {
-  const [status, setStatus] = useState<string>('Testing...');
-  const [countries, setCountries] = useState<number>(0);
-  const [states, setStates] = useState<number>(0);
-  const [cities, setCities] = useState<number>(0);
-
-  useEffect(() => {
-    // Dynamic import to test webpack bundling
-    import('@countrystatecity/countries')
-      .then(async (module) => {
-        const countriesData = await module.getCountries();
-        setCountries(countriesData.length);
-        
-        const usStates = await module.getStatesOfCountry('US');
-        setStates(usStates.length);
-        
-        const caCities = await module.getCitiesOfState('US', 'CA');
-        setCities(caCities.length);
-        
-        setStatus('✅ Success!');
-      })
-      .catch((error) => {
-        setStatus(`❌ Error: ${error.message}`);
-      });
-  }, []);
+/** Render the Node-only package in a server component, keeping fs out of the browser. */
+export default async function Page(): Promise<React.JSX.Element> {
+  const countries = (await getCountries()).length;
+  const states = (await getStatesOfCountry('US')).length;
+  const cities = (await getCitiesOfState('US', 'CA')).length;
+  const status = '✅ Success!';
 
   return (
     <div style={{ padding: '20px', fontFamily: 'system-ui' }}>
@@ -46,7 +25,7 @@ export default function Page() {
 
       <div style={{ marginTop: '20px', padding: '10px', backgroundColor: status.includes('Success') ? '#e8f5e9' : '#fff3cd', borderRadius: '4px' }}>
         <strong>Result:</strong> {status.includes('Success') 
-          ? 'The package builds correctly with NextJS webpack bundler!' 
+          ? 'The package loads correctly with Next.js!'
           : 'Testing in progress or error occurred'}
       </div>
     </div>

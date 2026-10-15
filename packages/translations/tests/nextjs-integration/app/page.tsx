@@ -1,31 +1,11 @@
-'use client';
+import { getTranslations, getLocales, getTranslation } from '@countrystatecity/translations';
 
-import { useEffect, useState } from 'react';
-
-export default function Page() {
-  const [status, setStatus] = useState<string>('Testing...');
-  const [countries, setCountries] = useState<number>(0);
-  const [locales, setLocales] = useState<number>(0);
-  const [sample, setSample] = useState<string>('');
-
-  useEffect(() => {
-    import('@countrystatecity/translations')
-      .then(async (module) => {
-        const all = await module.getTranslations();
-        setCountries(all.length);
-
-        const availableLocales = await module.getLocales();
-        setLocales(availableLocales.length);
-
-        const frName = await module.getTranslation('DE', 'fr');
-        setSample(`DE in French: ${frName}`);
-
-        setStatus('✅ Success!');
-      })
-      .catch((error) => {
-        setStatus(`❌ Error: ${error.message}`);
-      });
-  }, []);
+/** Render the Node-only translation package without bundling fs into the client. */
+export default async function Page(): Promise<React.JSX.Element> {
+  const countries = (await getTranslations()).length;
+  const locales = (await getLocales()).length;
+  const sample = `DE in French: ${await getTranslation('DE', 'fr')}`;
+  const status = '✅ Success!';
 
   return (
     <div style={{ padding: '20px', fontFamily: 'system-ui' }}>
@@ -45,7 +25,7 @@ export default function Page() {
 
       <div style={{ marginTop: '20px', padding: '10px', backgroundColor: status.includes('Success') ? '#e8f5e9' : '#fff3cd', borderRadius: '4px' }}>
         <strong>Result:</strong> {status.includes('Success')
-          ? 'The package builds correctly with NextJS webpack bundler!'
+          ? 'The package loads correctly with Next.js!'
           : 'Testing in progress or error occurred'}
       </div>
     </div>
