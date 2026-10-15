@@ -7,11 +7,42 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
-    name: Publish Packages to npm
+  verify-release:
+    name: Verify release job succeeded
     if: >-
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      # A workflow with a skipped release job can still conclude successfully.
+      # Fail closed: only an actual successful release job may auto-publish.
+      - name: Check release job
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          RELEASE_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            CONCLUSION=$(gh api --paginate "/repos/$GITHUB_REPOSITORY/actions/runs/$RELEASE_RUN_ID/jobs?per_page=100" \
+              --jq '.jobs[] | select(.name == "Bump Versions & Update Changelogs") | .conclusion')
+            if [ "$CONCLUSION" = "success" ]; then
+              echo "proceed=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "proceed=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+  publish:
+    name: Publish Packages to npm
+    needs: verify-release
+    if: needs.verify-release.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
