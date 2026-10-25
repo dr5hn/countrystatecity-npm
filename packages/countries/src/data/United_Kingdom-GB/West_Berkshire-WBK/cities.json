@@ -123,7 +123,7 @@
     "native": "Newbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 33790,
     "wikiDataId": "Q655874"
   },
@@ -203,7 +203,7 @@
     "native": "Upper Basildon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "section",
+    "type": "adm3",
     "population": 1405,
     "wikiDataId": "Q7898478"
   },
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "village",
     "population": 331,
-    "wikiDataId": "Q981109"
+    "wikiDataId": null
   },
   {
     "id": 51937,
@@ -235,7 +235,7 @@
     "native": "Winterbourne",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2168,
     "wikiDataId": null
   }

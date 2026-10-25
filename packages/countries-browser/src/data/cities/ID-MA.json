@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 47653,
-    "wikiDataId": "Q25017837"
+    "wikiDataId": null
   },
   {
     "id": 56178,
@@ -32,23 +32,7 @@
     "wikiDataId": "Q18970"
   },
   {
-    "id": 56385,
-    "name": "Buru Selatan",
-    "state_id": 1800,
-    "state_code": "MA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.52187000",
-    "longitude": "126.59271000",
-    "native": "Kabupaten Buru Selatan",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q16583"
-  },
-  {
-    "id": 56622,
+    "id": 166811,
     "name": "Dataran Hunimoa",
     "state_id": 1800,
     "state_code": "MA",
@@ -64,7 +48,7 @@
     "wikiDataId": "Q109436958"
   },
   {
-    "id": 56451,
+    "id": 166705,
     "name": "Dobo",
     "state_id": 1800,
     "state_code": "MA",
@@ -80,7 +64,7 @@
     "wikiDataId": "Q12481770"
   },
   {
-    "id": 56515,
+    "id": 166745,
     "name": "Langgur",
     "state_id": 1800,
     "state_code": "MA",
@@ -96,39 +80,23 @@
     "wikiDataId": "Q27959826"
   },
   {
-    "id": 56514,
-    "name": "Maluku Tengah",
+    "id": 166744,
+    "name": "Masohi",
     "state_id": 1800,
     "state_code": "MA",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-3.29167000",
-    "longitude": "128.96750000",
-    "native": "Kabupaten Maluku Tengah",
+    "latitude": "-3.29833000",
+    "longitude": "128.96882000",
+    "native": "Masohi",
     "timezone": "Asia/Jayapura",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q4201768"
+    "wikiDataId": null
   },
   {
-    "id": 56516,
-    "name": "Maluku Tenggara Barat",
-    "state_id": 1800,
-    "state_code": "MA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.61186000",
-    "longitude": "131.38000000",
-    "native": "Kabupaten Maluku Tenggara Barat",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q18961"
-  },
-  {
-    "id": 56384,
+    "id": 166663,
     "name": "Namlea",
     "state_id": 1800,
     "state_code": "MA",
@@ -142,6 +110,38 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q138784440"
+  },
+  {
+    "id": 166664,
+    "name": "Namrole",
+    "state_id": 1800,
+    "state_code": "MA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.84548000",
+    "longitude": "126.72619000",
+    "native": "Namrole",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166746,
+    "name": "Saumlaki",
+    "state_id": 1800,
+    "state_code": "MA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-7.98618000",
+    "longitude": "131.29675000",
+    "native": "Saumlaki",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56621,
@@ -160,7 +160,7 @@
     "wikiDataId": "Q18942"
   },
   {
-    "id": 56513,
+    "id": 166743,
     "name": "Tiakur",
     "state_id": 1800,
     "state_code": "MA",

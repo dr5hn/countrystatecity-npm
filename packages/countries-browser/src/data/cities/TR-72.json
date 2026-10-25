@@ -8,10 +8,10 @@
     "country_code": "TR",
     "latitude": "37.88738000",
     "longitude": "41.13221000",
-    "native": null,
+    "native": "Batman",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 491925,
     "wikiDataId": "Q159835"
   },
@@ -27,9 +27,9 @@
     "native": "Beşiri",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9513,
-    "wikiDataId": null
+    "wikiDataId": "Q854667"
   },
   {
     "id": 107663,
@@ -93,6 +93,6 @@
     "translations": {},
     "type": "municipality",
     "population": 12477,
-    "wikiDataId": "Q14313280"
+    "wikiDataId": null
   }
 ]

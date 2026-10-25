@@ -43,7 +43,7 @@
     "native": "Çavdarhisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2086,
     "wikiDataId": "Q2424690"
   },
@@ -93,7 +93,7 @@
     "translations": {},
     "type": "municipality",
     "population": 10690,
-    "wikiDataId": "Q1859664"
+    "wikiDataId": null
   },
   {
     "id": 107651,
@@ -139,7 +139,7 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 258906,
     "wikiDataId": "Q188894"
   },
@@ -155,9 +155,9 @@
     "native": "Pazarlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5522,
-    "wikiDataId": null
+    "wikiDataId": "Q2671066"
   },
   {
     "id": 108933,
@@ -168,10 +168,10 @@
     "country_code": "TR",
     "latitude": "39.02730000",
     "longitude": "29.22218000",
-    "native": "Shope",
+    "native": "Şaphane",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5085,
     "wikiDataId": null
   },

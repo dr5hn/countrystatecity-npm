@@ -459,7 +459,7 @@
     "native": "Fairlands",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1412,
     "wikiDataId": "Q5430512"
   },
@@ -475,7 +475,7 @@
     "native": "Farnham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm4",
     "population": 36971,
     "wikiDataId": "Q643160"
   },
@@ -523,7 +523,7 @@
     "native": "Godalming",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm4",
     "population": 23324,
     "wikiDataId": "Q909146"
   },
@@ -795,7 +795,7 @@
     "native": "Milford",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 6220,
     "wikiDataId": null
   },
@@ -859,7 +859,7 @@
     "native": "Peaslake",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2731,
     "wikiDataId": "Q7158452"
   },
@@ -974,22 +974,6 @@
     "type": "town",
     "population": 27784,
     "wikiDataId": "Q2194010"
-  },
-  {
-    "id": 51515,
-    "name": "Surrey",
-    "state_id": 2526,
-    "state_code": "SRY",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.25000000",
-    "longitude": "-0.33333000",
-    "native": "Surrey",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": 1214540,
-    "wikiDataId": "Q23276"
   },
   {
     "id": 51545,
@@ -1259,7 +1243,7 @@
     "native": "Wood Street Village",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1619,
     "wikiDataId": "Q8032282"
   },

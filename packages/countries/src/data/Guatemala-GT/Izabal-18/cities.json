@@ -11,7 +11,7 @@
     "native": "El Estor",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 82491,
     "wikiDataId": "Q1020153"
   },
@@ -27,7 +27,7 @@
     "native": "Lívingston",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 17923,
     "wikiDataId": "Q1192713"
   },
@@ -43,7 +43,7 @@
     "native": "Los Amates",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3417,
     "wikiDataId": "Q1020130"
   },
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "adm2",
     "population": 107400,
-    "wikiDataId": "Q25180351"
+    "wikiDataId": null
   },
   {
     "id": 53571,
@@ -109,6 +109,6 @@
     "translations": {},
     "type": "adm1",
     "population": 110846,
-    "wikiDataId": "Q25178213"
+    "wikiDataId": null
   }
 ]

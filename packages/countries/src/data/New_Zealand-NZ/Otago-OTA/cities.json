@@ -11,7 +11,7 @@
     "native": "Arrowtown",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2151,
     "wikiDataId": "Q703016"
   },
@@ -27,25 +27,9 @@
     "native": "Balclutha",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4230,
     "wikiDataId": "Q804717"
-  },
-  {
-    "id": 79785,
-    "name": "Clutha",
-    "state_id": 4062,
-    "state_code": "OTA",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-46.03883000",
-    "longitude": "169.60617000",
-    "native": "Clutha",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 17700,
-    "wikiDataId": "Q1103566"
   },
   {
     "id": 79787,
@@ -59,7 +43,7 @@
     "native": "Cromwell",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5160,
     "wikiDataId": "Q973355"
   },
@@ -75,9 +59,9 @@
     "native": "Dunedin",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 106200,
-    "wikiDataId": "Q1165830"
+    "wikiDataId": null
   },
   {
     "id": 79815,
@@ -91,7 +75,7 @@
     "native": "Kingston",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 360,
     "wikiDataId": "Q128090"
   },
@@ -107,7 +91,7 @@
     "native": "Milton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2210,
     "wikiDataId": "Q203424"
   },
@@ -123,7 +107,7 @@
     "native": "Oamaru",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13700,
     "wikiDataId": "Q4782"
   },
@@ -171,7 +155,7 @@
     "native": "Queenstown",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10442,
     "wikiDataId": "Q613602"
   },
@@ -187,7 +171,7 @@
     "native": "Wanaka",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11550,
     "wikiDataId": "Q930344"
   }

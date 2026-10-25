@@ -11,7 +11,7 @@
     "native": "Chicacao",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 68296,
     "wikiDataId": "Q2608636"
   },
@@ -27,7 +27,7 @@
     "native": "Cuyotenango",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 10825,
     "wikiDataId": "Q2402824"
   },
@@ -43,7 +43,7 @@
     "native": "Mazatenango",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 83828,
     "wikiDataId": "Q1023983"
   },
@@ -107,7 +107,7 @@
     "native": "Patulul",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 42394,
     "wikiDataId": "Q2608585"
   },
@@ -123,7 +123,7 @@
     "native": "Pueblo Nuevo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 3116,
     "wikiDataId": "Q3925380"
   },
@@ -139,7 +139,7 @@
     "native": "Río Bravo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7568,
     "wikiDataId": "Q1748849"
   },
@@ -155,7 +155,7 @@
     "native": "Samayac",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8994,
     "wikiDataId": "Q371216"
   },
@@ -173,7 +173,7 @@
     "translations": {},
     "type": "adm2",
     "population": 13666,
-    "wikiDataId": "Q25175696"
+    "wikiDataId": null
   },
   {
     "id": 53666,
@@ -187,7 +187,7 @@
     "native": "San Bernardino",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5501,
     "wikiDataId": "Q1748616"
   },
@@ -203,7 +203,7 @@
     "native": "San Francisco Zapotitlán",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 24763,
     "wikiDataId": "Q2608452"
   },
@@ -219,7 +219,7 @@
     "native": "San Gabriel",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 4118,
     "wikiDataId": "Q1748775"
   },
@@ -235,7 +235,7 @@
     "native": "San José El Ídolo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2412,
     "wikiDataId": "Q2401870"
   },
@@ -251,7 +251,7 @@
     "native": "San Juan Bautista",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2680,
     "wikiDataId": "Q1748787"
   },
@@ -267,7 +267,7 @@
     "native": "San Lorenzo",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2165,
     "wikiDataId": "Q3947493"
   },
@@ -285,7 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2024,
-    "wikiDataId": "Q25175828"
+    "wikiDataId": null
   },
   {
     "id": 53722,
@@ -299,7 +299,7 @@
     "native": "San Pablo Jocopilas",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 22490,
     "wikiDataId": "Q2716950"
   },
@@ -317,7 +317,7 @@
     "translations": {},
     "type": "adm2",
     "population": 17172,
-    "wikiDataId": "Q25175891"
+    "wikiDataId": null
   },
   {
     "id": 53773,
@@ -331,7 +331,7 @@
     "native": "Santo Domingo Suchitepéquez",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 6270,
     "wikiDataId": "Q2402403"
   },
@@ -347,7 +347,7 @@
     "native": "Santo Tomás La Unión",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7081,
     "wikiDataId": "Q2402120"
   },
@@ -363,7 +363,7 @@
     "native": "Zunilito",
     "timezone": "America/Guatemala",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2745,
     "wikiDataId": "Q2608644"
   }

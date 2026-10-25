@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
-    "wikiDataId": "Q340034"
+    "wikiDataId": null
   },
   {
     "id": 106416,
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 26113,
-    "wikiDataId": "Q340034"
+    "wikiDataId": null
   },
   {
     "id": 106432,
@@ -80,7 +80,7 @@
     "wikiDataId": "Q1390973"
   },
   {
-    "id": 105254,
+    "id": 166955,
     "name": "Bo Thong",
     "state_id": 3513,
     "state_code": "20",
@@ -112,7 +112,7 @@
     "wikiDataId": "Q138589"
   },
   {
-    "id": 105438,
+    "id": 167037,
     "name": "Ko Chan",
     "state_id": 3513,
     "state_code": "20",
@@ -144,7 +144,7 @@
     "wikiDataId": "Q13025301"
   },
   {
-    "id": 105686,
+    "id": 167125,
     "name": "Nong Yai",
     "state_id": 3513,
     "state_code": "20",
@@ -187,7 +187,7 @@
     "native": "พานทอง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 18708,
     "wikiDataId": "Q28736016"
   },
@@ -203,7 +203,7 @@
     "native": "พนัสนิคม",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 21924,
     "wikiDataId": "Q13025381"
   },
@@ -219,7 +219,7 @@
     "native": "สัตหีบ",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 65444,
     "wikiDataId": "Q13025387"
   },
@@ -235,7 +235,7 @@
     "native": "ศรีราชา",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 178916,
     "wikiDataId": "Q13409879"
   }

@@ -27,7 +27,7 @@
     "native": "Barnard Castle",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 7040,
     "wikiDataId": "Q808437"
   },
@@ -192,22 +192,6 @@
     "wikiDataId": "Q11691577"
   },
   {
-    "id": 49121,
-    "name": "County Durham",
-    "state_id": 2406,
-    "state_code": "DUR",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.77680000",
-    "longitude": "-1.57575000",
-    "native": "County Durham",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm2",
-    "population": 47785,
-    "wikiDataId": "Q1137286"
-  },
-  {
     "id": 49136,
     "name": "Coxhoe",
     "state_id": 2406,
@@ -283,7 +267,7 @@
     "native": "Evenwood",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1608,
     "wikiDataId": "Q5416796"
   },
@@ -683,7 +667,7 @@
     "native": "Stanhope",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1602,
     "wikiDataId": "Q428342"
   },
@@ -811,7 +795,7 @@
     "native": "Ushaw Moor",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 7368,
     "wikiDataId": "Q665875"
   },

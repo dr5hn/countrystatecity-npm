@@ -11,7 +11,7 @@
     "native": "Bascharage",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 4645,
     "wikiDataId": "Q947942"
   },
@@ -27,7 +27,7 @@
     "native": "Bridel",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3263,
     "wikiDataId": "Q2584585"
   },
@@ -43,7 +43,7 @@
     "native": "Capellen",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 2224,
     "wikiDataId": "Q1988543"
   },
@@ -59,7 +59,7 @@
     "native": "Clemency",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2018,
     "wikiDataId": "Q1369887"
   },
@@ -75,7 +75,7 @@
     "native": "Dippach",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 808,
     "wikiDataId": "Q13102344"
   },
@@ -91,7 +91,7 @@
     "native": "Eischen",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2131,
     "wikiDataId": "Q1311018"
   },
@@ -107,9 +107,9 @@
     "native": "Garnich",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 824,
-    "wikiDataId": "Q20969364"
+    "wikiDataId": null
   },
   {
     "id": 66778,
@@ -123,7 +123,7 @@
     "native": "Hautcharage",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1925,
     "wikiDataId": "Q2675610"
   },
@@ -171,7 +171,7 @@
     "native": "Kehlen",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 1658,
     "wikiDataId": "Q16763861"
   },
@@ -187,7 +187,7 @@
     "native": "Koerich",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 1066,
     "wikiDataId": "Q20969433"
   },
@@ -203,7 +203,7 @@
     "native": "Kopstal",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 657,
     "wikiDataId": "Q20969435"
   },
@@ -219,9 +219,9 @@
     "native": "Mamer",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 5017,
-    "wikiDataId": "Q20969453"
+    "wikiDataId": null
   },
   {
     "id": 66818,
@@ -235,7 +235,7 @@
     "native": "Olm",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1442,
     "wikiDataId": "Q2674976"
   },
@@ -251,7 +251,7 @@
     "native": "Schouweiler",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1620,
     "wikiDataId": "Q2609947"
   },

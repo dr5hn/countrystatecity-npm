@@ -32,7 +32,7 @@
     "wikiDataId": "Q476263"
   },
   {
-    "id": 105329,
+    "id": 166986,
     "name": "Don Chan",
     "state_id": 3550,
     "state_code": "46",
@@ -112,7 +112,7 @@
     "wikiDataId": "Q28736770"
   },
   {
-    "id": 105384,
+    "id": 167010,
     "name": "Kham Muang",
     "state_id": 3550,
     "state_code": "46",
@@ -160,22 +160,6 @@
     "wikiDataId": "Q475742"
   },
   {
-    "id": 105459,
-    "name": "Kuchinarai",
-    "state_id": 3550,
-    "state_code": "46",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "16.53179500",
-    "longitude": "104.04400200",
-    "native": "กุฉินารายณ์",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q13025357"
-  },
-  {
     "id": 106543,
     "name": "Kuchinarai",
     "state_id": 3550,
@@ -192,7 +176,23 @@
     "wikiDataId": null
   },
   {
-    "id": 105615,
+    "id": 167047,
+    "name": "Kuchinarai",
+    "state_id": 3550,
+    "state_code": "46",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "16.53179500",
+    "longitude": "104.04400200",
+    "native": "กุฉินารายณ์",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q13025357"
+  },
+  {
+    "id": 167089,
     "name": "Na Khu",
     "state_id": 3550,
     "state_code": "46",
@@ -208,7 +208,7 @@
     "wikiDataId": null
   },
   {
-    "id": 105618,
+    "id": 167090,
     "name": "Na Mon",
     "state_id": 3550,
     "state_code": "46",
@@ -240,7 +240,7 @@
     "wikiDataId": "Q28736761"
   },
   {
-    "id": 105813,
+    "id": 167175,
     "name": "Rong Kham",
     "state_id": 3550,
     "state_code": "46",
@@ -288,7 +288,7 @@
     "wikiDataId": "Q476595"
   },
   {
-    "id": 106243,
+    "id": 167221,
     "name": "Somdet",
     "state_id": 3550,
     "state_code": "46",
@@ -304,7 +304,7 @@
     "wikiDataId": null
   },
   {
-    "id": 106274,
+    "id": 167234,
     "name": "Tha Khantho",
     "state_id": 3550,
     "state_code": "46",
@@ -326,13 +326,13 @@
     "state_code": "46",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.39972222",
-    "longitude": "103.36777778",
+    "latitude": "16.39982000",
+    "longitude": "103.36785000",
     "native": "ยางตลาด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 13360,
     "wikiDataId": "Q28736750"
   }
 ]

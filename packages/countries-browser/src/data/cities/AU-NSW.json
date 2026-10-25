@@ -747,7 +747,7 @@
     "native": "Ballina",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 9735,
     "wikiDataId": "Q805266"
   },
@@ -795,7 +795,7 @@
     "native": "Balranald",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2244,
     "wikiDataId": "Q751598"
   },
@@ -1165,7 +1165,7 @@
     "translations": {},
     "type": "locality",
     "population": 36230,
-    "wikiDataId": "Q63175465"
+    "wikiDataId": "Q704978"
   },
   {
     "id": 4142,
@@ -1195,7 +1195,7 @@
     "native": "Bathurst Regional",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q786795"
   },
@@ -1323,7 +1323,7 @@
     "native": "Bega Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q752512"
   },
@@ -1419,7 +1419,7 @@
     "native": "Bellingen",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3923,
     "wikiDataId": "Q752634"
   },
@@ -1675,7 +1675,7 @@
     "native": "Berrigan",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1264,
     "wikiDataId": "Q752639"
   },
@@ -1963,7 +1963,7 @@
     "native": "Blacktown",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 50961,
     "wikiDataId": "Q30919"
   },
@@ -2027,7 +2027,7 @@
     "native": "Bland",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5455,
     "wikiDataId": "Q881483"
   },
@@ -2059,7 +2059,7 @@
     "native": "Blayney",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3448,
     "wikiDataId": "Q752517"
   },
@@ -2171,7 +2171,7 @@
     "native": "Bogan",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q142160"
   },
@@ -2523,7 +2523,7 @@
     "native": "Bourke",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1699,
     "wikiDataId": "Q573910"
   },
@@ -2699,7 +2699,7 @@
     "native": "Brewarrina",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 931,
     "wikiDataId": "Q752514"
   },
@@ -3067,7 +3067,7 @@
     "native": "Burwood",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 43927,
     "wikiDataId": "Q1017201"
   },
@@ -3147,7 +3147,7 @@
     "native": "Byron Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 38784,
     "wikiDataId": "Q752636"
   },
@@ -3355,7 +3355,7 @@
     "native": "Camden",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 3378,
     "wikiDataId": "Q979106"
   },
@@ -3499,7 +3499,7 @@
     "native": "Canada Bay",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 1308,
     "wikiDataId": "Q582899"
   },
@@ -3739,7 +3739,7 @@
     "native": "Carrathool",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 200,
     "wikiDataId": "Q753101"
   },
@@ -4013,7 +4013,7 @@
     "translations": {},
     "type": "municipality",
     "population": null,
-    "wikiDataId": "Q24058852"
+    "wikiDataId": null
   },
   {
     "id": 4650,
@@ -4027,7 +4027,7 @@
     "native": "Central Darling",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1773,
     "wikiDataId": "Q752642"
   },
@@ -4043,7 +4043,7 @@
     "native": "Cessnock",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 16300,
     "wikiDataId": "Q1057393"
   },
@@ -4267,7 +4267,7 @@
     "native": "City of Sydney",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 5557233,
     "wikiDataId": "Q1094194"
   },
@@ -4315,7 +4315,7 @@
     "native": "Clarence Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q283019"
   },
@@ -4411,7 +4411,7 @@
     "native": "Cobar",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3603,
     "wikiDataId": "Q753128"
   },
@@ -4443,7 +4443,7 @@
     "native": "Coffs Harbour",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 27089,
     "wikiDataId": "Q182671"
   },
@@ -4747,7 +4747,7 @@
     "native": "Coolamon",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2275,
     "wikiDataId": "Q753435"
   },
@@ -4795,7 +4795,7 @@
     "native": "Coonamble",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3889,
     "wikiDataId": "Q752632"
   },
@@ -4971,7 +4971,7 @@
     "native": "Cowra",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 10145,
     "wikiDataId": "Q753124"
   },
@@ -5165,7 +5165,7 @@
     "translations": {},
     "type": "locality",
     "population": 2946,
-    "wikiDataId": "Q5192876"
+    "wikiDataId": null
   },
   {
     "id": 4900,
@@ -5739,7 +5739,7 @@
     "native": "Dungog",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1983,
     "wikiDataId": "Q753131"
   },
@@ -6555,7 +6555,7 @@
     "native": "Eurobodalla",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 80,
     "wikiDataId": "Q753512"
   },
@@ -6587,7 +6587,7 @@
     "native": "Fairfield",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 213677,
     "wikiDataId": "Q571368"
   },
@@ -6875,7 +6875,7 @@
     "native": "Forbes",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 9301,
     "wikiDataId": "Q664896"
   },
@@ -7131,7 +7131,7 @@
     "native": "Gilgandra",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4304,
     "wikiDataId": "Q753112"
   },
@@ -7259,7 +7259,7 @@
     "native": "Glen Innes Severn",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8931,
     "wikiDataId": "Q753416"
   },
@@ -7595,7 +7595,7 @@
     "native": "Goulburn Mulwaree",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q753508"
   },
@@ -7675,7 +7675,7 @@
     "native": "Greater Hume Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 11157,
     "wikiDataId": "Q613414"
   },
@@ -7835,7 +7835,7 @@
     "native": "Griffith",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5328,
     "wikiDataId": "Q753590"
   },
@@ -7917,7 +7917,7 @@
     "translations": {},
     "type": "locality",
     "population": 1699,
-    "wikiDataId": "Q2733575"
+    "wikiDataId": "Q753429"
   },
   {
     "id": 5484,
@@ -7947,7 +7947,7 @@
     "native": "Gunnedah",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 13502,
     "wikiDataId": "Q753458"
   },
@@ -7995,7 +7995,7 @@
     "native": "Gwydir",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4968,
     "wikiDataId": "Q583112"
   },
@@ -8219,7 +8219,7 @@
     "native": "Hawkesbury",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q1539297"
   },
@@ -8251,7 +8251,7 @@
     "native": "Hay",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2899,
     "wikiDataId": "Q649319"
   },
@@ -8635,7 +8635,7 @@
     "native": "Hornsby Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 151811,
     "wikiDataId": "Q115549"
   },
@@ -8715,7 +8715,7 @@
     "native": "Hunters Hill",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 9014,
     "wikiDataId": "Q1638179"
   },
@@ -8859,7 +8859,7 @@
     "native": "Inverell",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 12057,
     "wikiDataId": "Q753404"
   },
@@ -9355,7 +9355,7 @@
     "native": "Kempsey",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 483,
     "wikiDataId": "Q753463"
   },
@@ -9435,7 +9435,7 @@
     "native": "Kiama",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 23139,
     "wikiDataId": "Q753426"
   },
@@ -9533,7 +9533,7 @@
     "translations": {},
     "type": "locality",
     "population": 1863,
-    "wikiDataId": "Q31403766"
+    "wikiDataId": null
   },
   {
     "id": 5871,
@@ -9819,7 +9819,7 @@
     "native": "Ku-ring-gai",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 4228,
     "wikiDataId": "Q133642"
   },
@@ -9915,7 +9915,7 @@
     "native": "Kyogle",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2248,
     "wikiDataId": "Q753455"
   },
@@ -9931,7 +9931,7 @@
     "native": "Lachlan",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 953,
     "wikiDataId": "Q753114"
   },
@@ -9997,7 +9997,7 @@
     "translations": {},
     "type": "locality",
     "population": 3529,
-    "wikiDataId": "Q6476117"
+    "wikiDataId": null
   },
   {
     "id": 5947,
@@ -10043,7 +10043,7 @@
     "native": "Lake Macquarie Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 3473,
     "wikiDataId": "Q606193"
   },
@@ -10155,7 +10155,7 @@
     "native": "Lane Cove",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 8542,
     "wikiDataId": "Q32311"
   },
@@ -10283,7 +10283,7 @@
     "native": "Leeton",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 11475,
     "wikiDataId": "Q753103"
   },
@@ -10603,7 +10603,7 @@
     "native": "Lithgow",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4956,
     "wikiDataId": "Q586012"
   },
@@ -10635,7 +10635,7 @@
     "native": "Liverpool",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 261231,
     "wikiDataId": "Q1309863"
   },
@@ -10651,7 +10651,7 @@
     "native": "Liverpool Plains",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7671,
     "wikiDataId": "Q820671"
   },
@@ -10669,7 +10669,7 @@
     "translations": {},
     "type": "locality",
     "population": 2302,
-    "wikiDataId": "Q31405482"
+    "wikiDataId": null
   },
   {
     "id": 6043,
@@ -10699,7 +10699,7 @@
     "native": "Lockhart",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1019,
     "wikiDataId": "Q753594"
   },
@@ -11037,7 +11037,7 @@
     "translations": {},
     "type": "locality",
     "population": 2071,
-    "wikiDataId": "Q2205207"
+    "wikiDataId": null
   },
   {
     "id": 6145,
@@ -11595,7 +11595,7 @@
     "native": "Mid-Western Regional",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q820340"
   },
@@ -11979,7 +11979,7 @@
     "native": "Moree Plains",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q820167"
   },
@@ -12075,7 +12075,7 @@
     "native": "Mosman",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 6844,
     "wikiDataId": "Q13080916"
   },
@@ -12301,7 +12301,7 @@
     "translations": {},
     "type": "locality",
     "population": 3074,
-    "wikiDataId": "Q14934920"
+    "wikiDataId": null
   },
   {
     "id": 6457,
@@ -12475,7 +12475,7 @@
     "native": "Muswellbrook",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 12272,
     "wikiDataId": "Q820368"
   },
@@ -12539,7 +12539,7 @@
     "native": "Nambucca Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q820685"
   },
@@ -12667,7 +12667,7 @@
     "native": "Narrabri",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7327,
     "wikiDataId": "Q175095"
   },
@@ -12683,7 +12683,7 @@
     "native": "Narrandera",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4369,
     "wikiDataId": "Q820304"
   },
@@ -12731,7 +12731,7 @@
     "native": "Narromine",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4608,
     "wikiDataId": "Q610975"
   },
@@ -12829,7 +12829,7 @@
     "translations": {},
     "type": "municipality",
     "population": 508437,
-    "wikiDataId": "Q820325"
+    "wikiDataId": "Q57278"
   },
   {
     "id": 6565,
@@ -13291,7 +13291,7 @@
     "native": "North Sydney",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "locality",
     "population": 2054,
     "wikiDataId": "Q114395"
   },
@@ -13389,7 +13389,7 @@
     "translations": {},
     "type": "locality",
     "population": 6183,
-    "wikiDataId": "Q7057712"
+    "wikiDataId": null
   },
   {
     "id": 6672,
@@ -13563,7 +13563,7 @@
     "native": "Oberon",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3319,
     "wikiDataId": "Q820717"
   },
@@ -13645,7 +13645,7 @@
     "translations": {},
     "type": "locality",
     "population": 3276,
-    "wikiDataId": "Q7085239"
+    "wikiDataId": null
   },
   {
     "id": 6729,
@@ -13899,7 +13899,7 @@
     "native": "Parkes",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 14175,
     "wikiDataId": "Q1517703"
   },
@@ -13931,7 +13931,7 @@
     "native": "Parramatta",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 30211,
     "wikiDataId": "Q11079799"
   },
@@ -14299,7 +14299,7 @@
     "native": "Port Macquarie-Hastings",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 92432,
     "wikiDataId": "Q596030"
   },
@@ -14315,7 +14315,7 @@
     "native": "Port Stephens Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 80070,
     "wikiDataId": "Q820318"
   },
@@ -14683,7 +14683,7 @@
     "native": "Randwick",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 28943,
     "wikiDataId": "Q1311882"
   },
@@ -14891,7 +14891,7 @@
     "native": "Richmond Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q820691"
   },
@@ -15021,7 +15021,7 @@
     "translations": {},
     "type": "locality",
     "population": 7280,
-    "wikiDataId": "Q7366748"
+    "wikiDataId": null
   },
   {
     "id": 7059,
@@ -15275,7 +15275,7 @@
     "native": "Ryde",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 141693,
     "wikiDataId": "Q2178230"
   },
@@ -15325,7 +15325,7 @@
     "translations": {},
     "type": "locality",
     "population": 3199,
-    "wikiDataId": "Q6272400"
+    "wikiDataId": null
   },
   {
     "id": 7117,
@@ -15675,7 +15675,7 @@
     "native": "Shoalhaven Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 111755,
     "wikiDataId": "Q820286"
   },
@@ -15739,7 +15739,7 @@
     "native": "Singleton",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5185,
     "wikiDataId": "Q769649"
   },
@@ -15757,7 +15757,7 @@
     "translations": {},
     "type": "locality",
     "population": 4896,
-    "wikiDataId": "Q31401080"
+    "wikiDataId": null
   },
   {
     "id": 7223,
@@ -15773,7 +15773,7 @@
     "translations": {},
     "type": "locality",
     "population": 1303,
-    "wikiDataId": "Q3486228"
+    "wikiDataId": null
   },
   {
     "id": 7228,
@@ -16395,7 +16395,7 @@
     "native": "Strathfield",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 49203,
     "wikiDataId": "Q660171"
   },
@@ -16621,7 +16621,7 @@
     "translations": {},
     "type": "locality",
     "population": 5557233,
-    "wikiDataId": "Q110046497"
+    "wikiDataId": "Q3130"
   },
   {
     "id": 7409,
@@ -17179,7 +17179,7 @@
     "native": "The Hills Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 191876,
     "wikiDataId": "Q115553"
   },
@@ -17739,7 +17739,7 @@
     "native": "Tweed",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 101044,
     "wikiDataId": "Q263160"
   },
@@ -17867,7 +17867,7 @@
     "native": "Upper Hunter Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 14229,
     "wikiDataId": "Q820332"
   },
@@ -17883,7 +17883,7 @@
     "native": "Upper Lachlan Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8514,
     "wikiDataId": "Q176908"
   },
@@ -17899,7 +17899,7 @@
     "native": "Uralla",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 194,
     "wikiDataId": "Q820188"
   },
@@ -17949,7 +17949,7 @@
     "translations": {},
     "type": "locality",
     "population": 1455,
-    "wikiDataId": "Q31399359"
+    "wikiDataId": "Q2527414"
   },
   {
     "id": 7624,
@@ -18075,7 +18075,7 @@
     "native": "Wagga Wagga",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 7690,
     "wikiDataId": "Q820153"
   },
@@ -18125,7 +18125,7 @@
     "translations": {},
     "type": "locality",
     "population": 4893,
-    "wikiDataId": "Q12743834"
+    "wikiDataId": null
   },
   {
     "id": 7663,
@@ -18139,7 +18139,7 @@
     "native": "Walcha",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2475,
     "wikiDataId": "Q820180"
   },
@@ -18155,7 +18155,7 @@
     "native": "Walgett",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1824,
     "wikiDataId": "Q265390"
   },
@@ -18459,7 +18459,7 @@
     "native": "Warren Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2550,
     "wikiDataId": "Q820651"
   },
@@ -18507,7 +18507,7 @@
     "native": "Warrumbungle Shire",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 9225,
     "wikiDataId": "Q820679"
   },
@@ -18619,7 +18619,7 @@
     "native": "Waverley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 1583,
     "wikiDataId": "Q2299900"
   },
@@ -18651,7 +18651,7 @@
     "native": "Weddin",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3558,
     "wikiDataId": "Q820159"
   },
@@ -18699,7 +18699,7 @@
     "native": "Wentworth",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7982,
     "wikiDataId": "Q820695"
   },
@@ -18845,7 +18845,7 @@
     "translations": {},
     "type": "locality",
     "population": 3230,
-    "wikiDataId": "Q2881293"
+    "wikiDataId": null
   },
   {
     "id": 7778,
@@ -18861,7 +18861,7 @@
     "translations": {},
     "type": "locality",
     "population": 3634,
-    "wikiDataId": "Q31405788"
+    "wikiDataId": null
   },
   {
     "id": 7787,
@@ -19069,7 +19069,7 @@
     "translations": {},
     "type": "locality",
     "population": 2963,
-    "wikiDataId": "Q31398447"
+    "wikiDataId": null
   },
   {
     "id": 7823,
@@ -19117,7 +19117,7 @@
     "translations": {},
     "type": "locality",
     "population": 6104,
-    "wikiDataId": "Q7990100"
+    "wikiDataId": null
   },
   {
     "id": 7830,
@@ -19133,7 +19133,7 @@
     "translations": {},
     "type": "locality",
     "population": 5929,
-    "wikiDataId": "Q12743876"
+    "wikiDataId": null
   },
   {
     "id": 149216,
@@ -19165,7 +19165,7 @@
     "translations": {},
     "type": "locality",
     "population": 2964,
-    "wikiDataId": "Q7992221"
+    "wikiDataId": null
   },
   {
     "id": 7836,
@@ -19275,7 +19275,7 @@
     "native": "Willoughby",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 7124,
     "wikiDataId": "Q634933"
   },
@@ -19403,7 +19403,7 @@
     "native": "Wingecarribee",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q1508888"
   },
@@ -19483,7 +19483,7 @@
     "native": "Wollondilly",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": null,
     "wikiDataId": "Q1807241"
   },
@@ -19675,7 +19675,7 @@
     "native": "Woollahra",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 28943,
     "wikiDataId": "Q1623372"
   },
@@ -19995,7 +19995,7 @@
     "native": "Yass Valley",
     "timezone": "Australia/Sydney",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q820173"
   },

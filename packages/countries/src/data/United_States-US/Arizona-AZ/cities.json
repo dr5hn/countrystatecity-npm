@@ -208,22 +208,6 @@
     "wikiDataId": "Q79672"
   },
   {
-    "id": 112327,
-    "name": "Big Park",
-    "state_id": 1434,
-    "state_code": "AZ",
-    "country_id": 233,
-    "country_code": "US",
-    "latitude": "34.78030000",
-    "longitude": "-111.76265000",
-    "native": "Big Park",
-    "timezone": "America/Phoenix",
-    "translations": {},
-    "type": "city",
-    "population": 6695,
-    "wikiDataId": "Q2727089"
-  },
-  {
     "id": 112360,
     "name": "Bisbee",
     "state_id": 1434,
@@ -2892,7 +2876,7 @@
     "timezone": "America/Phoenix",
     "translations": {},
     "type": "city",
-    "population": 158368,
+    "population": null,
     "wikiDataId": "Q51685"
   },
   {
@@ -3136,20 +3120,20 @@
     "wikiDataId": "Q2734093"
   },
   {
-    "id": 128253,
+    "id": 112327,
     "name": "Village of Oak Creek (Big Park)",
     "state_id": 1434,
     "state_code": "AZ",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "34.78090000",
-    "longitude": "-111.76227000",
+    "latitude": "34.78030000",
+    "longitude": "-111.76265000",
     "native": "Village of Oak Creek (Big Park)",
     "timezone": "America/Phoenix",
     "translations": {},
     "type": "locality",
-    "population": 6147,
-    "wikiDataId": null
+    "population": 6128,
+    "wikiDataId": "Q2727089"
   },
   {
     "id": 128795,

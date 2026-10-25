@@ -11,7 +11,7 @@
     "native": "Barkly West",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 11621,
     "wikiDataId": "Q808304"
   },
@@ -27,7 +27,7 @@
     "native": "Brandvlei",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2859,
     "wikiDataId": "Q898384"
   },
@@ -43,7 +43,7 @@
     "native": "Calvinia",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 8146,
     "wikiDataId": "Q1027757"
   },
@@ -75,7 +75,7 @@
     "native": "Colesberg",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 12423,
     "wikiDataId": "Q2232441"
   },
@@ -91,7 +91,7 @@
     "native": "Daniëlskuil",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10123,
     "wikiDataId": "Q2296645"
   },
@@ -107,7 +107,7 @@
     "native": "De Aar",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 32318,
     "wikiDataId": "Q743069"
   },
@@ -155,7 +155,7 @@
     "native": "Jan Kempdorp",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13485,
     "wikiDataId": "Q2539888"
   },
@@ -187,7 +187,7 @@
     "native": "Kathu",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 9219,
     "wikiDataId": "Q1736557"
   },
@@ -203,7 +203,7 @@
     "native": "Kenhardt",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4842,
     "wikiDataId": "Q3643099"
   },
@@ -219,7 +219,7 @@
     "native": "Kimberley",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 142089,
     "wikiDataId": "Q125905"
   },
@@ -267,7 +267,7 @@
     "native": "Noupoort",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3924,
     "wikiDataId": "Q3642267"
   },
@@ -283,7 +283,7 @@
     "native": "Orania",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 2066,
     "wikiDataId": "Q1011020"
   },
@@ -299,7 +299,7 @@
     "native": "Pampiestad",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21707,
     "wikiDataId": "Q68597"
   },
@@ -331,7 +331,7 @@
     "native": "Pofadder",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 3287,
     "wikiDataId": "Q993179"
   },
@@ -363,7 +363,7 @@
     "native": "Prieska",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 11236,
     "wikiDataId": "Q1021731"
   },
@@ -379,7 +379,7 @@
     "native": "Ritchie",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9960,
     "wikiDataId": "Q2152772"
   },
@@ -411,7 +411,7 @@
     "native": "Springbok",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 10438,
     "wikiDataId": "Q2301363"
   },
@@ -443,9 +443,9 @@
     "native": "Van Wyksvlei",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1721,
-    "wikiDataId": "Q18108"
+    "wikiDataId": null
   },
   {
     "id": 131299,
@@ -459,7 +459,7 @@
     "native": "Warrenton",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 17946,
     "wikiDataId": "Q1832033"
   }

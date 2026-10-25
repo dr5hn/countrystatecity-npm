@@ -29,7 +29,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9917,
-    "wikiDataId": "Q1830219"
+    "wikiDataId": null
   },
   {
     "id": 107183,
@@ -43,9 +43,9 @@
     "native": "Arguvan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3282,
-    "wikiDataId": null
+    "wikiDataId": "Q652393"
   },
   {
     "id": 107292,
@@ -59,7 +59,7 @@
     "native": "Battalgazi",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 274563,
     "wikiDataId": "Q810916"
   },
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "municipality",
     "population": 24806,
-    "wikiDataId": "Q1003964"
+    "wikiDataId": null
   },
   {
     "id": 107525,
@@ -134,14 +134,14 @@
     "state_code": "44",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "39.03333000",
-    "longitude": "38.00000000",
+    "latitude": "38.41538000",
+    "longitude": "38.77092000",
     "native": "Kale",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5167,
-    "wikiDataId": null
+    "wikiDataId": "Q1027176"
   },
   {
     "id": 108044,
@@ -152,12 +152,12 @@
     "country_code": "TR",
     "latitude": "38.87656000",
     "longitude": "37.66279000",
-    "native": "Kulunak",
+    "native": "Kuluncak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 8384,
-    "wikiDataId": null
+    "wikiDataId": "Q1027193"
   },
   {
     "id": 108354,
@@ -205,6 +205,6 @@
     "translations": {},
     "type": "municipality",
     "population": 309890,
-    "wikiDataId": "Q2438486"
+    "wikiDataId": null
   }
 ]

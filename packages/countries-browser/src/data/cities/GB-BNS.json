@@ -1,19 +1,19 @@
 [
   {
-    "id": 48402,
+    "id": 166593,
     "name": "Barnsley",
     "state_id": 2499,
     "state_code": "BNS",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.53333000",
-    "longitude": "-1.50000000",
+    "latitude": "53.55361111",
+    "longitude": "-1.47888889",
     "native": "Barnsley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 245199,
-    "wikiDataId": "Q1857382"
+    "wikiDataId": null
   },
   {
     "id": 48519,
@@ -187,7 +187,7 @@
     "native": "Penistone",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 12674,
     "wikiDataId": "Q2010576"
   },

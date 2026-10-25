@@ -11,7 +11,7 @@
     "native": "Bloemhof",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 33432,
     "wikiDataId": "Q2633575"
   },
@@ -43,7 +43,7 @@
     "native": "Brits",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 122497,
     "wikiDataId": "Q3948"
   },
@@ -59,7 +59,7 @@
     "native": "Christiana",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 25019,
     "wikiDataId": "Q1082602"
   },
@@ -139,7 +139,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23913,
     "wikiDataId": "Q6094912"
   },
@@ -155,7 +155,7 @@
     "native": "Clerksdorp",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 227039,
     "wikiDataId": "Q1015647"
   },
@@ -171,7 +171,7 @@
     "native": "Koster",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 23361,
     "wikiDataId": "Q3643783"
   },
@@ -187,7 +187,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q3642626"
   },
@@ -203,7 +203,7 @@
     "native": "Lichtenburg",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 65863,
     "wikiDataId": "Q2671213"
   },
@@ -219,7 +219,7 @@
     "native": "Mahikeng",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 77110,
     "wikiDataId": "Q211055"
   },
@@ -235,9 +235,9 @@
     "native": "Maile",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10000,
-    "wikiDataId": "Q211055"
+    "wikiDataId": null
   },
   {
     "id": 165903,
@@ -251,7 +251,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q3643549"
   },
@@ -267,7 +267,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 23389,
     "wikiDataId": "Q1014271"
   },
@@ -283,7 +283,7 @@
     "native": "Mmabatho",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 76754,
     "wikiDataId": "Q358762"
   },
@@ -315,7 +315,7 @@
     "native": "Orkney",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 110052,
     "wikiDataId": "Q1788096"
   },
@@ -331,7 +331,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 22011,
     "wikiDataId": "Q2304161"
   },
@@ -363,7 +363,7 @@
     "native": "Rustenburg",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 373695,
     "wikiDataId": "Q182049"
   },
@@ -379,7 +379,7 @@
     "native": "Schweizer-Reneke",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 70214,
     "wikiDataId": "Q2568047"
   },
@@ -395,7 +395,7 @@
     "native": "Stilfontein",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 93110,
     "wikiDataId": "Q2327720"
   },
@@ -427,7 +427,7 @@
     "native": "Vryburg",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 55879,
     "wikiDataId": "Q1027291"
   },
@@ -443,7 +443,7 @@
     "native": "Wolmaransstad",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 49366,
     "wikiDataId": "Q3642582"
   },
@@ -459,7 +459,7 @@
     "native": "Zeerust",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 19154,
     "wikiDataId": "Q184412"
   }

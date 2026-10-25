@@ -43,9 +43,9 @@
     "native": "बसर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4284,
-    "wikiDataId": "Q712428"
+    "wikiDataId": null
   },
   {
     "id": 58080,
@@ -80,6 +80,22 @@
     "wikiDataId": "Q15427"
   },
   {
+    "id": 167601,
+    "name": "Daporijo",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "27.98611111",
+    "longitude": "94.22166667",
+    "native": "दपोरिजो",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 131763,
     "name": "Dibang Valley",
     "state_id": 4024,
@@ -93,23 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 8004,
-    "wikiDataId": "Q42479"
-  },
-  {
-    "id": 131826,
-    "name": "East Kameng",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.30000000",
-    "longitude": "93.05000000",
-    "native": "पूर्वी कामेंग",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 78690,
-    "wikiDataId": "Q15424"
+    "wikiDataId": null
   },
   {
     "id": 131828,
@@ -125,7 +125,7 @@
     "translations": {},
     "type": "city",
     "population": 99214,
-    "wikiDataId": "Q1945304"
+    "wikiDataId": null
   },
   {
     "id": 165079,
@@ -208,54 +208,6 @@
     "wikiDataId": "Q2449506"
   },
   {
-    "id": 132769,
-    "name": "Lohit",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.84012000",
-    "longitude": "96.19521000",
-    "native": "लोहित जिला",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "district",
-    "population": 145726,
-    "wikiDataId": "Q15438"
-  },
-  {
-    "id": 132779,
-    "name": "Lower Dibang Valley",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "28.37258000",
-    "longitude": "95.88040000",
-    "native": "निचली दिबांग घाटी",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 54080,
-    "wikiDataId": "Q2373368"
-  },
-  {
-    "id": 132780,
-    "name": "Lower Subansiri",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.62554000",
-    "longitude": "93.93908000",
-    "native": "निचला सुबनसिरी",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 83030,
-    "wikiDataId": "Q15436"
-  },
-  {
     "id": 133121,
     "name": "Naharlagun",
     "state_id": 4024,
@@ -299,7 +251,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q25247765"
   },
@@ -318,6 +270,38 @@
     "type": "city",
     "population": 25581,
     "wikiDataId": "Q1936930"
+  },
+  {
+    "id": 167559,
+    "name": "Roing",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "28.14277778",
+    "longitude": "95.84277778",
+    "native": "रोइंग",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 167531,
+    "name": "Seppa",
+    "state_id": 4024,
+    "state_code": "AR",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "27.35000000",
+    "longitude": "93.04555556",
+    "native": "सेप्पा",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 134120,
@@ -352,22 +336,6 @@
     "wikiDataId": "Q13221"
   },
   {
-    "id": 134199,
-    "name": "Tirap",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.01917000",
-    "longitude": "95.51788000",
-    "native": "तिराप",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 111975,
-    "wikiDataId": "Q15448"
-  },
-  {
     "id": 134288,
     "name": "Upper Siang",
     "state_id": 4024,
@@ -382,54 +350,6 @@
     "type": "city",
     "population": 35320,
     "wikiDataId": "Q15465"
-  },
-  {
-    "id": 134289,
-    "name": "Upper Subansiri",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "28.30000000",
-    "longitude": "94.00000000",
-    "native": "ऊपरी सुबनसिरी",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 83448,
-    "wikiDataId": "Q15464"
-  },
-  {
-    "id": 134409,
-    "name": "West Kameng",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "27.40000000",
-    "longitude": "92.35000000",
-    "native": "पश्चिम कामेंग",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 83947,
-    "wikiDataId": "Q15459"
-  },
-  {
-    "id": 134411,
-    "name": "West Siang",
-    "state_id": 4024,
-    "state_code": "AR",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "28.40000000",
-    "longitude": "94.55000000",
-    "native": "पश्चिम सियांग",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 112274,
-    "wikiDataId": "Q15453"
   },
   {
     "id": 134444,

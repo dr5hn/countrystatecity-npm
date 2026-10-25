@@ -11,7 +11,7 @@
     "native": "Alba Posse",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 6652,
     "wikiDataId": "Q2830746"
   },
@@ -27,7 +27,7 @@
     "native": "Almafuerte",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1022,
     "wikiDataId": "Q4733652"
   },
@@ -43,7 +43,7 @@
     "native": null,
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 30278,
     "wikiDataId": "Q2859097"
   },
@@ -59,7 +59,7 @@
     "native": "Aristóbulo del Valle",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 20683,
     "wikiDataId": "Q2861426"
   },
@@ -75,7 +75,7 @@
     "native": "Arroyo del Medio",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2142,
     "wikiDataId": "Q2242988"
   },
@@ -107,7 +107,7 @@
     "native": "Bernardo de Irigoyen",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 10889,
     "wikiDataId": "Q823073"
   },
@@ -139,7 +139,7 @@
     "native": "Campo Grande",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 12040,
     "wikiDataId": "Q588681"
   },
@@ -155,7 +155,7 @@
     "native": "Campo Ramón",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 10088,
     "wikiDataId": "Q2918968"
   },
@@ -171,7 +171,7 @@
     "native": "Campo Viera",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 9228,
     "wikiDataId": "Q5028465"
   },
@@ -203,7 +203,7 @@
     "native": "Capioví",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5860,
     "wikiDataId": "Q5035413"
   },
@@ -219,7 +219,7 @@
     "native": "Caraguatay",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3287,
     "wikiDataId": "Q5037636"
   },
@@ -235,7 +235,7 @@
     "native": "Cerro Azul",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5323,
     "wikiDataId": "Q5064858"
   },
@@ -251,7 +251,7 @@
     "native": "Cerro Corá",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1153,
     "wikiDataId": "Q5064903"
   },
@@ -267,7 +267,7 @@
     "native": "Colonia de aurora",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8407,
     "wikiDataId": "Q908300"
   },
@@ -283,7 +283,7 @@
     "native": "Concepción de la Sierra",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7398,
     "wikiDataId": "Q2991642"
   },
@@ -299,7 +299,7 @@
     "native": "Dos Arroyos",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3079,
     "wikiDataId": "Q5299139"
   },
@@ -315,7 +315,7 @@
     "native": "Dos de Mayo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 14544,
     "wikiDataId": "Q5299217"
   },
@@ -331,7 +331,7 @@
     "native": "El Alcázar",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5127,
     "wikiDataId": "Q5350719"
   },
@@ -347,12 +347,12 @@
     "native": "El Soberbio",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 19571,
     "wikiDataId": "Q3050254"
   },
   {
-    "id": 878,
+    "id": 166310,
     "name": "Eldorado",
     "state_id": 3644,
     "state_code": "N",
@@ -395,7 +395,7 @@
     "native": "Garuhapé",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8259,
     "wikiDataId": "Q993283"
   },
@@ -411,7 +411,7 @@
     "native": "Garupa",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 28814,
     "wikiDataId": "Q5524495"
   },
@@ -427,7 +427,7 @@
     "native": "General Alvear",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1431,
     "wikiDataId": "Q5531687"
   },
@@ -443,7 +443,7 @@
     "native": "Gobernador Roca",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6315,
     "wikiDataId": "Q5575458"
   },
@@ -459,7 +459,7 @@
     "native": "Guaraní",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4530,
     "wikiDataId": "Q5613944"
   },
@@ -475,7 +475,7 @@
     "native": "Jardín América",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 24905,
     "wikiDataId": "Q3115487"
   },
@@ -491,7 +491,7 @@
     "native": null,
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 27287,
     "wikiDataId": "Q3113061"
   },
@@ -507,7 +507,7 @@
     "native": "Loreto",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1201,
     "wikiDataId": "Q2987221"
   },
@@ -523,7 +523,7 @@
     "native": "Los Helechos",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3616,
     "wikiDataId": "Q9296343"
   },
@@ -539,7 +539,7 @@
     "native": "Mártires",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1135,
     "wikiDataId": "Q2929515"
   },
@@ -555,7 +555,7 @@
     "native": "Mojón Grande",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2233,
     "wikiDataId": "Q1886208"
   },
@@ -587,7 +587,7 @@
     "native": "Oberá",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 66112,
     "wikiDataId": "Q55377"
   },
@@ -603,7 +603,7 @@
     "native": "Panambí",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5970,
     "wikiDataId": "Q7130019"
   },
@@ -635,7 +635,7 @@
     "native": "Posadas",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 275988,
     "wikiDataId": "Q44238"
   },
@@ -667,7 +667,7 @@
     "native": "Puerto Esperanza",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 15579,
     "wikiDataId": "Q3112889"
   },
@@ -683,7 +683,7 @@
     "native": "Puerto Iguazú",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm4",
     "population": 32038,
     "wikiDataId": "Q55378"
   },
@@ -699,7 +699,7 @@
     "native": "Puerto Leoni",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2329,
     "wikiDataId": "Q2565742"
   },
@@ -731,7 +731,7 @@
     "native": "Puerto Piray",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8557,
     "wikiDataId": "Q3115721"
   },
@@ -747,7 +747,7 @@
     "native": "Puerto Rico",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 17491,
     "wikiDataId": "Q2530831"
   },
@@ -763,12 +763,12 @@
     "native": "Ruiz de Montoya",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3374,
     "wikiDataId": "Q2550082"
   },
   {
-    "id": 987,
+    "id": 166326,
     "name": "San Ignacio",
     "state_id": 3644,
     "state_code": "N",
@@ -784,7 +784,7 @@
     "wikiDataId": "Q3181334"
   },
   {
-    "id": 989,
+    "id": 166327,
     "name": "San Javier",
     "state_id": 3644,
     "state_code": "N",
@@ -811,7 +811,7 @@
     "native": "San José",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6452,
     "wikiDataId": "Q7414513"
   },
@@ -848,14 +848,14 @@
     "wikiDataId": "Q21827849"
   },
   {
-    "id": 845,
+    "id": 166307,
     "name": "Santa Ana",
     "state_id": 3644,
     "state_code": "N",
     "country_id": 11,
     "country_code": "AR",
-    "latitude": "-27.36966705",
-    "longitude": "-55.58278274",
+    "latitude": "-27.36920200",
+    "longitude": "-55.58171500",
     "native": "Santa Ana",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
@@ -875,7 +875,7 @@
     "native": "Santa María",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1687,
     "wikiDataId": "Q2238097"
   },
@@ -891,7 +891,7 @@
     "native": "Santo Pipó",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5447,
     "wikiDataId": "Q7420542"
   },
@@ -907,7 +907,7 @@
     "native": "Tres capones",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1234,
     "wikiDataId": "Q9297687"
   },
@@ -923,7 +923,7 @@
     "native": "Veinticinco de Mayo",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 11928,
     "wikiDataId": "Q2374393"
   },
@@ -939,7 +939,7 @@
     "native": "Wanda",
     "timezone": "America/Argentina/Cordoba",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 15529,
     "wikiDataId": "Q3115808"
   }

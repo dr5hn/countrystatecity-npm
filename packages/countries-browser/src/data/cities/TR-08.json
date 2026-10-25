@@ -59,7 +59,7 @@
     "native": "Hopa",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 17519,
     "wikiDataId": null
   },
@@ -91,7 +91,7 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 26555,
     "wikiDataId": "Q193445"
   },
@@ -107,9 +107,9 @@
     "native": "Murgul",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6658,
-    "wikiDataId": null
+    "wikiDataId": "Q1029774"
   },
   {
     "id": 108940,
@@ -141,6 +141,6 @@
     "translations": {},
     "type": "municipality",
     "population": 7058,
-    "wikiDataId": "Q49110308"
+    "wikiDataId": null
   }
 ]

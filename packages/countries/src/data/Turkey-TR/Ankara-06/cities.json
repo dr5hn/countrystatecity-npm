@@ -11,9 +11,9 @@
     "native": "Akyurt",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 26572,
-    "wikiDataId": null
+    "wikiDataId": "Q557607"
   },
   {
     "id": 107139,
@@ -22,12 +22,12 @@
     "state_code": "06",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.00110000",
-    "longitude": "32.97022000",
+    "latitude": "39.96673000",
+    "longitude": "32.92254000",
     "native": "Altındağ",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 370024,
     "wikiDataId": "Q682981"
   },
@@ -59,9 +59,9 @@
     "native": "Ayaş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 8570,
-    "wikiDataId": null
+    "wikiDataId": "Q631170"
   },
   {
     "id": 107268,
@@ -171,7 +171,7 @@
     "native": "Etimesgut",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 632458,
     "wikiDataId": "Q1029159"
   },
@@ -187,7 +187,7 @@
     "native": "Evren",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2927,
     "wikiDataId": "Q1027593"
   },
@@ -301,7 +301,7 @@
     "translations": {},
     "type": "municipality",
     "population": 27841,
-    "wikiDataId": "Q1020663"
+    "wikiDataId": null
   },
   {
     "id": 108147,
@@ -315,7 +315,7 @@
     "native": "Mamak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 690329,
     "wikiDataId": "Q2055274"
   },
@@ -331,7 +331,7 @@
     "native": "Nallıhan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 26083,
     "wikiDataId": "Q1947523"
   },
@@ -395,7 +395,7 @@
     "native": "Sincan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 605366,
     "wikiDataId": "Q1020659"
   },
@@ -411,7 +411,7 @@
     "native": "Yenimahalle",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 721531,
     "wikiDataId": "Q1865363"
   }

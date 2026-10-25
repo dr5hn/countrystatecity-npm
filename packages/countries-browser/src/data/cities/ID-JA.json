@@ -1,6 +1,6 @@
 [
   {
-    "id": 56532,
+    "id": 166757,
     "name": "Bangko",
     "state_id": 1815,
     "state_code": "JA",
@@ -32,22 +32,6 @@
     "wikiDataId": "Q4881557"
   },
   {
-    "id": 56382,
-    "name": "Bungo",
-    "state_id": 1815,
-    "state_code": "JA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-1.50222000",
-    "longitude": "101.96000000",
-    "native": "Kabupaten Bungo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7373"
-  },
-  {
     "id": 56294,
     "name": "Jambi City",
     "state_id": 1815,
@@ -59,25 +43,9 @@
     "native": "Jambi City",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 606200,
-    "wikiDataId": "Q3630"
-  },
-  {
-    "id": 56458,
-    "name": "Kerinci",
-    "state_id": 1815,
-    "state_code": "JA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.03333000",
-    "longitude": "101.53333000",
-    "native": "Kabupaten Kerinci",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7376"
+    "wikiDataId": null
   },
   {
     "id": 56822,
@@ -93,7 +61,7 @@
     "translations": {},
     "type": "adm2",
     "population": 33683,
-    "wikiDataId": "Q24886761"
+    "wikiDataId": null
   },
   {
     "id": 56869,
@@ -112,7 +80,7 @@
     "wikiDataId": "Q24879558"
   },
   {
-    "id": 56347,
+    "id": 166643,
     "name": "Muara Bulian",
     "state_id": 1815,
     "state_code": "JA",
@@ -128,7 +96,23 @@
     "wikiDataId": "Q26756121"
   },
   {
-    "id": 56669,
+    "id": 166661,
+    "name": "Muara Bungo",
+    "state_id": 1815,
+    "state_code": "JA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-1.49018000",
+    "longitude": "102.11490000",
+    "native": "Muara Bungo",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166836,
     "name": "Muara Sabak",
     "state_id": 1815,
     "state_code": "JA",
@@ -144,7 +128,7 @@
     "wikiDataId": "Q19729443"
   },
   {
-    "id": 56675,
+    "id": 166838,
     "name": "Muara Tebo",
     "state_id": 1815,
     "state_code": "JA",
@@ -160,7 +144,7 @@
     "wikiDataId": "Q14634615"
   },
   {
-    "id": 56618,
+    "id": 166809,
     "name": "Sarolangun",
     "state_id": 1815,
     "state_code": "JA",
@@ -176,7 +160,7 @@
     "wikiDataId": "Q26756123"
   },
   {
-    "id": 56543,
+    "id": 166763,
     "name": "Sengeti",
     "state_id": 1815,
     "state_code": "JA",
@@ -208,6 +192,22 @@
     "wikiDataId": "Q24838619"
   },
   {
+    "id": 166710,
+    "name": "Siulak",
+    "state_id": 1815,
+    "state_code": "JA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-1.94667000",
+    "longitude": "101.33417000",
+    "native": "Siulak",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 57008,
     "name": "Sungai Penuh",
     "state_id": 1815,
@@ -222,21 +222,5 @@
     "type": "city",
     "population": 99233,
     "wikiDataId": "Q7592"
-  },
-  {
-    "id": 56668,
-    "name": "Tanjung Jabung Barat",
-    "state_id": 1815,
-    "state_code": "JA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-1.15440000",
-    "longitude": "103.24402000",
-    "native": "Kabupaten Tanjung Jabung Barat",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7388"
   }
 ]

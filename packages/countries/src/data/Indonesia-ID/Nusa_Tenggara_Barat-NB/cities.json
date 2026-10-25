@@ -29,7 +29,7 @@
     "translations": {},
     "type": "adm2",
     "population": 54987,
-    "wikiDataId": "Q24976272"
+    "wikiDataId": null
   },
   {
     "id": 164816,
@@ -64,38 +64,6 @@
     "wikiDataId": "Q25175448"
   },
   {
-    "id": 56360,
-    "name": "Kabupaten Bima",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.60000000",
-    "longitude": "118.61667000",
-    "native": "Kabupaten Bima",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14114"
-  },
-  {
-    "id": 56400,
-    "name": "Kabupaten Dompu",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.50940000",
-    "longitude": "118.48160000",
-    "native": "Kabupaten Dompu",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q14117"
-  },
-  {
     "id": 56831,
     "name": "Labuan Lombok",
     "state_id": 1814,
@@ -109,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 10000,
-    "wikiDataId": "Q24881868"
+    "wikiDataId": null
   },
   {
     "id": 56843,
@@ -125,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 10000,
-    "wikiDataId": "Q12494402"
+    "wikiDataId": null
   },
   {
     "id": 56496,
@@ -144,54 +112,6 @@
     "wikiDataId": "Q14123"
   },
   {
-    "id": 56497,
-    "name": "Lombok Tengah",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.70000000",
-    "longitude": "116.30000000",
-    "native": "Kabupaten Lombok Tengah",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q14119"
-  },
-  {
-    "id": 56498,
-    "name": "Lombok Timur",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.53333000",
-    "longitude": "116.53333000",
-    "native": "Kabupaten Lombok Timur",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q14115"
-  },
-  {
-    "id": 56499,
-    "name": "Lombok Utara",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.35214000",
-    "longitude": "116.40152000",
-    "native": "Kabupaten Lombok Utara",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14121"
-  },
-  {
     "id": 56865,
     "name": "Mataram",
     "state_id": 1814,
@@ -203,9 +123,9 @@
     "native": "Mataram",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 429651,
-    "wikiDataId": "Q185689"
+    "wikiDataId": null
   },
   {
     "id": 56931,
@@ -221,7 +141,7 @@
     "translations": {},
     "type": "adm3",
     "population": 1000,
-    "wikiDataId": "Q5979"
+    "wikiDataId": null
   },
   {
     "id": 56938,
@@ -237,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 5000,
-    "wikiDataId": "Q24847469"
+    "wikiDataId": null
   },
   {
     "id": 56940,
@@ -253,7 +173,23 @@
     "translations": {},
     "type": "adm3",
     "population": 35183,
-    "wikiDataId": "Q8133"
+    "wikiDataId": null
+  },
+  {
+    "id": 166734,
+    "name": "Selong",
+    "state_id": 1814,
+    "state_code": "NB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.65030000",
+    "longitude": "116.53180000",
+    "native": "Selong",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56966,
@@ -272,22 +208,6 @@
     "wikiDataId": "Q1869598"
   },
   {
-    "id": 56653,
-    "name": "Sumbawa Barat",
-    "state_id": 1814,
-    "state_code": "NB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.75159000",
-    "longitude": "116.92132000",
-    "native": "Kabupaten Sumbawa Barat",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14124"
-  },
-  {
     "id": 57002,
     "name": "Sumbawa Besar",
     "state_id": 1814,
@@ -302,5 +222,53 @@
     "type": "adm2",
     "population": 62753,
     "wikiDataId": "Q6271142"
+  },
+  {
+    "id": 166825,
+    "name": "Taliwang",
+    "state_id": 1814,
+    "state_code": "NB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.74490000",
+    "longitude": "116.85320000",
+    "native": "Taliwang",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166735,
+    "name": "Tanjung",
+    "state_id": 1814,
+    "state_code": "NB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.35600000",
+    "longitude": "116.15650000",
+    "native": "Tanjung",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166650,
+    "name": "Woha",
+    "state_id": 1814,
+    "state_code": "NB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.61802000",
+    "longitude": "118.64788000",
+    "native": "Woha",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

@@ -13,7 +13,7 @@
     "translations": {},
     "type": "adm3",
     "population": 62248,
-    "wikiDataId": "Q383063"
+    "wikiDataId": null
   },
   {
     "id": 56220,
@@ -29,26 +29,10 @@
     "translations": {},
     "type": "adm2",
     "population": 41731,
-    "wikiDataId": "Q8042"
+    "wikiDataId": null
   },
   {
-    "id": 56359,
-    "name": "Biak Numfor",
-    "state_id": 1798,
-    "state_code": "PA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-1.03333000",
-    "longitude": "136.00000000",
-    "native": "Kabupaten Biak Numfor",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q27246"
-  },
-  {
-    "id": 56690,
+    "id": 166845,
     "name": "Botawa",
     "state_id": 1798,
     "state_code": "PA",
@@ -64,6 +48,22 @@
     "wikiDataId": "Q26039796"
   },
   {
+    "id": 166748,
+    "name": "Burmeso",
+    "state_id": 1798,
+    "state_code": "PA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-2.32611000",
+    "longitude": "138.04139000",
+    "native": "Burmeso",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 56292,
     "name": "Insrom",
     "state_id": 1798,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "city",
     "population": 3452,
-    "wikiDataId": "Q5967"
+    "wikiDataId": null
   },
   {
     "id": 56299,
@@ -112,71 +112,39 @@
     "wikiDataId": "Q27477"
   },
   {
-    "id": 56447,
-    "name": "Keerom",
-    "state_id": 1798,
-    "state_code": "PA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.30000000",
-    "longitude": "140.61667000",
-    "native": "Kabupaten Keerom",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q27573"
-  },
-  {
-    "id": 56457,
-    "name": "Kepulauan Yapen",
-    "state_id": 1798,
-    "state_code": "PA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-1.78773000",
-    "longitude": "136.27716000",
-    "native": "Kabupaten Kepulauan Yapen",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q27848"
-  },
-  {
-    "id": 56518,
-    "name": "Mamberamo Raya",
-    "state_id": 1798,
-    "state_code": "PA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.23561000",
-    "longitude": "137.78229000",
-    "native": "Kabupaten Mamberamo Raya",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q27668"
-  },
-  {
-    "id": 56617,
+    "id": 166808,
     "name": "Sarmi",
     "state_id": 1798,
     "state_code": "PA",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-2.41667000",
-    "longitude": "139.08333000",
-    "native": "Kabupaten Sarmi",
+    "latitude": "-1.85302000",
+    "longitude": "138.75093000",
+    "native": "Sarmi",
     "timezone": "Asia/Jayapura",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q27784"
+    "wikiDataId": null
   },
   {
-    "id": 56656,
+    "id": 166709,
+    "name": "Serui",
+    "state_id": 1798,
+    "state_code": "PA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-1.88020000",
+    "longitude": "136.24260000",
+    "native": "Serui",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166826,
     "name": "Sorendiweri",
     "state_id": 1798,
     "state_code": "PA",
@@ -190,5 +158,21 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q19740511"
+  },
+  {
+    "id": 166701,
+    "name": "Waris",
+    "state_id": 1798,
+    "state_code": "PA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.11667000",
+    "longitude": "140.88333000",
+    "native": "Waris",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

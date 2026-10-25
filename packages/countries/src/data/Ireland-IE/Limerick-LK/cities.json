@@ -1,5 +1,21 @@
 [
   {
+    "id": 57062,
+    "name": "Abbeyfeale",
+    "state_id": 1094,
+    "state_code": "LK",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "52.38139000",
+    "longitude": "-9.30250000",
+    "native": "Abbeyfeale",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 2023,
+    "wikiDataId": "Q306440"
+  },
+  {
     "id": 57064,
     "name": "Adare",
     "state_id": 1094,
@@ -11,7 +27,7 @@
     "native": "Adare",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 982,
     "wikiDataId": "Q352590"
   },
@@ -27,7 +43,7 @@
     "native": "Annacotty",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2930,
     "wikiDataId": "Q2084362"
   },
@@ -43,7 +59,7 @@
     "native": "Askeaton",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1137,
     "wikiDataId": "Q573460"
   },
@@ -59,7 +75,7 @@
     "native": "Caherconlish",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1476,
     "wikiDataId": "Q15119233"
   },
@@ -75,7 +91,7 @@
     "native": "Castleconnell",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2107,
     "wikiDataId": "Q2082749"
   },
@@ -91,7 +107,7 @@
     "native": "Croom",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1159,
     "wikiDataId": "Q2670286"
   },
@@ -107,7 +123,7 @@
     "native": "Limerick",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 94192,
     "wikiDataId": "Q133315"
   },
@@ -123,9 +139,9 @@
     "native": "Moroe",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1377,
-    "wikiDataId": "Q4307059"
+    "wikiDataId": null
   },
   {
     "id": 57347,
@@ -139,7 +155,7 @@
     "native": "Newcastle West",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6619,
     "wikiDataId": "Q987754"
   },
@@ -155,7 +171,7 @@
     "native": "Rathkeale",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1550,
     "wikiDataId": "Q1006749"
   }

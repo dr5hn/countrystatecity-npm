@@ -27,9 +27,25 @@
     "native": "Ballyshannon",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2246,
     "wikiDataId": "Q805462"
+  },
+  {
+    "id": 57135,
+    "name": "Buncrana",
+    "state_id": 1071,
+    "state_code": "DL",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "55.13333000",
+    "longitude": "-7.45000000",
+    "native": "Buncrana",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 6785,
+    "wikiDataId": "Q751475"
   },
   {
     "id": 57136,
@@ -43,7 +59,7 @@
     "native": "Bundoran",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1963,
     "wikiDataId": "Q1009405"
   },
@@ -59,7 +75,7 @@
     "native": "Carndonagh",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2471,
     "wikiDataId": "Q1043934"
   },
@@ -75,9 +91,25 @@
     "native": "Convoy",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1526,
-    "wikiDataId": "Q2436580"
+    "wikiDataId": null
+  },
+  {
+    "id": 57211,
+    "name": "Derrybeg",
+    "state_id": 1071,
+    "state_code": "DL",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "55.08333000",
+    "longitude": "-8.28944000",
+    "native": "Derrybeg",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 1553,
+    "wikiDataId": null
   },
   {
     "id": 57216,
@@ -91,9 +123,25 @@
     "native": "Donegal",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2618,
     "wikiDataId": "Q855330"
+  },
+  {
+    "id": 57230,
+    "name": "Dungloe",
+    "state_id": 1071,
+    "state_code": "DL",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "54.95111000",
+    "longitude": "-8.35917000",
+    "native": "Dungloe",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 1164,
+    "wikiDataId": "Q1265808"
   },
   {
     "id": 57285,
@@ -107,7 +155,7 @@
     "native": "Killybegs",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1280,
     "wikiDataId": "Q1741405"
   },
@@ -123,7 +171,7 @@
     "native": "Lifford",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 1658,
     "wikiDataId": "Q844546"
   },
@@ -139,7 +187,7 @@
     "native": "Letterkenny",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 19274,
     "wikiDataId": "Q952497"
   },
@@ -155,7 +203,7 @@
     "native": "Moville",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1481,
     "wikiDataId": "Q915423"
   },
@@ -171,7 +219,7 @@
     "native": "Muff",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1226,
     "wikiDataId": "Q659902"
   },
@@ -187,7 +235,7 @@
     "native": "Newtown Cunningham",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1067,
     "wikiDataId": "Q2566352"
   },
@@ -203,7 +251,7 @@
     "native": "Ramelton",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1266,
     "wikiDataId": "Q2078143"
   },
@@ -219,7 +267,7 @@
     "native": "Raphoe",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1157,
     "wikiDataId": "Q1025561"
   }

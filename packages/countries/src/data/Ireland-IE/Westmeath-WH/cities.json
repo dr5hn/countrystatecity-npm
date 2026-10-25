@@ -27,9 +27,9 @@
     "native": "Athlone",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 21351,
-    "wikiDataId": "Q4072044"
+    "wikiDataId": null
   },
   {
     "id": 57163,
@@ -43,7 +43,7 @@
     "native": "Castlepollard",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1163,
     "wikiDataId": "Q1049648"
   },
@@ -59,7 +59,7 @@
     "native": "Kilbeggan",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1288,
     "wikiDataId": "Q68364"
   },
@@ -75,9 +75,25 @@
     "native": "Moate",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2763,
     "wikiDataId": "Q1972395"
+  },
+  {
+    "id": 57380,
+    "name": "Rathwire",
+    "state_id": 1097,
+    "state_code": "WH",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "53.50767000",
+    "longitude": "-7.13510000",
+    "native": "Rathwire",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 1226,
+    "wikiDataId": null
   },
   {
     "id": 57384,
@@ -91,7 +107,7 @@
     "native": "Rochfortbridge",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1494,
     "wikiDataId": "Q2084537"
   }

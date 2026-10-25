@@ -1,21 +1,5 @@
 [
   {
-    "id": 80829,
-    "name": "Ayacucho",
-    "state_id": 3692,
-    "state_code": "AYA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.15416667",
-    "longitude": "-74.22277778",
-    "native": "Ayacucho",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q504215"
-  },
-  {
     "id": 80568,
     "name": "Ayacucho",
     "state_id": 3692,
@@ -29,7 +13,23 @@
     "translations": {},
     "type": "municipality",
     "population": 140033,
-    "wikiDataId": "Q3312393"
+    "wikiDataId": null
+  },
+  {
+    "id": 166886,
+    "name": "Ayacucho",
+    "state_id": 3692,
+    "state_code": "AYA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.16305556",
+    "longitude": "-74.22444444",
+    "native": "Ayacucho",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q504215"
   },
   {
     "id": 80570,
@@ -61,17 +61,17 @@
     "translations": {},
     "type": "municipality",
     "population": 7420,
-    "wikiDataId": "Q3825827"
+    "wikiDataId": null
   },
   {
-    "id": 80873,
+    "id": 166900,
     "name": "Coracora",
     "state_id": 3692,
     "state_code": "AYA",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-15.01611111",
-    "longitude": "-73.78194444",
+    "latitude": "-15.01699444",
+    "longitude": "-73.78041944",
     "native": "Coracora",
     "timezone": "America/Lima",
     "translations": {},
@@ -80,7 +80,7 @@
     "wikiDataId": "Q763662"
   },
   {
-    "id": 80653,
+    "id": 167877,
     "name": "Huanta",
     "state_id": 3692,
     "state_code": "AYA",
@@ -96,14 +96,14 @@
     "wikiDataId": "Q2576396"
   },
   {
-    "id": 80835,
+    "id": 166889,
     "name": "Huanta",
     "state_id": 3692,
     "state_code": "AYA",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-12.93861111",
-    "longitude": "-74.24861111",
+    "latitude": "-12.93972222",
+    "longitude": "-74.24750000",
     "native": "Huanta",
     "timezone": "America/Lima",
     "translations": {},
@@ -253,7 +253,7 @@
     "translations": {},
     "type": "municipality",
     "population": 10491,
-    "wikiDataId": "Q3826135"
+    "wikiDataId": "Q2726653"
   },
   {
     "id": 80951,
@@ -269,7 +269,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8400,
-    "wikiDataId": "Q938891"
+    "wikiDataId": null
   },
   {
     "id": 80985,
@@ -285,6 +285,6 @@
     "translations": {},
     "type": "city",
     "population": 5032,
-    "wikiDataId": "Q723584"
+    "wikiDataId": null
   }
 ]

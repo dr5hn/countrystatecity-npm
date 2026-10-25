@@ -363,7 +363,7 @@
     "native": "East Harling",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 2142,
     "wikiDataId": "Q2687567"
   },
@@ -832,22 +832,6 @@
     "wikiDataId": "Q2451060"
   },
   {
-    "id": 50745,
-    "name": "Norfolk",
-    "state_id": 2473,
-    "state_code": "NFK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.66667000",
-    "longitude": "1.00000000",
-    "native": "Norfolk",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": null,
-    "wikiDataId": "Q23109"
-  },
-  {
     "id": 50754,
     "name": "North Elmham",
     "state_id": 2473,
@@ -1083,7 +1067,7 @@
     "native": "Southery",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1444,
     "wikiDataId": "Q2957736"
   },
@@ -1275,7 +1259,7 @@
     "native": "Weeting",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1839,
     "wikiDataId": "Q14955535"
   },

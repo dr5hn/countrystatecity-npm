@@ -1,6 +1,6 @@
 [
   {
-    "id": 56539,
+    "id": 166761,
     "name": "Air Madidi",
     "state_id": 1808,
     "state_code": "SA",
@@ -14,22 +14,6 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q138791061"
-  },
-  {
-    "id": 56368,
-    "name": "Bolaang Mongondow",
-    "state_id": 1808,
-    "state_code": "SA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "0.75000000",
-    "longitude": "124.08333000",
-    "native": "Kabupaten Bolaang Mongondow",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15833"
   },
   {
     "id": 56369,
@@ -48,23 +32,7 @@
     "wikiDataId": "Q15841"
   },
   {
-    "id": 56370,
-    "name": "Bolaang Mongondow Timur",
-    "state_id": 1808,
-    "state_code": "SA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "0.72073000",
-    "longitude": "124.50256000",
-    "native": "Kabupaten Bolaang Mongondow Timur",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15834"
-  },
-  {
-    "id": 56371,
+    "id": 166656,
     "name": "Boroko",
     "state_id": 1808,
     "state_code": "SA",
@@ -78,22 +46,6 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q138791077"
-  },
-  {
-    "id": 56454,
-    "name": "Kepulauan Sangihe",
-    "state_id": 1808,
-    "state_code": "SA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.50000000",
-    "longitude": "125.55000000",
-    "native": "Kabupaten Kepulauan Sangihe",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15839"
   },
   {
     "id": 56456,
@@ -141,7 +93,23 @@
     "translations": {},
     "type": "city",
     "population": 8000,
-    "wikiDataId": "Q8117"
+    "wikiDataId": null
+  },
+  {
+    "id": 166654,
+    "name": "Lolak",
+    "state_id": 1808,
+    "state_code": "SA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.87550000",
+    "longitude": "124.00980000",
+    "native": "Lolak",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56858,
@@ -160,22 +128,6 @@
     "wikiDataId": "Q15847"
   },
   {
-    "id": 56536,
-    "name": "Minahasa",
-    "state_id": 1808,
-    "state_code": "SA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.25370000",
-    "longitude": "124.83000000",
-    "native": "Kabupaten Minahasa",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q15836"
-  },
-  {
     "id": 56537,
     "name": "Minahasa Selatan",
     "state_id": 1808,
@@ -192,7 +144,7 @@
     "wikiDataId": "Q15842"
   },
   {
-    "id": 56627,
+    "id": 166815,
     "name": "Ondong Siau",
     "state_id": 1808,
     "state_code": "SA",
@@ -208,7 +160,7 @@
     "wikiDataId": "Q138791081"
   },
   {
-    "id": 56538,
+    "id": 166760,
     "name": "Ratahan",
     "state_id": 1808,
     "state_code": "SA",
@@ -222,6 +174,22 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q138791076"
+  },
+  {
+    "id": 166707,
+    "name": "Tahuna",
+    "state_id": 1808,
+    "state_code": "SA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "3.61099000",
+    "longitude": "125.48580000",
+    "native": "Tahuna",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 57035,
@@ -253,6 +221,22 @@
     "translations": {},
     "type": "adm2",
     "population": 33317,
-    "wikiDataId": "Q15848"
+    "wikiDataId": null
+  },
+  {
+    "id": 166655,
+    "name": "Tutuyan",
+    "state_id": 1808,
+    "state_code": "SA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.76540000",
+    "longitude": "124.61440000",
+    "native": "Tutuyan",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

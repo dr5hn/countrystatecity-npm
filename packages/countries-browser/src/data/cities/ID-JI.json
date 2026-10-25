@@ -13,7 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 27038,
-    "wikiDataId": "Q25016302"
+    "wikiDataId": null
   },
   {
     "id": 56191,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 120551,
-    "wikiDataId": "Q10389"
+    "wikiDataId": null
   },
   {
     "id": 56198,
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "adm2",
     "population": 86250,
-    "wikiDataId": "Q10389"
+    "wikiDataId": null
   },
   {
     "id": 56206,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "adm2",
     "population": 117558,
-    "wikiDataId": "Q25012517"
+    "wikiDataId": null
   },
   {
     "id": 56210,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 55465,
-    "wikiDataId": "Q8042"
+    "wikiDataId": null
   },
   {
     "id": 56224,
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "adm2",
     "population": 86568,
-    "wikiDataId": "Q10393"
+    "wikiDataId": null
   },
   {
     "id": 56228,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "city",
     "population": 69783,
-    "wikiDataId": "Q10393"
+    "wikiDataId": null
   },
   {
     "id": 56231,
@@ -173,7 +173,7 @@
     "translations": {},
     "type": "adm3",
     "population": 32287,
-    "wikiDataId": "Q14495"
+    "wikiDataId": null
   },
   {
     "id": 56233,
@@ -192,7 +192,7 @@
     "wikiDataId": "Q24992536"
   },
   {
-    "id": 56504,
+    "id": 166739,
     "name": "Caruban",
     "state_id": 1827,
     "state_code": "JI",
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "adm3",
     "population": 23094,
-    "wikiDataId": "Q24982677"
+    "wikiDataId": null
   },
   {
     "id": 56266,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "city",
     "population": 41719,
-    "wikiDataId": "Q24976272"
+    "wikiDataId": null
   },
   {
     "id": 56268,
@@ -333,7 +333,7 @@
     "translations": {},
     "type": "adm3",
     "population": 22468,
-    "wikiDataId": "Q24959493"
+    "wikiDataId": null
   },
   {
     "id": 56286,
@@ -349,23 +349,7 @@
     "translations": {},
     "type": "adm2",
     "population": 73629,
-    "wikiDataId": "Q14525"
-  },
-  {
-    "id": 56287,
-    "name": "Gresik Regency",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.19330000",
-    "longitude": "112.55300000",
-    "native": "Gresik Regency",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11077"
+    "wikiDataId": null
   },
   {
     "id": 56301,
@@ -397,103 +381,7 @@
     "translations": {},
     "type": "city",
     "population": 126465,
-    "wikiDataId": "Q24920614"
-  },
-  {
-    "id": 56333,
-    "name": "Kabupaten Bangkalan",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.05000000",
-    "longitude": "112.93333000",
-    "native": "Kabupaten Bangkalan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11066"
-  },
-  {
-    "id": 56340,
-    "name": "Kabupaten Banyuwangi",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.33333000",
-    "longitude": "114.20000000",
-    "native": "Kabupaten Banyuwangi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11067"
-  },
-  {
-    "id": 56363,
-    "name": "Kabupaten Blitar",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.13333000",
-    "longitude": "112.25000000",
-    "native": "Kabupaten Blitar",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11069"
-  },
-  {
-    "id": 56367,
-    "name": "Kabupaten Bojonegoro",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.25000000",
-    "longitude": "111.80000000",
-    "native": "Kabupaten Bojonegoro",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11071"
-  },
-  {
-    "id": 56373,
-    "name": "Kabupaten Bondowoso",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.94040000",
-    "longitude": "113.98340000",
-    "native": "Kabupaten Bondowoso",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11076"
-  },
-  {
-    "id": 56434,
-    "name": "Kabupaten Jombang",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.55000000",
-    "longitude": "112.25000000",
-    "native": "Kabupaten Jombang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11082"
+    "wikiDataId": null
   },
   {
     "id": 56446,
@@ -512,54 +400,6 @@
     "wikiDataId": "Q11084"
   },
   {
-    "id": 56483,
-    "name": "Kabupaten Lamongan",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.13333000",
-    "longitude": "112.31667000",
-    "native": "Kabupaten Lamongan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11086"
-  },
-  {
-    "id": 56500,
-    "name": "Kabupaten Lumajang",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.11667000",
-    "longitude": "113.15000000",
-    "native": "Kabupaten Lumajang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11087"
-  },
-  {
-    "id": 56511,
-    "name": "Kabupaten Malang",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.16667000",
-    "longitude": "112.66667000",
-    "native": "Kabupaten Malang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11095"
-  },
-  {
     "id": 56540,
     "name": "Kabupaten Mojokerto",
     "state_id": 1827,
@@ -574,134 +414,6 @@
     "type": "regency",
     "population": null,
     "wikiDataId": "Q11096"
-  },
-  {
-    "id": 56557,
-    "name": "Kabupaten Nganjuk",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.60000000",
-    "longitude": "111.93333000",
-    "native": "Kabupaten Nganjuk",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11098"
-  },
-  {
-    "id": 56573,
-    "name": "Kabupaten Pamekasan",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.06667000",
-    "longitude": "113.50000000",
-    "native": "Kabupaten Pamekasan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11112"
-  },
-  {
-    "id": 56582,
-    "name": "Kabupaten Pasuruan",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.73333000",
-    "longitude": "112.83333000",
-    "native": "Kabupaten Pasuruan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11115"
-  },
-  {
-    "id": 56597,
-    "name": "Kabupaten Ponorogo",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.93333000",
-    "longitude": "111.50000000",
-    "native": "Kabupaten Ponorogo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11118"
-  },
-  {
-    "id": 56600,
-    "name": "Kabupaten Probolinggo",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.86667000",
-    "longitude": "113.31667000",
-    "native": "Kabupaten Probolinggo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11121"
-  },
-  {
-    "id": 56616,
-    "name": "Kabupaten Sampang",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.05000000",
-    "longitude": "113.25000000",
-    "native": "Kabupaten Sampang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11127"
-  },
-  {
-    "id": 56629,
-    "name": "Kabupaten Sidoarjo",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.45000000",
-    "longitude": "112.70000000",
-    "native": "Kabupaten Sidoarjo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11129"
-  },
-  {
-    "id": 56636,
-    "name": "Kabupaten Situbondo",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.71667000",
-    "longitude": "114.05000000",
-    "native": "Kabupaten Situbondo",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11134"
   },
   {
     "id": 56655,
@@ -720,54 +432,6 @@
     "wikiDataId": "Q11137"
   },
   {
-    "id": 56685,
-    "name": "Kabupaten Trenggalek",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.16667000",
-    "longitude": "111.61667000",
-    "native": "Kabupaten Trenggalek",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11139"
-  },
-  {
-    "id": 56686,
-    "name": "Kabupaten Tuban",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.96667000",
-    "longitude": "111.90000000",
-    "native": "Kabupaten Tuban",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11141"
-  },
-  {
-    "id": 56688,
-    "name": "Kabupaten Tulungagung",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.11667000",
-    "longitude": "111.91667000",
-    "native": "Kabupaten Tulungagung",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q11143"
-  },
-  {
     "id": 56696,
     "name": "Kalianget",
     "state_id": 1827,
@@ -781,7 +445,7 @@
     "translations": {},
     "type": "adm3",
     "population": 23897,
-    "wikiDataId": "Q27838"
+    "wikiDataId": null
   },
   {
     "id": 56697,
@@ -798,6 +462,22 @@
     "type": "city",
     "population": 22515,
     "wikiDataId": "Q24911367"
+  },
+  {
+    "id": 166652,
+    "name": "Kanigoro",
+    "state_id": 1827,
+    "state_code": "JI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.13003000",
+    "longitude": "112.21896000",
+    "native": "Kanigoro",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56705,
@@ -845,7 +525,7 @@
     "translations": {},
     "type": "city",
     "population": 80257,
-    "wikiDataId": "Q11443"
+    "wikiDataId": null
   },
   {
     "id": 56711,
@@ -877,7 +557,7 @@
     "translations": {},
     "type": "adm2",
     "population": 51919,
-    "wikiDataId": "Q15379"
+    "wikiDataId": null
   },
   {
     "id": 56714,
@@ -893,7 +573,7 @@
     "translations": {},
     "type": "city",
     "population": 60782,
-    "wikiDataId": "Q15379"
+    "wikiDataId": null
   },
   {
     "id": 56818,
@@ -909,7 +589,7 @@
     "translations": {},
     "type": "city",
     "population": 28248,
-    "wikiDataId": "Q19153"
+    "wikiDataId": null
   },
   {
     "id": 56820,
@@ -941,7 +621,7 @@
     "translations": {},
     "type": "adm3",
     "population": 59224,
-    "wikiDataId": "Q8117"
+    "wikiDataId": null
   },
   {
     "id": 56839,
@@ -973,7 +653,7 @@
     "translations": {},
     "type": "adm2",
     "population": 123626,
-    "wikiDataId": "Q8129"
+    "wikiDataId": null
   },
   {
     "id": 56850,
@@ -992,20 +672,20 @@
     "wikiDataId": "Q11444"
   },
   {
-    "id": 56506,
+    "id": 166741,
     "name": "Magetan",
     "state_id": 1827,
     "state_code": "JI",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.64472000",
-    "longitude": "111.35917000",
-    "native": "Kabupaten Magetan",
+    "latitude": "-7.65667000",
+    "longitude": "111.33139000",
+    "native": "Magetan",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q11092"
+    "wikiDataId": null
   },
   {
     "id": 56856,
@@ -1037,7 +717,7 @@
     "translations": {},
     "type": "city",
     "population": 23534,
-    "wikiDataId": "Q24859792"
+    "wikiDataId": null
   },
   {
     "id": 56875,
@@ -1069,7 +749,7 @@
     "translations": {},
     "type": "city",
     "population": 64537,
-    "wikiDataId": "Q24855473"
+    "wikiDataId": null
   },
   {
     "id": 56885,
@@ -1085,23 +765,7 @@
     "translations": {},
     "type": "adm2",
     "population": 69011,
-    "wikiDataId": "Q25024399"
-  },
-  {
-    "id": 56558,
-    "name": "Ngawi",
-    "state_id": 1827,
-    "state_code": "JI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.47444000",
-    "longitude": "111.33444000",
-    "native": "Kabupaten Ngawi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11108"
+    "wikiDataId": null
   },
   {
     "id": 56886,
@@ -1117,7 +781,7 @@
     "translations": {},
     "type": "city",
     "population": 22412,
-    "wikiDataId": "Q24853376"
+    "wikiDataId": null
   },
   {
     "id": 56888,
@@ -1133,7 +797,7 @@
     "translations": {},
     "type": "city",
     "population": 22871,
-    "wikiDataId": "Q25080319"
+    "wikiDataId": null
   },
   {
     "id": 56889,
@@ -1149,7 +813,7 @@
     "translations": {},
     "type": "city",
     "population": 26297,
-    "wikiDataId": "Q25080319"
+    "wikiDataId": null
   },
   {
     "id": 56891,
@@ -1165,10 +829,10 @@
     "translations": {},
     "type": "city",
     "population": 27072,
-    "wikiDataId": "Q25080319"
+    "wikiDataId": null
   },
   {
-    "id": 56568,
+    "id": 166780,
     "name": "Pacitan",
     "state_id": 1827,
     "state_code": "JI",
@@ -1197,7 +861,7 @@
     "translations": {},
     "type": "adm3",
     "population": 30213,
-    "wikiDataId": "Q8130"
+    "wikiDataId": null
   },
   {
     "id": 56903,
@@ -1213,7 +877,7 @@
     "translations": {},
     "type": "adm2",
     "population": 92447,
-    "wikiDataId": "Q24849706"
+    "wikiDataId": null
   },
   {
     "id": 56906,
@@ -1229,7 +893,7 @@
     "translations": {},
     "type": "city",
     "population": 30749,
-    "wikiDataId": "Q24849733"
+    "wikiDataId": null
   },
   {
     "id": 56907,
@@ -1245,7 +909,7 @@
     "translations": {},
     "type": "city",
     "population": 34184,
-    "wikiDataId": "Q24849733"
+    "wikiDataId": null
   },
   {
     "id": 56913,
@@ -1261,7 +925,7 @@
     "translations": {},
     "type": "adm3",
     "population": 42789,
-    "wikiDataId": "Q8179"
+    "wikiDataId": null
   },
   {
     "id": 56915,
@@ -1309,7 +973,7 @@
     "translations": {},
     "type": "adm2",
     "population": 79026,
-    "wikiDataId": "Q24847469"
+    "wikiDataId": null
   },
   {
     "id": 56941,
@@ -1325,7 +989,7 @@
     "translations": {},
     "type": "city",
     "population": 24164,
-    "wikiDataId": "Q8133"
+    "wikiDataId": null
   },
   {
     "id": 56942,
@@ -1357,7 +1021,7 @@
     "translations": {},
     "type": "adm2",
     "population": 53269,
-    "wikiDataId": "Q14499"
+    "wikiDataId": null
   },
   {
     "id": 56975,
@@ -1373,7 +1037,7 @@
     "translations": {},
     "type": "adm2",
     "population": 139189,
-    "wikiDataId": "Q5984"
+    "wikiDataId": null
   },
   {
     "id": 56983,
@@ -1389,7 +1053,7 @@
     "translations": {},
     "type": "adm3",
     "population": 29418,
-    "wikiDataId": "Q1013537"
+    "wikiDataId": null
   },
   {
     "id": 56984,
@@ -1405,7 +1069,7 @@
     "translations": {},
     "type": "city",
     "population": 183415,
-    "wikiDataId": "Q1013537"
+    "wikiDataId": null
   },
   {
     "id": 56986,
@@ -1421,7 +1085,7 @@
     "translations": {},
     "type": "adm2",
     "population": 676703,
-    "wikiDataId": "Q1013537"
+    "wikiDataId": null
   },
   {
     "id": 56992,
@@ -1437,7 +1101,7 @@
     "translations": {},
     "type": "city",
     "population": 25494,
-    "wikiDataId": "Q24830396"
+    "wikiDataId": null
   },
   {
     "id": 56999,
@@ -1453,7 +1117,7 @@
     "translations": {},
     "type": "city",
     "population": 36260,
-    "wikiDataId": "Q24831080"
+    "wikiDataId": null
   },
   {
     "id": 57004,
@@ -1469,7 +1133,7 @@
     "translations": {},
     "type": "adm3",
     "population": 35285,
-    "wikiDataId": "Q6271142"
+    "wikiDataId": null
   },
   {
     "id": 57007,
@@ -1485,7 +1149,7 @@
     "translations": {},
     "type": "adm2",
     "population": 84656,
-    "wikiDataId": "Q15073336"
+    "wikiDataId": null
   },
   {
     "id": 57011,
@@ -1517,7 +1181,7 @@
     "translations": {},
     "type": "adm3",
     "population": 3,
-    "wikiDataId": "Q10127"
+    "wikiDataId": null
   },
   {
     "id": 57016,
@@ -1533,7 +1197,7 @@
     "translations": {},
     "type": "city",
     "population": 32866,
-    "wikiDataId": "Q10127"
+    "wikiDataId": null
   },
   {
     "id": 57039,
@@ -1549,7 +1213,7 @@
     "translations": {},
     "type": "adm2",
     "population": 29083,
-    "wikiDataId": "Q12522046"
+    "wikiDataId": null
   },
   {
     "id": 57042,
@@ -1565,7 +1229,7 @@
     "translations": {},
     "type": "adm2",
     "population": 76242,
-    "wikiDataId": "Q17058459"
+    "wikiDataId": null
   },
   {
     "id": 57044,
@@ -1597,7 +1261,7 @@
     "translations": {},
     "type": "adm2",
     "population": 65262,
-    "wikiDataId": "Q24828186"
+    "wikiDataId": null
   },
   {
     "id": 57058,
@@ -1613,6 +1277,6 @@
     "translations": {},
     "type": "city",
     "population": 29193,
-    "wikiDataId": "Q24825906"
+    "wikiDataId": null
   }
 ]

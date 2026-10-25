@@ -75,7 +75,7 @@
     "native": "Hanko",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "city",
+    "type": "adm3",
     "population": 7620,
     "wikiDataId": "Q216790"
   },
@@ -123,7 +123,7 @@
     "native": "Ingå",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 5391,
     "wikiDataId": "Q986331"
   },
@@ -443,7 +443,7 @@
     "native": "Mäntsälä",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 20861,
     "wikiDataId": "Q986318"
   },
@@ -603,7 +603,7 @@
     "native": "Pukkila",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1720,
     "wikiDataId": "Q599159"
   },
@@ -701,7 +701,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6192,
-    "wikiDataId": "Q984931"
+    "wikiDataId": null
   },
   {
     "id": 39085,
@@ -715,7 +715,7 @@
     "native": "Tuusula",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 42479,
     "wikiDataId": "Q214773"
   },

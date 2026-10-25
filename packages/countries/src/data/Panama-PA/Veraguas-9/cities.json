@@ -235,7 +235,7 @@
     "native": "Distrito de Calobre",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 12159,
     "wikiDataId": "Q921735"
   },
@@ -251,7 +251,7 @@
     "native": "Distrito de Cañazas",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 18022,
     "wikiDataId": "Q1651005"
   },
@@ -267,7 +267,7 @@
     "native": "Distrito de La Mesa",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 12052,
     "wikiDataId": "Q2216424"
   },
@@ -283,7 +283,7 @@
     "native": "Distrito de Las Palmas",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 18493,
     "wikiDataId": "Q1650981"
   },
@@ -299,7 +299,7 @@
     "native": "Distrito de Montijo",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 7060,
     "wikiDataId": "Q1650967"
   },
@@ -315,7 +315,7 @@
     "native": "Distrito de Río de Jesús",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 5501,
     "wikiDataId": "Q1650989"
   },
@@ -379,7 +379,7 @@
     "native": "Distrito de Soná",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 27833,
     "wikiDataId": "Q1651000"
   },
@@ -573,7 +573,7 @@
     "translations": {},
     "type": "section",
     "population": 300,
-    "wikiDataId": "Q21041847"
+    "wikiDataId": null
   },
   {
     "id": 80205,
@@ -859,7 +859,7 @@
     "native": "Distrito de Mariato",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "municipality",
+    "type": "district",
     "population": 5564,
     "wikiDataId": "Q3711142"
   },
@@ -1099,7 +1099,7 @@
     "native": "Santa Fe",
     "timezone": "America/Panama",
     "translations": {},
-    "type": "section",
+    "type": "adm2",
     "population": 968,
     "wikiDataId": "Q5620819"
   },

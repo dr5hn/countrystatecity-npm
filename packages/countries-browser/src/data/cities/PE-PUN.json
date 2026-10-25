@@ -29,7 +29,7 @@
     "translations": {},
     "type": "municipality",
     "population": 19310,
-    "wikiDataId": "Q3824230"
+    "wikiDataId": null
   },
   {
     "id": 80571,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "municipality",
     "population": 13290,
-    "wikiDataId": "Q3824537"
+    "wikiDataId": "Q2638284"
   },
   {
     "id": 80637,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "municipality",
     "population": null,
-    "wikiDataId": "Q3824385"
+    "wikiDataId": "Q2638267"
   },
   {
     "id": 80669,
@@ -125,7 +125,7 @@
     "translations": {},
     "type": "municipality",
     "population": 16033,
-    "wikiDataId": "Q3317748"
+    "wikiDataId": "Q3348236"
   },
   {
     "id": 80683,
@@ -141,23 +141,39 @@
     "translations": {},
     "type": "municipality",
     "population": 7309,
-    "wikiDataId": "Q3825702"
+    "wikiDataId": null
   },
   {
-    "id": 80807,
+    "id": 166883,
     "name": "Juli",
     "state_id": 3682,
     "state_code": "PUN",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-16.21500000",
-    "longitude": "-69.46194444",
+    "latitude": "-16.21250000",
+    "longitude": "-69.46027778",
     "native": "Juli",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
     "wikiDataId": "Q2588438"
+  },
+  {
+    "id": 167884,
+    "name": "Juliaca",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.49083333",
+    "longitude": "-70.12694444",
+    "native": "Juliaca",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q696074"
   },
   {
     "id": 80684,
@@ -173,23 +189,7 @@
     "translations": {},
     "type": "municipality",
     "population": 245675,
-    "wikiDataId": "Q3824849"
-  },
-  {
-    "id": 80957,
-    "name": "Juliaca",
-    "state_id": 3682,
-    "state_code": "PUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-15.49388889",
-    "longitude": "-70.13555556",
-    "native": "Juliaca",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q696074"
+    "wikiDataId": null
   },
   {
     "id": 80690,
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4780,
-    "wikiDataId": "Q3825382"
+    "wikiDataId": null
   },
   {
     "id": 80707,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6044,
-    "wikiDataId": "Q3825852"
+    "wikiDataId": null
   },
   {
     "id": 81023,
@@ -253,7 +253,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4271,
-    "wikiDataId": "Q3825557"
+    "wikiDataId": "Q27194667"
   },
   {
     "id": 80780,
@@ -352,22 +352,6 @@
     "wikiDataId": "Q1948135"
   },
   {
-    "id": 80881,
-    "name": "Puno",
-    "state_id": 3682,
-    "state_code": "PUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-15.84055556",
-    "longitude": "-70.02777778",
-    "native": "Puno",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q232842"
-  },
-  {
     "id": 80922,
     "name": "Puno",
     "state_id": 3682,
@@ -381,7 +365,23 @@
     "translations": {},
     "type": "municipality",
     "population": 128637,
-    "wikiDataId": "Q3825025"
+    "wikiDataId": null
+  },
+  {
+    "id": 166904,
+    "name": "Puno",
+    "state_id": 3682,
+    "state_code": "PUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-15.84333333",
+    "longitude": "-70.02361111",
+    "native": "Puno",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q232842"
   },
   {
     "id": 80941,
@@ -429,7 +429,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
-    "wikiDataId": "Q723584"
+    "wikiDataId": null
   },
   {
     "id": 81019,
@@ -445,6 +445,6 @@
     "translations": {},
     "type": "municipality",
     "population": 16140,
-    "wikiDataId": "Q3824788"
+    "wikiDataId": null
   }
 ]

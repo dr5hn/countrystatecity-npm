@@ -2,7 +2,7 @@
   {
     "id": 66886,
     "name": "Cesvaine",
-    "state_id": 4433,
+    "state_id": 5858,
     "state_code": "059",
     "country_id": 120,
     "country_code": "LV",
@@ -18,7 +18,7 @@
   {
     "id": 66990,
     "name": "Ērgļi",
-    "state_id": 4433,
+    "state_id": 5858,
     "state_code": "059",
     "country_id": 120,
     "country_code": "LV",
@@ -29,12 +29,12 @@
     "translations": {},
     "type": "adm2",
     "population": 2186,
-    "wikiDataId": "Q203375"
+    "wikiDataId": null
   },
   {
     "id": 66922,
     "name": "Lubāna",
-    "state_id": 4433,
+    "state_id": 5858,
     "state_code": "059",
     "country_id": 120,
     "country_code": "LV",
@@ -50,7 +50,7 @@
   {
     "id": 66926,
     "name": "Madona",
-    "state_id": 4433,
+    "state_id": 5858,
     "state_code": "059",
     "country_id": 120,
     "country_code": "LV",
@@ -62,5 +62,21 @@
     "type": "adm1",
     "population": 6575,
     "wikiDataId": "Q586048"
+  },
+  {
+    "id": 66980,
+    "name": "Varakļāni",
+    "state_id": 5858,
+    "state_code": "059",
+    "country_id": 120,
+    "country_code": "LV",
+    "latitude": "56.60826000",
+    "longitude": "26.75377000",
+    "native": "Varakļāni",
+    "timezone": "Europe/Riga",
+    "translations": {},
+    "type": "adm1",
+    "population": 1619,
+    "wikiDataId": "Q849141"
   }
 ]

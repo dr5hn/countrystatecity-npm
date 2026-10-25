@@ -1,6 +1,6 @@
 [
   {
-    "id": 56338,
+    "id": 166637,
     "name": "Bantul",
     "state_id": 1829,
     "state_code": "YO",
@@ -30,22 +30,6 @@
     "type": "city",
     "population": 66110,
     "wikiDataId": "Q25080935"
-  },
-  {
-    "id": 56414,
-    "name": "Gunung Kidul",
-    "state_id": 1829,
-    "state_code": "YO",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.98333000",
-    "longitude": "110.61667000",
-    "native": "Kabupaten Gunung Kidul",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q11478"
   },
   {
     "id": 164802,
@@ -80,23 +64,23 @@
     "wikiDataId": "Q24838179"
   },
   {
-    "id": 56637,
+    "id": 166818,
     "name": "Sleman",
     "state_id": 1829,
     "state_code": "YO",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.68167000",
-    "longitude": "110.32333000",
-    "native": "Kabupaten Sleman",
+    "latitude": "-7.71556000",
+    "longitude": "110.35556000",
+    "native": "Sleman",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q11480"
+    "wikiDataId": null
   },
   {
-    "id": 56473,
+    "id": 166719,
     "name": "Wates",
     "state_id": 1829,
     "state_code": "YO",
@@ -110,6 +94,22 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q25080454"
+  },
+  {
+    "id": 166683,
+    "name": "Wonosari",
+    "state_id": 1829,
+    "state_code": "YO",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-7.96556000",
+    "longitude": "110.60361000",
+    "native": "Wonosari",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 57061,

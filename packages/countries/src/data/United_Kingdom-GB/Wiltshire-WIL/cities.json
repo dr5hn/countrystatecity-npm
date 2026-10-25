@@ -251,7 +251,7 @@
     "native": "Chippenham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 36762,
     "wikiDataId": "Q775299"
   },
@@ -587,7 +587,7 @@
     "native": "Marlborough",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 9128,
     "wikiDataId": "Q539528"
   },
@@ -923,7 +923,7 @@
     "native": "Trowbridge",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 37647,
     "wikiDataId": "Q265647"
   },
@@ -971,7 +971,7 @@
     "native": "Westbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 16406,
     "wikiDataId": "Q1234797"
   },
@@ -1035,25 +1035,9 @@
     "native": "Wilton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 4303,
     "wikiDataId": "Q1018668"
-  },
-  {
-    "id": 51915,
-    "name": "Wiltshire",
-    "state_id": 2391,
-    "state_code": "WIL",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.25000000",
-    "longitude": "-1.91667000",
-    "native": "Wiltshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": 515885,
-    "wikiDataId": "Q21694746"
   },
   {
     "id": 51968,

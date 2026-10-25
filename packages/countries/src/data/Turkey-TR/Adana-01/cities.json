@@ -27,7 +27,7 @@
     "native": "Aladağ",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 15839,
     "wikiDataId": "Q911286"
   },
@@ -59,7 +59,7 @@
     "native": "Çukurova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 380653,
     "wikiDataId": "Q272948"
   },
@@ -91,7 +91,7 @@
     "native": "İmamoğlu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 27196,
     "wikiDataId": "Q2082058"
   },
@@ -107,7 +107,7 @@
     "native": "Karaisalı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 22872,
     "wikiDataId": "Q533294"
   },
@@ -123,7 +123,7 @@
     "native": "Karataş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9221,
     "wikiDataId": null
   },
@@ -155,7 +155,7 @@
     "native": "Pozantı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 19983,
     "wikiDataId": "Q1004432"
   },
@@ -187,7 +187,7 @@
     "native": "Sarıçam",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 263080,
     "wikiDataId": "Q1430729"
   },
@@ -205,7 +205,7 @@
     "translations": {},
     "type": "municipality",
     "population": 782204,
-    "wikiDataId": "Q49108856"
+    "wikiDataId": null
   },
   {
     "id": 108597,
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "municipality",
     "population": 16027,
-    "wikiDataId": "Q1004480"
+    "wikiDataId": null
   },
   {
     "id": 108737,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "municipality",
     "population": 17806,
-    "wikiDataId": "Q1884223"
+    "wikiDataId": null
   },
   {
     "id": 108745,
@@ -246,12 +246,12 @@
     "state_code": "01",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "36.99205000",
-    "longitude": "35.45402000",
+    "latitude": "36.97439000",
+    "longitude": "35.35916000",
     "native": "Yüreğir",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 2039,
     "wikiDataId": "Q765123"
   }

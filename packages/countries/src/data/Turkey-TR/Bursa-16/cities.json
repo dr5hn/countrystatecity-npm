@@ -27,7 +27,7 @@
     "native": "Büyükorhan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 9148,
     "wikiDataId": "Q2473756"
   },
@@ -43,7 +43,7 @@
     "native": "Gemlik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 111488,
     "wikiDataId": null
   },
@@ -59,7 +59,7 @@
     "native": "Gürsu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 105799,
     "wikiDataId": "Q2384475"
   },
@@ -75,9 +75,9 @@
     "native": "Harmancık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": null
+    "wikiDataId": "Q2473998"
   },
   {
     "id": 108901,
@@ -107,7 +107,7 @@
     "native": "İznik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 22230,
     "wikiDataId": null
   },
@@ -123,7 +123,7 @@
     "native": "Karacabey",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 44256,
     "wikiDataId": null
   },
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "municipality",
     "population": 10939,
-    "wikiDataId": "Q2473777"
+    "wikiDataId": null
   },
   {
     "id": 107987,
@@ -189,7 +189,7 @@
     "translations": {},
     "type": "municipality",
     "population": 103652,
-    "wikiDataId": "Q719537"
+    "wikiDataId": null
   },
   {
     "id": 108249,
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "municipality",
     "population": 18963,
-    "wikiDataId": "Q1948420"
+    "wikiDataId": null
   },
   {
     "id": 108274,
@@ -246,12 +246,12 @@
     "state_code": "16",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.15644000",
-    "longitude": "29.08753000",
+    "latitude": "40.19671000",
+    "longitude": "29.05935000",
     "native": "Osmangazi",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 2189,
     "wikiDataId": "Q1023140"
   },
@@ -269,7 +269,7 @@
     "translations": {},
     "type": "municipality",
     "population": 55609,
-    "wikiDataId": "Q1817979"
+    "wikiDataId": null
   },
   {
     "id": 108746,
@@ -278,12 +278,12 @@
     "state_code": "16",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.19567000",
-    "longitude": "29.03640000",
+    "latitude": "40.18851000",
+    "longitude": "29.10974000",
     "native": "Yıldırım",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 653004,
     "wikiDataId": "Q2598734"
   }

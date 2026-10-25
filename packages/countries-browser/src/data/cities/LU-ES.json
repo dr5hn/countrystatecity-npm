@@ -11,7 +11,7 @@
     "native": "Aspelt",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1708,
     "wikiDataId": "Q642351"
   },
@@ -27,7 +27,7 @@
     "native": "Belvaux",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 8145,
     "wikiDataId": "Q2895177"
   },
@@ -43,7 +43,7 @@
     "native": "Bergem",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1558,
     "wikiDataId": "Q819508"
   },
@@ -59,9 +59,9 @@
     "native": "Bettembourg",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 7437,
-    "wikiDataId": "Q22284"
+    "wikiDataId": "Q832342"
   },
   {
     "id": 66755,
@@ -75,7 +75,7 @@
     "native": "Crauthem",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1599,
     "wikiDataId": "Q2702474"
   },
@@ -91,7 +91,7 @@
     "native": "Differdange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 5296,
     "wikiDataId": "Q4844168"
   },
@@ -107,7 +107,7 @@
     "native": "Dudelange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 21953,
     "wikiDataId": "Q20969331"
   },
@@ -155,9 +155,9 @@
     "native": "Kayl",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 4396,
-    "wikiDataId": "Q1017404"
+    "wikiDataId": "Q939625"
   },
   {
     "id": 66795,
@@ -171,7 +171,7 @@
     "native": "Lamadelaine",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3122,
     "wikiDataId": "Q2217356"
   },
@@ -187,7 +187,7 @@
     "native": "Leudelange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 1924,
     "wikiDataId": "Q3917072"
   },
@@ -203,7 +203,7 @@
     "native": "Mondercange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3827,
     "wikiDataId": "Q39057559"
   },
@@ -219,7 +219,7 @@
     "native": "Niedercorn",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 3164,
     "wikiDataId": "Q751569"
   },
@@ -235,7 +235,7 @@
     "native": "Obercorn",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "section",
+    "type": "locality",
     "population": 4666,
     "wikiDataId": "Q2010019"
   },
@@ -267,7 +267,7 @@
     "native": "Pontpierre",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1120,
     "wikiDataId": "Q1016106"
   },
@@ -283,7 +283,7 @@
     "native": "Reckange-sur-Mess",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 571,
     "wikiDataId": "Q3917049"
   },
@@ -299,7 +299,7 @@
     "native": "Rodange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7620,
     "wikiDataId": "Q1444135"
   },
@@ -315,9 +315,9 @@
     "native": "Roeser",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 708,
-    "wikiDataId": "Q1444135"
+    "wikiDataId": "Q683922"
   },
   {
     "id": 66832,
@@ -331,7 +331,7 @@
     "native": "Rumelange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "city",
     "population": 0,
     "wikiDataId": "Q914847"
   },
@@ -347,9 +347,9 @@
     "native": "Sanem",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 2825,
-    "wikiDataId": "Q3917065"
+    "wikiDataId": null
   },
   {
     "id": 66838,
@@ -363,9 +363,9 @@
     "native": "Schifflange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 8155,
-    "wikiDataId": "Q20969739"
+    "wikiDataId": null
   },
   {
     "id": 66843,
@@ -379,7 +379,7 @@
     "native": "Soleuvre",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6393,
     "wikiDataId": "Q219089"
   },
@@ -395,7 +395,7 @@
     "native": "Tétange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4036,
     "wikiDataId": "Q1903325"
   }

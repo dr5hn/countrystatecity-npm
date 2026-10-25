@@ -11,7 +11,7 @@
     "native": "Athgarvan",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1176,
     "wikiDataId": "Q4072044"
   },
@@ -27,7 +27,7 @@
     "native": "Athy",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11035,
     "wikiDataId": "Q251091"
   },
@@ -43,7 +43,7 @@
     "native": "Castledermot",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1475,
     "wikiDataId": "Q431523"
   },
@@ -59,7 +59,7 @@
     "native": "Celbridge",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20288,
     "wikiDataId": "Q629881"
   },
@@ -75,7 +75,7 @@
     "native": "Clane",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7280,
     "wikiDataId": "Q632020"
   },
@@ -91,7 +91,7 @@
     "native": "Derrinturn",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1602,
     "wikiDataId": "Q682928"
   },
@@ -107,9 +107,25 @@
     "native": "Newbridge",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 22742,
     "wikiDataId": "Q958397"
+  },
+  {
+    "id": 57238,
+    "name": "Eadestown",
+    "state_id": 1082,
+    "state_code": "KE",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "53.20278000",
+    "longitude": "-6.57806000",
+    "native": "Eadestown",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 5346,
+    "wikiDataId": null
   },
   {
     "id": 57275,
@@ -123,7 +139,7 @@
     "native": "Kilcock",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6093,
     "wikiDataId": "Q2269522"
   },
@@ -139,7 +155,7 @@
     "native": "Kilcullen",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3710,
     "wikiDataId": "Q2669870"
   },
@@ -155,7 +171,7 @@
     "native": "Kill",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3348,
     "wikiDataId": "Q2084287"
   },
@@ -171,7 +187,7 @@
     "native": "Leixlip",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15504,
     "wikiDataId": "Q987797"
   },
@@ -187,7 +203,7 @@
     "native": "Maynooth",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14585,
     "wikiDataId": "Q750265"
   },
@@ -203,7 +219,7 @@
     "native": "Monasterevin",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5307,
     "wikiDataId": "Q522012"
   },
@@ -219,7 +235,7 @@
     "native": "Naas",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 21393,
     "wikiDataId": "Q216038"
   },
@@ -235,7 +251,7 @@
     "native": "Prosperous",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1939,
     "wikiDataId": "Q2528850"
   },
@@ -251,7 +267,7 @@
     "native": "Rathangan",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2374,
     "wikiDataId": "Q2346757"
   },
@@ -267,7 +283,7 @@
     "native": "Sallins",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5283,
     "wikiDataId": "Q2297381"
   }

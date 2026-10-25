@@ -11,7 +11,7 @@
     "native": "Abra Pampa",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 9425,
     "wikiDataId": "Q55386"
   },
@@ -27,7 +27,7 @@
     "native": "Caimancito",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5403,
     "wikiDataId": "Q1749213"
   },
@@ -43,7 +43,7 @@
     "native": "Calilegua",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5174,
     "wikiDataId": "Q1749231"
   },
@@ -59,7 +59,7 @@
     "native": "El Aguilar",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3655,
     "wikiDataId": "Q3720844"
   },
@@ -75,7 +75,7 @@
     "native": "Fraile Pintado",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 13682,
     "wikiDataId": "Q1923525"
   },
@@ -91,7 +91,7 @@
     "native": "Humahuaca",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 11369,
     "wikiDataId": "Q1026833"
   },
@@ -123,7 +123,7 @@
     "native": "La Mendieta",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3812,
     "wikiDataId": "Q3820983"
   },
@@ -139,7 +139,7 @@
     "native": "La Quiaca",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 16874,
     "wikiDataId": "Q693381"
   },
@@ -155,7 +155,7 @@
     "native": "Libertador General San Martín",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 49267,
     "wikiDataId": "Q600706"
   },
@@ -187,7 +187,7 @@
     "native": "Palma Sola",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5318,
     "wikiDataId": "Q1749064"
   },
@@ -208,14 +208,14 @@
     "wikiDataId": "Q55385"
   },
   {
-    "id": 965,
+    "id": 166318,
     "name": "Rinconada",
     "state_id": 3645,
     "state_code": "Y",
     "country_id": 11,
     "country_code": "AR",
-    "latitude": "-22.44065099",
-    "longitude": "-66.16757043",
+    "latitude": "-22.44027778",
+    "longitude": "-66.16722222",
     "native": "Rinconada",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
@@ -251,7 +251,7 @@
     "native": "San Pedro de Jujuy",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 71000,
     "wikiDataId": "Q1020263"
   },
@@ -267,7 +267,7 @@
     "native": "San Salvador de Jujuy",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 321789,
     "wikiDataId": "Q44217"
   },
@@ -299,7 +299,7 @@
     "native": "Santa Clara",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 4883,
     "wikiDataId": "Q2001906"
   },
@@ -315,19 +315,19 @@
     "native": "Tilcara",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5640,
     "wikiDataId": "Q604722"
   },
   {
-    "id": 1025,
+    "id": 166336,
     "name": "Tumbaya",
     "state_id": 3645,
     "state_code": "Y",
     "country_id": 11,
     "country_code": "AR",
-    "latitude": "-23.85777464",
-    "longitude": "-65.46682869",
+    "latitude": "-23.85754950",
+    "longitude": "-65.46701990",
     "native": "Tumbaya",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
@@ -347,7 +347,7 @@
     "native": "Yuto",
     "timezone": "America/Argentina/Jujuy",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7732,
     "wikiDataId": "Q1115054"
   }
