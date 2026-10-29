@@ -25,7 +25,10 @@ existing populations, types, time zones, Wikidata values, coordinates and hierar
 links; it does not change IDs according to the draft release notes. The package
 pipeline must fetch the published export, not unreleased master data. Its normal
 Sunday refresh runs on 1 November at 00:00 UTC (05:30 India time). If the export is
-published later, dispatch Pipeline again after it appears. Review the resulting
+published later, date-limited follow-ups dispatch the same checked pipeline at
+06:00 and 12:00 UTC (11:30 and 17:30 India time). Those runs may merge and release
+only a published `v5.1.0-export.N` on 1 November 2026, after all checks pass.
+Review the resulting
 manifest, changed IDs, country-level cities, postal counts, and notices before
 merging the next data PR. The corrected pipeline retains population reference
 years and includes all cities in its full-file coverage check.
