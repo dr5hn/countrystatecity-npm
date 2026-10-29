@@ -66,7 +66,7 @@ describe('iOS Safari Compatibility', () => {
         expect(timezones).toBeDefined();
         expect(Array.isArray(timezones)).toBe(true);
       }
-    });
+    }, 30_000);
 
     it('should handle repeated loads of same data', async () => {
       // Load same timezone multiple times

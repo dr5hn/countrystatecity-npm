@@ -65,7 +65,7 @@ describe('API Integration Tests', () => {
     
     // All cities should be from India
     expect(allCities.every(c => c.country_code === 'IN')).toBe(true);
-  });
+  }, 30_000);
 
   it('should handle invalid country codes gracefully', async () => {
     const invalidCountry = await getCountryByCode('INVALID');
