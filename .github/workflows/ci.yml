@@ -358,9 +358,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ steps.data-pr.outputs.pull-request-number }}
+          EXPECTED_HEAD_SHA: ${{ steps.data-pr.outputs.pull-request-head-sha }}
         run: |
           [ "$(date -u +%F)" = '2026-11-01' ] || exit 0
           RELEASE=$(node -p "require('./data-manifest.json').source.releaseTag")
           [[ "$RELEASE" =~ ^v5\.1\.0-export\.[0-9]+$ ]] || { echo 'The 1 November v5.1.0 export is not published yet; leaving the PR for review.'; exit 1; }
-          gh pr merge "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --merge --delete-branch
+          [ -n "$EXPECTED_HEAD_SHA" ] || exit 1
+          gh pr merge "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --merge --delete-branch --match-head-commit "$EXPECTED_HEAD_SHA"
           gh workflow run release.yml --repo "$GITHUB_REPOSITORY" --ref main -f data_update_pr="$PR_NUMBER"
