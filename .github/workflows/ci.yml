@@ -14,6 +14,10 @@ on:
     - cron: '0 0 * * 0'   # every Sunday at 00:00 UTC
   workflow_dispatch:
     inputs:
+      release_november_refresh:
+        description: 'Release the checked v5.1.0 refresh on 1 November 2026 only'
+        type: boolean
+        default: false
       force_pr:
         description: 'Open PR even if data has not changed'
         type: boolean
@@ -297,6 +301,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     steps:
       - uses: actions/checkout@v7
         with:
@@ -323,6 +328,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Create Pull Request
+        id: data-pr
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -346,3 +352,15 @@ jobs:
           labels: |
             automated
             data-update
+
+      - name: Release the requested 1 November refresh
+        if: (github.event_name == 'schedule' || inputs.release_november_refresh) && steps.data-pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.data-pr.outputs.pull-request-number }}
+        run: |
+          [ "$(date -u +%F)" = '2026-11-01' ] || exit 0
+          RELEASE=$(node -p "require('./data-manifest.json').source.releaseTag")
+          [[ "$RELEASE" =~ ^v5\.1\.0-export\.[0-9]+$ ]] || { echo 'The 1 November v5.1.0 export is not published yet; leaving the PR for review.'; exit 1; }
+          gh pr merge "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --merge --delete-branch
+          gh workflow run release.yml --repo "$GITHUB_REPOSITORY" --ref main -f data_update_pr="$PR_NUMBER"

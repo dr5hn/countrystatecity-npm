@@ -7,6 +7,11 @@ on:
     branches: [main]
   # Manual trigger for code-change releases
   workflow_dispatch:
+    inputs:
+      data_update_pr:
+        description: 'Merged data-update PR to release; empty keeps the manual code-release behavior'
+        type: string
+        required: false
 
 jobs:
   release:
@@ -18,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: read
 
     steps:
       - uses: actions/checkout@v7
@@ -36,6 +42,18 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Verify dispatched data PR
+        id: target
+        if: inputs.data_update_pr != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ inputs.data_update_pr }}
+        run: |
+          [[ "$PR_NUMBER" =~ ^[0-9]+$ ]] || exit 1
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" > "$RUNNER_TEMP/release-pr.json"
+          jq -e '.merged == true and .base.ref == "main" and (.labels | any(.name == "data-update"))' "$RUNNER_TEMP/release-pr.json"
+          echo "merge_sha=$(jq -r .merge_commit_sha "$RUNNER_TEMP/release-pr.json")" >> "$GITHUB_OUTPUT"
+
       # Data-update merges release only the packages whose src/data actually
       # changed — bumping the fixed list republished multi-hundred-MB packages
       # (postalcodes, geojson) weekly with byte-identical data. Manual
@@ -44,10 +62,10 @@ jobs:
         id: scope
         shell: bash
         env:
-          MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          MERGE_SHA: ${{ steps.target.outputs.merge_sha || github.event.pull_request.merge_commit_sha }}
         run: |
           ALL="countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -z "$MERGE_SHA" ]; then
             PKGS="$ALL"
             echo "Manual dispatch — releasing all packages."
           else
@@ -63,7 +81,7 @@ jobs:
         if: steps.scope.outputs.packages != ''
         env:
           PACKAGES: ${{ steps.scope.outputs.packages }}
-          MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          MERGE_SHA: ${{ steps.target.outputs.merge_sha || github.event.pull_request.merge_commit_sha }}
         run: |
           node -e "
             const fs = require('fs');
