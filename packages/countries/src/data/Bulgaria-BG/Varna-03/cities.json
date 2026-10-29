@@ -93,7 +93,7 @@
     "translations": {},
     "type": "city",
     "population": 4084,
-    "wikiDataId": "Q405573"
+    "wikiDataId": null
   },
   {
     "id": 9307,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "municipality",
     "population": null,
-    "wikiDataId": "Q2715403"
+    "wikiDataId": null
   },
   {
     "id": 9418,
@@ -171,7 +171,7 @@
     "native": "Община Аврен",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": null,
     "wikiDataId": "Q2715453"
   },
@@ -203,7 +203,7 @@
     "native": "Община Бяла",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2609691"
   },
@@ -219,7 +219,7 @@
     "native": "Община Дългопол",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2609410"
   },
@@ -235,7 +235,7 @@
     "native": "Община Девня",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2715422"
   },
@@ -251,7 +251,7 @@
     "native": "Община Долни Чифлик",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": null,
     "wikiDataId": "Q2715362"
   },
@@ -267,7 +267,7 @@
     "native": "Община Провадия",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2407014"
   },
@@ -283,7 +283,7 @@
     "native": "Община Суворово",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2609434"
   },
@@ -299,7 +299,7 @@
     "native": "Община Вълчидол",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q596101"
   },
@@ -315,7 +315,7 @@
     "native": "Община Варна",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q748965"
   },
@@ -331,7 +331,7 @@
     "native": "Община Ветрино",
     "timezone": "Europe/Sofia",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q2609648"
   },

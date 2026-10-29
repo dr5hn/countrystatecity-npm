@@ -11,7 +11,7 @@
     "native": "एल्डोना",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6606,
     "wikiDataId": "Q584939"
   },
@@ -27,9 +27,9 @@
     "native": "अरम्बोल",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10000,
-    "wikiDataId": "Q584823"
+    "wikiDataId": null
   },
   {
     "id": 57795,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
-    "wikiDataId": "Q3412838"
+    "wikiDataId": null
   },
   {
     "id": 57836,
@@ -59,7 +59,7 @@
     "native": "बम्बोलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6885,
     "wikiDataId": "Q627037"
   },
@@ -75,7 +75,7 @@
     "native": "बंदोरा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12819,
     "wikiDataId": "Q720252"
   },
@@ -91,7 +91,7 @@
     "native": "बेनौलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11919,
     "wikiDataId": "Q2564851"
   },
@@ -128,6 +128,22 @@
     "wikiDataId": "Q861976"
   },
   {
+    "id": 58166,
+    "name": "Canacona",
+    "state_id": 4009,
+    "state_code": "GA",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "14.99590000",
+    "longitude": "74.05056000",
+    "native": "कानाकोना",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "locality",
+    "population": 12434,
+    "wikiDataId": null
+  },
+  {
     "id": 58167,
     "name": "Candolim",
     "state_id": 4009,
@@ -139,7 +155,7 @@
     "native": "कैंडोलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9197,
     "wikiDataId": "Q858424"
   },
@@ -155,7 +171,7 @@
     "native": "कारापुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5575,
     "wikiDataId": "Q861379"
   },
@@ -171,7 +187,7 @@
     "native": "कैवेलोसिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11983,
     "wikiDataId": "Q5054993"
   },
@@ -187,7 +203,7 @@
     "native": "चिकालिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7787,
     "wikiDataId": "Q1105928"
   },
@@ -203,7 +219,7 @@
     "native": "चिनचिनिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7355,
     "wikiDataId": "Q1105849"
   },
@@ -219,7 +235,7 @@
     "native": "कोलोवेल",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5723,
     "wikiDataId": "Q939521"
   },
@@ -235,7 +251,7 @@
     "native": "कोल्वा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12000,
     "wikiDataId": "Q3440760"
   },
@@ -251,9 +267,9 @@
     "native": "कोर्टालिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9080,
-    "wikiDataId": "Q3440760"
+    "wikiDataId": null
   },
   {
     "id": 131630,
@@ -299,7 +315,7 @@
     "native": "कर्टी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 16385,
     "wikiDataId": "Q12420204"
   },
@@ -315,7 +331,7 @@
     "native": "दावोरलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 15350,
     "wikiDataId": "Q1192143"
   },
@@ -331,7 +347,7 @@
     "native": "गोवा वेल्हा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5656,
     "wikiDataId": "Q553907"
   },
@@ -347,7 +363,7 @@
     "native": "गुइरिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7057,
     "wikiDataId": "Q1708211"
   },
@@ -363,9 +379,9 @@
     "native": "जुआ",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5470,
-    "wikiDataId": "Q1026878"
+    "wikiDataId": null
   },
   {
     "id": 132705,
@@ -459,9 +475,9 @@
     "native": "नवेलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12323,
-    "wikiDataId": "Q2475087"
+    "wikiDataId": null
   },
   {
     "id": 133238,
@@ -491,7 +507,7 @@
     "native": "पल्ले",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6043,
     "wikiDataId": "Q1320784"
   },
@@ -571,7 +587,7 @@
     "native": "क्यूउला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6852,
     "wikiDataId": "Q2734444"
   },
@@ -587,9 +603,9 @@
     "native": "राया",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10706,
-    "wikiDataId": "Q2573077"
+    "wikiDataId": null
   },
   {
     "id": 133764,
@@ -603,7 +619,7 @@
     "native": "सालगाँव",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6280,
     "wikiDataId": "Q2734462"
   },
@@ -619,7 +635,7 @@
     "native": "सैंकोले",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21923,
     "wikiDataId": "Q2573142"
   },
@@ -667,7 +683,7 @@
     "native": "संवोर्देम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5103,
     "wikiDataId": "Q720846"
   },
@@ -683,9 +699,9 @@
     "native": "सेरूला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12908,
-    "wikiDataId": "Q2726292"
+    "wikiDataId": null
   },
   {
     "id": 133987,
@@ -699,25 +715,9 @@
     "native": "सोलिम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 10936,
     "wikiDataId": "Q2734452"
-  },
-  {
-    "id": 134010,
-    "name": "South Goa",
-    "state_id": 4009,
-    "state_code": "GA",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "15.20425000",
-    "longitude": "74.16733000",
-    "native": "दक्षिण गोवा",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "area",
-    "population": 640537,
-    "wikiDataId": "Q108244"
   },
   {
     "id": 134101,
@@ -731,7 +731,7 @@
     "native": "तलेइगाओ",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17148,
     "wikiDataId": "Q7679155"
   },
@@ -749,7 +749,7 @@
     "translations": {},
     "type": "city",
     "population": 14986,
-    "wikiDataId": "Q11909"
+    "wikiDataId": null
   },
   {
     "id": 134321,
@@ -779,7 +779,7 @@
     "native": "वर्का",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 5439,
     "wikiDataId": "Q2558931"
   },

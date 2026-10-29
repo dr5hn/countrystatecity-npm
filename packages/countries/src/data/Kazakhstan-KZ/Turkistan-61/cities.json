@@ -11,7 +11,7 @@
     "native": "Арыс",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 36285,
     "wikiDataId": "Q718108"
   },
@@ -43,7 +43,7 @@
     "native": "Асықата",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 11378,
     "wikiDataId": "Q4071858"
   },
@@ -59,7 +59,7 @@
     "native": "Атакент",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 12895,
     "wikiDataId": "Q4071940"
   },
@@ -75,7 +75,7 @@
     "native": "Байжансай",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2384,
     "wikiDataId": "Q12532833"
   },
@@ -91,7 +91,7 @@
     "native": "Белыйе Воды",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q2509316"
   },
@@ -107,7 +107,7 @@
     "native": "Чаян",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4521580"
   },
@@ -123,7 +123,7 @@
     "native": "Шұлаққорған",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4525984"
   },
@@ -139,7 +139,7 @@
     "native": "Қантағы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "section",
+    "type": "village",
     "population": 10186,
     "wikiDataId": "Q12568918"
   },
@@ -155,7 +155,7 @@
     "native": "Кентау",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 57408,
     "wikiDataId": "Q1315249"
   },
@@ -187,7 +187,7 @@
     "native": "Ленгер",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 24642,
     "wikiDataId": "Q2378015"
   },
@@ -203,25 +203,9 @@
     "native": "Ленинское",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
     "wikiDataId": "Q4208478"
-  },
-  {
-    "id": 65724,
-    "name": "Maqtaaral Aūdany",
-    "state_id": 149,
-    "state_code": "61",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "40.75000000",
-    "longitude": "68.58333000",
-    "native": "Мақтаарал ауданы",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2554567"
   },
   {
     "id": 65734,
@@ -235,7 +219,7 @@
     "native": "Мырзакент",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 9752,
     "wikiDataId": "Q4309425"
   },
@@ -251,9 +235,9 @@
     "native": "Қоғам",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2276,
-    "wikiDataId": "Q12533012"
+    "wikiDataId": null
   },
   {
     "id": 65764,
@@ -272,22 +256,6 @@
     "wikiDataId": "Q630676"
   },
   {
-    "id": 65765,
-    "name": "Saryaghash Aūdany",
-    "state_id": 149,
-    "state_code": "61",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "41.66667000",
-    "longitude": "68.83333000",
-    "native": "Сарыағаш ауданы",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2554452"
-  },
-  {
     "id": 65769,
     "name": "Sastobe",
     "state_id": 149,
@@ -299,7 +267,7 @@
     "native": "Састөбе",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 6827,
     "wikiDataId": "Q12561247"
   },
@@ -320,22 +288,6 @@
     "wikiDataId": "Q1047741"
   },
   {
-    "id": 65795,
-    "name": "Sozaq Aūdany",
-    "state_id": 149,
-    "state_code": "61",
-    "country_id": 112,
-    "country_code": "KZ",
-    "latitude": "44.83333000",
-    "longitude": "68.50000000",
-    "native": "Созақ ауданы",
-    "timezone": "Asia/Almaty",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2554556"
-  },
-  {
     "id": 65809,
     "name": "Temirlanovka",
     "state_id": 149,
@@ -347,7 +299,7 @@
     "native": "Темірлановка",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 12245,
     "wikiDataId": "Q4454454"
   },
@@ -363,7 +315,7 @@
     "native": "Тұрар Рысқұлов",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 18421,
     "wikiDataId": "Q4736474"
   },
@@ -379,7 +331,7 @@
     "native": "Түркістан",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q848638"
   },
@@ -395,9 +347,9 @@
     "native": "Түлкібас",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 10802,
-    "wikiDataId": "Q848638"
+    "wikiDataId": null
   },
   {
     "id": 65834,
@@ -411,9 +363,9 @@
     "native": "Жабағылы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 2000,
-    "wikiDataId": "Q1881641"
+    "wikiDataId": null
   },
   {
     "id": 165150,
@@ -427,7 +379,7 @@
     "native": "Жетісай",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 36494,
     "wikiDataId": "Q2378055"
   }

@@ -8,10 +8,10 @@
     "country_code": "TR",
     "latitude": "39.76903000",
     "longitude": "30.96060000",
-    "native": "Alpin",
+    "native": "Alpu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5981,
     "wikiDataId": null
   },
@@ -27,9 +27,9 @@
     "native": "Beylikova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5131,
-    "wikiDataId": null
+    "wikiDataId": "Q288024"
   },
   {
     "id": 108827,
@@ -43,7 +43,7 @@
     "native": "Çifteler",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10166,
     "wikiDataId": null
   },
@@ -59,7 +59,7 @@
     "native": "Günyüzü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5008,
     "wikiDataId": "Q1919824"
   },
@@ -125,7 +125,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2861,
-    "wikiDataId": "Q2397202"
+    "wikiDataId": null
   },
   {
     "id": 108210,
@@ -139,7 +139,7 @@
     "native": "Mihalıççık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7605,
     "wikiDataId": "Q377962"
   },
@@ -171,7 +171,7 @@
     "native": "Sarıcakaya",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 4477,
     "wikiDataId": "Q3056019"
   },
@@ -189,7 +189,7 @@
     "translations": {},
     "type": "municipality",
     "population": 12565,
-    "wikiDataId": "Q1572971"
+    "wikiDataId": null
   },
   {
     "id": 108481,
@@ -205,7 +205,7 @@
     "translations": {},
     "type": "municipality",
     "population": 20189,
-    "wikiDataId": "Q1019915"
+    "wikiDataId": null
   },
   {
     "id": 108566,
@@ -219,7 +219,7 @@
     "native": "Tepebaşı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 398129,
     "wikiDataId": "Q3906371"
   }

@@ -11,7 +11,7 @@
     "native": "Cẩm Phả",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 156000,
     "wikiDataId": "Q1031051"
   },
@@ -32,6 +32,22 @@
     "wikiDataId": "Q31909451"
   },
   {
+    "id": 167956,
+    "name": "Cô Tô",
+    "state_id": 3814,
+    "state_code": "13",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "20.97268000",
+    "longitude": "107.76578000",
+    "native": "Cô Tô",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 130561,
     "name": "Hạ Long",
     "state_id": 3814,
@@ -43,7 +59,7 @@
     "native": "Hạ Long",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "city",
+    "type": "adm1",
     "population": 270054,
     "wikiDataId": "Q36077"
   },
@@ -80,22 +96,6 @@
     "wikiDataId": "Q800057"
   },
   {
-    "id": 130268,
-    "name": "Huyện Cô Tô",
-    "state_id": 3814,
-    "state_code": "13",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "21.05418000",
-    "longitude": "107.80698000",
-    "native": "Huyện Cô Tô",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": null
-  },
-  {
     "id": 130541,
     "name": "Huyện Đầm Hà",
     "state_id": 3814,
@@ -124,22 +124,6 @@
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
     "type": "adm2",
-    "population": null,
-    "wikiDataId": null
-  },
-  {
-    "id": 130314,
-    "name": "Huyện Hải Hà",
-    "state_id": 3814,
-    "state_code": "13",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "21.49537000",
-    "longitude": "107.66790000",
-    "native": "Huyện Hải Hà",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "city",
     "population": null,
     "wikiDataId": null
   },
@@ -203,9 +187,25 @@
     "native": "Móng Cái",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 108553,
     "wikiDataId": "Q33204"
+  },
+  {
+    "id": 167985,
+    "name": "Quảng Hà",
+    "state_id": 3814,
+    "state_code": "13",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "21.45060000",
+    "longitude": "107.75592000",
+    "native": "Quảng Hà",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 130602,

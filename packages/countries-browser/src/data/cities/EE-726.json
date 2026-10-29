@@ -11,7 +11,7 @@
     "native": "Laagri",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 6117,
     "wikiDataId": "Q720023"
   },
@@ -27,7 +27,7 @@
     "native": "Riisipere",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 868,
     "wikiDataId": "Q2006948"
   },
@@ -43,8 +43,24 @@
     "native": "Saue",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 6227,
     "wikiDataId": "Q86206"
+  },
+  {
+    "id": 31707,
+    "name": "Saue vald",
+    "state_id": 5784,
+    "state_code": "726",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "59.29255000",
+    "longitude": "24.52503000",
+    "native": "Saue vald",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1755634"
   }
 ]

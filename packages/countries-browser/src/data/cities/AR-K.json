@@ -27,7 +27,7 @@
     "native": "Andalgalá",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 14068,
     "wikiDataId": "Q489679"
   },
@@ -43,12 +43,12 @@
     "native": "Antofagasta de la Sierra",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 500,
     "wikiDataId": "Q2536371"
   },
   {
-    "id": 1007,
+    "id": 166332,
     "name": "Bañado de Ovanta",
     "state_id": 3647,
     "state_code": "K",
@@ -139,7 +139,7 @@
     "native": "Fiambalá",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8061,
     "wikiDataId": "Q2613214"
   },
@@ -155,7 +155,7 @@
     "native": "Hualfin",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2304,
     "wikiDataId": "Q1774287"
   },
@@ -171,7 +171,7 @@
     "native": "Huillapima",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7779,
     "wikiDataId": "Q81653"
   },
@@ -187,7 +187,7 @@
     "native": "Icaño",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6857,
     "wikiDataId": "Q3791626"
   },
@@ -219,7 +219,7 @@
     "native": "Londres",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2627,
     "wikiDataId": "Q930973"
   },
@@ -235,7 +235,7 @@
     "native": "Los Altos",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6421,
     "wikiDataId": "Q6681893"
   },
@@ -251,7 +251,7 @@
     "native": "Los Varela",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1908,
     "wikiDataId": "Q1774269"
   },
@@ -267,7 +267,7 @@
     "native": "Mutquín",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1207,
     "wikiDataId": "Q2387512"
   },
@@ -283,7 +283,7 @@
     "native": "Pomano",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3387,
     "wikiDataId": "Q2437304"
   },
@@ -299,7 +299,7 @@
     "native": "Puerta de Corral Quemado",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1634,
     "wikiDataId": "Q1774277"
   },
@@ -315,7 +315,7 @@
     "native": "La Puerta de San José",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": null,
     "wikiDataId": "Q1774215"
   },
@@ -331,7 +331,7 @@
     "native": "Recreo",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 14204,
     "wikiDataId": "Q766923"
   },
@@ -363,7 +363,7 @@
     "native": "San Fernando del Valle de Catamarca",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 159139,
     "wikiDataId": "Q44162"
   },
@@ -411,19 +411,19 @@
     "native": "Santa María",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 0,
     "wikiDataId": "Q1012407"
   },
   {
-    "id": 959,
+    "id": 166317,
     "name": "Saujil",
     "state_id": 3647,
     "state_code": "K",
     "country_id": 11,
     "country_code": "AR",
-    "latitude": "-28.17352104",
-    "longitude": "-66.21208954",
+    "latitude": "-28.17380860",
+    "longitude": "-66.21148660",
     "native": "Saujil",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
@@ -443,7 +443,7 @@
     "native": "Tinogasta",
     "timezone": "America/Argentina/Catamarca",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 14509,
     "wikiDataId": "Q81563"
   }

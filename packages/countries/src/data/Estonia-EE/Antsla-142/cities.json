@@ -1,5 +1,37 @@
 [
   {
+    "id": 31596,
+    "name": "Antsla",
+    "state_id": 5738,
+    "state_code": "142",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "57.82556000",
+    "longitude": "26.54056000",
+    "native": "Antsla",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "adm2",
+    "population": 0,
+    "wikiDataId": "Q154994"
+  },
+  {
+    "id": 31597,
+    "name": "Antsla vald",
+    "state_id": 5738,
+    "state_code": "142",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "57.77738000",
+    "longitude": "26.59520000",
+    "native": "Antsla vald",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q305226"
+  },
+  {
     "id": 31736,
     "name": "Vana-Antsla",
     "state_id": 5738,
@@ -11,7 +43,7 @@
     "native": "Vana-Antsla",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1468,
     "wikiDataId": "Q3477487"
   }

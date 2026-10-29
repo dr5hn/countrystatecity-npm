@@ -13,7 +13,23 @@
     "translations": {},
     "type": "adm2",
     "population": 82196,
-    "wikiDataId": "Q25016302"
+    "wikiDataId": null
+  },
+  {
+    "id": 166806,
+    "name": "Baa",
+    "state_id": 1818,
+    "state_code": "NT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-10.72630000",
+    "longitude": "123.04920000",
+    "native": "Baa",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 164812,
@@ -32,23 +48,7 @@
     "wikiDataId": "Q804109"
   },
   {
-    "id": 56352,
-    "name": "Belu",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-9.41258000",
-    "longitude": "124.95066000",
-    "native": "Kabupaten Belu",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14133"
-  },
-  {
-    "id": 56526,
+    "id": 166753,
     "name": "Borong",
     "state_id": 1818,
     "state_code": "NT",
@@ -78,22 +78,6 @@
     "type": "adm2",
     "population": 87269,
     "wikiDataId": "Q1340301"
-  },
-  {
-    "id": 56406,
-    "name": "Flores Timur",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.24224000",
-    "longitude": "122.96817000",
-    "native": "Kabupaten Flores Timur",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14136"
   },
   {
     "id": 56475,
@@ -189,23 +173,39 @@
     "translations": {},
     "type": "adm2",
     "population": 188724,
-    "wikiDataId": "Q24881868"
+    "wikiDataId": null
   },
   {
-    "id": 56493,
-    "name": "Lembata",
+    "id": 166678,
+    "name": "Larantuka",
     "state_id": 1818,
     "state_code": "NT",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-8.41396000",
-    "longitude": "123.55225000",
-    "native": "Kabupaten Lembata",
+    "latitude": "-8.34680000",
+    "longitude": "122.97710000",
+    "native": "Larantuka",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q14142"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166731,
+    "name": "Lewoleba",
+    "state_id": 1818,
+    "state_code": "NT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-8.37230000",
+    "longitude": "123.41800000",
+    "native": "Lewoleba",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56510,
@@ -224,38 +224,6 @@
     "wikiDataId": "Q4069046"
   },
   {
-    "id": 56524,
-    "name": "Manggarai",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.56667000",
-    "longitude": "120.41667000",
-    "native": "Kabupaten Manggarai",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14143"
-  },
-  {
-    "id": 56525,
-    "name": "Manggarai Barat",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.64484000",
-    "longitude": "119.88281000",
-    "native": "Kabupaten Manggarai Barat",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14153"
-  },
-  {
     "id": 56866,
     "name": "Maumere",
     "state_id": 1818,
@@ -269,10 +237,10 @@
     "translations": {},
     "type": "adm2",
     "population": 87720,
-    "wikiDataId": "Q185689"
+    "wikiDataId": null
   },
   {
-    "id": 56553,
+    "id": 166770,
     "name": "Mbay",
     "state_id": 1818,
     "state_code": "NT",
@@ -304,22 +272,6 @@
     "wikiDataId": "Q25024399"
   },
   {
-    "id": 56613,
-    "name": "Rote Ndao",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-10.73617000",
-    "longitude": "123.12054000",
-    "native": "Kabupaten hafalan tidak",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14147"
-  },
-  {
     "id": 56956,
     "name": "Ruteng",
     "state_id": 1818,
@@ -333,7 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 41533,
-    "wikiDataId": "Q24843306"
+    "wikiDataId": null
   },
   {
     "id": 56614,
@@ -352,22 +304,6 @@
     "wikiDataId": "Q14148"
   },
   {
-    "id": 56632,
-    "name": "Sikka",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-8.66667000",
-    "longitude": "122.36667000",
-    "native": "Kabupaten Sikka",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14150"
-  },
-  {
     "id": 56989,
     "name": "Soe",
     "state_id": 1818,
@@ -381,55 +317,7 @@
     "translations": {},
     "type": "city",
     "population": 40190,
-    "wikiDataId": "Q1013537"
-  },
-  {
-    "id": 56648,
-    "name": "Sumba Barat",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-9.56667000",
-    "longitude": "119.45000000",
-    "native": "Kabupaten Sumba Barat",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14154"
-  },
-  {
-    "id": 56649,
-    "name": "Sumba Barat Daya",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-9.56216000",
-    "longitude": "119.08905000",
-    "native": "Kabupaten Sumba Barat Daya",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14152"
-  },
-  {
-    "id": 56651,
-    "name": "Sumba Timur",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-9.88333000",
-    "longitude": "120.25000000",
-    "native": "Kabupaten Sumba Timur",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14139"
+    "wikiDataId": null
   },
   {
     "id": 164805,
@@ -448,22 +336,6 @@
     "wikiDataId": "Q7681048"
   },
   {
-    "id": 56680,
-    "name": "Timor Tengah Selatan",
-    "state_id": 1818,
-    "state_code": "NT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-9.83333000",
-    "longitude": "124.40000000",
-    "native": "Kabupaten Timor Tengah Selatan",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14151"
-  },
-  {
     "id": 56681,
     "name": "Timor Tengah Utara",
     "state_id": 1818,
@@ -480,7 +352,7 @@
     "wikiDataId": "Q14146"
   },
   {
-    "id": 56650,
+    "id": 166824,
     "name": "Waibakul",
     "state_id": 1818,
     "state_code": "NT",
@@ -496,6 +368,22 @@
     "wikiDataId": "Q7959920"
   },
   {
+    "id": 166823,
+    "name": "Waikabubak",
+    "state_id": 1818,
+    "state_code": "NT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-9.64750000",
+    "longitude": "119.38890000",
+    "native": "Waikabubak",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 57048,
     "name": "Waingapu",
     "state_id": 1818,
@@ -509,6 +397,6 @@
     "translations": {},
     "type": "adm2",
     "population": 35932,
-    "wikiDataId": "Q3183016"
+    "wikiDataId": null
   }
 ]

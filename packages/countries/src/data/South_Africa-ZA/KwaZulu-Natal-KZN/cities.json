@@ -45,7 +45,7 @@
     "translations": {},
     "type": "city",
     "population": 15000,
-    "wikiDataId": "Q818106"
+    "wikiDataId": null
   },
   {
     "id": 131091,
@@ -59,7 +59,7 @@
     "native": "Dundee",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 84413,
     "wikiDataId": "Q1265538"
   },
@@ -75,7 +75,7 @@
     "native": "Durban",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 3338026,
     "wikiDataId": "Q5468"
   },
@@ -123,7 +123,7 @@
     "native": "Empangeni",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 33075,
     "wikiDataId": "Q1339143"
   },
@@ -139,7 +139,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q3643553"
   },
@@ -155,7 +155,7 @@
     "native": "Eshowe",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 17663,
     "wikiDataId": "Q1367652"
   },
@@ -219,7 +219,7 @@
     "native": "Glencoe",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21024,
     "wikiDataId": "Q285782"
   },
@@ -235,7 +235,7 @@
     "native": "Greytown",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 23139,
     "wikiDataId": "Q1021891"
   },
@@ -267,7 +267,7 @@
     "native": "Howick",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 32453,
     "wikiDataId": "Q1503458"
   },
@@ -299,7 +299,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q827279"
   },
@@ -331,7 +331,7 @@
     "native": "Kokstad",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 61751,
     "wikiDataId": "Q1671256"
   },
@@ -347,7 +347,7 @@
     "native": "KwaDukuza",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 161177,
     "wikiDataId": "Q10676708"
   },
@@ -379,7 +379,7 @@
     "native": "Margate",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 34407,
     "wikiDataId": "Q631231"
   },
@@ -395,7 +395,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q985791"
   },
@@ -411,7 +411,7 @@
     "native": "Mondlo",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 53892,
     "wikiDataId": "Q2611079"
   },
@@ -427,7 +427,7 @@
     "native": "Mooi River",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 21730,
     "wikiDataId": "Q1946653"
   },
@@ -443,7 +443,7 @@
     "native": "Mpophomeni",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 30830,
     "wikiDataId": "Q2491104"
   },
@@ -459,7 +459,7 @@
     "native": "Mpumalanga",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 140121,
     "wikiDataId": "Q1005268"
   },
@@ -475,7 +475,7 @@
     "native": "Mtubatuba",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 33182,
     "wikiDataId": "Q1013531"
   },
@@ -523,7 +523,7 @@
     "native": "Newcastle",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 404838,
     "wikiDataId": "Q1027294"
   },
@@ -539,7 +539,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 125394,
     "wikiDataId": "Q7067669"
   },
@@ -555,7 +555,7 @@
     "native": "Pietermaritzburg",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm1",
+    "type": "locality",
     "population": 839327,
     "wikiDataId": "Q185591"
   },
@@ -571,7 +571,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 144026,
     "wikiDataId": "Q985839"
   },
@@ -587,7 +587,7 @@
     "native": "Port Shepstone",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 52793,
     "wikiDataId": "Q121395"
   },
@@ -603,7 +603,7 @@
     "native": "Richards Bay",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "locality",
     "population": 252968,
     "wikiDataId": "Q1471757"
   },
@@ -619,9 +619,9 @@
     "native": "Richmond",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 32445,
-    "wikiDataId": "Q1471757"
+    "wikiDataId": null
   },
   {
     "id": 131251,
@@ -635,7 +635,7 @@
     "native": "Scottburgh",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 23949,
     "wikiDataId": "Q933028"
   },
@@ -651,7 +651,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 27345,
     "wikiDataId": "Q3643009"
   },
@@ -699,7 +699,7 @@
     "native": null,
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 64829,
     "wikiDataId": "Q993189"
   },
@@ -731,7 +731,7 @@
     "native": "Ulundi",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 29132,
     "wikiDataId": "Q1013421"
   },
@@ -811,7 +811,7 @@
     "native": "Utrecht",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 8486,
     "wikiDataId": "Q18108"
   },
@@ -827,7 +827,7 @@
     "native": "Vryheid",
     "timezone": "Africa/Johannesburg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 150012,
     "wikiDataId": "Q1023254"
   },

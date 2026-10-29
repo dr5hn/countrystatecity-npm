@@ -11,9 +11,9 @@
     "native": "대구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 2376044,
-    "wikiDataId": "Q42148"
+    "wikiDataId": null
   },
   {
     "id": 65302,
@@ -27,7 +27,7 @@
     "native": "달서구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q50370"
   },
@@ -59,9 +59,25 @@
     "native": "동구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": 343398,
     "wikiDataId": "Q50376"
+  },
+  {
+    "id": 65355,
+    "name": "Gunwi-gun",
+    "state_id": 3846,
+    "state_code": "27",
+    "country_id": 116,
+    "country_code": "KR",
+    "latitude": "36.16995000",
+    "longitude": "128.64705000",
+    "native": "군위군",
+    "timezone": "Asia/Seoul",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": "Q50215"
   },
   {
     "id": 65394,
@@ -75,9 +91,9 @@
     "native": "화원",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 64718,
-    "wikiDataId": "Q42160"
+    "wikiDataId": null
   },
   {
     "id": 65422,
@@ -91,9 +107,25 @@
     "native": "중구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q50438"
+  },
+  {
+    "id": 65431,
+    "name": "Kunwi",
+    "state_id": 3846,
+    "state_code": "27",
+    "country_id": 116,
+    "country_code": "KR",
+    "latitude": "36.23472000",
+    "longitude": "128.57278000",
+    "native": "군위",
+    "timezone": "Asia/Seoul",
+    "translations": {},
+    "type": "town",
+    "population": 34293,
+    "wikiDataId": null
   },
   {
     "id": 65485,
@@ -107,7 +139,7 @@
     "native": "서구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q50404"
   },
@@ -123,7 +155,7 @@
     "native": "수성구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
     "wikiDataId": "Q50416"
   }

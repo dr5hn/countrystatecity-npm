@@ -13,7 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 15231,
-    "wikiDataId": "Q4883554"
+    "wikiDataId": null
   },
   {
     "id": 80606,
@@ -45,7 +45,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6757,
-    "wikiDataId": "Q5934986"
+    "wikiDataId": null
   },
   {
     "id": 80679,
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7150,
-    "wikiDataId": "Q6180385"
+    "wikiDataId": null
   },
   {
     "id": 80681,
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "municipality",
     "population": 37715,
-    "wikiDataId": "Q4502016"
+    "wikiDataId": "Q2671983"
   },
   {
     "id": 80693,
@@ -93,39 +93,23 @@
     "translations": {},
     "type": "municipality",
     "population": 13693,
-    "wikiDataId": "Q6317226"
+    "wikiDataId": null
   },
   {
-    "id": 80852,
+    "id": 166893,
     "name": "Lamas",
     "state_id": 3694,
     "state_code": "SAM",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-6.42166667",
-    "longitude": "-76.52111111",
+    "latitude": "-6.42184700",
+    "longitude": "-76.51619700",
     "native": "Lamas",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
     "wikiDataId": "Q3139869"
-  },
-  {
-    "id": 80864,
-    "name": "Moyobamba",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.02833333",
-    "longitude": "-76.97194444",
-    "native": "Moyobamba",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q285672"
   },
   {
     "id": 80726,
@@ -141,7 +125,23 @@
     "translations": {},
     "type": "municipality",
     "population": 50073,
-    "wikiDataId": "Q6317899"
+    "wikiDataId": null
+  },
+  {
+    "id": 166895,
+    "name": "Moyobamba",
+    "state_id": 3694,
+    "state_code": "SAM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.03333333",
+    "longitude": "-76.96666667",
+    "native": "Moyobamba",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q285672"
   },
   {
     "id": 80759,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6697,
-    "wikiDataId": "Q6317752"
+    "wikiDataId": null
   },
   {
     "id": 80827,
@@ -221,7 +221,7 @@
     "translations": {},
     "type": "municipality",
     "population": 25057,
-    "wikiDataId": "Q269272"
+    "wikiDataId": null
   },
   {
     "id": 80969,
@@ -237,7 +237,7 @@
     "translations": {},
     "type": "municipality",
     "population": 14894,
-    "wikiDataId": "Q7421013"
+    "wikiDataId": "Q3344065"
   },
   {
     "id": 80976,
@@ -288,22 +288,6 @@
     "wikiDataId": "Q6316878"
   },
   {
-    "id": 80887,
-    "name": "Tarapoto",
-    "state_id": 3694,
-    "state_code": "SAM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.49694444",
-    "longitude": "-76.36638889",
-    "native": "Tarapoto",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q927933"
-  },
-  {
     "id": 80989,
     "name": "Tarapoto",
     "state_id": 3694,
@@ -317,7 +301,23 @@
     "translations": {},
     "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q6318726"
+    "wikiDataId": null
+  },
+  {
+    "id": 166905,
+    "name": "Tarapoto",
+    "state_id": 3694,
+    "state_code": "SAM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.48333333",
+    "longitude": "-76.36666667",
+    "native": "Tarapoto",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q927933"
   },
   {
     "id": 80995,
@@ -333,7 +333,7 @@
     "translations": {},
     "type": "municipality",
     "population": 29029,
-    "wikiDataId": "Q605803"
+    "wikiDataId": null
   },
   {
     "id": 81002,

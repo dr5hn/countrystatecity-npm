@@ -524,7 +524,7 @@
     "timezone": "America/Chicago",
     "translations": {},
     "type": "locality",
-    "population": 6746,
+    "population": 7406,
     "wikiDataId": "Q1274832"
   },
   {
@@ -1372,7 +1372,7 @@
     "timezone": "America/Chicago",
     "translations": {},
     "type": "city",
-    "population": 35733,
+    "population": null,
     "wikiDataId": "Q31574527"
   },
   {
@@ -2624,22 +2624,6 @@
     "wikiDataId": "Q79492"
   },
   {
-    "id": 119967,
-    "name": "Lake Purdy",
-    "state_id": 1456,
-    "state_code": "AL",
-    "country_id": 233,
-    "country_code": "US",
-    "latitude": "33.43011000",
-    "longitude": "-86.68054000",
-    "native": "Lake Purdy",
-    "timezone": "America/Chicago",
-    "translations": {},
-    "type": "city",
-    "population": 7857,
-    "wikiDataId": "Q12958108"
-  },
-  {
     "id": 119986,
     "name": "Lake View",
     "state_id": 1456,
@@ -3326,22 +3310,6 @@
     "type": "town",
     "population": 1472,
     "wikiDataId": "Q68345"
-  },
-  {
-    "id": 122990,
-    "name": "North Bibb",
-    "state_id": 1456,
-    "state_code": "AL",
-    "country_id": 233,
-    "country_code": "US",
-    "latitude": "33.20401000",
-    "longitude": "-87.15305000",
-    "native": "North Bibb",
-    "timezone": "America/Chicago",
-    "translations": {},
-    "type": "city",
-    "population": 1013,
-    "wikiDataId": "Q31812656"
   },
   {
     "id": 123160,
@@ -4944,14 +4912,14 @@
     "wikiDataId": "Q79349"
   },
   {
-    "id": 129560,
+    "id": 122990,
     "name": "Woodstock",
     "state_id": 1456,
     "state_code": "AL",
     "country_id": 233,
     "country_code": "US",
-    "latitude": "33.20678000",
-    "longitude": "-87.15000000",
+    "latitude": "33.20401000",
+    "longitude": "-87.15305000",
     "native": "Woodstock",
     "timezone": "America/Chicago",
     "translations": {},

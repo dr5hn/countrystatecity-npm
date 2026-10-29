@@ -267,7 +267,7 @@
     "native": "Embsay",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1679,
     "wikiDataId": "Q5370255"
   },
@@ -443,7 +443,7 @@
     "native": "High Bentham",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1680,
     "wikiDataId": "Q26774476"
   },
@@ -555,7 +555,7 @@
     "native": "Low Bradley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1244,
     "wikiDataId": "Q29167065"
   },
@@ -624,22 +624,6 @@
     "wikiDataId": "Q4826297"
   },
   {
-    "id": 50770,
-    "name": "North Yorkshire",
-    "state_id": 2522,
-    "state_code": "NYK",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "54.16667000",
-    "longitude": "-1.50000000",
-    "native": "North Yorkshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q21241814"
-  },
-  {
     "id": 50771,
     "name": "Northallerton",
     "state_id": 2522,
@@ -651,7 +635,7 @@
     "native": "Northallerton",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 16832,
     "wikiDataId": "Q920381"
   },
@@ -923,7 +907,7 @@
     "native": "Spofforth",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1169,
     "wikiDataId": "Q686823"
   },
@@ -987,7 +971,7 @@
     "native": "Thirsk",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm4",
     "population": 9953,
     "wikiDataId": "Q641274"
   },

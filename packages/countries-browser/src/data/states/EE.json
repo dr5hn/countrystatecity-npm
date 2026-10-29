@@ -180,21 +180,6 @@
     "translations": {}
   },
   {
-    "id": 3566,
-    "name": "Järva",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "52",
-    "iso3166_2": "EE-52",
-    "type": "county",
-    "latitude": "58.41333570",
-    "longitude": "24.64773500",
-    "native": "Järva",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
     "id": 5747,
     "name": "Järva",
     "country_id": 69,
@@ -205,6 +190,21 @@
     "type": "rural municipality",
     "latitude": "59.00000000",
     "longitude": "25.86670000",
+    "native": "Järva",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
+    "id": 3566,
+    "name": "Järva",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "52",
+    "iso3166_2": "EE-52",
+    "type": "county",
+    "latitude": "58.41333570",
+    "longitude": "24.64773500",
     "native": "Järva",
     "timezone": "Europe/Tallinn",
     "translations": {}
@@ -255,17 +255,17 @@
     "translations": {}
   },
   {
-    "id": 5746,
+    "id": 5855,
     "name": "Jõhvi",
     "country_id": 69,
     "country_code": "EE",
     "fips_code": null,
-    "iso2": "251",
-    "iso3166_2": "EE-251",
+    "iso2": "250",
+    "iso3166_2": "EE-250",
     "type": "rural municipality",
-    "latitude": "59.35830000",
-    "longitude": "27.42330000",
-    "native": "Jõhvi",
+    "latitude": "59.35917000",
+    "longitude": "27.42111000",
+    "native": "Jõhvi vald",
     "timezone": "Europe/Tallinn",
     "translations": {}
   },
@@ -720,21 +720,6 @@
     "translations": {}
   },
   {
-    "id": 3562,
-    "name": "Pärnu",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "68",
-    "iso3166_2": "EE-68",
-    "type": "county",
-    "latitude": "58.38708330",
-    "longitude": "24.50283100",
-    "native": "Pärnu",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
     "id": 5808,
     "name": "Pärnu",
     "country_id": 69,
@@ -745,6 +730,21 @@
     "type": "urban municipality",
     "latitude": "58.38060000",
     "longitude": "24.49890000",
+    "native": "Pärnu",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
+    "id": 3562,
+    "name": "Pärnu",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "68",
+    "iso3166_2": "EE-68",
+    "type": "county",
+    "latitude": "58.38708330",
+    "longitude": "24.50283100",
     "native": "Pärnu",
     "timezone": "Europe/Tallinn",
     "translations": {}
@@ -915,21 +915,6 @@
     "translations": {}
   },
   {
-    "id": 5777,
-    "name": "Rapla",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "668",
-    "iso3166_2": "EE-668",
-    "type": "rural municipality",
-    "latitude": "58.98330000",
-    "longitude": "24.80000000",
-    "native": "Rapla",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
     "id": 3559,
     "name": "Rapla",
     "country_id": 69,
@@ -940,6 +925,21 @@
     "type": "county",
     "latitude": "58.94197810",
     "longitude": "24.69840420",
+    "native": "Rapla",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
+    "id": 5777,
+    "name": "Rapla",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "668",
+    "iso3166_2": "EE-668",
+    "type": "rural municipality",
+    "latitude": "58.98330000",
+    "longitude": "24.80000000",
     "native": "Rapla",
     "timezone": "Europe/Tallinn",
     "translations": {}
@@ -1110,21 +1110,6 @@
     "translations": {}
   },
   {
-    "id": 5812,
-    "name": "Tartu",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "793",
-    "iso3166_2": "EE-793",
-    "type": "urban municipality",
-    "latitude": "58.37800000",
-    "longitude": "26.72900000",
-    "native": "Tartu",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
     "id": 3557,
     "name": "Tartu",
     "country_id": 69,
@@ -1135,6 +1120,21 @@
     "type": "county",
     "latitude": "58.38012070",
     "longitude": "26.72245000",
+    "native": "Tartu",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
+    "id": 5812,
+    "name": "Tartu",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "793",
+    "iso3166_2": "EE-793",
+    "type": "urban municipality",
+    "latitude": "58.37800000",
+    "longitude": "26.72900000",
     "native": "Tartu",
     "timezone": "Europe/Tallinn",
     "translations": {}
@@ -1151,21 +1151,6 @@
     "latitude": "58.37800000",
     "longitude": "26.72900000",
     "native": "Tartu",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
-    "id": 5788,
-    "name": "Toila",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "803",
-    "iso3166_2": "EE-803",
-    "type": "rural municipality",
-    "latitude": "59.41670000",
-    "longitude": "27.51670000",
-    "native": "Toila",
     "timezone": "Europe/Tallinn",
     "translations": {}
   },
@@ -1275,6 +1260,21 @@
     "translations": {}
   },
   {
+    "id": 5794,
+    "name": "Viljandi",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "899",
+    "iso3166_2": "EE-899",
+    "type": "rural municipality",
+    "latitude": "58.36390000",
+    "longitude": "25.59000000",
+    "native": "Viljandi",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
     "id": 5813,
     "name": "Viljandi",
     "country_id": 69,
@@ -1300,21 +1300,6 @@
     "type": "county",
     "latitude": "58.36454000",
     "longitude": "25.58780740",
-    "native": "Viljandi",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
-    "id": 5794,
-    "name": "Viljandi",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "899",
-    "iso3166_2": "EE-899",
-    "type": "rural municipality",
-    "latitude": "58.36390000",
-    "longitude": "25.59000000",
     "native": "Viljandi",
     "timezone": "Europe/Tallinn",
     "translations": {}
@@ -1365,21 +1350,6 @@
     "translations": {}
   },
   {
-    "id": 5798,
-    "name": "Võru",
-    "country_id": 69,
-    "country_code": "EE",
-    "fips_code": null,
-    "iso2": "917",
-    "iso3166_2": "EE-917",
-    "type": "rural municipality",
-    "latitude": "57.84310000",
-    "longitude": "27.01420000",
-    "native": "Võru",
-    "timezone": "Europe/Tallinn",
-    "translations": {}
-  },
-  {
     "id": 3560,
     "name": "Võru",
     "country_id": 69,
@@ -1390,6 +1360,21 @@
     "type": "county",
     "latitude": "57.81326070",
     "longitude": "26.98475760",
+    "native": "Võru",
+    "timezone": "Europe/Tallinn",
+    "translations": {}
+  },
+  {
+    "id": 5798,
+    "name": "Võru",
+    "country_id": 69,
+    "country_code": "EE",
+    "fips_code": null,
+    "iso2": "917",
+    "iso3166_2": "EE-917",
+    "type": "rural municipality",
+    "latitude": "57.84310000",
+    "longitude": "27.01420000",
     "native": "Võru",
     "timezone": "Europe/Tallinn",
     "translations": {}

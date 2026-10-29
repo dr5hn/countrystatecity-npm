@@ -64,22 +64,6 @@
     "wikiDataId": "Q638046"
   },
   {
-    "id": 49409,
-    "name": "East Renfrewshire",
-    "state_id": 2333,
-    "state_code": "ERW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "55.75000000",
-    "longitude": "-4.33333000",
-    "native": "East Renfrewshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": 95530,
-    "wikiDataId": "Q211925"
-  },
-  {
     "id": 49639,
     "name": "Giffnock",
     "state_id": 2333,
@@ -91,7 +75,7 @@
     "native": "Giffnock",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "section",
+    "type": "adm2",
     "population": 12300,
     "wikiDataId": "Q1016935"
   },

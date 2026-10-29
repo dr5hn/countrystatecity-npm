@@ -16,22 +16,6 @@
     "wikiDataId": "Q1166116"
   },
   {
-    "id": 80841,
-    "name": "Caraz",
-    "state_id": 3680,
-    "state_code": "ANC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-9.04722222",
-    "longitude": "-77.81083333",
-    "native": "Caraz",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1035471"
-  },
-  {
     "id": 80594,
     "name": "Caraz",
     "state_id": 3680,
@@ -45,10 +29,26 @@
     "translations": {},
     "type": "municipality",
     "population": 503,
-    "wikiDataId": "Q2697294"
+    "wikiDataId": null
   },
   {
-    "id": 80592,
+    "id": 166891,
+    "name": "Caraz",
+    "state_id": 3680,
+    "state_code": "ANC",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-9.04833333",
+    "longitude": "-77.81083333",
+    "native": "Caraz",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1035471"
+  },
+  {
+    "id": 167874,
     "name": "Carhuaz",
     "state_id": 3680,
     "state_code": "ANC",
@@ -64,14 +64,14 @@
     "wikiDataId": "Q2697185"
   },
   {
-    "id": 80796,
+    "id": 166878,
     "name": "Carhuaz",
     "state_id": 3680,
     "state_code": "ANC",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-9.28055556",
-    "longitude": "-77.64694444",
+    "latitude": "-9.28138889",
+    "longitude": "-77.64638889",
     "native": "Carhuaz",
     "timezone": "America/Lima",
     "translations": {},
@@ -109,17 +109,17 @@
     "translations": {},
     "type": "municipality",
     "population": 395100,
-    "wikiDataId": "Q2698844"
+    "wikiDataId": null
   },
   {
-    "id": 80890,
+    "id": 166906,
     "name": "Chimbote",
     "state_id": 3680,
     "state_code": "ANC",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-9.07583333",
-    "longitude": "-78.58416667",
+    "latitude": "-9.07454444",
+    "longitude": "-78.59357222",
     "native": "Chimbote",
     "timezone": "America/Lima",
     "translations": {},
@@ -141,7 +141,7 @@
     "translations": {},
     "type": "municipality",
     "population": 15979,
-    "wikiDataId": "Q2697809"
+    "wikiDataId": null
   },
   {
     "id": 80656,
@@ -157,7 +157,7 @@
     "translations": {},
     "type": "municipality",
     "population": 118836,
-    "wikiDataId": "Q2697234"
+    "wikiDataId": null
   },
   {
     "id": 80658,
@@ -173,17 +173,17 @@
     "translations": {},
     "type": "municipality",
     "population": 16172,
-    "wikiDataId": "Q2697693"
+    "wikiDataId": null
   },
   {
-    "id": 80839,
+    "id": 166890,
     "name": "Huarmey",
     "state_id": 3680,
     "state_code": "ANC",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-10.06972222",
-    "longitude": "-78.15166667",
+    "latitude": "-10.06876300",
+    "longitude": "-78.15222100",
     "native": "Huarmey",
     "timezone": "America/Lima",
     "translations": {},
@@ -205,17 +205,17 @@
     "translations": {},
     "type": "municipality",
     "population": 4453,
-    "wikiDataId": "Q2697784"
+    "wikiDataId": null
   },
   {
-    "id": 80880,
+    "id": 166903,
     "name": "Pomabamba",
     "state_id": 3680,
     "state_code": "ANC",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-8.81472222",
-    "longitude": "-77.45916667",
+    "latitude": "-8.82000000",
+    "longitude": "-77.46055556",
     "native": "Pomabamba",
     "timezone": "America/Lima",
     "translations": {},
@@ -413,7 +413,7 @@
     "translations": {},
     "type": "city",
     "population": 14066,
-    "wikiDataId": "Q541435"
+    "wikiDataId": null
   },
   {
     "id": 81017,
@@ -432,22 +432,6 @@
     "wikiDataId": "Q2696377"
   },
   {
-    "id": 80911,
-    "name": "Yungay",
-    "state_id": 3680,
-    "state_code": "ANC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-9.13750000",
-    "longitude": "-77.74750000",
-    "native": "Yungay",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q919678"
-  },
-  {
     "id": 81018,
     "name": "Yungay",
     "state_id": 3680,
@@ -461,6 +445,22 @@
     "translations": {},
     "type": "municipality",
     "population": 5269,
-    "wikiDataId": "Q2698719"
+    "wikiDataId": null
+  },
+  {
+    "id": 166915,
+    "name": "Yungay",
+    "state_id": 3680,
+    "state_code": "ANC",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-9.13888889",
+    "longitude": "-77.74444444",
+    "native": "Yungay",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q919678"
   }
 ]

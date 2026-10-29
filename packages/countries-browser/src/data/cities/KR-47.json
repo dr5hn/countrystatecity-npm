@@ -59,9 +59,9 @@
     "native": "청도군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42146"
+    "wikiDataId": null
   },
   {
     "id": 65290,
@@ -75,9 +75,9 @@
     "native": "청송군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 31313,
-    "wikiDataId": "Q42147"
+    "wikiDataId": null
   },
   {
     "id": 65294,
@@ -109,7 +109,7 @@
     "translations": {},
     "type": "city",
     "population": 56006,
-    "wikiDataId": "Q50383"
+    "wikiDataId": null
   },
   {
     "id": 65335,
@@ -155,9 +155,9 @@
     "native": "고령군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42062"
+    "wikiDataId": null
   },
   {
     "id": 65351,
@@ -174,22 +174,6 @@
     "type": "city",
     "population": null,
     "wikiDataId": "Q42073"
-  },
-  {
-    "id": 65355,
-    "name": "Gunwi-gun",
-    "state_id": 3855,
-    "state_code": "47",
-    "country_id": 116,
-    "country_code": "KR",
-    "latitude": "36.16995000",
-    "longitude": "128.64705000",
-    "native": "군위군",
-    "timezone": "Asia/Seoul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q50215"
   },
   {
     "id": 65369,
@@ -221,7 +205,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q42097"
+    "wikiDataId": null
   },
   {
     "id": 65381,
@@ -235,9 +219,9 @@
     "native": "하양",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 27236,
-    "wikiDataId": "Q50341"
+    "wikiDataId": null
   },
   {
     "id": 65382,
@@ -253,7 +237,7 @@
     "translations": {},
     "type": "adm3",
     "population": 36080,
-    "wikiDataId": "Q50341"
+    "wikiDataId": null
   },
   {
     "id": 65408,
@@ -267,25 +251,9 @@
     "native": "젠잔",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20673,
-    "wikiDataId": "Q42142"
-  },
-  {
-    "id": 65431,
-    "name": "Kunwi",
-    "state_id": 3855,
-    "state_code": "47",
-    "country_id": 116,
-    "country_code": "KR",
-    "latitude": "36.23472000",
-    "longitude": "128.57278000",
-    "native": "쿤위",
-    "timezone": "Asia/Seoul",
-    "translations": {},
-    "type": "city",
-    "population": 34293,
-    "wikiDataId": "Q42077"
+    "wikiDataId": null
   },
   {
     "id": 65446,
@@ -379,9 +347,9 @@
     "native": "성주군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q50411"
+    "wikiDataId": null
   },
   {
     "id": 65522,
@@ -395,9 +363,9 @@
     "native": "의성군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q50316"
+    "wikiDataId": null
   },
   {
     "id": 65524,
@@ -411,9 +379,9 @@
     "native": "울진군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42134"
+    "wikiDataId": null
   },
   {
     "id": 65526,
@@ -443,9 +411,9 @@
     "native": "왜관",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 29691,
-    "wikiDataId": "Q485570"
+    "wikiDataId": null
   },
   {
     "id": 65544,
@@ -477,7 +445,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q50262"
+    "wikiDataId": null
   },
   {
     "id": 65550,
@@ -509,7 +477,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q50259"
+    "wikiDataId": null
   },
   {
     "id": 65558,
@@ -541,6 +509,6 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
-    "wikiDataId": "Q50263"
+    "wikiDataId": null
   }
 ]

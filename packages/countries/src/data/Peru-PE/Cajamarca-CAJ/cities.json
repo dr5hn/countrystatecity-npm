@@ -1,6 +1,22 @@
 [
   {
-    "id": 80826,
+    "id": 80573,
+    "name": "Bambamarca",
+    "state_id": 3688,
+    "state_code": "CAJ",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-6.68333000",
+    "longitude": "-78.53333000",
+    "native": "Bambamarca",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "municipality",
+    "population": 13351,
+    "wikiDataId": null
+  },
+  {
+    "id": 166885,
     "name": "Bambamarca",
     "state_id": 3688,
     "state_code": "CAJ",
@@ -16,22 +32,6 @@
     "wikiDataId": "Q3348274"
   },
   {
-    "id": 80573,
-    "name": "Bambamarca",
-    "state_id": 3688,
-    "state_code": "CAJ",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.68333000",
-    "longitude": "-78.53333000",
-    "native": "Bambamarca",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "municipality",
-    "population": 13351,
-    "wikiDataId": "Q4853328"
-  },
-  {
     "id": 80580,
     "name": "Cajabamba",
     "state_id": 3688,
@@ -45,17 +45,17 @@
     "translations": {},
     "type": "municipality",
     "population": 13486,
-    "wikiDataId": "Q5017974"
+    "wikiDataId": null
   },
   {
-    "id": 80785,
+    "id": 166876,
     "name": "Cajabamba",
     "state_id": 3688,
     "state_code": "CAJ",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-7.62222222",
-    "longitude": "-78.04722222",
+    "latitude": "-7.62372222",
+    "longitude": "-78.04603056",
     "native": "Cajabamba",
     "timezone": "America/Lima",
     "translations": {},
@@ -77,7 +77,7 @@
     "translations": {},
     "type": "municipality",
     "population": 201329,
-    "wikiDataId": "Q3312431"
+    "wikiDataId": null
   },
   {
     "id": 80600,
@@ -93,39 +93,23 @@
     "translations": {},
     "type": "municipality",
     "population": 14660,
-    "wikiDataId": "Q5057809"
+    "wikiDataId": null
   },
   {
-    "id": 80802,
+    "id": 166879,
     "name": "Celendín",
     "state_id": 3688,
     "state_code": "CAJ",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-6.86805556",
-    "longitude": "-78.14888889",
+    "latitude": "-6.86590556",
+    "longitude": "-78.14489167",
     "native": "Celendín",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
     "wikiDataId": "Q3344002"
-  },
-  {
-    "id": 80806,
-    "name": "Chota",
-    "state_id": 3688,
-    "state_code": "CAJ",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-6.56305556",
-    "longitude": "-78.65083333",
-    "native": "Chota",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q2964558"
   },
   {
     "id": 80623,
@@ -141,23 +125,23 @@
     "translations": {},
     "type": "municipality",
     "population": 14240,
-    "wikiDataId": "Q5265974"
+    "wikiDataId": null
   },
   {
-    "id": 80814,
-    "name": "Contumazá",
+    "id": 166882,
+    "name": "Chota",
     "state_id": 3688,
     "state_code": "CAJ",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-7.36527778",
-    "longitude": "-78.80638889",
-    "native": "Contumazá",
+    "latitude": "-6.56138889",
+    "longitude": "-78.64861111",
+    "native": "Chota",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q3344032"
+    "wikiDataId": "Q2964558"
   },
   {
     "id": 165437,
@@ -173,7 +157,23 @@
     "translations": {},
     "type": "municipality",
     "population": null,
-    "wikiDataId": "Q5166038"
+    "wikiDataId": null
+  },
+  {
+    "id": 166884,
+    "name": "Contumazá",
+    "state_id": 3688,
+    "state_code": "CAJ",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-7.36651667",
+    "longitude": "-78.80511667",
+    "native": "Contumazá",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q3344032"
   },
   {
     "id": 80678,
@@ -189,7 +189,7 @@
     "translations": {},
     "type": "municipality",
     "population": 52493,
-    "wikiDataId": "Q15116736"
+    "wikiDataId": null
   },
   {
     "id": 80786,
@@ -272,7 +272,7 @@
     "wikiDataId": "Q2084630"
   },
   {
-    "id": 80944,
+    "id": 167883,
     "name": "San Ignacio",
     "state_id": 3688,
     "state_code": "CAJ",

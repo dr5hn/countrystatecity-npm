@@ -64,23 +64,7 @@
     "wikiDataId": "Q6055"
   },
   {
-    "id": 56452,
-    "name": "Kepulauan Mentawai",
-    "state_id": 1828,
-    "state_code": "SB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.98917000",
-    "longitude": "99.51889000",
-    "native": "Kabupaten Kepulauan Mentawai",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q6038"
-  },
-  {
-    "id": 56318,
+    "id": 166625,
     "name": "Lubuk Basung",
     "state_id": 1828,
     "state_code": "SB",
@@ -94,6 +78,22 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q137767019"
+  },
+  {
+    "id": 166789,
+    "name": "Lubuk Sikaping",
+    "state_id": 1828,
+    "state_code": "SB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.14411000",
+    "longitude": "100.16570000",
+    "native": "Lubuk Sikaping",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56893,
@@ -112,7 +112,7 @@
     "wikiDataId": "Q7253"
   },
   {
-    "id": 56639,
+    "id": 166819,
     "name": "Padang Aro",
     "state_id": 1828,
     "state_code": "SB",
@@ -176,7 +176,7 @@
     "wikiDataId": "Q7258"
   },
   {
-    "id": 56571,
+    "id": 166782,
     "name": "Parik Malintang",
     "state_id": 1828,
     "state_code": "SB",
@@ -190,22 +190,6 @@
     "type": "village",
     "population": null,
     "wikiDataId": "Q7137504"
-  },
-  {
-    "id": 56579,
-    "name": "Pasaman",
-    "state_id": 1828,
-    "state_code": "SB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "0.42503000",
-    "longitude": "99.94606000",
-    "native": "Kabupaten Pasaman",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q6048"
   },
   {
     "id": 56923,
@@ -224,7 +208,7 @@
     "wikiDataId": "Q7261"
   },
   {
-    "id": 56398,
+    "id": 166672,
     "name": "Pulau Punjung",
     "state_id": 1828,
     "state_code": "SB",
@@ -240,7 +224,7 @@
     "wikiDataId": "Q138791068"
   },
   {
-    "id": 56494,
+    "id": 166732,
     "name": "Sarilamak",
     "state_id": 1828,
     "state_code": "SB",
@@ -269,7 +253,7 @@
     "translations": {},
     "type": "adm3",
     "population": 27786,
-    "wikiDataId": "Q5984"
+    "wikiDataId": null
   },
   {
     "id": 164823,
@@ -302,5 +286,21 @@
     "type": "city",
     "population": 73438,
     "wikiDataId": "Q7266"
+  },
+  {
+    "id": 166706,
+    "name": "Tuapejat",
+    "state_id": 1828,
+    "state_code": "SB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-2.02833000",
+    "longitude": "99.58944000",
+    "native": "Tuapejat",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

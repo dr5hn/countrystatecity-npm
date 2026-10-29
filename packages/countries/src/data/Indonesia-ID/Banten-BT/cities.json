@@ -1,5 +1,21 @@
 [
   {
+    "id": 166812,
+    "name": "Ciruas",
+    "state_id": 1810,
+    "state_code": "BT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.12500000",
+    "longitude": "106.23278000",
+    "native": "Ciruas",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 56257,
     "name": "Kota Cilegon",
     "state_id": 1810,
@@ -48,22 +64,6 @@
     "wikiDataId": "Q10128"
   },
   {
-    "id": 56491,
-    "name": "Lebak",
-    "state_id": 1810,
-    "state_code": "BT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.65000000",
-    "longitude": "106.21667000",
-    "native": "Kabupaten Lebak",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10119"
-  },
-  {
     "id": 56905,
     "name": "Pamulang",
     "state_id": 1810,
@@ -80,36 +80,36 @@
     "wikiDataId": "Q24849733"
   },
   {
-    "id": 56574,
+    "id": 166784,
     "name": "Pandeglang",
     "state_id": 1810,
     "state_code": "BT",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.63333000",
-    "longitude": "105.75000000",
-    "native": "Kabupaten Pandeglang",
+    "latitude": "-6.30840000",
+    "longitude": "106.10670000",
+    "native": "Pandeglang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10121"
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
-    "id": 56623,
-    "name": "Serang",
+    "id": 166729,
+    "name": "Rangkasbitung",
     "state_id": 1810,
     "state_code": "BT",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.15000000",
-    "longitude": "106.00000000",
-    "native": "Kabupaten Serang",
+    "latitude": "-6.35910000",
+    "longitude": "106.24940000",
+    "native": "Rangkasbitung",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q10122"
+    "wikiDataId": null
   },
   {
     "id": 56971,
@@ -128,22 +128,6 @@
     "wikiDataId": "Q24838071"
   },
   {
-    "id": 56666,
-    "name": "Tangerang",
-    "state_id": 1810,
-    "state_code": "BT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.20000000",
-    "longitude": "106.46667000",
-    "native": "Kabupaten Tangerang",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10123"
-  },
-  {
     "id": 57014,
     "name": "Tangerang",
     "state_id": 1810,
@@ -158,5 +142,21 @@
     "type": "city",
     "population": 1912679,
     "wikiDataId": "Q10127"
+  },
+  {
+    "id": 166834,
+    "name": "Tigaraksa",
+    "state_id": 1810,
+    "state_code": "BT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.22806000",
+    "longitude": "106.51389000",
+    "native": "Tigaraksa",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

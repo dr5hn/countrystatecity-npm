@@ -11,7 +11,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 78356,
     "wikiDataId": "Q637774"
   },
@@ -27,9 +27,9 @@
     "native": "बागरा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 11364,
-    "wikiDataId": "Q1797363"
+    "wikiDataId": "Q26791610"
   },
   {
     "id": 57880,
@@ -43,9 +43,9 @@
     "native": "बरका काना",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 18475,
-    "wikiDataId": "Q2552248"
+    "wikiDataId": null
   },
   {
     "id": 57878,
@@ -61,7 +61,7 @@
     "translations": {},
     "type": "city",
     "population": 24134,
-    "wikiDataId": "Q712381"
+    "wikiDataId": null
   },
   {
     "id": 57889,
@@ -75,7 +75,7 @@
     "native": "बरवाडीह",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7888,
     "wikiDataId": "Q712480"
   },
@@ -91,7 +91,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q634305"
   },
@@ -107,7 +107,7 @@
     "native": "भोजूडीह",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 9109,
     "wikiDataId": "Q795805"
   },
@@ -139,9 +139,9 @@
     "native": "बुंडू",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21054,
-    "wikiDataId": "Q862612"
+    "wikiDataId": null
   },
   {
     "id": 131608,
@@ -219,7 +219,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 27425,
     "wikiDataId": "Q858238"
   },
@@ -267,7 +267,7 @@
     "native": "चिरिया",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3945,
     "wikiDataId": "Q1193823"
   },
@@ -299,7 +299,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 22837,
     "wikiDataId": "Q24938661"
   },
@@ -315,7 +315,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 24876,
     "wikiDataId": "Q1190851"
   },
@@ -379,7 +379,7 @@
     "native": "दुग्दा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 22740,
     "wikiDataId": "Q1387263"
   },
@@ -400,6 +400,22 @@
     "wikiDataId": "Q2577657"
   },
   {
+    "id": 147475,
+    "name": "Garhwa",
+    "state_id": 4025,
+    "state_code": "JH",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "24.18000000",
+    "longitude": "83.82000000",
+    "native": "गढ़वा",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "municipality",
+    "population": 0,
+    "wikiDataId": "Q1656897"
+  },
+  {
     "id": 131922,
     "name": "Garhwa",
     "state_id": 4025,
@@ -411,9 +427,9 @@
     "native": "गढ़वा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": "Q1655903"
+    "wikiDataId": null
   },
   {
     "id": 131952,
@@ -445,7 +461,7 @@
     "translations": {},
     "type": "city",
     "population": 143529,
-    "wikiDataId": "Q1524976"
+    "wikiDataId": null
   },
   {
     "id": 131962,
@@ -459,25 +475,25 @@
     "native": "गोविंदपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 27066,
     "wikiDataId": "Q1706442"
   },
   {
-    "id": 131963,
+    "id": 167533,
     "name": "Godda",
     "state_id": 4025,
     "state_code": "JH",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "24.83333000",
-    "longitude": "87.21667000",
+    "latitude": "24.83000000",
+    "longitude": "87.22000000",
     "native": "गोड्डा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 37007,
-    "wikiDataId": "Q638980"
+    "wikiDataId": null
   },
   {
     "id": 131980,
@@ -507,9 +523,9 @@
     "native": "गोपीनाथपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4688,
-    "wikiDataId": "Q2428556"
+    "wikiDataId": "Q26789478"
   },
   {
     "id": 132006,
@@ -523,7 +539,7 @@
     "native": "गुआ",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 12554,
     "wikiDataId": "Q2738419"
   },
@@ -539,25 +555,25 @@
     "native": "गुमिया",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 48141,
     "wikiDataId": "Q1707401"
   },
   {
-    "id": 132021,
+    "id": 167536,
     "name": "Gumla",
     "state_id": 4025,
     "state_code": "JH",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "23.08055000",
-    "longitude": "84.53834000",
+    "latitude": "23.04444444",
+    "longitude": "84.54166667",
     "native": "गुमला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 80129,
-    "wikiDataId": "Q2295865"
+    "wikiDataId": null
   },
   {
     "id": 132092,
@@ -603,7 +619,7 @@
     "native": "हेस्ला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6286,
     "wikiDataId": "Q1707332"
   },
@@ -621,7 +637,7 @@
     "translations": {},
     "type": "city",
     "population": 29241,
-    "wikiDataId": "Q1755397"
+    "wikiDataId": null
   },
   {
     "id": 132183,
@@ -635,9 +651,9 @@
     "native": "जगन्नाथपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7310,
-    "wikiDataId": "Q2010464"
+    "wikiDataId": "Q26788829"
   },
   {
     "id": 132308,
@@ -672,20 +688,20 @@
     "wikiDataId": "Q200054"
   },
   {
-    "id": 132232,
+    "id": 167546,
     "name": "Jamtara",
     "state_id": 4025,
     "state_code": "JH",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "24.00000000",
-    "longitude": "86.85000000",
+    "latitude": "23.95000000",
+    "longitude": "86.80000000",
     "native": "जामताड़ा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 29415,
-    "wikiDataId": "Q2980986"
+    "wikiDataId": null
   },
   {
     "id": 132246,
@@ -763,7 +779,7 @@
     "native": "कालिकापुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4061,
     "wikiDataId": "Q654120"
   },
@@ -795,7 +811,7 @@
     "native": "कांके",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17560,
     "wikiDataId": "Q660473"
   },
@@ -843,7 +859,7 @@
     "native": "खरसावां",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 7216,
     "wikiDataId": "Q2120338"
   },
@@ -896,36 +912,36 @@
     "wikiDataId": "Q1925136"
   },
   {
-    "id": 132758,
+    "id": 167557,
     "name": "Latehar",
     "state_id": 4025,
     "state_code": "JH",
     "country_id": 101,
     "country_code": "IN",
     "latitude": "23.75000000",
-    "longitude": "84.40000000",
+    "longitude": "84.50000000",
     "native": "लातेहार",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19067,
-    "wikiDataId": "Q2244762"
+    "wikiDataId": null
   },
   {
-    "id": 132768,
+    "id": 167558,
     "name": "Lohardaga",
     "state_id": 4025,
     "state_code": "JH",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "23.50000000",
-    "longitude": "84.60000000",
+    "latitude": "23.43000000",
+    "longitude": "84.68000000",
     "native": "लोहरदगा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "area",
-    "population": 461790,
-    "wikiDataId": "Q1948301"
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 132816,
@@ -955,7 +971,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": null,
     "wikiDataId": "Q2227385"
   },
@@ -987,9 +1003,9 @@
     "native": "मनोहरपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 13189,
-    "wikiDataId": "Q931999"
+    "wikiDataId": "Q26783832"
   },
   {
     "id": 131648,
@@ -1019,7 +1035,7 @@
     "native": "मुग्मा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3195,
     "wikiDataId": "Q2738433"
   },
@@ -1067,7 +1083,7 @@
     "native": "नेतुरहाट",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 4424,
     "wikiDataId": "Q12436050"
   },
@@ -1099,7 +1115,7 @@
     "native": "नोआमुंडी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 17954,
     "wikiDataId": "Q2738436"
   },
@@ -1149,7 +1165,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q1390016"
+    "wikiDataId": null
   },
   {
     "id": 134446,
@@ -1165,7 +1181,7 @@
     "translations": {},
     "type": "city",
     "population": 10655,
-    "wikiDataId": "Q663062"
+    "wikiDataId": null
   },
   {
     "id": 133557,
@@ -1195,7 +1211,7 @@
     "native": null,
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 32899,
     "wikiDataId": "Q2465700"
   },
@@ -1229,7 +1245,23 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q2453330"
+    "wikiDataId": null
+  },
+  {
+    "id": 142066,
+    "name": "Rajmahal",
+    "state_id": 4025,
+    "state_code": "JH",
+    "country_id": 101,
+    "country_code": "IN",
+    "latitude": "25.05000000",
+    "longitude": "87.84000000",
+    "native": "राजमहल",
+    "timezone": "Asia/Kolkata",
+    "translations": {},
+    "type": "municipality",
+    "population": 9536,
+    "wikiDataId": "Q2355927"
   },
   {
     "id": 133604,
@@ -1275,9 +1307,9 @@
     "native": "रे",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6977,
-    "wikiDataId": "Q667224"
+    "wikiDataId": null
   },
   {
     "id": 133752,
@@ -1323,9 +1355,9 @@
     "native": "सारूबेरा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 3310,
-    "wikiDataId": "Q2317301"
+    "wikiDataId": null
   },
   {
     "id": 164851,
@@ -1387,7 +1419,7 @@
     "native": "सिनी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6382,
     "wikiDataId": "Q3961862"
   },
@@ -1403,7 +1435,7 @@
     "native": "तोपचांची",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 6082,
     "wikiDataId": "Q2735194"
   }

@@ -27,7 +27,7 @@
     "native": "Drniš",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "locality",
+    "type": "adm2",
     "population": 2752,
     "wikiDataId": "Q398131"
   },
@@ -59,8 +59,8 @@
     "native": "Grad Šibenik",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
-    "population": 42599,
+    "type": "adm1",
+    "population": 31115,
     "wikiDataId": "Q3549"
   },
   {
@@ -171,7 +171,7 @@
     "native": "Primošten",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 1555,
     "wikiDataId": "Q837474"
   },
@@ -219,8 +219,8 @@
     "native": "Rogoznica Općina",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "municipality",
-    "population": 2106,
+    "type": "adm2",
+    "population": null,
     "wikiDataId": "Q1013147"
   },
   {
@@ -253,7 +253,7 @@
     "translations": {},
     "type": "city",
     "population": 508,
-    "wikiDataId": "Q81654666"
+    "wikiDataId": null
   },
   {
     "id": 54936,
@@ -299,7 +299,7 @@
     "native": "Vodice",
     "timezone": "Europe/Zagreb",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 6592,
     "wikiDataId": "Q750427"
   }

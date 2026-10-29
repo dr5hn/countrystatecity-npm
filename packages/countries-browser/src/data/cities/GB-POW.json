@@ -93,7 +93,7 @@
     "translations": {},
     "type": "town",
     "population": 0,
-    "wikiDataId": "Q24670729"
+    "wikiDataId": "Q174734"
   },
   {
     "id": 50219,
@@ -123,7 +123,7 @@
     "native": "Llandrindod Wells",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 5598,
     "wikiDataId": "Q1024885"
   },
@@ -155,7 +155,7 @@
     "native": "Llanfyllin",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 1105,
     "wikiDataId": "Q2588223"
   },
@@ -203,7 +203,7 @@
     "native": "Llanrhaeadr-ym-Mochnant",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "village",
+    "type": "adm3",
     "population": 408,
     "wikiDataId": "Q1026572"
   },
@@ -270,22 +270,6 @@
     "type": "town",
     "population": 1824,
     "wikiDataId": "Q1681386"
-  },
-  {
-    "id": 51315,
-    "name": "Sir Powys",
-    "state_id": 2441,
-    "state_code": "POW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "52.33333000",
-    "longitude": "-3.41667000",
-    "native": "Sir Powys",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": null,
-    "wikiDataId": "Q156150"
   },
   {
     "id": 51550,

@@ -43,7 +43,7 @@
     "native": "Buckley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 63576,
     "wikiDataId": "Q2019227"
   },
@@ -64,22 +64,6 @@
     "wikiDataId": "Q2483466"
   },
   {
-    "id": 49123,
-    "name": "County of Flintshire",
-    "state_id": 2437,
-    "state_code": "FLN",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "53.25000000",
-    "longitude": "-3.16667000",
-    "native": "County of Flintshire",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "area",
-    "population": null,
-    "wikiDataId": "Q505610"
-  },
-  {
     "id": 49254,
     "name": "Deeside",
     "state_id": 2437,
@@ -96,6 +80,22 @@
     "wikiDataId": "Q3405926"
   },
   {
+    "id": 166597,
+    "name": "Ewloe",
+    "state_id": 2437,
+    "state_code": "FLN",
+    "country_id": 232,
+    "country_code": "GB",
+    "latitude": "53.18900000",
+    "longitude": "-3.04400000",
+    "native": "Ewloe",
+    "timezone": "Europe/London",
+    "translations": {},
+    "type": "section",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 49574,
     "name": "Flint",
     "state_id": 2437,
@@ -107,7 +107,7 @@
     "native": "Flint",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 26442,
     "wikiDataId": "Q1428848"
   },
@@ -171,7 +171,7 @@
     "native": "Holywell",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 6969,
     "wikiDataId": "Q3050619"
   },
@@ -187,7 +187,7 @@
     "native": "Hope",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "village",
+    "type": "adm3",
     "population": 4706,
     "wikiDataId": "Q1985810"
   },
@@ -219,7 +219,7 @@
     "native": "Mold",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 10155,
     "wikiDataId": "Q1191195"
   },

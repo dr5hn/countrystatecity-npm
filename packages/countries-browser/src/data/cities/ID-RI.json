@@ -48,7 +48,7 @@
     "wikiDataId": "Q4855188"
   },
   {
-    "id": 56354,
+    "id": 166645,
     "name": "Bengkalis",
     "state_id": 1809,
     "state_code": "RI",
@@ -80,22 +80,6 @@
     "wikiDataId": "Q7782"
   },
   {
-    "id": 56424,
-    "name": "Indragiri Hilir",
-    "state_id": 1809,
-    "state_code": "RI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-0.33333000",
-    "longitude": "103.16667000",
-    "native": "Kabupaten Indragiri Hilir",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q7599"
-  },
-  {
     "id": 56453,
     "name": "Kepulauan Meranti",
     "state_id": 1809,
@@ -110,6 +94,22 @@
     "type": "regency",
     "population": null,
     "wikiDataId": "Q7630"
+  },
+  {
+    "id": 166793,
+    "name": "Pangkalan Kerinci",
+    "state_id": 1809,
+    "state_code": "RI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.39611000",
+    "longitude": "101.85722000",
+    "native": "Pangkalan Kerinci",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 56927,
@@ -128,23 +128,7 @@
     "wikiDataId": "Q7786"
   },
   {
-    "id": 56586,
-    "name": "Pelalawan",
-    "state_id": 1809,
-    "state_code": "RI",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "0.20822000",
-    "longitude": "102.18607000",
-    "native": "Kabupaten Pelalawan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q7641"
-  },
-  {
-    "id": 56425,
+    "id": 166690,
     "name": "Rengat",
     "state_id": 1809,
     "state_code": "RI",
@@ -208,7 +192,7 @@
     "wikiDataId": "Q3482884"
   },
   {
-    "id": 56471,
+    "id": 166718,
     "name": "Teluk Kuantan",
     "state_id": 1809,
     "state_code": "RI",
@@ -222,5 +206,21 @@
     "type": "town",
     "population": null,
     "wikiDataId": "Q123436782"
+  },
+  {
+    "id": 166689,
+    "name": "Tembilahan",
+    "state_id": 1809,
+    "state_code": "RI",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-0.32270000",
+    "longitude": "103.16030000",
+    "native": "Tembilahan",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
   }
 ]

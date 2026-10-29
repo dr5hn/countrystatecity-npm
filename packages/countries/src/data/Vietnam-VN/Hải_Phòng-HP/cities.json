@@ -11,7 +11,7 @@
     "native": "Cát Bà",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 30000,
     "wikiDataId": null
   },
@@ -46,22 +46,6 @@
     "type": "city",
     "population": 2625200,
     "wikiDataId": null
-  },
-  {
-    "id": 130221,
-    "name": "Huyện Bình Giang",
-    "state_id": 3783,
-    "state_code": "HP",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "20.87586000",
-    "longitude": "106.19138000",
-    "native": "Huyện Bình Giang",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q3031078"
   },
   {
     "id": 130274,
@@ -112,22 +96,6 @@
     "wikiDataId": "Q3031344"
   },
   {
-    "id": 130376,
-    "name": "Huyện Nam Sách",
-    "state_id": 3783,
-    "state_code": "HP",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "21.00484000",
-    "longitude": "106.34042000",
-    "native": "Huyện Nam Sách",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q3031601"
-  },
-  {
     "id": 130438,
     "name": "Huyện Thanh Miện",
     "state_id": 3783,
@@ -142,6 +110,38 @@
     "type": "adm2",
     "population": null,
     "wikiDataId": "Q3031911"
+  },
+  {
+    "id": 167919,
+    "name": "Kẻ Sặt",
+    "state_id": 3783,
+    "state_code": "HP",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "20.91007000",
+    "longitude": "106.14771000",
+    "native": "Kẻ Sặt",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 168023,
+    "name": "Nam Sách",
+    "state_id": 3783,
+    "state_code": "HP",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "20.99205000",
+    "longitude": "106.33613000",
+    "native": "Nam Sách",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 130609,

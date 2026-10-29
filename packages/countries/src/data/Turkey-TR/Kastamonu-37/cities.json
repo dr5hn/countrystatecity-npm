@@ -11,7 +11,7 @@
     "native": "Abana",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4248,
     "wikiDataId": null
   },
@@ -27,7 +27,7 @@
     "native": "Ağlı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2306,
     "wikiDataId": "Q2491340"
   },
@@ -43,7 +43,7 @@
     "native": "Araç",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5590,
     "wikiDataId": null
   },
@@ -59,9 +59,9 @@
     "native": "Azdavay",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3287,
-    "wikiDataId": null
+    "wikiDataId": "Q1871083"
   },
   {
     "id": 107383,
@@ -88,7 +88,7 @@
     "country_code": "TR",
     "latitude": "41.93795000",
     "longitude": "34.20285000",
-    "native": "Qhatalzeytin",
+    "native": "Çatalzeytin",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
@@ -139,9 +139,9 @@
     "native": "Devrekani",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6640,
-    "wikiDataId": null
+    "wikiDataId": "Q534638"
   },
   {
     "id": 107521,
@@ -171,9 +171,9 @@
     "native": "Hanönü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2445,
-    "wikiDataId": null
+    "wikiDataId": "Q2671081"
   },
   {
     "id": 108881,
@@ -203,7 +203,7 @@
     "native": "İnebolu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9935,
     "wikiDataId": null
   },
@@ -219,7 +219,7 @@
     "native": "Küre",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3890,
     "wikiDataId": null
   },
@@ -235,7 +235,7 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 132402,
     "wikiDataId": "Q155915"
   },
@@ -283,9 +283,9 @@
     "native": "Seydiler",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3215,
-    "wikiDataId": null
+    "wikiDataId": "Q2674078"
   },
   {
     "id": 108548,
@@ -299,7 +299,7 @@
     "native": "Taşköprü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 17491,
     "wikiDataId": null
   },
@@ -315,8 +315,8 @@
     "native": "Tosya",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 24013,
-    "wikiDataId": null
+    "wikiDataId": "Q255479"
   }
 ]

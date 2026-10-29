@@ -11,7 +11,7 @@
     "native": "Aseri",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1108,
     "wikiDataId": "Q724294"
   },
@@ -27,8 +27,24 @@
     "native": "Kunda",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 2990,
     "wikiDataId": "Q213178"
+  },
+  {
+    "id": 31744,
+    "name": "Viru-Nigula vald",
+    "state_id": 5796,
+    "state_code": "903",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "59.46387000",
+    "longitude": "26.58585000",
+    "native": "Viru-Nigula vald",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "wikiDataId": "Q1018598"
   }
 ]

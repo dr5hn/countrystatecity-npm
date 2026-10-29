@@ -11,7 +11,7 @@
     "native": "Cần Giờ",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 55137,
     "wikiDataId": null
   },
@@ -64,6 +64,22 @@
     "wikiDataId": "Q1320364"
   },
   {
+    "id": 168133,
+    "name": "Đất Đỏ",
+    "state_id": 3811,
+    "state_code": "SG",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "10.49093000",
+    "longitude": "107.27014000",
+    "native": "Đất Đỏ",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 130202,
     "name": "Ho Chi Minh City",
     "state_id": 3811,
@@ -78,6 +94,22 @@
     "type": "city",
     "population": 14002598,
     "wikiDataId": "Q1854"
+  },
+  {
+    "id": 168115,
+    "name": "Hồ Tràm",
+    "state_id": 3811,
+    "state_code": "SG",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "10.53472000",
+    "longitude": "107.40202000",
+    "native": "Hồ Tràm",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "wikiDataId": null
   },
   {
     "id": 130255,
@@ -96,22 +128,6 @@
     "wikiDataId": "Q1319826"
   },
   {
-    "id": 130539,
-    "name": "Huyện Đất Đỏ",
-    "state_id": 3811,
-    "state_code": "SG",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "10.48025000",
-    "longitude": "107.27879000",
-    "native": "Huyện Đất Đỏ",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": "Q2414015"
-  },
-  {
     "id": 130487,
     "name": "Huyện Tân Thành",
     "state_id": 3811,
@@ -126,38 +142,6 @@
     "type": "city",
     "population": null,
     "wikiDataId": null
-  },
-  {
-    "id": 130510,
-    "name": "Huyện Xuyên Mộc",
-    "state_id": 3811,
-    "state_code": "SG",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "10.63048000",
-    "longitude": "107.46568000",
-    "native": "Huyện Xuyên Mộc",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1758257"
-  },
-  {
-    "id": 130604,
-    "name": "Thành Phố Vũng Tàu",
-    "state_id": 3811,
-    "state_code": "SG",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "10.40239000",
-    "longitude": "107.14239000",
-    "native": "Thành Phố Vũng Tàu",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q21194"
   },
   {
     "id": 130613,

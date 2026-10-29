@@ -13,23 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 55560,
-    "wikiDataId": "Q18970"
-  },
-  {
-    "id": 56335,
-    "name": "Banjar",
-    "state_id": 1819,
-    "state_code": "KS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.31667000",
-    "longitude": "115.08333000",
-    "native": "Kabupaten Banjar",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14171"
+    "wikiDataId": null
   },
   {
     "id": 164797,
@@ -59,9 +43,9 @@
     "native": "Banjarmasin",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 662230,
-    "wikiDataId": "Q25012347"
+    "wikiDataId": null
   },
   {
     "id": 56207,
@@ -77,26 +61,10 @@
     "translations": {},
     "type": "city",
     "population": 55687,
-    "wikiDataId": "Q25012517"
+    "wikiDataId": null
   },
   {
-    "id": 56341,
-    "name": "Barito Kuala",
-    "state_id": 1819,
-    "state_code": "KS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.08333000",
-    "longitude": "114.61667000",
-    "native": "Kabupaten Barito Kuala",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14172"
-  },
-  {
-    "id": 56663,
+    "id": 166832,
     "name": "Batulicin",
     "state_id": 1819,
     "state_code": "KS",
@@ -128,23 +96,7 @@
     "wikiDataId": "Q14173"
   },
   {
-    "id": 56422,
-    "name": "Hulu Sungai Utara",
-    "state_id": 1819,
-    "state_code": "KS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.45000000",
-    "longitude": "115.13333000",
-    "native": "Kabupaten Hulu Sungai Utara",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14175"
-  },
-  {
-    "id": 56420,
+    "id": 166687,
     "name": "Kandangan",
     "state_id": 1819,
     "state_code": "KS",
@@ -160,7 +112,7 @@
     "wikiDataId": "Q138784437"
   },
   {
-    "id": 56468,
+    "id": 166716,
     "name": "Kotabaru",
     "state_id": 1819,
     "state_code": "KS",
@@ -176,6 +128,22 @@
     "wikiDataId": "Q4235910"
   },
   {
+    "id": 166638,
+    "name": "Marabahan",
+    "state_id": 1819,
+    "state_code": "KS",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.01360000",
+    "longitude": "114.76870000",
+    "native": "Marabahan",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
     "id": 56864,
     "name": "Martapura",
     "state_id": 1819,
@@ -189,10 +157,10 @@
     "translations": {},
     "type": "adm2",
     "population": 131449,
-    "wikiDataId": "Q185689"
+    "wikiDataId": null
   },
   {
-    "id": 56323,
+    "id": 166628,
     "name": "Paringin",
     "state_id": 1819,
     "state_code": "KS",
@@ -208,7 +176,23 @@
     "wikiDataId": "Q138791048"
   },
   {
-    "id": 56673,
+    "id": 166833,
+    "name": "Pelaihari",
+    "state_id": 1819,
+    "state_code": "KS",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.79870000",
+    "longitude": "114.77880000",
+    "native": "Pelaihari",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166837,
     "name": "Rantau",
     "state_id": 1819,
     "state_code": "KS",
@@ -224,35 +208,19 @@
     "wikiDataId": "Q12507990"
   },
   {
-    "id": 56657,
-    "name": "Tabalong",
+    "id": 166827,
+    "name": "Tanjung",
     "state_id": 1819,
     "state_code": "KS",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-1.88333000",
-    "longitude": "115.50000000",
-    "native": "Kabupaten Tabalong",
+    "latitude": "-2.17090000",
+    "longitude": "115.40770000",
+    "native": "Tanjung",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q14177"
-  },
-  {
-    "id": 56665,
-    "name": "Tanah Laut",
-    "state_id": 1819,
-    "state_code": "KS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.88333000",
-    "longitude": "114.86667000",
-    "native": "Kabupaten Tanah Laut",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q14178"
+    "wikiDataId": null
   }
 ]
