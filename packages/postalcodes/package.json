@@ -1,6 +1,6 @@
 {
   "name": "@countrystatecity/postalcodes",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Official postal/ZIP code database with locality search, existence-based validation, and lazy loading",
   "keywords": [
     "country-state-city",
@@ -45,6 +45,7 @@
     "./data/*": "./dist/data/*"
   },
   "files": [
+    "NOTICE-*.txt",
     "dist",
     "README.md",
     "CHANGELOG.md"

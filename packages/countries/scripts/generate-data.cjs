@@ -76,11 +76,6 @@ function generateSplitData(sourceFile, outputDir) {
       console.log(`  Processing country ${idx + 1}/${countries.length}...`);
     }
     
-    // Skip if no states
-    if (!country.states || country.states.length === 0) {
-      return;
-    }
-    
     countriesWithData++;
     fs.mkdirSync(countryPath, { recursive: true });
     
@@ -96,7 +91,7 @@ function generateSplitData(sourceFile, outputDir) {
     );
     
     // Create states.json
-    const statesList = country.states.map(state => ({
+    const statesList = (country.states ?? []).map(state => ({
       id: state.id,
       name: state.name,
       country_id: country.id,
@@ -119,13 +114,14 @@ function generateSplitData(sourceFile, outputDir) {
     totalStates += statesList.length;
     
     // Create per-state city files
-    country.states.forEach(state => {
+    const cityGroups = [...(country.states ?? [])];
+    if (country.cities?.length) cityGroups.push({ id: null, iso2: null, cities: country.cities });
+    cityGroups.forEach(state => {
       if (!state.cities || state.cities.length === 0) {
         return;
       }
       
-      const stateDir = safeDirName(state.name, state.iso2);
-      const statePath = path.join(countryPath, stateDir);
+      const statePath = state.id == null ? countryPath : path.join(countryPath, safeDirName(state.name, state.iso2));
       fs.mkdirSync(statePath, { recursive: true });
       
       const citiesList = state.cities.map(city => ({
@@ -142,6 +138,7 @@ function generateSplitData(sourceFile, outputDir) {
         translations: {}, // Not in source data for cities
         type: city.type ?? null,
         population: city.population ?? null,
+        population_year: city.population_year ?? null,
         wikiDataId: city.wikiDataId ?? null
       }));
       

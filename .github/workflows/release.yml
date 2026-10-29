@@ -52,7 +52,7 @@ jobs:
             echo "Manual dispatch — releasing all packages."
           else
             # Keep the diff separate: a missing commit/parent must fail the job.
-            CHANGED=$(git diff --name-only "$MERGE_SHA^1" "$MERGE_SHA" -- 'packages/*/src/data/*')
+            CHANGED=$(git diff --name-only "$MERGE_SHA^1" "$MERGE_SHA" -- 'packages/*/src/data/*' 'packages/*/NOTICE-*.txt')
             PKGS=$(printf '%s\n' "$CHANGED" | awk -F/ 'NF > 1 {print $2}' | sort -u | tr '\n' ' ')
             echo "Packages with data changes: ${PKGS:-<none>}"
           fi

@@ -74,6 +74,13 @@ function generateBrowserData(sourceDir, outputDir) {
     const iso2 = parts[parts.length - 1];
     const countryPath = path.join(sourceDir, dir.name);
 
+    // A country-level file contains cities whose state pair is null.
+    const countryCitiesPath = path.join(countryPath, 'cities.json');
+    if (fs.existsSync(countryCitiesPath)) {
+      fs.copyFileSync(countryCitiesPath, path.join(dataDir, 'cities', `${iso2}.json`));
+      totalCityFiles++;
+    }
+
     // meta.json -> country/{ISO2}.json
     const metaPath = path.join(countryPath, 'meta.json');
     if (fs.existsSync(metaPath)) {

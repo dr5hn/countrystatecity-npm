@@ -24,7 +24,7 @@ function joinCityFields(countries, fullCityRecords) {
   let matched = 0;
 
   for (const country of countries) {
-    for (const state of country.states ?? []) {
+    for (const state of [...(country.states ?? []), { cities: country.cities ?? [] }]) {
       for (const city of state.cities ?? []) {
         totalCities++;
         const full = byId.get(city.id);
@@ -33,11 +33,13 @@ function joinCityFields(countries, fullCityRecords) {
           city.type = full.type ?? null;
           city.native = full.native ?? null;
           city.population = full.population ?? null;
+          city.population_year = full.population_year ?? null;
           city.wikiDataId = full.wikiDataId ?? null;
         } else {
           city.type = null;
           city.native = null;
           city.population = null;
+          city.population_year = null;
           city.wikiDataId = null;
         }
       }

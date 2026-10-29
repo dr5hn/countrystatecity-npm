@@ -286,11 +286,13 @@ export async function getStateByCode(
  */
 export async function getCitiesOfState(
   countryCode: string,
-  stateCode: string
+  stateCode: string | null
 ): Promise<ICity[]> {
   try {
     const countryDir = await getCountryDirName(countryCode);
     if (!countryDir) return [];
+
+    if (stateCode === null) return await loadJSON<ICity[]>(`./data/${countryDir}/cities.json`);
     
     const stateDir = await getStateDirName(countryCode, stateCode);
     if (!stateDir) return [];
@@ -314,7 +316,7 @@ export async function getCitiesOfState(
  */
 export async function getAllCitiesOfCountry(countryCode: string): Promise<ICity[]> {
   const states = await getStatesOfCountry(countryCode);
-  const allCities: ICity[] = [];
+  const allCities = await getCitiesOfState(countryCode, null);
 
   // Load cities for each state
   for (const state of states) {
@@ -354,7 +356,7 @@ export async function getAllCitiesInWorld(): Promise<ICity[]> {
  */
 export async function getCityById(
   countryCode: string,
-  stateCode: string,
+  stateCode: string | null,
   cityId: number
 ): Promise<ICity | null> {
   const cities = await getCitiesOfState(countryCode, stateCode);

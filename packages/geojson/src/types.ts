@@ -44,7 +44,7 @@ export interface IStateProperties {
 export interface ICityProperties {
   id: number;
   name: string;
-  state_code: string;
+  state_code: string | null;
   country_code: string;
 }
 

@@ -70,6 +70,19 @@ function readCities(outputDir: string): Array<Record<string, unknown>> {
 }
 
 describe('generateSplitData — city field mapping', () => {
+  it('keeps a country with no states and its cities without fabricating a state', () => {
+    const { sourceFile, outputDir } = writeFixture([{
+      id: 1, name: 'Testland', iso2: 'TL', states: [],
+      cities: [{ id: 7, name: 'Town', population: 10, population_year: 2024 }],
+    }]);
+    generateSplitData(sourceFile, outputDir);
+    const countryPath = join(outputDir, 'src', 'data', 'Testland-TL');
+    expect(JSON.parse(readFileSync(join(countryPath, 'states.json'), 'utf8'))).toEqual([]);
+    expect(JSON.parse(readFileSync(join(countryPath, 'cities.json'), 'utf8'))).toMatchObject([
+      { id: 7, state_id: null, state_code: null, population_year: 2024 },
+    ]);
+    expect(JSON.parse(readFileSync(join(countryPath, 'meta.json'), 'utf8')).iso2).toBe('TL');
+  });
   it('carries type/native/population/wikiDataId through for an enriched city', () => {
     const { sourceFile, outputDir } = writeFixture([BASE_COUNTRY]);
     generateSplitData(sourceFile, outputDir);

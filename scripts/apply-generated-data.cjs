@@ -21,6 +21,9 @@ function applyGeneratedData(sourceDir, packagesDir = path.join(__dirname, '../pa
     try {
       fs.cpSync(path.join(sourceDir, pkg, 'src/data'), stagingDir, { recursive: true });
       commit();
+      for (const file of fs.readdirSync(path.join(sourceDir, pkg)).filter(name => /^NOTICE-[A-Za-z0-9_.-]+\.txt$/.test(name))) {
+        fs.copyFileSync(path.join(sourceDir, pkg, file), path.join(packagesDir, pkg, file));
+      }
     } finally {
       discard();
     }

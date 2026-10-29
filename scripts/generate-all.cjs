@@ -42,7 +42,9 @@ const MAX_PRINTED_ERRORS = 50;
 function verifyReleaseFiles(release, pathsByRole) {
   const errors = [];
   for (const [role, filePath] of Object.entries(pathsByRole)) {
-    const metadata = release.files?.find((file) => file.role === role);
+    const metadata = release.files?.find((file) => role.startsWith('notice:')
+      ? file.role === 'notice' && file.asset === role.slice(7)
+      : file.role === role);
     if (!metadata?.contentSha256) {
       errors.push(`release metadata is missing a checksum for ${role}`);
     } else if (!fs.existsSync(filePath)) {
@@ -129,6 +131,8 @@ async function main() {
     combined: SOURCE_FILE,
     'cities-full': CITIES_FULL_FILE,
     translations: TRANSLATIONS_FILE,
+    ...Object.fromEntries((release.files ?? []).filter(file => file.role === 'notice')
+      .map(file => [`notice:${file.asset}`, path.join(ROOT, 'data', file.asset)])),
   });
   if (releaseErrors.length > 0) {
     console.error('❌ Raw source files do not match data/release.json:');
@@ -142,6 +146,9 @@ async function main() {
   const countries = JSON.parse(fs.readFileSync(SOURCE_FILE, 'utf-8'));
   const fullCityRecords = JSON.parse(fs.readFileSync(CITIES_FULL_FILE, 'utf-8'));
   const joinStats = joinCityFields(countries, fullCityRecords);
+  if (joinStats.unmatched || joinStats.totalCities !== fullCityRecords.length) {
+    throw new Error(`Combined/full city coverage mismatch: ${joinStats.matched}/${joinStats.totalCities} joined, ${fullCityRecords.length} full records`);
+  }
   console.log(
     `✓ Matched ${joinStats.matched}/${joinStats.totalCities} cities to the full city file (${joinStats.unmatched} unmatched)\n`,
   );
@@ -232,6 +239,12 @@ async function main() {
 
   // ── Manifest: release info, checksums, counts, delta vs. the previous run ──
   // (`release` was already parsed above, right after validation passed.)
+  for (const pkg of ['countries', 'countries-browser', 'geojson', 'timezones', 'currencies', 'translations', 'phonecodes', 'postalcodes']) {
+    for (const file of release.files.filter(file => file.role === 'notice')) {
+      fs.copyFileSync(path.join(ROOT, 'data', file.asset), path.join(ROOT, 'packages', pkg, file.asset));
+    }
+  }
+
   console.log('\n📄 Writing data-manifest.json...');
   const recordCountByRole = {
     combined: countries.length,

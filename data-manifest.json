@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T04:24:34.578Z",
+  "generatedAt": "2026-10-29T11:04:26.743Z",
   "source": {
     "repository": "dr5hn/countries-states-cities-database",
     "releaseTag": "v5.0.0-export.1",
     "releaseUrl": "https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0-export.1",
     "publishedAt": "2026-10-19T12:48:06Z",
-    "fetchedAt": "2026-10-25T04:23:32.834Z"
+    "fetchedAt": "2026-10-29T11:03:37.146Z"
   },
   "files": [
     {
@@ -38,15 +38,50 @@
       "compressedBytes": 20167081,
       "decompressedBytes": 87353249,
       "recordCount": 2906879
+    },
+    {
+      "asset": "NOTICE-4-72-Clausula-Licencia-Abierta.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-4-72-Clausula-Licencia-Abierta.txt",
+      "contentSha256": "6d94032c8a4acd9da801682a96118192d0a2a309f785dfb5498085c8558a9f4d",
+      "decompressedBytes": 5141
+    },
+    {
+      "asset": "NOTICE-pc_rebuild_7-distribution-notices.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-pc_rebuild_7-distribution-notices.txt",
+      "contentSha256": "26253aea0cb5d917d9cd44f70fe41551fe0db28e54d18ace6982e9428e99bb8b",
+      "decompressedBytes": 3943
+    },
+    {
+      "asset": "NOTICE-Posti-postal-code-terms.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-Posti-postal-code-terms.txt",
+      "contentSha256": "ac57a024e144a0a1a2cd4b49be645d186b61e008087ab8264bc52edbcbcd0708",
+      "decompressedBytes": 17192
+    },
+    {
+      "asset": "NOTICE-SOURCES.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-SOURCES.txt",
+      "contentSha256": "b894f4bd60cf65e22377a78a26ea2264ed47eb4768a41b483955163adea3b08f",
+      "decompressedBytes": 68748
+    },
+    {
+      "asset": "NOTICE-Unicode-3.0.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-Unicode-3.0.txt",
+      "contentSha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b",
+      "decompressedBytes": 2033
     }
   ],
   "counts": {
     "countries": 250,
     "states": 5327,
-    "cities": 152375
+    "cities": 152378
   },
   "cityFieldCoverage": {
-    "matchedFromFullCityFile": 152375,
+    "matchedFromFullCityFile": 152378,
     "unmatched": 0
   },
   "delta": {
@@ -56,14 +91,14 @@
       "pct": 0
     },
     "states": {
-      "previous": 5328,
+      "previous": 5327,
       "current": 5327,
-      "pct": -0.02
+      "pct": 0
     },
     "cities": {
-      "previous": 152152,
-      "current": 152375,
-      "pct": 0.15
+      "previous": 152375,
+      "current": 152378,
+      "pct": 0
     }
   }
 }

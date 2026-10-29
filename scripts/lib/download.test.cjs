@@ -6,7 +6,17 @@ const test = require('node:test');
 const zlib = require('node:zlib');
 const crypto = require('node:crypto');
 
-const { downloadGzipAsset, sha256 } = require('./download.cjs');
+const { downloadGzipAsset, downloadNotice, sha256 } = require('./download.cjs');
+
+test('source notices require the pinned asset checksum before any write', async (t) => {
+  const destPath = tmpDest(t);
+  const content = Buffer.from('Source credits');
+  const fetchImpl = async () => new Response(content);
+  await assert.rejects(downloadNotice({ url: 'https://x/notice', destPath, digest: 'sha256:bad', fetchImpl }), /checksum mismatch/);
+  assert.equal(fs.existsSync(destPath), false);
+  await downloadNotice({ url: 'https://x/notice', destPath, digest: `sha256:${sha256(content)}`, fetchImpl });
+  assert.equal(fs.readFileSync(destPath, 'utf8'), 'Source credits');
+});
 
 function tmpDest(t) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'download-test-'));

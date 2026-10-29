@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.0
+
+### Breaking changes
+
+- Ship upstream v5.0.0-export.1. Retired state, city, and postcode IDs must be reviewed with upstream migration files; do not redirect IDs automatically.
+- Cities may have null state links. Country-wide city lookups include these cities; pass null to state-based city lookups to select them.
+- Preserve source notices with redistributed data.
+
 ## 2.0.0
 
 ### Major Changes

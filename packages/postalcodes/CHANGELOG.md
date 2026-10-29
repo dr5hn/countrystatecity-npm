@@ -1,5 +1,13 @@
 # @countrystatecity/postalcodes
 
+## 3.0.0
+
+### Breaking changes
+
+- Ship upstream v5.0.0-export.1. Retired state, city, and postcode IDs must be reviewed with upstream migration files; do not redirect IDs automatically.
+- Postal coverage now contains 725,993 supported records across 116 countries. Unsupported values and retired postal IDs are removed; refresh local copies from the complete snapshot rather than overlaying old files.
+- Preserve source notices with redistributed data.
+
 ## 2.0.0
 
 ### Major Changes

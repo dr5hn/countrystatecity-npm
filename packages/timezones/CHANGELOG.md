@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1
+
+### Changes
+
+- Refresh country data and source attribution from pinned upstream v5.0.0-export.1.
+- Include all upstream source notices in the published package.
+
 ## 2.0.0
 
 ### Major Changes
