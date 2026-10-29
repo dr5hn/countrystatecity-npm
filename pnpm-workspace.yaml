@@ -1,2 +1,8 @@
 packages:
   - 'packages/*'
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.6'
+allowBuilds:
+  esbuild: true
+overrides:
+  'esbuild@>=0.27.3 <0.28.1': '0.28.2'

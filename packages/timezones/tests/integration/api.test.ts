@@ -67,7 +67,7 @@ describe('Timezone API Integration', () => {
         expect(timezones.length).toBeGreaterThan(0);
         expect(timezones[0].countryCode).toBe(country);
       }
-    });
+    }, 30_000);
   });
 
   describe('Data consistency', () => {

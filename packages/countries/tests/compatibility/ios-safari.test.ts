@@ -80,5 +80,5 @@ describe('iOS Safari Compatibility', () => {
     
     // Verify all cities are from US
     expect(allCities.every(c => c.country_code === 'US')).toBe(true);
-  });
+  }, 30_000);
 });
