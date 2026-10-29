@@ -316,7 +316,7 @@ export async function getCitiesOfState(
  */
 export async function getAllCitiesOfCountry(countryCode: string): Promise<ICity[]> {
   const states = await getStatesOfCountry(countryCode);
-  const allCities = await getCitiesOfState(countryCode, null);
+  const allCities = [...await getCitiesOfState(countryCode, null)];
 
   // Load cities for each state
   for (const state of states) {

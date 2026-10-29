@@ -131,6 +131,7 @@ async function main() {
     combined: SOURCE_FILE,
     'cities-full': CITIES_FULL_FILE,
     translations: TRANSLATIONS_FILE,
+    ...(fs.existsSync(POSTCODES_SOURCE_FILE) ? { postcodes: POSTCODES_SOURCE_FILE } : {}),
     ...Object.fromEntries((release.files ?? []).filter(file => file.role === 'notice')
       .map(file => [`notice:${file.asset}`, path.join(ROOT, 'data', file.asset)])),
   });
@@ -251,7 +252,7 @@ async function main() {
     'cities-full': fullCityRecords.length,
     translations: fs.existsSync(TRANSLATIONS_FILE) ? countCsvDataRows(TRANSLATIONS_FILE) : undefined,
   };
-  const files = release.files.map((file) => ({ ...file, recordCount: recordCountByRole[file.role] }));
+  const files = release.files.map((file) => ({ ...file, recordCount: recordCountByRole[file.role] ?? file.recordCount }));
 
   const manifest = buildManifest({
     release: {

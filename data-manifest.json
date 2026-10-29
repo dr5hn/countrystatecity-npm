@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:04:26.743Z",
+  "generatedAt": "2026-10-29T11:22:45.199Z",
   "source": {
     "repository": "dr5hn/countries-states-cities-database",
     "releaseTag": "v5.0.0-export.1",
@@ -73,6 +73,16 @@
       "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-Unicode-3.0.txt",
       "contentSha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b",
       "decompressedBytes": 2033
+    },
+    {
+      "asset": "json-postcodes.json.gz",
+      "role": "postcodes",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/json-postcodes.json.gz",
+      "compressedSha256": "c29f0b40aa866983873997dfd3d08e55c13b4ad97cea963db77ae1b511f80b7a",
+      "contentSha256": "fd4c57fe448ffd0c8a12b17297ad93fd5df02b0e12561425e5bff75662d97ab1",
+      "compressedBytes": 9953867,
+      "decompressedBytes": 284113121,
+      "recordCount": 725993
     }
   ],
   "counts": {
@@ -96,7 +106,7 @@
       "pct": 0
     },
     "cities": {
-      "previous": 152375,
+      "previous": 152378,
       "current": 152378,
       "pct": 0
     }
