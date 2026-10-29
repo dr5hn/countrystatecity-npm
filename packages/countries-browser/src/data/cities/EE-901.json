@@ -11,8 +11,9 @@
     "native": "Pajusti",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 645,
+    "population_year": null,
     "wikiDataId": "Q3130501"
   },
   {
@@ -27,24 +28,9 @@
     "native": "Vinni",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 864,
+    "population_year": null,
     "wikiDataId": "Q3470533"
-  },
-  {
-    "id": 31743,
-    "name": "Vinni vald",
-    "state_id": 5795,
-    "state_code": "901",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.23744000",
-    "longitude": "26.62261000",
-    "native": "Vinni vald",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q301179"
   }
 ]

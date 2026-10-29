@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3225,
-    "wikiDataId": "Q49100599"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107369,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 32435,
+    "population_year": null,
     "wikiDataId": "Q289143"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 48,
+    "population_year": null,
     "wikiDataId": "Q272375"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q272835"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 175647,
+    "population_year": 2025,
     "wikiDataId": "Q194146"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5821,
+    "population_year": 2025,
     "wikiDataId": "Q3150097"
   }
 ]

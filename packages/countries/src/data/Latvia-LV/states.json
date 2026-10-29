@@ -330,7 +330,7 @@
     "translations": {}
   },
   {
-    "id": 4433,
+    "id": 5858,
     "name": "Madona",
     "country_id": 120,
     "country_code": "LV",
@@ -338,9 +338,9 @@
     "iso2": "059",
     "iso3166_2": "LV-059",
     "type": "municipality",
-    "latitude": "56.85174670",
-    "longitude": "26.21847690",
-    "native": "Madona",
+    "latitude": "56.85329000",
+    "longitude": "26.21698000",
+    "native": "Madonas novads",
     "timezone": "Europe/Riga",
     "translations": {}
   },
@@ -405,21 +405,6 @@
     "translations": {}
   },
   {
-    "id": 4509,
-    "name": "Rēzekne",
-    "country_id": 120,
-    "country_code": "LV",
-    "fips_code": null,
-    "iso2": "REZ",
-    "iso3166_2": "LV-REZ",
-    "type": "state city",
-    "latitude": "56.50628100",
-    "longitude": "27.33066230",
-    "native": "Rēzekne",
-    "timezone": "Europe/Riga",
-    "translations": {}
-  },
-  {
     "id": 4455,
     "name": "Rēzekne",
     "country_id": 120,
@@ -428,6 +413,21 @@
     "iso2": "077",
     "iso3166_2": "LV-077",
     "type": "municipality",
+    "latitude": "56.50628100",
+    "longitude": "27.33066230",
+    "native": "Rēzekne",
+    "timezone": "Europe/Riga",
+    "translations": {}
+  },
+  {
+    "id": 4509,
+    "name": "Rēzekne",
+    "country_id": 120,
+    "country_code": "LV",
+    "fips_code": null,
+    "iso2": "REZ",
+    "iso3166_2": "LV-REZ",
+    "type": "state city",
     "latitude": "56.50628100",
     "longitude": "27.33066230",
     "native": "Rēzekne",
@@ -596,21 +596,6 @@
     "latitude": "57.53846590",
     "longitude": "25.42636180",
     "native": "Valmiera",
-    "timezone": "Europe/Riga",
-    "translations": {}
-  },
-  {
-    "id": 4431,
-    "name": "Varakļāni",
-    "country_id": 120,
-    "country_code": "LV",
-    "fips_code": null,
-    "iso2": "102",
-    "iso3166_2": "LV-102",
-    "type": "municipality",
-    "latitude": "56.60887430",
-    "longitude": "26.75390930",
-    "native": "Varakļāni",
     "timezone": "Europe/Riga",
     "translations": {}
   },

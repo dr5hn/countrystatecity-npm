@@ -8,11 +8,12 @@
     "country_code": "TR",
     "latitude": "39.63184000",
     "longitude": "34.08468000",
-    "native": "Akmakent",
+    "native": "Akçakent",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "municipality",
     "population": 757,
+    "population_year": 2025,
     "wikiDataId": "Q13428856"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q556388"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2777,
+    "population_year": 2025,
     "wikiDataId": "Q4310459"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1813015"
   },
   {
@@ -77,7 +81,8 @@
     "translations": {},
     "type": "municipality",
     "population": 21302,
-    "wikiDataId": "Q1837352"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108110,
@@ -91,8 +96,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 151499,
+    "population_year": 2025,
     "wikiDataId": "Q208005"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Mucur",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 18763,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1051730"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 25897,
+    "population_year": 2025,
     "wikiDataId": "Q2614475"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm3",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1011290"
   },
   {
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3352,
-    "wikiDataId": "Q3010236"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108142,
@@ -59,8 +62,9 @@
     "native": "Malazgirt",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 26108,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -72,11 +76,12 @@
     "country_code": "TR",
     "latitude": "38.73163000",
     "longitude": "41.48482000",
-    "native": null,
+    "native": "Muş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 123317,
+    "population_year": 2025,
     "wikiDataId": "Q118995"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 18691,
+    "population_year": null,
     "wikiDataId": "Q1004578"
   }
 ]

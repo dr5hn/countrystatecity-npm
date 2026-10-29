@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 89200,
+    "population_year": null,
     "wikiDataId": "Q1015690"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Napier",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 66300,
+    "population_year": null,
     "wikiDataId": "Q203380"
   },
   {
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "section",
     "population": 12940,
-    "wikiDataId": "Q151841"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79906,
@@ -59,8 +62,9 @@
     "native": "Wairoa",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4260,
+    "population_year": null,
     "wikiDataId": "Q599594"
   }
 ]

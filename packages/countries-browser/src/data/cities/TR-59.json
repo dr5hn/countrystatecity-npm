@@ -11,8 +11,9 @@
     "native": "Çerkezköy",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 84234,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 202578,
+    "population_year": null,
     "wikiDataId": "Q214655"
   },
   {
@@ -38,13 +40,14 @@
     "state_code": "59",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.85953000",
-    "longitude": "27.27081000",
+    "latitude": "41.18773550",
+    "longitude": "27.76777960",
     "native": "Ergene",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 68695,
+    "population_year": null,
     "wikiDataId": "Q16957420"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 29706,
+    "population_year": 2025,
     "wikiDataId": "Q2924221"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q5247279"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 27427,
+    "population_year": null,
     "wikiDataId": "Q937499"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10956,
+    "population_year": null,
     "wikiDataId": "Q985638"
   },
   {
@@ -123,8 +130,9 @@
     "native": "Muratlı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 30410,
+    "population_year": 2025,
     "wikiDataId": "Q2581023"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1011256"
   },
   {
@@ -155,8 +164,9 @@
     "native": "Şarköy",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 34458,
+    "population_year": 2025,
     "wikiDataId": "Q388544"
   },
   {
@@ -171,8 +181,9 @@
     "native": "Süleymanpaşa",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 226582,
+    "population_year": 2025,
     "wikiDataId": "Q16897309"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "adm1",
     "population": 122287,
+    "population_year": null,
     "wikiDataId": "Q182009"
   }
 ]

@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 25519,
-    "wikiDataId": "Q64087"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 17622,
@@ -27,8 +28,9 @@
     "native": "Cham",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 18518,
+    "population_year": 2025,
     "wikiDataId": "Q69235"
   },
   {
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 8985,
-    "wikiDataId": "Q66256"
+    "population_year": 2025,
+    "wikiDataId": "Q22652584"
   },
   {
     "id": 18152,
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "municipality",
     "population": 4824,
-    "wikiDataId": "Q66050"
+    "population_year": 2025,
+    "wikiDataId": "Q22496025"
   },
   {
     "id": 18395,
@@ -77,7 +81,8 @@
     "translations": {},
     "type": "locality",
     "population": 10439,
-    "wikiDataId": "Q1630904"
+    "population_year": null,
+    "wikiDataId": "Q22467400"
   },
   {
     "id": 18554,
@@ -93,10 +98,11 @@
     "translations": {},
     "type": "municipality",
     "population": 10449,
-    "wikiDataId": "Q66697"
+    "population_year": 2025,
+    "wikiDataId": "Q22390095"
   },
   {
-    "id": 18638,
+    "id": 167831,
     "name": "Unterägeri",
     "state_id": 1646,
     "state_code": "ZG",
@@ -109,10 +115,11 @@
     "translations": {},
     "type": "municipality",
     "population": 9527,
+    "population_year": 2025,
     "wikiDataId": "Q65658"
   },
   {
-    "id": 18708,
+    "id": 167838,
     "name": "Walchwil",
     "state_id": 1646,
     "state_code": "ZG",
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4013,
+    "population_year": 2025,
     "wikiDataId": "Q66298"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 32160,
-    "wikiDataId": "Q68144"
+    "population_year": 2025,
+    "wikiDataId": null
   }
 ]

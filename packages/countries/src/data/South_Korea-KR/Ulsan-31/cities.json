@@ -11,8 +11,9 @@
     "native": "북구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q50395"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "section",
     "population": 343398,
+    "population_year": null,
     "wikiDataId": "Q50379"
   },
   {
@@ -43,8 +45,9 @@
     "native": "중구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50442"
   },
   {
@@ -59,8 +62,9 @@
     "native": "남구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q50364"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50313"
   },
   {
@@ -91,8 +96,9 @@
     "native": "울산",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 1127553,
-    "wikiDataId": "Q485570"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

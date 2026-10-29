@@ -11,8 +11,9 @@
     "native": "Ashbourne",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15680,
+    "population_year": null,
     "wikiDataId": "Q1766143"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Athboy",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2397,
+    "population_year": null,
     "wikiDataId": "Q754964"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Duleek",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4219,
+    "population_year": null,
     "wikiDataId": "Q765703"
   },
   {
@@ -59,8 +62,9 @@
     "native": "Dunboyne",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 7272,
+    "population_year": null,
     "wikiDataId": "Q1012505"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Dunshaughlin",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4035,
+    "population_year": null,
     "wikiDataId": "Q267293"
   },
   {
@@ -91,9 +96,27 @@
     "native": "Enfield",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3239,
+    "population_year": null,
     "wikiDataId": "Q392078"
+  },
+  {
+    "id": 57271,
+    "name": "Kells",
+    "state_id": 1092,
+    "state_code": "MH",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "53.72639000",
+    "longitude": "-6.87917000",
+    "native": "Kells",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 4820,
+    "population_year": null,
+    "wikiDataId": "Q917848"
   },
   {
     "id": 57273,
@@ -107,8 +130,9 @@
     "native": "Kentstown",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1179,
+    "population_year": null,
     "wikiDataId": "Q2081233"
   },
   {
@@ -125,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 10889,
+    "population_year": null,
     "wikiDataId": "Q1902456"
   },
   {
@@ -139,8 +164,9 @@
     "native": "Navan",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 24545,
+    "population_year": null,
     "wikiDataId": "Q217845"
   },
   {
@@ -155,8 +181,9 @@
     "native": "Oldcastle",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1384,
+    "population_year": null,
     "wikiDataId": "Q269623"
   },
   {
@@ -171,8 +198,9 @@
     "native": "Ratoath",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9043,
+    "population_year": null,
     "wikiDataId": "Q1016286"
   },
   {
@@ -187,8 +215,9 @@
     "native": "Slane",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1369,
+    "population_year": null,
     "wikiDataId": "Q1778869"
   },
   {
@@ -205,7 +234,8 @@
     "translations": {},
     "type": "city",
     "population": 3361,
-    "wikiDataId": "Q822865"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57419,
@@ -219,8 +249,9 @@
     "native": "Trim",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9563,
+    "population_year": null,
     "wikiDataId": "Q1012496"
   }
 ]

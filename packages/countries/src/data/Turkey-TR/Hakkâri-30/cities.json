@@ -11,9 +11,10 @@
     "native": "Çukurca",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 8843,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q272939"
   },
   {
     "id": 153355,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 57,
+    "population_year": null,
     "wikiDataId": "Q1199986"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 59813,
+    "population_year": 2025,
     "wikiDataId": "Q206895"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 17363,
+    "population_year": 2025,
     "wikiDataId": "Q4444751"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Yüksekova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 88638,
+    "population_year": 2025,
     "wikiDataId": "Q2176882"
   }
 ]

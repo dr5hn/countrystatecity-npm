@@ -1,5 +1,12 @@
 # @countrystatecity/translations
 
+## 1.0.6
+
+### Changes
+
+- Refresh country data and source attribution from pinned upstream v5.0.0-export.1.
+- Include all upstream source notices in the published package.
+
 ## 1.0.5
 
 ### Patch Changes

@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 6077,
-    "wikiDataId": "Q4674465"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80591,
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "municipality",
     "population": 9122,
-    "wikiDataId": "Q24451971"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80604,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "province",
     "population": 151489,
+    "population_year": null,
     "wikiDataId": "Q765311"
   },
   {
@@ -61,10 +64,11 @@
     "translations": {},
     "type": "municipality",
     "population": 9877,
-    "wikiDataId": "Q5116486"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 80630,
+    "id": 167876,
     "name": "Concepción",
     "state_id": 3693,
     "state_code": "JUN",
@@ -77,23 +81,8 @@
     "translations": {},
     "type": "municipality",
     "population": 11330,
+    "population_year": null,
     "wikiDataId": "Q5158367"
-  },
-  {
-    "id": 80834,
-    "name": "Huancayo",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-12.07027778",
-    "longitude": "-75.21388889",
-    "native": "Huancayo",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q468782"
   },
   {
     "id": 80652,
@@ -109,7 +98,25 @@
     "translations": {},
     "type": "municipality",
     "population": 450900,
-    "wikiDataId": "Q6319902"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166888,
+    "name": "Huancayo",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-12.06866000",
+    "longitude": "-75.21027000",
+    "native": "Huancayo",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q468782"
   },
   {
     "id": 80659,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5146,
+    "population_year": null,
     "wikiDataId": "Q6319990"
   },
   {
@@ -141,10 +149,11 @@
     "translations": {},
     "type": "municipality",
     "population": 9800,
+    "population_year": null,
     "wikiDataId": "Q5926605"
   },
   {
-    "id": 80674,
+    "id": 167878,
     "name": "Jauja",
     "state_id": 3693,
     "state_code": "JUN",
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "municipality",
     "population": 21057,
+    "population_year": null,
     "wikiDataId": "Q5262649"
   },
   {
@@ -173,7 +183,8 @@
     "translations": {},
     "type": "municipality",
     "population": 15320,
-    "wikiDataId": "Q6321850"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80688,
@@ -189,22 +200,24 @@
     "translations": {},
     "type": "municipality",
     "population": 33345,
-    "wikiDataId": "Q1478051"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 80909,
+    "id": 166914,
     "name": "La Oroya",
     "state_id": 3693,
     "state_code": "JUN",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-11.52055556",
-    "longitude": "-75.90138889",
+    "latitude": "-11.53333333",
+    "longitude": "-75.90000000",
     "native": "La Oroya",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1759360"
   },
   {
@@ -221,7 +234,8 @@
     "translations": {},
     "type": "municipality",
     "population": 6826,
-    "wikiDataId": "Q6319861"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80720,
@@ -237,7 +251,8 @@
     "translations": {},
     "type": "municipality",
     "population": 7890,
-    "wikiDataId": "Q6320389"
+    "population_year": null,
+    "wikiDataId": "Q766735"
   },
   {
     "id": 80734,
@@ -253,7 +268,8 @@
     "translations": {},
     "type": "municipality",
     "population": 4199,
-    "wikiDataId": "Q6320018"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80758,
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "adm3",
     "population": 6844,
+    "population_year": null,
     "wikiDataId": "Q2070443"
   },
   {
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 8169,
+    "population_year": null,
     "wikiDataId": "Q3344087"
   },
   {
@@ -301,6 +319,7 @@
     "translations": {},
     "type": "province",
     "population": 52988,
+    "population_year": null,
     "wikiDataId": "Q1777631"
   },
   {
@@ -317,6 +336,7 @@
     "translations": {},
     "type": "province",
     "population": 55591,
+    "population_year": null,
     "wikiDataId": "Q1991124"
   },
   {
@@ -333,6 +353,7 @@
     "translations": {},
     "type": "adm3",
     "population": 6805,
+    "population_year": null,
     "wikiDataId": "Q922867"
   },
   {
@@ -349,6 +370,7 @@
     "translations": {},
     "type": "city",
     "population": 15320,
+    "population_year": null,
     "wikiDataId": "Q644721"
   },
   {
@@ -365,7 +387,8 @@
     "translations": {},
     "type": "adm3",
     "population": 15281,
-    "wikiDataId": "Q3348291"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80946,
@@ -381,7 +404,8 @@
     "translations": {},
     "type": "city",
     "population": 8772,
-    "wikiDataId": "Q11011907"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80954,
@@ -397,7 +421,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5758,
-    "wikiDataId": "Q7415148"
+    "population_year": null,
+    "wikiDataId": "Q25400021"
   },
   {
     "id": 80956,
@@ -413,23 +438,8 @@
     "translations": {},
     "type": "municipality",
     "population": 14708,
-    "wikiDataId": "Q6320495"
-  },
-  {
-    "id": 80893,
-    "name": "Satipo",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-11.25305556",
-    "longitude": "-74.63722222",
-    "native": "Satipo",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q3057885"
+    "population_year": null,
+    "wikiDataId": "Q2219996"
   },
   {
     "id": 80970,
@@ -445,7 +455,25 @@
     "translations": {},
     "type": "municipality",
     "population": 15532,
-    "wikiDataId": "Q6319920"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166908,
+    "name": "Satipo",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-11.25422778",
+    "longitude": "-74.63673611",
+    "native": "Satipo",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q3057885"
   },
   {
     "id": 80974,
@@ -461,23 +489,8 @@
     "translations": {},
     "type": "municipality",
     "population": 6842,
-    "wikiDataId": "Q6319759"
-  },
-  {
-    "id": 80902,
-    "name": "Tarma",
-    "state_id": 3693,
-    "state_code": "JUN",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-11.40562000",
-    "longitude": "-75.69129000",
-    "native": "Tarma",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1759366"
+    "population_year": null,
+    "wikiDataId": "Q7507402"
   },
   {
     "id": 80991,
@@ -493,6 +506,24 @@
     "translations": {},
     "type": "municipality",
     "population": 54078,
-    "wikiDataId": "Q7686343"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166911,
+    "name": "Tarma",
+    "state_id": 3693,
+    "state_code": "JUN",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-11.40562000",
+    "longitude": "-75.69129000",
+    "native": "Tarma",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1759366"
   }
 ]

@@ -119,12 +119,12 @@ export async function getStateByCode(
  */
 export async function getCitiesOfState(
   countryCode: string,
-  stateCode: string,
+  stateCode: string | null,
 ): Promise<ICity[]> {
-  if (!countryCode || !stateCode) return [];
+  if (!countryCode || stateCode === '') return [];
   try {
     return await loadCached<ICity[]>(
-      `cities/${countryCode.toUpperCase()}-${stateCode.toUpperCase()}.json`,
+      `cities/${countryCode.toUpperCase()}${stateCode === null ? '' : `-${stateCode.toUpperCase()}`}.json`,
     );
   } catch {
     return [];
@@ -140,7 +140,7 @@ export async function getCitiesOfState(
  */
 export async function getCityById(
   countryCode: string,
-  stateCode: string,
+  stateCode: string | null,
   cityId: number,
 ): Promise<ICity | null> {
   const cities = await getCitiesOfState(countryCode, stateCode);
@@ -156,7 +156,7 @@ export async function getCityById(
 export async function getAllCitiesOfCountry(countryCode: string): Promise<ICity[]> {
   const states = await getStatesOfCountry(countryCode);
   const cityArrays = await Promise.all(
-    states.map((state) => getCitiesOfState(countryCode, state.iso2)),
+    [getCitiesOfState(countryCode, null), ...states.map((state) => getCitiesOfState(countryCode, state.iso2))],
   );
   return cityArrays.flat();
 }

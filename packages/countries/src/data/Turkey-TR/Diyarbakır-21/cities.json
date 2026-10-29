@@ -6,14 +6,15 @@
     "state_code": "21",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "37.91068000",
-    "longitude": "40.22627000",
+    "latitude": "37.91375000",
+    "longitude": "40.20584000",
     "native": "Bağlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 799,
-    "wikiDataId": "Q15989052"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 107362,
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "municipality",
     "population": 119815,
-    "wikiDataId": "Q1958994"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108822,
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 49299,
-    "wikiDataId": "Q1911118"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108854,
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 74207,
+    "population_year": null,
     "wikiDataId": "Q272992"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Çüngüş",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5103,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -91,9 +96,10 @@
     "native": "Dicle",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 13017,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1003877"
   },
   {
     "id": 165602,
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm1",
     "population": 1833684,
+    "population_year": null,
     "wikiDataId": "Q83387"
   },
   {
@@ -125,7 +132,8 @@
     "translations": {},
     "type": "municipality",
     "population": 21674,
-    "wikiDataId": "Q1023322"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107592,
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "municipality",
     "population": 141098,
+    "population_year": 2025,
     "wikiDataId": "Q49103329"
   },
   {
@@ -155,9 +164,10 @@
     "native": "Hani",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11055,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q975198"
   },
   {
     "id": 107817,
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "adm2",
     "population": 6291,
+    "population_year": null,
     "wikiDataId": "Q1025104"
   },
   {
@@ -189,7 +200,8 @@
     "translations": {},
     "type": "municipality",
     "population": 454311,
-    "wikiDataId": "Q15989058"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108008,
@@ -205,7 +217,8 @@
     "translations": {},
     "type": "municipality",
     "population": 15088,
-    "wikiDataId": "Q1023277"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108040,
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "adm2",
     "population": 26569,
+    "population_year": null,
     "wikiDataId": "Q955561"
   },
   {
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16336,
+    "population_year": null,
     "wikiDataId": "Q1012828"
   },
   {
@@ -251,9 +266,10 @@
     "native": "Silvan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 65956,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q945404"
   },
   {
     "id": 108506,
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q664716"
   },
   {
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "adm2",
     "population": 53704,
+    "population_year": null,
     "wikiDataId": "Q15989061"
   }
 ]

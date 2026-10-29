@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 9833,
+    "population_year": null,
     "wikiDataId": "Q272985"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Damal",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2856,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -43,9 +45,10 @@
     "native": "Göle",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11943,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1004454"
   },
   {
     "id": 107788,
@@ -59,9 +62,10 @@
     "native": "Hanak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5122,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1014299"
   },
   {
     "id": 107179,
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 25255,
+    "population_year": 2025,
     "wikiDataId": "Q202188"
   },
   {
@@ -91,8 +96,9 @@
     "native": "Posof",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2900,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

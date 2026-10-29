@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm1",
     "population": 73533,
+    "population_year": null,
     "wikiDataId": "Q144983"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 9293,
+    "population_year": null,
     "wikiDataId": "Q208110"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 19671,
+    "population_year": null,
     "wikiDataId": "Q465312"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 4916,
+    "population_year": null,
     "wikiDataId": "Q341490"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 13523,
+    "population_year": null,
     "wikiDataId": "Q11857"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 1362,
+    "population_year": null,
     "wikiDataId": "Q531445"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm3",
     "population": 9623,
+    "population_year": null,
     "wikiDataId": "Q247620"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 6931,
+    "population_year": null,
     "wikiDataId": "Q846431"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1020068"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 1695,
+    "population_year": null,
     "wikiDataId": "Q262165"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 4664,
+    "population_year": null,
     "wikiDataId": "Q754776"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7524,
+    "population_year": null,
     "wikiDataId": "Q756667"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "adm2",
     "population": 24661,
+    "population_year": null,
     "wikiDataId": "Q728965"
   },
   {
@@ -221,199 +234,8 @@
     "translations": {},
     "type": "city",
     "population": 6841,
+    "population_year": null,
     "wikiDataId": "Q268463"
-  },
-  {
-    "id": 104447,
-    "name": "Okres Banská Bystrica",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.73333000",
-    "longitude": "19.15000000",
-    "native": "Okres Banská Bystrica",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 106604,
-    "wikiDataId": "Q539934"
-  },
-  {
-    "id": 104448,
-    "name": "Okres Banská Štiavnica",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.44961000",
-    "longitude": "18.90820000",
-    "native": "Okres Banská Štiavnica",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 15350,
-    "wikiDataId": "Q836179"
-  },
-  {
-    "id": 104455,
-    "name": "Okres Brezno",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.80000000",
-    "longitude": "19.75000000",
-    "native": "Okres Brezno",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 57916,
-    "wikiDataId": "Q784394"
-  },
-  {
-    "id": 104458,
-    "name": "Okres Detva",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.55985000",
-    "longitude": "19.42044000",
-    "native": "Okres Detva",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 30380,
-    "wikiDataId": "Q532137"
-  },
-  {
-    "id": 104469,
-    "name": "Okres Krupina",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.35736000",
-    "longitude": "19.06334000",
-    "native": "Okres Krupina",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 21209,
-    "wikiDataId": "Q756660"
-  },
-  {
-    "id": 104474,
-    "name": "Okres Lučenec",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.33333000",
-    "longitude": "19.66667000",
-    "native": "Okres Lučenec",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 68623,
-    "wikiDataId": "Q836205"
-  },
-  {
-    "id": 104487,
-    "name": "Okres Poltár",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.42895000",
-    "longitude": "19.79488000",
-    "native": "Okres Poltár",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 20135,
-    "wikiDataId": "Q256846"
-  },
-  {
-    "id": 104493,
-    "name": "Okres Revúca",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.68300000",
-    "longitude": "20.11568000",
-    "native": "Okres Revúca",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": null,
-    "wikiDataId": "Q651878"
-  },
-  {
-    "id": 104512,
-    "name": "Okres Veľký Krtíš",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.20000000",
-    "longitude": "19.35000000",
-    "native": "Okres Veľký Krtíš",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 40598,
-    "wikiDataId": "Q546630"
-  },
-  {
-    "id": 104518,
-    "name": "Okres Žarnovica",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.48438000",
-    "longitude": "18.72076000",
-    "native": "Okres Žarnovica",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 24463,
-    "wikiDataId": "Q633617"
-  },
-  {
-    "id": 104519,
-    "name": "Okres Žiar nad Hronom",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.58333000",
-    "longitude": "18.86667000",
-    "native": "Okres Žiar nad Hronom",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 43345,
-    "wikiDataId": "Q836194"
-  },
-  {
-    "id": 104515,
-    "name": "Okres Zvolen",
-    "state_id": 4352,
-    "state_code": "BC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.58333000",
-    "longitude": "19.13333000",
-    "native": "Okres Zvolen",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 65370,
-    "wikiDataId": "Q370161"
   },
   {
     "id": 104527,
@@ -429,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5123,
+    "population_year": null,
     "wikiDataId": "Q259694"
   },
   {
@@ -445,6 +268,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10874,
+    "population_year": null,
     "wikiDataId": "Q847213"
   },
   {
@@ -461,6 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 21175,
+    "population_year": null,
     "wikiDataId": "Q829812"
   },
   {
@@ -477,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 1284,
+    "population_year": null,
     "wikiDataId": "Q249613"
   },
   {
@@ -493,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 3587,
+    "population_year": null,
     "wikiDataId": "Q370445"
   },
   {
@@ -509,6 +336,7 @@
     "translations": {},
     "type": "adm2",
     "population": 10274,
+    "population_year": null,
     "wikiDataId": "Q673741"
   },
   {
@@ -525,6 +353,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5576,
+    "population_year": null,
     "wikiDataId": "Q393421"
   },
   {
@@ -541,6 +370,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16677,
+    "population_year": null,
     "wikiDataId": "Q393925"
   },
   {
@@ -557,6 +387,7 @@
     "translations": {},
     "type": "city",
     "population": 39844,
-    "wikiDataId": "Q207226"
+    "population_year": null,
+    "wikiDataId": "Q11874"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "village",
     "population": 3784,
+    "population_year": null,
     "wikiDataId": "Q379316"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Baildon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 17053,
+    "population_year": null,
     "wikiDataId": "Q2575062"
   },
   {
@@ -45,23 +47,25 @@
     "translations": {},
     "type": "town",
     "population": 23274,
+    "population_year": null,
     "wikiDataId": "Q863832"
   },
   {
-    "id": 48647,
+    "id": 166596,
     "name": "Bradford",
     "state_id": 2529,
     "state_code": "BRD",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "53.83333000",
-    "longitude": "-1.83333000",
+    "latitude": "53.79444444",
+    "longitude": "-1.75194444",
     "native": "Bradford",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
     "population": 293277,
-    "wikiDataId": "Q2834810"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 48771,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 5996,
+    "population_year": null,
     "wikiDataId": "Q2390342"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "village",
     "population": 2596,
+    "population_year": null,
     "wikiDataId": "Q3362593"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "town",
     "population": 2715,
+    "population_year": null,
     "wikiDataId": "Q2342182"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 6379,
+    "population_year": null,
     "wikiDataId": "Q384570"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "town",
     "population": 15035,
+    "population_year": null,
     "wikiDataId": "Q1020951"
   },
   {
@@ -155,8 +164,9 @@
     "native": "Keighley",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 57339,
+    "population_year": null,
     "wikiDataId": "Q990168"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "village",
     "population": 4798,
+    "population_year": null,
     "wikiDataId": "Q602055"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "village",
     "population": 1872,
+    "population_year": null,
     "wikiDataId": "Q2090507"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "town",
     "population": 8912,
+    "population_year": null,
     "wikiDataId": "Q965682"
   },
   {
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "section",
     "population": 28544,
+    "population_year": null,
     "wikiDataId": "Q1421532"
   },
   {
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "town",
     "population": 8708,
+    "population_year": null,
     "wikiDataId": "Q2472743"
   },
   {
@@ -253,6 +268,7 @@
     "translations": {},
     "type": "city",
     "population": 4196,
+    "population_year": null,
     "wikiDataId": "Q7605979"
   },
   {
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "village",
     "population": 4631,
+    "population_year": null,
     "wikiDataId": "Q8022880"
   }
 ]

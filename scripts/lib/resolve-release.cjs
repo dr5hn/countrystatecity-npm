@@ -23,7 +23,7 @@ function parseRelease(body, repo) {
 
   const assets = new Map();
   for (const asset of body.assets ?? []) {
-    assets.set(asset.name, { url: asset.browser_download_url, size: asset.size });
+    assets.set(asset.name, { url: asset.browser_download_url, size: asset.size, ...(asset.digest ? { digest: asset.digest } : {}) });
   }
 
   return {

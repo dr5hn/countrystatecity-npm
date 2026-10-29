@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q527626"
   },
   {
@@ -22,13 +23,14 @@
     "state_code": "76",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "39.87036000",
-    "longitude": "43.63014000",
+    "latitude": "39.97058000",
+    "longitude": "44.17678000",
     "native": "Karakoyunlu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5073,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -43,8 +45,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 104331,
+    "population_year": 2025,
     "wikiDataId": "Q483331"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9876,
+    "population_year": 2025,
     "wikiDataId": "Q2693219"
   }
 ]

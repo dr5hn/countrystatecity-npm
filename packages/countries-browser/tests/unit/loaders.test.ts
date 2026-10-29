@@ -69,6 +69,12 @@ const mockDataVersion = {
 };
 
 describe('loaders', () => {
+  it('loads country-level cities through both direct and country-wide lookups', async () => {
+    const cities = [{ ...mockCities[0], state_id: null, state_code: null }];
+    mockFetch({ 'states/EH.json': [], 'cities/EH.json': cities });
+    expect(await getAllCitiesOfCountry('EH')).toEqual(cities);
+    expect(await getCityById('EH', null, 100)).toEqual(cities[0]);
+  });
   beforeEach(() => {
     resetConfiguration();
     configure({ baseURL: 'https://cdn.test.com' });

@@ -104,12 +104,12 @@ export async function getStatesGeoJSON(countryCode: string): Promise<IStatesFeat
  */
 export async function getCitiesGeoJSON(
   countryCode: string,
-  stateCode: string,
+  stateCode: string | null,
 ): Promise<ICitiesFeatureCollection> {
-  if (!countryCode || !stateCode) return emptyCollection();
+  if (!countryCode || stateCode === '') return emptyCollection();
   try {
     return await loadCached<ICitiesFeatureCollection>(
-      `cities/${countryCode.toUpperCase()}-${stateCode.toUpperCase()}.geojson`,
+      `cities/${countryCode.toUpperCase()}${stateCode === null ? '' : `-${stateCode.toUpperCase()}`}.geojson`,
     );
   } catch (error) {
     if (isNotFound(error)) return emptyCollection();
@@ -125,7 +125,7 @@ export async function getCitiesGeoJSON(
 export async function getAllCitiesGeoJSONOfCountry(countryCode: string): Promise<ICitiesFeatureCollection> {
   const states = await getStatesGeoJSON(countryCode);
   const collections = await Promise.all(
-    states.features.map((s) => getCitiesGeoJSON(countryCode, s.properties.iso2)),
+    [getCitiesGeoJSON(countryCode, null), ...states.features.map((s) => getCitiesGeoJSON(countryCode, s.properties.iso2))],
   );
   return {
     type: 'FeatureCollection',

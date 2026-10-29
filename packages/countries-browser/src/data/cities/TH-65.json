@@ -13,6 +13,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475371"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "town",
     "population": 18874,
+    "population_year": null,
     "wikiDataId": "Q28732635"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": 16841,
+    "population_year": null,
     "wikiDataId": "Q28732633"
   },
   {
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "adm2",
     "population": 4608,
-    "wikiDataId": "Q1015899"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 106586,
@@ -77,10 +81,11 @@
     "translations": {},
     "type": "town",
     "population": 12345,
+    "population_year": null,
     "wikiDataId": "Q28732623"
   },
   {
-    "id": 105647,
+    "id": 167102,
     "name": "Noen Maprang",
     "state_id": 3506,
     "state_code": "65",
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15141861"
   },
   {
@@ -109,10 +115,11 @@
     "translations": {},
     "type": "city",
     "population": 70871,
+    "population_year": null,
     "wikiDataId": "Q867579"
   },
   {
-    "id": 105773,
+    "id": 167161,
     "name": "Phrom Phiram",
     "state_id": 3506,
     "state_code": "65",
@@ -125,10 +132,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 106348,
+    "id": 167274,
     "name": "Wang Thong",
     "state_id": 3506,
     "state_code": "65",
@@ -141,10 +149,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q103493481"
   },
   {
-    "id": 106355,
+    "id": 167278,
     "name": "Wat Bot",
     "state_id": 3506,
     "state_code": "65",
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 33369,
+    "population_year": null,
     "wikiDataId": "Q367624"
   },
   {
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "city",
     "population": 13039,
-    "wikiDataId": "Q1190879"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 131640,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q10752928"
   },
   {
@@ -61,23 +64,25 @@
     "translations": {},
     "type": "adm1",
     "population": 44282,
+    "population_year": null,
     "wikiDataId": "Q463252"
   },
   {
-    "id": 131779,
+    "id": 167530,
     "name": "Diu",
     "state_id": 4033,
     "state_code": "DH",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "20.72081000",
-    "longitude": "70.93989000",
+    "latitude": "20.71499722",
+    "longitude": "70.98435833",
     "native": "दीव",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 23991,
-    "wikiDataId": "Q2552347"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133937,
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 98265,
+    "population_year": null,
     "wikiDataId": "Q318404"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": 56481,
+    "id": 166723,
     "name": "Aek Kanopan",
     "state_id": 1792,
     "state_code": "SU",
@@ -13,6 +13,7 @@
     "translations": {},
     "type": "section",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12052756"
   },
   {
@@ -29,23 +30,8 @@
     "translations": {},
     "type": "adm3",
     "population": 2000,
-    "wikiDataId": "Q25017837"
-  },
-  {
-    "id": 56320,
-    "name": "Asahan",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.78333000",
-    "longitude": "99.55000000",
-    "native": "Kabupaten Asahan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q1795"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56194,
@@ -61,23 +47,8 @@
     "translations": {},
     "type": "city",
     "population": 31442,
+    "population_year": null,
     "wikiDataId": "Q24821695"
-  },
-  {
-    "id": 56348,
-    "name": "Batu Bara",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "3.16166000",
-    "longitude": "99.52652000",
-    "native": "Batu Bara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5797"
   },
   {
     "id": 56216,
@@ -93,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 102707,
+    "population_year": null,
     "wikiDataId": "Q682657"
   },
   {
@@ -109,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 48244,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -125,23 +98,8 @@
     "translations": {},
     "type": "city",
     "population": 269053,
+    "population_year": null,
     "wikiDataId": "Q5954"
-  },
-  {
-    "id": 56394,
-    "name": "Dairi",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "2.86667000",
-    "longitude": "98.23333000",
-    "native": "Kabupaten Dairi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5801"
   },
   {
     "id": 56261,
@@ -157,10 +115,11 @@
     "translations": {},
     "type": "city",
     "population": 27940,
+    "population_year": null,
     "wikiDataId": "Q24821924"
   },
   {
-    "id": 56423,
+    "id": 166688,
     "name": "Dolok Sanggul",
     "state_id": 1792,
     "state_code": "SU",
@@ -173,10 +132,28 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791058"
   },
   {
-    "id": 56570,
+    "id": 166773,
+    "name": "Gido",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "1.15190000",
+    "longitude": "97.66300000",
+    "native": "Gido",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166781,
     "name": "Gunung Tua",
     "state_id": 1792,
     "state_code": "SU",
@@ -189,6 +166,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q5619521"
   },
   {
@@ -205,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 137104,
+    "population_year": null,
     "wikiDataId": "Q5967"
   },
   {
@@ -221,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 73581,
+    "population_year": null,
     "wikiDataId": "Q138784438"
   },
   {
@@ -237,23 +217,25 @@
     "translations": {},
     "type": "adm2",
     "population": 141915,
-    "wikiDataId": "Q24884538"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56480,
-    "name": "Labuhan Batu Selatan",
+    "id": 166722,
+    "name": "Kotapinang",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "1.98300000",
-    "longitude": "100.09760000",
-    "native": "Kabupaten Labuhan Batu Selatan",
+    "latitude": "1.89076000",
+    "longitude": "100.09211000",
+    "native": "Kotapinang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q5905"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56832,
@@ -267,25 +249,44 @@
     "native": "Labuhan Deli",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "section",
+    "type": "adm1",
     "population": 49668,
+    "population_year": null,
     "wikiDataId": "Q24822162"
   },
   {
-    "id": 56489,
-    "name": "Langkat",
+    "id": 166644,
+    "name": "Lima Puluh",
     "state_id": 1792,
     "state_code": "SU",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "3.71667000",
-    "longitude": "98.21667000",
-    "native": "Kabupaten Langkat",
+    "latitude": "3.16890000",
+    "longitude": "99.41750000",
+    "native": "Lima Puluh",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q5833"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166774,
+    "name": "Lotu",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "1.42990000",
+    "longitude": "97.35365000",
+    "native": "Lotu",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 164818,
@@ -301,6 +302,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q137766841"
   },
   {
@@ -317,23 +319,8 @@
     "translations": {},
     "type": "city",
     "population": 2109330,
+    "population_year": null,
     "wikiDataId": "Q5972"
-  },
-  {
-    "id": 56559,
-    "name": "Nias",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.03333000",
-    "longitude": "97.76667000",
-    "native": "Kabupaten Nias",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5841"
   },
   {
     "id": 56560,
@@ -349,23 +336,8 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q5909"
-  },
-  {
-    "id": 56561,
-    "name": "Nias Utara",
-    "state_id": 1792,
-    "state_code": "SU",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.33037000",
-    "longitude": "97.31964000",
-    "native": "Kabupaten Nias Utara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q5853"
   },
   {
     "id": 56894,
@@ -381,6 +353,7 @@
     "translations": {},
     "type": "city",
     "population": 236217,
+    "population_year": null,
     "wikiDataId": "Q5974"
   },
   {
@@ -397,10 +370,11 @@
     "translations": {},
     "type": "city",
     "population": 25542,
+    "population_year": null,
     "wikiDataId": "Q7130959"
   },
   {
-    "id": 56615,
+    "id": 166807,
     "name": "Pangururan",
     "state_id": 1792,
     "state_code": "SU",
@@ -413,10 +387,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791064"
   },
   {
-    "id": 56523,
+    "id": 166752,
     "name": "Panyabungan",
     "state_id": 1792,
     "state_code": "SU",
@@ -429,6 +404,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q26758929"
   },
   {
@@ -445,6 +421,7 @@
     "translations": {},
     "type": "adm3",
     "population": 10000,
+    "population_year": null,
     "wikiDataId": "Q2271788"
   },
   {
@@ -461,7 +438,8 @@
     "translations": {},
     "type": "city",
     "population": 40000,
-    "wikiDataId": "Q11026"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56930,
@@ -477,6 +455,7 @@
     "translations": {},
     "type": "city",
     "population": 278055,
+    "population_year": null,
     "wikiDataId": "Q5979"
   },
   {
@@ -493,6 +472,7 @@
     "translations": {},
     "type": "city",
     "population": 157174,
+    "population_year": null,
     "wikiDataId": "Q24819339"
   },
   {
@@ -509,6 +489,7 @@
     "translations": {},
     "type": "city",
     "population": 311063,
+    "population_year": null,
     "wikiDataId": "Q12504901"
   },
   {
@@ -525,10 +506,11 @@
     "translations": {},
     "type": "city",
     "population": 103009,
+    "population_year": null,
     "wikiDataId": "Q4899310"
   },
   {
-    "id": 56572,
+    "id": 166783,
     "name": "Salak",
     "state_id": 1792,
     "state_code": "SU",
@@ -541,10 +523,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791057"
   },
   {
-    "id": 56624,
+    "id": 166813,
     "name": "Sei Rampah",
     "state_id": 1792,
     "state_code": "SU",
@@ -557,6 +540,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791065"
   },
   {
@@ -573,6 +557,7 @@
     "translations": {},
     "type": "city",
     "population": 94971,
+    "population_year": null,
     "wikiDataId": "Q5984"
   },
   {
@@ -589,7 +574,25 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q7507306"
+  },
+  {
+    "id": 166671,
+    "name": "Sidikalang",
+    "state_id": 1792,
+    "state_code": "SU",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "2.74899000",
+    "longitude": "98.31270000",
+    "native": "Sidikalang",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56633,
@@ -605,6 +608,7 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q5903"
   },
   {
@@ -621,7 +625,8 @@
     "translations": {},
     "type": "city",
     "population": 26862,
-    "wikiDataId": "Q24831080"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57010,
@@ -637,6 +642,7 @@
     "translations": {},
     "type": "section",
     "population": 157914,
+    "population_year": null,
     "wikiDataId": "Q12518013"
   },
   {
@@ -653,6 +659,7 @@
     "translations": {},
     "type": "city",
     "population": 165763,
+    "population_year": null,
     "wikiDataId": "Q5987"
   },
   {
@@ -669,6 +676,7 @@
     "translations": {},
     "type": "city",
     "population": 25118,
+    "population_year": null,
     "wikiDataId": "Q24818428"
   },
   {
@@ -685,6 +693,7 @@
     "translations": {},
     "type": "regency",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q5914"
   },
   {
@@ -701,6 +710,7 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q5800"
   },
   {
@@ -717,6 +727,7 @@
     "translations": {},
     "type": "city",
     "population": 39500,
+    "population_year": null,
     "wikiDataId": "Q18715197"
   },
   {
@@ -733,6 +744,7 @@
     "translations": {},
     "type": "city",
     "population": 117530,
+    "population_year": null,
     "wikiDataId": "Q24818438"
   },
   {
@@ -749,6 +761,7 @@
     "translations": {},
     "type": "city",
     "population": 25146,
+    "population_year": null,
     "wikiDataId": "Q24818441"
   },
   {
@@ -765,7 +778,8 @@
     "translations": {},
     "type": "city",
     "population": 10000,
-    "wikiDataId": "Q15848"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57038,
@@ -781,6 +795,7 @@
     "translations": {},
     "type": "village",
     "population": 16000,
+    "population_year": null,
     "wikiDataId": "Q12522046"
   },
   {
@@ -797,6 +812,7 @@
     "translations": {},
     "type": "city",
     "population": 5000,
+    "population_year": null,
     "wikiDataId": "Q17058459"
   }
 ]

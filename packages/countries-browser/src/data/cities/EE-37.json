@@ -1,21 +1,5 @@
 [
   {
-    "id": 31595,
-    "name": "Anija vald",
-    "state_id": 3567,
-    "state_code": "37",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.27644000",
-    "longitude": "25.48168000",
-    "native": "Anija vald",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q546693"
-  },
-  {
     "id": 31640,
     "name": "Kose",
     "state_id": 3567,
@@ -29,7 +13,8 @@
     "translations": {},
     "type": "section",
     "population": 2232,
-    "wikiDataId": "Q1010597"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 31698,
@@ -45,55 +30,8 @@
     "translations": {},
     "type": "section",
     "population": 3488,
-    "wikiDataId": "Q604504"
-  },
-  {
-    "id": 31704,
-    "name": "Saku",
-    "state_id": 3567,
-    "state_code": "37",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.30354000",
-    "longitude": "24.66382000",
-    "native": "Saku",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "adm2",
-    "population": 4548,
-    "wikiDataId": "Q1010576"
-  },
-  {
-    "id": 31705,
-    "name": "Saku vald",
-    "state_id": 3567,
-    "state_code": "37",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.28069000",
-    "longitude": "24.71649000",
-    "native": "Saku vald",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q15092085"
-  },
-  {
-    "id": 31707,
-    "name": "Saue vald",
-    "state_id": 3567,
-    "state_code": "37",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.29255000",
-    "longitude": "24.52503000",
-    "native": "Saue vald",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q1755634"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 31727,
@@ -109,22 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 997,
+    "population_year": null,
     "wikiDataId": "Q3058505"
-  },
-  {
-    "id": 31737,
-    "name": "Viimsi",
-    "state_id": 3567,
-    "state_code": "37",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "59.50502000",
-    "longitude": "24.84807000",
-    "native": "Viimsi",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
-    "type": "adm2",
-    "population": 1740,
-    "wikiDataId": "Q3044100"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 21042,
+    "population_year": 2025,
     "wikiDataId": "Q118898913"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 33604,
+    "population_year": 2025,
     "wikiDataId": "Q15961688"
   },
   {
@@ -43,9 +45,10 @@
     "native": "Devrek",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 24559,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1207056"
   },
   {
     "id": 107590,
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "municipality",
     "population": 122380,
-    "wikiDataId": "Q1012887"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107684,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 21655,
+    "population_year": null,
     "wikiDataId": "Q1014093"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q3233266"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1179637"
   },
   {
@@ -120,11 +127,12 @@
     "country_code": "TR",
     "latitude": "41.45139000",
     "longitude": "31.79305000",
-    "native": null,
+    "native": "Zonguldak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 99291,
+    "population_year": 2025,
     "wikiDataId": "Q187895"
   }
 ]

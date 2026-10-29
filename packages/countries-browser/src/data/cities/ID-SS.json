@@ -13,10 +13,11 @@
     "translations": {},
     "type": "adm2",
     "population": 132772,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 56563,
+    "id": 166776,
     "name": "Indralaya",
     "state_id": 1816,
     "state_code": "SS",
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791067"
   },
   {
-    "id": 56564,
+    "id": 166777,
     "name": "Kayu Agung",
     "state_id": 1816,
     "state_code": "SS",
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13094529"
   },
   {
@@ -61,23 +64,8 @@
     "translations": {},
     "type": "adm2",
     "population": 65906,
-    "wikiDataId": "Q24822162"
-  },
-  {
-    "id": 56834,
-    "name": "Lahat Regency",
-    "state_id": 1816,
-    "state_code": "SS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.78640000",
-    "longitude": "103.54280000",
-    "native": "Lahat",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "adm2",
-    "population": 65906,
-    "wikiDataId": "Q8117"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56847,
@@ -93,10 +81,11 @@
     "translations": {},
     "type": "city",
     "population": 234166,
+    "population_year": null,
     "wikiDataId": "Q8129"
   },
   {
-    "id": 56567,
+    "id": 166779,
     "name": "Martapura",
     "state_id": 1816,
     "state_code": "SS",
@@ -109,26 +98,28 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q56388841"
   },
   {
-    "id": 56542,
+    "id": 166762,
     "name": "Muara Enim",
     "state_id": 1816,
     "state_code": "SS",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-4.23270000",
-    "longitude": "103.61410000",
-    "native": "Kabupaten Muara Enim",
+    "latitude": "-3.64860000",
+    "longitude": "103.77100000",
+    "native": "Muara Enim",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q8119"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56566,
+    "id": 166778,
     "name": "Muaradua",
     "state_id": 1816,
     "state_code": "SS",
@@ -141,23 +132,8 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791066"
-  },
-  {
-    "id": 56548,
-    "name": "Musi Banyuasin",
-    "state_id": 1816,
-    "state_code": "SS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.41667000",
-    "longitude": "103.75000000",
-    "native": "Kabupaten Musi Banyuasin",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8107"
   },
   {
     "id": 56549,
@@ -173,6 +149,7 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q8121"
   },
   {
@@ -189,23 +166,8 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q18511812"
-  },
-  {
-    "id": 56565,
-    "name": "Ogan Komering Ulu",
-    "state_id": 1816,
-    "state_code": "SS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-4.13333000",
-    "longitude": "104.03333000",
-    "native": "Kabupaten Ogan Komering Ulu",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8126"
   },
   {
     "id": 56895,
@@ -221,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 70386,
+    "population_year": null,
     "wikiDataId": "Q8130"
   },
   {
@@ -237,23 +200,8 @@
     "translations": {},
     "type": "city",
     "population": 1535952,
+    "population_year": null,
     "wikiDataId": "Q8131"
-  },
-  {
-    "id": 56589,
-    "name": "Penukal Abab Lematang Ilir",
-    "state_id": 1816,
-    "state_code": "SS",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.21342000",
-    "longitude": "104.08722000",
-    "native": "Kabupaten Penukal Abab Lematang Ilir",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15729116"
   },
   {
     "id": 56939,
@@ -269,7 +217,42 @@
     "translations": {},
     "type": "city",
     "population": 103470,
+    "population_year": null,
     "wikiDataId": "Q8133"
+  },
+  {
+    "id": 166768,
+    "name": "Sekayu",
+    "state_id": 1816,
+    "state_code": "SS",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-2.88190000",
+    "longitude": "103.83440000",
+    "native": "Sekayu",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166795,
+    "name": "Talang Ubi",
+    "state_id": 1816,
+    "state_code": "SS",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.26560000",
+    "longitude": "103.82530000",
+    "native": "Talang Ubi",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57020,
@@ -285,10 +268,11 @@
     "translations": {},
     "type": "city",
     "population": 53117,
+    "population_year": null,
     "wikiDataId": "Q24829112"
   },
   {
-    "id": 56402,
+    "id": 166675,
     "name": "Tebing Tinggi",
     "state_id": 1816,
     "state_code": "SS",
@@ -301,6 +285,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791073"
   }
 ]

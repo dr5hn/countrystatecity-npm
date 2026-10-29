@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm1",
     "population": 1104000,
+    "population_year": null,
     "wikiDataId": "Q19316"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Bình Long",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 15000,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -45,7 +47,25 @@
     "translations": {},
     "type": "city",
     "population": 4493699,
+    "population_year": 2025,
     "wikiDataId": "Q33271"
+  },
+  {
+    "id": 168135,
+    "name": "Đồng Phú",
+    "state_id": 3821,
+    "state_code": "39",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "11.45119000",
+    "longitude": "106.86811000",
+    "native": "Đồng Phú",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 130197,
@@ -61,6 +81,7 @@
     "translations": {},
     "type": "adm1",
     "population": 168000,
+    "population_year": null,
     "wikiDataId": "Q665981"
   },
   {
@@ -77,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -93,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -109,22 +132,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
-    "wikiDataId": null
-  },
-  {
-    "id": 130547,
-    "name": "Huyện Đồng Phú",
-    "state_id": 3821,
-    "state_code": "39",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "11.50071000",
-    "longitude": "107.01192000",
-    "native": "Huyện Đồng Phú",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -141,38 +149,7 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": null
-  },
-  {
-    "id": 130344,
-    "name": "Huyện Long Thành",
-    "state_id": 3821,
-    "state_code": "39",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "10.76162000",
-    "longitude": "107.02688000",
-    "native": "Huyện Long Thành",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
-    "wikiDataId": null
-  },
-  {
-    "id": 130485,
-    "name": "Huyện Tân Phú",
-    "state_id": 3821,
-    "state_code": "39",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "11.39867000",
-    "longitude": "107.39976000",
-    "native": "Huyện Tân Phú",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
-    "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -189,38 +166,41 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 130471,
-    "name": "Huyện Trảng Bom",
+    "id": 168003,
+    "name": "Long Thành",
     "state_id": 3821,
     "state_code": "39",
     "country_id": 240,
     "country_code": "VN",
-    "latitude": "10.96624000",
-    "longitude": "107.03614000",
-    "native": "Huyện Trảng Bom",
+    "latitude": "10.78909000",
+    "longitude": "106.95029000",
+    "native": "Long Thành",
     "timezone": "Asia/Ho_Chi_Minh",
     "translations": {},
-    "type": "adm2",
-    "population": 192627,
-    "wikiDataId": null
-  },
-  {
-    "id": 130498,
-    "name": "Huyện Vĩnh Cửu",
-    "state_id": 3821,
-    "state_code": "39",
-    "country_id": 240,
-    "country_code": "VN",
-    "latitude": "11.25725000",
-    "longitude": "107.02773000",
-    "native": "Huyện Vĩnh Cửu",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 168096,
+    "name": "Tân Phú",
+    "state_id": 3821,
+    "state_code": "39",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "11.27221000",
+    "longitude": "107.43655000",
+    "native": "Tân Phú",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -237,6 +217,41 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 168084,
+    "name": "Trảng Bom",
+    "state_id": 3821,
+    "state_code": "39",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "10.95358000",
+    "longitude": "107.00589000",
+    "native": "Trảng Bom",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 168104,
+    "name": "Trị An",
+    "state_id": 3821,
+    "state_code": "39",
+    "country_id": 240,
+    "country_code": "VN",
+    "latitude": "11.08901000",
+    "longitude": "107.03516000",
+    "native": "Trị An",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

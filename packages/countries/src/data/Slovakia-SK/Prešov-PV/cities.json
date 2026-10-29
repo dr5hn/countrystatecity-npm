@@ -11,9 +11,10 @@
     "native": "Bardejov",
     "timezone": "Europe/Bratislava",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 29788,
-    "wikiDataId": "Q208110"
+    "population_year": null,
+    "wikiDataId": "Q27007"
   },
   {
     "id": 104380,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 8031,
+    "population_year": null,
     "wikiDataId": "Q1035167"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 3958,
+    "population_year": null,
     "wikiDataId": "Q550357"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 29567,
+    "population_year": null,
     "wikiDataId": "Q502264"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 15145,
+    "population_year": null,
     "wikiDataId": "Q327977"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 13905,
+    "population_year": null,
     "wikiDataId": "Q242478"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 6450,
+    "population_year": null,
     "wikiDataId": "Q847118"
   },
   {
@@ -123,9 +130,10 @@
     "native": "Ľubica",
     "timezone": "Europe/Bratislava",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4482,
-    "wikiDataId": "Q341490"
+    "population_year": null,
+    "wikiDataId": "Q344678"
   },
   {
     "id": 104432,
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 5723,
+    "population_year": null,
     "wikiDataId": "Q578686"
   },
   {
@@ -157,215 +166,8 @@
     "translations": {},
     "type": "city",
     "population": 1646,
+    "population_year": null,
     "wikiDataId": "Q664187"
-  },
-  {
-    "id": 104449,
-    "name": "Okres Bardejov",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.28333000",
-    "longitude": "21.28333000",
-    "native": "Okres Bardejov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q836179"
-  },
-  {
-    "id": 104464,
-    "name": "Okres Humenné",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.93333000",
-    "longitude": "21.91667000",
-    "native": "Okres Humenné",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 58257,
-    "wikiDataId": "Q837897"
-  },
-  {
-    "id": 104466,
-    "name": "Okres Kežmarok",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.13593000",
-    "longitude": "20.42929000",
-    "native": "Okres Kežmarok",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 75862,
-    "wikiDataId": "Q636864"
-  },
-  {
-    "id": 104472,
-    "name": "Okres Levoča",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.01986000",
-    "longitude": "20.57688000",
-    "native": "Okres Levoča",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 33310,
-    "wikiDataId": "Q837877"
-  },
-  {
-    "id": 104477,
-    "name": "Okres Medzilaborce",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.27062000",
-    "longitude": "21.90200000",
-    "native": "Okres Medzilaborce",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 10605,
-    "wikiDataId": "Q837884"
-  },
-  {
-    "id": 104488,
-    "name": "Okres Poprad",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.05000000",
-    "longitude": "20.30000000",
-    "native": "Okres Poprad",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 101834,
-    "wikiDataId": "Q830982"
-  },
-  {
-    "id": 104490,
-    "name": "Okres Prešov",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.00000000",
-    "longitude": "21.25000000",
-    "native": "Okres Prešov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 175447,
-    "wikiDataId": "Q756658"
-  },
-  {
-    "id": 104496,
-    "name": "Okres Sabinov",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.10115000",
-    "longitude": "21.09844000",
-    "native": "Okres Sabinov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 61995,
-    "wikiDataId": "Q747926"
-  },
-  {
-    "id": 104500,
-    "name": "Okres Snina",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.98579000",
-    "longitude": "22.15059000",
-    "native": "Okres Snina",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 33792,
-    "wikiDataId": "Q837888"
-  },
-  {
-    "id": 104503,
-    "name": "Okres Stará Ĺubovňa",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.30000000",
-    "longitude": "20.70000000",
-    "native": "Okres Stará Ĺubovňa",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 53392,
-    "wikiDataId": "Q831001"
-  },
-  {
-    "id": 104504,
-    "name": "Okres Stropkov",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.20249000",
-    "longitude": "21.65025000",
-    "native": "Okres Stropkov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 19414,
-    "wikiDataId": "Q777963"
-  },
-  {
-    "id": 104505,
-    "name": "Okres Svidník",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.30000000",
-    "longitude": "21.56667000",
-    "native": "Okres Svidník",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q833845"
-  },
-  {
-    "id": 104513,
-    "name": "Okres Vranov nad Topľou",
-    "state_id": 4354,
-    "state_code": "PV",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.90000000",
-    "longitude": "21.68333000",
-    "native": "Okres Vranov nad Topľou",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 79395,
-    "wikiDataId": "Q837874"
   },
   {
     "id": 104526,
@@ -381,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 3048,
+    "population_year": null,
     "wikiDataId": "Q852324"
   },
   {
@@ -397,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 48352,
+    "population_year": null,
     "wikiDataId": "Q26393"
   },
   {
@@ -413,6 +217,7 @@
     "translations": {},
     "type": "adm1",
     "population": 81702,
+    "population_year": null,
     "wikiDataId": "Q26119"
   },
   {
@@ -429,6 +234,7 @@
     "translations": {},
     "type": "adm2",
     "population": 12131,
+    "population_year": null,
     "wikiDataId": "Q837478"
   },
   {
@@ -445,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 17879,
+    "population_year": null,
     "wikiDataId": "Q754788"
   },
   {
@@ -461,6 +268,7 @@
     "translations": {},
     "type": "city",
     "population": 6660,
+    "population_year": null,
     "wikiDataId": "Q605059"
   },
   {
@@ -477,6 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 3730,
+    "population_year": null,
     "wikiDataId": "Q537778"
   },
   {
@@ -493,6 +302,7 @@
     "translations": {},
     "type": "adm2",
     "population": 15599,
+    "population_year": null,
     "wikiDataId": "Q605521"
   },
   {
@@ -509,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 3337,
+    "population_year": null,
     "wikiDataId": "Q373739"
   },
   {
@@ -525,6 +336,7 @@
     "translations": {},
     "type": "adm2",
     "population": 9683,
+    "population_year": null,
     "wikiDataId": "Q750413"
   },
   {
@@ -539,9 +351,10 @@
     "native": "Svidník",
     "timezone": "Europe/Bratislava",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 9647,
-    "wikiDataId": "Q782928"
+    "population_year": null,
+    "wikiDataId": "Q833845"
   },
   {
     "id": 104557,
@@ -557,6 +370,7 @@
     "translations": {},
     "type": "city",
     "population": 7717,
+    "population_year": null,
     "wikiDataId": "Q852318"
   },
   {
@@ -573,6 +387,7 @@
     "translations": {},
     "type": "adm2",
     "population": 20262,
+    "population_year": null,
     "wikiDataId": "Q842005"
   },
   {
@@ -589,6 +404,7 @@
     "translations": {},
     "type": "city",
     "population": 1525,
+    "population_year": null,
     "wikiDataId": "Q545706"
   },
   {
@@ -605,6 +421,7 @@
     "translations": {},
     "type": "city",
     "population": 1443,
+    "population_year": null,
     "wikiDataId": "Q746119"
   },
   {
@@ -621,6 +438,7 @@
     "translations": {},
     "type": "city",
     "population": 3770,
+    "population_year": null,
     "wikiDataId": "Q612516"
   },
   {
@@ -637,6 +455,7 @@
     "translations": {},
     "type": "city",
     "population": 1357,
+    "population_year": null,
     "wikiDataId": "Q393435"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475735"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476340"
   },
   {
@@ -45,10 +47,11 @@
     "translations": {},
     "type": "city",
     "population": 15352,
+    "population_year": null,
     "wikiDataId": "Q13025368"
   },
   {
-    "id": 105201,
+    "id": 166932,
     "name": "Ban Lueam",
     "state_id": 3497,
     "state_code": "30",
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15977651"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q257040"
   },
   {
@@ -86,17 +91,18 @@
     "state_code": "30",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.58584200",
-    "longitude": "102.43369200",
+    "latitude": "15.58552000",
+    "longitude": "102.42587000",
     "native": "บัวใหญ่",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "adm2",
+    "population": 16832,
+    "population_year": null,
     "wikiDataId": "Q13025363"
   },
   {
-    "id": 105275,
+    "id": 166965,
     "name": "Chakkarat",
     "state_id": 3497,
     "state_code": "30",
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15303454"
   },
   {
@@ -118,17 +125,18 @@
     "state_code": "30",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.73051997",
-    "longitude": "102.16534371",
+    "latitude": "14.72844000",
+    "longitude": "102.16524000",
     "native": "โชคชัย",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 23337,
+    "population_year": null,
     "wikiDataId": "Q15861673"
   },
   {
-    "id": 105311,
+    "id": 166980,
     "name": "Chum Phuang",
     "state_id": 3497,
     "state_code": "30",
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13025192"
   },
   {
@@ -150,17 +159,18 @@
     "state_code": "30",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.20990000",
-    "longitude": "101.76670000",
+    "latitude": "15.20850000",
+    "longitude": "101.77138000",
     "native": "ด่านขุนทด",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 15580,
+    "population_year": null,
     "wikiDataId": "Q13025204"
   },
   {
-    "id": 105357,
+    "id": 167001,
     "name": "Huai Thalaeng",
     "state_id": 3497,
     "state_code": "30",
@@ -173,10 +183,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13025307"
   },
   {
-    "id": 105367,
+    "id": 167004,
     "name": "Kaeng Sanam Nang",
     "state_id": 3497,
     "state_code": "30",
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -205,10 +217,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244581"
   },
   {
-    "id": 105387,
+    "id": 167012,
     "name": "Kham Thale So",
     "state_id": 3497,
     "state_code": "30",
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244542"
   },
   {
@@ -237,7 +251,8 @@
     "translations": {},
     "type": "adm2",
     "population": 18596,
-    "wikiDataId": "Q15980680"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 105476,
@@ -253,10 +268,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475876"
   },
   {
-    "id": 105422,
+    "id": 167026,
     "name": "Mueang Khong",
     "state_id": 3497,
     "state_code": "30",
@@ -269,10 +285,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244613"
   },
   {
-    "id": 105605,
+    "id": 167081,
     "name": "Mueang Yang",
     "state_id": 3497,
     "state_code": "30",
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q6931931"
   },
   {
@@ -301,10 +319,11 @@
     "translations": {},
     "type": "city",
     "population": 128217,
+    "population_year": null,
     "wikiDataId": "Q633036"
   },
   {
-    "id": 105648,
+    "id": 167103,
     "name": "Non Daeng",
     "state_id": 3497,
     "state_code": "30",
@@ -317,6 +336,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13025332"
   },
   {
@@ -333,6 +353,7 @@
     "translations": {},
     "type": "town",
     "population": 18399,
+    "population_year": null,
     "wikiDataId": "Q15966556"
   },
   {
@@ -349,6 +370,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244588"
   },
   {
@@ -365,6 +387,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476247"
   },
   {
@@ -381,6 +404,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13025371"
   },
   {
@@ -397,6 +421,7 @@
     "translations": {},
     "type": "town",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q7125389"
   },
   {
@@ -413,6 +438,7 @@
     "translations": {},
     "type": "town",
     "population": 13084,
+    "population_year": null,
     "wikiDataId": "Q3381309"
   },
   {
@@ -429,10 +455,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476445"
   },
   {
-    "id": 105799,
+    "id": 167171,
     "name": "Prathai",
     "state_id": 3497,
     "state_code": "30",
@@ -445,10 +472,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15977652"
   },
   {
-    "id": 106232,
+    "id": 167216,
     "name": "Sida",
     "state_id": 3497,
     "state_code": "30",
@@ -461,6 +489,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15977653"
   },
   {
@@ -477,6 +506,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476733"
   },
   {
@@ -493,6 +523,7 @@
     "translations": {},
     "type": "district",
     "population": 28681,
+    "population_year": null,
     "wikiDataId": "Q13025400"
   },
   {
@@ -509,6 +540,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244617"
   },
   {
@@ -518,17 +550,18 @@
     "state_code": "30",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "14.89646605",
-    "longitude": "101.81673543",
+    "latitude": "14.89920000",
+    "longitude": "101.82075000",
     "native": "สูงเนิน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 14365,
+    "population_year": null,
     "wikiDataId": "Q15244029"
   },
   {
-    "id": 105280,
+    "id": 166966,
     "name": "Tha Chang",
     "state_id": 3497,
     "state_code": "30",
@@ -541,6 +574,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15244288"
   },
   {
@@ -557,10 +591,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476912"
   },
   {
-    "id": 106339,
+    "id": 167270,
     "name": "Wang Nam Khiao",
     "state_id": 3497,
     "state_code": "30",
@@ -573,6 +608,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

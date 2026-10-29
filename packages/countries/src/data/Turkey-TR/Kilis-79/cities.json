@@ -11,8 +11,9 @@
     "native": "Elbeyli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2274,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -27,8 +28,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 121609,
+    "population_year": 2025,
     "wikiDataId": "Q206881"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Musabeyli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1938,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5361,
+    "population_year": null,
     "wikiDataId": "Q1018509"
   }
 ]

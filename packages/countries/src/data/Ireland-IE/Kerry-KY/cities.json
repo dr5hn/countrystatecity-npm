@@ -11,8 +11,9 @@
     "native": "Ballybunnion",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1354,
+    "population_year": null,
     "wikiDataId": "Q805394"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Cahersiveen",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1041,
+    "population_year": null,
     "wikiDataId": "Q736203"
   },
   {
@@ -43,9 +45,27 @@
     "native": "Castleisland",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2486,
+    "population_year": null,
     "wikiDataId": "Q1049626"
+  },
+  {
+    "id": 57212,
+    "name": "Dingle",
+    "state_id": 1077,
+    "state_code": "KY",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "52.14083000",
+    "longitude": "-10.26889000",
+    "native": "Dingle",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 2050,
+    "population_year": null,
+    "wikiDataId": "Q932302"
   },
   {
     "id": 57272,
@@ -59,8 +79,9 @@
     "native": "Kenmare",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2175,
+    "population_year": null,
     "wikiDataId": "Q166232"
   },
   {
@@ -75,8 +96,9 @@
     "native": "Killarney",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 14504,
+    "population_year": null,
     "wikiDataId": "Q623382"
   },
   {
@@ -91,8 +113,9 @@
     "native": "Killorglin",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2199,
+    "population_year": null,
     "wikiDataId": "Q1669399"
   },
   {
@@ -107,9 +130,10 @@
     "native": "Listowel",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4820,
-    "wikiDataId": "Q952497"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57418,
@@ -123,8 +147,9 @@
     "native": "Tralee",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 22941,
+    "population_year": null,
     "wikiDataId": "Q213358"
   }
 ]

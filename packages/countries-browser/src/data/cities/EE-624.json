@@ -11,8 +11,9 @@
     "native": "Audru",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1480,
+    "population_year": null,
     "wikiDataId": "Q2989844"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Paikuse",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1996,
+    "population_year": null,
     "wikiDataId": "Q2028872"
   },
   {
@@ -43,24 +45,9 @@
     "native": "Pärnu",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm1",
-    "population": 41520,
-    "wikiDataId": "Q102365"
-  },
-  {
-    "id": 31681,
-    "name": "Pärnu linn",
-    "state_id": 5808,
-    "state_code": "624",
-    "country_id": 69,
-    "country_code": "EE",
-    "latitude": "58.37901000",
-    "longitude": "24.52784000",
-    "native": "Pärnu linn",
-    "timezone": "Europe/Tallinn",
-    "translations": {},
     "type": "city",
-    "population": null,
-    "wikiDataId": "Q23890603"
+    "population": 41520,
+    "population_year": null,
+    "wikiDataId": "Q102365"
   }
 ]

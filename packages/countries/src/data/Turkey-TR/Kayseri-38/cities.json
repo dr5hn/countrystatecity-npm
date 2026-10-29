@@ -11,8 +11,9 @@
     "native": "Akkışla",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5440,
+    "population_year": 2025,
     "wikiDataId": "Q2670788"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Bünyan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 12821,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "municipality",
     "population": 67818,
+    "population_year": 2025,
     "wikiDataId": "Q2414650"
   },
   {
@@ -56,11 +59,12 @@
     "country_code": "TR",
     "latitude": "39.09056000",
     "longitude": "35.56722000",
-    "native": "Felahye",
+    "native": "Felahiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "municipality",
     "population": 5529,
+    "population_year": 2025,
     "wikiDataId": "Q2674038"
   },
   {
@@ -77,7 +81,8 @@
     "translations": {},
     "type": "municipality",
     "population": 13701,
-    "wikiDataId": "Q785077"
+    "population_year": 2025,
+    "wikiDataId": "Q736588"
   },
   {
     "id": 107849,
@@ -93,7 +98,8 @@
     "translations": {},
     "type": "municipality",
     "population": 29780,
-    "wikiDataId": "Q14530299"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 153790,
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 1389680,
+    "population_year": null,
     "wikiDataId": "Q48338"
   },
   {
@@ -123,8 +130,9 @@
     "native": "Kocasinan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 421472,
+    "population_year": 2025,
     "wikiDataId": "Q2355838"
   },
   {
@@ -141,7 +149,8 @@
     "translations": {},
     "type": "municipality",
     "population": 593262,
-    "wikiDataId": "Q2670975"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108870,
@@ -155,8 +164,9 @@
     "native": "Özvatan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 3877,
+    "population_year": 2025,
     "wikiDataId": "Q2671072"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "adm2",
     "population": 12333,
+    "population_year": null,
     "wikiDataId": "Q1179844"
   },
   {
@@ -187,8 +198,9 @@
     "native": "Sarıoğlan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5393,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9213,
+    "population_year": 2025,
     "wikiDataId": "Q2364235"
   },
   {
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "adm2",
     "population": 36890,
+    "population_year": null,
     "wikiDataId": "Q836846"
   },
   {
@@ -235,8 +249,9 @@
     "native": "Tomarza",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11753,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -253,7 +268,8 @@
     "translations": {},
     "type": "municipality",
     "population": 35207,
-    "wikiDataId": "Q2205869"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108720,
@@ -267,8 +283,9 @@
     "native": "Yeşilhisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 17525,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

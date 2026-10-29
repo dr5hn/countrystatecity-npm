@@ -1,5 +1,22 @@
 [
   {
+    "id": 108269,
+    "name": "19 Mayıs",
+    "state_id": 2220,
+    "state_code": "55",
+    "country_id": 225,
+    "country_code": "TR",
+    "latitude": "41.51188000",
+    "longitude": "36.07298000",
+    "native": "19 Mayıs",
+    "timezone": "Europe/Istanbul",
+    "translations": {},
+    "type": "municipality",
+    "population": 26337,
+    "population_year": null,
+    "wikiDataId": "Q644699"
+  },
+  {
     "id": 107126,
     "name": "Alaçam",
     "state_id": 2220,
@@ -11,8 +28,9 @@
     "native": "Alaçam",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 24560,
+    "population_year": 2025,
     "wikiDataId": "Q1947471"
   },
   {
@@ -29,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 15673,
-    "wikiDataId": "Q2262525"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107206,
@@ -43,8 +62,9 @@
     "native": "Atakum",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 261809,
+    "population_year": 2025,
     "wikiDataId": "Q4812671"
   },
   {
@@ -59,9 +79,10 @@
     "native": "Ayvacık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5731,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2181540"
   },
   {
     "id": 107257,
@@ -75,8 +96,9 @@
     "native": "Bafra",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 142210,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -91,8 +113,9 @@
     "native": "Canik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 100247,
+    "population_year": 2025,
     "wikiDataId": "Q2634212"
   },
   {
@@ -107,9 +130,10 @@
     "native": "Çarşamba",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 50459,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q272649"
   },
   {
     "id": 107809,
@@ -123,9 +147,10 @@
     "native": "Havza",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 21500,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2671132"
   },
   {
     "id": 108891,
@@ -139,8 +164,9 @@
     "native": "İlkadım",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 330290,
+    "population_year": 2025,
     "wikiDataId": "Q3906369"
   },
   {
@@ -155,8 +181,9 @@
     "native": "Kavak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9042,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -173,22 +200,7 @@
     "translations": {},
     "type": "municipality",
     "population": 15942,
-    "wikiDataId": "Q1863975"
-  },
-  {
-    "id": 108269,
-    "name": "Ondokuzmayıs",
-    "state_id": 2220,
-    "state_code": "55",
-    "country_id": 225,
-    "country_code": "TR",
-    "latitude": "41.51188000",
-    "longitude": "36.07298000",
-    "native": "Ondokuzmayıs",
-    "timezone": "Europe/Istanbul",
-    "translations": {},
-    "type": "adm2",
-    "population": 26337,
+    "population_year": 2025,
     "wikiDataId": null
   },
   {
@@ -203,8 +215,9 @@
     "native": "Salıpazarı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 19406,
+    "population_year": 2025,
     "wikiDataId": "Q2671116"
   },
   {
@@ -219,8 +232,9 @@
     "native": "Tekkeköy",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 59356,
+    "population_year": 2025,
     "wikiDataId": "Q2530261"
   },
   {
@@ -235,9 +249,10 @@
     "native": "Terme",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 28397,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q669752"
   },
   {
     "id": 108651,
@@ -253,7 +268,8 @@
     "translations": {},
     "type": "municipality",
     "population": 87575,
-    "wikiDataId": "Q1819387"
+    "population_year": 2025,
+    "wikiDataId": "Q7924250"
   },
   {
     "id": 108660,
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8916,
+    "population_year": 2025,
     "wikiDataId": "Q1858384"
   }
 ]

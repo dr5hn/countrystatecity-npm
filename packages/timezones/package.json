@@ -1,6 +1,6 @@
 {
   "name": "@countrystatecity/timezones",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Comprehensive timezone data with conversion utilities and iOS/Safari support",
   "keywords": [
     "country-state-city",
@@ -49,6 +49,7 @@
     "./data/*": "./dist/data/*"
   },
   "files": [
+    "NOTICE-*.txt",
     "dist",
     "README.md",
     "CHANGELOG.md"

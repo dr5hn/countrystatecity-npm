@@ -11,8 +11,9 @@
     "native": "Haabneeme",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2077,
+    "population_year": null,
     "wikiDataId": "Q3125242"
   },
   {
@@ -27,24 +28,26 @@
     "native": "Pringi",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 603,
+    "population_year": null,
     "wikiDataId": "Q3451465"
   },
   {
-    "id": 31738,
-    "name": "Viimsi vald",
+    "id": 31737,
+    "name": "Viimsi",
     "state_id": 5793,
     "state_code": "890",
     "country_id": 69,
     "country_code": "EE",
-    "latitude": "59.50204000",
-    "longitude": "24.84833000",
-    "native": "Viimsi vald",
+    "latitude": "59.50502000",
+    "longitude": "24.84807000",
+    "native": "Viimsi",
     "timezone": "Europe/Tallinn",
     "translations": {},
     "type": "adm2",
     "population": 1740,
-    "wikiDataId": "Q993014"
+    "population_year": null,
+    "wikiDataId": "Q3044100"
   }
 ]

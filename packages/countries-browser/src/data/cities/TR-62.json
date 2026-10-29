@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 8347,
+    "population_year": null,
     "wikiDataId": "Q2619996"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Hozat",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6891,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -43,8 +45,9 @@
     "native": "Mazgirt",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2704,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3599,
+    "population_year": null,
     "wikiDataId": "Q1023317"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q963947"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6133,
+    "population_year": 2025,
     "wikiDataId": "Q2540906"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3760,
+    "population_year": null,
     "wikiDataId": "Q1023268"
   },
   {
@@ -120,11 +127,12 @@
     "country_code": "TR",
     "latitude": "39.09921000",
     "longitude": "39.54351000",
-    "native": null,
+    "native": "Tunceli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 36938,
+    "population_year": 2025,
     "wikiDataId": "Q202195"
   }
 ]

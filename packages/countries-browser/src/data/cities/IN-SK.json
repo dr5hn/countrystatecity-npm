@@ -13,6 +13,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1772832"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm1",
     "population": 100286,
+    "population_year": null,
     "wikiDataId": "Q186141"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4013,
+    "population_year": null,
     "wikiDataId": "Q1707638"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 9009,
+    "population_year": null,
     "wikiDataId": "Q2342106"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 4644,
+    "population_year": null,
     "wikiDataId": "Q2308307"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 12190,
+    "population_year": null,
     "wikiDataId": "Q2483862"
   },
   {
@@ -109,7 +115,8 @@
     "translations": {},
     "type": "city",
     "population": 1035,
-    "wikiDataId": "Q100067"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133235,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q693367"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 10450,
+    "population_year": null,
     "wikiDataId": "Q2726240"
   },
   {
@@ -155,9 +164,10 @@
     "native": "सिंगताम",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5868,
-    "wikiDataId": "Q255780"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 134008,
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2061938"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q549807"
   }
 ]

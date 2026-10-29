@@ -11,8 +11,9 @@
     "native": "Bavigne",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 132,
+    "population_year": null,
     "wikiDataId": "Q972183"
   },
   {
@@ -27,9 +28,10 @@
     "native": "Boulaide",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 396,
-    "wikiDataId": "Q22284"
+    "population_year": null,
+    "wikiDataId": "Q811880"
   },
   {
     "id": 66766,
@@ -43,9 +45,10 @@
     "native": "Esch-sur-Sûre",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 333,
-    "wikiDataId": "Q20969348"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 66774,
@@ -59,9 +62,10 @@
     "native": "Goesdorf",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 251,
-    "wikiDataId": "Q20969364"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 66789,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 1260,
+    "population_year": null,
     "wikiDataId": "Q1143742"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 2281,
+    "population_year": null,
     "wikiDataId": "Q1133688"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Wiltz",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 5723,
+    "population_year": null,
     "wikiDataId": "Q16765057"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "adm3",
     "population": 272,
+    "population_year": null,
     "wikiDataId": "Q278454"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Winseler",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 126,
-    "wikiDataId": "Q3917114"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

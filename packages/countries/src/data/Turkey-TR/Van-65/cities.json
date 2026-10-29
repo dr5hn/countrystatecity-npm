@@ -11,8 +11,9 @@
     "native": "Bahçesaray",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3731,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 37568,
+    "population_year": 2025,
     "wikiDataId": "Q812759"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q272362"
   },
   {
@@ -59,8 +62,9 @@
     "native": "Çatak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 16361,
+    "population_year": 2025,
     "wikiDataId": "Q272667"
   },
   {
@@ -77,7 +81,8 @@
     "translations": {},
     "type": "municipality",
     "population": 132309,
-    "wikiDataId": "Q2647150"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107583,
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 169040,
+    "population_year": 2025,
     "wikiDataId": "Q1911586"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "municipality",
     "population": 26253,
+    "population_year": 2025,
     "wikiDataId": "Q1004597"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1562063"
   },
   {
@@ -134,13 +142,14 @@
     "state_code": "65",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "38.49041000",
-    "longitude": "43.34690000",
+    "latitude": "38.49026400",
+    "longitude": "43.39730700",
     "native": "İpekyolu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 312244,
+    "population_year": null,
     "wikiDataId": "Q16848468"
   },
   {
@@ -155,8 +164,9 @@
     "native": "Muradiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 41402,
+    "population_year": 2025,
     "wikiDataId": "Q1000878"
   },
   {
@@ -173,7 +183,8 @@
     "translations": {},
     "type": "municipality",
     "population": 51357,
-    "wikiDataId": "Q307726"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108387,
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1019904"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "city",
     "population": 160522,
+    "population_year": null,
     "wikiDataId": "Q16968873"
   },
   {
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "adm1",
     "population": 525016,
+    "population_year": null,
     "wikiDataId": "Q83061"
   }
 ]

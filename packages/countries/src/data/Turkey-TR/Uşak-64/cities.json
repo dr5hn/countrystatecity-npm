@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 17078,
-    "wikiDataId": "Q669172"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107629,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 11000,
+    "population_year": null,
     "wikiDataId": "Q1004540"
   },
   {
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5595,
-    "wikiDataId": "Q2198340"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108474,
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6981,
+    "population_year": 2025,
     "wikiDataId": "Q14358589"
   },
   {
@@ -75,12 +79,13 @@
     "native": "Ulubey",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5987,
+    "population_year": 2025,
     "wikiDataId": "Q1816898"
   },
   {
-    "id": 108183,
+    "id": 167903,
     "name": "Uşak",
     "state_id": 2201,
     "state_code": "64",
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 237028,
+    "population_year": 2025,
     "wikiDataId": "Q189134"
   }
 ]

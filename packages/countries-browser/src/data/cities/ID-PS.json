@@ -1,22 +1,23 @@
 [
   {
-    "id": 56321,
-    "name": "Asmat",
+    "id": 166626,
+    "name": "Agats",
     "state_id": 5237,
     "state_code": "PS",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-5.37950000",
-    "longitude": "138.46344000",
-    "native": "Kabupaten Asmat",
+    "latitude": "-5.54505000",
+    "longitude": "138.13522000",
+    "native": "Agats",
     "timezone": "Asia/Jayapura",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q27228"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56529,
+    "id": 166755,
     "name": "Kepi",
     "state_id": 5237,
     "state_code": "PS",
@@ -29,23 +30,25 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q85774103"
   },
   {
-    "id": 56533,
+    "id": 166758,
     "name": "Merauke",
     "state_id": 5237,
     "state_code": "PS",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.66667000",
-    "longitude": "139.66667000",
-    "native": "Kabupaten Merauke",
+    "latitude": "-8.49958000",
+    "longitude": "140.40613000",
+    "native": "Merauke",
     "timezone": "Asia/Jayapura",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q27693"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 164825,
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q7682227"
   }
 ]

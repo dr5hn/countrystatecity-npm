@@ -11,9 +11,10 @@
     "native": "Dörtdivan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3595,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2143455"
   },
   {
     "id": 107665,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 26652,
+    "population_year": 2025,
     "wikiDataId": "Q49103672"
   },
   {
@@ -43,9 +45,10 @@
     "native": "Göynük",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5600,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2901109"
   },
   {
     "id": 108096,
@@ -59,9 +62,10 @@
     "native": "Kıbrıscık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3220,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2672692"
   },
   {
     "id": 108172,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q3123478"
   },
   {
@@ -91,8 +96,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 189704,
+    "population_year": 2025,
     "wikiDataId": "Q200951"
   },
   {
@@ -107,9 +113,10 @@
     "native": "Mudurnu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6267,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q967446"
   },
   {
     "id": 108421,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2197,
+    "population_year": 2025,
     "wikiDataId": "Q2671094"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4193,
+    "population_year": 2025,
     "wikiDataId": "Q4456549"
   }
 ]

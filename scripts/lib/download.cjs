@@ -79,4 +79,18 @@ async function downloadGzipAsset(options) {
   };
 }
 
-module.exports = { downloadGzipAsset, sha256 };
+/** Download an uncompressed source notice and verify GitHub's asset digest. */
+async function downloadNotice({ url, destPath, digest, fetchImpl = fetch }) {
+  const response = await fetchImpl(url, {
+    signal: AbortSignal.timeout(DEFAULT_TIMEOUT_MS),
+    headers: { 'User-Agent': 'countrystatecity-monorepo' },
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status} downloading ${url}`);
+  const content = Buffer.from(await response.arrayBuffer());
+  if (!content.length) throw new Error(`Downloaded empty notice from ${url}`);
+  if (!digest || `sha256:${sha256(content)}` !== digest) throw new Error(`Notice checksum mismatch: ${url}`);
+  fs.writeFileSync(destPath, content);
+  return { contentSha256: sha256(content), decompressedBytes: content.length };
+}
+
+module.exports = { downloadGzipAsset, downloadNotice, sha256 };

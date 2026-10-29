@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5339,
+    "population_year": 2025,
     "wikiDataId": "Q49100552"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4615,
+    "population_year": 2025,
     "wikiDataId": "Q13430613"
   },
   {
@@ -45,7 +47,8 @@
     "translations": {},
     "type": "municipality",
     "population": 4993,
-    "wikiDataId": "Q2671099"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107582,
@@ -59,9 +62,10 @@
     "native": "Erbaa",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 52185,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q650569"
   },
   {
     "id": 108580,
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 158050,
+    "population_year": 2025,
     "wikiDataId": "Q183651"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 37649,
+    "population_year": 2025,
     "wikiDataId": "Q5512183"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5105,
+    "population_year": null,
     "wikiDataId": "Q2670995"
   },
   {
@@ -123,9 +130,10 @@
     "native": "Reşadiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 580,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2248599"
   },
   {
     "id": 108502,
@@ -141,7 +149,8 @@
     "translations": {},
     "type": "municipality",
     "population": 4852,
-    "wikiDataId": "Q3958464"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108602,
@@ -157,7 +166,8 @@
     "translations": {},
     "type": "municipality",
     "population": 61770,
-    "wikiDataId": "Q1999421"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108729,
@@ -171,8 +181,9 @@
     "native": "Yeşilyurt",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5060,
+    "population_year": 2025,
     "wikiDataId": "Q1966845"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "municipality",
     "population": 33627,
-    "wikiDataId": "Q3439134"
+    "population_year": 2025,
+    "wikiDataId": null
   }
 ]

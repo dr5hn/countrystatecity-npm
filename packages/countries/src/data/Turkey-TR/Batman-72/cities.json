@@ -8,11 +8,12 @@
     "country_code": "TR",
     "latitude": "37.88738000",
     "longitude": "41.13221000",
-    "native": null,
+    "native": "Batman",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 491925,
+    "population_year": 2025,
     "wikiDataId": "Q159835"
   },
   {
@@ -27,9 +28,10 @@
     "native": "Beşiri",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 9513,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q854667"
   },
   {
     "id": 107663,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 20484,
+    "population_year": null,
     "wikiDataId": "Q1023286"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4050,
+    "population_year": 2025,
     "wikiDataId": "Q2125354"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 61437,
+    "population_year": null,
     "wikiDataId": "Q477171"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 12477,
-    "wikiDataId": "Q14313280"
+    "population_year": 2025,
+    "wikiDataId": null
   }
 ]

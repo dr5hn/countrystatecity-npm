@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5178,
-    "wikiDataId": "Q49101216"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107598,
@@ -27,9 +28,10 @@
     "native": "Eruh",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 7868,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q132385"
   },
   {
     "id": 108055,
@@ -43,9 +45,10 @@
     "native": "Kurtalan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 32114,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1792040"
   },
   {
     "id": 108457,
@@ -59,8 +62,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 166935,
+    "population_year": 2025,
     "wikiDataId": "Q185084"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Pervari",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5974,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -91,9 +96,10 @@
     "native": "Şirvan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5510,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q172902"
   },
   {
     "id": 108576,
@@ -107,8 +113,9 @@
     "native": "Tillo",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3052,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

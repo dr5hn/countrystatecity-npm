@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 14974,
+    "population_year": null,
     "wikiDataId": "Q933113"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "village",
     "population": 3096,
+    "population_year": null,
     "wikiDataId": "Q5104893"
   },
   {
@@ -45,23 +47,25 @@
     "translations": {},
     "type": "city",
     "population": 34355,
+    "population_year": null,
     "wikiDataId": "Q931049"
   },
   {
-    "id": 49633,
+    "id": 166600,
     "name": "Gateshead",
     "state_id": 2431,
     "state_code": "GAT",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "54.93333000",
-    "longitude": "-1.66667000",
+    "latitude": "54.95000000",
+    "longitude": "-1.60000000",
     "native": "Gateshead",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 196151,
-    "wikiDataId": "Q929034"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 50231,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "village",
     "population": 4089,
+    "population_year": null,
     "wikiDataId": "Q2095219"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "town",
     "population": 6096,
+    "population_year": null,
     "wikiDataId": "Q1615748"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "town",
     "population": 16625,
+    "population_year": null,
     "wikiDataId": "Q2573389"
   }
 ]

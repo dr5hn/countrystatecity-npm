@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3610,
+    "population_year": 2025,
     "wikiDataId": "Q3454393"
   },
   {
@@ -27,9 +28,10 @@
     "native": "Altınyayla",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4158,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q447230"
   },
   {
     "id": 107400,
@@ -43,12 +45,13 @@
     "native": "Bucak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 49190,
+    "population_year": 2025,
     "wikiDataId": "Q581187"
   },
   {
-    "id": 108180,
+    "id": 167902,
     "name": "Burdur",
     "state_id": 2209,
     "state_code": "15",
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 98409,
+    "population_year": 2025,
     "wikiDataId": "Q211811"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 3760,
+    "population_year": null,
     "wikiDataId": "Q272692"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5237,
+    "population_year": null,
     "wikiDataId": "Q272779"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Gölhisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 12721,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "adm2",
     "population": 4820,
+    "population_year": null,
     "wikiDataId": "Q1014443"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1383,
+    "population_year": 2025,
     "wikiDataId": "Q1023156"
   },
   {
@@ -152,12 +161,13 @@
     "country_code": "TR",
     "latitude": "37.30968000",
     "longitude": "29.77538000",
-    "native": "Tefen",
+    "native": "Tefenni",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5317,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1788162"
   },
   {
     "id": 108726,
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5238,
+    "population_year": 2025,
     "wikiDataId": "Q2677717"
   }
 ]

@@ -3,6 +3,14 @@ const test = require('node:test');
 
 const { validateData, isFiniteCoordinate } = require('./validate-data.cjs');
 
+test('counts and validates country-level cities instead of silently dropping them', () => {
+  const country = { id: 1, name: 'Test', iso2: 'ZZ', states: [], cities: [{ id: 7, name: 'Town', state_id: null, state_code: null }] };
+  assert.equal(validateData([country]).counts.cities, 1);
+  assert.equal(validateData([country]).ok, true);
+  country.cities[0].state_id = 8;
+  assert.equal(validateData([country]).ok, false);
+});
+
 function validDataset() {
   return [
     {

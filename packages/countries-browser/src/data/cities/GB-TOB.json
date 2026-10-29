@@ -1,21 +1,5 @@
 [
   {
-    "id": 48609,
-    "name": "Borough of Torbay",
-    "state_id": 2478,
-    "state_code": "TOB",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "50.45160000",
-    "longitude": "-3.55785000",
-    "native": "Borough of Torbay",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "city",
-    "population": 10000,
-    "wikiDataId": "Q1136118"
-  },
-  {
     "id": 48706,
     "name": "Brixham",
     "state_id": 2478,
@@ -29,6 +13,7 @@
     "translations": {},
     "type": "town",
     "population": 16831,
+    "population_year": null,
     "wikiDataId": "Q921326"
   },
   {
@@ -45,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 10000,
+    "population_year": null,
     "wikiDataId": "Q5139618"
   },
   {
@@ -61,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": 49886,
+    "population_year": null,
     "wikiDataId": "Q776662"
   },
   {
@@ -77,6 +64,7 @@
     "translations": {},
     "type": "town",
     "population": 65388,
+    "population_year": null,
     "wikiDataId": "Q209055"
   }
 ]

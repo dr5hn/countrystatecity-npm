@@ -11,8 +11,9 @@
     "native": "Clervaux",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 1103,
+    "population_year": null,
     "wikiDataId": "Q13103610"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Hosingen",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "locality",
     "population": 811,
+    "population_year": null,
     "wikiDataId": "Q1333496"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm3",
     "population": 811,
+    "population_year": null,
     "wikiDataId": "Q743393"
   },
   {
@@ -59,9 +62,10 @@
     "native": "Troisvierges",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 1457,
-    "wikiDataId": "Q985478"
+    "population_year": null,
+    "wikiDataId": "Q24454"
   },
   {
     "id": 66862,
@@ -75,8 +79,9 @@
     "native": "Weiswampach",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 691,
+    "population_year": null,
     "wikiDataId": "Q3917108"
   },
   {
@@ -91,8 +96,9 @@
     "native": "Wincrange",
     "timezone": "Europe/Luxembourg",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 227,
-    "wikiDataId": "Q3917114"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

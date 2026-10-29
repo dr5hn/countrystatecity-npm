@@ -7,7 +7,11 @@ Official postal/ZIP code database with locality search, existence-based validati
 
 **Environment:** 🖥️ **Server-side only** (Node.js, Next.js API routes, Express, etc.)
 
-## Upgrading to 2.0.0
+## Upgrading to 3.0.0
+
+This version uses **v5.0.0-export.1**. Review the [upstream v5 migration notes](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0) before updating stored IDs: some records were retired or had their identities repaired. City state links can now be null. Country-wide city loaders include these records. Preserve the supplied `NOTICE-*.txt` files with redistributed data. See the [package migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/MIGRATING-V5.md).
+
+## Earlier migration: 2.0.0
 
 Data now comes from upstream **v4.0-export.50**. The v3.2 → v4.0 transition removed 4,486 city ids (duplicates, US counties moved to a separate counties dataset, and non-places), reassigned 7,527 cities to different states, and added 27 states while retiring 6. Stored ids and per-state results can change; US counties are no longer returned as cities. Later export corrections are included in this snapshot.
 
@@ -17,7 +21,7 @@ Postal-code records retain their own postal ids, but `state_code` and per-state 
 
 ## ✨ Features
 
-- 📮 **844,000+ postal codes** across ~125 countries
+- 📮 **725,993 postal codes** across 116 countries
 - 🔎 **Locality search**: find postal codes by place name
 - ✅ **Existence-based validation**: checks the real dataset, not a guessed format
 - 🔄 **Lazy loading**: per-country, per-state files loaded on demand

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42116"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm1",
     "population": 153306,
+    "population_year": null,
     "wikiDataId": "Q42116"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50245"
   },
   {
@@ -59,9 +62,10 @@
     "native": "청도군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42146"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65290,
@@ -75,9 +79,10 @@
     "native": "청송군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 31313,
-    "wikiDataId": "Q42147"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65294,
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm3",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50334"
   },
   {
@@ -109,7 +115,8 @@
     "translations": {},
     "type": "city",
     "population": 56006,
-    "wikiDataId": "Q50383"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65335,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 137540,
+    "population_year": null,
     "wikiDataId": "Q42078"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42078"
   },
   {
@@ -155,9 +164,10 @@
     "native": "고령군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42062"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65351,
@@ -173,23 +183,8 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42073"
-  },
-  {
-    "id": 65355,
-    "name": "Gunwi-gun",
-    "state_id": 3855,
-    "state_code": "47",
-    "country_id": 116,
-    "country_code": "KR",
-    "latitude": "36.16995000",
-    "longitude": "128.64705000",
-    "native": "군위군",
-    "timezone": "Asia/Seoul",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q50215"
   },
   {
     "id": 65369,
@@ -205,6 +200,7 @@
     "translations": {},
     "type": "city",
     "population": 248244,
+    "population_year": null,
     "wikiDataId": "Q42097"
   },
   {
@@ -221,7 +217,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q42097"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65381,
@@ -235,9 +232,10 @@
     "native": "하양",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 27236,
-    "wikiDataId": "Q50341"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65382,
@@ -253,7 +251,8 @@
     "translations": {},
     "type": "adm3",
     "population": 36080,
-    "wikiDataId": "Q50341"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65408,
@@ -267,25 +266,10 @@
     "native": "젠잔",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20673,
-    "wikiDataId": "Q42142"
-  },
-  {
-    "id": 65431,
-    "name": "Kunwi",
-    "state_id": 3855,
-    "state_code": "47",
-    "country_id": 116,
-    "country_code": "KR",
-    "latitude": "36.23472000",
-    "longitude": "128.57278000",
-    "native": "쿤위",
-    "timezone": "Asia/Seoul",
-    "translations": {},
-    "type": "city",
-    "population": 34293,
-    "wikiDataId": "Q42077"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65446,
@@ -301,6 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 71863,
+    "population_year": null,
     "wikiDataId": "Q42095"
   },
   {
@@ -317,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42095"
   },
   {
@@ -333,6 +319,7 @@
     "translations": {},
     "type": "adm2",
     "population": 503780,
+    "population_year": null,
     "wikiDataId": "Q42157"
   },
   {
@@ -349,6 +336,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42157"
   },
   {
@@ -365,6 +353,7 @@
     "translations": {},
     "type": "city",
     "population": 102892,
+    "population_year": null,
     "wikiDataId": "Q42163"
   },
   {
@@ -379,9 +368,10 @@
     "native": "성주군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q50411"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65522,
@@ -395,9 +385,10 @@
     "native": "의성군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q50316"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65524,
@@ -411,9 +402,10 @@
     "native": "울진군",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
-    "wikiDataId": "Q42134"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65526,
@@ -429,6 +421,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q485570"
   },
   {
@@ -443,9 +436,10 @@
     "native": "왜관",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "adm3",
+    "type": "town",
     "population": 29691,
-    "wikiDataId": "Q485570"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65544,
@@ -461,6 +455,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50308"
   },
   {
@@ -477,7 +472,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q50262"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65550,
@@ -493,6 +489,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50260"
   },
   {
@@ -509,7 +506,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q50259"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65558,
@@ -525,6 +523,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50263"
   },
   {
@@ -541,6 +540,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
-    "wikiDataId": "Q50263"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

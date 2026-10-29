@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q16363550"
   },
   {
@@ -22,13 +23,14 @@
     "state_code": "17",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "15.00538095",
-    "longitude": "100.32640168",
+    "latitude": "15.00787000",
+    "longitude": "100.32691000",
     "native": "อินทร์บุรี",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 8586,
+    "population_year": null,
     "wikiDataId": "Q15221497"
   },
   {
@@ -45,10 +47,11 @@
     "translations": {},
     "type": "district",
     "population": 15313,
+    "population_year": null,
     "wikiDataId": "Q475627"
   },
   {
-    "id": 105771,
+    "id": 167159,
     "name": "Phrom Buri",
     "state_id": 3490,
     "state_code": "17",
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q20876671"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 17843,
+    "population_year": null,
     "wikiDataId": "Q1210752"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "district",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q476823"
   }
 ]

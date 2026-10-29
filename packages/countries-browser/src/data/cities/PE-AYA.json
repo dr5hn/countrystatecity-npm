@@ -1,21 +1,5 @@
 [
   {
-    "id": 80829,
-    "name": "Ayacucho",
-    "state_id": 3692,
-    "state_code": "AYA",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.15416667",
-    "longitude": "-74.22277778",
-    "native": "Ayacucho",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q504215"
-  },
-  {
     "id": 80568,
     "name": "Ayacucho",
     "state_id": 3692,
@@ -29,7 +13,25 @@
     "translations": {},
     "type": "municipality",
     "population": 140033,
-    "wikiDataId": "Q3312393"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166886,
+    "name": "Ayacucho",
+    "state_id": 3692,
+    "state_code": "AYA",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.16305556",
+    "longitude": "-74.22444444",
+    "native": "Ayacucho",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q504215"
   },
   {
     "id": 80570,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 4588,
+    "population_year": null,
     "wikiDataId": "Q3344141"
   },
   {
@@ -61,26 +64,28 @@
     "translations": {},
     "type": "municipality",
     "population": 7420,
-    "wikiDataId": "Q3825827"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 80873,
+    "id": 166900,
     "name": "Coracora",
     "state_id": 3692,
     "state_code": "AYA",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-15.01611111",
-    "longitude": "-73.78194444",
+    "latitude": "-15.01699444",
+    "longitude": "-73.78041944",
     "native": "Coracora",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q763662"
   },
   {
-    "id": 80653,
+    "id": 167877,
     "name": "Huanta",
     "state_id": 3692,
     "state_code": "AYA",
@@ -93,22 +98,24 @@
     "translations": {},
     "type": "municipality",
     "population": 18627,
+    "population_year": null,
     "wikiDataId": "Q2576396"
   },
   {
-    "id": 80835,
+    "id": 166889,
     "name": "Huanta",
     "state_id": 3692,
     "state_code": "AYA",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-12.93861111",
-    "longitude": "-74.24861111",
+    "latitude": "-12.93972222",
+    "longitude": "-74.24750000",
     "native": "Huanta",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2158344"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 9609,
+    "population_year": null,
     "wikiDataId": "Q1806437"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "province",
     "population": 30443,
+    "population_year": null,
     "wikiDataId": "Q1814190"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 8409,
+    "population_year": null,
     "wikiDataId": "Q1808513"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "province",
     "population": 70653,
+    "population_year": null,
     "wikiDataId": "Q514494"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "province",
     "population": 51328,
+    "population_year": null,
     "wikiDataId": "Q1814203"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "adm3",
     "population": 9445,
+    "population_year": null,
     "wikiDataId": "Q1814180"
   },
   {
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "province",
     "population": 20109,
+    "population_year": null,
     "wikiDataId": "Q1947116"
   },
   {
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "province",
     "population": 16861,
+    "population_year": null,
     "wikiDataId": "Q537708"
   },
   {
@@ -253,7 +268,8 @@
     "translations": {},
     "type": "municipality",
     "population": 10491,
-    "wikiDataId": "Q3826135"
+    "population_year": null,
+    "wikiDataId": "Q2726653"
   },
   {
     "id": 80951,
@@ -269,7 +285,8 @@
     "translations": {},
     "type": "municipality",
     "population": 8400,
-    "wikiDataId": "Q938891"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80985,
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 5032,
-    "wikiDataId": "Q723584"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

@@ -13,23 +13,8 @@
     "translations": {},
     "type": "village",
     "population": 10925,
+    "population_year": null,
     "wikiDataId": "Q2272537"
-  },
-  {
-    "id": 48555,
-    "name": "Blaenau Gwent",
-    "state_id": 2530,
-    "state_code": "BGW",
-    "country_id": 232,
-    "country_code": "GB",
-    "latitude": "51.75000000",
-    "longitude": "-3.16667000",
-    "native": "Blaenau Gwent",
-    "timezone": "Europe/London",
-    "translations": {},
-    "type": "adm3",
-    "population": null,
-    "wikiDataId": "Q596885"
   },
   {
     "id": 48740,
@@ -43,8 +28,9 @@
     "native": "Brynmawr",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm3",
     "population": 14924,
+    "population_year": null,
     "wikiDataId": "Q1980175"
   },
   {
@@ -61,6 +47,7 @@
     "translations": {},
     "type": "village",
     "population": 2739,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -77,6 +64,7 @@
     "translations": {},
     "type": "town",
     "population": 33068,
+    "population_year": null,
     "wikiDataId": "Q2297559"
   },
   {
@@ -93,6 +81,7 @@
     "translations": {},
     "type": "town",
     "population": 14740,
+    "population_year": null,
     "wikiDataId": "Q1529978"
   },
   {
@@ -109,6 +98,7 @@
     "translations": {},
     "type": "locality",
     "population": 9153,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

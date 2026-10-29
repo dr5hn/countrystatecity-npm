@@ -105,8 +105,8 @@ export interface ISubregion {
 export interface ICity {
   id: number;
   name: string;
-  state_id: number;
-  state_code: string;
+  state_id: number | null;
+  state_code: string | null;
   country_id: number;
   country_code: string;
   latitude: string;
@@ -117,6 +117,7 @@ export interface ICity {
   /** Upstream classification (e.g. "municipality", "city", "town", "village", "locality", "section", or legacy "adm1"/"adm2"). Null if unavailable. */
   type?: string | null;
   population?: number | null;
+  population_year?: number | null;
   wikiDataId?: string | null;
 }
 

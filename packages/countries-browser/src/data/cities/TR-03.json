@@ -1,6 +1,6 @@
 [
   {
-    "id": 108190,
+    "id": 167907,
     "name": "Afyonkarahisar",
     "state_id": 2179,
     "state_code": "03",
@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 260577,
+    "population_year": 2025,
     "wikiDataId": "Q166824"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Başmakçı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10031,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4176,
+    "population_year": 2025,
     "wikiDataId": "Q1910298"
   },
   {
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "municipality",
     "population": 34122,
-    "wikiDataId": "Q1915508"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108795,
@@ -75,9 +79,10 @@
     "native": "Çay",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 31412,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1915489"
   },
   {
     "id": 108841,
@@ -91,8 +96,9 @@
     "native": "Çobanlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 9468,
+    "population_year": 2025,
     "wikiDataId": "Q1948398"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Dazkırı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 6450,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,9 +130,10 @@
     "native": "Dinar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 35359,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q933815"
   },
   {
     "id": 107576,
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "adm2",
     "population": 20063,
+    "population_year": null,
     "wikiDataId": "Q1911759"
   },
   {
@@ -155,9 +164,10 @@
     "native": "Evciler",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4902,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2672705"
   },
   {
     "id": 107831,
@@ -171,8 +181,9 @@
     "native": "Hocalar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2588,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -187,9 +198,10 @@
     "native": "İhsaniye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5767,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q343559"
   },
   {
     "id": 108912,
@@ -203,8 +215,9 @@
     "native": "İscehisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11809,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -219,9 +232,10 @@
     "native": "Kızılören",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2403,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2365599"
   },
   {
     "id": 108383,
@@ -237,7 +251,8 @@
     "translations": {},
     "type": "municipality",
     "population": 34876,
-    "wikiDataId": "Q2423834"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108468,
@@ -251,9 +266,10 @@
     "native": "Sinanpaşa",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5940,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2744945"
   },
   {
     "id": 108964,
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "municipality",
     "population": 15336,
+    "population_year": 2025,
     "wikiDataId": "Q1947545"
   },
   {
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7550,
+    "population_year": null,
     "wikiDataId": "Q2674205"
   }
 ]

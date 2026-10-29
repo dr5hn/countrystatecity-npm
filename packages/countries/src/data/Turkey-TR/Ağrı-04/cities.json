@@ -11,8 +11,9 @@
     "native": "Diyadin",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 18172,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 70171,
+    "population_year": null,
     "wikiDataId": "Q849535"
   },
   {
@@ -40,11 +42,12 @@
     "country_code": "TR",
     "latitude": "39.79803000",
     "longitude": "42.67574000",
-    "native": "Elişkek",
+    "native": "Eleşkirt",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 18769,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -59,8 +62,9 @@
     "native": "Hamur",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4233,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 124483,
+    "population_year": 2025,
     "wikiDataId": "Q199575"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 87451,
+    "population_year": null,
     "wikiDataId": "Q509324"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5477,
+    "population_year": null,
     "wikiDataId": "Q1023307"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7144,
-    "wikiDataId": "Q2785017"
+    "population_year": 2025,
+    "wikiDataId": null
   }
 ]

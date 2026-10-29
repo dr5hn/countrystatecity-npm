@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 105845,
+    "population_year": null,
     "wikiDataId": "Q25016835"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 148047,
+    "population_year": null,
     "wikiDataId": "Q25016302"
   },
   {
@@ -45,23 +47,8 @@
     "translations": {},
     "type": "city",
     "population": 2444160,
+    "population_year": null,
     "wikiDataId": "Q10389"
-  },
-  {
-    "id": 56325,
-    "name": "Bandung Barat",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.83333000",
-    "longitude": "107.48333000",
-    "native": "Kabupaten Bandung Barat",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 184182,
-    "wikiDataId": "Q10388"
   },
   {
     "id": 56199,
@@ -70,14 +57,15 @@
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.19550000",
-    "longitude": "107.43130000",
+    "latitude": "-7.36666667",
+    "longitude": "108.53333333",
     "native": "Banjar",
     "timezone": "Asia/Jakarta",
     "translations": {},
     "type": "city",
     "population": 200970,
-    "wikiDataId": "Q25012319"
+    "population_year": null,
+    "wikiDataId": "Q10391"
   },
   {
     "id": 56202,
@@ -93,6 +81,7 @@
     "translations": {},
     "type": "village",
     "population": 164952,
+    "population_year": null,
     "wikiDataId": "Q25012347"
   },
   {
@@ -109,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 2564940,
+    "population_year": null,
     "wikiDataId": "Q10392"
   },
   {
@@ -125,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 1127408,
+    "population_year": null,
     "wikiDataId": "Q10393"
   },
   {
@@ -141,6 +132,7 @@
     "translations": {},
     "type": "village",
     "population": 91845,
+    "population_year": null,
     "wikiDataId": "Q24992785"
   },
   {
@@ -157,7 +149,8 @@
     "translations": {},
     "type": "adm2",
     "population": 109839,
-    "wikiDataId": "Q24989720"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56241,
@@ -173,23 +166,25 @@
     "translations": {},
     "type": "city",
     "population": 207212,
+    "population_year": null,
     "wikiDataId": "Q24989478"
   },
   {
-    "id": 56391,
+    "id": 166669,
     "name": "Cianjur",
     "state_id": 1825,
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.77250000",
-    "longitude": "107.08306000",
-    "native": "Kabupaten Cianjur",
+    "latitude": "-6.82222000",
+    "longitude": "107.13944000",
+    "native": "Cianjur",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q10367"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56242,
@@ -205,7 +200,8 @@
     "translations": {},
     "type": "adm2",
     "population": 363424,
-    "wikiDataId": "Q24989478"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56243,
@@ -221,6 +217,7 @@
     "translations": {},
     "type": "city",
     "population": 88965,
+    "population_year": null,
     "wikiDataId": "Q24992793"
   },
   {
@@ -237,6 +234,7 @@
     "translations": {},
     "type": "city",
     "population": 145620,
+    "population_year": null,
     "wikiDataId": "Q24989872"
   },
   {
@@ -253,7 +251,8 @@
     "translations": {},
     "type": "adm2",
     "population": 106479,
-    "wikiDataId": "Q24989872"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56246,
@@ -269,6 +268,7 @@
     "translations": {},
     "type": "city",
     "population": 174041,
+    "population_year": null,
     "wikiDataId": "Q25068841"
   },
   {
@@ -285,6 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 288347,
+    "population_year": null,
     "wikiDataId": "Q24989928"
   },
   {
@@ -301,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 111476,
+    "population_year": null,
     "wikiDataId": "Q24989929"
   },
   {
@@ -317,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 586580,
+    "population_year": null,
     "wikiDataId": "Q31544434"
   },
   {
@@ -333,6 +336,7 @@
     "translations": {},
     "type": "city",
     "population": 239152,
+    "population_year": null,
     "wikiDataId": "Q24982547"
   },
   {
@@ -349,6 +353,7 @@
     "translations": {},
     "type": "city",
     "population": 77758,
+    "population_year": null,
     "wikiDataId": "Q25033630"
   },
   {
@@ -365,6 +370,7 @@
     "translations": {},
     "type": "city",
     "population": 341980,
+    "population_year": null,
     "wikiDataId": "Q10395"
   },
   {
@@ -381,6 +387,7 @@
     "translations": {},
     "type": "city",
     "population": 231492,
+    "population_year": null,
     "wikiDataId": "Q24982576"
   },
   {
@@ -397,23 +404,25 @@
     "translations": {},
     "type": "city",
     "population": 1876658,
+    "population_year": null,
     "wikiDataId": "Q24976272"
   },
   {
-    "id": 56407,
+    "id": 166679,
     "name": "Garut",
     "state_id": 1825,
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.38333000",
-    "longitude": "107.76667000",
-    "native": "Kabupaten Garut",
+    "latitude": "-7.24500000",
+    "longitude": "107.92100000",
+    "native": "Garut",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10371"
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56291,
@@ -429,6 +438,7 @@
     "translations": {},
     "type": "adm2",
     "population": 123263,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -445,6 +455,7 @@
     "translations": {},
     "type": "city",
     "population": 73010,
+    "population_year": null,
     "wikiDataId": "Q24924073"
   },
   {
@@ -461,183 +472,8 @@
     "translations": {},
     "type": "city",
     "population": 57973,
+    "population_year": null,
     "wikiDataId": "Q24924084"
-  },
-  {
-    "id": 56324,
-    "name": "Kabupaten Bandung",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.10000000",
-    "longitude": "107.60000000",
-    "native": "Kabupaten Bandung",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 164952,
-    "wikiDataId": "Q10332"
-  },
-  {
-    "id": 56349,
-    "name": "Kabupaten Bekasi",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.24667000",
-    "longitude": "107.10833000",
-    "native": "Kabupaten Bekasi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10340"
-  },
-  {
-    "id": 56366,
-    "name": "Kabupaten Bogor",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.58333000",
-    "longitude": "106.71667000",
-    "native": "Kabupaten Bogor",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10363"
-  },
-  {
-    "id": 56390,
-    "name": "Kabupaten Ciamis",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.28333000",
-    "longitude": "108.41667000",
-    "native": "Kabupaten Ciamis",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10365"
-  },
-  {
-    "id": 56393,
-    "name": "Kabupaten Cirebon",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.80000000",
-    "longitude": "108.56667000",
-    "native": "Kabupaten Cirebon",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10368"
-  },
-  {
-    "id": 56426,
-    "name": "Kabupaten Indramayu",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.45000000",
-    "longitude": "108.16667000",
-    "native": "Kabupaten Indramayu",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10374"
-  },
-  {
-    "id": 56474,
-    "name": "Kabupaten Kuningan",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.00000000",
-    "longitude": "108.55000000",
-    "native": "Kabupaten Kuningan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10376"
-  },
-  {
-    "id": 56508,
-    "name": "Kabupaten Majalengka",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.81667000",
-    "longitude": "108.28333000",
-    "native": "Kabupaten Majalengka",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10377"
-  },
-  {
-    "id": 56606,
-    "name": "Kabupaten Purwakarta",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-6.58333000",
-    "longitude": "107.45000000",
-    "native": "Kabupaten Purwakarta",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 179233,
-    "wikiDataId": "Q10378"
-  },
-  {
-    "id": 56645,
-    "name": "Kabupaten Sukabumi",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.06667000",
-    "longitude": "106.70000000",
-    "native": "Kabupaten Sukabumi",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q10381"
-  },
-  {
-    "id": 56674,
-    "name": "Kabupaten Tasikmalaya",
-    "state_id": 1825,
-    "state_code": "JB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-7.50000000",
-    "longitude": "108.13333000",
-    "native": "Kabupaten Tasikmalaya",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q10385"
   },
   {
     "id": 56698,
@@ -653,6 +489,7 @@
     "translations": {},
     "type": "city",
     "population": 31234,
+    "population_year": null,
     "wikiDataId": "Q24899022"
   },
   {
@@ -669,10 +506,11 @@
     "translations": {},
     "type": "city",
     "population": 75856,
+    "population_year": null,
     "wikiDataId": "Q24899104"
   },
   {
-    "id": 56440,
+    "id": 166697,
     "name": "Karawang",
     "state_id": 1825,
     "state_code": "JB",
@@ -685,6 +523,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12489610"
   },
   {
@@ -701,7 +540,8 @@
     "translations": {},
     "type": "adm3",
     "population": 50541,
-    "wikiDataId": "Q25080317"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56718,
@@ -717,6 +557,7 @@
     "translations": {},
     "type": "city",
     "population": 88378,
+    "population_year": null,
     "wikiDataId": "Q24884861"
   },
   {
@@ -733,7 +574,8 @@
     "translations": {},
     "type": "city",
     "population": 110182,
-    "wikiDataId": "Q19153"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56825,
@@ -749,6 +591,7 @@
     "translations": {},
     "type": "adm2",
     "population": 111742,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -758,13 +601,14 @@
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.81167000",
-    "longitude": "107.61750000",
+    "latitude": "-6.81861111",
+    "longitude": "107.62027778",
     "native": "Lembang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 183130,
+    "population_year": null,
     "wikiDataId": "Q12494402"
   },
   {
@@ -781,7 +625,8 @@
     "translations": {},
     "type": "adm2",
     "population": 73052,
-    "wikiDataId": "Q11017"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56861,
@@ -797,7 +642,25 @@
     "translations": {},
     "type": "city",
     "population": 83119,
+    "population_year": null,
     "wikiDataId": "Q24879713"
+  },
+  {
+    "id": 166629,
+    "name": "Ngamprah",
+    "state_id": 1825,
+    "state_code": "JB",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-6.82889000",
+    "longitude": "107.49667000",
+    "native": "Ngamprah",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56892,
@@ -813,7 +676,8 @@
     "translations": {},
     "type": "city",
     "population": 178743,
-    "wikiDataId": "Q25080319"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56899,
@@ -829,6 +693,7 @@
     "translations": {},
     "type": "city",
     "population": 92600,
+    "population_year": null,
     "wikiDataId": "Q24849670"
   },
   {
@@ -845,6 +710,7 @@
     "translations": {},
     "type": "city",
     "population": 114290,
+    "population_year": null,
     "wikiDataId": "Q24849706"
   },
   {
@@ -861,23 +727,25 @@
     "translations": {},
     "type": "city",
     "population": 48294,
+    "population_year": null,
     "wikiDataId": "Q24849712"
   },
   {
-    "id": 56575,
-    "name": "Pangandaran",
+    "id": 166785,
+    "name": "Parigi",
     "state_id": 1825,
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-7.66730000",
-    "longitude": "108.64037000",
-    "native": "Kabupaten Pangandaran",
+    "latitude": "-7.70150000",
+    "longitude": "108.49600000",
+    "native": "Parigi",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
-    "population": 0,
-    "wikiDataId": "Q46483"
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56918,
@@ -893,6 +761,7 @@
     "translations": {},
     "type": "city",
     "population": 123078,
+    "population_year": null,
     "wikiDataId": "Q24850034"
   },
   {
@@ -909,7 +778,8 @@
     "translations": {},
     "type": "city",
     "population": 273659,
-    "wikiDataId": "Q24850034"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56920,
@@ -925,6 +795,7 @@
     "translations": {},
     "type": "city",
     "population": 126181,
+    "population_year": null,
     "wikiDataId": "Q24850051"
   },
   {
@@ -941,7 +812,8 @@
     "translations": {},
     "type": "adm2",
     "population": 109523,
-    "wikiDataId": "Q7786"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56934,
@@ -957,6 +829,7 @@
     "translations": {},
     "type": "city",
     "population": 167105,
+    "population_year": null,
     "wikiDataId": "Q24847469"
   },
   {
@@ -973,7 +846,8 @@
     "translations": {},
     "type": "adm2",
     "population": 179233,
-    "wikiDataId": "Q24847672"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56948,
@@ -989,7 +863,8 @@
     "translations": {},
     "type": "adm3",
     "population": 39840,
-    "wikiDataId": "Q650908"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56954,
@@ -1005,6 +880,7 @@
     "translations": {},
     "type": "city",
     "population": 201463,
+    "population_year": null,
     "wikiDataId": "Q24843306"
   },
   {
@@ -1021,6 +897,7 @@
     "translations": {},
     "type": "city",
     "population": 159613,
+    "population_year": null,
     "wikiDataId": "Q24842063"
   },
   {
@@ -1037,6 +914,7 @@
     "translations": {},
     "type": "city",
     "population": 118439,
+    "population_year": null,
     "wikiDataId": "Q24842426"
   },
   {
@@ -1053,7 +931,8 @@
     "translations": {},
     "type": "adm2",
     "population": 48882,
-    "wikiDataId": "Q646700"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56994,
@@ -1069,23 +948,25 @@
     "translations": {},
     "type": "adm2",
     "population": 119112,
-    "wikiDataId": "Q7266"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56644,
+    "id": 166821,
     "name": "Subang",
     "state_id": 1825,
     "state_code": "JB",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-6.50833000",
-    "longitude": "107.70250000",
-    "native": "Kabupaten Subang",
+    "latitude": "-6.57000000",
+    "longitude": "107.75667000",
+    "native": "Subang",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q10380"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57001,
@@ -1101,6 +982,7 @@
     "translations": {},
     "type": "city",
     "population": 360644,
+    "population_year": null,
     "wikiDataId": "Q10397"
   },
   {
@@ -1117,7 +999,8 @@
     "translations": {},
     "type": "adm2",
     "population": 96725,
-    "wikiDataId": "Q6271142"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57005,
@@ -1133,6 +1016,7 @@
     "translations": {},
     "type": "adm2",
     "population": 200000,
+    "population_year": null,
     "wikiDataId": "Q15073336"
   },
   {
@@ -1149,7 +1033,8 @@
     "translations": {},
     "type": "section",
     "population": 100000,
-    "wikiDataId": "Q15073336"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57025,
@@ -1165,6 +1050,7 @@
     "translations": {},
     "type": "city",
     "population": 741760,
+    "population_year": null,
     "wikiDataId": "Q10399"
   },
   {
@@ -1181,7 +1067,8 @@
     "translations": {},
     "type": "city",
     "population": 128275,
-    "wikiDataId": "Q24818441"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57050,
@@ -1197,7 +1084,8 @@
     "translations": {},
     "type": "adm3",
     "population": 26240,
-    "wikiDataId": "Q15375"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57056,
@@ -1213,6 +1101,7 @@
     "translations": {},
     "type": "city",
     "population": 139004,
+    "population_year": null,
     "wikiDataId": "Q24825866"
   }
 ]

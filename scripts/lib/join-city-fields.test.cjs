@@ -3,6 +3,13 @@ const test = require('node:test');
 
 const { joinCityFields } = require('./join-city-fields.cjs');
 
+test('joins country-level cities and preserves population reference years', () => {
+  const countries = [{ id: 1, states: [], cities: [{ id: 7, name: 'Smara' }] }];
+  const stats = joinCityFields(countries, [{ id: 7, type: 'city', population: 57000, population_year: 2024 }]);
+  assert.deepEqual(stats, { totalCities: 1, matched: 1, unmatched: 0 });
+  assert.equal(countries[0].cities[0].population_year, 2024);
+});
+
 function makeCountry(overrides = {}) {
   return {
     id: 1,

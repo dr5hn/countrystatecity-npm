@@ -73,6 +73,11 @@ const mockCitiesOS = {
 };
 
 describe('loaders', () => {
+  it('includes cities with no state in a country collection', async () => {
+    const cities = { ...mockCitiesTS, features: [{ ...mockCitiesTS.features[0], properties: { id: 7, name: 'Town', country_code: 'EH', state_code: null } }] };
+    mockFetch({ 'states/EH.geojson': { type: 'FeatureCollection', features: [] }, 'cities/EH.geojson': cities });
+    expect(await getAllCitiesGeoJSONOfCountry('EH')).toEqual(cities);
+  });
   beforeEach(() => {
     resetConfiguration();
     configure({ baseURL: 'https://cdn.test.com' });

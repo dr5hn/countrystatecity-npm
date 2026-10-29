@@ -1,19 +1,20 @@
 [
   {
-    "id": 31613,
-    "name": "Jõelähtme vald",
+    "id": 167868,
+    "name": "Jõelähtme",
     "state_id": 5744,
     "state_code": "245",
     "country_id": 69,
     "country_code": "EE",
-    "latitude": "59.43996000",
-    "longitude": "25.13535000",
-    "native": "Jõelähtme vald",
+    "latitude": "59.44388889",
+    "longitude": "25.12916667",
+    "native": "Jõelähtme",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": null,
-    "wikiDataId": "Q993036"
+    "population_year": null,
+    "wikiDataId": "Q3124075"
   },
   {
     "id": 31653,
@@ -27,8 +28,9 @@
     "native": "Loo",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2093,
+    "population_year": null,
     "wikiDataId": "Q2989890"
   }
 ]

@@ -11,8 +11,9 @@
     "native": "Amberley",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2270,
+    "population_year": null,
     "wikiDataId": "Q457210"
   },
   {
@@ -27,25 +28,10 @@
     "native": "Ashburton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 20200,
+    "population_year": null,
     "wikiDataId": "Q724923"
-  },
-  {
-    "id": 79772,
-    "name": "Ashburton District",
-    "state_id": 4066,
-    "state_code": "CAN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-43.90000000",
-    "longitude": "171.75000000",
-    "native": "Ashburton District",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 2910,
-    "wikiDataId": "Q15784197"
   },
   {
     "id": 79780,
@@ -61,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 1290,
+    "population_year": null,
     "wikiDataId": "Q137105"
   },
   {
@@ -75,8 +62,9 @@
     "native": "Christchurch",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 383200,
+    "population_year": null,
     "wikiDataId": "Q79990"
   },
   {
@@ -91,9 +79,27 @@
     "native": "Darfield",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2960,
+    "population_year": null,
     "wikiDataId": "Q1165830"
+  },
+  {
+    "id": 166864,
+    "name": "Fairlie",
+    "state_id": 4066,
+    "state_code": "CAN",
+    "country_id": 158,
+    "country_code": "NZ",
+    "latitude": "-44.10000000",
+    "longitude": "170.83333333",
+    "native": "Fairlie",
+    "timezone": "Pacific/Auckland",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79795,
@@ -107,8 +113,9 @@
     "native": "Geraldine",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2800,
+    "population_year": null,
     "wikiDataId": "Q1002934"
   },
   {
@@ -123,8 +130,9 @@
     "native": "Kaiapoi",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 12850,
+    "population_year": null,
     "wikiDataId": "Q1013339"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Leeston",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2370,
+    "population_year": null,
     "wikiDataId": "Q985373"
   },
   {
@@ -155,25 +164,10 @@
     "native": "Lincoln",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 8130,
+    "population_year": null,
     "wikiDataId": "Q1186226"
-  },
-  {
-    "id": 79820,
-    "name": "Mackenzie",
-    "state_id": 4066,
-    "state_code": "CAN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-43.93987000",
-    "longitude": "170.51913000",
-    "native": "Mackenzie",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 4670,
-    "wikiDataId": "Q1760822"
   },
   {
     "id": 79829,
@@ -187,8 +181,9 @@
     "native": "Methven",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1900,
+    "population_year": null,
     "wikiDataId": "Q1925567"
   },
   {
@@ -203,9 +198,10 @@
     "native": "Oxford",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2370,
-    "wikiDataId": "Q1936464"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79861,
@@ -219,8 +215,9 @@
     "native": "Pleasant Point",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1460,
+    "population_year": null,
     "wikiDataId": "Q1474784"
   },
   {
@@ -235,8 +232,9 @@
     "native": "Prebbleton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4970,
+    "population_year": null,
     "wikiDataId": "Q176330"
   },
   {
@@ -251,8 +249,9 @@
     "native": "Rakaia",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1510,
+    "population_year": null,
     "wikiDataId": "Q1015735"
   },
   {
@@ -267,8 +266,9 @@
     "native": null,
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2034575"
   },
   {
@@ -283,25 +283,10 @@
     "native": "Rolleston",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 33200,
+    "population_year": null,
     "wikiDataId": "Q1099966"
-  },
-  {
-    "id": 79877,
-    "name": "Selwyn",
-    "state_id": 4066,
-    "state_code": "CAN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-43.32226000",
-    "longitude": "171.87064000",
-    "native": "Selwyn",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 62200,
-    "wikiDataId": "Q1210763"
   },
   {
     "id": 79893,
@@ -315,25 +300,10 @@
     "native": "Timaru",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 28700,
+    "population_year": null,
     "wikiDataId": "Q1016574"
-  },
-  {
-    "id": 79894,
-    "name": "Timaru District",
-    "state_id": 4066,
-    "state_code": "CAN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-44.40000000",
-    "longitude": "171.21667000",
-    "native": "Timaru District",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 47300,
-    "wikiDataId": "Q14395599"
   },
   {
     "id": 79895,
@@ -349,23 +319,8 @@
     "translations": {},
     "type": "city",
     "population": 4010,
-    "wikiDataId": "Q14395599"
-  },
-  {
-    "id": 79902,
-    "name": "Waimakariri",
-    "state_id": 4066,
-    "state_code": "CAN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-43.20750000",
-    "longitude": "172.33286000",
-    "native": "Waimakariri",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 59502,
-    "wikiDataId": "Q1542322"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79925,
@@ -379,8 +334,9 @@
     "native": "Woodend",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5430,
+    "population_year": null,
     "wikiDataId": "Q8032610"
   }
 ]

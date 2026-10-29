@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 6500,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 23975,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "village",
     "population": 1003,
+    "population_year": null,
     "wikiDataId": "Q2862048"
   },
   {
@@ -61,22 +64,24 @@
     "translations": {},
     "type": "section",
     "population": 41347,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 50710,
+    "id": 166603,
     "name": "Newcastle upon Tyne",
     "state_id": 2458,
     "state_code": "NET",
     "country_id": 232,
     "country_code": "GB",
-    "latitude": "55.00000000",
-    "longitude": "-1.66667000",
+    "latitude": "54.97777778",
+    "longitude": "-1.61333333",
     "native": "Newcastle upon Tyne",
     "timezone": "Europe/London",
     "translations": {},
     "type": "city",
     "population": 300196,
-    "wikiDataId": "Q21012735"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

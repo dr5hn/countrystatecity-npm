@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q2349330"
   },
   {
@@ -27,9 +28,10 @@
     "native": "Bulancak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 43635,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1947496"
   },
   {
     "id": 108772,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 9759,
+    "population_year": null,
     "wikiDataId": "Q2671156"
   },
   {
@@ -59,8 +62,9 @@
     "native": "Çanakçı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1675,
+    "population_year": 2025,
     "wikiDataId": "Q2008594"
   },
   {
@@ -75,8 +79,9 @@
     "native": "Dereli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 20405,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -91,9 +96,10 @@
     "native": "Doğankent",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3718,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1253669"
   },
   {
     "id": 107609,
@@ -107,8 +113,9 @@
     "native": "Espiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 15058,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "adm2",
     "population": 13955,
+    "population_year": null,
     "wikiDataId": "Q2901008"
   },
   {
@@ -134,13 +142,14 @@
     "state_code": "28",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.91698000",
-    "longitude": "38.38741000",
+    "latitude": "40.90000000",
+    "longitude": "38.41666667",
     "native": "Giresun",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 125682,
+    "population_year": null,
     "wikiDataId": "Q201095"
   },
   {
@@ -155,9 +164,10 @@
     "native": "Görele",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 33510,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1921314"
   },
   {
     "id": 107724,
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "adm2",
     "population": 7809,
+    "population_year": null,
     "wikiDataId": "Q2671163"
   },
   {
@@ -187,9 +198,10 @@
     "native": "Keşap",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 20616,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q943807"
   },
   {
     "id": 108343,
@@ -203,8 +215,9 @@
     "native": "Piraziz",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 9959,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -219,8 +232,9 @@
     "native": "Şebinkarahisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 10417,
+    "population_year": 2025,
     "wikiDataId": "Q388662"
   },
   {
@@ -235,8 +249,9 @@
     "native": "Tirebolu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 32008,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -253,6 +268,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16758,
+    "population_year": null,
     "wikiDataId": "Q2097511"
   }
 ]

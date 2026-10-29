@@ -11,9 +11,10 @@
     "native": "Alaca",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 27019,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1012817"
   },
   {
     "id": 107294,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5613,
+    "population_year": null,
     "wikiDataId": "Q812112"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2477,
+    "population_year": null,
     "wikiDataId": "Q848800"
   },
   {
@@ -56,11 +59,12 @@
     "country_code": "TR",
     "latitude": "40.54889000",
     "longitude": "34.95333000",
-    "native": null,
+    "native": "Çorum",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 270361,
+    "population_year": 2025,
     "wikiDataId": "Q206900"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1234499"
   },
   {
@@ -91,9 +96,10 @@
     "native": "İskilip",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 19829,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q344093"
   },
   {
     "id": 107924,
@@ -107,8 +113,9 @@
     "native": "Kargı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 15684,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,8 +130,9 @@
     "native": "Laçin",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2471,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -136,11 +144,12 @@
     "country_code": "TR",
     "latitude": "40.52000000",
     "longitude": "35.29528000",
-    "native": "Mecita",
+    "native": "Mecitözü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5506,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -171,8 +181,9 @@
     "native": "Oğuzlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2639,
+    "population_year": 2025,
     "wikiDataId": "Q117336391"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q730663"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "city",
     "population": 42980,
+    "population_year": null,
     "wikiDataId": "Q1014135"
   },
   {
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "municipality",
     "population": 34158,
+    "population_year": 2025,
     "wikiDataId": "Q14421288"
   },
   {
@@ -235,8 +249,9 @@
     "native": "Uğurludağ",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 8252,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

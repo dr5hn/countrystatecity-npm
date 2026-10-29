@@ -13,6 +13,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475865"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 99819,
+    "population_year": null,
     "wikiDataId": "Q1015899"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q204647"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475657"
   },
   {
@@ -75,8 +79,9 @@
     "native": "ขลุง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 10835,
+    "population_year": null,
     "wikiDataId": "Q15980680"
   },
   {
@@ -93,10 +98,11 @@
     "translations": {},
     "type": "town",
     "population": 16066,
+    "population_year": null,
     "wikiDataId": "Q28732570"
   },
   {
-    "id": 105523,
+    "id": 167073,
     "name": "Makham",
     "state_id": 3486,
     "state_code": "22",
@@ -109,10 +115,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105627,
+    "id": 167095,
     "name": "Na Yai Am",
     "state_id": 3486,
     "state_code": "22",
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -139,8 +147,9 @@
     "native": "โป่งน้ำร้อน",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 8878,
+    "population_year": null,
     "wikiDataId": "Q28732576"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476749"
   },
   {
@@ -171,8 +181,9 @@
     "native": "ท่าไม้",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 22445,
+    "population_year": null,
     "wikiDataId": "Q15980679"
   }
 ]

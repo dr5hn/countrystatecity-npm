@@ -1,6 +1,6 @@
 [
   {
-    "id": 80557,
+    "id": 167872,
     "name": "Aguas Verdes",
     "state_id": 3689,
     "state_code": "TUM",
@@ -13,6 +13,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9106,
+    "population_year": null,
     "wikiDataId": "Q4694508"
   },
   {
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "city",
     "population": 5484,
-    "wikiDataId": "Q2725364"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80813,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 5484,
+    "population_year": null,
     "wikiDataId": "Q1422590"
   },
   {
@@ -61,23 +64,8 @@
     "translations": {},
     "type": "province",
     "population": 48844,
+    "population_year": null,
     "wikiDataId": "Q1477797"
-  },
-  {
-    "id": 80905,
-    "name": "Tumbes",
-    "state_id": 3689,
-    "state_code": "TUM",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-3.56472222",
-    "longitude": "-80.45361111",
-    "native": "Tumbes",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q827640"
   },
   {
     "id": 80999,
@@ -93,7 +81,25 @@
     "translations": {},
     "type": "municipality",
     "population": 96946,
-    "wikiDataId": "Q2039785"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166912,
+    "name": "Tumbes",
+    "state_id": 3689,
+    "state_code": "TUM",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-3.57083333",
+    "longitude": "-80.45972222",
+    "native": "Tumbes",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q827640"
   },
   {
     "id": 81021,
@@ -109,7 +115,8 @@
     "translations": {},
     "type": "municipality",
     "population": 16907,
-    "wikiDataId": "Q6318172"
+    "population_year": null,
+    "wikiDataId": "Q2877763"
   },
   {
     "id": 81022,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 12261,
-    "wikiDataId": "Q6316996"
+    "population_year": null,
+    "wikiDataId": "Q3317432"
   }
 ]

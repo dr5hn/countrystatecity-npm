@@ -1,6 +1,6 @@
 [
   {
-    "id": 57034,
+    "id": 166851,
     "name": "Ampana",
     "state_id": 1813,
     "state_code": "ST",
@@ -13,23 +13,8 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2844083"
-  },
-  {
-    "id": 56326,
-    "name": "Banggai",
-    "state_id": 1813,
-    "state_code": "ST",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-0.91141000",
-    "longitude": "122.71836000",
-    "native": "Kabupaten Banggai",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15810"
   },
   {
     "id": 56328,
@@ -45,7 +30,25 @@
     "translations": {},
     "type": "regency",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q12488339"
+  },
+  {
+    "id": 166842,
+    "name": "Baolan",
+    "state_id": 1813,
+    "state_code": "ST",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "0.98490000",
+    "longitude": "120.82370000",
+    "native": "Baolan",
+    "timezone": "Asia/Makassar",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 164807,
@@ -61,10 +64,11 @@
     "translations": {},
     "type": "adm2",
     "population": 25477,
+    "population_year": null,
     "wikiDataId": "Q28163770"
   },
   {
-    "id": 56383,
+    "id": 166662,
     "name": "Buol",
     "state_id": 1813,
     "state_code": "ST",
@@ -77,10 +81,11 @@
     "translations": {},
     "type": "section",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2482083"
   },
   {
-    "id": 56401,
+    "id": 166674,
     "name": "Donggala",
     "state_id": 1813,
     "state_code": "ST",
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q25468903"
   },
   {
@@ -109,7 +115,8 @@
     "translations": {},
     "type": "adm2",
     "population": 47778,
-    "wikiDataId": "Q2152993"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56541,
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12488353"
   },
   {
@@ -139,12 +147,13 @@
     "native": "Palu",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 359350,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 56578,
+    "id": 166788,
     "name": "Parigi",
     "state_id": 1813,
     "state_code": "ST",
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791041"
   },
   {
@@ -173,10 +183,11 @@
     "translations": {},
     "type": "adm2",
     "population": 47477,
+    "population_year": null,
     "wikiDataId": "Q12492354"
   },
   {
-    "id": 56327,
+    "id": 166630,
     "name": "Salakan",
     "state_id": 1813,
     "state_code": "ST",
@@ -189,38 +200,24 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12511580"
   },
   {
-    "id": 56630,
-    "name": "Sigi",
+    "id": 166817,
+    "name": "Sigi Biromaru",
     "state_id": 1813,
     "state_code": "ST",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-1.38500000",
-    "longitude": "119.96694000",
-    "native": "Kabupaten Sigi",
+    "latitude": "-0.94982000",
+    "longitude": "119.91805000",
+    "native": "Sigi Biromaru",
     "timezone": "Asia/Makassar",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q15822"
-  },
-  {
-    "id": 56682,
-    "name": "Toli-Toli",
-    "state_id": 1813,
-    "state_code": "ST",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "1.30862000",
-    "longitude": "120.88643000",
-    "native": "Kabupaten Toli-Toli",
-    "timezone": "Asia/Makassar",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q15824"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

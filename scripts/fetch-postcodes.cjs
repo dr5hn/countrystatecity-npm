@@ -32,12 +32,23 @@ async function resolveRelease(usePinnedRelease = false) {
 }
 
 async function main() {
-  const release = await resolveRelease(process.argv.includes('--use-pinned-release'));
+  const usePinnedRelease = process.argv.includes('--use-pinned-release');
+  const release = await resolveRelease(usePinnedRelease);
   console.log(`✓ Pinned to release ${release.tag} (published ${release.publishedAt})\n`);
 
   const { url } = requireAsset(release, ASSET_NAME);
   console.log(`📥 Downloading ${ASSET_NAME}...`);
   const result = await downloadGzipAsset({ url, destPath: DEST_PATH });
+  if (usePinnedRelease) {
+    const pinned = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf8'));
+    if (pinned.tag !== release.tag) throw new Error('Pinned release changed during postcode fetch');
+    pinned.files = pinned.files.filter(file => file.role !== 'postcodes');
+    pinned.files.push({ asset: ASSET_NAME, role: 'postcodes', url, ...result,
+      recordCount: JSON.parse(fs.readFileSync(DEST_PATH, 'utf8')).length });
+    const temporary = `${RELEASE_FILE}.tmp-${process.pid}`;
+    fs.writeFileSync(temporary, JSON.stringify(pinned, null, 2) + '\n');
+    fs.renameSync(temporary, RELEASE_FILE);
+  }
   console.log(
     `✓ ${ASSET_NAME}: ${(result.compressedBytes / 1024 / 1024).toFixed(2)}MB → ` +
       `${(result.decompressedBytes / 1024 / 1024).toFixed(2)}MB, sha256 ${result.contentSha256.slice(0, 12)}...\n`,

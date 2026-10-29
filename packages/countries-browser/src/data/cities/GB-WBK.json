@@ -13,6 +13,7 @@
     "translations": {},
     "type": "village",
     "population": 1161,
+    "population_year": null,
     "wikiDataId": "Q4954517"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 9093,
+    "population_year": null,
     "wikiDataId": "Q5018858"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "village",
     "population": 2224,
+    "population_year": null,
     "wikiDataId": "Q2182890"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "village",
     "population": 2092,
+    "population_year": null,
     "wikiDataId": "Q1813871"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "town",
     "population": 5866,
+    "population_year": null,
     "wikiDataId": "Q1637841"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "village",
     "population": 2599,
+    "population_year": null,
     "wikiDataId": "Q2749964"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "village",
     "population": 3071,
+    "population_year": null,
     "wikiDataId": "Q2273355"
   },
   {
@@ -123,8 +130,9 @@
     "native": "Newbury",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 33790,
+    "population_year": null,
     "wikiDataId": "Q655874"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "village",
     "population": 3277,
+    "population_year": null,
     "wikiDataId": "Q3036324"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "village",
     "population": 3997,
+    "population_year": null,
     "wikiDataId": "Q1982217"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "town",
     "population": 25466,
+    "population_year": null,
     "wikiDataId": "Q1026304"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "village",
     "population": 3053,
+    "population_year": null,
     "wikiDataId": "Q2519746"
   },
   {
@@ -203,8 +215,9 @@
     "native": "Upper Basildon",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "section",
+    "type": "adm3",
     "population": 1405,
+    "population_year": null,
     "wikiDataId": "Q7898478"
   },
   {
@@ -221,7 +234,8 @@
     "translations": {},
     "type": "village",
     "population": 331,
-    "wikiDataId": "Q981109"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 51937,
@@ -235,8 +249,9 @@
     "native": "Winterbourne",
     "timezone": "Europe/London",
     "translations": {},
-    "type": "adm3",
+    "type": "village",
     "population": 2168,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

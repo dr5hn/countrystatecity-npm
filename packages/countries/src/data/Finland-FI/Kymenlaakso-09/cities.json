@@ -13,6 +13,7 @@
     "translations": {},
     "type": "section",
     "population": 16779,
+    "population_year": null,
     "wikiDataId": "Q4765722"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm3",
     "population": 8751,
+    "population_year": null,
     "wikiDataId": "Q1000113"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 19113,
+    "population_year": 2025,
     "wikiDataId": "Q367780"
   },
   {
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "adm3",
     "population": 6444,
-    "wikiDataId": "Q853673"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 38794,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 1893,
+    "population_year": null,
     "wikiDataId": "Q1011082"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 22867,
+    "population_year": null,
     "wikiDataId": "Q2392663"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 50029,
+    "population_year": 2025,
     "wikiDataId": "Q192155"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 77625,
+    "population_year": 2025,
     "wikiDataId": "Q204382"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Miehikkälä",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 1664,
+    "population_year": 2025,
     "wikiDataId": "Q999203"
   },
   {
@@ -155,8 +164,9 @@
     "native": "Pyhtää",
     "timezone": "Europe/Helsinki",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5016,
+    "population_year": 2025,
     "wikiDataId": "Q990557"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "locality",
     "population": 1328,
+    "population_year": null,
     "wikiDataId": "Q24305828"
   }
 ]

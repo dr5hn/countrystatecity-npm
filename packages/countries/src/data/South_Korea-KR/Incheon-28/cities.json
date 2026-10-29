@@ -11,8 +11,9 @@
     "native": "부평구",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50391"
   },
   {
@@ -27,9 +28,10 @@
     "native": "인천",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 2993492,
-    "wikiDataId": "Q42137"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65438,
@@ -43,8 +45,9 @@
     "native": "미추홀",
     "timezone": "Asia/Seoul",
     "translations": {},
-    "type": "area",
+    "type": "municipality",
     "population": 410913,
+    "population_year": null,
     "wikiDataId": "Q50365"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q50421"
   }
 ]

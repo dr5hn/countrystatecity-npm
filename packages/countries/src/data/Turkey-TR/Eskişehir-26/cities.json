@@ -8,11 +8,12 @@
     "country_code": "TR",
     "latitude": "39.76903000",
     "longitude": "30.96060000",
-    "native": "Alpin",
+    "native": "Alpu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5981,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -27,9 +28,10 @@
     "native": "Beylikova",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5131,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q288024"
   },
   {
     "id": 108827,
@@ -43,8 +45,9 @@
     "native": "Çifteler",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 10166,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -59,8 +62,9 @@
     "native": "Günyüzü",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5008,
+    "population_year": 2025,
     "wikiDataId": "Q1919824"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q2417071"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q2833269"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7407,
+    "population_year": 2025,
     "wikiDataId": "Q2615120"
   },
   {
@@ -125,7 +132,8 @@
     "translations": {},
     "type": "municipality",
     "population": 2861,
-    "wikiDataId": "Q2397202"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108210,
@@ -139,8 +147,9 @@
     "native": "Mihalıççık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7605,
+    "population_year": 2025,
     "wikiDataId": "Q377962"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "adm2",
     "population": 404267,
+    "population_year": null,
     "wikiDataId": "Q130470"
   },
   {
@@ -171,8 +181,9 @@
     "native": "Sarıcakaya",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 4477,
+    "population_year": 2025,
     "wikiDataId": "Q3056019"
   },
   {
@@ -189,7 +200,8 @@
     "translations": {},
     "type": "municipality",
     "population": 12565,
-    "wikiDataId": "Q1572971"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108481,
@@ -205,7 +217,8 @@
     "translations": {},
     "type": "municipality",
     "population": 20189,
-    "wikiDataId": "Q1019915"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108566,
@@ -219,8 +232,9 @@
     "native": "Tepebaşı",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 398129,
+    "population_year": 2025,
     "wikiDataId": "Q3906371"
   }
 ]

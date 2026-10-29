@@ -1,0 +1,118 @@
+{
+  "id": 9,
+  "name": "Antarctica",
+  "iso2": "AQ",
+  "iso3": "ATA",
+  "numeric_code": "010",
+  "phonecode": "672",
+  "capital": "",
+  "currency": "AAD",
+  "currency_name": "Antarctican dollar",
+  "currency_symbol": "$",
+  "tld": ".aq",
+  "native": "Antarctica",
+  "population": null,
+  "gdp": null,
+  "region": "Polar",
+  "region_id": 6,
+  "subregion": "",
+  "subregion_id": null,
+  "nationality": "Antarctic",
+  "latitude": "-74.65000000",
+  "longitude": "4.48000000",
+  "emoji": "🇦🇶",
+  "emojiU": "U+1F1E6 U+1F1F6",
+  "timezones": [
+    {
+      "zoneName": "Antarctica/Casey",
+      "gmtOffset": 28800,
+      "gmtOffsetName": "UTC+08:00",
+      "abbreviation": "AWST",
+      "tzName": "Australian Western Standard Time"
+    },
+    {
+      "zoneName": "Antarctica/Davis",
+      "gmtOffset": 25200,
+      "gmtOffsetName": "UTC+07:00",
+      "abbreviation": "DAVT",
+      "tzName": "Davis Time"
+    },
+    {
+      "zoneName": "Antarctica/DumontDUrville",
+      "gmtOffset": 36000,
+      "gmtOffsetName": "UTC+10:00",
+      "abbreviation": "DDUT",
+      "tzName": "Dumont d'Urville Time"
+    },
+    {
+      "zoneName": "Antarctica/Mawson",
+      "gmtOffset": 18000,
+      "gmtOffsetName": "UTC+05:00",
+      "abbreviation": "MAWT",
+      "tzName": "Mawson Station Time"
+    },
+    {
+      "zoneName": "Antarctica/McMurdo",
+      "gmtOffset": 43200,
+      "gmtOffsetName": "UTC+12:00",
+      "abbreviation": "NZST",
+      "tzName": "New Zealand Standard Time"
+    },
+    {
+      "zoneName": "Antarctica/Palmer",
+      "gmtOffset": -10800,
+      "gmtOffsetName": "UTC-03:00",
+      "abbreviation": "CLST",
+      "tzName": "Chile Summer Time"
+    },
+    {
+      "zoneName": "Antarctica/Rothera",
+      "gmtOffset": -10800,
+      "gmtOffsetName": "UTC-03:00",
+      "abbreviation": "ROTT",
+      "tzName": "Rothera Research Station Time"
+    },
+    {
+      "zoneName": "Antarctica/Syowa",
+      "gmtOffset": 10800,
+      "gmtOffsetName": "UTC+03:00",
+      "abbreviation": "SYOT",
+      "tzName": "Showa Station Time"
+    },
+    {
+      "zoneName": "Antarctica/Troll",
+      "gmtOffset": 0,
+      "gmtOffsetName": "UTC±00",
+      "abbreviation": "GMT",
+      "tzName": "Greenwich Mean Time"
+    },
+    {
+      "zoneName": "Antarctica/Vostok",
+      "gmtOffset": 18000,
+      "gmtOffsetName": "UTC+05:00",
+      "abbreviation": "VOST",
+      "tzName": "Vostok Station Time"
+    }
+  ],
+  "translations": {
+    "br": "Antarktika",
+    "ko": "남극",
+    "pt-BR": "Antártida",
+    "pt": "Antárctida",
+    "nl": "Antarctica",
+    "hr": "Antarktika",
+    "fa": "جنوبگان",
+    "de": "Antarktika",
+    "es": "Antártida",
+    "fr": "Antarctique",
+    "ja": "南極大陸",
+    "it": "Antartide",
+    "zh-CN": "南极洲",
+    "tr": "Antartika",
+    "ru": "Антарктида",
+    "uk": "Антарктида",
+    "pl": "Antarktyda",
+    "hi": "अंटार्कटिका",
+    "ar": "أنتاركتيكا"
+  }
+}

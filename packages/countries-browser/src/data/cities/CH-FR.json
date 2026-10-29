@@ -13,6 +13,7 @@
     "translations": {},
     "type": "locality",
     "population": 1850,
+    "population_year": null,
     "wikiDataId": "Q22397662"
   },
   {
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3690,
-    "wikiDataId": "Q38652"
+    "population_year": 2025,
+    "wikiDataId": "Q22461303"
   },
   {
     "id": 17426,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "locality",
     "population": 1326,
+    "population_year": null,
     "wikiDataId": "Q22465263"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 1963,
+    "population_year": null,
     "wikiDataId": "Q69899"
   },
   {
@@ -77,7 +81,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3488,
-    "wikiDataId": "Q65880"
+    "population_year": 2025,
+    "wikiDataId": "Q22374123"
   },
   {
     "id": 17596,
@@ -93,7 +98,8 @@
     "translations": {},
     "type": "city",
     "population": 3408,
-    "wikiDataId": "Q67379"
+    "population_year": null,
+    "wikiDataId": "Q22370465"
   },
   {
     "id": 17566,
@@ -109,7 +115,8 @@
     "translations": {},
     "type": "municipality",
     "population": 2957,
-    "wikiDataId": "Q67519"
+    "population_year": 2025,
+    "wikiDataId": "Q22596066"
   },
   {
     "id": 17581,
@@ -125,7 +132,8 @@
     "translations": {},
     "type": "city",
     "population": 27276,
-    "wikiDataId": "Q68308"
+    "population_year": 2025,
+    "wikiDataId": "Q22607499"
   },
   {
     "id": 17627,
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 1713,
+    "population_year": null,
     "wikiDataId": "Q67305"
   },
   {
@@ -157,7 +166,8 @@
     "translations": {},
     "type": "city",
     "population": 8931,
-    "wikiDataId": "Q69517"
+    "population_year": 2025,
+    "wikiDataId": "Q22484469"
   },
   {
     "id": 17654,
@@ -173,7 +183,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3120,
-    "wikiDataId": "Q66487"
+    "population_year": 2025,
+    "wikiDataId": "Q22542765"
   },
   {
     "id": 17661,
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1431,
+    "population_year": 2025,
     "wikiDataId": "Q67456"
   },
   {
@@ -205,7 +217,8 @@
     "translations": {},
     "type": "municipality",
     "population": 2067,
-    "wikiDataId": "Q70302"
+    "population_year": 2025,
+    "wikiDataId": "Q22547699"
   },
   {
     "id": 17702,
@@ -221,10 +234,11 @@
     "translations": {},
     "type": "city",
     "population": 2353,
+    "population_year": null,
     "wikiDataId": "Q67681"
   },
   {
-    "id": 17714,
+    "id": 167650,
     "name": "Düdingen",
     "state_id": 1640,
     "state_code": "FR",
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9333,
+    "population_year": 2025,
     "wikiDataId": "Q70108"
   },
   {
@@ -253,6 +268,7 @@
     "translations": {},
     "type": "locality",
     "population": 10065,
+    "population_year": null,
     "wikiDataId": "Q22366537"
   },
   {
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "locality",
     "population": 1006,
+    "population_year": null,
     "wikiDataId": "Q22416046"
   },
   {
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "section",
     "population": 5061,
+    "population_year": null,
     "wikiDataId": "Q67516"
   },
   {
@@ -301,6 +319,7 @@
     "translations": {},
     "type": "section",
     "population": 4922,
+    "population_year": null,
     "wikiDataId": "Q22700500"
   },
   {
@@ -317,7 +336,8 @@
     "translations": {},
     "type": "city",
     "population": 39599,
-    "wikiDataId": "Q36378"
+    "population_year": 2025,
+    "wikiDataId": "Q22511682"
   },
   {
     "id": 17832,
@@ -333,7 +353,8 @@
     "translations": {},
     "type": "municipality",
     "population": 1718,
-    "wikiDataId": "Q66476"
+    "population_year": 2025,
+    "wikiDataId": "Q22638501"
   },
   {
     "id": 17837,
@@ -349,6 +370,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3507,
+    "population_year": 2025,
     "wikiDataId": "Q66461"
   },
   {
@@ -365,6 +387,7 @@
     "translations": {},
     "type": "locality",
     "population": 1575,
+    "population_year": null,
     "wikiDataId": "Q22650127"
   },
   {
@@ -379,12 +402,13 @@
     "native": "Gruyères",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 2353,
+    "population_year": 2025,
     "wikiDataId": "Q69600"
   },
   {
-    "id": 17904,
+    "id": 167688,
     "name": "Heitenried",
     "state_id": 1640,
     "state_code": "FR",
@@ -397,6 +421,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1413,
+    "population_year": 2025,
     "wikiDataId": "Q68031"
   },
   {
@@ -413,7 +438,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5546,
-    "wikiDataId": "Q69871"
+    "population_year": 2025,
+    "wikiDataId": "Q22387822"
   },
   {
     "id": 18025,
@@ -429,7 +455,8 @@
     "translations": {},
     "type": "municipality",
     "population": 2083,
-    "wikiDataId": "Q67686"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 18028,
@@ -445,6 +472,7 @@
     "translations": {},
     "type": "section",
     "population": 3686,
+    "population_year": null,
     "wikiDataId": "Q689582"
   },
   {
@@ -461,6 +489,7 @@
     "translations": {},
     "type": "adm3",
     "population": 8193,
+    "population_year": null,
     "wikiDataId": "Q65891"
   },
   {
@@ -477,7 +506,8 @@
     "translations": {},
     "type": "city",
     "population": 1909,
-    "wikiDataId": "Q67075"
+    "population_year": null,
+    "wikiDataId": "Q22436523"
   },
   {
     "id": 18190,
@@ -493,7 +523,8 @@
     "translations": {},
     "type": "municipality",
     "population": 1217,
-    "wikiDataId": "Q70637"
+    "population_year": 2025,
+    "wikiDataId": "Q22500285"
   },
   {
     "id": 18184,
@@ -509,7 +540,8 @@
     "translations": {},
     "type": "locality",
     "population": 5800,
-    "wikiDataId": "Q22633273"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18265,
@@ -525,6 +557,7 @@
     "translations": {},
     "type": "locality",
     "population": 1099,
+    "population_year": null,
     "wikiDataId": "Q22421403"
   },
   {
@@ -541,7 +574,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3729,
-    "wikiDataId": "Q67798"
+    "population_year": 2025,
+    "wikiDataId": "Q22394813"
   },
   {
     "id": 18323,
@@ -557,10 +591,11 @@
     "translations": {},
     "type": "city",
     "population": 1223,
+    "population_year": null,
     "wikiDataId": "Q22562729"
   },
   {
-    "id": 18342,
+    "id": 167779,
     "name": "Rechthalten",
     "state_id": 1640,
     "state_code": "FR",
@@ -573,6 +608,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1161,
+    "population_year": 2025,
     "wikiDataId": "Q66763"
   },
   {
@@ -589,7 +625,8 @@
     "translations": {},
     "type": "city",
     "population": 1894,
-    "wikiDataId": "Q67741"
+    "population_year": null,
+    "wikiDataId": "Q22373896"
   },
   {
     "id": 18389,
@@ -605,7 +642,8 @@
     "translations": {},
     "type": "city",
     "population": 6276,
-    "wikiDataId": "Q67103"
+    "population_year": 2025,
+    "wikiDataId": "Q22460676"
   },
   {
     "id": 18398,
@@ -621,7 +659,8 @@
     "translations": {},
     "type": "city",
     "population": 2638,
-    "wikiDataId": "Q70188"
+    "population_year": 2025,
+    "wikiDataId": "Q22475030"
   },
   {
     "id": 18569,
@@ -637,7 +676,8 @@
     "translations": {},
     "type": "municipality",
     "population": 1478,
-    "wikiDataId": "Q67736"
+    "population_year": 2025,
+    "wikiDataId": "Q22389567"
   },
   {
     "id": 18437,
@@ -653,6 +693,7 @@
     "translations": {},
     "type": "locality",
     "population": 1849,
+    "population_year": null,
     "wikiDataId": "Q22368093"
   },
   {
@@ -669,10 +710,11 @@
     "translations": {},
     "type": "municipality",
     "population": 4303,
-    "wikiDataId": "Q67705"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
-    "id": 18570,
+    "id": 167818,
     "name": "Tafers",
     "state_id": 1640,
     "state_code": "FR",
@@ -685,6 +727,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8030,
+    "population_year": 2025,
     "wikiDataId": "Q66865"
   },
   {
@@ -701,10 +744,11 @@
     "translations": {},
     "type": "municipality",
     "population": 1643,
-    "wikiDataId": "Q67448"
+    "population_year": 2025,
+    "wikiDataId": "Q22524423"
   },
   {
-    "id": 18623,
+    "id": 167825,
     "name": "Ueberstorf",
     "state_id": 1640,
     "state_code": "FR",
@@ -717,6 +761,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2417,
+    "population_year": 2025,
     "wikiDataId": "Q67689"
   },
   {
@@ -733,7 +778,8 @@
     "translations": {},
     "type": "city",
     "population": 12092,
-    "wikiDataId": "Q69760"
+    "population_year": null,
+    "wikiDataId": "Q22423484"
   },
   {
     "id": 18681,
@@ -749,6 +795,7 @@
     "translations": {},
     "type": "locality",
     "population": 1093,
+    "population_year": null,
     "wikiDataId": "Q22423581"
   },
   {
@@ -765,6 +812,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2580,
-    "wikiDataId": "Q66520"
+    "population_year": 2025,
+    "wikiDataId": "Q22432146"
   }
 ]

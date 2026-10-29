@@ -11,8 +11,9 @@
     "native": "Ballyragget",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1082,
+    "population_year": null,
     "wikiDataId": "Q2119844"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Callan",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2475,
+    "population_year": null,
     "wikiDataId": "Q1027150"
   },
   {
@@ -43,9 +45,27 @@
     "native": "Castlecomer",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1502,
+    "population_year": null,
     "wikiDataId": "Q1954436"
+  },
+  {
+    "id": 57260,
+    "name": "Graiguenamanagh",
+    "state_id": 1090,
+    "state_code": "KK",
+    "country_id": 105,
+    "country_code": "IE",
+    "latitude": "52.54028000",
+    "longitude": "-6.95472000",
+    "native": "Graiguenamanagh",
+    "timezone": "Europe/Dublin",
+    "translations": {},
+    "type": "city",
+    "population": 1476,
+    "population_year": null,
+    "wikiDataId": "Q1114609"
   },
   {
     "id": 57413,
@@ -59,8 +79,9 @@
     "native": "Thomastown",
     "timezone": "Europe/Dublin",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2445,
+    "population_year": null,
     "wikiDataId": "Q1433139"
   }
 ]

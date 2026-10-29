@@ -13,10 +13,11 @@
     "translations": {},
     "type": "city",
     "population": 1166761,
+    "population_year": null,
     "wikiDataId": "Q8156"
   },
   {
-    "id": 56691,
+    "id": 166846,
     "name": "Blambangan Umpu",
     "state_id": 1811,
     "state_code": "LA",
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791025"
   },
   {
-    "id": 56590,
+    "id": 166796,
     "name": "Gedong Tataan",
     "state_id": 1811,
     "state_code": "LA",
@@ -45,10 +47,45 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791084"
   },
   {
-    "id": 56667,
+    "id": 166726,
+    "name": "Gunung Sugih",
+    "state_id": 1811,
+    "state_code": "LA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-4.97530000",
+    "longitude": "105.21396000",
+    "native": "Gunung Sugih",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166725,
+    "name": "Kalianda",
+    "state_id": 1811,
+    "state_code": "LA",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-5.73805000",
+    "longitude": "105.59160000",
+    "native": "Kalianda",
+    "timezone": "Asia/Jakarta",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166835,
     "name": "Kota Agung",
     "state_id": 1811,
     "state_code": "LA",
@@ -61,6 +98,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13148790"
   },
   {
@@ -77,10 +115,11 @@
     "translations": {},
     "type": "adm2",
     "population": 42366,
-    "wikiDataId": "Q19153"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56591,
+    "id": 166797,
     "name": "Krui",
     "state_id": 1811,
     "state_code": "LA",
@@ -93,55 +132,8 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12492668"
-  },
-  {
-    "id": 56485,
-    "name": "Lampung Selatan",
-    "state_id": 1811,
-    "state_code": "LA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-5.45310000",
-    "longitude": "104.98770000",
-    "native": "Kabupaten Lampung Selatan",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8147"
-  },
-  {
-    "id": 56486,
-    "name": "Lampung Tengah",
-    "state_id": 1811,
-    "state_code": "LA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-4.86667000",
-    "longitude": "105.26667000",
-    "native": "Kabupaten Lampung Tengah",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8135"
-  },
-  {
-    "id": 56488,
-    "name": "Lampung Utara",
-    "state_id": 1811,
-    "state_code": "LA",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-4.81667000",
-    "longitude": "104.80000000",
-    "native": "Kabupaten Lampung Utara",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8140"
   },
   {
     "id": 164817,
@@ -157,10 +149,11 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12495023"
   },
   {
-    "id": 56687,
+    "id": 166844,
     "name": "Menggala",
     "state_id": 1811,
     "state_code": "LA",
@@ -173,6 +166,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q26757786"
   },
   {
@@ -189,6 +183,7 @@
     "translations": {},
     "type": "regency",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q8139"
   },
   {
@@ -205,26 +200,28 @@
     "translations": {},
     "type": "city",
     "population": 161799,
+    "population_year": null,
     "wikiDataId": "Q8158"
   },
   {
-    "id": 56599,
+    "id": 166800,
     "name": "Pringsewu",
     "state_id": 1811,
     "state_code": "LA",
     "country_id": 102,
     "country_code": "ID",
-    "latitude": "-5.42211000",
-    "longitude": "104.93454000",
-    "native": "Kabupaten Pringsewu",
+    "latitude": "-5.35822000",
+    "longitude": "104.97441000",
+    "native": "Pringsewu",
     "timezone": "Asia/Jakarta",
     "translations": {},
-    "type": "regency",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q8145"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56487,
+    "id": 166727,
     "name": "Sukadana",
     "state_id": 1811,
     "state_code": "LA",
@@ -237,6 +234,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791026"
   },
   {
@@ -253,6 +251,7 @@
     "translations": {},
     "type": "adm3",
     "population": 52566,
-    "wikiDataId": "Q24818441"
+    "population_year": null,
+    "wikiDataId": null
   }
 ]

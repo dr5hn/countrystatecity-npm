@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { resolveLatestRelease, requireAsset } = require('./lib/resolve-release.cjs');
-const { downloadGzipAsset } = require('./lib/download.cjs');
+const { downloadGzipAsset, downloadNotice } = require('./lib/download.cjs');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const RELEASE_FILE = path.join(DATA_DIR, 'release.json');
@@ -64,6 +64,17 @@ async function main() {
       fetchedAt: new Date().toISOString(),
       files,
     };
+    const notices = [...release.assets.keys()].filter(name => /^NOTICE-[A-Za-z0-9_.-]+\.txt$/.test(name));
+    if (/^v[5-9]\./.test(release.tag) && !notices.includes('NOTICE-SOURCES.txt')) {
+      throw new Error(`Release ${release.tag} is missing NOTICE-SOURCES.txt`);
+    }
+    for (const name of notices) {
+      const asset = requireAsset(release, name);
+      const stagedPath = path.join(stagingDir, name);
+      const result = await downloadNotice({ ...asset, destPath: stagedPath });
+      files.push({ asset: name, role: 'notice', url: asset.url, ...result });
+      downloads.push({ stagedPath, destPath: path.join(DATA_DIR, name) });
+    }
     const stagedReleaseFile = path.join(stagingDir, 'release.json');
     fs.writeFileSync(stagedReleaseFile, JSON.stringify(releaseRecord, null, 2) + '\n');
 

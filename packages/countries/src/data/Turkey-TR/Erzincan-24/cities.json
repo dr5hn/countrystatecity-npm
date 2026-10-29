@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 62,
+    "population_year": null,
     "wikiDataId": "Q272722"
   },
   {
@@ -24,11 +25,12 @@
     "country_code": "TR",
     "latitude": "39.45587000",
     "longitude": "38.56409000",
-    "native": "Ilich",
+    "native": "İliç",
     "timezone": "Europe/Istanbul",
     "translations": {},
     "type": "adm2",
     "population": 10044,
+    "population_year": null,
     "wikiDataId": "Q343776"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2549,
+    "population_year": null,
     "wikiDataId": "Q1023301"
   },
   {
@@ -59,9 +62,10 @@
     "native": "Kemaliye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 2323,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1000823"
   },
   {
     "id": 107602,
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 149157,
+    "population_year": 2025,
     "wikiDataId": "Q136217"
   },
   {
@@ -91,8 +96,9 @@
     "native": "Otlukbeli",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 3669,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -107,9 +113,10 @@
     "native": "Refahiye",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5579,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q1023298"
   },
   {
     "id": 108570,
@@ -123,8 +130,9 @@
     "native": "Tercan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 12235,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "adm2",
     "population": 39591,
+    "population_year": null,
     "wikiDataId": "Q335204"
   }
 ]

@@ -11,8 +11,9 @@
     "native": "Абай",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 25550,
+    "population_year": null,
     "wikiDataId": "Q304827"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q2283566"
   },
   {
@@ -43,9 +45,10 @@
     "native": "Ақсу-Аюлы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "village",
     "population": 4587,
-    "wikiDataId": "Q622780"
+    "population_year": null,
+    "wikiDataId": "Q4059953"
   },
   {
     "id": 65602,
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "city",
     "population": 9888,
-    "wikiDataId": "Q622780"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65603,
@@ -75,9 +79,10 @@
     "native": "Ақтау",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9977,
-    "wikiDataId": "Q622780"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65606,
@@ -91,8 +96,9 @@
     "native": "Ақтоғай",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 3741,
+    "population_year": null,
     "wikiDataId": "Q4060136"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Ақадыр",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 9710,
+    "population_year": null,
     "wikiDataId": "Q27350591"
   },
   {
@@ -123,9 +130,10 @@
     "native": "Ақшатау",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4899,
-    "wikiDataId": "Q622760"
+    "population_year": null,
+    "wikiDataId": "Q622765"
   },
   {
     "id": 65614,
@@ -139,8 +147,9 @@
     "native": "Ақтоғай ауданы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q612211"
   },
   {
@@ -157,7 +166,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q4071940"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65634,
@@ -171,25 +181,27 @@
     "native": "Балқаш",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q805515"
   },
   {
-    "id": 65653,
-    "name": "Bukhar-Zhyrau",
+    "id": 166304,
+    "name": "Botakara",
     "state_id": 150,
     "state_code": "35",
     "country_id": 112,
     "country_code": "KZ",
-    "latitude": "49.85658000",
-    "longitude": "73.68118000",
-    "native": "Бұқар жырау",
+    "latitude": "50.06111111",
+    "longitude": "73.71555556",
+    "native": "Ботақара",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
-    "population": 64003,
-    "wikiDataId": "Q27357540"
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q12536184"
   },
   {
     "id": 65666,
@@ -203,9 +215,10 @@
     "native": "Долинка",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4643,
-    "wikiDataId": "Q2374413"
+    "population_year": null,
+    "wikiDataId": "Q1235605"
   },
   {
     "id": 65690,
@@ -219,8 +232,9 @@
     "native": "Қарағанды",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 497777,
+    "population_year": null,
     "wikiDataId": "Q484706"
   },
   {
@@ -237,7 +251,8 @@
     "translations": {},
     "type": "adm2",
     "population": 7037,
-    "wikiDataId": "Q30505"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65699,
@@ -253,7 +268,8 @@
     "translations": {},
     "type": "city",
     "population": 1403,
-    "wikiDataId": "Q490643"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65707,
@@ -267,9 +283,10 @@
     "native": "Қушоқы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 3920,
-    "wikiDataId": "Q1046498"
+    "population_year": null,
+    "wikiDataId": "Q2123695"
   },
   {
     "id": 65709,
@@ -283,8 +300,9 @@
     "native": "Қызылжар",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1514,
+    "population_year": null,
     "wikiDataId": "Q27352124"
   },
   {
@@ -299,9 +317,10 @@
     "native": "Мойынты",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1860,
-    "wikiDataId": "Q4299929"
+    "population_year": null,
+    "wikiDataId": "Q1943146"
   },
   {
     "id": 65735,
@@ -315,9 +334,10 @@
     "native": "Новодолинский",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 5167,
-    "wikiDataId": "Q4309425"
+    "population_year": null,
+    "wikiDataId": "Q2003656"
   },
   {
     "id": 65741,
@@ -331,9 +351,10 @@
     "native": "Осакаровка",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 7305,
-    "wikiDataId": "Q487439"
+    "population_year": null,
+    "wikiDataId": "Q2034590"
   },
   {
     "id": 65748,
@@ -349,7 +370,8 @@
     "translations": {},
     "type": "city",
     "population": 3563,
-    "wikiDataId": "Q488379"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65750,
@@ -365,6 +387,7 @@
     "translations": {},
     "type": "city",
     "population": 13329,
+    "population_year": null,
     "wikiDataId": "Q1019405"
   },
   {
@@ -381,6 +404,7 @@
     "translations": {},
     "type": "adm2",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q27352595"
   },
   {
@@ -395,8 +419,9 @@
     "native": "Қарқаралы",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 8195,
+    "population_year": null,
     "wikiDataId": "Q1025808"
   },
   {
@@ -411,8 +436,9 @@
     "native": "Сарышаған",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4365,
+    "population_year": null,
     "wikiDataId": "Q262448"
   },
   {
@@ -427,9 +453,10 @@
     "native": "Саяқ",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4500,
-    "wikiDataId": "Q12561247"
+    "population_year": null,
+    "wikiDataId": "Q2213430"
   },
   {
     "id": 65776,
@@ -443,9 +470,10 @@
     "native": "Шахан",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13273,
-    "wikiDataId": "Q61944"
+    "population_year": null,
+    "wikiDataId": "Q285377"
   },
   {
     "id": 65777,
@@ -459,9 +487,10 @@
     "native": "Шахтинск",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 41602,
-    "wikiDataId": "Q61944"
+    "population_year": null,
+    "wikiDataId": "Q1019377"
   },
   {
     "id": 65783,
@@ -475,9 +504,10 @@
     "native": "Шашубай",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": null,
-    "wikiDataId": "Q4507469"
+    "population_year": null,
+    "wikiDataId": "Q1416868"
   },
   {
     "id": 65789,
@@ -491,9 +521,10 @@
     "native": "Шұбаркөл",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1247,
-    "wikiDataId": "Q4523462"
+    "population_year": null,
+    "wikiDataId": "Q4527126"
   },
   {
     "id": 65794,
@@ -507,8 +538,9 @@
     "native": "Соран",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1703483"
   },
   {
@@ -523,8 +555,9 @@
     "native": "Теміртау",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 296523,
+    "population_year": null,
     "wikiDataId": "Q1001104"
   },
   {
@@ -541,7 +574,8 @@
     "translations": {},
     "type": "city",
     "population": 4098,
-    "wikiDataId": "Q32382"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65825,
@@ -555,9 +589,10 @@
     "native": "Жоғарғы Қайрақты",
     "timezone": "Asia/Almaty",
     "translations": {},
-    "type": "city",
+    "type": "village",
     "population": 1158,
-    "wikiDataId": "Q162548"
+    "population_year": null,
+    "wikiDataId": "Q4108583"
   },
   {
     "id": 65836,
@@ -573,7 +608,8 @@
     "translations": {},
     "type": "city",
     "population": 23397,
-    "wikiDataId": "Q1881641"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65842,
@@ -589,7 +625,8 @@
     "translations": {},
     "type": "city",
     "population": 2940,
-    "wikiDataId": "Q2231416"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 65846,
@@ -605,6 +642,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q740832"
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "id": 105210,
-    "name": "Ban Phaeo",
-    "state_id": 3504,
-    "state_code": "74",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.58677500",
-    "longitude": "100.10366300",
-    "native": "บ้านแพ้ว",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "town",
-    "population": null,
-    "wikiDataId": "Q11960114"
-  },
-  {
     "id": 106405,
     "name": "Ban Phaeo",
     "state_id": 3504,
@@ -29,7 +13,25 @@
     "translations": {},
     "type": "adm2",
     "population": 41904,
-    "wikiDataId": "Q340034"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166939,
+    "name": "Ban Phaeo",
+    "state_id": 3504,
+    "state_code": "74",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "13.58677500",
+    "longitude": "100.10366300",
+    "native": "บ้านแพ้ว",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q11960114"
   },
   {
     "id": 106542,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 72819,
+    "population_year": null,
     "wikiDataId": "Q15216155"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 60103,
+    "population_year": null,
     "wikiDataId": "Q1359220"
   }
 ]

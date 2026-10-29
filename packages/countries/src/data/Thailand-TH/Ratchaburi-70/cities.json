@@ -13,23 +13,8 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q475107"
-  },
-  {
-    "id": 105215,
-    "name": "Ban Pong",
-    "state_id": 3499,
-    "state_code": "70",
-    "country_id": 219,
-    "country_code": "TH",
-    "latitude": "13.81740000",
-    "longitude": "99.88300000",
-    "native": "บ้านโป่ง",
-    "timezone": "Asia/Bangkok",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q4853694"
   },
   {
     "id": 106410,
@@ -45,7 +30,25 @@
     "translations": {},
     "type": "adm2",
     "population": 57559,
-    "wikiDataId": "Q340034"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166942,
+    "name": "Ban Pong",
+    "state_id": 3499,
+    "state_code": "70",
+    "country_id": 219,
+    "country_code": "TH",
+    "latitude": "13.81740000",
+    "longitude": "99.88300000",
+    "native": "บ้านโป่ง",
+    "timezone": "Asia/Bangkok",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q4853694"
   },
   {
     "id": 106440,
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "town",
     "population": 29548,
+    "population_year": null,
     "wikiDataId": "Q28574210"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "town",
     "population": 15143,
+    "population_year": null,
     "wikiDataId": "Q28574152"
   },
   {
@@ -93,10 +98,11 @@
     "translations": {},
     "type": "town",
     "population": 23296,
+    "population_year": null,
     "wikiDataId": "Q16022987"
   },
   {
-    "id": 105707,
+    "id": 167134,
     "name": "Pak Tho",
     "state_id": 3499,
     "state_code": "70",
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 36248,
+    "population_year": null,
     "wikiDataId": "Q13025414"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 92448,
+    "population_year": null,
     "wikiDataId": "Q1207138"
   },
   {
@@ -157,10 +166,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476778"
   },
   {
-    "id": 106356,
+    "id": 167279,
     "name": "Wat Phleng",
     "state_id": 3499,
     "state_code": "70",
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q42310111"
   }
 ]

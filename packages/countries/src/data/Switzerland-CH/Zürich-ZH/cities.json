@@ -13,7 +13,8 @@
     "translations": {},
     "type": "city",
     "population": 19904,
-    "wikiDataId": "Q68210"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 17365,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "section",
     "population": 2538,
+    "population_year": null,
     "wikiDataId": "Q22361097"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "section",
     "population": 1553,
+    "population_year": null,
     "wikiDataId": "Q22361181"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "section",
     "population": 1411,
+    "population_year": null,
     "wikiDataId": "Q22361227"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "section",
     "population": 1283,
+    "population_year": null,
     "wikiDataId": "Q22361305"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "section",
     "population": 1494,
+    "population_year": null,
     "wikiDataId": "Q22361326"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "section",
     "population": 1125,
+    "population_year": null,
     "wikiDataId": "Q22361346"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "locality",
     "population": 1717,
+    "population_year": null,
     "wikiDataId": "Q22363109"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "section",
     "population": 1690,
+    "population_year": null,
     "wikiDataId": "Q22363637"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "section",
     "population": 1759,
+    "population_year": null,
     "wikiDataId": "Q22363677"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "section",
     "population": 1262,
+    "population_year": null,
     "wikiDataId": "Q22363695"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "section",
     "population": 1989,
+    "population_year": null,
     "wikiDataId": "Q22363715"
   },
   {
@@ -205,10 +217,11 @@
     "translations": {},
     "type": "city",
     "population": 12911,
-    "wikiDataId": "Q68290"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
-    "id": 17396,
+    "id": 167611,
     "name": "Andelfingen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -221,6 +234,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3719,
+    "population_year": 2025,
     "wikiDataId": "Q68423"
   },
   {
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "section",
     "population": 4844,
+    "population_year": null,
     "wikiDataId": "Q678231"
   },
   {
@@ -253,6 +268,7 @@
     "translations": {},
     "type": "section",
     "population": 2562,
+    "population_year": null,
     "wikiDataId": "Q22461868"
   },
   {
@@ -269,10 +285,11 @@
     "translations": {},
     "type": "section",
     "population": 1249,
+    "population_year": null,
     "wikiDataId": "Q22461886"
   },
   {
-    "id": 17429,
+    "id": 167616,
     "name": "Bachenbülach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -285,6 +302,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4450,
+    "population_year": 2025,
     "wikiDataId": "Q69887"
   },
   {
@@ -299,8 +317,9 @@
     "native": "Bäretswil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 5137,
+    "population_year": 2025,
     "wikiDataId": "Q65868"
   },
   {
@@ -317,7 +336,8 @@
     "translations": {},
     "type": "municipality",
     "population": 12358,
-    "wikiDataId": "Q69734"
+    "population_year": 2025,
+    "wikiDataId": "Q22532481"
   },
   {
     "id": 17445,
@@ -333,7 +353,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5109,
-    "wikiDataId": "Q67145"
+    "population_year": 2025,
+    "wikiDataId": "Q22536629"
   },
   {
     "id": 17457,
@@ -349,6 +370,7 @@
     "translations": {},
     "type": "section",
     "population": 1937,
+    "population_year": null,
     "wikiDataId": "Q22700992"
   },
   {
@@ -365,6 +387,7 @@
     "translations": {},
     "type": "locality",
     "population": 1601,
+    "population_year": null,
     "wikiDataId": "Q687821"
   },
   {
@@ -381,6 +404,7 @@
     "translations": {},
     "type": "section",
     "population": 1854,
+    "population_year": null,
     "wikiDataId": "Q22701792"
   },
   {
@@ -397,10 +421,11 @@
     "translations": {},
     "type": "locality",
     "population": 1066,
+    "population_year": null,
     "wikiDataId": "Q22701846"
   },
   {
-    "id": 17535,
+    "id": 167623,
     "name": "Birmensdorf",
     "state_id": 1656,
     "state_code": "ZH",
@@ -413,10 +438,11 @@
     "translations": {},
     "type": "municipality",
     "population": 7587,
+    "population_year": 2025,
     "wikiDataId": "Q65282"
   },
   {
-    "id": 17550,
+    "id": 167626,
     "name": "Bonstetten",
     "state_id": 1656,
     "state_code": "ZH",
@@ -429,10 +455,11 @@
     "translations": {},
     "type": "municipality",
     "population": 5659,
+    "population_year": 2025,
     "wikiDataId": "Q65510"
   },
   {
-    "id": 17573,
+    "id": 167630,
     "name": "Brütten",
     "state_id": 1656,
     "state_code": "ZH",
@@ -445,6 +472,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2277,
+    "population_year": 2025,
     "wikiDataId": "Q65812"
   },
   {
@@ -461,6 +489,7 @@
     "translations": {},
     "type": "section",
     "population": 3697,
+    "population_year": null,
     "wikiDataId": "Q22697888"
   },
   {
@@ -475,8 +504,9 @@
     "native": "Bubikon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 7690,
+    "population_year": 2025,
     "wikiDataId": "Q67068"
   },
   {
@@ -493,7 +523,8 @@
     "translations": {},
     "type": "city",
     "population": 24590,
-    "wikiDataId": "Q9093"
+    "population_year": 2025,
+    "wikiDataId": "Q22367375"
   },
   {
     "id": 17599,
@@ -509,6 +540,7 @@
     "translations": {},
     "type": "section",
     "population": 1863,
+    "population_year": null,
     "wikiDataId": "Q22367477"
   },
   {
@@ -525,6 +557,7 @@
     "translations": {},
     "type": "section",
     "population": 2171,
+    "population_year": null,
     "wikiDataId": "Q22367587"
   },
   {
@@ -541,10 +574,11 @@
     "translations": {},
     "type": "section",
     "population": 1434,
+    "population_year": null,
     "wikiDataId": "Q22367613"
   },
   {
-    "id": 17673,
+    "id": 167641,
     "name": "Dachsen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -557,6 +591,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1896,
+    "population_year": 2025,
     "wikiDataId": "Q67949"
   },
   {
@@ -573,10 +608,11 @@
     "translations": {},
     "type": "section",
     "population": 1583,
+    "population_year": null,
     "wikiDataId": "Q22609979"
   },
   {
-    "id": 17707,
+    "id": 167649,
     "name": "Dänikon",
     "state_id": 1656,
     "state_code": "ZH",
@@ -589,10 +625,11 @@
     "translations": {},
     "type": "municipality",
     "population": 1861,
+    "population_year": 2025,
     "wikiDataId": "Q70131"
   },
   {
-    "id": 17685,
+    "id": 167646,
     "name": "Dielsdorf",
     "state_id": 1656,
     "state_code": "ZH",
@@ -605,6 +642,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6817,
+    "population_year": 2025,
     "wikiDataId": "Q67951"
   },
   {
@@ -621,7 +659,8 @@
     "translations": {},
     "type": "city",
     "population": 28325,
-    "wikiDataId": "Q64070"
+    "population_year": 2025,
+    "wikiDataId": "Q22630211"
   },
   {
     "id": 17690,
@@ -637,6 +676,7 @@
     "translations": {},
     "type": "section",
     "population": 2118,
+    "population_year": null,
     "wikiDataId": "Q22630220"
   },
   {
@@ -653,6 +693,7 @@
     "translations": {},
     "type": "section",
     "population": 1312,
+    "population_year": null,
     "wikiDataId": "Q22630235"
   },
   {
@@ -669,6 +710,7 @@
     "translations": {},
     "type": "section",
     "population": 2826,
+    "population_year": null,
     "wikiDataId": "Q22630240"
   },
   {
@@ -685,6 +727,7 @@
     "translations": {},
     "type": "section",
     "population": 1955,
+    "population_year": null,
     "wikiDataId": "Q22630254"
   },
   {
@@ -701,6 +744,7 @@
     "translations": {},
     "type": "section",
     "population": 4147,
+    "population_year": null,
     "wikiDataId": "Q22630259"
   },
   {
@@ -717,6 +761,7 @@
     "translations": {},
     "type": "section",
     "population": 1218,
+    "population_year": null,
     "wikiDataId": "Q22630273"
   },
   {
@@ -733,6 +778,7 @@
     "translations": {},
     "type": "section",
     "population": 2619,
+    "population_year": null,
     "wikiDataId": "Q22630286"
   },
   {
@@ -749,6 +795,7 @@
     "translations": {},
     "type": "section",
     "population": 6149,
+    "population_year": null,
     "wikiDataId": "Q31843690"
   },
   {
@@ -765,6 +812,7 @@
     "translations": {},
     "type": "section",
     "population": 1386,
+    "population_year": null,
     "wikiDataId": "Q22630312"
   },
   {
@@ -781,6 +829,7 @@
     "translations": {},
     "type": "locality",
     "population": 1226,
+    "population_year": null,
     "wikiDataId": "Q22586902"
   },
   {
@@ -797,7 +846,8 @@
     "translations": {},
     "type": "city",
     "population": 33214,
-    "wikiDataId": "Q64082"
+    "population_year": 2025,
+    "wikiDataId": "Q22608376"
   },
   {
     "id": 17710,
@@ -813,6 +863,7 @@
     "translations": {},
     "type": "section",
     "population": 1284,
+    "population_year": null,
     "wikiDataId": "Q22608612"
   },
   {
@@ -829,6 +880,7 @@
     "translations": {},
     "type": "section",
     "population": 1018,
+    "population_year": null,
     "wikiDataId": "Q22608669"
   },
   {
@@ -845,6 +897,7 @@
     "translations": {},
     "type": "section",
     "population": 1391,
+    "population_year": null,
     "wikiDataId": "Q22608708"
   },
   {
@@ -861,6 +914,7 @@
     "translations": {},
     "type": "section",
     "population": 1060,
+    "population_year": null,
     "wikiDataId": "Q22608717"
   },
   {
@@ -875,8 +929,9 @@
     "native": "Dürnten",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 8030,
+    "population_year": 2025,
     "wikiDataId": "Q67220"
   },
   {
@@ -893,6 +948,7 @@
     "translations": {},
     "type": "locality",
     "population": 2278,
+    "population_year": null,
     "wikiDataId": "Q22698506"
   },
   {
@@ -909,6 +965,7 @@
     "translations": {},
     "type": "section",
     "population": 10119,
+    "population_year": null,
     "wikiDataId": "Q22698735"
   },
   {
@@ -925,6 +982,7 @@
     "translations": {},
     "type": "section",
     "population": 1758,
+    "population_year": null,
     "wikiDataId": "Q22374589"
   },
   {
@@ -941,6 +999,7 @@
     "translations": {},
     "type": "section",
     "population": 1120,
+    "population_year": null,
     "wikiDataId": "Q22374605"
   },
   {
@@ -957,10 +1016,11 @@
     "translations": {},
     "type": "section",
     "population": 2632,
+    "population_year": null,
     "wikiDataId": "Q22374629"
   },
   {
-    "id": 17729,
+    "id": 167652,
     "name": "Egg",
     "state_id": 1656,
     "state_code": "ZH",
@@ -973,6 +1033,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8757,
+    "population_year": 2025,
     "wikiDataId": "Q64877"
   },
   {
@@ -989,7 +1050,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5241,
-    "wikiDataId": "Q67137"
+    "population_year": 2025,
+    "wikiDataId": "Q22387433"
   },
   {
     "id": 17740,
@@ -1005,6 +1067,7 @@
     "translations": {},
     "type": "section",
     "population": 2342,
+    "population_year": null,
     "wikiDataId": "Q22387473"
   },
   {
@@ -1021,6 +1084,7 @@
     "translations": {},
     "type": "section",
     "population": 1395,
+    "population_year": null,
     "wikiDataId": "Q22396255"
   },
   {
@@ -1037,10 +1101,11 @@
     "translations": {},
     "type": "section",
     "population": 1071,
+    "population_year": null,
     "wikiDataId": "Q22396255"
   },
   {
-    "id": 17743,
+    "id": 167657,
     "name": "Embrach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1053,6 +1118,7 @@
     "translations": {},
     "type": "municipality",
     "population": 10415,
+    "population_year": 2025,
     "wikiDataId": "Q65877"
   },
   {
@@ -1069,6 +1135,7 @@
     "translations": {},
     "type": "section",
     "population": 2960,
+    "population_year": null,
     "wikiDataId": "Q22398870"
   },
   {
@@ -1085,10 +1152,11 @@
     "translations": {},
     "type": "section",
     "population": 1467,
+    "population_year": null,
     "wikiDataId": "Q22398888"
   },
   {
-    "id": 17761,
+    "id": 167660,
     "name": "Erlenbach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1101,6 +1169,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5679,
+    "population_year": 2025,
     "wikiDataId": "Q69203"
   },
   {
@@ -1117,6 +1186,7 @@
     "translations": {},
     "type": "section",
     "population": 1709,
+    "population_year": null,
     "wikiDataId": "Q22419043"
   },
   {
@@ -1133,6 +1203,7 @@
     "translations": {},
     "type": "section",
     "population": 1470,
+    "population_year": null,
     "wikiDataId": "Q22419086"
   },
   {
@@ -1149,6 +1220,7 @@
     "translations": {},
     "type": "locality",
     "population": 1203,
+    "population_year": null,
     "wikiDataId": "Q687918"
   },
   {
@@ -1163,8 +1235,9 @@
     "native": "Fällanden",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 9634,
+    "population_year": 2025,
     "wikiDataId": "Q64869"
   },
   {
@@ -1181,7 +1254,8 @@
     "translations": {},
     "type": "municipality",
     "population": 6943,
-    "wikiDataId": "Q70369"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 17782,
@@ -1197,10 +1271,11 @@
     "translations": {},
     "type": "locality",
     "population": 3732,
+    "population_year": null,
     "wikiDataId": "Q5441654"
   },
   {
-    "id": 17786,
+    "id": 167663,
     "name": "Feuerthalen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1213,6 +1288,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3893,
+    "population_year": 2025,
     "wikiDataId": "Q66283"
   },
   {
@@ -1227,8 +1303,9 @@
     "native": "Flurlingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 1505,
+    "population_year": 2025,
     "wikiDataId": "Q66757"
   },
   {
@@ -1245,6 +1322,7 @@
     "translations": {},
     "type": "locality",
     "population": 1617,
+    "population_year": null,
     "wikiDataId": "Q22701069"
   },
   {
@@ -1261,10 +1339,11 @@
     "translations": {},
     "type": "locality",
     "population": 2142,
+    "population_year": null,
     "wikiDataId": "Q22631161"
   },
   {
-    "id": 17829,
+    "id": 167673,
     "name": "Geroldswil",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1277,6 +1356,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5402,
+    "population_year": 2025,
     "wikiDataId": "Q66660"
   },
   {
@@ -1293,6 +1373,7 @@
     "translations": {},
     "type": "section",
     "population": 2642,
+    "population_year": null,
     "wikiDataId": "Q22702084"
   },
   {
@@ -1309,6 +1390,7 @@
     "translations": {},
     "type": "section",
     "population": 1780,
+    "population_year": null,
     "wikiDataId": "Q22647146"
   },
   {
@@ -1325,6 +1407,7 @@
     "translations": {},
     "type": "section",
     "population": 1551,
+    "population_year": null,
     "wikiDataId": "Q22647157"
   },
   {
@@ -1341,7 +1424,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5555,
-    "wikiDataId": "Q68399"
+    "population_year": 2025,
+    "wikiDataId": "Q22647205"
   },
   {
     "id": 17846,
@@ -1357,10 +1441,11 @@
     "translations": {},
     "type": "locality",
     "population": 1411,
+    "population_year": null,
     "wikiDataId": "Q22702178"
   },
   {
-    "id": 17857,
+    "id": 167680,
     "name": "Gossau",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1373,10 +1458,11 @@
     "translations": {},
     "type": "municipality",
     "population": 10621,
+    "population_year": 2025,
     "wikiDataId": "Q67525"
   },
   {
-    "id": 17864,
+    "id": 167683,
     "name": "Greifensee",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1389,6 +1475,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5401,
+    "population_year": 2025,
     "wikiDataId": "Q64882"
   },
   {
@@ -1405,6 +1492,7 @@
     "translations": {},
     "type": "section",
     "population": 1064,
+    "population_year": null,
     "wikiDataId": "Q22439683"
   },
   {
@@ -1421,6 +1509,7 @@
     "translations": {},
     "type": "section",
     "population": 1135,
+    "population_year": null,
     "wikiDataId": "Q22439718"
   },
   {
@@ -1437,6 +1526,7 @@
     "translations": {},
     "type": "locality",
     "population": 1076,
+    "population_year": null,
     "wikiDataId": "Q22650620"
   },
   {
@@ -1453,6 +1543,7 @@
     "translations": {},
     "type": "locality",
     "population": 1565,
+    "population_year": null,
     "wikiDataId": "Q1124574"
   },
   {
@@ -1469,6 +1560,7 @@
     "translations": {},
     "type": "section",
     "population": 1188,
+    "population_year": null,
     "wikiDataId": "Q22702889"
   },
   {
@@ -1485,6 +1577,7 @@
     "translations": {},
     "type": "locality",
     "population": 1321,
+    "population_year": null,
     "wikiDataId": "Q22702948"
   },
   {
@@ -1501,7 +1594,8 @@
     "translations": {},
     "type": "locality",
     "population": 3253,
-    "wikiDataId": "Q22603517"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 17897,
@@ -1515,8 +1609,9 @@
     "native": "Hedingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3983,
+    "population_year": 2025,
     "wikiDataId": "Q65129"
   },
   {
@@ -1533,6 +1628,7 @@
     "translations": {},
     "type": "section",
     "population": 7961,
+    "population_year": null,
     "wikiDataId": "Q22703149"
   },
   {
@@ -1549,6 +1645,7 @@
     "translations": {},
     "type": "section",
     "population": 2817,
+    "population_year": null,
     "wikiDataId": "Q22613058"
   },
   {
@@ -1565,10 +1662,11 @@
     "translations": {},
     "type": "section",
     "population": 3250,
+    "population_year": null,
     "wikiDataId": "Q22613097"
   },
   {
-    "id": 17905,
+    "id": 167689,
     "name": "Henggart",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1581,10 +1679,11 @@
     "translations": {},
     "type": "municipality",
     "population": 2376,
+    "population_year": 2025,
     "wikiDataId": "Q68417"
   },
   {
-    "id": 17909,
+    "id": 167690,
     "name": "Herrliberg",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1597,6 +1696,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6802,
+    "population_year": 2025,
     "wikiDataId": "Q69224"
   },
   {
@@ -1611,8 +1711,9 @@
     "native": "Hettlingen",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 3208,
+    "population_year": 2025,
     "wikiDataId": "Q64967"
   },
   {
@@ -1629,6 +1730,7 @@
     "translations": {},
     "type": "section",
     "population": 1107,
+    "population_year": null,
     "wikiDataId": "Q22627440"
   },
   {
@@ -1645,6 +1747,7 @@
     "translations": {},
     "type": "municipality",
     "population": 11949,
+    "population_year": 2025,
     "wikiDataId": "Q69383"
   },
   {
@@ -1661,10 +1764,11 @@
     "translations": {},
     "type": "section",
     "population": 1502,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 17923,
+    "id": 167694,
     "name": "Hochfelden",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1677,6 +1781,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2019,
+    "population_year": 2025,
     "wikiDataId": "Q68410"
   },
   {
@@ -1693,10 +1798,11 @@
     "translations": {},
     "type": "section",
     "population": 1115,
+    "population_year": null,
     "wikiDataId": "Q22630725"
   },
   {
-    "id": 17927,
+    "id": 167696,
     "name": "Hombrechtikon",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1709,6 +1815,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9252,
+    "population_year": 2025,
     "wikiDataId": "Q69188"
   },
   {
@@ -1725,6 +1832,7 @@
     "translations": {},
     "type": "municipality",
     "population": 24641,
+    "population_year": 2025,
     "wikiDataId": "Q68286"
   },
   {
@@ -1741,6 +1849,7 @@
     "translations": {},
     "type": "section",
     "population": 3809,
+    "population_year": null,
     "wikiDataId": "Q22640144"
   },
   {
@@ -1757,6 +1866,7 @@
     "translations": {},
     "type": "section",
     "population": 6140,
+    "population_year": null,
     "wikiDataId": "Q22640157"
   },
   {
@@ -1773,6 +1883,7 @@
     "translations": {},
     "type": "section",
     "population": 2524,
+    "population_year": null,
     "wikiDataId": "Q22640176"
   },
   {
@@ -1789,10 +1900,11 @@
     "translations": {},
     "type": "section",
     "population": 2690,
+    "population_year": null,
     "wikiDataId": "Q22640189"
   },
   {
-    "id": 17943,
+    "id": 167700,
     "name": "Höri",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1805,6 +1917,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3676,
+    "population_year": 2025,
     "wikiDataId": "Q70377"
   },
   {
@@ -1821,6 +1934,7 @@
     "translations": {},
     "type": "locality",
     "population": 2964,
+    "population_year": null,
     "wikiDataId": "Q22703545"
   },
   {
@@ -1837,6 +1951,7 @@
     "translations": {},
     "type": "section",
     "population": 2011,
+    "population_year": null,
     "wikiDataId": "Q22423516"
   },
   {
@@ -1851,8 +1966,9 @@
     "native": "Kilchberg",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 9576,
+    "population_year": 2025,
     "wikiDataId": "Q66633"
   },
   {
@@ -1869,6 +1985,7 @@
     "translations": {},
     "type": "section",
     "population": 1147,
+    "population_year": null,
     "wikiDataId": "Q22405294"
   },
   {
@@ -1885,6 +2002,7 @@
     "translations": {},
     "type": "section",
     "population": 2244,
+    "population_year": null,
     "wikiDataId": "Q22405332"
   },
   {
@@ -1901,10 +2019,11 @@
     "translations": {},
     "type": "section",
     "population": 1107,
+    "population_year": null,
     "wikiDataId": "Q22415873"
   },
   {
-    "id": 17983,
+    "id": 167708,
     "name": "Kleinandelfingen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -1917,6 +2036,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2278,
+    "population_year": 2025,
     "wikiDataId": "Q68413"
   },
   {
@@ -1933,6 +2053,7 @@
     "translations": {},
     "type": "city",
     "population": 22017,
+    "population_year": 2025,
     "wikiDataId": "Q68165"
   },
   {
@@ -1949,6 +2070,7 @@
     "translations": {},
     "type": "section",
     "population": 1389,
+    "population_year": null,
     "wikiDataId": "Q22544490"
   },
   {
@@ -1965,6 +2087,7 @@
     "translations": {},
     "type": "section",
     "population": 1588,
+    "population_year": null,
     "wikiDataId": "Q22544515"
   },
   {
@@ -1981,6 +2104,7 @@
     "translations": {},
     "type": "section",
     "population": 1941,
+    "population_year": null,
     "wikiDataId": "Q22544525"
   },
   {
@@ -1997,6 +2121,7 @@
     "translations": {},
     "type": "section",
     "population": 2239,
+    "population_year": null,
     "wikiDataId": "Q22544533"
   },
   {
@@ -2013,6 +2138,7 @@
     "translations": {},
     "type": "section",
     "population": 1391,
+    "population_year": null,
     "wikiDataId": "Q22544542"
   },
   {
@@ -2029,6 +2155,7 @@
     "translations": {},
     "type": "section",
     "population": 1012,
+    "population_year": null,
     "wikiDataId": "Q22544550"
   },
   {
@@ -2045,6 +2172,7 @@
     "translations": {},
     "type": "section",
     "population": 1681,
+    "population_year": null,
     "wikiDataId": "Q22544561"
   },
   {
@@ -2061,6 +2189,7 @@
     "translations": {},
     "type": "section",
     "population": 2510,
+    "population_year": null,
     "wikiDataId": "Q22544569"
   },
   {
@@ -2077,10 +2206,11 @@
     "translations": {},
     "type": "section",
     "population": 1153,
+    "population_year": null,
     "wikiDataId": "Q22544577"
   },
   {
-    "id": 17997,
+    "id": 167709,
     "name": "Knonau",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2093,6 +2223,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2515,
+    "population_year": 2025,
     "wikiDataId": "Q66328"
   },
   {
@@ -2109,6 +2240,7 @@
     "translations": {},
     "type": "locality",
     "population": 1848,
+    "population_year": null,
     "wikiDataId": "Q692007"
   },
   {
@@ -2125,6 +2257,7 @@
     "translations": {},
     "type": "section",
     "population": 1040,
+    "population_year": null,
     "wikiDataId": "Q22549708"
   },
   {
@@ -2139,8 +2272,9 @@
     "native": "Küsnacht",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 15250,
+    "population_year": 2025,
     "wikiDataId": "Q69216"
   },
   {
@@ -2157,6 +2291,7 @@
     "translations": {},
     "type": "section",
     "population": 1574,
+    "population_year": null,
     "wikiDataId": "Q22565080"
   },
   {
@@ -2173,6 +2308,7 @@
     "translations": {},
     "type": "section",
     "population": 2607,
+    "population_year": null,
     "wikiDataId": "Q22565091"
   },
   {
@@ -2189,6 +2325,7 @@
     "translations": {},
     "type": "section",
     "population": 3228,
+    "population_year": null,
     "wikiDataId": "Q22565101"
   },
   {
@@ -2205,6 +2342,7 @@
     "translations": {},
     "type": "section",
     "population": 2397,
+    "population_year": null,
     "wikiDataId": "Q22565108"
   },
   {
@@ -2221,6 +2359,7 @@
     "translations": {},
     "type": "section",
     "population": 1033,
+    "population_year": null,
     "wikiDataId": "Q22565118"
   },
   {
@@ -2237,6 +2376,7 @@
     "translations": {},
     "type": "section",
     "population": 4745,
+    "population_year": null,
     "wikiDataId": "Q22363448"
   },
   {
@@ -2253,6 +2393,7 @@
     "translations": {},
     "type": "section",
     "population": 1161,
+    "population_year": null,
     "wikiDataId": "Q22363482"
   },
   {
@@ -2269,6 +2410,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8097,
+    "population_year": 2025,
     "wikiDataId": "Q65347"
   },
   {
@@ -2285,7 +2427,8 @@
     "translations": {},
     "type": "municipality",
     "population": 11764,
-    "wikiDataId": "Q64627"
+    "population_year": 2025,
+    "wikiDataId": "Q22644643"
   },
   {
     "id": 18187,
@@ -2301,6 +2444,7 @@
     "translations": {},
     "type": "section",
     "population": 1175,
+    "population_year": null,
     "wikiDataId": "Q22644672"
   },
   {
@@ -2317,10 +2461,11 @@
     "translations": {},
     "type": "section",
     "population": 4893,
+    "population_year": null,
     "wikiDataId": "Q22644702"
   },
   {
-    "id": 18124,
+    "id": 167732,
     "name": "Marthalen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2333,6 +2478,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2027,
+    "population_year": 2025,
     "wikiDataId": "Q67213"
   },
   {
@@ -2349,7 +2495,8 @@
     "translations": {},
     "type": "section",
     "population": 11043,
-    "wikiDataId": "Q1909327"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18131,
@@ -2365,7 +2512,8 @@
     "translations": {},
     "type": "section",
     "population": 5930,
-    "wikiDataId": "Q22452277"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18132,
@@ -2381,7 +2529,8 @@
     "translations": {},
     "type": "section",
     "population": 2169,
-    "wikiDataId": "Q67407793"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18133,
@@ -2397,7 +2546,8 @@
     "translations": {},
     "type": "section",
     "population": 2923,
-    "wikiDataId": "Q22452286"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18140,
@@ -2413,10 +2563,11 @@
     "translations": {},
     "type": "municipality",
     "population": 14952,
-    "wikiDataId": "Q68261"
+    "population_year": 2025,
+    "wikiDataId": "Q22492308"
   },
   {
-    "id": 18157,
+    "id": 167741,
     "name": "Mettmenstetten",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2429,6 +2580,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5841,
+    "population_year": 2025,
     "wikiDataId": "Q65547"
   },
   {
@@ -2443,8 +2595,9 @@
     "native": "Mönchaltorf",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4446,
+    "population_year": 2025,
     "wikiDataId": "Q66747"
   },
   {
@@ -2461,6 +2614,7 @@
     "translations": {},
     "type": "section",
     "population": 1077,
+    "population_year": null,
     "wikiDataId": "Q22644915"
   },
   {
@@ -2477,6 +2631,7 @@
     "translations": {},
     "type": "locality",
     "population": 1220,
+    "population_year": null,
     "wikiDataId": "Q22643724"
   },
   {
@@ -2493,6 +2648,7 @@
     "translations": {},
     "type": "section",
     "population": 1560,
+    "population_year": null,
     "wikiDataId": "Q22701850"
   },
   {
@@ -2509,10 +2665,11 @@
     "translations": {},
     "type": "section",
     "population": 1178,
+    "population_year": null,
     "wikiDataId": "Q22410658"
   },
   {
-    "id": 18209,
+    "id": 167748,
     "name": "Neerach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2525,6 +2682,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3348,
+    "population_year": 2025,
     "wikiDataId": "Q68395"
   },
   {
@@ -2541,10 +2699,11 @@
     "translations": {},
     "type": "section",
     "population": 3171,
+    "population_year": null,
     "wikiDataId": "Q22591537"
   },
   {
-    "id": 18222,
+    "id": 167753,
     "name": "Niederglatt",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2557,6 +2716,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5513,
+    "population_year": 2025,
     "wikiDataId": "Q67920"
   },
   {
@@ -2573,10 +2733,11 @@
     "translations": {},
     "type": "section",
     "population": 1147,
+    "population_year": null,
     "wikiDataId": "Q22610672"
   },
   {
-    "id": 18225,
+    "id": 167754,
     "name": "Niederhasli",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2589,6 +2750,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9842,
+    "population_year": 2025,
     "wikiDataId": "Q67042"
   },
   {
@@ -2605,10 +2767,11 @@
     "translations": {},
     "type": "municipality",
     "population": 5858,
+    "population_year": 2025,
     "wikiDataId": "Q67898"
   },
   {
-    "id": 18246,
+    "id": 167759,
     "name": "Oberengstringen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2621,6 +2784,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7076,
+    "population_year": 2025,
     "wikiDataId": "Q69963"
   },
   {
@@ -2637,6 +2801,7 @@
     "translations": {},
     "type": "section",
     "population": 1126,
+    "population_year": null,
     "wikiDataId": "Q22420081"
   },
   {
@@ -2653,6 +2818,7 @@
     "translations": {},
     "type": "section",
     "population": 1477,
+    "population_year": null,
     "wikiDataId": "Q22420100"
   },
   {
@@ -2669,10 +2835,11 @@
     "translations": {},
     "type": "section",
     "population": 1271,
+    "population_year": null,
     "wikiDataId": "Q22420142"
   },
   {
-    "id": 18251,
+    "id": 167761,
     "name": "Oberglatt",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2685,6 +2852,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7741,
+    "population_year": 2025,
     "wikiDataId": "Q70022"
   },
   {
@@ -2701,6 +2869,7 @@
     "translations": {},
     "type": "section",
     "population": 1333,
+    "population_year": null,
     "wikiDataId": "Q22420324"
   },
   {
@@ -2717,6 +2886,7 @@
     "translations": {},
     "type": "section",
     "population": 1406,
+    "population_year": null,
     "wikiDataId": "Q22420362"
   },
   {
@@ -2733,10 +2903,11 @@
     "translations": {},
     "type": "locality",
     "population": 2871,
+    "population_year": null,
     "wikiDataId": "Q22702080"
   },
   {
-    "id": 18259,
+    "id": 167764,
     "name": "Oberrieden",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2749,6 +2920,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5410,
+    "population_year": 2025,
     "wikiDataId": "Q65528"
   },
   {
@@ -2765,6 +2937,7 @@
     "translations": {},
     "type": "section",
     "population": 1961,
+    "population_year": null,
     "wikiDataId": "Q22421128"
   },
   {
@@ -2781,6 +2954,7 @@
     "translations": {},
     "type": "section",
     "population": 1807,
+    "population_year": null,
     "wikiDataId": "Q22421151"
   },
   {
@@ -2797,6 +2971,7 @@
     "translations": {},
     "type": "section",
     "population": 16356,
+    "population_year": null,
     "wikiDataId": "Q683604"
   },
   {
@@ -2813,7 +2988,8 @@
     "translations": {},
     "type": "section",
     "population": 5376,
-    "wikiDataId": "Q1553337"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18273,
@@ -2829,7 +3005,8 @@
     "translations": {},
     "type": "section",
     "population": 1539,
-    "wikiDataId": "Q677559"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18274,
@@ -2845,7 +3022,8 @@
     "translations": {},
     "type": "section",
     "population": 5375,
-    "wikiDataId": "Q1386176"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18275,
@@ -2861,10 +3039,11 @@
     "translations": {},
     "type": "section",
     "population": 1842,
-    "wikiDataId": "Q8072465"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 18276,
+    "id": 167768,
     "name": "Obfelden",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2877,6 +3056,7 @@
     "translations": {},
     "type": "municipality",
     "population": 6081,
+    "population_year": 2025,
     "wikiDataId": "Q65942"
   },
   {
@@ -2893,6 +3073,7 @@
     "translations": {},
     "type": "section",
     "population": 1103,
+    "population_year": null,
     "wikiDataId": "Q22422009"
   },
   {
@@ -2909,6 +3090,7 @@
     "translations": {},
     "type": "section",
     "population": 1146,
+    "population_year": null,
     "wikiDataId": "Q22422030"
   },
   {
@@ -2925,6 +3107,7 @@
     "translations": {},
     "type": "locality",
     "population": 4925,
+    "population_year": null,
     "wikiDataId": "Q22428478"
   },
   {
@@ -2941,10 +3124,11 @@
     "translations": {},
     "type": "city",
     "population": 21462,
-    "wikiDataId": "Q64224"
+    "population_year": 2025,
+    "wikiDataId": "Q22446828"
   },
   {
-    "id": 18292,
+    "id": 167770,
     "name": "Otelfingen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2957,10 +3141,11 @@
     "translations": {},
     "type": "municipality",
     "population": 2861,
+    "population_year": 2025,
     "wikiDataId": "Q66156"
   },
   {
-    "id": 18294,
+    "id": 167772,
     "name": "Ottenbach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -2973,6 +3158,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3038,
+    "population_year": 2025,
     "wikiDataId": "Q67513"
   },
   {
@@ -2989,6 +3175,7 @@
     "translations": {},
     "type": "locality",
     "population": 1684,
+    "population_year": null,
     "wikiDataId": "Q7179763"
   },
   {
@@ -3005,7 +3192,8 @@
     "translations": {},
     "type": "municipality",
     "population": 12881,
-    "wikiDataId": "Q68269"
+    "population_year": 2025,
+    "wikiDataId": "Q22535395"
   },
   {
     "id": 18312,
@@ -3021,6 +3209,7 @@
     "translations": {},
     "type": "section",
     "population": 2032,
+    "population_year": null,
     "wikiDataId": "Q365900"
   },
   {
@@ -3037,10 +3226,11 @@
     "translations": {},
     "type": "section",
     "population": 5595,
+    "population_year": null,
     "wikiDataId": "Q22535428"
   },
   {
-    "id": 18308,
+    "id": 167777,
     "name": "Pfungen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3053,6 +3243,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4170,
+    "population_year": 2025,
     "wikiDataId": "Q65119"
   },
   {
@@ -3067,8 +3258,9 @@
     "native": "Rafz",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 4792,
+    "population_year": 2025,
     "wikiDataId": "Q66457"
   },
   {
@@ -3085,7 +3277,8 @@
     "translations": {},
     "type": "municipality",
     "population": 20701,
-    "wikiDataId": "Q64205"
+    "population_year": 2025,
+    "wikiDataId": "Q22593615"
   },
   {
     "id": 18345,
@@ -3101,6 +3294,7 @@
     "translations": {},
     "type": "section",
     "population": 1122,
+    "population_year": null,
     "wikiDataId": "Q22593643"
   },
   {
@@ -3117,6 +3311,7 @@
     "translations": {},
     "type": "section",
     "population": 1038,
+    "population_year": null,
     "wikiDataId": "Q22593658"
   },
   {
@@ -3133,6 +3328,7 @@
     "translations": {},
     "type": "section",
     "population": 1090,
+    "population_year": null,
     "wikiDataId": "Q22593706"
   },
   {
@@ -3149,7 +3345,8 @@
     "translations": {},
     "type": "municipality",
     "population": 14545,
-    "wikiDataId": "Q68227"
+    "population_year": 2025,
+    "wikiDataId": "Q22379174"
   },
   {
     "id": 18370,
@@ -3165,6 +3362,7 @@
     "translations": {},
     "type": "section",
     "population": 1137,
+    "population_year": null,
     "wikiDataId": "Q22379222"
   },
   {
@@ -3181,6 +3379,7 @@
     "translations": {},
     "type": "section",
     "population": 1216,
+    "population_year": null,
     "wikiDataId": "Q22379263"
   },
   {
@@ -3197,10 +3396,11 @@
     "translations": {},
     "type": "section",
     "population": 3292,
+    "population_year": null,
     "wikiDataId": "Q22379327"
   },
   {
-    "id": 18391,
+    "id": 167785,
     "name": "Rorbas",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3213,10 +3413,11 @@
     "translations": {},
     "type": "municipality",
     "population": 3078,
+    "population_year": 2025,
     "wikiDataId": "Q67909"
   },
   {
-    "id": 18406,
+    "id": 167790,
     "name": "Rümlang",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3229,6 +3430,7 @@
     "translations": {},
     "type": "municipality",
     "population": 8363,
+    "population_year": 2025,
     "wikiDataId": "Q67894"
   },
   {
@@ -3245,6 +3447,7 @@
     "translations": {},
     "type": "section",
     "population": 3528,
+    "population_year": null,
     "wikiDataId": "Q22369811"
   },
   {
@@ -3259,12 +3462,13 @@
     "native": "Rüschlikon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6449,
+    "population_year": 2025,
     "wikiDataId": "Q66819"
   },
   {
-    "id": 18400,
+    "id": 167788,
     "name": "Russikon",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3277,6 +3481,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4687,
+    "population_year": 2025,
     "wikiDataId": "Q67957"
   },
   {
@@ -3293,7 +3498,8 @@
     "translations": {},
     "type": "municipality",
     "population": 13144,
-    "wikiDataId": "Q69752"
+    "population_year": 2025,
+    "wikiDataId": "Q22370547"
   },
   {
     "id": 18412,
@@ -3309,6 +3515,7 @@
     "translations": {},
     "type": "section",
     "population": 3618,
+    "population_year": null,
     "wikiDataId": "Q22370568"
   },
   {
@@ -3325,6 +3532,7 @@
     "translations": {},
     "type": "section",
     "population": 2875,
+    "population_year": null,
     "wikiDataId": "Q22370590"
   },
   {
@@ -3341,6 +3549,7 @@
     "translations": {},
     "type": "section",
     "population": 3083,
+    "population_year": null,
     "wikiDataId": "Q22370612"
   },
   {
@@ -3357,6 +3566,7 @@
     "translations": {},
     "type": "locality",
     "population": 3163,
+    "population_year": null,
     "wikiDataId": "Q692047"
   },
   {
@@ -3373,6 +3583,7 @@
     "translations": {},
     "type": "locality",
     "population": 1278,
+    "population_year": null,
     "wikiDataId": "Q22440350"
   },
   {
@@ -3389,7 +3600,8 @@
     "translations": {},
     "type": "city",
     "population": 20474,
-    "wikiDataId": "Q69148"
+    "population_year": 2025,
+    "wikiDataId": "Q22544939"
   },
   {
     "id": 18466,
@@ -3405,6 +3617,7 @@
     "translations": {},
     "type": "section",
     "population": 1241,
+    "population_year": null,
     "wikiDataId": "Q22544947"
   },
   {
@@ -3421,6 +3634,7 @@
     "translations": {},
     "type": "section",
     "population": 1877,
+    "population_year": null,
     "wikiDataId": "Q22544966"
   },
   {
@@ -3437,6 +3651,7 @@
     "translations": {},
     "type": "section",
     "population": 1212,
+    "population_year": null,
     "wikiDataId": "Q22544974"
   },
   {
@@ -3453,6 +3668,7 @@
     "translations": {},
     "type": "section",
     "population": 1129,
+    "population_year": null,
     "wikiDataId": "Q22545045"
   },
   {
@@ -3469,6 +3685,7 @@
     "translations": {},
     "type": "section",
     "population": 2587,
+    "population_year": null,
     "wikiDataId": "Q22545060"
   },
   {
@@ -3485,10 +3702,11 @@
     "translations": {},
     "type": "section",
     "population": 1207,
+    "population_year": null,
     "wikiDataId": "Q22545069"
   },
   {
-    "id": 18478,
+    "id": 167802,
     "name": "Schwerzenbach",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3501,6 +3719,7 @@
     "translations": {},
     "type": "municipality",
     "population": 5256,
+    "population_year": 2025,
     "wikiDataId": "Q66814"
   },
   {
@@ -3517,6 +3736,7 @@
     "translations": {},
     "type": "section",
     "population": 1078,
+    "population_year": null,
     "wikiDataId": "Q22548312"
   },
   {
@@ -3533,6 +3753,7 @@
     "translations": {},
     "type": "section",
     "population": 1020,
+    "population_year": null,
     "wikiDataId": "Q22548321"
   },
   {
@@ -3549,6 +3770,7 @@
     "translations": {},
     "type": "section",
     "population": 15434,
+    "population_year": null,
     "wikiDataId": "Q2265422"
   },
   {
@@ -3565,7 +3787,8 @@
     "translations": {},
     "type": "section",
     "population": 2632,
-    "wikiDataId": "Q5005258"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18497,
@@ -3581,7 +3804,8 @@
     "translations": {},
     "type": "section",
     "population": 2362,
-    "wikiDataId": "Q5521559"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18498,
@@ -3597,7 +3821,8 @@
     "translations": {},
     "type": "section",
     "population": 2133,
-    "wikiDataId": "Q7074811"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18499,
@@ -3613,7 +3838,8 @@
     "translations": {},
     "type": "section",
     "population": 1184,
-    "wikiDataId": "Q7961388"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18500,
@@ -3629,7 +3855,8 @@
     "translations": {},
     "type": "section",
     "population": 4088,
-    "wikiDataId": "Q7971406"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18503,
@@ -3645,6 +3872,7 @@
     "translations": {},
     "type": "locality",
     "population": 1144,
+    "population_year": null,
     "wikiDataId": "Q22559422"
   },
   {
@@ -3661,6 +3889,7 @@
     "translations": {},
     "type": "section",
     "population": 1572,
+    "population_year": null,
     "wikiDataId": "Q687928"
   },
   {
@@ -3677,6 +3906,7 @@
     "translations": {},
     "type": "section",
     "population": 1419,
+    "population_year": null,
     "wikiDataId": "Q22564953"
   },
   {
@@ -3693,6 +3923,7 @@
     "translations": {},
     "type": "city",
     "population": 3969,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -3709,6 +3940,7 @@
     "translations": {},
     "type": "section",
     "population": 1016,
+    "population_year": null,
     "wikiDataId": "Q22564982"
   },
   {
@@ -3725,6 +3957,7 @@
     "translations": {},
     "type": "locality",
     "population": 1984,
+    "population_year": null,
     "wikiDataId": "Q22652988"
   },
   {
@@ -3741,7 +3974,8 @@
     "translations": {},
     "type": "section",
     "population": 16182,
-    "wikiDataId": "Q2326384"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18538,
@@ -3757,7 +3991,8 @@
     "translations": {},
     "type": "section",
     "population": 1665,
-    "wikiDataId": "Q445554"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18539,
@@ -3773,7 +4008,8 @@
     "translations": {},
     "type": "section",
     "population": 1476,
-    "wikiDataId": "Q22374366"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18540,
@@ -3789,7 +4025,8 @@
     "translations": {},
     "type": "section",
     "population": 3034,
-    "wikiDataId": "Q22374347"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18541,
@@ -3805,7 +4042,8 @@
     "translations": {},
     "type": "section",
     "population": 4617,
-    "wikiDataId": "Q22374422"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18542,
@@ -3821,7 +4059,8 @@
     "translations": {},
     "type": "section",
     "population": 3149,
-    "wikiDataId": "Q22374385"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18543,
@@ -3837,7 +4076,8 @@
     "translations": {},
     "type": "section",
     "population": 2207,
-    "wikiDataId": "Q67402158"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18560,
@@ -3853,10 +4093,11 @@
     "translations": {},
     "type": "municipality",
     "population": 15232,
-    "wikiDataId": "Q69774"
+    "population_year": 2025,
+    "wikiDataId": "Q22424195"
   },
   {
-    "id": 18555,
+    "id": 167815,
     "name": "Steinmaur",
     "state_id": 1656,
     "state_code": "ZH",
@@ -3869,6 +4110,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3758,
+    "population_year": 2025,
     "wikiDataId": "Q67887"
   },
   {
@@ -3885,6 +4127,7 @@
     "translations": {},
     "type": "locality",
     "population": 1244,
+    "population_year": null,
     "wikiDataId": "Q22433823"
   },
   {
@@ -3901,6 +4144,7 @@
     "translations": {},
     "type": "locality",
     "population": 1606,
+    "population_year": null,
     "wikiDataId": "Q22700036"
   },
   {
@@ -3917,6 +4161,7 @@
     "translations": {},
     "type": "section",
     "population": 3034,
+    "population_year": null,
     "wikiDataId": "Q688032"
   },
   {
@@ -3933,6 +4178,7 @@
     "translations": {},
     "type": "section",
     "population": 2080,
+    "population_year": null,
     "wikiDataId": "Q22463472"
   },
   {
@@ -3947,8 +4193,9 @@
     "native": "Thalwil",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 18835,
+    "population_year": 2025,
     "wikiDataId": "Q68959"
   },
   {
@@ -3965,6 +4212,7 @@
     "translations": {},
     "type": "section",
     "population": 1568,
+    "population_year": null,
     "wikiDataId": "Q22479947"
   },
   {
@@ -3981,6 +4229,7 @@
     "translations": {},
     "type": "section",
     "population": 6829,
+    "population_year": null,
     "wikiDataId": "Q22479957"
   },
   {
@@ -3997,6 +4246,7 @@
     "translations": {},
     "type": "section",
     "population": 1751,
+    "population_year": null,
     "wikiDataId": "Q22479967"
   },
   {
@@ -4013,6 +4263,7 @@
     "translations": {},
     "type": "section",
     "population": 1893,
+    "population_year": null,
     "wikiDataId": "Q22479976"
   },
   {
@@ -4029,6 +4280,7 @@
     "translations": {},
     "type": "section",
     "population": 1255,
+    "population_year": null,
     "wikiDataId": "Q22479988"
   },
   {
@@ -4045,6 +4297,7 @@
     "translations": {},
     "type": "section",
     "population": 8672,
+    "population_year": null,
     "wikiDataId": "Q1699150"
   },
   {
@@ -4061,7 +4314,8 @@
     "translations": {},
     "type": "section",
     "population": 3626,
-    "wikiDataId": "Q5348732"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18620,
@@ -4077,7 +4331,8 @@
     "translations": {},
     "type": "section",
     "population": 2762,
-    "wikiDataId": "Q7431750"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18621,
@@ -4093,6 +4348,7 @@
     "translations": {},
     "type": "section",
     "population": 1476,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -4109,7 +4365,8 @@
     "translations": {},
     "type": "municipality",
     "population": 5369,
-    "wikiDataId": "Q65858"
+    "population_year": 2025,
+    "wikiDataId": "Q22357290"
   },
   {
     "id": 18624,
@@ -4125,6 +4382,7 @@
     "translations": {},
     "type": "locality",
     "population": 1794,
+    "population_year": null,
     "wikiDataId": "Q7877470"
   },
   {
@@ -4139,8 +4397,9 @@
     "native": "Uetikon",
     "timezone": "Europe/Zurich",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 6744,
+    "population_year": 2025,
     "wikiDataId": "Q67058"
   },
   {
@@ -4157,6 +4416,7 @@
     "translations": {},
     "type": "section",
     "population": 1040,
+    "population_year": null,
     "wikiDataId": "Q22380861"
   },
   {
@@ -4173,10 +4433,11 @@
     "translations": {},
     "type": "locality",
     "population": 1140,
+    "population_year": null,
     "wikiDataId": "Q22699445"
   },
   {
-    "id": 18630,
+    "id": 167827,
     "name": "Uitikon",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4189,10 +4450,11 @@
     "translations": {},
     "type": "municipality",
     "population": 5749,
+    "population_year": 2025,
     "wikiDataId": "Q66678"
   },
   {
-    "id": 18631,
+    "id": 167828,
     "name": "Unterengstringen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4205,6 +4467,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4361,
+    "population_year": 2025,
     "wikiDataId": "Q66079"
   },
   {
@@ -4221,7 +4484,8 @@
     "translations": {},
     "type": "municipality",
     "population": 10539,
-    "wikiDataId": "Q69109"
+    "population_year": 2025,
+    "wikiDataId": "Q22398037"
   },
   {
     "id": 18640,
@@ -4237,6 +4501,7 @@
     "translations": {},
     "type": "section",
     "population": 1840,
+    "population_year": null,
     "wikiDataId": "Q22398072"
   },
   {
@@ -4253,6 +4518,7 @@
     "translations": {},
     "type": "section",
     "population": 1266,
+    "population_year": null,
     "wikiDataId": "Q22398134"
   },
   {
@@ -4269,6 +4535,7 @@
     "translations": {},
     "type": "section",
     "population": 1008,
+    "population_year": null,
     "wikiDataId": "Q22398191"
   },
   {
@@ -4285,6 +4552,7 @@
     "translations": {},
     "type": "city",
     "population": 37031,
+    "population_year": 2025,
     "wikiDataId": "Q64032"
   },
   {
@@ -4301,6 +4569,7 @@
     "translations": {},
     "type": "section",
     "population": 1763,
+    "population_year": null,
     "wikiDataId": "Q22400135"
   },
   {
@@ -4317,6 +4586,7 @@
     "translations": {},
     "type": "section",
     "population": 10428,
+    "population_year": null,
     "wikiDataId": "Q22400152"
   },
   {
@@ -4333,6 +4603,7 @@
     "translations": {},
     "type": "section",
     "population": 4128,
+    "population_year": null,
     "wikiDataId": "Q22400190"
   },
   {
@@ -4349,6 +4620,7 @@
     "translations": {},
     "type": "section",
     "population": 1433,
+    "population_year": null,
     "wikiDataId": "Q22400210"
   },
   {
@@ -4365,6 +4637,7 @@
     "translations": {},
     "type": "section",
     "population": 5100,
+    "population_year": null,
     "wikiDataId": "Q22400229"
   },
   {
@@ -4381,6 +4654,7 @@
     "translations": {},
     "type": "section",
     "population": 8901,
+    "population_year": null,
     "wikiDataId": "Q282014"
   },
   {
@@ -4397,7 +4671,8 @@
     "translations": {},
     "type": "section",
     "population": 4135,
-    "wikiDataId": "Q4930728"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18667,
@@ -4413,7 +4688,8 @@
     "translations": {},
     "type": "section",
     "population": 4765,
-    "wikiDataId": "Q7368528"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18691,
@@ -4429,6 +4705,7 @@
     "translations": {},
     "type": "adm3",
     "population": 2723,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -4445,7 +4722,8 @@
     "translations": {},
     "type": "city",
     "population": 26012,
-    "wikiDataId": "Q69718"
+    "population_year": 2025,
+    "wikiDataId": "Q22641605"
   },
   {
     "id": 18774,
@@ -4461,6 +4739,7 @@
     "translations": {},
     "type": "section",
     "population": 1538,
+    "population_year": null,
     "wikiDataId": "Q22641614"
   },
   {
@@ -4477,6 +4756,7 @@
     "translations": {},
     "type": "section",
     "population": 2710,
+    "population_year": null,
     "wikiDataId": "Q22641624"
   },
   {
@@ -4493,6 +4773,7 @@
     "translations": {},
     "type": "section",
     "population": 2556,
+    "population_year": null,
     "wikiDataId": "Q22641634"
   },
   {
@@ -4509,6 +4790,7 @@
     "translations": {},
     "type": "section",
     "population": 1252,
+    "population_year": null,
     "wikiDataId": "Q22641639"
   },
   {
@@ -4525,6 +4807,7 @@
     "translations": {},
     "type": "section",
     "population": 1407,
+    "population_year": null,
     "wikiDataId": "Q22641649"
   },
   {
@@ -4541,6 +4824,7 @@
     "translations": {},
     "type": "section",
     "population": 1830,
+    "population_year": null,
     "wikiDataId": "Q22641658"
   },
   {
@@ -4557,10 +4841,11 @@
     "translations": {},
     "type": "section",
     "population": 1976,
+    "population_year": null,
     "wikiDataId": "Q22641667"
   },
   {
-    "id": 18709,
+    "id": 167839,
     "name": "Wald",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4573,6 +4858,7 @@
     "translations": {},
     "type": "municipality",
     "population": 10686,
+    "population_year": 2025,
     "wikiDataId": "Q67272"
   },
   {
@@ -4589,6 +4875,7 @@
     "translations": {},
     "type": "city",
     "population": 17811,
+    "population_year": 2025,
     "wikiDataId": "Q69374"
   },
   {
@@ -4605,6 +4892,7 @@
     "translations": {},
     "type": "section",
     "population": 2261,
+    "population_year": null,
     "wikiDataId": "Q22543840"
   },
   {
@@ -4621,6 +4909,7 @@
     "translations": {},
     "type": "section",
     "population": 5031,
+    "population_year": null,
     "wikiDataId": "Q22543847"
   },
   {
@@ -4637,6 +4926,7 @@
     "translations": {},
     "type": "section",
     "population": 3511,
+    "population_year": null,
     "wikiDataId": "Q22543854"
   },
   {
@@ -4653,10 +4943,11 @@
     "translations": {},
     "type": "locality",
     "population": 2015,
+    "population_year": null,
     "wikiDataId": "Q22546145"
   },
   {
-    "id": 18732,
+    "id": 167843,
     "name": "Weiningen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4669,10 +4960,11 @@
     "translations": {},
     "type": "municipality",
     "population": 5204,
+    "population_year": 2025,
     "wikiDataId": "Q66093"
   },
   {
-    "id": 18733,
+    "id": 167844,
     "name": "Weisslingen",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4685,6 +4977,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3464,
+    "population_year": 2025,
     "wikiDataId": "Q70375"
   },
   {
@@ -4701,6 +4994,7 @@
     "translations": {},
     "type": "section",
     "population": 1438,
+    "population_year": null,
     "wikiDataId": "Q22601655"
   },
   {
@@ -4717,7 +5011,8 @@
     "translations": {},
     "type": "section",
     "population": 3605,
-    "wikiDataId": "Q22601703"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18739,
@@ -4733,6 +5028,7 @@
     "translations": {},
     "type": "city",
     "population": 27317,
+    "population_year": 2025,
     "wikiDataId": "Q68305"
   },
   {
@@ -4749,6 +5045,7 @@
     "translations": {},
     "type": "section",
     "population": 4377,
+    "population_year": null,
     "wikiDataId": "Q692132"
   },
   {
@@ -4765,6 +5062,7 @@
     "translations": {},
     "type": "section",
     "population": 3858,
+    "population_year": null,
     "wikiDataId": "Q22601749"
   },
   {
@@ -4781,6 +5079,7 @@
     "translations": {},
     "type": "section",
     "population": 2213,
+    "population_year": null,
     "wikiDataId": "Q22601758"
   },
   {
@@ -4797,6 +5096,7 @@
     "translations": {},
     "type": "section",
     "population": 2521,
+    "population_year": null,
     "wikiDataId": "Q22601768"
   },
   {
@@ -4813,10 +5113,11 @@
     "translations": {},
     "type": "section",
     "population": 1649,
+    "population_year": null,
     "wikiDataId": "Q64853"
   },
   {
-    "id": 18750,
+    "id": 167846,
     "name": "Wila",
     "state_id": 1656,
     "state_code": "ZH",
@@ -4829,6 +5130,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2201,
+    "population_year": 2025,
     "wikiDataId": "Q66752"
   },
   {
@@ -4845,6 +5147,7 @@
     "translations": {},
     "type": "city",
     "population": 120741,
+    "population_year": 2025,
     "wikiDataId": "Q9125"
   },
   {
@@ -4861,6 +5164,7 @@
     "translations": {},
     "type": "locality",
     "population": 2402,
+    "population_year": null,
     "wikiDataId": "Q1700663"
   },
   {
@@ -4877,6 +5181,7 @@
     "translations": {},
     "type": "section",
     "population": 12598,
+    "population_year": null,
     "wikiDataId": "Q2596602"
   },
   {
@@ -4893,7 +5198,8 @@
     "translations": {},
     "type": "section",
     "population": 2602,
-    "wikiDataId": "Q5963242"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18785,
@@ -4909,7 +5215,8 @@
     "translations": {},
     "type": "section",
     "population": 2555,
-    "wikiDataId": "Q15242404"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18786,
@@ -4925,7 +5232,8 @@
     "translations": {},
     "type": "section",
     "population": 1227,
-    "wikiDataId": "Q7031119"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18787,
@@ -4941,6 +5249,7 @@
     "translations": {},
     "type": "section",
     "population": 4288,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -4957,6 +5266,7 @@
     "translations": {},
     "type": "section",
     "population": 4187,
+    "population_year": null,
     "wikiDataId": "Q218665"
   },
   {
@@ -4973,7 +5283,8 @@
     "translations": {},
     "type": "municipality",
     "population": 13737,
-    "wikiDataId": "Q218691"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 18802,
@@ -4989,7 +5300,8 @@
     "translations": {},
     "type": "city",
     "population": 5284,
-    "wikiDataId": "Q66898"
+    "population_year": null,
+    "wikiDataId": "Q22658742"
   },
   {
     "id": 18809,
@@ -5005,7 +5317,8 @@
     "translations": {},
     "type": "city",
     "population": 440935,
-    "wikiDataId": "Q72"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 18810,
@@ -5021,6 +5334,7 @@
     "translations": {},
     "type": "section",
     "population": 6185,
+    "population_year": null,
     "wikiDataId": "Q445559"
   },
   {
@@ -5037,7 +5351,8 @@
     "translations": {},
     "type": "section",
     "population": 1089,
-    "wikiDataId": "Q1093831"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18812,
@@ -5053,6 +5368,7 @@
     "translations": {},
     "type": "section",
     "population": 1298,
+    "population_year": null,
     "wikiDataId": "Q10987378"
   },
   {
@@ -5069,6 +5385,7 @@
     "translations": {},
     "type": "section",
     "population": 3091,
+    "population_year": null,
     "wikiDataId": "Q692511"
   },
   {
@@ -5085,7 +5402,8 @@
     "translations": {},
     "type": "section",
     "population": 36216,
-    "wikiDataId": "Q456175"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18815,
@@ -5101,6 +5419,7 @@
     "translations": {},
     "type": "section",
     "population": 17117,
+    "population_year": null,
     "wikiDataId": "Q455496"
   },
   {
@@ -5117,6 +5436,7 @@
     "translations": {},
     "type": "section",
     "population": 3326,
+    "population_year": null,
     "wikiDataId": "Q49006175"
   },
   {
@@ -5133,6 +5453,7 @@
     "translations": {},
     "type": "section",
     "population": 15718,
+    "population_year": null,
     "wikiDataId": "Q678030"
   },
   {
@@ -5149,7 +5470,8 @@
     "translations": {},
     "type": "section",
     "population": 54260,
-    "wikiDataId": "Q870098"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18819,
@@ -5165,6 +5487,7 @@
     "translations": {},
     "type": "section",
     "population": 17241,
+    "population_year": null,
     "wikiDataId": "Q382903"
   },
   {
@@ -5181,6 +5504,7 @@
     "translations": {},
     "type": "section",
     "population": 17922,
+    "population_year": null,
     "wikiDataId": "Q167179"
   },
   {
@@ -5197,6 +5521,7 @@
     "translations": {},
     "type": "section",
     "population": 1145,
+    "population_year": null,
     "wikiDataId": "Q49006177"
   },
   {
@@ -5213,6 +5538,7 @@
     "translations": {},
     "type": "section",
     "population": 17851,
+    "population_year": null,
     "wikiDataId": "Q276792"
   },
   {
@@ -5229,6 +5555,7 @@
     "translations": {},
     "type": "section",
     "population": 28189,
+    "population_year": null,
     "wikiDataId": "Q657525"
   },
   {
@@ -5245,6 +5572,7 @@
     "translations": {},
     "type": "section",
     "population": 1143,
+    "population_year": null,
     "wikiDataId": "Q49006178"
   },
   {
@@ -5261,6 +5589,7 @@
     "translations": {},
     "type": "section",
     "population": 11335,
+    "population_year": null,
     "wikiDataId": "Q693374"
   },
   {
@@ -5277,7 +5606,8 @@
     "translations": {},
     "type": "section",
     "population": 5209,
-    "wikiDataId": "Q652455"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18827,
@@ -5293,6 +5623,7 @@
     "translations": {},
     "type": "section",
     "population": 10476,
+    "population_year": null,
     "wikiDataId": "Q692728"
   },
   {
@@ -5309,7 +5640,8 @@
     "translations": {},
     "type": "section",
     "population": 29215,
-    "wikiDataId": "Q456153"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18829,
@@ -5325,6 +5657,7 @@
     "translations": {},
     "type": "section",
     "population": 8253,
+    "population_year": null,
     "wikiDataId": "Q648218"
   },
   {
@@ -5341,6 +5674,7 @@
     "translations": {},
     "type": "section",
     "population": 1891,
+    "population_year": null,
     "wikiDataId": "Q49006168"
   },
   {
@@ -5357,6 +5691,7 @@
     "translations": {},
     "type": "section",
     "population": 2778,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -5373,6 +5708,7 @@
     "translations": {},
     "type": "section",
     "population": 16073,
+    "population_year": null,
     "wikiDataId": "Q642353"
   },
   {
@@ -5389,6 +5725,7 @@
     "translations": {},
     "type": "section",
     "population": 46018,
+    "population_year": null,
     "wikiDataId": "Q675017"
   },
   {
@@ -5405,6 +5742,7 @@
     "translations": {},
     "type": "section",
     "population": 14931,
+    "population_year": null,
     "wikiDataId": "Q433012"
   },
   {
@@ -5421,6 +5759,7 @@
     "translations": {},
     "type": "section",
     "population": 9909,
+    "population_year": null,
     "wikiDataId": "Q693357"
   },
   {
@@ -5437,7 +5776,8 @@
     "translations": {},
     "type": "section",
     "population": 20977,
-    "wikiDataId": "Q370104"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18837,
@@ -5453,6 +5793,7 @@
     "translations": {},
     "type": "section",
     "population": 27273,
+    "population_year": null,
     "wikiDataId": "Q677133"
   },
   {
@@ -5469,6 +5810,7 @@
     "translations": {},
     "type": "section",
     "population": 12976,
+    "population_year": null,
     "wikiDataId": "Q870084"
   },
   {
@@ -5485,6 +5827,7 @@
     "translations": {},
     "type": "section",
     "population": 10386,
+    "population_year": null,
     "wikiDataId": "Q1805410"
   },
   {
@@ -5501,6 +5844,7 @@
     "translations": {},
     "type": "section",
     "population": 3911,
+    "population_year": null,
     "wikiDataId": "Q531899"
   },
   {
@@ -5517,6 +5861,7 @@
     "translations": {},
     "type": "section",
     "population": 11737,
+    "population_year": null,
     "wikiDataId": "Q460885"
   },
   {
@@ -5533,6 +5878,7 @@
     "translations": {},
     "type": "section",
     "population": 1846,
+    "population_year": null,
     "wikiDataId": "Q687052"
   },
   {
@@ -5549,6 +5895,7 @@
     "translations": {},
     "type": "section",
     "population": 9891,
+    "population_year": null,
     "wikiDataId": "Q693413"
   },
   {
@@ -5565,7 +5912,8 @@
     "translations": {},
     "type": "section",
     "population": 29951,
-    "wikiDataId": "Q456170"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18845,
@@ -5581,6 +5929,7 @@
     "translations": {},
     "type": "section",
     "population": 9906,
+    "population_year": null,
     "wikiDataId": "Q693483"
   },
   {
@@ -5597,6 +5946,7 @@
     "translations": {},
     "type": "section",
     "population": 20045,
+    "population_year": null,
     "wikiDataId": "Q656446"
   },
   {
@@ -5613,7 +5963,8 @@
     "translations": {},
     "type": "section",
     "population": 33820,
-    "wikiDataId": "Q456149"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18848,
@@ -5629,6 +5980,7 @@
     "translations": {},
     "type": "section",
     "population": 7009,
+    "population_year": null,
     "wikiDataId": "Q693269"
   },
   {
@@ -5645,6 +5997,7 @@
     "translations": {},
     "type": "section",
     "population": 6769,
+    "population_year": null,
     "wikiDataId": "Q476940"
   },
   {
@@ -5661,6 +6014,7 @@
     "translations": {},
     "type": "section",
     "population": 9934,
+    "population_year": null,
     "wikiDataId": "Q693454"
   },
   {
@@ -5677,6 +6031,7 @@
     "translations": {},
     "type": "section",
     "population": 9099,
+    "population_year": null,
     "wikiDataId": "Q392079"
   },
   {
@@ -5693,6 +6048,7 @@
     "translations": {},
     "type": "section",
     "population": 15519,
+    "population_year": null,
     "wikiDataId": "Q677710"
   },
   {
@@ -5709,6 +6065,7 @@
     "translations": {},
     "type": "section",
     "population": 5570,
+    "population_year": null,
     "wikiDataId": "Q693397"
   },
   {
@@ -5725,6 +6082,7 @@
     "translations": {},
     "type": "section",
     "population": 4998,
+    "population_year": null,
     "wikiDataId": "Q692773"
   },
   {
@@ -5741,6 +6099,7 @@
     "translations": {},
     "type": "section",
     "population": 4951,
+    "population_year": null,
     "wikiDataId": "Q693321"
   },
   {
@@ -5757,7 +6116,8 @@
     "translations": {},
     "type": "section",
     "population": 44878,
-    "wikiDataId": "Q456159"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 18857,
@@ -5773,6 +6133,7 @@
     "translations": {},
     "type": "section",
     "population": 16480,
+    "population_year": null,
     "wikiDataId": "Q80797"
   },
   {
@@ -5789,6 +6150,7 @@
     "translations": {},
     "type": "section",
     "population": 28307,
+    "population_year": null,
     "wikiDataId": "Q445711"
   }
 ]

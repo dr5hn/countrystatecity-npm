@@ -136,6 +136,7 @@ function generateGeoJSON(sourceDir, outputDir) {
     // {StateName-CODE}/cities.json -> cities/{ISO2}-{CODE}.geojson
     const stateEntries = fs.readdirSync(countryPath, { withFileTypes: true });
     const stateDirs = stateEntries.filter((e) => e.isDirectory());
+    if (fs.existsSync(path.join(countryPath, 'cities.json'))) stateDirs.push({ name: '' });
 
     for (const stateDir of stateDirs) {
       const stateParts = stateDir.name.split('-');
@@ -155,7 +156,7 @@ function generateGeoJSON(sourceDir, outputDir) {
           }),
         );
         fs.writeFileSync(
-          path.join(dataDir, 'cities', `${iso2}-${stateCode}.geojson`),
+          path.join(dataDir, 'cities', `${iso2}${stateCode ? `-${stateCode}` : ''}.geojson`),
           JSON.stringify(toFeatureCollection(cityFeatures)),
         );
         totalCityFeatures += cityFeatures.length;

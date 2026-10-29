@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 3293,
+    "population_year": null,
     "wikiDataId": "Q582737"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 29911,
+    "population_year": null,
     "wikiDataId": "Q462577"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 1414,
+    "population_year": null,
     "wikiDataId": "Q8180265"
   },
   {
@@ -59,25 +62,27 @@
     "native": "बिलासपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 14037,
-    "wikiDataId": "Q795717"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 58181,
+    "id": 166862,
     "name": "Chamba",
     "state_id": 4020,
     "state_code": "HP",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "32.57147000",
-    "longitude": "76.10229000",
+    "latitude": "32.55611111",
+    "longitude": "76.12500000",
     "native": "चंबा",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 21502,
-    "wikiDataId": "Q1060614"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 131512,
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 1851,
+    "population_year": null,
     "wikiDataId": "Q2451092"
   },
   {
@@ -104,27 +110,12 @@
     "country_code": "IN",
     "latitude": "32.43190000",
     "longitude": "76.01200000",
-    "native": "चौवारी",
+    "native": "चुवाड़ी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
-    "population": 3000,
-    "wikiDataId": "Q2723942"
-  },
-  {
-    "id": 131587,
-    "name": "Chuari Khas",
-    "state_id": 4020,
-    "state_code": "HP",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "32.43058000",
-    "longitude": "76.01428000",
-    "native": "चुआरी खास",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 3770,
+    "population_year": 2011,
     "wikiDataId": "Q1192134"
   },
   {
@@ -141,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 2994,
+    "population_year": null,
     "wikiDataId": "Q960817"
   },
   {
@@ -157,6 +149,7 @@
     "translations": {},
     "type": "city",
     "population": 7601,
+    "population_year": null,
     "wikiDataId": "Q1925180"
   },
   {
@@ -173,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 4810,
+    "population_year": null,
     "wikiDataId": "Q1925028"
   },
   {
@@ -189,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 4816,
+    "population_year": null,
     "wikiDataId": "Q1193478"
   },
   {
@@ -205,6 +200,7 @@
     "translations": {},
     "type": "city",
     "population": 30764,
+    "population_year": null,
     "wikiDataId": "Q186182"
   },
   {
@@ -221,6 +217,7 @@
     "translations": {},
     "type": "city",
     "population": 3847,
+    "population_year": null,
     "wikiDataId": "Q1524343"
   },
   {
@@ -237,23 +234,25 @@
     "translations": {},
     "type": "city",
     "population": 7899,
+    "population_year": null,
     "wikiDataId": "Q1707166"
   },
   {
-    "id": 132063,
+    "id": 167540,
     "name": "Hamirpur",
     "state_id": 4020,
     "state_code": "HP",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "31.75000000",
-    "longitude": "76.50000000",
+    "latitude": "31.68000000",
+    "longitude": "76.52000000",
     "native": "हमीरपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 19280,
-    "wikiDataId": "Q2086180"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 132255,
@@ -267,9 +266,10 @@
     "native": "ज्वाला मुखी",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 5361,
-    "wikiDataId": "Q2317504"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 132289,
@@ -285,6 +285,7 @@
     "translations": {},
     "type": "city",
     "population": 5335,
+    "population_year": null,
     "wikiDataId": "Q2087722"
   },
   {
@@ -301,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 1640,
+    "population_year": null,
     "wikiDataId": "Q2286859"
   },
   {
@@ -317,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 2467,
+    "population_year": null,
     "wikiDataId": "Q2317123"
   },
   {
@@ -333,23 +336,8 @@
     "translations": {},
     "type": "city",
     "population": 9528,
+    "population_year": null,
     "wikiDataId": "Q662868"
-  },
-  {
-    "id": 132702,
-    "name": "Kangra",
-    "state_id": 4020,
-    "state_code": "HP",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "32.16667000",
-    "longitude": "76.25000000",
-    "native": "कांगड़ा",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 9528,
-    "wikiDataId": "Q727232"
   },
   {
     "id": 132416,
@@ -365,6 +353,7 @@
     "translations": {},
     "type": "city",
     "population": 5215,
+    "population_year": null,
     "wikiDataId": "Q2287036"
   },
   {
@@ -381,6 +370,7 @@
     "translations": {},
     "type": "area",
     "population": 84121,
+    "population_year": null,
     "wikiDataId": "Q1862950"
   },
   {
@@ -397,6 +387,7 @@
     "translations": {},
     "type": "city",
     "population": 1253,
+    "population_year": null,
     "wikiDataId": "Q2244259"
   },
   {
@@ -413,6 +404,7 @@
     "translations": {},
     "type": "city",
     "population": 5000,
+    "population_year": null,
     "wikiDataId": "Q6434088"
   },
   {
@@ -429,7 +421,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q1393339"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 132675,
@@ -445,7 +438,8 @@
     "translations": {},
     "type": "city",
     "population": 14182,
-    "wikiDataId": "Q2233371"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 132791,
@@ -461,6 +455,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q837595"
   },
   {
@@ -477,6 +472,7 @@
     "translations": {},
     "type": "city",
     "population": 8096,
+    "population_year": null,
     "wikiDataId": "Q83443"
   },
   {
@@ -493,6 +489,7 @@
     "translations": {},
     "type": "city",
     "population": 26422,
+    "population_year": null,
     "wikiDataId": "Q195931"
   },
   {
@@ -509,6 +506,7 @@
     "translations": {},
     "type": "city",
     "population": 4838,
+    "population_year": null,
     "wikiDataId": "Q2452658"
   },
   {
@@ -525,6 +523,7 @@
     "translations": {},
     "type": "city",
     "population": 2000,
+    "population_year": null,
     "wikiDataId": "Q4311529"
   },
   {
@@ -541,7 +540,8 @@
     "translations": {},
     "type": "city",
     "population": 6125,
-    "wikiDataId": "Q305259"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133261,
@@ -557,6 +557,7 @@
     "translations": {},
     "type": "city",
     "population": 28899,
+    "population_year": null,
     "wikiDataId": "Q781615"
   },
   {
@@ -573,6 +574,7 @@
     "translations": {},
     "type": "city",
     "population": 10708,
+    "population_year": null,
     "wikiDataId": "Q1815875"
   },
   {
@@ -587,9 +589,10 @@
     "native": "पालमपुर",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4131,
-    "wikiDataId": "Q2718076"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133539,
@@ -605,7 +608,8 @@
     "translations": {},
     "type": "city",
     "population": 4351,
-    "wikiDataId": "Q2445471"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133544,
@@ -621,6 +625,7 @@
     "translations": {},
     "type": "city",
     "population": 25183,
+    "population_year": null,
     "wikiDataId": "Q2734471"
   },
   {
@@ -637,6 +642,7 @@
     "translations": {},
     "type": "city",
     "population": 8758,
+    "population_year": null,
     "wikiDataId": "Q2558662"
   },
   {
@@ -653,6 +659,7 @@
     "translations": {},
     "type": "city",
     "population": 3083,
+    "population_year": null,
     "wikiDataId": "Q2231162"
   },
   {
@@ -669,6 +676,7 @@
     "translations": {},
     "type": "city",
     "population": 6206,
+    "population_year": null,
     "wikiDataId": "Q2566469"
   },
   {
@@ -685,6 +693,7 @@
     "translations": {},
     "type": "city",
     "population": 8160,
+    "population_year": null,
     "wikiDataId": "Q2558692"
   },
   {
@@ -701,6 +710,7 @@
     "translations": {},
     "type": "city",
     "population": 6691,
+    "population_year": null,
     "wikiDataId": "Q514228"
   },
   {
@@ -717,6 +727,7 @@
     "translations": {},
     "type": "city",
     "population": 9363,
+    "population_year": null,
     "wikiDataId": "Q2558670"
   },
   {
@@ -733,6 +744,7 @@
     "translations": {},
     "type": "city",
     "population": 1495,
+    "population_year": null,
     "wikiDataId": "Q7422938"
   },
   {
@@ -747,9 +759,10 @@
     "native": "सिरका घाट",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 4715,
-    "wikiDataId": "Q7423978"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 133841,
@@ -765,55 +778,42 @@
     "translations": {},
     "type": "city",
     "population": 102343,
+    "population_year": null,
     "wikiDataId": "Q3955580"
   },
   {
-    "id": 133871,
+    "id": 167589,
     "name": "Shimla",
     "state_id": 4020,
     "state_code": "HP",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "31.16667000",
-    "longitude": "77.58333000",
+    "latitude": "31.10333333",
+    "longitude": "77.17222222",
     "native": "शिमला",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 206575,
-    "wikiDataId": "Q1921404"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 133957,
-    "name": "Sirmaur",
-    "state_id": 4020,
-    "state_code": "HP",
-    "country_id": 101,
-    "country_code": "IN",
-    "latitude": "30.75000000",
-    "longitude": "77.50000000",
-    "native": "सिरमौर",
-    "timezone": "Asia/Kolkata",
-    "translations": {},
-    "type": "city",
-    "population": 11878,
-    "wikiDataId": "Q654331"
-  },
-  {
-    "id": 133985,
+    "id": 167591,
     "name": "Solan",
     "state_id": 4020,
     "state_code": "HP",
     "country_id": 101,
     "country_code": "IN",
-    "latitude": "31.08333000",
-    "longitude": "76.83333000",
-    "native": "एक प्रकार का हंस",
+    "latitude": "30.92000000",
+    "longitude": "77.12000000",
+    "native": "सोलन",
     "timezone": "Asia/Kolkata",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 40283,
-    "wikiDataId": "Q2980937"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 134045,
@@ -829,6 +829,7 @@
     "translations": {},
     "type": "city",
     "population": 25338,
+    "population_year": null,
     "wikiDataId": "Q972593"
   },
   {
@@ -845,6 +846,7 @@
     "translations": {},
     "type": "city",
     "population": 4353,
+    "population_year": null,
     "wikiDataId": "Q2452060"
   },
   {
@@ -861,6 +863,7 @@
     "translations": {},
     "type": "city",
     "population": 7943,
+    "population_year": null,
     "wikiDataId": "Q592107"
   },
   {
@@ -877,6 +880,7 @@
     "translations": {},
     "type": "city",
     "population": 18722,
+    "population_year": null,
     "wikiDataId": "Q2317314"
   },
   {
@@ -893,6 +897,7 @@
     "translations": {},
     "type": "city",
     "population": 11314,
+    "population_year": null,
     "wikiDataId": "Q2637314"
   }
 ]

@@ -1,54 +1,6 @@
 [
   {
-    "id": 56329,
-    "name": "Bangka",
-    "state_id": 1820,
-    "state_code": "BB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-1.91667000",
-    "longitude": "105.93333000",
-    "native": "Kabupaten Bangka",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8163"
-  },
-  {
-    "id": 56350,
-    "name": "Belitung",
-    "state_id": 1820,
-    "state_code": "BB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.86667000",
-    "longitude": "107.70000000",
-    "native": "Kabupaten Belitung",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8164"
-  },
-  {
-    "id": 56351,
-    "name": "Belitung Timur",
-    "state_id": 1820,
-    "state_code": "BB",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-2.96270000",
-    "longitude": "108.15216000",
-    "native": "Kabupaten Belitung Timur",
-    "timezone": "Asia/Jakarta",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q8169"
-  },
-  {
-    "id": 56332,
+    "id": 166633,
     "name": "Koba",
     "state_id": 1820,
     "state_code": "BB",
@@ -61,6 +13,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791050"
   },
   {
@@ -77,10 +30,11 @@
     "translations": {},
     "type": "adm2",
     "population": 39135,
-    "wikiDataId": "Q15847"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56330,
+    "id": 166631,
     "name": "Mentok",
     "state_id": 1820,
     "state_code": "BB",
@@ -93,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q28519583"
   },
   {
@@ -109,7 +64,8 @@
     "translations": {},
     "type": "adm2",
     "population": 26709,
-    "wikiDataId": "Q24855473"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 56912,
@@ -125,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 216893,
+    "population_year": null,
     "wikiDataId": "Q8179"
   },
   {
@@ -141,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 100750,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -157,10 +115,11 @@
     "translations": {},
     "type": "city",
     "population": 103062,
-    "wikiDataId": "Q10127"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 56331,
+    "id": 166632,
     "name": "Toboali",
     "state_id": 1820,
     "state_code": "BB",
@@ -173,6 +132,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791049"
   }
 ]

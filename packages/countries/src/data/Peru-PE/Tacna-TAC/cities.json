@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 875,
-    "wikiDataId": "Q3824267"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80590,
@@ -29,7 +30,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3415,
-    "wikiDataId": "Q5031628"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 80618,
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 1932,
+    "population_year": null,
     "wikiDataId": "Q26764442"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 4220,
+    "population_year": null,
     "wikiDataId": "Q3344173"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "municipality",
     "population": 9492,
+    "population_year": null,
     "wikiDataId": "Q3824525"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 10773,
+    "population_year": null,
     "wikiDataId": "Q589047"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm3",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1410654"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 4120,
+    "population_year": null,
     "wikiDataId": "Q3504032"
   },
   {
@@ -141,23 +149,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3176,
+    "population_year": null,
     "wikiDataId": "Q3824646"
-  },
-  {
-    "id": 80897,
-    "name": "Tacna",
-    "state_id": 3696,
-    "state_code": "TAC",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-18.01000000",
-    "longitude": "-70.24777778",
-    "native": "Tacna",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "city",
-    "population": null,
-    "wikiDataId": "Q272795"
   },
   {
     "id": 80982,
@@ -173,7 +166,25 @@
     "translations": {},
     "type": "municipality",
     "population": 306363,
-    "wikiDataId": "Q3312467"
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166910,
+    "name": "Tacna",
+    "state_id": 3696,
+    "state_code": "TAC",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-18.01465000",
+    "longitude": "-70.25362000",
+    "native": "Tacna",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q272795"
   },
   {
     "id": 80990,
@@ -189,7 +200,8 @@
     "translations": {},
     "type": "municipality",
     "population": 3052,
-    "wikiDataId": "Q3825983"
+    "population_year": null,
+    "wikiDataId": "Q2588449"
   },
   {
     "id": 80997,
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "adm3",
     "population": 1976,
+    "population_year": null,
     "wikiDataId": "Q3344048"
   }
 ]

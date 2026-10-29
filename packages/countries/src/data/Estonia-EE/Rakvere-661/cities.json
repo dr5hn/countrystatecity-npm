@@ -1,5 +1,22 @@
 [
   {
+    "id": 31692,
+    "name": "Rakvere vald",
+    "state_id": 5776,
+    "state_code": "661",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "59.32457000",
+    "longitude": "26.29757000",
+    "native": "Rakvere vald",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1695213"
+  },
+  {
     "id": 31713,
     "name": "Sõmeru",
     "state_id": 5776,
@@ -11,8 +28,9 @@
     "native": "Sõmeru",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm2",
+    "type": "town",
     "population": 1199,
+    "population_year": null,
     "wikiDataId": "Q3462156"
   }
 ]

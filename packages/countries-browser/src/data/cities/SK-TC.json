@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16103,
+    "population_year": null,
     "wikiDataId": "Q549849"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 5073,
+    "population_year": null,
     "wikiDataId": "Q788753"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": 4543,
+    "population_year": null,
     "wikiDataId": "Q135818"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 3605,
+    "population_year": null,
     "wikiDataId": "Q337440"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 21732,
+    "population_year": null,
     "wikiDataId": "Q481528"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm3",
     "population": 15457,
+    "population_year": null,
     "wikiDataId": "Q842011"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5522,
+    "population_year": null,
     "wikiDataId": "Q481564"
   },
   {
@@ -123,9 +130,10 @@
     "native": "Lehota pod Vtáčnikom",
     "timezone": "Europe/Bratislava",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 3751,
-    "wikiDataId": "Q516578"
+    "population_year": null,
+    "wikiDataId": "Q1070300"
   },
   {
     "id": 104436,
@@ -141,7 +149,8 @@
     "translations": {},
     "type": "city",
     "population": 10453,
-    "wikiDataId": "Q846440"
+    "population_year": null,
+    "wikiDataId": "Q837460"
   },
   {
     "id": 104437,
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "adm3",
     "population": 6172,
+    "population_year": null,
     "wikiDataId": "Q389942"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 10272,
+    "population_year": null,
     "wikiDataId": "Q249935"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "adm3",
     "population": 4093,
+    "population_year": null,
     "wikiDataId": "Q909301"
   },
   {
@@ -205,151 +217,8 @@
     "translations": {},
     "type": "city",
     "population": 19257,
+    "population_year": null,
     "wikiDataId": "Q376987"
-  },
-  {
-    "id": 104457,
-    "name": "Okres Bánovce nad Bebravou",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.71908000",
-    "longitude": "18.25773000",
-    "native": "Okres Bánovce nad Bebravou",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 34910,
-    "wikiDataId": "Q837865"
-  },
-  {
-    "id": 104465,
-    "name": "Okres Ilava",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.99641000",
-    "longitude": "18.23374000",
-    "native": "Okres Ilava",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 56647,
-    "wikiDataId": "Q373881"
-  },
-  {
-    "id": 104479,
-    "name": "Okres Myjava",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.75000000",
-    "longitude": "17.58333000",
-    "native": "Okres Myjava",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 24809,
-    "wikiDataId": "Q837460"
-  },
-  {
-    "id": 104482,
-    "name": "Okres Nové Mesto nad Váhom",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.75466000",
-    "longitude": "17.83506000",
-    "native": "Okres Nové Mesto nad Váhom",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 61303,
-    "wikiDataId": "Q282702"
-  },
-  {
-    "id": 104484,
-    "name": "Okres Partizánske",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.62613000",
-    "longitude": "18.37957000",
-    "native": "Okres Partizánske",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 43201,
-    "wikiDataId": "Q837871"
-  },
-  {
-    "id": 104489,
-    "name": "Okres Považská Bystrica",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.11667000",
-    "longitude": "18.45000000",
-    "native": "Okres Považská Bystrica",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 60361,
-    "wikiDataId": "Q837891"
-  },
-  {
-    "id": 104491,
-    "name": "Okres Prievidza",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.76667000",
-    "longitude": "18.63333000",
-    "native": "Okres Prievidza",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 127650,
-    "wikiDataId": "Q614140"
-  },
-  {
-    "id": 104492,
-    "name": "Okres Púchov",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "49.12406000",
-    "longitude": "18.32477000",
-    "native": "Okres Púchov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 43483,
-    "wikiDataId": "Q768310"
-  },
-  {
-    "id": 104508,
-    "name": "Okres Trenčín",
-    "state_id": 4358,
-    "state_code": "TC",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.89520000",
-    "longitude": "18.04264000",
-    "native": "Okres Trenčín",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 113208,
-    "wikiDataId": "Q339239"
   },
   {
     "id": 104523,
@@ -365,6 +234,7 @@
     "translations": {},
     "type": "adm2",
     "population": 20338,
+    "population_year": null,
     "wikiDataId": "Q754768"
   },
   {
@@ -381,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 36961,
+    "population_year": null,
     "wikiDataId": "Q319787"
   },
   {
@@ -397,6 +268,7 @@
     "translations": {},
     "type": "adm2",
     "population": 42429,
+    "population_year": null,
     "wikiDataId": "Q208750"
   },
   {
@@ -413,6 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16781,
+    "population_year": null,
     "wikiDataId": "Q258481"
   },
   {
@@ -429,6 +302,7 @@
     "translations": {},
     "type": "city",
     "population": 8259,
+    "population_year": null,
     "wikiDataId": "Q512771"
   },
   {
@@ -445,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 3909,
+    "population_year": null,
     "wikiDataId": "Q532555"
   },
   {
@@ -461,6 +336,7 @@
     "translations": {},
     "type": "adm1",
     "population": 54130,
+    "population_year": null,
     "wikiDataId": "Q145002"
   }
 ]

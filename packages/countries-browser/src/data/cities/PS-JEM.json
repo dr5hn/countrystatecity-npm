@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q246590"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q775087"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q12053122"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q977521"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q2905320"
   },
   {
@@ -86,14 +91,32 @@
     "state_code": "JEM",
     "country_id": 169,
     "country_code": "PS",
-    "latitude": "31.79650430",
-    "longitude": "35.01054340",
+    "latitude": "31.78336000",
+    "longitude": "35.23388000",
     "native": "القدس الشرقية",
-    "timezone": "Asia/Gaza",
+    "timezone": "Asia/Jerusalem",
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q212938"
+  },
+  {
+    "id": 57475,
+    "name": "Har Adar",
+    "state_id": 5124,
+    "state_code": "JEM",
+    "country_id": 169,
+    "country_code": "PS",
+    "latitude": "31.82754000",
+    "longitude": "35.13093000",
+    "native": "הר אדר",
+    "timezone": "Asia/Jerusalem",
+    "translations": {},
+    "type": "settlement",
+    "population": 3300,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 154008,
@@ -109,6 +132,7 @@
     "translations": {},
     "type": "settlement",
     "population": 8194,
+    "population_year": null,
     "wikiDataId": "Q2907886"
   },
   {
@@ -125,6 +149,7 @@
     "translations": {},
     "type": "section",
     "population": 25595,
+    "population_year": null,
     "wikiDataId": "Q2918647"
   },
   {
@@ -141,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 4505,
+    "population_year": null,
     "wikiDataId": "Q94800"
   },
   {
@@ -157,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q7267085"
   }
 ]

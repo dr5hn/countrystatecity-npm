@@ -11,8 +11,9 @@
     "native": "Bluff",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1850,
+    "population_year": null,
     "wikiDataId": "Q152028"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Gore",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 13050,
+    "population_year": null,
     "wikiDataId": "Q597409"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Invercargill",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "adm1",
+    "type": "city",
     "population": 50200,
+    "population_year": null,
     "wikiDataId": "Q31805"
   },
   {
@@ -59,25 +62,10 @@
     "native": "Riverton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1680,
+    "population_year": null,
     "wikiDataId": "Q152152"
-  },
-  {
-    "id": 79881,
-    "name": "Southland",
-    "state_id": 4071,
-    "state_code": "STL",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-45.77256000",
-    "longitude": "167.85266000",
-    "native": "Southland",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 30864,
-    "wikiDataId": "Q1972706"
   },
   {
     "id": 79890,
@@ -91,8 +79,9 @@
     "native": "Te Anau",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2940,
+    "population_year": null,
     "wikiDataId": "Q1154973"
   },
   {
@@ -107,8 +96,9 @@
     "native": "Winton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 2470,
+    "population_year": null,
     "wikiDataId": "Q1721802"
   }
 ]

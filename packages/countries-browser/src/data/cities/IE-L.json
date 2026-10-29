@@ -13,6 +13,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q182633"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q186220"
   },
   {
@@ -45,23 +47,8 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q183544"
-  },
-  {
-    "id": 57077,
-    "name": "Artane",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.38712000",
-    "longitude": "-6.21380000",
-    "native": "Artane",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 5328,
-    "wikiDataId": "Q2078191"
   },
   {
     "id": 57079,
@@ -77,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 1425,
+    "population_year": null,
     "wikiDataId": "Q2085943"
   },
   {
@@ -93,6 +81,7 @@
     "translations": {},
     "type": "city",
     "population": 1442,
+    "population_year": null,
     "wikiDataId": "Q2091051"
   },
   {
@@ -109,7 +98,8 @@
     "translations": {},
     "type": "city",
     "population": 9051,
-    "wikiDataId": "Q803843"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57091,
@@ -125,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 8043,
+    "population_year": null,
     "wikiDataId": "Q2081758"
   },
   {
@@ -141,6 +132,7 @@
     "translations": {},
     "type": "city",
     "population": 1161,
+    "population_year": null,
     "wikiDataId": "Q4076790"
   },
   {
@@ -157,6 +149,7 @@
     "translations": {},
     "type": "section",
     "population": 8547,
+    "population_year": null,
     "wikiDataId": "Q2672390"
   },
   {
@@ -173,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 1809,
+    "population_year": null,
     "wikiDataId": "Q580644"
   },
   {
@@ -189,23 +183,8 @@
     "translations": {},
     "type": "city",
     "population": 9611,
+    "population_year": null,
     "wikiDataId": "Q639941"
-  },
-  {
-    "id": 57105,
-    "name": "Ballyfermot",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.34283000",
-    "longitude": "-6.35480000",
-    "native": "Ballyfermot",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 8558,
-    "wikiDataId": "Q617008"
   },
   {
     "id": 57106,
@@ -221,23 +200,8 @@
     "translations": {},
     "type": "section",
     "population": 1123,
-    "wikiDataId": "Q617008"
-  },
-  {
-    "id": 57112,
-    "name": "Ballymun",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.39807000",
-    "longitude": "-6.26693000",
-    "native": "Ballymun",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 6262,
-    "wikiDataId": "Q2563240"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57116,
@@ -253,6 +217,7 @@
     "translations": {},
     "type": "city",
     "population": 1735,
+    "population_year": null,
     "wikiDataId": "Q805765"
   },
   {
@@ -269,39 +234,8 @@
     "translations": {},
     "type": "city",
     "population": 4511,
-    "wikiDataId": "Q807001"
-  },
-  {
-    "id": 57122,
-    "name": "Beaumont",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.38721000",
-    "longitude": "-6.22713000",
-    "native": "Beaumont",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 8609,
-    "wikiDataId": "Q3776934"
-  },
-  {
-    "id": 57126,
-    "name": "Blackrock",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.30150000",
-    "longitude": "-6.17780000",
-    "native": "Blackrock",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 8821,
-    "wikiDataId": "Q2448591"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57127,
@@ -317,6 +251,7 @@
     "translations": {},
     "type": "city",
     "population": 16511,
+    "population_year": null,
     "wikiDataId": "Q496387"
   },
   {
@@ -333,7 +268,8 @@
     "translations": {},
     "type": "section",
     "population": 4554,
-    "wikiDataId": "Q883912"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57131,
@@ -349,6 +285,7 @@
     "translations": {},
     "type": "section",
     "population": 7142,
+    "population_year": null,
     "wikiDataId": "Q893125"
   },
   {
@@ -365,23 +302,8 @@
     "translations": {},
     "type": "city",
     "population": 10038,
+    "population_year": null,
     "wikiDataId": "Q1024858"
-  },
-  {
-    "id": 57138,
-    "name": "Cabra",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.36694000",
-    "longitude": "-6.29444000",
-    "native": "Cabra",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 4389,
-    "wikiDataId": "Q2088319"
   },
   {
     "id": 57146,
@@ -397,6 +319,7 @@
     "translations": {},
     "type": "city",
     "population": 1052,
+    "population_year": null,
     "wikiDataId": "Q2091085"
   },
   {
@@ -413,6 +336,7 @@
     "translations": {},
     "type": "city",
     "population": 1126,
+    "population_year": null,
     "wikiDataId": "Q5050462"
   },
   {
@@ -429,6 +353,7 @@
     "translations": {},
     "type": "city",
     "population": 8301,
+    "population_year": null,
     "wikiDataId": "Q1049641"
   },
   {
@@ -445,23 +370,8 @@
     "translations": {},
     "type": "city",
     "population": 1195,
+    "population_year": null,
     "wikiDataId": "Q4216664"
-  },
-  {
-    "id": 57168,
-    "name": "Chapelizod",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.34846000",
-    "longitude": "-6.34301000",
-    "native": "Chapelizod",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 5296,
-    "wikiDataId": "Q2090973"
   },
   {
     "id": 57169,
@@ -477,6 +387,7 @@
     "translations": {},
     "type": "city",
     "population": 1800,
+    "population_year": null,
     "wikiDataId": "Q4507407"
   },
   {
@@ -493,7 +404,8 @@
     "translations": {},
     "type": "section",
     "population": 7924,
-    "wikiDataId": "Q4507407"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57171,
@@ -509,7 +421,8 @@
     "translations": {},
     "type": "city",
     "population": 6380,
-    "wikiDataId": "Q4507407"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57181,
@@ -525,6 +438,7 @@
     "translations": {},
     "type": "city",
     "population": 14508,
+    "population_year": null,
     "wikiDataId": "Q1102232"
   },
   {
@@ -541,6 +455,7 @@
     "translations": {},
     "type": "section",
     "population": 4500,
+    "population_year": null,
     "wikiDataId": "Q2567721"
   },
   {
@@ -557,23 +472,8 @@
     "translations": {},
     "type": "city",
     "population": 5389,
-    "wikiDataId": "Q2436580"
-  },
-  {
-    "id": 57190,
-    "name": "Coolock",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.38870000",
-    "longitude": "-6.19998000",
-    "native": "Coolock",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "section",
-    "population": 2632,
-    "wikiDataId": "Q680518"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57194,
@@ -589,23 +489,8 @@
     "translations": {},
     "type": "area",
     "population": 56875,
+    "population_year": null,
     "wikiDataId": "Q181882"
-  },
-  {
-    "id": 57205,
-    "name": "Crumlin",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.32154000",
-    "longitude": "-6.31439000",
-    "native": "Crumlin",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 11294,
-    "wikiDataId": "Q4237564"
   },
   {
     "id": 57207,
@@ -621,6 +506,7 @@
     "translations": {},
     "type": "city",
     "population": 6622,
+    "population_year": null,
     "wikiDataId": "Q659895"
   },
   {
@@ -637,6 +523,7 @@
     "translations": {},
     "type": "section",
     "population": 5667,
+    "population_year": null,
     "wikiDataId": "Q3775682"
   },
   {
@@ -653,6 +540,7 @@
     "translations": {},
     "type": "city",
     "population": 5070,
+    "population_year": null,
     "wikiDataId": "Q3776848"
   },
   {
@@ -669,55 +557,8 @@
     "translations": {},
     "type": "section",
     "population": 15299,
+    "population_year": null,
     "wikiDataId": "Q3776889"
-  },
-  {
-    "id": 57217,
-    "name": "Donnybrook",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.31375000",
-    "longitude": "-6.22274000",
-    "native": "Donnybrook",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 10645,
-    "wikiDataId": "Q3776296"
-  },
-  {
-    "id": 57218,
-    "name": "Donnycarney",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.37350000",
-    "longitude": "-6.20976000",
-    "native": "Donnycarney",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "section",
-    "population": 7660,
-    "wikiDataId": "Q925282"
-  },
-  {
-    "id": 57222,
-    "name": "Drumcondra",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.37058000",
-    "longitude": "-6.25298000",
-    "native": "Drumcondra",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 4465,
-    "wikiDataId": "Q1261255"
   },
   {
     "id": 57236,
@@ -733,6 +574,7 @@
     "translations": {},
     "type": "city",
     "population": 26525,
+    "population_year": null,
     "wikiDataId": "Q745989"
   },
   {
@@ -749,6 +591,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q538417"
   },
   {
@@ -765,6 +608,7 @@
     "translations": {},
     "type": "city",
     "population": 12152,
+    "population_year": null,
     "wikiDataId": "Q2446861"
   },
   {
@@ -781,39 +625,8 @@
     "translations": {},
     "type": "city",
     "population": 1822,
-    "wikiDataId": "Q1265808"
-  },
-  {
-    "id": 57238,
-    "name": "Eadestown",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.20278000",
-    "longitude": "-6.57806000",
-    "native": "Eadestown",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 5346,
-    "wikiDataId": "Q538417"
-  },
-  {
-    "id": 57245,
-    "name": "Fairview",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.36597000",
-    "longitude": "-6.23985000",
-    "native": "Fairview",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 3821,
-    "wikiDataId": "Q434921"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57248,
@@ -829,6 +642,7 @@
     "translations": {},
     "type": "city",
     "population": 1415,
+    "population_year": null,
     "wikiDataId": "Q2096277"
   },
   {
@@ -845,23 +659,8 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q520000"
-  },
-  {
-    "id": 57251,
-    "name": "Finglas",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.38917000",
-    "longitude": "-6.29694000",
-    "native": "Finglas",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 19768,
-    "wikiDataId": "Q2092179"
   },
   {
     "id": 57252,
@@ -877,6 +676,7 @@
     "translations": {},
     "type": "city",
     "population": 6859,
+    "population_year": null,
     "wikiDataId": "Q2563252"
   },
   {
@@ -893,39 +693,8 @@
     "translations": {},
     "type": "city",
     "population": 12870,
+    "population_year": null,
     "wikiDataId": "Q1843815"
-  },
-  {
-    "id": 57257,
-    "name": "Glasnevin",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.37851000",
-    "longitude": "-6.28028000",
-    "native": "Glasnevin",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 3633,
-    "wikiDataId": "Q2021986"
-  },
-  {
-    "id": 57260,
-    "name": "Graiguenamanagh",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "52.54028000",
-    "longitude": "-6.95472000",
-    "native": "Graiguenamanagh",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 1476,
-    "wikiDataId": "Q1114609"
   },
   {
     "id": 57262,
@@ -941,6 +710,7 @@
     "translations": {},
     "type": "section",
     "population": 6876,
+    "population_year": null,
     "wikiDataId": "Q3776008"
   },
   {
@@ -957,7 +727,8 @@
     "translations": {},
     "type": "city",
     "population": 5882,
-    "wikiDataId": "Q693164"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57266,
@@ -973,6 +744,7 @@
     "translations": {},
     "type": "city",
     "population": 8706,
+    "population_year": null,
     "wikiDataId": "Q434165"
   },
   {
@@ -989,6 +761,7 @@
     "translations": {},
     "type": "city",
     "population": 10825,
+    "population_year": null,
     "wikiDataId": "Q3777969"
   },
   {
@@ -1005,23 +778,8 @@
     "translations": {},
     "type": "city",
     "population": 1005,
-    "wikiDataId": "Q3777969"
-  },
-  {
-    "id": 57271,
-    "name": "Kells",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.72639000",
-    "longitude": "-6.87917000",
-    "native": "Kells",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 4820,
-    "wikiDataId": "Q917848"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57278,
@@ -1037,6 +795,7 @@
     "translations": {},
     "type": "city",
     "population": 7538,
+    "population_year": null,
     "wikiDataId": "Q173332"
   },
   {
@@ -1053,6 +812,7 @@
     "translations": {},
     "type": "adm2",
     "population": 22179,
+    "population_year": null,
     "wikiDataId": "Q109092"
   },
   {
@@ -1069,6 +829,7 @@
     "translations": {},
     "type": "city",
     "population": 5099,
+    "population_year": null,
     "wikiDataId": "Q3776938"
   },
   {
@@ -1085,7 +846,8 @@
     "translations": {},
     "type": "city",
     "population": 1028,
-    "wikiDataId": "Q1741405"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57288,
@@ -1101,6 +863,7 @@
     "translations": {},
     "type": "locality",
     "population": 1287,
+    "population_year": null,
     "wikiDataId": "Q3777995"
   },
   {
@@ -1117,7 +880,8 @@
     "translations": {},
     "type": "city",
     "population": 14886,
-    "wikiDataId": "Q3777995"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57294,
@@ -1133,6 +897,7 @@
     "translations": {},
     "type": "city",
     "population": 2662,
+    "population_year": null,
     "wikiDataId": "Q1026371"
   },
   {
@@ -1149,6 +914,7 @@
     "translations": {},
     "type": "city",
     "population": 14628,
+    "population_year": null,
     "wikiDataId": "Q3776377"
   },
   {
@@ -1165,6 +931,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q55299"
   },
   {
@@ -1181,7 +948,8 @@
     "translations": {},
     "type": "section",
     "population": 8015,
-    "wikiDataId": "Q952497"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57306,
@@ -1197,6 +965,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q184599"
   },
   {
@@ -1213,6 +982,7 @@
     "translations": {},
     "type": "city",
     "population": 1581,
+    "population_year": null,
     "wikiDataId": "Q2081830"
   },
   {
@@ -1229,6 +999,7 @@
     "translations": {},
     "type": "city",
     "population": 3665,
+    "population_year": null,
     "wikiDataId": "Q3775830"
   },
   {
@@ -1245,6 +1016,7 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q183539"
   },
   {
@@ -1261,23 +1033,8 @@
     "translations": {},
     "type": "city",
     "population": 15269,
+    "population_year": null,
     "wikiDataId": "Q1798906"
-  },
-  {
-    "id": 57319,
-    "name": "Marino",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.37022000",
-    "longitude": "-6.23646000",
-    "native": "Marino",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "section",
-    "population": 11023,
-    "wikiDataId": "Q3776706"
   },
   {
     "id": 57324,
@@ -1293,6 +1050,7 @@
     "translations": {},
     "type": "section",
     "population": 4049,
+    "population_year": null,
     "wikiDataId": "Q2566830"
   },
   {
@@ -1309,6 +1067,7 @@
     "translations": {},
     "type": "city",
     "population": 5555,
+    "population_year": null,
     "wikiDataId": "Q2088328"
   },
   {
@@ -1325,6 +1084,7 @@
     "translations": {},
     "type": "city",
     "population": 1175,
+    "population_year": null,
     "wikiDataId": "Q3776881"
   },
   {
@@ -1341,6 +1101,7 @@
     "translations": {},
     "type": "city",
     "population": 1195,
+    "population_year": null,
     "wikiDataId": "Q4307059"
   },
   {
@@ -1357,6 +1118,7 @@
     "translations": {},
     "type": "section",
     "population": 7846,
+    "population_year": null,
     "wikiDataId": "Q3776287"
   },
   {
@@ -1373,6 +1135,7 @@
     "translations": {},
     "type": "city",
     "population": 1661,
+    "population_year": null,
     "wikiDataId": "Q2083030"
   },
   {
@@ -1389,7 +1152,8 @@
     "translations": {},
     "type": "city",
     "population": 2659,
-    "wikiDataId": "Q1016292"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57351,
@@ -1405,7 +1169,8 @@
     "translations": {},
     "type": "section",
     "population": 6781,
-    "wikiDataId": "Q2566352"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57353,
@@ -1421,6 +1186,7 @@
     "translations": {},
     "type": "city",
     "population": 2110,
+    "population_year": null,
     "wikiDataId": "Q14911694"
   },
   {
@@ -1437,7 +1203,8 @@
     "translations": {},
     "type": "city",
     "population": 9784,
-    "wikiDataId": "Q14911694"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57358,
@@ -1453,6 +1220,7 @@
     "translations": {},
     "type": "city",
     "population": 11130,
+    "population_year": null,
     "wikiDataId": "Q2668594"
   },
   {
@@ -1469,39 +1237,8 @@
     "translations": {},
     "type": "city",
     "population": 1187,
+    "population_year": null,
     "wikiDataId": "Q3777986"
-  },
-  {
-    "id": 57365,
-    "name": "Portraine",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.49667000",
-    "longitude": "-6.11111000",
-    "native": "Portraine",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 1372,
-    "wikiDataId": "Q610995"
-  },
-  {
-    "id": 57368,
-    "name": "Raheny",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.38681000",
-    "longitude": "-6.18067000",
-    "native": "Raheny",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 7197,
-    "wikiDataId": "Q969296"
   },
   {
     "id": 57372,
@@ -1517,6 +1254,7 @@
     "translations": {},
     "type": "city",
     "population": 3421,
+    "population_year": null,
     "wikiDataId": "Q2639401"
   },
   {
@@ -1533,55 +1271,8 @@
     "translations": {},
     "type": "city",
     "population": 1586,
+    "population_year": null,
     "wikiDataId": "Q2333424"
-  },
-  {
-    "id": 57376,
-    "name": "Rathgar",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.31457000",
-    "longitude": "-6.27500000",
-    "native": "Rathgar",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 8394,
-    "wikiDataId": "Q2528857"
-  },
-  {
-    "id": 57378,
-    "name": "Rathmines",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.32028000",
-    "longitude": "-6.26333000",
-    "native": "Rathmines",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "section",
-    "population": 11044,
-    "wikiDataId": "Q2672384"
-  },
-  {
-    "id": 57380,
-    "name": "Rathwire",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.50767000",
-    "longitude": "-7.13510000",
-    "native": "Rathwire",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 1226,
-    "wikiDataId": "Q2244788"
   },
   {
     "id": 57382,
@@ -1597,23 +1288,8 @@
     "translations": {},
     "type": "section",
     "population": 3652,
+    "population_year": null,
     "wikiDataId": "Q7322133"
-  },
-  {
-    "id": 57383,
-    "name": "Ringsend",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.34194000",
-    "longitude": "-6.22639000",
-    "native": "Ringsend",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "section",
-    "population": 8202,
-    "wikiDataId": "Q2090989"
   },
   {
     "id": 57387,
@@ -1629,7 +1305,8 @@
     "translations": {},
     "type": "city",
     "population": null,
-    "wikiDataId": "Q1003178"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 57389,
@@ -1645,6 +1322,7 @@
     "translations": {},
     "type": "city",
     "population": 3133,
+    "population_year": null,
     "wikiDataId": "Q2639382"
   },
   {
@@ -1661,6 +1339,7 @@
     "translations": {},
     "type": "city",
     "population": 6916,
+    "population_year": null,
     "wikiDataId": "Q3775672"
   },
   {
@@ -1677,23 +1356,8 @@
     "translations": {},
     "type": "city",
     "population": 22288,
+    "population_year": null,
     "wikiDataId": "Q2566728"
-  },
-  {
-    "id": 57393,
-    "name": "Sandymount",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.32815000",
-    "longitude": "-6.22224000",
-    "native": "Sandymount",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 8967,
-    "wikiDataId": "Q966849"
   },
   {
     "id": 57394,
@@ -1709,6 +1373,7 @@
     "translations": {},
     "type": "city",
     "population": 14257,
+    "population_year": null,
     "wikiDataId": "Q2588702"
   },
   {
@@ -1725,6 +1390,7 @@
     "translations": {},
     "type": "city",
     "population": 10043,
+    "population_year": null,
     "wikiDataId": "Q2268677"
   },
   {
@@ -1741,6 +1407,7 @@
     "translations": {},
     "type": "area",
     "population": 278749,
+    "population_year": null,
     "wikiDataId": "Q822865"
   },
   {
@@ -1757,6 +1424,7 @@
     "translations": {},
     "type": "city",
     "population": 1350,
+    "population_year": null,
     "wikiDataId": "Q2672393"
   },
   {
@@ -1773,6 +1441,7 @@
     "translations": {},
     "type": "city",
     "population": 5680,
+    "population_year": null,
     "wikiDataId": "Q2189223"
   },
   {
@@ -1789,6 +1458,7 @@
     "translations": {},
     "type": "adm2",
     "population": 80339,
+    "population_year": null,
     "wikiDataId": "Q990099"
   },
   {
@@ -1805,23 +1475,8 @@
     "translations": {},
     "type": "section",
     "population": 7023,
+    "population_year": null,
     "wikiDataId": "Q2668330"
-  },
-  {
-    "id": 57411,
-    "name": "Terenure",
-    "state_id": 1073,
-    "state_code": "L",
-    "country_id": 105,
-    "country_code": "IE",
-    "latitude": "53.30972000",
-    "longitude": "-6.28528000",
-    "native": "Terenure",
-    "timezone": "Europe/Dublin",
-    "translations": {},
-    "type": "city",
-    "population": 7674,
-    "wikiDataId": "Q2090994"
   },
   {
     "id": 57425,
@@ -1837,6 +1492,7 @@
     "translations": {},
     "type": "county",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q184445"
   },
   {
@@ -1853,6 +1509,7 @@
     "translations": {},
     "type": "city",
     "population": 1756,
+    "population_year": null,
     "wikiDataId": "Q4102941"
   },
   {
@@ -1869,6 +1526,7 @@
     "translations": {},
     "type": "city",
     "population": 14048,
+    "population_year": null,
     "wikiDataId": "Q182591"
   }
 ]

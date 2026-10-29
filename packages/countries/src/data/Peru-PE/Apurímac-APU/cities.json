@@ -13,42 +13,28 @@
     "translations": {},
     "type": "municipality",
     "population": 72277,
-    "wikiDataId": "Q2718510"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 80767,
+    "id": 166872,
     "name": "Abancay",
     "state_id": 3699,
     "state_code": "APU",
     "country_id": 173,
     "country_code": "PE",
-    "latitude": "-13.63666667",
-    "longitude": "-72.87916667",
+    "latitude": "-13.63333333",
+    "longitude": "-72.88333333",
     "native": "Abancay",
     "timezone": "America/Lima",
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q215238"
   },
   {
-    "id": 80559,
-    "name": "Andahuaylas",
-    "state_id": 3699,
-    "state_code": "APU",
-    "country_id": 173,
-    "country_code": "PE",
-    "latitude": "-13.65556000",
-    "longitude": "-73.38722000",
-    "native": "Andahuaylas",
-    "timezone": "America/Lima",
-    "translations": {},
-    "type": "municipality",
-    "population": 17444,
-    "wikiDataId": "Q2718496"
-  },
-  {
-    "id": 80772,
+    "id": 166874,
     "name": "Andahuaylas",
     "state_id": 3699,
     "state_code": "APU",
@@ -61,7 +47,25 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q489660"
+  },
+  {
+    "id": 167873,
+    "name": "Andahuaylas",
+    "state_id": 3699,
+    "state_code": "APU",
+    "country_id": 173,
+    "country_code": "PE",
+    "latitude": "-13.65556000",
+    "longitude": "-73.38722000",
+    "native": "Andahuaylas",
+    "timezone": "America/Lima",
+    "translations": {},
+    "type": "municipality",
+    "population": 17444,
+    "population_year": null,
+    "wikiDataId": "Q2718496"
   },
   {
     "id": 80775,
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "province",
     "population": 11310,
+    "population_year": null,
     "wikiDataId": "Q1814228"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "province",
     "population": 24307,
+    "population_year": null,
     "wikiDataId": "Q1814234"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "province",
     "population": 50656,
+    "population_year": null,
     "wikiDataId": "Q1814244"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "province",
     "population": 21242,
+    "population_year": null,
     "wikiDataId": "Q1814172"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "municipality",
     "population": 7381,
+    "population_year": null,
     "wikiDataId": "Q2547246"
   }
 ]

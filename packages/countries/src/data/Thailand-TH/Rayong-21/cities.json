@@ -13,6 +13,7 @@
     "translations": {},
     "type": "district",
     "population": 28204,
+    "population_year": null,
     "wikiDataId": "Q475085"
   },
   {
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "adm2",
     "population": 28204,
+    "population_year": null,
     "wikiDataId": "Q13025368"
   },
   {
-    "id": 105195,
+    "id": 166927,
     "name": "Ban Khai",
     "state_id": 3518,
     "state_code": "21",
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15996034"
   },
   {
@@ -61,10 +64,11 @@
     "translations": {},
     "type": "city",
     "population": 17414,
-    "wikiDataId": "Q340034"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
-    "id": 106334,
+    "id": 167266,
     "name": "Chum Saeng",
     "state_id": 3518,
     "state_code": "21",
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15997463"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "district",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q179704"
   },
   {
@@ -107,12 +113,13 @@
     "native": "แกลง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 55619,
+    "population_year": null,
     "wikiDataId": "Q15980715"
   },
   {
-    "id": 105645,
+    "id": 167100,
     "name": "Nikhom Phatthana",
     "state_id": 3518,
     "state_code": "21",
@@ -125,10 +132,11 @@
     "translations": {},
     "type": "city",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q15995307"
   },
   {
-    "id": 105790,
+    "id": 167169,
     "name": "Pluak Daeng",
     "state_id": 3518,
     "state_code": "21",
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "city",
     "population": 106737,
+    "population_year": null,
     "wikiDataId": "Q1015123"
   }
 ]

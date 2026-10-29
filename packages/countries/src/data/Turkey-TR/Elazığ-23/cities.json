@@ -13,7 +13,8 @@
     "translations": {},
     "type": "municipality",
     "population": 1653,
-    "wikiDataId": "Q49101030"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 153354,
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1019868"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Arıcak",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5168,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -61,10 +64,11 @@
     "translations": {},
     "type": "municipality",
     "population": 6412,
-    "wikiDataId": "Q810374"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
-    "id": 108188,
+    "id": 167905,
     "name": "Elazığ",
     "state_id": 2159,
     "state_code": "23",
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "municipality",
     "population": 408032,
+    "population_year": 2025,
     "wikiDataId": "Q174060"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 29735,
+    "population_year": null,
     "wikiDataId": "Q990305"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Keban",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5837,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,8 +130,9 @@
     "native": "Kovancılar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 22976,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "municipality",
     "population": 3021,
+    "population_year": 2025,
     "wikiDataId": "Q3032160"
   },
   {
@@ -155,8 +164,9 @@
     "native": "Palu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 11271,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -171,8 +181,9 @@
     "native": "Sivrice",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5481,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

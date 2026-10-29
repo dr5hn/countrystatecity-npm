@@ -11,8 +11,9 @@
     "native": "Аранђеловац",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 24309,
+    "population_year": null,
     "wikiDataId": "Q2041745"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Баточина",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q17613911"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Кнић",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q18376128"
   },
   {
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "city",
     "population": 150623,
-    "wikiDataId": "Q4237399"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 97269,
@@ -75,8 +79,9 @@
     "native": "Лапово",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 7422,
+    "population_year": null,
     "wikiDataId": "Q2041698"
   },
   {
@@ -91,8 +96,9 @@
     "native": "Рача",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q1288101"
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 1261,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,8 +130,9 @@
     "native": "Топола",
     "timezone": "Europe/Belgrade",
     "translations": {},
-    "type": "municipality",
+    "type": "adm3",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q2047435"
   }
 ]

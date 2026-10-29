@@ -75,6 +75,25 @@ function validateData(countries, options = {}) {
     countryIds.add(country.id);
     checkCoordinates(country, 'country', errors);
 
+    const countryCities = country.cities ?? [];
+    if (!Array.isArray(countryCities)) {
+      errors.push(`country id=${country.id}: cities must be an array`);
+    } else {
+      for (const city of countryCities) {
+        totalCities++;
+        if (!city.id || !city.name) errors.push(`country-level city missing id or name in ${country.iso2}`);
+        if (city.state_id != null || city.state_code != null) {
+          errors.push(`country-level city id=${city.id} must have a null state pair`);
+        }
+        if (city.country_id !== undefined && city.country_id !== country.id) {
+          errors.push(`city id=${city.id} country_id does not match its containing country ${country.id}`);
+        }
+        if (seenCityIds.has(city.id)) duplicateCityIds.add(city.id);
+        seenCityIds.add(city.id);
+        checkCoordinates(city, 'city', errors);
+      }
+    }
+
     const states = country.states ?? [];
     if (!Array.isArray(states)) {
       errors.push(`country id=${country.id} (${country.name}): states must be an array`);

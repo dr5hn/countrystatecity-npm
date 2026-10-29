@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm1",
     "population": 3101833,
+    "population_year": null,
     "wikiDataId": "Q40738"
   },
   {
@@ -27,8 +28,9 @@
     "native": "Büyükorhan",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 9148,
+    "population_year": 2025,
     "wikiDataId": "Q2473756"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Gemlik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 111488,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -59,8 +62,9 @@
     "native": "Gürsu",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 105799,
+    "population_year": 2025,
     "wikiDataId": "Q2384475"
   },
   {
@@ -75,9 +79,10 @@
     "native": "Harmancık",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 0,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2473998"
   },
   {
     "id": 108901,
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "adm2",
     "population": 133959,
+    "population_year": null,
     "wikiDataId": "Q343973"
   },
   {
@@ -107,8 +113,9 @@
     "native": "İznik",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 22230,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,8 +130,9 @@
     "native": "Karacabey",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 44256,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -141,7 +149,8 @@
     "translations": {},
     "type": "municipality",
     "population": 10939,
-    "wikiDataId": "Q2473777"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107987,
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "municipality",
     "population": 77374,
+    "population_year": 2025,
     "wikiDataId": "Q2607431"
   },
   {
@@ -173,6 +183,7 @@
     "translations": {},
     "type": "municipality",
     "population": 112225,
+    "population_year": 2025,
     "wikiDataId": "Q2458104"
   },
   {
@@ -189,7 +200,8 @@
     "translations": {},
     "type": "municipality",
     "population": 103652,
-    "wikiDataId": "Q719537"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108249,
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "municipality",
     "population": 578059,
+    "population_year": 2025,
     "wikiDataId": "Q49106944"
   },
   {
@@ -221,7 +234,8 @@
     "translations": {},
     "type": "municipality",
     "population": 18963,
-    "wikiDataId": "Q1948420"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108274,
@@ -237,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 51792,
+    "population_year": null,
     "wikiDataId": "Q1012836"
   },
   {
@@ -246,13 +261,14 @@
     "state_code": "16",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.15644000",
-    "longitude": "29.08753000",
+    "latitude": "40.19671000",
+    "longitude": "29.05935000",
     "native": "Osmangazi",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm3",
+    "type": "municipality",
     "population": 2189,
+    "population_year": null,
     "wikiDataId": "Q1023140"
   },
   {
@@ -269,7 +285,8 @@
     "translations": {},
     "type": "municipality",
     "population": 55609,
-    "wikiDataId": "Q1817979"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 108746,
@@ -278,13 +295,14 @@
     "state_code": "16",
     "country_id": 225,
     "country_code": "TR",
-    "latitude": "40.19567000",
-    "longitude": "29.03640000",
+    "latitude": "40.18851000",
+    "longitude": "29.10974000",
     "native": "Yıldırım",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": 653004,
+    "population_year": null,
     "wikiDataId": "Q2598734"
   }
 ]

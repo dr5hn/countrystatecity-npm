@@ -1,52 +1,97 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T18:59:20.316Z",
+  "generatedAt": "2026-10-29T11:22:45.199Z",
   "source": {
     "repository": "dr5hn/countries-states-cities-database",
-    "releaseTag": "v4.0-export.50",
-    "releaseUrl": "https://github.com/dr5hn/countries-states-cities-database/releases/tag/v4.0-export.50",
-    "publishedAt": "2026-10-12T08:07:50Z",
-    "fetchedAt": "2026-10-12T18:58:31.133Z"
+    "releaseTag": "v5.0.0-export.1",
+    "releaseUrl": "https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0-export.1",
+    "publishedAt": "2026-10-19T12:48:06Z",
+    "fetchedAt": "2026-10-29T11:03:37.146Z"
   },
   "files": [
     {
       "asset": "json-countries+states+cities.json.gz",
       "role": "combined",
-      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0-export.50/json-countries%2Bstates%2Bcities.json.gz",
-      "compressedSha256": "088afb068b16516b51f15bed2876fafd7d69350535213f4384a547b832ebb37e",
-      "contentSha256": "9e4eece09d95dad7e6743e6d452c982de9b3eac8b3a15fd8746ebb078493dc4f",
-      "compressedBytes": 3721013,
-      "decompressedBytes": 52819630,
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/json-countries%2Bstates%2Bcities.json.gz",
+      "compressedSha256": "72cbb838c2004ccedc97fb18b10b2d8916fd9275bf227e9a4d26e814adc16eb8",
+      "contentSha256": "401f2db487336d00bbfd027b2080a4a393e8443f498ccfc675a67b52e08dd75a",
+      "compressedBytes": 3732312,
+      "decompressedBytes": 52899139,
       "recordCount": 250
     },
     {
       "asset": "json-cities.json.gz",
       "role": "cities-full",
-      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0-export.50/json-cities.json.gz",
-      "compressedSha256": "0ab6bd67b0ae508f3f1616299fe48be84915543435881580fd3cbf9cb07ed4b3",
-      "contentSha256": "0be9e32cb69a8ab257781fe4ab89b004b4b0bcb71d16c11c3c08c0993f4d7769",
-      "compressedBytes": 23689481,
-      "decompressedBytes": 199710565,
-      "recordCount": 152152
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/json-cities.json.gz",
+      "compressedSha256": "8323681e20c584fa63398b401ba36f879741bac2caef520b373fe823fdc67a20",
+      "contentSha256": "ce3cde2e6373ebf286e7c06b9350240a17e200ab5f2c8ba2ad8dfbdb10bd649f",
+      "compressedBytes": 23573857,
+      "decompressedBytes": 199044000,
+      "recordCount": 152378
     },
     {
       "asset": "csv-translations.csv.gz",
       "role": "translations",
-      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v4.0-export.50/csv-translations.csv.gz",
-      "compressedSha256": "518c10d35524c8c9dcd02e7af99586e0f70ec228b9d4d92825899a65ace6d6dd",
-      "contentSha256": "d81adec0c47bbc2f9cd45382f3d4cdadaea600b190d15efa81f16932de550247",
-      "compressedBytes": 20285959,
-      "decompressedBytes": 87928729,
-      "recordCount": 2923436
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/csv-translations.csv.gz",
+      "compressedSha256": "aec4ef6173e29765f9108df407c994b970a302d82c7c12cb08f2285ce5fdaadb",
+      "contentSha256": "a8489ef7b8abc501fcb28f5d552f9a7de602ac2b783fecf12ae170f926b48955",
+      "compressedBytes": 20167081,
+      "decompressedBytes": 87353249,
+      "recordCount": 2906879
+    },
+    {
+      "asset": "NOTICE-4-72-Clausula-Licencia-Abierta.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-4-72-Clausula-Licencia-Abierta.txt",
+      "contentSha256": "6d94032c8a4acd9da801682a96118192d0a2a309f785dfb5498085c8558a9f4d",
+      "decompressedBytes": 5141
+    },
+    {
+      "asset": "NOTICE-pc_rebuild_7-distribution-notices.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-pc_rebuild_7-distribution-notices.txt",
+      "contentSha256": "26253aea0cb5d917d9cd44f70fe41551fe0db28e54d18ace6982e9428e99bb8b",
+      "decompressedBytes": 3943
+    },
+    {
+      "asset": "NOTICE-Posti-postal-code-terms.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-Posti-postal-code-terms.txt",
+      "contentSha256": "ac57a024e144a0a1a2cd4b49be645d186b61e008087ab8264bc52edbcbcd0708",
+      "decompressedBytes": 17192
+    },
+    {
+      "asset": "NOTICE-SOURCES.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-SOURCES.txt",
+      "contentSha256": "b894f4bd60cf65e22377a78a26ea2264ed47eb4768a41b483955163adea3b08f",
+      "decompressedBytes": 68748
+    },
+    {
+      "asset": "NOTICE-Unicode-3.0.txt",
+      "role": "notice",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/NOTICE-Unicode-3.0.txt",
+      "contentSha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b",
+      "decompressedBytes": 2033
+    },
+    {
+      "asset": "json-postcodes.json.gz",
+      "role": "postcodes",
+      "url": "https://github.com/dr5hn/countries-states-cities-database/releases/download/v5.0.0-export.1/json-postcodes.json.gz",
+      "compressedSha256": "c29f0b40aa866983873997dfd3d08e55c13b4ad97cea963db77ae1b511f80b7a",
+      "contentSha256": "fd4c57fe448ffd0c8a12b17297ad93fd5df02b0e12561425e5bff75662d97ab1",
+      "compressedBytes": 9953867,
+      "decompressedBytes": 284113121,
+      "recordCount": 725993
     }
   ],
   "counts": {
     "countries": 250,
-    "states": 5328,
-    "cities": 152152
+    "states": 5327,
+    "cities": 152378
   },
   "cityFieldCoverage": {
-    "matchedFromFullCityFile": 152152,
+    "matchedFromFullCityFile": 152378,
     "unmatched": 0
   },
   "delta": {
@@ -56,14 +101,14 @@
       "pct": 0
     },
     "states": {
-      "previous": 5308,
-      "current": 5328,
-      "pct": 0.38
+      "previous": 5327,
+      "current": 5327,
+      "pct": 0
     },
     "cities": {
-      "previous": 152970,
-      "current": 152152,
-      "pct": -0.53
+      "previous": 152378,
+      "current": 152378,
+      "pct": 0
     }
   }
 }

@@ -11,8 +11,9 @@
     "native": "Brooklyn",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 3855,
+    "population_year": null,
     "wikiDataId": "Q4974716"
   },
   {
@@ -27,25 +28,10 @@
     "native": "Castlepoint",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "locality",
     "population": 1686,
+    "population_year": null,
     "wikiDataId": "Q5050567"
-  },
-  {
-    "id": 79808,
-    "name": "Kapiti Coast",
-    "state_id": 4065,
-    "state_code": "WGN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-40.85682000",
-    "longitude": "175.14690000",
-    "native": "Kapiti Coast",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 53200,
-    "wikiDataId": "Q1533839"
   },
   {
     "id": 79812,
@@ -61,7 +47,8 @@
     "translations": {},
     "type": "section",
     "population": 4890,
-    "wikiDataId": "Q1674085"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79814,
@@ -75,9 +62,10 @@
     "native": "Khandallah",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 8640,
-    "wikiDataId": "Q1185949"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79819,
@@ -93,7 +81,25 @@
     "translations": {},
     "type": "city",
     "population": 110700,
+    "population_year": null,
     "wikiDataId": "Q1015681"
+  },
+  {
+    "id": 166866,
+    "name": "Martinborough",
+    "state_id": 4065,
+    "state_code": "WGN",
+    "country_id": 158,
+    "country_code": "NZ",
+    "latitude": "-41.21883889",
+    "longitude": "175.45906944",
+    "native": "Martinborough",
+    "timezone": "Pacific/Auckland",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79826,
@@ -107,8 +113,9 @@
     "native": "Masterton",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 28700,
+    "population_year": null,
     "wikiDataId": "Q1223916"
   },
   {
@@ -123,8 +130,9 @@
     "native": "Otaki",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 4980,
+    "population_year": null,
     "wikiDataId": "Q984998"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Paraparaumu",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 30100,
+    "population_year": null,
     "wikiDataId": "Q1115332"
   },
   {
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "section",
     "population": 8370,
+    "population_year": null,
     "wikiDataId": "Q120070"
   },
   {
@@ -173,23 +183,8 @@
     "translations": {},
     "type": "city",
     "population": 59600,
+    "population_year": null,
     "wikiDataId": "Q1015773"
-  },
-  {
-    "id": 79880,
-    "name": "South Wairarapa",
-    "state_id": 4065,
-    "state_code": "WGN",
-    "country_id": 158,
-    "country_code": "NZ",
-    "latitude": "-41.26731000",
-    "longitude": "175.38442000",
-    "native": "South Wairarapa",
-    "timezone": "Pacific/Auckland",
-    "translations": {},
-    "type": "district",
-    "population": 10450,
-    "wikiDataId": "Q1760817"
   },
   {
     "id": 79899,
@@ -205,6 +200,7 @@
     "translations": {},
     "type": "city",
     "population": 44300,
+    "population_year": null,
     "wikiDataId": "Q166002"
   },
   {
@@ -221,7 +217,8 @@
     "translations": {},
     "type": "city",
     "population": 2250,
-    "wikiDataId": "Q912379"
+    "population_year": null,
+    "wikiDataId": null
   },
   {
     "id": 79915,
@@ -235,8 +232,9 @@
     "native": "Wellington",
     "timezone": "Pacific/Auckland",
     "translations": {},
-    "type": "capital",
+    "type": "city",
     "population": 381900,
+    "population_year": null,
     "wikiDataId": "Q23661"
   }
 ]

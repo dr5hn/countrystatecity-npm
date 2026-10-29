@@ -1,6 +1,6 @@
 [
   {
-    "id": 105294,
+    "id": 166973,
     "name": "Chiang Khan",
     "state_id": 3509,
     "state_code": "42",
@@ -13,10 +13,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105320,
+    "id": 166985,
     "name": "Dan Sai",
     "state_id": 3509,
     "state_code": "42",
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105338,
+    "id": 166991,
     "name": "Erawan",
     "state_id": 3509,
     "state_code": "42",
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "city",
     "population": 35273,
+    "population_year": null,
     "wikiDataId": "Q598784"
   },
   {
@@ -77,10 +81,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476124"
   },
   {
-    "id": 105613,
+    "id": 167087,
     "name": "Na Haeo",
     "state_id": 3509,
     "state_code": "42",
@@ -93,10 +98,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105665,
+    "id": 167112,
     "name": "Nong Hin",
     "state_id": 3509,
     "state_code": "42",
@@ -109,10 +115,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105700,
+    "id": 167131,
     "name": "Pak Chom",
     "state_id": 3509,
     "state_code": "42",
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q102347608"
   },
   {
@@ -141,6 +149,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476357"
   },
   {
@@ -150,13 +159,14 @@
     "state_code": "42",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "16.88416667",
-    "longitude": "101.88472222",
+    "latitude": "16.88425000",
+    "longitude": "101.88467000",
     "native": "ภูกระดึง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
-    "population": null,
+    "type": "adm2",
+    "population": 16079,
+    "population_year": null,
     "wikiDataId": "Q28727059"
   },
   {
@@ -173,10 +183,11 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q476476"
   },
   {
-    "id": 105780,
+    "id": 167163,
     "name": "Phu Ruea",
     "state_id": 3509,
     "state_code": "42",
@@ -189,10 +200,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 106275,
+    "id": 167235,
     "name": "Tha Li",
     "state_id": 3509,
     "state_code": "42",
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -214,13 +227,14 @@
     "state_code": "42",
     "country_id": 219,
     "country_code": "TH",
-    "latitude": "17.29950000",
-    "longitude": "101.76244444",
+    "latitude": "17.30097000",
+    "longitude": "101.76850000",
     "native": "วังสะพุง",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
-    "population": null,
+    "type": "adm2",
+    "population": 15747,
+    "population_year": null,
     "wikiDataId": "Q15265045"
   }
 ]

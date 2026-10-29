@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q424414"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 2264,
+    "population_year": 2025,
     "wikiDataId": "Q49100846"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 22282,
+    "population_year": null,
     "wikiDataId": "Q1027545"
   },
   {
@@ -61,7 +64,8 @@
     "translations": {},
     "type": "municipality",
     "population": 21666,
-    "wikiDataId": "Q2097604"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107931,
@@ -75,8 +79,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "city",
     "population": 96915,
+    "population_year": 2025,
     "wikiDataId": "Q127063"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "municipality",
     "population": 15433,
+    "population_year": 2025,
     "wikiDataId": "Q2151715"
   },
   {
@@ -107,8 +113,9 @@
     "native": "Selim",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4557,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -123,8 +130,9 @@
     "native": "Susuz",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 4230,
+    "population_year": null,
     "wikiDataId": null
   }
 ]

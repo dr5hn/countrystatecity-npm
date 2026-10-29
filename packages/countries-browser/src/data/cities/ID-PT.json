@@ -13,10 +13,11 @@
     "translations": {},
     "type": "regency",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q27386"
   },
   {
-    "id": 56577,
+    "id": 166787,
     "name": "Enarotali",
     "state_id": 5235,
     "state_code": "PT",
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "section",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q3053702"
   },
   {
-    "id": 56604,
+    "id": 166802,
     "name": "Ilaga",
     "state_id": 5235,
     "state_code": "PT",
@@ -45,26 +47,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791092"
   },
   {
-    "id": 56427,
-    "name": "Intan Jaya",
-    "state_id": 5235,
-    "state_code": "PT",
-    "country_id": 102,
-    "country_code": "ID",
-    "latitude": "-3.41016000",
-    "longitude": "136.70837000",
-    "native": "Kabupaten Intan Jaya",
-    "timezone": "Asia/Jayapura",
-    "translations": {},
-    "type": "regency",
-    "population": null,
-    "wikiDataId": "Q27458"
-  },
-  {
-    "id": 56399,
+    "id": 166673,
     "name": "Kigamani",
     "state_id": 5235,
     "state_code": "PT",
@@ -77,10 +64,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q138791093"
   },
   {
-    "id": 153774,
+    "id": 167608,
     "name": "Kota Mulia",
     "state_id": 5235,
     "state_code": "PT",
@@ -93,6 +81,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q31186675"
   },
   {
@@ -109,10 +98,28 @@
     "translations": {},
     "type": "adm1",
     "population": 43898,
+    "population_year": null,
     "wikiDataId": "Q24854639"
   },
   {
-    "id": 56535,
+    "id": 166691,
+    "name": "Sugapa",
+    "state_id": 5235,
+    "state_code": "PT",
+    "country_id": 102,
+    "country_code": "ID",
+    "latitude": "-3.74306000",
+    "longitude": "137.05000000",
+    "native": "Sugapa",
+    "timezone": "Asia/Jayapura",
+    "translations": {},
+    "type": "town",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": null
+  },
+  {
+    "id": 166759,
     "name": "Timika",
     "state_id": 5235,
     "state_code": "PT",
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q1026405"
   }
 ]

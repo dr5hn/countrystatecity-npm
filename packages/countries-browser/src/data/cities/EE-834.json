@@ -11,8 +11,9 @@
     "native": "Särevere",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "city",
+    "type": "town",
     "population": 1035,
+    "population_year": null,
     "wikiDataId": "Q3468713"
   },
   {
@@ -27,8 +28,26 @@
     "native": "Türi",
     "timezone": "Europe/Tallinn",
     "translations": {},
-    "type": "adm2",
+    "type": "city",
     "population": 5186,
+    "population_year": null,
     "wikiDataId": "Q141796"
+  },
+  {
+    "id": 31730,
+    "name": "Türi vald",
+    "state_id": 5791,
+    "state_code": "834",
+    "country_id": 69,
+    "country_code": "EE",
+    "latitude": "58.74143000",
+    "longitude": "25.46443000",
+    "native": "Türi vald",
+    "timezone": "Europe/Tallinn",
+    "translations": {},
+    "type": "city",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q719969"
   }
 ]

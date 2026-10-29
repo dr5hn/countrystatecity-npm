@@ -11,8 +11,9 @@
     "native": "東區",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "section",
+    "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q700818"
   },
   {
@@ -27,8 +28,9 @@
     "native": "新竹",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 455275,
+    "population_year": null,
     "wikiDataId": "Q249994"
   },
   {
@@ -43,8 +45,9 @@
     "native": "北區",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "section",
+    "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q698046"
   },
   {
@@ -59,8 +62,9 @@
     "native": "香山區",
     "timezone": "Asia/Taipei",
     "translations": {},
-    "type": "section",
+    "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q707798"
   }
 ]

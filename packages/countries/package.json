@@ -1,6 +1,6 @@
 {
   "name": "@countrystatecity/countries",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Official countries, states, and cities database with iOS/Safari support and minimal bundle size",
   "keywords": [
     "country-state-city",
@@ -49,6 +49,7 @@
     "./data/*": "./dist/data/*"
   },
   "files": [
+    "NOTICE-*.txt",
     "dist",
     "README.md",
     "CHANGELOG.md"

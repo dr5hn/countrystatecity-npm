@@ -11,8 +11,9 @@
     "native": "Aguilares",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 32494,
+    "population_year": null,
     "wikiDataId": "Q398365"
   },
   {
@@ -27,24 +28,26 @@
     "native": "Alderetes",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
-    "type": "municipality",
+    "type": "section",
     "population": 38466,
+    "population_year": null,
     "wikiDataId": "Q2456137"
   },
   {
-    "id": 870,
+    "id": 166309,
     "name": "Banda del Río Salí",
     "state_id": 3637,
     "state_code": "T",
     "country_id": 11,
     "country_code": "AR",
-    "latitude": "-26.83416996",
-    "longitude": "-65.16692452",
+    "latitude": "-26.83333333",
+    "longitude": "-65.16666667",
     "native": "Banda del Río Salí",
     "timezone": "America/Argentina/Buenos_Aires",
     "translations": {},
     "type": "municipality",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q806249"
   },
   {
@@ -59,8 +62,9 @@
     "native": "Bella Vista",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 15126,
+    "population_year": null,
     "wikiDataId": "Q815781"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2037,
+    "population_year": null,
     "wikiDataId": "Q386975"
   },
   {
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "area",
     "population": 45476,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "area",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q597806"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "locality",
     "population": 30951,
+    "population_year": null,
     "wikiDataId": "Q1395079"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Graneros",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 5263,
+    "population_year": null,
     "wikiDataId": "Q1014652"
   },
   {
@@ -155,8 +164,9 @@
     "native": "La Cocha",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7066,
+    "population_year": null,
     "wikiDataId": "Q663822"
   },
   {
@@ -171,8 +181,9 @@
     "native": "Monteros",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 23771,
+    "population_year": null,
     "wikiDataId": "Q1616963"
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "locality",
     "population": 605767,
+    "population_year": null,
     "wikiDataId": "Q44255"
   },
   {
@@ -203,8 +215,9 @@
     "native": "Simoca",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 7939,
+    "population_year": null,
     "wikiDataId": "Q367345"
   },
   {
@@ -219,8 +232,9 @@
     "native": "Tafí del Valle",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 3403,
+    "population_year": null,
     "wikiDataId": "Q948534"
   },
   {
@@ -235,8 +249,9 @@
     "native": "Tafí Viejo",
     "timezone": "America/Argentina/Tucuman",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 48459,
+    "population_year": null,
     "wikiDataId": "Q2092448"
   },
   {
@@ -253,6 +268,7 @@
     "translations": {},
     "type": "adm2",
     "population": 6658,
+    "population_year": null,
     "wikiDataId": "Q976838"
   },
   {
@@ -269,6 +285,7 @@
     "translations": {},
     "type": "adm2",
     "population": 50783,
+    "population_year": null,
     "wikiDataId": "Q1719036"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "city",
     "population": 3367,
+    "population_year": null,
     "wikiDataId": "Q1192851"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "city",
     "population": 5169,
+    "population_year": null,
     "wikiDataId": "Q279005"
   },
   {
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5775,
+    "population_year": null,
     "wikiDataId": "Q842028"
   },
   {
@@ -59,8 +62,9 @@
     "native": "Kavečany",
     "timezone": "Europe/Bratislava",
     "translations": {},
-    "type": "city",
+    "type": "section",
     "population": 1355,
+    "population_year": null,
     "wikiDataId": "Q572748"
   },
   {
@@ -77,71 +81,8 @@
     "translations": {},
     "type": "adm1",
     "population": 223678,
+    "population_year": null,
     "wikiDataId": "Q25409"
-  },
-  {
-    "id": 104410,
-    "name": "Košice I",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.72914000",
-    "longitude": "21.25004000",
-    "native": "Košice I",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 62603,
-    "wikiDataId": "Q830995"
-  },
-  {
-    "id": 104411,
-    "name": "Košice II",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.69753000",
-    "longitude": "21.22273000",
-    "native": "Košice II",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 77914,
-    "wikiDataId": "Q280424"
-  },
-  {
-    "id": 104412,
-    "name": "Košice III",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.73242000",
-    "longitude": "21.29047000",
-    "native": "Košice III",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "city",
-    "population": 27336,
-    "wikiDataId": "Q548619"
-  },
-  {
-    "id": 104413,
-    "name": "Košice IV",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.68691000",
-    "longitude": "21.26570000",
-    "native": "Košice IV",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 55825,
-    "wikiDataId": "Q650575"
   },
   {
     "id": 104416,
@@ -157,6 +98,7 @@
     "translations": {},
     "type": "city",
     "population": 8587,
+    "population_year": null,
     "wikiDataId": "Q842018"
   },
   {
@@ -173,6 +115,7 @@
     "translations": {},
     "type": "city",
     "population": 4166,
+    "population_year": null,
     "wikiDataId": "Q135727"
   },
   {
@@ -189,6 +132,7 @@
     "translations": {},
     "type": "adm2",
     "population": 35310,
+    "population_year": null,
     "wikiDataId": "Q460925"
   },
   {
@@ -205,119 +149,8 @@
     "translations": {},
     "type": "city",
     "population": 10275,
+    "population_year": null,
     "wikiDataId": "Q846440"
-  },
-  {
-    "id": 104462,
-    "name": "Okres Gelnica",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.85207000",
-    "longitude": "20.93385000",
-    "native": "Okres Gelnica",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 31787,
-    "wikiDataId": "Q220968"
-  },
-  {
-    "id": 104468,
-    "name": "Okres Kosice-okolie",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.77897000",
-    "longitude": "21.41373000",
-    "native": "Okres Kosice-okolie",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "city",
-    "population": 133321,
-    "wikiDataId": "Q539979"
-  },
-  {
-    "id": 104478,
-    "name": "Okres Michalovce",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.75000000",
-    "longitude": "21.93333000",
-    "native": "Okres Michalovce",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 107936,
-    "wikiDataId": "Q379320"
-  },
-  {
-    "id": 104494,
-    "name": "Okres Rožňava",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.66667000",
-    "longitude": "20.53333000",
-    "native": "Okres Rožňava",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 58305,
-    "wikiDataId": "Q756075"
-  },
-  {
-    "id": 104501,
-    "name": "Okres Sobrance",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.74247000",
-    "longitude": "22.18197000",
-    "native": "Okres Sobrance",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 22195,
-    "wikiDataId": "Q830991"
-  },
-  {
-    "id": 104502,
-    "name": "Okres Spišská Nová Ves",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.95000000",
-    "longitude": "20.56667000",
-    "native": "Okres Spišská Nová Ves",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 98670,
-    "wikiDataId": "Q756077"
-  },
-  {
-    "id": 104507,
-    "name": "Okres Trebišov",
-    "state_id": 4353,
-    "state_code": "KI",
-    "country_id": 200,
-    "country_code": "SK",
-    "latitude": "48.63333000",
-    "longitude": "21.71667000",
-    "native": "Okres Trebišov",
-    "timezone": "Europe/Bratislava",
-    "translations": {},
-    "type": "area",
-    "population": 102907,
-    "wikiDataId": "Q301318"
   },
   {
     "id": 104537,
@@ -333,6 +166,7 @@
     "translations": {},
     "type": "adm2",
     "population": 16857,
+    "population_year": null,
     "wikiDataId": "Q267888"
   },
   {
@@ -349,6 +183,7 @@
     "translations": {},
     "type": "city",
     "population": 8538,
+    "population_year": null,
     "wikiDataId": "Q847336"
   },
   {
@@ -365,6 +200,7 @@
     "translations": {},
     "type": "adm2",
     "population": 5789,
+    "population_year": null,
     "wikiDataId": "Q241125"
   },
   {
@@ -381,6 +217,7 @@
     "translations": {},
     "type": "adm2",
     "population": 34255,
+    "population_year": null,
     "wikiDataId": "Q462840"
   },
   {
@@ -397,6 +234,7 @@
     "translations": {},
     "type": "city",
     "population": 4166,
+    "population_year": null,
     "wikiDataId": "Q846434"
   },
   {
@@ -413,6 +251,7 @@
     "translations": {},
     "type": "adm2",
     "population": 22780,
+    "population_year": null,
     "wikiDataId": "Q256301"
   },
   {
@@ -429,6 +268,7 @@
     "translations": {},
     "type": "city",
     "population": 1608,
+    "population_year": null,
     "wikiDataId": "Q1187936"
   },
   {
@@ -445,6 +285,7 @@
     "translations": {},
     "type": "adm3",
     "population": 2767,
+    "population_year": null,
     "wikiDataId": "Q393479"
   }
 ]

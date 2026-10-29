@@ -13,6 +13,7 @@
     "translations": {},
     "type": "adm2",
     "population": 214,
+    "population_year": null,
     "wikiDataId": "Q2034360"
   },
   {
@@ -29,6 +30,7 @@
     "translations": {},
     "type": "municipality",
     "population": 1819,
+    "population_year": 2025,
     "wikiDataId": "Q2534870"
   },
   {
@@ -43,8 +45,9 @@
     "native": "Çavdarhisar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm2",
     "population": 2086,
+    "population_year": 2025,
     "wikiDataId": "Q2424690"
   },
   {
@@ -61,6 +64,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4820,
+    "population_year": 2025,
     "wikiDataId": "Q1816825"
   },
   {
@@ -77,6 +81,7 @@
     "translations": {},
     "type": "adm2",
     "population": 2999,
+    "population_year": null,
     "wikiDataId": "Q3041195"
   },
   {
@@ -93,7 +98,8 @@
     "translations": {},
     "type": "municipality",
     "population": 10690,
-    "wikiDataId": "Q1859664"
+    "population_year": 2025,
+    "wikiDataId": null
   },
   {
     "id": 107651,
@@ -109,6 +115,7 @@
     "translations": {},
     "type": "municipality",
     "population": 26253,
+    "population_year": 2025,
     "wikiDataId": "Q1958867"
   },
   {
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "municipality",
     "population": 4833,
+    "population_year": 2025,
     "wikiDataId": "Q2598459"
   },
   {
@@ -139,8 +147,9 @@
     "native": "Merkez",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "municipality",
+    "type": "adm1",
     "population": 258906,
+    "population_year": 2025,
     "wikiDataId": "Q188894"
   },
   {
@@ -155,9 +164,10 @@
     "native": "Pazarlar",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5522,
-    "wikiDataId": null
+    "population_year": null,
+    "wikiDataId": "Q2671066"
   },
   {
     "id": 108933,
@@ -168,11 +178,12 @@
     "country_code": "TR",
     "latitude": "39.02730000",
     "longitude": "29.22218000",
-    "native": "Shope",
+    "native": "Şaphane",
     "timezone": "Europe/Istanbul",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 5085,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "municipality",
     "population": 28973,
+    "population_year": 2025,
     "wikiDataId": "Q1948344"
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "municipality",
     "population": 74682,
+    "population_year": 2025,
     "wikiDataId": "Q2512452"
   }
 ]

@@ -13,6 +13,7 @@
     "translations": {},
     "type": "town",
     "population": 15959,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -29,10 +30,11 @@
     "translations": {},
     "type": "district",
     "population": 0,
+    "population_year": null,
     "wikiDataId": "Q475351"
   },
   {
-    "id": 105332,
+    "id": 166988,
     "name": "Don Phut",
     "state_id": 3487,
     "state_code": "19",
@@ -45,6 +47,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q106962672"
   },
   {
@@ -61,10 +64,11 @@
     "translations": {},
     "type": "city",
     "population": 30332,
+    "population_year": null,
     "wikiDataId": "Q15225134"
   },
   {
-    "id": 105529,
+    "id": 167076,
     "name": "Muak Lek",
     "state_id": 3487,
     "state_code": "19",
@@ -77,10 +81,11 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
-    "id": 105662,
+    "id": 167109,
     "name": "Nong Don",
     "state_id": 3487,
     "state_code": "19",
@@ -93,6 +98,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q106994867"
   },
   {
@@ -107,12 +113,13 @@
     "native": "หนองแค",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "town",
+    "type": "adm2",
     "population": 41067,
+    "population_year": null,
     "wikiDataId": "Q13025286"
   },
   {
-    "id": 105679,
+    "id": 167122,
     "name": "Nong Saeng",
     "state_id": 3487,
     "state_code": "19",
@@ -125,6 +132,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q17297862"
   },
   {
@@ -139,12 +147,13 @@
     "native": "พระพุทธบาท",
     "timezone": "Asia/Bangkok",
     "translations": {},
-    "type": "city",
+    "type": "adm2",
     "population": 57008,
+    "population_year": null,
     "wikiDataId": "Q15310499"
   },
   {
-    "id": 106193,
+    "id": 167195,
     "name": "Sao Hai",
     "state_id": 3487,
     "state_code": "19",
@@ -157,6 +166,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q13025325"
   },
   {
@@ -173,10 +183,11 @@
     "translations": {},
     "type": "city",
     "population": 61750,
+    "population_year": null,
     "wikiDataId": "Q686387"
   },
   {
-    "id": 106338,
+    "id": 167269,
     "name": "Wang Muang",
     "state_id": 3487,
     "state_code": "19",
@@ -189,6 +200,7 @@
     "translations": {},
     "type": "town",
     "population": null,
+    "population_year": null,
     "wikiDataId": null
   },
   {
@@ -205,6 +217,7 @@
     "translations": {},
     "type": "district",
     "population": null,
+    "population_year": null,
     "wikiDataId": "Q477091"
   }
 ]
