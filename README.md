@@ -14,7 +14,7 @@
 [![](https://img.shields.io/npm/dt/@countrystatecity/cli?label=cli)](https://www.npmjs.com/package/@countrystatecity/cli)
 [![](https://img.shields.io/npm/dt/@countrystatecity/sdk?label=sdk)](https://www.npmjs.com/package/@countrystatecity/sdk)
 
-Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, regions, timezones, currencies, translations, phone codes, postal codes, GeoJSON, a CLI tool, and an official REST API SDK. All data is sourced from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) and updated automatically every week.
+Monorepo for the `@countrystatecity` npm package ecosystem — countries, states, cities, regions, timezones, currencies, translations, phone codes, postal codes, GeoJSON, a CLI tool, and an official REST API SDK. Data comes from [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database). Weekly automation prepares data-update PRs; packages are released after review and verification.
 
 ---
 
@@ -28,7 +28,7 @@ Monorepo for the `@countrystatecity` npm package ecosystem — countries, states
 | [`@countrystatecity/currencies`](https://www.npmjs.com/package/@countrystatecity/currencies) | 155 ISO 4217 currencies with symbols & formatting | Node.js / Browser | <3KB |
 | [`@countrystatecity/translations`](https://www.npmjs.com/package/@countrystatecity/translations) | Country name translations in 19 languages | Node.js / Browser | <3KB |
 | [`@countrystatecity/phonecodes`](https://www.npmjs.com/package/@countrystatecity/phonecodes) | 250 country phone/dial codes with lookup, reverse lookup & formatting | Node.js / Browser | <3KB |
-| [`@countrystatecity/postalcodes`](https://www.npmjs.com/package/@countrystatecity/postalcodes) | 725,993 postal codes across 116 countries with locality search & validation | Node.js / Server | Lazy-loaded |
+| [`@countrystatecity/postalcodes`](https://www.npmjs.com/package/@countrystatecity/postalcodes) | 728,556 postal codes across 117 countries with locality search & validation | Node.js / Server | Lazy-loaded |
 | [`@countrystatecity/geojson`](https://www.npmjs.com/package/@countrystatecity/geojson) | Countries/states/cities as GeoJSON `Point` FeatureCollections (no boundary polygons) | Browser / Any | Lazy-loaded |
 | [`@countrystatecity/cli`](https://www.npmjs.com/package/@countrystatecity/cli) | CLI to search, explore, and generate code from geographic data | Terminal | – |
 | [`@countrystatecity/sdk`](https://www.npmjs.com/package/@countrystatecity/sdk) | Official client SDK for the live CountryStateCity REST API — search, usage, and quota-aware data | Node.js / Browser | – |

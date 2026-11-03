@@ -11,7 +11,7 @@
     "native": "Bartolomé Masó",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 53024,
     "population_year": null,
     "wikiDataId": "Q809538"
@@ -32,6 +32,40 @@
     "population": 235107,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174055,
+    "name": "Buey Arriba",
+    "state_id": 275,
+    "state_code": "12",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "20.17361111",
+    "longitude": "-76.74944444",
+    "native": "Buey Arriba",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1935438"
+  },
+  {
+    "id": 174054,
+    "name": "Campechuela",
+    "state_id": 275,
+    "state_code": "12",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "20.23333333",
+    "longitude": "-77.27916667",
+    "native": "Campechuela",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1332135"
   },
   {
     "id": 21827,
@@ -79,7 +113,7 @@
     "native": "Guisa",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 18408,
     "population_year": null,
     "wikiDataId": "Q1935474"
@@ -130,7 +164,7 @@
     "native": "Media Luna",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 16713,
     "population_year": null,
     "wikiDataId": "Q995690"
@@ -147,7 +181,7 @@
     "native": "Municipio de Bayamo",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q115382"
@@ -164,7 +198,7 @@
     "native": "Municipio de Manzanillo",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q115403"
@@ -181,7 +215,7 @@
     "native": "Municipio de Niquero",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q972546"
@@ -215,7 +249,7 @@
     "native": null,
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 28752,
     "population_year": null,
     "wikiDataId": "Q1935454"
@@ -232,7 +266,7 @@
     "native": "Río Cauto",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 23737,
     "population_year": null,
     "wikiDataId": "Q178931"
@@ -253,5 +287,22 @@
     "population": 28944,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174053,
+    "name": "Yara",
+    "state_id": 275,
+    "state_code": "12",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "20.27666667",
+    "longitude": "-76.94694444",
+    "native": "Yara",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q2061386"
   }
 ]

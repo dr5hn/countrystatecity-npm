@@ -17,6 +17,23 @@
     "wikiDataId": null
   },
   {
+    "id": 174009,
+    "name": "Alquízar",
+    "state_id": 283,
+    "state_code": "15",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.80666667",
+    "longitude": "-82.58277778",
+    "native": "Alquízar",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q603163"
+  },
+  {
     "id": 21807,
     "name": "Artemisa",
     "state_id": 283,
@@ -45,7 +62,7 @@
     "native": "Bahía Honda",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 19834,
     "population_year": null,
     "wikiDataId": "Q571968"
@@ -83,6 +100,40 @@
     "population": 5894,
     "population_year": null,
     "wikiDataId": "Q5737954"
+  },
+  {
+    "id": 174007,
+    "name": "Caimito",
+    "state_id": 283,
+    "state_code": "15",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.95750000",
+    "longitude": "-82.59638889",
+    "native": "Caimito",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q559793"
+  },
+  {
+    "id": 174010,
+    "name": "Candelaria",
+    "state_id": 283,
+    "state_code": "15",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.74388889",
+    "longitude": "-82.95805556",
+    "native": "Candelaria",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q603136"
   },
   {
     "id": 21828,
@@ -136,6 +187,23 @@
     "wikiDataId": null
   },
   {
+    "id": 174008,
+    "name": "Güira de Melena",
+    "state_id": 283,
+    "state_code": "15",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.80194444",
+    "longitude": "-82.50472222",
+    "native": "Güira de Melena",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q603115"
+  },
+  {
     "id": 21895,
     "name": "Mariel",
     "state_id": 283,
@@ -164,7 +232,7 @@
     "native": "Municipio de Artemisa",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q115006"
@@ -181,7 +249,7 @@
     "native": "Municipio de Bauta",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q114970"
@@ -198,7 +266,7 @@
     "native": "Municipio de Guanajay",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q114977"
@@ -215,7 +283,7 @@
     "native": "Municipio de Mariel",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q116156"
@@ -232,7 +300,7 @@
     "native": "Municipio de San Cristóbal",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q559801"
@@ -249,7 +317,7 @@
     "native": "San Antonio de los Baños",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 42724,
     "population_year": null,
     "wikiDataId": "Q114984"

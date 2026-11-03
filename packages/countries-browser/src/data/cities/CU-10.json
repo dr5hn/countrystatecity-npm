@@ -11,7 +11,7 @@
     "native": "Amancio",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 41523,
     "population_year": null,
     "wikiDataId": "Q1936063"
@@ -28,7 +28,7 @@
     "native": "Colombia",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 20096,
     "population_year": null,
     "wikiDataId": "Q2733738"
@@ -45,7 +45,7 @@
     "native": "Jesús Menéndez",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 51002,
     "population_year": null,
     "wikiDataId": "Q1332144"
@@ -62,7 +62,7 @@
     "native": "Jobabo",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 49403,
     "population_year": null,
     "wikiDataId": "Q600105"
@@ -79,10 +79,27 @@
     "native": "Las Tunas",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 202105,
     "population_year": null,
     "wikiDataId": "Q115527"
+  },
+  {
+    "id": 174047,
+    "name": "Majibacoa",
+    "state_id": 281,
+    "state_code": "10",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "20.91722222",
+    "longitude": "-76.87638889",
+    "native": "Majibacoa",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1332168"
   },
   {
     "id": 21890,
@@ -96,7 +113,7 @@
     "native": "Manatí",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 13278,
     "population_year": null,
     "wikiDataId": "Q2234381"
@@ -117,5 +134,22 @@
     "population": 76838,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174046,
+    "name": "Puerto Padre",
+    "state_id": 281,
+    "state_code": "10",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "21.19500000",
+    "longitude": "-76.60166667",
+    "native": "Puerto Padre",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1938772"
   }
 ]

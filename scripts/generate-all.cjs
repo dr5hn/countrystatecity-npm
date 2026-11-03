@@ -21,6 +21,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { joinCityFields } = require('./lib/join-city-fields.cjs');
+const { joinStateFields } = require('./lib/state-source.cjs');
 const { validateData } = require('./lib/validate-data.cjs');
 const { readManifest, writeManifest, sha256File } = require('./lib/manifest.cjs');
 const { buildManifest } = require('./lib/build-manifest.cjs');
@@ -29,6 +30,7 @@ const { buildDataVersion } = require('./lib/build-data-version.cjs');
 const ROOT = path.join(__dirname, '..');
 const SOURCE_FILE = path.join(ROOT, 'data', 'source.json');
 const CITIES_FULL_FILE = path.join(ROOT, 'data', 'cities-full.json');
+const STATES_FULL_FILE = path.join(ROOT, 'data', 'states-full.json');
 const TRANSLATIONS_FILE = path.join(ROOT, 'data', 'translations.csv');
 const RELEASE_FILE = path.join(ROOT, 'data', 'release.json');
 const ENRICHED_FILE = path.join(ROOT, 'data', 'source.enriched.json');
@@ -116,11 +118,12 @@ async function main() {
   if (
     !fs.existsSync(SOURCE_FILE) ||
     !fs.existsSync(CITIES_FULL_FILE) ||
+    !fs.existsSync(STATES_FULL_FILE) ||
     !fs.existsSync(TRANSLATIONS_FILE) ||
     !fs.existsSync(RELEASE_FILE)
   ) {
     console.error(
-      '❌ Required source files not found (data/source.json, data/cities-full.json, data/translations.csv, data/release.json).',
+      '❌ Required source files not found (source.json, cities-full.json, states-full.json, translations.csv, release.json in data/).',
     );
     console.error('   Run: pnpm fetch-database\n');
     process.exit(1);
@@ -130,6 +133,7 @@ async function main() {
   const releaseErrors = verifyReleaseFiles(release, {
     combined: SOURCE_FILE,
     'cities-full': CITIES_FULL_FILE,
+    'states-full': STATES_FULL_FILE,
     translations: TRANSLATIONS_FILE,
     ...(fs.existsSync(POSTCODES_SOURCE_FILE) ? { postcodes: POSTCODES_SOURCE_FILE } : {}),
     ...Object.fromEntries((release.files ?? []).filter(file => file.role === 'notice')
@@ -145,6 +149,8 @@ async function main() {
   // ── Step 0: join + validate ─────────────────────────────────────────────
   console.log('🧬 Joining full city fields into the source dataset...');
   const countries = JSON.parse(fs.readFileSync(SOURCE_FILE, 'utf-8'));
+  const stateStats = joinStateFields(countries, JSON.parse(fs.readFileSync(STATES_FULL_FILE, 'utf8')));
+  console.log(`✓ Matched all ${stateStats.totalStates} states; ${stateStats.withFips} have FIPS values`);
   const fullCityRecords = JSON.parse(fs.readFileSync(CITIES_FULL_FILE, 'utf-8'));
   const joinStats = joinCityFields(countries, fullCityRecords);
   if (joinStats.unmatched || joinStats.totalCities !== fullCityRecords.length) {

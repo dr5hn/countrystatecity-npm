@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.1
+
+### Patch Changes
+
+- Refresh data and source notices from the verified v5.2.0-export.1 snapshot.
+- Preserve all 4,633 available state FIPS values, including leading zeroes.
+
+
 ## 3.0.0
 
 ### Breaking changes

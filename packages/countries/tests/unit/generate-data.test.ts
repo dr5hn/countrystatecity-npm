@@ -39,6 +39,7 @@ const BASE_COUNTRY = {
       id: 10,
       name: 'Test State',
       iso2: 'TS',
+      fips_code: '01' as string | null,
       cities: [
         {
           id: 100,
@@ -70,6 +71,16 @@ function readCities(outputDir: string): Array<Record<string, unknown>> {
 }
 
 describe('generateSplitData — city field mapping', () => {
+  it('preserves state FIPS strings and leaves unavailable values null', () => {
+    for (const value of ['01', null]) {
+      const country = structuredClone(BASE_COUNTRY);
+      country.states[0].fips_code = value;
+      const { sourceFile, outputDir } = writeFixture([country]);
+      generateSplitData(sourceFile, outputDir);
+      const states = JSON.parse(readFileSync(join(outputDir, 'src/data/Testland-TL/states.json'), 'utf8'));
+      expect(states[0].fips_code).toBe(value);
+    }
+  });
   it('keeps a country with no states and its cities without fabricating a state', () => {
     const { sourceFile, outputDir } = writeFixture([{
       id: 1, name: 'Testland', iso2: 'TL', states: [],

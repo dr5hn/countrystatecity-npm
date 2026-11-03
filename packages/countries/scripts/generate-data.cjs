@@ -96,7 +96,7 @@ function generateSplitData(sourceFile, outputDir) {
       name: state.name,
       country_id: country.id,
       country_code: country.iso2,
-      fips_code: null, // Not in source data
+      fips_code: state.fips_code ?? null,
       iso2: state.iso2,
       iso3166_2: state.iso3166_2 || null,
       type: state.type,
