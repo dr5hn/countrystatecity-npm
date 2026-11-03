@@ -1,0 +1,6 @@
+# Enable required code-owner reviews in the repository rules to enforce these owners.
+/.github/ @dr5hn
+/pnpm-workspace.yaml @dr5hn
+/pnpm-lock.yaml @dr5hn
+**/package.json @dr5hn
+/scripts/ @dr5hn

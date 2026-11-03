@@ -36,9 +36,9 @@ async function main() {
   const release = await resolveRelease(usePinnedRelease);
   console.log(`✓ Pinned to release ${release.tag} (published ${release.publishedAt})\n`);
 
-  const { url } = requireAsset(release, ASSET_NAME);
+  const { url, digest } = requireAsset(release, ASSET_NAME);
   console.log(`📥 Downloading ${ASSET_NAME}...`);
-  const result = await downloadGzipAsset({ url, destPath: DEST_PATH });
+  const result = await downloadGzipAsset({ url, digest, destPath: DEST_PATH });
   if (usePinnedRelease) {
     const pinned = JSON.parse(fs.readFileSync(RELEASE_FILE, 'utf8'));
     if (pinned.tag !== release.tag) throw new Error('Pinned release changed during postcode fetch');

@@ -13,34 +13,38 @@ on:
         type: string
         required: false
 
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-release-versions
+  cancel-in-progress: false
+
 jobs:
   release:
     name: Bump Versions & Update Changelogs
     if: >-
-      github.event_name == 'workflow_dispatch' ||
-      (github.event.pull_request.merged == true &&
-       contains(github.event.pull_request.labels.*.name, 'data-update'))
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'workflow_dispatch' ||
+       (github.event.pull_request.merged == true &&
+        contains(github.event.pull_request.labels.*.name, 'data-update')))
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: read
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
+          persist-credentials: false
           ref: main
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: pnpm/action-setup@v6
-
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
-          node-version: '20'
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+          node-version: '26.12.1'
+          package-manager-cache: false
 
       - name: Verify dispatched data PR
         id: target
@@ -137,12 +141,15 @@ jobs:
 
       - name: Commit and push
         if: steps.scope.outputs.packages != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add packages/*/package.json packages/*/CHANGELOG.md
           if ! git diff --cached --quiet; then
             git commit -m "chore: release packages"
+            gh auth setup-git
             git push
           else
             echo "PR already contains the release versions and changelogs."
@@ -151,3 +158,17 @@ jobs:
       - name: Nothing to release
         if: steps.scope.outputs.packages == ''
         run: echo "Merged PR contained no package data changes — no versions bumped."
+
+      - name: Record exact release commit
+        env:
+          PACKAGES: ${{ steps.scope.outputs.packages }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/release-commit"
+          git rev-parse HEAD > "$RUNNER_TEMP/release-commit/release-commit.txt"
+          printf '%s' "$PACKAGES" > "$RUNNER_TEMP/release-commit/packages.txt"
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: release-commit
+          path: ${{ runner.temp }}/release-commit
+          retention-days: 7
