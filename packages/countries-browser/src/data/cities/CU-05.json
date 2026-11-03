@@ -11,7 +11,7 @@
     "native": "Caibarién",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 38479,
     "population_year": null,
     "wikiDataId": "Q289328"
@@ -45,7 +45,7 @@
     "native": "Camajuaní",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "locality",
+    "type": "municipality",
     "population": 35515,
     "population_year": null,
     "wikiDataId": "Q280628"
@@ -68,6 +68,23 @@
     "wikiDataId": null
   },
   {
+    "id": 174029,
+    "name": "Cifuentes",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.62083333",
+    "longitude": "-80.06611111",
+    "native": "Cifuentes",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q2245934"
+  },
+  {
     "id": 21842,
     "name": "Corralillo",
     "state_id": 280,
@@ -83,6 +100,23 @@
     "population": 51881,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174025,
+    "name": "Corralillo",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.98555556",
+    "longitude": "-80.58305556",
+    "native": "Corralillo",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q2573424"
   },
   {
     "id": 21850,
@@ -147,7 +181,7 @@
     "native": "Manicaragua",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 41532,
     "population_year": null,
     "wikiDataId": "Q2573328"
@@ -164,7 +198,7 @@
     "native": "Municipio de los Pacetas",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q861701"
@@ -181,7 +215,7 @@
     "native": "Municipio de Santa Clara",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm1",
+    "type": "municipality",
     "population": 250512,
     "population_year": null,
     "wikiDataId": "Q211590"
@@ -221,6 +255,23 @@
     "wikiDataId": null
   },
   {
+    "id": 174026,
+    "name": "Quemado de Güines",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.79000000",
+    "longitude": "-80.25611111",
+    "native": "Quemado de Güines",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q5006"
+  },
+  {
     "id": 21950,
     "name": "Rancho Veloz",
     "state_id": 280,
@@ -255,6 +306,40 @@
     "wikiDataId": null
   },
   {
+    "id": 174031,
+    "name": "Ranchuelo",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.33583333",
+    "longitude": "-80.11305556",
+    "native": "Ranchuelo",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q5003"
+  },
+  {
+    "id": 174028,
+    "name": "Remedios",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.49222222",
+    "longitude": "-79.54583333",
+    "native": "Remedios",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q280795"
+  },
+  {
     "id": 21957,
     "name": "Sagua la Grande",
     "state_id": 280,
@@ -269,7 +354,24 @@
     "type": "adm2",
     "population": 62073,
     "population_year": null,
-    "wikiDataId": "Q281213"
+    "wikiDataId": null
+  },
+  {
+    "id": 174027,
+    "name": "Sagua la Grande",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.80861111",
+    "longitude": "-80.07111111",
+    "native": "Sagua la Grande",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q5030"
   },
   {
     "id": 21969,
@@ -304,5 +406,22 @@
     "population": 45476,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174030,
+    "name": "Santo Domingo",
+    "state_id": 280,
+    "state_code": "05",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.58333333",
+    "longitude": "-80.23833333",
+    "native": "Santo Domingo",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q765438"
   }
 ]

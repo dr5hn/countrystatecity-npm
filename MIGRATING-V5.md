@@ -1,9 +1,13 @@
 # Updating packages to upstream v5 data
 
-The offline packages now use the exact snapshot `v5.0.0-export.1`.
-`countries`, `countries-browser`, `geojson`, and `postalcodes` move to package
-version 3.0.0 because upstream removes or repairs stored IDs and allows cities
-without a state. The live API clients still use the API's data version.
+This update targets the exact snapshot `v5.2.0-export.1`. The live API clients
+still use the API's data version; this update does not change the API or SDK.
+
+## Moving from a package older than 3.0.0
+
+Version 3.0.0 of `countries`, `countries-browser`, `geojson`, and `postalcodes`
+introduced v5 data because upstream removed or repaired stored IDs and allowed
+cities without a state. These migration rules still apply:
 
 - Back up stored IDs before updating. Follow the upstream
   [v5 migration instructions](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0).
@@ -18,17 +22,28 @@ without a state. The live API clients still use the API's data version.
 - These packages still project only their documented fields. They do not expose
   counties, county-region relations, city hierarchy levels, or local type labels.
 
-## The 1 November refresh
+## November update
 
-The upstream v5.1.0 cut is planned for 31 October / 1 November 2026. It corrects
-existing populations, types, time zones, Wikidata values, coordinates and hierarchy
-links; it does not change IDs according to the draft release notes. The package
-pipeline must fetch the published export, not unreleased master data. Its normal
-Sunday refresh runs on 1 November at 00:00 UTC (05:30 India time). If the export is
-published later, date-limited follow-ups dispatch the same checked pipeline at
-06:00 and 12:00 UTC (11:30 and 17:30 India time). Those runs may merge and release
-only a published `v5.1.0-export.N` on 1 November 2026, after all checks pass.
-Review the resulting
-manifest, changed IDs, country-level cities, postal counts, and notices before
-merging the next data PR. The corrected pipeline retains population reference
-years and includes all cities in its full-file coverage check.
+The v5.1.0 export was published on 2 November, after the date-limited 1 November
+automation. Its release gate correctly held the old snapshot instead of
+publishing it as the new export. This update uses the newer published
+[v5.2.0-export.1](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.2.0-export.1),
+released on 3 November.
+
+- 250 countries, 5,327 states, 156,169 cities, and 728,556 postal records.
+- Compared with the previous npm snapshot: 3,791 additional cities, with no city
+  IDs removed, and 2,563 additional postal records. Postal data covers 117 countries.
+- All three cities without a state remain available.
+- The existing state `fips_code` field now preserves all 4,633 available values,
+  including leading zeroes. Missing values remain null. The full state source is
+  fetched from the export tag's exact Git commit, verified against its Git blob
+  checksum, and recorded in the data manifest with its SHA-256 checksum.
+- Some added city records are municipalities or other administrative areas, not
+  settlement-only choices. Keep the original `type`; do not add a municipality's
+  population to the populations of its towns.
+- The [source release notes](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.2.0)
+  describe additions and corrections. Counties, full translations, and hierarchy
+  fields remain outside the offline package projection.
+
+Publication must pass the [security release gates](./SECURITY.md), including npm
+trusted-publisher configuration. No stored-token fallback is allowed.

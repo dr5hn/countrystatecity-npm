@@ -68,6 +68,23 @@
     "wikiDataId": "Q1709140"
   },
   {
+    "id": 170006,
+    "name": "Bacalar",
+    "state_id": 3467,
+    "state_code": "ROO",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "18.91666667",
+    "longitude": "-88.35000000",
+    "native": "Bacalar",
+    "timezone": "America/Cancun",
+    "translations": {},
+    "type": "municipality",
+    "population": 41754,
+    "population_year": 2020,
+    "wikiDataId": "Q1709178"
+  },
+  {
     "id": 68602,
     "name": "Benito Juárez",
     "state_id": 3467,
@@ -353,8 +370,25 @@
     "translations": {},
     "type": "locality",
     "population": 30754,
-    "population_year": null,
+    "population_year": 2020,
     "wikiDataId": "Q1403187"
+  },
+  {
+    "id": 170003,
+    "name": "Felipe Carrillo Puerto",
+    "state_id": 3467,
+    "state_code": "ROO",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.73333333",
+    "longitude": "-88.05000000",
+    "native": "Felipe Carrillo Puerto",
+    "timezone": "America/Cancun",
+    "translations": {},
+    "type": "municipality",
+    "population": 83990,
+    "population_year": 2020,
+    "wikiDataId": "Q1660454"
   },
   {
     "id": 70749,
@@ -442,6 +476,23 @@
     "wikiDataId": "Q20238448"
   },
   {
+    "id": 170004,
+    "name": "Isla Mujeres",
+    "state_id": 3467,
+    "state_code": "ROO",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "21.40000000",
+    "longitude": "-86.91666667",
+    "native": "Isla Mujeres",
+    "timezone": "America/Cancun",
+    "translations": {},
+    "type": "municipality",
+    "population": 22686,
+    "population_year": 2020,
+    "wikiDataId": "Q927815"
+  },
+  {
     "id": 71015,
     "name": "Javier Rojo Gómez",
     "state_id": 3467,
@@ -474,6 +525,23 @@
     "population": 13332,
     "population_year": 2020,
     "wikiDataId": "Q284406"
+  },
+  {
+    "id": 170005,
+    "name": "José María Morelos",
+    "state_id": 3467,
+    "state_code": "ROO",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "19.70000000",
+    "longitude": "-88.83333333",
+    "native": "José María Morelos",
+    "timezone": "America/Cancun",
+    "translations": {},
+    "type": "municipality",
+    "population": 39165,
+    "population_year": 2020,
+    "wikiDataId": "Q285499"
   },
   {
     "id": 71086,
@@ -540,7 +608,7 @@
     "translations": {},
     "type": "locality",
     "population": 8135,
-    "population_year": null,
+    "population_year": 2020,
     "wikiDataId": "Q1709319"
   },
   {
@@ -608,7 +676,7 @@
     "translations": {},
     "type": "locality",
     "population": 7028,
-    "population_year": null,
+    "population_year": 2020,
     "wikiDataId": "Q4258726"
   },
   {
@@ -797,6 +865,23 @@
     "population": 22878,
     "population_year": 2020,
     "wikiDataId": "Q961647"
+  },
+  {
+    "id": 170007,
+    "name": "Puerto Morelos",
+    "state_id": 3467,
+    "state_code": "ROO",
+    "country_id": 142,
+    "country_code": "MX",
+    "latitude": "20.91666667",
+    "longitude": "-87.10000000",
+    "native": "Puerto Morelos",
+    "timezone": "America/Cancun",
+    "translations": {},
+    "type": "municipality",
+    "population": 26921,
+    "population_year": 2020,
+    "wikiDataId": "Q21451666"
   },
   {
     "id": 73188,
@@ -1083,8 +1168,8 @@
     "timezone": "America/Cancun",
     "translations": {},
     "type": "locality",
-    "population": 2653,
-    "population_year": null,
+    "population": 6668,
+    "population_year": 2020,
     "wikiDataId": "Q20295609"
   }
 ]

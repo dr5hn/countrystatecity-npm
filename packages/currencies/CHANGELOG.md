@@ -1,5 +1,12 @@
 # @countrystatecity/currencies
 
+## 2.0.2
+
+### Patch Changes
+
+- Refresh data and source notices from the verified v5.2.0-export.1 snapshot.
+
+
 ## 2.0.1
 
 ### Changes

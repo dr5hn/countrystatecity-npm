@@ -1,5 +1,12 @@
 # @countrystatecity/translations
 
+## 1.0.7
+
+### Patch Changes
+
+- Refresh data and source notices from the verified v5.2.0-export.1 snapshot.
+
+
 ## 1.0.6
 
 ### Changes

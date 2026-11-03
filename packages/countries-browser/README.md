@@ -11,7 +11,7 @@ Browser-native countries, states, and cities data with jsDelivr CDN and lazy loa
 
 ## Upgrading to 3.0.0
 
-This version uses **v5.0.0-export.1**. Review the [upstream v5 migration notes](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0) before updating stored IDs: some records were retired or had their identities repaired. City state links can now be null. Country-wide city loaders include these records. Preserve the supplied `NOTICE-*.txt` files with redistributed data. See the [package migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/MIGRATING-V5.md).
+This version uses **v5.2.0-export.1**. Review the [upstream v5 migration notes](https://github.com/dr5hn/countries-states-cities-database/releases/tag/v5.0.0) before updating stored IDs: some records were retired or had their identities repaired. City state links can now be null. Country-wide city loaders include these records. Preserve the supplied `NOTICE-*.txt` files with redistributed data. See the [package migration guide](https://github.com/dr5hn/countrystatecity-npm/blob/main/MIGRATING-V5.md).
 
 ## Earlier migration: 2.0.0
 

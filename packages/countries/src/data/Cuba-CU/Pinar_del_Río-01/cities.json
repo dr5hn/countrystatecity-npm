@@ -68,6 +68,23 @@
     "wikiDataId": "Q23793608"
   },
   {
+    "id": 174002,
+    "name": "Mantua",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.29083333",
+    "longitude": "-84.28750000",
+    "native": "Mantua",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q2213002"
+  },
+  {
     "id": 21900,
     "name": "Minas de Matahambre",
     "state_id": 277,
@@ -96,7 +113,7 @@
     "native": "Municipio de Consolación del Sur",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q1127452"
@@ -113,7 +130,7 @@
     "native": "Municipio de Guane",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "city",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q535537"
@@ -130,7 +147,7 @@
     "native": "Municipio de La Palma",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": null,
     "population_year": null,
     "wikiDataId": "Q2234325"
@@ -147,7 +164,7 @@
     "native": "Municipio de Los Palacios",
     "timezone": "America/Havana",
     "translations": {},
-    "type": "adm2",
+    "type": "municipality",
     "population": 25703,
     "population_year": null,
     "wikiDataId": "Q1870561"
@@ -168,6 +185,23 @@
     "population": 188614,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174004,
+    "name": "Pinar del Río",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.41222222",
+    "longitude": "-83.67194444",
+    "native": "Pinar del Río",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q244139"
   },
   {
     "id": 21946,
@@ -204,6 +238,23 @@
     "wikiDataId": "Q23789756"
   },
   {
+    "id": 174006,
+    "name": "San Juan y Martínez",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.26666667",
+    "longitude": "-83.83333333",
+    "native": "San Juan y Martínez",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1716152"
+  },
+  {
     "id": 21965,
     "name": "San Luis",
     "state_id": 277,
@@ -218,7 +269,41 @@
     "type": "adm2",
     "population": 6690,
     "population_year": null,
-    "wikiDataId": "Q555956"
+    "wikiDataId": null
+  },
+  {
+    "id": 174005,
+    "name": "San Luis",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.28277778",
+    "longitude": "-83.76805556",
+    "native": "San Luis",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1817531"
+  },
+  {
+    "id": 174001,
+    "name": "Sandino",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.08150411",
+    "longitude": "-84.20402531",
+    "native": "Sandino",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q567769"
   },
   {
     "id": 21983,
@@ -236,5 +321,22 @@
     "population": 27129,
     "population_year": null,
     "wikiDataId": null
+  },
+  {
+    "id": 174003,
+    "name": "Viñales",
+    "state_id": 277,
+    "state_code": "01",
+    "country_id": 56,
+    "country_code": "CU",
+    "latitude": "22.61527778",
+    "longitude": "-83.71583333",
+    "native": "Viñales",
+    "timezone": "America/Havana",
+    "translations": {},
+    "type": "municipality",
+    "population": null,
+    "population_year": null,
+    "wikiDataId": "Q1180693"
   }
 ]

@@ -1,5 +1,12 @@
 # @countrystatecity/geojson
 
+## 3.0.1
+
+### Patch Changes
+
+- Refresh data and source notices from the verified v5.2.0-export.1 snapshot.
+
+
 ## 3.0.0
 
 ### Breaking changes
