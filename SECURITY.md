@@ -39,6 +39,8 @@ Enable Dependabot alerts and security updates in GitHub. Add repository rules re
 
 Stop the release and investigate the exact version, source, and failure. Do not bypass signature checks, use an unpinned action, run an unknown install script, or switch back to a stored publishing token.
 
-If publication succeeds but registry verification times out, inspect npm first. The version may already exist. Never blindly bump or republish it. For a bad published version, keep users on the last known-good release and prepare a reviewed correction; published versions cannot be overwritten.
+Accepted uploads can remain unavailable while npm processes them. Uploads are submitted once, then checked together within a 15-minute verification window. No GitHub release is announced until all new uploads pass integrity and provenance checks.
+
+If publication succeeds but registry verification times out, inspect npm first. The version may already exist or still be processing. Never blindly bump or republish it. For a bad published version, keep users on the last known-good release and prepare a reviewed correction; published versions cannot be overwritten.
 
 Reference guidance: [npm trusted publishing](https://docs.npmjs.com/trusted-publishers/), [GitHub Actions security](https://docs.github.com/en/actions/reference/security/secure-use), and [pnpm dependency security settings](https://pnpm.io/settings/dependency-resolution).

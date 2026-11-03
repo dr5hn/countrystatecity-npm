@@ -1,5 +1,6 @@
 /** Exercise the publish gate without contacting GitHub or publishing anything. */
 const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
 const { spawnSync } = require('node:child_process');
 const fs = require('node:fs');
 const os = require('node:os');
@@ -67,14 +68,19 @@ test('manual dispatch pins and validates the requested main commit', (t) => {
 });
 
 /** Run the actual publishing step with fake registry and npm clients. */
-function publish(t, http, npmStatus = 0, replacementHttp = http) {
+function publish(t, http, npmStatus = 0, replacementHttp = http, { queueAll = false, deadline = 900, validIntegrity = false } = {}) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'npm-publisher-'));
   t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
   const executable = (name, content) => fs.writeFileSync(path.join(dir, name), `#!/bin/sh\n${content}\n`, { mode: 0o755 });
   executable('sha256sum', 'exit 0'); // Digest enforcement is also exercised on real archives separately.
-  executable('gh', 'exit 0');
-  executable('curl', `if [ -f "$TEST_DIR/request" ]; then printf '%s' "$MOCK_NEXT_HTTP"; else touch "$TEST_DIR/request"; printf '%s' "$MOCK_HTTP"; fi
-printf '%s' '{"dist":{"integrity":"sha512-tampered","attestations":{"url":"https://registry.npmjs.org/attestations"}}}' > metadata.json`);
+  executable('gh', 'case "$*" in "release view"*) exit 1 ;; "release create"*) printf "%s\\n" "$*" >> "$TEST_DIR/releases" ;; esac');
+  executable('curl', `COUNT=0
+if [ -f "$TEST_DIR/request" ]; then COUNT=$(cat "$TEST_DIR/request"); fi
+COUNT=$((COUNT + 1)); printf '%s' "$COUNT" > "$TEST_DIR/request"
+if [ "$MOCK_QUEUE_ALL" = true ] && [ "$COUNT" -le 10 ]; then printf '%s' 404
+elif [ "$COUNT" = 1 ]; then printf '%s' "$MOCK_HTTP"
+else printf '%s' "$MOCK_NEXT_HTTP"; fi
+printf '{"dist":{"integrity":"%s","attestations":{"url":"https://registry.npmjs.org/attestations"}}}' "$MOCK_INTEGRITY" > metadata.json`);
   executable('npm', 'printf "%s\\n" "$*" >> "$TEST_DIR/npm-calls"\nexit "$MOCK_NPM_STATUS"');
   const sha = 'a'.repeat(40);
   fs.writeFileSync(path.join(dir, 'source-sha.txt'), sha);
@@ -83,14 +89,17 @@ printf '%s' '{"dist":{"integrity":"sha512-tampered","attestations":{"url":"https
     fs.writeFileSync(path.join(dir, `countrystatecity-${pkg}-1.0.0.tgz`), 'test archive');
   }
   const script = workflow.split('      - name: Verify and publish\n')[1]
-    .split('        run: |\n')[1].replace(/^          /gm, '');
+    .split('        run: |\n')[1].replace(/^          /gm, '')
+    .replace('SECONDS + 900', `SECONDS + ${deadline}`);
   const result = spawnSync('bash', ['-e', '-o', 'pipefail', '-c', script], {
     cwd: dir, encoding: 'utf8',
     env: { ...process.env, PATH: `${dir}:${process.env.PATH}`, TEST_DIR: dir,
       GITHUB_SHA: sha, EXPECTED_COMMIT: sha, GITHUB_REPOSITORY: 'test/repo',
-      MOCK_HTTP: http, MOCK_NEXT_HTTP: replacementHttp, MOCK_NPM_STATUS: String(npmStatus) },
+      MOCK_HTTP: http, MOCK_NEXT_HTTP: replacementHttp, MOCK_NPM_STATUS: String(npmStatus), MOCK_QUEUE_ALL: String(queueAll),
+      MOCK_INTEGRITY: validIntegrity ? `sha512-${crypto.createHash('sha512').update('test archive').digest('base64')}` : 'sha512-tampered' },
   });
-  return { ...result, calls: fs.existsSync(path.join(dir, 'npm-calls')) ? fs.readFileSync(path.join(dir, 'npm-calls'), 'utf8') : '' };
+  return { ...result, calls: fs.existsSync(path.join(dir, 'npm-calls')) ? fs.readFileSync(path.join(dir, 'npm-calls'), 'utf8') : '',
+    releases: fs.existsSync(path.join(dir, 'releases')) ? fs.readFileSync(path.join(dir, 'releases'), 'utf8') : '' };
 }
 
 test('registry errors never trigger publishing and existing versions are skipped', t => {
@@ -102,6 +111,29 @@ test('registry errors never trigger publishing and existing versions are skipped
   const result = publish(t, '200');
   assert.equal(result.status, 0, result.stderr);
   assert.equal(result.calls, '');
+  assert.equal(result.releases, '');
+});
+
+test('queues uploads before waiting for processing, but never succeeds with mismatched bytes', t => {
+  const result = publish(t, '404', 0, '200', { queueAll: true });
+  assert.notEqual(result.status, 0);
+  assert.equal(result.calls.split('\n').filter(Boolean).length, 10);
+  assert.equal(result.releases, '');
+});
+
+test('processing timeout fails closed without retrying accepted uploads', t => {
+  const result = publish(t, '404', 0, '404', { queueAll: true, deadline: 0 });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stdout, /Publication not yet visible; inspect before retrying/);
+  assert.equal(result.calls.split('\n').filter(Boolean).length, 10);
+  assert.equal(result.releases, '');
+});
+
+test('announces releases only after all accepted uploads pass integrity and provenance checks', t => {
+  const result = publish(t, '404', 0, '200', { queueAll: true, validIntegrity: true });
+  assert.equal(result.status, 0, result.stderr);
+  assert.equal(result.calls.split('\n').filter(Boolean).length, 10);
+  assert.equal(result.releases.split('\n').filter(Boolean).length, 10);
 });
 
 test('OIDC failure stops without fallback, and a mismatched published archive fails verification', t => {
