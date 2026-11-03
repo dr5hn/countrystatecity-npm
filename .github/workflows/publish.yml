@@ -6,20 +6,29 @@ on:
     types: [completed]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-publish
+  cancel-in-progress: false
+
 jobs:
   verify-release:
     name: Verify release job succeeded
     if: >-
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     permissions:
       actions: read
+      contents: read
     outputs:
       proceed: ${{ steps.check.outputs.proceed }}
+      commit: ${{ steps.check.outputs.commit }}
     steps:
-      # A workflow with a skipped release job can still conclude successfully.
-      # Fail closed: only an actual successful release job may auto-publish.
+      # Record the post-bump commit, never a moving main or a PR head.
       - name: Check release job
         id: check
         env:
@@ -28,91 +37,128 @@ jobs:
           RELEASE_RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            COMMIT="$GITHUB_SHA"
           else
             CONCLUSION=$(gh api --paginate "/repos/$GITHUB_REPOSITORY/actions/runs/$RELEASE_RUN_ID/jobs?per_page=100" \
               --jq '.jobs[] | select(.name == "Bump Versions & Update Changelogs") | .conclusion')
-            if [ "$CONCLUSION" = "success" ]; then
-              echo "proceed=true" >> "$GITHUB_OUTPUT"
-            else
+            if [ "$CONCLUSION" != "success" ]; then
               echo "proceed=false" >> "$GITHUB_OUTPUT"
+              exit 0
             fi
+            gh run download "$RELEASE_RUN_ID" --repo "$GITHUB_REPOSITORY" --name release-commit --dir "$RUNNER_TEMP/release-commit"
+            if [ ! -s "$RUNNER_TEMP/release-commit/packages.txt" ]; then
+              echo "proceed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            COMMIT=$(cat "$RUNNER_TEMP/release-commit/release-commit.txt")
           fi
+          [[ "$COMMIT" =~ ^[0-9a-f]{40}$ ]] || exit 1
+          # npm provenance uses this workflow's GITHUB_SHA. Refuse a race with
+          # a newer main commit rather than attest to the wrong source.
+          [ "$COMMIT" = "$GITHUB_SHA" ] || { echo "Main moved; review and dispatch a fresh release."; exit 1; }
+          STATUS=$(gh api "repos/$GITHUB_REPOSITORY/compare/$COMMIT...main" --jq .status)
+          [[ "$STATUS" = 'identical' || "$STATUS" = 'ahead' ]] || exit 1
+          echo "commit=$COMMIT" >> "$GITHUB_OUTPUT"
+          echo "proceed=true" >> "$GITHUB_OUTPUT"
 
-  publish:
-    name: Publish Packages to npm
+  build:
+    name: Build and verify release archives
     needs: verify-release
     if: needs.verify-release.outputs.proceed == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # No write token, npm credential, or OIDC permission in this job.
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          ref: ${{ needs.verify-release.outputs.commit }}
+      - uses: pnpm/action-setup@0977fd99725f1db4007ccb2928dbb4e90d06cc86 # v6
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '26.12.1'
+          package-manager-cache: false
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm audit --audit-level moderate
+      - run: pnpm audit signatures
+      - run: pnpm lint && pnpm typecheck && pnpm build && pnpm test
+      - name: Pack and verify package contents
+        env:
+          ARCHIVES: ${{ runner.temp }}/release-packages
+        run: |
+          mkdir -p "$ARCHIVES"
+          for pkg in countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk; do
+            pnpm --dir "packages/$pkg" --config.ignoreScripts=true pack --pack-destination "$ARCHIVES"
+            VERSION=$(node -p "require('./packages/$pkg/package.json').version")
+            node scripts/verify-package.cjs "$ARCHIVES/countrystatecity-$pkg-$VERSION.tgz" "$pkg" "$VERSION"
+          done
+          git rev-parse HEAD > "$ARCHIVES/source-sha.txt"
+          cd "$ARCHIVES"
+          sha256sum ./*.tgz > SHA256SUMS
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: release-packages
+          path: ${{ runner.temp }}/release-packages
+          retention-days: 7
+          if-no-files-found: error
+
+  publish:
+    name: Publish verified archives with npm OIDC
+    needs: [verify-release, build]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
       id-token: write
-
+    environment: npm-publish
     steps:
-      - uses: actions/checkout@v7
+      # No checkout, dependencies, build, or package lifecycle scripts.
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
-          fetch-depth: 0
-
-      - uses: pnpm/action-setup@v6
-
-      - uses: actions/setup-node@v7
+          node-version: '26.12.1'
+          package-manager-cache: false
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
         with:
-          node-version: '20'
-          cache: pnpm
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build all packages
-        run: pnpm turbo run build
-
-      - name: Publish each package
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          for pkg in countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk; do
-            NAME=$(node -p "require('./packages/$pkg/package.json').name")
-            VERSION=$(node -p "require('./packages/$pkg/package.json').version")
-
-            echo "── $NAME@$VERSION ──"
-
-            # Check if already published on npm
-            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "https://registry.npmjs.org/$NAME/$VERSION")
-
-            if [ "$HTTP" = "200" ]; then
-              echo "✓ $NAME@$VERSION already on npm — skipping"
-            else
-              echo "↑ Publishing $NAME@$VERSION..."
-              cd packages/$pkg
-              pnpm publish --no-git-checks --access public
-              cd ../..
-              echo "✓ $NAME@$VERSION published"
-            fi
-          done
-
-      - name: Create GitHub Releases
+          name: release-packages
+          path: release-packages
+      - name: Verify and publish
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECTED_COMMIT: ${{ needs.verify-release.outputs.commit }}
+        working-directory: release-packages
         run: |
+          [ "$(cat source-sha.txt)" = "$EXPECTED_COMMIT" ] || exit 1
+          [ "$GITHUB_SHA" = "$EXPECTED_COMMIT" ] || exit 1
+          sha256sum --strict --check SHA256SUMS
           for pkg in countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk; do
-            NAME=$(node -p "require('./packages/$pkg/package.json').name")
-            VERSION=$(node -p "require('./packages/$pkg/package.json').version")
-            TAG="$NAME@$VERSION"
-
-            # Skip if tag already exists
-            if git tag --list | grep -q "^$TAG$"; then
-              echo "✓ Tag $TAG already exists — skipping"
-              continue
+            FILES=(countrystatecity-"$pkg"-[0-9]*.tgz)
+            [ "${#FILES[@]}" -eq 1 ] && [ -f "${FILES[0]}" ] || exit 1
+            FILE="${FILES[0]}"
+            VERSION="${FILE#countrystatecity-$pkg-}"
+            VERSION="${VERSION%.tgz}"
+            [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || exit 1
+            NAME="@countrystatecity/$pkg"
+            URL="https://registry.npmjs.org/$NAME/$VERSION"
+            HTTP=$(curl --silent --show-error --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL")
+            if [ "$HTTP" = '404' ]; then
+              npm publish "$FILE" --access public --provenance --ignore-scripts --registry https://registry.npmjs.org/
+              for attempt in {1..18}; do
+                HTTP=$(curl --silent --show-error --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL")
+                [ "$HTTP" = '200' ] && break
+                [ "$HTTP" = '404' ] || { echo "Registry verification failed: HTTP $HTTP"; exit 1; }
+                sleep 10
+              done
+              [ "$HTTP" = '200' ] || { echo "Publication not yet visible; inspect before retrying."; exit 1; }
+              EXPECTED="sha512-$(openssl dgst -sha512 -binary "$FILE" | openssl base64 -A)"
+              [ "$(jq -r .dist.integrity metadata.json)" = "$EXPECTED" ] || exit 1
+              jq -e '.dist.attestations.url | startswith("https://registry.npmjs.org/")' metadata.json
+            elif [ "$HTTP" != '200' ]; then
+              echo "Refusing to publish after registry HTTP $HTTP"
+              exit 1
             fi
-
-            # Extract changelog entry for this version
-            NOTES=$(awk "/^## $VERSION/{found=1; next} found && /^## /{exit} found{print}" packages/$pkg/CHANGELOG.md)
-
-            gh release create "$TAG" \
-              --title "$TAG" \
-              --notes "${NOTES:-Release $TAG}" \
-              --target main
-
-            echo "✓ GitHub release created: $TAG"
+            TAG="$NAME@$VERSION"
+            if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$EXPECTED_COMMIT" \
+                --title "$TAG" --notes "Release $TAG. Built from $EXPECTED_COMMIT."
+            fi
           done

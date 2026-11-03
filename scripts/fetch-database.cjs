@@ -38,10 +38,10 @@ async function main() {
     const files = [];
     const downloads = [];
     for (const { asset, role, destPath } of REQUIRED_ASSETS) {
-      const { url } = requireAsset(release, asset);
+      const { url, digest } = requireAsset(release, asset);
       const stagedPath = path.join(stagingDir, path.basename(destPath));
       console.log(`📥 Downloading ${asset} (${role})...`);
-      const result = await downloadGzipAsset({ url, destPath: stagedPath });
+      const result = await downloadGzipAsset({ url, digest, destPath: stagedPath });
       console.log(
         `✓ ${asset}: ${(result.compressedBytes / 1024 / 1024).toFixed(2)}MB → ` +
           `${(result.decompressedBytes / 1024 / 1024).toFixed(2)}MB, sha256 ${result.contentSha256.slice(0, 12)}...\n`,

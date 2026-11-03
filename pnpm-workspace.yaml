@@ -1,8 +1,19 @@
 packages:
   - 'packages/*'
-minimumReleaseAgeExclude:
-  - '@types/node@26.6.6'
+minimumReleaseAge: 4320
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  # Existing lock pin from 2024; 4.0.2/4.0.3 lack the provenance used in 4.0.1.
+  # Keep this exact historical version, its integrity pin, and registry-signature checks.
+  - 'chokidar@4.0.3'
+strictDepBuilds: true
+ignoreScripts: true
+pnpmfile: []
 allowBuilds:
   esbuild: true
 overrides:
   'esbuild@>=0.27.3 <0.28.1': '0.28.2'
+  # GHSA-g3hv-75wg-m249; validate ESLint/TypeScript-ESLint with the patched matcher.
+  'minimatch@10.2.6': '11.0.1'

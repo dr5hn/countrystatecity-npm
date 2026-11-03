@@ -31,7 +31,7 @@ test('downloads, decompresses, and integrity-checks a well-formed gzip asset', a
 
   const fetchImpl = async () => new Response(compressed, { status: 200 });
 
-  const result = await downloadGzipAsset({ url: 'https://x/asset.gz', destPath, fetchImpl });
+  const result = await downloadGzipAsset({ url: 'https://x/asset.gz', destPath, digest: `sha256:${sha256(compressed)}`, fetchImpl });
 
   assert.equal(fs.readFileSync(destPath, 'utf-8'), content.toString('utf-8'));
   assert.equal(result.contentSha256, crypto.createHash('sha256').update(content).digest('hex'));
@@ -58,10 +58,22 @@ test('rejects an empty response body without writing a file', async (t) => {
 
 test('rejects corrupt (non-gzip) bytes without writing a file — this is the "broken download" case', async (t) => {
   const destPath = tmpDest(t);
-  const fetchImpl = async () => new Response(Buffer.from('this is not gzip data'), { status: 200 });
+  const content = Buffer.from('this is not gzip data');
+  const fetchImpl = async () => new Response(content, { status: 200 });
 
-  await assert.rejects(downloadGzipAsset({ url: 'https://x/asset.gz', destPath, fetchImpl }), /decompress/);
+  await assert.rejects(downloadGzipAsset({ url: 'https://x/asset.gz', destPath, digest: `sha256:${sha256(content)}`, fetchImpl }), /decompress/);
   assert.equal(fs.existsSync(destPath), false);
+});
+
+test('tampered and unauthenticated gzip assets never overwrite a good file', async (t) => {
+  const destPath = tmpDest(t);
+  fs.writeFileSync(destPath, 'previous good data');
+  const compressed = zlib.gzipSync('malicious replacement');
+  const fetchImpl = async () => new Response(compressed);
+  for (const digest of [undefined, 'sha256:bad', `sha256:${'0'.repeat(64)}`]) {
+    await assert.rejects(downloadGzipAsset({ url: 'https://x/asset.gz', destPath, digest, fetchImpl }), /checksum mismatch or missing digest/);
+    assert.equal(fs.readFileSync(destPath, 'utf8'), 'previous good data');
+  }
 });
 
 test('rejects a stalled download once the timeout elapses, without writing a file', async (t) => {

@@ -19,12 +19,13 @@ function sha256(buffer) {
  * @param {object} options
  * @param {string} options.url
  * @param {string} options.destPath - final destination for the DECOMPRESSED content
+ * @param {string} options.digest - SHA-256 digest supplied by the pinned GitHub release
  * @param {typeof fetch} [options.fetchImpl]
  * @param {number} [options.timeoutMs]
  * @returns {Promise<{compressedSha256: string, contentSha256: string, compressedBytes: number, decompressedBytes: number}>}
  */
 async function downloadGzipAsset(options) {
-  const { url, destPath, fetchImpl = fetch, timeoutMs = DEFAULT_TIMEOUT_MS } = options;
+  const { url, destPath, digest, fetchImpl = fetch, timeoutMs = DEFAULT_TIMEOUT_MS } = options;
 
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
@@ -56,9 +57,15 @@ async function downloadGzipAsset(options) {
     throw new Error(`Downloaded empty file from ${url}`);
   }
 
+  // A locally computed checksum alone does not authenticate downloaded bytes.
+  // Verify the upstream digest BEFORE decompressing or replacing any file.
+  if (!/^sha256:[0-9a-f]{64}$/.test(digest ?? '') || `sha256:${sha256(compressed)}` !== digest) {
+    throw new Error(`Release asset checksum mismatch or missing digest: ${url}`);
+  }
+
   let decompressed;
   try {
-    decompressed = zlib.gunzipSync(compressed);
+    decompressed = zlib.gunzipSync(compressed, { maxOutputLength: 512 * 1024 * 1024 });
   } catch (err) {
     throw new Error(`Failed to decompress ${url}: ${err.message}`);
   }
