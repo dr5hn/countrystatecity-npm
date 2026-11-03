@@ -130,6 +130,7 @@ jobs:
           [ "$(cat source-sha.txt)" = "$EXPECTED_COMMIT" ] || exit 1
           [ "$GITHUB_SHA" = "$EXPECTED_COMMIT" ] || exit 1
           sha256sum --strict --check SHA256SUMS
+          PENDING=()
           for pkg in countries countries-browser timezones currencies translations phonecodes postalcodes geojson cli sdk; do
             FILES=(countrystatecity-"$pkg"-[0-9]*.tgz)
             [ "${#FILES[@]}" -eq 1 ] && [ -f "${FILES[0]}" ] || exit 1
@@ -139,23 +140,41 @@ jobs:
             [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || exit 1
             NAME="@countrystatecity/$pkg"
             URL="https://registry.npmjs.org/$NAME/$VERSION"
-            HTTP=$(curl --silent --show-error --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL")
+            HTTP=$(curl --silent --show-error --header 'Cache-Control: no-cache' --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL")
             if [ "$HTTP" = '404' ]; then
               npm publish "$FILE" --access public --provenance --ignore-scripts --registry https://registry.npmjs.org/
-              for attempt in {1..18}; do
-                HTTP=$(curl --silent --show-error --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL")
-                [ "$HTTP" = '200' ] && break
-                [ "$HTTP" = '404' ] || { echo "Registry verification failed: HTTP $HTTP"; exit 1; }
-                sleep 10
-              done
-              [ "$HTTP" = '200' ] || { echo "Publication not yet visible; inspect before retrying."; exit 1; }
-              EXPECTED="sha512-$(openssl dgst -sha512 -binary "$FILE" | openssl base64 -A)"
-              [ "$(jq -r .dist.integrity metadata.json)" = "$EXPECTED" ] || exit 1
-              jq -e '.dist.attestations.url | startswith("https://registry.npmjs.org/")' metadata.json
+              PENDING+=("$pkg|$VERSION|$FILE")
             elif [ "$HTTP" != '200' ]; then
               echo "Refusing to publish after registry HTTP $HTTP"
               exit 1
             fi
+          done
+
+          # npm accepts uploads before its processing makes them readable.
+          # Let accepted uploads process together, then verify all of them
+          # within one bounded window. Never retry npm publish in this loop.
+          DEADLINE=$((SECONDS + 900))
+          for ENTRY in "${PENDING[@]}"; do
+            IFS='|' read -r pkg VERSION FILE <<< "$ENTRY"
+            URL="https://registry.npmjs.org/@countrystatecity/$pkg/$VERSION"
+            while true; do
+              HTTP=$(curl --silent --show-error --header 'Cache-Control: no-cache' --connect-timeout 10 --max-time 30 --output metadata.json --write-out '%{http_code}' "$URL?verify=$GITHUB_RUN_ID-$SECONDS")
+              [ "$HTTP" = '200' ] && break
+              [ "$HTTP" = '404' ] || { echo "Registry verification failed: HTTP $HTTP"; exit 1; }
+              [ "$SECONDS" -lt "$DEADLINE" ] || { echo "Publication not yet visible; inspect before retrying."; exit 1; }
+              echo "Waiting for npm processing: @countrystatecity/$pkg@$VERSION"
+              sleep 10
+            done
+            EXPECTED="sha512-$(openssl dgst -sha512 -binary "$FILE" | openssl base64 -A)"
+            [ "$(jq -r .dist.integrity metadata.json)" = "$EXPECTED" ] || exit 1
+            jq -e '.dist.attestations.url | startswith("https://registry.npmjs.org/")' metadata.json
+          done
+
+          # Only tag uploads built by this run, after every new upload verifies.
+          # A previously accepted version may have different source provenance.
+          for ENTRY in "${PENDING[@]}"; do
+            IFS='|' read -r pkg VERSION FILE <<< "$ENTRY"
+            NAME="@countrystatecity/$pkg"
             TAG="$NAME@$VERSION"
             if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
               gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$EXPECTED_COMMIT" \
