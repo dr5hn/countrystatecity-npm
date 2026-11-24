@@ -1,4 +1,5 @@
 import { Command } from 'commander';
+import { registerGeoGetCommands } from './geo.js';
 import chalk from 'chalk';
 import { get } from '../lib/api.js';
 import { printJson, printDetail } from '../lib/display.js';
@@ -90,6 +91,7 @@ function formatCoord(value: string): string {
  */
 export function registerGetCommands(program: Command): void {
   const getCmd = program.command('get').description('Get detailed information');
+  registerGeoGetCommands(getCmd);
 
   getCmd
     .command('country [iso2]')

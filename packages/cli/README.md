@@ -100,6 +100,27 @@ csc search regions --filter "asia"
 csc search india
 ```
 
+### Counties and Postcodes
+
+```bash
+# County lists retain all state memberships, including multi-state counties
+csc search counties --country NZ --state WKO --json
+csc search counties --country US --query orange
+csc get county 14024 --country NZ --json
+csc search cities --country NZ --county 14024 --json
+
+# Exact lookup returns all matches and match_count, even for duplicate codes
+csc get postcode 11104 --country LK --json
+csc get postcode "SW1A 1AA" --country GB
+
+# One page per command; --json retains data and pagination
+csc search postcodes --country IN --query 11 --limit 20 --json
+csc search postcodes --country IN --cursor "<next_cursor>" --json
+csc search postcodes --country AT --city 3681 --fields id,code,city_id --json
+```
+
+Basic county and exact-postcode lookups are available on every plan. County query/field/sort options and postcode list/search require Starter+. County city searches use source-linked relationships; `--county` cannot combine with `--state` or `--fuzzy`. County lists return complete arrays. Postcode searches fetch one page, with the next cursor on stderr in table mode and inside `pagination` in JSON mode. Cursors expire after 24 hours and retain their original country and filters. Postcode coverage and locality links vary by country; these lookups do not verify delivery addresses. IDs remain strings, and unknown links remain null. Usage and diagnostics go to stderr.
+
 ### Nearby Search
 
 Find countries, states, or cities near a coordinate, nearest first. Requires a Professional or Business API plan.

@@ -14,6 +14,9 @@ import type {
   ISearchParams,
   INearbyResult,
   INearbyParams,
+  IListCountiesParams,
+  ICountyCitiesParams,
+  IListPostcodesParams,
 } from '@countrystatecity/sdk';
 import { getApiKey, getApiBase, getApiHost } from './config.js';
 import { CLI_USER_AGENT } from '../version.js';
@@ -252,4 +255,29 @@ export async function getPlans(): Promise<Plan[]> {
     console.error(chalk.dim(error instanceof Error ? error.message : String(error)));
     process.exit(1);
   }
+}
+
+/** List counties through the shared SDK transport. */
+export async function listCounties(params: IListCountiesParams) {
+  return withClient((client) => client.counties.list(params));
+}
+
+/** Get a county without losing its state memberships. */
+export async function getCounty(country: string, id: string) {
+  return withClient((client) => client.counties.get(country, id));
+}
+
+/** List source-linked county cities through the shared SDK transport. */
+export async function countyCities(country: string, id: string, params?: ICountyCitiesParams) {
+  return withClient((client) => client.counties.cities(country, id, params));
+}
+
+/** Preserve every exact-code match and its response metadata. */
+export async function getPostcode(country: string, code: string) {
+  return withClient((client) => client.postcodes.get(country, code));
+}
+
+/** Fetch exactly one postcode page, retaining its opaque cursor. */
+export async function listPostcodes(params: IListPostcodesParams) {
+  return withClient((client) => client.postcodes.list(params));
 }

@@ -7,6 +7,8 @@ import {
   CountriesResource,
   StatesResource,
   CitiesResource,
+  CountiesResource,
+  PostcodesResource,
   RegionsResource,
   CurrenciesResource,
   IsoResource,
@@ -71,6 +73,8 @@ export class CSCClient {
   readonly countries: CountriesResource;
   readonly states: StatesResource;
   readonly cities: CitiesResource;
+  readonly counties: CountiesResource;
+  readonly postcodes: PostcodesResource;
   readonly regions: RegionsResource;
   readonly currencies: CurrenciesResource;
   readonly iso: IsoResource;
@@ -87,6 +91,8 @@ export class CSCClient {
     this.countries = new CountriesResource(this.http);
     this.states = new StatesResource(this.http);
     this.cities = new CitiesResource(this.http);
+    this.counties = new CountiesResource(this.http);
+    this.postcodes = new PostcodesResource(this.http);
     this.regions = new RegionsResource(this.http);
     this.currencies = new CurrenciesResource(this.http);
     this.iso = new IsoResource(this.http);

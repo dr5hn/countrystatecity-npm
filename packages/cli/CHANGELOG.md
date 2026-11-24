@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.3.0 - 2026-11-24
+
+### Added
+
+- `search counties`, `get county`, and `search cities --county` through the shared SDK.
+- `get postcode` and `search postcodes`, retaining duplicate matches, metadata and pagination in JSON output.
+- Postcode page cursors on stderr in table mode; one request per page.
+
+### Fixed
+
+- Updated the Next.js generated-project test dependency to 16.4.5 so security audits pass before publication.
+
 ## 0.2.0 - 2026-08-29
 
 ### Added

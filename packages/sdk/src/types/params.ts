@@ -11,7 +11,7 @@ export interface IListParams {
 
 /**
  * `locale`/`includeTranslations` map to the real API's `?locale=`/
- * `?include_translations=` (Professional and Business plans). The SDK
+ * `?include_translations=` (Supporter+ plans). The SDK
  * validates and canonicalizes these values before making a request.
  * Shared by every locale-capable geographic and search method. Not available
  * on cities.get() because the API has no single-city endpoint.
@@ -22,7 +22,7 @@ export interface ILocalizationParams {
 }
 
 /**
- * `fields`/`sort` map to the real API's `?fields=`/`?sort=` (Supporter+ tier)
+ * `fields`/`sort` map to the real API's `?fields=`/`?sort=` (Starter+ tier)
  * — validated server-side (unknown field → 400, tier-inaccessible field →
  * silently dropped), so not re-validated here. Joined with `,` when the
  * request is built.
@@ -119,4 +119,40 @@ export interface IIsoLookupParams {
   iso2?: string;
   iso3?: string;
   numeric?: string;
+}
+
+/** County detail fields and opt-in localization. */
+export interface ICountyParams extends ILocalizationParams {
+  fields?: string[];
+}
+
+/** County lists return complete arrays, without offset or cursor pagination. */
+export interface IListCountiesParams extends ICountyParams {
+  country: string;
+  state?: string;
+  q?: string;
+  sort?: string[];
+}
+
+export interface ICountyCitiesParams extends ICountyParams {
+  q?: string;
+  kind?: CityKind;
+  type?: string;
+  sort?: string[];
+}
+
+export interface IPostcodeParams {
+  fields?: string[];
+}
+
+/** One postcode page. Cursors are opaque; no automatic pagination is performed. */
+export interface IListPostcodesParams extends IPostcodeParams {
+  country: string;
+  q?: string;
+  stateCode?: string;
+  /** Use a string to retain the full 64-bit identifier. */
+  cityId?: string;
+  type?: string;
+  limit?: number;
+  cursor?: string;
 }

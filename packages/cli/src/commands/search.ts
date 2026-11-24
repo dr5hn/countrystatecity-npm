@@ -1,7 +1,8 @@
 import { Command } from 'commander';
+import { registerGeoSearchCommands } from './geo.js';
 import chalk from 'chalk';
-import { get, searchFuzzy } from '../lib/api.js';
-import { printTable, printJson } from '../lib/display.js';
+import { get, searchFuzzy, countyCities } from '../lib/api.js';
+import { printTable, printJson, printGenericTable } from '../lib/display.js';
 import { printUsageFooter } from '../lib/usage-footer.js';
 import { createSpinner, type GlobalFlags } from '../lib/output.js';
 import type { ISearchResult, SearchResultType } from '@countrystatecity/sdk';
@@ -79,32 +80,13 @@ function printFuzzyResults(results: ISearchResult[], flags: GlobalFlags): void {
 }
 
 /**
- * Fallback renderer used when --fields narrows the response to a caller-chosen
- * subset — the fixed per-entity columns below no longer apply, since the
- * returned objects may be missing any of those hardcoded fields.
- */
-function printGenericTable(rows: Record<string, unknown>[]): void {
-  if (rows.length === 0) {
-    console.log(chalk.yellow('No results found.'));
-    return;
-  }
-  const columns = Array.from(new Set(rows.flatMap((r) => Object.keys(r))));
-  printTable(
-    columns,
-    rows.map((r) => columns.map((c) => {
-      const value = r[c];
-      if (value === null || value === undefined) return '';
-      return typeof value === 'object' ? JSON.stringify(value) : String(value);
-    }))
-  );
-}
-
-/**
  * Registers search subcommands: countries, states, cities, regions,
  * currencies, timezones, phonecodes, and global search.
  */
 export function registerSearchCommands(program: Command): void {
   const search = program.command('search').description('Search countries, states, cities, and more');
+
+  registerGeoSearchCommands(search);
 
   // ── countries ──────────────────────────────────────────────────────────────
   search
@@ -112,8 +94,8 @@ export function registerSearchCommands(program: Command): void {
     .description('List all countries')
     .option('--filter <text>', 'Filter by name')
     .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
-    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Supporter+ plan)')
-    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Supporter+ plan)')
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Starter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Starter+ plan)')
     .action(async (options: { filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
 
@@ -167,8 +149,8 @@ export function registerSearchCommands(program: Command): void {
     .option('-c, --country <iso2>', 'Country ISO2 code (omit to get all states globally)')
     .option('--filter <text>', 'Filter by name')
     .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
-    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Supporter+ plan)')
-    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Supporter+ plan)')
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,iso2 (Starter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. name:asc (Starter+ plan)')
     .action(async (options: { country?: string; filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
       const code = options.country?.toUpperCase();
@@ -216,17 +198,22 @@ export function registerSearchCommands(program: Command): void {
   // ── cities ─────────────────────────────────────────────────────────────────
   search
     .command('cities')
-    .description('List cities globally, for a country, or for a state')
+    .description('List cities for a country, state, or county')
     .option('-c, --country <iso2>', 'Country ISO2 code')
     .option('-s, --state <iso2>', 'State ISO2 code (ignored with --fuzzy — fuzzy search only scopes by country)')
+    .option('--county <id>', 'County ID (requires --country; cannot combine with --state or --fuzzy)')
     .option('--filter <text>', 'Filter by name')
     .option('--fuzzy', 'Use server-side fuzzy/typo-tolerant search on --filter (Professional+ plan)')
-    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,population (Supporter+ plan)')
-    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. population:desc (Supporter+ plan)')
-    .action(async (options: { country?: string; state?: string; filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
+    .option('--fields <fields>', 'Comma-separated fields to return, e.g. name,population (Starter+ plan)')
+    .option('--sort <sort>', 'Comma-separated field:asc|desc sort, e.g. population:desc (Starter+ plan)')
+    .action(async (options: { country?: string; state?: string; county?: string; filter?: string; fuzzy?: boolean; fields?: string; sort?: string }, cmd: Command) => {
       const flags = resolveFlags(cmd);
       const countryCode = options.country?.toUpperCase();
       const stateCode = options.state?.toUpperCase();
+
+      if (options.county && (!countryCode || stateCode || options.fuzzy)) {
+        cmd.error('--county requires --country and cannot combine with --state or --fuzzy. Run csc search cities --help.');
+      }
 
       if (options.fuzzy) {
         if (!options.filter) {
@@ -257,7 +244,9 @@ export function registerSearchCommands(program: Command): void {
       }
 
       const spinner = await createSpinner(spinnerText, flags);
-      const { data, usage } = await get<City[]>(endpoint, { fields: options.fields, sort: options.sort });
+      const { data, usage } = options.county
+        ? await countyCities(countryCode!, options.county, { fields: options.fields?.split(','), sort: options.sort?.split(',') })
+        : await get<City[]>(endpoint, { fields: options.fields, sort: options.sort });
       spinner.stop();
 
       let cities = data;

@@ -47,7 +47,7 @@ describe('assertNumericCode', () => {
 
 describe('assertStateCode', () => {
   it('normalizes to uppercase', () => expect(assertStateCode('mh')).toBe('MH'));
-  it('rejects an overlong code', () => expect(() => assertStateCode('123456789')).toThrow(ValidationError));
+  it('rejects an overlong code', () => expect(() => assertStateCode('12345678901')).toThrow(ValidationError));
 });
 
 describe('assertCurrencyCode', () => {

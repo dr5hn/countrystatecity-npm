@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@countrystatecity/sdk)](https://www.npmjs.com/package/@countrystatecity/sdk)
 [![CI](https://github.com/dr5hn/countrystatecity-npm/workflows/Pipeline/badge.svg)](https://github.com/dr5hn/countrystatecity-npm/actions/workflows/ci.yml)
 
-Official JS/TS client for the live [CountryStateCity REST API](https://countrystatecity.in) — countries, states, cities, regions, currencies, phone codes, timezones, fuzzy search, and account usage. Zero runtime dependencies, dual ESM/CJS builds, full TypeScript types.
+Official JS/TS client for the live [CountryStateCity REST API](https://countrystatecity.in) — countries, states, cities, counties, postcodes, regions, currencies, phone codes, timezones, fuzzy search, and account usage. Zero runtime dependencies, dual ESM/CJS builds, full TypeScript types.
 
 **Environment:** 🌐 **Node.js 18+ / Browser**
 
@@ -11,7 +11,7 @@ Need offline/bundled data instead of a live API call? See [`@countrystatecity/co
 
 ## ✨ Features
 
-- 📦 Typed resource groups: `countries`, `states`, `cities`, `regions`, `currencies`, `iso`, `phone`, `timezones`, `search`, `usage`
+- 📦 Typed resource groups: `countries`, `states`, `cities`, `counties`, `postcodes`, `regions`, `currencies`, `iso`, `phone`, `timezones`, `search`, `usage`
 - 🪶 No runtime dependencies — built on native `fetch`, `URL`/`URLSearchParams`, `AbortController`
 - 🛡️ Structured errors (`AuthenticationError`, `ValidationError`, `FeatureRestrictedError`, `RateLimitError`, `NotFoundError`, `NetworkError`, `TimeoutError`) instead of generic exceptions
 - 🔁 Automatic retries with jittered backoff for transient failures, respecting `Retry-After`
@@ -72,6 +72,8 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.countries` | `list({ limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(iso2, { locale?, includeTranslations? })` |
 | `csc.states` | `list({ country?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })`, `get(country, stateCode, { locale?, includeTranslations? })` |
 | `csc.cities` | `list({ country, state?, kind?, limit?, offset?, fields?, sort?, locale?, includeTranslations? })` — `country` is required, unlike `countries`/`states`; `get(country, stateCode, cityId)` always throws `ValidationError`, see note below |
+| `csc.counties` | `list({ country, state?, q?, fields?, sort?, locale?, includeTranslations? })`, `get(country, countyId, { fields?, locale?, includeTranslations? })`, `cities(country, countyId, { q?, kind?, type?, fields?, sort?, locale?, includeTranslations? })` |
+| `csc.postcodes` | `get(country, code, { fields? })`, `list({ country, q?, stateCode?, cityId?, type?, limit?, cursor?, fields? })` — exact matches and cursor pages keep their API envelopes |
 | `csc.regions` | `list()`, `get(id)`, `subregions(regionId)`, `getSubregion(id)`, `countries(subregionId)` — each accepts localization options |
 | `csc.currencies` | `list()`, `get(code)`, `byCountry(iso2)` |
 | `csc.iso` | `lookup({ iso2? \| iso3? \| numeric? })` |
@@ -85,11 +87,34 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 
 `csc.cities.list()` requires `country` (the real API has no bare `GET /cities` route) — a `ValidationError` is thrown client-side if it's missing, same as `state` without `country`. `csc.cities.get()` always throws a `ValidationError` — the real API has no single-city-by-ID endpoint at all; fetch the containing `list({ country, state })` and find the city in the results instead.
 
-`fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Supporter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
+`fields`/`sort` (e.g. `fields: ['name', 'iso2']`, `sort: ['name:desc']`) map to the API's `?fields=`/`?sort=` (Starter+ plan) — validated server-side, so an unknown field throws a `ValidationError`-mapped error from the response rather than client-side.
 
-`locale` adds `localized_name` and `matched_locale` while keeping the English `name` and stable `id`. The fallback order is exact locale, base language, native name, then English. `includeTranslations: true` adds the full translation JSON string only when needed. Geographic routes and fuzzy, autocomplete, and nearby search support both options for Professional and Business plans. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=localized_place_data&package=sdk).
+`locale` adds `localized_name` and `matched_locale` while keeping the English `name` and stable `id`. The fallback order is exact locale, base language, native name, then English. `includeTranslations: true` adds the full translation JSON string only when needed. Geographic routes and fuzzy, autocomplete, and nearby search support both options for Supporter and higher plans. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=localized_place_data&package=sdk).
 
 `csc.changes.list()` returns `{ results, next_page_token }`. Pass `next_page_token` back as `nextPageToken` to continue the same fixed snapshot; changes published after page one appear in a new request, not halfway through the current one. Tokens expire after 24 hours and changes are retained for 90 days. `old_values` and `new_values` contain only caller-visible fields; updates include only changed fields. When `startDate` is too old, `ValidationError.details` includes the API's `earliestAvailableDate`.
+
+## Counties and postcodes
+
+```ts
+const { data: counties } = await csc.counties.list({ country: 'NZ', state: 'WKO' });
+const { data: county } = await csc.counties.get('NZ', '14024');
+// county.states keeps every membership; its primary state_id/state_code may be null.
+const { data: cities } = await csc.counties.cities('NZ', '14024');
+
+const { data: matches } = await csc.postcodes.get('LK', '11104');
+console.log(matches.meta.match_count, matches.data); // all matching localities
+
+const { data: page } = await csc.postcodes.list({ country: 'IN', q: '11', limit: 20 });
+if (page.pagination.next_cursor) {
+  const { data: nextPage } = await csc.postcodes.list({
+    country: 'IN', cursor: page.pagination.next_cursor,
+  });
+}
+```
+
+County lists and linked-city lists are complete arrays, without pagination. Basic county and exact-postcode lookups are available on all plans; county `q`/field selection/sorting and postcode list/search require Starter+. Localization and additional fields depend on your plan. Postcode cursors expire after 24 hours and are bound to their country and filters; keep them opaque. The SDK fetches one page per call. Postcode `cityId` must be a string to preserve 64-bit IDs. Coverage and locality links vary by country; a postcode can match multiple localities and has no direct county link.
+
+Since 0.3.0, `ICity` includes optional `county_id` and `population_year`. State links and coordinates may be null; plan-gated fields may be absent. The API serializes geographic IDs and populations as strings. City IDs accept `string | number` in types for compatibility with older fixtures; compare IDs using `String(id)`. County/postcode IDs are typed as strings. County/city coordinates are strings, while postcode coordinates are numbers. `population_year` is a number or null; an unknown year stays null. Field selection can narrow any response further. County and postcode events are not included in the change feed.
 
 ## 🛡️ Error handling
 

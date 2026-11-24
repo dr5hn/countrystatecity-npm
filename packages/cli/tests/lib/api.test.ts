@@ -16,12 +16,12 @@ vi.mock('chalk', () => ({
   },
 }));
 
-import { get, validateKey, searchFuzzy, searchNearby, getPlans } from '../../src/lib/api.js';
+import { get, validateKey, searchFuzzy, searchNearby, getPlans, getCounty, listCounties, countyCities, getPostcode, listPostcodes } from '../../src/lib/api.js';
 import { getApiKey } from '../../src/lib/config.js';
 import packageJson from '../../package.json';
 
 function stubFetch(status: number, body: unknown, headers?: Record<string, string>) {
-  const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify(body), { status, headers }));
+  const fetchMock = vi.fn().mockImplementation(async () => new Response(JSON.stringify(body), { status, headers }));
   vi.stubGlobal('fetch', fetchMock);
   return fetchMock;
 }
@@ -40,6 +40,25 @@ describe('api client', () => {
   afterEach(() => {
     vi.restoreAllMocks();
     vi.unstubAllGlobals();
+  });
+
+  it('uses SDK county and postcode resources with the shared usage adapter', async () => {
+    const body = { data: [], pagination: { limit: 2, next_cursor: 'opaque.signature', has_more: true } };
+    const fetch = stubFetch(200, body, {
+      'x-csc-daily-used': '2', 'x-csc-daily-limit': '100',
+      'x-csc-monthly-used': '5', 'x-csc-monthly-limit': '1000',
+    });
+    await listCounties({ country: 'nz', state: 'wko' });
+    await getCounty('nz', '14024');
+    await countyCities('nz', '14024', { fields: ['county_id', 'population_year'] });
+    await getPostcode('gb', 'SW1A 1AA');
+    const page = await listPostcodes({ country: 'in', limit: 2, cursor: 'payload.signature' });
+    expect(fetch.mock.calls.map(([url]) => new URL(url).pathname)).toEqual([
+      '/v1/countries/NZ/states/WKO/counties', '/v1/countries/NZ/counties/14024',
+      '/v1/countries/NZ/counties/14024/cities', '/v1/countries/GB/postcodes/SW1A%201AA', '/v1/countries/IN/postcodes',
+    ]);
+    expect(page.data).toEqual(body);
+    expect(page.usage).toEqual({ dailyUsed: 2, dailyLimit: 100, monthlyUsed: 5, monthlyLimit: 1000 });
   });
 
   it('makes authenticated GET requests with correct headers', async () => {

@@ -9,7 +9,7 @@
 
 const ISO2_RE = /^[A-Za-z]{2}$/;
 const ISO3_RE = /^[A-Za-z]{3}$/;
-const STATE_CODE_RE = /^[A-Za-z0-9]{1,8}$/;
+const STATE_CODE_RE = /^[A-Za-z0-9-]{1,10}$/;
 const CURRENCY_CODE_RE = /^[A-Za-z]{3}$/;
 const DIAL_CODE_RE = /^\+?[1-9]\d{0,3}$/;
 const NUMERIC_CODE_RE = /^\d{1,3}$/;
