@@ -80,8 +80,8 @@ Every `list`/`get`/etc. method also accepts a trailing `{ signal?, timeout?, hea
 | `csc.phone` | `list()`, `get(iso2)`, `byDialCode(dialCode)` |
 | `csc.timezones` | `list()`, `byCountry(iso2)`, `convert({ time, from, to })` |
 | `csc.search` | `fuzzy({ query, type?, country?, limit?, threshold?, locale?, includeTranslations? })` — typo-tolerant and translated-name search; results include `match_score`/`matched_alias` and a client-injected `type` field |
-| `csc.search` | `autocomplete({ query, type?, country?, state?, limit?, locale?, includeTranslations? })` — type-ahead search with a ready display `label`; `matched_field` can be `name`, `native`, or `translation`; Professional or Business plan |
-| `csc.search` | `nearby({ lat, lng, type?, kind?, country?, state?, minPopulation?, radius?, limit?, locale?, includeTranslations? })` — localized nearby places, nearest first; radius 1–500 km; Professional or Business plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=nearby_search&package=sdk). |
+| `csc.search` | `autocomplete({ query, type?, country?, state?, limit?, locale?, includeTranslations? })` — type-ahead search with a ready display `label`; `matched_field` can be `name`, `native`, or `translation`; Supporter or higher plan |
+| `csc.search` | `nearby({ lat, lng, type?, kind?, country?, state?, minPopulation?, radius?, limit?, locale?, includeTranslations? })` — localized nearby places, nearest first; radius 1–500 km; Supporter or higher plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=nearby_search&package=sdk). |
 | `csc.usage` | `get()` — returns cached rate-limit usage from the last request when available, otherwise makes one lightweight request |
 | `csc.changes` | `list({ startDate?, placeType?, countryCode?, changeType?, limit?, nextPageToken? })` — cursor-paginated country, state, city, county, and postcode changes; Professional+ plan. [Compare plans](https://countrystatecity.in/pricing?source=sdk_docs&campaign=data_change_feed&package=sdk). |
 
