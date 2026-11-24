@@ -301,8 +301,8 @@ export function assertChangesParams(params: IChangesParams | undefined): void {
   if (typeof params !== 'object' || params === null || Array.isArray(params)) {
     fail('changes parameters must be an object', 'params', params, 'invalid_type');
   }
-  if (params.placeType !== undefined && !['country', 'state', 'city'].includes(params.placeType)) {
-    fail(`placeType must be country, state, or city, got ${JSON.stringify(params.placeType)}`, 'placeType', params.placeType, 'invalid_enum');
+  if (params.placeType !== undefined && !['country', 'state', 'city', 'county', 'postcode'].includes(params.placeType)) {
+    fail(`placeType must be country, state, city, county, or postcode, got ${JSON.stringify(params.placeType)}`, 'placeType', params.placeType, 'invalid_enum');
   }
   if (params.changeType !== undefined && ![
     'added', 'removed', 'renamed', 'place_group_changed',

@@ -6,7 +6,7 @@ import type { IRequestOptions } from '../types/config';
 import type { CSCResponse } from '../types/response';
 
 export class ChangesResource extends BaseResource {
-  /** Lists a stable, cursor-paginated snapshot of data changes (Business plan). */
+  /** Lists a stable, cursor-paginated snapshot of data changes (Professional+ plan). */
   async list(params?: IChangesParams, opts?: IRequestOptions): Promise<CSCResponse<IChangeFeedPage>> {
     assertChangesParams(params);
     const startDate = params?.startDate === undefined

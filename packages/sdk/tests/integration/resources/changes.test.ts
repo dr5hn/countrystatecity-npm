@@ -32,7 +32,21 @@ describe('changes — integration', () => {
     });
   });
 
-  it('maps the Business-plan gate to FeatureRestrictedError', async () => {
+  it.each(['county', 'postcode'] as const)('retains %s events and cursor pages', async (placeType) => {
+    const page = { results: [{ ...SAMPLE_CHANGE_FEED_PAGE.results[0], place_type: placeType,
+      place_id: '9007199254740993', old_values: null,
+      new_values: placeType === 'county' ? { states: [{ id: '1', name: 'A', code: 'A' }] } : { code: '11104', city_id: null } }],
+    next_page_token: 'opaque_next_page' };
+    const { fetchMock } = installMockCscApi({ '/v1/changes': { body: page } });
+    const csc = createCSCClient({ apiKey: 'k', baseUrl: 'https://mock.test/v1' });
+    const response = await csc.changes.list({ placeType });
+    expect(response.data).toEqual(page);
+    expect(new URL(fetchMock.mock.calls[0][0] as string).searchParams.get('place_type')).toBe(placeType);
+    await csc.changes.list({ nextPageToken: response.data.next_page_token! });
+    expect(new URL(fetchMock.mock.calls[1][0] as string).searchParams.get('next_page_token')).toBe('opaque_next_page');
+  });
+
+  it('maps the Professional-plan gate to FeatureRestrictedError', async () => {
     installMockCscApi({
       '/v1/changes': {
         status: 403,
@@ -41,8 +55,8 @@ describe('changes — integration', () => {
           message: 'This feature is not available on your current plan.',
           details: {
             feature: 'dataChangeFeed',
-            currentTier: 'professional',
-            requiredTier: 'business',
+            currentTier: 'supporter',
+            requiredTier: 'professional',
             upgradeUrl: 'https://countrystatecity.in/pricing',
           },
         },
@@ -52,8 +66,8 @@ describe('changes — integration', () => {
 
     await expect(csc.changes.list()).rejects.toMatchObject<Partial<FeatureRestrictedError>>({
       feature: 'dataChangeFeed',
-      currentPlan: 'professional',
-      requiredPlan: 'business',
+      currentPlan: 'supporter',
+      requiredPlan: 'professional',
     });
   });
 

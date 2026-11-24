@@ -304,7 +304,7 @@ export interface IUsageSnapshot {
   plan?: string;
 }
 
-export type ChangePlaceType = 'country' | 'state' | 'city';
+export type ChangePlaceType = 'country' | 'state' | 'city' | 'county' | 'postcode';
 
 export type ChangeType =
   | 'added'
@@ -346,7 +346,15 @@ export interface ICityChangeEvent extends IChangeEventBase {
   place_type: 'city';
 }
 
-export type IChangeEvent = ICountryChangeEvent | IStateChangeEvent | ICityChangeEvent;
+export interface ICountyChangeEvent extends IChangeEventBase {
+  place_type: 'county';
+}
+
+export interface IPostcodeChangeEvent extends IChangeEventBase {
+  place_type: 'postcode';
+}
+
+export type IChangeEvent = ICountryChangeEvent | IStateChangeEvent | ICityChangeEvent | ICountyChangeEvent | IPostcodeChangeEvent;
 
 export interface IChangeFeedPage {
   results: IChangeEvent[];

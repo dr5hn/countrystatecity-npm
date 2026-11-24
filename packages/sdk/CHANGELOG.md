@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.4.0 - 2026-11-24
+
+### Added
+
+- County and postcode change-feed filters and typed event discriminators. Unfiltered feeds can contain all five place types; consumers with exhaustive switches should handle both new variants.
+
 ## 0.3.0 - 2026-11-24
 
 ### Added
