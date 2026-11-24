@@ -93,6 +93,7 @@ function handleApiError(error: unknown): never {
 
   if (error instanceof NotFoundError) {
     console.error(chalk.red('Not found.'));
+    console.error(chalk.dim('Check the country, identifier and available coverage; run your command with --help.'));
     process.exit(1);
   }
 
@@ -104,6 +105,7 @@ function handleApiError(error: unknown): never {
     // all share this generic branch; only the four status codes above get
     // bespoke wording.
     console.error(chalk.red(`API error: ${error.message}`));
+    console.error(chalk.dim('Check your inputs with your command’s --help option and retry.'));
     process.exit(1);
   }
 
