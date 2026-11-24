@@ -72,6 +72,8 @@ export type {
   ICountryChangeEvent,
   IStateChangeEvent,
   ICityChangeEvent,
+  ICountyChangeEvent,
+  IPostcodeChangeEvent,
   IChangeEvent,
   IChangeFeedPage,
 } from './types/entities';

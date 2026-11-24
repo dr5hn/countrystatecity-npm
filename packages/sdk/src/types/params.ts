@@ -105,7 +105,7 @@ export interface INearbyParams extends ILocalizationParams {
   limit?: number;
 }
 
-/** Parameters for the cursor-paginated Business-tier data change feed. */
+/** Parameters for the cursor-paginated Professional+ data change feed. */
 export interface IChangesParams {
   startDate?: string;
   placeType?: ChangePlaceType;
