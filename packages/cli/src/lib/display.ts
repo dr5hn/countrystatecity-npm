@@ -42,3 +42,24 @@ export function printJson(data: unknown): void {
 export function printDetail(label: string, value: string): void {
   console.log(`${chalk.bold(label.padEnd(14))}${value}`);
 }
+
+/**
+ * Fallback renderer used when --fields narrows the response to a caller-chosen
+ * subset — the fixed per-entity columns below no longer apply, since the
+ * returned objects may be missing any of those hardcoded fields.
+ */
+export function printGenericTable(rows: Record<string, unknown>[]): void {
+  if (rows.length === 0) {
+    console.log(chalk.yellow('No results found.'));
+    return;
+  }
+  const columns = Array.from(new Set(rows.flatMap((r) => Object.keys(r))));
+  printTable(
+    columns,
+    rows.map((r) => columns.map((c) => {
+      const value = r[c];
+      if (value === null || value === undefined) return '';
+      return typeof value === 'object' ? JSON.stringify(value) : String(value);
+    }))
+  );
+}

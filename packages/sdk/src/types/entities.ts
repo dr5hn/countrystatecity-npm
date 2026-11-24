@@ -1,8 +1,8 @@
 /**
  * REST API entity types for @countrystatecity/sdk.
  *
- * Field shapes mirror @countrystatecity/countries' local dataset (same upstream
- * database), since the live API is expected to serve the same underlying fields.
+ * Field shapes follow the REST API. Plan-gated fields and nullable links may
+ * differ from the offline dataset.
  */
 
 /** JSON string keyed by language code, exactly as returned by the API. */
@@ -63,20 +63,89 @@ export interface IState {
   matched_locale?: string;
 }
 
+/** IDs and populations are serialized as strings by the API; older clients may supply numbers. */
+export type GeoId = string | number;
+
+/** Basic city fields; additional fields depend on plan and field selection. */
 export interface ICity {
-  id: number;
+  id: GeoId;
   name: string;
-  state_id: number;
-  state_code: string;
-  country_id: number;
-  country_code: string;
-  latitude: string;
-  longitude: string;
-  native: string | null;
-  timezone: string | null;
-  translations?: ITranslations;
+  kind?: CityKind;
+  state_id?: GeoId | null;
+  state_code?: string | null;
+  country_id?: GeoId;
+  country_code?: string;
+  county_id?: GeoId | null;
+  latitude?: string | null;
+  longitude?: string | null;
+  native?: string | null;
+  timezone?: string | null;
+  type?: string | null;
+  level?: number | null;
+  parent_id?: GeoId | null;
+  population?: string | null;
+  population_year?: number | null;
+  wikiDataId?: string | null;
+  translations?: ITranslations | null;
   localized_name?: string;
   matched_locale?: string;
+}
+
+/** One source-backed county membership; multi-state counties retain every entry. */
+export interface ICountyState {
+  id: string;
+  name: string;
+  code: string | null;
+}
+
+export interface ICounty {
+  id: string;
+  name: string;
+  country_id: string;
+  country_code: string;
+  state_id: string | null;
+  state_code: string | null;
+  states: ICountyState[];
+  type?: string | null;
+  type_local?: string | null;
+  level?: number | null;
+  parent_id?: string | null;
+  latitude?: string | null;
+  longitude?: string | null;
+  native?: string | null;
+  population?: string | null;
+  timezone?: string | null;
+  translations?: ITranslations | null;
+  wikiDataId?: string | null;
+  localized_name?: string;
+  matched_locale?: string;
+}
+
+/** Postcode IDs are strings and coordinates, when available, are numbers. */
+export interface IPostcode {
+  id: string;
+  code: string;
+  country_code: string;
+  state_code: string | null;
+  locality_name: string | null;
+  type: string;
+  country_id?: string;
+  state_id?: string | null;
+  city_id?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+  source?: string | null;
+  wikiDataId?: string | null;
+}
+
+export interface IPostcodeMatches {
+  data: IPostcode[];
+  meta: { country_code: string; query: string; match_count: number };
+}
+
+export interface IPostcodePage {
+  data: IPostcode[];
+  pagination: { limit: number; next_cursor: string | null; has_more: boolean };
 }
 
 export interface IRegion {

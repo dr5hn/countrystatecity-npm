@@ -10,3 +10,5 @@ export { TimezonesResource } from './timezones';
 export { SearchResource } from './search';
 export { UsageResource } from './usage';
 export { ChangesResource } from './changes';
+export { CountiesResource } from './counties';
+export { PostcodesResource } from './postcodes';

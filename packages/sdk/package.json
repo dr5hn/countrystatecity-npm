@@ -1,7 +1,7 @@
 {
   "name": "@countrystatecity/sdk",
-  "version": "0.2.0",
-  "description": "Official JS/TS client SDK for the CountryStateCity REST API — countries, states, cities, regions, currencies, phone codes, timezones, search, and usage",
+  "version": "0.3.0",
+  "description": "Official JS/TS client SDK for the CountryStateCity REST API \u2014 countries, states, cities, counties, postcodes, regions, currencies, phone codes, timezones, search, and usage",
   "keywords": [
     "country-state-city",
     "sdk",
@@ -12,7 +12,9 @@
     "geography",
     "iso",
     "typescript",
-    "rest-api"
+    "rest-api",
+    "county",
+    "postcode"
   ],
   "author": "dr5hn",
   "license": "MIT",

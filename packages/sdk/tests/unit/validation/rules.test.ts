@@ -26,8 +26,8 @@ describe('isValidIso3', () => {
 });
 
 describe('isValidStateCode', () => {
-  it.each(['MH', 'CA', 'B', '12345678'])('accepts %s', (v) => expect(isValidStateCode(v)).toBe(true));
-  it.each(['', '123456789', 'MH-1'])('rejects %s', (v) => expect(isValidStateCode(v)).toBe(false));
+  it.each(['MH', 'CA', 'B', '12345678', '1234567890', 'AN-AMA'])('accepts %s', (v) => expect(isValidStateCode(v)).toBe(true));
+  it.each(['', '12345678901', 'MH/1'])('rejects %s', (v) => expect(isValidStateCode(v)).toBe(false));
 });
 
 describe('isValidCurrencyCode', () => {
